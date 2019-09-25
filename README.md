@@ -8,11 +8,11 @@ This repository contains .po files for [FDM 6.x](http://www.freedownloadmanager.
 
 There are two ways to download the .po file for your language from GitHub.
 
-1. Choose the file → click it → right click the Raw button ![raw](https://raw.githubusercontent.com/FreeDownloadManagerTeam/FDM-localization/master/readme1.png) → right click to save as…
+1. Choose the file → click it → right click the Raw button ![raw](https://raw.githubusercontent.com/FreeDownloadManagerTeam/FDM6-localization/master/readme1.png) → right click to save as…
 
 The wanted file should be launched in the Poedit program. If it failed, try way 2.
 
-2. Press the ‘Clone or download’ button → Download ZIP ![zip](https://raw.githubusercontent.com/FreeDownloadManagerTeam/FDM-localization/master/readme2.png)
+2. Press the ‘Clone or download’ button → Download ZIP ![zip](https://raw.githubusercontent.com/FreeDownloadManagerTeam/FDM6-localization/master/readme2.png)
 
 
 Some tips
