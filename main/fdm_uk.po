@@ -8,21 +8,6 @@ msgstr ""
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
 
-msgid "Download with FDM"
-msgstr "Завантажити з FDM"
-
-msgid "Download selected with FDM"
-msgstr "Завантажити вибране з FDM"
-
-msgid "Download video with FDM"
-msgstr "Завантажити відео з FDM"
-
-msgid "Error: 0x%x. Failed to transfer downloads to FDM."
-msgstr "Помилка: 0x%x. Не вдалося передати завантаження до FDM."
-
-msgid "No flash video found. Try reloading this page."
-msgstr "Флеш-відео не знайдено. Спробуйте перезавантажити цю сторінку."
-
 msgctxt "AboutDialog|"
 msgid "About"
 msgstr ""
@@ -43,6 +28,14 @@ msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "Версія %1 (%2)"
 
+msgctxt "AddDateToFileName|"
+msgid "Add dates to files names"
+msgstr ""
+
+msgctxt "AddTag|"
+msgid "Add tag"
+msgstr ""
+
 msgctxt "AdvancedSettings|"
 msgid "Advanced"
 msgstr "Додатково"
@@ -56,7 +49,7 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr "Повідомляти про завершені завантаження через Notification Center"
 
 msgctxt "AdvancedSettings|"
-msgid "Notify me of downloads only when FDM window is inactive"
+msgid "Notify me of downloads only when %1 window is inactive"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
@@ -151,21 +144,31 @@ msgctxt "AuthenticationPage|"
 msgid "Remember"
 msgstr ""
 
+msgctxt "BatchVideoQuality|"
+msgid "Preffered Video Quality:"
+msgstr ""
+
 msgctxt "BottomPanelTools|"
 msgid "General"
 msgstr "Загальні"
 
 msgctxt "BottomPanelTools|"
-msgid "Files"
-msgstr "Файли"
-
-msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Хід"
+
+msgctxt "BottomPanelTools|"
+msgid "Files"
+msgstr "Файли"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "Інтегрувати до браузера"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid ""
+"Make sure you have %1 extension installed, otherwise, click one of the "
+"buttons below"
+msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Download Firefox extension"
@@ -216,8 +219,8 @@ msgid "Mbytes"
 msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Use browser if you cancel download via FDM"
-msgstr "Використовувати браузер якщо ви перервете завантаження FDM"
+msgid "Use browser if you cancel download via %1"
+msgstr "Використовувати браузер якщо ви перервете завантаження %1"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -255,6 +258,22 @@ msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
 msgstr ""
 
+msgctxt "BuildDownloadTools|"
+msgid "Querying info. Please wait..."
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "Please select download link"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "ButtonsBlock|"
+msgid "Download"
+msgstr "Завантажити"
+
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
 msgstr "Змінити URL-адресу завантаження"
@@ -266,6 +285,10 @@ msgstr "Введіть нову URL-адресу"
 msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
 msgstr "Неправильна URL-адреса"
+
+msgctxt "ChangeUrlDialog|"
+msgid "Start download"
+msgstr "Запуск завантаження"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Cancel"
@@ -288,8 +311,16 @@ msgid "Enter new URL"
 msgstr "Введіть нову URL-адресу"
 
 msgctxt "ChangeUrlPage|"
+msgid "Start download"
+msgstr "Запуск завантаження"
+
+msgctxt "ChangeUrlPage|"
 msgid "Invalid URL"
 msgstr "Неправильна URL-адреса"
+
+msgctxt "CopyLinkMenu|"
+msgid "Copy link"
+msgstr "Копіювати посилання"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -368,6 +399,10 @@ msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
 msgstr "Скасувати"
 
+msgctxt "DiskSpace|"
+msgid "Size: %1 (Disk space: %2)"
+msgstr ""
+
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "Відсутній файл"
@@ -376,34 +411,33 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr ""
 
-msgctxt "DownloadsPage|"
-msgid "Cancel"
-msgstr "Скасувати"
+msgctxt "DownloadsList|"
+msgid "Download links"
+msgstr "Посилання на завантаження"
 
-msgctxt "DownloadsPage|"
-msgid "Computer will be put to sleep after all downloads are completed."
-msgstr ""
-"Після завершення всіх завантажень комп'ютер буде переведено в режим сну."
+msgctxt "DownloadsList|"
+msgid "Select all"
+msgstr "Вибрати все"
 
-msgctxt "DownloadsPage|"
-msgid "Computer will be hibernate after all downloads are completed."
-msgstr ""
-
-msgctxt "DownloadsPage|"
-msgid "Computer will be shutdown after all downloads are completed."
-msgstr ""
+msgctxt "DownloadsList|"
+msgid "Select none"
+msgstr "Скинути вибір"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
 msgstr ""
 
 msgctxt "DownloadsPage|"
-msgid " Add new download URL."
+msgid "Add new download URL."
 msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "Не знайдено результатів для"
+
+msgctxt "DownloadsPage|"
+msgid "No results tagged \"%1\" found"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
@@ -419,6 +453,10 @@ msgstr "Показати все"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
+msgstr ""
+
+msgctxt "DownloadsTagMenu|"
+msgid "Untag"
 msgstr ""
 
 msgctxt "DownloadsViewHeader|"
@@ -496,6 +534,10 @@ msgstr "Послідовне завантаження"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "Копіювати посилання"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Add Tag"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "File integrity"
@@ -661,6 +703,14 @@ msgctxt "FileIntegrityPage|"
 msgid "Verification failed"
 msgstr "Збій перевірки"
 
+msgctxt "FileName|"
+msgid "Create subfolder"
+msgstr "Створити підтеку"
+
+msgctxt "FileName|"
+msgid "File name"
+msgstr "Ім'я файлу"
+
 msgctxt "FilePickerPage|"
 msgid "Select folder"
 msgstr "Вибрати теку"
@@ -678,6 +728,18 @@ msgid "Empty folder"
 msgstr ""
 
 msgctxt "FilePickerSortDialog|"
+msgid "By date"
+msgstr ""
+
+msgctxt "FilePickerSortDialog|"
+msgid "By name"
+msgstr ""
+
+msgctxt "FilePickerSortDialog|"
+msgid "By size"
+msgstr ""
+
+msgctxt "FilePickerSortDialog|"
 msgid "Sort"
 msgstr ""
 
@@ -687,6 +749,10 @@ msgstr ""
 
 msgctxt "FilePickerSortDialog|"
 msgid "Descending"
+msgstr ""
+
+msgctxt "FileType|"
+msgid "Preffered File Type:"
 msgstr ""
 
 msgctxt "FilesTree|"
@@ -716,6 +782,18 @@ msgstr "Високий"
 msgctxt "FilesTree|"
 msgid "Low"
 msgstr "Низький"
+
+msgctxt "FilesTree|"
+msgid "Files"
+msgstr "Файли"
+
+msgctxt "FilesTree|"
+msgid "Select all"
+msgstr "Вибрати все"
+
+msgctxt "FilesTree|"
+msgid "Select none"
+msgstr "Скинути вибір"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High Priority"
@@ -813,6 +891,10 @@ msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr ""
 
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Запуск під час запуску системи (згорнутим)"
+
 msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "Загальний розмір:"
@@ -861,6 +943,14 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr ""
 
+msgctxt "IntegrationBanner|"
+msgid "Set as Default"
+msgstr "Встановити за замовчуванням"
+
+msgctxt "IntegrationBanner|"
+msgid "Don't ask again"
+msgstr ""
+
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
 msgstr ""
@@ -905,9 +995,49 @@ msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "Завершено"
 
+msgctxt "MainMenu|"
+msgid "Paste Urls from Clipboard"
+msgstr "Вставити URL-адреси з буфера обміну"
+
+msgctxt "MainMenu|"
+msgid "Preferences..."
+msgstr "Вподобання..."
+
+msgctxt "MainMenu|"
+msgid "Contact Support"
+msgstr "Технічна підтримка"
+
+msgctxt "MainMenu|"
+msgid "Auto Shutdown"
+msgstr "Автовимкнення"
+
+msgctxt "MainMenu|"
+msgid "Sleep"
+msgstr "Сон"
+
+msgctxt "MainMenu|"
+msgid "Hibernate"
+msgstr "Глибокий сон"
+
+msgctxt "MainMenu|"
+msgid "Shutdown"
+msgstr "Вимкнення"
+
+msgctxt "MainMenu|"
+msgid "Check for Updates..."
+msgstr "Перевірити оновлення..."
+
+msgctxt "MainMenu|"
+msgid "About"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Quit"
+msgstr "Вихід"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
-msgstr ""
+msgstr "Режим равлика звільняє канал Інтернету не зупиняючи завантаження."
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
@@ -961,45 +1091,14 @@ msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "Головне меню"
 
-msgctxt "MainToolbar|"
-msgid "Paste Urls from Clipboard"
-msgstr "Вставити URL-адреси з буфера обміну"
 
-msgctxt "MainToolbar|"
-msgid "Preferences..."
-msgstr "Вподобання..."
 
-msgctxt "MainToolbar|"
-msgid "Contact Support"
-msgstr "Технічна підтримка"
 
-msgctxt "MainToolbar|"
-msgid "Auto Shutdown"
-msgstr "Автовимкнення"
 
-msgctxt "MainToolbar|"
-msgid "Sleep"
-msgstr "Сон"
 
-msgctxt "MainToolbar|"
-msgid "Hibernate"
-msgstr "Глибокий сон"
 
-msgctxt "MainToolbar|"
-msgid "Shutdown"
-msgstr "Вимкнення"
 
-msgctxt "MainToolbar|"
-msgid "Check for Updates..."
-msgstr "Перевірити оновлення..."
 
-msgctxt "MainToolbar|"
-msgid "About"
-msgstr ""
-
-msgctxt "MainToolbar|"
-msgid "Quit"
-msgstr "Вихід"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -1090,10 +1189,6 @@ msgid "Check for Updates..."
 msgstr "Перевірити оновлення..."
 
 msgctxt "NativeMenuBar|"
-msgid "About"
-msgstr ""
-
-msgctxt "NativeMenuBar|"
 msgid "Preferences..."
 msgstr "Вподобання..."
 
@@ -1135,15 +1230,15 @@ msgstr "Зупинити вибране"
 
 msgctxt "NativeMenuBar|"
 msgid "Restart selected"
-msgstr ""
+msgstr "Перезапуск вибраного"
 
 msgctxt "NativeMenuBar|"
 msgid "Remove from List"
-msgstr ""
+msgstr "Видалити зі списку"
 
 msgctxt "NativeMenuBar|"
 msgid "Help"
-msgstr ""
+msgstr "Допомога"
 
 msgctxt "NativeMenuBar|"
 msgid "Contact Support"
@@ -1253,6 +1348,30 @@ msgctxt "Page|"
 msgid "Files"
 msgstr "Файли"
 
+msgctxt "PreferredFileTypeCombobox|"
+msgid "Audio"
+msgstr ""
+
+msgctxt "PreferredFileTypeCombobox|"
+msgid "Video"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "Low (240p)"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "Medium (480p)"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "High (1080p)"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "4K (2160p)"
+msgstr ""
+
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "Неочікувана помилка"
@@ -1310,6 +1429,14 @@ msgstr "Про %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "Вихід"
+
+msgctxt "QObject|"
+msgid "%1 K"
+msgstr "%1 К"
+
+msgctxt "QObject|"
+msgid "%1 M"
+msgstr "%1 М"
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -1699,6 +1826,42 @@ msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr ""
 
+msgctxt "QObject|"
+msgid "Download with %1"
+msgstr "Завантажити з %1"
+
+msgctxt "QObject|"
+msgid "Download all with %1"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Download selected with %1"
+msgstr "Завантажити вибране з %1"
+
+msgctxt "QObject|"
+msgid "Download video with %1"
+msgstr "Завантажити відео з %1"
+
+msgctxt "QObject|"
+msgid "Video"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Music"
+msgstr ""
+
+msgctxt "SaveTo|"
+msgid "Save to"
+msgstr "Зберегти до"
+
+msgctxt "SaveTo|"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "SaveTo|"
+msgid "Cancel"
+msgstr "Скасувати"
+
 msgctxt "Scheduler|"
 msgid "Sun"
 msgstr "Нд"
@@ -1732,8 +1895,16 @@ msgid "From:"
 msgstr "З:"
 
 msgctxt "Scheduler|"
+msgid "Everyday"
+msgstr ""
+
+msgctxt "Scheduler|"
 msgid "To:"
 msgstr "По:"
+
+msgctxt "SchedulerCheckbox|"
+msgid "Scheduler"
+msgstr "Планувальник"
 
 msgctxt "SchedulerDialog|"
 msgid "Scheduler"
@@ -1820,6 +1991,10 @@ msgid "Advanced"
 msgstr "Додатково"
 
 msgctxt "SettingsPage|"
+msgid "Settings"
+msgstr "Установки"
+
+msgctxt "SettingsPage|"
 msgid "Network settings"
 msgstr ""
 
@@ -1871,6 +2046,23 @@ msgctxt "Sheduler|"
 msgid "Sat"
 msgstr "Сб"
 
+msgctxt "ShutdownBanner|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "ShutdownBanner|"
+msgid "Computer will be put to sleep after all downloads are completed."
+msgstr ""
+"Після завершення всіх завантажень комп'ютер буде переведено в режим сну."
+
+msgctxt "ShutdownBanner|"
+msgid "Computer will be hibernate after all downloads are completed."
+msgstr ""
+
+msgctxt "ShutdownBanner|"
+msgid "Computer will be shutdown after all downloads are completed."
+msgstr ""
+
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
 msgstr "Підтвердіть"
@@ -1907,6 +2099,42 @@ msgctxt "SortTools|"
 msgid "By size"
 msgstr ""
 
+msgctxt "SslDialog|"
+msgid "Warning: potential security risk ahead"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "SSL Certificate is not valid."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Certificate fingerprints"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "SHA-256:"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "SHA1:"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Accept the risk and download"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "SslDialog|"
+msgid "Security risk"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Continue"
+msgstr ""
+
 msgctxt "StatusItem|"
 msgid "Checking resume data..."
 msgstr ""
@@ -1938,6 +2166,22 @@ msgstr "Зупинено"
 msgctxt "StatusItem|"
 msgid "Completed"
 msgstr "Завершено"
+
+msgctxt "TagColorDialog|"
+msgid "Remove tag"
+msgstr ""
+
+msgctxt "TagMenu|"
+msgid "Edit"
+msgstr ""
+
+msgctxt "TagMenu|"
+msgid "Remove"
+msgstr ""
+
+msgctxt "TagPalette|"
+msgid "Customize color"
+msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -2040,68 +2284,39 @@ msgid "Change traffic limits"
 msgstr ""
 
 
+
+
+
+
+
+
+
+
+
+
+
 msgctxt "TuneAndAddDownloadDialog|"
+msgid "New download"
+msgstr ""
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "New file"
 msgstr "Новий файл"
 
-msgctxt "TuneAndAddDownloadDialog|"
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Download"
+msgstr "Завантажити"
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "Save to"
 msgstr "Зберегти до"
 
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Create subfolder"
-msgstr "Створити підтеку"
-
-msgctxt "TuneAndAddDownloadDialog|"
+msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "Ім'я файлу"
 
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Quality:"
-msgstr "Якість:"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Files"
-msgstr "Файли"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Select all"
-msgstr "Вибрати все"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Select none"
-msgstr "Скинути вибір"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Download links"
-msgstr "Посилання на завантаження"
-
-msgctxt "TuneAndAddDownloadDialog|"
+msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr ""
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Scheduler"
-msgstr "Планувальник"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Cancel"
-msgstr "Скасувати"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Download"
-msgstr "Завантажити"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Новий файл"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "Download"
-msgstr "Завантажити"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "Size: %1"
 msgstr ""
 
 msgctxt "UpdateDialog|"
@@ -2129,7 +2344,7 @@ msgid "Update"
 msgstr "Оновити"
 
 msgctxt "UpdateDialog|"
-msgid "FDM is up to date"
+msgid "%1 is up to date"
 msgstr ""
 
 msgctxt "UpdateDialog|"
@@ -2165,8 +2380,8 @@ msgid "Error occurred during installation:"
 msgstr "Під час встановлення сталася помилка:"
 
 msgctxt "UpdateDialog|"
-msgid "Relaunch FDM to update"
-msgstr "Для оновлення перезапустіть FDM"
+msgid "Relaunch %1 to update"
+msgstr "Для оновлення перезапустіть %1"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch (%1)"
@@ -2180,6 +2395,10 @@ msgctxt "UpdateDialog|"
 msgid "Check for updates"
 msgstr "Перевірити оновлення"
 
+msgctxt "VideoQuality|"
+msgid "Quality:"
+msgstr "Якість:"
+
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr ""
@@ -2187,3 +2406,7 @@ msgstr ""
 msgctxt "main|"
 msgid "Move"
 msgstr "Переміщення"
+
+msgctxt "main|"
+msgid "Cancel"
+msgstr "Скасувати"

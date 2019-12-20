@@ -8,21 +8,6 @@ msgstr ""
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
 
-msgid "Download with FDM"
-msgstr "FDM ile indir"
-
-msgid "Download selected with FDM"
-msgstr "FDM ile seçiliyi indir"
-
-msgid "Download video with FDM"
-msgstr "FDM ile videoyu indir"
-
-msgid "Error: 0x%x. Failed to transfer downloads to FDM."
-msgstr "Hata: 0x%x. FDM'ye indirmeleri aktarma başarısız oldu."
-
-msgid "No flash video found. Try reloading this page."
-msgstr "Flash video bulunamadı. Bu sayfayı yinelemeyi deneyin."
-
 msgctxt "AboutDialog|"
 msgid "About"
 msgstr ""
@@ -43,6 +28,14 @@ msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "Sürüm %1 (%2)"
 
+msgctxt "AddDateToFileName|"
+msgid "Add dates to files names"
+msgstr ""
+
+msgctxt "AddTag|"
+msgid "Add tag"
+msgstr ""
+
 msgctxt "AdvancedSettings|"
 msgid "Advanced"
 msgstr "Gelişmiş"
@@ -56,7 +49,7 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr "Bildirim Merkezi tarafından tamamlanan indirmeleri bildir bana"
 
 msgctxt "AdvancedSettings|"
-msgid "Notify me of downloads only when FDM window is inactive"
+msgid "Notify me of downloads only when %1 window is inactive"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
@@ -151,21 +144,31 @@ msgctxt "AuthenticationPage|"
 msgid "Remember"
 msgstr ""
 
+msgctxt "BatchVideoQuality|"
+msgid "Preffered Video Quality:"
+msgstr ""
+
 msgctxt "BottomPanelTools|"
 msgid "General"
 msgstr "Genel"
 
 msgctxt "BottomPanelTools|"
-msgid "Files"
-msgstr "Dosyalar"
-
-msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Süreç"
+
+msgctxt "BottomPanelTools|"
+msgid "Files"
+msgstr "Dosyalar"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "Tarayıcı Entegrasyonu"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid ""
+"Make sure you have %1 extension installed, otherwise, click one of the "
+"buttons below"
+msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Download Firefox extension"
@@ -216,8 +219,8 @@ msgid "Mbytes"
 msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Use browser if you cancel download via FDM"
-msgstr "FDM tarafından indirme iptal edilirse tarayıcıyı kullan"
+msgid "Use browser if you cancel download via %1"
+msgstr "%1 tarafından indirme iptal edilirse tarayıcıyı kullan"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -255,6 +258,22 @@ msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
 msgstr ""
 
+msgctxt "BuildDownloadTools|"
+msgid "Querying info. Please wait..."
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "Please select download link"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "ButtonsBlock|"
+msgid "Download"
+msgstr "İndir"
+
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
 msgstr "Değiştirmek download URL"
@@ -266,6 +285,10 @@ msgstr ""
 msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
 msgstr "Geçersiz URL"
+
+msgctxt "ChangeUrlDialog|"
+msgid "Start download"
+msgstr "İndirmeye başla"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Cancel"
@@ -288,8 +311,16 @@ msgid "Enter new URL"
 msgstr ""
 
 msgctxt "ChangeUrlPage|"
+msgid "Start download"
+msgstr "İndirmeye başla"
+
+msgctxt "ChangeUrlPage|"
 msgid "Invalid URL"
 msgstr "Geçersiz URL"
+
+msgctxt "CopyLinkMenu|"
+msgid "Copy link"
+msgstr "Bağlantıyı kopyala"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -368,6 +399,10 @@ msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
 msgstr "İptal"
 
+msgctxt "DiskSpace|"
+msgid "Size: %1 (Disk space: %2)"
+msgstr ""
+
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "Dosya kayıp"
@@ -376,33 +411,33 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr ""
 
-msgctxt "DownloadsPage|"
-msgid "Cancel"
-msgstr "İptal"
+msgctxt "DownloadsList|"
+msgid "Download links"
+msgstr "Download golf sahası"
 
-msgctxt "DownloadsPage|"
-msgid "Computer will be put to sleep after all downloads are completed."
-msgstr "Bilgisayar tüm indirmeler tamamlandıktan sonra uykuya geçecektir."
+msgctxt "DownloadsList|"
+msgid "Select all"
+msgstr "Tümünü Seç"
 
-msgctxt "DownloadsPage|"
-msgid "Computer will be hibernate after all downloads are completed."
-msgstr ""
-
-msgctxt "DownloadsPage|"
-msgid "Computer will be shutdown after all downloads are completed."
-msgstr ""
+msgctxt "DownloadsList|"
+msgid "Select none"
+msgstr "Hiçbirini seçme"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
 msgstr ""
 
 msgctxt "DownloadsPage|"
-msgid " Add new download URL."
+msgid "Add new download URL."
 msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "Sonuç bulunamadı"
+
+msgctxt "DownloadsPage|"
+msgid "No results tagged \"%1\" found"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
@@ -418,6 +453,10 @@ msgstr "Tümünü Göster"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
+msgstr ""
+
+msgctxt "DownloadsTagMenu|"
+msgid "Untag"
 msgstr ""
 
 msgctxt "DownloadsViewHeader|"
@@ -495,6 +534,10 @@ msgstr "Ardışık indirme"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "Bağlantıyı kopyala"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Add Tag"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "File integrity"
@@ -660,6 +703,14 @@ msgctxt "FileIntegrityPage|"
 msgid "Verification failed"
 msgstr "Doğrulama başarısız oldu"
 
+msgctxt "FileName|"
+msgid "Create subfolder"
+msgstr ""
+
+msgctxt "FileName|"
+msgid "File name"
+msgstr "Dosya adı"
+
 msgctxt "FilePickerPage|"
 msgid "Select folder"
 msgstr "Klasör seç"
@@ -677,6 +728,18 @@ msgid "Empty folder"
 msgstr ""
 
 msgctxt "FilePickerSortDialog|"
+msgid "By date"
+msgstr ""
+
+msgctxt "FilePickerSortDialog|"
+msgid "By name"
+msgstr ""
+
+msgctxt "FilePickerSortDialog|"
+msgid "By size"
+msgstr ""
+
+msgctxt "FilePickerSortDialog|"
 msgid "Sort"
 msgstr ""
 
@@ -686,6 +749,10 @@ msgstr ""
 
 msgctxt "FilePickerSortDialog|"
 msgid "Descending"
+msgstr ""
+
+msgctxt "FileType|"
+msgid "Preffered File Type:"
 msgstr ""
 
 msgctxt "FilesTree|"
@@ -715,6 +782,18 @@ msgstr "Yüksek"
 msgctxt "FilesTree|"
 msgid "Low"
 msgstr "Düşük"
+
+msgctxt "FilesTree|"
+msgid "Files"
+msgstr "Dosyalar"
+
+msgctxt "FilesTree|"
+msgid "Select all"
+msgstr "Tümünü Seç"
+
+msgctxt "FilesTree|"
+msgid "Select none"
+msgstr "Hiçbirini seçme"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High Priority"
@@ -812,6 +891,10 @@ msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr ""
 
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Başlangıçta çalıştır (küçültülmüş)"
+
 msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "Toplam boyut:"
@@ -860,6 +943,14 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr ""
 
+msgctxt "IntegrationBanner|"
+msgid "Set as Default"
+msgstr "Varsayılan Yap"
+
+msgctxt "IntegrationBanner|"
+msgid "Don't ask again"
+msgstr ""
+
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
 msgstr ""
@@ -904,9 +995,50 @@ msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "Tamamlandı"
 
+msgctxt "MainMenu|"
+msgid "Paste Urls from Clipboard"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Preferences..."
+msgstr "Tercihler..."
+
+msgctxt "MainMenu|"
+msgid "Contact Support"
+msgstr "Destekle İletişime Geç"
+
+msgctxt "MainMenu|"
+msgid "Auto Shutdown"
+msgstr "Otomatik kapatma"
+
+msgctxt "MainMenu|"
+msgid "Sleep"
+msgstr "Uyku"
+
+msgctxt "MainMenu|"
+msgid "Hibernate"
+msgstr "Hazırda Beklet"
+
+msgctxt "MainMenu|"
+msgid "Shutdown"
+msgstr "Kapat"
+
+msgctxt "MainMenu|"
+msgid "Check for Updates..."
+msgstr "Güncellemeleri Kontrol Et..."
+
+msgctxt "MainMenu|"
+msgid "About"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Quit"
+msgstr "Çıkış"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr ""
+"Salyangoz modu indirmeleri durdurmadan bant genişliğini serbest bırakır."
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
@@ -960,45 +1092,13 @@ msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "Ana menü"
 
-msgctxt "MainToolbar|"
-msgid "Paste Urls from Clipboard"
-msgstr ""
 
-msgctxt "MainToolbar|"
-msgid "Preferences..."
-msgstr "Tercihler..."
 
-msgctxt "MainToolbar|"
-msgid "Contact Support"
-msgstr "Destekle İletişime Geç"
 
-msgctxt "MainToolbar|"
-msgid "Auto Shutdown"
-msgstr "Otomatik kapatma"
 
-msgctxt "MainToolbar|"
-msgid "Sleep"
-msgstr "Uyku"
 
-msgctxt "MainToolbar|"
-msgid "Hibernate"
-msgstr "Hazırda Beklet"
 
-msgctxt "MainToolbar|"
-msgid "Shutdown"
-msgstr "Kapat"
 
-msgctxt "MainToolbar|"
-msgid "Check for Updates..."
-msgstr "Güncellemeleri Kontrol Et..."
-
-msgctxt "MainToolbar|"
-msgid "About"
-msgstr ""
-
-msgctxt "MainToolbar|"
-msgid "Quit"
-msgstr "Çıkış"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -1089,10 +1189,6 @@ msgid "Check for Updates..."
 msgstr "Güncellemeleri Kontrol Et..."
 
 msgctxt "NativeMenuBar|"
-msgid "About"
-msgstr ""
-
-msgctxt "NativeMenuBar|"
 msgid "Preferences..."
 msgstr "Tercihler..."
 
@@ -1134,15 +1230,15 @@ msgstr "Seçiliyi duraklat"
 
 msgctxt "NativeMenuBar|"
 msgid "Restart selected"
-msgstr ""
+msgstr "Seçiliyi yeniden başlat"
 
 msgctxt "NativeMenuBar|"
 msgid "Remove from List"
-msgstr ""
+msgstr "Listeden kaldır"
 
 msgctxt "NativeMenuBar|"
 msgid "Help"
-msgstr ""
+msgstr "Yardım"
 
 msgctxt "NativeMenuBar|"
 msgid "Contact Support"
@@ -1252,6 +1348,30 @@ msgctxt "Page|"
 msgid "Files"
 msgstr "Dosyalar"
 
+msgctxt "PreferredFileTypeCombobox|"
+msgid "Audio"
+msgstr ""
+
+msgctxt "PreferredFileTypeCombobox|"
+msgid "Video"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "Low (240p)"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "Medium (480p)"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "High (1080p)"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "4K (2160p)"
+msgstr ""
+
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "Beklenmeyen hata"
@@ -1309,6 +1429,14 @@ msgstr "%1 Hakkında"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "Çıkış"
+
+msgctxt "QObject|"
+msgid "%1 K"
+msgstr "%1 K"
+
+msgctxt "QObject|"
+msgid "%1 M"
+msgstr "%1 M"
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -1698,6 +1826,42 @@ msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr ""
 
+msgctxt "QObject|"
+msgid "Download with %1"
+msgstr "%1 ile indir"
+
+msgctxt "QObject|"
+msgid "Download all with %1"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Download selected with %1"
+msgstr "%1 ile seçiliyi indir"
+
+msgctxt "QObject|"
+msgid "Download video with %1"
+msgstr "%1 ile videoyu indir"
+
+msgctxt "QObject|"
+msgid "Video"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Music"
+msgstr ""
+
+msgctxt "SaveTo|"
+msgid "Save to"
+msgstr ""
+
+msgctxt "SaveTo|"
+msgid "Open"
+msgstr "Aç"
+
+msgctxt "SaveTo|"
+msgid "Cancel"
+msgstr "İptal"
+
 msgctxt "Scheduler|"
 msgid "Sun"
 msgstr "Paz"
@@ -1731,8 +1895,16 @@ msgid "From:"
 msgstr "Kimden:"
 
 msgctxt "Scheduler|"
+msgid "Everyday"
+msgstr ""
+
+msgctxt "Scheduler|"
 msgid "To:"
 msgstr "Kime:"
+
+msgctxt "SchedulerCheckbox|"
+msgid "Scheduler"
+msgstr "Zamanlayıcı"
 
 msgctxt "SchedulerDialog|"
 msgid "Scheduler"
@@ -1819,6 +1991,10 @@ msgid "Advanced"
 msgstr "Gelişmiş"
 
 msgctxt "SettingsPage|"
+msgid "Settings"
+msgstr "Seçenekler"
+
+msgctxt "SettingsPage|"
 msgid "Network settings"
 msgstr ""
 
@@ -1870,6 +2046,22 @@ msgctxt "Sheduler|"
 msgid "Sat"
 msgstr "Cts"
 
+msgctxt "ShutdownBanner|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "ShutdownBanner|"
+msgid "Computer will be put to sleep after all downloads are completed."
+msgstr "Bilgisayar tüm indirmeler tamamlandıktan sonra uykuya geçecektir."
+
+msgctxt "ShutdownBanner|"
+msgid "Computer will be hibernate after all downloads are completed."
+msgstr ""
+
+msgctxt "ShutdownBanner|"
+msgid "Computer will be shutdown after all downloads are completed."
+msgstr ""
+
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
 msgstr "Onayla"
@@ -1906,6 +2098,42 @@ msgctxt "SortTools|"
 msgid "By size"
 msgstr ""
 
+msgctxt "SslDialog|"
+msgid "Warning: potential security risk ahead"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "SSL Certificate is not valid."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Certificate fingerprints"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "SHA-256:"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "SHA1:"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Accept the risk and download"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "SslDialog|"
+msgid "Security risk"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Continue"
+msgstr ""
+
 msgctxt "StatusItem|"
 msgid "Checking resume data..."
 msgstr ""
@@ -1937,6 +2165,22 @@ msgstr "Duraklatıldı"
 msgctxt "StatusItem|"
 msgid "Completed"
 msgstr "Tamamlandı"
+
+msgctxt "TagColorDialog|"
+msgid "Remove tag"
+msgstr ""
+
+msgctxt "TagMenu|"
+msgid "Edit"
+msgstr ""
+
+msgctxt "TagMenu|"
+msgid "Remove"
+msgstr ""
+
+msgctxt "TagPalette|"
+msgid "Customize color"
+msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -2039,68 +2283,37 @@ msgid "Change traffic limits"
 msgstr ""
 
 
+
+
+
+
+
+
+
+
+
 msgctxt "TuneAndAddDownloadDialog|"
+msgid "New download"
+msgstr ""
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "New file"
 msgstr "Yeni dosya"
 
-msgctxt "TuneAndAddDownloadDialog|"
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Download"
+msgstr "İndir"
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "Save to"
 msgstr ""
 
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Create subfolder"
-msgstr ""
-
-msgctxt "TuneAndAddDownloadDialog|"
+msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "Dosya adı"
 
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Quality:"
-msgstr "Kalite:"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Files"
-msgstr "Dosyalar"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Select all"
-msgstr "Tümünü Seç"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Select none"
-msgstr "Hiçbirini seçme"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Download links"
-msgstr "Download golf sahası"
-
-msgctxt "TuneAndAddDownloadDialog|"
+msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr ""
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Scheduler"
-msgstr "Zamanlayıcı"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Cancel"
-msgstr "İptal"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Download"
-msgstr "İndir"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Yeni dosya"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "Download"
-msgstr "İndir"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "Size: %1"
 msgstr ""
 
 msgctxt "UpdateDialog|"
@@ -2128,7 +2341,7 @@ msgid "Update"
 msgstr "Güncelle"
 
 msgctxt "UpdateDialog|"
-msgid "FDM is up to date"
+msgid "%1 is up to date"
 msgstr ""
 
 msgctxt "UpdateDialog|"
@@ -2164,8 +2377,8 @@ msgid "Error occurred during installation:"
 msgstr "Kurulum sırasında hata oluştu:"
 
 msgctxt "UpdateDialog|"
-msgid "Relaunch FDM to update"
-msgstr "Güncelleme için FDM'yi yeniden başlat"
+msgid "Relaunch %1 to update"
+msgstr "Güncelleme için %1'yi yeniden başlat"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch (%1)"
@@ -2179,6 +2392,10 @@ msgctxt "UpdateDialog|"
 msgid "Check for updates"
 msgstr "Güncellemeleri kontrol et"
 
+msgctxt "VideoQuality|"
+msgid "Quality:"
+msgstr "Kalite:"
+
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr ""
@@ -2186,3 +2403,7 @@ msgstr ""
 msgctxt "main|"
 msgid "Move"
 msgstr "Taşı"
+
+msgctxt "main|"
+msgid "Cancel"
+msgstr "İptal"

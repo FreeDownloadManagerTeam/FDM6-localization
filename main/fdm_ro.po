@@ -8,21 +8,6 @@ msgstr ""
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
 
-msgid "Download with FDM"
-msgstr "Descarca cu FDM"
-
-msgid "Download selected with FDM"
-msgstr "Descarca selectate cu FDM"
-
-msgid "Download video with FDM"
-msgstr "Download video cu FDM"
-
-msgid "Error: 0x%x. Failed to transfer downloads to FDM."
-msgstr ""
-
-msgid "No flash video found. Try reloading this page."
-msgstr "Nici un video flash găsit. Încercați să reîncărcați această pagină."
-
 msgctxt "AboutDialog|"
 msgid "About"
 msgstr ""
@@ -43,6 +28,14 @@ msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "Versiunea %1 (%2)"
 
+msgctxt "AddDateToFileName|"
+msgid "Add dates to files names"
+msgstr ""
+
+msgctxt "AddTag|"
+msgid "Add tag"
+msgstr ""
+
 msgctxt "AdvancedSettings|"
 msgid "Advanced"
 msgstr "Avansat"
@@ -57,7 +50,7 @@ msgstr ""
 "Notifică-mă asupra proceselor de descărcare complete via Notification Center"
 
 msgctxt "AdvancedSettings|"
-msgid "Notify me of downloads only when FDM window is inactive"
+msgid "Notify me of downloads only when %1 window is inactive"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
@@ -152,21 +145,31 @@ msgctxt "AuthenticationPage|"
 msgid "Remember"
 msgstr ""
 
+msgctxt "BatchVideoQuality|"
+msgid "Preffered Video Quality:"
+msgstr ""
+
 msgctxt "BottomPanelTools|"
 msgid "General"
 msgstr "General"
 
 msgctxt "BottomPanelTools|"
-msgid "Files"
-msgstr "Fișiere"
-
-msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Progres"
+
+msgctxt "BottomPanelTools|"
+msgid "Files"
+msgstr "Fișiere"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "Integrare în navigatorul web"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid ""
+"Make sure you have %1 extension installed, otherwise, click one of the "
+"buttons below"
+msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Download Firefox extension"
@@ -217,7 +220,7 @@ msgid "Mbytes"
 msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Use browser if you cancel download via FDM"
+msgid "Use browser if you cancel download via %1"
 msgstr ""
 
 msgctxt "BuildDownloadDialog|"
@@ -256,6 +259,22 @@ msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
 msgstr ""
 
+msgctxt "BuildDownloadTools|"
+msgid "Querying info. Please wait..."
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "Please select download link"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "ButtonsBlock|"
+msgid "Download"
+msgstr "Descarcă"
+
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
 msgstr ""
@@ -267,6 +286,10 @@ msgstr ""
 msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
 msgstr "Invalid URL"
+
+msgctxt "ChangeUrlDialog|"
+msgid "Start download"
+msgstr "Start download"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Cancel"
@@ -289,8 +312,16 @@ msgid "Enter new URL"
 msgstr ""
 
 msgctxt "ChangeUrlPage|"
+msgid "Start download"
+msgstr "Start download"
+
+msgctxt "ChangeUrlPage|"
 msgid "Invalid URL"
 msgstr "Invalid URL"
+
+msgctxt "CopyLinkMenu|"
+msgid "Copy link"
+msgstr "Copia link-ul"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -369,6 +400,10 @@ msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
 msgstr "Anulează"
 
+msgctxt "DiskSpace|"
+msgid "Size: %1 (Disk space: %2)"
+msgstr ""
+
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "Dosar is misiune"
@@ -377,35 +412,33 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr ""
 
-msgctxt "DownloadsPage|"
-msgid "Cancel"
-msgstr "Anulează"
+msgctxt "DownloadsList|"
+msgid "Download links"
+msgstr "Download link-uri"
 
-msgctxt "DownloadsPage|"
-msgid "Computer will be put to sleep after all downloads are completed."
-msgstr ""
-"Computerul va trece în modul sleep după ce procesele de descărcare for fi "
-"încheiate."
+msgctxt "DownloadsList|"
+msgid "Select all"
+msgstr "Selectează tot"
 
-msgctxt "DownloadsPage|"
-msgid "Computer will be hibernate after all downloads are completed."
-msgstr ""
-
-msgctxt "DownloadsPage|"
-msgid "Computer will be shutdown after all downloads are completed."
-msgstr ""
+msgctxt "DownloadsList|"
+msgid "Select none"
+msgstr "Deselectează tot"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
 msgstr ""
 
 msgctxt "DownloadsPage|"
-msgid " Add new download URL."
+msgid "Add new download URL."
 msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "Nici un rezultat găsit pentru"
+
+msgctxt "DownloadsPage|"
+msgid "No results tagged \"%1\" found"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
@@ -421,6 +454,10 @@ msgstr "Arată tot"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
+msgstr ""
+
+msgctxt "DownloadsTagMenu|"
+msgid "Untag"
 msgstr ""
 
 msgctxt "DownloadsViewHeader|"
@@ -498,6 +535,10 @@ msgstr "Secvențială download"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "Copia link-ul"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Add Tag"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "File integrity"
@@ -663,6 +704,14 @@ msgctxt "FileIntegrityPage|"
 msgid "Verification failed"
 msgstr "Verificare nu a reuşit"
 
+msgctxt "FileName|"
+msgid "Create subfolder"
+msgstr "Creaţi subfolderul"
+
+msgctxt "FileName|"
+msgid "File name"
+msgstr "Nume fisier"
+
 msgctxt "FilePickerPage|"
 msgid "Select folder"
 msgstr "Selectează director"
@@ -680,6 +729,18 @@ msgid "Empty folder"
 msgstr ""
 
 msgctxt "FilePickerSortDialog|"
+msgid "By date"
+msgstr ""
+
+msgctxt "FilePickerSortDialog|"
+msgid "By name"
+msgstr ""
+
+msgctxt "FilePickerSortDialog|"
+msgid "By size"
+msgstr ""
+
+msgctxt "FilePickerSortDialog|"
 msgid "Sort"
 msgstr ""
 
@@ -689,6 +750,10 @@ msgstr ""
 
 msgctxt "FilePickerSortDialog|"
 msgid "Descending"
+msgstr ""
+
+msgctxt "FileType|"
+msgid "Preffered File Type:"
 msgstr ""
 
 msgctxt "FilesTree|"
@@ -718,6 +783,18 @@ msgstr "Ridicat"
 msgctxt "FilesTree|"
 msgid "Low"
 msgstr "Scăzut"
+
+msgctxt "FilesTree|"
+msgid "Files"
+msgstr "Fișiere"
+
+msgctxt "FilesTree|"
+msgid "Select all"
+msgstr "Selectează tot"
+
+msgctxt "FilesTree|"
+msgid "Select none"
+msgstr "Deselectează tot"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High Priority"
@@ -815,6 +892,10 @@ msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr ""
 
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Lansează la startup (minimalizat)"
+
 msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "Dimensiunea totală:"
@@ -863,6 +944,14 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr ""
 
+msgctxt "IntegrationBanner|"
+msgid "Set as Default"
+msgstr "Setează ca predefinit"
+
+msgctxt "IntegrationBanner|"
+msgid "Don't ask again"
+msgstr ""
+
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
 msgstr ""
@@ -907,9 +996,50 @@ msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "Terminat"
 
+msgctxt "MainMenu|"
+msgid "Paste Urls from Clipboard"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Preferences..."
+msgstr "Preferințe"
+
+msgctxt "MainMenu|"
+msgid "Contact Support"
+msgstr "Contactați Asistența"
+
+msgctxt "MainMenu|"
+msgid "Auto Shutdown"
+msgstr "Oprire automată"
+
+msgctxt "MainMenu|"
+msgid "Sleep"
+msgstr "Sleep"
+
+msgctxt "MainMenu|"
+msgid "Hibernate"
+msgstr "Hibernare"
+
+msgctxt "MainMenu|"
+msgid "Shutdown"
+msgstr "Închidere"
+
+msgctxt "MainMenu|"
+msgid "Check for Updates..."
+msgstr "A verifica pentru Updates..."
+
+msgctxt "MainMenu|"
+msgid "About"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Quit"
+msgstr "Renunță"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr ""
+"Modul Snail eliberează lățimea de bandă fără a opri procesele download."
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
@@ -963,45 +1093,13 @@ msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "Meniul principal"
 
-msgctxt "MainToolbar|"
-msgid "Paste Urls from Clipboard"
-msgstr ""
 
-msgctxt "MainToolbar|"
-msgid "Preferences..."
-msgstr "Preferințe"
 
-msgctxt "MainToolbar|"
-msgid "Contact Support"
-msgstr "Contactați Asistența"
 
-msgctxt "MainToolbar|"
-msgid "Auto Shutdown"
-msgstr "Oprire automată"
 
-msgctxt "MainToolbar|"
-msgid "Sleep"
-msgstr "Sleep"
 
-msgctxt "MainToolbar|"
-msgid "Hibernate"
-msgstr "Hibernare"
 
-msgctxt "MainToolbar|"
-msgid "Shutdown"
-msgstr "Închidere"
 
-msgctxt "MainToolbar|"
-msgid "Check for Updates..."
-msgstr "A verifica pentru Updates..."
-
-msgctxt "MainToolbar|"
-msgid "About"
-msgstr ""
-
-msgctxt "MainToolbar|"
-msgid "Quit"
-msgstr "Renunță"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -1092,10 +1190,6 @@ msgid "Check for Updates..."
 msgstr "A verifica pentru Updates..."
 
 msgctxt "NativeMenuBar|"
-msgid "About"
-msgstr ""
-
-msgctxt "NativeMenuBar|"
 msgid "Preferences..."
 msgstr "Preferințe"
 
@@ -1137,15 +1231,15 @@ msgstr "Pauzează ce este selectat"
 
 msgctxt "NativeMenuBar|"
 msgid "Restart selected"
-msgstr ""
+msgstr "Reporniţi selectate"
 
 msgctxt "NativeMenuBar|"
 msgid "Remove from List"
-msgstr ""
+msgstr "Înlătură din listă"
 
 msgctxt "NativeMenuBar|"
 msgid "Help"
-msgstr ""
+msgstr "Ajuta"
 
 msgctxt "NativeMenuBar|"
 msgid "Contact Support"
@@ -1255,6 +1349,30 @@ msgctxt "Page|"
 msgid "Files"
 msgstr "Fișiere"
 
+msgctxt "PreferredFileTypeCombobox|"
+msgid "Audio"
+msgstr ""
+
+msgctxt "PreferredFileTypeCombobox|"
+msgid "Video"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "Low (240p)"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "Medium (480p)"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "High (1080p)"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "4K (2160p)"
+msgstr ""
+
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "Eroare neașteptată"
@@ -1312,6 +1430,14 @@ msgstr "Despre %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "Renunță"
+
+msgctxt "QObject|"
+msgid "%1 K"
+msgstr "%1 K"
+
+msgctxt "QObject|"
+msgid "%1 M"
+msgstr "%1 M"
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -1701,6 +1827,42 @@ msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr ""
 
+msgctxt "QObject|"
+msgid "Download with %1"
+msgstr "Descarca cu %1"
+
+msgctxt "QObject|"
+msgid "Download all with %1"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Download selected with %1"
+msgstr "Descarca selectate cu %1"
+
+msgctxt "QObject|"
+msgid "Download video with %1"
+msgstr "Download video cu %1"
+
+msgctxt "QObject|"
+msgid "Video"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Music"
+msgstr ""
+
+msgctxt "SaveTo|"
+msgid "Save to"
+msgstr ""
+
+msgctxt "SaveTo|"
+msgid "Open"
+msgstr "Deschis"
+
+msgctxt "SaveTo|"
+msgid "Cancel"
+msgstr "Anulează"
+
 msgctxt "Scheduler|"
 msgid "Sun"
 msgstr "Soare"
@@ -1734,8 +1896,16 @@ msgid "From:"
 msgstr "De la:"
 
 msgctxt "Scheduler|"
+msgid "Everyday"
+msgstr ""
+
+msgctxt "Scheduler|"
 msgid "To:"
 msgstr "A:"
+
+msgctxt "SchedulerCheckbox|"
+msgid "Scheduler"
+msgstr "Scheduler"
 
 msgctxt "SchedulerDialog|"
 msgid "Scheduler"
@@ -1822,6 +1992,10 @@ msgid "Advanced"
 msgstr "Avansat"
 
 msgctxt "SettingsPage|"
+msgid "Settings"
+msgstr "Setări"
+
+msgctxt "SettingsPage|"
 msgid "Network settings"
 msgstr ""
 
@@ -1873,6 +2047,24 @@ msgctxt "Sheduler|"
 msgid "Sat"
 msgstr ""
 
+msgctxt "ShutdownBanner|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "ShutdownBanner|"
+msgid "Computer will be put to sleep after all downloads are completed."
+msgstr ""
+"Computerul va trece în modul sleep după ce procesele de descărcare for fi "
+"încheiate."
+
+msgctxt "ShutdownBanner|"
+msgid "Computer will be hibernate after all downloads are completed."
+msgstr ""
+
+msgctxt "ShutdownBanner|"
+msgid "Computer will be shutdown after all downloads are completed."
+msgstr ""
+
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
 msgstr "Confirma"
@@ -1909,6 +2101,42 @@ msgctxt "SortTools|"
 msgid "By size"
 msgstr ""
 
+msgctxt "SslDialog|"
+msgid "Warning: potential security risk ahead"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "SSL Certificate is not valid."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Certificate fingerprints"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "SHA-256:"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "SHA1:"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Accept the risk and download"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "SslDialog|"
+msgid "Security risk"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Continue"
+msgstr ""
+
 msgctxt "StatusItem|"
 msgid "Checking resume data..."
 msgstr ""
@@ -1940,6 +2168,22 @@ msgstr "Pauzat"
 msgctxt "StatusItem|"
 msgid "Completed"
 msgstr "Terminat"
+
+msgctxt "TagColorDialog|"
+msgid "Remove tag"
+msgstr ""
+
+msgctxt "TagMenu|"
+msgid "Edit"
+msgstr ""
+
+msgctxt "TagMenu|"
+msgid "Remove"
+msgstr ""
+
+msgctxt "TagPalette|"
+msgid "Customize color"
+msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -2042,68 +2286,38 @@ msgid "Change traffic limits"
 msgstr ""
 
 
+
+
+
+
+
+
+
+
+
+
 msgctxt "TuneAndAddDownloadDialog|"
+msgid "New download"
+msgstr ""
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "New file"
 msgstr "Fişier nou"
 
-msgctxt "TuneAndAddDownloadDialog|"
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Download"
+msgstr "Descarcă"
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "Save to"
 msgstr ""
 
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Create subfolder"
-msgstr "Creaţi subfolderul"
-
-msgctxt "TuneAndAddDownloadDialog|"
+msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "Nume fisier"
 
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Quality:"
-msgstr "Calitate"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Files"
-msgstr "Fișiere"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Select all"
-msgstr "Selectează tot"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Select none"
-msgstr "Deselectează tot"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Download links"
-msgstr "Download link-uri"
-
-msgctxt "TuneAndAddDownloadDialog|"
+msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr ""
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Scheduler"
-msgstr "Scheduler"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Cancel"
-msgstr "Anulează"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Download"
-msgstr "Descarcă"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Fişier nou"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "Download"
-msgstr "Descarcă"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "Size: %1"
 msgstr ""
 
 msgctxt "UpdateDialog|"
@@ -2131,7 +2345,7 @@ msgid "Update"
 msgstr "Actualizare"
 
 msgctxt "UpdateDialog|"
-msgid "FDM is up to date"
+msgid "%1 is up to date"
 msgstr ""
 
 msgctxt "UpdateDialog|"
@@ -2167,8 +2381,8 @@ msgid "Error occurred during installation:"
 msgstr "Eroare apărută în timpul instalării:"
 
 msgctxt "UpdateDialog|"
-msgid "Relaunch FDM to update"
-msgstr "Repornește FDM pentru a actualiza"
+msgid "Relaunch %1 to update"
+msgstr "Repornește %1 pentru a actualiza"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch (%1)"
@@ -2182,6 +2396,10 @@ msgctxt "UpdateDialog|"
 msgid "Check for updates"
 msgstr "Verifică dacă există actualizări"
 
+msgctxt "VideoQuality|"
+msgid "Quality:"
+msgstr "Calitate"
+
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr ""
@@ -2189,3 +2407,7 @@ msgstr ""
 msgctxt "main|"
 msgid "Move"
 msgstr "Muta"
+
+msgctxt "main|"
+msgid "Cancel"
+msgstr "Anulează"

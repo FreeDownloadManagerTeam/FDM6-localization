@@ -8,21 +8,6 @@ msgstr ""
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
 
-msgid "Download with FDM"
-msgstr "Ladda ner med FDM"
-
-msgid "Download selected with FDM"
-msgstr "Hämta valda med FDM"
-
-msgid "Download video with FDM"
-msgstr "Ladda ner video med FDM"
-
-msgid "Error: 0x%x. Failed to transfer downloads to FDM."
-msgstr ""
-
-msgid "No flash video found. Try reloading this page."
-msgstr ""
-
 msgctxt "AboutDialog|"
 msgid "About"
 msgstr ""
@@ -43,6 +28,14 @@ msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "Version %1 (%2)"
 
+msgctxt "AddDateToFileName|"
+msgid "Add dates to files names"
+msgstr ""
+
+msgctxt "AddTag|"
+msgid "Add tag"
+msgstr ""
+
 msgctxt "AdvancedSettings|"
 msgid "Advanced"
 msgstr "Avancerad"
@@ -56,7 +49,7 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
-msgid "Notify me of downloads only when FDM window is inactive"
+msgid "Notify me of downloads only when %1 window is inactive"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
@@ -151,21 +144,31 @@ msgctxt "AuthenticationPage|"
 msgid "Remember"
 msgstr ""
 
+msgctxt "BatchVideoQuality|"
+msgid "Preffered Video Quality:"
+msgstr ""
+
 msgctxt "BottomPanelTools|"
 msgid "General"
 msgstr "Allmänna"
 
 msgctxt "BottomPanelTools|"
-msgid "Files"
-msgstr "Filer"
-
-msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Framsteg"
+
+msgctxt "BottomPanelTools|"
+msgid "Files"
+msgstr "Filer"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "Webbläsaren Integration"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid ""
+"Make sure you have %1 extension installed, otherwise, click one of the "
+"buttons below"
+msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Download Firefox extension"
@@ -216,7 +219,7 @@ msgid "Mbytes"
 msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Use browser if you cancel download via FDM"
+msgid "Use browser if you cancel download via %1"
 msgstr ""
 
 msgctxt "BuildDownloadDialog|"
@@ -255,6 +258,22 @@ msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
 msgstr ""
 
+msgctxt "BuildDownloadTools|"
+msgid "Querying info. Please wait..."
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "Please select download link"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgctxt "ButtonsBlock|"
+msgid "Download"
+msgstr "Ladda ner"
+
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
 msgstr ""
@@ -266,6 +285,10 @@ msgstr ""
 msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
 msgstr "Ogiltig webbadress"
+
+msgctxt "ChangeUrlDialog|"
+msgid "Start download"
+msgstr "Börja ladda ner"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Cancel"
@@ -288,8 +311,16 @@ msgid "Enter new URL"
 msgstr ""
 
 msgctxt "ChangeUrlPage|"
+msgid "Start download"
+msgstr "Börja ladda ner"
+
+msgctxt "ChangeUrlPage|"
 msgid "Invalid URL"
 msgstr "Ogiltig webbadress"
+
+msgctxt "CopyLinkMenu|"
+msgid "Copy link"
+msgstr "Kopiera länk"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -368,6 +399,10 @@ msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
 msgstr "Avbryt"
 
+msgctxt "DiskSpace|"
+msgid "Size: %1 (Disk space: %2)"
+msgstr ""
+
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr ""
@@ -376,33 +411,33 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr ""
 
-msgctxt "DownloadsPage|"
-msgid "Cancel"
-msgstr "Avbryt"
+msgctxt "DownloadsList|"
+msgid "Download links"
+msgstr "Ladda ner länkar"
 
-msgctxt "DownloadsPage|"
-msgid "Computer will be put to sleep after all downloads are completed."
-msgstr ""
+msgctxt "DownloadsList|"
+msgid "Select all"
+msgstr "Välj Alla"
 
-msgctxt "DownloadsPage|"
-msgid "Computer will be hibernate after all downloads are completed."
-msgstr ""
-
-msgctxt "DownloadsPage|"
-msgid "Computer will be shutdown after all downloads are completed."
-msgstr ""
+msgctxt "DownloadsList|"
+msgid "Select none"
+msgstr "Välj ingen"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
 msgstr ""
 
 msgctxt "DownloadsPage|"
-msgid " Add new download URL."
+msgid "Add new download URL."
 msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "Inga resultat hittades för"
+
+msgctxt "DownloadsPage|"
+msgid "No results tagged \"%1\" found"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
@@ -418,6 +453,10 @@ msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
+msgstr ""
+
+msgctxt "DownloadsTagMenu|"
+msgid "Untag"
 msgstr ""
 
 msgctxt "DownloadsViewHeader|"
@@ -495,6 +534,10 @@ msgstr "Sekventiell nedladdning"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "Kopiera länk"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Add Tag"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "File integrity"
@@ -660,6 +703,14 @@ msgctxt "FileIntegrityPage|"
 msgid "Verification failed"
 msgstr "Verifieringen misslyckades"
 
+msgctxt "FileName|"
+msgid "Create subfolder"
+msgstr "Skapa undermapp"
+
+msgctxt "FileName|"
+msgid "File name"
+msgstr "Filnamn"
+
 msgctxt "FilePickerPage|"
 msgid "Select folder"
 msgstr "Välj mapp"
@@ -677,6 +728,18 @@ msgid "Empty folder"
 msgstr ""
 
 msgctxt "FilePickerSortDialog|"
+msgid "By date"
+msgstr ""
+
+msgctxt "FilePickerSortDialog|"
+msgid "By name"
+msgstr ""
+
+msgctxt "FilePickerSortDialog|"
+msgid "By size"
+msgstr ""
+
+msgctxt "FilePickerSortDialog|"
 msgid "Sort"
 msgstr ""
 
@@ -686,6 +749,10 @@ msgstr ""
 
 msgctxt "FilePickerSortDialog|"
 msgid "Descending"
+msgstr ""
+
+msgctxt "FileType|"
+msgid "Preffered File Type:"
 msgstr ""
 
 msgctxt "FilesTree|"
@@ -715,6 +782,18 @@ msgstr "Hög"
 msgctxt "FilesTree|"
 msgid "Low"
 msgstr "Låg"
+
+msgctxt "FilesTree|"
+msgid "Files"
+msgstr "Filer"
+
+msgctxt "FilesTree|"
+msgid "Select all"
+msgstr "Välj Alla"
+
+msgctxt "FilesTree|"
+msgid "Select none"
+msgstr "Välj ingen"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High Priority"
@@ -812,6 +891,10 @@ msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr ""
 
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Starta vid start (minimerat)"
+
 msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "Total storlek:"
@@ -860,6 +943,14 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr ""
 
+msgctxt "IntegrationBanner|"
+msgid "Set as Default"
+msgstr "Ange som Standard"
+
+msgctxt "IntegrationBanner|"
+msgid "Don't ask again"
+msgstr ""
+
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
 msgstr ""
@@ -903,6 +994,46 @@ msgstr "Aktiva"
 msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "Slutfört"
+
+msgctxt "MainMenu|"
+msgid "Paste Urls from Clipboard"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Preferences..."
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Contact Support"
+msgstr "Kontakta Support"
+
+msgctxt "MainMenu|"
+msgid "Auto Shutdown"
+msgstr "Auto avstängning"
+
+msgctxt "MainMenu|"
+msgid "Sleep"
+msgstr "Sömn"
+
+msgctxt "MainMenu|"
+msgid "Hibernate"
+msgstr "Hibernate"
+
+msgctxt "MainMenu|"
+msgid "Shutdown"
+msgstr "Avstängning"
+
+msgctxt "MainMenu|"
+msgid "Check for Updates..."
+msgstr "Kolla efter Uppdateringar..."
+
+msgctxt "MainMenu|"
+msgid "About"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Quit"
+msgstr ""
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
@@ -960,45 +1091,11 @@ msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr ""
 
-msgctxt "MainToolbar|"
-msgid "Paste Urls from Clipboard"
-msgstr ""
 
-msgctxt "MainToolbar|"
-msgid "Preferences..."
-msgstr ""
 
-msgctxt "MainToolbar|"
-msgid "Contact Support"
-msgstr "Kontakta Support"
 
-msgctxt "MainToolbar|"
-msgid "Auto Shutdown"
-msgstr "Auto avstängning"
 
-msgctxt "MainToolbar|"
-msgid "Sleep"
-msgstr "Sömn"
 
-msgctxt "MainToolbar|"
-msgid "Hibernate"
-msgstr "Hibernate"
-
-msgctxt "MainToolbar|"
-msgid "Shutdown"
-msgstr "Avstängning"
-
-msgctxt "MainToolbar|"
-msgid "Check for Updates..."
-msgstr "Kolla efter Uppdateringar..."
-
-msgctxt "MainToolbar|"
-msgid "About"
-msgstr ""
-
-msgctxt "MainToolbar|"
-msgid "Quit"
-msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -1089,10 +1186,6 @@ msgid "Check for Updates..."
 msgstr "Kolla efter Uppdateringar..."
 
 msgctxt "NativeMenuBar|"
-msgid "About"
-msgstr ""
-
-msgctxt "NativeMenuBar|"
 msgid "Preferences..."
 msgstr ""
 
@@ -1134,15 +1227,15 @@ msgstr "Pausa markerat"
 
 msgctxt "NativeMenuBar|"
 msgid "Restart selected"
-msgstr ""
+msgstr "Starta om valda"
 
 msgctxt "NativeMenuBar|"
 msgid "Remove from List"
-msgstr ""
+msgstr "Ta bort från lista"
 
 msgctxt "NativeMenuBar|"
 msgid "Help"
-msgstr ""
+msgstr "Hjälp"
 
 msgctxt "NativeMenuBar|"
 msgid "Contact Support"
@@ -1252,6 +1345,30 @@ msgctxt "Page|"
 msgid "Files"
 msgstr "Filer"
 
+msgctxt "PreferredFileTypeCombobox|"
+msgid "Audio"
+msgstr ""
+
+msgctxt "PreferredFileTypeCombobox|"
+msgid "Video"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "Low (240p)"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "Medium (480p)"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "High (1080p)"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "4K (2160p)"
+msgstr ""
+
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "Oväntat fel"
@@ -1309,6 +1426,14 @@ msgstr "Om %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 K"
+msgstr "%1 KARLSSON"
+
+msgctxt "QObject|"
+msgid "%1 M"
+msgstr "%1 M"
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -1698,6 +1823,42 @@ msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr ""
 
+msgctxt "QObject|"
+msgid "Download with %1"
+msgstr "Ladda ner med %1"
+
+msgctxt "QObject|"
+msgid "Download all with %1"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Download selected with %1"
+msgstr "Hämta valda med %1"
+
+msgctxt "QObject|"
+msgid "Download video with %1"
+msgstr "Ladda ner video med %1"
+
+msgctxt "QObject|"
+msgid "Video"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Music"
+msgstr ""
+
+msgctxt "SaveTo|"
+msgid "Save to"
+msgstr "Spara till"
+
+msgctxt "SaveTo|"
+msgid "Open"
+msgstr "Öppna"
+
+msgctxt "SaveTo|"
+msgid "Cancel"
+msgstr "Avbryt"
+
 msgctxt "Scheduler|"
 msgid "Sun"
 msgstr "Solen"
@@ -1731,8 +1892,16 @@ msgid "From:"
 msgstr "Från:"
 
 msgctxt "Scheduler|"
+msgid "Everyday"
+msgstr ""
+
+msgctxt "Scheduler|"
 msgid "To:"
 msgstr "Till:"
+
+msgctxt "SchedulerCheckbox|"
+msgid "Scheduler"
+msgstr "Scheduler"
 
 msgctxt "SchedulerDialog|"
 msgid "Scheduler"
@@ -1819,6 +1988,10 @@ msgid "Advanced"
 msgstr "Avancerad"
 
 msgctxt "SettingsPage|"
+msgid "Settings"
+msgstr "Inställningar"
+
+msgctxt "SettingsPage|"
 msgid "Network settings"
 msgstr ""
 
@@ -1870,6 +2043,22 @@ msgctxt "Sheduler|"
 msgid "Sat"
 msgstr "Lör"
 
+msgctxt "ShutdownBanner|"
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgctxt "ShutdownBanner|"
+msgid "Computer will be put to sleep after all downloads are completed."
+msgstr ""
+
+msgctxt "ShutdownBanner|"
+msgid "Computer will be hibernate after all downloads are completed."
+msgstr ""
+
+msgctxt "ShutdownBanner|"
+msgid "Computer will be shutdown after all downloads are completed."
+msgstr ""
+
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
 msgstr "Bekräfta"
@@ -1906,6 +2095,42 @@ msgctxt "SortTools|"
 msgid "By size"
 msgstr ""
 
+msgctxt "SslDialog|"
+msgid "Warning: potential security risk ahead"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "SSL Certificate is not valid."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Certificate fingerprints"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "SHA-256:"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "SHA1:"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Accept the risk and download"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgctxt "SslDialog|"
+msgid "Security risk"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Continue"
+msgstr ""
+
 msgctxt "StatusItem|"
 msgid "Checking resume data..."
 msgstr ""
@@ -1937,6 +2162,22 @@ msgstr "Pausad"
 msgctxt "StatusItem|"
 msgid "Completed"
 msgstr "Slutfört"
+
+msgctxt "TagColorDialog|"
+msgid "Remove tag"
+msgstr ""
+
+msgctxt "TagMenu|"
+msgid "Edit"
+msgstr ""
+
+msgctxt "TagMenu|"
+msgid "Remove"
+msgstr ""
+
+msgctxt "TagPalette|"
+msgid "Customize color"
+msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -2039,68 +2280,39 @@ msgid "Change traffic limits"
 msgstr ""
 
 
+
+
+
+
+
+
+
+
+
+
+
 msgctxt "TuneAndAddDownloadDialog|"
+msgid "New download"
+msgstr ""
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "New file"
 msgstr "Ny fil"
 
-msgctxt "TuneAndAddDownloadDialog|"
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Download"
+msgstr "Ladda ner"
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "Save to"
 msgstr "Spara till"
 
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Create subfolder"
-msgstr "Skapa undermapp"
-
-msgctxt "TuneAndAddDownloadDialog|"
+msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "Filnamn"
 
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Quality:"
-msgstr "Kvalitet:"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Files"
-msgstr "Filer"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Select all"
-msgstr "Välj Alla"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Select none"
-msgstr "Välj ingen"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Download links"
-msgstr "Ladda ner länkar"
-
-msgctxt "TuneAndAddDownloadDialog|"
+msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr ""
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Scheduler"
-msgstr "Scheduler"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Cancel"
-msgstr "Avbryt"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Download"
-msgstr "Ladda ner"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Ny fil"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "Download"
-msgstr "Ladda ner"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "Size: %1"
 msgstr ""
 
 msgctxt "UpdateDialog|"
@@ -2128,7 +2340,7 @@ msgid "Update"
 msgstr "Uppdatering"
 
 msgctxt "UpdateDialog|"
-msgid "FDM is up to date"
+msgid "%1 is up to date"
 msgstr ""
 
 msgctxt "UpdateDialog|"
@@ -2164,7 +2376,7 @@ msgid "Error occurred during installation:"
 msgstr ""
 
 msgctxt "UpdateDialog|"
-msgid "Relaunch FDM to update"
+msgid "Relaunch %1 to update"
 msgstr ""
 
 msgctxt "UpdateDialog|"
@@ -2179,6 +2391,10 @@ msgctxt "UpdateDialog|"
 msgid "Check for updates"
 msgstr "Sök efter uppdateringar"
 
+msgctxt "VideoQuality|"
+msgid "Quality:"
+msgstr "Kvalitet:"
+
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr ""
@@ -2186,3 +2402,7 @@ msgstr ""
 msgctxt "main|"
 msgid "Move"
 msgstr "Flytta"
+
+msgctxt "main|"
+msgid "Cancel"
+msgstr "Avbryt"

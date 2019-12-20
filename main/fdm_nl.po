@@ -8,21 +8,6 @@ msgstr ""
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
 
-msgid "Download with FDM"
-msgstr "Downloaden met FDM"
-
-msgid "Download selected with FDM"
-msgstr "Geselecteerde met FDM downloaden"
-
-msgid "Download video with FDM"
-msgstr "Download video met FDM"
-
-msgid "Error: 0x%x. Failed to transfer downloads to FDM."
-msgstr ""
-
-msgid "No flash video found. Try reloading this page."
-msgstr ""
-
 msgctxt "AboutDialog|"
 msgid "About"
 msgstr ""
@@ -43,6 +28,14 @@ msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "Versie %1 (%2)"
 
+msgctxt "AddDateToFileName|"
+msgid "Add dates to files names"
+msgstr ""
+
+msgctxt "AddTag|"
+msgid "Add tag"
+msgstr ""
+
 msgctxt "AdvancedSettings|"
 msgid "Advanced"
 msgstr "Geavanceerd"
@@ -56,7 +49,7 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr "Notificaties van voltooide downloads via Actiecentrum"
 
 msgctxt "AdvancedSettings|"
-msgid "Notify me of downloads only when FDM window is inactive"
+msgid "Notify me of downloads only when %1 window is inactive"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
@@ -151,21 +144,31 @@ msgctxt "AuthenticationPage|"
 msgid "Remember"
 msgstr ""
 
+msgctxt "BatchVideoQuality|"
+msgid "Preffered Video Quality:"
+msgstr ""
+
 msgctxt "BottomPanelTools|"
 msgid "General"
 msgstr "Algemeen"
 
 msgctxt "BottomPanelTools|"
-msgid "Files"
-msgstr "Bestanden"
-
-msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Voortgang"
+
+msgctxt "BottomPanelTools|"
+msgid "Files"
+msgstr "Bestanden"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "Browser integratie"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid ""
+"Make sure you have %1 extension installed, otherwise, click one of the "
+"buttons below"
+msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Download Firefox extension"
@@ -216,7 +219,7 @@ msgid "Mbytes"
 msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Use browser if you cancel download via FDM"
+msgid "Use browser if you cancel download via %1"
 msgstr ""
 
 msgctxt "BuildDownloadDialog|"
@@ -255,6 +258,22 @@ msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
 msgstr ""
 
+msgctxt "BuildDownloadTools|"
+msgid "Querying info. Please wait..."
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "Please select download link"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgctxt "ButtonsBlock|"
+msgid "Download"
+msgstr "Download"
+
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
 msgstr "Wijzigen download-URL"
@@ -266,6 +285,10 @@ msgstr "Voer nieuwe URL"
 msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
 msgstr "Ongeldige URL"
+
+msgctxt "ChangeUrlDialog|"
+msgid "Start download"
+msgstr "Start downloaden"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Cancel"
@@ -288,8 +311,16 @@ msgid "Enter new URL"
 msgstr "Voer nieuwe URL"
 
 msgctxt "ChangeUrlPage|"
+msgid "Start download"
+msgstr "Start downloaden"
+
+msgctxt "ChangeUrlPage|"
 msgid "Invalid URL"
 msgstr "Ongeldige URL"
+
+msgctxt "CopyLinkMenu|"
+msgid "Copy link"
+msgstr "Koppeling kopiëren"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -368,6 +399,10 @@ msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
 msgstr "Annuleren"
 
+msgctxt "DiskSpace|"
+msgid "Size: %1 (Disk space: %2)"
+msgstr ""
+
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "Bestand ontbreekt"
@@ -376,33 +411,33 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr ""
 
-msgctxt "DownloadsPage|"
-msgid "Cancel"
-msgstr "Annuleren"
+msgctxt "DownloadsList|"
+msgid "Download links"
+msgstr "Verbindingen van de Download"
 
-msgctxt "DownloadsPage|"
-msgid "Computer will be put to sleep after all downloads are completed."
-msgstr "Computer gaat in slaapstand na voltooiing downloads."
+msgctxt "DownloadsList|"
+msgid "Select all"
+msgstr "Alles selecteren"
 
-msgctxt "DownloadsPage|"
-msgid "Computer will be hibernate after all downloads are completed."
-msgstr ""
-
-msgctxt "DownloadsPage|"
-msgid "Computer will be shutdown after all downloads are completed."
-msgstr ""
+msgctxt "DownloadsList|"
+msgid "Select none"
+msgstr "Niets selecteren"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
 msgstr ""
 
 msgctxt "DownloadsPage|"
-msgid " Add new download URL."
+msgid "Add new download URL."
 msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "Geen resultaten gevonden voor"
+
+msgctxt "DownloadsPage|"
+msgid "No results tagged \"%1\" found"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
@@ -418,6 +453,10 @@ msgstr "Alles weergeven"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
+msgstr ""
+
+msgctxt "DownloadsTagMenu|"
+msgid "Untag"
 msgstr ""
 
 msgctxt "DownloadsViewHeader|"
@@ -497,6 +536,10 @@ msgid "Copy link"
 msgstr "Koppeling kopiëren"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Add Tag"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "File integrity"
 msgstr "Bestandsintegriteit"
 
@@ -530,7 +573,7 @@ msgstr "Sequentiële downloaden"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
-msgstr "Download voltooid"
+msgstr "Download complete (Download voltooid"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Moving... %1%"
@@ -660,6 +703,14 @@ msgctxt "FileIntegrityPage|"
 msgid "Verification failed"
 msgstr ""
 
+msgctxt "FileName|"
+msgid "Create subfolder"
+msgstr "Submap maken"
+
+msgctxt "FileName|"
+msgid "File name"
+msgstr "Bestandsnaam"
+
 msgctxt "FilePickerPage|"
 msgid "Select folder"
 msgstr "Selecteer map"
@@ -677,6 +728,18 @@ msgid "Empty folder"
 msgstr ""
 
 msgctxt "FilePickerSortDialog|"
+msgid "By date"
+msgstr ""
+
+msgctxt "FilePickerSortDialog|"
+msgid "By name"
+msgstr ""
+
+msgctxt "FilePickerSortDialog|"
+msgid "By size"
+msgstr ""
+
+msgctxt "FilePickerSortDialog|"
 msgid "Sort"
 msgstr ""
 
@@ -686,6 +749,10 @@ msgstr ""
 
 msgctxt "FilePickerSortDialog|"
 msgid "Descending"
+msgstr ""
+
+msgctxt "FileType|"
+msgid "Preffered File Type:"
 msgstr ""
 
 msgctxt "FilesTree|"
@@ -715,6 +782,18 @@ msgstr "Hoog"
 msgctxt "FilesTree|"
 msgid "Low"
 msgstr "Laag"
+
+msgctxt "FilesTree|"
+msgid "Files"
+msgstr "Bestanden"
+
+msgctxt "FilesTree|"
+msgid "Select all"
+msgstr "Alles selecteren"
+
+msgctxt "FilesTree|"
+msgid "Select none"
+msgstr "Niets selecteren"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High Priority"
@@ -812,6 +891,10 @@ msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr ""
 
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Starten bij het opstarten (geminimaliseerd)"
+
 msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "Totale grootte:"
@@ -860,6 +943,14 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr ""
 
+msgctxt "IntegrationBanner|"
+msgid "Set as Default"
+msgstr "Als standaard instellen"
+
+msgctxt "IntegrationBanner|"
+msgid "Don't ask again"
+msgstr ""
+
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
 msgstr ""
@@ -904,9 +995,49 @@ msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "Voltooid"
 
+msgctxt "MainMenu|"
+msgid "Paste Urls from Clipboard"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Preferences..."
+msgstr "Voorkeuren..."
+
+msgctxt "MainMenu|"
+msgid "Contact Support"
+msgstr "Contact Opnemen Met Ondersteuning"
+
+msgctxt "MainMenu|"
+msgid "Auto Shutdown"
+msgstr "Auto-afsluiten"
+
+msgctxt "MainMenu|"
+msgid "Sleep"
+msgstr "Slaapstand"
+
+msgctxt "MainMenu|"
+msgid "Hibernate"
+msgstr "Sluimerstand"
+
+msgctxt "MainMenu|"
+msgid "Shutdown"
+msgstr "Afsluiten"
+
+msgctxt "MainMenu|"
+msgid "Check for Updates..."
+msgstr "Controleren op Updates..."
+
+msgctxt "MainMenu|"
+msgid "About"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Quit"
+msgstr "Sluiten"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
-msgstr ""
+msgstr "Slakkenmodus maakt bandbreedte vrij zonder downloads te stoppen."
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
@@ -960,45 +1091,13 @@ msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "Hoofdmenu"
 
-msgctxt "MainToolbar|"
-msgid "Paste Urls from Clipboard"
-msgstr ""
 
-msgctxt "MainToolbar|"
-msgid "Preferences..."
-msgstr "Voorkeuren..."
 
-msgctxt "MainToolbar|"
-msgid "Contact Support"
-msgstr "Contact Opnemen Met Ondersteuning"
 
-msgctxt "MainToolbar|"
-msgid "Auto Shutdown"
-msgstr "Auto-afsluiten"
 
-msgctxt "MainToolbar|"
-msgid "Sleep"
-msgstr "Slaapstand"
 
-msgctxt "MainToolbar|"
-msgid "Hibernate"
-msgstr "Sluimerstand"
 
-msgctxt "MainToolbar|"
-msgid "Shutdown"
-msgstr "Afsluiten"
 
-msgctxt "MainToolbar|"
-msgid "Check for Updates..."
-msgstr "Controleren op Updates..."
-
-msgctxt "MainToolbar|"
-msgid "About"
-msgstr ""
-
-msgctxt "MainToolbar|"
-msgid "Quit"
-msgstr "Sluiten"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -1089,10 +1188,6 @@ msgid "Check for Updates..."
 msgstr "Controleren op Updates..."
 
 msgctxt "NativeMenuBar|"
-msgid "About"
-msgstr ""
-
-msgctxt "NativeMenuBar|"
 msgid "Preferences..."
 msgstr "Voorkeuren..."
 
@@ -1138,11 +1233,11 @@ msgstr ""
 
 msgctxt "NativeMenuBar|"
 msgid "Remove from List"
-msgstr ""
+msgstr "Uit lijst verwijderen"
 
 msgctxt "NativeMenuBar|"
 msgid "Help"
-msgstr ""
+msgstr "Help"
 
 msgctxt "NativeMenuBar|"
 msgid "Contact Support"
@@ -1252,6 +1347,30 @@ msgctxt "Page|"
 msgid "Files"
 msgstr "Bestanden"
 
+msgctxt "PreferredFileTypeCombobox|"
+msgid "Audio"
+msgstr ""
+
+msgctxt "PreferredFileTypeCombobox|"
+msgid "Video"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "Low (240p)"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "Medium (480p)"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "High (1080p)"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "4K (2160p)"
+msgstr ""
+
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "Onverwachte fout"
@@ -1311,8 +1430,16 @@ msgid "Quit"
 msgstr "Sluiten"
 
 msgctxt "QObject|"
+msgid "%1 K"
+msgstr "%1 K"
+
+msgctxt "QObject|"
+msgid "%1 M"
+msgstr "%1 M"
+
+msgctxt "QObject|"
 msgid "Download complete"
-msgstr "Download voltooid"
+msgstr "Download complete (Download voltooid"
 
 msgctxt "QObject|"
 msgid "Downloads complete"
@@ -1698,6 +1825,42 @@ msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr ""
 
+msgctxt "QObject|"
+msgid "Download with %1"
+msgstr "Downloaden met %1"
+
+msgctxt "QObject|"
+msgid "Download all with %1"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Download selected with %1"
+msgstr "Geselecteerde met %1 downloaden"
+
+msgctxt "QObject|"
+msgid "Download video with %1"
+msgstr "Download video met %1"
+
+msgctxt "QObject|"
+msgid "Video"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Music"
+msgstr ""
+
+msgctxt "SaveTo|"
+msgid "Save to"
+msgstr ""
+
+msgctxt "SaveTo|"
+msgid "Open"
+msgstr "Open"
+
+msgctxt "SaveTo|"
+msgid "Cancel"
+msgstr "Annuleren"
+
 msgctxt "Scheduler|"
 msgid "Sun"
 msgstr "Zon"
@@ -1731,8 +1894,16 @@ msgid "From:"
 msgstr ""
 
 msgctxt "Scheduler|"
+msgid "Everyday"
+msgstr ""
+
+msgctxt "Scheduler|"
 msgid "To:"
 msgstr "Aan:"
+
+msgctxt "SchedulerCheckbox|"
+msgid "Scheduler"
+msgstr ""
 
 msgctxt "SchedulerDialog|"
 msgid "Scheduler"
@@ -1819,6 +1990,10 @@ msgid "Advanced"
 msgstr "Geavanceerd"
 
 msgctxt "SettingsPage|"
+msgid "Settings"
+msgstr "Instellingen"
+
+msgctxt "SettingsPage|"
 msgid "Network settings"
 msgstr ""
 
@@ -1870,6 +2045,22 @@ msgctxt "Sheduler|"
 msgid "Sat"
 msgstr "Sat"
 
+msgctxt "ShutdownBanner|"
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgctxt "ShutdownBanner|"
+msgid "Computer will be put to sleep after all downloads are completed."
+msgstr "Computer gaat in slaapstand na voltooiing downloads."
+
+msgctxt "ShutdownBanner|"
+msgid "Computer will be hibernate after all downloads are completed."
+msgstr ""
+
+msgctxt "ShutdownBanner|"
+msgid "Computer will be shutdown after all downloads are completed."
+msgstr ""
+
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
 msgstr "Bevestigen"
@@ -1906,6 +2097,42 @@ msgctxt "SortTools|"
 msgid "By size"
 msgstr ""
 
+msgctxt "SslDialog|"
+msgid "Warning: potential security risk ahead"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "SSL Certificate is not valid."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Certificate fingerprints"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "SHA-256:"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "SHA1:"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Accept the risk and download"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgctxt "SslDialog|"
+msgid "Security risk"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Continue"
+msgstr ""
+
 msgctxt "StatusItem|"
 msgid "Checking resume data..."
 msgstr ""
@@ -1937,6 +2164,22 @@ msgstr "Gepauzeerd"
 msgctxt "StatusItem|"
 msgid "Completed"
 msgstr "Voltooid"
+
+msgctxt "TagColorDialog|"
+msgid "Remove tag"
+msgstr ""
+
+msgctxt "TagMenu|"
+msgid "Edit"
+msgstr ""
+
+msgctxt "TagMenu|"
+msgid "Remove"
+msgstr ""
+
+msgctxt "TagPalette|"
+msgid "Customize color"
+msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -2039,68 +2282,37 @@ msgid "Change traffic limits"
 msgstr ""
 
 
+
+
+
+
+
+
+
+
+
 msgctxt "TuneAndAddDownloadDialog|"
+msgid "New download"
+msgstr ""
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "New file"
 msgstr "Nieuw bestand"
 
-msgctxt "TuneAndAddDownloadDialog|"
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Download"
+msgstr "Download"
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "Save to"
 msgstr ""
 
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Create subfolder"
-msgstr "Submap maken"
-
-msgctxt "TuneAndAddDownloadDialog|"
+msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "Bestandsnaam"
 
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Quality:"
-msgstr "Kwaliteit:"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Files"
-msgstr "Bestanden"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Select all"
-msgstr "Alles selecteren"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Select none"
-msgstr "Niets selecteren"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Download links"
-msgstr "Verbindingen van de Download"
-
-msgctxt "TuneAndAddDownloadDialog|"
+msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr ""
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Scheduler"
-msgstr ""
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Cancel"
-msgstr "Annuleren"
-
-msgctxt "TuneAndAddDownloadDialog|"
-msgid "Download"
-msgstr "Download"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Nieuw bestand"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "Download"
-msgstr "Download"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "Size: %1"
 msgstr ""
 
 msgctxt "UpdateDialog|"
@@ -2128,7 +2340,7 @@ msgid "Update"
 msgstr "Update"
 
 msgctxt "UpdateDialog|"
-msgid "FDM is up to date"
+msgid "%1 is up to date"
 msgstr ""
 
 msgctxt "UpdateDialog|"
@@ -2164,8 +2376,8 @@ msgid "Error occurred during installation:"
 msgstr "Fout tijdens installatie:"
 
 msgctxt "UpdateDialog|"
-msgid "Relaunch FDM to update"
-msgstr "FDM herstarten om te vernieuwen"
+msgid "Relaunch %1 to update"
+msgstr "%1 herstarten om te vernieuwen"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch (%1)"
@@ -2179,6 +2391,10 @@ msgctxt "UpdateDialog|"
 msgid "Check for updates"
 msgstr "Controleren op updates"
 
+msgctxt "VideoQuality|"
+msgid "Quality:"
+msgstr "Kwaliteit:"
+
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr ""
@@ -2186,3 +2402,7 @@ msgstr ""
 msgctxt "main|"
 msgid "Move"
 msgstr "Verplaatsen"
+
+msgctxt "main|"
+msgid "Cancel"
+msgstr "Annuleren"
