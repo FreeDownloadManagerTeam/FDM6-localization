@@ -12,7 +12,6 @@ msgctxt "AboutDialog|"
 msgid "About"
 msgstr "О программе"
 
-
 msgctxt "AboutDialog|"
 msgid "%1 version %2"
 msgstr "%1 версия %2"
@@ -73,6 +72,10 @@ msgstr "Запускать при старте системы (в свёрнут
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Открывать/закрывать нижнюю панель по клику на загрузку"
+
+msgctxt "AdvancedSettings|"
+msgid "Perform automatic backup of the database every"
+msgstr "Выполнять автоматическое резервное копирование базы данных каждый(е)"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -141,6 +144,26 @@ msgstr "Пароль"
 msgctxt "AuthenticationPage|"
 msgid "Remember"
 msgstr "Запомнить"
+
+msgctxt "BackupComboBox|"
+msgid "5 minutes"
+msgstr "5 минут"
+
+msgctxt "BackupComboBox|"
+msgid "15 minutes"
+msgstr "15 минут"
+
+msgctxt "BackupComboBox|"
+msgid "1 hour"
+msgstr "1 час"
+
+msgctxt "BackupComboBox|"
+msgid "3 hours"
+msgstr "3 часа"
+
+msgctxt "BackupComboBox|"
+msgid "1 day"
+msgstr "1 день"
 
 msgctxt "BatchVideoQuality|"
 msgid "Preffered Video Quality:"
@@ -593,7 +616,6 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Moving... %1%"
 msgstr "Перемещение... %1%"
 
-
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "Проверка файлов..."
@@ -621,7 +643,6 @@ msgstr "Неизвестен размер файла"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "%1 left"
 msgstr "Осталось %1 "
-
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files..."
@@ -1107,15 +1128,6 @@ msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "Главное меню"
 
-
-
-
-
-
-
-
-
-
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
 msgstr "Без ограничений"
@@ -1407,6 +1419,10 @@ msgstr "Сервисное соединение разорвано."
 msgctxt "QObject|"
 msgid "App backend's server listen failed."
 msgstr "Не удалось прослушать сервер бэкенда приложения."
+
+msgctxt "QObject|"
+msgid "Error"
+msgstr "Ошибка"
 
 msgctxt "QObject|"
 msgid "Connection failure"
@@ -1876,6 +1892,10 @@ msgctxt "QObject|"
 msgid "Music"
 msgstr "Музыка"
 
+msgctxt "QObject|"
+msgid "There is not enough disk space."
+msgstr ""
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "Сохранить в"
@@ -2161,7 +2181,6 @@ msgctxt "SslDialog|"
 msgid "Continue"
 msgstr "Продолжить"
 
-
 msgctxt "StatusItem|"
 msgid "Checking files..."
 msgstr "Проверка файлов..."
@@ -2314,18 +2333,6 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Изменить ограничения трафика"
 
-
-
-
-
-
-
-
-
-
-
-
-
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Новая загрузка"
@@ -2441,3 +2448,31 @@ msgstr "Переместить"
 msgctxt "main|"
 msgid "Cancel"
 msgstr "Отменить"
+
+msgctxt "main|"
+msgid "Enjoy FDM?"
+msgstr "Нравится FDM?"
+
+msgctxt "main|"
+msgid "Not, really"
+msgstr "Нет"
+
+msgctxt "main|"
+msgid "Yes!"
+msgstr "Да!"
+
+msgctxt "main|"
+msgid "Thanks a lot! Please rate on Google Play."
+msgstr "Спасибо за поддержку! Оцените FDM на Google Play."
+
+msgctxt "main|"
+msgid "No, thanks"
+msgstr "Нет"
+
+msgctxt "main|"
+msgid "OK, sure!"
+msgstr "OK"
+
+msgctxt "main|"
+msgid "Let's make it better together! Give us your feedback."
+msgstr "Давайте вместе сделаем  FDM лучше! Ждём ваших предложений."
