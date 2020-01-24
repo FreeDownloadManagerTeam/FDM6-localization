@@ -96,6 +96,10 @@ msgid "Always ask"
 msgstr "Всегда спрашивать"
 
 
+msgctxt "AdvancedSettings|"
+msgid "Advanced settings"
+msgstr "Расширенные настройки"
+
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "Необходима авторизация"
@@ -165,6 +169,26 @@ msgid "3 hours"
 msgstr "3 часа"
 
 msgctxt "BackupComboBox|"
+msgid "1 day"
+msgstr "1 день"
+
+msgctxt "BackupSlider|"
+msgid "5 minutes"
+msgstr "5 минут"
+
+msgctxt "BackupSlider|"
+msgid "15 minutes"
+msgstr "15 минут"
+
+msgctxt "BackupSlider|"
+msgid "1 hour"
+msgstr "1 час"
+
+msgctxt "BackupSlider|"
+msgid "3 hours"
+msgstr "3 часа"
+
+msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 день"
 
@@ -931,9 +955,6 @@ msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "Используется мобильный Интернет"
 
-msgctxt "GeneralSettings|"
-msgid "Launch at startup (minimized)"
-msgstr "Запускать при старте системы (в свёрнутом виде)"
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1330,6 +1351,10 @@ msgstr ""
 msgctxt "NetworkSettings|"
 msgid "Invalid proxy settings"
 msgstr "Некорректные настройки прокси"
+
+msgctxt "NetworkSettings|"
+msgid "Proxy settings"
+msgstr "Настройки прокси"
 
 msgctxt "NetworkSettings|"
 msgid "HTTP"
@@ -1808,20 +1833,24 @@ msgid "Fast resume failure"
 msgstr ""
 
 msgctxt "QObject|"
-msgid "Failed to parse"
-msgstr ""
+msgid "Can't process page"
+msgstr "Не удалось обработать страницу"
+
+msgctxt "QObject|"
+msgid "Error processing page content"
+msgstr "Ошибка обработки содержимого страницы"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
-msgstr ""
+msgstr "Неподдерживаемый URL"
 
 msgctxt "QObject|"
 msgid "Untitled"
-msgstr ""
+msgstr "Без названия"
 
 msgctxt "QObject|"
 msgid "Failed to remove current version"
-msgstr ""
+msgstr "Не удалось удалить текущую версию"
 
 msgctxt "QObject|"
 msgid "hdiutil error %1"
@@ -1897,6 +1926,20 @@ msgstr "Музыка"
 
 msgctxt "QObject|"
 msgid "There is not enough disk space."
+msgstr "Недостаточно места на диске"
+
+msgctxt "QObject|"
+msgid ""
+"The list of downloads is damaged.\n"
+"%1 has failed to restore it from backup.\n"
+"Please close all your web browsers and try again."
+msgstr ""
+"Список загрузок поврежден.\n"
+"%1 не удалось восстановить его из резервной копии.\n"
+"Пожалуйста, закройте все браузеры и попробуйте снова."
+
+msgctxt "QObject|"
+msgid "Failed to initialize core objects."
 msgstr ""
 
 msgctxt "SaveTo|"
@@ -2050,6 +2093,10 @@ msgstr "Сетевые настройки"
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
 msgstr "Ограничение скорости"
+
+msgctxt "SettingsPage|"
+msgid "Advanced settings"
+msgstr "Расширенные настройки"
 
 msgctxt "Sheduler|"
 msgid "Scheduler"
