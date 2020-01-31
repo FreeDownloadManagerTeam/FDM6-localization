@@ -325,6 +325,10 @@ msgid "Please select download link"
 msgstr "Выберите ссылку"
 
 msgctxt "ButtonsBlock|"
+msgid "You can select no more than %1 links at a time"
+msgstr "Вы можете выбрать не более %1 ссылок за один раз"
+
+msgctxt "ButtonsBlock|"
 msgid "Cancel"
 msgstr "Отменить"
 
@@ -471,9 +475,10 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Диск отсутствует"
 
+
 msgctxt "DownloadsList|"
-msgid "Download links"
-msgstr "Ссылки загрузки"
+msgid "Download links (%1 selected)"
+msgstr "Ссылки загрузки (%1 выбрано)"
 
 msgctxt "DownloadsList|"
 msgid "Select all"
@@ -926,6 +931,10 @@ msgstr "Компактный вид списка загрузок"
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
 msgstr "Автоматически удалять загрузки при удалении файла с диска"
+
+msgctxt "GeneralSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr "Автоматически удалять завершенные загрузки из списка загрузок"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -1480,13 +1489,22 @@ msgctxt "QObject|"
 msgid "Enter URL"
 msgstr "Введите URL"
 
+
 msgctxt "QObject|"
-msgid "App has failed to initialize. Please reinstall."
-msgstr "Приложение не удалось инициализировать. Пожалуйста, переустановите."
+msgid "%1 has failed to initialize. Please reinstall."
+msgstr "%1 не удалось инициализировать. Пожалуйста, переустановите."
 
 msgctxt "QObject|"
 msgid "Reason: %1"
 msgstr "Причина: %1"
+
+msgctxt "QObject|"
+msgid "Contact Support"
+msgstr "Служба поддержки"
+
+msgctxt "QObject|"
+msgid "Exit"
+msgstr "Выход"
 
 msgctxt "QObject|"
 msgid "Show main window"
@@ -2499,9 +2517,10 @@ msgctxt "main|"
 msgid "Cancel"
 msgstr "Отменить"
 
+
 msgctxt "main|"
-msgid "Enjoy FDM?"
-msgstr "Нравится FDM?"
+msgid "Enjoy %1?"
+msgstr "Нравится %1?"
 
 msgctxt "main|"
 msgid "Not, really"
