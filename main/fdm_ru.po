@@ -13,8 +13,9 @@ msgid "About"
 msgstr "О программе"
 
 msgctxt "AboutDialog|"
-msgid "%1 version %2"
-msgstr "%1 версия %2"
+msgid "<a href='%1'>%2</a> version %3"
+msgstr ""
+
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -343,6 +344,18 @@ msgstr "Вы можете выбрать не более %1 ссылок за о
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
 msgstr "Недостаточно места на диске"
+
+msgctxt "ButtonsBlock|"
+msgid "The path contains invalid characters"
+msgstr "Путь содержит недопустимые символы"
+
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name contains invalid characters"
+msgstr "Имя папки содержит недопустимые символы"
+
+msgctxt "ButtonsBlock|"
+msgid "The filename contains invalid characters"
+msgstr "Имя файла содержит недопустимые символы"
 
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
