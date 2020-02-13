@@ -552,7 +552,7 @@ msgstr "La lista de descargas está vacía. Agrega una nueva URL de descarga."
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
-msgstr "Destiquetar"
+msgstr "Desetiquetar"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Name"
@@ -944,7 +944,7 @@ msgstr "Descargas"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
-msgstr "Sugerir carpetas basado en el tipo de archivo"
+msgstr "Sugerir carpetas basadas en el tipo de archivo"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
@@ -989,7 +989,7 @@ msgstr "Iniciar descarga sin confirmación"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
-msgstr "Usar red móvil"
+msgstr "Usar red de trabajo móvil"
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1133,7 +1133,7 @@ msgstr "Salir"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
-msgstr "Modo caracol libera ancho de banda sin parar descargas."
+msgstr "Modo caracol libera ancho de banda sin parar las descargas."
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
@@ -1237,7 +1237,7 @@ msgstr "Agregada a las:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
-msgstr "Saltar"
+msgstr "Omitir"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "OK"
@@ -1289,23 +1289,23 @@ msgstr "Salir"
 
 msgctxt "NativeMenuBar|"
 msgid "&File"
-msgstr "&Archivo"
+msgstr "Archivo"
 
 msgctxt "NativeMenuBar|"
 msgid "Add &new download"
-msgstr "Agregar &nueva descarga"
+msgstr "Agregar nueva descarga"
 
 msgctxt "NativeMenuBar|"
 msgid "&Edit"
-msgstr "&Editar"
+msgstr "Editar"
 
 msgctxt "NativeMenuBar|"
 msgid "&Copy"
-msgstr "&Copiar"
+msgstr "Copiar"
 
 msgctxt "NativeMenuBar|"
 msgid "&Paste"
-msgstr "&Pegar"
+msgstr "Pegar"
 
 msgctxt "NativeMenuBar|"
 msgid "Downloads"
@@ -1337,7 +1337,7 @@ msgstr "Contactar Soporte"
 
 msgctxt "NetworkSettings|"
 msgid "Network"
-msgstr "Red"
+msgstr "Red de trabajo"
 
 msgctxt "NetworkSettings|"
 msgid "Proxy"
@@ -1817,15 +1817,15 @@ msgstr "No Extendido"
 
 msgctxt "QObject|"
 msgid "Network Authentication Required"
-msgstr "Autentificación de Red Requerida"
+msgstr "Autentificación de Red de trabajo Requerida"
 
 msgctxt "QObject|"
 msgid "Network read timeout error"
-msgstr "Error de tiempo de espera de lectura de red"
+msgstr "Error de tiempo de espera de lectura de red de trabajo"
 
 msgctxt "QObject|"
 msgid "Network connect timeout error"
-msgstr "Error de tiempo de espera de conexión de red"
+msgstr "Error de tiempo de espera de conexión de red de trabajo"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -1853,7 +1853,7 @@ msgstr "Conexión rechazada"
 
 msgctxt "QObject|"
 msgid "Network error"
-msgstr "Error de red"
+msgstr "Error de red de trabajo"
 
 msgctxt "QObject|"
 msgid "Operation not permitted"
@@ -1965,7 +1965,7 @@ msgstr "Vídeo"
 
 msgctxt "QObject|"
 msgid "Music"
-msgstr "Musica"
+msgstr "Música"
 
 msgctxt "QObject|"
 msgid "There is not enough disk space."
@@ -2037,6 +2037,10 @@ msgctxt "Scheduler|"
 msgid "To:"
 msgstr "Hasta:"
 
+msgctxt "SchedulerButton|"
+msgid "Scheduler"
+msgstr "Programador"
+
 msgctxt "SchedulerCheckbox|"
 msgid "Scheduler"
 msgstr "Programador"
@@ -2063,11 +2067,15 @@ msgstr "Aplicar"
 
 msgctxt "SchedulerDialog|"
 msgid "All the day"
-msgstr ""
+msgstr "Todo el día"
 
 msgctxt "SchedulerDialog|"
 msgid "Everyday"
 msgstr "Todos los días"
+
+msgctxt "SchedulerDialog|"
+msgid "Close"
+msgstr "Cerrar"
 
 msgctxt "SchedulerDialog|"
 msgid "Sun"
@@ -2099,7 +2107,7 @@ msgstr "Sab"
 
 msgctxt "SchedulerTools|"
 msgid "Set days of the week to enable Scheduler"
-msgstr "Establecer días de la semana para activar el programador"
+msgstr "Establecer días de la semana para activar el Programador"
 
 msgctxt "SearchField|"
 msgid "Search"
@@ -2151,7 +2159,7 @@ msgstr "Integración del navegador"
 
 msgctxt "SettingsPage|"
 msgid "Network"
-msgstr "Red"
+msgstr "Red de trabajo"
 
 msgctxt "SettingsPage|"
 msgid "Traffic Limits"
@@ -2167,7 +2175,7 @@ msgstr "Ajustes"
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
-msgstr "Ajustes de red"
+msgstr "Ajustes de red de trabajo"
 
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
@@ -2176,50 +2184,6 @@ msgstr "Límites de tráfico"
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Ajustes avanzados"
-
-msgctxt "Sheduler|"
-msgid "Scheduler"
-msgstr "Programador"
-
-msgctxt "Sheduler|"
-msgid "Start and pause downloads at specified time"
-msgstr "Iniciar y pausar descargas en un tiempo especifico"
-
-msgctxt "Sheduler|"
-msgid "From:"
-msgstr "Desde:"
-
-msgctxt "Sheduler|"
-msgid "To:"
-msgstr "Hasta:"
-
-msgctxt "Sheduler|"
-msgid "Sun"
-msgstr "Dom"
-
-msgctxt "Sheduler|"
-msgid "Mon"
-msgstr "Lun"
-
-msgctxt "Sheduler|"
-msgid "Tue"
-msgstr "Mar"
-
-msgctxt "Sheduler|"
-msgid "Wed"
-msgstr "Mie"
-
-msgctxt "Sheduler|"
-msgid "Thu"
-msgstr "Jue"
-
-msgctxt "Sheduler|"
-msgid "Fri"
-msgstr "Vie"
-
-msgctxt "Sheduler|"
-msgid "Sat"
-msgstr "Sab"
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -2402,6 +2366,10 @@ msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "Ajustes de limites de trafico invalidos"
 
+msgctxt "TrafficLimitsSettings|"
+msgid "Traffic limits"
+msgstr "Límites de tráfico"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "Ilimitado"
@@ -2460,7 +2428,7 @@ msgstr "Modo caracol"
 
 msgctxt "TumModeBlock|"
 msgid "Frees bandwidth without stopping downloads."
-msgstr "Libera ancho de banda sin parar descargas."
+msgstr "Libera ancho de banda sin parar las descargas."
 
 msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
