@@ -14,7 +14,7 @@ msgstr "О программе"
 
 msgctxt "AboutDialog|"
 msgid "<a href='%1'>%2</a> version %3"
-msgstr ""
+msgstr "<a href='%1'>%2</a> версия %3"
 
 
 msgctxt "AboutDialog|"
@@ -205,9 +205,46 @@ msgctxt "BaseTextField|"
 msgid "Paste"
 msgstr "Вставить"
 
+
 msgctxt "BatchVideoQuality|"
-msgid "Preffered Video Quality:"
+msgid "Preferred Video Quality:"
 msgstr "Предпочтительное качество видео:"
+
+msgctxt "BitrateComboBox|"
+msgid "kbps"
+msgstr ""
+
+msgctxt "BitrateComboBox|"
+msgid "From %1 %2 to %3 %4"
+msgstr "С %1 %2 до %3 %4"
+
+msgctxt "BitrateComboBox|"
+msgid "CD quality"
+msgstr "CD качество"
+
+msgctxt "BitrateComboBox|"
+msgid "High quality"
+msgstr "Высокое качество"
+
+msgctxt "BitrateComboBox|"
+msgid "Medium quality"
+msgstr "Среднее качество"
+
+msgctxt "BitrateComboBox|"
+msgid "Radio quality"
+msgstr "Качество радио"
+
+msgctxt "BitrateComboBox|"
+msgid "Low quality"
+msgstr "Низкое качество"
+
+msgctxt "BitrateComboBox|"
+msgid "Speech"
+msgstr "Речь"
+
+msgctxt "BitrateComboBox|"
+msgid "Lowest quality, smallest file size"
+msgstr "Низкое качество, минимальный размер файла"
 
 msgctxt "BottomPanelTools|"
 msgid "General"
@@ -287,7 +324,7 @@ msgstr "Не перехватывать загрузки размером мен
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
-msgstr "Мб"
+msgstr "Мбайт"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
@@ -408,6 +445,38 @@ msgstr "Начать загрузку"
 msgctxt "ChangeUrlPage|"
 msgid "Invalid URL"
 msgstr "Некорректный URL"
+
+msgctxt "ConvertationDialog|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr "Конвертировать в mp3 с регулируемым битрейтом"
+
+msgctxt "ConvertationDialog|"
+msgid "Save to"
+msgstr "Сохранить в"
+
+msgctxt "ConvertationDialog|"
+msgid "Open"
+msgstr "Открыть"
+
+msgctxt "ConvertationDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "ConvertationDialog|"
+msgid "Bitrate (quality)"
+msgstr "Битрейт (качество)"
+
+msgctxt "ConvertationDialog|"
+msgid "Constant bitrate of value"
+msgstr "Постоянный битрейт"
+
+msgctxt "ConvertationDialog|"
+msgid "Variable bitrate (VBR)"
+msgstr "Переменный битрейт (VBR)"
+
+msgctxt "ConvertationDialog|"
+msgid "OK"
+msgstr "ОК"
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
@@ -654,6 +723,10 @@ msgid "Change URL"
 msgstr "Изменить ссылку"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Convert to mp3"
+msgstr "Конвертировать в mp3"
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
 msgstr "Установить приоритет"
 
@@ -721,6 +794,10 @@ msgstr "В очереди"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Moving... %1%"
 msgstr "Перемещение... %1%"
+
+msgctxt "DownloadsViewStatusItem|"
+msgid "Converting to mp3..."
+msgstr "Конвертация в mp3"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -850,8 +927,9 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "По убыванию"
 
+
 msgctxt "FileType|"
-msgid "Preffered File Type:"
+msgid "Preferred File Type:"
 msgstr "Предпочтительный тип файла:"
 
 msgctxt "FilesTree|"
@@ -921,6 +999,10 @@ msgstr "Показать в папке"
 msgctxt "FilesTreeContextMenu|"
 msgid "File Integrity"
 msgstr "Целостность файла"
+
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert video to mp3"
+msgstr "Конвертировать в mp3"
 
 msgctxt "GeneralSettings|"
 msgid "General"
@@ -2305,6 +2387,10 @@ msgstr "В очереди"
 msgctxt "StatusItem|"
 msgid "Moving... %1%"
 msgstr "Перемещение... %1%"
+
+msgctxt "StatusItem|"
+msgid "Converting to mp3..."
+msgstr "Конвертация в mp3"
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"
