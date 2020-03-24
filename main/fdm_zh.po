@@ -7,6 +7,13 @@ msgstr ""
 "X-Language: zh_CN\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.3\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -46,7 +53,7 @@ msgstr "通过通知中心提醒我已完成的下载项"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
-msgstr "仅在非前台时提醒我 %1"
+msgstr "仅在 %1 非前台运行时提醒我"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -58,7 +65,7 @@ msgstr "有下载正在进行时阻止计算机睡眠"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable sleep mode while running finished downloads"
-msgstr "正在进行下载完成时进入睡眠"
+msgstr "正在进行的下载完成时进入睡眠"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -74,7 +81,7 @@ msgstr "单击下载项 展开/隐藏 底部面板"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
-msgstr "每 %1 备份一次下载列表"
+msgstr "备份下载列表 每"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -98,22 +105,23 @@ msgstr "高级设置"
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
-msgstr ""
+msgstr "手动设置..."
 
 msgctxt "AntivirusSettings|"
 msgid "Antivirus"
-msgstr ""
+msgstr "防病毒"
 
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
-msgstr ""
+msgstr "选择防病毒软件:"
 
 msgctxt "AntivirusSettings|"
 msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
+"<a href='https://www.freedownloadmanager.org/board/viewtopic.php?"
+"f=1&t=18212'>Is your antivirus not listed?</a>"
 msgstr ""
+"<a href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>"
+"未列出您的防病毒软件?</a>"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -121,31 +129,31 @@ msgstr "路径:"
 
 msgctxt "AntivirusSettings|"
 msgid "Please enter antivirus path"
-msgstr ""
+msgstr "请输入防病毒软件路径"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments:"
-msgstr ""
+msgstr "额外参数:"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments must contain %path% variable"
-msgstr ""
+msgstr "额外参数必须包含 %path% 字段"
 
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
-msgstr ""
+msgstr "下载完成后自动检查病毒"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
-msgstr ""
+msgstr "检测病毒"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
-msgstr ""
+msgstr "尚未在设置中指定防病毒软件."
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Go to settings"
-msgstr ""
+msgstr "去设置"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
@@ -255,46 +263,45 @@ msgctxt "BaseTextField|"
 msgid "Paste"
 msgstr "粘贴"
 
-
 msgctxt "BatchVideoQuality|"
 msgid "Preferred Video Quality:"
 msgstr "视频质量偏好:"
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
-msgstr ""
+msgstr "kbps"
 
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
-msgstr ""
+msgstr "从 %1 %2 至 %3 %4"
 
 msgctxt "BitrateComboBox|"
 msgid "CD quality"
-msgstr ""
+msgstr "CD 品质"
 
 msgctxt "BitrateComboBox|"
 msgid "High quality"
-msgstr ""
+msgstr "高品质"
 
 msgctxt "BitrateComboBox|"
 msgid "Medium quality"
-msgstr ""
+msgstr "中品质"
 
 msgctxt "BitrateComboBox|"
 msgid "Radio quality"
-msgstr ""
+msgstr "广播品质"
 
 msgctxt "BitrateComboBox|"
 msgid "Low quality"
-msgstr ""
+msgstr "低品质"
 
 msgctxt "BitrateComboBox|"
 msgid "Speech"
-msgstr ""
+msgstr "语音"
 
 msgctxt "BitrateComboBox|"
 msgid "Lowest quality, smallest file size"
-msgstr ""
+msgstr "低品质, 最小文件大小"
 
 msgctxt "BottomPanelTools|"
 msgid "General"
@@ -310,7 +317,7 @@ msgstr "文件"
 
 msgctxt "BottomPanelTools|"
 msgid "Connections"
-msgstr ""
+msgstr "链接"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
@@ -380,7 +387,7 @@ msgstr "Mbytes"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
-msgstr "不用 %1 下载时改用浏览器下载"
+msgstr "取消 %1 下载时改用浏览器下载"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -500,11 +507,11 @@ msgstr "无效的URL"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
-msgstr ""
+msgstr "当前没有链接"
 
 msgctxt "ConnectionsTab|"
 msgid "Host"
-msgstr ""
+msgstr "主机"
 
 msgctxt "ConnectionsTab|"
 msgid "Port"
@@ -512,11 +519,11 @@ msgstr "端口"
 
 msgctxt "ConnectionsTab|"
 msgid "Connection count"
-msgstr ""
+msgstr "连接数"
 
 msgctxt "ConvertationDialog|"
 msgid "Convert to mp3 with adjustable bitrate"
-msgstr ""
+msgstr "转换为 mp3 并调整比特率"
 
 msgctxt "ConvertationDialog|"
 msgid "Save to"
@@ -532,15 +539,15 @@ msgstr "取消"
 
 msgctxt "ConvertationDialog|"
 msgid "Bitrate (quality)"
-msgstr ""
+msgstr "比特率 (品质)"
 
 msgctxt "ConvertationDialog|"
 msgid "Constant bitrate of value"
-msgstr ""
+msgstr "固定值比特率"
 
 msgctxt "ConvertationDialog|"
 msgid "Variable bitrate (VBR)"
-msgstr ""
+msgstr "可变比特率 (VBR)"
 
 msgctxt "ConvertationDialog|"
 msgid "The path contains invalid characters"
@@ -559,8 +566,7 @@ msgid "Copy"
 msgstr "复制"
 
 msgctxt "CrashReporter|"
-msgid ""
-"An internal error occurred.<br>%1 needs to be restarted for further use."
+msgid "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr "发生内部错误.<br>%1 需要重启."
 
 msgctxt "CrashReporter|"
@@ -713,7 +719,7 @@ msgstr "大小"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Added"
-msgstr "已添加"
+msgstr "添加时间"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -793,11 +799,11 @@ msgstr "更改 URL"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
-msgstr ""
+msgstr "转换为 mp3"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
-msgstr ""
+msgstr "执行病毒检测"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
@@ -869,11 +875,11 @@ msgstr "移动中... %1%"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Converting to mp3..."
-msgstr ""
+msgstr "正在转换为 mp3..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking for viruses..."
-msgstr ""
+msgstr "正在检测病毒..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1003,7 +1009,6 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "降序"
 
-
 msgctxt "FileType|"
 msgid "Preferred File Type:"
 msgstr "文件类型偏好:"
@@ -1078,7 +1083,7 @@ msgstr "文件完整性"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
-msgstr ""
+msgstr "转换视频为 mp3"
 
 msgctxt "GeneralSettings|"
 msgid "General"
@@ -1103,9 +1108,11 @@ msgstr "语言"
 msgctxt "GeneralSettings|"
 msgid ""
 "Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
+"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's fix "
+"it!</a>"
 msgstr ""
+"没有列出您所使用的语言或翻译不完整? <a href='https://github.com/"
+"FreeDownloadManagerTeam/FDM6-localization'>期待与您一起完善!</a>"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1113,7 +1120,7 @@ msgstr "下载"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
-msgstr "根据文件类型建议文件夹"
+msgstr "基于文件类型建议文件夹"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
@@ -1189,7 +1196,7 @@ msgstr "域名："
 
 msgctxt "GeneralTab|"
 msgid "Added:"
-msgstr "已添加:"
+msgstr "添加时间:"
 
 msgctxt "GeneralTab|"
 msgid "Progress:"
@@ -1349,7 +1356,7 @@ msgstr "删除选中项"
 
 msgctxt "MainToolbar|"
 msgid "Move to..."
-msgstr "移动到..."
+msgstr "移动选中项到..."
 
 msgctxt "MainToolbar|"
 msgid "Main menu"
@@ -1617,7 +1624,7 @@ msgstr "文件"
 
 msgctxt "Page|"
 msgid "Connections"
-msgstr ""
+msgstr "链接"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
@@ -2159,7 +2166,7 @@ msgstr "初始化内核失败."
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
-msgstr ""
+msgstr "缺少 %path% 参数."
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -2215,7 +2222,7 @@ msgstr "到："
 
 msgctxt "SchedulerButton|"
 msgid "Scheduler"
-msgstr "预约器"
+msgstr "预约下载"
 
 msgctxt "SchedulerCheckbox|"
 msgid "Scheduler"
@@ -2343,7 +2350,7 @@ msgstr "流量限制"
 
 msgctxt "SettingsPage|"
 msgid "Antivirus"
-msgstr ""
+msgstr "防病毒"
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
@@ -2471,11 +2478,11 @@ msgstr "移动中... %1%"
 
 msgctxt "StatusItem|"
 msgid "Converting to mp3..."
-msgstr ""
+msgstr "正在转换为 mp3..."
 
 msgctxt "StatusItem|"
 msgid "Checking for viruses..."
-msgstr ""
+msgstr "Checking for viruses..."
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"
