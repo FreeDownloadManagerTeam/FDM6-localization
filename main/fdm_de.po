@@ -16,7 +16,6 @@ msgctxt "AboutDialog|"
 msgid "<a href='%1'>%2</a> version %3"
 msgstr "<a href='%1'>%2</a> Version %3"
 
-
 msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "OK"
@@ -130,10 +129,7 @@ msgid ""
 "<a "
 "href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
 "your antivirus not listed?</a>"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>"
-"Das Antivirenprogramm ist nicht gelistet?</a>"
+msgstr ""
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -286,7 +282,6 @@ msgstr "Kopieren"
 msgctxt "BaseTextField|"
 msgid "Paste"
 msgstr "Einfügen"
-
 
 msgctxt "BatchVideoQuality|"
 msgid "Preferred Video Quality:"
@@ -869,7 +864,7 @@ msgstr "URL ändern"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
-msgstr ""
+msgstr "In mp3 konvertieren"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
@@ -909,7 +904,7 @@ msgstr "Überprüfe Dateien..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Converting to mp3..."
-msgstr ""
+msgstr "Konvertiere in mp3..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -931,7 +926,6 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Unbekannte Dateigröße"
 
-
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files..."
 msgstr "Überprüfe Dateien..."
@@ -950,11 +944,11 @@ msgstr "Verschiebe... %1%"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Converting to mp3..."
-msgstr ""
+msgstr "Konvertiere in mp3..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking for viruses..."
-msgstr ""
+msgstr "Überprüfe auf Viren..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1088,7 +1082,6 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "Absteigend"
 
-
 msgctxt "FileType|"
 msgid "Preferred File Type:"
 msgstr "Bevorzugter Dateityp:"
@@ -1190,9 +1183,10 @@ msgid ""
 "Your language is not listed or the translation isn't complete? <a "
 "href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
 "fix it!</a>"
-msgstr "Deine Sprache ist nicht gelistet, oder die Übersetzung ist nicht komplett? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Lasst es uns "
-"reparieren!</a>""
+msgstr ""
+"Deine Sprache ist nicht gelistet, oder die Übersetzung ist nicht komplett? "
+"<a href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Lasst "
+"es uns reparieren!</a>"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1773,7 +1767,6 @@ msgstr ""
 msgctxt "QObject|"
 msgid "Enter URL"
 msgstr "URL eingeben"
-
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
@@ -2453,17 +2446,6 @@ msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Erweiterte Einstellungen"
 
-
-
-
-
-
-
-
-
-
-
-
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
 msgstr "Abbrechen"
@@ -2596,6 +2578,30 @@ msgstr "Pausiert"
 msgctxt "StatusItem|"
 msgid "Completed"
 msgstr "Abgeschlossen"
+
+msgctxt "StopDownloadDialog|"
+msgid "Pause download"
+msgstr ""
+
+msgctxt "StopDownloadDialog|"
+msgid "The download(s) below can't be resumed after pausing."
+msgstr ""
+
+msgctxt "StopDownloadDialog|"
+msgid "Pause"
+msgstr ""
+
+msgctxt "StopDownloadDialog|"
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgctxt "StopDownloadDialog|"
+msgid "This download can't be resumed after pausing"
+msgstr ""
+
+msgctxt "StopDownloadDialog|"
+msgid "The download(s) below can't be resumed after pausing"
+msgstr ""
 
 msgctxt "TagColorDialog|"
 msgid "Remove tag"
@@ -2872,7 +2878,3 @@ msgstr "Bewegen"
 msgctxt "main|"
 msgid "Cancel"
 msgstr "Abbrechen"
-
-
-
-
