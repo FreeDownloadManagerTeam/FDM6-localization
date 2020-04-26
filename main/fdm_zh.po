@@ -335,7 +335,7 @@ msgstr "文件"
 
 msgctxt "BottomPanelTools|"
 msgid "Connections"
-msgstr "链接"
+msgstr "连接"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
@@ -437,7 +437,7 @@ msgstr "确定"
 
 msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
-msgstr "不允许从此站点下载"
+msgstr "当前网站禁止进行下载"
 
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
@@ -702,7 +702,7 @@ msgstr "大小: %1 (磁盘空间: %2)"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1"
-msgstr "大小：%1"
+msgstr "大小: %1"
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
@@ -1026,7 +1026,7 @@ msgstr "检查失败"
 
 msgctxt "FileManagerSupportDialog|"
 msgid "No supported file managers found."
-msgstr "未找到支持的文件管理器"
+msgstr "未找到支持的文件管理器."
 
 msgctxt "FileName|"
 msgid "Create subfolder"
@@ -1154,7 +1154,7 @@ msgstr "转换视频为 mp3"
 
 msgctxt "GeneralSettings|"
 msgid "General"
-msgstr "一般"
+msgstr "常规"
 
 msgctxt "GeneralSettings|"
 msgid "Choose theme"
@@ -2567,6 +2567,30 @@ msgctxt "StatusItem|"
 msgid "Completed"
 msgstr "已完成"
 
+msgctxt "StopDownloadDialog|"
+msgid "Pause download"
+msgstr "暂停下载"
+
+msgctxt "StopDownloadDialog|"
+msgid "The download(s) below can't be resumed after pausing."
+msgstr "下列下载项暂停后无法恢复。"
+
+msgctxt "StopDownloadDialog|"
+msgid "Pause"
+msgstr "暂停"
+
+msgctxt "StopDownloadDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "StopDownloadDialog|"
+msgid "This download can't be resumed after pausing"
+msgstr "此下载项暂停后无法恢复"
+
+msgctxt "StopDownloadDialog|"
+msgid "The download(s) below can't be resumed after pausing"
+msgstr "下列下载项暂停后无法恢复。"
+
 msgctxt "TagColorDialog|"
 msgid "Remove tag"
 msgstr "移除标签"
@@ -2589,15 +2613,15 @@ msgstr "流量限制"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Low"
-msgstr "低"
+msgstr "低流量限制"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Medium"
-msgstr "中"
+msgstr "中流量限制"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "High"
-msgstr "高"
+msgstr "高流量限制"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Download speed"
@@ -2637,19 +2661,19 @@ msgstr "KB/s"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
-msgstr "已下载: %1, 已上传: %2"
+msgstr "下载: %1, 上传: %2"
 
 msgctxt "TumComboBox|"
 msgid "High"
-msgstr "高"
+msgstr "高流量限制"
 
 msgctxt "TumComboBox|"
 msgid "Medium"
-msgstr "中"
+msgstr "中流量限制"
 
 msgctxt "TumComboBox|"
 msgid "Low"
-msgstr "低"
+msgstr "低流量限制"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Unlimited"
@@ -2685,7 +2709,7 @@ msgstr "慢速模式"
 
 msgctxt "TumModeBlock|"
 msgid "Frees bandwidth without stopping downloads."
-msgstr "不停止下载释放带宽."
+msgstr "不停止下载且释放带宽."
 
 msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
@@ -2717,7 +2741,7 @@ msgstr "大小: %1 (磁盘空间: %2)"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
-msgstr ""
+msgstr "大小: %1"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
