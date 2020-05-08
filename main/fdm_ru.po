@@ -29,6 +29,34 @@ msgctxt "AddDateToFileName|"
 msgid "Add dates to files names"
 msgstr "Добавить даты к названиям файлов"
 
+msgctxt "AddMirrorDialog|"
+msgid "Add mirror"
+msgstr "Добавить зеркало"
+
+msgctxt "AddMirrorDialog|"
+msgid "Enter mirror URL"
+msgstr "Добавить ссылку на зеркало"
+
+msgctxt "AddMirrorDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "AddMirrorDialog|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "AddMirrorPage|"
+msgid "Add mirror"
+msgstr "Добавить зеркало"
+
+msgctxt "AddMirrorPage|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "AddMirrorPage|"
+msgid "Enter mirror URL"
+msgstr "Добавить ссылку на зеркало"
+
 msgctxt "AddTDialog|"
 msgid "Cancel"
 msgstr "Отменить"
@@ -345,6 +373,78 @@ msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr "Соединения"
 
+msgctxt "Browser|"
+msgid ""
+"You're about to open a built-in web browser.\n"
+"\n"
+"It helps you to add downloads into %1.\n"
+"\n"
+"Some of them (e.g. Google Drive downloads) can be added using this browser "
+"only, because they require additional information that your Android system's "
+"browser does not provide to %2 (or there is no universal way for all "
+"browsers to do this)."
+msgstr ""
+"Вы собираетесь открыть встроенный веб-браузер.\n"
+"\n"
+"Это поможет добавлять загрузки в %1.\n"
+"\n"
+"Некоторые из них (например, загрузки с Google Диска) могут быть добавлены "
+"только с помощью этого браузера, поскольку браузер вашей системы Android не "
+"предоставляет %2 полной информации (либо для популярных браузеров нет "
+"универсального способа это сделать)."
+
+msgctxt "Browser|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "Browser|"
+msgid "Enter URL"
+msgstr "Введите URL"
+
+msgctxt "Browser|"
+msgid "Bookmark removed"
+msgstr "Закладка удалена"
+
+msgctxt "Browser|"
+msgid "Bookmark added"
+msgstr "Закладка добавлена"
+
+msgctxt "Browser|"
+msgid "Bookmarks"
+msgstr "Закладки"
+
+msgctxt "Browser|"
+msgid "There are no bookmarks at the moment"
+msgstr "Закладок нет"
+
+msgctxt "Browser|"
+msgid "Are you sure you want to remove this bookmark?"
+msgstr "Вы уверены, что хотите удалить эту закладку?"
+
+msgctxt "Browser|"
+msgid "YES"
+msgstr "ДА"
+
+msgctxt "Browser|"
+msgid "NO"
+msgstr "НЕТ"
+
+msgctxt "Browser MainMenu|"
+msgid "Back to %1"
+msgstr "Назад в %1"
+
+msgctxt "Browser MainMenu|"
+msgid "Bookmarks"
+msgstr "Закладки"
+
+msgctxt "Browser MainMenu|"
+msgid "Remove bookmark"
+msgstr "Удалить закладку"
+
+msgctxt "Browser MainMenu|"
+msgid "Add bookmark"
+msgstr "Добавить закладку"
+
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "Интеграция с браузерами"
@@ -533,9 +633,6 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Начать загрузку"
 
-msgctxt "ChangeUrlPage|"
-msgid "Invalid URL"
-msgstr "Некорректный URL"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -848,6 +945,10 @@ msgstr "Удалить из списка"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential Download"
 msgstr "Последовательная загрузка"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Add mirror"
+msgstr "Добавить зеркало"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
@@ -1315,6 +1416,10 @@ msgid "Language"
 msgstr "Язык"
 
 msgctxt "LeftDrawer|"
+msgid "Browser"
+msgstr "Браузер"
+
+msgctxt "LeftDrawer|"
 msgid "Settings"
 msgstr "Настройки"
 
@@ -1777,6 +1882,7 @@ msgstr ""
 msgctxt "QObject|"
 msgid "Enter URL"
 msgstr "Введите URL"
+
 
 
 msgctxt "QObject|"
@@ -2253,6 +2359,10 @@ msgctxt "QObject|"
 msgid "Missing %path% parameter."
 msgstr "Пропущен параметр %path%."
 
+msgctxt "QObject|"
+msgid "Update URL"
+msgstr ""
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "Сохранить в"
@@ -2599,15 +2709,15 @@ msgstr "Завершено"
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause download"
-msgstr ""
+msgstr "Остановить загрузку"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing."
-msgstr ""
+msgstr "Эта закачка(и) не может быть возобновлена(ы) после остановки."
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause"
-msgstr ""
+msgstr "Остановить"
 
 msgctxt "StopDownloadDialog|"
 msgid "Cancel"
@@ -2615,11 +2725,11 @@ msgstr "Отменить"
 
 msgctxt "StopDownloadDialog|"
 msgid "This download can't be resumed after pausing"
-msgstr ""
+msgstr "Эта закачка не может быть возобновлена после остановки"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
-msgstr ""
+msgstr "Эта закачка(и) не может быть возобновлена(ы) после остановки."
 
 msgctxt "TagColorDialog|"
 msgid "Remove tag"
