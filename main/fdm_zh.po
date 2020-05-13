@@ -30,11 +30,11 @@ msgstr "在文件名中添加日期"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
-msgstr ""
+msgstr "添加镜像"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "输入镜像URL"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
@@ -42,19 +42,19 @@ msgstr "取消"
 
 msgctxt "AddMirrorDialog|"
 msgid "OK"
-msgstr ""
+msgstr "确定"
 
 msgctxt "AddMirrorPage|"
 msgid "Add mirror"
-msgstr ""
+msgstr "添加镜像"
 
 msgctxt "AddMirrorPage|"
 msgid "OK"
-msgstr ""
+msgstr "确定"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "输入镜像URL"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -110,7 +110,7 @@ msgstr "在启动时加载（最小化）"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "单击下载项 展开/隐藏 底部面板"
+msgstr "单击下载项以展开/隐藏底部面板"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -376,10 +376,15 @@ msgid ""
 "browser does not provide to %2 (or there is no universal way for all "
 "browsers to do this)."
 msgstr ""
+"您将打开一个内建浏览器。\n"
+"\n"
+"这将帮助您添加下载项到%1.\n"
+"\n"
+"其中一些（如Google Drive下载）仅可通过此浏览器添加，因为它们需要您的Android系统浏览器无法提供（或没有对所有浏览器的通用方法）给%2的额外信息。"
 
 msgctxt "Browser|"
 msgid "OK"
-msgstr ""
+msgstr "确定"
 
 msgctxt "Browser|"
 msgid "Enter URL"
@@ -387,47 +392,47 @@ msgstr "输入链接"
 
 msgctxt "Browser|"
 msgid "Bookmark removed"
-msgstr ""
+msgstr "书签已移除"
 
 msgctxt "Browser|"
 msgid "Bookmark added"
-msgstr ""
+msgstr "书签已添加"
 
 msgctxt "Browser|"
 msgid "Bookmarks"
-msgstr ""
+msgstr "书签"
 
 msgctxt "Browser|"
 msgid "There are no bookmarks at the moment"
-msgstr ""
+msgstr "当前没有书签"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr ""
+msgstr "您确定要移除此书签吗？"
 
 msgctxt "Browser|"
 msgid "YES"
-msgstr ""
+msgstr "是"
 
 msgctxt "Browser|"
 msgid "NO"
-msgstr ""
+msgstr "否"
 
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
-msgstr ""
+msgstr "返回%1"
 
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
-msgstr ""
+msgstr "书签"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
-msgstr ""
+msgstr "移除书签"
 
 msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
-msgstr ""
+msgstr "添加书签"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
@@ -654,7 +659,7 @@ msgstr "比特率 (品质)"
 
 msgctxt "ConvertationDialog|"
 msgid "Constant bitrate of value"
-msgstr "固定值比特率"
+msgstr "固定比特率"
 
 msgctxt "ConvertationDialog|"
 msgid "Variable bitrate (VBR)"
@@ -927,7 +932,7 @@ msgstr "顺序下载"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
-msgstr ""
+msgstr "添加镜像"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
@@ -1380,7 +1385,7 @@ msgstr "设为默认值"
 
 msgctxt "IntegrationBanner|"
 msgid "Don't ask again"
-msgstr "不在询问"
+msgstr "不再询问"
 
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
@@ -1392,7 +1397,7 @@ msgstr "语言"
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
-msgstr ""
+msgstr "浏览器"
 
 msgctxt "LeftDrawer|"
 msgid "Settings"
@@ -1632,7 +1637,7 @@ msgstr "文件(&F)"
 
 msgctxt "NativeMenuBar|"
 msgid "Add &new download"
-msgstr "添加 &新的下载"
+msgstr "添加新的下载(&n)"
 
 msgctxt "NativeMenuBar|"
 msgid "&Edit"
@@ -2334,7 +2339,7 @@ msgstr "缺少 %path% 参数."
 
 msgctxt "QObject|"
 msgid "Update URL"
-msgstr ""
+msgstr "更新链接"
 
 msgctxt "SaveTo|"
 msgid "Save to"
