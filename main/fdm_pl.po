@@ -30,11 +30,11 @@ msgstr "Dodaj daty do nazw plików"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
-msgstr ""
+msgstr "Dodaj kolejny serwer"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "Podaj URL serwera"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
@@ -46,7 +46,7 @@ msgstr "OK"
 
 msgctxt "AddMirrorPage|"
 msgid "Add mirror"
-msgstr ""
+msgstr "Dodaj kolejny serwer"
 
 msgctxt "AddMirrorPage|"
 msgid "OK"
@@ -54,7 +54,7 @@ msgstr "OK"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "Podaj URL serwera"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -82,11 +82,11 @@ msgstr "Powiadomienia"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "Powiadom mnie o zakończeniu pobierania przez Centrum Powiadomień"
+msgstr "Powiadom mnie, o zakończeniu pobierania przez Centrum Powiadomień"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
-msgstr "Powiadom mnie o pobraniach tylko gdy %1 okno jest nieaktywne"
+msgstr "Powiadom mnie, o pobraniach tylko gdy %1 okno jest nieaktywne"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -368,23 +368,23 @@ msgstr "Połączeniami"
 
 msgctxt "Browser|"
 msgid "Bookmarks"
-msgstr ""
+msgstr "Zakładki"
 
 msgctxt "Browser|"
 msgid "There are no bookmarks at the moment"
-msgstr ""
+msgstr "Nie ma jeszcze żadnych zakładek"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr ""
+msgstr "Na pewno chcesz usunąć tę zakładkę?"
 
 msgctxt "Browser|"
 msgid "YES"
-msgstr ""
+msgstr "TAK"
 
 msgctxt "Browser|"
 msgid "NO"
-msgstr ""
+msgstr "NIE"
 
 
 msgctxt "Browser|"
@@ -393,15 +393,15 @@ msgstr "Wpisz adres pobierania"
 
 msgctxt "Browser|"
 msgid "Bookmark removed"
-msgstr ""
+msgstr "Zakładka usunięta"
 
 msgctxt "Browser|"
 msgid "Bookmark added"
-msgstr ""
+msgstr "Zakładka dodana"
 
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
-msgstr ""
+msgstr "Powrót do %1"
 
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
@@ -409,11 +409,11 @@ msgstr ""
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
-msgstr ""
+msgstr "Usuń zakładkę"
 
 msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
-msgstr ""
+msgstr "Dodaj zakładkę"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
@@ -481,7 +481,7 @@ msgstr "Nie przechwytuj plików mniejszych niż"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
-msgstr "Mbytes"
+msgstr "MB"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
@@ -498,6 +498,14 @@ msgid ""
 "browser does not provide to %1 (or there is no universal way for all "
 "browsers to do this)."
 msgstr ""
+"Próbujesz otworzyć wbudowaną przeglądarkę.\n"
+"\n"
+"Pomoże ona dodać pobrania do %1.\n"
+"\n"
+"Niektóre z nich (np. z Google Drive) mogą być dodane tylko używając tej "
+"przeglądarki, ponieważ wymagają one dodatkowych informacji, których Twoja "
+"przeglądarka na Android nie prześle do %1 (lub nie ma uniwersalnej opcji "
+"dla wszystkich przeglądarek aby to wykonać)."
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -626,7 +634,7 @@ msgstr "Brak połączeń"
 
 msgctxt "ConnectionsTab|"
 msgid "Host"
-msgstr "Host"
+msgstr "Serwer"
 
 msgctxt "ConnectionsTab|"
 msgid "Port"
@@ -725,8 +733,7 @@ msgstr "Automatycznie uruchom ponownie %1"
 
 msgctxt "CrashReporter|"
 msgid "Failed to send the report.<br>Check your Internet connection."
-msgstr ""
-"Nie udało się wysłać raportu<br>Sprawdź czy masz połączenie z Internetem."
+msgstr "Nie udało się wysłać raportu<br>Sprawdź czy masz połączenie z Internetem."
 
 msgctxt "CrashReporter|"
 msgid "Error"
@@ -778,7 +785,7 @@ msgstr "Czy usunąć zaznaczone pliki?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Delete selected downloads"
-msgstr "Usuń wybrane pobrania"
+msgstr "Usuń zaznaczone pobrania"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Are you sure you want to delete the selected file(s)?"
@@ -934,7 +941,7 @@ msgstr "Pobieranie sekwencyjne"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
-msgstr ""
+msgstr "Dodaj kolejny serwer"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
@@ -1352,7 +1359,7 @@ msgstr "Prędkość wysyłania:"
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
-msgstr "Dodane o:"
+msgstr "Dodane:"
 
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
@@ -1400,7 +1407,7 @@ msgstr "Język"
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
-msgstr ""
+msgstr "Przeglądarka"
 
 msgctxt "LeftDrawer|"
 msgid "Settings"
@@ -1580,7 +1587,7 @@ msgstr "Rozmiar:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Added at:"
-msgstr "Dodano o:"
+msgstr "Dodano:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
@@ -1832,7 +1839,7 @@ msgstr "Połączenie zakończone."
 
 msgctxt "QObject|"
 msgid "App backend's server listen failed."
-msgstr ""
+msgstr "Nasłuch serwera aplikacji nie powiódł się"
 
 msgctxt "QObject|"
 msgid "Error"
@@ -1840,11 +1847,11 @@ msgstr "Błąd"
 
 msgctxt "QObject|"
 msgid "Connection failure"
-msgstr "Połączenie się nie powiodło"
+msgstr "Błąd połączenia"
 
 msgctxt "QObject|"
 msgid "App frontend's server listen failed."
-msgstr ""
+msgstr "Nasłuch serwera aplikacji nie powiódł się"
 
 msgctxt "QObject|"
 msgid "QML load failure."
@@ -1868,7 +1875,7 @@ msgstr "Wpisz adres pobierania"
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
-msgstr "Nie powiodła się inicjalizacja %1. Wykonaj instalację od nowa."
+msgstr "Błąd inicjalizacji %1. Wykonaj instalację od nowa."
 
 msgctxt "QObject|"
 msgid "Reason: %1"
@@ -1924,7 +1931,7 @@ msgstr "Błąd odczytu pliku"
 
 msgctxt "QObject|"
 msgid "Failed to read from file"
-msgstr "Nieudany odczyt z pliku"
+msgstr "Błąd odczytu z pliku"
 
 msgctxt "QObject|"
 msgid "File write error"
@@ -1932,7 +1939,7 @@ msgstr "Błąd zapisu pliku"
 
 msgctxt "QObject|"
 msgid "Failed to write to file"
-msgstr "Nieudany zapis do pliku"
+msgstr "Błąd zapisu do pliku"
 
 msgctxt "QObject|"
 msgid "File open error"
@@ -2036,7 +2043,7 @@ msgstr "Błąd rozpakowania"
 
 msgctxt "QObject|"
 msgid "I'm a teapot"
-msgstr "Jestem 'teapot'"
+msgstr "Jestem czajnikiem"
 
 msgctxt "QObject|"
 msgid "Authentication Timeout"
@@ -2342,7 +2349,7 @@ msgstr "Brakujący parametr %path%."
 
 msgctxt "QObject|"
 msgid "Update URL"
-msgstr ""
+msgstr "URL aktualizacji"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -2558,8 +2565,7 @@ msgstr "Komputer zostanie uśpiony po zakończeniu wszystkich pobrań."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be hibernate after all downloads are completed."
-msgstr ""
-"Komputer przejdzie do stanu hibernacji po zakończeniu wszystkich pobrań."
+msgstr "Komputer przejdzie do stanu hibernacji po zakończeniu wszystkich pobrań."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be shutdown after all downloads are completed."
@@ -2631,7 +2637,7 @@ msgstr "Anuluj"
 
 msgctxt "SslDialog|"
 msgid "Security risk"
-msgstr "Ryzyko związane z bezpieczeństwem"
+msgstr "Ryzyko bezpieczeństwa"
 
 msgctxt "SslDialog|"
 msgid "Continue"
@@ -2639,7 +2645,7 @@ msgstr "Kontynuuj"
 
 msgctxt "StatusItem|"
 msgid "Checking files..."
-msgstr "Sprawdzanie pliki..."
+msgstr "Sprawdzanie plików..."
 
 msgctxt "StatusItem|"
 msgid "Merging media streams..."
@@ -2967,7 +2973,7 @@ msgstr "Zróbmy to lepiej razem! Przekaż nam swoją opinię."
 
 msgctxt "WaitingPage|"
 msgid "Refresh"
-msgstr "Odświerz"
+msgstr "Odśwież"
 
 msgctxt "main|"
 msgid "Move"
