@@ -3,10 +3,17 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
 "X-Language: fa_IR\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
+"Project-Id-Version: 1.0.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Majid Abdollahi\n"
+"Language: fa_IR\n"
+"X-Generator: Poedit 2.3.1\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -14,8 +21,7 @@ msgstr "درباره"
 
 msgctxt "AboutDialog|"
 msgid "<a href='%1'>%2</a> version %3"
-msgstr ""
-
+msgstr "<a href='%1'>%2</a> version %3"
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -31,11 +37,11 @@ msgstr "افزودن تاریخ به نام فایل ها"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
-msgstr ""
+msgstr "اضافه کردن منبع جایگزین"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "مسیر منبع جایگزین را وارد کنید"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
@@ -47,7 +53,7 @@ msgstr "تایید"
 
 msgctxt "AddMirrorPage|"
 msgid "Add mirror"
-msgstr ""
+msgstr "منبع جایگزین را اضافه کنید"
 
 msgctxt "AddMirrorPage|"
 msgid "OK"
@@ -55,7 +61,7 @@ msgstr "تایید"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "مسیر منبع جایگزین را وارد کنید"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -135,7 +141,7 @@ msgstr "همیشه سوال کن"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
-msgstr ""
+msgstr "تنظیمات پیشرفته"
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -143,30 +149,29 @@ msgstr ""
 
 msgctxt "AntivirusSettings|"
 msgid "Antivirus"
-msgstr ""
+msgstr "آنتی ویروس"
 
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
-msgstr ""
+msgstr "آنتی ویروس را انتخاب کنید:"
 
 msgctxt "AntivirusSettings|"
 msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
+"<a href='https://www.freedownloadmanager.org/board/viewtopic.php?"
+"f=1&t=18212'>Is your antivirus not listed?</a>"
 msgstr ""
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
-msgstr ""
+msgstr "مسیر:"
 
 msgctxt "AntivirusSettings|"
 msgid "Please enter antivirus path"
-msgstr ""
+msgstr "لطفا مسیر آنتی ویروس را وارد کنید"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments:"
-msgstr ""
+msgstr "آرگمان ها:"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments must contain %path% variable"
@@ -178,15 +183,15 @@ msgstr ""
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
-msgstr ""
+msgstr "بررسی ویروس"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
-msgstr ""
+msgstr "آنتی ویروسی در تنظیمات مشخص نشده است"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Go to settings"
-msgstr ""
+msgstr "برو به تنظیمات"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
@@ -194,7 +199,7 @@ msgstr "انصراف"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
-msgstr ""
+msgstr "احراز هویت الزامی است"
 
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
@@ -210,7 +215,7 @@ msgstr "رمز عبور:"
 
 msgctxt "AuthenticationDialog|"
 msgid "remember"
-msgstr ""
+msgstr "یادآوری"
 
 msgctxt "AuthenticationDialog|"
 msgid "Cancel"
@@ -222,7 +227,7 @@ msgstr "تایید"
 
 msgctxt "AuthenticationPage|"
 msgid "Authentication required"
-msgstr ""
+msgstr "احراز هویت الزامی است"
 
 msgctxt "AuthenticationPage|"
 msgid "OK"
@@ -242,71 +247,71 @@ msgstr "رمز عبور"
 
 msgctxt "AuthenticationPage|"
 msgid "Remember"
-msgstr ""
+msgstr "یادآوری"
 
 msgctxt "BackupComboBox|"
 msgid "5 minutes"
-msgstr ""
+msgstr "5 دقیقه"
 
 msgctxt "BackupComboBox|"
 msgid "15 minutes"
-msgstr ""
+msgstr "15 دقیقه"
 
 msgctxt "BackupComboBox|"
 msgid "1 hour"
-msgstr ""
+msgstr "1 ساعت"
 
 msgctxt "BackupComboBox|"
 msgid "3 hours"
-msgstr ""
+msgstr "3 ساعت"
 
 msgctxt "BackupComboBox|"
 msgid "1 day"
-msgstr ""
+msgstr "1 روز"
 
 msgctxt "BackupSlider|"
 msgid "5 minutes"
-msgstr ""
+msgstr "5 دقیقه"
 
 msgctxt "BackupSlider|"
 msgid "15 minutes"
-msgstr ""
+msgstr "15 دقیقه"
 
 msgctxt "BackupSlider|"
 msgid "1 hour"
-msgstr ""
+msgstr "1 ساعت"
 
 msgctxt "BackupSlider|"
 msgid "3 hours"
-msgstr ""
+msgstr "3 ساعت"
 
 msgctxt "BackupSlider|"
 msgid "1 day"
-msgstr ""
+msgstr "1 روز"
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
-msgstr ""
+msgstr "منتقل کردن"
 
 msgctxt "BaseTextArea|"
 msgid "Copy"
-msgstr ""
+msgstr "کپی کردن"
 
 msgctxt "BaseTextArea|"
 msgid "Paste"
-msgstr ""
+msgstr "رها کردن"
 
 msgctxt "BaseTextField|"
 msgid "Cut"
-msgstr ""
+msgstr "منتقل کردن"
 
 msgctxt "BaseTextField|"
 msgid "Copy"
-msgstr ""
+msgstr "کپی کردن"
 
 msgctxt "BaseTextField|"
 msgid "Paste"
-msgstr ""
+msgstr "رها کردن"
 
 msgctxt "BatchVideoQuality|"
 msgid "Preferred Video Quality:"
@@ -314,7 +319,7 @@ msgstr ""
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
-msgstr ""
+msgstr "کیلوبیت بر ثانیه"
 
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
@@ -326,19 +331,19 @@ msgstr ""
 
 msgctxt "BitrateComboBox|"
 msgid "High quality"
-msgstr ""
+msgstr "کیفیت بالا"
 
 msgctxt "BitrateComboBox|"
 msgid "Medium quality"
-msgstr ""
+msgstr "کیفیت متوسط"
 
 msgctxt "BitrateComboBox|"
 msgid "Radio quality"
-msgstr ""
+msgstr "کیفیت رادیو"
 
 msgctxt "BitrateComboBox|"
 msgid "Low quality"
-msgstr ""
+msgstr "کیفیت پایین"
 
 msgctxt "BitrateComboBox|"
 msgid "Speech"
@@ -346,7 +351,7 @@ msgstr ""
 
 msgctxt "BitrateComboBox|"
 msgid "Lowest quality, smallest file size"
-msgstr ""
+msgstr "کمترین کیفیت، کمترین حجم فایل"
 
 msgctxt "BottomPanelTools|"
 msgid "General"
@@ -354,7 +359,7 @@ msgstr "عمومی"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
-msgstr "پیشرفت: "
+msgstr "پیشرفت"
 
 msgctxt "BottomPanelTools|"
 msgid "Files"
@@ -362,8 +367,7 @@ msgstr "فایل ها"
 
 msgctxt "BottomPanelTools|"
 msgid "Connections"
-msgstr ""
-
+msgstr "ارتباطات"
 
 msgctxt "Browser|"
 msgid "Enter URL"
@@ -391,11 +395,11 @@ msgstr ""
 
 msgctxt "Browser|"
 msgid "YES"
-msgstr ""
+msgstr "بله"
 
 msgctxt "Browser|"
 msgid "NO"
-msgstr ""
+msgstr "خیر"
 
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
@@ -477,7 +481,7 @@ msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
-msgstr "‏Mbytes"
+msgstr "مگابایت"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
@@ -491,8 +495,8 @@ msgid ""
 "\n"
 "Some of them (e.g. Google Drive downloads) can be added using this browser "
 "only, because they require additional information that your Android system's "
-"browser does not provide to %1 (or there is no universal way for all "
-"browsers to do this)."
+"browser does not provide to %1 (or there is no universal way for all browsers "
+"to do this)."
 msgstr ""
 
 msgctxt "BrowserIntroDialog|"
@@ -573,7 +577,7 @@ msgstr "انصراف"
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
-msgstr "سرعت دانلود:"
+msgstr "دریافت"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -614,7 +618,6 @@ msgstr "وارد کردن URL جدید"
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "شروع دانلود"
-
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -706,11 +709,10 @@ msgstr "کپی لینک"
 
 msgctxt "CopyMenu|"
 msgid "Copy"
-msgstr ""
+msgstr "کپی کردن"
 
 msgctxt "CrashReporter|"
-msgid ""
-"An internal error occurred.<br>%1 needs to be restarted for further use."
+msgid "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr ""
 
 msgctxt "CrashReporter|"
@@ -800,7 +802,6 @@ msgstr ""
 msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr ""
-
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
@@ -892,7 +893,7 @@ msgstr "نمایش دانلودها"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Choose Files..."
-msgstr "انتخاب فایل ها…"
+msgstr "انتخاب فایل ها..."
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set Priority"
@@ -912,7 +913,7 @@ msgstr "کم"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
-msgstr "انتقال به…"
+msgstr "انتقال به..."
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Delete file"
@@ -988,7 +989,7 @@ msgstr "در حال انتقال… %1%"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
-msgstr "در حال بررسی فایل ها…"
+msgstr "در حال بررسی فایل ها..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Converting to mp3..."
@@ -1014,10 +1015,9 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "حجم فایل نامشخص"
 
-
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files..."
-msgstr "در حال بررسی فایل ها…"
+msgstr "در حال بررسی فایل ها..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Merging media streams..."
@@ -1171,7 +1171,6 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "نزولی"
 
-
 msgctxt "FileType|"
 msgid "Preferred File Type:"
 msgstr ""
@@ -1271,8 +1270,8 @@ msgstr "زبان"
 msgctxt "GeneralSettings|"
 msgid ""
 "Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
+"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's fix "
+"it!</a>"
 msgstr ""
 
 msgctxt "GeneralSettings|"
@@ -1327,7 +1326,6 @@ msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "استفاده از شبکه موبایل"
 
-
 msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "حجم کل:"
@@ -1342,7 +1340,7 @@ msgstr "سرعت دانلود:"
 
 msgctxt "GeneralTab|"
 msgid "Upload speed:"
-msgstr "سرعت آپلود"
+msgstr "سرعت آپلود:"
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
@@ -1362,7 +1360,7 @@ msgstr "اضافه شده:"
 
 msgctxt "GeneralTab|"
 msgid "Progress:"
-msgstr "پیشرفت: "
+msgstr "پیشرفت:"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -1438,7 +1436,7 @@ msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
-msgstr "تنظیمات…"
+msgstr "تنظیمات..."
 
 msgctxt "MainMenu|"
 msgid "Contact Support"
@@ -1462,7 +1460,7 @@ msgstr "خاموش"
 
 msgctxt "MainMenu|"
 msgid "Check for Updates..."
-msgstr "بررسی نسخه جدید…"
+msgstr "بررسی بروزرسانی های جدید..."
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -1488,8 +1486,7 @@ msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
 msgstr[0] ""
-
-
+msgstr[1] ""
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -1497,7 +1494,7 @@ msgstr "حجم کل:"
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
-msgstr "افزودن دانلود جدید…"
+msgstr "دریافت فایل جدید..."
 
 msgctxt "MainToolbar|"
 msgid "Start all"
@@ -1521,7 +1518,7 @@ msgstr "حذف انتخاب شده ها"
 
 msgctxt "MainToolbar|"
 msgid "Move to..."
-msgstr "انتقال به…"
+msgstr "انتقال به..."
 
 msgctxt "MainToolbar|"
 msgid "Main menu"
@@ -1569,7 +1566,7 @@ msgstr ""
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Size:"
-msgstr "حجم"
+msgstr "حجم:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Added at:"
@@ -1621,7 +1618,7 @@ msgstr "بررسی نسخه جدید…"
 
 msgctxt "NativeMenuBar|"
 msgid "Preferences..."
-msgstr "تنظیمات…"
+msgstr "تنظیمات..."
 
 msgctxt "NativeMenuBar|"
 msgid "Quit"
@@ -1709,7 +1706,7 @@ msgstr "‏HTTP:"
 
 msgctxt "NetworkSettings|"
 msgid ":"
-msgstr "‪:‬"
+msgstr ":"
 
 msgctxt "NetworkSettings|"
 msgid "HTTPS:"
@@ -2546,16 +2543,6 @@ msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr ""
 
-
-
-
-
-
-
-
-
-
-
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
 msgstr "انصراف"
@@ -2906,7 +2893,7 @@ msgstr "خطا در هنگام دانلود بروزرسانی:"
 
 msgctxt "UpdateDialog|"
 msgid "Checking..."
-msgstr "در حال بررسی…"
+msgstr "در حال بررسی..."
 
 msgctxt "UpdateDialog|"
 msgid "Update downloaded"
