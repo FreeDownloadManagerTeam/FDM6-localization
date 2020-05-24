@@ -1019,9 +1019,10 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Queued"
 msgstr "صف شده"
 
+#, fuzzy
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Paused"
-msgstr "متوقف شده"
+msgstr "مکث  شده"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
@@ -1059,9 +1060,10 @@ msgctxt "DownloadsViewStatusItem|"
 msgid "Unknown file size"
 msgstr "حجم فایل نامشخص"
 
+#, fuzzy
 msgctxt "DownloadsViewStatusItem|"
 msgid "Paused"
-msgstr "متوقف شده"
+msgstr "مکث  شده"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
@@ -1464,6 +1466,7 @@ msgctxt "MainMenu|"
 msgid "Sleep"
 msgstr "خواب"
 
+#, fuzzy
 msgctxt "MainMenu|"
 msgid "Hibernate"
 msgstr "هایبرنیت"
@@ -1518,13 +1521,15 @@ msgctxt "MainToolbar|"
 msgid "Start selected"
 msgstr "شروع انتخاب شده ها"
 
+#, fuzzy
 msgctxt "MainToolbar|"
 msgid "Pause all"
-msgstr "توقف همه"
+msgstr "مکث  همه"
 
+#, fuzzy
 msgctxt "MainToolbar|"
 msgid "Pause selected"
-msgstr "توقف انتخاب شده ها"
+msgstr "مکث  انتخاب شده ها"
 
 msgctxt "MainToolbar|"
 msgid "Delete selected"
@@ -1666,9 +1671,10 @@ msgctxt "NativeMenuBar|"
 msgid "Start selected"
 msgstr "شروع انتخاب شده ها"
 
+#, fuzzy
 msgctxt "NativeMenuBar|"
 msgid "Pause selected"
-msgstr "توقف انتخاب شده ها"
+msgstr "مکث  انتخاب شده ها"
 
 msgctxt "NativeMenuBar|"
 msgid "Restart selected"
@@ -1764,7 +1770,7 @@ msgstr "نامحدود"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom..."
-msgstr "سفارشی…"
+msgstr "سفارشی..."
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "KB/s"
@@ -2260,55 +2266,58 @@ msgstr "بدون عنوان"
 
 msgctxt "QObject|"
 msgid "Failed to remove current version"
-msgstr ""
+msgstr "نسخه فعلی حذف نشد"
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "hdiutil error %1"
-msgstr ""
+msgstr "خطای hdiutil %1"
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "Mount point does not exist"
-msgstr ""
+msgstr "نقطه Mount کردن موجود نیست"
 
 msgctxt "QObject|"
 msgid "Path to the dump folder."
-msgstr ""
+msgstr "مسیر پوشه Dump."
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "Url to upload dumps to."
-msgstr ""
+msgstr "URL برای آپلود Dumpها."
 
 msgctxt "QObject|"
 msgid "Path to the crashed app that can be restarted."
-msgstr ""
+msgstr "مسیر برنامه خراب شده که می تواند مجدداً راه اندازی شود."
 
 msgctxt "QObject|"
 msgid "Name of the crashed application."
-msgstr ""
+msgstr "نام برنامه خراب شده."
 
 msgctxt "QObject|"
 msgid "Version of the application."
-msgstr "نسخه اپلیکیشن."
+msgstr "نسخه برنامه."
 
 msgctxt "QObject|"
 msgid "Architecture."
-msgstr ""
+msgstr "معماری."
 
 msgctxt "QObject|"
 msgid "User's operating system."
-msgstr ""
+msgstr "سیستم عامل کاربر."
 
 msgctxt "QObject|"
 msgid "Fault module name."
-msgstr ""
+msgstr "نام ماژول خطا."
 
 msgctxt "QObject|"
 msgid "Crash address."
-msgstr ""
+msgstr "آدرس خرابی."
 
 msgctxt "QObject|"
 msgid "Signature check failure."
-msgstr ""
+msgstr "عدم موفقیت در بررسی امضا."
 
 msgctxt "QObject|"
 msgid "Download with %1"
@@ -2336,7 +2345,7 @@ msgstr "موزیک"
 
 msgctxt "QObject|"
 msgid "There is not enough disk space."
-msgstr ""
+msgstr "فضای دیسک کافی نیست."
 
 msgctxt "QObject|"
 msgid ""
@@ -2344,28 +2353,33 @@ msgid ""
 "%1 has failed to restore it from backup.\n"
 "Please close all your web browsers and try again."
 msgstr ""
+"لیست دانلود خراب شده است.\n"
+"%1 در بازگرداندن آن از پشتیبان گیری موفق نشد.\n"
+"لطفا تمام مرورگرهای خود را ببندید و دوباره تلاش کنید."
 
 msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
-msgstr ""
+msgstr "خطای جدی: بارگیری پایگاه داده انجام نشد."
 
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
 msgstr ""
+"می خواهید آن را پاک کنید (با این کار لیست دانلودهای شما و تمام داده های٪ 1 "
+"پاک خواهند شد)؟"
 
 msgctxt "QObject|"
 msgid "Failed."
-msgstr ""
+msgstr "ناموفق."
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
-msgstr ""
+msgstr "پارامتر %path% موجود نیست."
 
 msgctxt "QObject|"
 msgid "Update URL"
-msgstr ""
+msgstr "بروزرسانی URL"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -2421,23 +2435,24 @@ msgstr "تا:"
 
 msgctxt "SchedulerButton|"
 msgid "Scheduler"
-msgstr ""
+msgstr "زمانبند"
 
 msgctxt "SchedulerCheckbox|"
 msgid "Scheduler"
-msgstr ""
+msgstr "زمانبند"
 
 msgctxt "SchedulerDialog|"
 msgid "Scheduler"
-msgstr ""
+msgstr "زمانبند"
 
+#, fuzzy
 msgctxt "SchedulerDialog|"
 msgid "Start and pause downloads at specified time"
-msgstr "شروع و توقف دانلودها در زمانی خاص"
+msgstr "شروع و مکث  دانلودها در زمانی خاص"
 
 msgctxt "SchedulerDialog|"
 msgid "Enable Scheduler"
-msgstr ""
+msgstr "فعالسازی زمانبند"
 
 msgctxt "SchedulerDialog|"
 msgid "Cancel"
@@ -2449,7 +2464,7 @@ msgstr "اعمال"
 
 msgctxt "SchedulerDialog|"
 msgid "All the day"
-msgstr ""
+msgstr "تمام روز"
 
 msgctxt "SchedulerDialog|"
 msgid "Everyday"
@@ -2489,7 +2504,7 @@ msgstr "شنبه"
 
 msgctxt "SchedulerTools|"
 msgid "Set days of the week to enable Scheduler"
-msgstr ""
+msgstr "برای فعال کردن برنامه زمانبندی، روزهای هفته را تنظیم کنید"
 
 msgctxt "SearchField|"
 msgid "Search"
@@ -2501,7 +2516,7 @@ msgstr "جستجو"
 
 msgctxt "SearchPage|"
 msgid "No results found for"
-msgstr ""
+msgstr "نتیجه ای یافت نشد برای"
 
 msgctxt "SearchToolbar|"
 msgid "Search"
@@ -2509,7 +2524,7 @@ msgstr "جستجو"
 
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
-msgstr ""
+msgstr "انتخاب شده: %1"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Sort"
@@ -2525,7 +2540,7 @@ msgstr "نزولی"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
-msgstr ""
+msgstr ". حتما بسته شود؟"
 
 msgctxt "SettingsPage|"
 msgid "Preferences"
@@ -2549,7 +2564,7 @@ msgstr "محدودیت ترافیک"
 
 msgctxt "SettingsPage|"
 msgid "Antivirus"
-msgstr ""
+msgstr "آنتی ویروس"
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
@@ -2569,7 +2584,7 @@ msgstr "محدودیت ترافیک"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
-msgstr ""
+msgstr "تنظیمات پیشرفته"
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -2577,8 +2592,9 @@ msgstr "انصراف"
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be put to sleep after all downloads are completed."
-msgstr "بعد از اتمام همه دانلودها، کامپیوتر اسلیپ می شود."
+msgstr "بعد از اتمام همه دانلودها، کامپیوتر به حالت خواب می رود."
 
+#, fuzzy
 msgctxt "ShutdownBanner|"
 msgid "Computer will be hibernate after all downloads are completed."
 msgstr "بعد از اتمام همه دانلودها، کامپیوتر هایبرنیت می شود."
@@ -2603,6 +2619,7 @@ msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be put to Sleep mode."
 msgstr "توجه! کامپیوتر شما به خواب خواهد رفت."
 
+#, fuzzy
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be hibernated."
 msgstr "توجه! کامپیوتر شما هایبرنیت خواهد شد."
@@ -2625,7 +2642,7 @@ msgstr "بر اساس حجم"
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
-msgstr ""
+msgstr "هشدار: خطر بالقوه امنیتی پیش رو"
 
 msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
@@ -2633,7 +2650,7 @@ msgstr "گواهی SSL معتبر نیست."
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
-msgstr ""
+msgstr "اثر انگشت"
 
 msgctxt "SslDialog|"
 msgid "SHA-256:"
@@ -2645,7 +2662,7 @@ msgstr "‏SHA1:"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
-msgstr ""
+msgstr "خطر را بپذیرید و دانلود کنید"
 
 msgctxt "SslDialog|"
 msgid "Cancel"
@@ -2661,15 +2678,16 @@ msgstr "ادامه"
 
 msgctxt "StatusItem|"
 msgid "Checking files..."
-msgstr "در حال بررسی فایل ها…"
+msgstr "در حال بررسی فایل ها..."
 
+#, fuzzy
 msgctxt "StatusItem|"
 msgid "Merging media streams..."
-msgstr ""
+msgstr "ادغام جریان رسانه ها ..."
 
 msgctxt "StatusItem|"
 msgid "Queued"
-msgstr ""
+msgstr "صف شده"
 
 msgctxt "StatusItem|"
 msgid "Moving... %1%"
@@ -2677,11 +2695,11 @@ msgstr "در حال انتقال… %1%"
 
 msgctxt "StatusItem|"
 msgid "Converting to mp3..."
-msgstr ""
+msgstr "در حال تبدیل به mp3..."
 
 msgctxt "StatusItem|"
 msgid "Checking for viruses..."
-msgstr ""
+msgstr "در حال بررسی برای ویروس ها..."
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"
@@ -2689,39 +2707,45 @@ msgstr "حجم فایل نامشخص"
 
 msgctxt "StatusItem|"
 msgid "Requesting info..."
-msgstr ""
+msgstr "در حال درخواست اطلاعات..."
 
+#, fuzzy
 msgctxt "StatusItem|"
 msgid "Paused"
-msgstr "متوقف شده"
+msgstr "مکث  شده"
 
 msgctxt "StatusItem|"
 msgid "Completed"
 msgstr "تمام شده"
 
+#, fuzzy
 msgctxt "StopDownloadDialog|"
 msgid "Pause download"
-msgstr ""
+msgstr "مکث  دانلود"
 
+#, fuzzy
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing."
-msgstr ""
+msgstr "دانلود (های) زیر پس از مکث قابل از سرگیری نیست."
 
+#, fuzzy
 msgctxt "StopDownloadDialog|"
 msgid "Pause"
-msgstr ""
+msgstr "مکث"
 
 msgctxt "StopDownloadDialog|"
 msgid "Cancel"
 msgstr "انصراف"
 
+#, fuzzy
 msgctxt "StopDownloadDialog|"
 msgid "This download can't be resumed after pausing"
-msgstr ""
+msgstr "این دانلود پس از مکث قابل از سرگیری نیست"
 
+#, fuzzy
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
-msgstr ""
+msgstr "دانلود (های) زیر پس از مکث قابل از سرگیری نیست"
 
 msgctxt "TagColorDialog|"
 msgid "Remove tag"
@@ -2777,7 +2801,7 @@ msgstr "حداکثر تعداد دانلودهای همزمان"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
-msgstr ""
+msgstr "تنظیمات محدودیت ترافیک نامعتبر است"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
@@ -2793,7 +2817,7 @@ msgstr "‏KB/s"
 
 msgctxt "TumComboBox|"
 msgid "unlimited"
-msgstr ""
+msgstr "نامحدود"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
@@ -2817,7 +2841,7 @@ msgstr "نامحدود"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Custom..."
-msgstr "سفارشی…"
+msgstr "سفارشی..."
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "%"
@@ -2837,19 +2861,19 @@ msgstr "نامحدود"
 
 msgctxt "TumModeBlock|"
 msgid "Max. number of simultaneous downloads"
-msgstr ""
+msgstr "حداکثر تعداد دانلودهای همزمان"
 
 msgctxt "TumModeBlock|"
 msgid "Snail mode"
-msgstr "حالت حلزون"
+msgstr "حالت حلزونی (کند)"
 
 msgctxt "TumModeBlock|"
 msgid "Frees bandwidth without stopping downloads."
-msgstr ""
+msgstr "پهنای باند را بدون توقف دانلود آزاد می کند."
 
 msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
-msgstr ""
+msgstr "محدودیت ترافیک را تغییر دهید"
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
@@ -2877,11 +2901,11 @@ msgstr "حجم: %1 (فضای دیسک: %2)"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
-msgstr ""
+msgstr "حجم: %1"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
-msgstr "بررسی برای نسخه جدید…"
+msgstr "در حال بررسی برای بروزرسانی..."
 
 msgctxt "UpdateDialog|"
 msgid "Error:"
@@ -2889,7 +2913,7 @@ msgstr "خطا:"
 
 msgctxt "UpdateDialog|"
 msgid "Retry"
-msgstr ""
+msgstr "تلاش دوباره"
 
 msgctxt "UpdateDialog|"
 msgid "Cancel"
@@ -2897,11 +2921,11 @@ msgstr "انصراف"
 
 msgctxt "UpdateDialog|"
 msgid "New version is available"
-msgstr "نسخه جدید در دسترس است."
+msgstr "نسخه جدید موجود است"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
-msgstr "به روزرسانی"
+msgstr "بروزرسانی"
 
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
@@ -2925,15 +2949,15 @@ msgstr "در حال بررسی..."
 
 msgctxt "UpdateDialog|"
 msgid "Update downloaded"
-msgstr "به روزرسانی دانلود شد"
+msgstr "بروزرسانی دانلود شد"
 
 msgctxt "UpdateDialog|"
 msgid "Install update"
-msgstr "نصب به روزرسانی"
+msgstr "نصب بروزرسانی"
 
 msgctxt "UpdateDialog|"
 msgid "Installing updates"
-msgstr "در حال نصب به روزرسانی"
+msgstr "در حال نصب بروزرسانی"
 
 msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
@@ -2941,11 +2965,11 @@ msgstr "خطا در هنگام نصب بروزرسانی:"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
-msgstr ""
+msgstr "راه اندازی مجدد %1 برای بروزرسانی"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch (%1)"
-msgstr ""
+msgstr "راه اندازی مجدد (%1)"
 
 msgctxt "UpdateDialog|"
 msgid "Later"
@@ -2953,7 +2977,7 @@ msgstr "بعدا"
 
 msgctxt "UpdateDialog|"
 msgid "Check for updates"
-msgstr "بررسی نسخه جدید"
+msgstr "بررسی بروزرسانی"
 
 msgctxt "VideoQuality|"
 msgid "Quality:"
@@ -2961,27 +2985,27 @@ msgstr "کیفیت:"
 
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
-msgstr ""
+msgstr "از %1 لذت می برید؟"
 
 msgctxt "VoteBlock|"
 msgid "Not, really"
-msgstr ""
+msgstr "نه، واقعا"
 
 msgctxt "VoteBlock|"
 msgid "Yes!"
-msgstr ""
+msgstr "بله!"
 
 msgctxt "VoteBlock|"
 msgid "Thanks a lot! Please rate on Google Play."
-msgstr ""
+msgstr "خیلی ممنون! لطفاً در Google Play رای دهید."
 
 msgctxt "VoteBlock|"
 msgid "No, thanks"
-msgstr ""
+msgstr "نه، ممنون"
 
 msgctxt "VoteBlock|"
 msgid "OK, sure!"
-msgstr ""
+msgstr "بله، حتما!"
 
 msgctxt "VoteBlock|"
 msgid "Later"
@@ -2989,11 +3013,12 @@ msgstr "بعدا"
 
 msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."
-msgstr ""
+msgstr "بیایید با هم بهتر شویم! نظراتتون رو بهمون بگید."
 
+#, fuzzy
 msgctxt "WaitingPage|"
 msgid "Refresh"
-msgstr ""
+msgstr "رفرش"
 
 msgctxt "main|"
 msgid "Move"
