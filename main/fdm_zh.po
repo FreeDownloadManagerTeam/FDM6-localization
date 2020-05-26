@@ -37,11 +37,11 @@ msgstr "在文件名中添加日期"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
-msgstr ""
+msgstr "添加镜像"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "输入镜像URL"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
@@ -49,19 +49,19 @@ msgstr "取消"
 
 msgctxt "AddMirrorDialog|"
 msgid "OK"
-msgstr ""
+msgstr "确定"
 
 msgctxt "AddMirrorPage|"
 msgid "Add mirror"
-msgstr ""
+msgstr "添加镜像"
 
 msgctxt "AddMirrorPage|"
 msgid "OK"
-msgstr ""
+msgstr "确定"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "输入镜像URL"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -117,7 +117,7 @@ msgstr "在启动时加载（最小化）"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "单击下载项 展开/隐藏 底部面板"
+msgstr "单击下载项以展开/隐藏底部面板"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -371,21 +371,7 @@ msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr "连接"
 
-msgctxt "Browser|"
-msgid ""
-"You're about to open a built-in web browser.\n"
-"\n"
-"It helps you to add downloads into %1.\n"
-"\n"
-"Some of them (e.g. Google Drive downloads) can be added using this browser "
-"only, because they require additional information that your Android system's "
-"browser does not provide to %2 (or there is no universal way for all "
-"browsers to do this)."
-msgstr ""
 
-msgctxt "Browser|"
-msgid "OK"
-msgstr ""
 
 msgctxt "Browser|"
 msgid "Enter URL"
@@ -393,47 +379,47 @@ msgstr "输入链接"
 
 msgctxt "Browser|"
 msgid "Bookmark removed"
-msgstr ""
+msgstr "书签已移除"
 
 msgctxt "Browser|"
 msgid "Bookmark added"
-msgstr ""
+msgstr "书签已添加"
 
 msgctxt "Browser|"
 msgid "Bookmarks"
-msgstr ""
+msgstr "书签"
 
 msgctxt "Browser|"
 msgid "There are no bookmarks at the moment"
-msgstr ""
+msgstr "当前没有书签"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr ""
+msgstr "您确定要移除此书签吗？"
 
 msgctxt "Browser|"
 msgid "YES"
-msgstr ""
+msgstr "是"
 
 msgctxt "Browser|"
 msgid "NO"
-msgstr ""
+msgstr "否"
 
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
-msgstr ""
+msgstr "返回%1"
 
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
-msgstr ""
+msgstr "书签"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
-msgstr ""
+msgstr "移除书签"
 
 msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
-msgstr ""
+msgstr "添加书签"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
@@ -504,6 +490,28 @@ msgstr "Mbytes"
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "取消 %1 下载时改用浏览器下载"
+
+msgctxt "BrowserIntroDialog|"
+msgid ""
+"You're about to open a built-in web browser.\n"
+"\n"
+"It helps you to add downloads into %1.\n"
+"\n"
+"Some of them (e.g. Google Drive downloads) can be added using this browser "
+"only, because they require additional information that your Android system's "
+"browser does not provide to %1 (or there is no universal way for all "
+"browsers to do this)."
+msgstr ""
+"您将打开一个内建浏览器。\n"
+"\n"
+"这将帮助您添加下载项到%1.\n"
+"\n"
+"其中一些（如Google "
+"Drive下载）仅可通过此浏览器添加，因为它们需要您的Android系统浏览器无法提供（或没有对所有浏览器的通用方法）给%1的额外信息。"
+
+msgctxt "BrowserIntroDialog|"
+msgid "Continue"
+msgstr "继续"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -621,7 +629,6 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "开始下载"
 
-
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "当前没有链接"
@@ -660,7 +667,7 @@ msgstr "比特率 (品质)"
 
 msgctxt "ConvertationDialog|"
 msgid "Constant bitrate of value"
-msgstr "固定值比特率"
+msgstr "固定比特率"
 
 msgctxt "ConvertationDialog|"
 msgid "Variable bitrate (VBR)"
@@ -932,7 +939,7 @@ msgstr "顺序下载"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
-msgstr ""
+msgstr "添加镜像"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
@@ -1385,7 +1392,7 @@ msgstr "设为默认值"
 
 msgctxt "IntegrationBanner|"
 msgid "Don't ask again"
-msgstr "不在询问"
+msgstr "不再询问"
 
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
@@ -1397,7 +1404,7 @@ msgstr "语言"
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
-msgstr ""
+msgstr "浏览器"
 
 msgctxt "LeftDrawer|"
 msgid "Settings"
@@ -1488,12 +1495,11 @@ msgid "No Internet connection"
 msgstr "没有网络链接"
 
 msgctxt "MainStatusBar|"
-msgid "file selected"
-msgstr "已选文件"
+msgid "%n downloads selected."
+msgid_plural "%n downloads selected."
+msgstr[0] ""
 
-msgctxt "MainStatusBar|"
-msgid "files selected"
-msgstr "已选文件"
+
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -1637,7 +1643,7 @@ msgstr "文件(&F)"
 
 msgctxt "NativeMenuBar|"
 msgid "Add &new download"
-msgstr "添加 &新的下载"
+msgstr "添加新的下载(&N)"
 
 msgctxt "NativeMenuBar|"
 msgid "&Edit"
@@ -2330,8 +2336,19 @@ msgstr ""
 "请关闭浏览器并重试."
 
 msgctxt "QObject|"
-msgid "Failed to initialize core objects."
-msgstr "初始化内核失败."
+msgid "Fatal error: failed to load the database."
+msgstr ""
+
+msgctxt "QObject|"
+msgid ""
+"Would you like to erase it (this will clear your downloads list and all %1 "
+"data)?"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Failed."
+msgstr ""
+
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
@@ -2339,7 +2356,7 @@ msgstr "缺少 %path% 参数."
 
 msgctxt "QObject|"
 msgid "Update URL"
-msgstr ""
+msgstr "更新链接"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -2764,6 +2781,10 @@ msgstr "不限制"
 msgctxt "TumComboBox|"
 msgid "KB/s"
 msgstr "KB/s"
+
+msgctxt "TumComboBox|"
+msgid "unlimited"
+msgstr ""
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
