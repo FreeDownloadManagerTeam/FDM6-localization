@@ -371,8 +371,6 @@ msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr "连接"
 
-
-
 msgctxt "Browser|"
 msgid "Enter URL"
 msgstr "输入链接"
@@ -499,15 +497,15 @@ msgid ""
 "\n"
 "Some of them (e.g. Google Drive downloads) can be added using this browser "
 "only, because they require additional information that your Android system's "
-"browser does not provide to %1 (or there is no universal way for all "
-"browsers to do this)."
+"browser does not provide to %1 (or there is no universal way for all browsers "
+"to do this)."
 msgstr ""
 "您将打开一个内建浏览器。\n"
 "\n"
 "这将帮助您添加下载项到%1.\n"
 "\n"
-"其中一些（如Google "
-"Drive下载）仅可通过此浏览器添加，因为它们需要您的Android系统浏览器无法提供（或没有对所有浏览器的通用方法）给%1的额外信息。"
+"其中一些（如Google Drive下载）仅可通过此浏览器添加，因为它们需要您的Android系"
+"统浏览器无法提供（或没有对所有浏览器的通用方法）给%1的额外信息。"
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -1497,9 +1495,7 @@ msgstr "没有网络链接"
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
-msgstr[0] ""
-
-
+msgstr[0] "%n 下载项已选择."
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -2337,18 +2333,17 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
-msgstr ""
+msgstr "错误：数据库加载失败."
 
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
-msgstr ""
+msgstr "你希望擦除吗 (这将清空下载列表 和 全部 %1 数据)?"
 
 msgctxt "QObject|"
 msgid "Failed."
-msgstr ""
-
+msgstr "失败."
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
@@ -2536,7 +2531,7 @@ msgstr "网络"
 
 msgctxt "SettingsPage|"
 msgid "Traffic Limits"
-msgstr "流量限制"
+msgstr "限速"
 
 msgctxt "SettingsPage|"
 msgid "Antivirus"
@@ -2556,7 +2551,7 @@ msgstr "网络设置"
 
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
-msgstr "流量限制"
+msgstr "限速"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -2732,19 +2727,19 @@ msgstr "自定义颜色"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
-msgstr "流量限制"
+msgstr "限速"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Low"
-msgstr "高流量限制"
+msgstr "高限速"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Medium"
-msgstr "中流量限制"
+msgstr "中限速"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "High"
-msgstr "低流量限制"
+msgstr "低限速"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Download speed"
@@ -2768,11 +2763,11 @@ msgstr "最大独立下载数"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
-msgstr "流量限制设置错误"
+msgstr "限速设置错误"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
-msgstr "流量限制"
+msgstr "限速"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
@@ -2784,7 +2779,7 @@ msgstr "KB/s"
 
 msgctxt "TumComboBox|"
 msgid "unlimited"
-msgstr ""
+msgstr "不限制"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
@@ -2792,15 +2787,15 @@ msgstr "下载: %1, 上传: %2"
 
 msgctxt "TumComboBox|"
 msgid "High"
-msgstr "低流量限制"
+msgstr "低限速"
 
 msgctxt "TumComboBox|"
 msgid "Medium"
-msgstr "中流量限制"
+msgstr "中限速"
 
 msgctxt "TumComboBox|"
 msgid "Low"
-msgstr "低流量限制"
+msgstr "高限速"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Unlimited"
@@ -2840,7 +2835,7 @@ msgstr "不停止下载且释放带宽."
 
 msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
-msgstr "修改流量限制"
+msgstr "修改限速"
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
