@@ -414,6 +414,14 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr "Добави маркера"
 
+msgctxt "BrowserButton|"
+msgid "Download %1 extension"
+msgstr "Свалете добавка за %1"
+
+msgctxt "BrowserButton|"
+msgid "%1 is not installed"
+msgstr "%1 не е инсталиран"
+
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "Интегриране в браузъра"
@@ -426,21 +434,13 @@ msgstr ""
 "Проверете дали имате инсталирана %1 добавка или натиснете един от следните "
 "бутони"
 
-msgctxt "BrowserIntegrationSettings|"
-msgid "Download Firefox extension"
-msgstr "Свалете добавка за Firefox"
+
+
+
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Firefox is not installed"
-msgstr "Firefox не е инсталиран"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Download Google Chrome extension"
-msgstr "Свалете добавка за Google Chrome"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Google Chrome is not installed"
-msgstr "Google Chrome не е инсталиран"
+msgid "Other supported browsers"
+msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -508,6 +508,10 @@ msgstr ""
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
 msgstr "Продължи"
+
+msgctxt "BrowserListElement|"
+msgid "(browser is not installed)"
+msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -745,6 +749,58 @@ msgstr "OK"
 msgctxt "CreateFolderDialog|"
 msgid "Cancel"
 msgstr "Отказ"
+
+msgctxt "CreatePortableDialog|"
+msgid "Create portable version"
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Portable version of %1 can be used on different computers without the need "
+"to install and configure it on each of them."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "It can be conveniently placed on a flash disk, for example."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Specify here the path where you would like to create this version. It should "
+"be a folder on some removable drive."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "Open"
+msgstr "Отвори"
+
+msgctxt "CreatePortableDialog|"
+msgid "Cancel"
+msgstr "Отказ"
+
+msgctxt "CreatePortableDialog|"
+msgid "Please specify the path."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating %1%"
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "An error occurred while creating a portable version: %1"
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating a portable version was successfully completed."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "Close"
+msgstr "Затвори"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
@@ -1469,6 +1525,10 @@ msgid "Shutdown"
 msgstr "Изключване"
 
 msgctxt "MainMenu|"
+msgid "Create portable version"
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "Check for Updates..."
 msgstr "Провери за обновления..."
 
@@ -2179,6 +2239,14 @@ msgstr "Прочита на мрежата просрочен"
 msgctxt "QObject|"
 msgid "Network connect timeout error"
 msgstr "Грешка просрочено време за връзка"
+
+msgctxt "QObject|"
+msgid "Unsupported"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Invalid parameter"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Host not found"

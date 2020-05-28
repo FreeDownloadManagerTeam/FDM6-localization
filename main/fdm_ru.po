@@ -423,6 +423,14 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr "Добавить закладку"
 
+msgctxt "BrowserButton|"
+msgid "Download %1 extension"
+msgstr "Скачать расширение для %1"
+
+msgctxt "BrowserButton|"
+msgid "%1 is not installed"
+msgstr "%1 не установлен"
+
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "Интеграция с браузерами"
@@ -435,21 +443,13 @@ msgstr ""
 "Убедитесь, что у вас установлено расширение %1, в противном случае нажмите "
 "на одну из кнопок ниже"
 
-msgctxt "BrowserIntegrationSettings|"
-msgid "Download Firefox extension"
-msgstr "Скачать расширение для Firefox"
+
+
+
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Firefox is not installed"
-msgstr "Firefox не установлен"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Download Google Chrome extension"
-msgstr "Скачать расширение для Google Chrome"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Google Chrome is not installed"
-msgstr "Google Chrome не установлен"
+msgid "Other supported browsers"
+msgstr "Другие поддерживаемые браузеры"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -518,6 +518,10 @@ msgstr ""
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
 msgstr "Продолжить"
+
+msgctxt "BrowserListElement|"
+msgid "(browser is not installed)"
+msgstr "(браузер не установлен)"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -758,6 +762,62 @@ msgstr "ОК"
 msgctxt "CreateFolderDialog|"
 msgid "Cancel"
 msgstr "Отменить"
+
+msgctxt "CreatePortableDialog|"
+msgid "Create portable version"
+msgstr "Создать портативную версию"
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Portable version of %1 can be used on different computers without the need "
+"to install and configure it on each of them."
+msgstr ""
+"Портативная версия %1 может использоваться на разных компьютерах без "
+"необходимости ее установки и настройки на каждом из них."
+
+msgctxt "CreatePortableDialog|"
+msgid "It can be conveniently placed on a flash disk, for example."
+msgstr "Например, её можно удобно разместить на флэш-диске."
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Specify here the path where you would like to create this version. It should "
+"be a folder on some removable drive."
+msgstr ""
+"Укажите здесь путь, по которому вы хотите создать эту версию. Это должна "
+"быть папка на каком-нибудь съемном диске."
+
+msgctxt "CreatePortableDialog|"
+msgid "Open"
+msgstr "Открыть"
+
+msgctxt "CreatePortableDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "CreatePortableDialog|"
+msgid "Please specify the path."
+msgstr "Пожалуйста, укажите путь."
+
+msgctxt "CreatePortableDialog|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating %1%"
+msgstr "Создание %1%"
+
+msgctxt "CreatePortableDialog|"
+msgid "An error occurred while creating a portable version: %1"
+msgstr "В процессе создания портативной версии произошла ошибка: %1"
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating a portable version was successfully completed."
+msgstr "Создание портативной версии успешно завершено."
+
+msgctxt "CreatePortableDialog|"
+msgid "Close"
+msgstr "Закрыть"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
@@ -1486,6 +1546,10 @@ msgid "Shutdown"
 msgstr "Выключение"
 
 msgctxt "MainMenu|"
+msgid "Create portable version"
+msgstr "Создать портативную версию"
+
+msgctxt "MainMenu|"
 msgid "Check for Updates..."
 msgstr "Проверка обновлений..."
 
@@ -2199,6 +2263,14 @@ msgstr "Превышено время  ожидания"
 msgctxt "QObject|"
 msgid "Network connect timeout error"
 msgstr "Превышено время подключения"
+
+msgctxt "QObject|"
+msgid "Unsupported"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Invalid parameter"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Host not found"
