@@ -351,7 +351,7 @@ msgstr "低品质, 最小文件大小"
 
 msgctxt "BottomPanelTools|"
 msgid "General"
-msgstr "一般"
+msgstr "常规"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
@@ -364,27 +364,6 @@ msgstr "文件"
 msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr "连接"
-
-msgctxt "Browser|"
-msgid ""
-"You're about to open a built-in web browser.\n"
-"\n"
-"It helps you to add downloads into %1.\n"
-"\n"
-"Some of them (e.g. Google Drive downloads) can be added using this browser "
-"only, because they require additional information that your Android system's "
-"browser does not provide to %2 (or there is no universal way for all "
-"browsers to do this)."
-msgstr ""
-"您将打开一个内建浏览器。\n"
-"\n"
-"这将帮助您添加下载项到%1.\n"
-"\n"
-"其中一些（如Google Drive下载）仅可通过此浏览器添加，因为它们需要您的Android系统浏览器无法提供（或没有对所有浏览器的通用方法）给%2的额外信息。"
-
-msgctxt "Browser|"
-msgid "OK"
-msgstr "确定"
 
 msgctxt "Browser|"
 msgid "Enter URL"
@@ -434,6 +413,14 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr "添加书签"
 
+msgctxt "BrowserButton|"
+msgid "Download %1 extension"
+msgstr "下载%1浏览器扩展"
+
+msgctxt "BrowserButton|"
+msgid "%1 is not installed"
+msgstr "%1浏览器扩展未安装"
+
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "浏览器集成"
@@ -445,20 +432,8 @@ msgid ""
 msgstr "请确认您已安装 %1 扩展, 否则请点击下方任意按钮"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Download Firefox extension"
-msgstr "下载FireFox浏览器扩展"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Firefox is not installed"
-msgstr "FireFox浏览器未安装"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Download Google Chrome extension"
-msgstr "下载Chrome浏览器扩展"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Google Chrome is not installed"
-msgstr "Chrome浏览器未安装"
+msgid "Other supported browsers"
+msgstr "其他支持的浏览器"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -503,6 +478,32 @@ msgstr "Mbytes"
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "取消 %1 下载时改用浏览器下载"
+
+msgctxt "BrowserIntroDialog|"
+msgid ""
+"You're about to open a built-in web browser.\n"
+"\n"
+"It helps you to add downloads into %1.\n"
+"\n"
+"Some of them (e.g. Google Drive downloads) can be added using this browser "
+"only, because they require additional information that your Android system's "
+"browser does not provide to %1 (or there is no universal way for all "
+"browsers to do this)."
+msgstr ""
+"您将打开一个内建浏览器。\n"
+"\n"
+"这将帮助您添加下载项到%1.\n"
+"\n"
+"其中一些（如Google "
+"Drive下载）仅可通过此浏览器添加，因为它们需要您的Android系统浏览器无法提供（或没有对所有浏览器的通用方法）给%1的额外信息。"
+
+msgctxt "BrowserIntroDialog|"
+msgid "Continue"
+msgstr "继续"
+
+msgctxt "BrowserListElement|"
+msgid "(browser is not installed)"
+msgstr "(浏览器未安装)"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -741,6 +742,58 @@ msgstr "确定"
 msgctxt "CreateFolderDialog|"
 msgid "Cancel"
 msgstr "取消"
+
+msgctxt "CreatePortableDialog|"
+msgid "Create portable version"
+msgstr "创建便携版"
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Portable version of %1 can be used on different computers without the need "
+"to install and configure it on each of them."
+msgstr "%1的便携版可在无需安装并分别设置的情况下在不同计算机上使用。"
+
+msgctxt "CreatePortableDialog|"
+msgid "It can be conveniently placed on a flash disk, for example."
+msgstr "例如，它可以方便地被置于闪存盘中。"
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Specify here the path where you would like to create this version. It should "
+"be a folder on some removable drive."
+msgstr "在此输入你想创建便携版的路径。它应为可移动存储器上的路径。"
+
+msgctxt "CreatePortableDialog|"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "CreatePortableDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "CreatePortableDialog|"
+msgid "Please specify the path."
+msgstr "请指明路径。"
+
+msgctxt "CreatePortableDialog|"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating %1%"
+msgstr "正在创建%1%"
+
+msgctxt "CreatePortableDialog|"
+msgid "An error occurred while creating a portable version: %1"
+msgstr "创建便携版时发生了错误：%1"
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating a portable version was successfully completed."
+msgstr "成功创建了便携版。"
+
+msgctxt "CreatePortableDialog|"
+msgid "Close"
+msgstr "关闭"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
@@ -1349,11 +1402,11 @@ msgstr "上传速度："
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
-msgstr "添加到:"
+msgstr "添加时间:"
 
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
-msgstr "%2 之 %1"
+msgstr "%1 共 %2"
 
 msgctxt "GeneralTab|"
 msgid "Domain:"
@@ -1437,7 +1490,7 @@ msgstr "已完成"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
-msgstr "从剪贴板粘贴链接"
+msgstr "从剪贴板粘贴"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -1464,6 +1517,10 @@ msgid "Shutdown"
 msgstr "关机"
 
 msgctxt "MainMenu|"
+msgid "Create portable version"
+msgstr "创建便携版"
+
+msgctxt "MainMenu|"
 msgid "Check for Updates..."
 msgstr "检查更新..."
 
@@ -1488,12 +1545,11 @@ msgid "No Internet connection"
 msgstr "没有网络链接"
 
 msgctxt "MainStatusBar|"
-msgid "file selected"
-msgstr "已选文件"
+msgid "%n downloads selected."
+msgid_plural "%n downloads selected."
+msgstr[0] "已选中%n个下载项。"
 
-msgctxt "MainStatusBar|"
-msgid "files selected"
-msgstr "已选文件"
+
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -2176,6 +2232,14 @@ msgid "Network connect timeout error"
 msgstr "网络连接超时错误"
 
 msgctxt "QObject|"
+msgid "Unsupported"
+msgstr "不支持"
+
+msgctxt "QObject|"
+msgid "Invalid parameter"
+msgstr "无效参数"
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "服务未找到"
 
@@ -2330,8 +2394,19 @@ msgstr ""
 "请关闭浏览器并重试."
 
 msgctxt "QObject|"
-msgid "Failed to initialize core objects."
-msgstr "初始化内核失败."
+msgid "Fatal error: failed to load the database."
+msgstr "错误：数据库加载失败."
+
+msgctxt "QObject|"
+msgid ""
+"Would you like to erase it (this will clear your downloads list and all %1 "
+"data)?"
+msgstr "你希望擦除吗 (这将清空下载列表 和 全部 %1 数据)?"
+
+msgctxt "QObject|"
+msgid "Failed."
+msgstr "失败."
+
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
@@ -2519,7 +2594,7 @@ msgstr "网络"
 
 msgctxt "SettingsPage|"
 msgid "Traffic Limits"
-msgstr "流量限制"
+msgstr "限速"
 
 msgctxt "SettingsPage|"
 msgid "Antivirus"
@@ -2539,7 +2614,7 @@ msgstr "网络设置"
 
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
-msgstr "流量限制"
+msgstr "限速"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -2715,19 +2790,19 @@ msgstr "自定义颜色"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
-msgstr "流量限制"
+msgstr "限速"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Low"
-msgstr "低流量限制"
+msgstr "高限速"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Medium"
-msgstr "中流量限制"
+msgstr "中限速"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "High"
-msgstr "高流量限制"
+msgstr "低限速"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Download speed"
@@ -2755,7 +2830,7 @@ msgstr "流量限制设置错误"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
-msgstr "流量限制"
+msgstr "限速"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
@@ -2766,20 +2841,24 @@ msgid "KB/s"
 msgstr "KB/s"
 
 msgctxt "TumComboBox|"
+msgid "unlimited"
+msgstr "不限制"
+
+msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
 msgstr "下载: %1, 上传: %2"
 
 msgctxt "TumComboBox|"
 msgid "High"
-msgstr "高流量限制"
+msgstr "低限速"
 
 msgctxt "TumComboBox|"
 msgid "Medium"
-msgstr "中流量限制"
+msgstr "中限速"
 
 msgctxt "TumComboBox|"
 msgid "Low"
-msgstr "低流量限制"
+msgstr "高限速"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Unlimited"
@@ -2819,7 +2898,7 @@ msgstr "不停止下载且释放带宽."
 
 msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
-msgstr "修改流量限制"
+msgstr "修改限速"
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"

@@ -30,11 +30,11 @@ msgstr "Добави дати към имената на файловете"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
-msgstr ""
+msgstr "Добави огледален адрес"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "Въведи URL на огледалния адрес"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
@@ -46,7 +46,7 @@ msgstr "OK"
 
 msgctxt "AddMirrorPage|"
 msgid "Add mirror"
-msgstr ""
+msgstr "Добави огледален адрес"
 
 msgctxt "AddMirrorPage|"
 msgid "OK"
@@ -54,7 +54,7 @@ msgstr "OK"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "Въведи URL на огледалния адрес"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -86,7 +86,7 @@ msgstr "Уведоми ме за завършени сваляния чрез No
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
-msgstr "Уведоми ме за сваляния цамо когато %1 прозорец е неактивен"
+msgstr "Уведоми ме за сваляния само когато %1 прозореца е неактивен"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -106,11 +106,11 @@ msgstr "Опции"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch at startup (minimized)"
-msgstr "Старт при зареждане (минимизиран)"
+msgstr "Старт при зареждане на ОС (минимизиран)"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "Отвори/скрий долен панел при натискане върху свалянето"
+msgstr "Покажи/скрий долен панел при натискане върху сваляния файл"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -118,7 +118,7 @@ msgstr "Запазване на листа на свалянията всеки"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
-msgstr "Бутон изтрий настройки"
+msgstr "Настройки на бутона Изтрий"
 
 msgctxt "AdvancedSettings|"
 msgid "Remove only from download list"
@@ -316,7 +316,7 @@ msgstr "Предпочитано качество на видео:"
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
-msgstr ""
+msgstr "кбвс"
 
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
@@ -367,68 +367,60 @@ msgid "Connections"
 msgstr "Връзки"
 
 msgctxt "Browser|"
-msgid ""
-"You're about to open a built-in web browser.\n"
-"\n"
-"It helps you to add downloads into %1.\n"
-"\n"
-"Some of them (e.g. Google Drive downloads) can be added using this browser "
-"only, because they require additional information that your Android system's "
-"browser does not provide to %2 (or there is no universal way for all "
-"browsers to do this)."
-msgstr ""
-
-msgctxt "Browser|"
-msgid "OK"
-msgstr "OK"
-
-msgctxt "Browser|"
 msgid "Enter URL"
 msgstr "Въведи URL"
 
 msgctxt "Browser|"
 msgid "Bookmark removed"
-msgstr ""
+msgstr "Маркера е премахнат"
 
 msgctxt "Browser|"
 msgid "Bookmark added"
-msgstr ""
+msgstr "Маркера е добавен"
 
 msgctxt "Browser|"
 msgid "Bookmarks"
-msgstr ""
+msgstr "Маркери"
 
 msgctxt "Browser|"
 msgid "There are no bookmarks at the moment"
-msgstr ""
+msgstr "Няма маркери в момента"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr ""
+msgstr "Сигурни ли сте че искате да премахнете този маркер?"
 
 msgctxt "Browser|"
 msgid "YES"
-msgstr ""
+msgstr "ДА"
 
 msgctxt "Browser|"
 msgid "NO"
-msgstr ""
+msgstr "НЕ"
 
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
-msgstr ""
+msgstr "Обратно към %1"
 
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
-msgstr ""
+msgstr "Маркери"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
-msgstr ""
+msgstr "Премахни маркера"
 
 msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
-msgstr ""
+msgstr "Добави маркера"
+
+msgctxt "BrowserButton|"
+msgid "Download %1 extension"
+msgstr "Свалете добавка за %1"
+
+msgctxt "BrowserButton|"
+msgid "%1 is not installed"
+msgstr "%1 не е инсталиран"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
@@ -443,20 +435,8 @@ msgstr ""
 "бутони"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Download Firefox extension"
-msgstr "Свалете добавка за Firefox"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Firefox is not installed"
-msgstr "Firefox не е инсталиран"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Download Google Chrome extension"
-msgstr "Свалете добавка за Google Chrome"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Google Chrome is not installed"
-msgstr "Google Chrome не е инсталиран"
+msgid "Other supported browsers"
+msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -484,7 +464,7 @@ msgstr "Сигурни ли сте че това е валиден домейн?
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip files with extensions"
-msgstr "Пропусни файлове без разширения"
+msgstr "Пропусни файлове с разширения"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid file extension?"
@@ -496,11 +476,38 @@ msgstr "Не прихващай файлове по-малки от"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
-msgstr "Мбайт"
+msgstr "Мбайта"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Ползвай браузъра ако отмениш свалянето с %1"
+
+msgctxt "BrowserIntroDialog|"
+msgid ""
+"You're about to open a built-in web browser.\n"
+"\n"
+"It helps you to add downloads into %1.\n"
+"\n"
+"Some of them (e.g. Google Drive downloads) can be added using this browser "
+"only, because they require additional information that your Android system's "
+"browser does not provide to %1 (or there is no universal way for all "
+"browsers to do this)."
+msgstr ""
+"На път сте да отворите вградения браузър.\n"
+"\n"
+"Помага ви да добавите сваляния в %1.\n"
+"\n"
+"Някои от тях (напр. от Google Drive) могат да бъдат добавени само с този "
+"браузър, защото изискват допълнителна информация която браузъра на Android "
+"не дава на %1 (или няма универсален начин да се направи за всички браузъри.)"
+
+msgctxt "BrowserIntroDialog|"
+msgid "Continue"
+msgstr "Продължи"
+
+msgctxt "BrowserListElement|"
+msgid "(browser is not installed)"
+msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -617,7 +624,6 @@ msgstr "Въведи нов URL"
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Започни сваляне"
-
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -739,6 +745,58 @@ msgstr "OK"
 msgctxt "CreateFolderDialog|"
 msgid "Cancel"
 msgstr "Отказ"
+
+msgctxt "CreatePortableDialog|"
+msgid "Create portable version"
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Portable version of %1 can be used on different computers without the need "
+"to install and configure it on each of them."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "It can be conveniently placed on a flash disk, for example."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Specify here the path where you would like to create this version. It should "
+"be a folder on some removable drive."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "Open"
+msgstr "Отвори"
+
+msgctxt "CreatePortableDialog|"
+msgid "Cancel"
+msgstr "Отказ"
+
+msgctxt "CreatePortableDialog|"
+msgid "Please specify the path."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating %1%"
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "An error occurred while creating a portable version: %1"
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating a portable version was successfully completed."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "Close"
+msgstr "Затвори"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
@@ -930,7 +988,7 @@ msgstr "Последователно Сваляне"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
-msgstr ""
+msgstr "Добави огледален адрес"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
@@ -1308,7 +1366,7 @@ msgstr "Ползвай сървърно време при създаване н�
 
 msgctxt "GeneralSettings|"
 msgid "Update"
-msgstr "Обнови"
+msgstr "Обновления"
 
 msgctxt "GeneralSettings|"
 msgid "Check for updates automatically"
@@ -1396,7 +1454,7 @@ msgstr "Език"
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
-msgstr ""
+msgstr "Браузър"
 
 msgctxt "LeftDrawer|"
 msgid "Settings"
@@ -1452,19 +1510,23 @@ msgstr "Автоматично Изключване"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
-msgstr "Сон"
+msgstr "Заспиванв"
 
 msgctxt "MainMenu|"
 msgid "Hibernate"
-msgstr "Глибокий сон"
+msgstr "Дълбок сън"
 
 msgctxt "MainMenu|"
 msgid "Shutdown"
-msgstr "Вимкнення"
+msgstr "Изключване"
+
+msgctxt "MainMenu|"
+msgid "Create portable version"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Check for Updates..."
-msgstr "Перевірити оновлення..."
+msgstr "Провери за обновления..."
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -1476,7 +1538,7 @@ msgstr "Изход"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
-msgstr "Режим оьлюв освобождава трафик без да спира свалянията."
+msgstr "Режим охлюв освобождава трафик без да спира свалянията."
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
@@ -1487,12 +1549,10 @@ msgid "No Internet connection"
 msgstr "Няма интернет връзка"
 
 msgctxt "MainStatusBar|"
-msgid "file selected"
-msgstr "избран файл"
-
-msgctxt "MainStatusBar|"
-msgid "files selected"
-msgstr "избрани файлове"
+msgid "%n downloads selected."
+msgid_plural "%n downloads selected."
+msgstr[0] "%n сваляния избрани."
+msgstr[1] "%n сваляния избрани."
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -1808,7 +1868,7 @@ msgstr "Ниско (240p)"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Medium (480p)"
-msgstr "Середно (480p)"
+msgstr "Средно (480p)"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "High (1080p)"
@@ -2175,6 +2235,14 @@ msgid "Network connect timeout error"
 msgstr "Грешка просрочено време за връзка"
 
 msgctxt "QObject|"
+msgid "Unsupported"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Invalid parameter"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "Хоста не е намерен"
 
@@ -2329,8 +2397,20 @@ msgstr ""
 "Затворете всички браузъри и опитайте отново."
 
 msgctxt "QObject|"
-msgid "Failed to initialize core objects."
-msgstr "Грешка при инициализиране на обекти на ядрото."
+msgid "Fatal error: failed to load the database."
+msgstr "Грешка: неуспешно зареждане на базата данни."
+
+msgctxt "QObject|"
+msgid ""
+"Would you like to erase it (this will clear your downloads list and all %1 "
+"data)?"
+msgstr ""
+"Искате ли да го изтриете (това ще изчисти списъка ви с изтегляния и всички "
+"данни %1)?"
+
+msgctxt "QObject|"
+msgid "Failed."
+msgstr "Грешка."
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
@@ -2338,7 +2418,7 @@ msgstr "Липсващ %path% параметър."
 
 msgctxt "QObject|"
 msgid "Update URL"
-msgstr ""
+msgstr "Обнови URL"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -2674,15 +2754,15 @@ msgstr "Завършен"
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause download"
-msgstr ""
+msgstr "Пауза на свалянето"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing."
-msgstr ""
+msgstr "Свалянето(нията) по-долу не могат да се възобновят след пауза."
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause"
-msgstr ""
+msgstr "Пауза"
 
 msgctxt "StopDownloadDialog|"
 msgid "Cancel"
@@ -2690,11 +2770,11 @@ msgstr "Отказ"
 
 msgctxt "StopDownloadDialog|"
 msgid "This download can't be resumed after pausing"
-msgstr ""
+msgstr "Това сваляне не може да се възобнови след пауза"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
-msgstr ""
+msgstr "Свалянето(нията) по-долу не могат да се възобновят след пауза"
 
 msgctxt "TagColorDialog|"
 msgid "Remove tag"
@@ -2722,7 +2802,7 @@ msgstr "Нисък"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Medium"
-msgstr "Середен"
+msgstr "Среден"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "High"
@@ -2763,6 +2843,10 @@ msgstr "Неограничен"
 msgctxt "TumComboBox|"
 msgid "KB/s"
 msgstr "Кб/с"
+
+msgctxt "TumComboBox|"
+msgid "unlimited"
+msgstr "неограничен"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"

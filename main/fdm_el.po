@@ -363,21 +363,6 @@ msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr ""
 
-msgctxt "Browser|"
-msgid ""
-"You're about to open a built-in web browser.\n"
-"\n"
-"It helps you to add downloads into %1.\n"
-"\n"
-"Some of them (e.g. Google Drive downloads) can be added using this browser "
-"only, because they require additional information that your Android system's "
-"browser does not provide to %2 (or there is no universal way for all "
-"browsers to do this)."
-msgstr ""
-
-msgctxt "Browser|"
-msgid "OK"
-msgstr "OK"
 
 msgctxt "Browser|"
 msgid "Enter URL"
@@ -427,6 +412,14 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr ""
 
+msgctxt "BrowserButton|"
+msgid "Download %1 extension"
+msgstr ""
+
+msgctxt "BrowserButton|"
+msgid "%1 is not installed"
+msgstr ""
+
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "Ενσωμάτωση Στο Πρόγραμμα Περιήγησης"
@@ -438,19 +431,7 @@ msgid ""
 msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Download Firefox extension"
-msgstr ""
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Firefox is not installed"
-msgstr ""
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Download Google Chrome extension"
-msgstr ""
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Google Chrome is not installed"
+msgid "Other supported browsers"
 msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
@@ -495,6 +476,26 @@ msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
+msgstr ""
+
+msgctxt "BrowserIntroDialog|"
+msgid ""
+"You're about to open a built-in web browser.\n"
+"\n"
+"It helps you to add downloads into %1.\n"
+"\n"
+"Some of them (e.g. Google Drive downloads) can be added using this browser "
+"only, because they require additional information that your Android system's "
+"browser does not provide to %1 (or there is no universal way for all "
+"browsers to do this)."
+msgstr ""
+
+msgctxt "BrowserIntroDialog|"
+msgid "Continue"
+msgstr ""
+
+msgctxt "BrowserListElement|"
+msgid "(browser is not installed)"
 msgstr ""
 
 msgctxt "BuildDownloadDialog|"
@@ -734,6 +735,58 @@ msgstr "OK"
 msgctxt "CreateFolderDialog|"
 msgid "Cancel"
 msgstr "Άκυρο"
+
+msgctxt "CreatePortableDialog|"
+msgid "Create portable version"
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Portable version of %1 can be used on different computers without the need "
+"to install and configure it on each of them."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "It can be conveniently placed on a flash disk, for example."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Specify here the path where you would like to create this version. It should "
+"be a folder on some removable drive."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "Open"
+msgstr "Ανοιχτό"
+
+msgctxt "CreatePortableDialog|"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "CreatePortableDialog|"
+msgid "Please specify the path."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating %1%"
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "An error occurred while creating a portable version: %1"
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating a portable version was successfully completed."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "Close"
+msgstr "Κλείστε"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
@@ -1458,6 +1511,10 @@ msgid "Shutdown"
 msgstr "Τερματισμός λειτουργίας"
 
 msgctxt "MainMenu|"
+msgid "Create portable version"
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "Check for Updates..."
 msgstr "Έλεγχος για Ενημερώσεις..."
 
@@ -1482,12 +1539,10 @@ msgid "No Internet connection"
 msgstr ""
 
 msgctxt "MainStatusBar|"
-msgid "file selected"
-msgstr ""
-
-msgctxt "MainStatusBar|"
-msgid "files selected"
-msgstr ""
+msgid "%n downloads selected."
+msgid_plural "%n downloads selected."
+msgstr[0] ""
+msgstr[1] ""
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -2168,6 +2223,14 @@ msgid "Network connect timeout error"
 msgstr "Network connect σφάλμα χρονικού ορίου"
 
 msgctxt "QObject|"
+msgid "Unsupported"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Invalid parameter"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr ""
 
@@ -2319,7 +2382,17 @@ msgid ""
 msgstr ""
 
 msgctxt "QObject|"
-msgid "Failed to initialize core objects."
+msgid "Fatal error: failed to load the database."
+msgstr ""
+
+msgctxt "QObject|"
+msgid ""
+"Would you like to erase it (this will clear your downloads list and all %1 "
+"data)?"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Failed."
 msgstr ""
 
 msgctxt "QObject|"
@@ -2763,6 +2836,10 @@ msgstr "απεριόριστη"
 
 msgctxt "TumComboBox|"
 msgid "KB/s"
+msgstr ""
+
+msgctxt "TumComboBox|"
+msgid "unlimited"
 msgstr ""
 
 msgctxt "TumComboBox|"

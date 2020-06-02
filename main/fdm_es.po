@@ -30,11 +30,11 @@ msgstr "Agregar fechas a los nombres de archivos"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
-msgstr ""
+msgstr "Agregar espejo"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "Ingresar URL de espejo"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
@@ -46,7 +46,7 @@ msgstr "Aceptar"
 
 msgctxt "AddMirrorPage|"
 msgid "Add mirror"
-msgstr ""
+msgstr "Agregar espejo"
 
 msgctxt "AddMirrorPage|"
 msgid "OK"
@@ -54,7 +54,7 @@ msgstr "Aceptar"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "Ingresar URL de espejo"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -372,68 +372,60 @@ msgid "Connections"
 msgstr "Conexiones"
 
 msgctxt "Browser|"
-msgid ""
-"You're about to open a built-in web browser.\n"
-"\n"
-"It helps you to add downloads into %1.\n"
-"\n"
-"Some of them (e.g. Google Drive downloads) can be added using this browser "
-"only, because they require additional information that your Android system's "
-"browser does not provide to %2 (or there is no universal way for all "
-"browsers to do this)."
-msgstr ""
-
-msgctxt "Browser|"
-msgid "OK"
-msgstr "Aceptar"
-
-msgctxt "Browser|"
 msgid "Enter URL"
 msgstr "Ingresar URL"
 
 msgctxt "Browser|"
 msgid "Bookmark removed"
-msgstr ""
+msgstr "Marcador removido"
 
 msgctxt "Browser|"
 msgid "Bookmark added"
-msgstr ""
+msgstr "Marcador agregado"
 
 msgctxt "Browser|"
 msgid "Bookmarks"
-msgstr ""
+msgstr "Marcadores"
 
 msgctxt "Browser|"
 msgid "There are no bookmarks at the moment"
-msgstr ""
+msgstr "No hay marcadores en este momento"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr ""
+msgstr "¿Estás seguro de que quieres remover este marcador?"
 
 msgctxt "Browser|"
 msgid "YES"
-msgstr ""
+msgstr "SÍ"
 
 msgctxt "Browser|"
 msgid "NO"
-msgstr ""
+msgstr "NO"
 
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
-msgstr ""
+msgstr "Volver a %1"
 
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
-msgstr ""
+msgstr "Marcadores"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
-msgstr ""
+msgstr "Remover marcador"
 
 msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
-msgstr ""
+msgstr "Agregar marcador"
+
+msgctxt "BrowserButton|"
+msgid "Download %1 extension"
+msgstr "Descargar extensión de %1"
+
+msgctxt "BrowserButton|"
+msgid "%1 is not installed"
+msgstr "%1 no está instalado"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
@@ -447,21 +439,13 @@ msgstr ""
 "Asegúrate de que tienes la extensión %1 instalada, de otro modo, cliquea uno "
 "de los botones abajo"
 
-msgctxt "BrowserIntegrationSettings|"
-msgid "Download Firefox extension"
-msgstr "Descargar extensión de Firefox"
+
+
+
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Firefox is not installed"
-msgstr "Firefox no está instalado"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Download Google Chrome extension"
-msgstr "Descargar extensión de Google Chrome"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Google Chrome is not installed"
-msgstr "Google Chrome no está instalado"
+msgid "Other supported browsers"
+msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -506,6 +490,34 @@ msgstr "Mbytes"
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Usar navegador si cancelas la descarga a través de %1"
+
+msgctxt "BrowserIntroDialog|"
+msgid ""
+"You're about to open a built-in web browser.\n"
+"\n"
+"It helps you to add downloads into %1.\n"
+"\n"
+"Some of them (e.g. Google Drive downloads) can be added using this browser "
+"only, because they require additional information that your Android system's "
+"browser does not provide to %1 (or there is no universal way for all "
+"browsers to do this)."
+msgstr ""
+"Estás a punto de abrir un navegador web integrado.\n"
+"\n"
+"Este te ayudara a agregar descargas en %1.\n"
+"\n"
+"Algunas de ellas (p.ej. descargas de Google Drive) pueden ser agregadas solo "
+"usando este navegador, porque ellas requieren información adicional que tu "
+"navegador de sistema Android no proporciona a %1 (o no hay un modo universal "
+"para todos los navegadores para hacer esto)."
+
+msgctxt "BrowserIntroDialog|"
+msgid "Continue"
+msgstr "Continuar"
+
+msgctxt "BrowserListElement|"
+msgid "(browser is not installed)"
+msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -622,7 +634,6 @@ msgstr "Ingresa nueva URL"
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Iniciar descarga"
-
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -746,6 +757,58 @@ msgstr "Aceptar"
 msgctxt "CreateFolderDialog|"
 msgid "Cancel"
 msgstr "Cancelar"
+
+msgctxt "CreatePortableDialog|"
+msgid "Create portable version"
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Portable version of %1 can be used on different computers without the need "
+"to install and configure it on each of them."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "It can be conveniently placed on a flash disk, for example."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Specify here the path where you would like to create this version. It should "
+"be a folder on some removable drive."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "Open"
+msgstr "Abrir"
+
+msgctxt "CreatePortableDialog|"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "CreatePortableDialog|"
+msgid "Please specify the path."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "OK"
+msgstr "Aceptar"
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating %1%"
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "An error occurred while creating a portable version: %1"
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating a portable version was successfully completed."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "Close"
+msgstr "Cerrar"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
@@ -938,7 +1001,7 @@ msgstr "Descarga Secuencial"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
-msgstr ""
+msgstr "Agregar espejo"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
@@ -1404,7 +1467,7 @@ msgstr "Lenguaje"
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
-msgstr ""
+msgstr "Navegador"
 
 msgctxt "LeftDrawer|"
 msgid "Settings"
@@ -1471,6 +1534,10 @@ msgid "Shutdown"
 msgstr "Apagar"
 
 msgctxt "MainMenu|"
+msgid "Create portable version"
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "Check for Updates..."
 msgstr "Comprobar Actualizaciones..."
 
@@ -1495,12 +1562,10 @@ msgid "No Internet connection"
 msgstr "No hay conexión a Internet"
 
 msgctxt "MainStatusBar|"
-msgid "file selected"
-msgstr "archivo seleccionado"
-
-msgctxt "MainStatusBar|"
-msgid "files selected"
-msgstr "archivos seleccionados"
+msgid "%n downloads selected."
+msgid_plural "%n downloads selected."
+msgstr[0] ""
+msgstr[1] ""
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -2183,6 +2248,14 @@ msgid "Network connect timeout error"
 msgstr "Error de tiempo de espera de conexión de red de trabajo"
 
 msgctxt "QObject|"
+msgid "Unsupported"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Invalid parameter"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "Host no encontrado"
 
@@ -2337,8 +2410,20 @@ msgstr ""
 "Por favor cierra todos tus navegadores web e intenta denuevo."
 
 msgctxt "QObject|"
-msgid "Failed to initialize core objects."
-msgstr "Error al inicializar los objetos del núcleo."
+msgid "Fatal error: failed to load the database."
+msgstr "Error fatal: fallo al cargar la bases de datos."
+
+msgctxt "QObject|"
+msgid ""
+"Would you like to erase it (this will clear your downloads list and all %1 "
+"data)?"
+msgstr ""
+"Te gustaría borrarlo (esto borrara tu lista de descargas y todos los datos "
+"de %1)?"
+
+msgctxt "QObject|"
+msgid "Failed."
+msgstr "Fallido."
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
@@ -2346,7 +2431,7 @@ msgstr "Falta el parámetro %path%."
 
 msgctxt "QObject|"
 msgid "Update URL"
-msgstr ""
+msgstr "Actualizar URL"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -2709,7 +2794,8 @@ msgstr "Esta descarga no puede ser reanudada despues de pausarla"
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr ""
-"La(s) descarga(s) siguiente(s) no puede ser reanudada despues de pausarla."
+"La(s) descarga(s) siguiente(s) no puede(n) ser reanudada(s) despues de "
+"pausarla(s)"
 
 msgctxt "TagColorDialog|"
 msgid "Remove tag"
@@ -2778,6 +2864,10 @@ msgstr "Ilimitado"
 msgctxt "TumComboBox|"
 msgid "KB/s"
 msgstr "KB/s"
+
+msgctxt "TumComboBox|"
+msgid "unlimited"
+msgstr "ilimitado"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
