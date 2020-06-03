@@ -351,7 +351,7 @@ msgstr "低品质, 最小文件大小"
 
 msgctxt "BottomPanelTools|"
 msgid "General"
-msgstr "文件"
+msgstr "常规"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
@@ -364,8 +364,6 @@ msgstr "文件"
 msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr "连接"
-
-
 
 msgctxt "Browser|"
 msgid "Enter URL"
@@ -425,7 +423,7 @@ msgstr "%1浏览器未安装"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
-msgstr "浏览器设置"
+msgstr "浏览器集成"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
@@ -433,13 +431,9 @@ msgid ""
 "buttons below"
 msgstr "请确认您已安装 %1 扩展, 否则请点击下方任意按钮"
 
-
-
-
-
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
-msgstr ""
+msgstr "其他支持的浏览器"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -509,7 +503,7 @@ msgstr "继续"
 
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
-msgstr ""
+msgstr "(浏览器未安装)"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -750,23 +744,23 @@ msgstr "取消"
 
 msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
-msgstr ""
+msgstr "创建便携版"
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
-msgstr ""
+msgstr "%1的便携版可在无需安装并分别设置的情况下在不同计算机上使用。"
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
-msgstr ""
+msgstr "例如，它可以方便地被置于闪存盘中。"
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
-msgstr ""
+msgstr "在此输入你想创建便携版的路径。它应为可移动存储器上的路径。"
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -778,23 +772,23 @@ msgstr "取消"
 
 msgctxt "CreatePortableDialog|"
 msgid "Please specify the path."
-msgstr ""
+msgstr "请指明路径。"
 
 msgctxt "CreatePortableDialog|"
 msgid "OK"
-msgstr ""
+msgstr "确定"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
-msgstr ""
+msgstr "正在创建%1%"
 
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
-msgstr ""
+msgstr "创建便携版时发生了错误：%1"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating a portable version was successfully completed."
-msgstr ""
+msgstr "成功创建了便携版。"
 
 msgctxt "CreatePortableDialog|"
 msgid "Close"
@@ -1523,7 +1517,7 @@ msgstr "关机"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
-msgstr ""
+msgstr "创建便携版"
 
 msgctxt "MainMenu|"
 msgid "Check for Updates..."
@@ -1552,9 +1546,7 @@ msgstr "没有网络链接"
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
-msgstr[0] ""
-
-
+msgstr[0] "已选中%n个下载项。"
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -2238,11 +2230,11 @@ msgstr "网络连接超时错误"
 
 msgctxt "QObject|"
 msgid "Unsupported"
-msgstr ""
+msgstr "不支持"
 
 msgctxt "QObject|"
 msgid "Invalid parameter"
-msgstr ""
+msgstr "无效参数"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -2411,7 +2403,6 @@ msgstr "你希望擦除吗 (这将清空下载列表 和 全部 %1 数据)?"
 msgctxt "QObject|"
 msgid "Failed."
 msgstr "失败."
-
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
