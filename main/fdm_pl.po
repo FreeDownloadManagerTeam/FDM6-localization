@@ -434,13 +434,9 @@ msgstr ""
 "Upewnij się, że jest zainstalowane rozszerzenie %1, w przeciwnym wypadku "
 "kliknij na jeden z poniższych odnośników"
 
-
-
-
-
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
-msgstr ""
+msgstr "Inne obsługiwane przeglądarki"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -512,7 +508,7 @@ msgstr "Kontynuuj"
 
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
-msgstr ""
+msgstr "(przeglądarka nie jest zainstalowana)"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -756,23 +752,27 @@ msgstr "Anuluj"
 
 msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
-msgstr ""
+msgstr "Utwórz wersję przenośną"
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
 msgstr ""
+"Przenośna wersja %1 może być używana na różnych komputerach, bez potrzeby "
+"instalacji i konfogiracji na każdym z nich."
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
-msgstr ""
+msgstr "Może być zapisana np. na pendrive."
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
 msgstr ""
+"Podaj ścieżkę, gdzie ma być umieszczona wersja przenośna. Powinien to być "
+"jakiś folder na dysku przenośnym/pendrive."
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -784,7 +784,7 @@ msgstr "Anuluj"
 
 msgctxt "CreatePortableDialog|"
 msgid "Please specify the path."
-msgstr ""
+msgstr "Proszę podaj ścieżkę."
 
 msgctxt "CreatePortableDialog|"
 msgid "OK"
@@ -792,15 +792,15 @@ msgstr "OK"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
-msgstr ""
+msgstr "Tworzę %1"
 
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
-msgstr ""
+msgstr "Wystąpił błąd podczas tworzenia wersji przenośnej: %1"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating a portable version was successfully completed."
-msgstr ""
+msgstr "Tworzenie wersji przenośnej zostało zakończone pomyślnie."
 
 msgctxt "CreatePortableDialog|"
 msgid "Close"
@@ -1341,8 +1341,8 @@ msgid ""
 "fix it!</a>"
 msgstr ""
 "Nie widzisz swojego języka na liście lub tłumaczenie jest nie kompletne? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Zrób coś "
-"z tym!</a>"
+"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Zrób nam "
+"to zmienić!</a>"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1530,7 +1530,7 @@ msgstr "Zamknij system"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
-msgstr ""
+msgstr "Utwórz wersję przenośną"
 
 msgctxt "MainMenu|"
 msgid "Check for Updates..."
@@ -1621,7 +1621,11 @@ msgstr "OK"
 
 msgctxt "MaxURatioComboBox|"
 msgid "CANCEL"
-msgstr "Anuluj"
+msgstr "ANULUJ"
+
+msgctxt "MaxURatioComboBox|"
+msgid "Invalid value"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
@@ -1846,6 +1850,10 @@ msgstr "OK"
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "CANCEL"
 msgstr "Anuluj"
+
+msgctxt "NetworkSpeedLimitComboBox|"
+msgid "Invalid value"
+msgstr ""
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
@@ -2245,11 +2253,11 @@ msgstr "Upłynął czas połączenia"
 
 msgctxt "QObject|"
 msgid "Unsupported"
-msgstr ""
+msgstr "Nie obsługiwane"
 
 msgctxt "QObject|"
 msgid "Invalid parameter"
-msgstr ""
+msgstr "Nieprawidłowy parametr"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -2265,7 +2273,7 @@ msgstr "Zakończono połączenie"
 
 msgctxt "QObject|"
 msgid "Timed out"
-msgstr "Czas upłynął"
+msgstr "Upłynął czas"
 
 msgctxt "QObject|"
 msgid "SSL handshake failed"
@@ -2361,7 +2369,7 @@ msgstr "Nazwa uszkodzonego modułu."
 
 msgctxt "QObject|"
 msgid "Crash address."
-msgstr "Adres uszkodzenia."
+msgstr "Adres błędu."
 
 msgctxt "QObject|"
 msgid "Signature check failure."
