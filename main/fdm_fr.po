@@ -157,13 +157,16 @@ msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
 msgstr "Choisir l'antivirus :"
 
+
 msgctxt "AntivirusSettings|"
 msgid ""
 "<a href='https://www.freedownloadmanager.org/board/viewtopic.php?"
 "f=1&t=18212'>Is your antivirus not listed?</a>"
 msgstr ""
-"<a href='https://www.freedownloadmanager.org/board/viewtopic.php?"
-"f=1&t=18212'>Votre antivirus n'apparaît pas ?</a>"
+"<a "
+"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Votre "
+"antivirus n'apparaît pas ?</a>"
+
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -193,6 +196,7 @@ msgstr "Scan antivirus"
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
 msgstr "Aucun antivirus n'est configuré dans les paramètres."
+
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Go to settings"
@@ -325,6 +329,7 @@ msgstr "Qualité de vidéo préférée:"
 msgctxt "BitrateComboBox|"
 msgid "kbps"
 msgstr "ko"
+
 
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
@@ -477,6 +482,7 @@ msgstr "Exlcure les fichier ayant des extensions"
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid file extension?"
 msgstr "Etes vous sûr que cette extension de fichier est valide ?"
+
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't catch downloads smaller than"
@@ -1466,7 +1472,7 @@ msgstr "Ne pas redemander"
 
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
-msgstr "Fermer quand même?"
+msgstr ". Fermer quand même?"
 
 msgctxt "LanguageDialog|"
 msgid "Language"
@@ -1637,6 +1643,11 @@ msgid "CANCEL"
 msgstr "Effacer"
 
 msgctxt "MaxURatioComboBox|"
+msgid "Invalid value"
+msgstr "Valeur invalide"
+
+
+msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "Doit être un nombre supérieur à 0."
 
@@ -1652,6 +1663,7 @@ msgctxt "MergeDownloadsDialog|"
 msgid "Path:"
 msgstr "Chemin :"
 
+
 msgctxt "MergeDownloadsDialog|"
 msgid "Size:"
 msgstr "Taille :"
@@ -1659,6 +1671,7 @@ msgstr "Taille :"
 msgctxt "MergeDownloadsDialog|"
 msgid "Added at:"
 msgstr "Ajouté le :"
+
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
@@ -1692,6 +1705,7 @@ msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
 msgstr "Impossible de déplacer : %1"
 
+
 msgctxt "MovingFailedDialog|"
 msgid "Try again"
 msgstr "Réessayer"
@@ -1714,23 +1728,24 @@ msgstr "Quitter"
 
 msgctxt "NativeMenuBar|"
 msgid "&File"
-msgstr "&Fichier"
+msgstr "Fichier"
 
 msgctxt "NativeMenuBar|"
 msgid "Add &new download"
-msgstr "Ajouter &un nouveau téléchargement"
+msgstr "Ajouter un nouveau téléchargement"
 
 msgctxt "NativeMenuBar|"
 msgid "&Edit"
-msgstr "&Editer"
+msgstr "Editer"
 
 msgctxt "NativeMenuBar|"
 msgid "&Copy"
-msgstr "&Copier"
+msgstr "Copier"
 
 msgctxt "NativeMenuBar|"
 msgid "&Paste"
-msgstr "&Coller"
+msgstr "Coller"
+>>>>>>> master
 
 msgctxt "NativeMenuBar|"
 msgid "Downloads"
@@ -1808,6 +1823,7 @@ msgctxt "NetworkSettings|"
 msgid "SOCKS5:"
 msgstr "SOCKS5 :"
 
+
 msgctxt "NetworkSettings|"
 msgid "Invalid proxy settings"
 msgstr "Paramètres du proxy invalides"
@@ -1844,6 +1860,7 @@ msgctxt "NetworkSpeedLimitComboBox|"
 msgid "KB/s"
 msgstr "ko/s"
 
+
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Please enter numbers only"
 msgstr "Veuillez saisir uniquement des nombres"
@@ -1859,6 +1876,10 @@ msgstr "OK"
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "CANCEL"
 msgstr "Effacer"
+
+msgctxt "NetworkSpeedLimitComboBox|"
+msgid "Invalid value"
+msgstr "Valeur invalide"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
@@ -2598,7 +2619,8 @@ msgstr "Décroissant"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
-msgstr "Fermer quand même ?"
+msgstr ". Fermer quand même ?"
+
 
 msgctxt "SettingsPage|"
 msgid "Preferences"
@@ -2713,6 +2735,7 @@ msgstr "Empreintes du certificat"
 msgctxt "SslDialog|"
 msgid "SHA-256:"
 msgstr "SHA-256 :"
+
 
 msgctxt "SslDialog|"
 msgid "SHA1:"
@@ -2870,6 +2893,7 @@ msgctxt "TumComboBox|"
 msgid "KB/s"
 msgstr "ko/s"
 
+
 msgctxt "TumComboBox|"
 msgid "unlimited"
 msgstr "illimité"
@@ -2952,7 +2976,7 @@ msgstr "Nom de fichier"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "Taille %1 (Espace disque %2)"
+msgstr "Taille: %1 (Espace disque %2)"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
@@ -2964,7 +2988,7 @@ msgstr "Recherche des mise à jour ..."
 
 msgctxt "UpdateDialog|"
 msgid "Error:"
-msgstr "Erreur :"
+msgstr "Erreur:"
 
 msgctxt "UpdateDialog|"
 msgid "Retry"
