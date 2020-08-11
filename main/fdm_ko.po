@@ -7,6 +7,13 @@ msgstr ""
 "X-Language: ko_KR\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"X-Generator: Poedit 2.4\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -120,13 +127,15 @@ msgctxt "AdvancedSettings|"
 msgid "Delete button action"
 msgstr "삭제 버튼 동작"
 
+
 msgctxt "AdvancedSettings|"
 msgid "Remove only from download list"
 msgstr "다운로드 목록에서만 지우기"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete files"
-msgstr "원본 파일 삭제"
+msgstr "파일 시스템에서 원본 파일 삭제"
+
 
 msgctxt "AdvancedSettings|"
 msgid "Always ask"
@@ -142,7 +151,8 @@ msgstr "수동으로 설정.."
 
 msgctxt "AntivirusSettings|"
 msgid "Antivirus"
-msgstr "안티바이러스"
+msgstr "안티바이러스 소프트웨어"
+
 
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
@@ -150,13 +160,11 @@ msgstr "안티바이러스 소프트웨어 선택:"
 
 msgctxt "AntivirusSettings|"
 msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
+"<a href='https://www.freedownloadmanager.org/board/viewtopic.php?"
+"f=1&t=18212'>Is your antivirus not listed?</a>"
 msgstr ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>사용 "
-"중인 안티바이러스가 보이지 않나요?</a>"
+"<a href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>"
+"당신의 안티 바이러스가 보이지 않나요??</a>"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -168,15 +176,15 @@ msgstr "안티바이러스 소프트웨어의 위치를 입력하세요"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments:"
-msgstr "실행 인수:"
+msgstr "매개 변수:"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments must contain %path% variable"
-msgstr "실행 인수는 %path% 변수를 포함해야 합니다"
+msgstr "매개 변수는 %path% 를 포함해야 합니다"
 
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
-msgstr "다운로드가 완료되면 자동으로 바이러스 검사 시작"
+msgstr "다운로드가 완료되면 자동으로 악성코드 검사를 시작합니다"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
@@ -184,7 +192,8 @@ msgstr "바이러스 검사"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
-msgstr "설정된 안티바이러스가 없습니다."
+msgstr "설정에서 안티바이러스 소프트웨어를 정의하세요."
+
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Go to settings"
@@ -198,13 +207,14 @@ msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "인증 필요"
 
+
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
 msgstr "웹 사이트의 메세지: \"%1\"."
 
 msgctxt "AuthenticationDialog|"
 msgid "Username:"
-msgstr "계정이름:"
+msgstr "계정:"
 
 msgctxt "AuthenticationDialog|"
 msgid "Password:"
@@ -236,7 +246,7 @@ msgstr "웹 사이트의 메세지: \"%1\"."
 
 msgctxt "AuthenticationPage|"
 msgid "Username"
-msgstr "계정이름"
+msgstr "계정"
 
 msgctxt "AuthenticationPage|"
 msgid "Password"
@@ -298,21 +308,21 @@ msgctxt "BaseTextArea|"
 msgid "Paste"
 msgstr "붙여넣기"
 
-msgctxt "BaseTextField|"
-msgid "Cut"
-msgstr "잘라내기"
+msgctxt "BaseTextField|"	
+msgid "Cut"	
+msgstr "잘라내기"	
 
-msgctxt "BaseTextField|"
-msgid "Copy"
-msgstr "복사"
+msgctxt "BaseTextField|"	
+msgid "Copy"	
+msgstr "복사"	
 
-msgctxt "BaseTextField|"
-msgid "Paste"
-msgstr "붙여넣기"
+msgctxt "BaseTextField|"	
+msgid "Paste"	
+msgstr "붙여넣기"	
 
 msgctxt "BatchVideoQuality|"
 msgid "Preferred Video Quality:"
-msgstr "선호하는 비디오 품질:"
+msgstr "선호하는 비디오 해상도:"
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
@@ -324,23 +334,24 @@ msgstr "%1 %2 부터 %3 %4 까지"
 
 msgctxt "BitrateComboBox|"
 msgid "CD quality"
-msgstr "CD 품질"
+msgstr "CD 음질"
 
 msgctxt "BitrateComboBox|"
 msgid "High quality"
-msgstr "높은 품질"
+msgstr "고음질"
 
 msgctxt "BitrateComboBox|"
 msgid "Medium quality"
-msgstr "중간 품질"
+msgstr "중간 음질"
 
 msgctxt "BitrateComboBox|"
 msgid "Radio quality"
-msgstr "라디오 품질"
+msgstr "라디오 음질"
 
 msgctxt "BitrateComboBox|"
 msgid "Low quality"
-msgstr "낮은 품질"
+msgstr "낮은 음질"
+
 
 msgctxt "BitrateComboBox|"
 msgid "Speech"
@@ -348,7 +359,8 @@ msgstr "스피치"
 
 msgctxt "BitrateComboBox|"
 msgid "Lowest quality, smallest file size"
-msgstr "가장 낮은 품질, 가장 작은 크기"
+msgstr "가장 낮은 음질, 가장 작은 크기"
+
 
 msgctxt "BottomPanelTools|"
 msgid "General"
@@ -368,7 +380,8 @@ msgstr "연결"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr "정말로 이 북마크를 제거하시겠어요?"
+msgstr "이 북마크를 제거할까요?"
+
 
 msgctxt "Browser|"
 msgid "YES"
@@ -424,29 +437,31 @@ msgstr "%1 설치되지 않음"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
-msgstr "브라우저 연동"
+msgstr "브라우저 다운로드 잡기"
+
 
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
-msgstr "%1 확장 프로그램이 설치되어 있는지 확인하세요. 그렇지 않으면 아래 버튼 중 하나를 클릭하세요"
+msgstr ""
+"%1 확장 프로그램이 설치되어 있는지 확인하세요. 그렇지 않으면 아래 버튼 중 하나를 클릭하세요"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
-msgstr "이외의 지원되는 브라우저"
+msgstr "다른 지원 브라우저"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
-msgstr "브라우저에서 자동으로 다운로드 캡처"
+msgstr "브라우저에서 자동으로 다운로드 잡기"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Intercept downloads in your web browser"
-msgstr "웹브라우저에서 다운로드 가로채기"
+msgstr "웹 브라우저에서 다운로드 차단"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Start downloading without confirmation"
-msgstr "확인하지 않고 다운로드 시작"
+msgstr "확인하지 않고 항상 다운로드"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip domains"
@@ -454,11 +469,11 @@ msgstr "다음 주소 무시"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Edit list"
-msgstr "목록 수정"
+msgstr "리스트 수정"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid domain?"
-msgstr "정말로 올바른 주소인가요?"
+msgstr "이 도메인이 확실한가요?"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip files with extensions"
@@ -466,7 +481,8 @@ msgstr "다음 확장자 무시"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid file extension?"
-msgstr "정말로 올바른 확장자인가요?"
+msgstr "이 확장자가 올바른가요?"
+
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't catch downloads smaller than"
@@ -478,7 +494,7 @@ msgstr "MB"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
-msgstr "%1의 다운로드를 취소했을 때 브라우저로 다운로드"
+msgstr "%1을 사용한 다운로드를 취소했을 때 브라우저로 다운로드"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -488,15 +504,15 @@ msgid ""
 "\n"
 "Some of them (e.g. Google Drive downloads) can be added using this browser "
 "only, because they require additional information that your Android system's "
-"browser does not provide to %1 (or there is no universal way for all "
-"browsers to do this)."
+"browser does not provide to %1 (or there is no universal way for all browsers "
+"to do this)."
 msgstr ""
-"이것은 내장 웹 브라우저입니다.\n"
+"이것은 빌트인 웹 브라우저입니다.\n"
 "\n"
-"이 브라우저는 %1을 통해 다운로드하도록 도와줍니다.\n"
+"이 브라우저는 %1을 통해 웹 사이트의 다운로드를 도와줍니다.\n"
 "\n"
-"Google 드라이브 등 몇몇 다운로드는 오로지 이 브라우저를 통해서만 다운로드할 수 있습니다.  Android 시스템의 브라우저가 "
-"%1에 제공하지 않는 추가 정보가 필요하기 때문입니다. (또는 모든 브라우저가 이를 수행할 수 있는 보편적인 방법이 없기 때문입니다.)"
+"Google 드라이브 등 몇몇 다운로드는 오로지 이 브라우저를 통해서만 다운로드할 수 있습니다.  Android 시스템의 브라우저가 % 1에 제공하지 않는 추가 정보가 필요하기 때문입니다. (모든 브라우저가 이를 수행할 수 있는 보편적인 방법이 없습니다.)"
+
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -540,7 +556,7 @@ msgstr "이 사이트로부터의 다운로드는 허용되지 않습니다"
 
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
-msgstr "%1 프록시는 계정과 암호가 필요합니다."
+msgstr "%1 프록시에서 계정과 암호가 필요합니다."
 
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
@@ -548,7 +564,7 @@ msgstr "%1 프록시에서 계정과 암호를 요구합니다."
 
 msgctxt "BuildDownloadTools|"
 msgid "Querying info. Please wait..."
-msgstr "정보 가져오는 중. 잠시만 기다리세요..."
+msgstr "정보 가져오는 중..."
 
 msgctxt "ButtonsBlock|"
 msgid "Please select download link"
@@ -636,7 +652,7 @@ msgstr "포트"
 
 msgctxt "ConnectionsTab|"
 msgid "Connection count"
-msgstr "연결 수"
+msgstr "커넥션 수"
 
 msgctxt "ConvertationDialog|"
 msgid "Convert to mp3 with adjustable bitrate"
@@ -644,7 +660,7 @@ msgstr "MP3로 변환 및 비트레이트 조정"
 
 msgctxt "ConvertationDialog|"
 msgid "Save to"
-msgstr "다음으로 저장"
+msgstr "다른 이름으로 저장"
 
 msgctxt "ConvertationDialog|"
 msgid "Open"
@@ -656,15 +672,15 @@ msgstr "취소"
 
 msgctxt "ConvertationDialog|"
 msgid "Bitrate (quality)"
-msgstr "비트레이트 (품질)"
+msgstr "비트율 (퀄리티)"
 
 msgctxt "ConvertationDialog|"
 msgid "Constant bitrate of value"
-msgstr "일정한 비트레이트"
+msgstr "비트율"
 
 msgctxt "ConvertationDialog|"
 msgid "Variable bitrate (VBR)"
-msgstr "가변 비트레이트 (VBR)"
+msgstr "가변 비트율 (VBR)"
 
 msgctxt "ConvertationDialog|"
 msgid "The path contains invalid characters"
@@ -676,11 +692,11 @@ msgstr "확인"
 
 msgctxt "ConvertationPage|"
 msgid "Convert to mp3"
-msgstr "mp3로 변환"
+msgstr "MP3로 변환"
 
 msgctxt "ConvertationPage|"
 msgid "Convert to mp3 with adjustable bitrate"
-msgstr "mp3로 변환 및 비트레이트 조정"
+msgstr "비트율 조절 가능한 MP3로 변환"
 
 msgctxt "ConvertationPage|"
 msgid "OK"
@@ -688,7 +704,7 @@ msgstr "확인"
 
 msgctxt "ConvertationPage|"
 msgid "Save to"
-msgstr "다음으로 저장"
+msgstr "다른 이름으로 저장"
 
 msgctxt "ConvertationPage|"
 msgid "The path contains invalid characters"
@@ -696,19 +712,19 @@ msgstr "경로에 잘못된 문자가 포함되어 있습니다"
 
 msgctxt "ConvertationPage|"
 msgid "Bitrate (quality)"
-msgstr "비트레이트 (품질)"
+msgstr "비트율 (품질)"
 
 msgctxt "ConvertationPage|"
 msgid "Constant bitrate of value"
-msgstr "일정한 비트레이트"
+msgstr "고정 비트율"
 
 msgctxt "ConvertationPage|"
 msgid "Variable bitrate (VBR)"
-msgstr "가변 비트레이트 (VBR)"
+msgstr "가변 비트율 (VBR)"
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
-msgstr "주소 복사"
+msgstr "링크 복사"
 
 msgctxt "CopyMenu|"
 msgid "Copy"
@@ -717,7 +733,7 @@ msgstr "복사"
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
-msgstr "오류가 발생했습니다.<br>%1을 다시 시작해야합니다."
+msgstr "오류가 발생했습니다.<br>%1을 다시 시작해야 합니다."
 
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
@@ -825,7 +841,7 @@ msgstr "이 파일을 삭제할까요?"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected files?"
-msgstr "선택된 파일을 삭제할까요?"
+msgstr "선택한 파일을 삭제할까요?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Delete selected downloads"
@@ -837,7 +853,7 @@ msgstr "정말로 선택한 파일을 삭제할까요?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "OK"
-msgstr "예"
+msgstr "확인"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
@@ -845,7 +861,8 @@ msgstr "취소"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "크기: %1 (디스크 공간: %2)"
+msgstr "크기: %1 (디스크 잔량: %2)"
+
 
 msgctxt "DiskSpace|"
 msgid "Size: %1"
@@ -853,15 +870,15 @@ msgstr "크기: %1"
 
 msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
-msgstr "디스크가 없습니다"
+msgstr "디스크가 제거됨"
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
-msgstr "파일이 없습니다"
+msgstr "파일이 삭제됨"
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
-msgstr "다운로드 주소 (%1 선택됨)"
+msgstr "링크 다운로드 (%1 선택됨)"
 
 msgctxt "DownloadsList|"
 msgid "Select all"
@@ -873,7 +890,7 @@ msgstr "모두 취소"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
-msgstr "다운로드 목록이 비어있습니다."
+msgstr "다운로드 목록이 비어 있습니다."
 
 msgctxt "DownloadsPage|"
 msgid "Add new download URL."
@@ -901,7 +918,7 @@ msgstr "모두 보기"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
-msgstr "다운로드 목록이 비어있습니다. 새 다운로드 주소를 추가하세요."
+msgstr "다운로드 목록이 비어 있습니다. 새 다운로드 주소를 추가하세요."
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -925,11 +942,11 @@ msgstr "크기"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Added"
-msgstr "추가 시간"
+msgstr "추가된 날짜"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
-msgstr "우선순위"
+msgstr "우선 순위"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -941,7 +958,7 @@ msgstr "열기"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show In Folder"
-msgstr "폴더 열기"
+msgstr "탐색기에서 폴더 열기"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -969,15 +986,15 @@ msgstr "낮음"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
-msgstr "파일 이동..."
+msgstr "이동..."
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Delete file"
-msgstr "파일 삭제"
+msgstr "원본 삭제"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Remove from list"
-msgstr "목록에서 제거"
+msgstr "리스트에서 제거"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential Download"
@@ -989,7 +1006,7 @@ msgstr "미러 추가"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
-msgstr "주소 복사"
+msgstr "링크 복사"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
@@ -1005,11 +1022,12 @@ msgstr "예약"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Change URL"
-msgstr "주소 변경"
+msgstr "URL 변경"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
-msgstr "mp3로 변환"
+msgstr "MP3로 변환"
+
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
@@ -1017,11 +1035,11 @@ msgstr "바이러스 검사 수행"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
-msgstr "우선순위 설정"
+msgstr "우선 순위 설정"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show in folder"
-msgstr "폴더 열기"
+msgstr "탐색기에서 폴더 열기"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show info"
@@ -1049,23 +1067,24 @@ msgstr "파일 확인 중..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Converting to mp3..."
-msgstr "mp3로 변환 중..."
+msgstr "MP3로 변환 중..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
-msgstr "미디어 스트림 합치는 중..."
+msgstr "미디어 스트림 병합 중..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Requesting info..."
-msgstr "정보 요청 중..."
+msgstr "정보 가져오는 중..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Queued"
-msgstr "추가됨"
+msgstr "대기열에 올라감"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Paused"
-msgstr "중지됨"
+msgstr "일시 정지됨"
+
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
@@ -1077,11 +1096,11 @@ msgstr "파일 확인 중..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Merging media streams..."
-msgstr "미디어 스트림 합치는 중..."
+msgstr "미디어 스트림 병합 중..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
-msgstr "추가됨"
+msgstr "대기열에 올라감"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Moving... %1%"
@@ -1089,7 +1108,7 @@ msgstr "이동 중... %1%"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Converting to mp3..."
-msgstr "mp3로 변환 중..."
+msgstr "MP3로 변환 중..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking for viruses..."
@@ -1097,7 +1116,7 @@ msgstr "바이러스 검사 중..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
-msgstr "정보 요청 중..."
+msgstr "정보 가져오는 중..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Unknown file size"
@@ -1105,11 +1124,11 @@ msgstr "파일 크기 알 수 없음"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Paused"
-msgstr "일시정지됨"
+msgstr "일시 정지됨"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
-msgstr "완료"
+msgstr "완료됨"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1125,15 +1144,15 @@ msgstr "%1% 계산 중"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Compare with"
-msgstr "비교 대상"
+msgstr "다음과 비교"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification OK"
-msgstr "검사 완료"
+msgstr "파일 검증됨"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification failed"
-msgstr "검사 실패"
+msgstr "파일 검증 실패"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Close"
@@ -1165,19 +1184,19 @@ msgstr "%1% 계산 중"
 
 msgctxt "FileIntegrityPage|"
 msgid "Compare with"
-msgstr "비교 대상"
+msgstr "비교"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification OK"
-msgstr "검사 완료"
+msgstr "파일 검증됨"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification failed"
-msgstr "검사 실패"
+msgstr "파일 검증 실패"
 
 msgctxt "FileManagerSupportDialog|"
 msgid "No supported file managers found."
-msgstr "지원되는 파일 관리자를 찾을 수 없습니다."
+msgstr "지원하는 파일 탐색기가 없습니다."
 
 msgctxt "FileName|"
 msgid "Create subfolder"
@@ -1229,7 +1248,8 @@ msgstr "내림차순"
 
 msgctxt "FileType|"
 msgid "Preferred File Type:"
-msgstr "선호하는 파일 종류:"
+msgstr "선호하는 파일 유형:"
+
 
 msgctxt "FilesTree|"
 msgid "Files"
@@ -1242,6 +1262,7 @@ msgstr "모두 선택"
 msgctxt "FilesTree|"
 msgid "Select none"
 msgstr "모두 취소"
+
 
 msgctxt "FilesTree|"
 msgid "Name"
@@ -1273,15 +1294,15 @@ msgstr "낮음"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High Priority"
-msgstr "높은 우선순위"
+msgstr "높음"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Normal Priority"
-msgstr "중간 우선순위"
+msgstr "중간"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Low Priority"
-msgstr "낮은 우선순위"
+msgstr "낮음"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -1326,8 +1347,8 @@ msgstr "언어"
 msgctxt "GeneralSettings|"
 msgid ""
 "Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
+"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's fix "
+"it!</a>"
 msgstr ""
 "당신의 언어가 목록에 없나요? <a "
 "href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>고쳐봅시다!</a>"
@@ -1380,13 +1401,15 @@ msgctxt "GeneralSettings|"
 msgid "Start downloading without confirmation"
 msgstr "확인하지 않고 다운로드 시작"
 
+
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "모바일 네트워크 사용"
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
-msgstr "총 크기:"
+msgstr "전체 크기:"
+
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
@@ -1434,15 +1457,15 @@ msgstr "SHA-256"
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
-msgstr "기본으로 설정"
+msgstr "기본값으로 설정"
 
 msgctxt "IntegrationBanner|"
 msgid "Don't ask again"
-msgstr "다시 묻지 않음"
+msgstr "다시 묻지 않기"
 
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
-msgstr ". 그래도 닫을까요?"
+msgstr ". 그래도 종료할까요?"
 
 msgctxt "LanguageDialog|"
 msgid "Language"
@@ -1478,7 +1501,7 @@ msgstr "숨기기"
 
 msgctxt "MainFiltersBar|"
 msgid "All"
-msgstr "모두"
+msgstr "전체"
 
 msgctxt "MainFiltersBar|"
 msgid "Active"
@@ -1579,7 +1602,8 @@ msgstr "선택된 다운로드 삭제"
 
 msgctxt "MainToolbar|"
 msgid "Move to..."
-msgstr "이동하기..."
+msgstr "이동..."
+
 
 msgctxt "MainToolbar|"
 msgid "Main menu"
@@ -3019,7 +3043,7 @@ msgstr "%1을 즐기고 계신가요?"
 
 msgctxt "VoteBlock|"
 msgid "Not, really"
-msgstr "아니요"
+msgstr "몰라요"
 
 msgctxt "VoteBlock|"
 msgid "Yes!"
