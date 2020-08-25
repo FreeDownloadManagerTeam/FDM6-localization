@@ -118,7 +118,7 @@ msgstr "Запазване на листа на свалянията всеки"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
-msgstr "Настройки на бутона Изтрий"
+msgstr "Настройки на бутона \"Изтрий\""
 
 msgctxt "AdvancedSettings|"
 msgid "Remove only from download list"
@@ -562,6 +562,10 @@ msgid "You can select no more than %1 links at a time"
 msgstr "Не може да избирате повече от %1 линка едновременно"
 
 msgctxt "ButtonsBlock|"
+msgid "No write access to the selected directory"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
 msgstr "Недостатъчно дисково пространство"
 
@@ -683,7 +687,7 @@ msgstr "Превърни в mp3"
 
 msgctxt "ConvertationPage|"
 msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Convert to mp3 with adjustable bitrate"
+msgstr "Превърни в mp3 с ABR"
 
 msgctxt "ConvertationPage|"
 msgid "OK"
@@ -948,19 +952,19 @@ msgstr "Отвори"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show In Folder"
-msgstr "Покажи в Папка"
+msgstr "Покажи в папка"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
-msgstr "Покажи Сваляния"
+msgstr "Покажи сваляния"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Choose Files..."
-msgstr "Избери Фаилове..."
+msgstr "Избери файлове..."
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set Priority"
-msgstr "Задай Приоритет"
+msgstr "Задай приоритет"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -988,7 +992,7 @@ msgstr "Премахни от листа"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential Download"
-msgstr "Последователно Сваляне"
+msgstr "Последователно сваляне"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1000,7 +1004,7 @@ msgstr "Копирай линк"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
-msgstr "Добави Етикет"
+msgstr "Добави етикет"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "File integrity"
@@ -1024,7 +1028,7 @@ msgstr "Провери за вируси"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
-msgstr "Задай Приоритет"
+msgstr "Задай приоритет"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show in folder"
@@ -1280,15 +1284,15 @@ msgstr "Премахни избор"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High Priority"
-msgstr "Висок Приоритет"
+msgstr "Висок приоритет"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Normal Priority"
-msgstr "Нормален Приоритет"
+msgstr "Нормален приоритет"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Low Priority"
-msgstr "Нисък Приоритет"
+msgstr "Нисък приоритет"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -1300,7 +1304,7 @@ msgstr "Отвори"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Show in Folder"
-msgstr "Покажи в Папка"
+msgstr "Покажи в папка"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "File Integrity"
@@ -1440,6 +1444,22 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
 
+msgctxt "ImportListOfUrlsFromFileFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr ""
+
+msgctxt "ImportListOfUrlsFromFileFailedDialog|"
+msgid "Error: %1"
+msgstr "Грешка: %1"
+
+msgctxt "ImportListOfUrlsFromFileFailedDialog|"
+msgid "Unable to import the list of URLs from the file: %1"
+msgstr ""
+
+msgctxt "ImportListOfUrlsFromFileFailedDialog|"
+msgid "OK"
+msgstr "OK"
+
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
 msgstr "Настрой по подразбиране"
@@ -1501,16 +1521,20 @@ msgid "Paste Urls from Clipboard"
 msgstr "Постави URL от клипборда"
 
 msgctxt "MainMenu|"
+msgid "Paste Urls from File"
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "Preferences..."
 msgstr "Настройки..."
 
 msgctxt "MainMenu|"
 msgid "Contact Support"
-msgstr "Техническа Поддръжка"
+msgstr "Техническа поддръжка"
 
 msgctxt "MainMenu|"
 msgid "Auto Shutdown"
-msgstr "Автоматично Изключване"
+msgstr "Автоматично изключване"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
@@ -1688,7 +1712,7 @@ msgstr "Отказ"
 
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
-msgstr "Провери за Обновления..."
+msgstr "Провери за обновления..."
 
 msgctxt "NativeMenuBar|"
 msgid "Preferences..."
@@ -1736,7 +1760,7 @@ msgstr "Рестарт на избраните"
 
 msgctxt "NativeMenuBar|"
 msgid "Remove from List"
-msgstr "Премахни от Списъка"
+msgstr "Премахни от списъка"
 
 msgctxt "NativeMenuBar|"
 msgid "Help"
@@ -1744,7 +1768,7 @@ msgstr "Помощ"
 
 msgctxt "NativeMenuBar|"
 msgid "Contact Support"
-msgstr "Техническа Поддръжка"
+msgstr "Техническа поддръжка"
 
 msgctxt "NetworkSettings|"
 msgid "Network"
@@ -1944,7 +1968,7 @@ msgstr "Причина: %1"
 
 msgctxt "QObject|"
 msgid "Contact Support"
-msgstr "Техническа Поддръжка"
+msgstr "Техническа поддръжка"
 
 msgctxt "QObject|"
 msgid "Exit"
@@ -2060,11 +2084,11 @@ msgstr "Неприемливо"
 
 msgctxt "QObject|"
 msgid "Proxy Authentication Required"
-msgstr "Изисква се Идентификация за Прокси"
+msgstr "Изисква се идентификация за прокси"
 
 msgctxt "QObject|"
 msgid "Request Timeout"
-msgstr "Заявката Просрочена"
+msgstr "Заявката е просрочена"
 
 msgctxt "QObject|"
 msgid "Conflict"
@@ -2076,31 +2100,31 @@ msgstr "Изчезнал"
 
 msgctxt "QObject|"
 msgid "Length Required"
-msgstr "Изисква се Дължина"
+msgstr "Изисква се дължина"
 
 msgctxt "QObject|"
 msgid "Precondition Failed"
-msgstr "Грешка при Предварително Условие"
+msgstr "Грешка при предварително условие"
 
 msgctxt "QObject|"
 msgid "Request Entity Too Large"
-msgstr "Данните са Прекалено Големи"
+msgstr "Данните са прекалено големи"
 
 msgctxt "QObject|"
 msgid "Request-URI Too Long"
-msgstr "Искания URI е Прекалено Дълъг"
+msgstr "Искания URI е прекалено дълъг"
 
 msgctxt "QObject|"
 msgid "Unsupported Media Type"
-msgstr "Неподдържан Вид Данни"
+msgstr "Неподдържан вид данни"
 
 msgctxt "QObject|"
 msgid "Requested Range Not Satisfiable"
-msgstr "Искания Диапазон Неудовлетворим"
+msgstr "Искания диапазон е неудовлетворим"
 
 msgctxt "QObject|"
 msgid "Expectation Failed"
-msgstr "Грешка при Очакване"
+msgstr "Грешка при очакване"
 
 msgctxt "QObject|"
 msgid "I'm a teapot"
@@ -2108,11 +2132,11 @@ msgstr "Аз съм чайник :)"
 
 msgctxt "QObject|"
 msgid "Authentication Timeout"
-msgstr "Идентификацията Просрочена"
+msgstr "Идентификацията е просрочена"
 
 msgctxt "QObject|"
 msgid "Method Failure / Enhance Your Calm"
-msgstr "Грешен Метод / Подобри си Спокойствието"
+msgstr "Грешен метод / Подобри си спокойствието"
 
 msgctxt "QObject|"
 msgid "Unprocessable Entity"
@@ -2124,7 +2148,7 @@ msgstr "Заключено"
 
 msgctxt "QObject|"
 msgid "Failed Dependency / Method Failure"
-msgstr "Грешна Зависимост / Грешен Метод"
+msgstr "Грешна зависимост / Грешен метод"
 
 msgctxt "QObject|"
 msgid "Unordered Collection"
@@ -2132,11 +2156,11 @@ msgstr "Несортирана колекция"
 
 msgctxt "QObject|"
 msgid "Upgrade Required"
-msgstr "Изисква се Обновление"
+msgstr "Изисква се обновление"
 
 msgctxt "QObject|"
 msgid "Precondition Required"
-msgstr "Изисква се Предпоставка"
+msgstr "Изисква се предпоставка"
 
 msgctxt "QObject|"
 msgid "Too Many Requests"
@@ -2144,39 +2168,39 @@ msgstr "Прекалено много заявки"
 
 msgctxt "QObject|"
 msgid "Request Header Fields Too Large"
-msgstr "Полето със Заявките е Прекалено Гплямо"
+msgstr "Полето със заявките е прекалено голямо"
 
 msgctxt "QObject|"
 msgid "Login Timeout"
-msgstr "Просрочено Време за Вход"
+msgstr "Просрочено време за вход"
 
 msgctxt "QObject|"
 msgid "No Response"
-msgstr "Няма Отговор"
+msgstr "Няма отговор"
 
 msgctxt "QObject|"
 msgid "Retry With"
-msgstr "Опитай Отново с"
+msgstr "Опитай отново с"
 
 msgctxt "QObject|"
 msgid "Blocked by Windows Parental Controls"
-msgstr "Блокиран от Родителския Контрол на Windows"
+msgstr "Блокиран от Родителския контрол на Windows"
 
 msgctxt "QObject|"
 msgid "Unavailable For Legal Reasons"
-msgstr "Недостъпно Поради Юридически Причини"
+msgstr "Недостъпно поради юридически причини"
 
 msgctxt "QObject|"
 msgid "Request Header Too Large"
-msgstr "Исканото Заглавие е Прекалено Голямо"
+msgstr "Исканото заглавие е прекалено голямо"
 
 msgctxt "QObject|"
 msgid "Cert Error"
-msgstr "Грешка в Сертификата"
+msgstr "Грешка в сертификата"
 
 msgctxt "QObject|"
 msgid "No Cert"
-msgstr "Няма Сертификат"
+msgstr "Няма сертификат"
 
 msgctxt "QObject|"
 msgid "HTTP to HTTPS"
@@ -2188,47 +2212,47 @@ msgstr "Токен изтекъл/невалиден"
 
 msgctxt "QObject|"
 msgid "Client Closed Request"
-msgstr "Клиента Затвори Заявката"
+msgstr "Клиента затвори заявката"
 
 msgctxt "QObject|"
 msgid "Internal Server Error"
-msgstr "Вътрешна Грешка на Сървъра"
+msgstr "Вътрешна грешка на сървъра"
 
 msgctxt "QObject|"
 msgid "Not Implemented"
-msgstr "Не е Реализирано"
+msgstr "Не е реализирано"
 
 msgctxt "QObject|"
 msgid "Bad Gateway"
-msgstr "Неправилен Шлюз"
+msgstr "Неправилен шлюз"
 
 msgctxt "QObject|"
 msgid "Service Unavailable"
-msgstr "Услугата е Недостъпна"
+msgstr "Услугата е недостъпна"
 
 msgctxt "QObject|"
 msgid "Gateway Timeout"
-msgstr "Просрочено Време на Шлюз"
+msgstr "Просрочено време на шлюз"
 
 msgctxt "QObject|"
 msgid "HTTP Version Not Supported"
-msgstr "Неподдържана HTTP Версия"
+msgstr "Неподдържана HTTP версия"
 
 msgctxt "QObject|"
 msgid "Variant Also Negotiates"
-msgstr "Варианта Също Преговаря"
+msgstr "Варианта също преговаря"
 
 msgctxt "QObject|"
 msgid "Insufficient Storage"
-msgstr "Недостатъчно Място"
+msgstr "Недостатъчно място"
 
 msgctxt "QObject|"
 msgid "Loop Detected"
-msgstr "Засечено Зацикляне"
+msgstr "Засечено зацикляне"
 
 msgctxt "QObject|"
 msgid "Bandwidth Limit Exceeded"
-msgstr "Надьрърлен Лимит на Трафика"
+msgstr "Надвишен лимит на трафика"
 
 msgctxt "QObject|"
 msgid "Not Extended"
@@ -2236,7 +2260,7 @@ msgstr "Не разширено"
 
 msgctxt "QObject|"
 msgid "Network Authentication Required"
-msgstr "Изисква се Мрежова Идентификация"
+msgstr "Изисква се мрежова идентификация"
 
 msgctxt "QObject|"
 msgid "Network read timeout error"
@@ -2253,6 +2277,10 @@ msgstr "Неподдържано"
 msgctxt "QObject|"
 msgid "Invalid parameter"
 msgstr "Невалиден параметър"
+
+msgctxt "QObject|"
+msgid "Unsupported format"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -2610,7 +2638,7 @@ msgstr "Мрежа"
 
 msgctxt "SettingsPage|"
 msgid "Traffic Limits"
-msgstr "Лимит на Трафика"
+msgstr "Лимит на трафика"
 
 msgctxt "SettingsPage|"
 msgid "Antivirus"
@@ -2626,7 +2654,7 @@ msgstr "Настройки"
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
-msgstr "Настройки на Мрежата"
+msgstr "Настройки на мрежата"
 
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
@@ -2790,7 +2818,7 @@ msgstr "Свалянето(нията) по-долу не могат да се �
 
 msgctxt "Subtitles|"
 msgid "Download subtitles"
-msgstr ""
+msgstr "Свали субтитри"
 
 msgctxt "Subtitles|"
 msgid "Edit list"
@@ -2814,7 +2842,7 @@ msgstr "Промени цвета"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
-msgstr "Лимит на Трафика"
+msgstr "Лимит на трафика"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Low"
@@ -2943,6 +2971,10 @@ msgstr "Запази в"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "Име на фаил"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "No write access to the selected directory"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
