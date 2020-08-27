@@ -577,7 +577,7 @@ msgstr "Вы можете выбрать не более %1 ссылок за о
 
 msgctxt "ButtonsBlock|"
 msgid "No write access to the selected directory"
-msgstr ""
+msgstr "Нет доступа на запись в выбранную директорию"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
@@ -1021,6 +1021,10 @@ msgid "Copy link"
 msgstr "Копировать ссылку"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Export selected downloads"
+msgstr "Экспорт выбранных загрузок"
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
 msgstr "Добавить тег"
 
@@ -1140,6 +1144,78 @@ msgstr "Остановлено"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Завершено"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export selected downloads"
+msgstr "Экспорт выбранных загрузок"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export all downloads"
+msgstr "Экспорт всех загрузок"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Save to"
+msgstr "Сохранить в"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Open"
+msgstr "Открыть"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "All files (%1)"
+msgstr "Все файлы (%1)"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export only completed downloads"
+msgstr "Экспортировать только завершенные загрузки"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export"
+msgstr "Экспорт"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "%1 downloads files (%2)"
+msgstr "Файлы загрузок %1 (%2)"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Default format"
+msgstr "Формат по умолчанию"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "List of URLs"
+msgstr "Список ссылок"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Text files (%1)"
+msgstr "Текстовые файлы (%1)"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV file"
+msgstr "CSV файлы"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV files (%1)"
+msgstr "CSV файлы (%1)"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Export"
+msgstr "Экспорт"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "ExportSettingsDialog|"
+msgid "%1 settings files (%2)"
+msgstr "Файлы настроек %1 (%2)"
+
+msgctxt "ExportSettingsDialog|"
+msgid "All files (%1)"
+msgstr "Все файлы (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1465,21 +1541,63 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr ""
 
-msgctxt "ImportListOfUrlsFromFileFailedDialog|"
-msgid "Failure to paste URLs from the file"
-msgstr ""
+msgctxt "ImportDialog|"
+msgid "Import"
+msgstr "Импорт"
 
-msgctxt "ImportListOfUrlsFromFileFailedDialog|"
+msgctxt "ImportDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "ImportDialog|"
+msgid "All files (%1)"
+msgstr "Все файлы (%1)"
+
+msgctxt "ImportDialog|"
+msgid "Text files (%1)"
+msgstr "Текстовые файлы (%1)"
+
+msgctxt "ImportDialog|"
+msgid "%1 downloads files (%2)"
+msgstr "Файлы загрузок %1 (%2)"
+
+msgctxt "ImportDialog|"
+msgid "%1 settings files (%2)"
+msgstr "Файлы настроек %1 (%2)"
+
+msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
 msgstr "Ошибка: %1"
 
-msgctxt "ImportListOfUrlsFromFileFailedDialog|"
-msgid "Unable to import the list of URLs from the file: %1"
-msgstr ""
-
-msgctxt "ImportListOfUrlsFromFileFailedDialog|"
+msgctxt "ImportExportFailedDialog|"
 msgid "OK"
 msgstr "ОК"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr "Не удалось вставить ссылки из файла"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import the list of URLs from the file: %1"
+msgstr "Не удалось импортировать список ссылок из файла: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to export"
+msgstr "Экспорт не удался"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to export to the file: %1"
+msgstr "Не удалось экспортировать в файл: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to import"
+msgstr "Импорт не удался"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import from the file: %1"
+msgstr "Не удалось импортировать из файла: %1"
+
+
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1543,7 +1661,28 @@ msgstr "Вставить ссылки из буфера обмена"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from File"
-msgstr ""
+msgstr "Вставить ссылки из файла"
+
+msgctxt "MainMenu|"
+msgid "Export/Import"
+msgstr "Экспорт/Импорт"
+
+
+msgctxt "MainMenu|"
+msgid "Export all downloads"
+msgstr "Экспорт всех загрузок"
+
+msgctxt "MainMenu|"
+msgid "Import downloads"
+msgstr "Импорт загрузок"
+
+msgctxt "MainMenu|"
+msgid "Export settings"
+msgstr "Экспорт настроек"
+
+msgctxt "MainMenu|"
+msgid "Import settings"
+msgstr "Импорт настроек"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -1732,6 +1871,14 @@ msgid "Try again"
 msgstr "Попробовать снова"
 
 msgctxt "MovingFailedDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "MovingFolderDialog|"
+msgid "Move"
+msgstr "Переместить"
+
+msgctxt "MovingFolderDialog|"
 msgid "Cancel"
 msgstr "Отменить"
 
@@ -3011,7 +3158,7 @@ msgstr "Имя файла"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
-msgstr ""
+msgstr "Нет доступа на запись в выбранную директорию"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
@@ -3137,13 +3284,7 @@ msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Обновить"
 
-msgctxt "main|"
-msgid "Move"
-msgstr "Переместить"
 
-msgctxt "main|"
-msgid "Cancel"
-msgstr "Отменить"
 
 
 

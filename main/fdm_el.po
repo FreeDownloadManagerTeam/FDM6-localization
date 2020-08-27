@@ -987,6 +987,10 @@ msgid "Copy link"
 msgstr "Αντιγραφή σύνδεσης"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Export selected downloads"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
 msgstr ""
 
@@ -1105,6 +1109,78 @@ msgstr "Σε παύση"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Ολοκληρώθηκε"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export selected downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export all downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Save to"
+msgstr "Αποθήκευση σε"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Open"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "All files (%1)"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export only completed downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "%1 downloads files (%2)"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Default format"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "List of URLs"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Text files (%1)"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV file"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV files (%1)"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "Export"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "ExportSettingsDialog|"
+msgid "%1 settings files (%2)"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "All files (%1)"
+msgstr ""
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1428,21 +1504,63 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr ""
 
-msgctxt "ImportListOfUrlsFromFileFailedDialog|"
-msgid "Failure to paste URLs from the file"
+msgctxt "ImportDialog|"
+msgid "Import"
 msgstr ""
 
-msgctxt "ImportListOfUrlsFromFileFailedDialog|"
+msgctxt "ImportDialog|"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "ImportDialog|"
+msgid "All files (%1)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "Text files (%1)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "%1 downloads files (%2)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "%1 settings files (%2)"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
 msgstr "Σφάλμα: %1"
 
-msgctxt "ImportListOfUrlsFromFileFailedDialog|"
+msgctxt "ImportExportFailedDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
 msgstr ""
 
-msgctxt "ImportListOfUrlsFromFileFailedDialog|"
-msgid "OK"
-msgstr "OK"
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to export"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to export to the file: %1"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to import"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import from the file: %1"
+msgstr ""
+
+
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1506,6 +1624,26 @@ msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from File"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export/Import"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export all downloads"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Import downloads"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export settings"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Import settings"
 msgstr ""
 
 msgctxt "MainMenu|"
@@ -1692,6 +1830,14 @@ msgid "Try again"
 msgstr "Προσπαθήστε ξανά"
 
 msgctxt "MovingFailedDialog|"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "MovingFolderDialog|"
+msgid "Move"
+msgstr "Μετακίνηση"
+
+msgctxt "MovingFolderDialog|"
 msgid "Cancel"
 msgstr "Άκυρο"
 
@@ -3080,10 +3226,4 @@ msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Ανανέωση"
 
-msgctxt "main|"
-msgid "Move"
-msgstr "Μετακίνηση"
 
-msgctxt "main|"
-msgid "Cancel"
-msgstr "Άκυρο"
