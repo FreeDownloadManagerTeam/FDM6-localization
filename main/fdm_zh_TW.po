@@ -989,6 +989,10 @@ msgid "Copy link"
 msgstr "複製鏈結"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Export selected downloads"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
 msgstr ""
 
@@ -1108,6 +1112,78 @@ msgstr "已暫停"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "已完成"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export selected downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export all downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Save to"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Open"
+msgstr "開啟"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "All files (%1)"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export only completed downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "%1 downloads files (%2)"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Default format"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "List of URLs"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Text files (%1)"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV file"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV files (%1)"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "Export"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "ExportSettingsDialog|"
+msgid "%1 settings files (%2)"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "All files (%1)"
+msgstr ""
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1429,21 +1505,62 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr ""
 
-msgctxt "ImportListOfUrlsFromFileFailedDialog|"
-msgid "Failure to paste URLs from the file"
+msgctxt "ImportDialog|"
+msgid "Import"
 msgstr ""
 
-msgctxt "ImportListOfUrlsFromFileFailedDialog|"
+msgctxt "ImportDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "ImportDialog|"
+msgid "All files (%1)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "Text files (%1)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "%1 downloads files (%2)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "%1 settings files (%2)"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
 msgstr ""
 
-msgctxt "ImportListOfUrlsFromFileFailedDialog|"
+msgctxt "ImportExportFailedDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
 msgstr ""
 
-msgctxt "ImportListOfUrlsFromFileFailedDialog|"
-msgid "OK"
-msgstr "OK"
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to export"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to export to the file: %1"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to import"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import from the file: %1"
+msgstr ""
+
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1507,6 +1624,26 @@ msgstr "從剪貼簿貼上網址"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from File"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export/Import"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export all downloads..."
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Import downloads"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export settings"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Import settings"
 msgstr ""
 
 msgctxt "MainMenu|"
@@ -1692,6 +1829,14 @@ msgid "Try again"
 msgstr ""
 
 msgctxt "MovingFailedDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "MovingFolderDialog|"
+msgid "Move"
+msgstr "移動"
+
+msgctxt "MovingFolderDialog|"
 msgid "Cancel"
 msgstr "取消"
 
@@ -3089,10 +3234,4 @@ msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr ""
 
-msgctxt "main|"
-msgid "Move"
-msgstr "移動"
 
-msgctxt "main|"
-msgid "Cancel"
-msgstr "取消"
