@@ -724,7 +724,7 @@ msgstr "복사"
 
 msgctxt "CrashReporter|"
 msgid ""
-An internal error occurred.<br>%1 needs to be restarted for further use."
+"An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr ""
 "내부 오류가 발생했습니다. 추가 사용을 위해 <br> %1를 다시 시작해야 합니다."
 
@@ -1005,6 +1005,10 @@ msgid "Copy link"
 msgstr "링크 복사"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Export selected downloads"
+msgstr "선택한 다운로드 내보내기"
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
 msgstr "태그 추가"
 
@@ -1123,6 +1127,78 @@ msgstr "일시 중지됨"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "완료"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export selected downloads"
+msgstr "선택한 다운로드 내보내기"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export all downloads"
+msgstr "모든 다운로드 내보내기"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Save to"
+msgstr "다음에 저장"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Open"
+msgstr "열기"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Cancel"
+msgstr "취소"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "All files (%1)"
+msgstr "모든 파일 (%1)"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export only completed downloads"
+msgstr "완료된 다운로드만 내보내기"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export"
+msgstr "내보내기"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "%1 다운로드 파일 (%2)"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Default format"
+msgstr "기본 형식"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "List of URLs"
+msgstr "URL 목록"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Text files (%1)"
+msgstr "텍스트 파일 (%1)"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV file"
+msgstr "CSV 파일"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV files (%1)"
+msgstr "CSV 파일 (%1)"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Export"
+msgstr "내보내기"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Cancel"
+msgstr "취소"
+
+msgctxt "ExportSettingsDialog|"
+msgid "%1 settings files (%2)"
+msgstr "%1 설정 파일 (%2)"
+
+msgctxt "ExportSettingsDialog|"
+msgid "All files (%1)"
+msgstr "모든 파일 (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1446,6 +1522,30 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
 
+msgctxt "ImportDialog|"
+msgid "Import"
+msgstr "가져오기"
+
+msgctxt "ImportDialog|"
+msgid "Cancel"
+msgstr "취소"
+
+msgctxt "ImportDialog|"
+msgid "All files (%1)"
+msgstr "모든 파일 (%1)"
+
+msgctxt "ImportDialog|"
+msgid "Text files (%1)"
+msgstr "텍스트 파일 (%1)"
+
+msgctxt "ImportDialog|"
+msgid "%1 downloads files (%2)"
+msgstr "%1 다운로드 파일 (%2)"
+
+msgctxt "ImportDialog|"
+msgid "%1 settings files (%2)"
+msgstr "%1 설정 파일 (%2)"
+
 msgctxt "ImportListOfUrlsFromFileFailedDialog|"
 msgid "Failure to paste URLs from the file"
 msgstr "파일에서 URL을 붙여넣지 못했습니다"
@@ -1454,13 +1554,33 @@ msgctxt "ImportListOfUrlsFromFileFailedDialog|"
 msgid "Error: %1"
 msgstr "오류: %1"
 
-msgctxt "ImportListOfUrlsFromFileFailedDialog|"
+msgctxt "ImportExportFailedDialog|"
+msgid "OK"
+msgstr "확인"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr "파일에서 URL 붙여넣기 실패"
+
+msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
 msgstr "파일에서 URL 목록을 가져올 수 없습니다: %1"
 
-msgctxt "ImportListOfUrlsFromFileFailedDialog|"
-msgid "OK"
-msgstr "확인"
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to export"
+msgstr "내보내기 실패"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to export to the file: %1"
+msgstr "파일로 내보낼 수 없음: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to import"
+msgstr "가져오기 실패"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import from the file: %1"
+msgstr "파일에서 URL 목록을 가져올 수 없습니다: %1"
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1523,8 +1643,28 @@ msgid "Paste Urls from Clipboard"
 msgstr "클립보드에서 URL 붙여넣기"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from File"
-msgstr "파일에서 URL을 붙여넣기"
+msgid "파일에서 URL을 붙여넣기"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export/Import"
+msgstr "내보내기/가져오기"
+
+msgctxt "MainMenu|"
+msgid "Export all downloads"
+msgstr "모든 다운로드 내보내기"
+
+msgctxt "MainMenu|"
+msgid "Import downloads"
+msgstr "다운로드 가져오기"
+
+msgctxt "MainMenu|"
+msgid "Export settings"
+msgstr "내보내기 설정"
+
+msgctxt "MainMenu|"
+msgid "Import settings"
+msgstr "가져오기 설정"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -1676,6 +1816,10 @@ msgstr "다음에 추가됨 :"
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
 msgstr "건너뛰기"
+
+msgctxt "MergeDownloadsDialog|"
+msgid "Skip all"
+msgstr "모두 건너뛰기"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "OK"
@@ -3109,3 +3253,4 @@ msgstr "이동"
 msgctxt "main|"
 msgid "Cancel"
 msgstr "취소"
+
