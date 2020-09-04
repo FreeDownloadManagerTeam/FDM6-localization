@@ -7,6 +7,13 @@ msgstr ""
 "X-Language: bg_BG\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Андрей Станков <astankov84@gmail.com>\n"
+"Language-Team: \n"
+"Language: bg_BG\n"
+"X-Generator: Poedit 2.4.1\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -82,11 +89,11 @@ msgstr "Уведомления"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "Уведоми ме за завършени сваляния чрез Notification Center"
+msgstr "Уведоми ме за завършени изтегляния чрез Notification Center"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
-msgstr "Уведоми ме за сваляния само когато %1 прозореца е неактивен"
+msgstr "Уведоми ме за изтеглния само когато %1 прозореца е неактивен"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -94,11 +101,11 @@ msgstr "Управление на захранването"
 
 msgctxt "AdvancedSettings|"
 msgid "Don't put your computer to sleep if there is an active download"
-msgstr "Компютъра  да не заспива ако има активно сваляне"
+msgstr "Компютъра  да не заспива ако има активно изтегляне"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable sleep mode while running finished downloads"
-msgstr "Позволи заспиване при завършени сваляния"
+msgstr "Позволи заспиване при завършени изтегляния"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -110,19 +117,19 @@ msgstr "Старт при зареждане на ОС (минимизиран)"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "Покажи/скрий долен панел при натискане върху сваляния файл"
+msgstr "Покажи/скрий долен панел при натискане върху изтегляния файл"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
-msgstr "Запазване на листа на свалянията всеки"
+msgstr "Запазване на листа на изтеглянията всеки"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
-msgstr "Настройки на бутона \"Изтрий\""
+msgstr "Настройки на бутона ,,Изтрий\""
 
 msgctxt "AdvancedSettings|"
 msgid "Remove only from download list"
-msgstr "Премахни само от листа със сваляния"
+msgstr "Премахни само от листа със изтегляния"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete files"
@@ -150,13 +157,11 @@ msgstr "Избери антивирусна програма:"
 
 msgctxt "AntivirusSettings|"
 msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
+"<a href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is your "
+"antivirus not listed?</a>"
 msgstr ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Антивирусната "
-"Ви програма не е в списъка?</a>"
+"<a href='https://www.freedownloadmanager.org/board/viewtopic.php?"
+"f=1&t=18212'>Антивирусната Ви програма не е в списъка?</a>"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -176,7 +181,7 @@ msgstr "Ключовете трябва да съдържат %path% проме�
 
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
-msgstr "Автоматично провери за вируси когато свалянето приключи"
+msgstr "Автоматично провери за вируси когато изтеглянето приключи"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
@@ -428,11 +433,8 @@ msgstr "Интегриране в браузъра"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
-"Make sure you have %1 extension installed, otherwise, click one of the "
-"buttons below"
-msgstr ""
-"Проверете дали имате инсталирана %1 добавка или натиснете един от следните "
-"бутони"
+"Make sure you have %1 extension installed, otherwise, click one of the buttons below"
+msgstr "Проверете дали имате инсталирана %1 добавка или натиснете един от следните бутони"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -440,15 +442,15 @@ msgstr "Други поддържани браузъри"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
-msgstr "Автоматично прихващай сваляния от браузъри"
+msgstr "Автоматично прихващай изтегляния от браузърите"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Intercept downloads in your web browser"
-msgstr "Прихващай сваляния в браузъра"
+msgstr "Прихващай изтегляния в браузъра"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Start downloading without confirmation"
-msgstr "Започни сваляне без потвърждение"
+msgstr "Започни изтегляне без потвърждение"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip domains"
@@ -480,7 +482,7 @@ msgstr "Мбайта"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
-msgstr "Ползвай браузъра ако отмениш свалянето с %1"
+msgstr "Ползвай браузъра ако отмениш изтеглянето с %1"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -488,18 +490,17 @@ msgid ""
 "\n"
 "It helps you to add downloads into %1.\n"
 "\n"
-"Some of them (e.g. Google Drive downloads) can be added using this browser "
-"only, because they require additional information that your Android system's "
-"browser does not provide to %1 (or there is no universal way for all "
-"browsers to do this)."
+"Some of them (e.g. Google Drive downloads) can be added using this browser only, because "
+"they require additional information that your Android system's browser does not provide "
+"to %1 (or there is no universal way for all browsers to do this)."
 msgstr ""
 "На път сте да отворите вградения браузър.\n"
 "\n"
-"Помага ви да добавите сваляния в %1.\n"
+"Помага ви да добавите изтегляния в %1.\n"
 "\n"
-"Някои от тях (напр. от Google Drive) могат да бъдат добавени само с този "
-"браузър, защото изискват допълнителна информация която браузъра на Android "
-"не дава на %1 (или няма универсален начин да се направи за всички браузъри.)"
+"Някои от тях (напр. от Google Drive) могат да бъдат добавени само с този браузър, защото "
+"изискват допълнителна информация която браузъра на Android не дава на %1 (или няма "
+"универсален начин да се направи за всички браузъри.)"
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -511,7 +512,7 @@ msgstr "(браузърът не е инсталиран)"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
-msgstr "Добави сваляне"
+msgstr "Добави изтегляне"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
@@ -519,7 +520,7 @@ msgstr "Отказ"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Download"
-msgstr "Сваляне"
+msgstr "Изтегляне"
 
 msgctxt "BuildDownloadDialog|"
 msgid "OK"
@@ -527,11 +528,11 @@ msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
 msgid "Add download"
-msgstr "Добави сваляне"
+msgstr "Добави изтегляне"
 
 msgctxt "BuildDownloadPage|"
 msgid "Download"
-msgstr "Сваляне"
+msgstr "Изтегляне"
 
 msgctxt "BuildDownloadPage|"
 msgid "OK"
@@ -539,7 +540,7 @@ msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
-msgstr "Сваляне от този сайт не е позволено"
+msgstr "Изтеглянето от този сайт не е позволено"
 
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
@@ -555,7 +556,7 @@ msgstr "Изисквам информация. Изчакайте..."
 
 msgctxt "ButtonsBlock|"
 msgid "Please select download link"
-msgstr "Изберете линк за сваляне"
+msgstr "Изберете линк за изтегляне"
 
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
@@ -563,7 +564,7 @@ msgstr "Не може да избирате повече от %1 линка ед
 
 msgctxt "ButtonsBlock|"
 msgid "No write access to the selected directory"
-msgstr ""
+msgstr "Няма позволение за запис в избраната папка"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
@@ -587,11 +588,11 @@ msgstr "Отказ"
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
-msgstr "Сваляне"
+msgstr "Изтегляне"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
-msgstr "Смени URL за сваляне"
+msgstr "Смени URL за изтегляне"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
@@ -603,7 +604,7 @@ msgstr "Невалиден URL"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Start download"
-msgstr "Започни сваляне"
+msgstr "Започни изтегляне"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Cancel"
@@ -615,7 +616,7 @@ msgstr "OK"
 
 msgctxt "ChangeUrlPage|"
 msgid "Change download URL"
-msgstr "Смени URL за сваляне"
+msgstr "Смени URL за изтегляне"
 
 msgctxt "ChangeUrlPage|"
 msgid "OK"
@@ -627,7 +628,7 @@ msgstr "Въведи нов URL"
 
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
-msgstr "Започни сваляне"
+msgstr "Започни изтегляне"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -722,8 +723,7 @@ msgid "Copy"
 msgstr "Копирай"
 
 msgctxt "CrashReporter|"
-msgid ""
-"An internal error occurred.<br>%1 needs to be restarted for further use."
+msgid "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr "Възникна вътрешна грешка.<br>%1 изисква рестартиране за да продължите."
 
 msgctxt "CrashReporter|"
@@ -756,11 +756,11 @@ msgstr "Създаване на преносима версия"
 
 msgctxt "CreatePortableDialog|"
 msgid ""
-"Portable version of %1 can be used on different computers without the need "
-"to install and configure it on each of them."
+"Portable version of %1 can be used on different computers without the need to install "
+"and configure it on each of them."
 msgstr ""
-"Преносимата версия на %1 може да се използва на различни компютри без да е "
-"необходимо да се инсталира и конфигурира на всеки от тях."
+"Преносимата версия на %1 може да се използва на различни компютри без да е необходимо да "
+"се инсталира и конфигурира на всеки от тях."
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
@@ -768,11 +768,11 @@ msgstr "Може да бъде удобно поставена на флашка
 
 msgctxt "CreatePortableDialog|"
 msgid ""
-"Specify here the path where you would like to create this version. It should "
-"be a folder on some removable drive."
+"Specify here the path where you would like to create this version. It should be a folder "
+"on some removable drive."
 msgstr ""
-"Задайте тук пътя където искате да създадете преносимата версия. Трябва да "
-"бъде папка на преносим диск."
+"Задайте тук пътя където искате да създадете преносимата версия. Трябва да бъде папка на "
+"преносим диск."
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -808,7 +808,7 @@ msgstr "Затвори"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
-msgstr "Изтрий избраните сваляния"
+msgstr "Изтрий избраните изтегляния"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Remember my choice"
@@ -840,7 +840,7 @@ msgstr "Изтрий избраните файлове?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Delete selected downloads"
-msgstr "Изтрий избраните сваляния"
+msgstr "Изтрий избраните изтегляния"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Are you sure you want to delete the selected file(s)?"
@@ -872,7 +872,7 @@ msgstr "Диска липсва"
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
-msgstr "Линкове за сваляне (%1 избрано)"
+msgstr "Линкове за изтегляне (%1 избрано)"
 
 msgctxt "DownloadsList|"
 msgid "Select all"
@@ -888,7 +888,7 @@ msgstr "Списъка за свляне е празен."
 
 msgctxt "DownloadsPage|"
 msgid "Add new download URL."
-msgstr "Добави нов URL за сваляне."
+msgstr "Добави нов URL за изтегляне."
 
 msgctxt "DownloadsPage|"
 msgid "No results found for"
@@ -900,11 +900,11 @@ msgstr "Не са открити резултати за \"%1\""
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
-msgstr "Няма активни сваляния"
+msgstr "Няма активни изтегляния"
 
 msgctxt "DownloadsPage|"
 msgid "No completed downloads"
-msgstr "Няма завършени сваляния"
+msgstr "Няма завършени изтегляния"
 
 msgctxt "DownloadsPage|"
 msgid "Show all"
@@ -912,7 +912,7 @@ msgstr "Покажи всички"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
-msgstr "Листа за сваляне е празен. Добави нов URL за сваляне."
+msgstr "Листа за изтегляне е празен. Добави нов URL за изтегляне."
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -956,7 +956,7 @@ msgstr "Покажи в папка"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
-msgstr "Покажи сваляния"
+msgstr "Покажи изтегляния"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Choose Files..."
@@ -992,7 +992,7 @@ msgstr "Премахни от листа"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential Download"
-msgstr "Последователно сваляне"
+msgstr "Последователно изтегляне"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1004,7 +1004,7 @@ msgstr "Копирай линк"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
-msgstr ""
+msgstr "Изнеси избраните изтегляния"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
@@ -1048,11 +1048,11 @@ msgstr "Файлове"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
-msgstr "Последователно сваляне"
+msgstr "Последователно изтегляне"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
-msgstr "Свалянето завърши"
+msgstr "Изтеглянето завърши"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Moving... %1%"
@@ -1128,11 +1128,11 @@ msgstr "Завършено"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
-msgstr ""
+msgstr "Изнеси избраните изтегляния"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export all downloads"
-msgstr ""
+msgstr "Изнеси всички изтегляния"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Save to"
@@ -1148,43 +1148,43 @@ msgstr "Отказ"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
-msgstr ""
+msgstr "Всички файлове (%1)"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export only completed downloads"
-msgstr ""
+msgstr "Изнеси само завършените изтегляния"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export"
-msgstr ""
+msgstr "Изнасяне"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
-msgstr ""
+msgstr "%1 сваляния файлове (%2)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Default format"
-msgstr ""
+msgstr "Формат по подразбиране"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
-msgstr ""
+msgstr "Списък с URL-и"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
-msgstr ""
+msgstr "Текстови файлове (%1)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
-msgstr ""
+msgstr "CSV файл"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
-msgstr ""
+msgstr "CSV файлове (%1)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Export"
-msgstr ""
+msgstr "Изнасяне"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
@@ -1192,11 +1192,11 @@ msgstr "Отказ"
 
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
-msgstr ""
+msgstr "%1 настройки файлове (%2)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
-msgstr ""
+msgstr "Всички файлове (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1412,17 +1412,15 @@ msgstr "Език"
 
 msgctxt "GeneralSettings|"
 msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
+"Your language is not listed or the translation isn't complete? <a href='https://github."
+"com/FreeDownloadManagerTeam/FDM6-localization'>Let's fix it!</a>"
 msgstr ""
-"Езика ви го няма в листа или е недовършен? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Да го "
-"поправим!</a>"
+"Езика ви го няма в листа или е недовършен? <a href='https://github.com/"
+"FreeDownloadManagerTeam/FDM6-localization'>Да го поправим!</a>"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
-msgstr "Сваляния"
+msgstr "Изтегляния"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
@@ -1430,19 +1428,19 @@ msgstr "Предложение за папки базирано на типа н
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
-msgstr "Предложение за папки базирано на URL  за сваляне"
+msgstr "Предложение за папки базирано на URL за изтегляне"
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
-msgstr "Компактен изглед на листа за сваляне"
+msgstr "Компактен изглед на листа за изтегляне"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "Автоматично премахни изтритите файлове от листа за сваляне"
+msgstr "Автоматично премахни изтритите файлове от листа за изтегляне"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "Автоматично премахни завършените сваляния от листа"
+msgstr "Автоматично премахни завършените изтегляния от листа"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -1466,7 +1464,7 @@ msgstr "Тъмна тема"
 
 msgctxt "GeneralSettings|"
 msgid "Start downloading without confirmation"
-msgstr "Започни сваляне без потвърждение"
+msgstr "Започни изтегляне без потвърждение"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1482,7 +1480,7 @@ msgstr "Свалено:"
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
-msgstr "Скорост на сваляне:"
+msgstr "Скорост на изтегляне:"
 
 msgctxt "GeneralTab|"
 msgid "Upload speed:"
@@ -1522,7 +1520,7 @@ msgstr "SHA-256"
 
 msgctxt "ImportDialog|"
 msgid "Import"
-msgstr ""
+msgstr "Внасяне"
 
 msgctxt "ImportDialog|"
 msgid "Cancel"
@@ -1530,19 +1528,19 @@ msgstr "Отказ"
 
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
-msgstr ""
+msgstr "Всички файлове (%1)"
 
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
-msgstr ""
+msgstr "Текстови файлове (%1)"
 
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
-msgstr ""
+msgstr "%1 сваляния файлове (%2)"
 
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
-msgstr ""
+msgstr "%1 настройки файлове (%2)"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
@@ -1554,29 +1552,27 @@ msgstr "OK"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
-msgstr ""
+msgstr "Не могат да се поставят URL-и от файла"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
-msgstr ""
+msgstr "Не може да се внесе списъка с URL-и от файла: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
-msgstr ""
+msgstr "Невъзможно изнасяне"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
-msgstr ""
+msgstr "Не може да се изнесе към файла: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
-msgstr ""
+msgstr "Невъзможно внасяне"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
-msgstr ""
-
-
+msgstr "Не може да се внесе от файла: %1"
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1612,7 +1608,7 @@ msgstr "За програмата"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
-msgstr "Добави ново сваляне"
+msgstr "Добави ново изтегляне"
 
 msgctxt "ListEditor|"
 msgid "Add"
@@ -1640,27 +1636,27 @@ msgstr "Постави URL от клипборда"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from File"
-msgstr ""
+msgstr "Постави URL-и от файл"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
-msgstr ""
+msgstr "Изнасяне/Внасяне"
 
 msgctxt "MainMenu|"
 msgid "Export all downloads"
-msgstr ""
+msgstr "Изнеси всички изтегляния"
 
 msgctxt "MainMenu|"
 msgid "Import downloads"
-msgstr ""
+msgstr "Внеси всички изтегляния"
 
 msgctxt "MainMenu|"
 msgid "Export settings"
-msgstr ""
+msgstr "Настройки за изнасяне"
 
 msgctxt "MainMenu|"
 msgid "Import settings"
-msgstr ""
+msgstr "Настройки за внасяне"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -1704,7 +1700,7 @@ msgstr "Изход"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
-msgstr "Режим охлюв освобождава трафик без да спира свалянията."
+msgstr "Режим охлюв освобождава трафик без да спира изтеглянията."
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
@@ -1717,8 +1713,8 @@ msgstr "Няма интернет връзка"
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
-msgstr[0] "%n сваляния избрани."
-msgstr[1] "%n сваляния избрани."
+msgstr[0] "%n изтегляния избрани."
+msgstr[1] "%n изтегляния избрани."
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -1726,7 +1722,7 @@ msgstr "Пълен размер:"
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
-msgstr "Добави ново сваляне..."
+msgstr "Добави ново изтегляне..."
 
 msgctxt "MainToolbar|"
 msgid "Start all"
@@ -1790,7 +1786,7 @@ msgstr "Трябва да е число по-голямо от 0."
 
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
-msgstr "Свалянето вече съществува"
+msgstr "Изтеглянето вече съществува"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "URL:"
@@ -1818,7 +1814,7 @@ msgstr "Пропусни всички"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
-msgstr "Сваляне"
+msgstr "Изтегляне"
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
@@ -1830,7 +1826,7 @@ msgstr "Ползването на мобилна мрежа изключено"
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
-msgstr "Грешка при преместване на свалянето"
+msgstr "Грешка при преместване на изтеглянето"
 
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
@@ -1874,7 +1870,7 @@ msgstr "&Файл"
 
 msgctxt "NativeMenuBar|"
 msgid "Add &new download"
-msgstr "Добави &ново сваляне"
+msgstr "Добави &ново изтегляне"
 
 msgctxt "NativeMenuBar|"
 msgid "&Edit"
@@ -1890,7 +1886,7 @@ msgstr "&Постави"
 
 msgctxt "NativeMenuBar|"
 msgid "Downloads"
-msgstr "Сваляния"
+msgstr "Изтегляния"
 
 msgctxt "NativeMenuBar|"
 msgid "Start selected"
@@ -2142,15 +2138,15 @@ msgstr "%1 М"
 
 msgctxt "QObject|"
 msgid "Download complete"
-msgstr "Свалянето завърши"
+msgstr "Изтеглянето завърши"
 
 msgctxt "QObject|"
 msgid "Downloads complete"
-msgstr "Свалянията завършиха"
+msgstr "Изтеглянията завършиха"
 
 msgctxt "QObject|"
 msgid "Download added"
-msgstr "Свалянето е добавено"
+msgstr "Изтеглянето е добавено"
 
 msgctxt "QObject|"
 msgid "Unknown error"
@@ -2426,7 +2422,7 @@ msgstr "Невалиден параметър"
 
 msgctxt "QObject|"
 msgid "Unsupported format"
-msgstr ""
+msgstr "Неподдържан формат"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -2578,7 +2574,7 @@ msgid ""
 "%1 has failed to restore it from backup.\n"
 "Please close all your web browsers and try again."
 msgstr ""
-"Листа със свалянията е повреден.\n"
+"Листа с изтеглянията е повреден.\n"
 "%1 не успя да ги възстанови от бекъпа.\n"
 "Затворете всички браузъри и опитайте отново."
 
@@ -2587,12 +2583,9 @@ msgid "Fatal error: failed to load the database."
 msgstr "Грешка: неуспешно зареждане на базата данни."
 
 msgctxt "QObject|"
-msgid ""
-"Would you like to erase it (this will clear your downloads list and all %1 "
-"data)?"
+msgid "Would you like to erase it (this will clear your downloads list and all %1 data)?"
 msgstr ""
-"Искате ли да го изтриете (това ще изчисти списъка ви с изтегляния и всички "
-"данни %1)?"
+"Искате ли да го изтриете (това ще изчисти списъка ви с изтегляния и всички данни %1)?"
 
 msgctxt "QObject|"
 msgid "Failed."
@@ -2672,7 +2665,7 @@ msgstr "График"
 
 msgctxt "SchedulerDialog|"
 msgid "Start and pause downloads at specified time"
-msgstr "Започни и спри свалянията в указан час"
+msgstr "Започни и спри изтеглянията в указан час"
 
 msgctxt "SchedulerDialog|"
 msgid "Enable Scheduler"
@@ -2816,15 +2809,15 @@ msgstr "Отказ"
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be put to sleep after all downloads are completed."
-msgstr "След приключване на свалянията компютъра ще заспи."
+msgstr "След приключване на изтеглянията компютъра ще заспи."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be hibernate after all downloads are completed."
-msgstr "След приключване на свалянията компютъра ще премине в хибернация."
+msgstr "След приключване на изтеглянията компютъра ще премине в хибернация."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be shutdown after all downloads are completed."
-msgstr "След приключване на свалянията компютъра ще се изключи."
+msgstr "След приключване на изтеглянията компютъра ще се изключи."
 
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
@@ -2884,7 +2877,7 @@ msgstr "SHA1:"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
-msgstr "Приемам риска и свалям"
+msgstr "Приемам риска и изтеглям"
 
 msgctxt "SslDialog|"
 msgid "Cancel"
@@ -2940,11 +2933,11 @@ msgstr "Завършен"
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause download"
-msgstr "Пауза на свалянето"
+msgstr "Пауза на изтеглянето"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing."
-msgstr "Свалянето(нията) по-долу не могат да се възобновят след пауза."
+msgstr "Изтеглянето(ията) по-долу не могат да се възобновят след пауза."
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause"
@@ -2956,11 +2949,11 @@ msgstr "Отказ"
 
 msgctxt "StopDownloadDialog|"
 msgid "This download can't be resumed after pausing"
-msgstr "Това сваляне не може да се възобнови след пауза"
+msgstr "Това изтегляне не може да се възобнови след пауза"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
-msgstr "Свалянето(нията) по-долу не могат да се възобновят след пауза"
+msgstr "Изтеглянето(ията) по-долу не могат да се възобновят след пауза"
 
 msgctxt "Subtitles|"
 msgid "Download subtitles"
@@ -3004,7 +2997,7 @@ msgstr "Висок"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Download speed"
-msgstr "Скорост на сваляне"
+msgstr "Скорост на изтегляне"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Upload speed"
@@ -3020,7 +3013,7 @@ msgstr "Максимален брой връзки за сървър"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of simultaneous downloads"
-msgstr "Максимален брой едновременни сваляния"
+msgstr "Максимален брой едновременни изтегляния"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
@@ -3044,7 +3037,7 @@ msgstr "неограничен"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
-msgstr "Сваляне: %1, Качване: %2"
+msgstr "Изтегляне: %1, Качване: %2"
 
 msgctxt "TumComboBox|"
 msgid "High"
@@ -3076,7 +3069,7 @@ msgstr "Моля въведете само числа"
 
 msgctxt "TumModeBlock|"
 msgid "Download speed"
-msgstr "Скорост на сваляне"
+msgstr "Скорост на изтегляне"
 
 msgctxt "TumModeBlock|"
 msgid "Unlimited"
@@ -3084,7 +3077,7 @@ msgstr "Неограничена"
 
 msgctxt "TumModeBlock|"
 msgid "Max. number of simultaneous downloads"
-msgstr "Макс. брой едновременни сваляния"
+msgstr "Макс. брой едновременни изтегляния"
 
 msgctxt "TumModeBlock|"
 msgid "Snail mode"
@@ -3092,7 +3085,7 @@ msgstr "Режим охлюв"
 
 msgctxt "TumModeBlock|"
 msgid "Frees bandwidth without stopping downloads."
-msgstr "Освобождава трафик без да спира свалянията."
+msgstr "Освобождава трафик без да спира изтеглянията."
 
 msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
@@ -3100,7 +3093,7 @@ msgstr "Промяна на лимита на трафика"
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
-msgstr "Ново сваляне"
+msgstr "Ново изтегляне"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "New file"
@@ -3108,7 +3101,7 @@ msgstr "Нов файл"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
-msgstr "Сваляне"
+msgstr "Изтегляне"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Save to"
@@ -3120,7 +3113,7 @@ msgstr "Име на фаил"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
-msgstr ""
+msgstr "Няма позволение за запис в избраната папка"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
@@ -3164,11 +3157,11 @@ msgstr "OK"
 
 msgctxt "UpdateDialog|"
 msgid "Downloading update"
-msgstr "Сваляне на обновление"
+msgstr "Изтегляне на обновление"
 
 msgctxt "UpdateDialog|"
 msgid "Error downloading update:"
-msgstr "Грешка при сваляне на обновление:"
+msgstr "Грешка при изтегляне на обновление:"
 
 msgctxt "UpdateDialog|"
 msgid "Checking..."
@@ -3245,5 +3238,3 @@ msgstr "Да направим FDM по-добър заедно! Дайте ни 
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Обнови"
-
-
