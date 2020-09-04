@@ -150,13 +150,11 @@ msgstr "바이러스 백신 선택:"
 
 msgctxt "AntivirusSettings|"
 msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
+"<a href='https://www.freedownloadmanager.org/board/viewtopic.php?"
+"f=1&t=18212'>Is your antivirus not listed?</a>"
 msgstr ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>바"
-"이러스 백신이 목록에 없습니까?</a>"
+"<a href='https://www.freedownloadmanager.org/board/viewtopic.php?"
+"f=1&t=18212'>바이러스 백신이 목록에 없습니까?</a>"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -164,7 +162,7 @@ msgstr "경로:"
 
 msgctxt "AntivirusSettings|"
 msgid "Please enter antivirus path"
-msgstr "바이러스 백신 경로를 입력하십시오"
+msgstr "바이러스 백신 경로를 입력하세요"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments:"
@@ -232,7 +230,7 @@ msgstr "확인"
 
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
-msgstr "사이트에는 다음과 같이 나와 있습니다: \"%1\"."
+msgstr "사이트의 메시지: \"%1\"."
 
 msgctxt "AuthenticationPage|"
 msgid "Username"
@@ -244,7 +242,7 @@ msgstr "암호"
 
 msgctxt "AuthenticationPage|"
 msgid "Remember"
-msgstr "기억"
+msgstr "기억하기"
 
 msgctxt "BackupComboBox|"
 msgid "5 minutes"
@@ -264,7 +262,7 @@ msgstr "3시간"
 
 msgctxt "BackupComboBox|"
 msgid "1 day"
-msgstr "1 일"
+msgstr "1일"
 
 msgctxt "BackupSlider|"
 msgid "5 minutes"
@@ -356,7 +354,7 @@ msgstr "일반"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
-msgstr "진행"
+msgstr "진행 상황"
 
 msgctxt "BottomPanelTools|"
 msgid "Files"
@@ -365,26 +363,6 @@ msgstr "파일"
 msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr "연결"
-
-msgctxt "Browser|"
-msgid "Enter URL"
-msgstr "URL 입력"
-
-msgctxt "Browser|"
-msgid "Bookmark removed"
-msgstr "북마크가 제거되었습니다"
-
-msgctxt "Browser|"
-msgid "Bookmark added"
-msgstr "북마크 추가되었습니다"
-
-msgctxt "Browser|"
-msgid "Bookmarks"
-msgstr "북마크"
-
-msgctxt "Browser|"
-msgid "There are no bookmarks at the moment"
-msgstr "현재 북마크가 없습니다"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
@@ -397,6 +375,26 @@ msgstr "예"
 msgctxt "Browser|"
 msgid "NO"
 msgstr "아니오"
+
+msgctxt "Browser|"
+msgid "Bookmarks"
+msgstr "북마크"
+
+msgctxt "Browser|"
+msgid "There are no bookmarks at the moment"
+msgstr "현재 북마크가 없습니다"
+
+msgctxt "Browser|"
+msgid "Enter URL"
+msgstr "URL 입력"
+
+msgctxt "Browser|"
+msgid "Bookmark removed"
+msgstr "북마크가 제거되었습니다"
+
+msgctxt "Browser|"
+msgid "Bookmark added"
+msgstr "북마크가 추가되었습니다"
 
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
@@ -431,8 +429,8 @@ msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
 msgstr ""
-"%1 확장 버전이 설치되어 있는지 확인하십시오. 그렇지 않으면 아래 버튼 중 하나"
-"를 클릭합니다"
+"%1 확장 버전이 설치되어 있는지 확인하세요. 그렇지 않으면 아래 버튼 중 하나를 "
+"클릭합니다"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -490,17 +488,17 @@ msgid ""
 "\n"
 "Some of them (e.g. Google Drive downloads) can be added using this browser "
 "only, because they require additional information that your Android system's "
-"browser does not provide to %1 (or there is no universal way for all browsers "
-"to do this)."
+"browser does not provide to %1 (or there is no universal way for all "
+"browsers to do this)."
 msgstr ""
 "내장 웹 브라우저를 열려고합니다.\n"
 "\n"
 "%1에 다운로드를 추가하는데 도움이 됩니다.\n"
 "\n"
-"이 중 일부 (예: Google Drive 다운로드)는 Android 시스템의 브라우저가 %1에 "
-"제공하지 않는 추가 정보가 필요하기 때문에 이 브라우저를 통해서만 추가할 수 "
-"있습니다 (또는 모든 브라우저에서 이러한 작업을 수행할 수 있는 보편적인 방법은 "
-"없습니다)."
+"이 중 일부 (예: Google Drive 다운로드)는 Android 시스템의 브라우저가 %1에 제"
+"공하지 않는 추가 정보가 필요하기 때문에 이 브라우저를 통해서만 추가할 수 있습"
+"니다 (또는 모든 브라우저에서 이러한 작업을 수행할 수 있는 보편적인 방법은 없"
+"습니다)."
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -540,31 +538,31 @@ msgstr "확인"
 
 msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
-msgstr "이 사이트에서 다운로드할 수 없습니다"
+msgstr "이 사이트에서 다운로드가 허용되지 않습니다"
 
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
-msgstr "프록시 %1에는 사용자 이름과 비밀번호가 필요합니다."
+msgstr "프록시 %1에는 사용자 이름과 암호가 필요합니다."
 
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
-msgstr "%1이 사용자 이름과 비밀번호를 요청하고 있습니다."
+msgstr "%1이 사용자 이름과 암호를 요청하고 있습니다."
 
 msgctxt "BuildDownloadTools|"
 msgid "Querying info. Please wait..."
-msgstr "질의 정보. 기다려주세요..."
+msgstr "정보 쿼리 중. 잠시 기다리십시오..."
 
 msgctxt "ButtonsBlock|"
 msgid "Please select download link"
-msgstr "다운로드 링크를 선택하십시오"
+msgstr "다운로드 링크를 선택세요"
 
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
-msgstr "한 번에 %1 개 이하의 링크를 선택할 수 있습니다"
+msgstr "한 번에 %1개의 링크만 선택할 수 있습니다"
 
 msgctxt "ButtonsBlock|"
 msgid "No write access to the selected directory"
-msgstr "선택한 디렉토리에 대한 쓰기 권한이 없습니다."
+msgstr "선택한 디렉토리에 대한 쓰기 권한이 없습니다"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
@@ -652,7 +650,7 @@ msgstr "조정 가능한 비트 전송률로 mp3로 변환"
 
 msgctxt "ConvertationDialog|"
 msgid "Save to"
-msgstr "다른 이름으로 저장"
+msgstr "다음으로 저장"
 
 msgctxt "ConvertationDialog|"
 msgid "Open"
@@ -664,11 +662,11 @@ msgstr "취소"
 
 msgctxt "ConvertationDialog|"
 msgid "Bitrate (quality)"
-msgstr "비트 레이트 (품질)"
+msgstr "비트 전송률 (품질)"
 
 msgctxt "ConvertationDialog|"
 msgid "Constant bitrate of value"
-msgstr "일정한 비트 전송률"
+msgstr "고정 비트 전송률"
 
 msgctxt "ConvertationDialog|"
 msgid "Variable bitrate (VBR)"
@@ -684,7 +682,7 @@ msgstr "확인"
 
 msgctxt "ConvertationPage|"
 msgid "Convert to mp3"
-msgstr "mp3로 변환"
+msgstr "MP3로 변환"
 
 msgctxt "ConvertationPage|"
 msgid "Convert to mp3 with adjustable bitrate"
@@ -696,7 +694,7 @@ msgstr "확인"
 
 msgctxt "ConvertationPage|"
 msgid "Save to"
-msgstr "여기에 저장"
+msgstr "저장"
 
 msgctxt "ConvertationPage|"
 msgid "The path contains invalid characters"
@@ -704,11 +702,11 @@ msgstr "경로에 유효하지 않은 문자가 포함되어 있습니다"
 
 msgctxt "ConvertationPage|"
 msgid "Bitrate (quality)"
-msgstr "비트 레이트 (품질)"
+msgstr "비트 전송률 (품질)"
 
 msgctxt "ConvertationPage|"
 msgid "Constant bitrate of value"
-msgstr "일정한 비트 전송률"
+msgstr "고정 비트 전송률"
 
 msgctxt "ConvertationPage|"
 msgid "Variable bitrate (VBR)"
@@ -726,7 +724,7 @@ msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr ""
-"내부 오류가 발생했습니다. 추가 사용을 위해 <br> %1를 다시 시작해야 합니다."
+"내부 오류가 발생했습니다. 추가 사용을 위해 <br>%1를 다시 시작해야 합니다."
 
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
@@ -734,7 +732,7 @@ msgstr "%1을 자동으로 다시 시작"
 
 msgctxt "CrashReporter|"
 msgid "Failed to send the report.<br>Check your Internet connection."
-msgstr "보고서를 보내지 못했습니다. <br> 인터넷 연결을 확인하십시오."
+msgstr "보고서를 보내지 못했습니다. <br>인터넷 연결을 확인하세요."
 
 msgctxt "CrashReporter|"
 msgid "Error"
@@ -761,20 +759,20 @@ msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
 msgstr ""
-"%1의 이식 가능한 버전을 각각의 컴퓨터에 설치 및 구성 할 필요없이 "
-"다른 컴퓨터에서 사용할 수 있습니다."
+"%1의 휴대용 버전은 각각의 컴퓨터에 설치 및 구성할 필요없이 다른 컴퓨터에서 사"
+"용할 수 있습니다."
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
-msgstr "예를 들어 플래시 디스크에 편리하게 배치 할 수 있습니다."
+msgstr "예를 들어 플래시 디스크에 편리하게 배치할 수 있습니다."
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
 msgstr ""
-"이 버전을 만들 경로를 여기에 지정하십시오. 일부 이동식 드라이브의 "
-"폴더여야 합니다."
+"이 버전을 만들 경로를 여기에 지정하세요. 일부 이동식 드라이브의 폴더여야 합니"
+"다."
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -786,7 +784,7 @@ msgstr "취소"
 
 msgctxt "CreatePortableDialog|"
 msgid "Please specify the path."
-msgstr "경로를 지정하십시오."
+msgstr "경로를 지정하세요."
 
 msgctxt "CreatePortableDialog|"
 msgid "OK"
@@ -794,7 +792,7 @@ msgstr "확인"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
-msgstr "%1 % 생성"
+msgstr "%1% 만들기"
 
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
@@ -802,7 +800,7 @@ msgstr "휴대용 버전을 만드는 동안 오류가 발생했습니다: %1"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating a portable version was successfully completed."
-msgstr "휴대용 버전 작성이 완료되었습니다."
+msgstr "휴대용 버전 만들기가 성공적으로 완료되었습니다."
 
 msgctxt "CreatePortableDialog|"
 msgid "Close"
@@ -810,11 +808,11 @@ msgstr "닫기"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
-msgstr "선택된 다운로드 삭제"
+msgstr "선택한 다운로드 삭제"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Remember my choice"
-msgstr "내 선택을 기억"
+msgstr "내 선택을 기억하기"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete files"
@@ -842,7 +840,7 @@ msgstr "선택한 파일을 삭제하시겠습니까?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Delete selected downloads"
-msgstr "선택된 다운로드 삭제"
+msgstr "선택한 다운로드 삭제"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Are you sure you want to delete the selected file(s)?"
@@ -865,16 +863,16 @@ msgid "Size: %1"
 msgstr "크기: %1"
 
 msgctxt "DownloadsItemTools|"
-msgid "File is missing"
-msgstr "파일이 없습니다"
-
-msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "디스크가 없습니다"
 
+msgctxt "DownloadsItemTools|"
+msgid "File is missing"
+msgstr "파일이 없습니다"
+
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
-msgstr "링크 다운로드 (%1 선택)"
+msgstr "링크 다운로드 (%1 선택됨)"
 
 msgctxt "DownloadsList|"
 msgid "Select all"
@@ -890,11 +888,11 @@ msgstr "다운로드 목록이 비어 있습니다."
 
 msgctxt "DownloadsPage|"
 msgid "Add new download URL."
-msgstr "새 다운로드 URL을 추가하십시오."
+msgstr "새 다운로드 URL을 추가하세요."
 
 msgctxt "DownloadsPage|"
 msgid "No results found for"
-msgstr "검색 결과가 없습니다"
+msgstr "다음에 대한 결과를 찾을 수 없음"
 
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
@@ -906,7 +904,7 @@ msgstr "활성 다운로드가 없습니다"
 
 msgctxt "DownloadsPage|"
 msgid "No completed downloads"
-msgstr "다운로드가 완료되지 않았습니다"
+msgstr "완료된 다운로드가 없습니다"
 
 msgctxt "DownloadsPage|"
 msgid "Show all"
@@ -914,11 +912,55 @@ msgstr "모두 표시"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
-msgstr "다운로드 목록이 비어 있습니다. 새 다운로드 URL을 추가하십시오."
+msgstr "다운로드 목록이 비어 있습니다. 새 다운로드 URL을 추가하세요."
+
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr "다운로드 설정"
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr "확인 없이 다운로드 시작"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr "다운로드 목록에서 삭제된 파일을 자동으로 제거"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr "다운로드 목록에서 완료된 다운로드를 자동으로 제거"
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr "파일 생성에 서버 시간 사용"
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr "기본 다운로드 폴더"
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr "자동으로 기본 다운로드 폴더 선택"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr "파일 유형에 따라 폴더 제안"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "다운로드 URL을 기준으로 폴더 제안"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr "고정된 기본 다운로드 폴더"
+
+msgctxt "DownloadsSettings|"
+msgid "Macros"
+msgstr "매크로"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
-msgstr "태그 해제"
+msgstr "태그 제거"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Name"
@@ -946,7 +988,7 @@ msgstr "우선 순위"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
-msgstr "재시작"
+msgstr "다시 시작"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Open"
@@ -1026,7 +1068,7 @@ msgstr "URL 변경"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
-msgstr "mp3로 변환"
+msgstr "MP3로 변환"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
@@ -1054,7 +1096,7 @@ msgstr "순차적 다운로드"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
-msgstr "다운로드를 완료하였습니다"
+msgstr "다운로드 완료"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Moving... %1%"
@@ -1066,15 +1108,11 @@ msgstr "파일 확인 중..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Converting to mp3..."
-msgstr "mp3로 변환 중..."
+msgstr "MP3로 변환 중..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
 msgstr "미디어 스트림 병합 중..."
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Requesting info..."
-msgstr "정보 요청 중..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Queued"
@@ -1106,7 +1144,7 @@ msgstr "이동 중... %1%"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Converting to mp3..."
-msgstr "mp3로 변환 중..."
+msgstr "MP3로 변환 중..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking for viruses..."
@@ -1161,8 +1199,8 @@ msgid "Export"
 msgstr "내보내기"
 
 msgctxt "ExportDownloadsTypeCombobox|"
-msgid "%1 다운로드 파일 (%2)"
-msgstr ""
+msgid "%1 downloads files (%2)"
+msgstr "%1 다운로드 파일 (%2)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Default format"
@@ -1206,11 +1244,11 @@ msgstr "파일 무결성 검사"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Hash"
-msgstr "해쉬"
+msgstr "해시"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
-msgstr "계산 중 %1%"
+msgstr "%1% 계산 중"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Compare with"
@@ -1246,11 +1284,11 @@ msgstr "SHA-256"
 
 msgctxt "FileIntegrityPage|"
 msgid "Hash"
-msgstr "해쉬"
+msgstr "해시"
 
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
-msgstr "계산 중 %1%"
+msgstr "%1% 계산 중"
 
 msgctxt "FileIntegrityPage|"
 msgid "Compare with"
@@ -1258,7 +1296,7 @@ msgstr "비교"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification OK"
-msgstr "검증 확인 OK"
+msgstr "검증 확인"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification failed"
@@ -1321,6 +1359,18 @@ msgid "Preferred File Type:"
 msgstr "선호하는 파일 형식:"
 
 msgctxt "FilesTree|"
+msgid "Files"
+msgstr "파일"
+
+msgctxt "FilesTree|"
+msgid "Select all"
+msgstr "모두 선택"
+
+msgctxt "FilesTree|"
+msgid "Select none"
+msgstr "선택 안함"
+
+msgctxt "FilesTree|"
 msgid "Name"
 msgstr "이름"
 
@@ -1330,7 +1380,7 @@ msgstr "크기"
 
 msgctxt "FilesTree|"
 msgid "Progress"
-msgstr "진행"
+msgstr "진행 상황"
 
 msgctxt "FilesTree|"
 msgid "Priority"
@@ -1347,18 +1397,6 @@ msgstr "높음"
 msgctxt "FilesTree|"
 msgid "Low"
 msgstr "낮음"
-
-msgctxt "FilesTree|"
-msgid "Files"
-msgstr "파일"
-
-msgctxt "FilesTree|"
-msgid "Select all"
-msgstr "모두 선택"
-
-msgctxt "FilesTree|"
-msgid "Select none"
-msgstr "선택 안함"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High Priority"
@@ -1415,12 +1453,11 @@ msgstr "언어"
 msgctxt "GeneralSettings|"
 msgid ""
 "Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-" fix it!</a>"
+"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's  "
+"fix it!</a>"
 msgstr ""
-"언어가 목록에 없거나 번역이 완료되지 않았습니까? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>"수정을 "
-"하세요!</a>"
+"언어가 목록에 없거나 번역이 완전하지 않습니까? <a href='https://github.com/"
+"FreeDownloadManagerTeam/FDM6-localization'>고쳐  봅시다!</a>"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1428,15 +1465,39 @@ msgstr "다운로드"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
-msgstr "파일 형식을 기준으로 폴더 제안"
+msgstr "파일 유형에 따라 폴더 제안"
+
+msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr "기본 다운로드 폴더"
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr "자동으로 기본 다운로드 폴더 선택"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
 msgstr "다운로드 URL을 기반으로 폴더 제안"
 
 msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr "고정된 기본 다운로드 폴더"
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr "열기"
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "취소"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr "매크로"
+
+msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
-msgstr "다운로드 목록의 압축 보기"
+msgstr "다운로드 목록 간략히 보기"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
@@ -1448,7 +1509,7 @@ msgstr "다운로드 목록에서 완료된 다운로드를 자동으로 제거"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
-msgstr "파일 작성에 서버 시간 사용"
+msgstr "파일 생성에 서버 시간 사용"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1508,7 +1569,7 @@ msgstr "추가:"
 
 msgctxt "GeneralTab|"
 msgid "Progress:"
-msgstr "진행:"
+msgstr "진행 상황:"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -1547,10 +1608,6 @@ msgid "%1 settings files (%2)"
 msgstr "%1 설정 파일 (%2)"
 
 msgctxt "ImportListOfUrlsFromFileFailedDialog|"
-msgid "Failure to paste URLs from the file"
-msgstr "파일에서 URL을 붙여넣지 못했습니다"
-
-msgctxt "ImportListOfUrlsFromFileFailedDialog|"
 msgid "Error: %1"
 msgstr "오류: %1"
 
@@ -1560,7 +1617,7 @@ msgstr "확인"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
-msgstr "파일에서 URL 붙여넣기 실패"
+msgstr "파일에서 URL을 붙여넣지 못했습니다"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
@@ -1608,7 +1665,7 @@ msgstr "설정"
 
 msgctxt "LeftDrawer|"
 msgid "Contact support"
-msgstr " 지원 연락처"
+msgstr "지원 연락처"
 
 msgctxt "LeftDrawer|"
 msgid "About"
@@ -1625,6 +1682,34 @@ msgstr "추가"
 msgctxt "ListEditor|"
 msgid "Hide"
 msgstr "숨김"
+
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr "%content_type% - 콘테츠 유형 (예제 \"Music\")"
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr "%server% - 서버의 이름 (예제 \"%1\")"
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr "%path_on_server% - 서버의 다운로드 파일 경로"
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr "%year% - 현재 연도"
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr "%month% - 현재 월 (1에서 12까지의 숫자)"
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr "%day% - 현재 일"
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
+msgstr "%date% - %year%-%month%-%day%과 동일"
 
 msgctxt "MainFiltersBar|"
 msgid "All"
@@ -1643,8 +1728,8 @@ msgid "Paste Urls from Clipboard"
 msgstr "클립보드에서 URL 붙여넣기"
 
 msgctxt "MainMenu|"
-msgid "파일에서 URL을 붙여넣기"
-msgstr ""
+msgid "Paste Urls from File"
+msgstr "파일에서 URL을 붙여넣기"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
@@ -1708,7 +1793,7 @@ msgstr "종료"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
-msgstr "달팽이 모드는 다운로드를 중지하지 않고 대역폭을 비웁니다."
+msgstr "달팽이 모드는 다운로드를 중단하지 않고 대역폭을 확보합니다."
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
@@ -1716,14 +1801,12 @@ msgstr "달팽이 모드"
 
 msgctxt "MainStatusBar|"
 msgid "No Internet connection"
-msgstr "인터넷에 연결되지 않음"
+msgstr "인터넷 연결 없음"
 
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
 msgstr[0] "%n개의 다운로드가 선택되었습니다."
-msgstr[1] "%n개의 다운로드가 선택되었습니다."
-msgstr[2] "%n개의 다운로드가 선택되었습니다."
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -1759,11 +1842,11 @@ msgstr "이동..."
 
 msgctxt "MainToolbar|"
 msgid "Main menu"
-msgstr "메인 메뉴"
+msgstr "기본 메뉴"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
-msgstr "제한 없음"
+msgstr "무제한"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Custom..."
@@ -1787,7 +1870,7 @@ msgstr "취소"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Invalid value"
-msgstr "무효한 값"
+msgstr "잘못된 값"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
@@ -1811,19 +1894,15 @@ msgstr "크기:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Added at:"
-msgstr "다음에 추가됨 :"
+msgstr "추가 위치:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
 msgstr "건너뛰기"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "Skip all"
-msgstr "모두 건너뛰기"
-
-msgctxt "MergeDownloadsDialog|"
-msgid "OK"
-msgstr "확인"
+msgid "Skip all (%1)"
+msgstr "모두 건너뛰기 (%1)"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -1831,7 +1910,7 @@ msgstr "다운로드"
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
-msgstr "인터넷에 연결되지 않음"
+msgstr "인터넷 연결 없음"
 
 msgctxt "ModeButton|"
 msgid "Mobile data use disabled"
@@ -1843,7 +1922,7 @@ msgstr "다운로드 이동 실패"
 
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
-msgstr "오루: %1"
+msgstr "오류: %1"
 
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
@@ -1857,6 +1936,14 @@ msgctxt "MovingFailedDialog|"
 msgid "Cancel"
 msgstr "취소"
 
+msgctxt "MovingFolderDialog|"
+msgid "Move"
+msgstr "이동"
+
+msgctxt "MovingFolderDialog|"
+msgid "Cancel"
+msgstr "취소"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "업데이트 확인..."
@@ -1867,7 +1954,7 @@ msgstr "환경 설정..."
 
 msgctxt "NativeMenuBar|"
 msgid "Quit"
-msgstr "끝내기"
+msgstr "종료"
 
 msgctxt "NativeMenuBar|"
 msgid "&File"
@@ -1875,7 +1962,7 @@ msgstr "파일(&F)"
 
 msgctxt "NativeMenuBar|"
 msgid "Add &new download"
-msgstr "새로운 다운로드 추가(&N)"
+msgstr "새 다운로드 추가(&N)"
 
 msgctxt "NativeMenuBar|"
 msgid "&Edit"
@@ -1915,7 +2002,7 @@ msgstr "도움말"
 
 msgctxt "NativeMenuBar|"
 msgid "Contact Support"
-msgstr "연락처 지원"
+msgstr "지원 연락처"
 
 msgctxt "NetworkSettings|"
 msgid "Network"
@@ -1991,7 +2078,7 @@ msgstr "SOCKS5"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Unlimited"
-msgstr "제한 없음"
+msgstr "무제한"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom..."
@@ -1999,11 +2086,11 @@ msgstr "사용자 지정..."
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "KB/s"
-msgstr "KB/s"
+msgstr "KB/초"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Please enter numbers only"
-msgstr "숫자만 입력하십시오"
+msgstr "숫자만 입력하세요"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom value"
@@ -2018,8 +2105,8 @@ msgid "CANCEL"
 msgstr "취소"
 
 msgctxt "NetworkSpeedLimitComboBox|"
-msgid "무효한 값"
-msgstr ""
+msgid "Invalid value"
+msgstr "잘못된 값"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
@@ -2062,8 +2149,36 @@ msgid "4K (2160p)"
 msgstr "4K (2160p)"
 
 msgctxt "QObject|"
+msgid "There is not enough disk space."
+msgstr "저장 공간이 부족합니다."
+
+msgctxt "QObject|"
+msgid ""
+"The list of downloads is damaged.\n"
+"%1 has failed to restore it from backup.\n"
+"Please close all your web browsers and try again."
+msgstr ""
+"다운로드 목록이 손상되었습니다.\n"
+"%1이 목록을 백업에서 복원하는데 실패했습니다.\n"
+"모든 웹브라우저를 닫고 다시 시도하세요."
+
+msgctxt "QObject|"
+msgid "Fatal error: failed to load the database."
+msgstr "치명적인 오류: 데이터베이스를 로드하지 못했습니다."
+
+msgctxt "QObject|"
+msgid ""
+"Would you like to erase it (this will clear your downloads list and all %1 "
+"data)?"
+msgstr "지우시겠습니까? (다운로드 목록과 모든 %1 데이터가 지워집니다)"
+
+msgctxt "QObject|"
+msgid "Failed."
+msgstr "실패했습니다."
+
+msgctxt "QObject|"
 msgid "Unexpected error"
-msgstr "예상치 못한 에러"
+msgstr "예상치 못한 오류"
 
 msgctxt "QObject|"
 msgid "Service connection terminated."
@@ -2086,8 +2201,32 @@ msgid "App frontend's server listen failed."
 msgstr "앱 프론트 엔드의 서버 청취에 실패했습니다."
 
 msgctxt "QObject|"
+msgid "Music"
+msgstr "음악"
+
+msgctxt "QObject|"
+msgid "Video"
+msgstr "영상"
+
+msgctxt "QObject|"
+msgid "%1 has failed to initialize. Please reinstall."
+msgstr "%1을 초기화하지 못했습니다. 다시 설치해 주세요."
+
+msgctxt "QObject|"
+msgid "Reason: %1"
+msgstr "이유: %1"
+
+msgctxt "QObject|"
+msgid "Contact Support"
+msgstr "지원 연락처"
+
+msgctxt "QObject|"
+msgid "Exit"
+msgstr "종료"
+
+msgctxt "QObject|"
 msgid "QML load failure."
-msgstr "QML 로드 오류입니다."
+msgstr "QML 로드 실패입니다."
 
 msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
@@ -2106,32 +2245,16 @@ msgid "Enter URL"
 msgstr "URL 입력"
 
 msgctxt "QObject|"
-msgid "%1 has failed to initialize. Please reinstall."
-msgstr "%1를 초기화하지 못했습니다. 다시 설치하십시오."
-
-msgctxt "QObject|"
-msgid "Reason: %1"
-msgstr "이유: %1"
-
-msgctxt "QObject|"
-msgid "Contact Support"
-msgstr "지원 연락처"
-
-msgctxt "QObject|"
-msgid "Exit"
-msgstr "종료"
-
-msgctxt "QObject|"
 msgid "Show main window"
 msgstr "기본 창 표시"
 
 msgctxt "QObject|"
 msgid "About %1"
-msgstr "%1에 대해"
+msgstr "%1 정보"
 
 msgctxt "QObject|"
 msgid "Quit"
-msgstr "끝내기"
+msgstr "종료"
 
 msgctxt "QObject|"
 msgid "%1 K"
@@ -2183,11 +2306,11 @@ msgstr "파일을 열지 못했습니다"
 
 msgctxt "QObject|"
 msgid "Access denied"
-msgstr "접근 불가"
+msgstr "접근 거부"
 
 msgctxt "QObject|"
 msgid "Access to file is denied"
-msgstr "파일에 대한 액세스가 거부되었습니다"
+msgstr "파일 접근이 거부되었습니다"
 
 msgctxt "QObject|"
 msgid "File error"
@@ -2195,7 +2318,7 @@ msgstr "파일 오류"
 
 msgctxt "QObject|"
 msgid "Unknown file I/O error"
-msgstr "알 수 없는 파일 I/O 오류"
+msgstr "알 수 없는 파일 입출력 오류"
 
 msgctxt "QObject|"
 msgid "HTTP Error %1"
@@ -2207,7 +2330,7 @@ msgstr "잘못된 요청"
 
 msgctxt "QObject|"
 msgid "Unauthorized"
-msgstr "허가되지 않았습니다"
+msgstr "권한 없음"
 
 msgctxt "QObject|"
 msgid "Payment Required"
@@ -2223,11 +2346,11 @@ msgstr "찾을 수 없습니다"
 
 msgctxt "QObject|"
 msgid "Method Not Allowed"
-msgstr "메서드가 허용되지 않습니다"
+msgstr "허용되지 않은 방법"
 
 msgctxt "QObject|"
 msgid "Not Acceptable"
-msgstr "허용되지 않습니다"
+msgstr "허용되지 않음"
 
 msgctxt "QObject|"
 msgid "Proxy Authentication Required"
@@ -2255,11 +2378,11 @@ msgstr "전제 조건이 실패했습니다"
 
 msgctxt "QObject|"
 msgid "Request Entity Too Large"
-msgstr "요청 엔티티가 너무 큽니다"
+msgstr "요청 요소가 너무 큽니다"
 
 msgctxt "QObject|"
 msgid "Request-URI Too Long"
-msgstr "요청-URI가 너무 깁니다"
+msgstr "요청-URI이 너무 깁니다"
 
 msgctxt "QObject|"
 msgid "Unsupported Media Type"
@@ -2267,7 +2390,7 @@ msgstr "지원되지 않는 미디어 유형"
 
 msgctxt "QObject|"
 msgid "Requested Range Not Satisfiable"
-msgstr "요청된 범위가 만족스럽지 않음"
+msgstr "요청된 범위가 충족되지 않음"
 
 msgctxt "QObject|"
 msgid "Expectation Failed"
@@ -2283,11 +2406,11 @@ msgstr "인증 시간 초과"
 
 msgctxt "QObject|"
 msgid "Method Failure / Enhance Your Calm"
-msgstr "메서드 오류 / 침착성 향상"
+msgstr "방식 실패 / 침착성 향상"
 
 msgctxt "QObject|"
 msgid "Unprocessable Entity"
-msgstr "처리할 수 없는 엔티티"
+msgstr "처리할 수 없는 요소"
 
 msgctxt "QObject|"
 msgid "Locked"
@@ -2295,7 +2418,7 @@ msgstr "잠겼습니다"
 
 msgctxt "QObject|"
 msgid "Failed Dependency / Method Failure"
-msgstr "실패한 의존성 / 메소드 실패"
+msgstr "실패한 의존성 / 방식 실패"
 
 msgctxt "QObject|"
 msgid "Unordered Collection"
@@ -2311,7 +2434,7 @@ msgstr "전제 조건 필요"
 
 msgctxt "QObject|"
 msgid "Too Many Requests"
-msgstr "너무 많은 요청"
+msgstr "요청이 너무 많음"
 
 msgctxt "QObject|"
 msgid "Request Header Fields Too Large"
@@ -2319,7 +2442,7 @@ msgstr "요청 헤더 필드가 너무 큼"
 
 msgctxt "QObject|"
 msgid "Login Timeout"
-msgstr "로그인 타임 아웃"
+msgstr "로그인 시간 초과"
 
 msgctxt "QObject|"
 msgid "No Response"
@@ -2331,7 +2454,7 @@ msgstr "재시도"
 
 msgctxt "QObject|"
 msgid "Blocked by Windows Parental Controls"
-msgstr "Windows 보호자 통제에 의해 차단"
+msgstr "Windows 자녀 보호에 의해 차단"
 
 msgctxt "QObject|"
 msgid "Unavailable For Legal Reasons"
@@ -2351,7 +2474,7 @@ msgstr "인증서 없음"
 
 msgctxt "QObject|"
 msgid "HTTP to HTTPS"
-msgstr "HTTP에서 HTTPS로"
+msgstr "HTTP에서 HTTPS"
 
 msgctxt "QObject|"
 msgid "Token expired/invalid"
@@ -2359,7 +2482,7 @@ msgstr "토큰 만료/잘못됨"
 
 msgctxt "QObject|"
 msgid "Client Closed Request"
-msgstr "클라이언트 닫힘 요청"
+msgstr "클라이언트가 요청을 닫음"
 
 msgctxt "QObject|"
 msgid "Internal Server Error"
@@ -2387,19 +2510,19 @@ msgstr "HTTP 버전이 지원되지 않음"
 
 msgctxt "QObject|"
 msgid "Variant Also Negotiates"
-msgstr "변형도 협상"
+msgstr "변종도 협상"
 
 msgctxt "QObject|"
 msgid "Insufficient Storage"
-msgstr "스토리지 부족"
+msgstr "저장소 부족"
 
 msgctxt "QObject|"
 msgid "Loop Detected"
-msgstr "루프 감지"
+msgstr "루프 감지됨"
 
 msgctxt "QObject|"
 msgid "Bandwidth Limit Exceeded"
-msgstr "대역폭 한도 초과"
+msgstr "대역폭 제한 초과"
 
 msgctxt "QObject|"
 msgid "Not Extended"
@@ -2419,11 +2542,11 @@ msgstr "네트워크 연결 시간 초과 오류"
 
 msgctxt "QObject|"
 msgid "Unsupported"
-msgstr "미지원"
+msgstr "지원되지 않음"
 
 msgctxt "QObject|"
 msgid "Invalid parameter"
-msgstr "무효한 매개변수"
+msgstr "잘못된 매개변수"
 
 msgctxt "QObject|"
 msgid "Unsupported format"
@@ -2431,11 +2554,11 @@ msgstr "지원되지 않는 형식"
 
 msgctxt "QObject|"
 msgid "Host not found"
-msgstr "호스트를 찾을 수 없습니다"
+msgstr "호스트를 찾을 수 없음"
 
 msgctxt "QObject|"
 msgid "Operation canceled"
-msgstr "작업 취소"
+msgstr "작업 취소됨"
 
 msgctxt "QObject|"
 msgid "Connection closed"
@@ -2459,11 +2582,11 @@ msgstr "네트워크 오류"
 
 msgctxt "QObject|"
 msgid "Operation not permitted"
-msgstr "작동이 허용되지 않습니다"
+msgstr "작업이 허용되지 않습니다"
 
 msgctxt "QObject|"
 msgid "No resume support"
-msgstr "이력서 지원 없음"
+msgstr "재개 지원 없음"
 
 msgctxt "QObject|"
 msgid "Resource changed"
@@ -2494,6 +2617,10 @@ msgid "Untitled"
 msgstr "제목 없음"
 
 msgctxt "QObject|"
+msgid "Update URL"
+msgstr "업데이트 URL"
+
+msgctxt "QObject|"
 msgid "Failed to remove current version"
 msgstr "현재 버전을 제거하지 못함"
 
@@ -2504,6 +2631,10 @@ msgstr "hdiutil 오류 %1"
 msgctxt "QObject|"
 msgid "Mount point does not exist"
 msgstr "마운트 지점이 없음"
+
+msgctxt "QObject|"
+msgid "Missing %path% parameter."
+msgstr "%path% 매개변수가 없습니다."
 
 msgctxt "QObject|"
 msgid "Path to the dump folder."
@@ -2562,53 +2693,20 @@ msgid "Download video with %1"
 msgstr "%1로 비디오 다운로드"
 
 msgctxt "QObject|"
-msgid "Video"
-msgstr "영상"
+msgid "Documents"
+msgstr "문서"
 
 msgctxt "QObject|"
-msgid "Music"
-msgstr "음악"
+msgid "Pictures"
+msgstr "사진"
 
 msgctxt "QObject|"
-msgid "There is not enough disk space."
-msgstr "디스크 공간이 부족합니다."
-
-msgctxt "QObject|"
-msgid ""
-"The list of downloads is damaged.\n"
-"%1 has failed to restore it from backup.\n"
-"Please close all your web browsers and try again."
-msgstr ""
-"다운로드 목록이 손상되었습니다.\n"
-"%1이 백업에서 복원하지 못했습니다.\n"
-"모든 웹 브라우저를 닫고 다시 시도하세요."
-
-msgctxt "QObject|"
-msgid "Fatal error: failed to load the database."
-msgstr "치명적인 오류: 데이터베이스를 로드하지 못했습니다."
-
-msgctxt "QObject|"
-msgid ""
-"Would you like to erase it (this will clear your downloads list and all %1 "
-"data)?"
-msgstr "삭제 하시겠습니까 다운로드 목록과 모든 %1 데이터가 "
-"지워집니다) ?"
-
-msgctxt "QObject|"
-msgid "Failed."
-msgstr "실패."
-
-msgctxt "QObject|"
-msgid "Failed to initialize core objects."
-msgstr "코어 개체를 초기화하지 못했습니다."
-
-msgctxt "QObject|"
-msgid "Update URL"
-msgstr "URL 업데이트"
+msgid "Miscellaneous"
+msgstr "기타"
 
 msgctxt "SaveTo|"
 msgid "Save to"
-msgstr "다른 이름으로 저장"
+msgstr "다음으로 저장"
 
 msgctxt "SaveTo|"
 msgid "Open"
@@ -2617,6 +2715,18 @@ msgstr "열기"
 msgctxt "SaveTo|"
 msgid "Cancel"
 msgstr "취소"
+
+msgctxt "Scheduler|"
+msgid "Everyday"
+msgstr "매일"
+
+msgctxt "Scheduler|"
+msgid "From:"
+msgstr "시작:"
+
+msgctxt "Scheduler|"
+msgid "To:"
+msgstr "종료:"
 
 msgctxt "Scheduler|"
 msgid "Sun"
@@ -2646,18 +2756,6 @@ msgctxt "Scheduler|"
 msgid "Sat"
 msgstr "토"
 
-msgctxt "Scheduler|"
-msgid "From:"
-msgstr "시작:"
-
-msgctxt "Scheduler|"
-msgid "Everyday"
-msgstr "매일"
-
-msgctxt "Scheduler|"
-msgid "To:"
-msgstr "종료:"
-
 msgctxt "SchedulerButton|"
 msgid "Scheduler"
 msgstr "예약"
@@ -2672,7 +2770,7 @@ msgstr "예약"
 
 msgctxt "SchedulerDialog|"
 msgid "Start and pause downloads at specified time"
-msgstr "지정된 시간에 다운로드 시작 및 일시 중지"
+msgstr "지정한 시간에 다운로드 시작 및 일시 중지"
 
 msgctxt "SchedulerDialog|"
 msgid "Enable Scheduler"
@@ -2788,7 +2886,7 @@ msgstr "트래픽 제한"
 
 msgctxt "SettingsPage|"
 msgid "Antivirus"
-msgstr "안티바이러스"
+msgstr "바이러스 백신"
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
@@ -2797,6 +2895,10 @@ msgstr "고급"
 msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "설정"
+
+msgctxt "SettingsPage|"
+msgid "Downloads settings"
+msgstr "다운로드 설정"
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
@@ -2811,16 +2913,12 @@ msgid "Advanced settings"
 msgstr "고급 설정"
 
 msgctxt "ShutdownBanner|"
-msgid "Cancel"
-msgstr "취소"
-
-msgctxt "ShutdownBanner|"
 msgid "Computer will be put to sleep after all downloads are completed."
 msgstr "모든 다운로드가 완료된 후 컴퓨터가 절전 모드로 전환됩니다."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be hibernate after all downloads are completed."
-msgstr "모든 다운로드가 완료된 후 컴퓨터가 최대 절전 모드가 됩니다."
+msgstr "모든 다운로드가 완료된 후 컴퓨터가 최대 절전 모드로 됩니다."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be shutdown after all downloads are completed."
@@ -2835,20 +2933,20 @@ msgid "Cancel"
 msgstr "취소"
 
 msgctxt "ShutdownDialog|"
-msgid "OK (%1)"
-msgstr "확인 (%1)"
-
-msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be put to Sleep mode."
 msgstr "주의! 컴퓨터가 절전 모드로 전환됩니다."
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be hibernated."
-msgstr "주의! 컴퓨터가 최대 절전 모드로 전환됩니다."
+msgstr "주의! 컴퓨터가 최대 절전 모드로 됩니다."
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
 msgstr "주의! 컴퓨터가 종료됩니다."
+
+msgctxt "ShutdownDialog|"
+msgid "OK (%1)"
+msgstr "확인 (%1)"
 
 msgctxt "SortTools|"
 msgid "By date"
@@ -2864,7 +2962,7 @@ msgstr "크기순"
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
-msgstr "경고: 잠재적인 보안 위험이 발생할 수 있습니다"
+msgstr "경고: 잠재적인 보안 위험이 있습니다"
 
 msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
@@ -2884,7 +2982,7 @@ msgstr "SHA1:"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
-msgstr "위험을 수용하고 다운로드"
+msgstr "위험을 감수하고 다운로드"
 
 msgctxt "SslDialog|"
 msgid "Cancel"
@@ -2916,7 +3014,7 @@ msgstr "이동... %1%"
 
 msgctxt "StatusItem|"
 msgid "Converting to mp3..."
-msgstr "mp3로 변환 중..."
+msgstr "MP3로 변환 중..."
 
 msgctxt "StatusItem|"
 msgid "Checking for viruses..."
@@ -2944,7 +3042,7 @@ msgstr "다운로드 일시 중지"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing."
-msgstr "일시 중지 후 아래 다운로드를 다시 시작할 수 없습니다."
+msgstr "일시 중지 후 아래의 다운로드를 재개할 수 없습니다."
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause"
@@ -2960,7 +3058,7 @@ msgstr "일시 중지 후 이 다운로드를 재개할 수 없습니다"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
-msgstr "일시 중지 후 아래 다운로드를 다시 시작할 수 없습니다"
+msgstr "일시 중지 후 아래의 다운로드를 재개할 수 없습니다"
 
 msgctxt "Subtitles|"
 msgid "Download subtitles"
@@ -2984,7 +3082,7 @@ msgstr "제거"
 
 msgctxt "TagPalette|"
 msgid "Customize color"
-msgstr "색상 사용자 지정"
+msgstr "사용자 지정 색"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -3032,15 +3130,15 @@ msgstr "트래픽 제한"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
-msgstr "제한 없음"
+msgstr "무제한"
 
 msgctxt "TumComboBox|"
 msgid "KB/s"
-msgstr "KB/s"
+msgstr "KB/초"
 
 msgctxt "TumComboBox|"
 msgid "unlimited"
-msgstr "제한 없음"
+msgstr "무제한"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
@@ -3060,7 +3158,7 @@ msgstr "낮음"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Unlimited"
-msgstr "제한 없음"
+msgstr "무제한"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Custom..."
@@ -3072,7 +3170,7 @@ msgstr "%"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Please enter numbers only"
-msgstr "숫자만 입력하십시오"
+msgstr "숫자만 입력하세요"
 
 msgctxt "TumModeBlock|"
 msgid "Download speed"
@@ -3080,7 +3178,7 @@ msgstr "다운로드 속도"
 
 msgctxt "TumModeBlock|"
 msgid "Unlimited"
-msgstr "제한 없음"
+msgstr "무제한"
 
 msgctxt "TumModeBlock|"
 msgid "Max. number of simultaneous downloads"
@@ -3112,7 +3210,7 @@ msgstr "다운로드"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Save to"
-msgstr "다른 이름으로 저장..."
+msgstr "다음으로 저장"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
@@ -3132,7 +3230,7 @@ msgstr "크기: %1"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
-msgstr "업데이트를 확인하는 중..."
+msgstr "업데이트 확인 중..."
 
 msgctxt "UpdateDialog|"
 msgid "Error:"
@@ -3168,7 +3266,7 @@ msgstr "업데이트 다운로드"
 
 msgctxt "UpdateDialog|"
 msgid "Error downloading update:"
-msgstr "업데이트 다운로드 중 오류가 발생:"
+msgstr "업데이트 다운로드 중 오류:"
 
 msgctxt "UpdateDialog|"
 msgid "Checking..."
@@ -3184,7 +3282,7 @@ msgstr "업데이트 설치"
 
 msgctxt "UpdateDialog|"
 msgid "Installing updates"
-msgstr "업데이트 설치 중"
+msgstr "업데이트 설치"
 
 msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
@@ -3192,7 +3290,7 @@ msgstr "설치 중 오류 발생:"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
-msgstr "업데이트하려면 %1을 다시 시작"
+msgstr "업데이트하려면 %1을 다시 시작하세요"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch (%1)"
@@ -3227,10 +3325,6 @@ msgid "Thanks a lot! Please rate on Google Play."
 msgstr "정말 고맙습니다. Google Play에서 평가해 주십시오."
 
 msgctxt "VoteBlock|"
-msgid "Later"
-msgstr "나중에"
-
-msgctxt "VoteBlock|"
 msgid "No, thanks"
 msgstr "사양하겠습니다"
 
@@ -3239,18 +3333,13 @@ msgid "OK, sure!"
 msgstr "좋아요, 물론이죠!"
 
 msgctxt "VoteBlock|"
+msgid "Later"
+msgstr "나중에"
+
+msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."
-msgstr "우리 함께 더 좋게 만들어요! 우리에게 당신의 의견을 주세요."
+msgstr "우리 함께 더 좋게 만들어요! 우리에게 피드백을 주세요."
 
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "새로 고침"
-
-msgctxt "main|"
-msgid "Move"
-msgstr "이동"
-
-msgctxt "main|"
-msgid "Cancel"
-msgstr "취소"
-
