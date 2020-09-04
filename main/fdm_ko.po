@@ -907,6 +907,50 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "다운로드 목록이 비어 있습니다. 새 다운로드 주소를 추가하세요."
 
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr "자동으로 삭제된 파일을 다운로드 목록에서 제거"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr "자동으로 완료된 다운로드를 다운로드 목록에서 제거"
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr "파일 생성에 서버 시간 사용"
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr "파일 종류에 따라 폴더 제안"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "다운로드 주소에 따라 폴더 제안"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Macros"
+msgstr ""
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "태그 제거"
@@ -1421,8 +1465,32 @@ msgid "Suggest folders based on file type"
 msgstr "파일 종류에 따라 폴더 제안"
 
 msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
 msgstr "다운로드 주소에 따라 폴더 제안"
+
+msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr "열기"
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "취소"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
@@ -1456,9 +1524,6 @@ msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "어두운 테마"
 
-msgctxt "GeneralSettings|"
-msgid "Start downloading without confirmation"
-msgstr "확인하지 않고 다운로드 시작"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1613,6 +1678,34 @@ msgstr "추가"
 msgctxt "ListEditor|"
 msgid "Hide"
 msgstr "숨기기"
+
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
+msgstr ""
 
 msgctxt "MainFiltersBar|"
 msgid "All"
@@ -1804,8 +1897,9 @@ msgid "Skip"
 msgstr "건너뛰기"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "Skip all"
-msgstr "모두 건너뛰기"
+msgid "Skip all (%1)"
+msgstr ""
+
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2595,6 +2689,22 @@ msgctxt "QObject|"
 msgid "Download video with %1"
 msgstr "&1로 비디오 다운로드"
 
+msgctxt "QObject|"
+msgid "Documents"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
+msgstr ""
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "다음으로 저장"
@@ -2786,6 +2896,10 @@ msgstr "고급"
 msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "설정"
+
+msgctxt "SettingsPage|"
+msgid "Downloads settings"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
