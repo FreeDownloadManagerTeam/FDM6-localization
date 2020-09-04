@@ -625,7 +625,6 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "开始下载"
 
-
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "当前没有链接"
@@ -906,6 +905,50 @@ msgstr "显示全部"
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "下载列表是空的. 添加新的下载链接."
+
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr "无需确认就启动下载"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr "自动从下载列表移除已删除的文件"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr "自动移除下载列表中已完成的下载"
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr "创建文件使用服务器的时间"
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr "基于文件类型建议文件夹"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "基于下载 URL 建议文件夹"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Macros"
+msgstr ""
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1421,8 +1464,32 @@ msgid "Suggest folders based on file type"
 msgstr "基于文件类型建议文件夹"
 
 msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
 msgstr "基于下载 URL 建议文件夹"
+
+msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
@@ -1456,9 +1523,6 @@ msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "深色主题"
 
-msgctxt "GeneralSettings|"
-msgid "Start downloading without confirmation"
-msgstr "无需确认就启动下载"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1568,10 +1632,6 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr "无法从文件导入：%1"
 
-
-
-
-
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
 msgstr "设为默认值"
@@ -1615,6 +1675,34 @@ msgstr "添加"
 msgctxt "ListEditor|"
 msgid "Hide"
 msgstr "隐藏"
+
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
+msgstr ""
 
 msgctxt "MainFiltersBar|"
 msgid "All"
@@ -1806,8 +1894,9 @@ msgid "Skip"
 msgstr "跳过"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "Skip all"
-msgstr "全部跳过"
+msgid "Skip all (%1)"
+msgstr ""
+
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2597,6 +2686,22 @@ msgctxt "QObject|"
 msgid "Update URL"
 msgstr "更新链接"
 
+msgctxt "QObject|"
+msgid "Documents"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
+msgstr ""
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "保存到"
@@ -2788,6 +2893,10 @@ msgstr "高级"
 msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "设置"
+
+msgctxt "SettingsPage|"
+msgid "Downloads settings"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
@@ -3236,5 +3345,3 @@ msgstr "让我们一起使它变得更好! 向我们反馈您的建议."
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "刷新"
-
-

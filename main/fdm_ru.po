@@ -932,6 +932,50 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "Список загрузок пуст. Добавьте новый урл для скачивания."
 
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr "Загружать файлы без подтверждения"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr "Автоматически удалять загрузки при удалении файла"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr "Автоматически удалять завершенные загрузки из списка загрузок"
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr "Использовать время сервера для даты создания файла"
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr "Предлагать папку для сохранения по типу файла"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "Предлагать папку для сохранения по адресу ссылки"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Macros"
+msgstr ""
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "Удалить тег"
@@ -1449,8 +1493,32 @@ msgid "Suggest folders based on file type"
 msgstr "Предлагать папку для сохранения по типу файла"
 
 msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
 msgstr "Предлагать папку для сохранения по адресу ссылки"
+
+msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr "Открыть"
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
@@ -1484,9 +1552,6 @@ msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "Тёмная тема"
 
-msgctxt "GeneralSettings|"
-msgid "Start downloading without confirmation"
-msgstr "Загружать файлы без подтверждения"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1642,6 +1707,34 @@ msgstr "Добавить"
 msgctxt "ListEditor|"
 msgid "Hide"
 msgstr "Скрыть"
+
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
+msgstr ""
 
 msgctxt "MainFiltersBar|"
 msgid "All"
@@ -1838,8 +1931,9 @@ msgid "Skip"
 msgstr "Пропустить"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "Skip all"
-msgstr "Пропустить все"
+msgid "Skip all (%1)"
+msgstr ""
+
 
 
 msgctxt "MergeDownloadsDialog|"
@@ -2632,6 +2726,22 @@ msgctxt "QObject|"
 msgid "Update URL"
 msgstr ""
 
+msgctxt "QObject|"
+msgid "Documents"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
+msgstr ""
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "Сохранить в"
@@ -2823,6 +2933,10 @@ msgstr "Дополнительно"
 msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "Настройки"
+
+msgctxt "SettingsPage|"
+msgid "Downloads settings"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Network settings"

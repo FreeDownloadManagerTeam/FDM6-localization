@@ -919,6 +919,50 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "A lista de downloads está vazia. Adicione nova URL de download."
 
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr "Iniciar o download sem confirmação"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr "Automaticamente remover arquivos excluídos da lista de downloads"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr "Remova automaticamente downloads concluídos da lista de downloads"
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr "Usar a hora do servidor para a criação de arquivos"
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr "Sugerir pastas com base no tipo de arquivo"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "Sugerir pastas com base na URL de download"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Macros"
+msgstr ""
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "Remover Tag"
@@ -1434,8 +1478,32 @@ msgid "Suggest folders based on file type"
 msgstr "Sugerir pastas com base no tipo de arquivo"
 
 msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
 msgstr "Sugerir pastas com base na URL de download"
+
+msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr "Abrir"
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
@@ -1469,9 +1537,6 @@ msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "Tema Escuro"
 
-msgctxt "GeneralSettings|"
-msgid "Start downloading without confirmation"
-msgstr "Iniciar o download sem confirmação"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1626,6 +1691,34 @@ msgstr "Adicionar"
 msgctxt "ListEditor|"
 msgid "Hide"
 msgstr "Esconder"
+
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
+msgstr ""
 
 msgctxt "MainFiltersBar|"
 msgid "All"
@@ -1818,8 +1911,9 @@ msgid "Skip"
 msgstr "Ignorar"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "Skip all"
-msgstr "Ignorar todos"
+msgid "Skip all (%1)"
+msgstr ""
+
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2610,6 +2704,22 @@ msgctxt "QObject|"
 msgid "Update URL"
 msgstr "Atualizar URL"
 
+msgctxt "QObject|"
+msgid "Documents"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
+msgstr ""
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "Salvar para"
@@ -2801,6 +2911,10 @@ msgstr "Avançado"
 msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "Configurações"
+
+msgctxt "SettingsPage|"
+msgid "Downloads settings"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
