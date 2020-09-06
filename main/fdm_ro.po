@@ -552,6 +552,10 @@ msgid "You can select no more than %1 links at a time"
 msgstr ""
 
 msgctxt "ButtonsBlock|"
+msgid "No write access to the selected directory"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
 msgstr ""
 
@@ -898,6 +902,50 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr ""
 
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr "Începe descărcarea fără confirmare"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr "Sugerați directoare în funcție de tipul fișierului"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "Sugerați setări bazate pe adresa URL de descărcare"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Macros"
+msgstr ""
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr ""
@@ -985,6 +1033,10 @@ msgstr ""
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "Copia link-ul"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Export selected downloads"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
@@ -1106,6 +1158,78 @@ msgstr "Pauzat"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Complete"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export selected downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export all downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Save to"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Open"
+msgstr "Deschis"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "All files (%1)"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export only completed downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "%1 downloads files (%2)"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Default format"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "List of URLs"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Text files (%1)"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV file"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV files (%1)"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "Export"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "ExportSettingsDialog|"
+msgid "%1 settings files (%2)"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "All files (%1)"
+msgstr ""
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1335,8 +1459,32 @@ msgid "Suggest folders based on file type"
 msgstr "Sugerați directoare în funcție de tipul fișierului"
 
 msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
 msgstr "Sugerați setări bazate pe adresa URL de descărcare"
+
+msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr "Deschis"
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
@@ -1370,9 +1518,6 @@ msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr ""
 
-msgctxt "GeneralSettings|"
-msgid "Start downloading without confirmation"
-msgstr "Începe descărcarea fără confirmare"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1427,6 +1572,63 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr ""
 
+msgctxt "ImportDialog|"
+msgid "Import"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "ImportDialog|"
+msgid "All files (%1)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "Text files (%1)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "%1 downloads files (%2)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "%1 settings files (%2)"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Error: %1"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import the list of URLs from the file: %1"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to export"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to export to the file: %1"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to import"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import from the file: %1"
+msgstr ""
+
+
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
 msgstr "Setează ca predefinit"
@@ -1471,6 +1673,34 @@ msgctxt "ListEditor|"
 msgid "Hide"
 msgstr ""
 
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
+msgstr ""
+
 msgctxt "MainFiltersBar|"
 msgid "All"
 msgstr "Tot"
@@ -1485,6 +1715,30 @@ msgstr "Terminat"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Paste Urls from File"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export/Import"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export all downloads"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Import downloads"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export settings"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Import settings"
 msgstr ""
 
 msgctxt "MainMenu|"
@@ -1640,8 +1894,9 @@ msgid "Skip"
 msgstr "Skip"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "OK"
-msgstr "OK"
+msgid "Skip all (%1)"
+msgstr ""
+
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -1672,6 +1927,14 @@ msgid "Try again"
 msgstr ""
 
 msgctxt "MovingFailedDialog|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "MovingFolderDialog|"
+msgid "Move"
+msgstr "Muta"
+
+msgctxt "MovingFolderDialog|"
 msgid "Cancel"
 msgstr "Anulează"
 
@@ -2242,6 +2505,10 @@ msgid "Invalid parameter"
 msgstr ""
 
 msgctxt "QObject|"
+msgid "Unsupported format"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr ""
 
@@ -2412,6 +2679,22 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Update URL"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Documents"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
 msgstr ""
 
 msgctxt "SaveTo|"
@@ -2607,6 +2890,10 @@ msgid "Settings"
 msgstr "Setări"
 
 msgctxt "SettingsPage|"
+msgid "Downloads settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Network settings"
 msgstr ""
 
@@ -2780,6 +3067,14 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr ""
 
+msgctxt "Subtitles|"
+msgid "Download subtitles"
+msgstr ""
+
+msgctxt "Subtitles|"
+msgid "Edit list"
+msgstr ""
+
 msgctxt "TagColorDialog|"
 msgid "Remove tag"
 msgstr ""
@@ -2929,6 +3224,10 @@ msgid "File name"
 msgstr "Nume fisier"
 
 msgctxt "TuneAndAddDownloadPage|"
+msgid "No write access to the selected directory"
+msgstr ""
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr ""
 
@@ -3052,10 +3351,4 @@ msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr ""
 
-msgctxt "main|"
-msgid "Move"
-msgstr "Muta"
 
-msgctxt "main|"
-msgid "Cancel"
-msgstr "Anulează"

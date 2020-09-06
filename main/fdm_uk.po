@@ -436,7 +436,7 @@ msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
-msgstr "Інші підтримувані ,hfepthb"
+msgstr "Інші браузери, що підтримуються"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -561,6 +561,10 @@ msgstr "Будь ласка, виберіть посилання для зава
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "Ви можете вибрати не більше %1 посилань одночасно"
+
+msgctxt "ButtonsBlock|"
+msgid "No write access to the selected directory"
+msgstr ""
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
@@ -913,6 +917,50 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "Список завантажень пустий. Додайте нову URL адресу."
 
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr "Почати завантаження без підтвердження"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr "Автоматично прибирати видалені файли зі списку завантажень"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr "Автоматично прибирати завершені завантаження зі списку завантажень"
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr "При створенні файлу використати час сервера"
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr "Пропонувати теки залежно від типу файлу"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "Пропонувати теки залежно від URL-адреси завантаження"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Macros"
+msgstr ""
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "Зняти позначку"
@@ -1000,6 +1048,10 @@ msgstr "Додати дзеркало"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "Копіювати посилання"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Export selected downloads"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
@@ -1120,6 +1172,78 @@ msgstr "Зупинено"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Завершено"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export selected downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export all downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Save to"
+msgstr "Зберегти до"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "All files (%1)"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export only completed downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "%1 downloads files (%2)"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Default format"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "List of URLs"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Text files (%1)"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV file"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV files (%1)"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "Export"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "ExportSettingsDialog|"
+msgid "%1 settings files (%2)"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "All files (%1)"
+msgstr ""
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1352,8 +1476,32 @@ msgid "Suggest folders based on file type"
 msgstr "Пропонувати теки залежно від типу файлу"
 
 msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
 msgstr "Пропонувати теки залежно від URL-адреси завантаження"
+
+msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
@@ -1387,9 +1535,6 @@ msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "Темна тема"
 
-msgctxt "GeneralSettings|"
-msgid "Start downloading without confirmation"
-msgstr "Почати завантаження без підтвердження"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1443,6 +1588,64 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
 
+msgctxt "ImportDialog|"
+msgid "Import"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "ImportDialog|"
+msgid "All files (%1)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "Text files (%1)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "%1 downloads files (%2)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "%1 settings files (%2)"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Error: %1"
+msgstr "Помилка: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import the list of URLs from the file: %1"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to export"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to export to the file: %1"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to import"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import from the file: %1"
+msgstr ""
+
+
+
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
 msgstr "Встановити за замовчуванням"
@@ -1465,7 +1668,7 @@ msgstr "Браузер"
 
 msgctxt "LeftDrawer|"
 msgid "Settings"
-msgstr "Установки"
+msgstr "Налаштування"
 
 msgctxt "LeftDrawer|"
 msgid "Contact support"
@@ -1487,6 +1690,34 @@ msgctxt "ListEditor|"
 msgid "Hide"
 msgstr "Сховати"
 
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
+msgstr ""
+
 msgctxt "MainFiltersBar|"
 msgid "All"
 msgstr "Всі"
@@ -1502,6 +1733,30 @@ msgstr "Завершено"
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
 msgstr "Вставити URL-адреси з буфера обміну"
+
+msgctxt "MainMenu|"
+msgid "Paste Urls from File"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export/Import"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export all downloads"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Import downloads"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export settings"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Import settings"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -1624,7 +1879,7 @@ msgstr "Скасувати"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Invalid value"
-msgstr ""
+msgstr "Неправильне значення"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
@@ -1655,8 +1910,8 @@ msgid "Skip"
 msgstr "Пропустити"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "OK"
-msgstr "OK"
+msgid "Skip all (%1)"
+msgstr ""
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -1687,6 +1942,14 @@ msgid "Try again"
 msgstr "Спробувати ще"
 
 msgctxt "MovingFailedDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "MovingFolderDialog|"
+msgid "Move"
+msgstr "Перемістити"
+
+msgctxt "MovingFolderDialog|"
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -1852,7 +2115,7 @@ msgstr "СКАСУВАТИ"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Invalid value"
-msgstr ""
+msgstr "Неправильне значення"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
@@ -2259,6 +2522,10 @@ msgid "Invalid parameter"
 msgstr "Неаправильний параметр"
 
 msgctxt "QObject|"
+msgid "Unsupported format"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "Хост не знайдено"
 
@@ -2435,6 +2702,22 @@ msgstr "Параметр %path% відсутній."
 msgctxt "QObject|"
 msgid "Update URL"
 msgstr "URL оновлення"
+
+msgctxt "QObject|"
+msgid "Documents"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
+msgstr ""
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -2629,6 +2912,10 @@ msgid "Settings"
 msgstr "Установки"
 
 msgctxt "SettingsPage|"
+msgid "Downloads settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Network settings"
 msgstr "Установки мережі"
 
@@ -2797,6 +3084,14 @@ msgid "The download(s) below can't be resumed after pausing"
 msgstr ""
 "Завантаження, зазначене(і) нижче, не можна відновити після призупинення"
 
+msgctxt "Subtitles|"
+msgid "Download subtitles"
+msgstr ""
+
+msgctxt "Subtitles|"
+msgid "Edit list"
+msgstr "Редагувати список"
+
 msgctxt "TagColorDialog|"
 msgid "Remove tag"
 msgstr "Прибрати тег"
@@ -2946,6 +3241,10 @@ msgid "File name"
 msgstr "Ім'я файлу"
 
 msgctxt "TuneAndAddDownloadPage|"
+msgid "No write access to the selected directory"
+msgstr ""
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Розмір: %1 (Місце на диску: %2)"
 
@@ -3069,10 +3368,4 @@ msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Оновити"
 
-msgctxt "main|"
-msgid "Move"
-msgstr "Перемістити"
 
-msgctxt "main|"
-msgid "Cancel"
-msgstr "Скасувати"
