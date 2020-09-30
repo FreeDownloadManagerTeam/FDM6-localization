@@ -85,6 +85,10 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr "Bildirim Merkezi üzerinden tamamlanan indirmeleri bana bildir"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr ""
 "Beni sadece %1 penceresi aktif olmadığında indirmeler hakkında bilgilendir"
@@ -367,7 +371,6 @@ msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr "Bağlantılar"
 
-
 msgctxt "Browser|"
 msgid "Enter URL"
 msgstr "URL gir"
@@ -435,10 +438,6 @@ msgid ""
 msgstr ""
 "%1 Eklentisinin yüklü olduğuna emin olun, yüklenmemişse aşağıdaki "
 "düğmelerden birini tıklayın"
-
-
-
-
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -627,7 +626,6 @@ msgstr "Yeni URL gir"
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "İndirmeye başla"
-
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -919,7 +917,7 @@ msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Start downloading without confirmation"
-msgstr ""
+msgstr "Onay beklemeden indirmeleri başlat"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove deleted files from download list"
@@ -928,6 +926,10 @@ msgstr "İndirme listesinden silinmiş dosyaları otomatik olarak kaldır"
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
 msgstr "Tamamlanan indirmeleri otomatik olarak indirme listesinden sil"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1512,6 +1514,10 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Tamamlanan indirmeleri otomatik olarak indirme listesinden sil"
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "Dosya oluşturmak için sunucu zamanını kullan"
 
@@ -1530,7 +1536,6 @@ msgstr "Güncellemeleri otomatik olarak kur"
 msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "Koyu tema"
-
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1639,8 +1644,6 @@ msgstr ""
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr ""
-
-
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1811,8 +1814,6 @@ msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
 msgstr[0] ""
 
-
-
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Toplam boyut:"
@@ -1908,7 +1909,6 @@ msgstr "Atla"
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr ""
-
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2241,6 +2241,14 @@ msgstr "İndirme tamamlandı"
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "İndirmeler tamamlandı"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -2689,7 +2697,6 @@ msgstr ""
 msgctxt "QObject|"
 msgid "Failed."
 msgstr ""
-
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
@@ -3360,5 +3367,3 @@ msgstr "Birlikte daha iyi yapalım! Bize geri bildirim yapın."
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Yinele"
-
-

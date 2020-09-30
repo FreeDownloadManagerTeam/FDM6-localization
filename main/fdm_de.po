@@ -87,6 +87,10 @@ msgstr ""
 "Download abgeschlossen ist"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "Benachrichtige mich über Donwloads nur, wenn %1 window inaktiv ist"
 
@@ -916,7 +920,7 @@ msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Start downloading without confirmation"
-msgstr ""
+msgstr "Download ohne Bestätigung starten"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove deleted files from download list"
@@ -925,6 +929,10 @@ msgstr "Automatisch gelöschte Dateien aus der Downloadliste entfernen"
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
 msgstr "Automatisch fertiggestellte Downloads von der Downloadliste entfernen"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1509,6 +1517,10 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Automatisch fertiggestellte Downloads von der Downloadliste entfernen"
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "Serverzeit für Dateierstellung nutzen"
 
@@ -1527,7 +1539,6 @@ msgstr "Updates automatisch installieren"
 msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "Dunkles Thema"
-
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1636,8 +1647,6 @@ msgstr ""
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr ""
-
-
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1904,7 +1913,6 @@ msgstr "Überspringen"
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr ""
-
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2237,6 +2245,14 @@ msgstr "Download abgeschlossen"
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "Downloads abgeschlossen"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -3365,5 +3381,3 @@ msgstr "Lasst es uns gemeinsam besser machen! Gib uns Dein Feedback."
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Refresh"
-
-

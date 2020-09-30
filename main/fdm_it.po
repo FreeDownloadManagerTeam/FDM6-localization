@@ -85,6 +85,10 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr "Avvisami dei download completati tramite il Centro notifiche"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "Avvisami dei download solo quando la finestra %1 è inattiva"
 
@@ -935,6 +939,10 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Rimuovi automaticamente i download completati dalla lista dei download"
 
 msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
 msgstr "Usa l'orario del server per la creazione del file"
 
@@ -1516,6 +1524,10 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Rimuovi automaticamente i download completati dalla lista dei download"
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "Usa l'orario del server per la creazione del file"
 
@@ -1534,7 +1546,6 @@ msgstr "Installa automaticamente aggiornamenti"
 msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "Tema scuro"
-
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1643,8 +1654,6 @@ msgstr ""
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr ""
-
-
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1912,7 +1921,6 @@ msgstr "Salta"
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr ""
-
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2245,6 +2253,14 @@ msgstr "Download completato"
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "Download completi"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -3366,5 +3382,3 @@ msgstr "Rendiamolo migliore insieme! Dacci il tuo feedback."
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Aggiorna"
-
-

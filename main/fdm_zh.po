@@ -85,6 +85,10 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr "通过通知中心提醒我已完成的下载项"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "仅在 %1 非前台运行时提醒我"
 
@@ -625,7 +629,6 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "开始下载"
 
-
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "当前没有连接"
@@ -922,6 +925,10 @@ msgstr "自动从下载列表移除已删除的文件"
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
 msgstr "自动移除下载列表中已完成的下载"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1505,6 +1512,10 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "自动移除下载列表中已完成的下载"
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "创建文件使用服务器的时间"
 
@@ -1523,7 +1534,6 @@ msgstr "自动安装更新"
 msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "深色主题"
-
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1898,7 +1908,6 @@ msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr "全部跳过（%1）"
 
-
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
 msgstr "下载"
@@ -2230,6 +2239,14 @@ msgstr "下载完成"
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "下载完成"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download added"

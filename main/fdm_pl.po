@@ -85,6 +85,10 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr "Powiadom mnie o zakończeniu pobierania poprzez Centrum Powiadomień"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "Powiadom mnie o pobraniach, tylko gdy %1 okno jest nieaktywne"
 
@@ -935,6 +939,10 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Automatyczne usuwanie ukończonych pobrań z listy pobierania"
 
 msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
 msgstr "Użyj czasu z serwera do utworzenia pliku"
 
@@ -1517,6 +1525,10 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Automatyczne usuwanie ukończonych pobrań z listy pobierania"
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "Użyj czasu z serwera do utworzenia pliku"
 
@@ -1535,7 +1547,6 @@ msgstr "Zainstaluj aktualizacje automatycznie"
 msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "Ciemny motyw"
-
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -2243,6 +2254,14 @@ msgstr "Pobieranie zakończone"
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "Pobierania zakończone"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download added"

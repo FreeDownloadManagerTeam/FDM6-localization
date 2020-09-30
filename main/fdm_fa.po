@@ -85,6 +85,10 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr "دانلودهای تکمیل شده را از طریق مرکز اعلانات به من اطلاع بده"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "دانلودها را وقتی که پنجره 1% غیرفعال است به من اطلاع بده"
 
@@ -934,6 +938,10 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "به طور خودکار دانلودهای تکمیل شده را از لیست حذف کن"
 
 msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
 msgstr "از زمان سرور برای ایجاد فایل استفاده کن"
 
@@ -1516,6 +1524,10 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "به طور خودکار دانلودهای تکمیل شده را از لیست حذف کن"
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "از زمان سرور برای ایجاد فایل استفاده کن"
 
@@ -1534,7 +1546,6 @@ msgstr "نصب خودکار بروزرسانی"
 msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "پوسته تیره"
-
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1643,8 +1654,6 @@ msgstr ""
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr ""
-
-
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1910,7 +1919,6 @@ msgstr "نادیده گرفتن"
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr ""
-
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2243,6 +2251,14 @@ msgstr "دانلود انجام شد"
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "دانلودها انجام شدند"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -3361,5 +3377,3 @@ msgstr "بیایید با هم بهتر شویم! نظراتتون رو بهمو
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "رفرش"
-
-

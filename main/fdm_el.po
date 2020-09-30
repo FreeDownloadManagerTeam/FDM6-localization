@@ -85,6 +85,10 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr ""
 
@@ -904,7 +908,7 @@ msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Start downloading without confirmation"
-msgstr ""
+msgstr "Ξεκινήσει η λήψη χωρίς επιβεβαίωση"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove deleted files from download list"
@@ -912,6 +916,10 @@ msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
 msgstr ""
 
 msgctxt "DownloadsSettings|"
@@ -1497,6 +1505,10 @@ msgid "Automatically remove completed downloads from download list"
 msgstr ""
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr ""
 
@@ -1515,7 +1527,6 @@ msgstr "Αυτόματη εγκατάσταση ενημερώσεων"
 msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "Σκούρο θέμα"
-
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1624,8 +1635,6 @@ msgstr ""
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr ""
-
-
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1892,7 +1901,6 @@ msgstr "Παράβλεψη"
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr ""
-
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2225,6 +2233,14 @@ msgstr "Η λήψη ολοκληρώθηκε"
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "Οι λήψεις ολοκληρώθηκαν"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -3338,5 +3354,3 @@ msgstr ""
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Ανανέωση"
-
-

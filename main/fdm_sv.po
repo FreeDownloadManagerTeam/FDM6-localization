@@ -85,6 +85,10 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr ""
 
@@ -363,7 +367,6 @@ msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr ""
 
-
 msgctxt "Browser|"
 msgid "Enter URL"
 msgstr ""
@@ -618,7 +621,6 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Börja ladda ner"
 
-
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr ""
@@ -856,7 +858,6 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr ""
 
-
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr ""
@@ -915,6 +916,10 @@ msgstr "Automatiskt ta bort raderade filer från ladda ner listan"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
 msgstr ""
 
 msgctxt "DownloadsSettings|"
@@ -1116,7 +1121,6 @@ msgstr "Pausad"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Okänd filstorlek"
-
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files..."
@@ -1498,6 +1502,10 @@ msgid "Automatically remove completed downloads from download list"
 msgstr ""
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr ""
 
@@ -1517,11 +1525,9 @@ msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr ""
 
-
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr ""
-
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1626,7 +1632,6 @@ msgstr ""
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr ""
-
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1893,7 +1898,6 @@ msgstr "Hoppa över"
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr ""
-
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2223,6 +2227,14 @@ msgstr "Ladda ner komplett"
 
 msgctxt "QObject|"
 msgid "Downloads complete"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
 msgstr ""
 
 msgctxt "QObject|"
@@ -2902,17 +2914,6 @@ msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr ""
 
-
-
-
-
-
-
-
-
-
-
-
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
 msgstr "Avbryt"
@@ -3348,5 +3349,3 @@ msgstr ""
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr ""
-
-

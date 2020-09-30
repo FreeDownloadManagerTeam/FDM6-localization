@@ -16,7 +16,6 @@ msgctxt "AboutDialog|"
 msgid "<a href='%1'>%2</a> version %3"
 msgstr "<a href='%1'>%2</a> версия %3"
 
-
 msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "ОК"
@@ -86,6 +85,10 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr "Оповещать о завершенных загрузках через Центр Уведомлений"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr "Уведомлять меня о неудавшихся загрузках через Центр Уведомлений"
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "Уведомлять меня о загрузках только когда окно %1 неактивно"
 
@@ -118,8 +121,6 @@ msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
 msgstr "Резервное копирование списка загрузок раз в"
 
-
-
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
 msgstr "Действие кнопки \"Удалить\""
@@ -135,7 +136,6 @@ msgstr "Удалить загруженные файлы"
 msgctxt "AdvancedSettings|"
 msgid "Always ask"
 msgstr "Всегда спрашивать"
-
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
@@ -186,7 +186,6 @@ msgstr "Автоматически проверять на вирусы посл
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
 msgstr "Проверка на вирусы"
-
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
@@ -316,7 +315,6 @@ msgctxt "BaseTextField|"
 msgid "Paste"
 msgstr "Вставить"
 
-
 msgctxt "BatchVideoQuality|"
 msgid "Preferred Video Quality:"
 msgstr "Предпочтительное качество видео:"
@@ -372,8 +370,6 @@ msgstr "Файлы"
 msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr "Соединения"
-
-
 
 msgctxt "Browser|"
 msgid "Enter URL"
@@ -442,10 +438,6 @@ msgid ""
 msgstr ""
 "Убедитесь, что у вас установлено расширение %1, в противном случае нажмите "
 "на одну из кнопок ниже"
-
-
-
-
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -642,7 +634,6 @@ msgstr "Введите новую ссылку"
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Начать загрузку"
-
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -887,7 +878,6 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Диск отсутствует"
 
-
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Ссылки загрузки (%1 выбрано)"
@@ -947,6 +937,10 @@ msgstr "Автоматически удалять загрузки при уда
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
 msgstr "Автоматически удалять завершенные загрузки из списка загрузок"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr "Автоматически перезапускать неудавшиеся загрузки"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1147,7 +1141,6 @@ msgstr "Остановлено"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Неизвестен размер файла"
-
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files..."
@@ -1377,7 +1370,6 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "По убыванию"
 
-
 msgctxt "FileType|"
 msgid "Preferred File Type:"
 msgstr "Предпочтительный тип файла:"
@@ -1533,6 +1525,10 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Автоматически удалять завершенные загрузки из списка загрузок"
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr "Автоматически перезапускать неудавшиеся загрузки"
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "Использовать время сервера для даты создания файла"
 
@@ -1552,11 +1548,9 @@ msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "Тёмная тема"
 
-
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "Используется мобильный Интернет"
-
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1662,8 +1656,6 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr "Не удалось импортировать из файла: %1"
 
-
-
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
 msgstr "Установить по умолчанию"
@@ -1760,7 +1752,6 @@ msgctxt "MainMenu|"
 msgid "Export/Import"
 msgstr "Экспорт/Импорт"
 
-
 msgctxt "MainMenu|"
 msgid "Export all downloads"
 msgstr "Экспорт всех загрузок"
@@ -1835,8 +1826,6 @@ msgid_plural "%n downloads selected."
 msgstr[0] "%n загрузка выбрана."
 msgstr[1] "%n загрузки выбраны."
 msgstr[2] "%n загрузок выбрано."
-
-
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -1933,8 +1922,6 @@ msgstr "Пропустить"
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr "Пропустить все (%1)"
-
-
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2224,8 +2211,6 @@ msgctxt "QObject|"
 msgid "Enter URL"
 msgstr "Введите URL"
 
-
-
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr "%1 не удалось инициализировать. Пожалуйста, переустановите."
@@ -2269,6 +2254,14 @@ msgstr "Загрузка завершена"
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "Загрузки завершены"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr "Загрузка не удалась"
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr "Загрузки не удались"
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -2950,17 +2943,6 @@ msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Расширенные настройки"
 
-
-
-
-
-
-
-
-
-
-
-
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
 msgstr "Отменить"
@@ -3397,13 +3379,3 @@ msgstr "Давайте вместе сделаем приложение лучш
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Обновить"
-
-
-
-
-
-
-
-
-
-

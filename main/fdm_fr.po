@@ -86,6 +86,10 @@ msgstr ""
 "Me signaler les téléchargements complets via le Centre de Notifications"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr ""
 "Me signaler les téléchargements uniquement lorsque la fenêtre %1 est inactive"
@@ -927,6 +931,10 @@ msgstr ""
 "téléchargement"
 
 msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
 msgstr "Utiliser l'heure du serveur pour la création de fichier"
 
@@ -1513,6 +1521,10 @@ msgstr ""
 "téléchargement"
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "Utiliser l'heure du serveur pour la création de fichier"
 
@@ -1531,7 +1543,6 @@ msgstr "Installer automatiquement les mises à jour"
 msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "Theme sombre"
-
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1640,8 +1651,6 @@ msgstr ""
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr ""
-
-
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1910,7 +1919,6 @@ msgstr "Ignorer"
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr ""
-
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2243,6 +2251,14 @@ msgstr "Téléchargement complet"
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "Téléchargements terminés"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -3357,5 +3373,3 @@ msgstr ""
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Rafraichir"
-
-

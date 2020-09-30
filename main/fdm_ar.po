@@ -85,6 +85,10 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr "نبهني حول التنزيلات المكتملة عبر مركز الإشعارات"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "إعلامي بالتنزيلات فقط عندما يكون الإطار %1 غير نشط"
 
@@ -929,6 +933,10 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "إزالة التنزيلات المكتملة من قائمة التنزيلات تلقائيا"
 
 msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
 msgstr "استخدم وقت الخادم لإنشاء الملف"
 
@@ -1511,6 +1519,10 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "إزالة التنزيلات المكتملة من قائمة التنزيلات تلقائيا"
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "استخدم وقت الخادم لإنشاء الملف"
 
@@ -1529,7 +1541,6 @@ msgstr "تثبيت التحديثات تلقائيا"
 msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "سمة مظلمة"
-
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1638,8 +1649,6 @@ msgstr ""
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr ""
-
-
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1910,7 +1919,6 @@ msgstr "تخطي"
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr ""
-
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2243,6 +2251,14 @@ msgstr "اكتمل التنزيل"
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "اكتملت التنزيلات"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -3359,5 +3375,3 @@ msgstr "لنجعلها أفضل متعاونين!. أعطنا رأيك."
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "إنعاش"
-
-
