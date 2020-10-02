@@ -13,8 +13,9 @@ msgid "About"
 msgstr "프로그램 정보"
 
 msgctxt "AboutDialog|"
-msgid "<a href='%1'>%2</a> version %3"
-msgstr "<a href='%1'>%2</a> 버전 %3"
+msgid "version %1"
+msgstr "버전 %1"
+
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -152,15 +153,10 @@ msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
 msgstr "바이러스 백신 선택:"
 
+
 msgctxt "AntivirusSettings|"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
-msgstr ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>바이러스 "
-"백신이 목록에 없습니까?</a>"
+msgid "Is your antivirus not listed?"
+msgstr "바이러스 백신이 목록에 없습니까?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -1455,6 +1451,13 @@ msgctxt "GeneralSettings|"
 msgid "Language"
 msgstr "언어"
 
+msgctxt "GeneralSettings|"
+msgid "Your language is not listed or the translation isn't complete?"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Let's fix it!"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1463,13 +1466,6 @@ msgstr "다운로드"
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
 msgstr "파일 유형에 따라 폴더 제안"
-
-msgctxt "GeneralSettings|"
-msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
-msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -1534,7 +1530,6 @@ msgstr "자동 업데이트 설치"
 msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "어두운 테마"
-
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1643,7 +1638,6 @@ msgstr "가져오기 실패"
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr "파일에서 URL 목록을 가져올 수 없습니다: %1"
-
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
