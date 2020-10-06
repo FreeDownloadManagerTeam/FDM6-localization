@@ -13,8 +13,9 @@ msgid "About"
 msgstr "Mengenai"
 
 msgctxt "AboutDialog|"
-msgid "<a href='%1'>%2</a> version %3"
-msgstr "<a href='%1'>%2</a> versi %3"
+msgid "version %1"
+msgstr "versi %1"
+
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -85,6 +86,10 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr "Beritahu saya mengenai unduhan yang selesai melalui Pusat Notifikasi"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "Beritahu saya mengenai unduhan hanya ketika jendela %1 tidak aktif"
 
@@ -148,15 +153,10 @@ msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
 msgstr "Pilih antivirus:"
 
+
 msgctxt "AntivirusSettings|"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
-msgstr ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Apakah "
-"antivirus Anda tidak terdaftar?</a>"
+msgid "Is your antivirus not listed?"
+msgstr "Apakah antivirus Anda tidak terdaftar?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -366,7 +366,6 @@ msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr "Sambungan"
 
-
 msgctxt "Browser|"
 msgid "Enter URL"
 msgstr "Masukkan URL"
@@ -434,10 +433,6 @@ msgid ""
 msgstr ""
 "Pastikan Anda telah memasang ekstensi %1. Jika belum, klik salah satu tombol "
 "di bawah ini"
-
-
-
-
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -626,7 +621,6 @@ msgstr "Masukkan URL baru"
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Mulai pengunduhan"
-
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -926,6 +920,10 @@ msgstr "Menghilangkan berkas yang dihapus dari daftar unduhan secara otomatis"
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
 msgstr "Menghilangkan berkas yang selesai dari daftar unduhan secara otomatis"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1451,15 +1449,6 @@ msgctxt "GeneralSettings|"
 msgid "Language"
 msgstr "Bahasa"
 
-msgctxt "GeneralSettings|"
-msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
-msgstr ""
-"Bahasa Anda tidak tercantum atau terjemahannya tidak lengkap? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Mari "
-"kita perbaiki!</a>"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1468,6 +1457,14 @@ msgstr "Unduhan"
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
 msgstr "Berikan saran folder berdasarkan jenis berkas"
+
+msgctxt "GeneralSettings|"
+msgid "Your language is not listed or the translation isn't complete?"
+msgstr "Bahasa Anda tidak tercantum atau terjemahannya tidak lengkap?"
+
+msgctxt "GeneralSettings|"
+msgid "Let's fix it!"
+msgstr "Mari kita perbaiki!"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -1510,6 +1507,10 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Menghilangkan berkas yang selesai dari daftar unduhan secara otomatis"
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "Gunakan waktu server untuk pembuatan berkas"
 
@@ -1528,7 +1529,6 @@ msgstr "Pasang pembaharuan secara otomatis"
 msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "Tema gelap"
-
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1637,8 +1637,6 @@ msgstr ""
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr ""
-
-
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1810,8 +1808,6 @@ msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
 msgstr[0] ""
 
-
-
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Jumlah ukuran:"
@@ -1907,7 +1903,6 @@ msgstr "Lewati"
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr ""
-
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2240,6 +2235,14 @@ msgstr "Unduhan selesai"
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "Unduhan selesai"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -2688,7 +2691,6 @@ msgstr ""
 msgctxt "QObject|"
 msgid "Failed."
 msgstr ""
-
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
@@ -3359,5 +3361,3 @@ msgstr "Mari kita membuatnya lebih baik bersama! Beri kami umpan balik Anda."
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Segarkan"
-
-

@@ -13,8 +13,9 @@ msgid "About"
 msgstr "A propos"
 
 msgctxt "AboutDialog|"
-msgid "<a href='%1'>%2</a> version %3"
-msgstr "<a href='%1'>%2</a> version %3"
+msgid "version %1"
+msgstr "version %1"
+
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -86,6 +87,10 @@ msgstr ""
 "Me signaler les téléchargements complets via le Centre de Notifications"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr ""
 "Me signaler les téléchargements uniquement lorsque la fenêtre %1 est inactive"
@@ -151,15 +156,10 @@ msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
 msgstr "Choisir l'antivirus:"
 
+
 msgctxt "AntivirusSettings|"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
-msgstr ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Votre "
-"antivirus n'apparaît pas ?</a>"
+msgid "Is your antivirus not listed?"
+msgstr "Votre antivirus n'apparaît pas ?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -927,6 +927,10 @@ msgstr ""
 "téléchargement"
 
 msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
 msgstr "Utiliser l'heure du serveur pour la création de fichier"
 
@@ -1450,15 +1454,6 @@ msgctxt "GeneralSettings|"
 msgid "Language"
 msgstr "Langage"
 
-msgctxt "GeneralSettings|"
-msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
-msgstr ""
-"Votre langage n'est pas répertorié ou la traduction est incomplète? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Remédier "
-"à ce problème!</a>"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1467,6 +1462,14 @@ msgstr "Téléchargements"
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
 msgstr "Proposer des dossier basés sur le type de fichier"
+
+msgctxt "GeneralSettings|"
+msgid "Your language is not listed or the translation isn't complete?"
+msgstr "Votre langage n'est pas répertorié ou la traduction est incomplète?"
+
+msgctxt "GeneralSettings|"
+msgid "Let's fix it!"
+msgstr "Remédier à ce problème!"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -1513,6 +1516,10 @@ msgstr ""
 "téléchargement"
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "Utiliser l'heure du serveur pour la création de fichier"
 
@@ -1531,7 +1538,6 @@ msgstr "Installer automatiquement les mises à jour"
 msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "Theme sombre"
-
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1640,8 +1646,6 @@ msgstr ""
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr ""
-
-
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1910,7 +1914,6 @@ msgstr "Ignorer"
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr ""
-
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2243,6 +2246,14 @@ msgstr "Téléchargement complet"
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "Téléchargements terminés"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -3357,5 +3368,3 @@ msgstr ""
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Rafraichir"
-
-

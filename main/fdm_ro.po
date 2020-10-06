@@ -13,7 +13,7 @@ msgid "About"
 msgstr ""
 
 msgctxt "AboutDialog|"
-msgid "<a href='%1'>%2</a> version %3"
+msgid "version %1"
 msgstr ""
 
 msgctxt "AboutDialog|"
@@ -86,6 +86,10 @@ msgstr ""
 "Notifică-mă asupra proceselor de descărcare complete via Notification Center"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr ""
 
@@ -150,10 +154,7 @@ msgid "Select antivirus:"
 msgstr ""
 
 msgctxt "AntivirusSettings|"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
+msgid "Is your antivirus not listed?"
 msgstr ""
 
 msgctxt "AntivirusSettings|"
@@ -363,7 +364,6 @@ msgstr "Fișiere"
 msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr ""
-
 
 msgctxt "Browser|"
 msgid "Enter URL"
@@ -619,7 +619,6 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Start download"
 
-
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr ""
@@ -857,7 +856,6 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr ""
 
-
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr ""
@@ -916,6 +914,10 @@ msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
 msgstr ""
 
 msgctxt "DownloadsSettings|"
@@ -1117,7 +1119,6 @@ msgstr "Pauzat"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Dimensiune necunoscută a fișierului"
-
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files..."
@@ -1444,19 +1445,20 @@ msgid "Language"
 msgstr ""
 
 msgctxt "GeneralSettings|"
-msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
-msgstr ""
-
-msgctxt "GeneralSettings|"
 msgid "Downloads"
 msgstr "Descărcări"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
 msgstr "Sugerați directoare în funcție de tipul fișierului"
+
+msgctxt "GeneralSettings|"
+msgid "Your language is not listed or the translation isn't complete?"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Let's fix it!"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -1499,6 +1501,10 @@ msgid "Automatically remove completed downloads from download list"
 msgstr ""
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr ""
 
@@ -1518,11 +1524,9 @@ msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr ""
 
-
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr ""
-
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1627,7 +1631,6 @@ msgstr ""
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr ""
-
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1896,7 +1899,6 @@ msgstr "Skip"
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr ""
-
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2226,6 +2228,14 @@ msgstr "Descarcă complet"
 
 msgctxt "QObject|"
 msgid "Downloads complete"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
 msgstr ""
 
 msgctxt "QObject|"
@@ -2905,14 +2915,6 @@ msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr ""
 
-
-
-
-
-
-
-
-
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
 msgstr "Anulează"
@@ -3350,5 +3352,3 @@ msgstr ""
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr ""
-
-

@@ -13,8 +13,9 @@ msgid "About"
 msgstr "Про програму"
 
 msgctxt "AboutDialog|"
-msgid "<a href='%1'>%2</a> version %3"
-msgstr "<a href='%1'>%2</a> версія %3"
+msgid "version %1"
+msgstr "версія %1"
+
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -85,6 +86,10 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr "Повідомляти про завершені завантаження через Notification Center"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "Повідомляти мене про завантаження лише коли вікно %1 неактивне"
 
@@ -148,15 +153,10 @@ msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
 msgstr "Виберіть антивірус:"
 
+
 msgctxt "AntivirusSettings|"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
-msgstr ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Вашого "
-"антивірусу нема в списку?</a>"
+msgid "Is your antivirus not listed?"
+msgstr "Вашого антивірусу нема в списку?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -176,7 +176,7 @@ msgstr "Аргументи повинні містити змінну %path%"
 
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
-msgstr "Автоматично перевіряти на віруси після званатаження"
+msgstr "Автоматично перевіряти на віруси після завантаження"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
@@ -564,7 +564,7 @@ msgstr "Ви можете вибрати не більше %1 посилань �
 
 msgctxt "ButtonsBlock|"
 msgid "No write access to the selected directory"
-msgstr ""
+msgstr "Вибрана тека недоступна для запису"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
@@ -919,7 +919,7 @@ msgstr "Список завантажень пустий. Додайте нов�
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
-msgstr ""
+msgstr "Установки завантажень"
 
 msgctxt "DownloadsSettings|"
 msgid "Start downloading without confirmation"
@@ -934,16 +934,20 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Автоматично прибирати завершені завантаження зі списку завантажень"
 
 msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
 msgstr "При створенні файлу використати час сервера"
 
 msgctxt "DownloadsSettings|"
 msgid "Default download folder"
-msgstr ""
+msgstr "Тека для завантажень"
 
 msgctxt "DownloadsSettings|"
 msgid "Choose default download folder automatically"
-msgstr ""
+msgstr "Вибрати теку для завантажень автоматично"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on file type"
@@ -955,11 +959,11 @@ msgstr "Пропонувати теки залежно від URL-адреси �
 
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
-msgstr ""
+msgstr "Вибрана тека (незмінна)"
 
 msgctxt "DownloadsSettings|"
 msgid "Macros"
-msgstr ""
+msgstr "Макрос"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1051,7 +1055,7 @@ msgstr "Копіювати посилання"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
-msgstr ""
+msgstr "Експортувати вибрані завантаження"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
@@ -1175,11 +1179,11 @@ msgstr "Завершено"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
-msgstr ""
+msgstr "Експортувати вибрані завантаження"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export all downloads"
-msgstr ""
+msgstr "Експортувати всі завантаження"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Save to"
@@ -1195,43 +1199,43 @@ msgstr "Скасувати"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
-msgstr ""
+msgstr "Всі файли (%1)"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export only completed downloads"
-msgstr ""
+msgstr "Експортувати лише завершені завантаження"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export"
-msgstr ""
+msgstr "Експорт"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
-msgstr ""
+msgstr "%1 файлів завантажень (%2)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Default format"
-msgstr ""
+msgstr "Формат за замовчуванням"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
-msgstr ""
+msgstr "Список URL"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
-msgstr ""
+msgstr "Текстові файли (%1)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
-msgstr ""
+msgstr "Файл CSV"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
-msgstr ""
+msgstr "Файли CSV (%1)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Export"
-msgstr ""
+msgstr "Експорт"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
@@ -1239,11 +1243,11 @@ msgstr "Скасувати"
 
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
-msgstr ""
+msgstr "%1 файлів установок (%2)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
-msgstr ""
+msgstr "Всі файли (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1457,15 +1461,6 @@ msgctxt "GeneralSettings|"
 msgid "Language"
 msgstr "Мова"
 
-msgctxt "GeneralSettings|"
-msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
-msgstr ""
-"Вашої мови нема в списку або переклад неповний? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Давайте "
-"виправимо це!</a>"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1476,12 +1471,20 @@ msgid "Suggest folders based on file type"
 msgstr "Пропонувати теки залежно від типу файлу"
 
 msgctxt "GeneralSettings|"
+msgid "Your language is not listed or the translation isn't complete?"
+msgstr "Вашої мови нема в списку або переклад неповний?"
+
+msgctxt "GeneralSettings|"
+msgid "Let's fix it!"
+msgstr "Давайте виправимо це!"
+
+msgctxt "GeneralSettings|"
 msgid "Default download folder"
-msgstr ""
+msgstr "Тека для завантажень"
 
 msgctxt "GeneralSettings|"
 msgid "Choose default download folder automatically"
-msgstr ""
+msgstr "Вибрати теку для завантажень автоматично"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
@@ -1489,7 +1492,7 @@ msgstr "Пропонувати теки залежно від URL-адреси �
 
 msgctxt "GeneralSettings|"
 msgid "Fixed default download folder"
-msgstr ""
+msgstr "Вибрана тека (незмінна)"
 
 msgctxt "GeneralSettings|"
 msgid "Open"
@@ -1501,7 +1504,7 @@ msgstr "Скасувати"
 
 msgctxt "GeneralSettings|"
 msgid "Macros"
-msgstr ""
+msgstr "Макрос"
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
@@ -1514,6 +1517,10 @@ msgstr "Автоматично прибирати видалені файли з
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
 msgstr "Автоматично прибирати завершені завантаження зі списку завантажень"
+
+msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -1534,7 +1541,6 @@ msgstr "Автоматично встановлювати оновлення"
 msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "Темна тема"
-
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1590,7 +1596,7 @@ msgstr "SHA-256"
 
 msgctxt "ImportDialog|"
 msgid "Import"
-msgstr ""
+msgstr "Імпорт"
 
 msgctxt "ImportDialog|"
 msgid "Cancel"
@@ -1598,19 +1604,19 @@ msgstr "Скасувати"
 
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
-msgstr ""
+msgstr "Всі файли (%1)"
 
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
-msgstr ""
+msgstr "Текстові файли (%1)"
 
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
-msgstr ""
+msgstr "%1 файлів завантажень (%2)"
 
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
-msgstr ""
+msgstr "%1 файлів установок (%2)"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
@@ -1622,29 +1628,27 @@ msgstr "OK"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
-msgstr ""
+msgstr "Не вдалося вставити URL з файлу"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
-msgstr ""
+msgstr "Неможливо імпортувати список URL з файлу: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
-msgstr ""
+msgstr "Не вдалося експортувати"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
-msgstr ""
+msgstr "Не вдалося експортувати в файл: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
-msgstr ""
+msgstr "Не вдалося імпортувати"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
-msgstr ""
-
-
+msgstr "Не вдалося імпортувати з файлу: %1"
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1692,31 +1696,31 @@ msgstr "Сховати"
 
 msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
-msgstr ""
+msgstr "%content_type% - тип контенту (напр. \"Музика\")"
 
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
-msgstr ""
+msgstr "%server% - ім'я сервера (напр. \"%1\")"
 
 msgctxt "MacrosMenu|"
 msgid "%path_on_server% - path to the downloading file on the server"
-msgstr ""
+msgstr "%path_on_server% - шлях до файлу, що завантажується, на сервері"
 
 msgctxt "MacrosMenu|"
 msgid "%year% - current year"
-msgstr ""
+msgstr "%year% - поточний рік"
 
 msgctxt "MacrosMenu|"
 msgid "%month% - current month (number from 1 to 12)"
-msgstr ""
+msgstr "%month% - поточний місяць (число від 1 до 12)"
 
 msgctxt "MacrosMenu|"
 msgid "%day% - current day"
-msgstr ""
+msgstr "%day% - поточний день"
 
 msgctxt "MacrosMenu|"
 msgid "%date% - equivalent to %year%-%month%-%day%"
-msgstr ""
+msgstr "%date% - еквівалентно %year%-%month%-%day%"
 
 msgctxt "MainFiltersBar|"
 msgid "All"
@@ -1736,27 +1740,27 @@ msgstr "Вставити URL-адреси з буфера обміну"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from File"
-msgstr ""
+msgstr "Вставити URL з файлу"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
-msgstr ""
+msgstr "Експорт/Імпорт"
 
 msgctxt "MainMenu|"
 msgid "Export all downloads"
-msgstr ""
+msgstr "Експортувати всі завантаження"
 
 msgctxt "MainMenu|"
 msgid "Import downloads"
-msgstr ""
+msgstr "Імпортувати завантаження"
 
 msgctxt "MainMenu|"
 msgid "Export settings"
-msgstr ""
+msgstr "Експортувати установки"
 
 msgctxt "MainMenu|"
 msgid "Import settings"
-msgstr ""
+msgstr "Імпортувати установки"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -1911,7 +1915,7 @@ msgstr "Пропустити"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
-msgstr ""
+msgstr "Пропустити всі (%1)"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2246,6 +2250,14 @@ msgid "Downloads complete"
 msgstr "Завантаження завершено"
 
 msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Download added"
 msgstr "Завантаження додано"
 
@@ -2375,7 +2387,7 @@ msgstr "Я - чайник :)"
 
 msgctxt "QObject|"
 msgid "Authentication Timeout"
-msgstr "Час ідентифікації скінчився"
+msgstr "Час аутентифікації скінчився"
 
 msgctxt "QObject|"
 msgid "Method Failure / Enhance Your Calm"
@@ -2523,7 +2535,7 @@ msgstr "Неаправильний параметр"
 
 msgctxt "QObject|"
 msgid "Unsupported format"
-msgstr ""
+msgstr "Формат не підтримується"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -2705,19 +2717,19 @@ msgstr "URL оновлення"
 
 msgctxt "QObject|"
 msgid "Documents"
-msgstr ""
+msgstr "Документи"
 
 msgctxt "QObject|"
 msgid "Pictures"
-msgstr ""
+msgstr "Зображення"
 
 msgctxt "QObject|"
 msgid "Videos"
-msgstr ""
+msgstr "Відео"
 
 msgctxt "QObject|"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Різне"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -2913,7 +2925,7 @@ msgstr "Установки"
 
 msgctxt "SettingsPage|"
 msgid "Downloads settings"
-msgstr ""
+msgstr "Установки завантажень"
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
@@ -3086,7 +3098,7 @@ msgstr ""
 
 msgctxt "Subtitles|"
 msgid "Download subtitles"
-msgstr ""
+msgstr "Завантажити субтитри"
 
 msgctxt "Subtitles|"
 msgid "Edit list"
@@ -3242,7 +3254,7 @@ msgstr "Ім'я файлу"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
-msgstr ""
+msgstr "Вибрана тека недоступна для запису"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
@@ -3367,5 +3379,3 @@ msgstr "Покращимо це разом! Надішліть нам ваші �
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Оновити"
-
-

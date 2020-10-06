@@ -13,8 +13,9 @@ msgid "About"
 msgstr "このソフトについて"
 
 msgctxt "AboutDialog|"
-msgid "<a href='%1'>%2</a> version %3"
-msgstr "<a href='%1'>%2</a> バージョン %3"
+msgid "version %1"
+msgstr "バージョン %1"
+
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -30,11 +31,11 @@ msgstr "ファイル名に日付を追加"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
-msgstr ""
+msgstr "ミラーを追加"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "ミラーURLを入力"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
@@ -46,7 +47,7 @@ msgstr "OK"
 
 msgctxt "AddMirrorPage|"
 msgid "Add mirror"
-msgstr ""
+msgstr "ミラーを追加"
 
 msgctxt "AddMirrorPage|"
 msgid "OK"
@@ -54,7 +55,7 @@ msgstr "OK"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "ミラーURLを入力"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -85,6 +86,10 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr "通知センターを経由してダウンロードの完了を通知する"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "%1ウィンドウが非アクティブな場合のみダウンロードを通知する"
 
@@ -110,7 +115,7 @@ msgstr "コンピュータの起動時に起動する (最小化状態で)"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "ダウンロードをクリックして下部パネルを開く/隠す"
+msgstr "ダウンロードリストのクリックで下部詳細パネル開/閉を有効"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -148,14 +153,10 @@ msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
 msgstr "セキュリティソフトの選択："
 
+
 msgctxt "AntivirusSettings|"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
-msgstr ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>お使いのセキュリティソフトがリストにありませんか？</a>"
+msgid "Is your antivirus not listed?"
+msgstr "お使いのセキュリティソフトがリストにありませんか？"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -365,54 +366,53 @@ msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr "接続先"
 
-
 msgctxt "Browser|"
 msgid "Enter URL"
 msgstr "URLを入力してください"
 
 msgctxt "Browser|"
 msgid "Bookmark removed"
-msgstr ""
+msgstr "ブックマーク削除"
 
 msgctxt "Browser|"
 msgid "Bookmark added"
-msgstr ""
+msgstr "ブックマーク追加"
 
 msgctxt "Browser|"
 msgid "Bookmarks"
-msgstr ""
+msgstr "ブックマーク"
 
 msgctxt "Browser|"
 msgid "There are no bookmarks at the moment"
-msgstr ""
+msgstr "ブックマークはありません"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr ""
+msgstr "このブックマークを削除してもよろしいですか？"
 
 msgctxt "Browser|"
 msgid "YES"
-msgstr ""
+msgstr "YES"
 
 msgctxt "Browser|"
 msgid "NO"
-msgstr ""
+msgstr "NO"
 
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
-msgstr ""
+msgstr "戻る %1"
 
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
-msgstr ""
+msgstr "ブックマーク"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
-msgstr ""
+msgstr "ブックマークを削除"
 
 msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
-msgstr ""
+msgstr "ブックマークを追加"
 
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
@@ -432,13 +432,9 @@ msgid ""
 "buttons below"
 msgstr "%1の拡張機能がインストールされているか確認してください。インストールされていない場合、下のボタンのいずれかをクリックしてください"
 
-
-
-
-
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
-msgstr ""
+msgstr "その他のサポートされているブラウザ"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -495,6 +491,12 @@ msgid ""
 "browser does not provide to %1 (or there is no universal way for all "
 "browsers to do this)."
 msgstr ""
+"内蔵Webブラウザを開こうとしています。\n"
+"\n"
+"ダウンロードをするのに役立ちます %1.\n"
+"\n"
+"一部のダウンロードサイト(Google "
+"Driveなど)からダウンロードするときに、Androidシステムブラウザ(その他のブラウザを含め)から%1に必要な情報を読み込めないため、この内臓ブラウザを使用してダウンロードを追加します。"
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -502,7 +504,7 @@ msgstr "続ける"
 
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
-msgstr ""
+msgstr "(ブラウザがインストールされていません)"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -558,7 +560,7 @@ msgstr "一度に選択できるリンクは%1個までです"
 
 msgctxt "ButtonsBlock|"
 msgid "No write access to the selected directory"
-msgstr ""
+msgstr "選択したディレクトリへ書き込みができません"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
@@ -623,7 +625,6 @@ msgstr "新しいURLを入力してください"
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "ダウンロードを開始する"
-
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -748,23 +749,23 @@ msgstr "キャンセル"
 
 msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
-msgstr ""
+msgstr "ポータブルバージョンを作成"
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
-msgstr ""
+msgstr "ポータブルバージョン%1は、インストール不要で、多くのコンピュータで使用可能です。"
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
-msgstr ""
+msgstr "例えば、USBフラッシュメモリに簡単に保存できます。"
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
-msgstr ""
+msgstr "このポータブルバージョンを作成するパスを指定します。リムーバブルドライブの保存先フォルダを指定してください。"
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -776,7 +777,7 @@ msgstr "キャンセル"
 
 msgctxt "CreatePortableDialog|"
 msgid "Please specify the path."
-msgstr ""
+msgstr "パスを指定してください。"
 
 msgctxt "CreatePortableDialog|"
 msgid "OK"
@@ -784,15 +785,15 @@ msgstr "OK"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
-msgstr ""
+msgstr "作成中 %1%"
 
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
-msgstr ""
+msgstr "ポータブルバージョンの作成中にエラーが発生しました: %1"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating a portable version was successfully completed."
-msgstr ""
+msgstr "ポータブルバージョンの作成が完了しました。"
 
 msgctxt "CreatePortableDialog|"
 msgid "Close"
@@ -908,7 +909,7 @@ msgstr "ダウンロードリストが空です。新しいダウンロードURL
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
-msgstr ""
+msgstr "ダウンロード設定"
 
 msgctxt "DownloadsSettings|"
 msgid "Start downloading without confirmation"
@@ -923,16 +924,20 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "完了したダウンロードをダウンロードリストから自動で削除する"
 
 msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
 msgstr "ファイルの作成にサーバー時間を使用する"
 
 msgctxt "DownloadsSettings|"
 msgid "Default download folder"
-msgstr ""
+msgstr "デフォルトダウンロードファルダー"
 
 msgctxt "DownloadsSettings|"
 msgid "Choose default download folder automatically"
-msgstr ""
+msgstr "デフォルトダウンロードフォルダを自動的に選択します"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on file type"
@@ -944,11 +949,11 @@ msgstr "ダウンロードURLに基づいてフォルダを提案する"
 
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
-msgstr ""
+msgstr "デフォルトダウンロードフォルダの修正"
 
 msgctxt "DownloadsSettings|"
 msgid "Macros"
-msgstr ""
+msgstr "マクロ"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1032,7 +1037,7 @@ msgstr "シーケンシャルダウンロード"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
-msgstr ""
+msgstr "ミラーを追加"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
@@ -1040,7 +1045,7 @@ msgstr "リンクのコピー"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
-msgstr ""
+msgstr "選択したダウンロードをエクスポート"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
@@ -1164,11 +1169,11 @@ msgstr "完了"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
-msgstr ""
+msgstr "選択したダウンロードをエクスポート"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export all downloads"
-msgstr ""
+msgstr "すべてのダウンロードをエクスポート"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Save to"
@@ -1184,43 +1189,43 @@ msgstr "キャンセル"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
-msgstr ""
+msgstr "すべてのファイル(%1)"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export only completed downloads"
-msgstr ""
+msgstr "完了済みダウンロードをエクスポート"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export"
-msgstr ""
+msgstr "エクスポート"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
-msgstr ""
+msgstr "%1 ダウンロードファイル (%2)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Default format"
-msgstr ""
+msgstr "デフォルトの形式"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
-msgstr ""
+msgstr "URLリスト"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
-msgstr ""
+msgstr "テキストファイル (%1)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
-msgstr ""
+msgstr "CSVファイル"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
-msgstr ""
+msgstr "CSVファイル (%1)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Export"
-msgstr ""
+msgstr "エクスポート"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
@@ -1228,11 +1233,11 @@ msgstr "キャンセル"
 
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
-msgstr ""
+msgstr "%1 設定ファイル (%2)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
-msgstr ""
+msgstr "すべてのファイル (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1446,14 +1451,6 @@ msgctxt "GeneralSettings|"
 msgid "Language"
 msgstr "言語"
 
-msgctxt "GeneralSettings|"
-msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
-msgstr ""
-"あなたの言語がリストにないか、翻訳が十分ではありませんか？ <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>修正しましょう！</a>"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1464,12 +1461,20 @@ msgid "Suggest folders based on file type"
 msgstr "ファイル形式に基づいてフォルダを提案する"
 
 msgctxt "GeneralSettings|"
+msgid "Your language is not listed or the translation isn't complete?"
+msgstr "あなたの言語がリストにないか、翻訳が十分ではありませんか？"
+
+msgctxt "GeneralSettings|"
+msgid "Let's fix it!"
+msgstr "修正しましょう！"
+
+msgctxt "GeneralSettings|"
 msgid "Default download folder"
-msgstr ""
+msgstr "デフォルトダウンロードフォルダ"
 
 msgctxt "GeneralSettings|"
 msgid "Choose default download folder automatically"
-msgstr ""
+msgstr "デフォルトダウンロードフォルダを自動的に選択する"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
@@ -1477,7 +1482,7 @@ msgstr "ダウンロードURLに基づいてフォルダを提案する"
 
 msgctxt "GeneralSettings|"
 msgid "Fixed default download folder"
-msgstr ""
+msgstr "デフォルトダウンロードフォルダの修正"
 
 msgctxt "GeneralSettings|"
 msgid "Open"
@@ -1489,7 +1494,7 @@ msgstr "キャンセル"
 
 msgctxt "GeneralSettings|"
 msgid "Macros"
-msgstr ""
+msgstr "マクロ"
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
@@ -1502,6 +1507,10 @@ msgstr "削除済みのファイルをダウンロードリストから自動で
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
 msgstr "完了したダウンロードをダウンロードリストから自動で削除する"
+
+msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -1522,7 +1531,6 @@ msgstr "更新プログラムを自動でインストールする"
 msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "ダークテーマ"
-
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1578,7 +1586,7 @@ msgstr "SHA-256"
 
 msgctxt "ImportDialog|"
 msgid "Import"
-msgstr ""
+msgstr "インポート"
 
 msgctxt "ImportDialog|"
 msgid "Cancel"
@@ -1586,19 +1594,19 @@ msgstr "キャンセル"
 
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
-msgstr ""
+msgstr "すべてのファイル (%1)"
 
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
-msgstr ""
+msgstr "テキストファイル (%1)"
 
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
-msgstr ""
+msgstr "%1 ダウンロードファイル (%2)"
 
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
-msgstr ""
+msgstr "%1 設定ファイル (%2)"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
@@ -1610,29 +1618,27 @@ msgstr "OK"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
-msgstr ""
+msgstr "ファイルからのURL貼り付けに失敗しました"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
-msgstr ""
+msgstr "ファイルからURLリストのインポートに失敗しました: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
-msgstr ""
+msgstr "エクスポートに失敗しました"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
-msgstr ""
+msgstr "ファイルにエクスポートできません: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
-msgstr ""
+msgstr "インポートに失敗しました"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
-msgstr ""
-
-
+msgstr "ファイルにインポートできません: %1"
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1652,7 +1658,7 @@ msgstr "言語"
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
-msgstr ""
+msgstr "ブラウザ"
 
 msgctxt "LeftDrawer|"
 msgid "Settings"
@@ -1680,27 +1686,27 @@ msgstr "隠す"
 
 msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
-msgstr ""
+msgstr "%content_type% - コンテンツタイプ (\"音楽\"など)"
 
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
-msgstr ""
+msgstr "%server% - サーバー名 (e.g. \"%1\")"
 
 msgctxt "MacrosMenu|"
 msgid "%path_on_server% - path to the downloading file on the server"
-msgstr ""
+msgstr "%path_on_server% - ダウンロード元サーバーのパス"
 
 msgctxt "MacrosMenu|"
 msgid "%year% - current year"
-msgstr ""
+msgstr "%year% - 今年"
 
 msgctxt "MacrosMenu|"
 msgid "%month% - current month (number from 1 to 12)"
-msgstr ""
+msgstr "%month% - 今月 (1～12)"
 
 msgctxt "MacrosMenu|"
 msgid "%day% - current day"
-msgstr ""
+msgstr "%day% - 日付"
 
 msgctxt "MacrosMenu|"
 msgid "%date% - equivalent to %year%-%month%-%day%"
@@ -1724,27 +1730,27 @@ msgstr "クリップボードのURLを貼り付ける"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from File"
-msgstr ""
+msgstr "ファイルからURLを貼り付け"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
-msgstr ""
+msgstr "エクスポート/インポート"
 
 msgctxt "MainMenu|"
 msgid "Export all downloads"
-msgstr ""
+msgstr "すべてのダウンロードをエクスポート"
 
 msgctxt "MainMenu|"
 msgid "Import downloads"
-msgstr ""
+msgstr "ダウンロードをインポート"
 
 msgctxt "MainMenu|"
 msgid "Export settings"
-msgstr ""
+msgstr "設定をエクスポート"
 
 msgctxt "MainMenu|"
 msgid "Import settings"
-msgstr ""
+msgstr "設定をインポート"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -1772,7 +1778,7 @@ msgstr "シャットダウン"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
-msgstr ""
+msgstr "ポータブルバージョンを作成"
 
 msgctxt "MainMenu|"
 msgid "Check for Updates..."
@@ -1801,9 +1807,7 @@ msgstr "インターネットに接続していません"
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
-msgstr[0] ""
-
-
+msgstr[0] "%n件のダウンロードを選択中。"
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -1867,7 +1871,7 @@ msgstr "キャンセル"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Invalid value"
-msgstr ""
+msgstr "無効な値"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
@@ -1899,8 +1903,7 @@ msgstr "スキップ"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
-msgstr ""
-
+msgstr "すべてスキップ (%1)"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2104,7 +2107,7 @@ msgstr "キャンセル"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Invalid value"
-msgstr ""
+msgstr "無効な値"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
@@ -2233,6 +2236,14 @@ msgstr "ダウンロードが完了しました"
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "ダウンロードが完了しました"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -2504,15 +2515,15 @@ msgstr "ネットワークの接続タイムアウトエラー"
 
 msgctxt "QObject|"
 msgid "Unsupported"
-msgstr ""
+msgstr "サポートされていません"
 
 msgctxt "QObject|"
 msgid "Invalid parameter"
-msgstr ""
+msgstr "無効なパラメーター"
 
 msgctxt "QObject|"
 msgid "Unsupported format"
-msgstr ""
+msgstr "サポートされていない形式"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -2670,18 +2681,17 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
-msgstr ""
+msgstr "致命的なエラー：データベースの読み込みに失敗しました。"
 
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
-msgstr ""
+msgstr "消去しますか？（これにより、ダウンロードリストとすべての%1データが消去されます）"
 
 msgctxt "QObject|"
 msgid "Failed."
-msgstr ""
-
+msgstr "失敗。"
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
@@ -2689,23 +2699,23 @@ msgstr "%path% パラメータが見つかりません。"
 
 msgctxt "QObject|"
 msgid "Update URL"
-msgstr ""
+msgstr "URLアップデート"
 
 msgctxt "QObject|"
 msgid "Documents"
-msgstr ""
+msgstr "ドキュメント"
 
 msgctxt "QObject|"
 msgid "Pictures"
-msgstr ""
+msgstr "写真"
 
 msgctxt "QObject|"
 msgid "Videos"
-msgstr ""
+msgstr "ビデオ"
 
 msgctxt "QObject|"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "その他"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -2901,7 +2911,7 @@ msgstr "設定"
 
 msgctxt "SettingsPage|"
 msgid "Downloads settings"
-msgstr ""
+msgstr "ダウンロード設定"
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
@@ -3069,7 +3079,7 @@ msgstr "以下のダウンロードは一時停止後にレジュームできま
 
 msgctxt "Subtitles|"
 msgid "Download subtitles"
-msgstr ""
+msgstr "サブタイトルのダウンロード"
 
 msgctxt "Subtitles|"
 msgid "Edit list"
@@ -3145,7 +3155,7 @@ msgstr "KB/s"
 
 msgctxt "TumComboBox|"
 msgid "unlimited"
-msgstr ""
+msgstr "無制限"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
@@ -3225,7 +3235,7 @@ msgstr "ファイル名"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
-msgstr ""
+msgstr "選択したディレクトリへ書き込みができません"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
@@ -3350,5 +3360,3 @@ msgstr "一緒により良いものにしていきましょう！ フィード�
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "更新"
-
-
