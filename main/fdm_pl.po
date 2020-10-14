@@ -13,8 +13,9 @@ msgid "About"
 msgstr "O programie"
 
 msgctxt "AboutDialog|"
-msgid "<a href='%1'>%2</a> version %3"
-msgstr "<a href='%1'>%2</a> wersja %3"
+msgid "version %1"
+msgstr "wersja %1"
+
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -26,7 +27,7 @@ msgstr "Wersja %1 (%2)"
 
 msgctxt "AddDateToFileName|"
 msgid "Add dates to files names"
-msgstr "Dodaj daty do nazw plików"
+msgstr "Dodawaj daty do nazw plików"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
@@ -82,7 +83,11 @@ msgstr "Powiadomienia"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "Powiadom mnie o zakończeniu pobierania przez Centrum Powiadomień"
+msgstr "Powiadom mnie o zakończeniu pobierania poprzez Centrum Powiadomień"
+
+msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
@@ -148,15 +153,10 @@ msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
 msgstr "Wybierz antywirus:"
 
+
 msgctxt "AntivirusSettings|"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
-msgstr ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Nie "
-"widzisz swojego programu antywirusowego?</a>"
+msgid "Is your antivirus not listed?"
+msgstr "Nie widzisz swojego programu antywirusowego?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -164,7 +164,7 @@ msgstr "Ścieżka:"
 
 msgctxt "AntivirusSettings|"
 msgid "Please enter antivirus path"
-msgstr "Podaj ścieżkę lokalizacji do programu antywirusowego"
+msgstr "Podaj ścieżkę do programu antywirusowego"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments:"
@@ -184,7 +184,7 @@ msgstr "Test antywirusowy"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
-msgstr "W ustawieniach nie wybraniu programu antywirusowego."
+msgstr "W ustawieniach nie wybrano programu antywirusowego."
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Go to settings"
@@ -414,6 +414,14 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr "Dodaj zakładkę"
 
+msgctxt "BrowserButton|"
+msgid "Download %1 extension"
+msgstr "Pobierz rozszerzenie dla przeglądarki %1"
+
+msgctxt "BrowserButton|"
+msgid "%1 is not installed"
+msgstr "Przeglądarka %1 nie jest zainstalowana"
+
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "Integracja z przeglądarką"
@@ -427,20 +435,8 @@ msgstr ""
 "kliknij na jeden z poniższych odnośników"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Download Firefox extension"
-msgstr "Pobierz rozszerzenie dla przeglądarki Firefox"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Firefox is not installed"
-msgstr "Przeglądarka Firefox nie jest zainstalowana"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Download Google Chrome extension"
-msgstr "Pobierz rozszerzenie dla przeglądarki Google Chrome"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Google Chrome is not installed"
-msgstr "Przeglądarka Google Chrome nie jest zainstalowana"
+msgid "Other supported browsers"
+msgstr "Inne obsługiwane przeglądarki"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -448,7 +444,7 @@ msgstr "Automatycznie przechwytuj pobierania z przeglądarek"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Intercept downloads in your web browser"
-msgstr "Przechwyć pobrania ze swojej przeglądarki"
+msgstr "Przechwyć pobierania ze swojej przeglądarki"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Start downloading without confirmation"
@@ -510,6 +506,10 @@ msgctxt "BrowserIntroDialog|"
 msgid "Continue"
 msgstr "Kontynuuj"
 
+msgctxt "BrowserListElement|"
+msgid "(browser is not installed)"
+msgstr "(przeglądarka nie jest zainstalowana)"
+
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
 msgstr "Dodaj pobieranie"
@@ -540,7 +540,7 @@ msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
-msgstr "Nie jest możliwe pobieranie z podanej strony"
+msgstr "Pobieranie z tej strony nie jest możliwe"
 
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
@@ -560,7 +560,11 @@ msgstr "Wybierz adres pobierania"
 
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
-msgstr "Za jednym razem możesz wybrać nie więcej niż %1 adres"
+msgstr "Za jednym razem możesz wybrać nie więcej niż %1 link(ów)"
+
+msgctxt "ButtonsBlock|"
+msgid "No write access to the selected directory"
+msgstr "Brak dostępu do zapisu w wybranym folderze"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
@@ -572,7 +576,7 @@ msgstr "Ścieżka zawiera niepoprawne znaki"
 
 msgctxt "ButtonsBlock|"
 msgid "The subfolder name contains invalid characters"
-msgstr "Nazwa pod-folderu zawiera niepoprawne znaki"
+msgstr "Nazwa podfolderu zawiera niepoprawne znaki"
 
 msgctxt "ButtonsBlock|"
 msgid "The filename contains invalid characters"
@@ -750,6 +754,62 @@ msgctxt "CreateFolderDialog|"
 msgid "Cancel"
 msgstr "Anuluj"
 
+msgctxt "CreatePortableDialog|"
+msgid "Create portable version"
+msgstr "Utwórz wersję przenośną"
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Portable version of %1 can be used on different computers without the need "
+"to install and configure it on each of them."
+msgstr ""
+"Przenośna wersja %1 może być używana na różnych komputerach, bez potrzeby "
+"instalacji i konfiguracji na każdym z nich."
+
+msgctxt "CreatePortableDialog|"
+msgid "It can be conveniently placed on a flash disk, for example."
+msgstr "Może być zapisana np. na pendrive."
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Specify here the path where you would like to create this version. It should "
+"be a folder on some removable drive."
+msgstr ""
+"Podaj ścieżkę, gdzie ma być umieszczona wersja przenośna. Powinien to być "
+"folder na dysku przenośnym/pendrive."
+
+msgctxt "CreatePortableDialog|"
+msgid "Open"
+msgstr "Otwórz"
+
+msgctxt "CreatePortableDialog|"
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgctxt "CreatePortableDialog|"
+msgid "Please specify the path."
+msgstr "Proszę podaj ścieżkę."
+
+msgctxt "CreatePortableDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating %1%"
+msgstr "Tworzę %1"
+
+msgctxt "CreatePortableDialog|"
+msgid "An error occurred while creating a portable version: %1"
+msgstr "Wystąpił błąd podczas tworzenia wersji przenośnej: %1"
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating a portable version was successfully completed."
+msgstr "Tworzenie wersji przenośnej zostało zakończone pomyślnie."
+
+msgctxt "CreatePortableDialog|"
+msgid "Close"
+msgstr "Zamknij"
+
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
 msgstr "Usuń zaznaczone pobrania"
@@ -784,7 +844,7 @@ msgstr "Czy usunąć zaznaczone pliki?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Delete selected downloads"
-msgstr "Usuń zaznaczone pobrania"
+msgstr "Usuń zaznaczone pobierania"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Are you sure you want to delete the selected file(s)?"
@@ -800,7 +860,7 @@ msgstr "Anuluj"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "Rozmiar: %1 (Miejsce na dysku: %2)"
+msgstr "Rozmiar: %1 (miejsce na dysku: %2)"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1"
@@ -844,11 +904,11 @@ msgstr "Brak wyników z oznaczeniem \"%1\""
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
-msgstr "Brak aktywnych pobrań"
+msgstr "Brak aktywnych pobierań"
 
 msgctxt "DownloadsPage|"
 msgid "No completed downloads"
-msgstr "Brak ukończonych pobrań"
+msgstr "Brak ukończonych pobierań"
 
 msgctxt "DownloadsPage|"
 msgid "Show all"
@@ -857,6 +917,54 @@ msgstr "Pokaż wszystkie"
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "Lista pobierania jest pusta. Dodaj nowy adres pobierania."
+
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr "Ustawienia pobierania"
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr "Rozpocznij pobieranie bez potwierdzenia"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr "Automatycznie usuwaj pliki z listy pobierania"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr "Automatyczne usuwanie ukończonych pobrań z listy pobierania"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr "Użyj czasu z serwera do utworzenia pliku"
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr "Domyślny folder pobierania"
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr "Wybierz automatycznie folder pobierania"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr "Sugeruj foldery na podstawie rozszerzeń pliku"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "Sugeruj foldery na podstawie adresu pobierania"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr "Stały folder pobierania"
+
+msgctxt "DownloadsSettings|"
+msgid "Macros"
+msgstr "Makra"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -945,6 +1053,10 @@ msgstr "Dodaj kolejny serwer"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "Kopiuj łącze"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Export selected downloads"
+msgstr "Eksportuj zaznaczone pobrania"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
@@ -1064,7 +1176,79 @@ msgstr "Wstrzymane"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
-msgstr "Zakończony"
+msgstr "Zakończone"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export selected downloads"
+msgstr "Eksportuj zaznaczone pobrania"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export all downloads"
+msgstr "Eksportuj wszystkie pobrania"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Save to"
+msgstr "Zapisz do"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Open"
+msgstr "Otwórz"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "All files (%1)"
+msgstr "Wszystkie pliki (%1)"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export only completed downloads"
+msgstr "Eksportuj tylko w pełni pobrane"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export"
+msgstr "Eksport"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "%1 downloads files (%2)"
+msgstr "Pliki pobrań %1 (%2)"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Default format"
+msgstr "Domyślny format"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "List of URLs"
+msgstr "Lista adresów"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Text files (%1)"
+msgstr "Pliki tekstowe (%1)"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV file"
+msgstr "Plik CSV"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV files (%1)"
+msgstr "Pliki CSV (%1)"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Export"
+msgstr "Eksport"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgctxt "ExportSettingsDialog|"
+msgid "%1 settings files (%2)"
+msgstr "Pliki ustawień %1 (%2)"
+
+msgctxt "ExportSettingsDialog|"
+msgid "All files (%1)"
+msgstr "Wszystkie pliki (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1076,7 +1260,7 @@ msgstr "Suma kontrolna"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
-msgstr "Wyliczanie %1%"
+msgstr "Obliczanie %1%"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Compare with"
@@ -1116,7 +1300,7 @@ msgstr "Suma kontrolna"
 
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
-msgstr "Wyliczanie %1%"
+msgstr "Obliczanie %1%"
 
 msgctxt "FileIntegrityPage|"
 msgid "Compare with"
@@ -1278,15 +1462,6 @@ msgctxt "GeneralSettings|"
 msgid "Language"
 msgstr "Język programu"
 
-msgctxt "GeneralSettings|"
-msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
-msgstr ""
-"Nie widzisz swojego języka na liście lub tłumaczenie jest nie kompletne? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Zrób coś "
-"z tym!</a>"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1297,8 +1472,41 @@ msgid "Suggest folders based on file type"
 msgstr "Sugeruj foldery na podstawie rozszerzeń pliku"
 
 msgctxt "GeneralSettings|"
+msgid "Your language is not listed or the translation isn't complete?"
+msgstr ""
+"Nie widzisz swojego języka na liście lub tłumaczenie jest nie kompletne?"
+
+msgctxt "GeneralSettings|"
+msgid "Let's fix it!"
+msgstr "Pomóż nam to zmienić!"
+
+msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr "Domyślny folder pobierania"
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr "Wybierz automatycznie domyślny folder pobierania"
+
+msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
 msgstr "Sugeruj foldery na podstawie adresu pobierania"
+
+msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr "Stały folder pobierania"
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr "Otwórz"
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr "Makra"
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
@@ -1306,11 +1514,15 @@ msgstr "Kompaktowy widok listy pobierania"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "Automatycznie usuń pliki z listy pobierania"
+msgstr "Automatycznie usuwaj pliki z listy pobierania"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
 msgstr "Automatyczne usuwanie ukończonych pobrań z listy pobierania"
+
+msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -1331,10 +1543,6 @@ msgstr "Zainstaluj aktualizacje automatycznie"
 msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "Ciemny motyw"
-
-msgctxt "GeneralSettings|"
-msgid "Start downloading without confirmation"
-msgstr "Rozpocznij pobieranie bez potwierdzenia"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1388,6 +1596,62 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
 
+msgctxt "ImportDialog|"
+msgid "Import"
+msgstr "Importuj"
+
+msgctxt "ImportDialog|"
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgctxt "ImportDialog|"
+msgid "All files (%1)"
+msgstr "Wszystkie pliki (%1)"
+
+msgctxt "ImportDialog|"
+msgid "Text files (%1)"
+msgstr "Pliki tekstowe (%1)"
+
+msgctxt "ImportDialog|"
+msgid "%1 downloads files (%2)"
+msgstr "Pliki pobrań %1 (%2)"
+
+msgctxt "ImportDialog|"
+msgid "%1 settings files (%2)"
+msgstr "Pliki ustawień %1 (%2)"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Error: %1"
+msgstr "Błąd: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr "Problem z wklejeniem adresów URL z pliku"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import the list of URLs from the file: %1"
+msgstr "Błąd importu listy adresów z pliku: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to export"
+msgstr "Problem z eksportem"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to export to the file: %1"
+msgstr "Nie można wyeksportować do pliku: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to import"
+msgstr "Problem z importem"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import from the file: %1"
+msgstr "Nie można zaimportować z pliki: %1"
+
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
 msgstr "Ustaw jako domyślny"
@@ -1432,6 +1696,34 @@ msgctxt "ListEditor|"
 msgid "Hide"
 msgstr "Ukryj"
 
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr "content_type% - typ zawartości (np. \"Muzyka\")"
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr "%server% - nazwa serwera (np. \"%1\")"
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr "%path_on_server% - ścieżka do pobieranego pliku na serwerze"
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr "%year% - bieżący rok"
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr "%month% - bieżący miesiąc (liczba od 1 do 12)"
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr "%day% - bieżący dzień"
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
+msgstr "%date% - kombinacja zmiennych %year%-%month%-%day%"
+
 msgctxt "MainFiltersBar|"
 msgid "All"
 msgstr "Wszystkie"
@@ -1447,6 +1739,30 @@ msgstr "Zakończone"
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
 msgstr "Wklej adresy ze schowka"
+
+msgctxt "MainMenu|"
+msgid "Paste Urls from File"
+msgstr "Wklej adresy z pliku"
+
+msgctxt "MainMenu|"
+msgid "Export/Import"
+msgstr "Eksport/Import"
+
+msgctxt "MainMenu|"
+msgid "Export all downloads"
+msgstr "Eksportuj wszystkie pobrania"
+
+msgctxt "MainMenu|"
+msgid "Import downloads"
+msgstr "Importuj pobrania"
+
+msgctxt "MainMenu|"
+msgid "Export settings"
+msgstr "Eksportuj ustawienia"
+
+msgctxt "MainMenu|"
+msgid "Import settings"
+msgstr "Importuj ustawienia"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -1466,11 +1782,15 @@ msgstr "Uśpij"
 
 msgctxt "MainMenu|"
 msgid "Hibernate"
-msgstr "Hibernacja"
+msgstr "Hibernuj"
 
 msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "Zamknij system"
+
+msgctxt "MainMenu|"
+msgid "Create portable version"
+msgstr "Utwórz wersję przenośną"
 
 msgctxt "MainMenu|"
 msgid "Check for Updates..."
@@ -1509,7 +1829,7 @@ msgstr "Całkowity rozmiar:"
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
-msgstr "Dodaj nowe pobranie..."
+msgstr "Dodaj nowe pobieranie..."
 
 msgctxt "MainToolbar|"
 msgid "Start all"
@@ -1545,7 +1865,7 @@ msgstr "Bez limitu"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Custom..."
-msgstr "Niestandardowy..."
+msgstr "Niestandardowe..."
 
 msgctxt "MaxURatioComboBox|"
 msgid "%"
@@ -1561,7 +1881,11 @@ msgstr "OK"
 
 msgctxt "MaxURatioComboBox|"
 msgid "CANCEL"
-msgstr "Anuluj"
+msgstr "ANULUJ"
+
+msgctxt "MaxURatioComboBox|"
+msgid "Invalid value"
+msgstr "Nieprawidłowa wartość"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
@@ -1592,8 +1916,8 @@ msgid "Skip"
 msgstr "Pomiń"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "OK"
-msgstr "OK"
+msgid "Skip all (%1)"
+msgstr "Omiń wszystkie (%1)"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -1609,7 +1933,7 @@ msgstr "Połączenia komórkowe są wyłączone"
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
-msgstr "Nie powiodło się przenoszenia pobierania"
+msgstr "Nie powiodło się przenoszenie pobierania"
 
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
@@ -1624,6 +1948,14 @@ msgid "Try again"
 msgstr "Spróbuj ponownie"
 
 msgctxt "MovingFailedDialog|"
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgctxt "MovingFolderDialog|"
+msgid "Move"
+msgstr "Przenieś"
+
+msgctxt "MovingFolderDialog|"
 msgid "Cancel"
 msgstr "Anuluj"
 
@@ -1661,7 +1993,7 @@ msgstr "&Wklej"
 
 msgctxt "NativeMenuBar|"
 msgid "Downloads"
-msgstr "Pliki do pobrania"
+msgstr "Pliki do pobierania"
 
 msgctxt "NativeMenuBar|"
 msgid "Start selected"
@@ -1785,7 +2117,11 @@ msgstr "OK"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "CANCEL"
-msgstr "Anuluj"
+msgstr "ANULUJ"
+
+msgctxt "NetworkSpeedLimitComboBox|"
+msgid "Invalid value"
+msgstr "Nieprawidłowa wartość"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
@@ -1914,6 +2250,14 @@ msgstr "Pobieranie zakończone"
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "Pobierania zakończone"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -2137,7 +2481,7 @@ msgstr "Nie zaimplementowano"
 
 msgctxt "QObject|"
 msgid "Bad Gateway"
-msgstr "Zła brama"
+msgstr "Nieprawidłowa brama"
 
 msgctxt "QObject|"
 msgid "Service Unavailable"
@@ -2184,8 +2528,20 @@ msgid "Network connect timeout error"
 msgstr "Upłynął czas połączenia"
 
 msgctxt "QObject|"
+msgid "Unsupported"
+msgstr "Nie obsługiwane"
+
+msgctxt "QObject|"
+msgid "Invalid parameter"
+msgstr "Nieprawidłowy parametr"
+
+msgctxt "QObject|"
+msgid "Unsupported format"
+msgstr "Nie obsługiwany format"
+
+msgctxt "QObject|"
 msgid "Host not found"
-msgstr "Nie znaleziono hosta"
+msgstr "Nie znaleziono serwera"
 
 msgctxt "QObject|"
 msgid "Operation canceled"
@@ -2197,7 +2553,7 @@ msgstr "Zakończono połączenie"
 
 msgctxt "QObject|"
 msgid "Timed out"
-msgstr "Czas upłynął"
+msgstr "Upłynął czas"
 
 msgctxt "QObject|"
 msgid "SSL handshake failed"
@@ -2293,7 +2649,7 @@ msgstr "Nazwa uszkodzonego modułu."
 
 msgctxt "QObject|"
 msgid "Crash address."
-msgstr "Adres uszkodzenia."
+msgstr "Adres błędu."
 
 msgctxt "QObject|"
 msgid "Signature check failure."
@@ -2333,7 +2689,7 @@ msgid ""
 "%1 has failed to restore it from backup.\n"
 "Please close all your web browsers and try again."
 msgstr ""
-"Lista pobrań jest uszkodzona.\n"
+"Lista pobierań jest uszkodzona.\n"
 "%1 nie mógł jej przywrócić z kopii zapasowej.\n"
 "Zamknij wszystkie przeglądarki internetowe i spróbuj ponownie."
 
@@ -2359,7 +2715,23 @@ msgstr "Brakujący parametr %path%."
 
 msgctxt "QObject|"
 msgid "Update URL"
-msgstr "URL aktualizacji"
+msgstr "Adres aktualizacji"
+
+msgctxt "QObject|"
+msgid "Documents"
+msgstr "Dokumenty"
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr "Zdjęcia"
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr "Video"
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
+msgstr "Różne"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -2427,7 +2799,7 @@ msgstr "Harmonogram"
 
 msgctxt "SchedulerDialog|"
 msgid "Start and pause downloads at specified time"
-msgstr "Rozpocznij i wstrzymaj pobieranie o ustalonej godzinie"
+msgstr "Rozpocznij i wstrzymaj pobierania o ustalonej godzinie"
 
 msgctxt "SchedulerDialog|"
 msgid "Enable Scheduler"
@@ -2552,6 +2924,10 @@ msgstr "Zaawansowane"
 msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "Ustawienia"
+
+msgctxt "SettingsPage|"
+msgid "Downloads settings"
+msgstr "Ustawienia pobierania"
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
@@ -2717,6 +3093,14 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr "Po zatrzymaniu poniższe pobierania nie będą mogły być już wznowione"
 
+msgctxt "Subtitles|"
+msgid "Download subtitles"
+msgstr "Pobierz napisy"
+
+msgctxt "Subtitles|"
+msgid "Edit list"
+msgstr "Edytuj listę"
+
 msgctxt "TagColorDialog|"
 msgid "Remove tag"
 msgstr "Usuń znacznik"
@@ -2831,7 +3215,7 @@ msgstr "Bez limitu"
 
 msgctxt "TumModeBlock|"
 msgid "Max. number of simultaneous downloads"
-msgstr "Maksymalna liczba jednoczesnych pobrań"
+msgstr "Maksymalna liczba jednoczesnych pobierań"
 
 msgctxt "TumModeBlock|"
 msgid "Snail mode"
@@ -2866,8 +3250,12 @@ msgid "File name"
 msgstr "Nazwa pliku"
 
 msgctxt "TuneAndAddDownloadPage|"
+msgid "No write access to the selected directory"
+msgstr "Brak prawa zapisu w wybranym folderze"
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "Rozmiar: %1 (Miejsce na dysku: %2)"
+msgstr "Rozmiar: %1 (miejsce na dysku: %2)"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
@@ -2988,11 +3376,3 @@ msgstr "Zróbmy to lepiej razem! Przekaż nam swoją opinię."
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Odśwież"
-
-msgctxt "main|"
-msgid "Move"
-msgstr "Przenieś"
-
-msgctxt "main|"
-msgid "Cancel"
-msgstr "Anuluj"

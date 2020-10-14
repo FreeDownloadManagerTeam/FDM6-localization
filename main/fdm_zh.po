@@ -13,8 +13,9 @@ msgid "About"
 msgstr "关于"
 
 msgctxt "AboutDialog|"
-msgid "<a href='%1'>%2</a> version %3"
-msgstr "<a href='%1'>%2</a>版本 %3"
+msgid "version %1"
+msgstr "版本 %1"
+
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -85,6 +86,10 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr "通过通知中心提醒我已完成的下载项"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "仅在 %1 非前台运行时提醒我"
 
@@ -148,14 +153,10 @@ msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
 msgstr "选择防病毒软件:"
 
+
 msgctxt "AntivirusSettings|"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
-msgstr ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>未列出您的防病毒软件?</a>"
+msgid "Is your antivirus not listed?"
+msgstr "未列出您的防病毒软件?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -351,7 +352,7 @@ msgstr "低品质, 最小文件大小"
 
 msgctxt "BottomPanelTools|"
 msgid "General"
-msgstr "一般"
+msgstr "常规"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
@@ -364,8 +365,6 @@ msgstr "文件"
 msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr "连接"
-
-
 
 msgctxt "Browser|"
 msgid "Enter URL"
@@ -415,6 +414,14 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr "添加书签"
 
+msgctxt "BrowserButton|"
+msgid "Download %1 extension"
+msgstr "下载%1浏览器扩展"
+
+msgctxt "BrowserButton|"
+msgid "%1 is not installed"
+msgstr "%1浏览器扩展未安装"
+
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "浏览器集成"
@@ -426,20 +433,8 @@ msgid ""
 msgstr "请确认您已安装 %1 扩展, 否则请点击下方任意按钮"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Download Firefox extension"
-msgstr "下载FireFox浏览器扩展"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Firefox is not installed"
-msgstr "FireFox浏览器未安装"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Download Google Chrome extension"
-msgstr "下载Chrome浏览器扩展"
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Google Chrome is not installed"
-msgstr "Chrome浏览器未安装"
+msgid "Other supported browsers"
+msgstr "其他支持的浏览器"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -507,6 +502,10 @@ msgctxt "BrowserIntroDialog|"
 msgid "Continue"
 msgstr "继续"
 
+msgctxt "BrowserListElement|"
+msgid "(browser is not installed)"
+msgstr "(浏览器未安装)"
+
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
 msgstr "添加下载"
@@ -558,6 +557,10 @@ msgstr "请选择下载链接"
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "你可以一次选择 %1 链接"
+
+msgctxt "ButtonsBlock|"
+msgid "No write access to the selected directory"
+msgstr "没有对选定目录的写入权限"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
@@ -625,7 +628,7 @@ msgstr "开始下载"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
-msgstr "当前没有链接"
+msgstr "当前没有连接"
 
 msgctxt "ConnectionsTab|"
 msgid "Host"
@@ -744,6 +747,58 @@ msgctxt "CreateFolderDialog|"
 msgid "Cancel"
 msgstr "取消"
 
+msgctxt "CreatePortableDialog|"
+msgid "Create portable version"
+msgstr "创建便携版"
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Portable version of %1 can be used on different computers without the need "
+"to install and configure it on each of them."
+msgstr "%1的便携版可在无需安装并分别设置的情况下在不同计算机上使用。"
+
+msgctxt "CreatePortableDialog|"
+msgid "It can be conveniently placed on a flash disk, for example."
+msgstr "例如，它可以方便地被置于闪存盘中。"
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Specify here the path where you would like to create this version. It should "
+"be a folder on some removable drive."
+msgstr "在此输入你想创建便携版的路径。它应为可移动存储器上的路径。"
+
+msgctxt "CreatePortableDialog|"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "CreatePortableDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "CreatePortableDialog|"
+msgid "Please specify the path."
+msgstr "请指明路径。"
+
+msgctxt "CreatePortableDialog|"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating %1%"
+msgstr "正在创建%1%"
+
+msgctxt "CreatePortableDialog|"
+msgid "An error occurred while creating a portable version: %1"
+msgstr "创建便携版时发生了错误：%1"
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating a portable version was successfully completed."
+msgstr "成功创建了便携版。"
+
+msgctxt "CreatePortableDialog|"
+msgid "Close"
+msgstr "关闭"
+
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
 msgstr "删除选中的下载项"
@@ -852,6 +907,54 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "下载列表是空的. 添加新的下载链接."
 
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr "下载设置"
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr "无需确认就启动下载"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr "自动从下载列表移除已删除的文件"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr "自动移除下载列表中已完成的下载"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr "创建文件使用服务器的时间"
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr "默认下载文件夹"
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr "自动选择默认下载文件夹"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr "基于文件类型建议文件夹"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "基于下载 URL 建议文件夹"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr "固定默认下载文件夹"
+
+msgctxt "DownloadsSettings|"
+msgid "Macros"
+msgstr "宏"
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "取消标签"
@@ -939,6 +1042,10 @@ msgstr "添加镜像"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "复制链接"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Export selected downloads"
+msgstr "导出选中的下载项"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
@@ -1059,6 +1166,78 @@ msgstr "已暂停"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "完成"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export selected downloads"
+msgstr "导出选中的下载项"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export all downloads"
+msgstr "导出所有下载项"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Save to"
+msgstr "保存到"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "All files (%1)"
+msgstr "所有文件（%1）"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export only completed downloads"
+msgstr "仅导出已完成的下载项"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export"
+msgstr "导出"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "%1 downloads files (%2)"
+msgstr "%1个下载项（总计%2）"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Default format"
+msgstr "默认格式"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "List of URLs"
+msgstr "URL列表"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Text files (%1)"
+msgstr "文本文件（%1）"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV file"
+msgstr "CSV文件"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV files (%1)"
+msgstr "CSV文件（%1）"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Export"
+msgstr "导出"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "ExportSettingsDialog|"
+msgid "%1 settings files (%2)"
+msgstr "%1个设置文件（总计%2）"
+
+msgctxt "ExportSettingsDialog|"
+msgid "All files (%1)"
+msgstr "所有文件（%1）"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1272,14 +1451,6 @@ msgctxt "GeneralSettings|"
 msgid "Language"
 msgstr "语言"
 
-msgctxt "GeneralSettings|"
-msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
-msgstr ""
-"没有列出您所使用的语言或翻译不完整? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>期待与您一起完善!</a>"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1290,8 +1461,40 @@ msgid "Suggest folders based on file type"
 msgstr "基于文件类型建议文件夹"
 
 msgctxt "GeneralSettings|"
+msgid "Your language is not listed or the translation isn't complete?"
+msgstr "没有列出您所使用的语言或翻译不完整?"
+
+msgctxt "GeneralSettings|"
+msgid "Let's fix it!"
+msgstr "期待与您一起完善!"
+
+msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr "默认下载文件夹"
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr "自动选择默认下载文件夹"
+
+msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
 msgstr "基于下载 URL 建议文件夹"
+
+msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr "固定默认下载文件夹"
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr "宏"
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
@@ -1304,6 +1507,10 @@ msgstr "自动从下载列表移除已删除的文件"
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
 msgstr "自动移除下载列表中已完成的下载"
+
+msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -1324,10 +1531,6 @@ msgstr "自动安装更新"
 msgctxt "GeneralSettings|"
 msgid "Dark theme"
 msgstr "深色主题"
-
-msgctxt "GeneralSettings|"
-msgid "Start downloading without confirmation"
-msgstr "无需确认就启动下载"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1351,11 +1554,11 @@ msgstr "上传速度："
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
-msgstr "添加到:"
+msgstr "添加时间:"
 
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
-msgstr "%2 之 %1"
+msgstr "%1 共 %2"
 
 msgctxt "GeneralTab|"
 msgid "Domain:"
@@ -1381,6 +1584,62 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
 
+msgctxt "ImportDialog|"
+msgid "Import"
+msgstr "导入"
+
+msgctxt "ImportDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "ImportDialog|"
+msgid "All files (%1)"
+msgstr "所有文件 （%1）"
+
+msgctxt "ImportDialog|"
+msgid "Text files (%1)"
+msgstr "文本文件 （%1）"
+
+msgctxt "ImportDialog|"
+msgid "%1 downloads files (%2)"
+msgstr "%1个下载项（总计%2）"
+
+msgctxt "ImportDialog|"
+msgid "%1 settings files (%2)"
+msgstr "%1个设置文件（总计%2）"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Error: %1"
+msgstr "错误: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr "从文件粘贴URL失败"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import the list of URLs from the file: %1"
+msgstr "无法从文件导入URL列表，错误：%1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to export"
+msgstr "导出失败"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to export to the file: %1"
+msgstr "无法导出到文件：%1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to import"
+msgstr "导入失败"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import from the file: %1"
+msgstr "无法从文件导入：%1"
+
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
 msgstr "设为默认值"
@@ -1391,7 +1650,7 @@ msgstr "不再询问"
 
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
-msgstr ".仍然关闭？"
+msgstr "仍然关闭？"
 
 msgctxt "LanguageDialog|"
 msgid "Language"
@@ -1425,6 +1684,34 @@ msgctxt "ListEditor|"
 msgid "Hide"
 msgstr "隐藏"
 
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr "%content_type% - 内容类型 (如 \"音乐\")"
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr "%server% - 服务器名 (如 \"%1\")"
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr "%path_on_server% - 下载中的文件在服务器上的路径"
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr "%year% - 当前年份"
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr "%month% - 当前月份 (1至12的数字)"
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr "%day% - 当前日期"
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
+msgstr "%date% - 等效于%year%-%month%-%day%"
+
 msgctxt "MainFiltersBar|"
 msgid "All"
 msgstr "全部"
@@ -1439,7 +1726,31 @@ msgstr "已完成"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
-msgstr "从剪贴板粘贴链接"
+msgstr "从剪贴板粘贴"
+
+msgctxt "MainMenu|"
+msgid "Paste Urls from File"
+msgstr "从文件粘贴URL"
+
+msgctxt "MainMenu|"
+msgid "Export/Import"
+msgstr "导出/导入"
+
+msgctxt "MainMenu|"
+msgid "Export all downloads"
+msgstr "导出所有下载项"
+
+msgctxt "MainMenu|"
+msgid "Import downloads"
+msgstr "导入下载项"
+
+msgctxt "MainMenu|"
+msgid "Export settings"
+msgstr "导出设置"
+
+msgctxt "MainMenu|"
+msgid "Import settings"
+msgstr "导入设置"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -1466,6 +1777,10 @@ msgid "Shutdown"
 msgstr "关机"
 
 msgctxt "MainMenu|"
+msgid "Create portable version"
+msgstr "创建便携版"
+
+msgctxt "MainMenu|"
 msgid "Check for Updates..."
 msgstr "检查更新..."
 
@@ -1487,14 +1802,12 @@ msgstr "慢速模式"
 
 msgctxt "MainStatusBar|"
 msgid "No Internet connection"
-msgstr "没有网络链接"
+msgstr "没有网络连接"
 
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
-msgstr[0] ""
-
-
+msgstr[0] "已选中%n个下载项。"
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -1557,6 +1870,10 @@ msgid "CANCEL"
 msgstr "取消"
 
 msgctxt "MaxURatioComboBox|"
+msgid "Invalid value"
+msgstr "无效值"
+
+msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "必须大于0."
 
@@ -1585,8 +1902,8 @@ msgid "Skip"
 msgstr "跳过"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "OK"
-msgstr "好"
+msgid "Skip all (%1)"
+msgstr "全部跳过（%1）"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -1594,7 +1911,7 @@ msgstr "下载"
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
-msgstr "没有网络链接"
+msgstr "没有网络连接"
 
 msgctxt "ModeButton|"
 msgid "Mobile data use disabled"
@@ -1620,6 +1937,14 @@ msgctxt "MovingFailedDialog|"
 msgid "Cancel"
 msgstr "取消"
 
+msgctxt "MovingFolderDialog|"
+msgid "Move"
+msgstr "移动"
+
+msgctxt "MovingFolderDialog|"
+msgid "Cancel"
+msgstr "取消"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "检查更新..."
@@ -1638,7 +1963,7 @@ msgstr "文件(&F)"
 
 msgctxt "NativeMenuBar|"
 msgid "Add &new download"
-msgstr "添加新的下载(&N)"
+msgstr "添加新的下载(&n)"
 
 msgctxt "NativeMenuBar|"
 msgid "&Edit"
@@ -1781,6 +2106,10 @@ msgid "CANCEL"
 msgstr "取消"
 
 msgctxt "NetworkSpeedLimitComboBox|"
+msgid "Invalid value"
+msgstr "无效值"
+
+msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "必须大于0."
 
@@ -1794,7 +2123,7 @@ msgstr "文件"
 
 msgctxt "Page|"
 msgid "Connections"
-msgstr "链接"
+msgstr "连接"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
@@ -1826,7 +2155,7 @@ msgstr "意外错误"
 
 msgctxt "QObject|"
 msgid "Service connection terminated."
-msgstr "服务器终端链接."
+msgstr "服务器终端连接."
 
 msgctxt "QObject|"
 msgid "App backend's server listen failed."
@@ -1907,6 +2236,14 @@ msgstr "下载完成"
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "下载完成"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -2177,6 +2514,18 @@ msgid "Network connect timeout error"
 msgstr "网络连接超时错误"
 
 msgctxt "QObject|"
+msgid "Unsupported"
+msgstr "不支持"
+
+msgctxt "QObject|"
+msgid "Invalid parameter"
+msgstr "无效参数"
+
+msgctxt "QObject|"
+msgid "Unsupported format"
+msgstr "不支持的格式"
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "服务未找到"
 
@@ -2332,18 +2681,17 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
-msgstr ""
+msgstr "错误：数据库加载失败."
 
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
-msgstr ""
+msgstr "你希望擦除吗 (这将清空下载列表 和 全部 %1 数据)?"
 
 msgctxt "QObject|"
 msgid "Failed."
-msgstr ""
-
+msgstr "失败."
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
@@ -2352,6 +2700,22 @@ msgstr "缺少 %path% 参数."
 msgctxt "QObject|"
 msgid "Update URL"
 msgstr "更新链接"
+
+msgctxt "QObject|"
+msgid "Documents"
+msgstr "文档"
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr "图片"
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr "视频"
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
+msgstr "其他"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -2511,7 +2875,7 @@ msgstr "降序"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
-msgstr ". 任然关闭？"
+msgstr ". 仍然关闭？"
 
 msgctxt "SettingsPage|"
 msgid "Preferences"
@@ -2531,7 +2895,7 @@ msgstr "网络"
 
 msgctxt "SettingsPage|"
 msgid "Traffic Limits"
-msgstr "流量限制"
+msgstr "限速"
 
 msgctxt "SettingsPage|"
 msgid "Antivirus"
@@ -2546,12 +2910,16 @@ msgid "Settings"
 msgstr "设置"
 
 msgctxt "SettingsPage|"
+msgid "Downloads settings"
+msgstr "下载项设置"
+
+msgctxt "SettingsPage|"
 msgid "Network settings"
 msgstr "网络设置"
 
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
-msgstr "流量限制"
+msgstr "限速"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -2709,6 +3077,14 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr "下列下载项暂停后无法恢复。"
 
+msgctxt "Subtitles|"
+msgid "Download subtitles"
+msgstr "下载字幕"
+
+msgctxt "Subtitles|"
+msgid "Edit list"
+msgstr "编辑列表"
+
 msgctxt "TagColorDialog|"
 msgid "Remove tag"
 msgstr "移除标签"
@@ -2727,19 +3103,19 @@ msgstr "自定义颜色"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
-msgstr "流量限制"
+msgstr "限速"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Low"
-msgstr "低流量限制"
+msgstr "高限速"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Medium"
-msgstr "中流量限制"
+msgstr "中限速"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "High"
-msgstr "高流量限制"
+msgstr "低限速"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Download speed"
@@ -2767,7 +3143,7 @@ msgstr "流量限制设置错误"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
-msgstr "流量限制"
+msgstr "限速"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
@@ -2779,7 +3155,7 @@ msgstr "KB/s"
 
 msgctxt "TumComboBox|"
 msgid "unlimited"
-msgstr ""
+msgstr "不限制"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
@@ -2787,15 +3163,15 @@ msgstr "下载: %1, 上传: %2"
 
 msgctxt "TumComboBox|"
 msgid "High"
-msgstr "高流量限制"
+msgstr "低限速"
 
 msgctxt "TumComboBox|"
 msgid "Medium"
-msgstr "中流量限制"
+msgstr "中限速"
 
 msgctxt "TumComboBox|"
 msgid "Low"
-msgstr "低流量限制"
+msgstr "高限速"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Unlimited"
@@ -2835,7 +3211,7 @@ msgstr "不停止下载且释放带宽."
 
 msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
-msgstr "修改流量限制"
+msgstr "修改限速"
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
@@ -2856,6 +3232,10 @@ msgstr "保存到"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "文件名"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "No write access to the selected directory"
+msgstr "没有对选定目录的写入权限"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
@@ -2980,11 +3360,3 @@ msgstr "让我们一起使它变得更好! 向我们反馈您的建议."
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "刷新"
-
-msgctxt "main|"
-msgid "Move"
-msgstr "移动"
-
-msgctxt "main|"
-msgid "Cancel"
-msgstr "取消"

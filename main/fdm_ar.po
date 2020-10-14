@@ -10,11 +10,12 @@ msgstr ""
 
 msgctxt "AboutDialog|"
 msgid "About"
-msgstr ""
+msgstr "حول"
 
 msgctxt "AboutDialog|"
-msgid "<a href='%1'>%2</a> version %3"
+msgid "version %1"
 msgstr ""
+
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -26,15 +27,15 @@ msgstr "الإصدار %1 (%2)"
 
 msgctxt "AddDateToFileName|"
 msgid "Add dates to files names"
-msgstr ""
+msgstr "إضافة تواريخ إلى أسماء الملفات"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
-msgstr ""
+msgstr "إضافة مرآة"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "إدخال عنوان URL للمرآة"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
@@ -46,7 +47,7 @@ msgstr "موافق"
 
 msgctxt "AddMirrorPage|"
 msgid "Add mirror"
-msgstr ""
+msgstr "إضافة مرآة"
 
 msgctxt "AddMirrorPage|"
 msgid "OK"
@@ -54,7 +55,7 @@ msgstr "موافق"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "إدخال عنوان URL للمرآة"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -70,7 +71,7 @@ msgstr "موافق"
 
 msgctxt "AddTag|"
 msgid "Add tag"
-msgstr ""
+msgstr "إضافة علامة"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced"
@@ -82,11 +83,15 @@ msgstr "الإشعارات"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "نبهني حول التحميلات المكتملة عبر مركز الإشعارات"
+msgstr "نبهني حول التنزيلات المكتملة عبر مركز الإشعارات"
+
+msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
-msgstr ""
+msgstr "إعلامي بالتنزيلات فقط عندما يكون الإطار %1 غير نشط"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -98,7 +103,7 @@ msgstr "لا تدخل الحاسوب في وضع السكون إذا كان هن
 
 msgctxt "AdvancedSettings|"
 msgid "Enable sleep mode while running finished downloads"
-msgstr ""
+msgstr "تمكين نمط السكون عند انتهاء التنزيلات"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -110,11 +115,11 @@ msgstr "البدء مع بدء التشغيل (مصغر)"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr ""
+msgstr "اظهار/إخفاء اللوحة السفلية بالضغط على التنزيل"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
-msgstr ""
+msgstr "نسخ احتياطي لقائمة التنزيل كل"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -134,58 +139,56 @@ msgstr "اسأل دائماً"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
-msgstr ""
+msgstr "إعدادات متقدمة"
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
-msgstr ""
+msgstr "تهيئة يدوية .."
 
 msgctxt "AntivirusSettings|"
 msgid "Antivirus"
-msgstr ""
+msgstr "مضاد الفيروسات"
 
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
-msgstr ""
+msgstr "اختر مضاد فيروسات:"
+
 
 msgctxt "AntivirusSettings|"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
+msgid "Is your antivirus not listed?"
 msgstr ""
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
-msgstr ""
+msgstr "المسار:"
 
 msgctxt "AntivirusSettings|"
 msgid "Please enter antivirus path"
-msgstr ""
+msgstr "اختر مسار مضاد الفيروسات"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments:"
-msgstr ""
+msgstr "المعاملات:"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments must contain %path% variable"
-msgstr ""
+msgstr "يجب أن تحتوي المعاملات على متغير %path%"
 
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
-msgstr ""
+msgstr "فحص تلقائي ضد الفيروسات عند انتهاء التنزيل"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
-msgstr ""
+msgstr "فحص ضد الفيروسات"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
-msgstr ""
+msgstr "لا يوجد مضاد فيروسات تم تحديده بالإعدادات."
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Go to settings"
-msgstr ""
+msgstr "الذهاب للإعدادات"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
@@ -193,23 +196,23 @@ msgstr "إلغاء"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
-msgstr ""
+msgstr "المصادقة مطلوبة"
 
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
-msgstr ""
+msgstr "الموقع يقول: \"%1\"."
 
 msgctxt "AuthenticationDialog|"
 msgid "Username:"
-msgstr ""
+msgstr "اسم المستخدم:"
 
 msgctxt "AuthenticationDialog|"
 msgid "Password:"
-msgstr ""
+msgstr "كلمة المرور:"
 
 msgctxt "AuthenticationDialog|"
 msgid "remember"
-msgstr ""
+msgstr "تذكّر"
 
 msgctxt "AuthenticationDialog|"
 msgid "Cancel"
@@ -221,7 +224,7 @@ msgstr "موافق"
 
 msgctxt "AuthenticationPage|"
 msgid "Authentication required"
-msgstr ""
+msgstr "المصادقة مطلوبة"
 
 msgctxt "AuthenticationPage|"
 msgid "OK"
@@ -229,123 +232,123 @@ msgstr "موافق"
 
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
-msgstr ""
+msgstr "الموقع يقول: \"%1\"."
 
 msgctxt "AuthenticationPage|"
 msgid "Username"
-msgstr ""
+msgstr "اسم المستخدم"
 
 msgctxt "AuthenticationPage|"
 msgid "Password"
-msgstr "كلمة السر"
+msgstr "كلمة المرور"
 
 msgctxt "AuthenticationPage|"
 msgid "Remember"
-msgstr ""
+msgstr "تذكّر"
 
 msgctxt "BackupComboBox|"
 msgid "5 minutes"
-msgstr ""
+msgstr "5 دقائق"
 
 msgctxt "BackupComboBox|"
 msgid "15 minutes"
-msgstr ""
+msgstr "15 دقيقة"
 
 msgctxt "BackupComboBox|"
 msgid "1 hour"
-msgstr ""
+msgstr "1 ساعة"
 
 msgctxt "BackupComboBox|"
 msgid "3 hours"
-msgstr ""
+msgstr "3 ساعات"
 
 msgctxt "BackupComboBox|"
 msgid "1 day"
-msgstr ""
+msgstr "1 يوم"
 
 msgctxt "BackupSlider|"
 msgid "5 minutes"
-msgstr ""
+msgstr "5 دقائق"
 
 msgctxt "BackupSlider|"
 msgid "15 minutes"
-msgstr ""
+msgstr "15 دقيقة"
 
 msgctxt "BackupSlider|"
 msgid "1 hour"
-msgstr ""
+msgstr "1 ساعة"
 
 msgctxt "BackupSlider|"
 msgid "3 hours"
-msgstr ""
+msgstr "3 ساعات"
 
 msgctxt "BackupSlider|"
 msgid "1 day"
-msgstr ""
+msgstr "1 يوم"
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
-msgstr ""
+msgstr "قص"
 
 msgctxt "BaseTextArea|"
 msgid "Copy"
-msgstr ""
+msgstr "نسخ"
 
 msgctxt "BaseTextArea|"
 msgid "Paste"
-msgstr ""
+msgstr "لصق"
 
 msgctxt "BaseTextField|"
 msgid "Cut"
-msgstr ""
+msgstr "قص"
 
 msgctxt "BaseTextField|"
 msgid "Copy"
-msgstr ""
+msgstr "نسخ"
 
 msgctxt "BaseTextField|"
 msgid "Paste"
-msgstr ""
+msgstr "لصق"
 
 msgctxt "BatchVideoQuality|"
 msgid "Preferred Video Quality:"
-msgstr ""
+msgstr "جودة الفيديو المفضلة:"
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
-msgstr ""
+msgstr "ك.بت/ث"
 
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
-msgstr ""
+msgstr "من %1 %2 إلى %3 %4"
 
 msgctxt "BitrateComboBox|"
 msgid "CD quality"
-msgstr ""
+msgstr "جودة القرص المدمج"
 
 msgctxt "BitrateComboBox|"
 msgid "High quality"
-msgstr ""
+msgstr "جودة عالية"
 
 msgctxt "BitrateComboBox|"
 msgid "Medium quality"
-msgstr ""
+msgstr "جودة متوسطة"
 
 msgctxt "BitrateComboBox|"
 msgid "Radio quality"
-msgstr ""
+msgstr "جودة الراديو"
 
 msgctxt "BitrateComboBox|"
 msgid "Low quality"
-msgstr ""
+msgstr "جودة منخفضة"
 
 msgctxt "BitrateComboBox|"
 msgid "Speech"
-msgstr ""
+msgstr "الكلام"
 
 msgctxt "BitrateComboBox|"
 msgid "Lowest quality, smallest file size"
-msgstr ""
+msgstr "أقل جودة, أقل حجم ملف"
 
 msgctxt "BottomPanelTools|"
 msgid "General"
@@ -361,56 +364,63 @@ msgstr "ملفات"
 
 msgctxt "BottomPanelTools|"
 msgid "Connections"
-msgstr ""
-
+msgstr "اتصالات"
 
 msgctxt "Browser|"
 msgid "Enter URL"
-msgstr ""
+msgstr "أدخل عنوان URL"
 
 msgctxt "Browser|"
 msgid "Bookmark removed"
-msgstr ""
+msgstr "تم إزالة الإشارة المرجعية"
 
 msgctxt "Browser|"
 msgid "Bookmark added"
-msgstr ""
+msgstr "تم إضافة إشارة مرجعية"
 
 msgctxt "Browser|"
 msgid "Bookmarks"
-msgstr ""
+msgstr "إشارات مرجعية"
 
 msgctxt "Browser|"
 msgid "There are no bookmarks at the moment"
-msgstr ""
+msgstr "لا توجد إشارات مرجعية حاليا"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr ""
+msgstr "هل أنت متأكد من حذف هذه الإشارة المرجعية؟"
 
 msgctxt "Browser|"
 msgid "YES"
-msgstr ""
+msgstr "نعم"
 
 msgctxt "Browser|"
 msgid "NO"
-msgstr ""
+msgstr "لا"
 
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
-msgstr ""
+msgstr "عودة إلى %1"
 
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
-msgstr ""
+msgstr "إشارات مرجعية"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
-msgstr ""
+msgstr "حذف إشارة مرجعية"
 
 msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
-msgstr ""
+msgstr "إضافة إشارة مرجعية"
+
+msgctxt "BrowserButton|"
+msgid "Download %1 extension"
+msgstr "تنزيل امتداد %1"
+
+msgctxt "BrowserButton|"
+msgid "%1 is not installed"
+msgstr "%1 غير مثبت"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
@@ -420,23 +430,11 @@ msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
-msgstr ""
+msgstr "تأكد أن الامتداد %1 مثبت, وإلا، اضغط واحدا من الأزرار الآتية"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Download Firefox extension"
-msgstr ""
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Firefox is not installed"
-msgstr ""
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Download Google Chrome extension"
-msgstr ""
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Google Chrome is not installed"
-msgstr ""
+msgid "Other supported browsers"
+msgstr "المتصفحات الأخرى المدعومة"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -444,7 +442,7 @@ msgstr "التقاط التنزيلات تلقائياً من المتصفحات
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Intercept downloads in your web browser"
-msgstr ""
+msgstr "التقاط التنزيلات من متصفحك"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Start downloading without confirmation"
@@ -452,23 +450,23 @@ msgstr "بدء التنزيل دون تأكيد"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip domains"
-msgstr ""
+msgstr "تخطي النطاقات"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Edit list"
-msgstr ""
+msgstr "تحرير القائمة"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid domain?"
-msgstr ""
+msgstr "هل أنت متأكد أن هذا نطاق صحيح؟"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip files with extensions"
-msgstr ""
+msgstr "تخطي الملفات ذات الامتدادات"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid file extension?"
-msgstr ""
+msgstr "هل أنت متأكد أن هذا امتداد ملف صحيح؟"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't catch downloads smaller than"
@@ -476,7 +474,7 @@ msgstr "لا تقم بالتقاط التنزيلات أصغر من"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
-msgstr ""
+msgstr "ميجابايت"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
@@ -493,10 +491,21 @@ msgid ""
 "browser does not provide to %1 (or there is no universal way for all "
 "browsers to do this)."
 msgstr ""
+"أنت على وشك فتح متصفح مضمن.\n"
+"\n"
+"يساعدك لإضافة التنزيلات إلى %1.\n"
+"\n"
+"بعضها (مثل: جوجل درايف) يمكن إضافته عبر هذا المتصفح فقط, وذلك لاحتياجه "
+"لمعلومات أخرى لا يمكن لمتصفح نظام أندرويد أن يقدمها إلى %1 (أو لا توجد وسيلة "
+"متفق عليها بين كل المتصفحات لفعل ذلك)."
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
-msgstr ""
+msgstr "استمرار"
+
+msgctxt "BrowserListElement|"
+msgid "(browser is not installed)"
+msgstr "(المتصفح غير مثبت)"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -528,43 +537,47 @@ msgstr "موافق"
 
 msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
-msgstr ""
+msgstr "التنزيل من هذا الموقع غير مسموح به"
 
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
-msgstr ""
+msgstr "الخادم الوكيل %1 يطلب اسم مستخدم وكلمة مرور."
 
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
-msgstr ""
+msgstr "%1 يطلب اسم المستخدم وكلمة المرور."
 
 msgctxt "BuildDownloadTools|"
 msgid "Querying info. Please wait..."
-msgstr ""
+msgstr "جلب المعلومات. الرجاء الانتظار.."
 
 msgctxt "ButtonsBlock|"
 msgid "Please select download link"
-msgstr ""
+msgstr "يرجى اختيار رابط التنزيل"
 
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
+msgstr "لا يمكن اختيار أكثر من %1 رابط في المرة الواحدة"
+
+msgctxt "ButtonsBlock|"
+msgid "No write access to the selected directory"
 msgstr ""
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
-msgstr ""
+msgstr "لا توجد مساحة تخزين كافية"
 
 msgctxt "ButtonsBlock|"
 msgid "The path contains invalid characters"
-msgstr ""
+msgstr "المسار يحتوي رموز غير صالحة"
 
 msgctxt "ButtonsBlock|"
 msgid "The subfolder name contains invalid characters"
-msgstr ""
+msgstr "المجلد الفرعي يحتوي رموز غير صالحة"
 
 msgctxt "ButtonsBlock|"
 msgid "The filename contains invalid characters"
-msgstr ""
+msgstr "اسم الملف يحتوي رموز غير صالحة"
 
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
@@ -614,14 +627,13 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "بدء التنزيل"
 
-
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
-msgstr ""
+msgstr "لا يوجد اتصالات"
 
 msgctxt "ConnectionsTab|"
 msgid "Host"
-msgstr ""
+msgstr "المضيف"
 
 msgctxt "ConnectionsTab|"
 msgid "Port"
@@ -629,11 +641,11 @@ msgstr "المنفذ"
 
 msgctxt "ConnectionsTab|"
 msgid "Connection count"
-msgstr ""
+msgstr "عدد الاتصالات"
 
 msgctxt "ConvertationDialog|"
 msgid "Convert to mp3 with adjustable bitrate"
-msgstr ""
+msgstr "التحويل لصيغة mp3 مع معدل بيانات قابل للضبط"
 
 msgctxt "ConvertationDialog|"
 msgid "Save to"
@@ -649,19 +661,19 @@ msgstr "إلغاء"
 
 msgctxt "ConvertationDialog|"
 msgid "Bitrate (quality)"
-msgstr ""
+msgstr "معدل بيانات (جودة)"
 
 msgctxt "ConvertationDialog|"
 msgid "Constant bitrate of value"
-msgstr ""
+msgstr "معدل بيانات ثابت قيمته"
 
 msgctxt "ConvertationDialog|"
 msgid "Variable bitrate (VBR)"
-msgstr ""
+msgstr "معدل بيانات متغير"
 
 msgctxt "ConvertationDialog|"
 msgid "The path contains invalid characters"
-msgstr ""
+msgstr "المسار يحتوي رموز غير صالحة"
 
 msgctxt "ConvertationDialog|"
 msgid "OK"
@@ -669,11 +681,11 @@ msgstr "موافق"
 
 msgctxt "ConvertationPage|"
 msgid "Convert to mp3"
-msgstr ""
+msgstr "التحويل إلى mp3"
 
 msgctxt "ConvertationPage|"
 msgid "Convert to mp3 with adjustable bitrate"
-msgstr ""
+msgstr "التحويل لصيغة mp3 مع معدل بيانات قابل للضبط"
 
 msgctxt "ConvertationPage|"
 msgid "OK"
@@ -685,19 +697,19 @@ msgstr "حفظ إلى"
 
 msgctxt "ConvertationPage|"
 msgid "The path contains invalid characters"
-msgstr ""
+msgstr "المسار يحتوي رموز غير صالحة"
 
 msgctxt "ConvertationPage|"
 msgid "Bitrate (quality)"
-msgstr ""
+msgstr "معدل بيانات (جودة)"
 
 msgctxt "ConvertationPage|"
 msgid "Constant bitrate of value"
-msgstr ""
+msgstr "معدل بيانات ثابت قيمته"
 
 msgctxt "ConvertationPage|"
 msgid "Variable bitrate (VBR)"
-msgstr ""
+msgstr "معدل بيانات متغير"
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
@@ -705,20 +717,20 @@ msgstr "نسخ الرابط"
 
 msgctxt "CopyMenu|"
 msgid "Copy"
-msgstr ""
+msgstr "نسخ"
 
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
-msgstr ""
+msgstr "حدث خطأ داخلي. %1 يحتاج لإعادة تشغيله ليستمر استخدامه."
 
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
-msgstr ""
+msgstr "إعادة تشغيل %1 تلقائيا"
 
 msgctxt "CrashReporter|"
 msgid "Failed to send the report.<br>Check your Internet connection."
-msgstr ""
+msgstr "فشل إرسال التقرير. تأكد من الاتصال بالإنترنت."
 
 msgctxt "CrashReporter|"
 msgid "Error"
@@ -726,7 +738,7 @@ msgstr "خطأ"
 
 msgctxt "CreateFolderDialog|"
 msgid "Create folder"
-msgstr ""
+msgstr "إنشاء مجلد"
 
 msgctxt "CreateFolderDialog|"
 msgid "OK"
@@ -735,6 +747,62 @@ msgstr "موافق"
 msgctxt "CreateFolderDialog|"
 msgid "Cancel"
 msgstr "إلغاء"
+
+msgctxt "CreatePortableDialog|"
+msgid "Create portable version"
+msgstr "إنشاء إصدار متنقل"
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Portable version of %1 can be used on different computers without the need "
+"to install and configure it on each of them."
+msgstr ""
+"الإصدار المتنقل من %1 يمكن استخدامه على أجهزة حاسوب مختلفة دون الحاجة "
+"لتثبيته أو تهيئته على كل واحد منها."
+
+msgctxt "CreatePortableDialog|"
+msgid "It can be conveniently placed on a flash disk, for example."
+msgstr "يمكن بسهولة وضعه مثلا على قرص فلاش."
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Specify here the path where you would like to create this version. It should "
+"be a folder on some removable drive."
+msgstr ""
+"حدد هنا المسار الذي تريده لإنشاء هذا الإصدار. يجب أن يكون مجلد على محرك "
+"أقراص قابل للإزالة."
+
+msgctxt "CreatePortableDialog|"
+msgid "Open"
+msgstr "فتح"
+
+msgctxt "CreatePortableDialog|"
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgctxt "CreatePortableDialog|"
+msgid "Please specify the path."
+msgstr "يرجى تحديد المسار."
+
+msgctxt "CreatePortableDialog|"
+msgid "OK"
+msgstr "موافق"
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating %1%"
+msgstr "إنشاء %1%"
+
+msgctxt "CreatePortableDialog|"
+msgid "An error occurred while creating a portable version: %1"
+msgstr "حدث خطأ أثناء إنشاء الإصدار المتنقل: %1"
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating a portable version was successfully completed."
+msgstr "إنشاء الإصدار المتنقل تم بنجاح."
+
+msgctxt "CreatePortableDialog|"
+msgid "Close"
+msgstr "إغلاق"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
@@ -762,11 +830,11 @@ msgstr "موافق"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete this file?"
-msgstr ""
+msgstr "حذف هذا الملف؟"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected files?"
-msgstr ""
+msgstr "حذف هذه الملفات؟"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Delete selected downloads"
@@ -774,7 +842,7 @@ msgstr "حذف التنزيلات المحددة"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Are you sure you want to delete the selected file(s)?"
-msgstr ""
+msgstr "هل أنت متأكد من رغبتك بحذف الملفات المحددة؟"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "OK"
@@ -786,24 +854,23 @@ msgstr "إلغاء"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr ""
+msgstr "الحجم: %1 (مساحة القرص: %2)"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1"
-msgstr ""
+msgstr "الحجم: %1"
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
-msgstr "الملف مفقود"
+msgstr "الملف غير موجود"
 
 msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
-msgstr ""
-
+msgstr "القرص غير موجود"
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
-msgstr ""
+msgstr "روابط التنزيل ( %1 محدد)"
 
 msgctxt "DownloadsList|"
 msgid "Select all"
@@ -811,15 +878,15 @@ msgstr "تحديد الكل"
 
 msgctxt "DownloadsList|"
 msgid "Select none"
-msgstr "لا تختر شيئاً"
+msgstr "لا تختر شيئا"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
-msgstr ""
+msgstr "قائمة التنزيلات فارغة."
 
 msgctxt "DownloadsPage|"
 msgid "Add new download URL."
-msgstr ""
+msgstr "إضافة عنوان تنزيل جديد."
 
 msgctxt "DownloadsPage|"
 msgid "No results found for"
@@ -827,7 +894,7 @@ msgstr "لا توجد نتائج لـ"
 
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
-msgstr ""
+msgstr "لا توجد نتائج معلمة بـ\"%1\""
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
@@ -843,11 +910,59 @@ msgstr "إظهار الكل"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
+msgstr "قائمة التنزيلات فارغة. أضف عنوان تنزيل جديد."
+
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr "بدء التنزيل دون تأكيد"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr "إزالة الملفات المحذوفة من قائمة التنزيلات تلقائيا"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr "إزالة التنزيلات المكتملة من قائمة التنزيلات تلقائيا"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr "استخدم وقت الخادم لإنشاء الملف"
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr "اقتراح مجلدات استنادا إلى نوع الملف"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "اقتراح مجلدات استنادا إلى رابط التنزيل"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Macros"
 msgstr ""
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
-msgstr ""
+msgstr "إزالة علامة"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Name"
@@ -887,7 +1002,7 @@ msgstr "إظهار في المجلد"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
-msgstr ""
+msgstr "إظهار التنزيلات"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Choose Files..."
@@ -927,15 +1042,19 @@ msgstr "تنزيل متسلسل"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
-msgstr ""
+msgstr "إضافة مرآة"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "نسخ الرابط"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Add Tag"
+msgid "Export selected downloads"
 msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Add Tag"
+msgstr "إضافة علامة"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "File integrity"
@@ -951,11 +1070,11 @@ msgstr "تغيير الرابط"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
-msgstr ""
+msgstr "التحويل إلى mp3"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
-msgstr ""
+msgstr "عمل فحص ضد الفيروسات"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
@@ -983,19 +1102,19 @@ msgstr "اكتمل التنزيل"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Moving... %1%"
-msgstr ""
+msgstr "نقل... %1%"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
-msgstr ""
+msgstr "فحص الملفات..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Converting to mp3..."
-msgstr ""
+msgstr "التحويل إلى mp3..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
-msgstr ""
+msgstr "دمج تدفق الوسائط..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Requesting info..."
@@ -1003,7 +1122,7 @@ msgstr "طلب المعلومات..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Queued"
-msgstr "قيد الاِنتظار"
+msgstr "قيد الانتظار"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Paused"
@@ -1013,30 +1132,29 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "حجم الملف غير معروف"
 
-
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files..."
-msgstr ""
+msgstr "فحص الملفات..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Merging media streams..."
-msgstr ""
+msgstr "دمج تدفق الوسائط..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
-msgstr "قيد الاِنتظار"
+msgstr "قيد الانتظار"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Moving... %1%"
-msgstr ""
+msgstr "نقل... %1%"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Converting to mp3..."
-msgstr ""
+msgstr "التحويل إلى mp3..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking for viruses..."
-msgstr ""
+msgstr "الفحص بحثا عن فيروسات..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1054,6 +1172,78 @@ msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "مكتمل"
 
+msgctxt "ExportDownloadsDialog|"
+msgid "Export selected downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export all downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Save to"
+msgstr "حفظ إلى"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Open"
+msgstr "فتح"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "All files (%1)"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export only completed downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "%1 downloads files (%2)"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Default format"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "List of URLs"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Text files (%1)"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV file"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV files (%1)"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "Export"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgctxt "ExportSettingsDialog|"
+msgid "%1 settings files (%2)"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "All files (%1)"
+msgstr ""
+
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
 msgstr "فحص سلامة الملف"
@@ -1064,7 +1254,7 @@ msgstr "تجزئة"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
-msgstr ""
+msgstr "حساب %1%"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Compare with"
@@ -1080,7 +1270,7 @@ msgstr "فشل التحقق"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Close"
-msgstr "إغلاق "
+msgstr "إغلاق"
 
 msgctxt "FileIntegrityPage|"
 msgid "Check file integrity"
@@ -1088,15 +1278,15 @@ msgstr "فحص سلامة الملف"
 
 msgctxt "FileIntegrityPage|"
 msgid "MD5"
-msgstr ""
+msgstr "MD5"
 
 msgctxt "FileIntegrityPage|"
 msgid "SHA-1"
-msgstr ""
+msgstr "SHA-1"
 
 msgctxt "FileIntegrityPage|"
 msgid "SHA-256"
-msgstr ""
+msgstr "SHA-256"
 
 msgctxt "FileIntegrityPage|"
 msgid "Hash"
@@ -1104,7 +1294,7 @@ msgstr "تجزئة"
 
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
-msgstr ""
+msgstr "حساب %1%"
 
 msgctxt "FileIntegrityPage|"
 msgid "Compare with"
@@ -1120,7 +1310,7 @@ msgstr "فشل التحقق"
 
 msgctxt "FileManagerSupportDialog|"
 msgid "No supported file managers found."
-msgstr ""
+msgstr "لم يتم إيجاد مدير ملفات مدعوم."
 
 msgctxt "FileName|"
 msgid "Create subfolder"
@@ -1136,7 +1326,7 @@ msgstr "تحديد المجلد"
 
 msgctxt "FilePickerPage|"
 msgid "Select file"
-msgstr ""
+msgstr "تحديد ملف"
 
 msgctxt "FilePickerPage|"
 msgid "OK"
@@ -1144,35 +1334,35 @@ msgstr "موافق"
 
 msgctxt "FilePickerPage|"
 msgid "Empty folder"
-msgstr ""
+msgstr "مجلد فارغ"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By date"
-msgstr ""
+msgstr "بالتاريخ"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By name"
-msgstr ""
+msgstr "بالاسم"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By size"
-msgstr ""
+msgstr "بالحجم"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Sort"
-msgstr ""
+msgstr "ترتيب"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Ascending"
-msgstr ""
+msgstr "تصاعدي"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Descending"
-msgstr ""
+msgstr "تنازلي"
 
 msgctxt "FileType|"
 msgid "Preferred File Type:"
-msgstr ""
+msgstr "نوع الملف المفضل:"
 
 msgctxt "FilesTree|"
 msgid "Name"
@@ -1212,7 +1402,7 @@ msgstr "تحديد الكل"
 
 msgctxt "FilesTree|"
 msgid "Select none"
-msgstr "لا تختر شيئاً"
+msgstr "لا تختر شيئا"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High Priority"
@@ -1244,7 +1434,7 @@ msgstr "سلامة الملف"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
-msgstr ""
+msgstr "تحويل الفيديو إلى mp3"
 
 msgctxt "GeneralSettings|"
 msgid "General"
@@ -1252,26 +1442,20 @@ msgstr "عام"
 
 msgctxt "GeneralSettings|"
 msgid "Choose theme"
-msgstr ""
+msgstr "اختيار سمة"
 
 msgctxt "GeneralSettings|"
 msgid "Light"
-msgstr ""
+msgstr "فاتح"
 
 msgctxt "GeneralSettings|"
 msgid "Dark"
-msgstr ""
+msgstr "مظلم"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
-msgstr ""
+msgstr "لغة"
 
-msgctxt "GeneralSettings|"
-msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
-msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1279,22 +1463,58 @@ msgstr "التنزيلات"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
-msgstr "اقتراح مجلدات استناداً على نوع الملف"
+msgstr "اقتراح مجلدات استنادا إلى نوع الملف"
 
 msgctxt "GeneralSettings|"
-msgid "Suggest folders based on download URL"
-msgstr "اقتراح مجلدات استناداً على رابط التنزيل"
-
-msgctxt "GeneralSettings|"
-msgid "Compact view of downloads list"
+msgid "Your language is not listed or the translation isn't complete?"
 msgstr ""
 
 msgctxt "GeneralSettings|"
+msgid "Let's fix it!"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "اقتراح مجلدات استنادا إلى رابط التنزيل"
+
+msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr "فتح"
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Compact view of downloads list"
+msgstr "العرض المدمج لقائمة التنزيلات"
+
+msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "إزالة الملفات المحذوفة من قائمة التنزيلا تلقائياً"
+msgstr "إزالة الملفات المحذوفة من قائمة التنزيلات تلقائيا"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
+msgstr "إزالة التنزيلات المكتملة من قائمة التنزيلات تلقائيا"
+
+msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
 msgstr ""
 
 msgctxt "GeneralSettings|"
@@ -1307,24 +1527,19 @@ msgstr "تحديث"
 
 msgctxt "GeneralSettings|"
 msgid "Check for updates automatically"
-msgstr "التحقق من وجود تحديثات تلقائياً"
+msgstr "التحقق من وجود تحديثات تلقائيا"
 
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
-msgstr "تثبيت التحديثات تلقائياً"
+msgstr "تثبيت التحديثات تلقائيا"
 
 msgctxt "GeneralSettings|"
 msgid "Dark theme"
-msgstr ""
-
-msgctxt "GeneralSettings|"
-msgid "Start downloading without confirmation"
-msgstr "بدء التنزيل دون تأكيد"
+msgstr "سمة مظلمة"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
-msgstr ""
-
+msgstr "استخدام شبكة الموبايل"
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1344,7 +1559,7 @@ msgstr "سرعة الرفع:"
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
-msgstr ""
+msgstr "إضافة في:"
 
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
@@ -1356,22 +1571,78 @@ msgstr "النطاق:"
 
 msgctxt "GeneralTab|"
 msgid "Added:"
-msgstr ""
+msgstr "تمت الإضافة:"
 
 msgctxt "GeneralTab|"
 msgid "Progress:"
-msgstr ""
+msgstr "التقدم:"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
-msgstr ""
+msgstr "MD5"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-1"
-msgstr ""
+msgstr "MD5"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
+msgstr "MD5"
+
+msgctxt "ImportDialog|"
+msgid "Import"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgctxt "ImportDialog|"
+msgid "All files (%1)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "Text files (%1)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "%1 downloads files (%2)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "%1 settings files (%2)"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Error: %1"
+msgstr "خطأ: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "OK"
+msgstr "موافق"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import the list of URLs from the file: %1"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to export"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to export to the file: %1"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to import"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import from the file: %1"
 msgstr ""
 
 msgctxt "IntegrationBanner|"
@@ -1380,23 +1651,23 @@ msgstr "تعيين كافتراضي"
 
 msgctxt "IntegrationBanner|"
 msgid "Don't ask again"
-msgstr ""
+msgstr "لا تسأل مرة أخرى"
 
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
-msgstr ""
+msgstr "إغلاق على أي حال؟"
 
 msgctxt "LanguageDialog|"
 msgid "Language"
-msgstr ""
+msgstr "اللغة"
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
-msgstr ""
+msgstr "المتصفح"
 
 msgctxt "LeftDrawer|"
 msgid "Settings"
-msgstr " الإعدادات"
+msgstr "الإعدادات"
 
 msgctxt "LeftDrawer|"
 msgid "Contact support"
@@ -1404,11 +1675,11 @@ msgstr "اتصل بالدعم"
 
 msgctxt "LeftDrawer|"
 msgid "About"
-msgstr ""
+msgstr "حول"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
-msgstr ""
+msgstr "إضافة تنزيل جديد"
 
 msgctxt "ListEditor|"
 msgid "Add"
@@ -1416,6 +1687,34 @@ msgstr "إضافة"
 
 msgctxt "ListEditor|"
 msgid "Hide"
+msgstr "إخفاء"
+
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
 msgstr ""
 
 msgctxt "MainFiltersBar|"
@@ -1433,6 +1732,30 @@ msgstr "مكتمل"
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
 msgstr "لصق روابط من الحافظة"
+
+msgctxt "MainMenu|"
+msgid "Paste Urls from File"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export/Import"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export all downloads"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Import downloads"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export settings"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Import settings"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -1459,12 +1782,16 @@ msgid "Shutdown"
 msgstr "إيقاف التشغيل"
 
 msgctxt "MainMenu|"
+msgid "Create portable version"
+msgstr "إنشاء إصدار متنقل"
+
+msgctxt "MainMenu|"
 msgid "Check for Updates..."
 msgstr "التحقق من التحديثات..."
 
 msgctxt "MainMenu|"
 msgid "About"
-msgstr ""
+msgstr "حول"
 
 msgctxt "MainMenu|"
 msgid "Quit"
@@ -1472,25 +1799,25 @@ msgstr "خروج"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
-msgstr "وضع القوقع يخلي عرض النطاق الترددي بدون إيقاف التنزيلات."
+msgstr "الوضع البطيء يحرر عرض النطاق الترددي دون إيقاف التنزيلات."
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
-msgstr "وضع القوقع"
+msgstr "الوضع البطيئ"
 
 msgctxt "MainStatusBar|"
 msgid "No Internet connection"
-msgstr ""
+msgstr "لا يوجد اتصال بالإنترنت"
 
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "%n تنزيل محدد."
+msgstr[1] "%n تنزيل محدد."
+msgstr[2] "%n تنزيل محدد."
+msgstr[3] "%n تنزيل محدد."
+msgstr[4] "%n تنزيل محدد."
+msgstr[5] "%n تنزيل محدد."
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -1534,15 +1861,15 @@ msgstr "غير محدود"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Custom..."
-msgstr ""
+msgstr "مخصص..."
 
 msgctxt "MaxURatioComboBox|"
 msgid "%"
-msgstr ""
+msgstr "%"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Custom value"
-msgstr ""
+msgstr "قيمة مخصصة"
 
 msgctxt "MaxURatioComboBox|"
 msgid "OK"
@@ -1553,36 +1880,40 @@ msgid "CANCEL"
 msgstr "إلغاء"
 
 msgctxt "MaxURatioComboBox|"
+msgid "Invalid value"
+msgstr "قيمة غير صالحة"
+
+msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
-msgstr ""
+msgstr "يجب أن يكون رقما أكبر من الصفر."
 
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
-msgstr ""
+msgstr "التنزيل موجود بالفعل"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "URL:"
-msgstr ""
+msgstr "عنوان:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Path:"
-msgstr ""
+msgstr "مسار:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Size:"
-msgstr "الحجم: "
+msgstr "الحجم:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Added at:"
-msgstr ""
+msgstr "إضافة في:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
 msgstr "تخطي"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "OK"
-msgstr "موافق"
+msgid "Skip all (%1)"
+msgstr ""
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -1590,29 +1921,37 @@ msgstr "تنزيل"
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
-msgstr ""
+msgstr "لا يوجد اتصال بالإنترنت"
 
 msgctxt "ModeButton|"
 msgid "Mobile data use disabled"
-msgstr ""
+msgstr "استخدام شبكة الموبايل تم تعطيله"
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
-msgstr ""
+msgstr "نقل التنزيل فشل"
 
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
-msgstr ""
+msgstr "خطأ: %1"
 
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
-msgstr ""
+msgstr "غير قادر على نقل: %1"
 
 msgctxt "MovingFailedDialog|"
 msgid "Try again"
-msgstr ""
+msgstr "حاول مرة أخرى"
 
 msgctxt "MovingFailedDialog|"
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgctxt "MovingFolderDialog|"
+msgid "Move"
+msgstr "نقل"
+
+msgctxt "MovingFolderDialog|"
 msgid "Cancel"
 msgstr "إلغاء"
 
@@ -1630,23 +1969,23 @@ msgstr "خروج"
 
 msgctxt "NativeMenuBar|"
 msgid "&File"
-msgstr ""
+msgstr "&ملف"
 
 msgctxt "NativeMenuBar|"
 msgid "Add &new download"
-msgstr ""
+msgstr "إضافة تنزيل &جديد"
 
 msgctxt "NativeMenuBar|"
 msgid "&Edit"
-msgstr ""
+msgstr "&تحرير"
 
 msgctxt "NativeMenuBar|"
 msgid "&Copy"
-msgstr ""
+msgstr "&نسخ"
 
 msgctxt "NativeMenuBar|"
 msgid "&Paste"
-msgstr ""
+msgstr "&لصق"
 
 msgctxt "NativeMenuBar|"
 msgid "Downloads"
@@ -1710,7 +2049,7 @@ msgstr "HTTP:"
 
 msgctxt "NetworkSettings|"
 msgid ":"
-msgstr ""
+msgstr ":"
 
 msgctxt "NetworkSettings|"
 msgid "HTTPS:"
@@ -1722,31 +2061,31 @@ msgstr "FTP:"
 
 msgctxt "NetworkSettings|"
 msgid "SOCKS5:"
-msgstr ""
+msgstr "SOCKS5:"
 
 msgctxt "NetworkSettings|"
 msgid "Invalid proxy settings"
-msgstr ""
+msgstr "إعدادات خادم وكيل غير صالحة"
 
 msgctxt "NetworkSettings|"
 msgid "Proxy settings"
-msgstr ""
+msgstr "إعدادات الخادم الوكيل"
 
 msgctxt "NetworkSettings|"
 msgid "HTTP"
-msgstr ""
+msgstr "HTTP"
 
 msgctxt "NetworkSettings|"
 msgid "HTTPS"
-msgstr ""
+msgstr "HTTPS"
 
 msgctxt "NetworkSettings|"
 msgid "FTP"
-msgstr ""
+msgstr "FTP"
 
 msgctxt "NetworkSettings|"
 msgid "SOCKS5"
-msgstr ""
+msgstr "SOCKS5"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Unlimited"
@@ -1754,19 +2093,19 @@ msgstr "غير محدود"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom..."
-msgstr ""
+msgstr "مخصص..."
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "KB/s"
-msgstr ""
+msgstr "ك.بايت/ث"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Please enter numbers only"
-msgstr ""
+msgstr "يرجى إدخال أرقام فقط"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom value"
-msgstr ""
+msgstr "قيمة مخصصة"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "OK"
@@ -1777,12 +2116,16 @@ msgid "CANCEL"
 msgstr "إلغاء"
 
 msgctxt "NetworkSpeedLimitComboBox|"
+msgid "Invalid value"
+msgstr "قيمة غير صالحة"
+
+msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
-msgstr ""
+msgstr "يجب أن يكون رقما أكبر من الصفر."
 
 msgctxt "Page|"
 msgid "Info"
-msgstr ""
+msgstr "معلومات"
 
 msgctxt "Page|"
 msgid "Files"
@@ -1790,31 +2133,31 @@ msgstr "ملفات"
 
 msgctxt "Page|"
 msgid "Connections"
-msgstr ""
+msgstr "اتصالات"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
-msgstr ""
+msgstr "الصوت"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Video"
-msgstr ""
+msgstr "الفيديو"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Low (240p)"
-msgstr ""
+msgstr "منخفضة (240ب)"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Medium (480p)"
-msgstr ""
+msgstr "متوسطة (480ب)"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "High (1080p)"
-msgstr ""
+msgstr "عالية (1080ب)"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "4K (2160p)"
-msgstr ""
+msgstr "4K (2160ب)"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -1822,11 +2165,11 @@ msgstr "خطأ غير متوقع"
 
 msgctxt "QObject|"
 msgid "Service connection terminated."
-msgstr ""
+msgstr "انقطع الاتصال بالخدمة."
 
 msgctxt "QObject|"
 msgid "App backend's server listen failed."
-msgstr ""
+msgstr "فشل الاستماع لخادم الوجهة الخلفية للتطبيق."
 
 msgctxt "QObject|"
 msgid "Error"
@@ -1834,37 +2177,39 @@ msgstr "خطأ"
 
 msgctxt "QObject|"
 msgid "Connection failure"
-msgstr ""
+msgstr "فشل الاتصال"
 
 msgctxt "QObject|"
 msgid "App frontend's server listen failed."
-msgstr ""
+msgstr "فشل الاستماع لخادم الوجهة الأمامية للتطبيق."
 
 msgctxt "QObject|"
 msgid "QML load failure."
-msgstr ""
+msgstr "تحميل QML فشل."
 
 msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
-msgstr ""
+msgstr "فشل بدء مدير حالة التطبيق."
 
 msgctxt "QObject|"
 msgid ""
 "\n"
 "Error: %1"
 msgstr ""
+"\n"
+"خطأ: %1"
 
 msgctxt "QObject|"
 msgid "Enter URL"
-msgstr ""
+msgstr "أدخل عنوان URL"
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
-msgstr ""
+msgstr "%1 فشل في البدء. يرجى إعادة التثبيت."
 
 msgctxt "QObject|"
 msgid "Reason: %1"
-msgstr ""
+msgstr "السبب: %1"
 
 msgctxt "QObject|"
 msgid "Contact Support"
@@ -1872,7 +2217,7 @@ msgstr "اتصل بالدعم"
 
 msgctxt "QObject|"
 msgid "Exit"
-msgstr ""
+msgstr "إنهاء"
 
 msgctxt "QObject|"
 msgid "Show main window"
@@ -1888,11 +2233,11 @@ msgstr "خروج"
 
 msgctxt "QObject|"
 msgid "%1 K"
-msgstr "%1 ك."
+msgstr "%1 ك"
 
 msgctxt "QObject|"
 msgid "%1 M"
-msgstr "%1 م."
+msgstr "%1 م"
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -1900,11 +2245,19 @@ msgstr "اكتمل التنزيل"
 
 msgctxt "QObject|"
 msgid "Downloads complete"
+msgstr "اكتملت التنزيلات"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
 msgstr ""
 
 msgctxt "QObject|"
 msgid "Download added"
-msgstr ""
+msgstr "تم إضافة تنزيل"
 
 msgctxt "QObject|"
 msgid "Unknown error"
@@ -1912,43 +2265,43 @@ msgstr "‏‏خطأ غير معروف"
 
 msgctxt "QObject|"
 msgid "File read error"
-msgstr ""
+msgstr "خطأ في قراءة الملف"
 
 msgctxt "QObject|"
 msgid "Failed to read from file"
-msgstr ""
+msgstr "فشلت القراءة من الملف"
 
 msgctxt "QObject|"
 msgid "File write error"
-msgstr ""
+msgstr "خطأ في كتابة الملف"
 
 msgctxt "QObject|"
 msgid "Failed to write to file"
-msgstr ""
+msgstr "فشلت الكتابة إلى الملف"
 
 msgctxt "QObject|"
 msgid "File open error"
-msgstr ""
+msgstr "خطأ في فتح الملف"
 
 msgctxt "QObject|"
 msgid "Failed to open file"
-msgstr ""
+msgstr "فشل فتح الملف"
 
 msgctxt "QObject|"
 msgid "Access denied"
-msgstr ""
+msgstr "تم رفض الوصول"
 
 msgctxt "QObject|"
 msgid "Access to file is denied"
-msgstr ""
+msgstr "تم رفض الوصول إلى الملف"
 
 msgctxt "QObject|"
 msgid "File error"
-msgstr ""
+msgstr "خطأ بالملف"
 
 msgctxt "QObject|"
 msgid "Unknown file I/O error"
-msgstr ""
+msgstr "خطأ غير معروف بقراءة/كتابة الملف"
 
 msgctxt "QObject|"
 msgid "HTTP Error %1"
@@ -2171,8 +2524,20 @@ msgid "Network connect timeout error"
 msgstr "خطأ في مهلة اتصال الشبكة"
 
 msgctxt "QObject|"
-msgid "Host not found"
+msgid "Unsupported"
+msgstr "غير مدعوم"
+
+msgctxt "QObject|"
+msgid "Invalid parameter"
+msgstr "معامل غير صالح"
+
+msgctxt "QObject|"
+msgid "Unsupported format"
 msgstr ""
+
+msgctxt "QObject|"
+msgid "Host not found"
+msgstr "لم يتم العثور على الخادم"
 
 msgctxt "QObject|"
 msgid "Operation canceled"
@@ -2180,15 +2545,15 @@ msgstr "ألغيت العملية"
 
 msgctxt "QObject|"
 msgid "Connection closed"
-msgstr ""
+msgstr "تم إغلاق الاتصال"
 
 msgctxt "QObject|"
 msgid "Timed out"
-msgstr ""
+msgstr "نفد الوقت المتاح"
 
 msgctxt "QObject|"
 msgid "SSL handshake failed"
-msgstr ""
+msgstr "فشلت مصافحة SSL"
 
 msgctxt "QObject|"
 msgid "Connection refused"
@@ -2196,123 +2561,123 @@ msgstr "تم رفض الاتصال"
 
 msgctxt "QObject|"
 msgid "Network error"
-msgstr ""
+msgstr "خطأ بالشبكة"
 
 msgctxt "QObject|"
 msgid "Operation not permitted"
-msgstr ""
+msgstr "عملية غير مسموح بها"
 
 msgctxt "QObject|"
 msgid "No resume support"
-msgstr ""
+msgstr "لا يوجد دعم للاستئناف"
 
 msgctxt "QObject|"
 msgid "Resource changed"
-msgstr ""
+msgstr "تغير المصادر"
 
 msgctxt "QObject|"
 msgid "Resource changed on server"
-msgstr ""
+msgstr "تغير المصادر على الخادم"
 
 msgctxt "QObject|"
 msgid "Fast resume failure"
-msgstr ""
+msgstr "فشل الاستئناف السريع"
 
 msgctxt "QObject|"
 msgid "Can't process page"
-msgstr ""
+msgstr "لا يمكن معالجة الصفحة"
 
 msgctxt "QObject|"
 msgid "Error processing page content"
-msgstr ""
+msgstr "خطأ أثناء معالجة محتوى الصفحة"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
-msgstr ""
+msgstr "عنوان غير صالح"
 
 msgctxt "QObject|"
 msgid "Untitled"
-msgstr ""
+msgstr "بلا عنوان"
 
 msgctxt "QObject|"
 msgid "Failed to remove current version"
-msgstr ""
+msgstr "فشل حذف الإصدار الحالي"
 
 msgctxt "QObject|"
 msgid "hdiutil error %1"
-msgstr ""
+msgstr "خطأ hdiutil %1"
 
 msgctxt "QObject|"
 msgid "Mount point does not exist"
-msgstr ""
+msgstr "نقطة تحميل غير موجودة"
 
 msgctxt "QObject|"
 msgid "Path to the dump folder."
-msgstr ""
+msgstr "المسار لمجلد التفريغ."
 
 msgctxt "QObject|"
 msgid "Url to upload dumps to."
-msgstr ""
+msgstr "عنوان رفع ملفات التفريغ."
 
 msgctxt "QObject|"
 msgid "Path to the crashed app that can be restarted."
-msgstr ""
+msgstr "مسار التطبيق المنهار الذي يمكن إعادة تشغيله."
 
 msgctxt "QObject|"
 msgid "Name of the crashed application."
-msgstr ""
+msgstr "اسم التطبيق المنهار."
 
 msgctxt "QObject|"
 msgid "Version of the application."
-msgstr ""
+msgstr "إصدار التطبيق."
 
 msgctxt "QObject|"
 msgid "Architecture."
-msgstr ""
+msgstr "البنية."
 
 msgctxt "QObject|"
 msgid "User's operating system."
-msgstr ""
+msgstr "نظام تشغيل المستخدم."
 
 msgctxt "QObject|"
 msgid "Fault module name."
-msgstr ""
+msgstr "اسم الوحدة المختلة."
 
 msgctxt "QObject|"
 msgid "Crash address."
-msgstr ""
+msgstr "عنوان الانهيار."
 
 msgctxt "QObject|"
 msgid "Signature check failure."
-msgstr ""
+msgstr "فشل التحقق من التوقيع."
 
 msgctxt "QObject|"
 msgid "Download with %1"
-msgstr "تحميل بـ %1"
+msgstr "تنزيل بـ %1"
 
 msgctxt "QObject|"
 msgid "Download all with %1"
-msgstr ""
+msgstr "تنزيل الكل بـ %1"
 
 msgctxt "QObject|"
 msgid "Download selected with %1"
-msgstr "تحميل المحدد بـ %1"
+msgstr "تنزيل المحدد بـ %1"
 
 msgctxt "QObject|"
 msgid "Download video with %1"
-msgstr "تحميل الفيديو بـ %1"
+msgstr "تنزيل الفيديو بـ %1"
 
 msgctxt "QObject|"
 msgid "Video"
-msgstr ""
+msgstr "فيديو"
 
 msgctxt "QObject|"
 msgid "Music"
-msgstr ""
+msgstr "موسيقى"
 
 msgctxt "QObject|"
 msgid "There is not enough disk space."
-msgstr ""
+msgstr "لا توجد مساحة تخزين كافية."
 
 msgctxt "QObject|"
 msgid ""
@@ -2320,27 +2685,46 @@ msgid ""
 "%1 has failed to restore it from backup.\n"
 "Please close all your web browsers and try again."
 msgstr ""
+"قائمة التنزيلات تالفة.\n"
+"%1 فشل في استعادتها من النسخ الاحتياطي.\n"
+"يرجى إغلاق كل متصفحاتك والمحاولة مجددا."
 
 msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
-msgstr ""
+msgstr "خطأ فادح: فشل تحميل قاعدة البيانات."
 
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
-msgstr ""
+msgstr "هل تريد حذفها (سيتم تفريغ قائمة التنزيلات وكل بيانات %1) ؟"
 
 msgctxt "QObject|"
 msgid "Failed."
-msgstr ""
+msgstr "فشل."
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
-msgstr ""
+msgstr "معاملات %path% ناقصة."
 
 msgctxt "QObject|"
 msgid "Update URL"
+msgstr "تحديث عنوان"
+
+msgctxt "QObject|"
+msgid "Documents"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
 msgstr ""
 
 msgctxt "SaveTo|"
@@ -2389,7 +2773,7 @@ msgstr "من:"
 
 msgctxt "Scheduler|"
 msgid "Everyday"
-msgstr ""
+msgstr "كل يوم"
 
 msgctxt "Scheduler|"
 msgid "To:"
@@ -2425,15 +2809,15 @@ msgstr "تطبيق"
 
 msgctxt "SchedulerDialog|"
 msgid "All the day"
-msgstr ""
+msgstr "طوال اليوم"
 
 msgctxt "SchedulerDialog|"
 msgid "Everyday"
-msgstr ""
+msgstr "كل يوم"
 
 msgctxt "SchedulerDialog|"
 msgid "Close"
-msgstr "إغلاق "
+msgstr "إغلاق"
 
 msgctxt "SchedulerDialog|"
 msgid "Sun"
@@ -2485,23 +2869,23 @@ msgstr "بحث"
 
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
-msgstr ""
+msgstr "محدد: %1"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Sort"
-msgstr ""
+msgstr "ترتيب"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
-msgstr ""
+msgstr "تصاعدي"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Descending"
-msgstr ""
+msgstr "تنازلي"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
-msgstr ""
+msgstr "إغلاق على أي حال؟"
 
 msgctxt "SettingsPage|"
 msgid "Preferences"
@@ -2525,7 +2909,7 @@ msgstr "حدود نقل البيانات"
 
 msgctxt "SettingsPage|"
 msgid "Antivirus"
-msgstr ""
+msgstr "مضاد الفيروسات"
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
@@ -2533,11 +2917,15 @@ msgstr "متقدم"
 
 msgctxt "SettingsPage|"
 msgid "Settings"
-msgstr " الإعدادات"
+msgstr "الإعدادات"
+
+msgctxt "SettingsPage|"
+msgid "Downloads settings"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
-msgstr ""
+msgstr "إعدادات الشبكة"
 
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
@@ -2545,18 +2933,7 @@ msgstr "حدود نقل البيانات"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
-msgstr ""
-
-
-
-
-
-
-
-
-
-
-
+msgstr "إعدادات متقدمة"
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -2568,11 +2945,11 @@ msgstr "سيدخل الحاسوب في وضع السكون بعد الانتها
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be hibernate after all downloads are completed."
-msgstr ""
+msgstr "سيدخل الحاسوب في وضع الإسبات بعد الانتهاء من كافة التنزيلات."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be shutdown after all downloads are completed."
-msgstr ""
+msgstr "سيدخل الحاسوب في وضع الإغلاق بعد الانتهاء من كافة التنزيلات."
 
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
@@ -2584,55 +2961,55 @@ msgstr "إلغاء"
 
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
-msgstr ""
+msgstr "موافق (%1)"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be put to Sleep mode."
-msgstr ""
+msgstr "تنبيه! سيدخل الحاسوب في وضع السكون."
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be hibernated."
-msgstr ""
+msgstr "تنبيه! سيدخل الحاسوب في وضع الإسبات."
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
-msgstr ""
+msgstr "تنبيه! سيدخل الحاسوب في وضع الإغلاق."
 
 msgctxt "SortTools|"
 msgid "By date"
-msgstr ""
+msgstr "بالتاريخ"
 
 msgctxt "SortTools|"
 msgid "By name"
-msgstr ""
+msgstr "بالاسم"
 
 msgctxt "SortTools|"
 msgid "By size"
-msgstr ""
+msgstr "بالحجم"
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
-msgstr ""
+msgstr "تحذير: مخاطرة أمنية محتملة قادمة"
 
 msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
-msgstr ""
+msgstr "شهادة SSL غير صالحة."
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
-msgstr ""
+msgstr "بصمة الشهادة"
 
 msgctxt "SslDialog|"
 msgid "SHA-256:"
-msgstr ""
+msgstr "SHA-256:"
 
 msgctxt "SslDialog|"
 msgid "SHA1:"
-msgstr ""
+msgstr "SHA1:"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
-msgstr ""
+msgstr "قبول المخاطرة والتنزيل"
 
 msgctxt "SslDialog|"
 msgid "Cancel"
@@ -2640,35 +3017,35 @@ msgstr "إلغاء"
 
 msgctxt "SslDialog|"
 msgid "Security risk"
-msgstr ""
+msgstr "مخاطرة أمنية"
 
 msgctxt "SslDialog|"
 msgid "Continue"
-msgstr ""
+msgstr "استمرار"
 
 msgctxt "StatusItem|"
 msgid "Checking files..."
-msgstr ""
+msgstr "فحص الملفات..."
 
 msgctxt "StatusItem|"
 msgid "Merging media streams..."
-msgstr ""
+msgstr "دمج تدفق الوسائط..."
 
 msgctxt "StatusItem|"
 msgid "Queued"
-msgstr "قيد الاِنتظار"
+msgstr "قيد الانتظار"
 
 msgctxt "StatusItem|"
 msgid "Moving... %1%"
-msgstr ""
+msgstr "نقل... %1%"
 
 msgctxt "StatusItem|"
 msgid "Converting to mp3..."
-msgstr ""
+msgstr "التحويل إلى mp3..."
 
 msgctxt "StatusItem|"
 msgid "Checking for viruses..."
-msgstr ""
+msgstr "الفحص بحثا عن فيروسات..."
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"
@@ -2688,15 +3065,15 @@ msgstr "مكتمل"
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause download"
-msgstr ""
+msgstr "إيقاف مؤقت للتنزيل"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing."
-msgstr ""
+msgstr "التنزيل/التنزيلات الآتية لا يمكن استئنافها بعد التوقف المؤقت."
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause"
-msgstr ""
+msgstr "إيقاف مؤقت"
 
 msgctxt "StopDownloadDialog|"
 msgid "Cancel"
@@ -2704,27 +3081,35 @@ msgstr "إلغاء"
 
 msgctxt "StopDownloadDialog|"
 msgid "This download can't be resumed after pausing"
-msgstr ""
+msgstr "هذا التنزيل لا يمكن استئنافه بعد التوقف المؤقت"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
+msgstr "التنزيل/التنزيلات الآتية لا يمكن استئنافها بعد التوقف المؤقت"
+
+msgctxt "Subtitles|"
+msgid "Download subtitles"
 msgstr ""
+
+msgctxt "Subtitles|"
+msgid "Edit list"
+msgstr "تحرير القائمة"
 
 msgctxt "TagColorDialog|"
 msgid "Remove tag"
-msgstr ""
+msgstr "إزالة علامة"
 
 msgctxt "TagMenu|"
 msgid "Edit"
-msgstr ""
+msgstr "تحرير"
 
 msgctxt "TagMenu|"
 msgid "Remove"
-msgstr ""
+msgstr "إزالة"
 
 msgctxt "TagPalette|"
 msgid "Customize color"
-msgstr ""
+msgstr "تخصيص لون"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -2756,7 +3141,7 @@ msgstr "الحد الأقصى لعدد الاتصالات"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections per server"
-msgstr ""
+msgstr "الحد الأقصى لعدد الاتصالات لكل خادم"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of simultaneous downloads"
@@ -2764,7 +3149,7 @@ msgstr "الحد الأقصى لعدد التنزيلات المتزامنة"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
-msgstr ""
+msgstr "حدود نقل البيانات غير صالحة"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
@@ -2776,15 +3161,15 @@ msgstr "غير محدود"
 
 msgctxt "TumComboBox|"
 msgid "KB/s"
-msgstr ""
+msgstr "ك.بايت/ث"
 
 msgctxt "TumComboBox|"
 msgid "unlimited"
-msgstr ""
+msgstr "غير محدود"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
-msgstr ""
+msgstr "تنزيل: %1, رفع: %2"
 
 msgctxt "TumComboBox|"
 msgid "High"
@@ -2804,15 +3189,15 @@ msgstr "غير محدود"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Custom..."
-msgstr ""
+msgstr "مخصص..."
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "%"
-msgstr ""
+msgstr "%"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Please enter numbers only"
-msgstr ""
+msgstr "يرجى إدخال أرقام فقط"
 
 msgctxt "TumModeBlock|"
 msgid "Download speed"
@@ -2824,23 +3209,23 @@ msgstr "غير محدود"
 
 msgctxt "TumModeBlock|"
 msgid "Max. number of simultaneous downloads"
-msgstr ""
+msgstr "الحد الأقصى لعدد التنزيلات المتزامنة"
 
 msgctxt "TumModeBlock|"
 msgid "Snail mode"
-msgstr "وضع القوقع"
+msgstr "الوضع البطيئ"
 
 msgctxt "TumModeBlock|"
 msgid "Frees bandwidth without stopping downloads."
-msgstr ""
+msgstr "تحرير النطاق الترددي بدون إيقاف التنزيلات."
 
 msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
-msgstr ""
+msgstr "تغيير حدود نقل البيانات"
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
-msgstr ""
+msgstr "تنزيل جديد"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "New file"
@@ -2859,16 +3244,20 @@ msgid "File name"
 msgstr "اسم الملف"
 
 msgctxt "TuneAndAddDownloadPage|"
-msgid "Size: %1 (Disk space: %2)"
+msgid "No write access to the selected directory"
 msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
+msgid "Size: %1 (Disk space: %2)"
+msgstr "الحجم: %1 (مساحة القرص: %2)"
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
-msgstr ""
+msgstr "الحجم: %1"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
-msgstr "يتحقق من وجود تحديثات..."
+msgstr "جار التحقق من وجود تحديثات..."
 
 msgctxt "UpdateDialog|"
 msgid "Error:"
@@ -2892,7 +3281,7 @@ msgstr "تحديث"
 
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
-msgstr ""
+msgstr "%1 محدث حتى تاريخه"
 
 msgctxt "UpdateDialog|"
 msgid "OK"
@@ -2904,11 +3293,11 @@ msgstr "ينزل التحديث"
 
 msgctxt "UpdateDialog|"
 msgid "Error downloading update:"
-msgstr "خطأ في تحميل التحديث:"
+msgstr "خطأ في تنزيل التحديث:"
 
 msgctxt "UpdateDialog|"
 msgid "Checking..."
-msgstr "يتحقق..."
+msgstr "جار التحقق..."
 
 msgctxt "UpdateDialog|"
 msgid "Update downloaded"
@@ -2932,11 +3321,11 @@ msgstr "أعد تشغيل %1 للتحديث"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch (%1)"
-msgstr ""
+msgstr "أعد تشغيل (%1)"
 
 msgctxt "UpdateDialog|"
 msgid "Later"
-msgstr ""
+msgstr "لاحقا"
 
 msgctxt "UpdateDialog|"
 msgid "Check for updates"
@@ -2948,44 +3337,36 @@ msgstr "الجودة:"
 
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
-msgstr ""
+msgstr "استمتعت بـ %1؟"
 
 msgctxt "VoteBlock|"
 msgid "Not, really"
-msgstr ""
+msgstr "كلا، ليس حقيقيا"
 
 msgctxt "VoteBlock|"
 msgid "Yes!"
-msgstr ""
+msgstr "نعم!"
 
 msgctxt "VoteBlock|"
 msgid "Thanks a lot! Please rate on Google Play."
-msgstr ""
+msgstr "شكرا جزيلا! الرجاء تقييمنا على جوجل بلاي."
 
 msgctxt "VoteBlock|"
 msgid "Later"
-msgstr ""
+msgstr "لاحقا"
 
 msgctxt "VoteBlock|"
 msgid "No, thanks"
-msgstr ""
+msgstr "لا، شكرا"
 
 msgctxt "VoteBlock|"
 msgid "OK, sure!"
-msgstr ""
+msgstr "نعم، بالتأكيد!"
 
 msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."
-msgstr ""
+msgstr "لنجعلها أفضل متعاونين!. أعطنا رأيك."
 
 msgctxt "WaitingPage|"
 msgid "Refresh"
-msgstr ""
-
-msgctxt "main|"
-msgid "Move"
-msgstr "نقل"
-
-msgctxt "main|"
-msgid "Cancel"
-msgstr "إلغاء"
+msgstr "إنعاش"

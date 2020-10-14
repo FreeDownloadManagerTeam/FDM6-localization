@@ -13,7 +13,7 @@ msgid "About"
 msgstr ""
 
 msgctxt "AboutDialog|"
-msgid "<a href='%1'>%2</a> version %3"
+msgid "version %1"
 msgstr ""
 
 msgctxt "AboutDialog|"
@@ -85,6 +85,10 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr ""
 
@@ -149,10 +153,7 @@ msgid "Select antivirus:"
 msgstr ""
 
 msgctxt "AntivirusSettings|"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
+msgid "Is your antivirus not listed?"
 msgstr ""
 
 msgctxt "AntivirusSettings|"
@@ -363,7 +364,6 @@ msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr ""
 
-
 msgctxt "Browser|"
 msgid "Enter URL"
 msgstr ""
@@ -412,6 +412,14 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr ""
 
+msgctxt "BrowserButton|"
+msgid "Download %1 extension"
+msgstr ""
+
+msgctxt "BrowserButton|"
+msgid "%1 is not installed"
+msgstr ""
+
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "Webbläsaren Integration"
@@ -423,19 +431,7 @@ msgid ""
 msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Download Firefox extension"
-msgstr ""
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Firefox is not installed"
-msgstr ""
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Download Google Chrome extension"
-msgstr ""
-
-msgctxt "BrowserIntegrationSettings|"
-msgid "Google Chrome is not installed"
+msgid "Other supported browsers"
 msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
@@ -498,6 +494,10 @@ msgctxt "BrowserIntroDialog|"
 msgid "Continue"
 msgstr ""
 
+msgctxt "BrowserListElement|"
+msgid "(browser is not installed)"
+msgstr ""
+
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
 msgstr "Lägg ladda ner"
@@ -548,6 +548,10 @@ msgstr ""
 
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "No write access to the selected directory"
 msgstr ""
 
 msgctxt "ButtonsBlock|"
@@ -613,7 +617,6 @@ msgstr ""
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Börja ladda ner"
-
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -736,6 +739,58 @@ msgctxt "CreateFolderDialog|"
 msgid "Cancel"
 msgstr "Avbryt"
 
+msgctxt "CreatePortableDialog|"
+msgid "Create portable version"
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Portable version of %1 can be used on different computers without the need "
+"to install and configure it on each of them."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "It can be conveniently placed on a flash disk, for example."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid ""
+"Specify here the path where you would like to create this version. It should "
+"be a folder on some removable drive."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "Open"
+msgstr "Öppna"
+
+msgctxt "CreatePortableDialog|"
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgctxt "CreatePortableDialog|"
+msgid "Please specify the path."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating %1%"
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "An error occurred while creating a portable version: %1"
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "Creating a portable version was successfully completed."
+msgstr ""
+
+msgctxt "CreatePortableDialog|"
+msgid "Close"
+msgstr "Stäng"
+
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
 msgstr ""
@@ -800,7 +855,6 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr ""
 
-
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr ""
@@ -843,6 +897,54 @@ msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr "Börja ladda ner utan bekräftelse"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr "Automatiskt ta bort raderade filer från ladda ner listan"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr "Föreslå mappar baserat på filtyp"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "Föreslå mappar baserat på ladda ner, URL"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Macros"
 msgstr ""
 
 msgctxt "DownloadsTagMenu|"
@@ -934,6 +1036,10 @@ msgid "Copy link"
 msgstr "Kopiera länk"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Export selected downloads"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
 msgstr ""
 
@@ -1013,7 +1119,6 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Okänd filstorlek"
 
-
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files..."
 msgstr ""
@@ -1053,6 +1158,78 @@ msgstr "Pausad"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Slutföra"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export selected downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export all downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Save to"
+msgstr "Spara till"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Open"
+msgstr "Öppna"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "All files (%1)"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export only completed downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "%1 downloads files (%2)"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Default format"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "List of URLs"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Text files (%1)"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV file"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV files (%1)"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "Export"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgctxt "ExportSettingsDialog|"
+msgid "%1 settings files (%2)"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "All files (%1)"
+msgstr ""
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1267,13 +1444,6 @@ msgid "Language"
 msgstr ""
 
 msgctxt "GeneralSettings|"
-msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
-msgstr ""
-
-msgctxt "GeneralSettings|"
 msgid "Downloads"
 msgstr "Nedladdningar"
 
@@ -1282,8 +1452,40 @@ msgid "Suggest folders based on file type"
 msgstr "Föreslå mappar baserat på filtyp"
 
 msgctxt "GeneralSettings|"
+msgid "Your language is not listed or the translation isn't complete?"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Let's fix it!"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
 msgstr "Föreslå mappar baserat på ladda ner, URL"
+
+msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr "Öppna"
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
@@ -1295,6 +1497,10 @@ msgstr "Automatiskt ta bort raderade filer från ladda ner listan"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
 msgstr ""
 
 msgctxt "GeneralSettings|"
@@ -1318,13 +1524,8 @@ msgid "Dark theme"
 msgstr ""
 
 msgctxt "GeneralSettings|"
-msgid "Start downloading without confirmation"
-msgstr "Börja ladda ner utan bekräftelse"
-
-msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr ""
-
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1374,6 +1575,62 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr ""
 
+msgctxt "ImportDialog|"
+msgid "Import"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgctxt "ImportDialog|"
+msgid "All files (%1)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "Text files (%1)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "%1 downloads files (%2)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "%1 settings files (%2)"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Error: %1"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import the list of URLs from the file: %1"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to export"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to export to the file: %1"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to import"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import from the file: %1"
+msgstr ""
+
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
 msgstr "Ange som Standard"
@@ -1418,6 +1675,34 @@ msgctxt "ListEditor|"
 msgid "Hide"
 msgstr ""
 
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
+msgstr ""
+
 msgctxt "MainFiltersBar|"
 msgid "All"
 msgstr "Alla"
@@ -1432,6 +1717,30 @@ msgstr "Slutfört"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Paste Urls from File"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export/Import"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export all downloads"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Import downloads"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export settings"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Import settings"
 msgstr ""
 
 msgctxt "MainMenu|"
@@ -1457,6 +1766,10 @@ msgstr "Hibernate"
 msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "Avstängning"
+
+msgctxt "MainMenu|"
+msgid "Create portable version"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Check for Updates..."
@@ -1549,6 +1862,10 @@ msgid "CANCEL"
 msgstr "Avbryt"
 
 msgctxt "MaxURatioComboBox|"
+msgid "Invalid value"
+msgstr ""
+
+msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
 msgstr ""
 
@@ -1577,8 +1894,8 @@ msgid "Skip"
 msgstr "Hoppa över"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "OK"
-msgstr "OK"
+msgid "Skip all (%1)"
+msgstr ""
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -1609,6 +1926,14 @@ msgid "Try again"
 msgstr ""
 
 msgctxt "MovingFailedDialog|"
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgctxt "MovingFolderDialog|"
+msgid "Move"
+msgstr "Flytta"
+
+msgctxt "MovingFolderDialog|"
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -1773,6 +2098,10 @@ msgid "CANCEL"
 msgstr "Avbryt"
 
 msgctxt "NetworkSpeedLimitComboBox|"
+msgid "Invalid value"
+msgstr ""
+
+msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr ""
 
@@ -1896,6 +2225,14 @@ msgstr "Ladda ner komplett"
 
 msgctxt "QObject|"
 msgid "Downloads complete"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
 msgstr ""
 
 msgctxt "QObject|"
@@ -2167,6 +2504,18 @@ msgid "Network connect timeout error"
 msgstr "Nätverket ansluta tidsgränsfel"
 
 msgctxt "QObject|"
+msgid "Unsupported"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Invalid parameter"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Unsupported format"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr ""
 
@@ -2337,6 +2686,22 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Update URL"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Documents"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
 msgstr ""
 
 msgctxt "SaveTo|"
@@ -2532,6 +2897,10 @@ msgid "Settings"
 msgstr "Inställningar"
 
 msgctxt "SettingsPage|"
+msgid "Downloads settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Network settings"
 msgstr ""
 
@@ -2542,17 +2911,6 @@ msgstr "Trafik Gränser"
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr ""
-
-
-
-
-
-
-
-
-
-
-
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -2706,6 +3064,14 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr ""
 
+msgctxt "Subtitles|"
+msgid "Download subtitles"
+msgstr ""
+
+msgctxt "Subtitles|"
+msgid "Edit list"
+msgstr ""
+
 msgctxt "TagColorDialog|"
 msgid "Remove tag"
 msgstr ""
@@ -2855,6 +3221,10 @@ msgid "File name"
 msgstr "Filnamn"
 
 msgctxt "TuneAndAddDownloadPage|"
+msgid "No write access to the selected directory"
+msgstr ""
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr ""
 
@@ -2977,11 +3347,3 @@ msgstr ""
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr ""
-
-msgctxt "main|"
-msgid "Move"
-msgstr "Flytta"
-
-msgctxt "main|"
-msgid "Cancel"
-msgstr "Avbryt"
