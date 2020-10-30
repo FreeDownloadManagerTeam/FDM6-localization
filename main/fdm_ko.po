@@ -16,7 +16,6 @@ msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "버전 %1"
 
-
 msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "확인"
@@ -122,6 +121,23 @@ msgid "Backup the list of downloads every"
 msgstr "다운로드 목록 백업 간격"
 
 msgctxt "AdvancedSettings|"
+msgid "Use sounds"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Customize"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid ""
+"Do not allow downloads to perform post finished tasks when running on battery"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Do not allow downloads if battery level drops below"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Delete button action"
 msgstr "버튼 동작 삭제"
 
@@ -152,7 +168,6 @@ msgstr "바이러스 백신"
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
 msgstr "바이러스 백신 선택:"
-
 
 msgctxt "AntivirusSettings|"
 msgid "Is your antivirus not listed?"
@@ -799,6 +814,58 @@ msgctxt "CreatePortableDialog|"
 msgid "Close"
 msgstr "닫기"
 
+msgctxt "CustomizeSoundsDialog|"
+msgid "Customize sounds"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Event"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Sound file"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No sound"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads added"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads completed"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads failed"
+msgstr "다운로드 실패"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No active downloads"
+msgstr "활성 다운로드가 없습니다"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Set sound"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Remove"
+msgstr "제거"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Test"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Close"
+msgstr "닫기"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Are you sure you want to remove this sound?"
+msgstr ""
+
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
 msgstr "선택한 다운로드 삭제"
@@ -846,6 +913,26 @@ msgstr "확인"
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
 msgstr "취소"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Download deleting failed"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Try again"
+msgstr "다시 시도"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore all"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Abort"
+msgstr ""
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
@@ -951,9 +1038,6 @@ msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "고정된 기본 다운로드 폴더"
 
-msgctxt "DownloadsSettings|"
-msgid "Macros"
-msgstr "매크로"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1431,6 +1515,10 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
 msgstr "비디오를 mp3로 변환"
 
+msgctxt "FixedDownloadFolderCombobox|"
+msgid "Macros"
+msgstr "매크로"
+
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "일반"
@@ -1514,6 +1602,10 @@ msgstr "실패한 다운로드 자동 재시도"
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "파일 생성에 서버 시간 사용"
+
+msgctxt "GeneralSettings|"
+msgid "Maximum urls count in batch download"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1784,6 +1876,10 @@ msgid "Check for Updates..."
 msgstr "업데이트 확인..."
 
 msgctxt "MainMenu|"
+msgid "Join the %1 mosaic..."
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "About"
 msgstr "프로그램 정보"
 
@@ -1907,6 +2003,26 @@ msgstr "모두 건너뛰기 (%1)"
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
 msgstr "다운로드"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Mobile data usage"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Waiting for Wi-Fi to start download."
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Don't ask again"
+msgstr "다시 묻지 않음"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Yes"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "No"
+msgstr ""
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
@@ -2207,6 +2323,10 @@ msgstr "음악"
 msgctxt "QObject|"
 msgid "Video"
 msgstr "비디오"
+
+msgctxt "QObject|"
+msgid "Sorry this device is not supported by %1."
+msgstr ""
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
@@ -2873,6 +2993,10 @@ msgid "Descending"
 msgstr "내림차순"
 
 msgctxt "SettingsPage|"
+msgid "Invalid settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid ". Close anyway?"
 msgstr ". 어쨌든 닫습니까?"
 
@@ -2919,6 +3043,10 @@ msgstr "네트워크 설정"
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
 msgstr "트래픽 제한"
+
+msgctxt "SettingsPage|"
+msgid "Sounds settings"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -2975,6 +3103,34 @@ msgstr "이름순"
 msgctxt "SortTools|"
 msgid "By size"
 msgstr "크기순"
+
+msgctxt "SoundsSettings|"
+msgid "Sounds settings"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Use sounds"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads added"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads completed"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads failed"
+msgstr "다운로드 실패"
+
+msgctxt "SoundsSettings|"
+msgid "No active downloads"
+msgstr "활성 다운로드가 없습니다"
+
+msgctxt "SoundsSettings|"
+msgid "Are you sure you want to remove this sound?"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
