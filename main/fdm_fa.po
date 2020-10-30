@@ -3,10 +3,17 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
 "X-Language: fa_IR\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
+"Project-Id-Version: 1.0.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Majid Abdollahi\n"
+"Language: fa_IR\n"
+"X-Generator: Poedit 2.4.1\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -15,7 +22,6 @@ msgstr "درباره"
 msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "نسخه %1"
-
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -85,9 +91,10 @@ msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
 msgstr "دانلودهای تکمیل شده را از طریق مرکز اعلانات به من اطلاع بده"
 
+#, fuzzy
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr ""
+msgstr "دانلودهای لغو شده را از طریق مرکز اعلان به من اطلاع بده"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
@@ -152,7 +159,6 @@ msgstr "آنتی ویروس"
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
 msgstr "آنتی ویروس را انتخاب کنید:"
-
 
 msgctxt "AntivirusSettings|"
 msgid "Is your antivirus not listed?"
@@ -416,11 +422,11 @@ msgstr "افزودن بوک مارک"
 
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
-msgstr ""
+msgstr "%1 افزونه را دانلود کن"
 
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
-msgstr ""
+msgstr "%1 نصب نشده است"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
@@ -431,12 +437,12 @@ msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
 msgstr ""
-"مطمئن شوید که شما %1 افزونه نصب شده دارید، در غیر اینصورت روی یکی از دکمه "
-"های زیر کلیک کنید"
+"مطمئن شوید که شما %1 افزونه نصب شده دارید، در غیر اینصورت روی یکی از دکمه های "
+"زیر کلیک کنید"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
-msgstr ""
+msgstr "مرورگرهای پشتیبانی شده دیگر"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -490,8 +496,8 @@ msgid ""
 "\n"
 "Some of them (e.g. Google Drive downloads) can be added using this browser "
 "only, because they require additional information that your Android system's "
-"browser does not provide to %1 (or there is no universal way for all "
-"browsers to do this)."
+"browser does not provide to %1 (or there is no universal way for all browsers "
+"to do this)."
 msgstr ""
 "شما در حال باز کردن یک مرورگر داخلی هستید.\n"
 "\n"
@@ -499,8 +505,7 @@ msgstr ""
 "\n"
 "بعضی از آنها از جمله دانلودهای گوگل درایو فقط بوسیله این مرورگر می توانند "
 "اضافه شوند زیرا آنها به اطلاعات اضافه ای نیاز دارند که مرورگر سیستم اندروید "
-"شما برای %1 فراهم نمی کند یا اینکه راه حل عمومی برای تمام مرورگرها وجود "
-"ندارد."
+"شما برای %1 فراهم نمی کند یا اینکه راه حل عمومی برای تمام مرورگرها وجود ندارد."
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -508,7 +513,7 @@ msgstr "ادامه"
 
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
-msgstr ""
+msgstr "(مرورگر نصب نشده است)"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -564,7 +569,7 @@ msgstr "شما نمی توانید در یک لحظه بیشتر از %1 لین�
 
 msgctxt "ButtonsBlock|"
 msgid "No write access to the selected directory"
-msgstr ""
+msgstr "مجوز نوشتن برای پوشه انتخاب شده وجود ندارد"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
@@ -723,11 +728,9 @@ msgid "Copy"
 msgstr "کپی کردن"
 
 msgctxt "CrashReporter|"
-msgid ""
-"An internal error occurred.<br>%1 needs to be restarted for further use."
+msgid "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr ""
-"یک خطای داخلی رخ داده است. <br>%1 نیاز دارد برای استفاده بعدی دوباره شروع "
-"شود."
+"یک خطای داخلی رخ داده است. <br>%1 نیاز دارد برای استفاده بعدی دوباره شروع شود."
 
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
@@ -759,8 +762,8 @@ msgstr "ساخت نسخه قابل حمل"
 
 msgctxt "CreatePortableDialog|"
 msgid ""
-"Portable version of %1 can be used on different computers without the need "
-"to install and configure it on each of them."
+"Portable version of %1 can be used on different computers without the need to "
+"install and configure it on each of them."
 msgstr ""
 "نسخه قابل حمل %1 قابلیت استفاده در رایانه های مختلف را بدون نیاز به نصب و "
 "تنظیم مجدد در هر یک را داراست."
@@ -919,7 +922,7 @@ msgstr "لیست دانلود خالی است. افزودن URL دانلود ج�
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
-msgstr ""
+msgstr "تنظیمات دانلودها"
 
 msgctxt "DownloadsSettings|"
 msgid "Start downloading without confirmation"
@@ -935,7 +938,7 @@ msgstr "به طور خودکار دانلودهای تکمیل شده را از 
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
-msgstr ""
+msgstr "تکرار خودکار دانلودهای لغو شده"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -943,11 +946,11 @@ msgstr "از زمان سرور برای ایجاد فایل استفاده کن"
 
 msgctxt "DownloadsSettings|"
 msgid "Default download folder"
-msgstr ""
+msgstr "پوشه پیش فرض دانلود"
 
 msgctxt "DownloadsSettings|"
 msgid "Choose default download folder automatically"
-msgstr ""
+msgstr "انتخاب خودکار پوشه پیش فرض دانلود"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on file type"
@@ -959,11 +962,11 @@ msgstr "پیشنهاد پوشه ها بر اساس URL دانلود"
 
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
-msgstr ""
+msgstr "پوشه پیش فرض دانلود تصحیح شد"
 
 msgctxt "DownloadsSettings|"
 msgid "Macros"
-msgstr ""
+msgstr "ماکروها"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1053,9 +1056,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "کپی کردن لینک"
 
+#, fuzzy
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
-msgstr ""
+msgstr "بیرون بردن دانلودهای انتخاب شده"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
@@ -1129,6 +1133,7 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Queued"
 msgstr "صف شده"
 
+#, fuzzy
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Paused"
 msgstr "مکث  شده"
@@ -1169,6 +1174,7 @@ msgctxt "DownloadsViewStatusItem|"
 msgid "Unknown file size"
 msgstr "حجم فایل نامشخص"
 
+#, fuzzy
 msgctxt "DownloadsViewStatusItem|"
 msgid "Paused"
 msgstr "مکث  شده"
@@ -1177,13 +1183,14 @@ msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "کامل شد"
 
+#, fuzzy
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
-msgstr ""
+msgstr "بیرون بردن دانلودهای انتخاب شده"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export all downloads"
-msgstr ""
+msgstr "بیرون بردن تمام دانلودها"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Save to"
@@ -1199,43 +1206,46 @@ msgstr "انصراف"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
-msgstr ""
+msgstr "تمام فایل ها (%1)"
 
+#, fuzzy
 msgctxt "ExportDownloadsDialog|"
 msgid "Export only completed downloads"
-msgstr ""
+msgstr "بیرون بردن دانلودهای پایان یافته"
 
+#, fuzzy
 msgctxt "ExportDownloadsDialog|"
 msgid "Export"
-msgstr ""
+msgstr "بیرون بردن"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
-msgstr ""
+msgstr "%1 فایل های دانلودها (%2)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Default format"
-msgstr ""
+msgstr "قالب پیش فرض"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
-msgstr ""
+msgstr "لیست URLها"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
-msgstr ""
+msgstr "فایل های متنی (%1)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
-msgstr ""
+msgstr "فایل CSV"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
-msgstr ""
+msgstr "فایل های CSV (%1)"
 
+#, fuzzy
 msgctxt "ExportSettingsDialog|"
 msgid "Export"
-msgstr ""
+msgstr "بیرون بردن"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
@@ -1243,11 +1253,11 @@ msgstr "انصراف"
 
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
-msgstr ""
+msgstr "%1 فایل های تنظیمات (%2)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
-msgstr ""
+msgstr "تمام فایل ها (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1461,7 +1471,6 @@ msgctxt "GeneralSettings|"
 msgid "Language"
 msgstr "زبان"
 
-
 msgctxt "GeneralSettings|"
 msgid "Downloads"
 msgstr "دانلودها"
@@ -1480,11 +1489,11 @@ msgstr "آن را بهینه سازی کنید!"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
-msgstr ""
+msgstr "پوشه پیش فرض دانلود"
 
 msgctxt "GeneralSettings|"
 msgid "Choose default download folder automatically"
-msgstr ""
+msgstr "انتخاب خودکار پوشه پیش فرض دانلود"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
@@ -1492,7 +1501,7 @@ msgstr "پیشنهاد پوشه ها بر اساس URL دانلود"
 
 msgctxt "GeneralSettings|"
 msgid "Fixed default download folder"
-msgstr ""
+msgstr "پوشه پیش فرض دانلود تصحیح شد"
 
 msgctxt "GeneralSettings|"
 msgid "Open"
@@ -1504,7 +1513,7 @@ msgstr "انصراف"
 
 msgctxt "GeneralSettings|"
 msgid "Macros"
-msgstr ""
+msgstr "ماکروها"
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
@@ -1520,7 +1529,7 @@ msgstr "به طور خودکار دانلودهای تکمیل شده را از 
 
 msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
-msgstr ""
+msgstr "تکرار خودکار دانلودهای لغو شده"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -1594,9 +1603,10 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "‏SHA-256"
 
+#, fuzzy
 msgctxt "ImportDialog|"
 msgid "Import"
-msgstr ""
+msgstr "وارد کردن"
 
 msgctxt "ImportDialog|"
 msgid "Cancel"
@@ -1604,19 +1614,19 @@ msgstr "انصراف"
 
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
-msgstr ""
+msgstr "تمام فایل ها (%1)"
 
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
-msgstr ""
+msgstr "فایل های متنی (%1)"
 
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
-msgstr ""
+msgstr "%1 فایل های دانلودها (%2)"
 
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
-msgstr ""
+msgstr "%1 فایل های تنظیمات %2"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
@@ -1626,29 +1636,35 @@ msgctxt "ImportExportFailedDialog|"
 msgid "OK"
 msgstr "تایید"
 
+#, fuzzy
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
-msgstr ""
+msgstr "قرار دادن URLها از فایل موفق نبود"
 
+#, fuzzy
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
-msgstr ""
+msgstr "عدم امکان وارد کردن لیست URLها از فایل: %1"
 
+#, fuzzy
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
-msgstr ""
+msgstr "عدم امکان بیرون بردن"
 
+#, fuzzy
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
-msgstr ""
+msgstr "عدم امکان بیرون بردن به فایل: %1"
 
+#, fuzzy
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
-msgstr ""
+msgstr "عدم امکان وارد کردن"
 
+#, fuzzy
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
-msgstr ""
+msgstr "عدم امکان وارد کردن از فایل: %1"
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1696,31 +1712,31 @@ msgstr "پنهان"
 
 msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
-msgstr ""
+msgstr "%content_type% - نوع محتوا (برای مثال \"موسیقی\")"
 
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
-msgstr ""
+msgstr "%server% - نام سرور (برای مثال %1)"
 
 msgctxt "MacrosMenu|"
 msgid "%path_on_server% - path to the downloading file on the server"
-msgstr ""
+msgstr "%path_on_server% - مسیر دانلود فایل روی سرور"
 
 msgctxt "MacrosMenu|"
 msgid "%year% - current year"
-msgstr ""
+msgstr "%year% - سال جاری"
 
 msgctxt "MacrosMenu|"
 msgid "%month% - current month (number from 1 to 12)"
-msgstr ""
+msgstr "%month% - ماه جاری (شماره 1 الی 12)"
 
 msgctxt "MacrosMenu|"
 msgid "%day% - current day"
-msgstr ""
+msgstr "%day% - روز جاری"
 
 msgctxt "MacrosMenu|"
 msgid "%date% - equivalent to %year%-%month%-%day%"
-msgstr ""
+msgstr "%date% - برابر با %year%-%month%-%day%"
 
 msgctxt "MainFiltersBar|"
 msgid "All"
@@ -1736,31 +1752,36 @@ msgstr "تمام شده"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
-msgstr "قرار دادن URLها از Clipboard"
+msgstr "قرار دادن URLها از کلیپ بورد"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from File"
-msgstr ""
+msgstr "قرار دادن URLها از فایل"
 
+#, fuzzy
 msgctxt "MainMenu|"
 msgid "Export/Import"
-msgstr ""
+msgstr "بیرون بردن/وارد کردن"
 
+#, fuzzy
 msgctxt "MainMenu|"
 msgid "Export all downloads"
-msgstr ""
+msgstr "بیرون بردن تمام دانلودها"
 
+#, fuzzy
 msgctxt "MainMenu|"
 msgid "Import downloads"
-msgstr ""
+msgstr "وارد کردن دانلودها"
 
+#, fuzzy
 msgctxt "MainMenu|"
 msgid "Export settings"
-msgstr ""
+msgstr "بیرون بردن تنظیمات"
 
+#, fuzzy
 msgctxt "MainMenu|"
 msgid "Import settings"
-msgstr ""
+msgstr "وارد کردن تنظیمات"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -1778,6 +1799,7 @@ msgctxt "MainMenu|"
 msgid "Sleep"
 msgstr "خواب"
 
+#, fuzzy
 msgctxt "MainMenu|"
 msgid "Hibernate"
 msgstr "هایبرنیت"
@@ -1818,6 +1840,7 @@ msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
 msgstr[0] "%n دانلود انتخاب شده است."
+msgstr[1] "%n دانلود انتخاب شده است."
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -1835,10 +1858,12 @@ msgctxt "MainToolbar|"
 msgid "Start selected"
 msgstr "شروع انتخاب شده ها"
 
+#, fuzzy
 msgctxt "MainToolbar|"
 msgid "Pause all"
 msgstr "مکث  همه"
 
+#, fuzzy
 msgctxt "MainToolbar|"
 msgid "Pause selected"
 msgstr "مکث  انتخاب شده ها"
@@ -1881,7 +1906,7 @@ msgstr "انصراف"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Invalid value"
-msgstr ""
+msgstr "مقدار نامعتبر"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
@@ -1913,7 +1938,7 @@ msgstr "نادیده گرفتن"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
-msgstr ""
+msgstr "نادیده گرفتن همه (%1)"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -1995,9 +2020,10 @@ msgctxt "NativeMenuBar|"
 msgid "Start selected"
 msgstr "شروع انتخاب شده ها"
 
+#, fuzzy
 msgctxt "NativeMenuBar|"
 msgid "Pause selected"
-msgstr "مکث  انتخاب شده ها"
+msgstr "مکث انتخاب شده ها"
 
 msgctxt "NativeMenuBar|"
 msgid "Restart selected"
@@ -2117,7 +2143,7 @@ msgstr "انصراف"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Invalid value"
-msgstr ""
+msgstr "مقدار نامعتبر"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
@@ -2179,6 +2205,7 @@ msgctxt "QObject|"
 msgid "Connection failure"
 msgstr "خرابی در اتصال"
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "App frontend's server listen failed."
 msgstr "ارتباط بخش ظاهری سرور نرم افزار انجام نشد."
@@ -2187,6 +2214,7 @@ msgctxt "QObject|"
 msgid "QML load failure."
 msgstr "خرابی در فراخوانی QML."
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
 msgstr "تنظیم اولیه مدیر وضعیت برنامه انجام نشد."
@@ -2249,11 +2277,11 @@ msgstr "دانلودها انجام شدند"
 
 msgctxt "QObject|"
 msgid "Download failed"
-msgstr ""
+msgstr "لغو دانلود"
 
 msgctxt "QObject|"
 msgid "Downloads failed"
-msgstr ""
+msgstr "لغو دانلودها"
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -2307,6 +2335,7 @@ msgctxt "QObject|"
 msgid "HTTP Error %1"
 msgstr "خطای HTTP %1"
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "Bad Request"
 msgstr "درخواست بد"
@@ -2343,10 +2372,12 @@ msgctxt "QObject|"
 msgid "Request Timeout"
 msgstr "اتمام زمان درخواست"
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "Conflict"
 msgstr "مغایرت"
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "Gone"
 msgstr "رفته"
@@ -2355,10 +2386,12 @@ msgctxt "QObject|"
 msgid "Length Required"
 msgstr "طول نیاز دارد"
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "Precondition Failed"
 msgstr "پیش نیازها رعایت نشده"
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "Request Entity Too Large"
 msgstr "درخواست بیش از حد بزرگ"
@@ -2367,6 +2400,7 @@ msgctxt "QObject|"
 msgid "Request-URI Too Long"
 msgstr "درخواست-URI خیلی طولانی"
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "Unsupported Media Type"
 msgstr "نوع رسانه پشتیبانی نشده"
@@ -2379,6 +2413,7 @@ msgctxt "QObject|"
 msgid "Expectation Failed"
 msgstr "انتظار ناموفق بود"
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "I'm a teapot"
 msgstr "من یک Teapot هستم"
@@ -2403,6 +2438,7 @@ msgctxt "QObject|"
 msgid "Failed Dependency / Method Failure"
 msgstr "عدم موفقیت وابستگی / روش"
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "Unordered Collection"
 msgstr "مجموعه بدون ترتیب/کنترل"
@@ -2475,6 +2511,7 @@ msgctxt "QObject|"
 msgid "Not Implemented"
 msgstr "پیاده سازی نشده است"
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "Bad Gateway"
 msgstr "دروازه بد"
@@ -2491,6 +2528,7 @@ msgctxt "QObject|"
 msgid "HTTP Version Not Supported"
 msgstr "نسخه HTTP پشتیبانی نمی شود"
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "Variant Also Negotiates"
 msgstr "مقادیر همچنان رد و بدل می شوند"
@@ -2533,7 +2571,7 @@ msgstr "پارامتر غیر معتبر"
 
 msgctxt "QObject|"
 msgid "Unsupported format"
-msgstr ""
+msgstr "قالب پشتیبانی نشده"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -2603,10 +2641,12 @@ msgctxt "QObject|"
 msgid "Failed to remove current version"
 msgstr "نسخه فعلی حذف نشد"
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "hdiutil error %1"
 msgstr "خطای hdiutil %1"
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "Mount point does not exist"
 msgstr "نقطه Mount کردن موجود نیست"
@@ -2615,6 +2655,7 @@ msgctxt "QObject|"
 msgid "Path to the dump folder."
 msgstr "مسیر پوشه Dump."
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "Url to upload dumps to."
 msgstr "URL برای آپلود Dumpها."
@@ -2715,19 +2756,20 @@ msgstr "بروزرسانی URL"
 
 msgctxt "QObject|"
 msgid "Documents"
-msgstr ""
+msgstr "مستندات"
 
 msgctxt "QObject|"
 msgid "Pictures"
-msgstr ""
+msgstr "تصاویر"
 
 msgctxt "QObject|"
 msgid "Videos"
-msgstr ""
+msgstr "ویدیوها"
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "متفرقه"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -2793,6 +2835,7 @@ msgctxt "SchedulerDialog|"
 msgid "Scheduler"
 msgstr "زمانبند"
 
+#, fuzzy
 msgctxt "SchedulerDialog|"
 msgid "Start and pause downloads at specified time"
 msgstr "شروع و مکث  دانلودها در زمانی خاص"
@@ -2923,7 +2966,7 @@ msgstr "تنظیمات"
 
 msgctxt "SettingsPage|"
 msgid "Downloads settings"
-msgstr ""
+msgstr "تنظیمات دانلودها"
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
@@ -2945,6 +2988,7 @@ msgctxt "ShutdownBanner|"
 msgid "Computer will be put to sleep after all downloads are completed."
 msgstr "بعد از اتمام همه دانلودها، کامپیوتر به حالت خواب می رود."
 
+#, fuzzy
 msgctxt "ShutdownBanner|"
 msgid "Computer will be hibernate after all downloads are completed."
 msgstr "بعد از اتمام همه دانلودها، کامپیوتر هایبرنیت می شود."
@@ -2969,6 +3013,7 @@ msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be put to Sleep mode."
 msgstr "توجه! کامپیوتر شما به خواب خواهد رفت."
 
+#, fuzzy
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be hibernated."
 msgstr "توجه! کامپیوتر شما هایبرنیت خواهد شد."
@@ -3029,6 +3074,7 @@ msgctxt "StatusItem|"
 msgid "Checking files..."
 msgstr "در حال بررسی فایل ها..."
 
+#, fuzzy
 msgctxt "StatusItem|"
 msgid "Merging media streams..."
 msgstr "ادغام جریان رسانه ها ..."
@@ -3057,6 +3103,7 @@ msgctxt "StatusItem|"
 msgid "Requesting info..."
 msgstr "در حال درخواست اطلاعات..."
 
+#, fuzzy
 msgctxt "StatusItem|"
 msgid "Paused"
 msgstr "مکث  شده"
@@ -3065,14 +3112,17 @@ msgctxt "StatusItem|"
 msgid "Completed"
 msgstr "تمام شده"
 
+#, fuzzy
 msgctxt "StopDownloadDialog|"
 msgid "Pause download"
 msgstr "مکث  دانلود"
 
+#, fuzzy
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing."
 msgstr "دانلود (های) زیر پس از مکث قابل از سرگیری نیست."
 
+#, fuzzy
 msgctxt "StopDownloadDialog|"
 msgid "Pause"
 msgstr "مکث"
@@ -3081,17 +3131,19 @@ msgctxt "StopDownloadDialog|"
 msgid "Cancel"
 msgstr "انصراف"
 
+#, fuzzy
 msgctxt "StopDownloadDialog|"
 msgid "This download can't be resumed after pausing"
 msgstr "این دانلود پس از مکث قابل از سرگیری نیست"
 
+#, fuzzy
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr "دانلود (های) زیر پس از مکث قابل از سرگیری نیست"
 
 msgctxt "Subtitles|"
 msgid "Download subtitles"
-msgstr ""
+msgstr "دانلود زیرنویس ها"
 
 msgctxt "Subtitles|"
 msgid "Edit list"
@@ -3247,7 +3299,7 @@ msgstr "نام فایل"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
-msgstr ""
+msgstr "مجوز نوشتن برای پوشه انتخاب شده وجود ندارد"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
@@ -3369,6 +3421,7 @@ msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."
 msgstr "بیایید با هم بهتر شویم! نظراتتون رو بهمون بگید."
 
+#, fuzzy
 msgctxt "WaitingPage|"
 msgid "Refresh"
-msgstr "رفرش"
+msgstr "تازه سازی"
