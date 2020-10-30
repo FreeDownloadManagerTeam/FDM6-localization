@@ -16,7 +16,6 @@ msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "نسخه %1"
 
-
 msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "تایید"
@@ -87,11 +86,11 @@ msgstr "دانلودهای تکمیل شده را از طریق مرکز اعل�
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr ""
+msgstr "دانلودهای لغو شده را از طریق مرکز اعلان به من اطلاع بده"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
-msgstr "دانلودها را وقتی که پنجره 1% غیرفعال است به من اطلاع بده"
+msgstr "دانلودها را وقتی که پنجره %1 غیرفعال است به من اطلاع بده"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -120,6 +119,23 @@ msgstr "باز و مخفی کردن پنل پایین بوسیله کلیک کر
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
 msgstr "بکاپ گرفتن از لیست دانلودها هر"
+
+msgctxt "AdvancedSettings|"
+msgid "Use sounds"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Customize"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid ""
+"Do not allow downloads to perform post finished tasks when running on battery"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Do not allow downloads if battery level drops below"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -152,7 +168,6 @@ msgstr "آنتی ویروس"
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
 msgstr "آنتی ویروس را انتخاب کنید:"
-
 
 msgctxt "AntivirusSettings|"
 msgid "Is your antivirus not listed?"
@@ -416,11 +431,11 @@ msgstr "افزودن بوک مارک"
 
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
-msgstr ""
+msgstr "%1 افزونه را دانلود کن"
 
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
-msgstr ""
+msgstr "%1 نصب نشده است"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
@@ -436,7 +451,7 @@ msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
-msgstr ""
+msgstr "مرورگرهای پشتیبانی شده دیگر"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -508,7 +523,7 @@ msgstr "ادامه"
 
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
-msgstr ""
+msgstr "(مرورگر نصب نشده است)"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -564,7 +579,7 @@ msgstr "شما نمی توانید در یک لحظه بیشتر از %1 لین�
 
 msgctxt "ButtonsBlock|"
 msgid "No write access to the selected directory"
-msgstr ""
+msgstr "مجوز نوشتن برای پوشه انتخاب شده وجود ندارد"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
@@ -809,6 +824,58 @@ msgctxt "CreatePortableDialog|"
 msgid "Close"
 msgstr "بستن"
 
+msgctxt "CustomizeSoundsDialog|"
+msgid "Customize sounds"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Event"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Sound file"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No sound"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads added"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads completed"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads failed"
+msgstr "لغو دانلودها"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No active downloads"
+msgstr "دانلود فعالی وجود ندارد"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Set sound"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Remove"
+msgstr "حذف"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Test"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Close"
+msgstr "بستن"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Are you sure you want to remove this sound?"
+msgstr ""
+
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
 msgstr "حذف دانلودهای انتخاب شده"
@@ -856,6 +923,26 @@ msgstr "تایید"
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
 msgstr "انصراف"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Download deleting failed"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Try again"
+msgstr "دوباره امتحان کنید"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore all"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Abort"
+msgstr ""
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
@@ -919,7 +1006,7 @@ msgstr "لیست دانلود خالی است. افزودن URL دانلود ج�
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
-msgstr ""
+msgstr "تنظیمات دانلودها"
 
 msgctxt "DownloadsSettings|"
 msgid "Start downloading without confirmation"
@@ -935,7 +1022,7 @@ msgstr "به طور خودکار دانلودهای تکمیل شده را از 
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
-msgstr ""
+msgstr "تکرار خودکار دانلودهای لغو شده"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -943,11 +1030,11 @@ msgstr "از زمان سرور برای ایجاد فایل استفاده کن"
 
 msgctxt "DownloadsSettings|"
 msgid "Default download folder"
-msgstr ""
+msgstr "پوشه پیش فرض دانلود"
 
 msgctxt "DownloadsSettings|"
 msgid "Choose default download folder automatically"
-msgstr ""
+msgstr "انتخاب خودکار پوشه پیش فرض دانلود"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on file type"
@@ -959,11 +1046,8 @@ msgstr "پیشنهاد پوشه ها بر اساس URL دانلود"
 
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
-msgstr ""
+msgstr "پوشه پیش فرض دانلود تصحیح شد"
 
-msgctxt "DownloadsSettings|"
-msgid "Macros"
-msgstr ""
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1055,7 +1139,7 @@ msgstr "کپی کردن لینک"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
-msgstr ""
+msgstr "بیرون بردن دانلودهای انتخاب شده"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
@@ -1179,11 +1263,11 @@ msgstr "کامل شد"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
-msgstr ""
+msgstr "بیرون بردن دانلودهای انتخاب شده"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export all downloads"
-msgstr ""
+msgstr "بیرون بردن تمام دانلودها"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Save to"
@@ -1199,43 +1283,43 @@ msgstr "انصراف"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
-msgstr ""
+msgstr "تمام فایل ها (%1)"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export only completed downloads"
-msgstr ""
+msgstr "بیرون بردن دانلودهای پایان یافته"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export"
-msgstr ""
+msgstr "بیرون بردن"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
-msgstr ""
+msgstr "%1 فایل های دانلودها (%2)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Default format"
-msgstr ""
+msgstr "قالب پیش فرض"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
-msgstr ""
+msgstr "لیست URLها"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
-msgstr ""
+msgstr "فایل های متنی (%1)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
-msgstr ""
+msgstr "فایل CSV"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
-msgstr ""
+msgstr "فایل های CSV (%1)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Export"
-msgstr ""
+msgstr "بیرون بردن"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
@@ -1243,11 +1327,11 @@ msgstr "انصراف"
 
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
-msgstr ""
+msgstr "%1 فایل های تنظیمات (%2)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
-msgstr ""
+msgstr "تمام فایل ها (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1441,6 +1525,10 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
 msgstr "تبدیل ویدیو به mp3"
 
+msgctxt "FixedDownloadFolderCombobox|"
+msgid "Macros"
+msgstr "ماکروها"
+
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "عمومی"
@@ -1461,7 +1549,6 @@ msgctxt "GeneralSettings|"
 msgid "Language"
 msgstr "زبان"
 
-
 msgctxt "GeneralSettings|"
 msgid "Downloads"
 msgstr "دانلودها"
@@ -1480,11 +1567,11 @@ msgstr "آن را بهینه سازی کنید!"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
-msgstr ""
+msgstr "پوشه پیش فرض دانلود"
 
 msgctxt "GeneralSettings|"
 msgid "Choose default download folder automatically"
-msgstr ""
+msgstr "انتخاب خودکار پوشه پیش فرض دانلود"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
@@ -1492,7 +1579,7 @@ msgstr "پیشنهاد پوشه ها بر اساس URL دانلود"
 
 msgctxt "GeneralSettings|"
 msgid "Fixed default download folder"
-msgstr ""
+msgstr "پوشه پیش فرض دانلود تصحیح شد"
 
 msgctxt "GeneralSettings|"
 msgid "Open"
@@ -1504,7 +1591,7 @@ msgstr "انصراف"
 
 msgctxt "GeneralSettings|"
 msgid "Macros"
-msgstr ""
+msgstr "ماکروها"
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
@@ -1520,11 +1607,15 @@ msgstr "به طور خودکار دانلودهای تکمیل شده را از 
 
 msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
-msgstr ""
+msgstr "تکرار خودکار دانلودهای لغو شده"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "از زمان سرور برای ایجاد فایل استفاده کن"
+
+msgctxt "GeneralSettings|"
+msgid "Maximum urls count in batch download"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1596,7 +1687,7 @@ msgstr "‏SHA-256"
 
 msgctxt "ImportDialog|"
 msgid "Import"
-msgstr ""
+msgstr "وارد کردن"
 
 msgctxt "ImportDialog|"
 msgid "Cancel"
@@ -1604,19 +1695,19 @@ msgstr "انصراف"
 
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
-msgstr ""
+msgstr "تمام فایل ها (%1)"
 
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
-msgstr ""
+msgstr "فایل های متنی (%1)"
 
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
-msgstr ""
+msgstr "%1 فایل های دانلودها (%2)"
 
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
-msgstr ""
+msgstr "%1 فایل های تنظیمات %2"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
@@ -1628,27 +1719,27 @@ msgstr "تایید"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
-msgstr ""
+msgstr "قرار دادن URLها از فایل موفق نبود"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
-msgstr ""
+msgstr "عدم امکان وارد کردن لیست URLها از فایل: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
-msgstr ""
+msgstr "عدم امکان بیرون بردن"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
-msgstr ""
+msgstr "عدم امکان بیرون بردن به فایل: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
-msgstr ""
+msgstr "عدم امکان وارد کردن"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
-msgstr ""
+msgstr "عدم امکان وارد کردن از فایل: %1"
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1696,31 +1787,31 @@ msgstr "پنهان"
 
 msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
-msgstr ""
+msgstr "%content_type% - نوع محتوا (برای مثال \"موسیقی\")"
 
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
-msgstr ""
+msgstr "%server% - نام سرور (برای مثال %1)"
 
 msgctxt "MacrosMenu|"
 msgid "%path_on_server% - path to the downloading file on the server"
-msgstr ""
+msgstr "%path_on_server% - مسیر دانلود فایل روی سرور"
 
 msgctxt "MacrosMenu|"
 msgid "%year% - current year"
-msgstr ""
+msgstr "%year% - سال جاری"
 
 msgctxt "MacrosMenu|"
 msgid "%month% - current month (number from 1 to 12)"
-msgstr ""
+msgstr "%month% - ماه جاری (شماره 1 الی 12)"
 
 msgctxt "MacrosMenu|"
 msgid "%day% - current day"
-msgstr ""
+msgstr "%day% - روز جاری"
 
 msgctxt "MacrosMenu|"
 msgid "%date% - equivalent to %year%-%month%-%day%"
-msgstr ""
+msgstr "%date% - برابر با %year%-%month%-%day%"
 
 msgctxt "MainFiltersBar|"
 msgid "All"
@@ -1736,31 +1827,31 @@ msgstr "تمام شده"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
-msgstr "قرار دادن URLها از Clipboard"
+msgstr "قرار دادن URLها از کلیپ بورد"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from File"
-msgstr ""
+msgstr "قرار دادن URLها از فایل"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
-msgstr ""
+msgstr "بیرون بردن/وارد کردن"
 
 msgctxt "MainMenu|"
 msgid "Export all downloads"
-msgstr ""
+msgstr "بیرون بردن تمام دانلودها"
 
 msgctxt "MainMenu|"
 msgid "Import downloads"
-msgstr ""
+msgstr "وارد کردن دانلودها"
 
 msgctxt "MainMenu|"
 msgid "Export settings"
-msgstr ""
+msgstr "بیرون بردن تنظیمات"
 
 msgctxt "MainMenu|"
 msgid "Import settings"
-msgstr ""
+msgstr "وارد کردن تنظیمات"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -1793,6 +1884,10 @@ msgstr "ساخت نسخه قابل حمل"
 msgctxt "MainMenu|"
 msgid "Check for Updates..."
 msgstr "بررسی بروزرسانی..."
+
+msgctxt "MainMenu|"
+msgid "Join the %1 mosaic..."
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -1881,7 +1976,7 @@ msgstr "انصراف"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Invalid value"
-msgstr ""
+msgstr "مقدار نامعتبر"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
@@ -1913,11 +2008,31 @@ msgstr "نادیده گرفتن"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
-msgstr ""
+msgstr "نادیده گرفتن همه (%1)"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
 msgstr "دانلود"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Mobile data usage"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Waiting for Wi-Fi to start download."
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Don't ask again"
+msgstr "دوباره سوال نکن"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Yes"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "No"
+msgstr ""
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
@@ -1997,7 +2112,7 @@ msgstr "شروع انتخاب شده ها"
 
 msgctxt "NativeMenuBar|"
 msgid "Pause selected"
-msgstr "مکث  انتخاب شده ها"
+msgstr "مکث انتخاب شده ها"
 
 msgctxt "NativeMenuBar|"
 msgid "Restart selected"
@@ -2117,7 +2232,7 @@ msgstr "انصراف"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Invalid value"
-msgstr ""
+msgstr "مقدار نامعتبر"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
@@ -2204,6 +2319,10 @@ msgid "Enter URL"
 msgstr "ورود URL"
 
 msgctxt "QObject|"
+msgid "Sorry this device is not supported by %1."
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr "%1 در تنظیم اولیه انجام نشد. لطفا از ابتدا نصب نمایید."
 
@@ -2249,11 +2368,11 @@ msgstr "دانلودها انجام شدند"
 
 msgctxt "QObject|"
 msgid "Download failed"
-msgstr ""
+msgstr "لغو دانلود"
 
 msgctxt "QObject|"
 msgid "Downloads failed"
-msgstr ""
+msgstr "لغو دانلودها"
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -2533,7 +2652,7 @@ msgstr "پارامتر غیر معتبر"
 
 msgctxt "QObject|"
 msgid "Unsupported format"
-msgstr ""
+msgstr "قالب پشتیبانی نشده"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -2715,19 +2834,19 @@ msgstr "بروزرسانی URL"
 
 msgctxt "QObject|"
 msgid "Documents"
-msgstr ""
+msgstr "مستندات"
 
 msgctxt "QObject|"
 msgid "Pictures"
-msgstr ""
+msgstr "تصاویر"
 
 msgctxt "QObject|"
 msgid "Videos"
-msgstr ""
+msgstr "ویدیوها"
 
 msgctxt "QObject|"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "متفرقه"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -2886,6 +3005,10 @@ msgid "Descending"
 msgstr "نزولی"
 
 msgctxt "SettingsPage|"
+msgid "Invalid settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid ". Close anyway?"
 msgstr ". حتما بسته شود؟"
 
@@ -2923,7 +3046,7 @@ msgstr "تنظیمات"
 
 msgctxt "SettingsPage|"
 msgid "Downloads settings"
-msgstr ""
+msgstr "تنظیمات دانلودها"
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
@@ -2932,6 +3055,10 @@ msgstr "تنظیمات شبکه"
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
 msgstr "محدودیت ترافیک"
+
+msgctxt "SettingsPage|"
+msgid "Sounds settings"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -2988,6 +3115,34 @@ msgstr "بر اساس نام"
 msgctxt "SortTools|"
 msgid "By size"
 msgstr "بر اساس حجم"
+
+msgctxt "SoundsSettings|"
+msgid "Sounds settings"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Use sounds"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads added"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads completed"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads failed"
+msgstr "لغو دانلودها"
+
+msgctxt "SoundsSettings|"
+msgid "No active downloads"
+msgstr "دانلود فعالی وجود ندارد"
+
+msgctxt "SoundsSettings|"
+msgid "Are you sure you want to remove this sound?"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
@@ -3091,7 +3246,7 @@ msgstr "دانلود (های) زیر پس از مکث قابل از سرگیری
 
 msgctxt "Subtitles|"
 msgid "Download subtitles"
-msgstr ""
+msgstr "دانلود زیرنویس ها"
 
 msgctxt "Subtitles|"
 msgid "Edit list"
@@ -3247,7 +3402,7 @@ msgstr "نام فایل"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
-msgstr ""
+msgstr "مجوز نوشتن برای پوشه انتخاب شده وجود ندارد"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
@@ -3371,4 +3526,4 @@ msgstr "بیایید با هم بهتر شویم! نظراتتون رو بهمو
 
 msgctxt "WaitingPage|"
 msgid "Refresh"
-msgstr "رفرش"
+msgstr "تازه سازی"

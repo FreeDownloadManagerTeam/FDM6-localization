@@ -16,7 +16,6 @@ msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "versione %1"
 
-
 msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "OK"
@@ -124,6 +123,23 @@ msgid "Backup the list of downloads every"
 msgstr "Backup della lista dei download ogni"
 
 msgctxt "AdvancedSettings|"
+msgid "Use sounds"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Customize"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid ""
+"Do not allow downloads to perform post finished tasks when running on battery"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Do not allow downloads if battery level drops below"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Delete button action"
 msgstr "Azione pulsante elimina"
 
@@ -154,7 +170,6 @@ msgstr "Antivirus"
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
 msgstr "Seleziona antivirus:"
-
 
 msgctxt "AntivirusSettings|"
 msgid "Is your antivirus not listed?"
@@ -810,6 +825,58 @@ msgctxt "CreatePortableDialog|"
 msgid "Close"
 msgstr "Chiudi"
 
+msgctxt "CustomizeSoundsDialog|"
+msgid "Customize sounds"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Event"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Sound file"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No sound"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads added"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads completed"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads failed"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No active downloads"
+msgstr "Nessun download attivo"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Set sound"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Remove"
+msgstr "Rimuovi"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Test"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Close"
+msgstr "Chiudi"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Are you sure you want to remove this sound?"
+msgstr ""
+
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
 msgstr "Elimina download selezionati"
@@ -857,6 +924,26 @@ msgstr "OK"
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
 msgstr "Annulla"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Download deleting failed"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Try again"
+msgstr "Riprova"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore all"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Abort"
+msgstr ""
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
@@ -960,10 +1047,6 @@ msgstr "Suggerisci cartelle in base all'URL di download"
 
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
-msgstr ""
-
-msgctxt "DownloadsSettings|"
-msgid "Macros"
 msgstr ""
 
 msgctxt "DownloadsTagMenu|"
@@ -1442,6 +1525,10 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
 msgstr "Converti video in mp3"
 
+msgctxt "FixedDownloadFolderCombobox|"
+msgid "Macros"
+msgstr ""
+
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "Generale"
@@ -1461,7 +1548,6 @@ msgstr "Scuro"
 msgctxt "GeneralSettings|"
 msgid "Language"
 msgstr "Lingua"
-
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1526,6 +1612,10 @@ msgstr ""
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "Usa l'orario del server per la creazione del file"
+
+msgctxt "GeneralSettings|"
+msgid "Maximum urls count in batch download"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1796,6 +1886,10 @@ msgid "Check for Updates..."
 msgstr "Controllo aggiornamenti..."
 
 msgctxt "MainMenu|"
+msgid "Join the %1 mosaic..."
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "About"
 msgstr "Informazioni"
 
@@ -1921,6 +2015,26 @@ msgstr ""
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
 msgstr "Download"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Mobile data usage"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Waiting for Wi-Fi to start download."
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Don't ask again"
+msgstr "Non richiedere di nuovo"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Yes"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "No"
+msgstr ""
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
@@ -2205,6 +2319,10 @@ msgstr ""
 msgctxt "QObject|"
 msgid "Enter URL"
 msgstr "Inserisci URL"
+
+msgctxt "QObject|"
+msgid "Sorry this device is not supported by %1."
+msgstr ""
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
@@ -2887,6 +3005,10 @@ msgid "Descending"
 msgstr "Decrescente"
 
 msgctxt "SettingsPage|"
+msgid "Invalid settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid ". Close anyway?"
 msgstr "Chiudere comunque?"
 
@@ -2933,6 +3055,10 @@ msgstr "Impostazioni di rete"
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
 msgstr "Limitazione traffico"
+
+msgctxt "SettingsPage|"
+msgid "Sounds settings"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -2991,6 +3117,34 @@ msgstr "Per nome"
 msgctxt "SortTools|"
 msgid "By size"
 msgstr "Per dimensione"
+
+msgctxt "SoundsSettings|"
+msgid "Sounds settings"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Use sounds"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads added"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads completed"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads failed"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "No active downloads"
+msgstr "Nessun download attivo"
+
+msgctxt "SoundsSettings|"
+msgid "Are you sure you want to remove this sound?"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
