@@ -16,7 +16,6 @@ msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "wersja %1"
 
-
 msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "OK"
@@ -83,11 +82,11 @@ msgstr "Powiadomienia"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "Powiadom mnie o zakończeniu pobierania poprzez Centrum Powiadomień"
+msgstr "Powiadom mnie o zakończonych pobraniach poprzez Centrum Powiadomień"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr ""
+msgstr "Powiadom mnie o nieudanych pobraniach poprzez Centrum Powiadomień"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
@@ -122,6 +121,23 @@ msgid "Backup the list of downloads every"
 msgstr "Utwórz kopię listy pobieranych plików co"
 
 msgctxt "AdvancedSettings|"
+msgid "Use sounds"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Customize"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid ""
+"Do not allow downloads to perform post finished tasks when running on battery"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Do not allow downloads if battery level drops below"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Delete button action"
 msgstr "Działanie klawisza Delete"
 
@@ -152,7 +168,6 @@ msgstr "Antywirus"
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
 msgstr "Wybierz antywirus:"
-
 
 msgctxt "AntivirusSettings|"
 msgid "Is your antivirus not listed?"
@@ -810,6 +825,58 @@ msgctxt "CreatePortableDialog|"
 msgid "Close"
 msgstr "Zamknij"
 
+msgctxt "CustomizeSoundsDialog|"
+msgid "Customize sounds"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Event"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Sound file"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No sound"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads added"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads completed"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads failed"
+msgstr "Nieudane pobrania"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No active downloads"
+msgstr "Brak aktywnych pobierań"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Set sound"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Remove"
+msgstr "Usuń"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Test"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Close"
+msgstr "Zamknij"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Are you sure you want to remove this sound?"
+msgstr ""
+
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
 msgstr "Usuń zaznaczone pobrania"
@@ -857,6 +924,26 @@ msgstr "OK"
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
 msgstr "Anuluj"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Download deleting failed"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Try again"
+msgstr "Spróbuj ponownie"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore all"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Abort"
+msgstr ""
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
@@ -936,7 +1023,7 @@ msgstr "Automatyczne usuwanie ukończonych pobrań z listy pobierania"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
-msgstr ""
+msgstr "Automatycznie ponów nieudane pobrania"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -962,9 +1049,6 @@ msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "Stały folder pobierania"
 
-msgctxt "DownloadsSettings|"
-msgid "Macros"
-msgstr "Makra"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1442,6 +1526,10 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
 msgstr "Konwertuj wideo do MP3"
 
+msgctxt "FixedDownloadFolderCombobox|"
+msgid "Macros"
+msgstr "Makra"
+
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "Ogólne"
@@ -1461,7 +1549,6 @@ msgstr "Ciemny"
 msgctxt "GeneralSettings|"
 msgid "Language"
 msgstr "Język programu"
-
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1522,11 +1609,15 @@ msgstr "Automatyczne usuwanie ukończonych pobrań z listy pobierania"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
-msgstr ""
+msgstr "Automatycznie ponów nieudane pobrania"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "Użyj czasu z serwera do utworzenia pliku"
+
+msgctxt "GeneralSettings|"
+msgid "Maximum urls count in batch download"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1797,6 +1888,10 @@ msgid "Check for Updates..."
 msgstr "Szukaj aktualizacji..."
 
 msgctxt "MainMenu|"
+msgid "Join the %1 mosaic..."
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "About"
 msgstr "O programie"
 
@@ -1922,6 +2017,26 @@ msgstr "Omiń wszystkie (%1)"
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
 msgstr "Pobierz"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Mobile data usage"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Waiting for Wi-Fi to start download."
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Don't ask again"
+msgstr "Nie pytaj ponownie"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Yes"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "No"
+msgstr ""
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
@@ -2208,6 +2323,10 @@ msgid "Enter URL"
 msgstr "Wpisz adres pobierania"
 
 msgctxt "QObject|"
+msgid "Sorry this device is not supported by %1."
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr "Błąd inicjalizacji %1. Proszę przeinstalować."
 
@@ -2249,15 +2368,15 @@ msgstr "Pobieranie zakończone"
 
 msgctxt "QObject|"
 msgid "Downloads complete"
-msgstr "Pobierania zakończone"
+msgstr "Zakończone pobrania"
 
 msgctxt "QObject|"
 msgid "Download failed"
-msgstr ""
+msgstr "Nieudane pobrania"
 
 msgctxt "QObject|"
 msgid "Downloads failed"
-msgstr ""
+msgstr "Nieudane pobrania"
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -2890,6 +3009,10 @@ msgid "Descending"
 msgstr "Malejąco"
 
 msgctxt "SettingsPage|"
+msgid "Invalid settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid ". Close anyway?"
 msgstr ". Zamknąć mimo to?"
 
@@ -2936,6 +3059,10 @@ msgstr "Ustawienia sieci"
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
 msgstr "Limity prędkości"
+
+msgctxt "SettingsPage|"
+msgid "Sounds settings"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -2992,6 +3119,34 @@ msgstr "Według nazwy"
 msgctxt "SortTools|"
 msgid "By size"
 msgstr "Według rozmiaru"
+
+msgctxt "SoundsSettings|"
+msgid "Sounds settings"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Use sounds"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads added"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads completed"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads failed"
+msgstr "Nieudane pobrania"
+
+msgctxt "SoundsSettings|"
+msgid "No active downloads"
+msgstr "Brak aktywnych pobierań"
+
+msgctxt "SoundsSettings|"
+msgid "Are you sure you want to remove this sound?"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"

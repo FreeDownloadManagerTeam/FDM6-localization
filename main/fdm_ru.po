@@ -16,7 +16,6 @@ msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "версия %1"
 
-
 msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "ОК"
@@ -123,6 +122,25 @@ msgid "Backup the list of downloads every"
 msgstr "Резервное копирование списка загрузок раз в"
 
 msgctxt "AdvancedSettings|"
+msgid "Use sounds"
+msgstr "Включить звуки"
+
+msgctxt "AdvancedSettings|"
+msgid "Customize"
+msgstr "Настроить"
+
+msgctxt "AdvancedSettings|"
+msgid ""
+"Do not allow downloads to perform post finished tasks when running on battery"
+msgstr ""
+"Не позволять загрузкам выполнять задачи после завершения при работе от "
+"батареи"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not allow downloads if battery level drops below"
+msgstr "Остановить загрузки, если уровень заряда батареи падает ниже"
+
+msgctxt "AdvancedSettings|"
 msgid "Delete button action"
 msgstr "Действие кнопки \"Удалить\""
 
@@ -153,7 +171,6 @@ msgstr "Антивирус"
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
 msgstr "Выберите антивирус:"
-
 
 msgctxt "AntivirusSettings|"
 msgid "Is your antivirus not listed?"
@@ -810,6 +827,58 @@ msgctxt "CreatePortableDialog|"
 msgid "Close"
 msgstr "Закрыть"
 
+msgctxt "CustomizeSoundsDialog|"
+msgid "Customize sounds"
+msgstr "Настроить звуки"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Event"
+msgstr "Событие"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Sound file"
+msgstr "Звуковой файл"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No sound"
+msgstr "Без звука"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads added"
+msgstr "Загрузки добавлены"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads completed"
+msgstr "Загрузки завершены"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads failed"
+msgstr "Загрузки не удались"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No active downloads"
+msgstr "Нет активных загрузок"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Set sound"
+msgstr "Задать звук"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Remove"
+msgstr "Удалить"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Test"
+msgstr "Проверить"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Close"
+msgstr "Закрыть"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Are you sure you want to remove this sound?"
+msgstr "Вы уверены, что хотите удалить этот звук?"
+
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
 msgstr "Удалить выбранные загрузки"
@@ -857,6 +926,26 @@ msgstr "ОК"
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
 msgstr "Отменить"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Download deleting failed"
+msgstr "Не удалось удалить загрузку"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Try again"
+msgstr "Попробовать снова"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore"
+msgstr "Пропустить"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore all"
+msgstr "Пропустить все"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Abort"
+msgstr "Прервать"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
@@ -962,9 +1051,6 @@ msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "Предлагать фиксированную папку для сохранения"
 
-msgctxt "DownloadsSettings|"
-msgid "Macros"
-msgstr "Макросы"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1442,6 +1528,10 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
 msgstr "Конвертировать в mp3"
 
+msgctxt "FixedDownloadFolderCombobox|"
+msgid "Macros"
+msgstr "Макросы"
+
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "Основные"
@@ -1461,7 +1551,6 @@ msgstr "Тёмная"
 msgctxt "GeneralSettings|"
 msgid "Language"
 msgstr "Язык"
-
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1526,6 +1615,10 @@ msgstr "Автоматически перезапускать неудавшие
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "Использовать время сервера для даты создания файла"
+
+msgctxt "GeneralSettings|"
+msgid "Maximum urls count in batch download"
+msgstr "Максимальное количество ссылок в пакетной загрузке"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1796,6 +1889,10 @@ msgid "Check for Updates..."
 msgstr "Проверка обновлений..."
 
 msgctxt "MainMenu|"
+msgid "Join the %1 mosaic..."
+msgstr "Присоединяйтесь к мозаике %1"
+
+msgctxt "MainMenu|"
 msgid "About"
 msgstr "О программе"
 
@@ -1921,6 +2018,26 @@ msgstr "Пропустить все (%1)"
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
 msgstr "Скачать"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Mobile data usage"
+msgstr "Использование мобильных данных"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Waiting for Wi-Fi to start download."
+msgstr "Ожидание Wi-Fi для начала загрузки."
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Don't ask again"
+msgstr "Больше не спрашивать"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Yes"
+msgstr "Да"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "No"
+msgstr "Нет"
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
@@ -2205,6 +2322,10 @@ msgstr ""
 msgctxt "QObject|"
 msgid "Enter URL"
 msgstr "Введите URL"
+
+msgctxt "QObject|"
+msgid "Sorry this device is not supported by %1."
+msgstr "Извините, это устройство не поддерживается %1."
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
@@ -2887,6 +3008,10 @@ msgid "Descending"
 msgstr "По убыванию"
 
 msgctxt "SettingsPage|"
+msgid "Invalid settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid ". Close anyway?"
 msgstr ". Всё равно закрыть?"
 
@@ -2933,6 +3058,10 @@ msgstr "Сетевые настройки"
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
 msgstr "Ограничение скорости"
+
+msgctxt "SettingsPage|"
+msgid "Sounds settings"
+msgstr "Настройки звука"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -2990,6 +3119,34 @@ msgstr "По названию"
 msgctxt "SortTools|"
 msgid "By size"
 msgstr "По размеру"
+
+msgctxt "SoundsSettings|"
+msgid "Sounds settings"
+msgstr "Настройки звука"
+
+msgctxt "SoundsSettings|"
+msgid "Use sounds"
+msgstr "Включить звуки"
+
+msgctxt "SoundsSettings|"
+msgid "Downloads added"
+msgstr "Загрузки добавлены"
+
+msgctxt "SoundsSettings|"
+msgid "Downloads completed"
+msgstr "Загрузки завершены"
+
+msgctxt "SoundsSettings|"
+msgid "Downloads failed"
+msgstr "Загрузки не удались"
+
+msgctxt "SoundsSettings|"
+msgid "No active downloads"
+msgstr "Нет активных загрузок"
+
+msgctxt "SoundsSettings|"
+msgid "Are you sure you want to remove this sound?"
+msgstr "Вы уверены, что хотите удалить этот звук?"
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
