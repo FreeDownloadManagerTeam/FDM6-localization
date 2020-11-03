@@ -93,6 +93,10 @@ msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "Powiadom mnie o pobraniach, tylko gdy %1 okno jest nieaktywne"
 
 msgctxt "AdvancedSettings|"
+msgid "Customize sounds"
+msgstr "Dostosuj dźwięki"
+
+msgctxt "AdvancedSettings|"
 msgid "Power management"
 msgstr "Zarządzanie zasilaniem"
 
@@ -124,14 +128,12 @@ msgctxt "AdvancedSettings|"
 msgid "Use sounds"
 msgstr "Użyj dźwięków"
 
-msgctxt "AdvancedSettings|"
-msgid "Customize"
-msgstr "Dostosuj"
 
 msgctxt "AdvancedSettings|"
 msgid ""
 "Do not allow downloads to perform post finished tasks when running on battery"
-msgstr "Nie zezwalaj na wykonywanie zadań po pobraniach, podczas pracy na baterii"
+msgstr ""
+"Nie zezwalaj na wykonywanie zadań po pobraniach, podczas pracy na baterii"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
@@ -750,7 +752,8 @@ msgstr "Automatycznie uruchom ponownie %1"
 
 msgctxt "CrashReporter|"
 msgid "Failed to send the report.<br>Check your Internet connection."
-msgstr "Nie udało się wysłać raportu.<br>Sprawdź czy masz połączenie z Internetem."
+msgstr ""
+"Nie udało się wysłać raportu.<br>Sprawdź czy masz połączenie z Internetem."
 
 msgctxt "CrashReporter|"
 msgid "Error"
@@ -872,9 +875,6 @@ msgctxt "CustomizeSoundsDialog|"
 msgid "Close"
 msgstr "Zamknij"
 
-msgctxt "CustomizeSoundsDialog|"
-msgid "Are you sure you want to remove this sound?"
-msgstr "Na pewno chcesz usunąć ten dźwięk?"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
@@ -1558,7 +1558,8 @@ msgstr "Sugeruj foldery na podstawie rozszerzeń pliku"
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
-msgstr "Nie widzisz swojego języka na liście lub tłumaczenie jest nie kompletne?"
+msgstr ""
+"Nie widzisz swojego języka na liście lub tłumaczenie jest nie kompletne?"
 
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
@@ -2024,6 +2025,10 @@ msgid "Waiting for Wi-Fi to start download."
 msgstr "Zaczekaj na WiFi, aby rozpocząć pobieranie."
 
 msgctxt "MobileDataUsageDialog|"
+msgid "Would you like to enable usage of mobile data? *"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
 msgid "Don't ask again"
 msgstr "Nie pytaj ponownie"
 
@@ -2034,6 +2039,10 @@ msgstr "Tak"
 msgctxt "MobileDataUsageDialog|"
 msgid "No"
 msgstr "Nie"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "* additional charges may apply"
+msgstr ""
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
@@ -2274,6 +2283,14 @@ msgstr "Wysoka (1080p)"
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "4K (2160p)"
 msgstr "4K (2160p)"
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "5K (2880p)"
+msgstr "4K (2160p) {5K?} {2880p?}"
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "8K (4320p)"
+msgstr "4K (2160p) {8K?} {4320p?}"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -3141,9 +3158,6 @@ msgctxt "SoundsSettings|"
 msgid "No active downloads"
 msgstr "Brak aktywnych pobierań"
 
-msgctxt "SoundsSettings|"
-msgid "Are you sure you want to remove this sound?"
-msgstr "Na pewno chcesz usunąć ten dźwięk?"
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
