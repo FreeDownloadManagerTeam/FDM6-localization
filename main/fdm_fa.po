@@ -93,6 +93,10 @@ msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "دانلودها را وقتی که پنجره %1 غیرفعال است به من اطلاع بده"
 
 msgctxt "AdvancedSettings|"
+msgid "Customize sounds"
+msgstr "شخصی سازی صداها"
+
+msgctxt "AdvancedSettings|"
 msgid "Power management"
 msgstr "مدیریت انرژی"
 
@@ -122,20 +126,17 @@ msgstr "بکاپ گرفتن از لیست دانلودها هر"
 
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
-msgstr ""
+msgstr "استفاده از صداها"
 
-msgctxt "AdvancedSettings|"
-msgid "Customize"
-msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid ""
 "Do not allow downloads to perform post finished tasks when running on battery"
-msgstr ""
+msgstr "در زمان استفاده از باتری اجازه اجرا عملیات پس از دانلود وجود ندارد"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
-msgstr ""
+msgstr "اگر شارژ باطری به حداقل رسید اجازه دانلود وجود ندارد"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -750,7 +751,7 @@ msgstr "شروع خودکار %1"
 
 msgctxt "CrashReporter|"
 msgid "Failed to send the report.<br>Check your Internet connection."
-msgstr "ارسال گزارش ناموفق بود.<br>اتصال اینترنت خود را بررسی کنید."
+msgstr "ارسال گزارش انجام نشد.<br>اتصال اینترنت خود را بررسی کنید."
 
 msgctxt "CrashReporter|"
 msgid "Error"
@@ -826,31 +827,31 @@ msgstr "بستن"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Customize sounds"
-msgstr ""
+msgstr "شخصی سازی صداها"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Event"
-msgstr ""
+msgstr "رخداد"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Sound file"
-msgstr ""
+msgstr "فایل صدا"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No sound"
-msgstr ""
+msgstr "بدون صدا"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads added"
-msgstr ""
+msgstr "دانلودها افزوده شد"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads completed"
-msgstr ""
+msgstr "دانلودها تمام شده"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads failed"
-msgstr "لغو دانلودها"
+msgstr "دانلودها انجام نشد"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No active downloads"
@@ -858,7 +859,7 @@ msgstr "دانلود فعالی وجود ندارد"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Set sound"
-msgstr ""
+msgstr "تنظیم صدا"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Remove"
@@ -866,15 +867,12 @@ msgstr "حذف"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Test"
-msgstr ""
+msgstr "تست"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Close"
 msgstr "بستن"
 
-msgctxt "CustomizeSoundsDialog|"
-msgid "Are you sure you want to remove this sound?"
-msgstr ""
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
@@ -926,7 +924,7 @@ msgstr "انصراف"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Download deleting failed"
-msgstr ""
+msgstr "حذف بارگیری انجام نشد"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Try again"
@@ -934,15 +932,15 @@ msgstr "دوباره امتحان کنید"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore"
-msgstr ""
+msgstr "صرف نظر"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore all"
-msgstr ""
+msgstr "صرف نظر از همه"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
-msgstr ""
+msgstr "لغو"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
@@ -1351,11 +1349,11 @@ msgstr "مقایسه با"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification OK"
-msgstr "اعتبارسنجی موفق بود"
+msgstr "اعتبارسنجی مورد تایید است"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification failed"
-msgstr "اعتبارسنجی ناموفق بود"
+msgstr "اعتبارسنجی انجام نشد"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Close"
@@ -1391,7 +1389,7 @@ msgstr "مقایسه با"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification OK"
-msgstr "تاییدیه موفق بود"
+msgstr "اعتبارسنجی مورد تایید است"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification failed"
@@ -1615,7 +1613,7 @@ msgstr "از زمان سرور برای ایجاد فایل استفاده کن"
 
 msgctxt "GeneralSettings|"
 msgid "Maximum urls count in batch download"
-msgstr ""
+msgstr "حداکثر تعداد آدرسها در دسته دانلود"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1887,7 +1885,7 @@ msgstr "بررسی بروزرسانی..."
 
 msgctxt "MainMenu|"
 msgid "Join the %1 mosaic..."
-msgstr ""
+msgstr "پیوستن به %1 موزاییک."
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -2016,10 +2014,14 @@ msgstr "دانلود"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Mobile data usage"
-msgstr ""
+msgstr "کارکرد داده همراه"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Waiting for Wi-Fi to start download."
+msgstr "در انتظار شبکه بیسیم برای شروع دانلود."
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Would you like to enable usage of mobile data? *"
 msgstr ""
 
 msgctxt "MobileDataUsageDialog|"
@@ -2028,10 +2030,14 @@ msgstr "دوباره سوال نکن"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Yes"
-msgstr ""
+msgstr "بله"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "No"
+msgstr "نه"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "* additional charges may apply"
 msgstr ""
 
 msgctxt "ModeButton|"
@@ -2274,6 +2280,14 @@ msgctxt "PreferredVideoQualityCombobox|"
 msgid "4K (2160p)"
 msgstr "‏4K (2160p)"
 
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "5K (2880p)"
+msgstr "‏4K (2160p) {5K?} {2880p?}"
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "8K (4320p)"
+msgstr "‏4K (2160p) {8K?} {4320p?}"
+
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "خطای غیرمنتظره"
@@ -2320,7 +2334,7 @@ msgstr "ورود URL"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
-msgstr ""
+msgstr "متاسفانه این دستگاه توسط %1 پشتیبانی نمی شود."
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
@@ -2368,11 +2382,11 @@ msgstr "دانلودها انجام شدند"
 
 msgctxt "QObject|"
 msgid "Download failed"
-msgstr "لغو دانلود"
+msgstr "دانلود انجام نشد"
 
 msgctxt "QObject|"
 msgid "Downloads failed"
-msgstr "لغو دانلودها"
+msgstr "دانلودها انجام نشد"
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -2476,7 +2490,7 @@ msgstr "طول نیاز دارد"
 
 msgctxt "QObject|"
 msgid "Precondition Failed"
-msgstr "پیش نیازها رعایت نشده"
+msgstr "پیش نیازها انجام نشد"
 
 msgctxt "QObject|"
 msgid "Request Entity Too Large"
@@ -2496,7 +2510,7 @@ msgstr "دامنه درخواستی رضایت بخش نیست"
 
 msgctxt "QObject|"
 msgid "Expectation Failed"
-msgstr "انتظار ناموفق بود"
+msgstr "توقع برآورده نشد"
 
 msgctxt "QObject|"
 msgid "I'm a teapot"
@@ -3006,7 +3020,7 @@ msgstr "نزولی"
 
 msgctxt "SettingsPage|"
 msgid "Invalid settings"
-msgstr ""
+msgstr "تنظیمات نامعتبر"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
@@ -3058,7 +3072,7 @@ msgstr "محدودیت ترافیک"
 
 msgctxt "SettingsPage|"
 msgid "Sounds settings"
-msgstr ""
+msgstr "تنظیمات صدا"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -3118,31 +3132,28 @@ msgstr "بر اساس حجم"
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
-msgstr ""
+msgstr "تنظیمات صدا"
 
 msgctxt "SoundsSettings|"
 msgid "Use sounds"
-msgstr ""
+msgstr "استفاده از صداها"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads added"
-msgstr ""
+msgstr "دانلودها اضافه شده"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads completed"
-msgstr ""
+msgstr "دانلودها تمام شده است"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads failed"
-msgstr "لغو دانلودها"
+msgstr "دانلودها انجام نشد"
 
 msgctxt "SoundsSettings|"
 msgid "No active downloads"
 msgstr "دانلود فعالی وجود ندارد"
 
-msgctxt "SoundsSettings|"
-msgid "Are you sure you want to remove this sound?"
-msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
