@@ -93,6 +93,10 @@ msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "仅在 %1 非前台运行时提醒我"
 
 msgctxt "AdvancedSettings|"
+msgid "Customize sounds"
+msgstr "自定义声音"
+
+msgctxt "AdvancedSettings|"
 msgid "Power management"
 msgstr "电源管理"
 
@@ -122,20 +126,16 @@ msgstr "备份下载列表 每"
 
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
-msgstr ""
-
-msgctxt "AdvancedSettings|"
-msgid "Customize"
-msgstr ""
+msgstr "使用声音"
 
 msgctxt "AdvancedSettings|"
 msgid ""
 "Do not allow downloads to perform post finished tasks when running on battery"
-msgstr ""
+msgstr "使用电池时禁止下载项运行下载完成时的任务"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
-msgstr ""
+msgstr "电池电量低时禁止下载"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -816,27 +816,27 @@ msgstr "关闭"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Customize sounds"
-msgstr ""
+msgstr "自定义声音"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Event"
-msgstr ""
+msgstr "事件"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Sound file"
-msgstr ""
+msgstr "声音文件"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No sound"
-msgstr ""
+msgstr "无声音"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads added"
-msgstr ""
+msgstr "下载项已添加"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads completed"
-msgstr ""
+msgstr "多项下载完成"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads failed"
@@ -848,7 +848,7 @@ msgstr "无活动下载项"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Set sound"
-msgstr ""
+msgstr "设置声音"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Remove"
@@ -856,15 +856,11 @@ msgstr "移除"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Test"
-msgstr ""
+msgstr "测试"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Close"
 msgstr "关闭"
-
-msgctxt "CustomizeSoundsDialog|"
-msgid "Are you sure you want to remove this sound?"
-msgstr ""
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
@@ -916,7 +912,7 @@ msgstr "取消"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Download deleting failed"
-msgstr ""
+msgstr "删除下载项失败"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Try again"
@@ -924,15 +920,15 @@ msgstr "重试"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore"
-msgstr ""
+msgstr "忽略"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore all"
-msgstr ""
+msgstr "全部忽略"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
-msgstr ""
+msgstr "中止"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
@@ -1037,7 +1033,6 @@ msgstr "基于下载 URL 建议文件夹"
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "固定默认下载文件夹"
-
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1605,7 +1600,7 @@ msgstr "创建文件使用服务器的时间"
 
 msgctxt "GeneralSettings|"
 msgid "Maximum urls count in batch download"
-msgstr ""
+msgstr "批量下载中的最大URL数目"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1877,7 +1872,7 @@ msgstr "检查更新..."
 
 msgctxt "MainMenu|"
 msgid "Join the %1 mosaic..."
-msgstr ""
+msgstr "加入%1拼图"
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -2006,11 +2001,15 @@ msgstr "下载"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Mobile data usage"
-msgstr ""
+msgstr "移动数据使用量"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Waiting for Wi-Fi to start download."
-msgstr ""
+msgstr "等待连接Wi-Fi以下载"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Would you like to enable usage of mobile data? *"
+msgstr "您要开启移动数据使用权吗？"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Don't ask again"
@@ -2018,11 +2017,15 @@ msgstr "不再询问"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "No"
-msgstr ""
+msgstr "否"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "* additional charges may apply"
+msgstr "*可能收取额外费用"
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
@@ -2260,9 +2263,8 @@ msgctxt "PreferredVideoQualityCombobox|"
 msgid "High (1080p)"
 msgstr "高(1080p)"
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "4K (2160p)"
-msgstr "4K(2160p)"
+
+
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -2286,7 +2288,7 @@ msgstr "连接失败"
 
 msgctxt "QObject|"
 msgid "App frontend's server listen failed."
-msgstr "应用前端服务剑灵失败."
+msgstr "应用前端服务监听失败."
 
 msgctxt "QObject|"
 msgid "QML load failure."
@@ -2310,7 +2312,7 @@ msgstr "输入链接"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
-msgstr ""
+msgstr "抱歉，%1不支持此设备。"
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
@@ -2994,7 +2996,7 @@ msgstr "降序"
 
 msgctxt "SettingsPage|"
 msgid "Invalid settings"
-msgstr ""
+msgstr "无效设置"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
@@ -3046,7 +3048,7 @@ msgstr "限速"
 
 msgctxt "SettingsPage|"
 msgid "Sounds settings"
-msgstr ""
+msgstr "声音设置"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -3106,19 +3108,19 @@ msgstr "大小"
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
-msgstr ""
+msgstr "声音设置"
 
 msgctxt "SoundsSettings|"
 msgid "Use sounds"
-msgstr ""
+msgstr "使用声音"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads added"
-msgstr ""
+msgstr "下载项已添加"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads completed"
-msgstr ""
+msgstr "多项下载已完成"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads failed"
@@ -3127,10 +3129,6 @@ msgstr "多项下载失败"
 msgctxt "SoundsSettings|"
 msgid "No active downloads"
 msgstr "无活动下载项"
-
-msgctxt "SoundsSettings|"
-msgid "Are you sure you want to remove this sound?"
-msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
