@@ -3,18 +3,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Language: uk_UA\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: uk_UA\n"
-"X-Generator: Poedit 2.4.1\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -133,6 +125,18 @@ msgid "Backup the list of downloads every"
 msgstr "Резервне копіювання списку завантажень кожні"
 
 msgctxt "AdvancedSettings|"
+msgid "File exists reaction"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Rename"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Overwrite"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Use sounds"
 msgstr "Використовувати звуки"
 
@@ -166,6 +170,14 @@ msgstr "Завжди запитувати"
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Додаткові установки"
+
+msgctxt "AdvancedSettings|"
+msgid "Choose theme"
+msgstr "Виберіть тему"
+
+msgctxt "AdvancedSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr ""
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -958,6 +970,70 @@ msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Розмір: %1"
 
+msgctxt "DownloadWindow|"
+msgid "Saved in"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "File size"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Resume support"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Yes"
+msgstr "Так"
+
+msgctxt "DownloadWindow|"
+msgid "No"
+msgstr "Ні"
+
+msgctxt "DownloadWindow|"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Downloaded"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Speed"
+msgstr "Швидкість"
+
+msgctxt "DownloadWindow|"
+msgid "Time remaining"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Open download when it is completed"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Close this window when the download is completed or stopped"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Hide"
+msgstr "Сховати"
+
+msgctxt "DownloadWindow|"
+msgid "Show In Folder"
+msgstr "Показати у теці"
+
+msgctxt "DownloadWindow|"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "DownloadWindow|"
+msgid "Stop"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Start"
+msgstr ""
+
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "Відсутній файл"
@@ -1143,6 +1219,10 @@ msgid "Copy link"
 msgstr "Копіювати посилання"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Check for update"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
 msgstr "Експортувати вибрані завантаження"
 
@@ -1265,6 +1345,39 @@ msgstr "Зупинено"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Завершено"
+
+msgctxt "EditTagDialog|"
+msgid "Edit tag"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid "Extensions (e.g. \"avi mp3\")"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid ""
+"Extensions that are automatically assigned with this tag for new downloads"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid "Default download folder"
+msgstr "Тека для завантажень"
+
+msgctxt "EditTagDialog|"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "EditTagDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "EditTagDialog|"
+msgid "Macros"
+msgstr "Макрос"
+
+msgctxt "EditTagDialog|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
@@ -1458,6 +1571,26 @@ msgctxt "FileType|"
 msgid "Preferred File Type:"
 msgstr "Бажаний тип файлу:"
 
+msgctxt "FilesExistsDialog|"
+msgid "Warning: file exists already"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Remember my choice for all downloads"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Rename (%1)"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Overwrite"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Abort"
+msgstr "Перервати"
+
 msgctxt "FilesTree|"
 msgid "Name"
 msgstr "Ім'я"
@@ -1542,13 +1675,7 @@ msgctxt "GeneralSettings|"
 msgid "Choose theme"
 msgstr "Виберіть тему"
 
-msgctxt "GeneralSettings|"
-msgid "Light"
-msgstr "Світла"
 
-msgctxt "GeneralSettings|"
-msgid "Dark"
-msgstr "Темна"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -1561,6 +1688,10 @@ msgstr "Завантаження"
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
 msgstr "Пропонувати теки залежно від типу файлу"
+
+msgctxt "GeneralSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -1603,6 +1734,10 @@ msgid "Compact view of downloads list"
 msgstr "Компактний вид списку завантажень"
 
 msgctxt "GeneralSettings|"
+msgid "Enable standalone downloads windows"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
 msgstr "Автоматично прибирати видалені файли зі списку завантажень"
 
@@ -1634,9 +1769,6 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Автоматично встановлювати оновлення"
 
-msgctxt "GeneralSettings|"
-msgid "Dark theme"
-msgstr "Темна тема"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1829,6 +1961,10 @@ msgstr "Активні"
 msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "Завершено"
+
+msgctxt "MainFiltersBar|"
+msgid "OK to remove tag?"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
@@ -2859,6 +2995,22 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "Різне"
 
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Remote resource changed"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Always re-download"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Re-download"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "Зберегти до"
@@ -3264,9 +3416,6 @@ msgctxt "Subtitles|"
 msgid "Edit list"
 msgstr "Редагувати список"
 
-msgctxt "TagColorDialog|"
-msgid "Remove tag"
-msgstr "Прибрати тег"
 
 msgctxt "TagMenu|"
 msgid "Edit"
@@ -3279,6 +3428,18 @@ msgstr "Прибирати"
 msgctxt "TagPalette|"
 msgid "Customize color"
 msgstr "Змінити колір"
+
+msgctxt "ThemeComboBox|"
+msgid "System"
+msgstr ""
+
+msgctxt "ThemeComboBox|"
+msgid "Light"
+msgstr "Світла"
+
+msgctxt "ThemeComboBox|"
+msgid "Dark"
+msgstr "Темна"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
