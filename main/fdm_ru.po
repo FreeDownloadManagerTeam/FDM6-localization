@@ -126,6 +126,18 @@ msgid "Backup the list of downloads every"
 msgstr "Резервное копирование списка загрузок раз в"
 
 msgctxt "AdvancedSettings|"
+msgid "File exists reaction"
+msgstr "Действие при наличии файла"
+
+msgctxt "AdvancedSettings|"
+msgid "Rename"
+msgstr "Переименовать"
+
+msgctxt "AdvancedSettings|"
+msgid "Overwrite"
+msgstr "Перезаписать"
+
+msgctxt "AdvancedSettings|"
 msgid "Use sounds"
 msgstr "Включить звуки"
 
@@ -159,6 +171,14 @@ msgstr "Всегда спрашивать"
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Расширенные настройки"
+
+msgctxt "AdvancedSettings|"
+msgid "Choose theme"
+msgstr "Выберите тему"
+
+msgctxt "AdvancedSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Светлая тема будет использована, если системная тема неизвестна."
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -951,6 +971,70 @@ msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Размер: %1"
 
+msgctxt "DownloadWindow|"
+msgid "Saved in"
+msgstr "Сохранить в"
+
+msgctxt "DownloadWindow|"
+msgid "File size"
+msgstr "Размер файла"
+
+msgctxt "DownloadWindow|"
+msgid "Resume support"
+msgstr "Поддержка докачки"
+
+msgctxt "DownloadWindow|"
+msgid "Yes"
+msgstr "Да"
+
+msgctxt "DownloadWindow|"
+msgid "No"
+msgstr "Нет"
+
+msgctxt "DownloadWindow|"
+msgid "Unknown"
+msgstr "Неизвестно"
+
+msgctxt "DownloadWindow|"
+msgid "Downloaded"
+msgstr "Загружено"
+
+msgctxt "DownloadWindow|"
+msgid "Speed"
+msgstr "Скорость"
+
+msgctxt "DownloadWindow|"
+msgid "Time remaining"
+msgstr "Времени осталось"
+
+msgctxt "DownloadWindow|"
+msgid "Open download when it is completed"
+msgstr "Открыть загрузку после завершения"
+
+msgctxt "DownloadWindow|"
+msgid "Close this window when the download is completed or stopped"
+msgstr "Закрыть это окно, когда загрузка будет завершена или остановлена"
+
+msgctxt "DownloadWindow|"
+msgid "Hide"
+msgstr "Скрыть"
+
+msgctxt "DownloadWindow|"
+msgid "Show In Folder"
+msgstr "Показать в папке"
+
+msgctxt "DownloadWindow|"
+msgid "Open"
+msgstr "Открыть"
+
+msgctxt "DownloadWindow|"
+msgid "Stop"
+msgstr "Остановить"
+
+msgctxt "DownloadWindow|"
+msgid "Start"
+msgstr "Начать"
+
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "Файл отсутствует"
@@ -1136,6 +1220,10 @@ msgid "Copy link"
 msgstr "Копировать ссылку"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Check for update"
+msgstr "Проверить обновления"
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
 msgstr "Экспорт выбранных загрузок"
 
@@ -1258,6 +1346,40 @@ msgstr "Остановлено"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Завершено"
+
+msgctxt "EditTagDialog|"
+msgid "Edit tag"
+msgstr "Редактировать тег"
+
+msgctxt "EditTagDialog|"
+msgid "Extensions (e.g. \"avi mp3\")"
+msgstr "Расширения (например \"avi mp3\")"
+
+msgctxt "EditTagDialog|"
+msgid ""
+"Extensions that are automatically assigned with this tag for new downloads"
+msgstr ""
+"Расширения, которым автоматически присваивается этот тег для новых загрузок"
+
+msgctxt "EditTagDialog|"
+msgid "Default download folder"
+msgstr "Папка по умолчанию для сохранения"
+
+msgctxt "EditTagDialog|"
+msgid "Open"
+msgstr "Открыть"
+
+msgctxt "EditTagDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "EditTagDialog|"
+msgid "Macros"
+msgstr "Макросы"
+
+msgctxt "EditTagDialog|"
+msgid "OK"
+msgstr "ОК"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
@@ -1451,6 +1573,26 @@ msgctxt "FileType|"
 msgid "Preferred File Type:"
 msgstr "Предпочтительный тип файла:"
 
+msgctxt "FilesExistsDialog|"
+msgid "Warning: file exists already"
+msgstr "Внимание: файл уже существует"
+
+msgctxt "FilesExistsDialog|"
+msgid "Remember my choice for all downloads"
+msgstr "Запомнить мой выбор для всех загрузок"
+
+msgctxt "FilesExistsDialog|"
+msgid "Rename (%1)"
+msgstr "Переименовать (%1)"
+
+msgctxt "FilesExistsDialog|"
+msgid "Overwrite"
+msgstr "Перезаписать"
+
+msgctxt "FilesExistsDialog|"
+msgid "Abort"
+msgstr "Прервать"
+
 msgctxt "FilesTree|"
 msgid "Name"
 msgstr "Имя"
@@ -1535,13 +1677,7 @@ msgctxt "GeneralSettings|"
 msgid "Choose theme"
 msgstr "Выберите тему"
 
-msgctxt "GeneralSettings|"
-msgid "Light"
-msgstr "Светлая"
 
-msgctxt "GeneralSettings|"
-msgid "Dark"
-msgstr "Тёмная"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -1554,6 +1690,10 @@ msgstr "Загрузки"
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
 msgstr "Предлагать папку для сохранения по типу файла"
+
+msgctxt "GeneralSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Светлая тема будет использована, если системная тема неизвестна."
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -1596,6 +1736,10 @@ msgid "Compact view of downloads list"
 msgstr "Компактный вид списка загрузок"
 
 msgctxt "GeneralSettings|"
+msgid "Enable standalone downloads windows"
+msgstr "Включить отдельные окна загрузок"
+
+msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
 msgstr "Автоматически удалять загрузки при удалении файла"
 
@@ -1627,9 +1771,6 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Автоматически устанавливать обновления"
 
-msgctxt "GeneralSettings|"
-msgid "Dark theme"
-msgstr "Тёмная тема"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1822,6 +1963,10 @@ msgstr "Активные"
 msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "Завершенные"
+
+msgctxt "MainFiltersBar|"
+msgid "OK to remove tag?"
+msgstr "Удалить тег?"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
@@ -2820,11 +2965,11 @@ msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
-msgstr ""
+msgstr "Хотите стереть (это очистит ваш список загрузок и все данные %1)?"
 
 msgctxt "QObject|"
 msgid "Failed."
-msgstr ""
+msgstr "Сбой"
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
@@ -2832,23 +2977,39 @@ msgstr "Пропущен параметр %path%."
 
 msgctxt "QObject|"
 msgid "Update URL"
-msgstr ""
+msgstr "Обновить URL"
 
 msgctxt "QObject|"
 msgid "Documents"
-msgstr ""
+msgstr "Документы"
 
 msgctxt "QObject|"
 msgid "Pictures"
-msgstr ""
+msgstr "Изображения"
 
 msgctxt "QObject|"
 msgid "Videos"
-msgstr ""
+msgstr "Видео"
 
 msgctxt "QObject|"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Разное"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Remote resource changed"
+msgstr "Удаленный ресурс изменен"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Always re-download"
+msgstr "Всегда скачивать заново"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Re-download"
+msgstr "Скачать заново"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Cancel"
+msgstr "Отменить"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -3008,7 +3169,7 @@ msgstr "По убыванию"
 
 msgctxt "SettingsPage|"
 msgid "Invalid settings"
-msgstr ""
+msgstr "Некорректные настройки"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
@@ -3251,9 +3412,6 @@ msgctxt "Subtitles|"
 msgid "Edit list"
 msgstr "Редактировать список"
 
-msgctxt "TagColorDialog|"
-msgid "Remove tag"
-msgstr "Удалить тег"
 
 msgctxt "TagMenu|"
 msgid "Edit"
@@ -3266,6 +3424,18 @@ msgstr "Удалить"
 msgctxt "TagPalette|"
 msgid "Customize color"
 msgstr "Выбрать цвет"
+
+msgctxt "ThemeComboBox|"
+msgid "System"
+msgstr "Системная"
+
+msgctxt "ThemeComboBox|"
+msgid "Light"
+msgstr "Светлая"
+
+msgctxt "ThemeComboBox|"
+msgid "Dark"
+msgstr "Тёмная"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"

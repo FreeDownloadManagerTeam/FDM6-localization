@@ -94,7 +94,7 @@ msgstr "Повідомляти мене про завантаження лише
 
 msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
-msgstr ""
+msgstr "Налаштувати звуки"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -125,17 +125,31 @@ msgid "Backup the list of downloads every"
 msgstr "Резервне копіювання списку завантажень кожні"
 
 msgctxt "AdvancedSettings|"
-msgid "Use sounds"
+msgid "File exists reaction"
 msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Rename"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Overwrite"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Use sounds"
+msgstr "Використовувати звуки"
 
 msgctxt "AdvancedSettings|"
 msgid ""
 "Do not allow downloads to perform post finished tasks when running on battery"
 msgstr ""
+"Не дозволяти завантаженням виконувати дії після їх завершення  при живленні "
+"від акумулятора"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
-msgstr ""
+msgstr "Не дозволяти завантаження при низькому заряді акумулятора"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -156,6 +170,14 @@ msgstr "Завжди запитувати"
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Додаткові установки"
+
+msgctxt "AdvancedSettings|"
+msgid "Choose theme"
+msgstr "Виберіть тему"
+
+msgctxt "AdvancedSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr ""
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -826,27 +848,27 @@ msgstr "Закрити"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Customize sounds"
-msgstr ""
+msgstr "Налаштувати звуки"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Event"
-msgstr ""
+msgstr "Подія"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Sound file"
-msgstr ""
+msgstr "Файл звуку"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No sound"
-msgstr ""
+msgstr "Без звуку"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads added"
-msgstr ""
+msgstr "Завантаження додано"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads completed"
-msgstr ""
+msgstr "Завантаження завершено"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads failed"
@@ -858,7 +880,7 @@ msgstr "Немає активних завантажень"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Set sound"
-msgstr ""
+msgstr "Встановити звук"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Remove"
@@ -866,7 +888,7 @@ msgstr "Прибирати"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Test"
-msgstr ""
+msgstr "Тест"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Close"
@@ -922,7 +944,7 @@ msgstr "Скасувати"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Download deleting failed"
-msgstr ""
+msgstr "Не вдалося видалити завантаження"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Try again"
@@ -930,15 +952,15 @@ msgstr "Спробувати ще"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore"
-msgstr ""
+msgstr "Ігнорувати"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore all"
-msgstr ""
+msgstr "Ігнорувати все"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
-msgstr ""
+msgstr "Перервати"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
@@ -947,6 +969,70 @@ msgstr "Розмір: %1 (Місце на диску: %2)"
 msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Розмір: %1"
+
+msgctxt "DownloadWindow|"
+msgid "Saved in"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "File size"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Resume support"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Yes"
+msgstr "Так"
+
+msgctxt "DownloadWindow|"
+msgid "No"
+msgstr "Ні"
+
+msgctxt "DownloadWindow|"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Downloaded"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Speed"
+msgstr "Швидкість"
+
+msgctxt "DownloadWindow|"
+msgid "Time remaining"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Open download when it is completed"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Close this window when the download is completed or stopped"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Hide"
+msgstr "Сховати"
+
+msgctxt "DownloadWindow|"
+msgid "Show In Folder"
+msgstr "Показати у теці"
+
+msgctxt "DownloadWindow|"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "DownloadWindow|"
+msgid "Stop"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Start"
+msgstr ""
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
@@ -1133,6 +1219,10 @@ msgid "Copy link"
 msgstr "Копіювати посилання"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Check for update"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
 msgstr "Експортувати вибрані завантаження"
 
@@ -1255,6 +1345,39 @@ msgstr "Зупинено"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Завершено"
+
+msgctxt "EditTagDialog|"
+msgid "Edit tag"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid "Extensions (e.g. \"avi mp3\")"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid ""
+"Extensions that are automatically assigned with this tag for new downloads"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid "Default download folder"
+msgstr "Тека для завантажень"
+
+msgctxt "EditTagDialog|"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "EditTagDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "EditTagDialog|"
+msgid "Macros"
+msgstr "Макрос"
+
+msgctxt "EditTagDialog|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
@@ -1448,6 +1571,26 @@ msgctxt "FileType|"
 msgid "Preferred File Type:"
 msgstr "Бажаний тип файлу:"
 
+msgctxt "FilesExistsDialog|"
+msgid "Warning: file exists already"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Remember my choice for all downloads"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Rename (%1)"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Overwrite"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Abort"
+msgstr "Перервати"
+
 msgctxt "FilesTree|"
 msgid "Name"
 msgstr "Ім'я"
@@ -1532,13 +1675,7 @@ msgctxt "GeneralSettings|"
 msgid "Choose theme"
 msgstr "Виберіть тему"
 
-msgctxt "GeneralSettings|"
-msgid "Light"
-msgstr "Світла"
 
-msgctxt "GeneralSettings|"
-msgid "Dark"
-msgstr "Темна"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -1551,6 +1688,10 @@ msgstr "Завантаження"
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
 msgstr "Пропонувати теки залежно від типу файлу"
+
+msgctxt "GeneralSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -1593,6 +1734,10 @@ msgid "Compact view of downloads list"
 msgstr "Компактний вид списку завантажень"
 
 msgctxt "GeneralSettings|"
+msgid "Enable standalone downloads windows"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
 msgstr "Автоматично прибирати видалені файли зі списку завантажень"
 
@@ -1610,7 +1755,7 @@ msgstr "При створенні файлу використати час се�
 
 msgctxt "GeneralSettings|"
 msgid "Maximum urls count in batch download"
-msgstr ""
+msgstr "Максимальна кількість URL в пакетному завантаженні"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1624,9 +1769,6 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Автоматично встановлювати оновлення"
 
-msgctxt "GeneralSettings|"
-msgid "Dark theme"
-msgstr "Темна тема"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1820,6 +1962,10 @@ msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "Завершено"
 
+msgctxt "MainFiltersBar|"
+msgid "OK to remove tag?"
+msgstr ""
+
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
 msgstr "Вставити URL-адреси з буфера обміну"
@@ -1882,7 +2028,7 @@ msgstr "Перевірити оновлення..."
 
 msgctxt "MainMenu|"
 msgid "Join the %1 mosaic..."
-msgstr ""
+msgstr "Приєднатися до мозаїки %1..."
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -2013,15 +2159,15 @@ msgstr "Завантажити"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Mobile data usage"
-msgstr ""
+msgstr "Використання мобільних даних"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Waiting for Wi-Fi to start download."
-msgstr ""
+msgstr "Чекаю на Wi-Fi для початку завантаження."
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Would you like to enable usage of mobile data? *"
-msgstr ""
+msgstr "Ви хочете дозволити використання мобільних даних? *"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Don't ask again"
@@ -2029,15 +2175,15 @@ msgstr "Більше не питати"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Yes"
-msgstr ""
+msgstr "Так"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "No"
-msgstr ""
+msgstr "Ні"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
-msgstr ""
+msgstr "* може стягуватися додаткова плата"
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
@@ -2275,9 +2421,6 @@ msgctxt "PreferredVideoQualityCombobox|"
 msgid "High (1080p)"
 msgstr "Висока (1080p)"
 
-
-
-
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "Неочікувана помилка"
@@ -2324,7 +2467,7 @@ msgstr "Введіть URL-адресу"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
-msgstr ""
+msgstr "Перепрошуємо, цей пристрій не підтримується %1."
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
@@ -2852,6 +2995,22 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "Різне"
 
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Remote resource changed"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Always re-download"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Re-download"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "Зберегти до"
@@ -3010,7 +3169,7 @@ msgstr "За спаданням"
 
 msgctxt "SettingsPage|"
 msgid "Invalid settings"
-msgstr ""
+msgstr "Неправильні налаштування"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
@@ -3062,7 +3221,7 @@ msgstr "Обмеження трафіку"
 
 msgctxt "SettingsPage|"
 msgid "Sounds settings"
-msgstr ""
+msgstr "Налаштування звуку"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -3125,19 +3284,19 @@ msgstr "За розміром"
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
-msgstr ""
+msgstr "Налаштування звуку"
 
 msgctxt "SoundsSettings|"
 msgid "Use sounds"
-msgstr ""
+msgstr "Використовувати звуки"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads added"
-msgstr ""
+msgstr "Завантаження додано"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads completed"
-msgstr ""
+msgstr "Завантаження завершено"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads failed"
@@ -3153,7 +3312,7 @@ msgstr "Увага: потенційна загроза безпеці"
 
 msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
-msgstr "Сертифікат SSL невірний."
+msgstr "Сертифікат SSL недійсний."
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -3257,9 +3416,6 @@ msgctxt "Subtitles|"
 msgid "Edit list"
 msgstr "Редагувати список"
 
-msgctxt "TagColorDialog|"
-msgid "Remove tag"
-msgstr "Прибрати тег"
 
 msgctxt "TagMenu|"
 msgid "Edit"
@@ -3272,6 +3428,18 @@ msgstr "Прибирати"
 msgctxt "TagPalette|"
 msgid "Customize color"
 msgstr "Змінити колір"
+
+msgctxt "ThemeComboBox|"
+msgid "System"
+msgstr ""
+
+msgctxt "ThemeComboBox|"
+msgid "Light"
+msgstr "Світла"
+
+msgctxt "ThemeComboBox|"
+msgid "Dark"
+msgstr "Темна"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"

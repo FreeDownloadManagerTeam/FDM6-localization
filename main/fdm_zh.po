@@ -125,6 +125,18 @@ msgid "Backup the list of downloads every"
 msgstr "备份下载列表 每"
 
 msgctxt "AdvancedSettings|"
+msgid "File exists reaction"
+msgstr "文件已存在时的反应"
+
+msgctxt "AdvancedSettings|"
+msgid "Rename"
+msgstr "重命名"
+
+msgctxt "AdvancedSettings|"
+msgid "Overwrite"
+msgstr "覆盖"
+
+msgctxt "AdvancedSettings|"
 msgid "Use sounds"
 msgstr "使用声音"
 
@@ -156,6 +168,14 @@ msgstr "总是询问"
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "高级设置"
+
+msgctxt "AdvancedSettings|"
+msgid "Choose theme"
+msgstr "选择主题"
+
+msgctxt "AdvancedSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "若系统主题未知，将应用浅色主题。"
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -938,6 +958,70 @@ msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "大小: %1"
 
+msgctxt "DownloadWindow|"
+msgid "Saved in"
+msgstr "保存于"
+
+msgctxt "DownloadWindow|"
+msgid "File size"
+msgstr "文件大小"
+
+msgctxt "DownloadWindow|"
+msgid "Resume support"
+msgstr "重启支持"
+
+msgctxt "DownloadWindow|"
+msgid "Yes"
+msgstr "是"
+
+msgctxt "DownloadWindow|"
+msgid "No"
+msgstr "否"
+
+msgctxt "DownloadWindow|"
+msgid "Unknown"
+msgstr "未知"
+
+msgctxt "DownloadWindow|"
+msgid "Downloaded"
+msgstr "已下载"
+
+msgctxt "DownloadWindow|"
+msgid "Speed"
+msgstr "速度"
+
+msgctxt "DownloadWindow|"
+msgid "Time remaining"
+msgstr "剩余时间"
+
+msgctxt "DownloadWindow|"
+msgid "Open download when it is completed"
+msgstr "下载完成后打开"
+
+msgctxt "DownloadWindow|"
+msgid "Close this window when the download is completed or stopped"
+msgstr "下载完成或停止时关闭此窗口"
+
+msgctxt "DownloadWindow|"
+msgid "Hide"
+msgstr "隐藏"
+
+msgctxt "DownloadWindow|"
+msgid "Show In Folder"
+msgstr "在文件夹中显示"
+
+msgctxt "DownloadWindow|"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "DownloadWindow|"
+msgid "Stop"
+msgstr "停止"
+
+msgctxt "DownloadWindow|"
+msgid "Start"
+msgstr "启动"
+
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "文件丢失"
@@ -1123,6 +1207,10 @@ msgid "Copy link"
 msgstr "复制链接"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Check for update"
+msgstr "检查更新"
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
 msgstr "导出选中的下载项"
 
@@ -1245,6 +1333,39 @@ msgstr "已暂停"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "完成"
+
+msgctxt "EditTagDialog|"
+msgid "Edit tag"
+msgstr "编辑标签"
+
+msgctxt "EditTagDialog|"
+msgid "Extensions (e.g. \"avi mp3\")"
+msgstr "扩展名（如\"avi mp3\"）"
+
+msgctxt "EditTagDialog|"
+msgid ""
+"Extensions that are automatically assigned with this tag for new downloads"
+msgstr "自动添加此标签的新下载项的扩展名"
+
+msgctxt "EditTagDialog|"
+msgid "Default download folder"
+msgstr "默认下载文件夹"
+
+msgctxt "EditTagDialog|"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "EditTagDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "EditTagDialog|"
+msgid "Macros"
+msgstr "宏"
+
+msgctxt "EditTagDialog|"
+msgid "OK"
+msgstr "确定"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
@@ -1438,6 +1559,26 @@ msgctxt "FileType|"
 msgid "Preferred File Type:"
 msgstr "文件类型偏好:"
 
+msgctxt "FilesExistsDialog|"
+msgid "Warning: file exists already"
+msgstr "警告：文件已存在"
+
+msgctxt "FilesExistsDialog|"
+msgid "Remember my choice for all downloads"
+msgstr "为所有下载记住我的选择"
+
+msgctxt "FilesExistsDialog|"
+msgid "Rename (%1)"
+msgstr "重命名（%1）"
+
+msgctxt "FilesExistsDialog|"
+msgid "Overwrite"
+msgstr "覆盖"
+
+msgctxt "FilesExistsDialog|"
+msgid "Abort"
+msgstr "中止"
+
 msgctxt "FilesTree|"
 msgid "Name"
 msgstr "名称"
@@ -1522,13 +1663,7 @@ msgctxt "GeneralSettings|"
 msgid "Choose theme"
 msgstr "选择主题"
 
-msgctxt "GeneralSettings|"
-msgid "Light"
-msgstr "浅色"
 
-msgctxt "GeneralSettings|"
-msgid "Dark"
-msgstr "深色"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -1541,6 +1676,10 @@ msgstr "下载"
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
 msgstr "基于文件类型建议文件夹"
+
+msgctxt "GeneralSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "若系统主题未知，将应用浅色主题。"
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -1583,6 +1722,10 @@ msgid "Compact view of downloads list"
 msgstr "下载列表缩略图"
 
 msgctxt "GeneralSettings|"
+msgid "Enable standalone downloads windows"
+msgstr "启用独立下载窗口"
+
+msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
 msgstr "自动从下载列表移除已删除的文件"
 
@@ -1614,9 +1757,6 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "自动安装更新"
 
-msgctxt "GeneralSettings|"
-msgid "Dark theme"
-msgstr "深色主题"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1809,6 +1949,10 @@ msgstr "活动"
 msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "已完成"
+
+msgctxt "MainFiltersBar|"
+msgid "OK to remove tag?"
+msgstr "确定移除标签吗？"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
@@ -2262,6 +2406,7 @@ msgstr "中(480p)"
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "High (1080p)"
 msgstr "高(1080p)"
+
 
 
 
@@ -2837,6 +2982,22 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "其他"
 
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Remote resource changed"
+msgstr "远程资源已改变"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Always re-download"
+msgstr "总是重新下载"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Re-download"
+msgstr "重新下载"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Cancel"
+msgstr "取消"
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "保存到"
@@ -3237,9 +3398,6 @@ msgctxt "Subtitles|"
 msgid "Edit list"
 msgstr "编辑列表"
 
-msgctxt "TagColorDialog|"
-msgid "Remove tag"
-msgstr "移除标签"
 
 msgctxt "TagMenu|"
 msgid "Edit"
@@ -3252,6 +3410,18 @@ msgstr "移除"
 msgctxt "TagPalette|"
 msgid "Customize color"
 msgstr "自定义颜色"
+
+msgctxt "ThemeComboBox|"
+msgid "System"
+msgstr "跟随系统"
+
+msgctxt "ThemeComboBox|"
+msgid "Light"
+msgstr "浅色"
+
+msgctxt "ThemeComboBox|"
+msgid "Dark"
+msgstr "深色"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"

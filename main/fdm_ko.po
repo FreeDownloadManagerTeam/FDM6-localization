@@ -125,6 +125,18 @@ msgid "Backup the list of downloads every"
 msgstr "다운로드 목록 백업 간격"
 
 msgctxt "AdvancedSettings|"
+msgid "File exists reaction"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Rename"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Overwrite"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Use sounds"
 msgstr "사운드 사용"
 
@@ -139,7 +151,7 @@ msgstr "배터리 수준이 아래로 떨어질 경우 다운로드를 허용하
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
-msgstr "버튼 동작 삭제"
+msgstr "삭제 버튼 동작"
 
 msgctxt "AdvancedSettings|"
 msgid "Remove only from download list"
@@ -156,6 +168,14 @@ msgstr "항상 묻기"
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "고급 설정"
+
+msgctxt "AdvancedSettings|"
+msgid "Choose theme"
+msgstr "테마 선택"
+
+msgctxt "AdvancedSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr ""
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -461,7 +481,7 @@ msgstr "웹 브라우저에서 다운로드 가로채기"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Start downloading without confirmation"
-msgstr "확인 없이 다운로드 시작"
+msgstr "확인없이 다운로드 시작"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip domains"
@@ -506,7 +526,7 @@ msgid ""
 "browser does not provide to %1 (or there is no universal way for all "
 "browsers to do this)."
 msgstr ""
-"내장 웹 브라우저를 열려고합니다.\n"
+"내장 웹 브라우저를 열려고 합니다.\n"
 "\n"
 "%1에 다운로드를 추가하는데 도움이 됩니다.\n"
 "\n"
@@ -780,7 +800,7 @@ msgctxt "CreatePortableDialog|"
 msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
-msgstr "이 버전을 만들 경로를 여기에 지정하세요. 일부 이동식 드라이브의 폴더여야 합니다."
+msgstr "이 버전을 만들 경로를 여기에 지정하세요. 이동식 드라이브에 있는 폴더여야 합니다."
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -844,7 +864,7 @@ msgstr "다운로드 실패"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No active downloads"
-msgstr "활성 다운로드가 없습니다"
+msgstr "활성 다운로드 없음"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Set sound"
@@ -938,6 +958,70 @@ msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "크기: %1"
 
+msgctxt "DownloadWindow|"
+msgid "Saved in"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "File size"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Resume support"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Yes"
+msgstr "예"
+
+msgctxt "DownloadWindow|"
+msgid "No"
+msgstr "아니오"
+
+msgctxt "DownloadWindow|"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Downloaded"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Speed"
+msgstr "속도"
+
+msgctxt "DownloadWindow|"
+msgid "Time remaining"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Open download when it is completed"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Close this window when the download is completed or stopped"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Hide"
+msgstr "숨김"
+
+msgctxt "DownloadWindow|"
+msgid "Show In Folder"
+msgstr "폴더에 표시"
+
+msgctxt "DownloadWindow|"
+msgid "Open"
+msgstr "열기"
+
+msgctxt "DownloadWindow|"
+msgid "Stop"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Start"
+msgstr ""
+
 msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "디스크가 없습니다"
@@ -972,7 +1056,7 @@ msgstr "다음에 대한 결과를 찾을 수 없음"
 
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
-msgstr "\"%1\"태그로 검색된 결과가 없습니다"
+msgstr "\"%1\" 태그로 검색된 결과가 없습니다"
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
@@ -996,7 +1080,7 @@ msgstr "다운로드 설정"
 
 msgctxt "DownloadsSettings|"
 msgid "Start downloading without confirmation"
-msgstr "확인 없이 다운로드 시작"
+msgstr "확인없이 다운로드 시작"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove deleted files from download list"
@@ -1123,6 +1207,10 @@ msgid "Copy link"
 msgstr "링크 복사"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Check for update"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
 msgstr "선택한 다운로드 내보내기"
 
@@ -1245,6 +1333,39 @@ msgstr "일시 중지됨"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "완료"
+
+msgctxt "EditTagDialog|"
+msgid "Edit tag"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid "Extensions (e.g. \"avi mp3\")"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid ""
+"Extensions that are automatically assigned with this tag for new downloads"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid "Default download folder"
+msgstr "기본 다운로드 폴더"
+
+msgctxt "EditTagDialog|"
+msgid "Open"
+msgstr "열기"
+
+msgctxt "EditTagDialog|"
+msgid "Cancel"
+msgstr "취소"
+
+msgctxt "EditTagDialog|"
+msgid "Macros"
+msgstr "매크로"
+
+msgctxt "EditTagDialog|"
+msgid "OK"
+msgstr "확인"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
@@ -1438,6 +1559,26 @@ msgctxt "FileType|"
 msgid "Preferred File Type:"
 msgstr "선호하는 파일 형식:"
 
+msgctxt "FilesExistsDialog|"
+msgid "Warning: file exists already"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Remember my choice for all downloads"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Rename (%1)"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Overwrite"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Abort"
+msgstr "중단"
+
 msgctxt "FilesTree|"
 msgid "Files"
 msgstr "파일"
@@ -1522,13 +1663,7 @@ msgctxt "GeneralSettings|"
 msgid "Choose theme"
 msgstr "테마 선택"
 
-msgctxt "GeneralSettings|"
-msgid "Light"
-msgstr "밝은"
 
-msgctxt "GeneralSettings|"
-msgid "Dark"
-msgstr "어두운"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -1551,6 +1686,10 @@ msgid "Suggest folders based on file type"
 msgstr "파일 유형에 따라 폴더 제안"
 
 msgctxt "GeneralSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Default download folder"
 msgstr "기본 다운로드 폴더"
 
@@ -1564,7 +1703,7 @@ msgstr "다운로드 URL을 기반으로 폴더 제안"
 
 msgctxt "GeneralSettings|"
 msgid "Fixed default download folder"
-msgstr "고정된 기본 다운로드 폴더"
+msgstr "기본 다운로드 폴더를 고정"
 
 msgctxt "GeneralSettings|"
 msgid "Open"
@@ -1581,6 +1720,10 @@ msgstr "매크로"
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
 msgstr "다운로드 목록 간략히 보기"
+
+msgctxt "GeneralSettings|"
+msgid "Enable standalone downloads windows"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
@@ -1614,9 +1757,6 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "자동 업데이트 설치"
 
-msgctxt "GeneralSettings|"
-msgid "Dark theme"
-msgstr "어두운 테마"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1640,7 +1780,7 @@ msgstr "업로드 속도:"
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
-msgstr "추가 위치:"
+msgstr "추가 시간:"
 
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
@@ -1772,7 +1912,7 @@ msgstr "숨김"
 
 msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
-msgstr "%content_type% - 콘테츠 유형 (예제 \"Music\")"
+msgstr "%content_type% - 콘텐츠 유형 (예제 \"음악\")"
 
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
@@ -1809,6 +1949,10 @@ msgstr "활성"
 msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "완료"
+
+msgctxt "MainFiltersBar|"
+msgid "OK to remove tag?"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
@@ -1872,7 +2016,7 @@ msgstr "업데이트 확인..."
 
 msgctxt "MainMenu|"
 msgid "Join the %1 mosaic..."
-msgstr "%1 모자이크를 결합합니다..."
+msgstr "%1 모자이크에 연결..."
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -2009,7 +2153,7 @@ msgstr "Wi-Fi 다운로드가 시작되기를 기다리는 중입니다."
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Would you like to enable usage of mobile data? *"
-msgstr ""
+msgstr "모바일 데이터 사용을 활성화하시겠습니까? *"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Don't ask again"
@@ -2025,7 +2169,7 @@ msgstr "아니오"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
-msgstr ""
+msgstr "* 추가 요금이 적용될 수 있습니다"
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
@@ -2262,9 +2406,6 @@ msgstr "중간 (480p)"
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "High (1080p)"
 msgstr "높음 (1080p)"
-
-
-
 
 msgctxt "QObject|"
 msgid "There is not enough disk space."
@@ -2838,6 +2979,22 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "기타"
 
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Remote resource changed"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Always re-download"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Re-download"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Cancel"
+msgstr "취소"
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "다음으로 저장"
@@ -3116,7 +3273,7 @@ msgstr "사운드 사용"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads added"
-msgstr "추가된 다운로드"
+msgstr "다운로드 추가"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads completed"
@@ -3128,7 +3285,7 @@ msgstr "다운로드 실패"
 
 msgctxt "SoundsSettings|"
 msgid "No active downloads"
-msgstr "활성 다운로드가 없습니다"
+msgstr "활성 다운로드 없음"
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
@@ -3238,9 +3395,6 @@ msgctxt "Subtitles|"
 msgid "Edit list"
 msgstr "목록 편집"
 
-msgctxt "TagColorDialog|"
-msgid "Remove tag"
-msgstr "태그 제거"
 
 msgctxt "TagMenu|"
 msgid "Edit"
@@ -3253,6 +3407,18 @@ msgstr "제거"
 msgctxt "TagPalette|"
 msgid "Customize color"
 msgstr "사용자 지정 색"
+
+msgctxt "ThemeComboBox|"
+msgid "System"
+msgstr ""
+
+msgctxt "ThemeComboBox|"
+msgid "Light"
+msgstr "밝은"
+
+msgctxt "ThemeComboBox|"
+msgid "Dark"
+msgstr "어두운"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -3424,7 +3590,7 @@ msgstr "업데이트"
 
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
-msgstr "%1가 최신 버전입니다"
+msgstr "%1이 최신 버전입니다"
 
 msgctxt "UpdateDialog|"
 msgid "OK"

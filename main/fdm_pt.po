@@ -86,7 +86,7 @@ msgstr "Notificar downloads concluídos pela Central de Notificações"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr ""
+msgstr "Notificar downloads com falha pela Central de Notificações"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
@@ -94,7 +94,7 @@ msgstr "Notifique-me de downloads somente quando %1 janela estiver inativa"
 
 msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
-msgstr ""
+msgstr "Personalizar sons"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -125,17 +125,31 @@ msgid "Backup the list of downloads every"
 msgstr "Faça backup da lista de downloads a cada"
 
 msgctxt "AdvancedSettings|"
-msgid "Use sounds"
+msgid "File exists reaction"
 msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Rename"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Overwrite"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Use sounds"
+msgstr "Usar sons"
 
 msgctxt "AdvancedSettings|"
 msgid ""
 "Do not allow downloads to perform post finished tasks when running on battery"
 msgstr ""
+"Não permitir que downloads realizem tarefas pós-conclusão quando estiver "
+"funcionando na bateria"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
-msgstr ""
+msgstr "Não permitir downloads se o nível da bateria estiver abaixo de"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -156,6 +170,14 @@ msgstr "Sempre perguntar"
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Configurações avançadas"
+
+msgctxt "AdvancedSettings|"
+msgid "Choose theme"
+msgstr "Escolha o tema"
+
+msgctxt "AdvancedSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr ""
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -828,31 +850,31 @@ msgstr "Fechar"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Customize sounds"
-msgstr ""
+msgstr "Personalizar sons"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Event"
-msgstr ""
+msgstr "Evento"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Sound file"
-msgstr ""
+msgstr "Arquivo de som"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No sound"
-msgstr ""
+msgstr "Sem som"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads added"
-msgstr ""
+msgstr "Downloads adicionados"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads completed"
-msgstr ""
+msgstr "Downloads concluídos"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads failed"
-msgstr ""
+msgstr "Downloads com falha"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No active downloads"
@@ -860,7 +882,7 @@ msgstr "Nenhum download ativo"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Set sound"
-msgstr ""
+msgstr "Definir som"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Remove"
@@ -868,7 +890,7 @@ msgstr "Remover"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Test"
-msgstr ""
+msgstr "Testar"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Close"
@@ -924,7 +946,7 @@ msgstr "Cancelar"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Download deleting failed"
-msgstr ""
+msgstr "Falha ao excluir o download"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Try again"
@@ -932,15 +954,15 @@ msgstr "Tentar novamente"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore"
-msgstr ""
+msgstr "Ignorar"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore all"
-msgstr ""
+msgstr "Ignorar tudo"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
-msgstr ""
+msgstr "Abortar"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
@@ -949,6 +971,70 @@ msgstr "Tamanho: %1 (Espaço em disco: %2)"
 msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Tamanho: %1"
+
+msgctxt "DownloadWindow|"
+msgid "Saved in"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "File size"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Resume support"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Yes"
+msgstr "Sim"
+
+msgctxt "DownloadWindow|"
+msgid "No"
+msgstr "Não"
+
+msgctxt "DownloadWindow|"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Downloaded"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Speed"
+msgstr "Velocidade"
+
+msgctxt "DownloadWindow|"
+msgid "Time remaining"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Open download when it is completed"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Close this window when the download is completed or stopped"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Hide"
+msgstr "Esconder"
+
+msgctxt "DownloadWindow|"
+msgid "Show In Folder"
+msgstr "Mostrar na pasta"
+
+msgctxt "DownloadWindow|"
+msgid "Open"
+msgstr "Abrir"
+
+msgctxt "DownloadWindow|"
+msgid "Stop"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Start"
+msgstr ""
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
@@ -1020,7 +1106,7 @@ msgstr "Remova automaticamente downloads concluídos da lista de downloads"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
-msgstr ""
+msgstr "Repetir automaticamente downloads com falha"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1133,6 +1219,10 @@ msgstr "Adicionar espelho"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "Copiar link"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Check for update"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
@@ -1257,6 +1347,39 @@ msgstr "Pausado"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Concluído"
+
+msgctxt "EditTagDialog|"
+msgid "Edit tag"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid "Extensions (e.g. \"avi mp3\")"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid ""
+"Extensions that are automatically assigned with this tag for new downloads"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid "Default download folder"
+msgstr "Pasta de download padrão"
+
+msgctxt "EditTagDialog|"
+msgid "Open"
+msgstr "Abrir"
+
+msgctxt "EditTagDialog|"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "EditTagDialog|"
+msgid "Macros"
+msgstr "Macros"
+
+msgctxt "EditTagDialog|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
@@ -1450,6 +1573,26 @@ msgctxt "FileType|"
 msgid "Preferred File Type:"
 msgstr "Tipo de arquivo preferido:"
 
+msgctxt "FilesExistsDialog|"
+msgid "Warning: file exists already"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Remember my choice for all downloads"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Rename (%1)"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Overwrite"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Abort"
+msgstr "Abortar"
+
 msgctxt "FilesTree|"
 msgid "Name"
 msgstr "Nome"
@@ -1534,13 +1677,7 @@ msgctxt "GeneralSettings|"
 msgid "Choose theme"
 msgstr "Escolha o tema"
 
-msgctxt "GeneralSettings|"
-msgid "Light"
-msgstr "Claro"
 
-msgctxt "GeneralSettings|"
-msgid "Dark"
-msgstr "Escuro"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -1553,6 +1690,10 @@ msgstr "Downloads"
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
 msgstr "Sugerir pastas com base no tipo de arquivo"
+
+msgctxt "GeneralSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -1595,6 +1736,10 @@ msgid "Compact view of downloads list"
 msgstr "Vista compacta da lista de downloads"
 
 msgctxt "GeneralSettings|"
+msgid "Enable standalone downloads windows"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
 msgstr "Automaticamente remover arquivos excluídos da lista de downloads"
 
@@ -1604,7 +1749,7 @@ msgstr "Remova automaticamente downloads concluídos da lista de downloads"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
-msgstr ""
+msgstr "Repetir automaticamente downloads com falha"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -1612,7 +1757,7 @@ msgstr "Usar a hora do servidor para a criação de arquivos"
 
 msgctxt "GeneralSettings|"
 msgid "Maximum urls count in batch download"
-msgstr ""
+msgstr "Contagem máxima de URLs no download em lote"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1626,9 +1771,6 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Instalar atualizações automaticamente"
 
-msgctxt "GeneralSettings|"
-msgid "Dark theme"
-msgstr "Tema Escuro"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1822,6 +1964,10 @@ msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "Concluído"
 
+msgctxt "MainFiltersBar|"
+msgid "OK to remove tag?"
+msgstr ""
+
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
 msgstr "Colar URLs da área de transferência"
@@ -1884,7 +2030,7 @@ msgstr "Verificar Atualizações..."
 
 msgctxt "MainMenu|"
 msgid "Join the %1 mosaic..."
-msgstr ""
+msgstr "Junte-se ao mosaico do %1..."
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -2014,15 +2160,15 @@ msgstr "Baixar"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Mobile data usage"
-msgstr ""
+msgstr "Uso de dados móveis"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Waiting for Wi-Fi to start download."
-msgstr ""
+msgstr "Aguardando por Wi-Fi para iniciar o download."
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Would you like to enable usage of mobile data? *"
-msgstr ""
+msgstr "Você gostaria de habilitar o uso de dados móveis? *"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Don't ask again"
@@ -2030,15 +2176,15 @@ msgstr "Não pergunte de novo"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
-msgstr ""
+msgstr "* taxas adicionais podem ser aplicadas"
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
@@ -2276,9 +2422,6 @@ msgctxt "PreferredVideoQualityCombobox|"
 msgid "High (1080p)"
 msgstr "Alto (1080p)"
 
-
-
-
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "Erro inesperado"
@@ -2325,7 +2468,7 @@ msgstr "Digite a URL"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
-msgstr ""
+msgstr "Desculpe, este dispositivo não é compatível com %1."
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
@@ -2373,11 +2516,11 @@ msgstr "Downloads concluídos"
 
 msgctxt "QObject|"
 msgid "Download failed"
-msgstr ""
+msgstr "Falha no download"
 
 msgctxt "QObject|"
 msgid "Downloads failed"
-msgstr ""
+msgstr "Falha nos downloads"
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -2852,6 +2995,22 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "Diversos"
 
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Remote resource changed"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Always re-download"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Re-download"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Cancel"
+msgstr "Cancelar"
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "Salvar para"
@@ -3010,7 +3169,7 @@ msgstr "Descendente"
 
 msgctxt "SettingsPage|"
 msgid "Invalid settings"
-msgstr ""
+msgstr "Configurações inválidas"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
@@ -3062,7 +3221,7 @@ msgstr "Limite de Tráfego"
 
 msgctxt "SettingsPage|"
 msgid "Sounds settings"
-msgstr ""
+msgstr "Configurações de sons"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -3124,23 +3283,23 @@ msgstr "Por tamanho"
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
-msgstr ""
+msgstr "Configurações de sons"
 
 msgctxt "SoundsSettings|"
 msgid "Use sounds"
-msgstr ""
+msgstr "Usar sons"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads added"
-msgstr ""
+msgstr "Downloads adicionados"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads completed"
-msgstr ""
+msgstr "Downloads concluídos"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads failed"
-msgstr ""
+msgstr "Downloads com falha"
 
 msgctxt "SoundsSettings|"
 msgid "No active downloads"
@@ -3254,9 +3413,6 @@ msgctxt "Subtitles|"
 msgid "Edit list"
 msgstr "Lista de edição"
 
-msgctxt "TagColorDialog|"
-msgid "Remove tag"
-msgstr "Remover tag"
 
 msgctxt "TagMenu|"
 msgid "Edit"
@@ -3269,6 +3425,18 @@ msgstr "Remover"
 msgctxt "TagPalette|"
 msgid "Customize color"
 msgstr "Personalizar a cor"
+
+msgctxt "ThemeComboBox|"
+msgid "System"
+msgstr ""
+
+msgctxt "ThemeComboBox|"
+msgid "Light"
+msgstr "Claro"
+
+msgctxt "ThemeComboBox|"
+msgid "Dark"
+msgstr "Escuro"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
