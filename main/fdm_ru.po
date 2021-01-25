@@ -553,6 +553,10 @@ msgid "Add download"
 msgstr "Добавить загрузку"
 
 msgctxt "BuildDownloadDialog|"
+msgid "Report problem"
+msgstr "Отчет об ошибке"
+
+msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
 msgstr "Отменить"
 
@@ -575,6 +579,10 @@ msgstr "Скачать"
 msgctxt "BuildDownloadPage|"
 msgid "OK"
 msgstr "ОК"
+
+msgctxt "BuildDownloadPage|"
+msgid "Report problem"
+msgstr "Отчет об ошибке"
 
 msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
@@ -684,73 +692,22 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "Количество соединений"
 
-msgctxt "ConvertationDialog|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Конвертировать в mp3 с регулируемым битрейтом"
 
-msgctxt "ConvertationDialog|"
-msgid "Save to"
-msgstr "Сохранить в"
 
-msgctxt "ConvertationDialog|"
-msgid "Open"
-msgstr "Открыть"
 
-msgctxt "ConvertationDialog|"
-msgid "Cancel"
-msgstr "Отменить"
 
-msgctxt "ConvertationDialog|"
-msgid "Bitrate (quality)"
-msgstr "Битрейт (качество)"
 
-msgctxt "ConvertationDialog|"
-msgid "Constant bitrate of value"
-msgstr "Постоянный битрейт"
 
-msgctxt "ConvertationDialog|"
-msgid "Variable bitrate (VBR)"
-msgstr "Переменный битрейт (VBR)"
 
-msgctxt "ConvertationDialog|"
-msgid "The path contains invalid characters"
-msgstr "Путь содержит недопустимые символы"
 
-msgctxt "ConvertationDialog|"
-msgid "OK"
-msgstr "ОК"
 
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3"
-msgstr "Конвертировать в mp3"
 
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Конвертировать в mp3 с регулируемым битрейтом"
 
-msgctxt "ConvertationPage|"
-msgid "OK"
-msgstr "ОК"
 
-msgctxt "ConvertationPage|"
-msgid "Save to"
-msgstr "Сохранить в"
 
-msgctxt "ConvertationPage|"
-msgid "The path contains invalid characters"
-msgstr "Путь содержит недопустимые символы"
 
-msgctxt "ConvertationPage|"
-msgid "Bitrate (quality)"
-msgstr "Битрейт (качество)"
 
-msgctxt "ConvertationPage|"
-msgid "Constant bitrate of value"
-msgstr "Постоянный битрейт"
 
-msgctxt "ConvertationPage|"
-msgid "Variable bitrate (VBR)"
-msgstr "Переменный битрейт (VBR)"
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
@@ -971,6 +928,10 @@ msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Размер: %1"
 
+msgctxt "DockUploadSpeedSetting|"
+msgid "Show total upload speed in the Dock icon"
+msgstr "Показывать общую скорость загрузки на иконке в доке"
+
 msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "Сохранить в"
@@ -1172,6 +1133,10 @@ msgid "Show In Folder"
 msgstr "Показать в папке"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Report problem"
+msgstr "Отчет об ошибке"
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
 msgstr "Показать загрузки"
 
@@ -1216,6 +1181,10 @@ msgid "Add mirror"
 msgstr "Добавить зеркало"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Open download page"
+msgstr "Открыть страницу загрузки"
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "Копировать ссылку"
 
@@ -1246,6 +1215,10 @@ msgstr "Изменить ссылку"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
 msgstr "Конвертировать в mp3"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Convert to mp4"
+msgstr "Конвертировать в mp4"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
@@ -1288,6 +1261,10 @@ msgid "Converting to mp3..."
 msgstr "Конвертация в mp3"
 
 msgctxt "DownloadsViewItemFileInfo|"
+msgid "Converting to mp4..."
+msgstr "Конвертация в mp3 {4.?}"
+
+msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
 msgstr "Слияние медиа потоков..."
 
@@ -1326,6 +1303,10 @@ msgstr "Перемещение... %1%"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Converting to mp3..."
 msgstr "Конвертация в mp3"
+
+msgctxt "DownloadsViewStatusItem|"
+msgid "Converting to mp4..."
+msgstr "Конвертация в mp3 {4.?}"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking for viruses..."
@@ -1380,6 +1361,18 @@ msgstr "Макросы"
 msgctxt "EditTagDialog|"
 msgid "OK"
 msgstr "ОК"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Rename"
+msgstr "Переименовать"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Overwrite"
+msgstr "Перезаписать"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Always ask"
+msgstr "Всегда спрашивать"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
@@ -1665,6 +1658,14 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
 msgstr "Конвертировать в mp3"
 
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert video to mp4"
+msgstr "Конвертировать в mp4"
+
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert to mp4"
+msgstr "Конвертировать в mp4"
+
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Макросы"
@@ -1676,8 +1677,6 @@ msgstr "Основные"
 msgctxt "GeneralSettings|"
 msgid "Choose theme"
 msgstr "Выберите тему"
-
-
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -1770,7 +1769,6 @@ msgstr "Автоматически проверять на наличие обн
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Автоматически устанавливать обновления"
-
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
@@ -1911,6 +1909,10 @@ msgstr "Служба поддержки"
 msgctxt "LeftDrawer|"
 msgid "About"
 msgstr "О приложении"
+
+msgctxt "LeftDrawer|"
+msgid "Quit"
+msgstr "Выход"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -2223,6 +2225,110 @@ msgctxt "MovingFolderDialog|"
 msgid "Cancel"
 msgstr "Отменить"
 
+msgctxt "Mp3ConverterDialog|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr "Конвертировать в mp3 с регулируемым битрейтом"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Save to"
+msgstr "Сохранить в"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Open"
+msgstr "Открыть"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Bitrate (quality)"
+msgstr "Битрейт (качество)"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Constant bitrate of value"
+msgstr "Постоянный битрейт"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Variable bitrate (VBR)"
+msgstr "Переменный битрейт (VBR)"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr "Путь содержит недопустимые символы"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3"
+msgstr "Конвертировать в mp3"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr "Конвертировать в mp3 с регулируемым битрейтом"
+
+msgctxt "Mp3ConverterPage|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Save to"
+msgstr "Сохранить в"
+
+msgctxt "Mp3ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "Путь содержит недопустимые символы"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Bitrate (quality)"
+msgstr "Битрейт (качество)"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Constant bitrate of value"
+msgstr "Постоянный битрейт"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Variable bitrate (VBR)"
+msgstr "Переменный битрейт (VBR)"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Convert to mp4"
+msgstr "Конвертировать в mp4"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Save to"
+msgstr "Сохранить в"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Open"
+msgstr "Открыть"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr "Путь содержит недопустимые символы"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Convert to mp4"
+msgstr "Конвертировать в mp4"
+
+msgctxt "Mp4ConverterPage|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Save to"
+msgstr "Сохранить в"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "Проверка обновлений..."
@@ -2411,17 +2517,42 @@ msgctxt "PreferredFileTypeCombobox|"
 msgid "Video"
 msgstr "Видео"
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "Low (240p)"
-msgstr "Низкое (240p)"
+
+
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "Medium (480p)"
-msgstr "Среднее (480p)"
+msgid "Lowest"
+msgstr "Самое низкое"
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "High (1080p)"
-msgstr "Высокое (1080p)"
+msgid "Highest"
+msgstr "Самое высокое"
+
+msgctxt "PrivacyDialog|"
+msgid "User agreement"
+msgstr "Пользовательское соглашение"
+
+
+msgctxt "PrivacyDialog|"
+msgid ""
+"A bug report will be sent to the server and used to improve %1 performance. "
+"We do not collect your personal data and do not share data with third "
+"parties."
+msgstr ""
+"Отчет об ошибке будет отправлен на сервер и использован для улучшения работы "
+"%1. Мы не собираем ваши личные данные и не передаем данные третьим лицам."
+
+msgctxt "PrivacyDialog|"
+msgid "I agree (do not show it again)"
+msgstr "Я согласен (больше не показывать)"
+
+msgctxt "PrivacyDialog|"
+msgid "Send report"
+msgstr "Отправить отчет"
+
+msgctxt "PrivacyDialog|"
+msgid "Cancel"
+msgstr "Отменить"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -2793,15 +2924,15 @@ msgstr "Превышено время подключения"
 
 msgctxt "QObject|"
 msgid "Unsupported"
-msgstr ""
+msgstr "Не поддерживается"
 
 msgctxt "QObject|"
 msgid "Invalid parameter"
-msgstr ""
+msgstr "Некорректный параметр"
 
 msgctxt "QObject|"
 msgid "Unsupported format"
-msgstr ""
+msgstr "Неподдерживаемый формат"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -2809,7 +2940,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Operation canceled"
-msgstr ""
+msgstr "Действие отменено"
 
 msgctxt "QObject|"
 msgid "Connection closed"
@@ -3010,6 +3141,22 @@ msgstr "Скачать заново"
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "Отменить"
+
+msgctxt "ReportSentDialog|"
+msgid "Report problem"
+msgstr "Отчет об ошибке"
+
+msgctxt "ReportSentDialog|"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr "К сожалению, отчет не отправлен, произошла ошибка: %1"
+
+msgctxt "ReportSentDialog|"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr "Отчет отправлен. Спасибо за сотрудничество!"
+
+msgctxt "ReportSentDialog|"
+msgid "OK"
+msgstr "ОК"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -3361,6 +3508,10 @@ msgid "Converting to mp3..."
 msgstr "Конвертация в mp3"
 
 msgctxt "StatusItem|"
+msgid "Converting to mp4..."
+msgstr "Конвертация в mp3 {4.?}"
+
+msgctxt "StatusItem|"
 msgid "Checking for viruses..."
 msgstr "Проверка на вирусы..."
 
@@ -3411,7 +3562,6 @@ msgstr "Скачать субтитры"
 msgctxt "Subtitles|"
 msgid "Edit list"
 msgstr "Редактировать список"
-
 
 msgctxt "TagMenu|"
 msgid "Edit"
@@ -3696,3 +3846,11 @@ msgstr "Давайте вместе сделаем приложение лучш
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Обновить"
+
+msgctxt "main|"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr "К сожалению, отчет не отправлен, произошла ошибка: %1"
+
+msgctxt "main|"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr "Отчет отправлен. Спасибо за сотрудничество!"

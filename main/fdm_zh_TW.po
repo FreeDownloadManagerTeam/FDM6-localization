@@ -7,13 +7,6 @@ msgstr ""
 "X-Language: zh_TW\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: zh_TW\n"
-"X-Generator: Poedit 2.4.2\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -472,9 +465,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
-msgstr ""
-"確認是否已完成安裝 %1 瀏覽器擴充套件，若無，請依照您慣用瀏覽器 點擊下方按鈕進"
-"行安裝套件"
+msgstr "確認是否已完成安裝 %1 瀏覽器擴充套件，若無，請依照您慣用瀏覽器 點擊下方按鈕進行安裝套件"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -539,8 +530,8 @@ msgstr ""
 "\n"
 "並使用它幫您新增下載連結 %1\n"
 "\n"
-"某些(例如：Google Drive ) 只能使用瀏覽器新增連結，因為它們需要給 %1 的額外訊"
-"息，但android系統瀏覽器無法提供。(或瀏覽器沒有通用方法取得額外資訊)"
+"某些(例如：Google Drive ) 只能使用瀏覽器新增連結，因為它們需要給 %1 "
+"的額外訊息，但android系統瀏覽器無法提供。(或瀏覽器沒有通用方法取得額外資訊)"
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -553,6 +544,10 @@ msgstr "瀏覽器未安裝"
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
 msgstr "新增下載"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Report problem"
+msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
@@ -577,6 +572,10 @@ msgstr "下載"
 msgctxt "BuildDownloadPage|"
 msgid "OK"
 msgstr "OK"
+
+msgctxt "BuildDownloadPage|"
+msgid "Report problem"
+msgstr ""
 
 msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
@@ -686,73 +685,22 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "連結束"
 
-msgctxt "ConvertationDialog|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr "轉檔成Mp3 並設定 位元速率"
 
-msgctxt "ConvertationDialog|"
-msgid "Save to"
-msgstr "另存新檔"
 
-msgctxt "ConvertationDialog|"
-msgid "Open"
-msgstr "開啟"
 
-msgctxt "ConvertationDialog|"
-msgid "Cancel"
-msgstr "取消"
 
-msgctxt "ConvertationDialog|"
-msgid "Bitrate (quality)"
-msgstr "位元速率(品質)"
 
-msgctxt "ConvertationDialog|"
-msgid "Constant bitrate of value"
-msgstr "固定位元速率"
 
-msgctxt "ConvertationDialog|"
-msgid "Variable bitrate (VBR)"
-msgstr "變動位元速率"
 
-msgctxt "ConvertationDialog|"
-msgid "The path contains invalid characters"
-msgstr "路徑內容含有無效字元"
 
-msgctxt "ConvertationDialog|"
-msgid "OK"
-msgstr "OK"
 
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3"
-msgstr "轉檔成Mp3"
 
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr "轉檔成Mp3 並設定 位元速率"
 
-msgctxt "ConvertationPage|"
-msgid "OK"
-msgstr "OK"
 
-msgctxt "ConvertationPage|"
-msgid "Save to"
-msgstr "另存新檔"
 
-msgctxt "ConvertationPage|"
-msgid "The path contains invalid characters"
-msgstr "路徑含有無效字元"
 
-msgctxt "ConvertationPage|"
-msgid "Bitrate (quality)"
-msgstr "位元速率(品質)"
 
-msgctxt "ConvertationPage|"
-msgid "Constant bitrate of value"
-msgstr "固定位元速率"
 
-msgctxt "ConvertationPage|"
-msgid "Variable bitrate (VBR)"
-msgstr "變動位元速率"
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
@@ -967,6 +915,10 @@ msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "大小：%1"
 
+msgctxt "DockUploadSpeedSetting|"
+msgid "Show total upload speed in the Dock icon"
+msgstr ""
+
 msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "保存至"
@@ -1168,6 +1120,10 @@ msgid "Show In Folder"
 msgstr "在資料夾中顯示"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Report problem"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
 msgstr "顯示下載項目"
 
@@ -1212,6 +1168,10 @@ msgid "Add mirror"
 msgstr "加入鏡像"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Open download page"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "複製鏈結"
 
@@ -1242,6 +1202,10 @@ msgstr "變更網址"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
 msgstr "轉檔成Mp3"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Convert to mp4"
+msgstr "轉檔成Mp4"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
@@ -1284,6 +1248,10 @@ msgid "Converting to mp3..."
 msgstr "Mp3 轉檔中..."
 
 msgctxt "DownloadsViewItemFileInfo|"
+msgid "Converting to mp4..."
+msgstr "轉檔為Mp3... {4.?}"
+
+msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
 msgstr "合併媒體串流中..."
 
@@ -1322,6 +1290,10 @@ msgstr "移動 %1% 中"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Converting to mp3..."
 msgstr "Mp3 轉檔中..."
+
+msgctxt "DownloadsViewStatusItem|"
+msgid "Converting to mp4..."
+msgstr "轉檔為Mp3... {4.?}"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking for viruses..."
@@ -1375,6 +1347,18 @@ msgstr "巨集"
 msgctxt "EditTagDialog|"
 msgid "OK"
 msgstr "OK"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Rename"
+msgstr "重新命名"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Overwrite"
+msgstr "覆蓋"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Always ask"
+msgstr "總是詢問"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
@@ -1660,6 +1644,14 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
 msgstr "將影片轉為Mp3"
 
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert video to mp4"
+msgstr "將影片轉為Mp4"
+
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert to mp4"
+msgstr "轉檔成Mp4"
+
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "巨集"
@@ -1903,6 +1895,10 @@ msgstr "聯繫支援"
 msgctxt "LeftDrawer|"
 msgid "About"
 msgstr "關於"
+
+msgctxt "LeftDrawer|"
+msgid "Quit"
+msgstr "結束"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -2213,6 +2209,110 @@ msgctxt "MovingFolderDialog|"
 msgid "Cancel"
 msgstr "取消"
 
+msgctxt "Mp3ConverterDialog|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr "轉檔成Mp3 並設定 位元速率"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Save to"
+msgstr ""
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Open"
+msgstr "開啟"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Bitrate (quality)"
+msgstr "位元速率(品質)"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Constant bitrate of value"
+msgstr "固定位元速率"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Variable bitrate (VBR)"
+msgstr "變動位元速率"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr ""
+
+msgctxt "Mp3ConverterDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3"
+msgstr "轉檔成Mp3"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr "轉檔成Mp3 並設定 位元速率"
+
+msgctxt "Mp3ConverterPage|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Save to"
+msgstr ""
+
+msgctxt "Mp3ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr ""
+
+msgctxt "Mp3ConverterPage|"
+msgid "Bitrate (quality)"
+msgstr "位元速率(品質)"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Constant bitrate of value"
+msgstr "固定位元速率"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Variable bitrate (VBR)"
+msgstr "變動位元速率"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Convert to mp4"
+msgstr "轉檔成Mp4"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Save to"
+msgstr ""
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Open"
+msgstr "開啟"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr ""
+
+msgctxt "Mp4ConverterDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Convert to mp4"
+msgstr "轉檔成Mp4"
+
+msgctxt "Mp4ConverterPage|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Save to"
+msgstr ""
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "檢查更新..."
@@ -2401,17 +2501,39 @@ msgctxt "PreferredFileTypeCombobox|"
 msgid "Video"
 msgstr "影片"
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "Low (240p)"
-msgstr "低 (240p)"
+
+
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "Medium (480p)"
-msgstr "中 (480p)"
+msgid "Lowest"
+msgstr ""
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "High (1080p)"
-msgstr "高 (1080p)"
+msgid "Highest"
+msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid "User agreement"
+msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid ""
+"A bug report will be sent to the server and used to improve %1 performance. "
+"We do not collect your personal data and do not share data with third "
+"parties."
+msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid "I agree (do not show it again)"
+msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid "Send report"
+msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid "Cancel"
+msgstr "取消"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -3001,6 +3123,22 @@ msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "取消"
 
+msgctxt "ReportSentDialog|"
+msgid "Report problem"
+msgstr ""
+
+msgctxt "ReportSentDialog|"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr ""
+
+msgctxt "ReportSentDialog|"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr ""
+
+msgctxt "ReportSentDialog|"
+msgid "OK"
+msgstr "OK"
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "另存新檔"
@@ -3350,6 +3488,10 @@ msgid "Converting to mp3..."
 msgstr "轉檔為Mp3..."
 
 msgctxt "StatusItem|"
+msgid "Converting to mp4..."
+msgstr "轉檔為Mp3... {4.?}"
+
+msgctxt "StatusItem|"
 msgid "Checking for viruses..."
 msgstr "掃毒中..."
 
@@ -3684,3 +3826,11 @@ msgstr "請您給我們回饋，讓我們一起讓FDM變得更棒。"
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "重新整理"
+
+msgctxt "main|"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr ""
+
+msgctxt "main|"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr ""
