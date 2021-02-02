@@ -7,13 +7,6 @@ msgstr ""
 "X-Language: es\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: es\n"
-"X-Generator: Poedit 2.4.2\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -565,6 +558,10 @@ msgid "Add download"
 msgstr "Agregar descarga"
 
 msgctxt "BuildDownloadDialog|"
+msgid "Report problem"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -587,6 +584,10 @@ msgstr "Descargar"
 msgctxt "BuildDownloadPage|"
 msgid "OK"
 msgstr "Aceptar"
+
+msgctxt "BuildDownloadPage|"
+msgid "Report problem"
+msgstr ""
 
 msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
@@ -696,73 +697,22 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "Número de conexiones"
 
-msgctxt "ConvertationDialog|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Convertir a mp3 con tasa de bits ajustable"
 
-msgctxt "ConvertationDialog|"
-msgid "Save to"
-msgstr "Guardar en"
 
-msgctxt "ConvertationDialog|"
-msgid "Open"
-msgstr "Abrir"
 
-msgctxt "ConvertationDialog|"
-msgid "Cancel"
-msgstr "Cancelar"
 
-msgctxt "ConvertationDialog|"
-msgid "Bitrate (quality)"
-msgstr "Tasa de bits (calidad)"
 
-msgctxt "ConvertationDialog|"
-msgid "Constant bitrate of value"
-msgstr "Tasa de bits de valor constante"
 
-msgctxt "ConvertationDialog|"
-msgid "Variable bitrate (VBR)"
-msgstr "Tasa de bits variable (VBR)"
 
-msgctxt "ConvertationDialog|"
-msgid "The path contains invalid characters"
-msgstr "La ruta contiene caracteres inválidos"
 
-msgctxt "ConvertationDialog|"
-msgid "OK"
-msgstr "Aceptar"
 
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3"
-msgstr "Convertir a mp3"
 
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Convertir a mp3 con tasa de bits ajustable"
 
-msgctxt "ConvertationPage|"
-msgid "OK"
-msgstr "Aceptar"
 
-msgctxt "ConvertationPage|"
-msgid "Save to"
-msgstr "Guardar en"
 
-msgctxt "ConvertationPage|"
-msgid "The path contains invalid characters"
-msgstr "La ruta contiene caracteres inválidos"
 
-msgctxt "ConvertationPage|"
-msgid "Bitrate (quality)"
-msgstr "Tasa de bits (calidad)"
 
-msgctxt "ConvertationPage|"
-msgid "Constant bitrate of value"
-msgstr "Tasa de bits de valor constante"
 
-msgctxt "ConvertationPage|"
-msgid "Variable bitrate (VBR)"
-msgstr "Tasa de bits variable (VBR)"
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
@@ -983,6 +933,10 @@ msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Tamaño: %1"
 
+msgctxt "DockUploadSpeedSetting|"
+msgid "Show total upload speed in the Dock icon"
+msgstr ""
+
 msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "Guardado en"
@@ -1186,6 +1140,10 @@ msgid "Show In Folder"
 msgstr "Mostrar en Carpeta"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Report problem"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
 msgstr "Mostrar Descargas"
 
@@ -1230,6 +1188,10 @@ msgid "Add mirror"
 msgstr "Agregar espejo"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Open download page"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "Copiar enlace"
 
@@ -1260,6 +1222,10 @@ msgstr "Cambiar URL"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
 msgstr "Convertir a mp3"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Convert to mp4"
+msgstr "Convertir a mp4"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
@@ -1302,6 +1268,10 @@ msgid "Converting to mp3..."
 msgstr "Convirtiendo a mp3..."
 
 msgctxt "DownloadsViewItemFileInfo|"
+msgid "Converting to mp4..."
+msgstr "Convirtiendo a mp3... {4.?}"
+
+msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
 msgstr "Combinando medios de transmisión..."
 
@@ -1340,6 +1310,10 @@ msgstr "Moviendo... %1%"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Converting to mp3..."
 msgstr "Convirtiendo a mp3..."
+
+msgctxt "DownloadsViewStatusItem|"
+msgid "Converting to mp4..."
+msgstr "Convirtiendo a mp3... {4.?}"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking for viruses..."
@@ -1395,6 +1369,18 @@ msgstr "Macros"
 msgctxt "EditTagDialog|"
 msgid "OK"
 msgstr "ACEPTAR"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Rename"
+msgstr "Renombrar"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Overwrite"
+msgstr "Sobrescribir"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Always ask"
+msgstr "Preguntar siempre"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
@@ -1680,6 +1666,14 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
 msgstr "Convertir vídeo a mp3"
 
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert video to mp4"
+msgstr "Convertir vídeo a mp4"
+
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert to mp4"
+msgstr "Convertir a mp4"
+
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Macros"
@@ -1925,6 +1919,10 @@ msgstr "Contactar soporte"
 msgctxt "LeftDrawer|"
 msgid "About"
 msgstr "Acerca de"
+
+msgctxt "LeftDrawer|"
+msgid "Quit"
+msgstr "Salir"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -2236,6 +2234,110 @@ msgctxt "MovingFolderDialog|"
 msgid "Cancel"
 msgstr "Cancelar"
 
+msgctxt "Mp3ConverterDialog|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr "Convertir a mp3 con tasa de bits ajustable"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Save to"
+msgstr "Guardar en"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Open"
+msgstr "Abrir"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Bitrate (quality)"
+msgstr "Tasa de bits (calidad)"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Constant bitrate of value"
+msgstr "Tasa de bits de valor constante"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Variable bitrate (VBR)"
+msgstr "Tasa de bits variable (VBR)"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr "La ruta contiene caracteres inválidos"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "OK"
+msgstr ""
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3"
+msgstr "Convertir a mp3"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr "Convertir a mp3 con tasa de bits ajustable"
+
+msgctxt "Mp3ConverterPage|"
+msgid "OK"
+msgstr ""
+
+msgctxt "Mp3ConverterPage|"
+msgid "Save to"
+msgstr "Guardar en"
+
+msgctxt "Mp3ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "La ruta contiene caracteres inválidos"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Bitrate (quality)"
+msgstr "Tasa de bits (calidad)"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Constant bitrate of value"
+msgstr "Tasa de bits de valor constante"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Variable bitrate (VBR)"
+msgstr "Tasa de bits variable (VBR)"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Convert to mp4"
+msgstr "Convertir a mp4"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Save to"
+msgstr "Guardar en"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Open"
+msgstr "Abrir"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr "La ruta contiene caracteres inválidos"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "OK"
+msgstr ""
+
+msgctxt "Mp4ConverterPage|"
+msgid "Convert to mp4"
+msgstr "Convertir a mp4"
+
+msgctxt "Mp4ConverterPage|"
+msgid "OK"
+msgstr ""
+
+msgctxt "Mp4ConverterPage|"
+msgid "Save to"
+msgstr "Guardar en"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "Comprobar Actualizaciones..."
@@ -2424,17 +2526,39 @@ msgctxt "PreferredFileTypeCombobox|"
 msgid "Video"
 msgstr "Vídeo"
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "Low (240p)"
-msgstr "Baja (240p)"
+
+
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "Medium (480p)"
-msgstr "Media (480p)"
+msgid "Lowest"
+msgstr ""
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "High (1080p)"
-msgstr "Alta (1080p)"
+msgid "Highest"
+msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid "User agreement"
+msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid ""
+"A bug report will be sent to the server and used to improve %1 performance. "
+"We do not collect your personal data and do not share data with third "
+"parties."
+msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid "I agree (do not show it again)"
+msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid "Send report"
+msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid "Cancel"
+msgstr "Cancelar"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -3026,6 +3150,22 @@ msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "Cancelar"
 
+msgctxt "ReportSentDialog|"
+msgid "Report problem"
+msgstr ""
+
+msgctxt "ReportSentDialog|"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr ""
+
+msgctxt "ReportSentDialog|"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr ""
+
+msgctxt "ReportSentDialog|"
+msgid "OK"
+msgstr ""
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "Guardar en"
@@ -3381,6 +3521,10 @@ msgid "Converting to mp3..."
 msgstr "Convirtiendo a mp3..."
 
 msgctxt "StatusItem|"
+msgid "Converting to mp4..."
+msgstr "Convirtiendo a mp3... {4.?}"
+
+msgctxt "StatusItem|"
 msgid "Checking for viruses..."
 msgstr "Comprobando si hay virus..."
 
@@ -3718,3 +3862,11 @@ msgstr "¡Hagámoslo mejor juntos! Envíanos tus comentarios."
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Actualizar"
+
+msgctxt "main|"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr ""
+
+msgctxt "main|"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr ""
