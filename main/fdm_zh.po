@@ -223,7 +223,7 @@ msgstr "尚未在设置中指定防病毒软件."
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Go to settings"
-msgstr "去设置"
+msgstr "转到设置"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
@@ -231,7 +231,7 @@ msgstr "取消"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
-msgstr "需要授权"
+msgstr "需要身份验证"
 
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
@@ -259,7 +259,7 @@ msgstr "确定"
 
 msgctxt "AuthenticationPage|"
 msgid "Authentication required"
-msgstr "需要授权"
+msgstr "需要身份验证"
 
 msgctxt "AuthenticationPage|"
 msgid "OK"
@@ -583,11 +583,11 @@ msgstr "当前网站禁止进行下载"
 
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
-msgstr "代理 %1 需要用户名和密码."
+msgstr "代理 %1 需要用户名和密码。"
 
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
-msgstr "%1 需要你的用户名密码."
+msgstr "%1 需要你的用户名密码。"
 
 msgctxt "BuildDownloadTools|"
 msgid "Querying info. Please wait..."
@@ -1005,11 +1005,11 @@ msgstr "全不选"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
-msgstr "列表中没有下载项."
+msgstr "列表中没有下载项。"
 
 msgctxt "DownloadsPage|"
 msgid "Add new download URL."
-msgstr "添加新的下载链接."
+msgstr "添加新的下载链接。"
 
 msgctxt "DownloadsPage|"
 msgid "No results found for"
@@ -1033,7 +1033,7 @@ msgstr "显示全部"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
-msgstr "下载列表是空的. 添加新的下载链接."
+msgstr "下载列表是空的. 添加新的下载链接。"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1498,7 +1498,7 @@ msgstr "检查失败"
 
 msgctxt "FileManagerSupportDialog|"
 msgid "No supported file managers found."
-msgstr "未找到支持的文件管理器."
+msgstr "未找到支持的文件管理器。"
 
 msgctxt "FileName|"
 msgid "Create subfolder"
@@ -2111,7 +2111,7 @@ msgstr "无效值"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
-msgstr "必须大于0."
+msgstr "必须为一个大于 0 的数。"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
@@ -2391,7 +2391,7 @@ msgstr "不使用代理"
 
 msgctxt "NetworkSettings|"
 msgid "Configure manually:"
-msgstr "手动设置："
+msgstr "手动配置："
 
 msgctxt "NetworkSettings|"
 msgid "Address"
@@ -2459,11 +2459,11 @@ msgstr "KB/s"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Please enter numbers only"
-msgstr "请输入数字"
+msgstr "请仅输入数字"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom value"
-msgstr "自定义"
+msgstr "自定义值"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "OK"
@@ -2479,7 +2479,7 @@ msgstr "无效值"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
-msgstr "必须大于0."
+msgstr "必须为一个大于 0 的数。"
 
 msgctxt "Page|"
 msgid "Info"
@@ -2506,15 +2506,15 @@ msgstr "视频"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Lowest"
-msgstr ""
+msgstr "最低"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Highest"
-msgstr ""
+msgstr "最高"
 
 msgctxt "PrivacyDialog|"
 msgid "User agreement"
-msgstr ""
+msgstr "用户协议"
 
 msgctxt "PrivacyDialog|"
 msgid ""
@@ -2522,14 +2522,16 @@ msgid ""
 "We do not collect your personal data and do not share data with third "
 "parties."
 msgstr ""
+"错误报告将会发送到服务器并用于提高 %1 性能。"
+"我们不收集您的个人数据，也不与第三方共享数据。"
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
-msgstr ""
+msgstr "我同意(不再显示)"
 
 msgctxt "PrivacyDialog|"
 msgid "Send report"
-msgstr ""
+msgstr "发送报告"
 
 msgctxt "PrivacyDialog|"
 msgid "Cancel"
@@ -2541,11 +2543,11 @@ msgstr "意外错误"
 
 msgctxt "QObject|"
 msgid "Service connection terminated."
-msgstr "服务器终端连接."
+msgstr "服务器终端连接。"
 
 msgctxt "QObject|"
 msgid "App backend's server listen failed."
-msgstr "应用后端服务监听失败."
+msgstr "应用后端服务监听失败。"
 
 msgctxt "QObject|"
 msgid "Error"
@@ -2557,15 +2559,15 @@ msgstr "连接失败"
 
 msgctxt "QObject|"
 msgid "App frontend's server listen failed."
-msgstr "应用前端服务监听失败."
+msgstr "应用前端服务监听失败。"
 
 msgctxt "QObject|"
 msgid "QML load failure."
-msgstr "QML 加载失败."
+msgstr "QML 加载失败。"
 
 msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
-msgstr "初始化应用状态管理失败."
+msgstr "初始化应用状态管理失败。"
 
 msgctxt "QObject|"
 msgid ""
@@ -2585,7 +2587,7 @@ msgstr "抱歉，%1不支持此设备。"
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
-msgstr "%1 初始化失败. 请重新安装."
+msgstr "%1 初始化失败。 请重新安装。"
 
 msgctxt "QObject|"
 msgid "Reason: %1"
@@ -3077,7 +3079,7 @@ msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
-msgstr "你希望擦除吗 (这将清空下载列表 和 全部 %1 数据)?"
+msgstr "你希望擦除吗 (这将清空下载列表和全部 %1 数据)?"
 
 msgctxt "QObject|"
 msgid "Failed."
@@ -3125,15 +3127,15 @@ msgstr "取消"
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
-msgstr ""
+msgstr "报告问题"
 
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
-msgstr ""
+msgstr "抱歉，该报告没有发送，出现错误：%1"
 
 msgctxt "ReportSentDialog|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr ""
+msgstr "该报告已发送。感谢您的合作！"
 
 msgctxt "ReportSentDialog|"
 msgid "OK"
@@ -3829,8 +3831,8 @@ msgstr "刷新"
 
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
-msgstr ""
+msgstr "抱歉，该报告没有发送，出现错误：%1"
 
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr ""
+msgstr "该报告已发送。感谢您的合作！"
