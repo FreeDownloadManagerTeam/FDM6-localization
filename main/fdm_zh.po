@@ -223,7 +223,7 @@ msgstr "尚未在设置中指定防病毒软件."
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Go to settings"
-msgstr "去设置"
+msgstr "转到设置"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
@@ -231,7 +231,7 @@ msgstr "取消"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
-msgstr "需要授权"
+msgstr "需要身份验证"
 
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
@@ -259,7 +259,7 @@ msgstr "确定"
 
 msgctxt "AuthenticationPage|"
 msgid "Authentication required"
-msgstr "需要授权"
+msgstr "需要身份验证"
 
 msgctxt "AuthenticationPage|"
 msgid "OK"
@@ -547,7 +547,7 @@ msgstr "添加下载"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
-msgstr ""
+msgstr "报告问题"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
@@ -575,7 +575,7 @@ msgstr "确定"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
-msgstr ""
+msgstr "报告问题"
 
 msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
@@ -917,7 +917,7 @@ msgstr "大小: %1"
 
 msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
-msgstr ""
+msgstr "在托盘图标中显示总上传速度"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
@@ -1121,7 +1121,7 @@ msgstr "在文件夹中显示"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
-msgstr ""
+msgstr "报告问题"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -1169,7 +1169,7 @@ msgstr "添加镜像"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Open download page"
-msgstr ""
+msgstr "打开下载页"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
@@ -2111,7 +2111,7 @@ msgstr "无效值"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
-msgstr "必须大于0."
+msgstr "必须为正值."
 
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
@@ -2231,7 +2231,7 @@ msgstr "比特率 (品质)"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Constant bitrate of value"
-msgstr ""
+msgstr "恒定比特率值"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Variable bitrate (VBR)"
@@ -2271,7 +2271,7 @@ msgstr "比特率 (品质)"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Constant bitrate of value"
-msgstr ""
+msgstr "恒定比特率值"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Variable bitrate (VBR)"
@@ -2459,11 +2459,11 @@ msgstr "KB/s"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Please enter numbers only"
-msgstr "请输入数字"
+msgstr "请仅输入数字"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom value"
-msgstr "自定义"
+msgstr "自定义值"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "OK"
@@ -2501,20 +2501,17 @@ msgctxt "PreferredFileTypeCombobox|"
 msgid "Video"
 msgstr "视频"
 
-
-
-
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Lowest"
-msgstr ""
+msgstr "最低"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Highest"
-msgstr ""
+msgstr "最高"
 
 msgctxt "PrivacyDialog|"
 msgid "User agreement"
-msgstr ""
+msgstr "用户协议"
 
 msgctxt "PrivacyDialog|"
 msgid ""
@@ -2522,14 +2519,16 @@ msgid ""
 "We do not collect your personal data and do not share data with third "
 "parties."
 msgstr ""
+"将提交一份bug报告至服务器以用于改进%1的性能。"
+"我们不会收集或与第三方共享您的个人数据。"
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
-msgstr ""
+msgstr "同意（不再显示）"
 
 msgctxt "PrivacyDialog|"
 msgid "Send report"
-msgstr ""
+msgstr "发送报告"
 
 msgctxt "PrivacyDialog|"
 msgid "Cancel"
@@ -3077,7 +3076,7 @@ msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
-msgstr "你希望擦除吗 (这将清空下载列表 和 全部 %1 数据)?"
+msgstr "你希望擦除吗 (这将清空下载列表和全部 %1 数据)?"
 
 msgctxt "QObject|"
 msgid "Failed."
@@ -3125,15 +3124,15 @@ msgstr "取消"
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
-msgstr ""
+msgstr "报告问题"
 
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
-msgstr ""
+msgstr "抱歉 ，报告未发送，发生错误：%1"
 
 msgctxt "ReportSentDialog|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr ""
+msgstr "报告已发送。感谢您的帮助！"
 
 msgctxt "ReportSentDialog|"
 msgid "OK"
@@ -3829,8 +3828,8 @@ msgstr "刷新"
 
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
-msgstr ""
+msgstr "抱歉，报告未发送，发生错误：%1"
 
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr ""
+msgstr "报告已发送。感谢您的帮助！"
