@@ -7,13 +7,6 @@ msgstr ""
 "X-Language: bg_BG\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Андрей Станков <astankov84@gmail.com>\n"
-"Language-Team: \n"
-"Language: bg_BG\n"
-"X-Generator: Poedit 2.4.2\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -983,6 +976,26 @@ msgid "Start"
 msgstr "Старт"
 
 msgctxt "DownloadsItemTools|"
+msgid "Moving..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
+msgid "Checking for viruses..."
+msgstr "Проверка за вируси..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp3..."
+msgstr "Превръщане в mp3..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp4..."
+msgstr "Превръщане в mp4..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "Файла липсва"
 
@@ -1078,6 +1091,10 @@ msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "Фиксирана папка за изтегляне по подразбиране"
 
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Ratio"
+msgstr ""
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "Премахни етикет"
@@ -1105,6 +1122,10 @@ msgstr "Добавен"
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "Приоритет"
+
+msgctxt "DownloadsViewItem|"
+msgid "Paused"
+msgstr "На пауза"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1234,21 +1255,12 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
 msgstr "Изтеглянето завърши"
 
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Moving... %1%"
-msgstr "Преместване... %1%"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "Проверка на файлове..."
 
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp3..."
-msgstr "Превръщане в mp3..."
 
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp4..."
-msgstr "Превръщане в mp3... {4.?}"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1282,21 +1294,9 @@ msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "На опашка"
 
-msgctxt "DownloadsViewStatusItem|"
-msgid "Moving... %1%"
-msgstr "Преместване... %1%"
 
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp3..."
-msgstr "Превръщане в mp3..."
 
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp4..."
-msgstr "Превръщане в mp3... {4.?}"
 
-msgctxt "DownloadsViewStatusItem|"
-msgid "Checking for viruses..."
-msgstr "Проверка за вируси..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -3481,21 +3481,9 @@ msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "На опашка"
 
-msgctxt "StatusItem|"
-msgid "Moving... %1%"
-msgstr "Преместване... %1%"
 
-msgctxt "StatusItem|"
-msgid "Converting to mp3..."
-msgstr "Превръщане в mp3..."
 
-msgctxt "StatusItem|"
-msgid "Converting to mp4..."
-msgstr "Превръщане в mp3... {4.?}"
 
-msgctxt "StatusItem|"
-msgid "Checking for viruses..."
-msgstr "Проверка за вируси..."
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"

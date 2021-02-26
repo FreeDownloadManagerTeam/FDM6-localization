@@ -181,7 +181,7 @@ msgstr "Choisir un thème"
 
 msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr ""
+msgstr "Un thème clair sera utilisé, si le thème du système est inconnu."
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -986,6 +986,26 @@ msgid "Start"
 msgstr "Démarrer"
 
 msgctxt "DownloadsItemTools|"
+msgid "Moving..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
+msgid "Checking for viruses..."
+msgstr "Scan antivirus en cours..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp3..."
+msgstr "Conversion en mp3..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp4..."
+msgstr "Conversion en mp4..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "Le fichier est manquant"
 
@@ -1019,7 +1039,7 @@ msgstr "Pas de résultat trouvé pour"
 
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
-msgstr "Aucun résultat étiquetté « %1 »  trouvé "
+msgstr "Aucun résultat étiquetté « %1 »  trouvé "
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
@@ -1087,6 +1107,10 @@ msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "Dossier de téléchargement par défaut fixe"
 
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Ratio"
+msgstr ""
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "Ne pas étiquetter"
@@ -1114,6 +1138,10 @@ msgstr "Ajouté"
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "Priorité"
+
+msgctxt "DownloadsViewItem|"
+msgid "Paused"
+msgstr "En pause"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1243,21 +1271,12 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
 msgstr "Téléchargement complet"
 
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Moving... %1%"
-msgstr "Déplacement… %1%"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "Vérification des fichiers..."
 
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp3..."
-msgstr "Conversion en mp3..."
 
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp4..."
-msgstr "Conversion en mp3... {4.?}"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1291,21 +1310,9 @@ msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "En attente"
 
-msgctxt "DownloadsViewStatusItem|"
-msgid "Moving... %1%"
-msgstr "Déplacement… %1%"
 
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp3..."
-msgstr "Conversion en mp3..."
 
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp4..."
-msgstr "Conversion en mp3... {4.?}"
 
-msgctxt "DownloadsViewStatusItem|"
-msgid "Checking for viruses..."
-msgstr "Scan antivirus en cours..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1928,11 +1935,11 @@ msgstr "Cacher"
 
 msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
-msgstr "%content_type% - type de contenu (ex. « Musique »)"
+msgstr "%content_type% - type de contenu (ex. « Musique »)"
 
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
-msgstr "%server% - nom du serveur (ex. « %1 »)"
+msgstr "%server% - nom du serveur (ex. « %1 »)"
 
 msgctxt "MacrosMenu|"
 msgid "%path_on_server% - path to the downloading file on the server"
@@ -3502,21 +3509,9 @@ msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "En attente"
 
-msgctxt "StatusItem|"
-msgid "Moving... %1%"
-msgstr "Déplacement… %1%"
 
-msgctxt "StatusItem|"
-msgid "Converting to mp3..."
-msgstr "Conversion en mp3..."
 
-msgctxt "StatusItem|"
-msgid "Converting to mp4..."
-msgstr "Conversion en mp3... {4.?}"
 
-msgctxt "StatusItem|"
-msgid "Checking for viruses..."
-msgstr "Scan antivirus en cours..."
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"

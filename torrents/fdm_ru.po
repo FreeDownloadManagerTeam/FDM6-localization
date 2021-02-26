@@ -8,54 +8,85 @@ msgstr ""
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
 
+#: ../../../ui/qml_ui/bt/desktop/AddTDialog.qml:16
 msgctxt "AddTrackersDialog|"
 msgid "Add trackers"
 msgstr "Добавить трекеры"
 
+#: ../../../ui/qml_ui/bt/mobile/AddTPage.qml:25
 msgctxt "AddTrackersPage|"
 msgid "Add trackers"
 msgstr "Добавить трекеры"
 
+#: ../../../ui/qml_ui/bt/desktop/DisableSButton.qml:19
+#, fuzzy
+msgctxt "Download item|"
+msgid "Disable seeding"
+msgstr "Отключить раздачу"
+
+#: ../../../ui/qml_ui/bt/desktop/DisableSButton.qml:19
+msgctxt "Download item|"
+msgid "Enable seeding"
+msgstr "Включить раздачу"
+
+#: ../../../ui/qml_ui/bt/desktop/DisableSMenuItem.qml:7
+#: ../../../ui/qml_ui/bt/desktop/GlobalDisableSMenuItem.qml:7
+#: ../../../ui/qml_ui/bt/mobile/DisableSMenuItem.qml:7
 msgctxt "DownloadContextMenu|"
 msgid "Disable seeding"
 msgstr "Отключить раздачу"
 
+#: ../../../ui/qml_ui/bt/desktop/AddTMenuItem.qml:7
+#: ../../../ui/qml_ui/bt/mobile/AddTMenuItem.qml:7
 msgctxt "DownloadContextMenu|"
 msgid "Add trackers"
 msgstr "Добавить трекеры"
 
+#: ../../../ui/qml_ui/bt/desktop/IntegrationBanner.qml:17
+#, qt-format
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
 msgstr "Вы хотели бы сделать %1 торрент-клиентом по умолчанию?"
 
+#: ../../../ui/qml_ui/bt/desktop/IntegrationSettings.qml:18
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
 msgstr "Предлагать использовать %1 для загрузки торрент файлов по умолчанию"
 
+#: ../../../ui/qml_ui/bt/desktop/IntegrationSettings.qml:29
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
 msgstr "Сделать %1 торрент-клиентом по умолчанию"
 
+#: ../../../ui/cppqml/cppqmlappassociations.cpp:38
 msgctxt "QObject|"
 msgid "Associate with magnet links"
 msgstr "Ассоциировать с magnet-ссылками"
 
+#: ../../../ui/cppqml/cppqmlappassociations.cpp:40
 msgctxt "QObject|"
 msgid "Associate with torrent files"
 msgstr "Ассоциировать с торрент-файлами"
 
+#: ../../../ui/cppqml/cppqmluiconfig.cpp:14
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
 msgstr "Введите ссылку или выберите торрент файл"
 
+#: ../../../vmscl/inet/qt/download/downloadsbt/btdownload.cpp:40
 msgctxt "QObject|"
 msgid "Merge trackers"
 msgstr "Слияние трекеров"
 
+#: ../../../dmcore/downloadsbuiltintagsmanager.cpp:14
 msgctxt "QObject|"
 msgid "Torrent"
 msgstr "Торренты"
 
+#: ../../../ui/qml_ui/bt/desktop/MaxURatioLabel.qml:11
+#: ../../../ui/qml_ui/bt/mobile/MaxURatioLabel.qml:7
 msgctxt "SettingsPage|"
 msgid "Upload ratio limit"
 msgstr "Максимальный коэффициент отдачи"

@@ -107,7 +107,7 @@ msgstr "Не переводить компьютер в режим сна при
 msgctxt "AdvancedSettings|"
 msgid "Enable sleep mode while running finished downloads"
 msgstr ""
-"Разрешить перевод компьютера в спящий режим при отдаче завершенных загрузок"
+"Разрешить перевод компьютера в спящий режим при раздаче завершенных загрузок"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -692,23 +692,6 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "Количество соединений"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "Копировать ссылку"
@@ -930,7 +913,7 @@ msgstr "Размер: %1"
 
 msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
-msgstr "Показывать общую скорость загрузки на иконке в доке"
+msgstr "Показывать общую скорость раздачи на иконке в доке"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
@@ -995,6 +978,26 @@ msgstr "Остановить"
 msgctxt "DownloadWindow|"
 msgid "Start"
 msgstr "Начать"
+
+msgctxt "DownloadsItemTools|"
+msgid "Moving..."
+msgstr "Перемещение..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Checking for viruses..."
+msgstr "Проверка на вирусы..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp3..."
+msgstr "Конвертация в mp3..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp4..."
+msgstr "Конвертация в mp4..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash..."
+msgstr "Подсчет хэша..."
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
@@ -1092,6 +1095,10 @@ msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "Предлагать фиксированную папку для сохранения"
 
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Ratio"
+msgstr "Ратио"
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "Удалить тег"
@@ -1119,6 +1126,10 @@ msgstr "Добавлено"
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "Приоритет"
+
+msgctxt "DownloadsViewItem|"
+msgid "Paused"
+msgstr "Остановлено"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1248,21 +1259,12 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
 msgstr "Загрузка завершена"
 
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Moving... %1%"
-msgstr "Перемещение... %1%"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "Проверка файлов..."
 
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp3..."
-msgstr "Конвертация в mp3"
 
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp4..."
-msgstr "Конвертация в mp3 {4.?}"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1296,21 +1298,9 @@ msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "В очереди"
 
-msgctxt "DownloadsViewStatusItem|"
-msgid "Moving... %1%"
-msgstr "Перемещение... %1%"
 
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp3..."
-msgstr "Конвертация в mp3"
 
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp4..."
-msgstr "Конвертация в mp3 {4.?}"
 
-msgctxt "DownloadsViewStatusItem|"
-msgid "Checking for viruses..."
-msgstr "Проверка на вирусы..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1788,7 +1778,7 @@ msgstr "Скорость загрузки:"
 
 msgctxt "GeneralTab|"
 msgid "Upload speed:"
-msgstr "Скорость отдачи:"
+msgstr "Скорость раздачи:"
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
@@ -2517,9 +2507,6 @@ msgctxt "PreferredFileTypeCombobox|"
 msgid "Video"
 msgstr "Видео"
 
-
-
-
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Lowest"
 msgstr "Самое низкое"
@@ -2531,7 +2518,6 @@ msgstr "Самое высокое"
 msgctxt "PrivacyDialog|"
 msgid "User agreement"
 msgstr "Пользовательское соглашение"
-
 
 msgctxt "PrivacyDialog|"
 msgid ""
@@ -3499,21 +3485,9 @@ msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "В очереди"
 
-msgctxt "StatusItem|"
-msgid "Moving... %1%"
-msgstr "Перемещение... %1%"
 
-msgctxt "StatusItem|"
-msgid "Converting to mp3..."
-msgstr "Конвертация в mp3"
 
-msgctxt "StatusItem|"
-msgid "Converting to mp4..."
-msgstr "Конвертация в mp3 {4.?}"
 
-msgctxt "StatusItem|"
-msgid "Checking for viruses..."
-msgstr "Проверка на вирусы..."
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"
@@ -3609,7 +3583,7 @@ msgstr "Скорость загрузки"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Upload speed"
-msgstr "Скорость отдачи"
+msgstr "Скорость раздачи"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections"
@@ -3645,7 +3619,7 @@ msgstr "без ограничений"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
-msgstr "Загрузка: %1, Отдача: %2"
+msgstr "Загрузка: %1, Раздача: %2"
 
 msgctxt "TumComboBox|"
 msgid "High"
