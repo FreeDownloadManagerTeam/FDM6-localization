@@ -232,6 +232,30 @@ msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Отменить"
 
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr "Невозобновляемые загрузки (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr "Перенос файлов (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr "Конвертация файлов в mp3 (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr "Конвертация файлов в mp4 (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr "Объединение мультимедийных потоков (%1)."
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr "Выполняются операции, которые не могут быть возобновлены"
+
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "Необходима авторизация"
@@ -700,6 +724,10 @@ msgctxt "CopyMenu|"
 msgid "Copy"
 msgstr "Копировать"
 
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
+msgstr "Вы уверены, что хотите выйти?"
+
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
@@ -1096,8 +1124,16 @@ msgid "Fixed default download folder"
 msgstr "Предлагать фиксированную папку для сохранения"
 
 msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr "Раздача завершена"
+
+msgctxt "DownloadsSpeedColumnItem|"
 msgid "Ratio"
 msgstr "Ратио"
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
+msgstr "готово"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1128,8 +1164,9 @@ msgid "Priority"
 msgstr "Приоритет"
 
 msgctxt "DownloadsViewItem|"
-msgid "Paused"
-msgstr "Остановлено"
+msgid "Upload paused"
+msgstr "Раздача остановлена"
+
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1259,12 +1296,9 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
 msgstr "Загрузка завершена"
 
-
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "Проверка файлов..."
-
-
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1297,10 +1331,6 @@ msgstr "Слияние медиа потоков..."
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "В очереди"
-
-
-
-
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1765,12 +1795,24 @@ msgid "Use mobile network"
 msgstr "Используется мобильный Интернет"
 
 msgctxt "GeneralTab|"
+msgid "State"
+msgstr "Состояние"
+
+msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "Общий размер:"
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "Загружено:"
+
+msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr "Раздача завершена"
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr "ратио"
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -2617,12 +2659,40 @@ msgid "Quit"
 msgstr "Выход"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
+
+msgctxt "QObject|"
+msgid "%1 G"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3112,6 +3182,22 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "Разное"
 
+msgctxt "QObject|"
+msgid "Upload paused"
+msgstr "Раздача остановлена"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr "Вы уверены, что хотите выйти?"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr "Удаленный ресурс изменен"
@@ -3484,10 +3570,6 @@ msgstr "Слияние медиа потоков..."
 msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "В очереди"
-
-
-
-
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"

@@ -229,6 +229,30 @@ msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "取消"
 
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr ""
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr ""
+
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "需要身份验证"
@@ -693,6 +717,10 @@ msgctxt "CopyMenu|"
 msgid "Copy"
 msgstr "复制"
 
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
@@ -1083,7 +1111,15 @@ msgid "Fixed default download folder"
 msgstr "固定默认下载文件夹"
 
 msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
 msgid "Ratio"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
 msgstr ""
 
 msgctxt "DownloadsTagMenu|"
@@ -1115,8 +1151,9 @@ msgid "Priority"
 msgstr "优先级"
 
 msgctxt "DownloadsViewItem|"
-msgid "Paused"
-msgstr "已暂停"
+msgid "Upload paused"
+msgstr ""
+
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1246,12 +1283,9 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
 msgstr "下载完成"
 
-
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "检查文件中..."
-
-
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1284,10 +1318,6 @@ msgstr "合并媒体中..."
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "已排队"
-
-
-
-
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1751,12 +1781,24 @@ msgid "Use mobile network"
 msgstr "使用移动网络"
 
 msgctxt "GeneralTab|"
+msgid "State"
+msgstr ""
+
+msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "总计大小："
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "已下载："
+
+msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -2599,12 +2641,40 @@ msgid "Quit"
 msgstr "退出"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1K"
 
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1M"
+
+msgctxt "QObject|"
+msgid "%1 G"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3094,6 +3164,22 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "其他"
 
+msgctxt "QObject|"
+msgid "Upload paused"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "取消"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr "远程资源已改变"
@@ -3465,10 +3551,6 @@ msgstr "合并媒体中..."
 msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "已排队"
-
-
-
-
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"

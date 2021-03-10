@@ -234,6 +234,30 @@ msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Annulla"
 
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr ""
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr ""
+
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "Autenticazione richiesta"
@@ -702,6 +726,10 @@ msgctxt "CopyMenu|"
 msgid "Copy"
 msgstr "Copia"
 
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
@@ -999,7 +1027,7 @@ msgstr "Conversione in mp3 in corso..."
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp4..."
-msgstr ""
+msgstr "Conversione in mp3 in corso... {4.?}"
 
 msgctxt "DownloadsItemTools|"
 msgid "Calculating hash..."
@@ -1102,7 +1130,15 @@ msgid "Fixed default download folder"
 msgstr "Cartella fissa predefinita di download"
 
 msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
 msgid "Ratio"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
 msgstr ""
 
 msgctxt "DownloadsTagMenu|"
@@ -1134,8 +1170,9 @@ msgid "Priority"
 msgstr "Priorità"
 
 msgctxt "DownloadsViewItem|"
-msgid "Paused"
-msgstr "In pausa"
+msgid "Upload paused"
+msgstr ""
+
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1265,12 +1302,9 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
 msgstr "Download completato"
 
-
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "Verifica dei file in corso..."
-
-
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1303,10 +1337,6 @@ msgstr "Unione dei flussi multimediali in corso..."
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "In coda"
-
-
-
-
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1772,12 +1802,24 @@ msgid "Use mobile network"
 msgstr "Usa la rete mobile"
 
 msgctxt "GeneralTab|"
+msgid "State"
+msgstr ""
+
+msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "Dimensione totale:"
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "Scaricato:"
+
+msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -2625,12 +2667,40 @@ msgid "Quit"
 msgstr "Chiudi"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
+
+msgctxt "QObject|"
+msgid "%1 G"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3122,6 +3192,22 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "Misti"
 
+msgctxt "QObject|"
+msgid "Upload paused"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "Annulla"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr "Risorsa remota modificata"
@@ -3496,10 +3582,6 @@ msgstr "Unione dei flussi multimediali in corso..."
 msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "In coda"
-
-
-
-
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"

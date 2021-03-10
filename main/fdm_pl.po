@@ -176,7 +176,8 @@ msgstr "Wybierz motyw"
 
 msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Jasna kompozycja będzie używa, jeżeli nieznana będzie kompozycja systemu."
+msgstr ""
+"Jasna kompozycja będzie używa, jeżeli nieznana będzie kompozycja systemu."
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -229,6 +230,30 @@ msgstr "Przejdź do ustawień"
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Anuluj"
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr ""
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr ""
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -698,6 +723,10 @@ msgctxt "CopyMenu|"
 msgid "Copy"
 msgstr "Kopiuj"
 
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
@@ -711,7 +740,8 @@ msgstr "Automatycznie uruchom ponownie %1"
 
 msgctxt "CrashReporter|"
 msgid "Failed to send the report.<br>Check your Internet connection."
-msgstr "Nie udało się wysłać raportu.<br>Sprawdź czy masz połączenie z Internetem."
+msgstr ""
+"Nie udało się wysłać raportu.<br>Sprawdź czy masz połączenie z Internetem."
 
 msgctxt "CrashReporter|"
 msgid "Error"
@@ -1094,8 +1124,16 @@ msgid "Fixed default download folder"
 msgstr "Stały folder pobierania"
 
 msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
 msgid "Ratio"
 msgstr "Stopień"
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
+msgstr ""
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1126,8 +1164,9 @@ msgid "Priority"
 msgstr "Priorytet"
 
 msgctxt "DownloadsViewItem|"
-msgid "Paused"
-msgstr "Wstrzymane"
+msgid "Upload paused"
+msgstr ""
+
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1257,12 +1296,9 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
 msgstr "Pobieranie zakończone"
 
-
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "Sprawdzanie plików..."
-
-
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1295,10 +1331,6 @@ msgstr "Scalanie strumieni mediów..."
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "W kolejce"
-
-
-
-
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1680,11 +1712,13 @@ msgstr "Sugeruj foldery na podstawie rozszerzeń pliku"
 
 msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Jasna kompozycja będzie użyta, jeżeli nieznana będzie kompozycja systemu"
+msgstr ""
+"Jasna kompozycja będzie użyta, jeżeli nieznana będzie kompozycja systemu"
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
-msgstr "Nie widzisz swojego języka na liście lub tłumaczenie jest nie kompletne?"
+msgstr ""
+"Nie widzisz swojego języka na liście lub tłumaczenie jest nie kompletne?"
 
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
@@ -1763,12 +1797,24 @@ msgid "Use mobile network"
 msgstr "Używaj połączeń komórkowych"
 
 msgctxt "GeneralTab|"
+msgid "State"
+msgstr ""
+
+msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "Całkowity rozmiar:"
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "Pobrane:"
+
+msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -2616,12 +2662,40 @@ msgid "Quit"
 msgstr "Wyjście"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
+
+msgctxt "QObject|"
+msgid "%1 G"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3113,6 +3187,22 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "Różne"
 
+msgctxt "QObject|"
+msgid "Upload paused"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "Anuluj"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr "Zmieniono zasób zdalny"
@@ -3484,10 +3574,6 @@ msgstr "Scalanie strumieni mediów..."
 msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "W kolejce"
-
-
-
-
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"

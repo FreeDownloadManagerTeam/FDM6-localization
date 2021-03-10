@@ -7,13 +7,6 @@ msgstr ""
 "X-Language: es\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: es\n"
-"X-Generator: Poedit 2.4.2\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -243,6 +236,30 @@ msgstr "Ir a los ajustes"
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Cancelar"
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr ""
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr ""
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -712,6 +729,10 @@ msgctxt "CopyMenu|"
 msgid "Copy"
 msgstr "Copiar"
 
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
@@ -1110,8 +1131,16 @@ msgid "Fixed default download folder"
 msgstr "Carpeta de descarga predeterminada fija"
 
 msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
 msgid "Ratio"
 msgstr "Proporción"
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
+msgstr ""
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1142,8 +1171,9 @@ msgid "Priority"
 msgstr "Prioridad"
 
 msgctxt "DownloadsViewItem|"
-msgid "Paused"
-msgstr "Pausada"
+msgid "Upload paused"
+msgstr ""
+
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1775,12 +1805,24 @@ msgid "Use mobile network"
 msgstr "Usar red móvil"
 
 msgctxt "GeneralTab|"
+msgid "State"
+msgstr ""
+
+msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "Tamaño total:"
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "Descargado:"
+
+msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -2627,12 +2669,40 @@ msgid "Quit"
 msgstr "Salir"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
+
+msgctxt "QObject|"
+msgid "%1 G"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3123,6 +3193,22 @@ msgstr "Vídeos"
 msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "Misceláneo"
+
+msgctxt "QObject|"
+msgid "Upload paused"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "Cancelar"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"

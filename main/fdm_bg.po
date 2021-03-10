@@ -231,6 +231,30 @@ msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Отказ"
 
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr ""
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr ""
+
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "Необходима е идентификация"
@@ -698,6 +722,10 @@ msgctxt "CopyMenu|"
 msgid "Copy"
 msgstr "Копирай"
 
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
@@ -1092,7 +1120,15 @@ msgid "Fixed default download folder"
 msgstr "Фиксирана папка за изтегляне по подразбиране"
 
 msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
 msgid "Ratio"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
 msgstr ""
 
 msgctxt "DownloadsTagMenu|"
@@ -1124,8 +1160,9 @@ msgid "Priority"
 msgstr "Приоритет"
 
 msgctxt "DownloadsViewItem|"
-msgid "Paused"
-msgstr "На пауза"
+msgid "Upload paused"
+msgstr ""
+
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1255,12 +1292,9 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
 msgstr "Изтеглянето завърши"
 
-
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "Проверка на файлове..."
-
-
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1293,10 +1327,6 @@ msgstr "Сливане на потоци от данни..."
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "На опашка"
-
-
-
-
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1761,12 +1791,24 @@ msgid "Use mobile network"
 msgstr "Ползвай мобилна мрежа"
 
 msgctxt "GeneralTab|"
+msgid "State"
+msgstr ""
+
+msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "Пълен размер:"
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "Изтеглено:"
+
+msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -2612,12 +2654,40 @@ msgid "Quit"
 msgstr "Изход"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 К"
 
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 М"
+
+msgctxt "QObject|"
+msgid "%1 G"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3109,6 +3179,22 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "Разни"
 
+msgctxt "QObject|"
+msgid "Upload paused"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "Отказ"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr "Отдалечения ресурс е променен"
@@ -3480,10 +3566,6 @@ msgstr "Сливане на потоци от данни..."
 msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "На опашка"
-
-
-
-
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"
