@@ -10,11 +10,11 @@ msgstr ""
 
 msgctxt "AboutDialog|"
 msgid "About"
-msgstr ""
+msgstr "關於"
 
 msgctxt "AboutDialog|"
-msgid "<a href='%1'>%2</a> version %3"
-msgstr ""
+msgid "version %1"
+msgstr "版本 %1"
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -26,15 +26,15 @@ msgstr "版本 %1 (%2)"
 
 msgctxt "AddDateToFileName|"
 msgid "Add dates to files names"
-msgstr ""
+msgstr "檔案名稱中加入日期"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
-msgstr ""
+msgstr "新增鏡像"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "新增鏡像網址"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
@@ -46,7 +46,7 @@ msgstr "OK"
 
 msgctxt "AddMirrorPage|"
 msgid "Add mirror"
-msgstr ""
+msgstr "加入鏡像"
 
 msgctxt "AddMirrorPage|"
 msgid "OK"
@@ -54,7 +54,7 @@ msgstr "OK"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "加入鏡像網址"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -70,7 +70,7 @@ msgstr "OK"
 
 msgctxt "AddTag|"
 msgid "Add tag"
-msgstr ""
+msgstr "新增標籤"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced"
@@ -82,11 +82,19 @@ msgstr "通知"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "透過通知中心告訴我已完成的下載項目"
+msgstr "透過通知中心提醒我下載完成的項目"
+
+msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr "透過通知中心提醒我下載失敗的項目"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
-msgstr ""
+msgstr "僅在 %1"
+
+msgctxt "AdvancedSettings|"
+msgid "Customize sounds"
+msgstr "自訂音效"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -98,7 +106,7 @@ msgstr "當有運行中的下載項目時防止電腦進入睡眠狀態"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable sleep mode while running finished downloads"
-msgstr ""
+msgstr "完成下載後，進入睡眠"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -110,11 +118,36 @@ msgstr "在系統啟動時載入（最小化）"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr ""
+msgstr "點擊下載以 打開/ 隱藏 底部面板"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
-msgstr ""
+msgstr "每次備份下載清單"
+
+msgctxt "AdvancedSettings|"
+msgid "File exists reaction"
+msgstr "檔案存在時的動作"
+
+msgctxt "AdvancedSettings|"
+msgid "Rename"
+msgstr "重新命名"
+
+msgctxt "AdvancedSettings|"
+msgid "Overwrite"
+msgstr "覆蓋"
+
+msgctxt "AdvancedSettings|"
+msgid "Use sounds"
+msgstr "使用音效"
+
+msgctxt "AdvancedSettings|"
+msgid ""
+"Do not allow downloads to perform post finished tasks when running on battery"
+msgstr "禁止"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not allow downloads if battery level drops below"
+msgstr "電池低電量時，禁止下載"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -134,82 +167,111 @@ msgstr "總是詢問"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
-msgstr ""
+msgstr "進階設定"
+
+msgctxt "AdvancedSettings|"
+msgid "Choose theme"
+msgstr "選擇背景主題"
+
+msgctxt "AdvancedSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "FDM背景主題未知時，預設使用亮色系主題。"
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
-msgstr ""
+msgstr "手動設定..."
 
 msgctxt "AntivirusSettings|"
 msgid "Antivirus"
-msgstr ""
+msgstr "防毒軟體"
 
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
-msgstr ""
+msgstr "選擇防毒軟體："
 
 msgctxt "AntivirusSettings|"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
-msgstr ""
+msgid "Is your antivirus not listed?"
+msgstr "清單內沒有您的防毒軟體嗎?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
-msgstr ""
+msgstr "路徑:"
 
 msgctxt "AntivirusSettings|"
 msgid "Please enter antivirus path"
-msgstr ""
+msgstr "選擇防毒軟體的路徑"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments:"
-msgstr ""
+msgstr "參數:"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments must contain %path% variable"
-msgstr ""
+msgstr "參數必須包含 %path% 變數"
 
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
-msgstr ""
+msgstr "檔案下載完成後 自動掃毒"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
-msgstr ""
+msgstr "掃毒中"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
-msgstr ""
+msgstr "未指定防毒軟體。"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Go to settings"
-msgstr ""
+msgstr "前往設定頁面"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "取消"
 
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr ""
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr ""
+
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
-msgstr ""
+msgstr "需要驗證"
 
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
-msgstr ""
+msgstr "網站回應: \"%1\" 。"
 
 msgctxt "AuthenticationDialog|"
 msgid "Username:"
-msgstr ""
+msgstr "使用者名稱:"
 
 msgctxt "AuthenticationDialog|"
 msgid "Password:"
-msgstr ""
+msgstr "密碼:"
 
 msgctxt "AuthenticationDialog|"
 msgid "remember"
-msgstr ""
+msgstr "記住密碼"
 
 msgctxt "AuthenticationDialog|"
 msgid "Cancel"
@@ -221,7 +283,7 @@ msgstr "OK"
 
 msgctxt "AuthenticationPage|"
 msgid "Authentication required"
-msgstr ""
+msgstr "需要驗證"
 
 msgctxt "AuthenticationPage|"
 msgid "OK"
@@ -229,11 +291,11 @@ msgstr "OK"
 
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
-msgstr ""
+msgstr "網站回應: \"%1\" 。"
 
 msgctxt "AuthenticationPage|"
 msgid "Username"
-msgstr ""
+msgstr "使用者名稱"
 
 msgctxt "AuthenticationPage|"
 msgid "Password"
@@ -241,111 +303,111 @@ msgstr "密碼"
 
 msgctxt "AuthenticationPage|"
 msgid "Remember"
-msgstr ""
+msgstr "記住密碼"
 
 msgctxt "BackupComboBox|"
 msgid "5 minutes"
-msgstr ""
+msgstr "5分鐘"
 
 msgctxt "BackupComboBox|"
 msgid "15 minutes"
-msgstr ""
+msgstr "15分鐘"
 
 msgctxt "BackupComboBox|"
 msgid "1 hour"
-msgstr ""
+msgstr "1小時"
 
 msgctxt "BackupComboBox|"
 msgid "3 hours"
-msgstr ""
+msgstr "3小時"
 
 msgctxt "BackupComboBox|"
 msgid "1 day"
-msgstr ""
+msgstr "1天"
 
 msgctxt "BackupSlider|"
 msgid "5 minutes"
-msgstr ""
+msgstr "5分鐘"
 
 msgctxt "BackupSlider|"
 msgid "15 minutes"
-msgstr ""
+msgstr "15分鐘"
 
 msgctxt "BackupSlider|"
 msgid "1 hour"
-msgstr ""
+msgstr "1小時"
 
 msgctxt "BackupSlider|"
 msgid "3 hours"
-msgstr ""
+msgstr "3小時"
 
 msgctxt "BackupSlider|"
 msgid "1 day"
-msgstr ""
+msgstr "1天"
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
-msgstr ""
+msgstr "剪下"
 
 msgctxt "BaseTextArea|"
 msgid "Copy"
-msgstr ""
+msgstr "複製"
 
 msgctxt "BaseTextArea|"
 msgid "Paste"
-msgstr ""
+msgstr "貼上"
 
 msgctxt "BaseTextField|"
 msgid "Cut"
-msgstr ""
+msgstr "剪下"
 
 msgctxt "BaseTextField|"
 msgid "Copy"
-msgstr ""
+msgstr "複製"
 
 msgctxt "BaseTextField|"
 msgid "Paste"
-msgstr ""
+msgstr "貼上"
 
 msgctxt "BatchVideoQuality|"
 msgid "Preferred Video Quality:"
-msgstr ""
+msgstr "影片偏好品質："
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
-msgstr ""
+msgstr "kbps"
 
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
-msgstr ""
+msgstr "從  %1 %2 to %3 %4"
 
 msgctxt "BitrateComboBox|"
 msgid "CD quality"
-msgstr ""
+msgstr "CD 品質"
 
 msgctxt "BitrateComboBox|"
 msgid "High quality"
-msgstr ""
+msgstr "高品質"
 
 msgctxt "BitrateComboBox|"
 msgid "Medium quality"
-msgstr ""
+msgstr "中品質"
 
 msgctxt "BitrateComboBox|"
 msgid "Radio quality"
-msgstr ""
+msgstr "電台品質"
 
 msgctxt "BitrateComboBox|"
 msgid "Low quality"
-msgstr ""
+msgstr "低品質"
 
 msgctxt "BitrateComboBox|"
 msgid "Speech"
-msgstr ""
+msgstr "語音"
 
 msgctxt "BitrateComboBox|"
 msgid "Lowest quality, smallest file size"
-msgstr ""
+msgstr "最低品質, 最小的檔案大小"
 
 msgctxt "BottomPanelTools|"
 msgid "General"
@@ -361,64 +423,63 @@ msgstr "檔案"
 
 msgctxt "BottomPanelTools|"
 msgid "Connections"
-msgstr ""
-
+msgstr "連結數"
 
 msgctxt "Browser|"
 msgid "Enter URL"
-msgstr ""
+msgstr "新增網址/連結"
 
 msgctxt "Browser|"
 msgid "Bookmark removed"
-msgstr ""
+msgstr "移除書籤"
 
 msgctxt "Browser|"
 msgid "Bookmark added"
-msgstr ""
+msgstr "加入書籤"
 
 msgctxt "Browser|"
 msgid "Bookmarks"
-msgstr ""
+msgstr "書籤列"
 
 msgctxt "Browser|"
 msgid "There are no bookmarks at the moment"
-msgstr ""
+msgstr "目前沒有任何書籤"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr ""
+msgstr "您是否要移除此書籤?"
 
 msgctxt "Browser|"
 msgid "YES"
-msgstr ""
+msgstr "是"
 
 msgctxt "Browser|"
 msgid "NO"
-msgstr ""
+msgstr "否"
 
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
-msgstr ""
+msgstr "回到 %1"
 
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
-msgstr ""
+msgstr "書籤列"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
-msgstr ""
+msgstr "移除書籤"
 
 msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
-msgstr ""
+msgstr "新增書籤"
 
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
-msgstr ""
+msgstr "下載 %1 瀏覽器擴充套件"
 
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
-msgstr ""
+msgstr "%1 尚未安裝"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
@@ -428,11 +489,11 @@ msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
-msgstr ""
+msgstr "確認是否已完成安裝 %1 瀏覽器擴充套件，若無，請依照您慣用瀏覽器 點擊下方按鈕進行安裝套件"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
-msgstr ""
+msgstr "其他瀏覽器"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -440,7 +501,7 @@ msgstr "自動從瀏覽器捕捉下載"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Intercept downloads in your web browser"
-msgstr ""
+msgstr "攔截瀏覽器的 所有下載行為"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Start downloading without confirmation"
@@ -448,23 +509,23 @@ msgstr "不經確認就開始下載"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip domains"
-msgstr ""
+msgstr "跳過網域"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Edit list"
-msgstr ""
+msgstr "編輯清單"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid domain?"
-msgstr ""
+msgstr "此網域是有效的嗎?"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip files with extensions"
-msgstr ""
+msgstr "跳過副檔名"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid file extension?"
-msgstr ""
+msgstr "您確定這是個有效的副檔名嗎?"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't catch downloads smaller than"
@@ -472,7 +533,7 @@ msgstr "不要捕捉下載小於"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
-msgstr ""
+msgstr "Mbytes"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
@@ -489,18 +550,28 @@ msgid ""
 "browser does not provide to %1 (or there is no universal way for all "
 "browsers to do this)."
 msgstr ""
+"您將打開內建瀏覽器。\n"
+"\n"
+"並使用它幫您新增下載連結 %1\n"
+"\n"
+"某些(例如：Google Drive ) 只能使用瀏覽器新增連結，因為它們需要給 %1 "
+"的額外訊息，但android系統瀏覽器無法提供。(或瀏覽器沒有通用方法取得額外資訊)"
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
-msgstr ""
+msgstr "繼續"
 
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
-msgstr ""
+msgstr "瀏覽器未安裝"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
 msgstr "新增下載"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Report problem"
+msgstr "回報問題"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
@@ -527,44 +598,52 @@ msgid "OK"
 msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
+msgid "Report problem"
+msgstr "回報問題"
+
+msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
-msgstr ""
+msgstr "不允許從此網站中下載"
 
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
-msgstr ""
+msgstr "代理伺服器 %1 需要 使用者名稱 及 使用者密碼。"
 
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
-msgstr ""
+msgstr "%1 需要您的 使用者名稱 及 使用者密碼。"
 
 msgctxt "BuildDownloadTools|"
 msgid "Querying info. Please wait..."
-msgstr ""
+msgstr "取得資訊中，請稍後...."
 
 msgctxt "ButtonsBlock|"
 msgid "Please select download link"
-msgstr ""
+msgstr "請選擇下載連結"
 
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
-msgstr ""
+msgstr "您可以同時選擇多個 %1 連結"
+
+msgctxt "ButtonsBlock|"
+msgid "No write access to the selected directory"
+msgstr "此目錄沒有權限寫入"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
-msgstr ""
+msgstr "硬碟空間不足"
 
 msgctxt "ButtonsBlock|"
 msgid "The path contains invalid characters"
-msgstr ""
+msgstr "路徑內容含有無效字元"
 
 msgctxt "ButtonsBlock|"
 msgid "The subfolder name contains invalid characters"
-msgstr ""
+msgstr "子目錄名稱 含有無效字元"
 
 msgctxt "ButtonsBlock|"
 msgid "The filename contains invalid characters"
-msgstr ""
+msgstr "檔案名稱 含有無效字元"
 
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
@@ -580,7 +659,7 @@ msgstr "變更下載網址"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
-msgstr ""
+msgstr "新增網址/連結"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
@@ -600,7 +679,7 @@ msgstr "OK"
 
 msgctxt "ChangeUrlPage|"
 msgid "Change download URL"
-msgstr "變更下載網址"
+msgstr "變更下載網址/連結"
 
 msgctxt "ChangeUrlPage|"
 msgid "OK"
@@ -608,20 +687,19 @@ msgstr "OK"
 
 msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
-msgstr ""
+msgstr "新增連結/網址"
 
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "開始下載"
 
-
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
-msgstr ""
+msgstr "沒有連結"
 
 msgctxt "ConnectionsTab|"
 msgid "Host"
-msgstr ""
+msgstr "主機"
 
 msgctxt "ConnectionsTab|"
 msgid "Port"
@@ -629,75 +707,7 @@ msgstr "連接埠"
 
 msgctxt "ConnectionsTab|"
 msgid "Connection count"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "Save to"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "Open"
-msgstr "開啟"
-
-msgctxt "ConvertationDialog|"
-msgid "Cancel"
-msgstr "取消"
-
-msgctxt "ConvertationDialog|"
-msgid "Bitrate (quality)"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "Constant bitrate of value"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "Variable bitrate (VBR)"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "The path contains invalid characters"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "OK"
-msgstr "OK"
-
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "OK"
-msgstr "OK"
-
-msgctxt "ConvertationPage|"
-msgid "Save to"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "The path contains invalid characters"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "Bitrate (quality)"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "Constant bitrate of value"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "Variable bitrate (VBR)"
-msgstr ""
+msgstr "連結束"
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
@@ -705,20 +715,24 @@ msgstr "複製鏈結"
 
 msgctxt "CopyMenu|"
 msgid "Copy"
+msgstr "複製"
+
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
 msgstr ""
 
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
-msgstr ""
+msgstr "內部發生錯誤。<br> %1 請重新啟動以利使用。"
 
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
-msgstr ""
+msgstr "自動重啟 %1"
 
 msgctxt "CrashReporter|"
 msgid "Failed to send the report.<br>Check your Internet connection."
-msgstr ""
+msgstr "無法回傳報告。<br>請檢查您的網路是否正常連接。"
 
 msgctxt "CrashReporter|"
 msgid "Error"
@@ -726,7 +740,7 @@ msgstr "錯誤"
 
 msgctxt "CreateFolderDialog|"
 msgid "Create folder"
-msgstr ""
+msgstr "新增資料夾"
 
 msgctxt "CreateFolderDialog|"
 msgid "OK"
@@ -738,23 +752,23 @@ msgstr "取消"
 
 msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
-msgstr ""
+msgstr "建立可攜版"
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
-msgstr ""
+msgstr "%1 可攜版 能在不同的電腦上使用且無須進行安裝及設定。"
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
-msgstr ""
+msgstr "例如：可以放在隨身碟中。"
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
-msgstr ""
+msgstr "選擇可攜版FDM建立位置。"
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -766,7 +780,7 @@ msgstr "取消"
 
 msgctxt "CreatePortableDialog|"
 msgid "Please specify the path."
-msgstr ""
+msgstr "請指定路徑。"
 
 msgctxt "CreatePortableDialog|"
 msgid "OK"
@@ -774,17 +788,65 @@ msgstr "OK"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
-msgstr ""
+msgstr "%1% 建立中"
 
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
-msgstr ""
+msgstr "%1 製作可攜版時發生錯誤"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating a portable version was successfully completed."
-msgstr ""
+msgstr "可攜版已成功建立。"
 
 msgctxt "CreatePortableDialog|"
+msgid "Close"
+msgstr "關閉"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Customize sounds"
+msgstr "自訂音效"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Event"
+msgstr "事件"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Sound file"
+msgstr "音效檔案"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No sound"
+msgstr "無音效/無聲音"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads added"
+msgstr "已加入下載"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads completed"
+msgstr "下載完成"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads failed"
+msgstr "下載失敗"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No active downloads"
+msgstr "沒有執行中的下載"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Set sound"
+msgstr "設定音效"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Remove"
+msgstr "移除"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Test"
+msgstr "測試"
+
+msgctxt "CustomizeSoundsDialog|"
 msgid "Close"
 msgstr "關閉"
 
@@ -814,11 +876,11 @@ msgstr "OK"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete this file?"
-msgstr ""
+msgstr "是否刪除檔案?"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected files?"
-msgstr ""
+msgstr "是否刪除這個檔案?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Delete selected downloads"
@@ -826,7 +888,7 @@ msgstr "刪除已選下載"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Are you sure you want to delete the selected file(s)?"
-msgstr ""
+msgstr "確定刪除所選檔案?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "OK"
@@ -836,12 +898,120 @@ msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
 msgstr "取消"
 
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Download deleting failed"
+msgstr "刪除下載檔案失敗"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Try again"
+msgstr "再試一次"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore"
+msgstr "忽略"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore all"
+msgstr "全部忽略"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Abort"
+msgstr "中止"
+
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr ""
+msgstr "大小：%1 ( 硬碟剩餘空間：%2 )"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1"
+msgstr "大小：%1"
+
+msgctxt "DockUploadSpeedSetting|"
+msgid "Show total upload speed in the Dock icon"
+msgstr "在懸浮Icon上 顯示總上傳速度"
+
+msgctxt "DownloadWindow|"
+msgid "Saved in"
+msgstr "保存至"
+
+msgctxt "DownloadWindow|"
+msgid "File size"
+msgstr "檔案大小"
+
+msgctxt "DownloadWindow|"
+msgid "Resume support"
+msgstr "支援 續傳"
+
+msgctxt "DownloadWindow|"
+msgid "Yes"
+msgstr "是"
+
+msgctxt "DownloadWindow|"
+msgid "No"
+msgstr "否"
+
+msgctxt "DownloadWindow|"
+msgid "Unknown"
+msgstr "未知"
+
+msgctxt "DownloadWindow|"
+msgid "Downloaded"
+msgstr "已下載"
+
+msgctxt "DownloadWindow|"
+msgid "Speed"
+msgstr "速度"
+
+msgctxt "DownloadWindow|"
+msgid "Time remaining"
+msgstr "剩餘時間"
+
+msgctxt "DownloadWindow|"
+msgid "Open download when it is completed"
+msgstr "下載完成後自動打開"
+
+msgctxt "DownloadWindow|"
+msgid "Close this window when the download is completed or stopped"
+msgstr "當下載完成或下載停止時關閉視窗"
+
+msgctxt "DownloadWindow|"
+msgid "Hide"
+msgstr "隱藏"
+
+msgctxt "DownloadWindow|"
+msgid "Show In Folder"
+msgstr "在資料夾中顯示"
+
+msgctxt "DownloadWindow|"
+msgid "Open"
+msgstr "開啟"
+
+msgctxt "DownloadWindow|"
+msgid "Stop"
+msgstr "停止"
+
+msgctxt "DownloadWindow|"
+msgid "Start"
+msgstr "開始"
+
+msgctxt "DownloadsItemTools|"
+msgid "Moving..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
+msgid "Checking for viruses..."
+msgstr "掃毒中..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp3..."
+msgstr "轉檔為Mp3..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp4..."
+msgstr "轉檔為Mp4..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash..."
 msgstr ""
 
 msgctxt "DownloadsItemTools|"
@@ -850,11 +1020,11 @@ msgstr "遺失檔案"
 
 msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
-msgstr ""
+msgstr "硬碟無法使用/無硬碟"
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
-msgstr ""
+msgstr "下載連結 ( %1 選定)"
 
 msgctxt "DownloadsList|"
 msgid "Select all"
@@ -866,19 +1036,19 @@ msgstr "全不選"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
-msgstr ""
+msgstr "下載清單是空的。"
 
 msgctxt "DownloadsPage|"
 msgid "Add new download URL."
-msgstr ""
+msgstr "新增下載網址。"
 
 msgctxt "DownloadsPage|"
 msgid "No results found for"
-msgstr "找不到結果："
+msgstr "找不到結果"
 
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
-msgstr ""
+msgstr "找不到 %1 標籤"
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
@@ -894,11 +1064,67 @@ msgstr "顯示全部"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
+msgstr "下載清單是空的。新增下載連結。"
+
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr "下載設定"
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr "不經確認就開始下載"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr "自動從下載清單移除已刪除檔案"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr "從下載清單中自動刪除 已下載完成的項目"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr "下載失敗時自動重試"
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr "使用伺服器時作為檔案建立時間"
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr "預設下載資料夾"
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr "自動選擇預設下載資料夾"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr "根據文件類型建議文件夾"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "根據下載網址建議文件夾"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr "自訂預設下載資料夾"
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Ratio"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
 msgstr ""
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
-msgstr ""
+msgstr "取消標籤"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Name"
@@ -924,6 +1150,11 @@ msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "優先度"
 
+msgctxt "DownloadsViewItem|"
+msgid "Upload paused"
+msgstr ""
+
+
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
 msgstr "重新開始"
@@ -937,8 +1168,12 @@ msgid "Show In Folder"
 msgstr "在資料夾中顯示"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Report problem"
+msgstr "回報問題"
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
-msgstr ""
+msgstr "顯示下載項目"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Choose Files..."
@@ -978,15 +1213,27 @@ msgstr "順序下載"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
-msgstr ""
+msgstr "加入鏡像"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Open download page"
+msgstr "打開下載頁面"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "複製鏈結"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Check for update"
+msgstr "檢查更新"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Export selected downloads"
+msgstr "匯出所選下載項目"
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
-msgstr ""
+msgstr "新增標籤"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "File integrity"
@@ -1002,11 +1249,15 @@ msgstr "變更網址"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
-msgstr ""
+msgstr "轉檔成Mp3"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Convert to mp4"
+msgstr "轉檔成Mp4"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
-msgstr ""
+msgstr "掃描病毒"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
@@ -1033,20 +1284,12 @@ msgid "Download complete"
 msgstr "下載完成"
 
 msgctxt "DownloadsViewItemFileInfo|"
-msgid "Moving... %1%"
-msgstr ""
-
-msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
-msgstr ""
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp3..."
-msgstr ""
+msgstr "確認檔案中..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
-msgstr ""
+msgstr "合併媒體串流中..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Requesting info..."
@@ -1064,30 +1307,17 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "未知檔案大小"
 
-
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files..."
-msgstr ""
+msgstr "確認檔案中...."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Merging media streams..."
-msgstr ""
+msgstr "合併媒體串流中..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "已佇列"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Moving... %1%"
-msgstr ""
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp3..."
-msgstr ""
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Checking for viruses..."
-msgstr ""
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1105,21 +1335,138 @@ msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "已完成"
 
+msgctxt "EditTagDialog|"
+msgid "Edit tag"
+msgstr "編輯標籤"
+
+msgctxt "EditTagDialog|"
+msgid "Extensions (e.g. \"avi mp3\")"
+msgstr "副檔名 (例如：\"avi mp3\")"
+
+msgctxt "EditTagDialog|"
+msgid ""
+"Extensions that are automatically assigned with this tag for new downloads"
+msgstr "自動添加"
+
+msgctxt "EditTagDialog|"
+msgid "Default download folder"
+msgstr "預設下載資料夾"
+
+msgctxt "EditTagDialog|"
+msgid "Open"
+msgstr "開啟"
+
+msgctxt "EditTagDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "EditTagDialog|"
+msgid "Macros"
+msgstr "巨集"
+
+msgctxt "EditTagDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Rename"
+msgstr "重新命名"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Overwrite"
+msgstr "覆蓋"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Always ask"
+msgstr "總是詢問"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export selected downloads"
+msgstr "匯出已選下載項目"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export all downloads"
+msgstr "匯出所有下載項目"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Save to"
+msgstr "另存至"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Open"
+msgstr "開啟"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "All files (%1)"
+msgstr "所有檔案 (%1)"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export only completed downloads"
+msgstr "只匯出下載完成的項目"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export"
+msgstr "匯出"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "%1 downloads files (%2)"
+msgstr "%1 下載檔案 (%2)"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Default format"
+msgstr "預設格式"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "List of URLs"
+msgstr "網址清單"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Text files (%1)"
+msgstr "文字檔"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV file"
+msgstr "CSV檔"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV files (%1)"
+msgstr "CSV檔 (%1)"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Export"
+msgstr "匯出"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "ExportSettingsDialog|"
+msgid "%1 settings files (%2)"
+msgstr "%1 設定檔(%2)"
+
+msgctxt "ExportSettingsDialog|"
+msgid "All files (%1)"
+msgstr "所有檔案 (%1)"
+
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
 msgstr "檢查檔案完整度"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Hash"
-msgstr ""
+msgstr "Hash"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
-msgstr ""
+msgstr "計算中 %1%"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Compare with"
-msgstr ""
+msgstr "與...比較"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification OK"
@@ -1139,27 +1486,27 @@ msgstr "檢查檔案完整度"
 
 msgctxt "FileIntegrityPage|"
 msgid "MD5"
-msgstr ""
+msgstr "MD5"
 
 msgctxt "FileIntegrityPage|"
 msgid "SHA-1"
-msgstr ""
+msgstr "Calculating %1%"
 
 msgctxt "FileIntegrityPage|"
 msgid "SHA-256"
-msgstr ""
+msgstr "Calculating %1%"
 
 msgctxt "FileIntegrityPage|"
 msgid "Hash"
-msgstr ""
+msgstr "Calculating %1%"
 
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
-msgstr ""
+msgstr "計算中  %1%"
 
 msgctxt "FileIntegrityPage|"
 msgid "Compare with"
-msgstr ""
+msgstr "與...比較"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification OK"
@@ -1171,15 +1518,15 @@ msgstr "驗證失敗"
 
 msgctxt "FileManagerSupportDialog|"
 msgid "No supported file managers found."
-msgstr ""
+msgstr "找不到支援的檔案管理器。"
 
 msgctxt "FileName|"
 msgid "Create subfolder"
-msgstr ""
+msgstr "建立子目錄"
 
 msgctxt "FileName|"
 msgid "File name"
-msgstr ""
+msgstr "檔案名稱"
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
@@ -1187,7 +1534,7 @@ msgstr "選擇資料夾"
 
 msgctxt "FilePickerPage|"
 msgid "Select file"
-msgstr ""
+msgstr "選擇檔案"
 
 msgctxt "FilePickerPage|"
 msgid "OK"
@@ -1195,35 +1542,55 @@ msgstr "OK"
 
 msgctxt "FilePickerPage|"
 msgid "Empty folder"
-msgstr ""
+msgstr "空資料夾"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By date"
-msgstr ""
+msgstr "日期"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By name"
-msgstr ""
+msgstr "名稱"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By size"
-msgstr ""
+msgstr "大小"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Sort"
-msgstr ""
+msgstr "排序"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Ascending"
-msgstr ""
+msgstr "升幂"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Descending"
-msgstr ""
+msgstr "降幂"
 
 msgctxt "FileType|"
 msgid "Preferred File Type:"
-msgstr ""
+msgstr "偏好檔案類型："
+
+msgctxt "FilesExistsDialog|"
+msgid "Warning: file exists already"
+msgstr "警告：檔案已存在"
+
+msgctxt "FilesExistsDialog|"
+msgid "Remember my choice for all downloads"
+msgstr "記住我的選擇並套用到所有下載項目"
+
+msgctxt "FilesExistsDialog|"
+msgid "Rename (%1)"
+msgstr "重新命名 (%1)"
+
+msgctxt "FilesExistsDialog|"
+msgid "Overwrite"
+msgstr "覆蓋"
+
+msgctxt "FilesExistsDialog|"
+msgid "Abort"
+msgstr "中止"
 
 msgctxt "FilesTree|"
 msgid "Name"
@@ -1295,7 +1662,19 @@ msgstr "檔案完整度"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
-msgstr ""
+msgstr "將影片轉為Mp3"
+
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert video to mp4"
+msgstr "將影片轉為Mp4"
+
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert to mp4"
+msgstr "轉檔成Mp4"
+
+msgctxt "FixedDownloadFolderCombobox|"
+msgid "Macros"
+msgstr "巨集"
 
 msgctxt "GeneralSettings|"
 msgid "General"
@@ -1303,26 +1682,11 @@ msgstr "一般"
 
 msgctxt "GeneralSettings|"
 msgid "Choose theme"
-msgstr ""
-
-msgctxt "GeneralSettings|"
-msgid "Light"
-msgstr ""
-
-msgctxt "GeneralSettings|"
-msgid "Dark"
-msgstr ""
+msgstr "選擇背景主題"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
-msgstr ""
-
-msgctxt "GeneralSettings|"
-msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
-msgstr ""
+msgstr "語言"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1333,12 +1697,52 @@ msgid "Suggest folders based on file type"
 msgstr "根據文件類型建議文件夾"
 
 msgctxt "GeneralSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "若系統背景主題為未知類型，則自動預設主題為  亮色系背景主題。"
+
+msgctxt "GeneralSettings|"
+msgid "Your language is not listed or the translation isn't complete?"
+msgstr "語言不再清單內嗎? 或翻譯不完整?"
+
+msgctxt "GeneralSettings|"
+msgid "Let's fix it!"
+msgstr "讓我們一起完善它!"
+
+msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr "預設資料夾"
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr "自動選擇預設下載資料夾"
+
+msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
 msgstr "根據下載網址建議文件夾"
 
 msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr "自訂預設資料夾"
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr "開啟"
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr "巨集"
+
+msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
-msgstr ""
+msgstr "緊湊的下載清單 介面"
+
+msgctxt "GeneralSettings|"
+msgid "Enable standalone downloads windows"
+msgstr "開啟獨立下載視窗"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
@@ -1346,11 +1750,19 @@ msgstr "自動從下載清單移除已刪除檔案"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr ""
+msgstr "自動移除在下載清單中 已完成的下載項目"
+
+msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr "自動重啟"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "使用伺服器時作為檔案建立時間"
+
+msgctxt "GeneralSettings|"
+msgid "Maximum urls count in batch download"
+msgstr "批量下載的最大網址連結數量"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1365,17 +1777,12 @@ msgid "Install updates automatically"
 msgstr "自動安裝更新"
 
 msgctxt "GeneralSettings|"
-msgid "Dark theme"
-msgstr ""
-
-msgctxt "GeneralSettings|"
-msgid "Start downloading without confirmation"
-msgstr "不經確認就開始下載"
-
-msgctxt "GeneralSettings|"
 msgid "Use mobile network"
-msgstr ""
+msgstr "使用行動網路"
 
+msgctxt "GeneralTab|"
+msgid "State"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1384,6 +1791,14 @@ msgstr "總大小："
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "已下載："
+
+msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -1395,11 +1810,11 @@ msgstr "上傳速度："
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
-msgstr ""
+msgstr "添加於："
 
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
-msgstr "%2 的 %1"
+msgstr "%2 共 %1"
 
 msgctxt "GeneralTab|"
 msgid "Domain:"
@@ -1407,23 +1822,79 @@ msgstr "域名："
 
 msgctxt "GeneralTab|"
 msgid "Added:"
-msgstr ""
+msgstr "添加："
 
 msgctxt "GeneralTab|"
 msgid "Progress:"
-msgstr ""
+msgstr "進度："
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
-msgstr ""
+msgstr "MD5"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-1"
-msgstr ""
+msgstr "SHA-1"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
-msgstr ""
+msgstr "SHA-256"
+
+msgctxt "ImportDialog|"
+msgid "Import"
+msgstr "匯入"
+
+msgctxt "ImportDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "ImportDialog|"
+msgid "All files (%1)"
+msgstr "所有檔案 (%1)"
+
+msgctxt "ImportDialog|"
+msgid "Text files (%1)"
+msgstr "文字檔 (%1)"
+
+msgctxt "ImportDialog|"
+msgid "%1 downloads files (%2)"
+msgstr "%1 下載項目 (%2)"
+
+msgctxt "ImportDialog|"
+msgid "%1 settings files (%2)"
+msgstr "%1 設定文件 (%2)"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Error: %1"
+msgstr "錯誤：%1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr "從檔案中貼上網址失敗"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import the list of URLs from the file: %1"
+msgstr "無法從檔案中匯入網址清單：%1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to export"
+msgstr "匯出失敗"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to export to the file: %1"
+msgstr "無法匯出檔案：%1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to import"
+msgstr "匯入失敗"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import from the file: %1"
+msgstr "無法從檔案中匯入： %1"
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1431,19 +1902,19 @@ msgstr "設定成預設值"
 
 msgctxt "IntegrationBanner|"
 msgid "Don't ask again"
-msgstr ""
+msgstr "別再問了"
 
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
-msgstr ""
+msgstr "仍然要關閉嗎?"
 
 msgctxt "LanguageDialog|"
 msgid "Language"
-msgstr ""
+msgstr "語言"
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
-msgstr ""
+msgstr "瀏覽器"
 
 msgctxt "LeftDrawer|"
 msgid "Settings"
@@ -1455,11 +1926,15 @@ msgstr "聯繫支援"
 
 msgctxt "LeftDrawer|"
 msgid "About"
-msgstr ""
+msgstr "關於"
+
+msgctxt "LeftDrawer|"
+msgid "Quit"
+msgstr "結束"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
-msgstr ""
+msgstr "新增下載"
 
 msgctxt "ListEditor|"
 msgid "Add"
@@ -1467,7 +1942,35 @@ msgstr "新增"
 
 msgctxt "ListEditor|"
 msgid "Hide"
-msgstr ""
+msgstr "隱藏"
+
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr "%content_type% - 內容類型  (例如： \"Music\")"
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr "%server% - 伺服器名稱  (e.g. \"%1\")"
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr "%path_on_server% - 下載項目在伺服器中的路徑"
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr "%year% - 當前年份"
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr "%month% - 當前月份 (數字 1 - 12)"
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr "%day% - 當天日期"
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
+msgstr "%date% - 等同於 %year%-%month%-%day%"
 
 msgctxt "MainFiltersBar|"
 msgid "All"
@@ -1481,9 +1984,37 @@ msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "已完成"
 
+msgctxt "MainFiltersBar|"
+msgid "OK to remove tag?"
+msgstr "確定移除標籤嗎?"
+
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
 msgstr "從剪貼簿貼上網址"
+
+msgctxt "MainMenu|"
+msgid "Paste Urls from File"
+msgstr "從檔案中貼上網址"
+
+msgctxt "MainMenu|"
+msgid "Export/Import"
+msgstr "匯入 / 匯出"
+
+msgctxt "MainMenu|"
+msgid "Export all downloads"
+msgstr "匯出所有下載項目"
+
+msgctxt "MainMenu|"
+msgid "Import downloads"
+msgstr "匯入所有下載項目"
+
+msgctxt "MainMenu|"
+msgid "Export settings"
+msgstr "匯出設定"
+
+msgctxt "MainMenu|"
+msgid "Import settings"
+msgstr "匯入設定"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -1511,15 +2042,19 @@ msgstr "關機"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
-msgstr ""
+msgstr "建立可攜"
 
 msgctxt "MainMenu|"
 msgid "Check for Updates..."
 msgstr "檢查更新..."
 
 msgctxt "MainMenu|"
+msgid "Join the %1 mosaic..."
+msgstr "加入 %1 馬賽克 ..."
+
+msgctxt "MainMenu|"
 msgid "About"
-msgstr ""
+msgstr "關於"
 
 msgctxt "MainMenu|"
 msgid "Quit"
@@ -1535,12 +2070,12 @@ msgstr "蝸速模式"
 
 msgctxt "MainStatusBar|"
 msgid "No Internet connection"
-msgstr ""
+msgstr "無網路連接"
 
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
-msgstr[0] ""
+msgstr[0] "已選擇 %n 下載項目。"
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -1584,15 +2119,15 @@ msgstr "無限"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Custom..."
-msgstr ""
+msgstr "自訂..."
 
 msgctxt "MaxURatioComboBox|"
 msgid "%"
-msgstr ""
+msgstr "%"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Custom value"
-msgstr ""
+msgstr "自訂值"
 
 msgctxt "MaxURatioComboBox|"
 msgid "OK"
@@ -1603,20 +2138,24 @@ msgid "CANCEL"
 msgstr "取消"
 
 msgctxt "MaxURatioComboBox|"
+msgid "Invalid value"
+msgstr "無效值"
+
+msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
-msgstr ""
+msgstr "必須為數字且大於0。"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
-msgstr ""
+msgstr "下載項目已存在"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "URL:"
-msgstr ""
+msgstr "網址："
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Path:"
-msgstr ""
+msgstr "路徑："
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Size:"
@@ -1624,47 +2163,187 @@ msgstr "大小："
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Added at:"
-msgstr ""
+msgstr "新增於："
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
 msgstr "跳過"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "OK"
-msgstr "OK"
+msgid "Skip all (%1)"
+msgstr "跳過全部 (%1)"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
 msgstr "下載"
 
+msgctxt "MobileDataUsageDialog|"
+msgid "Mobile data usage"
+msgstr "已使用的行動數據流量"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Waiting for Wi-Fi to start download."
+msgstr "連接Wi-FI後 開始下載。"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Would you like to enable usage of mobile data? *"
+msgstr "您是否要使用行動網路來下載? *"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Don't ask again"
+msgstr "別再問了"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Yes"
+msgstr "是"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "No"
+msgstr "否"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "* additional charges may apply"
+msgstr "*  可能會產生額外費用 ( 沒有網路吃到飽用戶請注意流量 )"
+
 msgctxt "ModeButton|"
 msgid "No Internet connection"
-msgstr ""
+msgstr "無網路連接"
 
 msgctxt "ModeButton|"
 msgid "Mobile data use disabled"
-msgstr ""
+msgstr "行動網路未開啟"
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
-msgstr ""
+msgstr "下載項目移動失敗"
 
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
-msgstr ""
+msgstr "錯誤：%1"
 
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
-msgstr ""
+msgstr "無法移動：%1"
 
 msgctxt "MovingFailedDialog|"
 msgid "Try again"
-msgstr ""
+msgstr "再試一次"
 
 msgctxt "MovingFailedDialog|"
 msgid "Cancel"
 msgstr "取消"
+
+msgctxt "MovingFolderDialog|"
+msgid "Move"
+msgstr "移動"
+
+msgctxt "MovingFolderDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr "轉檔成Mp3 並設定 位元速率"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Save to"
+msgstr "另存至"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Open"
+msgstr "開啟"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Bitrate (quality)"
+msgstr "位元速率(品質)"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Constant bitrate of value"
+msgstr "固定位元速率"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Variable bitrate (VBR)"
+msgstr "變動位元速率"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr "路徑內容的文字包含無效字元"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3"
+msgstr "轉檔成Mp3"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr "轉檔成Mp3 並設定 位元速率"
+
+msgctxt "Mp3ConverterPage|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Save to"
+msgstr "另存至"
+
+msgctxt "Mp3ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "路徑內容的文字包含無效字元"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Bitrate (quality)"
+msgstr "位元速率(品質)"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Constant bitrate of value"
+msgstr "固定位元速率"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Variable bitrate (VBR)"
+msgstr "變動位元速率"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Convert to mp4"
+msgstr "轉檔成Mp4"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Save to"
+msgstr "另存至"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Open"
+msgstr "開啟"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr "路徑內容的文字包含無效字元"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Convert to mp4"
+msgstr "轉檔成Mp4"
+
+msgctxt "Mp4ConverterPage|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Save to"
+msgstr "另存至"
 
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
@@ -1680,23 +2359,23 @@ msgstr "結束"
 
 msgctxt "NativeMenuBar|"
 msgid "&File"
-msgstr ""
+msgstr "檔案 (&File)"
 
 msgctxt "NativeMenuBar|"
 msgid "Add &new download"
-msgstr ""
+msgstr "新增下載"
 
 msgctxt "NativeMenuBar|"
 msgid "&Edit"
-msgstr ""
+msgstr "編輯 (&Edit)"
 
 msgctxt "NativeMenuBar|"
 msgid "&Copy"
-msgstr ""
+msgstr "複製 (&Copy)"
 
 msgctxt "NativeMenuBar|"
 msgid "&Paste"
-msgstr ""
+msgstr "貼上 (&Paste)"
 
 msgctxt "NativeMenuBar|"
 msgid "Downloads"
@@ -1760,7 +2439,7 @@ msgstr "HTTP:"
 
 msgctxt "NetworkSettings|"
 msgid ":"
-msgstr ""
+msgstr "："
 
 msgctxt "NetworkSettings|"
 msgid "HTTPS:"
@@ -1772,31 +2451,31 @@ msgstr "FTP:"
 
 msgctxt "NetworkSettings|"
 msgid "SOCKS5:"
-msgstr ""
+msgstr "SOCKS5 傳輸協定："
 
 msgctxt "NetworkSettings|"
 msgid "Invalid proxy settings"
-msgstr ""
+msgstr "無效的代理伺服器設定"
 
 msgctxt "NetworkSettings|"
 msgid "Proxy settings"
-msgstr ""
+msgstr "代理伺服器設定"
 
 msgctxt "NetworkSettings|"
 msgid "HTTP"
-msgstr ""
+msgstr "HTTP"
 
 msgctxt "NetworkSettings|"
 msgid "HTTPS"
-msgstr ""
+msgstr "HTTPS"
 
 msgctxt "NetworkSettings|"
 msgid "FTP"
-msgstr ""
+msgstr "FTP"
 
 msgctxt "NetworkSettings|"
 msgid "SOCKS5"
-msgstr ""
+msgstr "SOCKS5"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Unlimited"
@@ -1804,19 +2483,19 @@ msgstr "無限"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom..."
-msgstr ""
+msgstr "自訂..."
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "KB/s"
-msgstr ""
+msgstr "KB/s"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Please enter numbers only"
-msgstr ""
+msgstr "請輸入數字"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom value"
-msgstr ""
+msgstr "自訂值"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "OK"
@@ -1827,12 +2506,16 @@ msgid "CANCEL"
 msgstr "取消"
 
 msgctxt "NetworkSpeedLimitComboBox|"
+msgid "Invalid value"
+msgstr "無效數值"
+
+msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
-msgstr ""
+msgstr "必須為數字且大於0 。"
 
 msgctxt "Page|"
 msgid "Info"
-msgstr ""
+msgstr "資訊"
 
 msgctxt "Page|"
 msgid "Files"
@@ -1840,31 +2523,46 @@ msgstr "檔案"
 
 msgctxt "Page|"
 msgid "Connections"
-msgstr ""
+msgstr "連接"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
-msgstr ""
+msgstr "音訊"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Video"
-msgstr ""
+msgstr "影片"
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "Low (240p)"
-msgstr ""
+msgid "Lowest"
+msgstr "最低"
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "Medium (480p)"
-msgstr ""
+msgid "Highest"
+msgstr "最高"
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "High (1080p)"
-msgstr ""
+msgctxt "PrivacyDialog|"
+msgid "User agreement"
+msgstr "使用者協議"
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "4K (2160p)"
-msgstr ""
+msgctxt "PrivacyDialog|"
+msgid ""
+"A bug report will be sent to the server and used to improve %1 performance. "
+"We do not collect your personal data and do not share data with third "
+"parties."
+msgstr "錯誤回報將會傳送到伺服器中並僅用於提升/修正 %1 。我們不會蒐集也不會提供給第三方 您的個人資料。"
+
+msgctxt "PrivacyDialog|"
+msgid "I agree (do not show it again)"
+msgstr "我同意(不再顯示)"
+
+msgctxt "PrivacyDialog|"
+msgid "Send report"
+msgstr "傳送報告"
+
+msgctxt "PrivacyDialog|"
+msgid "Cancel"
+msgstr "取消"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -1872,11 +2570,11 @@ msgstr "不明的錯誤"
 
 msgctxt "QObject|"
 msgid "Service connection terminated."
-msgstr ""
+msgstr "伺服器連結已中止。"
 
 msgctxt "QObject|"
 msgid "App backend's server listen failed."
-msgstr ""
+msgstr "應用程式後端伺服器 listen失敗。"
 
 msgctxt "QObject|"
 msgid "Error"
@@ -1884,37 +2582,43 @@ msgstr "錯誤"
 
 msgctxt "QObject|"
 msgid "Connection failure"
-msgstr ""
+msgstr "連接失敗"
 
 msgctxt "QObject|"
 msgid "App frontend's server listen failed."
-msgstr ""
+msgstr "應用程式前端伺服器 listen  失敗。"
 
 msgctxt "QObject|"
 msgid "QML load failure."
-msgstr ""
+msgstr "QML 讀取失敗。"
 
 msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
-msgstr ""
+msgstr "初始化應用程式狀態管理失敗。"
 
 msgctxt "QObject|"
 msgid ""
 "\n"
 "Error: %1"
 msgstr ""
+"\n"
+"錯誤： %1"
 
 msgctxt "QObject|"
 msgid "Enter URL"
-msgstr ""
+msgstr "輸入網址"
+
+msgctxt "QObject|"
+msgid "Sorry this device is not supported by %1."
+msgstr "很抱歉，此裝置尚未被支援 %1。"
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
-msgstr ""
+msgstr "%1 初始化失敗，請重新安裝。"
 
 msgctxt "QObject|"
 msgid "Reason: %1"
-msgstr ""
+msgstr "原因：%1"
 
 msgctxt "QObject|"
 msgid "Contact Support"
@@ -1922,7 +2626,7 @@ msgstr "聯繫支援"
 
 msgctxt "QObject|"
 msgid "Exit"
-msgstr ""
+msgstr "離開"
 
 msgctxt "QObject|"
 msgid "Show main window"
@@ -1930,11 +2634,31 @@ msgstr "顯示主視窗"
 
 msgctxt "QObject|"
 msgid "About %1"
-msgstr "關於%1"
+msgstr "關於 %1"
 
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "結束"
+
+msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "%1 K"
@@ -1945,16 +2669,32 @@ msgid "%1 M"
 msgstr "%1 M"
 
 msgctxt "QObject|"
+msgid "%1 G"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Download complete"
 msgstr "下載完成"
 
 msgctxt "QObject|"
 msgid "Downloads complete"
-msgstr ""
+msgstr "所有下載已完成"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr "下載失敗"
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr "下載失敗"
 
 msgctxt "QObject|"
 msgid "Download added"
-msgstr ""
+msgstr "下載已添加"
 
 msgctxt "QObject|"
 msgid "Unknown error"
@@ -1962,47 +2702,47 @@ msgstr "不明的錯誤"
 
 msgctxt "QObject|"
 msgid "File read error"
-msgstr ""
+msgstr "檔案讀取錯誤"
 
 msgctxt "QObject|"
 msgid "Failed to read from file"
-msgstr ""
+msgstr "檔案讀取失敗"
 
 msgctxt "QObject|"
 msgid "File write error"
-msgstr ""
+msgstr "檔案寫入錯誤"
 
 msgctxt "QObject|"
 msgid "Failed to write to file"
-msgstr ""
+msgstr "檔案寫入失敗"
 
 msgctxt "QObject|"
 msgid "File open error"
-msgstr ""
+msgstr "檔案無法開啟"
 
 msgctxt "QObject|"
 msgid "Failed to open file"
-msgstr ""
+msgstr "檔案開啟失敗"
 
 msgctxt "QObject|"
 msgid "Access denied"
-msgstr ""
+msgstr "拒絕存取"
 
 msgctxt "QObject|"
 msgid "Access to file is denied"
-msgstr ""
+msgstr "檔案拒絕存取"
 
 msgctxt "QObject|"
 msgid "File error"
-msgstr ""
+msgstr "檔案錯誤"
 
 msgctxt "QObject|"
 msgid "Unknown file I/O error"
-msgstr ""
+msgstr "未知檔案的  I/O 錯誤"
 
 msgctxt "QObject|"
 msgid "HTTP Error %1"
-msgstr ""
+msgstr "HTTP 錯誤 %1"
 
 msgctxt "QObject|"
 msgid "Bad Request"
@@ -2222,15 +2962,19 @@ msgstr "網絡讀連接逾時錯誤"
 
 msgctxt "QObject|"
 msgid "Unsupported"
-msgstr ""
+msgstr "不支援"
 
 msgctxt "QObject|"
 msgid "Invalid parameter"
-msgstr ""
+msgstr "無效參數"
+
+msgctxt "QObject|"
+msgid "Unsupported format"
+msgstr "不支援的格式"
 
 msgctxt "QObject|"
 msgid "Host not found"
-msgstr ""
+msgstr "主機端未被找到"
 
 msgctxt "QObject|"
 msgid "Operation canceled"
@@ -2238,15 +2982,15 @@ msgstr "操作已取消"
 
 msgctxt "QObject|"
 msgid "Connection closed"
-msgstr ""
+msgstr "連結已關閉"
 
 msgctxt "QObject|"
 msgid "Timed out"
-msgstr ""
+msgstr "超時"
 
 msgctxt "QObject|"
 msgid "SSL handshake failed"
-msgstr ""
+msgstr "SSL 密鑰交換錯誤"
 
 msgctxt "QObject|"
 msgid "Connection refused"
@@ -2254,95 +2998,95 @@ msgstr "拒絕連線"
 
 msgctxt "QObject|"
 msgid "Network error"
-msgstr ""
+msgstr "網路錯誤"
 
 msgctxt "QObject|"
 msgid "Operation not permitted"
-msgstr ""
+msgstr "操作不允許"
 
 msgctxt "QObject|"
 msgid "No resume support"
-msgstr ""
+msgstr "不支援續傳"
 
 msgctxt "QObject|"
 msgid "Resource changed"
-msgstr ""
+msgstr "資源已變更"
 
 msgctxt "QObject|"
 msgid "Resource changed on server"
-msgstr ""
+msgstr "伺服器上的資源已變更"
 
 msgctxt "QObject|"
 msgid "Fast resume failure"
-msgstr ""
+msgstr "快速續傳失敗"
 
 msgctxt "QObject|"
 msgid "Can't process page"
-msgstr ""
+msgstr "頁面無法處理"
 
 msgctxt "QObject|"
 msgid "Error processing page content"
-msgstr ""
+msgstr "處理頁面內容時失敗"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
-msgstr ""
+msgstr "不支援的網址"
 
 msgctxt "QObject|"
 msgid "Untitled"
-msgstr ""
+msgstr "未命名"
 
 msgctxt "QObject|"
 msgid "Failed to remove current version"
-msgstr ""
+msgstr "移除當前版本失敗"
 
 msgctxt "QObject|"
 msgid "hdiutil error %1"
-msgstr ""
+msgstr "hdiutil 錯誤 %1"
 
 msgctxt "QObject|"
 msgid "Mount point does not exist"
-msgstr ""
+msgstr "掛載位置不存在"
 
 msgctxt "QObject|"
 msgid "Path to the dump folder."
-msgstr ""
+msgstr "轉儲資料夾的路徑。"
 
 msgctxt "QObject|"
 msgid "Url to upload dumps to."
-msgstr ""
+msgstr "上傳轉儲的網址。"
 
 msgctxt "QObject|"
 msgid "Path to the crashed app that can be restarted."
-msgstr ""
+msgstr "重啟崩潰的應用程式路徑."
 
 msgctxt "QObject|"
 msgid "Name of the crashed application."
-msgstr ""
+msgstr "崩潰的應用程式名稱."
 
 msgctxt "QObject|"
 msgid "Version of the application."
-msgstr ""
+msgstr "應用程式版本."
 
 msgctxt "QObject|"
 msgid "Architecture."
-msgstr ""
+msgstr "結構."
 
 msgctxt "QObject|"
 msgid "User's operating system."
-msgstr ""
+msgstr "使用者的系統."
 
 msgctxt "QObject|"
 msgid "Fault module name."
-msgstr ""
+msgstr "出錯的模組名稱。"
 
 msgctxt "QObject|"
 msgid "Crash address."
-msgstr ""
+msgstr "崩潰的記憶體位置。"
 
 msgctxt "QObject|"
 msgid "Signature check failure."
-msgstr ""
+msgstr "簽名檔驗證失敗。"
 
 msgctxt "QObject|"
 msgid "Download with %1"
@@ -2350,7 +3094,7 @@ msgstr "使用%1下載"
 
 msgctxt "QObject|"
 msgid "Download all with %1"
-msgstr ""
+msgstr "全部使用 %1 下載"
 
 msgctxt "QObject|"
 msgid "Download selected with %1"
@@ -2362,15 +3106,15 @@ msgstr "使用%1下載影片"
 
 msgctxt "QObject|"
 msgid "Video"
-msgstr ""
+msgstr "影片"
 
 msgctxt "QObject|"
 msgid "Music"
-msgstr ""
+msgstr "音樂"
 
 msgctxt "QObject|"
 msgid "There is not enough disk space."
-msgstr ""
+msgstr "空間不足。"
 
 msgctxt "QObject|"
 msgid ""
@@ -2378,32 +3122,99 @@ msgid ""
 "%1 has failed to restore it from backup.\n"
 "Please close all your web browsers and try again."
 msgstr ""
+"下載清單損毀。\n"
+"%1 從備份檔恢復失敗。\n"
+"請關閉您所有的瀏覽器並再試一次。"
 
 msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
-msgstr ""
+msgstr "錯誤：載入資料庫失敗。"
 
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
-msgstr ""
+msgstr "您希望清除嗎 ( 將會清除下載列表 及 全部  %1 資料) ?"
 
 msgctxt "QObject|"
 msgid "Failed."
-msgstr ""
+msgstr "失敗。"
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
-msgstr ""
+msgstr "遺失  %path% 參數。"
 
 msgctxt "QObject|"
 msgid "Update URL"
+msgstr "上傳網址"
+
+msgctxt "QObject|"
+msgid "Documents"
+msgstr "文件"
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr "照片/圖片"
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr "影片"
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
+msgstr "其他"
+
+msgctxt "QObject|"
+msgid "Upload paused"
 msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Remote resource changed"
+msgstr "遠程資源已變更"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Always re-download"
+msgstr "總是重新下載"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Re-download"
+msgstr "重新下載"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "ReportSentDialog|"
+msgid "Report problem"
+msgstr "回報問題"
+
+msgctxt "ReportSentDialog|"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr "很抱歉，由於發生 %1 錯誤，因此報告沒有被送出"
+
+msgctxt "ReportSentDialog|"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr "報告送出成功!! 非常感謝您的合作!!"
+
+msgctxt "ReportSentDialog|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "SaveTo|"
 msgid "Save to"
-msgstr ""
+msgstr "另存至"
 
 msgctxt "SaveTo|"
 msgid "Open"
@@ -2447,7 +3258,7 @@ msgstr "從："
 
 msgctxt "Scheduler|"
 msgid "Everyday"
-msgstr ""
+msgstr "每天"
 
 msgctxt "Scheduler|"
 msgid "To:"
@@ -2483,11 +3294,11 @@ msgstr "套用"
 
 msgctxt "SchedulerDialog|"
 msgid "All the day"
-msgstr ""
+msgstr "整天"
 
 msgctxt "SchedulerDialog|"
 msgid "Everyday"
-msgstr ""
+msgstr "每天"
 
 msgctxt "SchedulerDialog|"
 msgid "Close"
@@ -2535,7 +3346,7 @@ msgstr "搜尋"
 
 msgctxt "SearchPage|"
 msgid "No results found for"
-msgstr "找不到結果："
+msgstr "找不到結果"
 
 msgctxt "SearchToolbar|"
 msgid "Search"
@@ -2543,23 +3354,27 @@ msgstr "搜尋"
 
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
-msgstr ""
+msgstr "已選擇：%1"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Sort"
-msgstr ""
+msgstr "排序"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
-msgstr ""
+msgstr "升幂"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Descending"
-msgstr ""
+msgstr "降幂"
+
+msgctxt "SettingsPage|"
+msgid "Invalid settings"
+msgstr "無效設定"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
-msgstr ""
+msgstr "仍然關閉?"
 
 msgctxt "SettingsPage|"
 msgid "Preferences"
@@ -2583,7 +3398,7 @@ msgstr "流量限制"
 
 msgctxt "SettingsPage|"
 msgid "Antivirus"
-msgstr ""
+msgstr "防毒軟體"
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
@@ -2594,27 +3409,24 @@ msgid "Settings"
 msgstr "設定"
 
 msgctxt "SettingsPage|"
+msgid "Downloads settings"
+msgstr "下載設定"
+
+msgctxt "SettingsPage|"
 msgid "Network settings"
-msgstr ""
+msgstr "網路設定"
 
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
 msgstr "流量限制"
 
 msgctxt "SettingsPage|"
+msgid "Sounds settings"
+msgstr "音效設定"
+
+msgctxt "SettingsPage|"
 msgid "Advanced settings"
-msgstr ""
-
-
-
-
-
-
-
-
-
-
-
+msgstr "進階設定"
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -2626,15 +3438,15 @@ msgstr "所有下載完成後電腦會睡眠。"
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be hibernate after all downloads are completed."
-msgstr ""
+msgstr "所有下載完成後電腦會休眠。"
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be shutdown after all downloads are completed."
-msgstr ""
+msgstr "完成所有下載後電腦會關機。"
 
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
-msgstr ""
+msgstr "確認"
 
 msgctxt "ShutdownDialog|"
 msgid "Cancel"
@@ -2642,55 +3454,79 @@ msgstr "取消"
 
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
-msgstr ""
+msgstr "OK (%1)"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be put to Sleep mode."
-msgstr ""
+msgstr "注意! 您的電腦將會進入睡眠。"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be hibernated."
-msgstr ""
+msgstr "注意! 您的電腦將會進入休眠。"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
-msgstr ""
+msgstr "注意! 您的電腦將會關機。"
 
 msgctxt "SortTools|"
 msgid "By date"
-msgstr ""
+msgstr "日期"
 
 msgctxt "SortTools|"
 msgid "By name"
-msgstr ""
+msgstr "名稱"
 
 msgctxt "SortTools|"
 msgid "By size"
-msgstr ""
+msgstr "大小"
+
+msgctxt "SoundsSettings|"
+msgid "Sounds settings"
+msgstr "音效設定"
+
+msgctxt "SoundsSettings|"
+msgid "Use sounds"
+msgstr "目前使用音效"
+
+msgctxt "SoundsSettings|"
+msgid "Downloads added"
+msgstr "下載項目已新增"
+
+msgctxt "SoundsSettings|"
+msgid "Downloads completed"
+msgstr "下載項目完成"
+
+msgctxt "SoundsSettings|"
+msgid "Downloads failed"
+msgstr "下載項目失敗"
+
+msgctxt "SoundsSettings|"
+msgid "No active downloads"
+msgstr "沒有執行中的下載"
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
-msgstr ""
+msgstr "警告：有潛在安全風險"
 
 msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
-msgstr ""
+msgstr "SSL 憑證無效。"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
-msgstr ""
+msgstr "憑證指紋"
 
 msgctxt "SslDialog|"
 msgid "SHA-256:"
-msgstr ""
+msgstr "SHA-256："
 
 msgctxt "SslDialog|"
 msgid "SHA1:"
-msgstr ""
+msgstr "SHA1："
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
-msgstr ""
+msgstr "接受風險並下載"
 
 msgctxt "SslDialog|"
 msgid "Cancel"
@@ -2698,35 +3534,23 @@ msgstr "取消"
 
 msgctxt "SslDialog|"
 msgid "Security risk"
-msgstr ""
+msgstr "安全風險"
 
 msgctxt "SslDialog|"
 msgid "Continue"
-msgstr ""
+msgstr "繼續"
 
 msgctxt "StatusItem|"
 msgid "Checking files..."
-msgstr ""
+msgstr "檢查文件..."
 
 msgctxt "StatusItem|"
 msgid "Merging media streams..."
-msgstr ""
+msgstr "合併媒體串流中..."
 
 msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "已佇列"
-
-msgctxt "StatusItem|"
-msgid "Moving... %1%"
-msgstr ""
-
-msgctxt "StatusItem|"
-msgid "Converting to mp3..."
-msgstr ""
-
-msgctxt "StatusItem|"
-msgid "Checking for viruses..."
-msgstr ""
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"
@@ -2746,15 +3570,15 @@ msgstr "已完成"
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause download"
-msgstr ""
+msgstr "暫停下載"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing."
-msgstr ""
+msgstr "以下連結(檔案) 無法暫停後再續傳。"
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause"
-msgstr ""
+msgstr "暫停"
 
 msgctxt "StopDownloadDialog|"
 msgid "Cancel"
@@ -2762,27 +3586,43 @@ msgstr "取消"
 
 msgctxt "StopDownloadDialog|"
 msgid "This download can't be resumed after pausing"
-msgstr ""
+msgstr "此連結 (檔案) 無法暫停後再續傳"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
-msgstr ""
+msgstr "以下連結(檔案) 無法暫停後再續傳"
 
-msgctxt "TagColorDialog|"
-msgid "Remove tag"
-msgstr ""
+msgctxt "Subtitles|"
+msgid "Download subtitles"
+msgstr "下載字幕"
+
+msgctxt "Subtitles|"
+msgid "Edit list"
+msgstr "編輯清單"
 
 msgctxt "TagMenu|"
 msgid "Edit"
-msgstr ""
+msgstr "編輯"
 
 msgctxt "TagMenu|"
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 msgctxt "TagPalette|"
 msgid "Customize color"
-msgstr ""
+msgstr "自訂顏色"
+
+msgctxt "ThemeComboBox|"
+msgid "System"
+msgstr "系統"
+
+msgctxt "ThemeComboBox|"
+msgid "Light"
+msgstr "亮色系"
+
+msgctxt "ThemeComboBox|"
+msgid "Dark"
+msgstr "暗色系"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -2814,7 +3654,7 @@ msgstr "最大連接數目"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections per server"
-msgstr ""
+msgstr "每個伺服器的最大連結數"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of simultaneous downloads"
@@ -2822,7 +3662,7 @@ msgstr "最大同時下載數目"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
-msgstr ""
+msgstr "無效的流量限制設定"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
@@ -2830,19 +3670,19 @@ msgstr "流量限制"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
-msgstr "無限"
+msgstr "不限"
 
 msgctxt "TumComboBox|"
 msgid "KB/s"
-msgstr ""
+msgstr "KB/s"
 
 msgctxt "TumComboBox|"
 msgid "unlimited"
-msgstr ""
+msgstr "不限"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
-msgstr ""
+msgstr "下載: %1, 上傳: %2"
 
 msgctxt "TumComboBox|"
 msgid "High"
@@ -2862,15 +3702,15 @@ msgstr "無限"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Custom..."
-msgstr ""
+msgstr "自訂..."
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "%"
-msgstr ""
+msgstr "%"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Please enter numbers only"
-msgstr ""
+msgstr "請輸入數字"
 
 msgctxt "TumModeBlock|"
 msgid "Download speed"
@@ -2882,7 +3722,7 @@ msgstr "無限"
 
 msgctxt "TumModeBlock|"
 msgid "Max. number of simultaneous downloads"
-msgstr ""
+msgstr "最大同時下載數量"
 
 msgctxt "TumModeBlock|"
 msgid "Snail mode"
@@ -2890,19 +3730,19 @@ msgstr "蝸速模式"
 
 msgctxt "TumModeBlock|"
 msgid "Frees bandwidth without stopping downloads."
-msgstr ""
+msgstr "不停止下載並釋放頻寬。"
 
 msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
-msgstr ""
+msgstr "修改速限"
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
-msgstr ""
+msgstr "新的下載"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "New file"
-msgstr ""
+msgstr "新的檔案"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -2910,19 +3750,23 @@ msgstr "下載"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Save to"
-msgstr ""
+msgstr "另存至"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
-msgstr ""
+msgstr "檔案名稱"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "No write access to the selected directory"
+msgstr "您所選擇的資料夾沒有寫入權限"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr ""
+msgstr "大小： %1 (硬碟空間：%2)"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
-msgstr ""
+msgstr "大小： %1"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
@@ -2950,7 +3794,7 @@ msgstr "更新"
 
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
-msgstr ""
+msgstr "%1 最新的"
 
 msgctxt "UpdateDialog|"
 msgid "OK"
@@ -2990,11 +3834,11 @@ msgstr "重啟%1以更新"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch (%1)"
-msgstr ""
+msgstr "重新啟動 (%1)"
 
 msgctxt "UpdateDialog|"
 msgid "Later"
-msgstr ""
+msgstr "稍後"
 
 msgctxt "UpdateDialog|"
 msgid "Check for updates"
@@ -3006,44 +3850,44 @@ msgstr "品質："
 
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
-msgstr ""
+msgstr "享受 %1?"
 
 msgctxt "VoteBlock|"
 msgid "Not, really"
-msgstr ""
+msgstr "先不"
 
 msgctxt "VoteBlock|"
 msgid "Yes!"
-msgstr ""
+msgstr "是的!"
 
 msgctxt "VoteBlock|"
 msgid "Thanks a lot! Please rate on Google Play."
-msgstr ""
+msgstr "非常感謝，請在google play上評分。"
 
 msgctxt "VoteBlock|"
 msgid "Later"
-msgstr ""
+msgstr "稍後"
 
 msgctxt "VoteBlock|"
 msgid "No, thanks"
-msgstr ""
+msgstr "不，謝謝"
 
 msgctxt "VoteBlock|"
 msgid "OK, sure!"
-msgstr ""
+msgstr "沒問題!"
 
 msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."
-msgstr ""
+msgstr "請您給我們回饋，讓我們一起讓FDM變得更棒。"
 
 msgctxt "WaitingPage|"
 msgid "Refresh"
-msgstr ""
+msgstr "重新整理"
 
 msgctxt "main|"
-msgid "Move"
-msgstr "移動"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr "很抱歉，由於發生 %1 錯誤，因此報告沒有被送出"
 
 msgctxt "main|"
-msgid "Cancel"
-msgstr "取消"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr "報告送出成功!! 非常感謝您的合作!!"

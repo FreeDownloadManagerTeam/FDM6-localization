@@ -13,9 +13,8 @@ msgid "About"
 msgstr "О программе"
 
 msgctxt "AboutDialog|"
-msgid "<a href='%1'>%2</a> version %3"
-msgstr "<a href='%1'>%2</a> версия %3"
-
+msgid "version %1"
+msgstr "версия %1"
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -86,8 +85,16 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr "Оповещать о завершенных загрузках через Центр Уведомлений"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr "Уведомлять меня о неудавшихся загрузках через Центр Уведомлений"
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "Уведомлять меня о загрузках только когда окно %1 неактивно"
+
+msgctxt "AdvancedSettings|"
+msgid "Customize sounds"
+msgstr "Настроить звуки"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -100,7 +107,7 @@ msgstr "Не переводить компьютер в режим сна при
 msgctxt "AdvancedSettings|"
 msgid "Enable sleep mode while running finished downloads"
 msgstr ""
-"Разрешить перевод компьютера в спящий режим при отдаче завершенных загрузок"
+"Разрешить перевод компьютера в спящий режим при раздаче завершенных загрузок"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -118,7 +125,32 @@ msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
 msgstr "Резервное копирование списка загрузок раз в"
 
+msgctxt "AdvancedSettings|"
+msgid "File exists reaction"
+msgstr "Действие при наличии файла"
 
+msgctxt "AdvancedSettings|"
+msgid "Rename"
+msgstr "Переименовать"
+
+msgctxt "AdvancedSettings|"
+msgid "Overwrite"
+msgstr "Перезаписать"
+
+msgctxt "AdvancedSettings|"
+msgid "Use sounds"
+msgstr "Включить звуки"
+
+msgctxt "AdvancedSettings|"
+msgid ""
+"Do not allow downloads to perform post finished tasks when running on battery"
+msgstr ""
+"Не позволять загрузкам выполнять задачи после завершения при работе от "
+"батареи"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not allow downloads if battery level drops below"
+msgstr "Остановить загрузки, если уровень заряда батареи падает ниже"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -136,10 +168,17 @@ msgctxt "AdvancedSettings|"
 msgid "Always ask"
 msgstr "Всегда спрашивать"
 
-
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Расширенные настройки"
+
+msgctxt "AdvancedSettings|"
+msgid "Choose theme"
+msgstr "Выберите тему"
+
+msgctxt "AdvancedSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Светлая тема будет использована, если системная тема неизвестна."
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -154,14 +193,8 @@ msgid "Select antivirus:"
 msgstr "Выберите антивирус:"
 
 msgctxt "AntivirusSettings|"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
-msgstr ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Вашего "
-"антивируса нет в списке?</a>"
+msgid "Is your antivirus not listed?"
+msgstr "Вашего антивируса нет в списке?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -187,7 +220,6 @@ msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
 msgstr "Проверка на вирусы"
 
-
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
 msgstr "Настройки антивируса не заданы."
@@ -199,6 +231,30 @@ msgstr "Перейти к настройкам"
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Отменить"
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr "Невозобновляемые загрузки (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr "Перенос файлов (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr "Конвертация файлов в mp3 (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr "Конвертация файлов в mp4 (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr "Объединение мультимедийных потоков (%1)."
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr "Выполняются операции, которые не могут быть возобновлены"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -316,7 +372,6 @@ msgctxt "BaseTextField|"
 msgid "Paste"
 msgstr "Вставить"
 
-
 msgctxt "BatchVideoQuality|"
 msgid "Preferred Video Quality:"
 msgstr "Предпочтительное качество видео:"
@@ -372,8 +427,6 @@ msgstr "Файлы"
 msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr "Соединения"
-
-
 
 msgctxt "Browser|"
 msgid "Enter URL"
@@ -442,10 +495,6 @@ msgid ""
 msgstr ""
 "Убедитесь, что у вас установлено расширение %1, в противном случае нажмите "
 "на одну из кнопок ниже"
-
-
-
-
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -528,6 +577,10 @@ msgid "Add download"
 msgstr "Добавить загрузку"
 
 msgctxt "BuildDownloadDialog|"
+msgid "Report problem"
+msgstr "Отчет об ошибке"
+
+msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
 msgstr "Отменить"
 
@@ -552,6 +605,10 @@ msgid "OK"
 msgstr "ОК"
 
 msgctxt "BuildDownloadPage|"
+msgid "Report problem"
+msgstr "Отчет об ошибке"
+
+msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
 msgstr "Загрузка с этого сайта запрещена"
 
@@ -574,6 +631,10 @@ msgstr "Выберите ссылку"
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "Вы можете выбрать не более %1 ссылок за один раз"
+
+msgctxt "ButtonsBlock|"
+msgid "No write access to the selected directory"
+msgstr "Нет доступа на запись в выбранную директорию"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
@@ -639,7 +700,6 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Начать загрузку"
 
-
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "Соединений нет"
@@ -656,74 +716,6 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "Количество соединений"
 
-msgctxt "ConvertationDialog|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Конвертировать в mp3 с регулируемым битрейтом"
-
-msgctxt "ConvertationDialog|"
-msgid "Save to"
-msgstr "Сохранить в"
-
-msgctxt "ConvertationDialog|"
-msgid "Open"
-msgstr "Открыть"
-
-msgctxt "ConvertationDialog|"
-msgid "Cancel"
-msgstr "Отменить"
-
-msgctxt "ConvertationDialog|"
-msgid "Bitrate (quality)"
-msgstr "Битрейт (качество)"
-
-msgctxt "ConvertationDialog|"
-msgid "Constant bitrate of value"
-msgstr "Постоянный битрейт"
-
-msgctxt "ConvertationDialog|"
-msgid "Variable bitrate (VBR)"
-msgstr "Переменный битрейт (VBR)"
-
-msgctxt "ConvertationDialog|"
-msgid "The path contains invalid characters"
-msgstr "Путь содержит недопустимые символы"
-
-msgctxt "ConvertationDialog|"
-msgid "OK"
-msgstr "ОК"
-
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3"
-msgstr "Конвертировать в mp3"
-
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Конвертировать в mp3 с регулируемым битрейтом"
-
-msgctxt "ConvertationPage|"
-msgid "OK"
-msgstr "ОК"
-
-msgctxt "ConvertationPage|"
-msgid "Save to"
-msgstr "Сохранить в"
-
-msgctxt "ConvertationPage|"
-msgid "The path contains invalid characters"
-msgstr "Путь содержит недопустимые символы"
-
-msgctxt "ConvertationPage|"
-msgid "Bitrate (quality)"
-msgstr "Битрейт (качество)"
-
-msgctxt "ConvertationPage|"
-msgid "Constant bitrate of value"
-msgstr "Постоянный битрейт"
-
-msgctxt "ConvertationPage|"
-msgid "Variable bitrate (VBR)"
-msgstr "Переменный битрейт (VBR)"
-
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "Копировать ссылку"
@@ -731,6 +723,10 @@ msgstr "Копировать ссылку"
 msgctxt "CopyMenu|"
 msgid "Copy"
 msgstr "Копировать"
+
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
+msgstr "Вы уверены, что хотите выйти?"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -819,6 +815,54 @@ msgctxt "CreatePortableDialog|"
 msgid "Close"
 msgstr "Закрыть"
 
+msgctxt "CustomizeSoundsDialog|"
+msgid "Customize sounds"
+msgstr "Настроить звуки"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Event"
+msgstr "Событие"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Sound file"
+msgstr "Звуковой файл"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No sound"
+msgstr "Без звука"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads added"
+msgstr "Загрузки добавлены"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads completed"
+msgstr "Загрузки завершены"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads failed"
+msgstr "Загрузки не удались"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No active downloads"
+msgstr "Нет активных загрузок"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Set sound"
+msgstr "Задать звук"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Remove"
+msgstr "Удалить"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Test"
+msgstr "Проверить"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Close"
+msgstr "Закрыть"
+
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
 msgstr "Удалить выбранные загрузки"
@@ -867,6 +911,26 @@ msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
 msgstr "Отменить"
 
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Download deleting failed"
+msgstr "Не удалось удалить загрузку"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Try again"
+msgstr "Попробовать снова"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore"
+msgstr "Пропустить"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore all"
+msgstr "Пропустить все"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Abort"
+msgstr "Прервать"
+
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Размер: %1 (Место на диске: %2)"
@@ -875,6 +939,94 @@ msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Размер: %1"
 
+msgctxt "DockUploadSpeedSetting|"
+msgid "Show total upload speed in the Dock icon"
+msgstr "Показывать общую скорость раздачи на иконке в доке"
+
+msgctxt "DownloadWindow|"
+msgid "Saved in"
+msgstr "Сохранить в"
+
+msgctxt "DownloadWindow|"
+msgid "File size"
+msgstr "Размер файла"
+
+msgctxt "DownloadWindow|"
+msgid "Resume support"
+msgstr "Поддержка докачки"
+
+msgctxt "DownloadWindow|"
+msgid "Yes"
+msgstr "Да"
+
+msgctxt "DownloadWindow|"
+msgid "No"
+msgstr "Нет"
+
+msgctxt "DownloadWindow|"
+msgid "Unknown"
+msgstr "Неизвестно"
+
+msgctxt "DownloadWindow|"
+msgid "Downloaded"
+msgstr "Загружено"
+
+msgctxt "DownloadWindow|"
+msgid "Speed"
+msgstr "Скорость"
+
+msgctxt "DownloadWindow|"
+msgid "Time remaining"
+msgstr "Времени осталось"
+
+msgctxt "DownloadWindow|"
+msgid "Open download when it is completed"
+msgstr "Открыть загрузку после завершения"
+
+msgctxt "DownloadWindow|"
+msgid "Close this window when the download is completed or stopped"
+msgstr "Закрыть это окно, когда загрузка будет завершена или остановлена"
+
+msgctxt "DownloadWindow|"
+msgid "Hide"
+msgstr "Скрыть"
+
+msgctxt "DownloadWindow|"
+msgid "Show In Folder"
+msgstr "Показать в папке"
+
+msgctxt "DownloadWindow|"
+msgid "Open"
+msgstr "Открыть"
+
+msgctxt "DownloadWindow|"
+msgid "Stop"
+msgstr "Остановить"
+
+msgctxt "DownloadWindow|"
+msgid "Start"
+msgstr "Начать"
+
+msgctxt "DownloadsItemTools|"
+msgid "Moving..."
+msgstr "Перемещение..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Checking for viruses..."
+msgstr "Проверка на вирусы..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp3..."
+msgstr "Конвертация в mp3..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp4..."
+msgstr "Конвертация в mp4..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash..."
+msgstr "Подсчет хэша..."
+
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "Файл отсутствует"
@@ -882,7 +1034,6 @@ msgstr "Файл отсутствует"
 msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Диск отсутствует"
-
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
@@ -928,6 +1079,62 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "Список загрузок пуст. Добавьте новый урл для скачивания."
 
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr "Настройки загрузок"
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr "Загружать файлы без подтверждения"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr "Автоматически удалять загрузки при удалении файла"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr "Автоматически удалять завершенные загрузки из списка загрузок"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr "Автоматически перезапускать неудавшиеся загрузки"
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr "Использовать время сервера для даты создания файла"
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr "Папка по умолчанию для сохранения"
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr "Предлагать автоматически выбранную папку для сохранения"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr "Предлагать папку для сохранения по типу файла"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "Предлагать папку для сохранения по адресу ссылки"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr "Предлагать фиксированную папку для сохранения"
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr "Раздача завершена"
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Ratio"
+msgstr "Ратио"
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
+msgstr "готово"
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "Удалить тег"
@@ -956,6 +1163,11 @@ msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "Приоритет"
 
+msgctxt "DownloadsViewItem|"
+msgid "Upload paused"
+msgstr "Раздача остановлена"
+
+
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
 msgstr "Перезапустить"
@@ -967,6 +1179,10 @@ msgstr "Открыть"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show In Folder"
 msgstr "Показать в папке"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Report problem"
+msgstr "Отчет об ошибке"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -1013,8 +1229,20 @@ msgid "Add mirror"
 msgstr "Добавить зеркало"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Open download page"
+msgstr "Открыть страницу загрузки"
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "Копировать ссылку"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Check for update"
+msgstr "Проверить обновления"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Export selected downloads"
+msgstr "Экспорт выбранных загрузок"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
@@ -1035,6 +1263,10 @@ msgstr "Изменить ссылку"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
 msgstr "Конвертировать в mp3"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Convert to mp4"
+msgstr "Конвертировать в mp4"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
@@ -1065,16 +1297,8 @@ msgid "Download complete"
 msgstr "Загрузка завершена"
 
 msgctxt "DownloadsViewItemFileInfo|"
-msgid "Moving... %1%"
-msgstr "Перемещение... %1%"
-
-msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "Проверка файлов..."
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp3..."
-msgstr "Конвертация в mp3"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1096,7 +1320,6 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Неизвестен размер файла"
 
-
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files..."
 msgstr "Проверка файлов..."
@@ -1108,18 +1331,6 @@ msgstr "Слияние медиа потоков..."
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "В очереди"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Moving... %1%"
-msgstr "Перемещение... %1%"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp3..."
-msgstr "Конвертация в mp3"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Checking for viruses..."
-msgstr "Проверка на вирусы..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1136,6 +1347,124 @@ msgstr "Остановлено"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Завершено"
+
+msgctxt "EditTagDialog|"
+msgid "Edit tag"
+msgstr "Редактировать тег"
+
+msgctxt "EditTagDialog|"
+msgid "Extensions (e.g. \"avi mp3\")"
+msgstr "Расширения (например \"avi mp3\")"
+
+msgctxt "EditTagDialog|"
+msgid ""
+"Extensions that are automatically assigned with this tag for new downloads"
+msgstr ""
+"Расширения, которым автоматически присваивается этот тег для новых загрузок"
+
+msgctxt "EditTagDialog|"
+msgid "Default download folder"
+msgstr "Папка по умолчанию для сохранения"
+
+msgctxt "EditTagDialog|"
+msgid "Open"
+msgstr "Открыть"
+
+msgctxt "EditTagDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "EditTagDialog|"
+msgid "Macros"
+msgstr "Макросы"
+
+msgctxt "EditTagDialog|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Rename"
+msgstr "Переименовать"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Overwrite"
+msgstr "Перезаписать"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Always ask"
+msgstr "Всегда спрашивать"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export selected downloads"
+msgstr "Экспорт выбранных загрузок"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export all downloads"
+msgstr "Экспорт всех загрузок"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Save to"
+msgstr "Сохранить в"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Open"
+msgstr "Открыть"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "All files (%1)"
+msgstr "Все файлы (%1)"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export only completed downloads"
+msgstr "Экспортировать только завершенные загрузки"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export"
+msgstr "Экспорт"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "%1 downloads files (%2)"
+msgstr "Файлы загрузок %1 (%2)"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Default format"
+msgstr "Формат по умолчанию"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "List of URLs"
+msgstr "Список ссылок"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Text files (%1)"
+msgstr "Текстовые файлы (%1)"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV file"
+msgstr "CSV файлы"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV files (%1)"
+msgstr "CSV файлы (%1)"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Export"
+msgstr "Экспорт"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "ExportSettingsDialog|"
+msgid "%1 settings files (%2)"
+msgstr "Файлы настроек %1 (%2)"
+
+msgctxt "ExportSettingsDialog|"
+msgid "All files (%1)"
+msgstr "Все файлы (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1253,10 +1582,29 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "По убыванию"
 
-
 msgctxt "FileType|"
 msgid "Preferred File Type:"
 msgstr "Предпочтительный тип файла:"
+
+msgctxt "FilesExistsDialog|"
+msgid "Warning: file exists already"
+msgstr "Внимание: файл уже существует"
+
+msgctxt "FilesExistsDialog|"
+msgid "Remember my choice for all downloads"
+msgstr "Запомнить мой выбор для всех загрузок"
+
+msgctxt "FilesExistsDialog|"
+msgid "Rename (%1)"
+msgstr "Переименовать (%1)"
+
+msgctxt "FilesExistsDialog|"
+msgid "Overwrite"
+msgstr "Перезаписать"
+
+msgctxt "FilesExistsDialog|"
+msgid "Abort"
+msgstr "Прервать"
 
 msgctxt "FilesTree|"
 msgid "Name"
@@ -1312,7 +1660,7 @@ msgstr "Низкий приоритет"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
-msgstr "Не скачивать"
+msgstr "Пропустить"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Open"
@@ -1330,6 +1678,18 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
 msgstr "Конвертировать в mp3"
 
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert video to mp4"
+msgstr "Конвертировать в mp4"
+
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert to mp4"
+msgstr "Конвертировать в mp4"
+
+msgctxt "FixedDownloadFolderCombobox|"
+msgid "Macros"
+msgstr "Макросы"
+
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "Основные"
@@ -1339,26 +1699,8 @@ msgid "Choose theme"
 msgstr "Выберите тему"
 
 msgctxt "GeneralSettings|"
-msgid "Light"
-msgstr "Светлая"
-
-msgctxt "GeneralSettings|"
-msgid "Dark"
-msgstr "Тёмная"
-
-msgctxt "GeneralSettings|"
 msgid "Language"
 msgstr "Язык"
-
-msgctxt "GeneralSettings|"
-msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
-msgstr ""
-"Вашего языка нет в списке или перевод неполный? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Давайте "
-"это исправим!</a>"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1369,12 +1711,52 @@ msgid "Suggest folders based on file type"
 msgstr "Предлагать папку для сохранения по типу файла"
 
 msgctxt "GeneralSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Светлая тема будет использована, если системная тема неизвестна."
+
+msgctxt "GeneralSettings|"
+msgid "Your language is not listed or the translation isn't complete?"
+msgstr "Вашего языка нет в списке или перевод неполный?"
+
+msgctxt "GeneralSettings|"
+msgid "Let's fix it!"
+msgstr "Давайте это исправим!"
+
+msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr "Папка по умолчанию для сохранения"
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr "Предлагать автоматически выбранную папку для сохранения"
+
+msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
 msgstr "Предлагать папку для сохранения по адресу ссылки"
 
 msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr "Предлагать фиксированную папку для сохранения"
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr "Открыть"
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr "Макросы"
+
+msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
 msgstr "Компактный вид списка загрузок"
+
+msgctxt "GeneralSettings|"
+msgid "Enable standalone downloads windows"
+msgstr "Включить отдельные окна загрузок"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
@@ -1385,8 +1767,16 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Автоматически удалять завершенные загрузки из списка загрузок"
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr "Автоматически перезапускать неудавшиеся загрузки"
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "Использовать время сервера для даты создания файла"
+
+msgctxt "GeneralSettings|"
+msgid "Maximum urls count in batch download"
+msgstr "Максимальное количество ссылок в пакетной загрузке"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1401,17 +1791,12 @@ msgid "Install updates automatically"
 msgstr "Автоматически устанавливать обновления"
 
 msgctxt "GeneralSettings|"
-msgid "Dark theme"
-msgstr "Тёмная тема"
-
-msgctxt "GeneralSettings|"
-msgid "Start downloading without confirmation"
-msgstr "Загружать файлы без подтверждения"
-
-msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "Используется мобильный Интернет"
 
+msgctxt "GeneralTab|"
+msgid "State"
+msgstr "Состояние"
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1422,12 +1807,20 @@ msgid "Downloaded:"
 msgstr "Загружено:"
 
 msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr "Раздача завершена"
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr "ратио"
+
+msgctxt "GeneralTab|"
 msgid "Download speed:"
 msgstr "Скорость загрузки:"
 
 msgctxt "GeneralTab|"
 msgid "Upload speed:"
-msgstr "Скорость отдачи:"
+msgstr "Скорость раздачи:"
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
@@ -1460,6 +1853,62 @@ msgstr ""
 msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "Import"
+msgstr "Импорт"
+
+msgctxt "ImportDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "ImportDialog|"
+msgid "All files (%1)"
+msgstr "Все файлы (%1)"
+
+msgctxt "ImportDialog|"
+msgid "Text files (%1)"
+msgstr "Текстовые файлы (%1)"
+
+msgctxt "ImportDialog|"
+msgid "%1 downloads files (%2)"
+msgstr "Файлы загрузок %1 (%2)"
+
+msgctxt "ImportDialog|"
+msgid "%1 settings files (%2)"
+msgstr "Файлы настроек %1 (%2)"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Error: %1"
+msgstr "Ошибка: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr "Не удалось вставить ссылки из файла"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import the list of URLs from the file: %1"
+msgstr "Не удалось импортировать список ссылок из файла: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to export"
+msgstr "Экспорт не удался"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to export to the file: %1"
+msgstr "Не удалось экспортировать в файл: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to import"
+msgstr "Импорт не удался"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import from the file: %1"
+msgstr "Не удалось импортировать из файла: %1"
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -1494,6 +1943,10 @@ msgid "About"
 msgstr "О приложении"
 
 msgctxt "LeftDrawer|"
+msgid "Quit"
+msgstr "Выход"
+
+msgctxt "LeftDrawer|"
 msgid "Add new download"
 msgstr "Добавить новую загрузку"
 
@@ -1504,6 +1957,34 @@ msgstr "Добавить"
 msgctxt "ListEditor|"
 msgid "Hide"
 msgstr "Скрыть"
+
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr "%content_type% - тип контента (например \"Музыка\")"
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr "%server% - имя сервера (например \"%1\")"
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr "%path_on_server% - путь к загружаемому файлу на сервере"
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr "%year% - текущий год"
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr "%month% - текущий месяц (число от 1 до 12)"
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr "%day% - текущий день"
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
+msgstr "%date% - эквивалент %year%-%month%-%day%"
 
 msgctxt "MainFiltersBar|"
 msgid "All"
@@ -1517,9 +1998,37 @@ msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "Завершенные"
 
+msgctxt "MainFiltersBar|"
+msgid "OK to remove tag?"
+msgstr "Удалить тег?"
+
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
 msgstr "Вставить ссылки из буфера обмена"
+
+msgctxt "MainMenu|"
+msgid "Paste Urls from File"
+msgstr "Вставить ссылки из файла"
+
+msgctxt "MainMenu|"
+msgid "Export/Import"
+msgstr "Экспорт/Импорт"
+
+msgctxt "MainMenu|"
+msgid "Export all downloads"
+msgstr "Экспорт всех загрузок"
+
+msgctxt "MainMenu|"
+msgid "Import downloads"
+msgstr "Импорт загрузок"
+
+msgctxt "MainMenu|"
+msgid "Export settings"
+msgstr "Экспорт настроек"
+
+msgctxt "MainMenu|"
+msgid "Import settings"
+msgstr "Импорт настроек"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -1554,6 +2063,10 @@ msgid "Check for Updates..."
 msgstr "Проверка обновлений..."
 
 msgctxt "MainMenu|"
+msgid "Join the %1 mosaic..."
+msgstr "Присоединяйтесь к мозаике %1"
+
+msgctxt "MainMenu|"
 msgid "About"
 msgstr "О программе"
 
@@ -1579,8 +2092,6 @@ msgid_plural "%n downloads selected."
 msgstr[0] "%n загрузка выбрана."
 msgstr[1] "%n загрузки выбраны."
 msgstr[2] "%n загрузок выбрано."
-
-
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -1643,6 +2154,10 @@ msgid "CANCEL"
 msgstr "Отменить"
 
 msgctxt "MaxURatioComboBox|"
+msgid "Invalid value"
+msgstr "Недопустимое значение"
+
+msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "Должно быть числом больше 0"
 
@@ -1668,15 +2183,43 @@ msgstr "Добавлено:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
-msgstr "Не скачивать"
+msgstr "Пропустить"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "OK"
-msgstr "ОК"
+msgid "Skip all (%1)"
+msgstr "Пропустить все (%1)"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
 msgstr "Скачать"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Mobile data usage"
+msgstr "Использование мобильных данных"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Waiting for Wi-Fi to start download."
+msgstr "Ожидание Wi-Fi для начала загрузки."
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Would you like to enable usage of mobile data? *"
+msgstr "Разрешить использование мобильных данных? *"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Don't ask again"
+msgstr "Больше не спрашивать"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Yes"
+msgstr "Да"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "No"
+msgstr "Нет"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "* additional charges may apply"
+msgstr "* может взиматься дополнительная плата"
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
@@ -1705,6 +2248,118 @@ msgstr "Попробовать снова"
 msgctxt "MovingFailedDialog|"
 msgid "Cancel"
 msgstr "Отменить"
+
+msgctxt "MovingFolderDialog|"
+msgid "Move"
+msgstr "Переместить"
+
+msgctxt "MovingFolderDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr "Конвертировать в mp3 с регулируемым битрейтом"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Save to"
+msgstr "Сохранить в"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Open"
+msgstr "Открыть"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Bitrate (quality)"
+msgstr "Битрейт (качество)"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Constant bitrate of value"
+msgstr "Постоянный битрейт"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Variable bitrate (VBR)"
+msgstr "Переменный битрейт (VBR)"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr "Путь содержит недопустимые символы"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3"
+msgstr "Конвертировать в mp3"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr "Конвертировать в mp3 с регулируемым битрейтом"
+
+msgctxt "Mp3ConverterPage|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Save to"
+msgstr "Сохранить в"
+
+msgctxt "Mp3ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "Путь содержит недопустимые символы"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Bitrate (quality)"
+msgstr "Битрейт (качество)"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Constant bitrate of value"
+msgstr "Постоянный битрейт"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Variable bitrate (VBR)"
+msgstr "Переменный битрейт (VBR)"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Convert to mp4"
+msgstr "Конвертировать в mp4"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Save to"
+msgstr "Сохранить в"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Open"
+msgstr "Открыть"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr "Путь содержит недопустимые символы"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Convert to mp4"
+msgstr "Конвертировать в mp4"
+
+msgctxt "Mp4ConverterPage|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Save to"
+msgstr "Сохранить в"
 
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
@@ -1867,6 +2522,10 @@ msgid "CANCEL"
 msgstr "Отменить"
 
 msgctxt "NetworkSpeedLimitComboBox|"
+msgid "Invalid value"
+msgstr "Недопустимое значение"
+
+msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "Must be a number greater than 0."
 
@@ -1891,20 +2550,37 @@ msgid "Video"
 msgstr "Видео"
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "Low (240p)"
-msgstr "Низкое (240p)"
+msgid "Lowest"
+msgstr "Самое низкое"
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "Medium (480p)"
-msgstr "Среднее (480p)"
+msgid "Highest"
+msgstr "Самое высокое"
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "High (1080p)"
-msgstr "Высокое (1080p)"
+msgctxt "PrivacyDialog|"
+msgid "User agreement"
+msgstr "Пользовательское соглашение"
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "4K (2160p)"
+msgctxt "PrivacyDialog|"
+msgid ""
+"A bug report will be sent to the server and used to improve %1 performance. "
+"We do not collect your personal data and do not share data with third "
+"parties."
 msgstr ""
+"Отчет об ошибке будет отправлен на сервер и использован для улучшения работы "
+"%1. Мы не собираем ваши личные данные и не передаем данные третьим лицам."
+
+msgctxt "PrivacyDialog|"
+msgid "I agree (do not show it again)"
+msgstr "Я согласен (больше не показывать)"
+
+msgctxt "PrivacyDialog|"
+msgid "Send report"
+msgstr "Отправить отчет"
+
+msgctxt "PrivacyDialog|"
+msgid "Cancel"
+msgstr "Отменить"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -1950,7 +2626,9 @@ msgctxt "QObject|"
 msgid "Enter URL"
 msgstr "Введите URL"
 
-
+msgctxt "QObject|"
+msgid "Sorry this device is not supported by %1."
+msgstr "Извините, это устройство не поддерживается %1."
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
@@ -1981,6 +2659,26 @@ msgid "Quit"
 msgstr "Выход"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
@@ -1989,12 +2687,28 @@ msgid "%1 M"
 msgstr "%1 M"
 
 msgctxt "QObject|"
+msgid "%1 G"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Download complete"
 msgstr "Загрузка завершена"
 
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "Загрузки завершены"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr "Загрузка не удалась"
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr "Загрузки не удались"
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -2266,11 +2980,15 @@ msgstr "Превышено время подключения"
 
 msgctxt "QObject|"
 msgid "Unsupported"
-msgstr ""
+msgstr "Не поддерживается"
 
 msgctxt "QObject|"
 msgid "Invalid parameter"
-msgstr ""
+msgstr "Некорректный параметр"
+
+msgctxt "QObject|"
+msgid "Unsupported format"
+msgstr "Неподдерживаемый формат"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -2278,7 +2996,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Operation canceled"
-msgstr ""
+msgstr "Действие отменено"
 
 msgctxt "QObject|"
 msgid "Connection closed"
@@ -2434,11 +3152,11 @@ msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
-msgstr ""
+msgstr "Хотите стереть (это очистит ваш список загрузок и все данные %1)?"
 
 msgctxt "QObject|"
 msgid "Failed."
-msgstr ""
+msgstr "Сбой"
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
@@ -2446,7 +3164,71 @@ msgstr "Пропущен параметр %path%."
 
 msgctxt "QObject|"
 msgid "Update URL"
-msgstr ""
+msgstr "Обновить URL"
+
+msgctxt "QObject|"
+msgid "Documents"
+msgstr "Документы"
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr "Изображения"
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr "Видео"
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
+msgstr "Разное"
+
+msgctxt "QObject|"
+msgid "Upload paused"
+msgstr "Раздача остановлена"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr "Вы уверены, что хотите выйти?"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Remote resource changed"
+msgstr "Удаленный ресурс изменен"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Always re-download"
+msgstr "Всегда скачивать заново"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Re-download"
+msgstr "Скачать заново"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "ReportSentDialog|"
+msgid "Report problem"
+msgstr "Отчет об ошибке"
+
+msgctxt "ReportSentDialog|"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr "К сожалению, отчет не отправлен, произошла ошибка: %1"
+
+msgctxt "ReportSentDialog|"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr "Отчет отправлен. Спасибо за сотрудничество!"
+
+msgctxt "ReportSentDialog|"
+msgid "OK"
+msgstr "ОК"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -2605,6 +3387,10 @@ msgid "Descending"
 msgstr "По убыванию"
 
 msgctxt "SettingsPage|"
+msgid "Invalid settings"
+msgstr "Некорректные настройки"
+
+msgctxt "SettingsPage|"
 msgid ". Close anyway?"
 msgstr ". Всё равно закрыть?"
 
@@ -2641,6 +3427,10 @@ msgid "Settings"
 msgstr "Настройки"
 
 msgctxt "SettingsPage|"
+msgid "Downloads settings"
+msgstr "Настройки загрузок"
+
+msgctxt "SettingsPage|"
 msgid "Network settings"
 msgstr "Сетевые настройки"
 
@@ -2649,19 +3439,12 @@ msgid "Traffic limits"
 msgstr "Ограничение скорости"
 
 msgctxt "SettingsPage|"
+msgid "Sounds settings"
+msgstr "Настройки звука"
+
+msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Расширенные настройки"
-
-
-
-
-
-
-
-
-
-
-
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -2716,6 +3499,30 @@ msgctxt "SortTools|"
 msgid "By size"
 msgstr "По размеру"
 
+msgctxt "SoundsSettings|"
+msgid "Sounds settings"
+msgstr "Настройки звука"
+
+msgctxt "SoundsSettings|"
+msgid "Use sounds"
+msgstr "Включить звуки"
+
+msgctxt "SoundsSettings|"
+msgid "Downloads added"
+msgstr "Загрузки добавлены"
+
+msgctxt "SoundsSettings|"
+msgid "Downloads completed"
+msgstr "Загрузки завершены"
+
+msgctxt "SoundsSettings|"
+msgid "Downloads failed"
+msgstr "Загрузки не удались"
+
+msgctxt "SoundsSettings|"
+msgid "No active downloads"
+msgstr "Нет активных загрузок"
+
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
 msgstr "Предупреждение: впереди потенциальная угроза безопасности"
@@ -2765,18 +3572,6 @@ msgid "Queued"
 msgstr "В очереди"
 
 msgctxt "StatusItem|"
-msgid "Moving... %1%"
-msgstr "Перемещение... %1%"
-
-msgctxt "StatusItem|"
-msgid "Converting to mp3..."
-msgstr "Конвертация в mp3"
-
-msgctxt "StatusItem|"
-msgid "Checking for viruses..."
-msgstr "Проверка на вирусы..."
-
-msgctxt "StatusItem|"
 msgid "Unknown file size"
 msgstr "Неизвестен размер файла"
 
@@ -2816,9 +3611,13 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr "Эта закачка(и) не может быть возобновлена(ы) после остановки."
 
-msgctxt "TagColorDialog|"
-msgid "Remove tag"
-msgstr "Удалить тег"
+msgctxt "Subtitles|"
+msgid "Download subtitles"
+msgstr "Скачать субтитры"
+
+msgctxt "Subtitles|"
+msgid "Edit list"
+msgstr "Редактировать список"
 
 msgctxt "TagMenu|"
 msgid "Edit"
@@ -2831,6 +3630,18 @@ msgstr "Удалить"
 msgctxt "TagPalette|"
 msgid "Customize color"
 msgstr "Выбрать цвет"
+
+msgctxt "ThemeComboBox|"
+msgid "System"
+msgstr "Системная"
+
+msgctxt "ThemeComboBox|"
+msgid "Light"
+msgstr "Светлая"
+
+msgctxt "ThemeComboBox|"
+msgid "Dark"
+msgstr "Тёмная"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -2854,7 +3665,7 @@ msgstr "Скорость загрузки"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Upload speed"
-msgstr "Скорость отдачи"
+msgstr "Скорость раздачи"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections"
@@ -2890,7 +3701,7 @@ msgstr "без ограничений"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
-msgstr "Загрузка: %1, Отдача: %2"
+msgstr "Загрузка: %1, Раздача: %2"
 
 msgctxt "TumComboBox|"
 msgid "High"
@@ -2963,6 +3774,10 @@ msgstr "Сохранить в"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "Имя файла"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "No write access to the selected directory"
+msgstr "Нет доступа на запись в выбранную директорию"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
@@ -3089,17 +3904,9 @@ msgid "Refresh"
 msgstr "Обновить"
 
 msgctxt "main|"
-msgid "Move"
-msgstr "Переместить"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr "К сожалению, отчет не отправлен, произошла ошибка: %1"
 
 msgctxt "main|"
-msgid "Cancel"
-msgstr "Отменить"
-
-
-
-
-
-
-
-
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr "Отчет отправлен. Спасибо за сотрудничество!"

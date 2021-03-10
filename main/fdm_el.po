@@ -10,11 +10,11 @@ msgstr ""
 
 msgctxt "AboutDialog|"
 msgid "About"
-msgstr ""
+msgstr "Σχετικά"
 
 msgctxt "AboutDialog|"
-msgid "<a href='%1'>%2</a> version %3"
-msgstr ""
+msgid "version %1"
+msgstr "έκδοση %1"
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -26,7 +26,7 @@ msgstr "Έκδοση %1 (%2)"
 
 msgctxt "AddDateToFileName|"
 msgid "Add dates to files names"
-msgstr ""
+msgstr "Προσθήκη ημερομηνιών σε ονόματα αρχείων"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
@@ -85,7 +85,15 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Customize sounds"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
@@ -117,6 +125,31 @@ msgid "Backup the list of downloads every"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
+msgid "File exists reaction"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Rename"
+msgstr "Μετονομασία"
+
+msgctxt "AdvancedSettings|"
+msgid "Overwrite"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Use sounds"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid ""
+"Do not allow downloads to perform post finished tasks when running on battery"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Do not allow downloads if battery level drops below"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Delete button action"
 msgstr "Κουμπί διαγραφή δράση"
 
@@ -134,6 +167,14 @@ msgstr "Πάντα να ρωτάτε"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
+msgstr "Για προχωρημένους"
+
+msgctxt "AdvancedSettings|"
+msgid "Choose theme"
+msgstr "Επιλογή θέματος"
+
+msgctxt "AdvancedSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
 msgstr ""
 
 msgctxt "AntivirusComboBox|"
@@ -146,18 +187,15 @@ msgstr ""
 
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
-msgstr ""
+msgstr "Επιλογή antivirus:"
 
 msgctxt "AntivirusSettings|"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
+msgid "Is your antivirus not listed?"
 msgstr ""
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
-msgstr ""
+msgstr "Διαδρομή:"
 
 msgctxt "AntivirusSettings|"
 msgid "Please enter antivirus path"
@@ -165,7 +203,7 @@ msgstr ""
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments:"
-msgstr ""
+msgstr "Παράμετροι:"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments must contain %path% variable"
@@ -177,7 +215,7 @@ msgstr ""
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
-msgstr ""
+msgstr "Έλεγχος για ιούς"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
@@ -185,11 +223,35 @@ msgstr ""
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Go to settings"
-msgstr ""
+msgstr "Μετάβασεις σε ρυθμίσεις"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Άκυρο"
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr ""
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr ""
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -201,11 +263,11 @@ msgstr ""
 
 msgctxt "AuthenticationDialog|"
 msgid "Username:"
-msgstr ""
+msgstr "Όνομα χρήστη:"
 
 msgctxt "AuthenticationDialog|"
 msgid "Password:"
-msgstr ""
+msgstr "Κωδικός:"
 
 msgctxt "AuthenticationDialog|"
 msgid "remember"
@@ -245,71 +307,71 @@ msgstr ""
 
 msgctxt "BackupComboBox|"
 msgid "5 minutes"
-msgstr ""
+msgstr "5 λεπτά"
 
 msgctxt "BackupComboBox|"
 msgid "15 minutes"
-msgstr ""
+msgstr "15 λεπτά"
 
 msgctxt "BackupComboBox|"
 msgid "1 hour"
-msgstr ""
+msgstr "1 ώρα"
 
 msgctxt "BackupComboBox|"
 msgid "3 hours"
-msgstr ""
+msgstr "3 ώρες"
 
 msgctxt "BackupComboBox|"
 msgid "1 day"
-msgstr ""
+msgstr "1 μέρα"
 
 msgctxt "BackupSlider|"
 msgid "5 minutes"
-msgstr ""
+msgstr "5 λεπτά"
 
 msgctxt "BackupSlider|"
 msgid "15 minutes"
-msgstr ""
+msgstr "15 λεπτά"
 
 msgctxt "BackupSlider|"
 msgid "1 hour"
-msgstr ""
+msgstr "1 ώρα"
 
 msgctxt "BackupSlider|"
 msgid "3 hours"
-msgstr ""
+msgstr "3 ώρες"
 
 msgctxt "BackupSlider|"
 msgid "1 day"
-msgstr ""
+msgstr "1 μέρα"
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
-msgstr ""
+msgstr "Αποκοπή"
 
 msgctxt "BaseTextArea|"
 msgid "Copy"
-msgstr ""
+msgstr "Αντιγραφή"
 
 msgctxt "BaseTextArea|"
 msgid "Paste"
-msgstr ""
+msgstr "Επικόλληση"
 
 msgctxt "BaseTextField|"
 msgid "Cut"
-msgstr ""
+msgstr "Αποκοπή"
 
 msgctxt "BaseTextField|"
 msgid "Copy"
-msgstr ""
+msgstr "Αντιγραφή"
 
 msgctxt "BaseTextField|"
 msgid "Paste"
-msgstr ""
+msgstr "Επικόλληση"
 
 msgctxt "BatchVideoQuality|"
 msgid "Preferred Video Quality:"
-msgstr ""
+msgstr "Προτιμώμενη Ποιότητα Βίντεο:"
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
@@ -317,31 +379,31 @@ msgstr ""
 
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
-msgstr ""
+msgstr "Από %1 %2 σε %3 %4"
 
 msgctxt "BitrateComboBox|"
 msgid "CD quality"
-msgstr ""
+msgstr "Ποιότητα CD"
 
 msgctxt "BitrateComboBox|"
 msgid "High quality"
-msgstr ""
+msgstr "Υψηλή ποιότητα"
 
 msgctxt "BitrateComboBox|"
 msgid "Medium quality"
-msgstr ""
+msgstr "Μεσαία ποιότητα"
 
 msgctxt "BitrateComboBox|"
 msgid "Radio quality"
-msgstr ""
+msgstr "Ποιότητα ραδιοφώνου"
 
 msgctxt "BitrateComboBox|"
 msgid "Low quality"
-msgstr ""
+msgstr "Χαμηλή ποιότητα"
 
 msgctxt "BitrateComboBox|"
 msgid "Speech"
-msgstr ""
+msgstr "Ομιλία"
 
 msgctxt "BitrateComboBox|"
 msgid "Lowest quality, smallest file size"
@@ -361,12 +423,11 @@ msgstr "Αρχεία"
 
 msgctxt "BottomPanelTools|"
 msgid "Connections"
-msgstr ""
-
+msgstr "Συνδέσεις"
 
 msgctxt "Browser|"
 msgid "Enter URL"
-msgstr ""
+msgstr "Εισαγωγή URL"
 
 msgctxt "Browser|"
 msgid "Bookmark removed"
@@ -390,11 +451,11 @@ msgstr ""
 
 msgctxt "Browser|"
 msgid "YES"
-msgstr ""
+msgstr "ΝΑΙ"
 
 msgctxt "Browser|"
 msgid "NO"
-msgstr ""
+msgstr "ΟΧΙ"
 
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
@@ -492,7 +553,7 @@ msgstr ""
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
-msgstr ""
+msgstr "Συνέχεια"
 
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
@@ -501,6 +562,10 @@ msgstr ""
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
 msgstr "Προσθήκη κατεβάσετε"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Report problem"
+msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
@@ -527,6 +592,10 @@ msgid "OK"
 msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
+msgid "Report problem"
+msgstr ""
+
+msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
 msgstr ""
 
@@ -548,6 +617,10 @@ msgstr ""
 
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "No write access to the selected directory"
 msgstr ""
 
 msgctxt "ButtonsBlock|"
@@ -614,7 +687,6 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Έναρξη λήψης"
 
-
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr ""
@@ -631,80 +703,16 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr ""
 
-msgctxt "ConvertationDialog|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "Save to"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "Open"
-msgstr "Ανοιχτό"
-
-msgctxt "ConvertationDialog|"
-msgid "Cancel"
-msgstr "Άκυρο"
-
-msgctxt "ConvertationDialog|"
-msgid "Bitrate (quality)"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "Constant bitrate of value"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "Variable bitrate (VBR)"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "The path contains invalid characters"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "OK"
-msgstr "OK"
-
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "OK"
-msgstr "OK"
-
-msgctxt "ConvertationPage|"
-msgid "Save to"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "The path contains invalid characters"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "Bitrate (quality)"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "Constant bitrate of value"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "Variable bitrate (VBR)"
-msgstr ""
-
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "Αντιγραφή σύνδεσης"
 
 msgctxt "CopyMenu|"
 msgid "Copy"
+msgstr "Αντιγραφή"
+
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
 msgstr ""
 
 msgctxt "CrashReporter|"
@@ -786,7 +794,55 @@ msgstr ""
 
 msgctxt "CreatePortableDialog|"
 msgid "Close"
-msgstr "Κλείστε"
+msgstr "Κλείσιμο"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Customize sounds"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Event"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Sound file"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No sound"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads added"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads completed"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads failed"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No active downloads"
+msgstr "Καμία ενεργές λήψεις"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Set sound"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Remove"
+msgstr "Κατάργηση"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Test"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Close"
+msgstr "Κλείσιμο"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
@@ -836,22 +892,129 @@ msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
 msgstr "Άκυρο"
 
-msgctxt "DiskSpace|"
-msgid "Size: %1 (Disk space: %2)"
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Download deleting failed"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Try again"
+msgstr "Προσπαθήστε ξανά"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore all"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Abort"
 msgstr ""
 
 msgctxt "DiskSpace|"
+msgid "Size: %1 (Disk space: %2)"
+msgstr "Μέγεθος: %1 (Χωρητικότητα δίσκου: %2)"
+
+msgctxt "DiskSpace|"
 msgid "Size: %1"
+msgstr "Μέγεθος: %1"
+
+msgctxt "DockUploadSpeedSetting|"
+msgid "Show total upload speed in the Dock icon"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Saved in"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "File size"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Resume support"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Yes"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "No"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Downloaded"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Speed"
+msgstr "Ταχύτητα"
+
+msgctxt "DownloadWindow|"
+msgid "Time remaining"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Open download when it is completed"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Close this window when the download is completed or stopped"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Hide"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Show In Folder"
+msgstr "Εμφάνιση Στο Φάκελο"
+
+msgctxt "DownloadWindow|"
+msgid "Open"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Stop"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Start"
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
+msgid "Moving..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
+msgid "Checking for viruses..."
+msgstr "Έλεγχος για ιούς..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp3..."
+msgstr "Μετατροπή σε mp3..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp4..."
+msgstr "Μετατροπή σε mp4..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash..."
 msgstr ""
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
-msgstr "Αρχείο λείπει"
+msgstr "Το αρχείο λείπει"
 
 msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr ""
-
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
@@ -897,6 +1060,62 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr ""
 
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr "Ξεκινήσει η λήψη χωρίς επιβεβαίωση"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "Προτείνω φακέλους με βάση κατεβάσετε URL"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Ratio"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
+msgstr ""
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr ""
@@ -907,7 +1126,7 @@ msgstr "Όνομα"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Status"
-msgstr ""
+msgstr "Κατάσταση"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Speed"
@@ -919,11 +1138,16 @@ msgstr "Μέγεθος"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Added"
-msgstr "Πρόσθεσαν"
+msgstr "Προστέθηκε"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "Προτεραιότητα"
+
+msgctxt "DownloadsViewItem|"
+msgid "Upload paused"
+msgstr ""
+
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -931,19 +1155,23 @@ msgstr "Επανεκκίνηση"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Open"
-msgstr "Ανοιχτό"
+msgstr "Άνοιγμα"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show In Folder"
-msgstr "Παράσταση στο φάκελο"
+msgstr "Εμφάνιση Στο Φάκελο"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Report problem"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
-msgstr ""
+msgstr "Εμφάνιση Λήψεων"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Choose Files..."
-msgstr ""
+msgstr "Επιλογή Αρχείων..."
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set Priority"
@@ -963,7 +1191,7 @@ msgstr "Χαμηλή"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
-msgstr ""
+msgstr "Μετακίνηση σε..."
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Delete file"
@@ -982,8 +1210,20 @@ msgid "Add mirror"
 msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Open download page"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "Αντιγραφή σύνδεσης"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Check for update"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Export selected downloads"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
@@ -1003,7 +1243,11 @@ msgstr "Αλλαγή URL"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
-msgstr ""
+msgstr "Μετατροπή σε mp3"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Convert to mp4"
+msgstr "Μετατροπή σε mp4"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
@@ -1019,7 +1263,7 @@ msgstr "Παράσταση στο φάκελο"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show info"
-msgstr "Show info"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Files"
@@ -1031,19 +1275,11 @@ msgstr "Διαδοχική λήψη"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
-msgstr ""
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Moving... %1%"
-msgstr ""
+msgstr "Η λήψη ολοκληρώθηκε"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
-msgstr ""
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp3..."
-msgstr ""
+msgstr "Έλεγχος αρχείων..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1055,7 +1291,7 @@ msgstr ""
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Queued"
-msgstr ""
+msgstr "Σε ουρά"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Paused"
@@ -1063,12 +1299,11 @@ msgstr "Σε παύση"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
-msgstr "Άγνωστο το μέγεθος του αρχείου"
-
+msgstr "Άγνωστο μέγεθος αρχείου"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files..."
-msgstr ""
+msgstr "Έλεγχος αρχείων..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Merging media streams..."
@@ -1076,19 +1311,7 @@ msgstr ""
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
-msgstr ""
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Moving... %1%"
-msgstr ""
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp3..."
-msgstr ""
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Checking for viruses..."
-msgstr ""
+msgstr "Σε ουρά"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1096,7 +1319,7 @@ msgstr ""
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Unknown file size"
-msgstr "Άγνωστο το μέγεθος του αρχείου"
+msgstr "Άγνωστο μέγεθος αρχείου"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Paused"
@@ -1104,7 +1327,124 @@ msgstr "Σε παύση"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
-msgstr "Πλήρης"
+msgstr "Ολοκληρώθηκε"
+
+msgctxt "EditTagDialog|"
+msgid "Edit tag"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid "Extensions (e.g. \"avi mp3\")"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid ""
+"Extensions that are automatically assigned with this tag for new downloads"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid "Open"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "EditTagDialog|"
+msgid "Macros"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Rename"
+msgstr "Μετονομασία"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Overwrite"
+msgstr ""
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Always ask"
+msgstr "Πάντα να ρωτάτε"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export selected downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export all downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Save to"
+msgstr "Αποθήκευση σε"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Open"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "All files (%1)"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export only completed downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "%1 downloads files (%2)"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Default format"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "List of URLs"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Text files (%1)"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV file"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV files (%1)"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "Export"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "ExportSettingsDialog|"
+msgid "%1 settings files (%2)"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "All files (%1)"
+msgstr ""
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1128,15 +1468,15 @@ msgstr "Επαλήθευση OK"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification failed"
-msgstr "Απέτυχε η επαλήθευση"
+msgstr "Η επαλήθευση απέτυχε"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Close"
-msgstr "Κλείστε"
+msgstr "Κλείσιμο"
 
 msgctxt "FileIntegrityPage|"
 msgid "Check file integrity"
-msgstr "Ελέγξτε την ακεραιότητα του αρχείου"
+msgstr "Έλεγχος ακεραιότητας αρχείου"
 
 msgctxt "FileIntegrityPage|"
 msgid "MD5"
@@ -1188,7 +1528,7 @@ msgstr "Επιλέξτε φάκελο"
 
 msgctxt "FilePickerPage|"
 msgid "Select file"
-msgstr ""
+msgstr "Επιλέξτε αρχείο"
 
 msgctxt "FilePickerPage|"
 msgid "OK"
@@ -1196,23 +1536,23 @@ msgstr "OK"
 
 msgctxt "FilePickerPage|"
 msgid "Empty folder"
-msgstr ""
+msgstr "Άδειος φάκελος"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By date"
-msgstr ""
+msgstr "Κατά ημερομηνία"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By name"
-msgstr ""
+msgstr "Κατ' όνομα"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By size"
-msgstr ""
+msgstr "Κατά μέγεθος"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Sort"
-msgstr ""
+msgstr "Ταξινόμηση"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Ascending"
@@ -1224,6 +1564,26 @@ msgstr ""
 
 msgctxt "FileType|"
 msgid "Preferred File Type:"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Warning: file exists already"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Remember my choice for all downloads"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Rename (%1)"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Overwrite"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Abort"
 msgstr ""
 
 msgctxt "FilesTree|"
@@ -1260,15 +1620,15 @@ msgstr "Αρχεία"
 
 msgctxt "FilesTree|"
 msgid "Select all"
-msgstr "Επιλέξτε Όλα"
+msgstr "Επιλογή όλων"
 
 msgctxt "FilesTree|"
 msgid "Select none"
-msgstr "Επιλέξτε none"
+msgstr "Αποεπιλογή όλων"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High Priority"
-msgstr "Υψηλής προτεραιότητας"
+msgstr "Υψηλή προτεραιότητας"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Normal Priority"
@@ -1276,15 +1636,15 @@ msgstr "Κανονική προτεραιότητα"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Low Priority"
-msgstr "Χαμηλής προτεραιότητας"
+msgstr "Χαμηλή προτεραιότητας"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
-msgstr "Skip"
+msgstr "Παράβλεψη"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Open"
-msgstr "Ανοιχτό"
+msgstr "Άνοιγμα"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Show in Folder"
@@ -1296,6 +1656,18 @@ msgstr "Ακεραιότητα του αρχείου"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
+msgstr "Μετατροπή βίντεο σε mp3"
+
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert video to mp4"
+msgstr "Μετατροπή βίντεο σε mp4"
+
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert to mp4"
+msgstr "Μετατροπή σε mp4"
+
+msgctxt "FixedDownloadFolderCombobox|"
+msgid "Macros"
 msgstr ""
 
 msgctxt "GeneralSettings|"
@@ -1304,26 +1676,11 @@ msgstr "Γενικά"
 
 msgctxt "GeneralSettings|"
 msgid "Choose theme"
-msgstr ""
-
-msgctxt "GeneralSettings|"
-msgid "Light"
-msgstr ""
-
-msgctxt "GeneralSettings|"
-msgid "Dark"
-msgstr ""
+msgstr "Επιλογή θέματος"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
-msgstr ""
-
-msgctxt "GeneralSettings|"
-msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
-msgstr ""
+msgstr "Γλώσσα"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1334,11 +1691,51 @@ msgid "Suggest folders based on file type"
 msgstr ""
 
 msgctxt "GeneralSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Your language is not listed or the translation isn't complete?"
+msgstr "Η γλώσσα σας δεν αναφέρεται ή η μετάφραση δεν είναι πλήρης;"
+
+msgctxt "GeneralSettings|"
+msgid "Let's fix it!"
+msgstr "Ας το διορθώσουμε!"
+
+msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
 msgstr "Προτείνω φακέλους με βάση κατεβάσετε URL"
 
 msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Enable standalone downloads windows"
 msgstr ""
 
 msgctxt "GeneralSettings|"
@@ -1350,33 +1747,36 @@ msgid "Automatically remove completed downloads from download list"
 msgstr ""
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr ""
 
 msgctxt "GeneralSettings|"
+msgid "Maximum urls count in batch download"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Update"
-msgstr "Ενημερωμένη έκδοση"
+msgstr "Ενημέρωση"
 
 msgctxt "GeneralSettings|"
 msgid "Check for updates automatically"
-msgstr "Έλεγχος για ενημερώσεις αυτόματα"
+msgstr "Αυτόματος έλεγχος ενημερώσεων"
 
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Αυτόματη εγκατάσταση ενημερώσεων"
 
 msgctxt "GeneralSettings|"
-msgid "Dark theme"
-msgstr ""
-
-msgctxt "GeneralSettings|"
-msgid "Start downloading without confirmation"
-msgstr "Ξεκινήσει η λήψη χωρίς επιβεβαίωση"
-
-msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr ""
 
+msgctxt "GeneralTab|"
+msgid "State"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1385,6 +1785,14 @@ msgstr "Συνολικό μέγεθος:"
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "Κατέβηκε:"
+
+msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -1426,6 +1834,62 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr ""
 
+msgctxt "ImportDialog|"
+msgid "Import"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "ImportDialog|"
+msgid "All files (%1)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "Text files (%1)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "%1 downloads files (%2)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "%1 settings files (%2)"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Error: %1"
+msgstr "Σφάλμα: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import the list of URLs from the file: %1"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to export"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to export to the file: %1"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to import"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import from the file: %1"
+msgstr ""
+
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
 msgstr "Ορισμός ως Προεπιλογή"
@@ -1440,7 +1904,7 @@ msgstr ""
 
 msgctxt "LanguageDialog|"
 msgid "Language"
-msgstr ""
+msgstr "Γλώσσα"
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
@@ -1456,7 +1920,11 @@ msgstr "Επικοινωνήστε Με Την Υποστήριξη"
 
 msgctxt "LeftDrawer|"
 msgid "About"
-msgstr ""
+msgstr "Σχετικά"
+
+msgctxt "LeftDrawer|"
+msgid "Quit"
+msgstr "Έξοδος"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -1468,6 +1936,34 @@ msgstr "Προσθέστε"
 
 msgctxt "ListEditor|"
 msgid "Hide"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
 msgstr ""
 
 msgctxt "MainFiltersBar|"
@@ -1482,8 +1978,36 @@ msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "Ολοκληρώθηκε"
 
+msgctxt "MainFiltersBar|"
+msgid "OK to remove tag?"
+msgstr ""
+
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Paste Urls from File"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export/Import"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export all downloads"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Import downloads"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export settings"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Import settings"
 msgstr ""
 
 msgctxt "MainMenu|"
@@ -1504,7 +2028,7 @@ msgstr "Ύπνος"
 
 msgctxt "MainMenu|"
 msgid "Hibernate"
-msgstr "Χειμερία νάρκη"
+msgstr "Λειτουργεία αδράνειας"
 
 msgctxt "MainMenu|"
 msgid "Shutdown"
@@ -1519,12 +2043,16 @@ msgid "Check for Updates..."
 msgstr "Έλεγχος για Ενημερώσεις..."
 
 msgctxt "MainMenu|"
-msgid "About"
+msgid "Join the %1 mosaic..."
 msgstr ""
 
 msgctxt "MainMenu|"
+msgid "About"
+msgstr "Σχετικά"
+
+msgctxt "MainMenu|"
 msgid "Quit"
-msgstr ""
+msgstr "Έξοδος"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
@@ -1536,13 +2064,13 @@ msgstr "Σαλιγκάρι λειτουργία"
 
 msgctxt "MainStatusBar|"
 msgid "No Internet connection"
-msgstr ""
+msgstr "Δεν υπάρχει σύνδεση στο διαδίκτυο"
 
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%n λήψη επιλέχθηκε."
+msgstr[1] "%n λήψεις επιλέχθηκαν."
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -1550,15 +2078,15 @@ msgstr "Συνολικό μέγεθος:"
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
-msgstr ""
+msgstr "Προσθήκη νέας λήψης..."
 
 msgctxt "MainToolbar|"
 msgid "Start all"
-msgstr "Έναρξη όλα τα"
+msgstr "Έναρξη όλων"
 
 msgctxt "MainToolbar|"
 msgid "Start selected"
-msgstr "Ξεκινήστε επιλεγμένων"
+msgstr "Έναρξη επιλεγμένων"
 
 msgctxt "MainToolbar|"
 msgid "Pause all"
@@ -1566,7 +2094,7 @@ msgstr "Παύση όλων"
 
 msgctxt "MainToolbar|"
 msgid "Pause selected"
-msgstr "Παύση που επιλέξατε"
+msgstr "Παύση επιλεγμένων"
 
 msgctxt "MainToolbar|"
 msgid "Delete selected"
@@ -1574,7 +2102,7 @@ msgstr "Διαγραφή επιλεγμένων"
 
 msgctxt "MainToolbar|"
 msgid "Move to..."
-msgstr ""
+msgstr "Μετακίνηση σε..."
 
 msgctxt "MainToolbar|"
 msgid "Main menu"
@@ -1582,7 +2110,7 @@ msgstr "Κύριο μενού"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
-msgstr "απεριόριστη"
+msgstr "Απεριόριστη"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Custom..."
@@ -1602,7 +2130,11 @@ msgstr "OK"
 
 msgctxt "MaxURatioComboBox|"
 msgid "CANCEL"
-msgstr "Άκυρο"
+msgstr "ΑΚΥΡΟ"
+
+msgctxt "MaxURatioComboBox|"
+msgid "Invalid value"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
@@ -1618,7 +2150,7 @@ msgstr ""
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Path:"
-msgstr ""
+msgstr "Διαδρομή:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Size:"
@@ -1630,19 +2162,47 @@ msgstr ""
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
-msgstr "Skip"
+msgstr "Παράβλεψη"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "OK"
-msgstr "OK"
+msgid "Skip all (%1)"
+msgstr ""
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
 msgstr "Λήψη"
 
+msgctxt "MobileDataUsageDialog|"
+msgid "Mobile data usage"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Waiting for Wi-Fi to start download."
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Would you like to enable usage of mobile data? *"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Don't ask again"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Yes"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "No"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "* additional charges may apply"
+msgstr ""
+
 msgctxt "ModeButton|"
 msgid "No Internet connection"
-msgstr ""
+msgstr "Δεν υπάρχει σύνδεση στο διαδίκτυο"
 
 msgctxt "ModeButton|"
 msgid "Mobile data use disabled"
@@ -1654,7 +2214,7 @@ msgstr ""
 
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
-msgstr ""
+msgstr "Σφάλμα: %1"
 
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
@@ -1662,11 +2222,123 @@ msgstr ""
 
 msgctxt "MovingFailedDialog|"
 msgid "Try again"
-msgstr ""
+msgstr "Προσπαθήστε ξανά"
 
 msgctxt "MovingFailedDialog|"
 msgid "Cancel"
 msgstr "Άκυρο"
+
+msgctxt "MovingFolderDialog|"
+msgid "Move"
+msgstr "Μετακίνηση"
+
+msgctxt "MovingFolderDialog|"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr ""
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Save to"
+msgstr "Αποθήκευση σε"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Open"
+msgstr ""
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Bitrate (quality)"
+msgstr ""
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Constant bitrate of value"
+msgstr ""
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Variable bitrate (VBR)"
+msgstr ""
+
+msgctxt "Mp3ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr ""
+
+msgctxt "Mp3ConverterDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3"
+msgstr "Μετατροπή σε mp3"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr ""
+
+msgctxt "Mp3ConverterPage|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Save to"
+msgstr "Αποθήκευση σε"
+
+msgctxt "Mp3ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr ""
+
+msgctxt "Mp3ConverterPage|"
+msgid "Bitrate (quality)"
+msgstr ""
+
+msgctxt "Mp3ConverterPage|"
+msgid "Constant bitrate of value"
+msgstr ""
+
+msgctxt "Mp3ConverterPage|"
+msgid "Variable bitrate (VBR)"
+msgstr ""
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Convert to mp4"
+msgstr "Μετατροπή σε mp4"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Save to"
+msgstr "Αποθήκευση σε"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Open"
+msgstr ""
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr ""
+
+msgctxt "Mp4ConverterDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Convert to mp4"
+msgstr "Μετατροπή σε mp4"
+
+msgctxt "Mp4ConverterPage|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Save to"
+msgstr "Αποθήκευση σε"
 
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
@@ -1678,11 +2350,11 @@ msgstr "Προτιμήσεις..."
 
 msgctxt "NativeMenuBar|"
 msgid "Quit"
-msgstr ""
+msgstr "Έξοδος"
 
 msgctxt "NativeMenuBar|"
 msgid "&File"
-msgstr ""
+msgstr "Αρχείο"
 
 msgctxt "NativeMenuBar|"
 msgid "Add &new download"
@@ -1694,11 +2366,11 @@ msgstr ""
 
 msgctxt "NativeMenuBar|"
 msgid "&Copy"
-msgstr ""
+msgstr "Αντιγραφή"
 
 msgctxt "NativeMenuBar|"
 msgid "&Paste"
-msgstr ""
+msgstr "Επικόλληση"
 
 msgctxt "NativeMenuBar|"
 msgid "Downloads"
@@ -1706,19 +2378,19 @@ msgstr "Λήψεις"
 
 msgctxt "NativeMenuBar|"
 msgid "Start selected"
-msgstr "Ξεκινήστε επιλεγμένων"
+msgstr "Εκκίνηση επιλεγμένων"
 
 msgctxt "NativeMenuBar|"
 msgid "Pause selected"
-msgstr "Παύση που επιλέξατε"
+msgstr "Παύση επιλεγμένων"
 
 msgctxt "NativeMenuBar|"
 msgid "Restart selected"
-msgstr "Επανεκκίνηση επιλεγμένο"
+msgstr "Επανεκκίνηση επιλεγμένων"
 
 msgctxt "NativeMenuBar|"
 msgid "Remove from List"
-msgstr "Κατάργηση από τη λίστα"
+msgstr "Κατάργηση από τη Λίστα"
 
 msgctxt "NativeMenuBar|"
 msgid "Help"
@@ -1734,7 +2406,7 @@ msgstr "Δίκτυο"
 
 msgctxt "NetworkSettings|"
 msgid "Proxy"
-msgstr "Μεσολάβησης"
+msgstr ""
 
 msgctxt "NetworkSettings|"
 msgid "System proxy"
@@ -1802,7 +2474,7 @@ msgstr ""
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Unlimited"
-msgstr "απεριόριστη"
+msgstr "Απεριόριστη"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom..."
@@ -1810,7 +2482,7 @@ msgstr ""
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "KB/s"
-msgstr ""
+msgstr "KB/δ"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Please enter numbers only"
@@ -1826,7 +2498,11 @@ msgstr "OK"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "CANCEL"
-msgstr "Άκυρο"
+msgstr "ΑΚΥΡΟ"
+
+msgctxt "NetworkSpeedLimitComboBox|"
+msgid "Invalid value"
+msgstr ""
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
@@ -1834,7 +2510,7 @@ msgstr ""
 
 msgctxt "Page|"
 msgid "Info"
-msgstr ""
+msgstr "Πληροφορίες"
 
 msgctxt "Page|"
 msgid "Files"
@@ -1842,31 +2518,46 @@ msgstr "Αρχεία"
 
 msgctxt "Page|"
 msgid "Connections"
-msgstr ""
+msgstr "Συνδέσεις"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
-msgstr ""
+msgstr "Ήχος"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Video"
+msgstr "Βίντεο"
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "Lowest"
 msgstr ""
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "Low (240p)"
+msgid "Highest"
 msgstr ""
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "Medium (480p)"
+msgctxt "PrivacyDialog|"
+msgid "User agreement"
 msgstr ""
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "High (1080p)"
+msgctxt "PrivacyDialog|"
+msgid ""
+"A bug report will be sent to the server and used to improve %1 performance. "
+"We do not collect your personal data and do not share data with third "
+"parties."
 msgstr ""
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "4K (2160p)"
+msgctxt "PrivacyDialog|"
+msgid "I agree (do not show it again)"
 msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid "Send report"
+msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid "Cancel"
+msgstr "Άκυρο"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -1886,7 +2577,7 @@ msgstr "Σφάλμα"
 
 msgctxt "QObject|"
 msgid "Connection failure"
-msgstr ""
+msgstr "Αποτυχία σύνδεσης"
 
 msgctxt "QObject|"
 msgid "App frontend's server listen failed."
@@ -1905,9 +2596,15 @@ msgid ""
 "\n"
 "Error: %1"
 msgstr ""
+"\n"
+"Σφάλμα: %1"
 
 msgctxt "QObject|"
 msgid "Enter URL"
+msgstr "Εισαγωγή URL"
+
+msgctxt "QObject|"
+msgid "Sorry this device is not supported by %1."
 msgstr ""
 
 msgctxt "QObject|"
@@ -1924,11 +2621,11 @@ msgstr "Επικοινωνήστε Με Την Υποστήριξη"
 
 msgctxt "QObject|"
 msgid "Exit"
-msgstr ""
+msgstr "Έξοδος"
 
 msgctxt "QObject|"
 msgid "Show main window"
-msgstr "Δείχνουν κύριο παράθυρο"
+msgstr "Εμφάνιση κύριου παραθύρου"
 
 msgctxt "QObject|"
 msgid "About %1"
@@ -1936,6 +2633,26 @@ msgstr "Σχετικά Με Το %1"
 
 msgctxt "QObject|"
 msgid "Quit"
+msgstr "Έξοδος"
+
+msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
 msgstr ""
 
 msgctxt "QObject|"
@@ -1947,16 +2664,32 @@ msgid "%1 M"
 msgstr "%1 M"
 
 msgctxt "QObject|"
-msgid "Download complete"
+msgid "%1 G"
 msgstr ""
 
 msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Download complete"
+msgstr "Η λήψη ολοκληρώθηκε"
+
+msgctxt "QObject|"
 msgid "Downloads complete"
+msgstr "Οι λήψεις ολοκληρώθηκαν"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
 msgstr ""
 
 msgctxt "QObject|"
 msgid "Download added"
-msgstr ""
+msgstr "Προστέθηκε λήψη"
 
 msgctxt "QObject|"
 msgid "Unknown error"
@@ -1964,39 +2697,39 @@ msgstr "Άγνωστο σφάλμα"
 
 msgctxt "QObject|"
 msgid "File read error"
-msgstr ""
+msgstr "Σφάλμα ανάγνωσης αρχείου"
 
 msgctxt "QObject|"
 msgid "Failed to read from file"
-msgstr ""
+msgstr "Αποτυχία ανάγνωσης από το αρχείο"
 
 msgctxt "QObject|"
 msgid "File write error"
-msgstr ""
+msgstr "Σφάλμα εγγραφής αρχείου"
 
 msgctxt "QObject|"
 msgid "Failed to write to file"
-msgstr ""
+msgstr "Αποτυχία εγγραφής του αρχείου"
 
 msgctxt "QObject|"
 msgid "File open error"
-msgstr ""
+msgstr "Σφάλμα ανοίγματος αρχείου"
 
 msgctxt "QObject|"
 msgid "Failed to open file"
-msgstr ""
+msgstr "Αποτυχία ανοίγματος του αρχείου"
 
 msgctxt "QObject|"
 msgid "Access denied"
-msgstr ""
+msgstr "Δεν επιτρέπεται η πρόσβαση"
 
 msgctxt "QObject|"
 msgid "Access to file is denied"
-msgstr ""
+msgstr "Δεν επιτρέπεται η πρόσβαση στο αρχείο"
 
 msgctxt "QObject|"
 msgid "File error"
-msgstr ""
+msgstr "Σφάλμα αρχείου"
 
 msgctxt "QObject|"
 msgid "Unknown file I/O error"
@@ -2004,7 +2737,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "HTTP Error %1"
-msgstr ""
+msgstr "Σφάλμα HTTP %1"
 
 msgctxt "QObject|"
 msgid "Bad Request"
@@ -2016,7 +2749,7 @@ msgstr "Μη εξουσιοδοτημένη"
 
 msgctxt "QObject|"
 msgid "Payment Required"
-msgstr ""
+msgstr "Απαιτείται Πληρωμή"
 
 msgctxt "QObject|"
 msgid "Forbidden"
@@ -2044,7 +2777,7 @@ msgstr "Χρονικό Όριο Αίτησης"
 
 msgctxt "QObject|"
 msgid "Conflict"
-msgstr "Σύγκρουση"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Gone"
@@ -2124,7 +2857,7 @@ msgstr "Αίτημα Πεδία Κεφαλίδας Πολύ Μεγάλες"
 
 msgctxt "QObject|"
 msgid "Login Timeout"
-msgstr "Login Timeout"
+msgstr "Λήξη Χρόνου Σύνδεσης"
 
 msgctxt "QObject|"
 msgid "No Response"
@@ -2136,7 +2869,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Blocked by Windows Parental Controls"
-msgstr "Αποκλεισμένη από τα Windows Γονικού Ελέγχου"
+msgstr "Αποκλείστηκε από το Γονικό Έλεγχο των Windows"
 
 msgctxt "QObject|"
 msgid "Unavailable For Legal Reasons"
@@ -2148,11 +2881,11 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Cert Error"
-msgstr "Cert Σφάλμα"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "No Cert"
-msgstr "Καμία Cert"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "HTTP to HTTPS"
@@ -2164,7 +2897,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Client Closed Request"
-msgstr "Πελάτης Κλείσει Το Αίτημα"
+msgstr "Κλειστό Αίτημα Πελάτη"
 
 msgctxt "QObject|"
 msgid "Internal Server Error"
@@ -2184,7 +2917,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Gateway Timeout"
-msgstr "Gateway Timeout"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "HTTP Version Not Supported"
@@ -2196,15 +2929,15 @@ msgstr "Παραλλαγή Επίσης Διαπραγματεύεται"
 
 msgctxt "QObject|"
 msgid "Insufficient Storage"
-msgstr "Ανεπαρκή Αποθήκευση"
+msgstr "Ανεπαρκής Χώρος Αποθήκευσης"
 
 msgctxt "QObject|"
 msgid "Loop Detected"
-msgstr "Βρόχος Εντοπιστεί"
+msgstr "Εντοπίστηκε Βρόχος"
 
 msgctxt "QObject|"
 msgid "Bandwidth Limit Exceeded"
-msgstr "Το Εύρος Ζώνης Υπέρβαση Ορίου"
+msgstr "Υπέρβαση Του Ορίου Εύρους Ζώνης"
 
 msgctxt "QObject|"
 msgid "Not Extended"
@@ -2216,11 +2949,11 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Network read timeout error"
-msgstr "Δίκτυο διαβάστε σφάλμα χρονικού ορίου"
+msgstr "Σφάλμα χρονικού ορίου ανάγνωσης δικτύου"
 
 msgctxt "QObject|"
 msgid "Network connect timeout error"
-msgstr "Network connect σφάλμα χρονικού ορίου"
+msgstr "Σφάλμα χρονικού ορίου σύνδεσης δικτύου"
 
 msgctxt "QObject|"
 msgid "Unsupported"
@@ -2228,6 +2961,10 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Invalid parameter"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Unsupported format"
 msgstr ""
 
 msgctxt "QObject|"
@@ -2252,7 +2989,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Connection refused"
-msgstr "Σύνδεση απορρίφθηκε"
+msgstr "Η σύνδεση απορρίφθηκε"
 
 msgctxt "QObject|"
 msgid "Network error"
@@ -2364,11 +3101,11 @@ msgstr "Λήψη βίντεο με %1"
 
 msgctxt "QObject|"
 msgid "Video"
-msgstr ""
+msgstr "Βίντεο"
 
 msgctxt "QObject|"
 msgid "Music"
-msgstr ""
+msgstr "Μουσική"
 
 msgctxt "QObject|"
 msgid "There is not enough disk space."
@@ -2403,13 +3140,77 @@ msgctxt "QObject|"
 msgid "Update URL"
 msgstr ""
 
+msgctxt "QObject|"
+msgid "Documents"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Upload paused"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Remote resource changed"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Always re-download"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Re-download"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "ReportSentDialog|"
+msgid "Report problem"
+msgstr ""
+
+msgctxt "ReportSentDialog|"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr ""
+
+msgctxt "ReportSentDialog|"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr ""
+
+msgctxt "ReportSentDialog|"
+msgid "OK"
+msgstr "OK"
+
 msgctxt "SaveTo|"
 msgid "Save to"
-msgstr ""
+msgstr "Αποθήκευση σε"
 
 msgctxt "SaveTo|"
 msgid "Open"
-msgstr "Ανοιχτό"
+msgstr "Άνοιγμα"
 
 msgctxt "SaveTo|"
 msgid "Cancel"
@@ -2417,7 +3218,7 @@ msgstr "Άκυρο"
 
 msgctxt "Scheduler|"
 msgid "Sun"
-msgstr "Ήλιος"
+msgstr "Κυρ"
 
 msgctxt "Scheduler|"
 msgid "Mon"
@@ -2425,7 +3226,7 @@ msgstr "Δευ"
 
 msgctxt "Scheduler|"
 msgid "Tue"
-msgstr "Tue"
+msgstr "Τρι"
 
 msgctxt "Scheduler|"
 msgid "Wed"
@@ -2449,7 +3250,7 @@ msgstr "Από:"
 
 msgctxt "Scheduler|"
 msgid "Everyday"
-msgstr ""
+msgstr "Κάθε μέρα"
 
 msgctxt "Scheduler|"
 msgid "To:"
@@ -2457,15 +3258,15 @@ msgstr "Να:"
 
 msgctxt "SchedulerButton|"
 msgid "Scheduler"
-msgstr "Scheduler"
+msgstr "Χρονοδιάγραμμα"
 
 msgctxt "SchedulerCheckbox|"
 msgid "Scheduler"
-msgstr "Scheduler"
+msgstr "Χρονοδιάγραμμα"
 
 msgctxt "SchedulerDialog|"
 msgid "Scheduler"
-msgstr "Scheduler"
+msgstr "Χρονοδιάγραμμα"
 
 msgctxt "SchedulerDialog|"
 msgid "Start and pause downloads at specified time"
@@ -2481,23 +3282,23 @@ msgstr "Άκυρο"
 
 msgctxt "SchedulerDialog|"
 msgid "Apply"
-msgstr "Εφαρμόστε"
+msgstr "Εφαρμογή"
 
 msgctxt "SchedulerDialog|"
 msgid "All the day"
-msgstr ""
+msgstr "Όλη μέρα"
 
 msgctxt "SchedulerDialog|"
 msgid "Everyday"
-msgstr ""
+msgstr "Κάθε μέρα"
 
 msgctxt "SchedulerDialog|"
 msgid "Close"
-msgstr "Κλείστε"
+msgstr "Κλείσιμο"
 
 msgctxt "SchedulerDialog|"
 msgid "Sun"
-msgstr "Ήλιος"
+msgstr "Κυρ"
 
 msgctxt "SchedulerDialog|"
 msgid "Mon"
@@ -2505,7 +3306,7 @@ msgstr "Δευ"
 
 msgctxt "SchedulerDialog|"
 msgid "Tue"
-msgstr "Tue"
+msgstr "Τρι"
 
 msgctxt "SchedulerDialog|"
 msgid "Wed"
@@ -2525,7 +3326,7 @@ msgstr "Σαβ"
 
 msgctxt "SchedulerTools|"
 msgid "Set days of the week to enable Scheduler"
-msgstr ""
+msgstr "Ορίστε ημέρες της εβδομάδας για να ενεργοποιήσετε το Χρονοδιάγραμμα"
 
 msgctxt "SearchField|"
 msgid "Search"
@@ -2545,11 +3346,11 @@ msgstr "Αναζήτηση"
 
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
-msgstr ""
+msgstr "Επιλεγμένα: %1"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Sort"
-msgstr ""
+msgstr "Ταξινόμηση"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
@@ -2557,6 +3358,10 @@ msgstr ""
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Descending"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Invalid settings"
 msgstr ""
 
 msgctxt "SettingsPage|"
@@ -2596,27 +3401,24 @@ msgid "Settings"
 msgstr "Ρυθμίσεις"
 
 msgctxt "SettingsPage|"
-msgid "Network settings"
+msgid "Downloads settings"
 msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Network settings"
+msgstr "Ρυθμίσεις δικτύου"
 
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
 msgstr "Όρια Κυκλοφορίας"
 
 msgctxt "SettingsPage|"
-msgid "Advanced settings"
+msgid "Sounds settings"
 msgstr ""
 
-
-
-
-
-
-
-
-
-
-
+msgctxt "SettingsPage|"
+msgid "Advanced settings"
+msgstr "Για προχωρημένους"
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -2636,7 +3438,7 @@ msgstr ""
 
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
-msgstr ""
+msgstr "Επιβεβαίωση"
 
 msgctxt "ShutdownDialog|"
 msgid "Cancel"
@@ -2660,15 +3462,39 @@ msgstr ""
 
 msgctxt "SortTools|"
 msgid "By date"
-msgstr ""
+msgstr "Κατά ημερομηνία"
 
 msgctxt "SortTools|"
 msgid "By name"
-msgstr ""
+msgstr "Κατ' όνομα"
 
 msgctxt "SortTools|"
 msgid "By size"
+msgstr "Κατά μέγεθος"
+
+msgctxt "SoundsSettings|"
+msgid "Sounds settings"
 msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Use sounds"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads added"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads completed"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads failed"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "No active downloads"
+msgstr "Καμία ενεργές λήψεις"
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
@@ -2704,11 +3530,11 @@ msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Continue"
-msgstr ""
+msgstr "Συνέχεια"
 
 msgctxt "StatusItem|"
 msgid "Checking files..."
-msgstr ""
+msgstr "Έλεγχος αρχείων..."
 
 msgctxt "StatusItem|"
 msgid "Merging media streams..."
@@ -2716,19 +3542,7 @@ msgstr ""
 
 msgctxt "StatusItem|"
 msgid "Queued"
-msgstr ""
-
-msgctxt "StatusItem|"
-msgid "Moving... %1%"
-msgstr ""
-
-msgctxt "StatusItem|"
-msgid "Converting to mp3..."
-msgstr ""
-
-msgctxt "StatusItem|"
-msgid "Checking for viruses..."
-msgstr ""
+msgstr "Σε ουρά"
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"
@@ -2748,7 +3562,7 @@ msgstr "Ολοκληρώθηκε"
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause download"
-msgstr ""
+msgstr "Παύση λήψης"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing."
@@ -2756,7 +3570,7 @@ msgstr ""
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause"
-msgstr ""
+msgstr "Παύση"
 
 msgctxt "StopDownloadDialog|"
 msgid "Cancel"
@@ -2770,21 +3584,37 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr ""
 
-msgctxt "TagColorDialog|"
-msgid "Remove tag"
+msgctxt "Subtitles|"
+msgid "Download subtitles"
+msgstr ""
+
+msgctxt "Subtitles|"
+msgid "Edit list"
 msgstr ""
 
 msgctxt "TagMenu|"
 msgid "Edit"
-msgstr ""
+msgstr "Επεξεργασία"
 
 msgctxt "TagMenu|"
 msgid "Remove"
-msgstr ""
+msgstr "Κατάργηση"
 
 msgctxt "TagPalette|"
 msgid "Customize color"
 msgstr ""
+
+msgctxt "ThemeComboBox|"
+msgid "System"
+msgstr ""
+
+msgctxt "ThemeComboBox|"
+msgid "Light"
+msgstr "Ανοιχτό"
+
+msgctxt "ThemeComboBox|"
+msgid "Dark"
+msgstr "Σκούρο"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -2832,15 +3662,15 @@ msgstr "Όρια Κυκλοφορίας"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
-msgstr "απεριόριστη"
+msgstr "Απεριόριστη"
 
 msgctxt "TumComboBox|"
 msgid "KB/s"
-msgstr ""
+msgstr "KB/δ"
 
 msgctxt "TumComboBox|"
 msgid "unlimited"
-msgstr ""
+msgstr "απεριόριστη"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
@@ -2860,7 +3690,7 @@ msgstr "Χαμηλή"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Unlimited"
-msgstr "απεριόριστη"
+msgstr "Απεριόριστη"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Custom..."
@@ -2880,7 +3710,7 @@ msgstr "Ταχύτητα λήψης"
 
 msgctxt "TumModeBlock|"
 msgid "Unlimited"
-msgstr "απεριόριστη"
+msgstr "Απεριόριστη"
 
 msgctxt "TumModeBlock|"
 msgid "Max. number of simultaneous downloads"
@@ -2900,7 +3730,7 @@ msgstr ""
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
-msgstr ""
+msgstr "Νέα λήψη"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "New file"
@@ -2912,23 +3742,27 @@ msgstr "Λήψη"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Save to"
-msgstr ""
+msgstr "Αποθήκευση σε"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "Όνομα αρχείου"
 
 msgctxt "TuneAndAddDownloadPage|"
-msgid "Size: %1 (Disk space: %2)"
+msgid "No write access to the selected directory"
 msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
+msgid "Size: %1 (Disk space: %2)"
+msgstr "Μέγεθος: %1 (Χωρητικότητα δίσκου: %2)"
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
-msgstr ""
+msgstr "Μέγεθος: %1"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
-msgstr ""
+msgstr "Έλεγχος για ενημερώσεις..."
 
 msgctxt "UpdateDialog|"
 msgid "Error:"
@@ -2948,7 +3782,7 @@ msgstr "Νέα έκδοση είναι διαθέσιμη"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
-msgstr "Ενημερωμένη έκδοση"
+msgstr "Ενημέρωση"
 
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
@@ -2960,7 +3794,7 @@ msgstr "OK"
 
 msgctxt "UpdateDialog|"
 msgid "Downloading update"
-msgstr ""
+msgstr "Λήψη ενημέρωσης"
 
 msgctxt "UpdateDialog|"
 msgid "Error downloading update:"
@@ -2968,23 +3802,23 @@ msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Checking..."
-msgstr ""
+msgstr "Έλεγχος..."
 
 msgctxt "UpdateDialog|"
 msgid "Update downloaded"
-msgstr "Ενημέρωση κατεβάσει"
+msgstr "Έγινε λήψη της ενημέρωσης"
 
 msgctxt "UpdateDialog|"
 msgid "Install update"
-msgstr "Εγκαταστήστε την ενημερωμένη έκδοση"
+msgstr "Εγκατάσταση ενημέρωσης"
 
 msgctxt "UpdateDialog|"
 msgid "Installing updates"
-msgstr "Με την εγκατάσταση ενημερώσεων"
+msgstr "Εγκατάσταση ενημερώσεων"
 
 msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
-msgstr ""
+msgstr "Παρουσιάστηκε σφάλμα κατά την εγκατάσταση:"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
@@ -2996,11 +3830,11 @@ msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Later"
-msgstr ""
+msgstr "Αργότερα"
 
 msgctxt "UpdateDialog|"
 msgid "Check for updates"
-msgstr "Έλεγχος για ενημερωμένες εκδόσεις"
+msgstr "Έλεγχος για ενημερώσεις"
 
 msgctxt "VideoQuality|"
 msgid "Quality:"
@@ -3024,7 +3858,7 @@ msgstr ""
 
 msgctxt "VoteBlock|"
 msgid "Later"
-msgstr ""
+msgstr "Αργότερα"
 
 msgctxt "VoteBlock|"
 msgid "No, thanks"
@@ -3040,12 +3874,12 @@ msgstr ""
 
 msgctxt "WaitingPage|"
 msgid "Refresh"
+msgstr "Ανανέωση"
+
+msgctxt "main|"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr ""
 
 msgctxt "main|"
-msgid "Move"
-msgstr "Κίνηση"
-
-msgctxt "main|"
-msgid "Cancel"
-msgstr "Άκυρο"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr ""

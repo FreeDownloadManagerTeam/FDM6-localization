@@ -13,8 +13,8 @@ msgid "About"
 msgstr "Hakkında"
 
 msgctxt "AboutDialog|"
-msgid "<a href='%1'>%2</a> version %3"
-msgstr "<a href='%1'>%2</a> sürüm %3"
+msgid "version %1"
+msgstr "sürüm %1"
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -30,11 +30,11 @@ msgstr "Dosya adlarına tarih ekle"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
-msgstr ""
+msgstr "Yansı ekle"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "Yansı bağlantısı ekle"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
@@ -46,7 +46,7 @@ msgstr "Tamam"
 
 msgctxt "AddMirrorPage|"
 msgid "Add mirror"
-msgstr ""
+msgstr "Yansı ekle"
 
 msgctxt "AddMirrorPage|"
 msgid "OK"
@@ -54,7 +54,7 @@ msgstr "Tamam"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
-msgstr ""
+msgstr "Yansı bağlantısı ekle"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -85,9 +85,17 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr "Bildirim Merkezi üzerinden tamamlanan indirmeleri bana bildir"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr "Bildirim Merkezi üzerinden başarısız indirmeler hakkında bilgilendir"
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr ""
 "Beni sadece %1 penceresi aktif olmadığında indirmeler hakkında bilgilendir"
+
+msgctxt "AdvancedSettings|"
+msgid "Customize sounds"
+msgstr "Sesleri yapılandır"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -118,6 +126,33 @@ msgid "Backup the list of downloads every"
 msgstr "İndirme listelerini yedekle her"
 
 msgctxt "AdvancedSettings|"
+msgid "File exists reaction"
+msgstr "Dosya mevcut uyarısı"
+
+msgctxt "AdvancedSettings|"
+msgid "Rename"
+msgstr "Yeniden adlandır"
+
+msgctxt "AdvancedSettings|"
+msgid "Overwrite"
+msgstr "Üzerine yaz"
+
+msgctxt "AdvancedSettings|"
+msgid "Use sounds"
+msgstr "Sesleri kullan"
+
+msgctxt "AdvancedSettings|"
+msgid ""
+"Do not allow downloads to perform post finished tasks when running on battery"
+msgstr ""
+"Pil gücünde çalışırken , indirmelerin, tamamlanmış görevleri "
+"gerçekleştirmesine izin verme"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not allow downloads if battery level drops below"
+msgstr "Pil gücü zayıfladığında indirmelere izin verme"
+
+msgctxt "AdvancedSettings|"
 msgid "Delete button action"
 msgstr "Delete tuşu işlevi"
 
@@ -137,6 +172,14 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Gelişmiş ayarlar"
 
+msgctxt "AdvancedSettings|"
+msgid "Choose theme"
+msgstr "Tema seç"
+
+msgctxt "AdvancedSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Sistem teması belirlenemediği durumlarda, açık tema kullanılacaktır."
+
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
 msgstr "El ile ayarla..."
@@ -150,14 +193,8 @@ msgid "Select antivirus:"
 msgstr "Antivirüs şeç:"
 
 msgctxt "AntivirusSettings|"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
-msgstr ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Virüs "
-"programınız listede yok mu?</a>"
+msgid "Is your antivirus not listed?"
+msgstr "Virüs programınız listede yok mu?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -194,6 +231,30 @@ msgstr "Ayarlara gidiniz"
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "İptal"
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr ""
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr ""
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -367,54 +428,53 @@ msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr "Bağlantılar"
 
-
 msgctxt "Browser|"
 msgid "Enter URL"
 msgstr "URL gir"
 
 msgctxt "Browser|"
 msgid "Bookmark removed"
-msgstr ""
+msgstr "Yer imi kaldırıldı"
 
 msgctxt "Browser|"
 msgid "Bookmark added"
-msgstr ""
+msgstr "Yer imi eklendi"
 
 msgctxt "Browser|"
 msgid "Bookmarks"
-msgstr ""
+msgstr "Yer imleri"
 
 msgctxt "Browser|"
 msgid "There are no bookmarks at the moment"
-msgstr ""
+msgstr "Şu anda yer imleri yoktur"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr ""
+msgstr "Bu yer imini kaldırmak istediğinizden emin misiniz?"
 
 msgctxt "Browser|"
 msgid "YES"
-msgstr ""
+msgstr "EVET"
 
 msgctxt "Browser|"
 msgid "NO"
-msgstr ""
+msgstr "HAYIR"
 
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
-msgstr ""
+msgstr "%1 'e Geri dön"
 
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
-msgstr ""
+msgstr "Yer imleri"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
-msgstr ""
+msgstr "Yer imi kaldır"
 
 msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
-msgstr ""
+msgstr "Yer imi ekle"
 
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
@@ -436,13 +496,9 @@ msgstr ""
 "%1 Eklentisinin yüklü olduğuna emin olun, yüklenmemişse aşağıdaki "
 "düğmelerden birini tıklayın"
 
-
-
-
-
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
-msgstr ""
+msgstr "Diğer desteklenen tarayıcılar"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -499,6 +555,14 @@ msgid ""
 "browser does not provide to %1 (or there is no universal way for all "
 "browsers to do this)."
 msgstr ""
+"Yerleşik web tarayıcısı açmak üzeresiniz.\n"
+"\n"
+"%1 'e indirmeler eklemenize olanak tanır.\n"
+"\n"
+"Bunlardan bazıları (Google drive indirmeleri) sadece bu tarayıcı "
+"kullanılarak eklenebilir, çünkü Android sistem tarayıcısı %1 'e destek "
+"sağlamaması\n"
+"nedeni ile ilave bilgi gereklidir."
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -506,11 +570,15 @@ msgstr "Devam et"
 
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
-msgstr ""
+msgstr "(tarayıcı kurulu değil)"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
 msgstr "İndirme ekle"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Report problem"
+msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
@@ -537,6 +605,10 @@ msgid "OK"
 msgstr "Tamam"
 
 msgctxt "BuildDownloadPage|"
+msgid "Report problem"
+msgstr ""
+
+msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
 msgstr "Bu siteden indirmeye izin verilmiyor"
 
@@ -559,6 +631,10 @@ msgstr "Lütfen indirme bağlantısını seçin"
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "Bir seferde %1'den fazla bağlantı seçemezsiniz"
+
+msgctxt "ButtonsBlock|"
+msgid "No write access to the selected directory"
+msgstr "Seçili dizine yazma yetkisi yok"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
@@ -624,7 +700,6 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "İndirmeye başla"
 
-
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "Bağlantı yok"
@@ -641,74 +716,6 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "Bağlantı sayısı"
 
-msgctxt "ConvertationDialog|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Ayarlanabilir bitrate ile mp3'e dönüştürme"
-
-msgctxt "ConvertationDialog|"
-msgid "Save to"
-msgstr "Şuraya kaydet"
-
-msgctxt "ConvertationDialog|"
-msgid "Open"
-msgstr "Aç"
-
-msgctxt "ConvertationDialog|"
-msgid "Cancel"
-msgstr "İptal"
-
-msgctxt "ConvertationDialog|"
-msgid "Bitrate (quality)"
-msgstr "Bitrate (kalite)"
-
-msgctxt "ConvertationDialog|"
-msgid "Constant bitrate of value"
-msgstr "Bitrate sabiti"
-
-msgctxt "ConvertationDialog|"
-msgid "Variable bitrate (VBR)"
-msgstr "Değişken bitrate (DBR)"
-
-msgctxt "ConvertationDialog|"
-msgid "The path contains invalid characters"
-msgstr "Yol geçersiz karakterler içeriyor"
-
-msgctxt "ConvertationDialog|"
-msgid "OK"
-msgstr "Tamam"
-
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3"
-msgstr "Mp3'e çevir"
-
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Ayarlanabilir bitrate ile mp3'e dönüştürme"
-
-msgctxt "ConvertationPage|"
-msgid "OK"
-msgstr "Tamam"
-
-msgctxt "ConvertationPage|"
-msgid "Save to"
-msgstr "Şuraya kaydet"
-
-msgctxt "ConvertationPage|"
-msgid "The path contains invalid characters"
-msgstr "Yol geçersiz karakterler içeriyor"
-
-msgctxt "ConvertationPage|"
-msgid "Bitrate (quality)"
-msgstr "Bitrate (kalite)"
-
-msgctxt "ConvertationPage|"
-msgid "Constant bitrate of value"
-msgstr "Bitrate sabiti"
-
-msgctxt "ConvertationPage|"
-msgid "Variable bitrate (VBR)"
-msgstr "Değişken bitrate (DBR)"
-
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "Bağlantıyı kopyala"
@@ -716,6 +723,10 @@ msgstr "Bağlantıyı kopyala"
 msgctxt "CopyMenu|"
 msgid "Copy"
 msgstr "Kopyala"
+
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
+msgstr ""
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -751,23 +762,27 @@ msgstr "İptal"
 
 msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
-msgstr ""
+msgstr "Taşınabilir sürüm oluştur"
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
 msgstr ""
+"%1 taşınabilir sürüm diğer bilgisayarlarda herhangi bir kurulum veya "
+"yapılandırmaya ihtiyaç duymadan çalıştırılabilir."
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
-msgstr ""
+msgstr "Taşınabilir belleğe yerleştirilebilir."
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
 msgstr ""
+"Bu sürümü eklemek istediğiniz adresi belirtiniz. Bazı taşınabilir disklerde "
+"bir klasör altında olmalıdır."
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -779,7 +794,7 @@ msgstr "İptal"
 
 msgctxt "CreatePortableDialog|"
 msgid "Please specify the path."
-msgstr ""
+msgstr "Lütfen yolu belirtiniz."
 
 msgctxt "CreatePortableDialog|"
 msgid "OK"
@@ -787,17 +802,65 @@ msgstr "Tamam"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
-msgstr ""
+msgstr "%1% oluşturuluyor"
 
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
-msgstr ""
+msgstr "Taşınabilir sürüm oluşturulurken bir hata meydana geldi: %1"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating a portable version was successfully completed."
-msgstr ""
+msgstr "Taşınabilir sürüm oluşturma başarı ile tamamlandı."
 
 msgctxt "CreatePortableDialog|"
+msgid "Close"
+msgstr "Kapat"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Customize sounds"
+msgstr "Sesleri yapılandır"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Event"
+msgstr "Olay"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Sound file"
+msgstr "Ses dosyası"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No sound"
+msgstr "Ses yok"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads added"
+msgstr "İndirmeler eklendi"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads completed"
+msgstr "İndirmeler tamamlandı"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads failed"
+msgstr "İndirmeler başarısız"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No active downloads"
+msgstr "Aktif indirmeler yok"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Set sound"
+msgstr "Sesi ayarla"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Remove"
+msgstr "Kaldır"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Test"
+msgstr "Test"
+
+msgctxt "CustomizeSoundsDialog|"
 msgid "Close"
 msgstr "Kapat"
 
@@ -849,6 +912,26 @@ msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
 msgstr "İptal"
 
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Download deleting failed"
+msgstr "İndirme silme işlemi başarısız"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Try again"
+msgstr "Tekrar deneyin"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore"
+msgstr "Atlayınız"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore all"
+msgstr "Tamamını atlayınız"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Abort"
+msgstr "İşlemi iptal et"
+
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Boyut: %1 (Disk alanı: %2)"
@@ -856,6 +939,94 @@ msgstr "Boyut: %1 (Disk alanı: %2)"
 msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Boyut: %1"
+
+msgctxt "DockUploadSpeedSetting|"
+msgid "Show total upload speed in the Dock icon"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Saved in"
+msgstr "Saklandı"
+
+msgctxt "DownloadWindow|"
+msgid "File size"
+msgstr "Dosya boyutu"
+
+msgctxt "DownloadWindow|"
+msgid "Resume support"
+msgstr "Devam etme desteği"
+
+msgctxt "DownloadWindow|"
+msgid "Yes"
+msgstr "Evet"
+
+msgctxt "DownloadWindow|"
+msgid "No"
+msgstr "Hayır"
+
+msgctxt "DownloadWindow|"
+msgid "Unknown"
+msgstr "Belirsiz"
+
+msgctxt "DownloadWindow|"
+msgid "Downloaded"
+msgstr "İndirildi"
+
+msgctxt "DownloadWindow|"
+msgid "Speed"
+msgstr "Hız"
+
+msgctxt "DownloadWindow|"
+msgid "Time remaining"
+msgstr "Kalan süre"
+
+msgctxt "DownloadWindow|"
+msgid "Open download when it is completed"
+msgstr "Tamamlandığında indirilen dosyayı aç"
+
+msgctxt "DownloadWindow|"
+msgid "Close this window when the download is completed or stopped"
+msgstr "İndirme tamamlandığında veya durdurulduğunda bu pencereyi kapat"
+
+msgctxt "DownloadWindow|"
+msgid "Hide"
+msgstr "Gizle"
+
+msgctxt "DownloadWindow|"
+msgid "Show In Folder"
+msgstr "Klasörde göster"
+
+msgctxt "DownloadWindow|"
+msgid "Open"
+msgstr "Aç"
+
+msgctxt "DownloadWindow|"
+msgid "Stop"
+msgstr "Durdur"
+
+msgctxt "DownloadWindow|"
+msgid "Start"
+msgstr "Başlat"
+
+msgctxt "DownloadsItemTools|"
+msgid "Moving..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
+msgid "Checking for viruses..."
+msgstr "Virüs için kontrol ediliyor..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp3..."
+msgstr "Mp3'e çevriliyor..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp4..."
+msgstr "Mp4'e çevriliyor..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash..."
+msgstr ""
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
@@ -909,6 +1080,62 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "İndirme listesi boş. Yeni bir indirme URL'si ekleyin."
 
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr "İndirme ayarları"
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr "Onay beklemeden indirmeleri başlat"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr "İndirme listesinden silinmiş dosyaları otomatik olarak kaldır"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr "Tamamlanan indirmeleri otomatik olarak indirme listesinden sil"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr "Başarısız indirmeleri otomatik olarak tekrar dene"
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr "Dosya oluşturmak için sunucu zamanını kullan"
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr "Varsayılan indirme klasörü"
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr "Otomatik olarak indirme klasörü seç"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr "Dosya türü tabanlı klasörler öner"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "İndirme URL tabanlı klasörler öner"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr "Düzeltilmiş varsayılan indirme klasörü"
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Ratio"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
+msgstr ""
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "Etiketi kaldır"
@@ -937,6 +1164,11 @@ msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "Öncelik"
 
+msgctxt "DownloadsViewItem|"
+msgid "Upload paused"
+msgstr ""
+
+
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
 msgstr "Yeniden başlat"
@@ -948,6 +1180,10 @@ msgstr "Aç"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show In Folder"
 msgstr "Klasörde göster"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Report problem"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -991,11 +1227,23 @@ msgstr "Ardışık indirme"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
+msgstr "Yansı ekle"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Open download page"
 msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "Bağlantıyı kopyala"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Check for update"
+msgstr "Güncellemeleri kontrol et"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Export selected downloads"
+msgstr "Seçilen indirmeleri dışa aktar"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
@@ -1016,6 +1264,10 @@ msgstr "URL'yi değiştir"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
 msgstr "Mp3'e çevir"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Convert to mp4"
+msgstr "Mp4'e çevir"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
@@ -1046,16 +1298,8 @@ msgid "Download complete"
 msgstr "İndirme tamamlandı"
 
 msgctxt "DownloadsViewItemFileInfo|"
-msgid "Moving... %1%"
-msgstr "Taşınıyor... %1%"
-
-msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "Dosyalar kontrol ediliyor..."
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp3..."
-msgstr "Mp3'e çevriliyor..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1088,18 +1332,6 @@ msgstr "Medya akışları birleştiriliyor..."
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "Sıraya alındı"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Moving... %1%"
-msgstr "Taşınıyor... %1%"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp3..."
-msgstr "Mp3'e çevriliyor..."
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Checking for viruses..."
-msgstr "Virüs için kontrol ediliyor..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1116,6 +1348,123 @@ msgstr "Duraklatıldı"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Tamamlandı"
+
+msgctxt "EditTagDialog|"
+msgid "Edit tag"
+msgstr "Etiketi düzenle"
+
+msgctxt "EditTagDialog|"
+msgid "Extensions (e.g. \"avi mp3\")"
+msgstr "Uzantılar(\"avi mp3\")"
+
+msgctxt "EditTagDialog|"
+msgid ""
+"Extensions that are automatically assigned with this tag for new downloads"
+msgstr "Bu etikete ait yeni indirmeler için uzantılar otomatik olarak eklendi"
+
+msgctxt "EditTagDialog|"
+msgid "Default download folder"
+msgstr "Varsayılan indirme klasörü"
+
+msgctxt "EditTagDialog|"
+msgid "Open"
+msgstr "Aç"
+
+msgctxt "EditTagDialog|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "EditTagDialog|"
+msgid "Macros"
+msgstr "Makrolar"
+
+msgctxt "EditTagDialog|"
+msgid "OK"
+msgstr "Tamam"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Rename"
+msgstr "Yeniden adlandır"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Overwrite"
+msgstr "Üzerine yaz"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Always ask"
+msgstr "Her zaman sor"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export selected downloads"
+msgstr "Seçili indirmeleri dışarı aktar"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export all downloads"
+msgstr "Tüm indirmeleri dışarı aktar"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Save to"
+msgstr "Şuraya kaydet"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Open"
+msgstr "Aç"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "All files (%1)"
+msgstr "Tüm dosyalar (%1)"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export only completed downloads"
+msgstr "Sadece seçili indirmeleri dışarı aktar"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export"
+msgstr "Dışarı aktar"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "%1 downloads files (%2)"
+msgstr "%1 dosyaları indiriyor (%2)"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Default format"
+msgstr "Varsayılan biçim"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "List of URLs"
+msgstr "Bağlantı listesi"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Text files (%1)"
+msgstr "Metin dosyaları (%1)"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV file"
+msgstr "CSV dosyası"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV files (%1)"
+msgstr "CSV dosyaları (%1)"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Export"
+msgstr "Dışarı aktar"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "ExportSettingsDialog|"
+msgid "%1 settings files (%2)"
+msgstr "%1 dosyaları ayarlıyor (%2)"
+
+msgctxt "ExportSettingsDialog|"
+msgid "All files (%1)"
+msgstr "Tüm dosyalar (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1237,6 +1586,26 @@ msgctxt "FileType|"
 msgid "Preferred File Type:"
 msgstr "Tercih Edilen Dosya Türü:"
 
+msgctxt "FilesExistsDialog|"
+msgid "Warning: file exists already"
+msgstr "Uyarı: dosya mevcut"
+
+msgctxt "FilesExistsDialog|"
+msgid "Remember my choice for all downloads"
+msgstr "Tüm indirmeler için seçimimi hatırla"
+
+msgctxt "FilesExistsDialog|"
+msgid "Rename (%1)"
+msgstr "Yeniden adlandır (%1)"
+
+msgctxt "FilesExistsDialog|"
+msgid "Overwrite"
+msgstr "Üzerine yaz"
+
+msgctxt "FilesExistsDialog|"
+msgid "Abort"
+msgstr "İşlemi iptal et"
+
 msgctxt "FilesTree|"
 msgid "Name"
 msgstr "Ad"
@@ -1309,6 +1678,18 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
 msgstr "Video'yu mp3'e çevir"
 
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert video to mp4"
+msgstr "Video'yu mp4'e çevir"
+
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert to mp4"
+msgstr "Mp4'e çevir"
+
+msgctxt "FixedDownloadFolderCombobox|"
+msgid "Macros"
+msgstr "Makrolar"
+
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "Genel"
@@ -1318,26 +1699,8 @@ msgid "Choose theme"
 msgstr "Tema seç"
 
 msgctxt "GeneralSettings|"
-msgid "Light"
-msgstr "Açık"
-
-msgctxt "GeneralSettings|"
-msgid "Dark"
-msgstr "Koyu"
-
-msgctxt "GeneralSettings|"
 msgid "Language"
 msgstr "Dil"
-
-msgctxt "GeneralSettings|"
-msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
-msgstr ""
-"Diliniz listede yok veya çeviri tamamlanmadı mı? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Haydi "
-"düzeltelim!</a>"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1348,12 +1711,52 @@ msgid "Suggest folders based on file type"
 msgstr "Dosya türü tabanlı klasörler öner"
 
 msgctxt "GeneralSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Sistem teması belirsiz ise açık tema kullanılacaktır."
+
+msgctxt "GeneralSettings|"
+msgid "Your language is not listed or the translation isn't complete?"
+msgstr "Diliniz listede yok veya çeviri tamamlanmadı mı?"
+
+msgctxt "GeneralSettings|"
+msgid "Let's fix it!"
+msgstr "Haydi düzeltelim!"
+
+msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr "Varsayılan indirme klasörü"
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr "Varsayılan indirme klasörünü otomatik olarak belirle"
+
+msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
 msgstr "İndirme URL tabanlı klasörler öner"
 
 msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr "Varsayılan indirme klasörü düzeltildi"
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr "Aç"
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr "Makrolar"
+
+msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
 msgstr "İndirilenler listesinin kompakt görünümü"
+
+msgctxt "GeneralSettings|"
+msgid "Enable standalone downloads windows"
+msgstr "Tekil indirme pencerelerini aktif et"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
@@ -1364,8 +1767,16 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Tamamlanan indirmeleri otomatik olarak indirme listesinden sil"
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr "Başarısız indirmeleri otomatik olarak yeniden dene"
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "Dosya oluşturmak için sunucu zamanını kullan"
+
+msgctxt "GeneralSettings|"
+msgid "Maximum urls count in batch download"
+msgstr "Toplu indirme maksimum bağlantı sayısı"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1380,16 +1791,12 @@ msgid "Install updates automatically"
 msgstr "Güncellemeleri otomatik olarak kur"
 
 msgctxt "GeneralSettings|"
-msgid "Dark theme"
-msgstr "Koyu tema"
-
-msgctxt "GeneralSettings|"
-msgid "Start downloading without confirmation"
-msgstr "Onaylanmadan indirmeleri başlat"
-
-msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "Mobil veriyi kullan"
+
+msgctxt "GeneralTab|"
+msgid "State"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1398,6 +1805,14 @@ msgstr "Toplam boyut:"
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "İndirildi:"
+
+msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -1439,6 +1854,62 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
 
+msgctxt "ImportDialog|"
+msgid "Import"
+msgstr "İçeri aktar"
+
+msgctxt "ImportDialog|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "ImportDialog|"
+msgid "All files (%1)"
+msgstr "Tüm dosyalar (%1)"
+
+msgctxt "ImportDialog|"
+msgid "Text files (%1)"
+msgstr "Metin dosyaları (%1)"
+
+msgctxt "ImportDialog|"
+msgid "%1 downloads files (%2)"
+msgstr "%1 dosyaları indiriyor (%2)"
+
+msgctxt "ImportDialog|"
+msgid "%1 settings files (%2)"
+msgstr "%1 dosyaları ayarlıyor (%2)"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Error: %1"
+msgstr "Hata: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "OK"
+msgstr "Tamam"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr "Dosyadan bağlantıları yapıştırma hatası"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import the list of URLs from the file: %1"
+msgstr "Dosyadan bağlantı listesi içeri aktarma yapılamıyor: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to export"
+msgstr "Dışarı aktarma başarısız"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to export to the file: %1"
+msgstr "Dışarı dosya aktarma yapılamıyor: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to import"
+msgstr "Dışarı aktarma başarısız"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import from the file: %1"
+msgstr "Dosyadan içeri aktarma yapılamıyor: %1"
+
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
 msgstr "Varsayılan Yap"
@@ -1457,11 +1928,11 @@ msgstr "Dil"
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
-msgstr ""
+msgstr "Tarayıcı"
 
 msgctxt "LeftDrawer|"
 msgid "Settings"
-msgstr "Seçenekler"
+msgstr "Ayarlar"
 
 msgctxt "LeftDrawer|"
 msgid "Contact support"
@@ -1470,6 +1941,10 @@ msgstr "Destekle İletişime Geç"
 msgctxt "LeftDrawer|"
 msgid "About"
 msgstr "Hakkında"
+
+msgctxt "LeftDrawer|"
+msgid "Quit"
+msgstr "Çıkış"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -1483,6 +1958,34 @@ msgctxt "ListEditor|"
 msgid "Hide"
 msgstr "Gizle"
 
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr "%content_type% - içerik türü (Ör. \"Müzik\")"
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr "%server% - sunucu adı (Ör. \"%1\")"
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr "%path_on_server% - sunucu üzerinde indirilen dosya yolu"
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr "%year% - mevcut yıl"
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr "%month% - mevcut ay (1'den 12'ye)"
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr "%day% - mevcut gün"
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
+msgstr "%date% - eşittir %year%-%month%-%day%"
+
 msgctxt "MainFiltersBar|"
 msgid "All"
 msgstr "Tümü"
@@ -1495,9 +1998,37 @@ msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "Tamamlandı"
 
+msgctxt "MainFiltersBar|"
+msgid "OK to remove tag?"
+msgstr "Etiketi kaldırmak istiyor musunuz?"
+
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
 msgstr "Panodan URL'leri yapıştır"
+
+msgctxt "MainMenu|"
+msgid "Paste Urls from File"
+msgstr "Dosyadan bağlantıları yapıştır"
+
+msgctxt "MainMenu|"
+msgid "Export/Import"
+msgstr "Dışarı/İçeri aktar"
+
+msgctxt "MainMenu|"
+msgid "Export all downloads"
+msgstr "Tüm indirmeleri dışarı aktar"
+
+msgctxt "MainMenu|"
+msgid "Import downloads"
+msgstr "İndirmeleri içeri aktar"
+
+msgctxt "MainMenu|"
+msgid "Export settings"
+msgstr "Dışarı aktarma ayarları"
+
+msgctxt "MainMenu|"
+msgid "Import settings"
+msgstr "İçeri aktarma ayarları"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -1525,11 +2056,15 @@ msgstr "Kapat"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
-msgstr ""
+msgstr "Taşınabilir sürüm oluştur"
 
 msgctxt "MainMenu|"
 msgid "Check for Updates..."
 msgstr "Güncellemeleri Kontrol Et..."
+
+msgctxt "MainMenu|"
+msgid "Join the %1 mosaic..."
+msgstr "%1 mozaiğine katılın."
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -1554,9 +2089,7 @@ msgstr "İnternet bağlantısı yok"
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
-msgstr[0] ""
-
-
+msgstr[0] "%n indirmeler seçildi."
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -1619,6 +2152,10 @@ msgid "CANCEL"
 msgstr "İptal"
 
 msgctxt "MaxURatioComboBox|"
+msgid "Invalid value"
+msgstr "Geçersiz değer"
+
+msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "0'dan büyük bir sayı olmalıdır."
 
@@ -1647,12 +2184,40 @@ msgid "Skip"
 msgstr "Atla"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "OK"
-msgstr "Tamam"
+msgid "Skip all (%1)"
+msgstr "Tamamını geç (%1)"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
 msgstr "İndir"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Mobile data usage"
+msgstr "Mobil veri kullanımı"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Waiting for Wi-Fi to start download."
+msgstr "İndirmeye başlamak için Wi-Fi bağlantısı bekleniyor."
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Would you like to enable usage of mobile data? *"
+msgstr "Mobil veri kullanımını açmak istiyor musunuz?*"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Don't ask again"
+msgstr "Bir daha sorma"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Yes"
+msgstr "Evet"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "No"
+msgstr "Hayır"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "* additional charges may apply"
+msgstr "* ek ücretler uygulanabilir"
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
@@ -1681,6 +2246,118 @@ msgstr "Tekrar deneyin"
 msgctxt "MovingFailedDialog|"
 msgid "Cancel"
 msgstr "İptal"
+
+msgctxt "MovingFolderDialog|"
+msgid "Move"
+msgstr "Taşı"
+
+msgctxt "MovingFolderDialog|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr "Ayarlanabilir bitrate ile mp3'e dönüştürme"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Save to"
+msgstr "Şuraya kaydet"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Open"
+msgstr "Aç"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Bitrate (quality)"
+msgstr "Bitrate (kalite)"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Constant bitrate of value"
+msgstr "Bitrate sabiti"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Variable bitrate (VBR)"
+msgstr "Değişken bitrate (DBR)"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr "Yol geçersiz karakterler içeriyor"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "OK"
+msgstr "Tamam"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3"
+msgstr "Mp3'e çevir"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr "Ayarlanabilir bitrate ile mp3'e dönüştürme"
+
+msgctxt "Mp3ConverterPage|"
+msgid "OK"
+msgstr "Tamam"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Save to"
+msgstr "Şuraya kaydet"
+
+msgctxt "Mp3ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "Yol geçersiz karakterler içeriyor"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Bitrate (quality)"
+msgstr "Bitrate (kalite)"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Constant bitrate of value"
+msgstr "Bitrate sabiti"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Variable bitrate (VBR)"
+msgstr "Değişken bitrate (DBR)"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Convert to mp4"
+msgstr "Mp4'e çevir"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Save to"
+msgstr "Şuraya kaydet"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Open"
+msgstr "Aç"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr "Yol geçersiz karakterler içeriyor"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "OK"
+msgstr "Tamam"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Convert to mp4"
+msgstr "Mp4'e çevir"
+
+msgctxt "Mp4ConverterPage|"
+msgid "OK"
+msgstr "Tamam"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Save to"
+msgstr "Şuraya kaydet"
 
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
@@ -1843,6 +2520,10 @@ msgid "CANCEL"
 msgstr "İptal"
 
 msgctxt "NetworkSpeedLimitComboBox|"
+msgid "Invalid value"
+msgstr "Geçersiz değer"
+
+msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "0'dan büyük bir sayı olmalı."
 
@@ -1867,20 +2548,35 @@ msgid "Video"
 msgstr "Video"
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "Low (240p)"
-msgstr "Düşük (240p)"
+msgid "Lowest"
+msgstr ""
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "Medium (480p)"
-msgstr "Orta (480p)"
+msgid "Highest"
+msgstr ""
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "High (1080p)"
-msgstr "Yüksek (1080p)"
+msgctxt "PrivacyDialog|"
+msgid "User agreement"
+msgstr ""
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "4K (2160p)"
-msgstr "4K (2160p)"
+msgctxt "PrivacyDialog|"
+msgid ""
+"A bug report will be sent to the server and used to improve %1 performance. "
+"We do not collect your personal data and do not share data with third "
+"parties."
+msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid "I agree (do not show it again)"
+msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid "Send report"
+msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid "Cancel"
+msgstr "İptal"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -1927,6 +2623,10 @@ msgid "Enter URL"
 msgstr "URL gir"
 
 msgctxt "QObject|"
+msgid "Sorry this device is not supported by %1."
+msgstr "Üzgünüz, bu cihaz %1 tarafından desteklenmiyor."
+
+msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr "Uygulama başlatılamadı. Lütfen yeniden yükleyin."
 
@@ -1955,6 +2655,26 @@ msgid "Quit"
 msgstr "Çıkış"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
@@ -1963,12 +2683,28 @@ msgid "%1 M"
 msgstr "%1 M"
 
 msgctxt "QObject|"
+msgid "%1 G"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Download complete"
 msgstr "İndirme tamamlandı"
 
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "İndirmeler tamamlandı"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr "İndirme başarısız"
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr "İndirmeler başarısız"
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -2240,11 +2976,15 @@ msgstr "Ağ bağlanma zaman aşımı hatası"
 
 msgctxt "QObject|"
 msgid "Unsupported"
-msgstr ""
+msgstr "Desteklenmiyor"
 
 msgctxt "QObject|"
 msgid "Invalid parameter"
-msgstr ""
+msgstr "Geçersiz parametre"
+
+msgctxt "QObject|"
+msgid "Unsupported format"
+msgstr "Desteklenmeyen biçim"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -2402,18 +3142,18 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
-msgstr ""
+msgstr "Ölümcül hata: veri tabanı yüklenemedi."
 
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
 msgstr ""
+"Silmek istiyor musunuz (İndirme listeniz ve tüm %1 veriniz silinecektir)?"
 
 msgctxt "QObject|"
 msgid "Failed."
-msgstr ""
-
+msgstr "Başarısız."
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
@@ -2421,7 +3161,71 @@ msgstr "Kayıp %path% parametresi."
 
 msgctxt "QObject|"
 msgid "Update URL"
+msgstr "Bağlantı adresini güncelle"
+
+msgctxt "QObject|"
+msgid "Documents"
+msgstr "Belgeler"
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr "Resimler"
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr "Videolar"
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
+msgstr "Çeşitli"
+
+msgctxt "QObject|"
+msgid "Upload paused"
 msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "Tamam"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Remote resource changed"
+msgstr "Uzak kaynak değişti"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Always re-download"
+msgstr "Her zaman yeniden indir"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Re-download"
+msgstr "Yeniden indir"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "ReportSentDialog|"
+msgid "Report problem"
+msgstr ""
+
+msgctxt "ReportSentDialog|"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr ""
+
+msgctxt "ReportSentDialog|"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr ""
+
+msgctxt "ReportSentDialog|"
+msgid "OK"
+msgstr "Tamam"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -2580,6 +3384,10 @@ msgid "Descending"
 msgstr "Azalan"
 
 msgctxt "SettingsPage|"
+msgid "Invalid settings"
+msgstr "Geçersiz ayarlar"
+
+msgctxt "SettingsPage|"
 msgid ". Close anyway?"
 msgstr ". Yine de kapa?"
 
@@ -2616,12 +3424,20 @@ msgid "Settings"
 msgstr "Seçenekler"
 
 msgctxt "SettingsPage|"
+msgid "Downloads settings"
+msgstr "İndirme ayarları"
+
+msgctxt "SettingsPage|"
 msgid "Network settings"
 msgstr "Ağ ayarları"
 
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
 msgstr "Trafik Limitleri"
+
+msgctxt "SettingsPage|"
+msgid "Sounds settings"
+msgstr "Ses ayarları"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -2681,6 +3497,30 @@ msgctxt "SortTools|"
 msgid "By size"
 msgstr "Boyuta göre"
 
+msgctxt "SoundsSettings|"
+msgid "Sounds settings"
+msgstr "Ses ayarları"
+
+msgctxt "SoundsSettings|"
+msgid "Use sounds"
+msgstr "Sesleri kullan"
+
+msgctxt "SoundsSettings|"
+msgid "Downloads added"
+msgstr "İndirmeler eklendi"
+
+msgctxt "SoundsSettings|"
+msgid "Downloads completed"
+msgstr "İndirmeler tamamlandı"
+
+msgctxt "SoundsSettings|"
+msgid "Downloads failed"
+msgstr "İndirmeler başarısız"
+
+msgctxt "SoundsSettings|"
+msgid "No active downloads"
+msgstr "Aktif indirmeler yok"
+
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
 msgstr "Uyarı: potansiyel güvenlik riski"
@@ -2730,18 +3570,6 @@ msgid "Queued"
 msgstr "Sıraya alındı"
 
 msgctxt "StatusItem|"
-msgid "Moving... %1%"
-msgstr "Taşınıyor... %1%"
-
-msgctxt "StatusItem|"
-msgid "Converting to mp3..."
-msgstr "Mp3'e çevriliyor..."
-
-msgctxt "StatusItem|"
-msgid "Checking for viruses..."
-msgstr "Virüs için kontrol ediliyor..."
-
-msgctxt "StatusItem|"
 msgid "Unknown file size"
 msgstr "Bilinmeyen dosya boyutu"
 
@@ -2781,9 +3609,13 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr "Aşağıdaki indirme(ler) duraklatıldıktan sonra devam edemez"
 
-msgctxt "TagColorDialog|"
-msgid "Remove tag"
-msgstr "Etiketi kaldır"
+msgctxt "Subtitles|"
+msgid "Download subtitles"
+msgstr "Alt yazıları indir"
+
+msgctxt "Subtitles|"
+msgid "Edit list"
+msgstr "Listeyi düzenle"
 
 msgctxt "TagMenu|"
 msgid "Edit"
@@ -2796,6 +3628,18 @@ msgstr "Kaldır"
 msgctxt "TagPalette|"
 msgid "Customize color"
 msgstr "Rengi özelleştir"
+
+msgctxt "ThemeComboBox|"
+msgid "System"
+msgstr "Sistem"
+
+msgctxt "ThemeComboBox|"
+msgid "Light"
+msgstr "Açık"
+
+msgctxt "ThemeComboBox|"
+msgid "Dark"
+msgstr "Koyu"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -2851,7 +3695,7 @@ msgstr "KB/s"
 
 msgctxt "TumComboBox|"
 msgid "unlimited"
-msgstr ""
+msgstr "limitsiz"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
@@ -2928,6 +3772,10 @@ msgstr "Şuraya kaydet"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "Dosya adı"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "No write access to the selected directory"
+msgstr "Seçili dizine yazma izni yok"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
@@ -3054,9 +3902,9 @@ msgid "Refresh"
 msgstr "Yinele"
 
 msgctxt "main|"
-msgid "Move"
-msgstr "Taşı"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr ""
 
 msgctxt "main|"
-msgid "Cancel"
-msgstr "İptal"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr ""

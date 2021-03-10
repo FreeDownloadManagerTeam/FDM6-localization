@@ -13,7 +13,7 @@ msgid "About"
 msgstr ""
 
 msgctxt "AboutDialog|"
-msgid "<a href='%1'>%2</a> version %3"
+msgid "version %1"
 msgstr ""
 
 msgctxt "AboutDialog|"
@@ -86,7 +86,15 @@ msgstr ""
 "Notifică-mă asupra proceselor de descărcare complete via Notification Center"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Customize sounds"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
@@ -118,6 +126,31 @@ msgid "Backup the list of downloads every"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
+msgid "File exists reaction"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Rename"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Overwrite"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Use sounds"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid ""
+"Do not allow downloads to perform post finished tasks when running on battery"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Do not allow downloads if battery level drops below"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Delete button action"
 msgstr "Acțiune buton de ștergere"
 
@@ -137,6 +170,14 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr ""
 
+msgctxt "AdvancedSettings|"
+msgid "Choose theme"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr ""
+
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
 msgstr ""
@@ -150,10 +191,7 @@ msgid "Select antivirus:"
 msgstr ""
 
 msgctxt "AntivirusSettings|"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
+msgid "Is your antivirus not listed?"
 msgstr ""
 
 msgctxt "AntivirusSettings|"
@@ -191,6 +229,30 @@ msgstr ""
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Anulează"
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr ""
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr ""
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -364,7 +426,6 @@ msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr ""
 
-
 msgctxt "Browser|"
 msgid "Enter URL"
 msgstr ""
@@ -504,6 +565,10 @@ msgid "Add download"
 msgstr "Adaugă descărcare"
 
 msgctxt "BuildDownloadDialog|"
+msgid "Report problem"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
 msgstr "Anulează"
 
@@ -528,6 +593,10 @@ msgid "OK"
 msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
+msgid "Report problem"
+msgstr ""
+
+msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
 msgstr ""
 
@@ -549,6 +618,10 @@ msgstr ""
 
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "No write access to the selected directory"
 msgstr ""
 
 msgctxt "ButtonsBlock|"
@@ -615,7 +688,6 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Start download"
 
-
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr ""
@@ -632,80 +704,16 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr ""
 
-msgctxt "ConvertationDialog|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "Save to"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "Open"
-msgstr "Deschis"
-
-msgctxt "ConvertationDialog|"
-msgid "Cancel"
-msgstr "Anulează"
-
-msgctxt "ConvertationDialog|"
-msgid "Bitrate (quality)"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "Constant bitrate of value"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "Variable bitrate (VBR)"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "The path contains invalid characters"
-msgstr ""
-
-msgctxt "ConvertationDialog|"
-msgid "OK"
-msgstr "OK"
-
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "OK"
-msgstr "OK"
-
-msgctxt "ConvertationPage|"
-msgid "Save to"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "The path contains invalid characters"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "Bitrate (quality)"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "Constant bitrate of value"
-msgstr ""
-
-msgctxt "ConvertationPage|"
-msgid "Variable bitrate (VBR)"
-msgstr ""
-
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "Copia link-ul"
 
 msgctxt "CopyMenu|"
 msgid "Copy"
+msgstr ""
+
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
 msgstr ""
 
 msgctxt "CrashReporter|"
@@ -789,6 +797,54 @@ msgctxt "CreatePortableDialog|"
 msgid "Close"
 msgstr "Închide"
 
+msgctxt "CustomizeSoundsDialog|"
+msgid "Customize sounds"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Event"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Sound file"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No sound"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads added"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads completed"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads failed"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No active downloads"
+msgstr "Nu exist[ procese de descărcare active"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Set sound"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Remove"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Test"
+msgstr ""
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Close"
+msgstr "Închide"
+
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
 msgstr "Șterge procesele de descărcare selectate"
@@ -837,12 +893,120 @@ msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
 msgstr "Anulează"
 
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Download deleting failed"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Try again"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore all"
+msgstr ""
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Abort"
+msgstr ""
+
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr ""
 
 msgctxt "DiskSpace|"
 msgid "Size: %1"
+msgstr ""
+
+msgctxt "DockUploadSpeedSetting|"
+msgid "Show total upload speed in the Dock icon"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Saved in"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "File size"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Resume support"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Yes"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "No"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Downloaded"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Speed"
+msgstr "Viteză"
+
+msgctxt "DownloadWindow|"
+msgid "Time remaining"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Open download when it is completed"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Close this window when the download is completed or stopped"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Hide"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Show In Folder"
+msgstr "Arată în folder"
+
+msgctxt "DownloadWindow|"
+msgid "Open"
+msgstr "Deschis"
+
+msgctxt "DownloadWindow|"
+msgid "Stop"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Start"
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
+msgid "Moving..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
+msgid "Checking for viruses..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp3..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp4..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash..."
 msgstr ""
 
 msgctxt "DownloadsItemTools|"
@@ -852,7 +1016,6 @@ msgstr "Dosar is misiune"
 msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr ""
-
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
@@ -898,6 +1061,62 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr ""
 
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr "Începe descărcarea fără confirmare"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr "Sugerați directoare în funcție de tipul fișierului"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "Sugerați setări bazate pe adresa URL de descărcare"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Ratio"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
+msgstr ""
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr ""
@@ -926,6 +1145,11 @@ msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "Prioritate"
 
+msgctxt "DownloadsViewItem|"
+msgid "Upload paused"
+msgstr ""
+
+
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
 msgstr "Restart"
@@ -937,6 +1161,10 @@ msgstr "Deschis"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show In Folder"
 msgstr "Arată în folder"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Report problem"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -983,8 +1211,20 @@ msgid "Add mirror"
 msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Open download page"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "Copia link-ul"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Check for update"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Export selected downloads"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
@@ -1004,6 +1244,10 @@ msgstr "Schimbarea URL-ul"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Convert to mp4"
 msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
@@ -1035,15 +1279,7 @@ msgid "Download complete"
 msgstr "Descarcă complet"
 
 msgctxt "DownloadsViewItemFileInfo|"
-msgid "Moving... %1%"
-msgstr ""
-
-msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
-msgstr ""
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp3..."
 msgstr ""
 
 msgctxt "DownloadsViewItemFileInfo|"
@@ -1066,7 +1302,6 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Dimensiune necunoscută a fișierului"
 
-
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files..."
 msgstr ""
@@ -1078,18 +1313,6 @@ msgstr ""
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "În așteptare"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Moving... %1%"
-msgstr ""
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp3..."
-msgstr ""
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Checking for viruses..."
-msgstr ""
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1106,6 +1329,123 @@ msgstr "Pauzat"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Complete"
+
+msgctxt "EditTagDialog|"
+msgid "Edit tag"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid "Extensions (e.g. \"avi mp3\")"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid ""
+"Extensions that are automatically assigned with this tag for new downloads"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid "Open"
+msgstr "Deschis"
+
+msgctxt "EditTagDialog|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "EditTagDialog|"
+msgid "Macros"
+msgstr ""
+
+msgctxt "EditTagDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Rename"
+msgstr ""
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Overwrite"
+msgstr ""
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Always ask"
+msgstr "Întreabă întotdeauna"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export selected downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export all downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Save to"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Open"
+msgstr "Deschis"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "All files (%1)"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export only completed downloads"
+msgstr ""
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "%1 downloads files (%2)"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Default format"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "List of URLs"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Text files (%1)"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV file"
+msgstr ""
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV files (%1)"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "Export"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "ExportSettingsDialog|"
+msgid "%1 settings files (%2)"
+msgstr ""
+
+msgctxt "ExportSettingsDialog|"
+msgid "All files (%1)"
+msgstr ""
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1227,6 +1567,26 @@ msgctxt "FileType|"
 msgid "Preferred File Type:"
 msgstr ""
 
+msgctxt "FilesExistsDialog|"
+msgid "Warning: file exists already"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Remember my choice for all downloads"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Rename (%1)"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Overwrite"
+msgstr ""
+
+msgctxt "FilesExistsDialog|"
+msgid "Abort"
+msgstr ""
+
 msgctxt "FilesTree|"
 msgid "Name"
 msgstr "Nume"
@@ -1299,6 +1659,18 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
 msgstr ""
 
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert video to mp4"
+msgstr ""
+
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert to mp4"
+msgstr ""
+
+msgctxt "FixedDownloadFolderCombobox|"
+msgid "Macros"
+msgstr ""
+
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "General"
@@ -1308,22 +1680,7 @@ msgid "Choose theme"
 msgstr ""
 
 msgctxt "GeneralSettings|"
-msgid "Light"
-msgstr ""
-
-msgctxt "GeneralSettings|"
-msgid "Dark"
-msgstr ""
-
-msgctxt "GeneralSettings|"
 msgid "Language"
-msgstr ""
-
-msgctxt "GeneralSettings|"
-msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
 msgstr ""
 
 msgctxt "GeneralSettings|"
@@ -1335,11 +1692,51 @@ msgid "Suggest folders based on file type"
 msgstr "Sugerați directoare în funcție de tipul fișierului"
 
 msgctxt "GeneralSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Your language is not listed or the translation isn't complete?"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Let's fix it!"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
 msgstr "Sugerați setări bazate pe adresa URL de descărcare"
 
 msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr "Deschis"
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Enable standalone downloads windows"
 msgstr ""
 
 msgctxt "GeneralSettings|"
@@ -1351,7 +1748,15 @@ msgid "Automatically remove completed downloads from download list"
 msgstr ""
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Maximum urls count in batch download"
 msgstr ""
 
 msgctxt "GeneralSettings|"
@@ -1367,17 +1772,12 @@ msgid "Install updates automatically"
 msgstr "Instalați automat actualizări"
 
 msgctxt "GeneralSettings|"
-msgid "Dark theme"
-msgstr ""
-
-msgctxt "GeneralSettings|"
-msgid "Start downloading without confirmation"
-msgstr "Începe descărcarea fără confirmare"
-
-msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr ""
 
+msgctxt "GeneralTab|"
+msgid "State"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1386,6 +1786,14 @@ msgstr "Dimensiunea totală:"
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "Descărcat:"
+
+msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -1427,6 +1835,62 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr ""
 
+msgctxt "ImportDialog|"
+msgid "Import"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "ImportDialog|"
+msgid "All files (%1)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "Text files (%1)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "%1 downloads files (%2)"
+msgstr ""
+
+msgctxt "ImportDialog|"
+msgid "%1 settings files (%2)"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Error: %1"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import the list of URLs from the file: %1"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to export"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to export to the file: %1"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to import"
+msgstr ""
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import from the file: %1"
+msgstr ""
+
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
 msgstr "Setează ca predefinit"
@@ -1460,6 +1924,10 @@ msgid "About"
 msgstr ""
 
 msgctxt "LeftDrawer|"
+msgid "Quit"
+msgstr "Renunță"
+
+msgctxt "LeftDrawer|"
 msgid "Add new download"
 msgstr ""
 
@@ -1469,6 +1937,34 @@ msgstr "Adaugă"
 
 msgctxt "ListEditor|"
 msgid "Hide"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr ""
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
 msgstr ""
 
 msgctxt "MainFiltersBar|"
@@ -1483,8 +1979,36 @@ msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "Terminat"
 
+msgctxt "MainFiltersBar|"
+msgid "OK to remove tag?"
+msgstr ""
+
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Paste Urls from File"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export/Import"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export all downloads"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Import downloads"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Export settings"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Import settings"
 msgstr ""
 
 msgctxt "MainMenu|"
@@ -1518,6 +2042,10 @@ msgstr ""
 msgctxt "MainMenu|"
 msgid "Check for Updates..."
 msgstr "A verifica pentru Updates..."
+
+msgctxt "MainMenu|"
+msgid "Join the %1 mosaic..."
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -1608,6 +2136,10 @@ msgid "CANCEL"
 msgstr "Anulează"
 
 msgctxt "MaxURatioComboBox|"
+msgid "Invalid value"
+msgstr ""
+
+msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
 msgstr ""
 
@@ -1636,12 +2168,40 @@ msgid "Skip"
 msgstr "Skip"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "OK"
-msgstr "OK"
+msgid "Skip all (%1)"
+msgstr ""
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
 msgstr "Descarcă"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Mobile data usage"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Waiting for Wi-Fi to start download."
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Would you like to enable usage of mobile data? *"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Don't ask again"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Yes"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "No"
+msgstr ""
+
+msgctxt "MobileDataUsageDialog|"
+msgid "* additional charges may apply"
+msgstr ""
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
@@ -1670,6 +2230,118 @@ msgstr ""
 msgctxt "MovingFailedDialog|"
 msgid "Cancel"
 msgstr "Anulează"
+
+msgctxt "MovingFolderDialog|"
+msgid "Move"
+msgstr "Muta"
+
+msgctxt "MovingFolderDialog|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr ""
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Save to"
+msgstr ""
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Open"
+msgstr "Deschis"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Bitrate (quality)"
+msgstr ""
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Constant bitrate of value"
+msgstr ""
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Variable bitrate (VBR)"
+msgstr ""
+
+msgctxt "Mp3ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr ""
+
+msgctxt "Mp3ConverterDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3"
+msgstr ""
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr ""
+
+msgctxt "Mp3ConverterPage|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Save to"
+msgstr ""
+
+msgctxt "Mp3ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr ""
+
+msgctxt "Mp3ConverterPage|"
+msgid "Bitrate (quality)"
+msgstr ""
+
+msgctxt "Mp3ConverterPage|"
+msgid "Constant bitrate of value"
+msgstr ""
+
+msgctxt "Mp3ConverterPage|"
+msgid "Variable bitrate (VBR)"
+msgstr ""
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Convert to mp4"
+msgstr ""
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Save to"
+msgstr ""
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Open"
+msgstr "Deschis"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr ""
+
+msgctxt "Mp4ConverterDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Convert to mp4"
+msgstr ""
+
+msgctxt "Mp4ConverterPage|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Save to"
+msgstr ""
 
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
@@ -1832,6 +2504,10 @@ msgid "CANCEL"
 msgstr "Anulează"
 
 msgctxt "NetworkSpeedLimitComboBox|"
+msgid "Invalid value"
+msgstr ""
+
+msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr ""
 
@@ -1856,20 +2532,35 @@ msgid "Video"
 msgstr ""
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "Low (240p)"
+msgid "Lowest"
 msgstr ""
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "Medium (480p)"
+msgid "Highest"
 msgstr ""
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "High (1080p)"
+msgctxt "PrivacyDialog|"
+msgid "User agreement"
 msgstr ""
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "4K (2160p)"
+msgctxt "PrivacyDialog|"
+msgid ""
+"A bug report will be sent to the server and used to improve %1 performance. "
+"We do not collect your personal data and do not share data with third "
+"parties."
 msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid "I agree (do not show it again)"
+msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid "Send report"
+msgstr ""
+
+msgctxt "PrivacyDialog|"
+msgid "Cancel"
+msgstr "Anulează"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -1914,6 +2605,10 @@ msgid "Enter URL"
 msgstr ""
 
 msgctxt "QObject|"
+msgid "Sorry this device is not supported by %1."
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr ""
 
@@ -1942,6 +2637,26 @@ msgid "Quit"
 msgstr "Renunță"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
@@ -1950,11 +2665,27 @@ msgid "%1 M"
 msgstr "%1 M"
 
 msgctxt "QObject|"
+msgid "%1 G"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Download complete"
 msgstr "Descarcă complet"
 
 msgctxt "QObject|"
 msgid "Downloads complete"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloads failed"
 msgstr ""
 
 msgctxt "QObject|"
@@ -2234,6 +2965,10 @@ msgid "Invalid parameter"
 msgstr ""
 
 msgctxt "QObject|"
+msgid "Unsupported format"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr ""
 
@@ -2406,6 +3141,70 @@ msgctxt "QObject|"
 msgid "Update URL"
 msgstr ""
 
+msgctxt "QObject|"
+msgid "Documents"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Upload paused"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Remote resource changed"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Always re-download"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Re-download"
+msgstr ""
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "ReportSentDialog|"
+msgid "Report problem"
+msgstr ""
+
+msgctxt "ReportSentDialog|"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr ""
+
+msgctxt "ReportSentDialog|"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr ""
+
+msgctxt "ReportSentDialog|"
+msgid "OK"
+msgstr "OK"
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr ""
@@ -2563,6 +3362,10 @@ msgid "Descending"
 msgstr ""
 
 msgctxt "SettingsPage|"
+msgid "Invalid settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid ". Close anyway?"
 msgstr ""
 
@@ -2599,6 +3402,10 @@ msgid "Settings"
 msgstr "Setări"
 
 msgctxt "SettingsPage|"
+msgid "Downloads settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Network settings"
 msgstr ""
 
@@ -2607,16 +3414,12 @@ msgid "Traffic limits"
 msgstr "Limite de trafic"
 
 msgctxt "SettingsPage|"
-msgid "Advanced settings"
+msgid "Sounds settings"
 msgstr ""
 
-
-
-
-
-
-
-
+msgctxt "SettingsPage|"
+msgid "Advanced settings"
+msgstr ""
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -2672,6 +3475,30 @@ msgctxt "SortTools|"
 msgid "By size"
 msgstr ""
 
+msgctxt "SoundsSettings|"
+msgid "Sounds settings"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Use sounds"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads added"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads completed"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "Downloads failed"
+msgstr ""
+
+msgctxt "SoundsSettings|"
+msgid "No active downloads"
+msgstr "Nu exist[ procese de descărcare active"
+
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
 msgstr ""
@@ -2721,18 +3548,6 @@ msgid "Queued"
 msgstr "În așteptare"
 
 msgctxt "StatusItem|"
-msgid "Moving... %1%"
-msgstr ""
-
-msgctxt "StatusItem|"
-msgid "Converting to mp3..."
-msgstr ""
-
-msgctxt "StatusItem|"
-msgid "Checking for viruses..."
-msgstr ""
-
-msgctxt "StatusItem|"
 msgid "Unknown file size"
 msgstr "Dimensiune necunoscută a fișierului"
 
@@ -2772,8 +3587,12 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr ""
 
-msgctxt "TagColorDialog|"
-msgid "Remove tag"
+msgctxt "Subtitles|"
+msgid "Download subtitles"
+msgstr ""
+
+msgctxt "Subtitles|"
+msgid "Edit list"
 msgstr ""
 
 msgctxt "TagMenu|"
@@ -2786,6 +3605,18 @@ msgstr ""
 
 msgctxt "TagPalette|"
 msgid "Customize color"
+msgstr ""
+
+msgctxt "ThemeComboBox|"
+msgid "System"
+msgstr ""
+
+msgctxt "ThemeComboBox|"
+msgid "Light"
+msgstr ""
+
+msgctxt "ThemeComboBox|"
+msgid "Dark"
 msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
@@ -2921,6 +3752,10 @@ msgid "File name"
 msgstr "Nume fisier"
 
 msgctxt "TuneAndAddDownloadPage|"
+msgid "No write access to the selected directory"
+msgstr ""
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr ""
 
@@ -3045,9 +3880,9 @@ msgid "Refresh"
 msgstr ""
 
 msgctxt "main|"
-msgid "Move"
-msgstr "Muta"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr ""
 
 msgctxt "main|"
-msgid "Cancel"
-msgstr "Anulează"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr ""
