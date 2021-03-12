@@ -229,6 +229,30 @@ msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Άκυρο"
 
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr ""
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr ""
+
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr ""
@@ -679,13 +703,6 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr ""
 
-
-
-
-
-
-
-
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "Αντιγραφή σύνδεσης"
@@ -693,6 +710,10 @@ msgstr "Αντιγραφή σύνδεσης"
 msgctxt "CopyMenu|"
 msgid "Copy"
 msgstr "Αντιγραφή"
+
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
+msgstr ""
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -968,6 +989,26 @@ msgid "Start"
 msgstr ""
 
 msgctxt "DownloadsItemTools|"
+msgid "Moving..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
+msgid "Checking for viruses..."
+msgstr "Έλεγχος για ιούς..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp3..."
+msgstr "Μετατροπή σε mp3..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp4..."
+msgstr "Μετατροπή σε mp4..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "Το αρχείο λείπει"
 
@@ -1063,6 +1104,18 @@ msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr ""
 
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Ratio"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
+msgstr ""
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr ""
@@ -1090,6 +1143,10 @@ msgstr "Προστέθηκε"
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "Προτεραιότητα"
+
+msgctxt "DownloadsViewItem|"
+msgid "Upload paused"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1220,20 +1277,8 @@ msgid "Download complete"
 msgstr "Η λήψη ολοκληρώθηκε"
 
 msgctxt "DownloadsViewItemFileInfo|"
-msgid "Moving... %1%"
-msgstr "Μετακίνηση... %1%"
-
-msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "Έλεγχος αρχείων..."
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp3..."
-msgstr "Μετατροπή σε mp3..."
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp4..."
-msgstr "Μετατροπή σε mp3... {4.?}"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1266,22 +1311,6 @@ msgstr ""
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "Σε ουρά"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Moving... %1%"
-msgstr "Μετακίνηση... %1%"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp3..."
-msgstr "Μετατροπή σε mp3..."
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp4..."
-msgstr "Μετατροπή σε mp3... {4.?}"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Checking for viruses..."
-msgstr "Έλεγχος για ιούς..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1334,7 +1363,7 @@ msgstr "OK"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Rename"
-msgstr ""
+msgstr "Μετονομασία"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Overwrite"
@@ -1745,12 +1774,24 @@ msgid "Use mobile network"
 msgstr ""
 
 msgctxt "GeneralTab|"
+msgid "State"
+msgstr ""
+
+msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "Συνολικό μέγεθος:"
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "Κατέβηκε:"
+
+msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -2486,9 +2527,6 @@ msgctxt "PreferredFileTypeCombobox|"
 msgid "Video"
 msgstr "Βίντεο"
 
-
-
-
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Lowest"
 msgstr ""
@@ -2597,12 +2635,40 @@ msgid "Quit"
 msgstr "Έξοδος"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
+
+msgctxt "QObject|"
+msgid "%1 G"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3089,6 +3155,22 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr ""
 
+msgctxt "QObject|"
+msgid "Upload paused"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "Άκυρο"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr ""
@@ -3460,22 +3542,6 @@ msgstr ""
 msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "Σε ουρά"
-
-msgctxt "StatusItem|"
-msgid "Moving... %1%"
-msgstr "Μετακίνηση... %1%"
-
-msgctxt "StatusItem|"
-msgid "Converting to mp3..."
-msgstr "Μετατροπή σε mp3..."
-
-msgctxt "StatusItem|"
-msgid "Converting to mp4..."
-msgstr "Μετατροπή σε mp3... {4.?}"
-
-msgctxt "StatusItem|"
-msgid "Checking for viruses..."
-msgstr "Έλεγχος για ιούς..."
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"

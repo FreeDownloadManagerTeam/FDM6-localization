@@ -107,7 +107,7 @@ msgstr "Не переводить компьютер в режим сна при
 msgctxt "AdvancedSettings|"
 msgid "Enable sleep mode while running finished downloads"
 msgstr ""
-"Разрешить перевод компьютера в спящий режим при отдаче завершенных загрузок"
+"Разрешить перевод компьютера в спящий режим при раздаче завершенных загрузок"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -231,6 +231,30 @@ msgstr "Перейти к настройкам"
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Отменить"
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr "Невозобновляемые загрузки (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr "Перенос файлов (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr "Конвертация файлов в mp3 (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr "Конвертация файлов в mp4 (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr "Объединение мультимедийных потоков (%1)."
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr "Выполняются операции, которые не могут быть возобновлены"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -692,23 +716,6 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "Количество соединений"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "Копировать ссылку"
@@ -716,6 +723,10 @@ msgstr "Копировать ссылку"
 msgctxt "CopyMenu|"
 msgid "Copy"
 msgstr "Копировать"
+
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
+msgstr "Вы уверены, что хотите выйти?"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -930,7 +941,7 @@ msgstr "Размер: %1"
 
 msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
-msgstr "Показывать общую скорость загрузки на иконке в доке"
+msgstr "Показывать общую скорость раздачи на иконке в доке"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
@@ -995,6 +1006,26 @@ msgstr "Остановить"
 msgctxt "DownloadWindow|"
 msgid "Start"
 msgstr "Начать"
+
+msgctxt "DownloadsItemTools|"
+msgid "Moving..."
+msgstr "Перемещение..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Checking for viruses..."
+msgstr "Проверка на вирусы..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp3..."
+msgstr "Конвертация в mp3..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp4..."
+msgstr "Конвертация в mp4..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash..."
+msgstr "Подсчет хэша..."
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
@@ -1092,6 +1123,18 @@ msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "Предлагать фиксированную папку для сохранения"
 
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr "Выгружено"
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Ratio"
+msgstr "Ратио"
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
+msgstr "готово"
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "Удалить тег"
@@ -1119,6 +1162,10 @@ msgstr "Добавлено"
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "Приоритет"
+
+msgctxt "DownloadsViewItem|"
+msgid "Upload paused"
+msgstr "Раздача остановлена"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1249,20 +1296,8 @@ msgid "Download complete"
 msgstr "Загрузка завершена"
 
 msgctxt "DownloadsViewItemFileInfo|"
-msgid "Moving... %1%"
-msgstr "Перемещение... %1%"
-
-msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "Проверка файлов..."
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp3..."
-msgstr "Конвертация в mp3"
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp4..."
-msgstr "Конвертация в mp3 {4.?}"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1295,22 +1330,6 @@ msgstr "Слияние медиа потоков..."
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "В очереди"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Moving... %1%"
-msgstr "Перемещение... %1%"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp3..."
-msgstr "Конвертация в mp3"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp4..."
-msgstr "Конвертация в mp3 {4.?}"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Checking for viruses..."
-msgstr "Проверка на вирусы..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1775,6 +1794,10 @@ msgid "Use mobile network"
 msgstr "Используется мобильный Интернет"
 
 msgctxt "GeneralTab|"
+msgid "State"
+msgstr "Состояние"
+
+msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "Общий размер:"
 
@@ -1783,12 +1806,20 @@ msgid "Downloaded:"
 msgstr "Загружено:"
 
 msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr "Выгружено"
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr "ратио"
+
+msgctxt "GeneralTab|"
 msgid "Download speed:"
 msgstr "Скорость загрузки:"
 
 msgctxt "GeneralTab|"
 msgid "Upload speed:"
-msgstr "Скорость отдачи:"
+msgstr "Скорость раздачи:"
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
@@ -2517,9 +2548,6 @@ msgctxt "PreferredFileTypeCombobox|"
 msgid "Video"
 msgstr "Видео"
 
-
-
-
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Lowest"
 msgstr "Самое низкое"
@@ -2531,7 +2559,6 @@ msgstr "Самое высокое"
 msgctxt "PrivacyDialog|"
 msgid "User agreement"
 msgstr "Пользовательское соглашение"
-
 
 msgctxt "PrivacyDialog|"
 msgid ""
@@ -2631,12 +2658,40 @@ msgid "Quit"
 msgstr "Выход"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
+
+msgctxt "QObject|"
+msgid "%1 G"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3126,6 +3181,22 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "Разное"
 
+msgctxt "QObject|"
+msgid "Upload paused"
+msgstr "Раздача остановлена"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr "Вы уверены, что хотите выйти?"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr "Удаленный ресурс изменен"
@@ -3500,22 +3571,6 @@ msgid "Queued"
 msgstr "В очереди"
 
 msgctxt "StatusItem|"
-msgid "Moving... %1%"
-msgstr "Перемещение... %1%"
-
-msgctxt "StatusItem|"
-msgid "Converting to mp3..."
-msgstr "Конвертация в mp3"
-
-msgctxt "StatusItem|"
-msgid "Converting to mp4..."
-msgstr "Конвертация в mp3 {4.?}"
-
-msgctxt "StatusItem|"
-msgid "Checking for viruses..."
-msgstr "Проверка на вирусы..."
-
-msgctxt "StatusItem|"
 msgid "Unknown file size"
 msgstr "Неизвестен размер файла"
 
@@ -3609,7 +3664,7 @@ msgstr "Скорость загрузки"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Upload speed"
-msgstr "Скорость отдачи"
+msgstr "Скорость раздачи"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections"
@@ -3645,7 +3700,7 @@ msgstr "без ограничений"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
-msgstr "Загрузка: %1, Отдача: %2"
+msgstr "Загрузка: %1, Раздача: %2"
 
 msgctxt "TumComboBox|"
 msgid "High"

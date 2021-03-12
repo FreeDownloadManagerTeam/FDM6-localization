@@ -233,6 +233,30 @@ msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Hủy"
 
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr ""
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr ""
+
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr ""
@@ -683,17 +707,6 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "Số lượng kết nối"
 
-
-
-
-
-
-
-
-
-
-
-
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "Sao chép đường dẫn"
@@ -701,6 +714,10 @@ msgstr "Sao chép đường dẫn"
 msgctxt "CopyMenu|"
 msgid "Copy"
 msgstr "Sao chép"
+
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
+msgstr ""
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -976,6 +993,26 @@ msgid "Start"
 msgstr ""
 
 msgctxt "DownloadsItemTools|"
+msgid "Moving..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
+msgid "Checking for viruses..."
+msgstr "Đang quét virus..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp3..."
+msgstr "Đang chuyển đổi sang mp3..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp4..."
+msgstr "Đang chuyển đổi sang mp4..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "Thiếu tệp tin"
 
@@ -1071,6 +1108,18 @@ msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr ""
 
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Ratio"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
+msgstr ""
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "Bỏ tag"
@@ -1098,6 +1147,10 @@ msgstr "Thêm"
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "Sự ưu tiên"
+
+msgctxt "DownloadsViewItem|"
+msgid "Upload paused"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1228,20 +1281,8 @@ msgid "Download complete"
 msgstr "Hoàn thành tải xuống"
 
 msgctxt "DownloadsViewItemFileInfo|"
-msgid "Moving... %1%"
-msgstr "Đang di chuyển... %1%"
-
-msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "Đang kiểm tra tệp..."
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp3..."
-msgstr "Đang chuyển đổi sang tệp mp3..."
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp4..."
-msgstr "Đang chuyển đổi sang mp3... {4.?}"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1274,22 +1315,6 @@ msgstr ""
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "Đã xếp hàng"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Moving... %1%"
-msgstr "Đang di chuyển... %1%"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp3..."
-msgstr ""
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp4..."
-msgstr "Đang chuyển đổi sang mp3... {4.?}"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Checking for viruses..."
-msgstr "Đang quét virus..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1755,12 +1780,24 @@ msgid "Use mobile network"
 msgstr "Dùng mạng di dộng"
 
 msgctxt "GeneralTab|"
+msgid "State"
+msgstr ""
+
+msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "Tổng kích thước:"
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "Đã tải xuống:"
+
+msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -2241,7 +2278,7 @@ msgstr "Đồng ý"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Convert to mp3"
-msgstr ""
+msgstr "Chuyển đổi thành tệp mp3"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Convert to mp3 with adjustable bitrate"
@@ -2495,9 +2532,6 @@ msgctxt "PreferredFileTypeCombobox|"
 msgid "Video"
 msgstr "Video"
 
-
-
-
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Lowest"
 msgstr ""
@@ -2604,12 +2638,40 @@ msgid "Quit"
 msgstr "Thoát"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
+
+msgctxt "QObject|"
+msgid "%1 G"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3096,6 +3158,22 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr ""
 
+msgctxt "QObject|"
+msgid "Upload paused"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "Đồng ý"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "Hủy"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr ""
@@ -3468,22 +3546,6 @@ msgstr ""
 msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "Đã xếp hàng"
-
-msgctxt "StatusItem|"
-msgid "Moving... %1%"
-msgstr "Đang chuyển... %1%"
-
-msgctxt "StatusItem|"
-msgid "Converting to mp3..."
-msgstr "Đang chuyển đổi sang mp3..."
-
-msgctxt "StatusItem|"
-msgid "Converting to mp4..."
-msgstr "Đang chuyển đổi sang mp3... {4.?}"
-
-msgctxt "StatusItem|"
-msgid "Checking for viruses..."
-msgstr "Đang quét virus..."
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"

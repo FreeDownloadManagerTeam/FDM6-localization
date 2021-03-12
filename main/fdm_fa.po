@@ -229,6 +229,30 @@ msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "انصراف"
 
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr ""
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr ""
+
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "احراز هویت الزامی است"
@@ -689,23 +713,6 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "تعداد ارتباط"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "کپی کردن لینک"
@@ -713,6 +720,10 @@ msgstr "کپی کردن لینک"
 msgctxt "CopyMenu|"
 msgid "Copy"
 msgstr "کپی کردن"
+
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
+msgstr ""
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -994,6 +1005,26 @@ msgid "Start"
 msgstr ""
 
 msgctxt "DownloadsItemTools|"
+msgid "Moving..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
+msgid "Checking for viruses..."
+msgstr "در حال بررسی برای ویروس ها..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp3..."
+msgstr "در حال تبدیل به mp3..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp4..."
+msgstr "در حال تبدیل به mp4..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "فایل موجود نیست"
 
@@ -1089,6 +1120,18 @@ msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "پوشه پیش فرض دانلود تصحیح شد"
 
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Ratio"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
+msgstr ""
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "بدون برچسب"
@@ -1116,6 +1159,10 @@ msgstr "اضافه شده"
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "اولویت"
+
+msgctxt "DownloadsViewItem|"
+msgid "Upload paused"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1246,20 +1293,8 @@ msgid "Download complete"
 msgstr "دانلود انجام شد"
 
 msgctxt "DownloadsViewItemFileInfo|"
-msgid "Moving... %1%"
-msgstr "در حال انتقال… %1%"
-
-msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "در حال بررسی فایل ها..."
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp3..."
-msgstr "در حال تبدیل به mp3..."
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp4..."
-msgstr "در حال تبدیل به mp3... {4.?}"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1292,22 +1327,6 @@ msgstr "ادغام جریان رسانه..."
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "صف شده"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Moving... %1%"
-msgstr "در حال انتقال… %1%"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp3..."
-msgstr "در حال تبدیل به mp3..."
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp4..."
-msgstr "در حال تبدیل به mp3... {4.?}"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Checking for viruses..."
-msgstr "در حال بررسی برای ویروس ها..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1771,12 +1790,24 @@ msgid "Use mobile network"
 msgstr "استفاده از شبکه موبایل"
 
 msgctxt "GeneralTab|"
+msgid "State"
+msgstr ""
+
+msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "حجم کل:"
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "دانلود شده:"
+
+msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -2511,9 +2542,6 @@ msgctxt "PreferredFileTypeCombobox|"
 msgid "Video"
 msgstr "ویدیو"
 
-
-
-
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Lowest"
 msgstr ""
@@ -2622,12 +2650,40 @@ msgid "Quit"
 msgstr "خروج"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "‏%1 K"
 
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "‏%1 M"
+
+msgctxt "QObject|"
+msgid "%1 G"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3119,6 +3175,22 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "متفرقه"
 
+msgctxt "QObject|"
+msgid "Upload paused"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "تایید"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "انصراف"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr ""
@@ -3490,22 +3562,6 @@ msgstr "ادغام جریان رسانه ها ..."
 msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "صف شده"
-
-msgctxt "StatusItem|"
-msgid "Moving... %1%"
-msgstr "در حال انتقال… %1%"
-
-msgctxt "StatusItem|"
-msgid "Converting to mp3..."
-msgstr "در حال تبدیل به mp3..."
-
-msgctxt "StatusItem|"
-msgid "Converting to mp4..."
-msgstr "در حال تبدیل به mp3... {4.?}"
-
-msgctxt "StatusItem|"
-msgid "Checking for viruses..."
-msgstr "در حال بررسی برای ویروس ها..."
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"

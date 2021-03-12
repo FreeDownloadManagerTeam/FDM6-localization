@@ -7,13 +7,6 @@ msgstr ""
 "X-Language: pt_BR\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Fúlvio Alves <fga.fulvio@gmail.com>\n"
-"Language-Team: \n"
-"Language: pt_BR\n"
-"X-Generator: Poedit 2.4.2\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -240,6 +233,30 @@ msgstr "Ir para configurações"
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Cancelar"
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr ""
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr ""
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -709,6 +726,10 @@ msgctxt "CopyMenu|"
 msgid "Copy"
 msgstr "Copiar"
 
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
@@ -989,6 +1010,26 @@ msgid "Start"
 msgstr "Iniciar"
 
 msgctxt "DownloadsItemTools|"
+msgid "Moving..."
+msgstr "Movendo..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Checking for viruses..."
+msgstr "Checando por vírus..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp3..."
+msgstr "Convertendo para mp3..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp4..."
+msgstr "Convertendo para mp4..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash..."
+msgstr "Calculando hash..."
+
+msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "O Arquivo está faltando"
 
@@ -1084,6 +1125,18 @@ msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "Pasta de download padrão fixa"
 
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Ratio"
+msgstr "Proporção"
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
+msgstr ""
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "Remover Tag"
@@ -1111,6 +1164,10 @@ msgstr "Adicionado"
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "Prioridade"
+
+msgctxt "DownloadsViewItem|"
+msgid "Upload paused"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1241,20 +1298,8 @@ msgid "Download complete"
 msgstr "Download concluído"
 
 msgctxt "DownloadsViewItemFileInfo|"
-msgid "Moving... %1%"
-msgstr "Movendo... %1%"
-
-msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "Checando arquivos..."
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp3..."
-msgstr "Convertendo para mp3..."
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp4..."
-msgstr "Convertendo para mp3... {4.?}"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1287,22 +1332,6 @@ msgstr "Mesclando fluxos de mídia..."
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "Na fila"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Moving... %1%"
-msgstr "Movendo... %1%"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp3..."
-msgstr "Convertendo para mp3..."
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp4..."
-msgstr "Convertendo para mp3... {4.?}"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Checking for viruses..."
-msgstr "Checando por vírus..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1768,12 +1797,24 @@ msgid "Use mobile network"
 msgstr "Use rede móvel"
 
 msgctxt "GeneralTab|"
+msgid "State"
+msgstr ""
+
+msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "Tamanho total:"
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "Baixado:"
+
+msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -2620,12 +2661,40 @@ msgid "Quit"
 msgstr "Fechar"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
+
+msgctxt "QObject|"
+msgid "%1 G"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3116,6 +3185,22 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "Diversos"
 
+msgctxt "QObject|"
+msgid "Upload paused"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "Cancelar"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr "Recurso remoto alterado"
@@ -3489,22 +3574,6 @@ msgstr "Mesclando fluxos de mídia..."
 msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "Na fila"
-
-msgctxt "StatusItem|"
-msgid "Moving... %1%"
-msgstr "Movendo... %1%"
-
-msgctxt "StatusItem|"
-msgid "Converting to mp3..."
-msgstr "Convertendo para mp3..."
-
-msgctxt "StatusItem|"
-msgid "Converting to mp4..."
-msgstr "Convertendo para mp3... {4.?}"
-
-msgctxt "StatusItem|"
-msgid "Checking for viruses..."
-msgstr "Checando por vírus..."
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"

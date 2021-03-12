@@ -229,6 +229,30 @@ msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "取消"
 
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr ""
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr ""
+
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "需要身份验证"
@@ -685,23 +709,6 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "连接数"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "复制链接"
@@ -709,6 +716,10 @@ msgstr "复制链接"
 msgctxt "CopyMenu|"
 msgid "Copy"
 msgstr "复制"
+
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
+msgstr ""
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -984,6 +995,26 @@ msgid "Start"
 msgstr "启动"
 
 msgctxt "DownloadsItemTools|"
+msgid "Moving..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
+msgid "Checking for viruses..."
+msgstr "正在检测病毒..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp3..."
+msgstr "正在转换为 mp3..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp4..."
+msgstr "正在转换为 mp4..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash..."
+msgstr ""
+
+msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "文件丢失"
 
@@ -1079,6 +1110,18 @@ msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "固定默认下载文件夹"
 
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Ratio"
+msgstr ""
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
+msgstr ""
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "取消标签"
@@ -1106,6 +1149,10 @@ msgstr "添加时间"
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "优先级"
+
+msgctxt "DownloadsViewItem|"
+msgid "Upload paused"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1236,20 +1283,8 @@ msgid "Download complete"
 msgstr "下载完成"
 
 msgctxt "DownloadsViewItemFileInfo|"
-msgid "Moving... %1%"
-msgstr "移动中... %1%"
-
-msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "检查文件中..."
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp3..."
-msgstr "正在转换为 mp3..."
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp4..."
-msgstr "正在转换为 mp3... {4.?}"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1282,22 +1317,6 @@ msgstr "合并媒体中..."
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "已排队"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Moving... %1%"
-msgstr "移动中... %1%"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp3..."
-msgstr "正在转换为 mp3..."
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp4..."
-msgstr "正在转换为 mp3... {4.?}"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Checking for viruses..."
-msgstr "正在检测病毒..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1761,12 +1780,24 @@ msgid "Use mobile network"
 msgstr "使用移动网络"
 
 msgctxt "GeneralTab|"
+msgid "State"
+msgstr ""
+
+msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "总计大小："
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "已下载："
+
+msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -2518,9 +2549,7 @@ msgid ""
 "A bug report will be sent to the server and used to improve %1 performance. "
 "We do not collect your personal data and do not share data with third "
 "parties."
-msgstr ""
-"错误报告将会发送到服务器并用于提高 %1 性能。"
-"我们不收集您的个人数据，也不与第三方共享数据。"
+msgstr "错误报告将会发送到服务器并用于提高 %1 性能。我们不收集您的个人数据，也不与第三方共享数据。"
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
@@ -2611,12 +2640,40 @@ msgid "Quit"
 msgstr "退出"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1K"
 
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1M"
+
+msgctxt "QObject|"
+msgid "%1 G"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3106,6 +3163,22 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "其他"
 
+msgctxt "QObject|"
+msgid "Upload paused"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr ""
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "取消"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr "远程资源已改变"
@@ -3477,22 +3550,6 @@ msgstr "合并媒体中..."
 msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "已排队"
-
-msgctxt "StatusItem|"
-msgid "Moving... %1%"
-msgstr "移动中... %1%"
-
-msgctxt "StatusItem|"
-msgid "Converting to mp3..."
-msgstr "正在转换为 mp3..."
-
-msgctxt "StatusItem|"
-msgid "Converting to mp4..."
-msgstr "正在转换为 mp3... {4.?}"
-
-msgctxt "StatusItem|"
-msgid "Checking for viruses..."
-msgstr "正在检测病毒..."
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"

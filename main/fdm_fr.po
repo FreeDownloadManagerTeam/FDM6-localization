@@ -154,6 +154,8 @@ msgstr ""
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr ""
+"Ne pas autoriser de téléchargement si le niveau de la batterie descend en "
+"dessous de"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -181,7 +183,7 @@ msgstr "Choisir un thème"
 
 msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr ""
+msgstr "Si le thème du système est inconnu, un thème clair sera utilisé."
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -205,11 +207,11 @@ msgstr "Chemin:"
 
 msgctxt "AntivirusSettings|"
 msgid "Please enter antivirus path"
-msgstr "Veuillez entre le chemin de l'antivirus"
+msgstr "Veuillez entrer le chemin d’accès de l'antivirus"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments:"
-msgstr "Arguments"
+msgstr "Arguments:"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments must contain %path% variable"
@@ -235,6 +237,30 @@ msgstr "Paramètres"
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Effacer"
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr "Téléchargements sans capacité de reprise (%1)"
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr "Déplacement des fichiers (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr "Conversion des fichiers en mp3 (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr "Conversion des fichiers en mp4 (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr "Fusionnement des flux de média (%1)."
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr "Il y a des opérations en cours qui ne supportent pas la reprise"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -386,7 +412,7 @@ msgstr "Qualité basse"
 
 msgctxt "BitrateComboBox|"
 msgid "Speech"
-msgstr ""
+msgstr "Discours"
 
 msgctxt "BitrateComboBox|"
 msgid "Lowest quality, smallest file size"
@@ -705,6 +731,10 @@ msgctxt "CopyMenu|"
 msgid "Copy"
 msgstr "Copier"
 
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
+msgstr "Etes vous certains de vouloir quitter ?"
+
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
@@ -795,7 +825,7 @@ msgstr "Fermer"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Customize sounds"
-msgstr "Personnaliser les sons."
+msgstr "Personnaliser les sons"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Event"
@@ -919,7 +949,7 @@ msgstr "Taille: %1"
 
 msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
-msgstr ""
+msgstr "Afficher la vitesse de téléversement total dans l’icône du Dock"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
@@ -986,6 +1016,26 @@ msgid "Start"
 msgstr "Démarrer"
 
 msgctxt "DownloadsItemTools|"
+msgid "Moving..."
+msgstr "Déplacement…"
+
+msgctxt "DownloadsItemTools|"
+msgid "Checking for viruses..."
+msgstr "Scan antivirus en cours..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp3..."
+msgstr "Conversion en mp3..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp4..."
+msgstr "Conversion en mp4..."
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash..."
+msgstr "Calcul du hash..."
+
+msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "Le fichier est manquant"
 
@@ -1007,11 +1057,11 @@ msgstr "Ne rien électionner"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
-msgstr "La liste de téléchargement est vide"
+msgstr "La liste de téléchargement est vide."
 
 msgctxt "DownloadsPage|"
 msgid "Add new download URL."
-msgstr "Ajouter un nouveau URL de téléchargement"
+msgstr "Ajouter une nouvelle URL de téléchargement."
 
 msgctxt "DownloadsPage|"
 msgid "No results found for"
@@ -1019,7 +1069,7 @@ msgstr "Pas de résultat trouvé pour"
 
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
-msgstr "Aucun résultat étiquetté « %1 »  trouvé "
+msgstr "Aucun résultat étiquetté \"%1\" trouvé"
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
@@ -1087,6 +1137,18 @@ msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "Dossier de téléchargement par défaut fixe"
 
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Uploaded"
+msgstr "Envoyé"
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "Ratio"
+msgstr "Ratio"
+
+msgctxt "DownloadsSpeedColumnItem|"
+msgid "done"
+msgstr "fait"
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "Ne pas étiquetter"
@@ -1114,6 +1176,10 @@ msgstr "Ajouté"
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "Priorité"
+
+msgctxt "DownloadsViewItem|"
+msgid "Upload paused"
+msgstr "Envoi mis en pause"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1244,24 +1310,12 @@ msgid "Download complete"
 msgstr "Téléchargement complet"
 
 msgctxt "DownloadsViewItemFileInfo|"
-msgid "Moving... %1%"
-msgstr "Déplacement… %1%"
-
-msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "Vérification des fichiers..."
 
 msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp3..."
-msgstr "Conversion en mp3..."
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp4..."
-msgstr "Conversion en mp3... {4.?}"
-
-msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
-msgstr "Fusionnement des flux de média"
+msgstr "Fusionnement des flux de média..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Requesting info..."
@@ -1285,27 +1339,11 @@ msgstr "Vérification des fichiers..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Merging media streams..."
-msgstr "Fusionnement des flux de média"
+msgstr "Fusionnement des flux de média..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "En attente"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Moving... %1%"
-msgstr "Déplacement… %1%"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp3..."
-msgstr "Conversion en mp3..."
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp4..."
-msgstr "Conversion en mp3... {4.?}"
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Checking for viruses..."
-msgstr "Scan antivirus en cours..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info..."
@@ -1329,7 +1367,7 @@ msgstr "Modifier l’étiquette"
 
 msgctxt "EditTagDialog|"
 msgid "Extensions (e.g. \"avi mp3\")"
-msgstr ""
+msgstr "Extensions (ex : \"avi mp3\")"
 
 msgctxt "EditTagDialog|"
 msgid ""
@@ -1352,7 +1390,7 @@ msgstr "Annuler"
 
 msgctxt "EditTagDialog|"
 msgid "Macros"
-msgstr ""
+msgstr "Macros"
 
 msgctxt "EditTagDialog|"
 msgid "OK"
@@ -1508,7 +1546,7 @@ msgstr "Échec de vérification"
 
 msgctxt "FileManagerSupportDialog|"
 msgid "No supported file managers found."
-msgstr "Aucun gestionnaire de fichiers pris en charge trouvé"
+msgstr "Aucun gestionnaire de fichiers pris en charge trouvé."
 
 msgctxt "FileName|"
 msgid "Create subfolder"
@@ -1664,7 +1702,7 @@ msgstr "Convertir en MP4"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
-msgstr ""
+msgstr "Macros"
 
 msgctxt "GeneralSettings|"
 msgid "General"
@@ -1724,7 +1762,7 @@ msgstr "Annuler"
 
 msgctxt "GeneralSettings|"
 msgid "Macros"
-msgstr ""
+msgstr "Macros"
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
@@ -1775,6 +1813,10 @@ msgid "Use mobile network"
 msgstr "Utiliser le réseau mobile"
 
 msgctxt "GeneralTab|"
+msgid "State"
+msgstr "Etat"
+
+msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "Taille totale :"
 
@@ -1783,12 +1825,20 @@ msgid "Downloaded:"
 msgstr "Téléchargé :"
 
 msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr "Envoyé"
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr "ratio"
+
+msgctxt "GeneralTab|"
 msgid "Download speed:"
 msgstr "Vitesse de téléchargement :"
 
 msgctxt "GeneralTab|"
 msgid "Upload speed:"
-msgstr "Vitesse de chargement :"
+msgstr "Vitesse d'envoi :"
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
@@ -1928,11 +1978,11 @@ msgstr "Cacher"
 
 msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
-msgstr "%content_type% - type de contenu (ex. « Musique »)"
+msgstr "%content_type% - type de contenu (ex. « Musique »)"
 
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
-msgstr "%server% - nom du serveur (ex. « %1 »)"
+msgstr "%server% - nom du serveur (ex. « %1 »)"
 
 msgctxt "MacrosMenu|"
 msgid "%path_on_server% - path to the downloading file on the server"
@@ -1969,7 +2019,7 @@ msgstr "Terminé"
 
 msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
-msgstr "OK pour retirer l’étiquette"
+msgstr "Voulez vous retirer l’étiquette ?"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
@@ -2001,7 +2051,7 @@ msgstr "Importer les paramètres"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
-msgstr "Préférences ..."
+msgstr "Préférences..."
 
 msgctxt "MainMenu|"
 msgid "Contact Support"
@@ -2029,7 +2079,7 @@ msgstr "Créer une version portable"
 
 msgctxt "MainMenu|"
 msgid "Check for Updates..."
-msgstr "Rechercher les Mise à jour ..."
+msgstr "Rechercher les mises à jour..."
 
 msgctxt "MainMenu|"
 msgid "Join the %1 mosaic..."
@@ -2047,7 +2097,7 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr ""
 "Le mode escargot libère la bande passante sans interrompre les "
-"téléchargements"
+"téléchargements."
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
@@ -2060,8 +2110,8 @@ msgstr "Pas de connexion internet"
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
-msgstr[0] "%n téléchargement sélectionné"
-msgstr[1] "%n téléchargements sélectionnés"
+msgstr[0] "%n téléchargement sélectionné."
+msgstr[1] "%n téléchargements sélectionnés."
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -2101,7 +2151,7 @@ msgstr "Menu principal"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
-msgstr "illimité"
+msgstr "Illimité"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Custom..."
@@ -2169,7 +2219,7 @@ msgstr "Utilisation de données mobiles"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Waiting for Wi-Fi to start download."
-msgstr "En attente du WI-Fi pour démarrer le téléchargement"
+msgstr "En attente du WI-Fi pour démarrer le téléchargement."
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Would you like to enable usage of mobile data? *"
@@ -2465,7 +2515,7 @@ msgstr "SOCKS5"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Unlimited"
-msgstr "illimité"
+msgstr "Illimité"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom..."
@@ -2579,7 +2629,7 @@ msgstr "Échec de l’écoute de l’application du serveur de frontend."
 
 msgctxt "QObject|"
 msgid "QML load failure."
-msgstr "Échec du chargement QML"
+msgstr "Échec du chargement QML."
 
 msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
@@ -2599,11 +2649,11 @@ msgstr "Entrer l'URL"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
-msgstr "Désolé cet appareil n’est pas pris en charge par %1"
+msgstr "Désolé cet appareil n’est pas pris en charge par %1."
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
-msgstr "%1 a échoué de s’initialiser. Merci de réinstaller"
+msgstr "L'initialisation de %1 a échoué. Merci de bien vouloir réinstaller."
 
 msgctxt "QObject|"
 msgid "Reason: %1"
@@ -2630,12 +2680,40 @@ msgid "Quit"
 msgstr "Quitter"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr "%1 B"
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr "%1 KB"
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr "%1 MB"
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr "%1 GB"
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr "%1 TB"
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
+
+msgctxt "QObject|"
+msgid "%1 G"
+msgstr "%1 G"
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr "%1 T"
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3003,7 +3081,7 @@ msgstr "Échec de la suppression de la version actuelle"
 
 msgctxt "QObject|"
 msgid "hdiutil error %1"
-msgstr ""
+msgstr "erreur hdiutil %1"
 
 msgctxt "QObject|"
 msgid "Mount point does not exist"
@@ -3011,11 +3089,11 @@ msgstr "Le point de montage n’existe pas"
 
 msgctxt "QObject|"
 msgid "Path to the dump folder."
-msgstr "Chemin du dossier du dump"
+msgstr "Chemin du dossier du dump."
 
 msgctxt "QObject|"
 msgid "Url to upload dumps to."
-msgstr "URL pour envoyer les dumps"
+msgstr "URL pour envoyer les dumps."
 
 msgctxt "QObject|"
 msgid "Path to the crashed app that can be restarted."
@@ -3023,27 +3101,27 @@ msgstr "Le chemin de l’application en panne qui peut être relancée."
 
 msgctxt "QObject|"
 msgid "Name of the crashed application."
-msgstr "Nom de l’application en panne"
+msgstr "Nom de l’application en panne."
 
 msgctxt "QObject|"
 msgid "Version of the application."
-msgstr "Version de l’application"
+msgstr "Version de l’application."
 
 msgctxt "QObject|"
 msgid "Architecture."
-msgstr "Architecture"
+msgstr "Architecture."
 
 msgctxt "QObject|"
 msgid "User's operating system."
-msgstr "Le système d’exploitation de l’utilisateur"
+msgstr "Le système d’exploitation de l’utilisateur."
 
 msgctxt "QObject|"
 msgid "Fault module name."
-msgstr ""
+msgstr "Nom du module défaillant."
 
 msgctxt "QObject|"
 msgid "Crash address."
-msgstr ""
+msgstr "Adresse de l'erreur."
 
 msgctxt "QObject|"
 msgid "Signature check failure."
@@ -3101,7 +3179,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Failed."
-msgstr "Échec"
+msgstr "Échec."
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
@@ -3113,7 +3191,7 @@ msgstr "Mettre à jour l'URL"
 
 msgctxt "QObject|"
 msgid "Documents"
-msgstr ""
+msgstr "Documents"
 
 msgctxt "QObject|"
 msgid "Pictures"
@@ -3126,6 +3204,22 @@ msgstr "Vidéos"
 msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "Divers"
+
+msgctxt "QObject|"
+msgid "Upload paused"
+msgstr "Envoi mis en pause"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr "Etes vous certains de vouloir quitter ?"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "Annuler"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
@@ -3472,7 +3566,7 @@ msgstr "SHA-256:"
 
 msgctxt "SslDialog|"
 msgid "SHA1:"
-msgstr ""
+msgstr "SHA1:"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -3496,27 +3590,11 @@ msgstr "Vérification des fichiers..."
 
 msgctxt "StatusItem|"
 msgid "Merging media streams..."
-msgstr "Fusionnement des flux de média"
+msgstr "Fusionnement des flux de média..."
 
 msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "En attente"
-
-msgctxt "StatusItem|"
-msgid "Moving... %1%"
-msgstr "Déplacement… %1%"
-
-msgctxt "StatusItem|"
-msgid "Converting to mp3..."
-msgstr "Conversion en mp3..."
-
-msgctxt "StatusItem|"
-msgid "Converting to mp4..."
-msgstr "Conversion en mp3... {4.?}"
-
-msgctxt "StatusItem|"
-msgid "Checking for viruses..."
-msgstr "Scan antivirus en cours..."
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"
@@ -3524,7 +3602,7 @@ msgstr "Taille du fichier inconnue"
 
 msgctxt "StatusItem|"
 msgid "Requesting info..."
-msgstr "Demande d'infos ..."
+msgstr "Demande d'infos..."
 
 msgctxt "StatusItem|"
 msgid "Paused"
@@ -3559,8 +3637,8 @@ msgstr "Ce téléchargement ne peut être repris après avoir été mis en pause
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr ""
-"Le(s) téléchargement(s) ci-dessous ne peuvent pas repris après avoir été mis "
-"en pause."
+"Le(s) téléchargement(s) ci-dessous ne peuvent pas être relancé(s) après "
+"avoir été mis en pause"
 
 msgctxt "Subtitles|"
 msgid "Download subtitles"
@@ -3616,7 +3694,7 @@ msgstr "Vitesse de téléchargement"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Upload speed"
-msgstr "Vitesse de chargement"
+msgstr "Vitesse d'envoi"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections"
@@ -3640,7 +3718,7 @@ msgstr "Limites de trafic"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
-msgstr "illimité"
+msgstr "Illimité"
 
 msgctxt "TumComboBox|"
 msgid "KB/s"
@@ -3668,7 +3746,7 @@ msgstr "Faible"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Unlimited"
-msgstr "illimité"
+msgstr "Illimité"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Custom..."
@@ -3688,7 +3766,7 @@ msgstr "Vitesse de téléchargement"
 
 msgctxt "TumModeBlock|"
 msgid "Unlimited"
-msgstr "illimité"
+msgstr "Illimité"
 
 msgctxt "TumModeBlock|"
 msgid "Max. number of simultaneous downloads"
