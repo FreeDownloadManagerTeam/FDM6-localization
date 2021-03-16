@@ -253,7 +253,7 @@ msgstr ""
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
-msgstr ""
+msgstr "В момента се извършват операции без възможност за възобновяване"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -724,7 +724,7 @@ msgstr "Копирай"
 
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
-msgstr ""
+msgstr "Сигурни ли сте че искате да излезете?"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1003,25 +1003,30 @@ msgctxt "DownloadWindow|"
 msgid "Start"
 msgstr "Старт"
 
-msgctxt "DownloadsItemTools|"
-msgid "Moving..."
-msgstr ""
+
+
+
+
 
 msgctxt "DownloadsItemTools|"
-msgid "Checking for viruses..."
-msgstr "Проверка за вируси..."
+msgid "Moving"
+msgstr "Преместване"
 
 msgctxt "DownloadsItemTools|"
-msgid "Converting to mp3..."
-msgstr "Превръщане в mp3..."
+msgid "Checking for viruses"
+msgstr "Проверка за вируси"
 
 msgctxt "DownloadsItemTools|"
-msgid "Converting to mp4..."
-msgstr "Превръщане в mp4..."
+msgid "Converting to mp3"
+msgstr "Превръщане в mp3"
 
 msgctxt "DownloadsItemTools|"
-msgid "Calculating hash..."
-msgstr ""
+msgid "Converting to mp4"
+msgstr "Превръщане в mp4"
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash"
+msgstr "Изчисляване на хеш"
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
@@ -1121,15 +1126,12 @@ msgstr "Фиксирана папка за изтегляне по подраз�
 
 msgctxt "DownloadsSpeedColumnItem|"
 msgid "Uploaded"
-msgstr ""
+msgstr "Качено"
 
 msgctxt "DownloadsSpeedColumnItem|"
 msgid "Ratio"
-msgstr ""
+msgstr "Съотношение"
 
-msgctxt "DownloadsSpeedColumnItem|"
-msgid "done"
-msgstr ""
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1161,7 +1163,7 @@ msgstr "Приоритет"
 
 msgctxt "DownloadsViewItem|"
 msgid "Upload paused"
-msgstr ""
+msgstr "Качването е поставено на пауза"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1315,21 +1317,24 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Неизв. размер на файла"
 
-msgctxt "DownloadsViewStatusItem|"
-msgid "Checking files..."
-msgstr "Проверка на файлове..."
 
-msgctxt "DownloadsViewStatusItem|"
-msgid "Merging media streams..."
-msgstr "Сливане на потоци от данни..."
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "На опашка"
 
+
 msgctxt "DownloadsViewStatusItem|"
-msgid "Requesting info..."
-msgstr "Очаквам информация..."
+msgid "Checking files"
+msgstr "Проверка на файлове"
+
+msgctxt "DownloadsViewStatusItem|"
+msgid "Merging media streams"
+msgstr "Сливане на потоци от данни"
+
+msgctxt "DownloadsViewStatusItem|"
+msgid "Requesting info"
+msgstr "Очаквам информация"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Unknown file size"
@@ -1791,7 +1796,7 @@ msgstr "Ползвай мобилна мрежа"
 
 msgctxt "GeneralTab|"
 msgid "State"
-msgstr ""
+msgstr "Състояние"
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1803,11 +1808,11 @@ msgstr "Изтеглено:"
 
 msgctxt "GeneralTab|"
 msgid "Uploaded"
-msgstr ""
+msgstr "Качено"
 
 msgctxt "GeneralTab|"
 msgid "ratio"
-msgstr ""
+msgstr "Съотношение"
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -2654,23 +2659,23 @@ msgstr "Изход"
 
 msgctxt "QObject|"
 msgid "%1 B"
-msgstr ""
+msgstr "%1 Б"
 
 msgctxt "QObject|"
 msgid "%1 KB"
-msgstr ""
+msgstr "%1 КБ"
 
 msgctxt "QObject|"
 msgid "%1 MB"
-msgstr ""
+msgstr "%1 МБ"
 
 msgctxt "QObject|"
 msgid "%1 GB"
-msgstr ""
+msgstr "%1 ГБ"
 
 msgctxt "QObject|"
 msgid "%1 TB"
-msgstr ""
+msgstr "%1 ТБ"
 
 msgctxt "QObject|"
 msgid "%1 K"
@@ -2682,11 +2687,11 @@ msgstr "%1 М"
 
 msgctxt "QObject|"
 msgid "%1 G"
-msgstr ""
+msgstr "%1 Г"
 
 msgctxt "QObject|"
 msgid "%1 T"
-msgstr ""
+msgstr "%1 Т"
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3180,11 +3185,11 @@ msgstr "Разни"
 
 msgctxt "QObject|"
 msgid "Upload paused"
-msgstr ""
+msgstr "Качването е поставено на пауза"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
-msgstr ""
+msgstr "Сигурни ли сте че искате да излезете?"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "OK"
@@ -3554,25 +3559,28 @@ msgctxt "SslDialog|"
 msgid "Continue"
 msgstr "Продължи"
 
-msgctxt "StatusItem|"
-msgid "Checking files..."
-msgstr "Проверка на файлове..."
+
 
 msgctxt "StatusItem|"
-msgid "Merging media streams..."
-msgstr "Сливане на потоци от данни..."
+msgid "Checking files"
+msgstr "Проверка на файлове"
+
+msgctxt "StatusItem|"
+msgid "Merging media streams"
+msgstr "Сливане на потоци от данни"
 
 msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "На опашка"
 
 msgctxt "StatusItem|"
+msgid "Requesting info"
+msgstr "Очаквам информация"
+
+msgctxt "StatusItem|"
 msgid "Unknown file size"
 msgstr "Неизв. размер на файла"
 
-msgctxt "StatusItem|"
-msgid "Requesting info..."
-msgstr "Очаквам информация..."
 
 msgctxt "StatusItem|"
 msgid "Paused"
@@ -3847,8 +3855,9 @@ msgid "Relaunch %1 to update"
 msgstr "Презареди %1 за обновяване"
 
 msgctxt "UpdateDialog|"
-msgid "Relaunch (%1)"
-msgstr "Презареди (%1)"
+msgid "Relaunch"
+msgstr "Презареди"
+
 
 msgctxt "UpdateDialog|"
 msgid "Later"
