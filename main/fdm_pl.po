@@ -233,27 +233,27 @@ msgstr "Anuluj"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
-msgstr ""
+msgstr "Pobierania bez możliwości wznawiania (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
-msgstr ""
+msgstr "Przenoszenie plików (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
-msgstr ""
+msgstr "Konwersja plików na format mp3 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
-msgstr ""
+msgstr "Konwersja plików na format mp4 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
-msgstr ""
+msgstr "Łączenie strumieni danych (%1)."
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
-msgstr ""
+msgstr "Trwają operacje bez możliwości wznowienia"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -668,6 +668,10 @@ msgid "Enter new URL"
 msgstr "Podaj nowy adres pobierania"
 
 msgctxt "ChangeUrlDialog|"
+msgid "File location: %1"
+msgstr ""
+
+msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
 msgstr "Nieprawidłowy adres pobierania"
 
@@ -694,6 +698,10 @@ msgstr "OK"
 msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
 msgstr "Podaj nowy adres pobierania"
+
+msgctxt "ChangeUrlPage|"
+msgid "File location: %1"
+msgstr ""
 
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
@@ -725,7 +733,7 @@ msgstr "Kopiuj"
 
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
-msgstr ""
+msgstr "Na pewno chcesz wyjść?"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1007,11 +1015,6 @@ msgctxt "DownloadWindow|"
 msgid "Start"
 msgstr "Start"
 
-
-
-
-
-
 msgctxt "DownloadsItemTools|"
 msgid "Moving"
 msgstr "Przenoszenie"
@@ -1130,7 +1133,7 @@ msgstr "Stały folder pobierania"
 
 msgctxt "DownloadsSpeedColumnItem|"
 msgid "Uploaded"
-msgstr ""
+msgstr "Wysłano"
 
 msgctxt "DownloadsSpeedColumnItem|"
 msgid "Ratio"
@@ -1166,7 +1169,7 @@ msgstr "Priorytet"
 
 msgctxt "DownloadsViewItem|"
 msgid "Upload paused"
-msgstr ""
+msgstr "Wysyłanie wstrzymane"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1320,12 +1323,9 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Nieznany rozmiar pliku"
 
-
-
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "W kolejce"
-
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files"
@@ -1801,7 +1801,7 @@ msgstr "Używaj połączeń komórkowych"
 
 msgctxt "GeneralTab|"
 msgid "State"
-msgstr ""
+msgstr "Stan"
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1813,11 +1813,11 @@ msgstr "Pobrane:"
 
 msgctxt "GeneralTab|"
 msgid "Uploaded"
-msgstr ""
+msgstr "Wysłane"
 
 msgctxt "GeneralTab|"
 msgid "ratio"
-msgstr ""
+msgstr "stopień"
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -2666,23 +2666,23 @@ msgstr "Wyjście"
 
 msgctxt "QObject|"
 msgid "%1 B"
-msgstr ""
+msgstr "%1 B"
 
 msgctxt "QObject|"
 msgid "%1 KB"
-msgstr ""
+msgstr "%1 KB"
 
 msgctxt "QObject|"
 msgid "%1 MB"
-msgstr ""
+msgstr "%1 MB"
 
 msgctxt "QObject|"
 msgid "%1 GB"
-msgstr ""
+msgstr "%1 GB"
 
 msgctxt "QObject|"
 msgid "%1 TB"
-msgstr ""
+msgstr "%1 TB"
 
 msgctxt "QObject|"
 msgid "%1 K"
@@ -2694,11 +2694,11 @@ msgstr "%1 M"
 
 msgctxt "QObject|"
 msgid "%1 G"
-msgstr ""
+msgstr "%1 G"
 
 msgctxt "QObject|"
 msgid "%1 T"
-msgstr ""
+msgstr "%1 T"
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3192,11 +3192,11 @@ msgstr "Różne"
 
 msgctxt "QObject|"
 msgid "Upload paused"
-msgstr ""
+msgstr "Wysyłanie wstrzymane"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
-msgstr ""
+msgstr "Na pewno chcesz wyjść?"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "OK"
@@ -3566,8 +3566,6 @@ msgctxt "SslDialog|"
 msgid "Continue"
 msgstr "Kontynuuj"
 
-
-
 msgctxt "StatusItem|"
 msgid "Checking files"
 msgstr "Sprawdzanie plików"
@@ -3587,7 +3585,6 @@ msgstr "Pobieranie info"
 msgctxt "StatusItem|"
 msgid "Unknown file size"
 msgstr "Nieznany rozmiar pliku"
-
 
 msgctxt "StatusItem|"
 msgid "Paused"
@@ -3864,7 +3861,6 @@ msgstr "Uruchom ponownie %1, aby zaktualizować"
 msgctxt "UpdateDialog|"
 msgid "Relaunch"
 msgstr "Uruchom ponownie"
-
 
 msgctxt "UpdateDialog|"
 msgid "Later"
