@@ -160,7 +160,7 @@ msgstr "Verhalten der Löschtaste"
 
 msgctxt "AdvancedSettings|"
 msgid "Remove only from download list"
-msgstr "Von der Downloadliste entfernen"
+msgstr "Nur von der Downloadliste entfernen"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete files"
@@ -376,7 +376,7 @@ msgstr "Einfügen"
 
 msgctxt "BatchVideoQuality|"
 msgid "Max. video quality:"
-msgstr ""
+msgstr "Max. Videoqualität:"
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
@@ -636,7 +636,7 @@ msgstr "Mehr als %1 Links auf einmal sind nicht möglich"
 
 msgctxt "ButtonsBlock|"
 msgid "No write access to the selected directory"
-msgstr "Kein Schreibrecht für den ausgewählten Ordner"
+msgstr "Keine Schreibrechte für den ausgewählten Ordner"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
@@ -672,7 +672,7 @@ msgstr "Neue URL eingeben"
 
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
-msgstr ""
+msgstr "Dateispeicherort: %1"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
@@ -704,7 +704,7 @@ msgstr "Neue URL eingeben"
 
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
-msgstr ""
+msgstr "Dateispeicherort: %1"
 
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
@@ -909,7 +909,7 @@ msgstr "Ausgewählte Downloads löschen"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Are you sure you want to delete the selected file(s)?"
-msgstr "Sollen die ausgewählte(n) Datei(en) gelöscht werden?"
+msgstr "Ausgewählte Datei(en) wirklich löschen?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "OK"
@@ -953,7 +953,7 @@ msgstr "Gesamte Upload-Geschwindigkeit im Dock-Icon anzeigen"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
-msgstr "Gespeichert in"
+msgstr "Gespeichert unter"
 
 msgctxt "DownloadWindow|"
 msgid "File size"
@@ -1011,11 +1011,11 @@ msgstr "Öffnen"
 
 msgctxt "DownloadWindow|"
 msgid "Stop"
-msgstr ""
+msgstr "Stoppen"
 
 msgctxt "DownloadWindow|"
 msgid "Start"
-msgstr ""
+msgstr "Starten"
 
 msgctxt "DownloadsItemTools|"
 msgid "Moving"
@@ -1164,6 +1164,18 @@ msgstr "Größe"
 msgctxt "DownloadsViewHeader|"
 msgid "Added"
 msgstr "Hinzugefügt"
+
+msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
+msgid "File is missing"
+msgstr "Datei fehlt"
+
+msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
+msgid "Disk is missing"
+msgstr "Datenträger fehlt"
+
+msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
+msgid "Upload paused"
+msgstr "Upload angehalten"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -1358,6 +1370,10 @@ msgid "Edit tag"
 msgstr "Markierung bearbeiten"
 
 msgctxt "EditTagDialog|"
+msgid "Tag"
+msgstr ""
+
+msgctxt "EditTagDialog|"
 msgid "Extensions (e.g. \"avi mp3\")"
 msgstr "Dateierweiterung (z. B. \"avi mp3\")"
 
@@ -1538,7 +1554,7 @@ msgstr "Prüfung fehlgeschlagen"
 
 msgctxt "FileManagerSupportDialog|"
 msgid "No supported file managers found."
-msgstr "Keine unterstützen Dateimanager gefunden."
+msgstr "Keine unterstützten Dateimanager gefunden."
 
 msgctxt "FileName|"
 msgid "Create subfolder"
@@ -1718,12 +1734,12 @@ msgstr "Ordner auf Dateityp basierend vorschlagen"
 
 msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Ein helles Theme wird verwendet, wenn das Systemtheme unbekannt ist."
+msgstr "Ein helles Thema wird verwendet, wenn das Systemthema unbekannt ist."
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
 msgstr ""
-"Ihre Sprache ist nicht gelistet, oder die Übersetzung ist nicht komplett?"
+"Ihre Sprache ist nicht gelistet oder die Übersetzung ist nicht komplett?"
 
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
@@ -1822,6 +1838,10 @@ msgid "ratio"
 msgstr "Verhältnis"
 
 msgctxt "GeneralTab|"
+msgid "Speed"
+msgstr "Geschwindigkeit"
+
+msgctxt "GeneralTab|"
 msgid "Download speed:"
 msgstr "Download-Geschwindigkeit:"
 
@@ -1839,7 +1859,7 @@ msgstr "%1 von %2"
 
 msgctxt "GeneralTab|"
 msgid "Domain:"
-msgstr "Domain:"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Added:"
@@ -1971,11 +1991,11 @@ msgstr "%content_type% - Inhaltstyp (z. B. „Musik“)"
 
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
-msgstr "%server% - Name des Servers (z. B. „%1“)"
+msgstr "%server% - Servername (z. B. „%1“)"
 
 msgctxt "MacrosMenu|"
 msgid "%path_on_server% - path to the downloading file on the server"
-msgstr "%path_on_server% - Pfad zum Download auf dem Server"
+msgstr "%path_on_server% - Pfad zur Downloaddatei auf dem Server"
 
 msgctxt "MacrosMenu|"
 msgid "%year% - current year"
@@ -2011,7 +2031,7 @@ msgstr "Markierung entfernen?"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
-msgstr "URL aus der Zwischenablage einfügen"
+msgstr "URL aus Zwischenablage einfügen"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from File"
@@ -2055,7 +2075,7 @@ msgstr "Schlafmodus"
 
 msgctxt "MainMenu|"
 msgid "Hibernate"
-msgstr "Schlafmodus aktiv"
+msgstr "Ruhezustand"
 
 msgctxt "MainMenu|"
 msgid "Shutdown"
@@ -2063,7 +2083,7 @@ msgstr "Herunterfahren"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
-msgstr "Portable-Version erstellen"
+msgstr "Portable Version erstellen"
 
 msgctxt "MainMenu|"
 msgid "Check for Updates..."
@@ -2071,8 +2091,7 @@ msgstr "Nach Updates suchen…"
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
-msgstr "Dem Mosaik beitreten…"
-
+msgstr "Mosaic beitreten…"
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -2145,10 +2164,6 @@ msgid "Custom..."
 msgstr "Benutzerdefiniert…"
 
 msgctxt "MaxURatioComboBox|"
-msgid "%"
-msgstr ""
-
-msgctxt "MaxURatioComboBox|"
 msgid "Custom value"
 msgstr "Benutzerdefinierter Wert"
 
@@ -2166,7 +2181,7 @@ msgstr "Ungültiger Wert"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
-msgstr "Muss eine Zahl größer als 0 sein."
+msgstr "Muss eine Zahl größer 0 sein."
 
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
@@ -2226,7 +2241,7 @@ msgstr "Nein"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
-msgstr "* es können zusätzliche Kosten anfallen"
+msgstr "* zusätzliche Kosten können anfallen"
 
 msgctxt "ModeButton|"
 msgid "No Internet connection"
@@ -2382,7 +2397,7 @@ msgstr "Beenden"
 
 msgctxt "NativeMenuBar|"
 msgid "&File"
-msgstr "Datei"
+msgstr "&Datei"
 
 msgctxt "NativeMenuBar|"
 msgid "Add &new download"
@@ -2390,15 +2405,15 @@ msgstr "Neuen Download hinzufügen"
 
 msgctxt "NativeMenuBar|"
 msgid "&Edit"
-msgstr "Bearbeiten"
+msgstr "&Bearbeiten"
 
 msgctxt "NativeMenuBar|"
 msgid "&Copy"
-msgstr "Kopieren"
+msgstr "&Kopieren"
 
 msgctxt "NativeMenuBar|"
 msgid "&Paste"
-msgstr "Einfügen"
+msgstr "&Einfügen"
 
 msgctxt "NativeMenuBar|"
 msgid "Downloads"
@@ -2414,7 +2429,7 @@ msgstr "Gewählte pausieren"
 
 msgctxt "NativeMenuBar|"
 msgid "Restart selected"
-msgstr "Ausgewählte Dateien erneut starten"
+msgstr "Ausgewählte erneut starten"
 
 msgctxt "NativeMenuBar|"
 msgid "Remove from List"
@@ -2478,11 +2493,11 @@ msgstr ""
 
 msgctxt "NetworkSettings|"
 msgid "Invalid proxy settings"
-msgstr "Ungültige Proxy Einstellungen"
+msgstr "Ungültige Proxy-Einstellungen"
 
 msgctxt "NetworkSettings|"
 msgid "Proxy settings"
-msgstr "Proxy Einstellungen"
+msgstr "Proxy-Einstellungen"
 
 msgctxt "NetworkSettings|"
 msgid "HTTP"
@@ -2526,7 +2541,7 @@ msgstr ""
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "CANCEL"
-msgstr "Abbrechen"
+msgstr "ABBRECHEN"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Invalid value"
@@ -2840,7 +2855,7 @@ msgstr "Angeforderte Länge nicht zufriedenstellend"
 
 msgctxt "QObject|"
 msgid "Expectation Failed"
-msgstr "Erwartung fehlgeschlagung"
+msgstr "Erwartung fehlgeschlagen"
 
 msgctxt "QObject|"
 msgid "I'm a teapot"
@@ -2868,7 +2883,7 @@ msgstr "Fehlerhafte Abhängigkeit / Methodenfehler"
 
 msgctxt "QObject|"
 msgid "Unordered Collection"
-msgstr ""
+msgstr "Ungeordnete Auflistung"
 
 msgctxt "QObject|"
 msgid "Upgrade Required"
@@ -3610,7 +3625,7 @@ msgstr ""
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause"
-msgstr " "
+msgstr ""
 
 msgctxt "StopDownloadDialog|"
 msgid "Cancel"
@@ -3788,7 +3803,7 @@ msgstr "Dateiname"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
-msgstr "Kein Schreibrecht für den ausgewählten Ordner"
+msgstr "Keine Schreibrechte für den ausgewählten Ordner"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
@@ -3816,7 +3831,7 @@ msgstr "Abbrechen"
 
 msgctxt "UpdateDialog|"
 msgid "New version is available"
-msgstr "Neue Version ist verfügbar"
+msgstr "Neue Version verfügbar"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
