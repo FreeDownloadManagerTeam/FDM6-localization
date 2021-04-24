@@ -13,8 +13,12 @@ msgid "About"
 msgstr "关于"
 
 msgctxt "AboutDialog|"
+msgid "Version: %1 (%2)"
+msgstr "版本：%1（%2）"
+
+msgctxt "AboutDialog|"
 msgid "Build date: %1"
-msgstr ""
+msgstr "编译日期：%1"
 
 msgctxt "AboutDialog|"
 msgid "version %1"
@@ -569,6 +573,14 @@ msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(浏览器未安装)"
 
+msgctxt "BtStrings|"
+msgid "Uploaded"
+msgstr "已上传"
+
+msgctxt "BtStrings|"
+msgid "Ratio"
+msgstr "比例"
+
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
 msgstr "添加下载"
@@ -1121,14 +1133,6 @@ msgstr "基于下载 URL 建议文件夹"
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "固定默认下载文件夹"
-
-msgctxt "DownloadsSpeedColumnItem|"
-msgid "Uploaded"
-msgstr "已上传"
-
-msgctxt "DownloadsSpeedColumnItem|"
-msgid "Ratio"
-msgstr "比例"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1808,11 +1812,12 @@ msgid "Use mobile network"
 msgstr "使用移动网络"
 
 msgctxt "GeneralTab|"
-msgid "Download"
-msgstr "下载"
+msgid "Status"
+msgstr "状态"
+
 
 msgctxt "GeneralTab|"
-msgid "Completed"
+msgid "completed"
 msgstr "已完成"
 
 msgctxt "GeneralTab|"
@@ -1834,6 +1839,14 @@ msgstr "已上传"
 msgctxt "GeneralTab|"
 msgid "ratio"
 msgstr "比例"
+
+msgctxt "GeneralTab|"
+msgid "Web page"
+msgstr "网页"
+
+msgctxt "GeneralTab|"
+msgid "File"
+msgstr "文件"
 
 msgctxt "GeneralTab|"
 msgid "Speed"
@@ -3199,8 +3212,9 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "其他"
 
+
 msgctxt "QObject|"
-msgid "Upload paused"
+msgid "upload paused"
 msgstr "已暂停上传"
 
 msgctxt "QuitConfirmationDialog|"

@@ -7,17 +7,14 @@ msgstr ""
 "X-Language: de_DE\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: de_DE\n"
-"X-Generator: Poedit 2.4.2\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
 msgstr "Über"
+
+msgctxt "AboutDialog|"
+msgid "Version: %1 (%2)"
+msgstr ""
 
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
@@ -585,6 +582,14 @@ msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(Browser ist nicht installiert)"
 
+msgctxt "BtStrings|"
+msgid "Uploaded"
+msgstr "Hochgeladen"
+
+msgctxt "BtStrings|"
+msgid "Ratio"
+msgstr "Verhältnis"
+
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
 msgstr "Download hinzufügen"
@@ -1143,14 +1148,6 @@ msgstr "Einstellungen auf der Download-URL basierend herunterladen"
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "Standard-Downloadverzeichnis festgelegt"
-
-msgctxt "DownloadsSpeedColumnItem|"
-msgid "Uploaded"
-msgstr "Hochgeladen"
-
-msgctxt "DownloadsSpeedColumnItem|"
-msgid "Ratio"
-msgstr "Verhältnis"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1833,12 +1830,13 @@ msgid "Use mobile network"
 msgstr "Mobilfunknetz benutzen"
 
 msgctxt "GeneralTab|"
-msgid "Download"
-msgstr "Herunterladen"
+msgid "Status"
+msgstr "Status"
+
 
 msgctxt "GeneralTab|"
-msgid "Completed"
-msgstr "Abgeschlossen"
+msgid "completed"
+msgstr "abgeschlossen"
 
 msgctxt "GeneralTab|"
 msgid "State"
@@ -1859,6 +1857,14 @@ msgstr "Hochgeladen"
 msgctxt "GeneralTab|"
 msgid "ratio"
 msgstr "Verhältnis"
+
+msgctxt "GeneralTab|"
+msgid "Web page"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "File"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Speed"
@@ -2440,7 +2446,7 @@ msgstr "&Einfügen"
 
 msgctxt "NativeMenuBar|"
 msgid "Downloads"
-msgstr ""
+msgstr "Downloads"
 
 msgctxt "NativeMenuBar|"
 msgid "Start selected"
@@ -3230,8 +3236,9 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "Verschiedenes"
 
+
 msgctxt "QObject|"
-msgid "Upload paused"
+msgid "upload paused"
 msgstr "Upload angehalten"
 
 msgctxt "QuitConfirmationDialog|"
@@ -3858,7 +3865,7 @@ msgstr "Neue Version verfügbar"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
-msgstr ""
+msgstr "Update"
 
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"

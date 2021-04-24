@@ -13,8 +13,12 @@ msgid "About"
 msgstr "O programie"
 
 msgctxt "AboutDialog|"
+msgid "Version: %1 (%2)"
+msgstr "Wersja: %1 (%2)"
+
+msgctxt "AboutDialog|"
 msgid "Build date: %1"
-msgstr ""
+msgstr "Data kompilacji: %1"
 
 msgctxt "AboutDialog|"
 msgid "version %1"
@@ -574,6 +578,14 @@ msgstr "Kontynuuj"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(przeglądarka nie jest zainstalowana)"
+
+msgctxt "BtStrings|"
+msgid "Uploaded"
+msgstr "Wysłano"
+
+msgctxt "BtStrings|"
+msgid "Ratio"
+msgstr "Stopień"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -1135,14 +1147,6 @@ msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "Stały folder pobierania"
 
-msgctxt "DownloadsSpeedColumnItem|"
-msgid "Uploaded"
-msgstr "Wysłano"
-
-msgctxt "DownloadsSpeedColumnItem|"
-msgid "Ratio"
-msgstr "Stopień"
-
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "Odznacz"
@@ -1377,7 +1381,7 @@ msgstr "Edytuj znacznik"
 
 msgctxt "EditTagDialog|"
 msgid "Tag"
-msgstr ""
+msgstr "Znacznik"
 
 msgctxt "EditTagDialog|"
 msgid "Extensions (e.g. \"avi mp3\")"
@@ -1824,12 +1828,13 @@ msgid "Use mobile network"
 msgstr "Używaj połączeń komórkowych"
 
 msgctxt "GeneralTab|"
-msgid "Download"
-msgstr "Pobierz"
+msgid "Status"
+msgstr "Status"
+
 
 msgctxt "GeneralTab|"
-msgid "Completed"
-msgstr "Zakończone"
+msgid "completed"
+msgstr "zakończone"
 
 msgctxt "GeneralTab|"
 msgid "State"
@@ -1850,6 +1855,14 @@ msgstr "Wysłane"
 msgctxt "GeneralTab|"
 msgid "ratio"
 msgstr "stopień"
+
+msgctxt "GeneralTab|"
+msgid "Web page"
+msgstr "Strona WWW"
+
+msgctxt "GeneralTab|"
+msgid "File"
+msgstr "Plik"
 
 msgctxt "GeneralTab|"
 msgid "Speed"
@@ -3222,9 +3235,10 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "Różne"
 
+
 msgctxt "QObject|"
-msgid "Upload paused"
-msgstr "Wysyłanie wstrzymane"
+msgid "upload paused"
+msgstr "wysyłanie wstrzymane"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"

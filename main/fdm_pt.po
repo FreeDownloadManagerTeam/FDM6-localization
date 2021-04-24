@@ -13,6 +13,10 @@ msgid "About"
 msgstr "Sobre"
 
 msgctxt "AboutDialog|"
+msgid "Version: %1 (%2)"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "Build date: %1"
 msgstr ""
 
@@ -578,6 +582,14 @@ msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(navegador não instalado)"
 
+msgctxt "BtStrings|"
+msgid "Uploaded"
+msgstr "Carregado"
+
+msgctxt "BtStrings|"
+msgid "Ratio"
+msgstr "Proporção"
+
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
 msgstr "Adicionar download"
@@ -1136,14 +1148,6 @@ msgstr "Sugerir pastas com base na URL de download"
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "Pasta de download padrão fixa"
-
-msgctxt "DownloadsSpeedColumnItem|"
-msgid "Uploaded"
-msgstr "Carregado"
-
-msgctxt "DownloadsSpeedColumnItem|"
-msgid "Ratio"
-msgstr "Proporção"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1825,12 +1829,13 @@ msgid "Use mobile network"
 msgstr "Use rede móvel"
 
 msgctxt "GeneralTab|"
-msgid "Download"
-msgstr "Baixar"
+msgid "Status"
+msgstr "Status"
+
 
 msgctxt "GeneralTab|"
-msgid "Completed"
-msgstr "Concluído"
+msgid "completed"
+msgstr "concluído"
 
 msgctxt "GeneralTab|"
 msgid "State"
@@ -1851,6 +1856,14 @@ msgstr "Carregado"
 msgctxt "GeneralTab|"
 msgid "ratio"
 msgstr "proporção"
+
+msgctxt "GeneralTab|"
+msgid "Web page"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "File"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Speed"
@@ -3221,9 +3234,10 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "Diversos"
 
+
 msgctxt "QObject|"
-msgid "Upload paused"
-msgstr "Upload pausado"
+msgid "upload paused"
+msgstr "upload pausado"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"

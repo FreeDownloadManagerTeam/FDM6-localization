@@ -13,6 +13,10 @@ msgid "About"
 msgstr "A propos"
 
 msgctxt "AboutDialog|"
+msgid "Version: %1 (%2)"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "Build date: %1"
 msgstr ""
 
@@ -583,6 +587,14 @@ msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(le navigateur n’est pas installé)"
 
+msgctxt "BtStrings|"
+msgid "Uploaded"
+msgstr "Envoyé"
+
+msgctxt "BtStrings|"
+msgid "Ratio"
+msgstr "Ratio"
+
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
 msgstr "Ajouter le téléchargement"
@@ -1148,14 +1160,6 @@ msgstr "Proposer des dossiers basés sur l'URL téléchargée"
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "Dossier de téléchargement par défaut fixe"
-
-msgctxt "DownloadsSpeedColumnItem|"
-msgid "Uploaded"
-msgstr "Envoyé"
-
-msgctxt "DownloadsSpeedColumnItem|"
-msgid "Ratio"
-msgstr "Ratio"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1841,12 +1845,13 @@ msgid "Use mobile network"
 msgstr "Utiliser le réseau mobile"
 
 msgctxt "GeneralTab|"
-msgid "Download"
-msgstr "Télécharger"
+msgid "Status"
+msgstr "Statut"
+
 
 msgctxt "GeneralTab|"
-msgid "Completed"
-msgstr "Terminé"
+msgid "completed"
+msgstr "terminé"
 
 msgctxt "GeneralTab|"
 msgid "State"
@@ -1867,6 +1872,14 @@ msgstr "Envoyé"
 msgctxt "GeneralTab|"
 msgid "ratio"
 msgstr "ratio"
+
+msgctxt "GeneralTab|"
+msgid "Web page"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "File"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Speed"
@@ -3241,9 +3254,10 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "Divers"
 
+
 msgctxt "QObject|"
-msgid "Upload paused"
-msgstr "Envoi mis en pause"
+msgid "upload paused"
+msgstr "envoi mis en pause"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"

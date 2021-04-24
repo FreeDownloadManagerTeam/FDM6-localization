@@ -12,6 +12,9 @@ msgctxt "AboutDialog|"
 msgid "About"
 msgstr "О программе"
 
+msgctxt "AboutDialog|"
+msgid "Version: %1 (%2)"
+msgstr "Версия: %1 (%2)"
 
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
@@ -577,6 +580,14 @@ msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(браузер не установлен)"
 
+msgctxt "BtStrings|"
+msgid "Uploaded"
+msgstr "Роздано"
+
+msgctxt "BtStrings|"
+msgid "Ratio"
+msgstr "Рейтинг"
+
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
 msgstr "Добавить загрузку"
@@ -1135,14 +1146,6 @@ msgstr "Предлагать папку для сохранения по адр�
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "Предлагать фиксированную папку для сохранения"
-
-msgctxt "DownloadsSpeedColumnItem|"
-msgid "Uploaded"
-msgstr "Роздано"
-
-msgctxt "DownloadsSpeedColumnItem|"
-msgid "Ratio"
-msgstr "Рейтинг"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1823,12 +1826,13 @@ msgid "Use mobile network"
 msgstr "Используется мобильный Интернет"
 
 msgctxt "GeneralTab|"
-msgid "Download"
-msgstr "Скачать"
+msgid "Status"
+msgstr "Статус"
+
 
 msgctxt "GeneralTab|"
-msgid "Completed"
-msgstr "Завершено"
+msgid "completed"
+msgstr "завершено"
 
 msgctxt "GeneralTab|"
 msgid "State"
@@ -1849,6 +1853,14 @@ msgstr "Роздано"
 msgctxt "GeneralTab|"
 msgid "ratio"
 msgstr "рейтинг"
+
+msgctxt "GeneralTab|"
+msgid "Web page"
+msgstr "Веб-страница"
+
+msgctxt "GeneralTab|"
+msgid "File"
+msgstr "Файл"
 
 msgctxt "GeneralTab|"
 msgid "Speed"
@@ -3218,9 +3230,10 @@ msgctxt "QObject|"
 msgid "Miscellaneous"
 msgstr "Разное"
 
+
 msgctxt "QObject|"
-msgid "Upload paused"
-msgstr "Раздача приостановлена"
+msgid "upload paused"
+msgstr "раздача приостановлена"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"

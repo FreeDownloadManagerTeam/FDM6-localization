@@ -13,6 +13,10 @@ msgid "About"
 msgstr "このソフトについて"
 
 msgctxt "AboutDialog|"
+msgid "Version: %1 (%2)"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "Build date: %1"
 msgstr ""
 
@@ -569,6 +573,14 @@ msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(ブラウザがインストールされていません)"
 
+msgctxt "BtStrings|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "BtStrings|"
+msgid "Ratio"
+msgstr ""
+
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
 msgstr "ダウンロードを追加する"
@@ -1121,14 +1133,6 @@ msgstr "ダウンロードURLに基づいてフォルダを提案する"
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
 msgstr "デフォルトダウンロードフォルダの修正"
-
-msgctxt "DownloadsSpeedColumnItem|"
-msgid "Uploaded"
-msgstr ""
-
-msgctxt "DownloadsSpeedColumnItem|"
-msgid "Ratio"
-msgstr ""
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1808,11 +1812,12 @@ msgid "Use mobile network"
 msgstr "モバイルネットワークを使用する"
 
 msgctxt "GeneralTab|"
-msgid "Download"
-msgstr "ダウンロード"
+msgid "Status"
+msgstr "ステータス"
+
 
 msgctxt "GeneralTab|"
-msgid "Completed"
+msgid "completed"
 msgstr "完了"
 
 msgctxt "GeneralTab|"
@@ -1833,6 +1838,14 @@ msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "ratio"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "Web page"
+msgstr ""
+
+msgctxt "GeneralTab|"
+msgid "File"
 msgstr ""
 
 msgctxt "GeneralTab|"
@@ -3200,7 +3213,7 @@ msgid "Miscellaneous"
 msgstr "その他"
 
 msgctxt "QObject|"
-msgid "Upload paused"
+msgid "upload paused"
 msgstr ""
 
 msgctxt "QuitConfirmationDialog|"
