@@ -14,11 +14,11 @@ msgstr "Про програму"
 
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
-msgstr ""
+msgstr "Версія: %1 (%2)"
 
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
-msgstr ""
+msgstr "Дата компіляції: (%1)"
 
 msgctxt "AboutDialog|"
 msgid "version %1"
@@ -241,27 +241,27 @@ msgstr "Скасувати"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
-msgstr ""
+msgstr "Завантаження без можливості зупинки/відновлення (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
-msgstr ""
+msgstr "Переміщення файлів (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
-msgstr ""
+msgstr "Конвертація файлів у mp3 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
-msgstr ""
+msgstr "Конвертація файлів у mp4 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
-msgstr ""
+msgstr "Злиття медіапотоків (%1)."
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
-msgstr ""
+msgstr "Деякі поточні операції не можна зупинити/відновити"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -381,7 +381,7 @@ msgstr "Вставити"
 
 msgctxt "BatchVideoQuality|"
 msgid "Max. video quality:"
-msgstr ""
+msgstr "Макс. якість відео:"
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
@@ -581,7 +581,7 @@ msgstr "(браузер не встановлено)"
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
-msgstr ""
+msgstr "Вивантажено"
 
 msgctxt "BtStrings|"
 msgid "Ratio"
@@ -685,7 +685,7 @@ msgstr "Введіть нову URL-адресу"
 
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
-msgstr ""
+msgstr "Розташування файлу: %1"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
@@ -717,7 +717,7 @@ msgstr "Введіть нову URL-адресу"
 
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
-msgstr ""
+msgstr "Розташування файлу: %1"
 
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
@@ -749,7 +749,7 @@ msgstr "Копіювати"
 
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
-msgstr ""
+msgstr "Ви справді хочете вийти?"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1184,7 +1184,7 @@ msgstr "Відсутній диск"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
-msgstr ""
+msgstr "Відвантаження призупинено"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -1192,7 +1192,7 @@ msgstr "Пріоритет"
 
 msgctxt "DownloadsViewItem|"
 msgid "Upload paused"
-msgstr ""
+msgstr "Відвантаження призупинено"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1380,7 +1380,7 @@ msgstr "Редагувати тег"
 
 msgctxt "EditTagDialog|"
 msgid "Tag"
-msgstr ""
+msgstr "Тег"
 
 msgctxt "EditTagDialog|"
 msgid "Extensions (e.g. \"avi mp3\")"
@@ -1411,6 +1411,22 @@ msgstr "Макрос"
 msgctxt "EditTagDialog|"
 msgid "OK"
 msgstr "OK"
+
+msgctxt "EnvTools|"
+msgid "Low battery"
+msgstr ""
+
+msgctxt "EnvTools|"
+msgid "Data roaming disabled"
+msgstr ""
+
+msgctxt "EnvTools|"
+msgid "No Internet connection"
+msgstr "Відсутнє з'єднання з Internet"
+
+msgctxt "EnvTools|"
+msgid "Mobile data use disabled"
+msgstr "Використання мобільних даних вимкнено"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Rename"
@@ -1614,7 +1630,7 @@ msgstr "За спаданням"
 
 msgctxt "FileType|"
 msgid "File type:"
-msgstr ""
+msgstr "Тип файлу:"
 
 msgctxt "FilesExistsDialog|"
 msgid "Warning: file exists already"
@@ -1828,14 +1844,13 @@ msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Статус"
 
-
 msgctxt "GeneralTab|"
 msgid "completed"
 msgstr "завершено"
 
 msgctxt "GeneralTab|"
 msgid "State"
-msgstr ""
+msgstr "Стан"
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1847,19 +1862,19 @@ msgstr "Завантажено:"
 
 msgctxt "GeneralTab|"
 msgid "Uploaded"
-msgstr ""
+msgstr "Вивантажено"
 
 msgctxt "GeneralTab|"
 msgid "ratio"
-msgstr ""
+msgstr "співвідношення"
 
 msgctxt "GeneralTab|"
 msgid "Web page"
-msgstr ""
+msgstr "Web сторінка"
 
 msgctxt "GeneralTab|"
 msgid "File"
-msgstr ""
+msgstr "Файл"
 
 msgctxt "GeneralTab|"
 msgid "Speed"
@@ -2133,9 +2148,6 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "Режим равлика"
 
-msgctxt "MainStatusBar|"
-msgid "No Internet connection"
-msgstr "Відсутнє з'єднання з Internet"
 
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
@@ -2268,13 +2280,7 @@ msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
 msgstr "* може стягуватися додаткова плата"
 
-msgctxt "ModeButton|"
-msgid "No Internet connection"
-msgstr "Відсутнє з'єднання з Internet"
 
-msgctxt "ModeButton|"
-msgid "Mobile data use disabled"
-msgstr "Використання мобільних даних вимкнено"
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
@@ -2707,23 +2713,23 @@ msgstr "Вихід"
 
 msgctxt "QObject|"
 msgid "%1 B"
-msgstr ""
+msgstr "%1 б"
 
 msgctxt "QObject|"
 msgid "%1 KB"
-msgstr ""
+msgstr "%1 кб"
 
 msgctxt "QObject|"
 msgid "%1 MB"
-msgstr ""
+msgstr "%1 Мб"
 
 msgctxt "QObject|"
 msgid "%1 GB"
-msgstr ""
+msgstr "%1 Гб"
 
 msgctxt "QObject|"
 msgid "%1 TB"
-msgstr ""
+msgstr "%1 Тб"
 
 msgctxt "QObject|"
 msgid "%1 K"
@@ -2735,11 +2741,11 @@ msgstr "%1 М"
 
 msgctxt "QObject|"
 msgid "%1 G"
-msgstr ""
+msgstr "%1 Г"
 
 msgctxt "QObject|"
 msgid "%1 T"
-msgstr ""
+msgstr "%1 Т"
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3233,11 +3239,11 @@ msgstr "Різне"
 
 msgctxt "QObject|"
 msgid "upload paused"
-msgstr ""
+msgstr "вивантаження зупинено"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
-msgstr ""
+msgstr "Ви справді хочете вийти?"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "OK"
