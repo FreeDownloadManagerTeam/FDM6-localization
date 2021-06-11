@@ -12,14 +12,17 @@ msgctxt "AboutDialog|"
 msgid "About"
 msgstr "Informazioni"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
-msgstr ""
+msgstr "Versione: %1 (%2)"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
-msgstr ""
+msgstr "Data compilazione: %1"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "versione %1"
@@ -28,13 +31,14 @@ msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "OK"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "Versione %1 (%2)"
 
 msgctxt "AddDateToFileName|"
 msgid "Add dates to files names"
-msgstr "Aggiungi date ai nomi file"
+msgstr "Aggiungi date ai nomi dei file"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
@@ -90,12 +94,13 @@ msgstr "Notifiche"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "Avvisami dei download completati tramite il centro notifiche"
+msgstr "Avvisami dei download completati tramite il Centro notifiche"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr "Avvisami in caso di download non riusciti tramite il centro notifiche"
+msgstr "Avvisami in caso di download non riusciti tramite il Centro notifiche"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "Avvisami dei download solo quando la finestra di %1 è inattiva"
@@ -111,11 +116,12 @@ msgstr "Gestione alimentazione"
 msgctxt "AdvancedSettings|"
 msgid "Don't put your computer to sleep if there is an active download"
 msgstr ""
-"In caso di download attivi non mettere il computer in modalità sospensione"
+"Non mettere il computer in modalità sospensione in caso di download attivo"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable sleep mode while running finished downloads"
-msgstr "A download in secondo piano completati attiva la modalità sospensione"
+msgstr ""
+"Attiva la modalità sospensione quando i download in secondo piano terminano"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -127,11 +133,11 @@ msgstr "Esegui all'avvio (ridotto a icona)"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "Visualizza/nascondi pannello inferiore facendo clic sul download"
+msgstr "Mostra/nascondi il pannello inferiore facendo clic sul download"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
-msgstr "Esegui il backup elenco download ogni"
+msgstr "Esegui il Backup dell'elenco dei download ogni"
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
@@ -153,13 +159,13 @@ msgctxt "AdvancedSettings|"
 msgid ""
 "Do not allow downloads to perform post finished tasks when running on battery"
 msgstr ""
-"Quando si usa la batteria non consentire ai download di eseguire attività "
-"successive"
+"Non consentire ai download di eseguire attività successive al completamento "
+"quando si utilizza la batteria"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr ""
-"Non consentire i download se il livello della batteria scende al di sotto"
+"Non consentire i download se il livello della batteria scende al di sotto del"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -223,7 +229,7 @@ msgstr "Gli argomenti devono contenere la variabile %path%"
 
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
-msgstr "A download completato esegui automaticamente scansione virus"
+msgstr "Esegui automaticamente la scansione virus quando il download finisce"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
@@ -241,34 +247,40 @@ msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Annulla"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
 msgstr "Download senza supporto per la ripresa (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
-msgstr "Spostamento file... (%1)."
+msgstr "Spostamento file (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
-msgstr "Conversione file in MP3... (%1)."
+msgstr "Conversione file in MP3 (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
-msgstr "Conversione file in MP4... (%1)."
+msgstr "Conversione file in MP4 (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
-msgstr "Unione dei flussi multimediali... (%1)."
+msgstr "Unione dei flussi multimediali (%1)."
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
-msgstr "Sono in corso operazioni senza opzioni di ripresa"
+msgstr "Sono in corso operazioni senza possibilità di ripresa"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
-msgstr "Richiesta autenticazione"
+msgstr "Autenticazione richiesta"
 
+#, qt-format
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
 msgstr "Il sito riporta: \"%1\"."
@@ -295,12 +307,13 @@ msgstr "OK"
 
 msgctxt "AuthenticationPage|"
 msgid "Authentication required"
-msgstr "Richiesta autenticazione"
+msgstr "Autenticazione richiesta"
 
 msgctxt "AuthenticationPage|"
 msgid "OK"
 msgstr "OK"
 
+#, qt-format
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
 msgstr "Il sito riporta: \"%1\"."
@@ -383,12 +396,13 @@ msgstr "Incolla"
 
 msgctxt "BatchVideoQuality|"
 msgid "Max. video quality:"
-msgstr "Qualità video max:"
+msgstr "Qualità video massima:"
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
 msgstr "kbps"
 
+#, qt-format
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
 msgstr "Da %1 %2 a %3 %4"
@@ -455,7 +469,7 @@ msgstr "Segnalibri"
 
 msgctxt "Browser|"
 msgid "There are no bookmarks at the moment"
-msgstr "Non ci sono segnalibri al momento"
+msgstr "Nessun segnalibro al momento"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
@@ -469,6 +483,7 @@ msgctxt "Browser|"
 msgid "NO"
 msgstr "NO"
 
+#, qt-format
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
 msgstr "Torna a %1"
@@ -485,10 +500,12 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr "Aggiungi segnalibro"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
 msgstr "Scarica estensione per %1"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
 msgstr "%1 non installato"
@@ -497,6 +514,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "Integrazione browser"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
@@ -515,7 +533,7 @@ msgstr "Cattura automaticamente download dai browser"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Intercept downloads in your web browser"
-msgstr "Intercetta download nel browser web"
+msgstr "Intercetta download nel browser Web"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Start downloading without confirmation"
@@ -549,10 +567,12 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
 msgstr "Mbyte"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Usa il browser se annulli il download con %1"
 
+#, qt-format
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -629,13 +649,15 @@ msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
 msgstr "Lo scaricamento da questo sito non è consentito"
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
 msgstr "Il proxy %1 necessita di un nome utente e una password."
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
-msgstr "%1 richiede il nome utente e password."
+msgstr "%1 richiede un nome utente e una password."
 
 msgctxt "BuildDownloadTools|"
 msgid "Querying info. Please wait..."
@@ -645,6 +667,7 @@ msgctxt "ButtonsBlock|"
 msgid "Please select download link"
 msgstr "Seleziona il collegamento per il download"
 
+#, qt-format
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "Puoi selezionare non più di %1 collegamenti per volta"
@@ -685,6 +708,7 @@ msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
 msgstr "Inserisci nuovo URL"
 
+#, qt-format
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
 msgstr "Percorso file: %1"
@@ -717,6 +741,7 @@ msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
 msgstr "Inserisci nuovo URL"
 
+#, qt-format
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
 msgstr "Percorso file: %1"
@@ -727,7 +752,7 @@ msgstr "Avvia download"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
-msgstr "Non ci sono connessioni"
+msgstr "Nessuna connessione"
 
 msgctxt "ConnectionsTab|"
 msgid "Host"
@@ -753,13 +778,15 @@ msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
 msgstr "Sei sicuro di voler uscire?"
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr ""
-"Si è verificato un errore interno.<br>Per un ulteriore uso %1 necessita di "
-"essere riavviato."
+"Si è verificato un errore interno. E' necessario riavviare <br>%1 per "
+"continuare."
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
 msgstr "Riavvia %1 automaticamente"
@@ -789,13 +816,14 @@ msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
 msgstr "Crea versione portatile"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
 msgstr ""
-"La versione portatile di %1 può essere usata su computer diversi senza la "
-"necessità di installarla e configurarla su ciascuno di essi."
+"La versione portatile di %1 può essere utilizzata su computer diversi senza "
+"la necessità di installarla e configurarla su ciascuno di essi."
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
@@ -806,7 +834,7 @@ msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
 msgstr ""
-"Specifica qui il percorso in cui vuoi creare questa versione. Dovrebbe "
+"Specifica qui il percorso in cui desideri creare questa versione. Dovrebbe "
 "essere una cartella in qualche dispositivo rimovibile."
 
 msgctxt "CreatePortableDialog|"
@@ -825,10 +853,12 @@ msgctxt "CreatePortableDialog|"
 msgid "OK"
 msgstr "OK"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
-msgstr "Creazione... %1%"
+msgstr "Creazione %1%"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
 msgstr ""
@@ -836,7 +866,7 @@ msgstr ""
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating a portable version was successfully completed."
-msgstr "Creazione della versione portatile completata."
+msgstr "Creazione della versione portatile completata con successo."
 
 msgctxt "CreatePortableDialog|"
 msgid "Close"
@@ -952,23 +982,25 @@ msgstr "Ignora"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore all"
-msgstr "Ignora tutto"
+msgstr "Ignora tutti"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "Termina"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Dimensione: %1 (spazio disponibile: %2)"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Dimensione: %1"
 
 msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
-msgstr "Visualizza la velocità di caricamento totale nell'icona del dock"
+msgstr "Mostra la velocità di caricamento totale nell'icona del Dock"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
@@ -1008,7 +1040,7 @@ msgstr "Tempo rimanente"
 
 msgctxt "DownloadWindow|"
 msgid "Open download when it is completed"
-msgstr "Apri il download quando completato"
+msgstr "Apri il file al termine del download"
 
 msgctxt "DownloadWindow|"
 msgid "Close this window when the download is completed or stopped"
@@ -1021,7 +1053,7 @@ msgstr "Nascondi"
 
 msgctxt "DownloadWindow|"
 msgid "Show In Folder"
-msgstr "Visualizza nella cartella"
+msgstr "Mostra nella cartella"
 
 msgctxt "DownloadWindow|"
 msgid "Open"
@@ -1037,23 +1069,23 @@ msgstr "Avvia"
 
 msgctxt "DownloadsItemTools|"
 msgid "Moving"
-msgstr "Spostamento..."
+msgstr "Spostamento"
 
 msgctxt "DownloadsItemTools|"
 msgid "Checking for viruses"
-msgstr "Scansione virus in corso"
+msgstr "Scansione virus"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp3"
-msgstr "Conversione in MP3..."
+msgstr "Conversione in MP3"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp4"
-msgstr "Conversione in MP4..."
+msgstr "Conversione in MP4"
 
 msgctxt "DownloadsItemTools|"
 msgid "Calculating hash"
-msgstr "Calcolo valore hash..."
+msgstr "Calcolo valore hash"
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
@@ -1063,6 +1095,7 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Unità di archiviazione non presente"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Collegamenti per i download (%1 selezionati)"
@@ -1087,6 +1120,7 @@ msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "Nessun risultato per"
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
 msgstr "Nessun risultato contrassegnato con \"%1\" trovato"
@@ -1105,7 +1139,7 @@ msgstr "Visualizza tutti"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
-msgstr "\"L'elenco dei download è vuoto. Aggiungi nuovo URL download."
+msgstr "L'elenco dei download è vuoto. Aggiungi nuovo URL download."
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1133,11 +1167,11 @@ msgstr "Usa l'orario del server per la creazione del file"
 
 msgctxt "DownloadsSettings|"
 msgid "Default download folder"
-msgstr "Cartella predefinita download"
+msgstr "Cartella predefinita di download"
 
 msgctxt "DownloadsSettings|"
 msgid "Choose default download folder automatically"
-msgstr "Scegli automaticamente la cartella predefinita per il download"
+msgstr "Scegli automaticamente la cartella predefinita per i download"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on file type"
@@ -1145,11 +1179,11 @@ msgstr "Suggerisci cartelle in base al tipo di file"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on download URL"
-msgstr "Suggerisci cartelle in base all'URL download"
+msgstr "Suggerisci cartelle in base all'URL del download"
 
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
-msgstr "Cartella fissa predefinita download"
+msgstr "Cartella fissa predefinita per i download"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1209,7 +1243,7 @@ msgstr "Apri"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show In Folder"
-msgstr "Visualizza nella cartella"
+msgstr "Mostra nella cartella"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
@@ -1217,7 +1251,7 @@ msgstr "Segnala problema"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
-msgstr "Visualizza download"
+msgstr "Mostra download"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Choose Files..."
@@ -1261,7 +1295,7 @@ msgstr "Aggiungi mirror"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Open download page"
-msgstr "Apri pagina download"
+msgstr "Apri la pagina di download"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
@@ -1309,7 +1343,7 @@ msgstr "Imposta priorità"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show in folder"
-msgstr "Visualizza nella cartella"
+msgstr "Mostra nella cartella"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show info"
@@ -1333,7 +1367,7 @@ msgstr "Verifica file..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
-msgstr "Unione flussi multimediali..."
+msgstr "Unione dei flussi multimediali..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Requesting info..."
@@ -1357,11 +1391,11 @@ msgstr "In coda"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files"
-msgstr "Verifica file..."
+msgstr "Verifica file"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Merging media streams"
-msgstr "Unione flussi multimediali..."
+msgstr "Unione dei flussi multimediali"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info"
@@ -1377,7 +1411,7 @@ msgstr "In pausa"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
-msgstr "Completo"
+msgstr "Completato"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -1385,7 +1419,7 @@ msgstr "Modifica etichetta"
 
 msgctxt "EditTagDialog|"
 msgid "Tag"
-msgstr ""
+msgstr "Etichetta"
 
 msgctxt "EditTagDialog|"
 msgid "Extensions (e.g. \"avi mp3\")"
@@ -1400,7 +1434,7 @@ msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Default download folder"
-msgstr "Cartella predefinita download"
+msgstr "Cartella predefinita di download"
 
 msgctxt "EditTagDialog|"
 msgid "Open"
@@ -1412,7 +1446,7 @@ msgstr "Annulla"
 
 msgctxt "EditTagDialog|"
 msgid "Macros"
-msgstr "Macro"
+msgstr "Gestisci"
 
 msgctxt "EditTagDialog|"
 msgid "OK"
@@ -1420,15 +1454,15 @@ msgstr "OK"
 
 msgctxt "EnvTools|"
 msgid "Low battery"
-msgstr ""
+msgstr "Batteria scarica"
 
 msgctxt "EnvTools|"
 msgid "Data roaming disabled"
-msgstr ""
+msgstr "Roaming dati disabilitato"
 
 msgctxt "EnvTools|"
 msgid "No Internet connection"
-msgstr "Nessuna connessione a internet"
+msgstr "Nessuna connessione a Internet"
 
 msgctxt "EnvTools|"
 msgid "Mobile data use disabled"
@@ -1466,6 +1500,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Cancel"
 msgstr "Annulla"
 
+#, qt-format
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
 msgstr "Tutti i file (%1)"
@@ -1478,9 +1513,10 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Export"
 msgstr "Esporta"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
-msgstr "%1 file download (%2)"
+msgstr "%1 file dei download (%2)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Default format"
@@ -1490,14 +1526,16 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
 msgstr "Elenco degli URL"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
-msgstr "File testo (%1)"
+msgstr "File di testo (%1)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
 msgstr "File CSV"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
 msgstr "File CSV (%1)"
@@ -1510,10 +1548,12 @@ msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
 msgstr "Annulla"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
-msgstr "%1 file impostazioni (%2)"
+msgstr "%1 file delle impostazioni (%2)"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
 msgstr "Tutti i file (%1)"
@@ -1526,9 +1566,10 @@ msgctxt "FileIntegrityDialog|"
 msgid "Hash"
 msgstr "Valore hash"
 
+#, qt-format
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
-msgstr "Calcolo in corso %1%"
+msgstr "Calcolo %1%"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Compare with"
@@ -1536,7 +1577,7 @@ msgstr "Confronta con"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification OK"
-msgstr "Verifica OK"
+msgstr "Verifica completata correttamente"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification failed"
@@ -1566,9 +1607,10 @@ msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "Valore hash"
 
+#, qt-format
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
-msgstr "Calcolo in corso %1%"
+msgstr "Calcolo %1%"
 
 msgctxt "FileIntegrityPage|"
 msgid "Compare with"
@@ -1576,7 +1618,7 @@ msgstr "Confronta con"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification OK"
-msgstr "Verifica OK"
+msgstr "Verifica completata correttamente"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification failed"
@@ -1612,19 +1654,19 @@ msgstr "Cartella vuota"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By date"
-msgstr "Per data"
+msgstr "Data"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By name"
-msgstr "Per nome"
+msgstr "Nome"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By size"
-msgstr "Per dimensione"
+msgstr "Dimensione"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Sort"
-msgstr "Ordina"
+msgstr "Ordina per"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Ascending"
@@ -1636,7 +1678,7 @@ msgstr "Decrescente"
 
 msgctxt "FileType|"
 msgid "File type:"
-msgstr ""
+msgstr "Tipo di file:"
 
 msgctxt "FilesExistsDialog|"
 msgid "Warning: file exists already"
@@ -1646,6 +1688,7 @@ msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
 msgstr "Ricorda la scelta per tutti i download"
 
+#, qt-format
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
 msgstr "Rinomina (%1)"
@@ -1656,7 +1699,7 @@ msgstr "Sovrascrivi"
 
 msgctxt "FilesExistsDialog|"
 msgid "Abort"
-msgstr "Interrompi"
+msgstr "Termina"
 
 msgctxt "FilesTree|"
 msgid "Name"
@@ -1720,7 +1763,7 @@ msgstr "Apri"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Show in Folder"
-msgstr "Visualizza nella cartella"
+msgstr "Mostra nella cartella"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "File Integrity"
@@ -1768,7 +1811,7 @@ msgstr "Se il tema del sistema è sconosciuto verrà usato un tema chiaro."
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
-msgstr "La lingua non è in elenco o la traduzione non è completa?"
+msgstr "La tua lingua non è in elenco o la traduzione non è completa?"
 
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
@@ -1776,19 +1819,19 @@ msgstr "Aiutaci!"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
-msgstr "Cartella predefinita download"
+msgstr "Cartella predefinita di download"
 
 msgctxt "GeneralSettings|"
 msgid "Choose default download folder automatically"
-msgstr "Scegli automaticamente la cartella predefinita download"
+msgstr "Scegli automaticamente la cartella predefinita per i download"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
-msgstr "Suggerisci cartelle in base all'URL download"
+msgstr "Suggerisci cartelle in base all'URL del download"
 
 msgctxt "GeneralSettings|"
 msgid "Fixed default download folder"
-msgstr "Cartella fissa predefinita download"
+msgstr "Cartella fissa predefinita per i download"
 
 msgctxt "GeneralSettings|"
 msgid "Open"
@@ -1804,7 +1847,7 @@ msgstr "Gestisci"
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
-msgstr "Visualizzazione compatta elenco download"
+msgstr "Visualizzazione compatta dell'elenco dei download"
 
 msgctxt "GeneralSettings|"
 msgid "Enable standalone downloads windows"
@@ -1812,11 +1855,11 @@ msgstr "Abilita finestre separate per ogni download"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "Rimuovi automaticamente i file eliminati dall'elenco download"
+msgstr "Rimuovi automaticamente i file eliminati dall'elenco dei download"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "Rimuovi automaticamente download completati dall'elenco download"
+msgstr "Rimuovi automaticamente i download completati dall'elenco download"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
@@ -1828,7 +1871,7 @@ msgstr "Usa l'orario del server per la creazione del file"
 
 msgctxt "GeneralSettings|"
 msgid "Maximum urls count in batch download"
-msgstr "N. max URL in download batch"
+msgstr "Numero massimo di URL nel download batch"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1876,11 +1919,11 @@ msgstr "rapporto"
 
 msgctxt "GeneralTab|"
 msgid "Web page"
-msgstr ""
+msgstr "Pagina Web"
 
 msgctxt "GeneralTab|"
 msgid "File"
-msgstr ""
+msgstr "File"
 
 msgctxt "GeneralTab|"
 msgid "Speed"
@@ -1888,16 +1931,17 @@ msgstr "Velocità"
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
-msgstr "Velocità download:"
+msgstr "Velocità di download:"
 
 msgctxt "GeneralTab|"
 msgid "Upload speed:"
-msgstr "Velocità upload:"
+msgstr "Velocità di upload:"
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
 msgstr "Data/ora creazione:"
 
+#, qt-format
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
 msgstr "%1 di %2"
@@ -1934,22 +1978,27 @@ msgctxt "ImportDialog|"
 msgid "Cancel"
 msgstr "Annulla"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
 msgstr "Tutti i file (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
-msgstr "File testo (%1)"
+msgstr "File di testo (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
-msgstr "%1 file download (%2)"
+msgstr "%1 file dei download (%2)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
-msgstr "%1 file impostazioni (%2)"
+msgstr "%1 file delle impostazioni (%2)"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
 msgstr "Errore: %1"
@@ -1962,14 +2011,16 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
 msgstr "Impossibile incollare gli URL dal file"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
-msgstr "Impossibile importare l'elenco URL dal file: %1"
+msgstr "Impossibile importare l'elenco degli URL dal file: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
 msgstr "Esportazione fallita"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
 msgstr "Impossibile esportare nel file: %1"
@@ -1978,6 +2029,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
 msgstr "Iimportazione fallita"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr "Impossibile importare dal file: %1"
@@ -2008,7 +2060,7 @@ msgstr "Impostazioni"
 
 msgctxt "LeftDrawer|"
 msgid "Contact support"
-msgstr "Contatta supporto"
+msgstr "Contattaci"
 
 msgctxt "LeftDrawer|"
 msgid "About"
@@ -2034,25 +2086,26 @@ msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
 msgstr "%content_type% - tipo di contenuto (es. \"Musica\")"
 
+#, qt-format
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
-msgstr "%server% - nome server (es. \"%1\")"
+msgstr "%server% - nome del server (es. \"%1\")"
 
 msgctxt "MacrosMenu|"
 msgid "%path_on_server% - path to the downloading file on the server"
-msgstr "%path_on_server% - percorso del file in download nel server"
+msgstr "%path_on_server% - percorso del file in scaricamento nel server"
 
 msgctxt "MacrosMenu|"
 msgid "%year% - current year"
-msgstr "%year% - anno attuale"
+msgstr "%year% - anno corrente"
 
 msgctxt "MacrosMenu|"
 msgid "%month% - current month (number from 1 to 12)"
-msgstr "%month% - mese attuale (numero da 1 a 12)"
+msgstr "%month% - mese corrente (numero da 1 a 12)"
 
 msgctxt "MacrosMenu|"
 msgid "%day% - current day"
-msgstr "%day% - giorno attuale"
+msgstr "%day% - giorno corrente"
 
 msgctxt "MacrosMenu|"
 msgid "%date% - equivalent to %year%-%month%-%day%"
@@ -2108,7 +2161,7 @@ msgstr "Impostazioni..."
 
 msgctxt "MainMenu|"
 msgid "Contact Support"
-msgstr "Contatta supporto"
+msgstr "Contattaci"
 
 msgctxt "MainMenu|"
 msgid "Auto Shutdown"
@@ -2156,7 +2209,7 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "Modalità lumaca"
 
-
+#, qt-format
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -2197,7 +2250,7 @@ msgstr "Sposta in..."
 
 msgctxt "MainToolbar|"
 msgid "Main menu"
-msgstr "Menù principale"
+msgstr "Menu principale"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2251,17 +2304,18 @@ msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
 msgstr "Salta"
 
+#, qt-format
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr "Salta tutto (%1)"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
-msgstr "Download"
+msgstr "Scarica"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Mobile data usage"
-msgstr "Uso rete mobile"
+msgstr "Utilizzo dei dati mobili"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Waiting for Wi-Fi to start download."
@@ -2287,16 +2341,16 @@ msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
 msgstr "* Potrebbero essere applicati costi aggiuntivi"
 
-
-
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
 msgstr "Spostamento download non riuscito"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
 msgstr "Errore: %1"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
 msgstr "Impossibile spostare: %1"
@@ -2479,7 +2533,7 @@ msgstr "Aiuto"
 
 msgctxt "NativeMenuBar|"
 msgid "Contact Support"
-msgstr "Contatta supporto"
+msgstr "Contattaci"
 
 msgctxt "NetworkSettings|"
 msgid "Network"
@@ -2621,19 +2675,20 @@ msgctxt "PrivacyDialog|"
 msgid "User agreement"
 msgstr "Accordo con l'utente"
 
+#, qt-format
 msgctxt "PrivacyDialog|"
 msgid ""
 "A bug report will be sent to the server and used to improve %1 performance. "
 "We do not collect your personal data and do not share data with third "
 "parties."
 msgstr ""
-"Verrà inviata una segnalazione del problema riscontrato al server e usata "
-"per migliorare le prestazioni di %1. \n"
+"Verrà inviata una segnalazione del problema riscontrato al server e "
+"utilizzata per migliorare le prestazioni di %1. \n"
 "Non raccogliamo dati personali e non li condividiamo con terze parti."
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
-msgstr "Sono d'accordo (non visualizzarlo più)"
+msgstr "Sono d'accordo (non mostrarlo più)"
 
 msgctxt "PrivacyDialog|"
 msgid "Send report"
@@ -2675,6 +2730,7 @@ msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
 msgstr "Inizializzazione gestore stato app non riuscito."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "\n"
@@ -2687,21 +2743,24 @@ msgctxt "QObject|"
 msgid "Enter URL"
 msgstr "Inserisci URL"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
 msgstr "Questo dispositivo non è supportato da %1."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr "Inizializzazione di %1 non riuscita. Reinstalla l'applicazione."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Reason: %1"
 msgstr "Motivo: %1"
 
 msgctxt "QObject|"
 msgid "Contact Support"
-msgstr "Contatta supporto"
+msgstr "Contattaci"
 
 msgctxt "QObject|"
 msgid "Exit"
@@ -2711,6 +2770,7 @@ msgctxt "QObject|"
 msgid "Show main window"
 msgstr "Visualizza finestra principale"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "About %1"
 msgstr "Info su %1"
@@ -2719,45 +2779,54 @@ msgctxt "QObject|"
 msgid "Quit"
 msgstr "Chiudi"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B"
 msgstr "%1 B"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB"
 msgstr "%1 KB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB"
 msgstr "%1 MB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB"
 msgstr "%1 GB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB"
 msgstr "%1 TB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G"
 msgstr "%1 G"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 T"
 
 msgctxt "QObject|"
 msgid "Download complete"
-msgstr "Download completo"
+msgstr "Download completato"
 
 msgctxt "QObject|"
 msgid "Downloads complete"
@@ -2819,6 +2888,7 @@ msgctxt "QObject|"
 msgid "Unknown file I/O error"
 msgstr "Errore I/O file sconosciuto"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "HTTP Error %1"
 msgstr "Errore HTTP %1"
@@ -2833,7 +2903,7 @@ msgstr "Non autorizzato"
 
 msgctxt "QObject|"
 msgid "Payment Required"
-msgstr "Richiesto pagamento"
+msgstr "Pagamento Richiesto"
 
 msgctxt "QObject|"
 msgid "Forbidden"
@@ -2853,7 +2923,7 @@ msgstr "Non accettabile"
 
 msgctxt "QObject|"
 msgid "Proxy Authentication Required"
-msgstr "Richiesta autentificazione proxy"
+msgstr "Autenticazione proxy richiesta"
 
 msgctxt "QObject|"
 msgid "Request Timeout"
@@ -2869,7 +2939,7 @@ msgstr "Completato"
 
 msgctxt "QObject|"
 msgid "Length Required"
-msgstr "Richiesta lunghezza"
+msgstr "Lunghezza richiesta"
 
 msgctxt "QObject|"
 msgid "Precondition Failed"
@@ -2925,7 +2995,7 @@ msgstr "Insieme non ordinato"
 
 msgctxt "QObject|"
 msgid "Upgrade Required"
-msgstr "Richiesto aggiornamento"
+msgstr "Aggiornamento Richiesto"
 
 msgctxt "QObject|"
 msgid "Precondition Required"
@@ -2985,7 +3055,7 @@ msgstr "Il client ha chiuso la richiesta"
 
 msgctxt "QObject|"
 msgid "Internal Server Error"
-msgstr "Errore interno server"
+msgstr "Errore interno del server"
 
 msgctxt "QObject|"
 msgid "Not Implemented"
@@ -3021,7 +3091,7 @@ msgstr "Rilevato loop"
 
 msgctxt "QObject|"
 msgid "Bandwidth Limit Exceeded"
-msgstr "Superato limite larghezza banda"
+msgstr "Superato limite larghezza di banda"
 
 msgctxt "QObject|"
 msgid "Not Extended"
@@ -3029,7 +3099,7 @@ msgstr "Non esteso"
 
 msgctxt "QObject|"
 msgid "Network Authentication Required"
-msgstr "Richiesta autenticazione rete"
+msgstr "Autenticazione rete richiesta"
 
 msgctxt "QObject|"
 msgid "Network read timeout error"
@@ -3109,7 +3179,7 @@ msgstr "Errore durante l'elaborazione del contenuto della pagina"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
-msgstr "URL non supportata"
+msgstr "URL non supportato"
 
 msgctxt "QObject|"
 msgid "Untitled"
@@ -3119,6 +3189,7 @@ msgctxt "QObject|"
 msgid "Failed to remove current version"
 msgstr "Impossibile rimuovere la versione attuale"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "hdiutil error %1"
 msgstr "errore hdiutil %1"
@@ -3157,28 +3228,32 @@ msgstr "Sistema operativo dell'utente."
 
 msgctxt "QObject|"
 msgid "Fault module name."
-msgstr "Nome modulo errore."
+msgstr "Nome del modulo che ha generato l'errore."
 
 msgctxt "QObject|"
 msgid "Crash address."
-msgstr "Indirizzo crash."
+msgstr "Indirizzo del crash."
 
 msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr "Controllo firma fallito."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download with %1"
 msgstr "Scarica con %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download all with %1"
 msgstr "Scarica tutto con %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download selected with %1"
 msgstr "Scarica selezionati con %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download video with %1"
 msgstr "Scarica video con %1"
@@ -3193,8 +3268,9 @@ msgstr "Musica"
 
 msgctxt "QObject|"
 msgid "There is not enough disk space."
-msgstr "Spazio insufficiente nel dispositivo."
+msgstr "Spazio sul dispositivo insufficiente."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "The list of downloads is damaged.\n"
@@ -3207,15 +3283,16 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
-msgstr "Errore irreversibile: caricamento database non riuscito."
+msgstr "Errore irreversibile: caricamento del database non riuscito."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
 msgstr ""
-"Vuoi cancellarlo (questa operazione cancellerà l'elenco download e tutti i "
-"dati di %1)?"
+"Vuoi cancellarlo (questa operazione cancellerà l'elenco dei download e tutti "
+"i dati di %1)?"
 
 msgctxt "QObject|"
 msgid "Failed."
@@ -3281,10 +3358,11 @@ msgctxt "ReportSentDialog|"
 msgid "Report problem"
 msgstr "Segnala problema"
 
+#, qt-format
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr ""
-"La segnalazione non è stata inviata in quanto si è verificato un errore: %1"
+"La segnalazione non è stata inviata poiché si è verificato un errore: %1"
 
 msgctxt "ReportSentDialog|"
 msgid "The report has been sent. Thank you for your cooperation!"
@@ -3376,7 +3454,7 @@ msgstr "Applica"
 
 msgctxt "SchedulerDialog|"
 msgid "All the day"
-msgstr "Tutti i giorni"
+msgstr "Tutto il giorno"
 
 msgctxt "SchedulerDialog|"
 msgid "Everyday"
@@ -3434,21 +3512,22 @@ msgctxt "SearchToolbar|"
 msgid "Search"
 msgstr "Cerca"
 
+#, qt-format
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
 msgstr "Selezionati: %1"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Sort"
-msgstr "Ordina"
+msgstr "Ordina per"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
-msgstr "Ordine crescente"
+msgstr "Crescente"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Descending"
-msgstr "Ordine decrescente"
+msgstr "Decrescente"
 
 msgctxt "SettingsPage|"
 msgid "Invalid settings"
@@ -3517,16 +3596,16 @@ msgstr "Annulla"
 msgctxt "ShutdownBanner|"
 msgid "Computer will be put to sleep after all downloads are completed."
 msgstr ""
-"Una volta completati i download il computer entrerà in modalità di "
-"sospensione."
+"Il computer entrerà in modalità di sospensione dopo il completamento di "
+"tutti i download."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be hibernate after all downloads are completed."
-msgstr "Una volta completati i download il computer andrà in ibernazione."
+msgstr "Il computer verrà ibernato una volta completati tutti i download."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be shutdown after all downloads are completed."
-msgstr "Una volta completati i download il computer verrà spento."
+msgstr "Il computer verrà spento una volta completati tutti i download."
 
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
@@ -3536,6 +3615,7 @@ msgctxt "ShutdownDialog|"
 msgid "Cancel"
 msgstr "Annulla"
 
+#, qt-format
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
 msgstr "OK (%1)"
@@ -3554,15 +3634,15 @@ msgstr "Attenzione! Il computer verrà spento."
 
 msgctxt "SortTools|"
 msgid "By date"
-msgstr "Per data"
+msgstr "Data"
 
 msgctxt "SortTools|"
 msgid "By name"
-msgstr "Per nome"
+msgstr "Nome"
 
 msgctxt "SortTools|"
 msgid "By size"
-msgstr "Per dimensione"
+msgstr "Dimensione"
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
@@ -3598,7 +3678,7 @@ msgstr "Certificato SSL non valido."
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
-msgstr "Impronte digitali certificato"
+msgstr "Certificato impronte digitali"
 
 msgctxt "SslDialog|"
 msgid "SHA-256:"
@@ -3618,7 +3698,7 @@ msgstr "Annulla"
 
 msgctxt "SslDialog|"
 msgid "Security risk"
-msgstr "Rischio sicurezza"
+msgstr "Rischio di sicurezza"
 
 msgctxt "SslDialog|"
 msgid "Continue"
@@ -3626,11 +3706,11 @@ msgstr "Continua"
 
 msgctxt "StatusItem|"
 msgid "Checking files"
-msgstr "Verifica file..."
+msgstr "Verifica file"
 
 msgctxt "StatusItem|"
 msgid "Merging media streams"
-msgstr "Unione flussi multimediali..."
+msgstr "Unione dei flussi multimediali"
 
 msgctxt "StatusItem|"
 msgid "Queued"
@@ -3659,7 +3739,8 @@ msgstr "Metti in pausa il download"
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing."
 msgstr ""
-"Il download seguente non può essere ripreso dopo essere stato messo in pausa."
+"I download seguenti non potranno essere ripresi dopo essere stati messi in "
+"pausa."
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause"
@@ -3672,12 +3753,13 @@ msgstr "Annulla"
 msgctxt "StopDownloadDialog|"
 msgid "This download can't be resumed after pausing"
 msgstr ""
-"Questo download non può essere ripreso dopo essere stato messo in pausa"
+"Questo download non potrà essere ripreso dopo essere stato messo in pausa"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr ""
-"Il download seguente non può essere ripreso dopo essere stato messo in pausa"
+"I download seguenti non potranno essere ripresi dopo essere stati messi in "
+"pausa"
 
 msgctxt "Subtitles|"
 msgid "Download subtitles"
@@ -3729,23 +3811,23 @@ msgstr "Alto"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Download speed"
-msgstr "Velocità download"
+msgstr "Velocità di download"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Upload speed"
-msgstr "Velocità upload"
+msgstr "Velocità di upload"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections"
-msgstr "Numero massimo connessioni"
+msgstr "Numero massimo di connessioni"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections per server"
-msgstr "Numero massimo connessioni per server"
+msgstr "Numero massimo di connessioni per server"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of simultaneous downloads"
-msgstr "Numero massimo download contemporanei"
+msgstr "Numero massimo di download contemporanei"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
@@ -3767,9 +3849,10 @@ msgctxt "TumComboBox|"
 msgid "unlimited"
 msgstr "illimitato"
 
+#, qt-format
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
-msgstr "Download: %1, upload: %2"
+msgstr "Download: %1, Upload: %2"
 
 msgctxt "TumComboBox|"
 msgid "High"
@@ -3797,7 +3880,7 @@ msgstr "Inserisci solo numeri"
 
 msgctxt "TumModeBlock|"
 msgid "Download speed"
-msgstr "Velocità download"
+msgstr "Velocità di download"
 
 msgctxt "TumModeBlock|"
 msgid "Unlimited"
@@ -3805,7 +3888,7 @@ msgstr "Illimitato"
 
 msgctxt "TumModeBlock|"
 msgid "Max. number of simultaneous downloads"
-msgstr "Numero massimo download contemporanei"
+msgstr "Numero massimo di download contemporanei"
 
 msgctxt "TumModeBlock|"
 msgid "Snail mode"
@@ -3817,7 +3900,7 @@ msgstr "Libera larghezza di banda senza interrompere i download."
 
 msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
-msgstr "Modifica limitazioni traffico"
+msgstr "Modifica limiti traffico"
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
@@ -3829,7 +3912,7 @@ msgstr "Nuovo file"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
-msgstr "Download"
+msgstr "Scarica"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Save to"
@@ -3843,10 +3926,12 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
 msgstr "Nessun accesso in scrittura alla destinazione selezionata"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Dimensione: %1 (spazio disponibile: %2)"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Dimensione: %1"
@@ -3875,9 +3960,10 @@ msgctxt "UpdateDialog|"
 msgid "Update"
 msgstr "Aggiorna"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
-msgstr "La versione installata di %1 è aggiornata"
+msgstr "%1 è aggiornato"
 
 msgctxt "UpdateDialog|"
 msgid "OK"
@@ -3885,7 +3971,7 @@ msgstr "OK"
 
 msgctxt "UpdateDialog|"
 msgid "Downloading update"
-msgstr "Download aggiornamento..."
+msgstr "Download aggiornamento"
 
 msgctxt "UpdateDialog|"
 msgid "Error downloading update:"
@@ -3905,15 +3991,16 @@ msgstr "Installa aggiornamento"
 
 msgctxt "UpdateDialog|"
 msgid "Installing updates"
-msgstr "Installazione aggiornamenti..."
+msgstr "Installazione aggiornamenti"
 
 msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
 msgstr "Errore durante l'installazione:"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
-msgstr "Per aggiornare riavvia %1"
+msgstr "Riavvia %1 per aggiornare"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch"
@@ -3931,6 +4018,7 @@ msgctxt "VideoQuality|"
 msgid "Quality:"
 msgstr "Qualità:"
 
+#, qt-format
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
 msgstr "Ti piace %1?"
@@ -3945,7 +4033,7 @@ msgstr "Sì!"
 
 msgctxt "VoteBlock|"
 msgid "Thanks a lot! Please rate on Google Play."
-msgstr "Grazie mille! Recensisci l'app in Google Play."
+msgstr "Grazie mille! Valuta l'app su Google Play."
 
 msgctxt "VoteBlock|"
 msgid "Later"
@@ -3967,10 +4055,11 @@ msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Aggiorna"
 
+#, qt-format
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr ""
-"La segnalazione non è stata inviata in quanto si è verificato un errore: %1"
+"La segnalazione non è stata inviata poiché si è verificato un errore: %1"
 
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
