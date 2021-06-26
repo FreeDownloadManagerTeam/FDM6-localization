@@ -14,11 +14,11 @@ msgstr "프로그램 정보"
 
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
-msgstr ""
+msgstr "버전: %1 (%2)"
 
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
-msgstr ""
+msgstr "빌드 날짜: %1"
 
 msgctxt "AboutDialog|"
 msgid "version %1"
@@ -279,7 +279,7 @@ msgstr "암호:"
 
 msgctxt "AuthenticationDialog|"
 msgid "remember"
-msgstr "기억"
+msgstr "기억하기"
 
 msgctxt "AuthenticationDialog|"
 msgid "Cancel"
@@ -572,6 +572,26 @@ msgstr "계속"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(브라우저가 설치되지 않았습니다)"
+
+msgctxt "BtSettings|"
+msgid "General"
+msgstr "일반"
+
+msgctxt "BtSettings|"
+msgid "Monitoring"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Open"
+msgstr "열기"
+
+msgctxt "BtSettings|"
+msgid "Cancel"
+msgstr "취소"
+
+msgctxt "BtSettings|"
+msgid "Start downloading without confirmation"
+msgstr "확인없이 다운로드 시작"
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -1401,11 +1421,11 @@ msgstr "확인"
 
 msgctxt "EnvTools|"
 msgid "Low battery"
-msgstr ""
+msgstr "배터리 부족"
 
 msgctxt "EnvTools|"
 msgid "Data roaming disabled"
-msgstr ""
+msgstr "데이터 로밍 사용 안 함"
 
 msgctxt "EnvTools|"
 msgid "No Internet connection"
@@ -1857,11 +1877,11 @@ msgstr "비율"
 
 msgctxt "GeneralTab|"
 msgid "Web page"
-msgstr ""
+msgstr "웹 페이지"
 
 msgctxt "GeneralTab|"
 msgid "File"
-msgstr ""
+msgstr "파일"
 
 msgctxt "GeneralTab|"
 msgid "Speed"
@@ -2135,7 +2155,6 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "달팽이 모드"
 
-
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -2174,8 +2193,22 @@ msgid "Move to..."
 msgstr "이동..."
 
 msgctxt "MainToolbar|"
+msgid "Move downloads up"
+msgstr ""
+
+msgctxt "MainToolbar|"
+msgid "Move downloads down"
+msgstr ""
+
+msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "기본 메뉴"
+
+msgctxt "MainToolbar|"
+msgid ""
+"To use this feature, downloads are required to be sorted by order. Would you "
+"like to sort your downloads by order first?"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2264,8 +2297,6 @@ msgstr "아니오"
 msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
 msgstr "* 추가 요금이 적용될 수 있습니다"
-
-
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
@@ -3417,6 +3448,18 @@ msgid "Sort"
 msgstr "정렬"
 
 msgctxt "SelectSortFieldDialog|"
+msgid "By date"
+msgstr "날짜순"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By name"
+msgstr "이름순"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By size"
+msgstr "크기순"
+
+msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
 msgstr "오름차순"
 
@@ -3524,17 +3567,8 @@ msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
 msgstr "확인 (%1)"
 
-msgctxt "SortTools|"
-msgid "By date"
-msgstr "날짜순"
 
-msgctxt "SortTools|"
-msgid "By name"
-msgstr "이름순"
 
-msgctxt "SortTools|"
-msgid "By size"
-msgstr "크기순"
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
