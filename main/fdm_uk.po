@@ -3,18 +3,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Language: uk_UA\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: uk_UA\n"
-"X-Generator: Poedit 2.4.2\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -586,6 +578,26 @@ msgstr "Продовжити"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(браузер не встановлено)"
+
+msgctxt "BtSettings|"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "BtSettings|"
+msgid "Monitoring"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "BtSettings|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "BtSettings|"
+msgid "Start downloading without confirmation"
+msgstr "Почати завантаження без підтвердження"
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -2196,8 +2208,22 @@ msgid "Move to..."
 msgstr "Перенести до..."
 
 msgctxt "MainToolbar|"
+msgid "Move downloads up"
+msgstr ""
+
+msgctxt "MainToolbar|"
+msgid "Move downloads down"
+msgstr ""
+
+msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "Головне меню"
+
+msgctxt "MainToolbar|"
+msgid ""
+"To use this feature, downloads are required to be sorted by order. Would you "
+"like to sort your downloads by order first?"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3439,6 +3465,18 @@ msgid "Sort"
 msgstr "Сортувати"
 
 msgctxt "SelectSortFieldDialog|"
+msgid "By date"
+msgstr "За датою"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By name"
+msgstr ""
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By size"
+msgstr "За розміром"
+
+msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
 msgstr "За зростанням"
 
@@ -3549,17 +3587,8 @@ msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
 msgstr "Увага! Ваш комп'ютер буде вимкнено."
 
-msgctxt "SortTools|"
-msgid "By date"
-msgstr "За датою"
 
-msgctxt "SortTools|"
-msgid "By name"
-msgstr "За іменем"
 
-msgctxt "SortTools|"
-msgid "By size"
-msgstr "За розміром"
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
