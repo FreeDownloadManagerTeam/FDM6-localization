@@ -90,11 +90,11 @@ msgstr "Уведомления"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "Оповещать о завершенных загрузках через Центр Уведомлений"
+msgstr "Уведомлять о завершеннии загрузок через Центр Уведомлений"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr "Уведомлять меня о неудавшихся загрузках через Центр Уведомлений"
+msgstr "Уведомлять о неудаче при загрузке через Центр Уведомлений"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
@@ -110,12 +110,11 @@ msgstr "Энергопотребление"
 
 msgctxt "AdvancedSettings|"
 msgid "Don't put your computer to sleep if there is an active download"
-msgstr "Не переводить компьютер в режим сна при активных загрузках"
+msgstr "Не включать режим сна компьютера при наличии активных загрузок"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable sleep mode while running finished downloads"
-msgstr ""
-"Разрешить перевод компьютера в спящий режим при раздаче завершенных загрузок"
+msgstr "Переводить копьютер в режим сна после завершения активных закачек"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -126,8 +125,32 @@ msgid "Launch at startup (minimized)"
 msgstr "Запускать при старте системы (в свёрнутом виде)"
 
 msgctxt "AdvancedSettings|"
+msgid "Interface"
+msgstr "Интерфейс"
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Открывать/закрывать нижнюю панель по клику на загрузку"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore hidden state when finished adding new downloads"
+msgstr "Скрывать после добавления новых загрузок"
+
+msgctxt "AdvancedSettings|"
+msgid "Go back to default settings"
+msgstr "Вернуться к настройкам по умолчанию"
+
+msgctxt "AdvancedSettings|"
+msgid "Reset"
+msgstr "Перезапустить"
+
+msgctxt "AdvancedSettings|"
+msgid "Default settings"
+msgstr "Настройки по умолчанию"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore default settings?"
+msgstr "Восстановить настройки по умолчанию?"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -135,7 +158,7 @@ msgstr "Резервное копирование списка загрузок 
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
-msgstr "Действие при наличии файла"
+msgstr "Если файл уже существует"
 
 msgctxt "AdvancedSettings|"
 msgid "Rename"
@@ -153,12 +176,19 @@ msgctxt "AdvancedSettings|"
 msgid ""
 "Do not allow downloads to perform post finished tasks when running on battery"
 msgstr ""
-"Не позволять загрузкам выполнять задачи после завершения при работе от "
-"батареи"
+"Останавливать все задачи для завершенных загрузок при работе от батареи"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
-msgstr "Остановить загрузки, если уровень заряда батареи падает ниже"
+msgstr "Остановить загрузки при уровне заряда батареи ниже"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable user defined order of downloads"
+msgstr "Включить пользовательскую сортировку загрузок"
+
+msgctxt "AdvancedSettings|"
+msgid "Show \"Save As...\" button"
+msgstr "Показывать кнопку \"Сохранить как...\""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -454,11 +484,11 @@ msgstr "Закладки"
 
 msgctxt "Browser|"
 msgid "There are no bookmarks at the moment"
-msgstr "Закладок нет"
+msgstr "Сейчас закладок нет"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr "Вы уверены, что хотите удалить эту закладку?"
+msgstr "Удалить эту закладку?"
 
 msgctxt "Browser|"
 msgid "YES"
@@ -518,7 +548,7 @@ msgstr "Перехватывать загрузки в браузере"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Start downloading without confirmation"
-msgstr "Загружать файлы без подтверждения"
+msgstr "Начинать загрузку без подтверждения"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip domains"
@@ -550,7 +580,7 @@ msgstr "Мбайт"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
-msgstr "Загружать с помощью браузера, если вы отменили загрузку в %1"
+msgstr "Загружать в браузере при отмене загрузки в %1"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -853,7 +883,7 @@ msgstr "В процессе создания портативной версии
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating a portable version was successfully completed."
-msgstr "Создание портативной версии успешно завершено."
+msgstr "Портативная версия успешно создана."
 
 msgctxt "CreatePortableDialog|"
 msgid "Close"
@@ -986,6 +1016,36 @@ msgstr "Размер: %1"
 msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "Показывать общую скорость раздачи на иконке в доке"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Download Failure"
+msgstr "Загрузка не удалась"
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Can't resume download. Download link likely expired. Resume attempts failed."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Please try to update the download link to resume."
+msgstr "Попробуйте обновить ссылку на загрузку, чтобы продолжить."
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Go to the website with the original download source and copy the renewed link"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "click here"
+msgstr "кликните сюда"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Update download"
+msgstr "Обновить загрузку"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Close"
+msgstr "Закрыть"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
@@ -1535,7 +1595,7 @@ msgstr "Все файлы (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
-msgstr "Проверка целостности файлов"
+msgstr "Проверить целостность файлов"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Hash"
@@ -1608,6 +1668,14 @@ msgstr "Создать папку"
 msgctxt "FileName|"
 msgid "File name"
 msgstr "Имя файла"
+
+msgctxt "FileName|"
+msgid "%1 files (*.%2)"
+msgstr "%1 файлы (*.%2)"
+
+msgctxt "FileName|"
+msgid "All files"
+msgstr "Все файлы"
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
@@ -1783,7 +1851,7 @@ msgstr "Светлая тема будет использована, если с
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
-msgstr "Вашего языка нет в списке или перевод неполный?"
+msgstr "Ваш язык не в списке или перевод неполный?"
 
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
@@ -1843,7 +1911,7 @@ msgstr "Использовать время сервера для даты со�
 
 msgctxt "GeneralSettings|"
 msgid "Maximum urls count in batch download"
-msgstr "Максимальное количество ссылок в пакетной загрузке"
+msgstr "Макс. кол-во ссылок в пакетной загрузке"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -2163,7 +2231,7 @@ msgstr "Выход"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
-msgstr "Режим \"Улитка\" продолжает загрузки на минимальной скорости"
+msgstr "Режим \"Улитка\" высвобождает все ресурсы сети без отмены загрузок."
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
@@ -2221,12 +2289,9 @@ msgid "Main menu"
 msgstr "Главное меню"
 
 msgctxt "MainToolbar|"
-msgid ""
-"To use this feature, downloads are required to be sorted by order. Would you "
-"like to sort your downloads by order first?"
+msgid "Switch to user-defined sorting of the download list?"
 msgstr ""
-"Чтобы использовать этот функционал, загрузки должны быть отсортированы по "
-"порядку. Включить сортировку по порядку?"
+
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2254,7 +2319,7 @@ msgstr "Недопустимое значение"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
-msgstr "Должно быть числом больше 0"
+msgstr "Требуется значение больше 0."
 
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
@@ -2518,7 +2583,7 @@ msgstr "Прокси"
 
 msgctxt "NetworkSettings|"
 msgid "System proxy"
-msgstr "Использовать системные настройки"
+msgstr "Использовать системные настройки прокси"
 
 msgctxt "NetworkSettings|"
 msgid "No proxy"
@@ -2526,7 +2591,7 @@ msgstr "Не использовать прокси"
 
 msgctxt "NetworkSettings|"
 msgid "Configure manually:"
-msgstr "Настроить вручную"
+msgstr "Ручная настройка:"
 
 msgctxt "NetworkSettings|"
 msgid "Address"
@@ -3219,7 +3284,7 @@ msgstr "Музыка"
 
 msgctxt "QObject|"
 msgid "There is not enough disk space."
-msgstr "Недостаточно места на диске"
+msgstr "Недостаточно места на диске."
 
 msgctxt "QObject|"
 msgid ""
@@ -3545,6 +3610,22 @@ msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Расширенные настройки"
 
+msgctxt "SettingsPage|"
+msgid "Go back to default settings"
+msgstr "Вернуться к настройкам по умолчанию"
+
+msgctxt "SettingsPage|"
+msgid "Reset"
+msgstr "Перезапустить"
+
+msgctxt "SettingsPage|"
+msgid "Default settings"
+msgstr "Настройки по умолчанию"
+
+msgctxt "SettingsPage|"
+msgid "Restore default settings?"
+msgstr "Восстановить настройки по умолчанию?"
+
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
 msgstr "Отменить"
@@ -3585,9 +3666,6 @@ msgstr "Внимание! Ваш компьютер будет переведе�
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
 msgstr "Внимание! Ваш компьютер будет выключен."
-
-
-
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
@@ -3683,7 +3761,7 @@ msgstr "Остановить загрузку"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing."
-msgstr "Эта закачка(и) не может быть возобновлена(ы) после остановки."
+msgstr "Эта закачка(и) не может быть возобновлена(ы) после остановки"
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause"
@@ -3759,15 +3837,15 @@ msgstr "Скорость раздачи"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections"
-msgstr "Максимальное количество соединений"
+msgstr "Макс. кол-во соединений"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections per server"
-msgstr "Максимальное количество соединений на сервер"
+msgstr "Макс. кол-во соединений на сервер"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of simultaneous downloads"
-msgstr "Максимальное количество одновременных загрузок"
+msgstr "Макс. кол-во одновременных загрузок"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
@@ -3841,6 +3919,10 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Изменить ограничения трафика"
 
+msgctxt "TumSettingTextField|"
+msgid "Can't be greater than %1"
+msgstr "Требуется значение больше %1"
+
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Новая загрузка"
@@ -3892,6 +3974,10 @@ msgstr "Отменить"
 msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "Доступна новая версия"
+
+msgctxt "UpdateDialog|"
+msgid "What's new in %1"
+msgstr "Что нового в %1"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -3987,6 +4073,18 @@ msgstr "Давайте вместе сделаем приложение лучш
 
 msgctxt "WaitingPage|"
 msgid "Refresh"
+msgstr "Обновить"
+
+msgctxt "WhatsNewDialog|"
+msgid "New version is available"
+msgstr "Доступна новая версия"
+
+msgctxt "WhatsNewDialog|"
+msgid "What's new in %1"
+msgstr "Что нового в %1"
+
+msgctxt "WhatsNewDialog|"
+msgid "Update"
 msgstr "Обновить"
 
 msgctxt "main|"
