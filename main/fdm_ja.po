@@ -125,8 +125,32 @@ msgid "Launch at startup (minimized)"
 msgstr "コンピュータの起動時に起動する (最小化状態で)"
 
 msgctxt "AdvancedSettings|"
+msgid "Interface"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "ダウンロードリストのクリックで下部詳細パネル開/閉を有効"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore hidden state when finished adding new downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Restore default settings?"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -156,6 +180,14 @@ msgstr "バッテリーで実行している場合は、ダウンロードが完
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "バッテリー レベルが低下した場合、ダウンロードを停止する"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable user defined order of downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Show \"Save As...\" button"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -974,6 +1006,36 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "ドックアイコンに合計アップロード速度を表示"
 
+msgctxt "DownloadExpiredDialog|"
+msgid "Download Failure"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Can't resume download. Download link likely expired. Resume attempts failed."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Please try to update the download link to resume."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Go to the website with the original download source and copy the renewed link"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "click here"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Update download"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Close"
+msgstr "閉じる"
+
 msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "保存先"
@@ -1595,6 +1657,14 @@ msgctxt "FileName|"
 msgid "File name"
 msgstr "ファイル名"
 
+msgctxt "FileName|"
+msgid "%1 files (*.%2)"
+msgstr ""
+
+msgctxt "FileName|"
+msgid "All files"
+msgstr ""
+
 msgctxt "FilePickerPage|"
 msgid "Select folder"
 msgstr "フォルダを選択"
@@ -2205,9 +2275,7 @@ msgid "Main menu"
 msgstr "メインメニュー"
 
 msgctxt "MainToolbar|"
-msgid ""
-"To use this feature, downloads are required to be sorted by order. Would you "
-"like to sort your downloads by order first?"
+msgid "Switch to user-defined sorting of the download list?"
 msgstr ""
 
 msgctxt "MaxURatioComboBox|"
@@ -3525,6 +3593,22 @@ msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "上級者向け設定"
 
+msgctxt "SettingsPage|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Restore default settings?"
+msgstr ""
+
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
 msgstr "キャンセル"
@@ -3564,9 +3648,6 @@ msgstr "注意！ コンピュータは休止状態になります。"
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
 msgstr "注意！ コンピュータはシャットダウンします。"
-
-
-
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
@@ -3820,6 +3901,10 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "トラフィック制限を変更する"
 
+msgctxt "TumSettingTextField|"
+msgid "Can't be greater than %1"
+msgstr ""
+
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "新しいダウンロード"
@@ -3871,6 +3956,10 @@ msgstr "キャンセル"
 msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "新しいバージョンが利用可能です"
+
+msgctxt "UpdateDialog|"
+msgid "What's new in %1"
+msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -3967,6 +4056,18 @@ msgstr "一緒により良いものにしていきましょう！ フィード�
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "更新"
+
+msgctxt "WhatsNewDialog|"
+msgid "New version is available"
+msgstr "新しいバージョンが利用可能です"
+
+msgctxt "WhatsNewDialog|"
+msgid "What's new in %1"
+msgstr ""
+
+msgctxt "WhatsNewDialog|"
+msgid "Update"
+msgstr "アップデート"
 
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
