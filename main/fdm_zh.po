@@ -13,8 +13,16 @@ msgid "About"
 msgstr "关于"
 
 msgctxt "AboutDialog|"
-msgid "<a href='%1'>%2</a> version %3"
-msgstr "<a href='%1'>%2</a>版本 %3"
+msgid "Version: %1 (%2)"
+msgstr "版本：%1（%2）"
+
+msgctxt "AboutDialog|"
+msgid "Build date: %1"
+msgstr "编译日期：%1"
+
+msgctxt "AboutDialog|"
+msgid "version %1"
+msgstr "版本 %1"
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -85,8 +93,16 @@ msgid "Notify me of completed downloads via Notification Center"
 msgstr "通过通知中心提醒我已完成的下载项"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr "通过通知中心提醒我失败的下载项"
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "仅在 %1 非前台运行时提醒我"
+
+msgctxt "AdvancedSettings|"
+msgid "Customize sounds"
+msgstr "自定义声音"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -109,12 +125,69 @@ msgid "Launch at startup (minimized)"
 msgstr "在启动时加载（最小化）"
 
 msgctxt "AdvancedSettings|"
+msgid "Interface"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "单击下载项以展开/隐藏底部面板"
 
 msgctxt "AdvancedSettings|"
+msgid "Restore hidden state when finished adding new downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Restore default settings?"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
 msgstr "备份下载列表 每"
+
+msgctxt "AdvancedSettings|"
+msgid "File exists reaction"
+msgstr "文件已存在时的反应"
+
+msgctxt "AdvancedSettings|"
+msgid "Rename"
+msgstr "重命名"
+
+msgctxt "AdvancedSettings|"
+msgid "Overwrite"
+msgstr "覆盖"
+
+msgctxt "AdvancedSettings|"
+msgid "Use sounds"
+msgstr "使用声音"
+
+msgctxt "AdvancedSettings|"
+msgid ""
+"Do not allow downloads to perform post finished tasks when running on battery"
+msgstr "使用电池时禁止下载项运行下载完成时的任务"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not allow downloads if battery level drops below"
+msgstr "电池电量低时禁止下载"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable user defined order of downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Show \"Save As...\" button"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -136,6 +209,14 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "高级设置"
 
+msgctxt "AdvancedSettings|"
+msgid "Choose theme"
+msgstr "选择主题"
+
+msgctxt "AdvancedSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "若系统主题未知，将应用浅色主题。"
+
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
 msgstr "手动设置..."
@@ -149,13 +230,8 @@ msgid "Select antivirus:"
 msgstr "选择防病毒软件:"
 
 msgctxt "AntivirusSettings|"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
-msgstr ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>未列出您的防病毒软件?</a>"
+msgid "Is your antivirus not listed?"
+msgstr "未列出您的防病毒软件?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -187,15 +263,39 @@ msgstr "尚未在设置中指定防病毒软件."
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Go to settings"
-msgstr "去设置"
+msgstr "转到设置"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "取消"
 
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr "有不支持续传的下载项 (%1)。"
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr "正在移动文件 (%1)。"
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr "正在转换文件至mp3 (%1)。"
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr "正在转换文件至mp4 (%1)。"
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr "正在合并媒体流 (%1)。"
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr "有无法恢复的操作进行中"
+
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
-msgstr "需要授权"
+msgstr "需要身份验证"
 
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
@@ -223,7 +323,7 @@ msgstr "确定"
 
 msgctxt "AuthenticationPage|"
 msgid "Authentication required"
-msgstr "需要授权"
+msgstr "需要身份验证"
 
 msgctxt "AuthenticationPage|"
 msgid "OK"
@@ -310,8 +410,8 @@ msgid "Paste"
 msgstr "粘贴"
 
 msgctxt "BatchVideoQuality|"
-msgid "Preferred Video Quality:"
-msgstr "视频质量偏好:"
+msgid "Max. video quality:"
+msgstr "最高视频质量："
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
@@ -419,7 +519,7 @@ msgstr "下载%1浏览器扩展"
 
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
-msgstr "%1浏览器未安装"
+msgstr "%1浏览器扩展未安装"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
@@ -505,9 +605,41 @@ msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(浏览器未安装)"
 
+msgctxt "BtSettings|"
+msgid "General"
+msgstr "常规"
+
+msgctxt "BtSettings|"
+msgid "Monitoring"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "BtSettings|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "BtSettings|"
+msgid "Start downloading without confirmation"
+msgstr "无需确认就启动下载"
+
+msgctxt "BtStrings|"
+msgid "Uploaded"
+msgstr "已上传"
+
+msgctxt "BtStrings|"
+msgid "Ratio"
+msgstr "比例"
+
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
 msgstr "添加下载"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Report problem"
+msgstr "报告问题"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
@@ -534,16 +666,20 @@ msgid "OK"
 msgstr "确定"
 
 msgctxt "BuildDownloadPage|"
+msgid "Report problem"
+msgstr "报告问题"
+
+msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
 msgstr "当前网站禁止进行下载"
 
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
-msgstr "代理 %1 需要用户名和密码."
+msgstr "代理 %1 需要用户名和密码。"
 
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
-msgstr "%1 需要你的用户名密码."
+msgstr "%1 需要你的用户名密码。"
 
 msgctxt "BuildDownloadTools|"
 msgid "Querying info. Please wait..."
@@ -556,6 +692,10 @@ msgstr "请选择下载链接"
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "你可以一次选择 %1 链接"
+
+msgctxt "ButtonsBlock|"
+msgid "No write access to the selected directory"
+msgstr "没有对选定目录的写入权限"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
@@ -590,6 +730,10 @@ msgid "Enter new URL"
 msgstr "输入新的 URL"
 
 msgctxt "ChangeUrlDialog|"
+msgid "File location: %1"
+msgstr "文件位置：%1"
+
+msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
 msgstr "无效 URL"
 
@@ -618,12 +762,16 @@ msgid "Enter new URL"
 msgstr "输入新的 URL"
 
 msgctxt "ChangeUrlPage|"
+msgid "File location: %1"
+msgstr "文件位置：%1"
+
+msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "开始下载"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
-msgstr "当前没有链接"
+msgstr "当前没有连接"
 
 msgctxt "ConnectionsTab|"
 msgid "Host"
@@ -637,74 +785,6 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "连接数"
 
-msgctxt "ConvertationDialog|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr "转换为 mp3 并调整比特率"
-
-msgctxt "ConvertationDialog|"
-msgid "Save to"
-msgstr "保存到"
-
-msgctxt "ConvertationDialog|"
-msgid "Open"
-msgstr "打开"
-
-msgctxt "ConvertationDialog|"
-msgid "Cancel"
-msgstr "取消"
-
-msgctxt "ConvertationDialog|"
-msgid "Bitrate (quality)"
-msgstr "比特率 (品质)"
-
-msgctxt "ConvertationDialog|"
-msgid "Constant bitrate of value"
-msgstr "固定比特率"
-
-msgctxt "ConvertationDialog|"
-msgid "Variable bitrate (VBR)"
-msgstr "可变比特率 (VBR)"
-
-msgctxt "ConvertationDialog|"
-msgid "The path contains invalid characters"
-msgstr "地址中包含非法字符"
-
-msgctxt "ConvertationDialog|"
-msgid "OK"
-msgstr "确定"
-
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3"
-msgstr "转换为 mp3"
-
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr "转换为 mp3 并调整比特率"
-
-msgctxt "ConvertationPage|"
-msgid "OK"
-msgstr "确定"
-
-msgctxt "ConvertationPage|"
-msgid "Save to"
-msgstr "保存到"
-
-msgctxt "ConvertationPage|"
-msgid "The path contains invalid characters"
-msgstr "地址中包含非法字符"
-
-msgctxt "ConvertationPage|"
-msgid "Bitrate (quality)"
-msgstr "比特率 (品质)"
-
-msgctxt "ConvertationPage|"
-msgid "Constant bitrate of value"
-msgstr "固定值比特率"
-
-msgctxt "ConvertationPage|"
-msgid "Variable bitrate (VBR)"
-msgstr "可变比特率 (VBR)"
-
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "复制链接"
@@ -712,6 +792,10 @@ msgstr "复制链接"
 msgctxt "CopyMenu|"
 msgid "Copy"
 msgstr "复制"
+
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
+msgstr "您确定要退出吗？"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -794,6 +878,54 @@ msgctxt "CreatePortableDialog|"
 msgid "Close"
 msgstr "关闭"
 
+msgctxt "CustomizeSoundsDialog|"
+msgid "Customize sounds"
+msgstr "自定义声音"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Event"
+msgstr "事件"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Sound file"
+msgstr "声音文件"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No sound"
+msgstr "无声音"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads added"
+msgstr "下载项已添加"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads completed"
+msgstr "多项下载完成"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads failed"
+msgstr "多项下载失败"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No active downloads"
+msgstr "无活动下载项"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Set sound"
+msgstr "设置声音"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Remove"
+msgstr "移除"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Test"
+msgstr "测试"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Close"
+msgstr "关闭"
+
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
 msgstr "删除选中的下载项"
@@ -842,6 +974,26 @@ msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
 msgstr "取消"
 
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Download deleting failed"
+msgstr "删除下载项失败"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Try again"
+msgstr "重试"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore"
+msgstr "忽略"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore all"
+msgstr "全部忽略"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Abort"
+msgstr "中止"
+
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "大小: %1 (磁盘空间: %2)"
@@ -849,6 +1001,124 @@ msgstr "大小: %1 (磁盘空间: %2)"
 msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "大小: %1"
+
+msgctxt "DockUploadSpeedSetting|"
+msgid "Show total upload speed in the Dock icon"
+msgstr "在托盘图标中显示总上传速度"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Download Failure"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Can't resume download. Download link likely expired. Resume attempts failed."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Please try to update the download link to resume."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Go to the website with the original download source and copy the renewed link"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "click here"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Update download"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Close"
+msgstr "关闭"
+
+msgctxt "DownloadWindow|"
+msgid "Saved in"
+msgstr "保存于"
+
+msgctxt "DownloadWindow|"
+msgid "File size"
+msgstr "文件大小"
+
+msgctxt "DownloadWindow|"
+msgid "Resume support"
+msgstr "重启支持"
+
+msgctxt "DownloadWindow|"
+msgid "Yes"
+msgstr "是"
+
+msgctxt "DownloadWindow|"
+msgid "No"
+msgstr "否"
+
+msgctxt "DownloadWindow|"
+msgid "Unknown"
+msgstr "未知"
+
+msgctxt "DownloadWindow|"
+msgid "Downloaded"
+msgstr "已下载"
+
+msgctxt "DownloadWindow|"
+msgid "Speed"
+msgstr "速度"
+
+msgctxt "DownloadWindow|"
+msgid "Time remaining"
+msgstr "剩余时间"
+
+msgctxt "DownloadWindow|"
+msgid "Open download when it is completed"
+msgstr "下载完成后打开"
+
+msgctxt "DownloadWindow|"
+msgid "Close this window when the download is completed or stopped"
+msgstr "下载完成或停止时关闭此窗口"
+
+msgctxt "DownloadWindow|"
+msgid "Hide"
+msgstr "隐藏"
+
+msgctxt "DownloadWindow|"
+msgid "Show In Folder"
+msgstr "在文件夹中显示"
+
+msgctxt "DownloadWindow|"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "DownloadWindow|"
+msgid "Stop"
+msgstr "停止"
+
+msgctxt "DownloadWindow|"
+msgid "Start"
+msgstr "启动"
+
+msgctxt "DownloadsItemTools|"
+msgid "Moving"
+msgstr "正在移动"
+
+msgctxt "DownloadsItemTools|"
+msgid "Checking for viruses"
+msgstr "正在检测病毒"
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp3"
+msgstr "正在转换为 mp3"
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp4"
+msgstr "正在转换为 mp4"
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash"
+msgstr "正在计算hash"
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
@@ -872,11 +1142,11 @@ msgstr "全不选"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
-msgstr "列表中没有下载项."
+msgstr "列表中没有下载项。"
 
 msgctxt "DownloadsPage|"
 msgid "Add new download URL."
-msgstr "添加新的下载链接."
+msgstr "添加新的下载链接。"
 
 msgctxt "DownloadsPage|"
 msgid "No results found for"
@@ -900,7 +1170,51 @@ msgstr "显示全部"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
-msgstr "下载列表是空的. 添加新的下载链接."
+msgstr "下载列表是空的. 添加新的下载链接。"
+
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr "下载设置"
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr "无需确认就启动下载"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr "自动从下载列表移除已删除的文件"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr "自动移除下载列表中已完成的下载"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr "下载失败时自动重试"
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr "创建文件使用服务器的时间"
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr "默认下载文件夹"
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr "自动选择默认下载文件夹"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr "基于文件类型建议文件夹"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "基于下载 URL 建议文件夹"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr "固定默认下载文件夹"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -926,9 +1240,29 @@ msgctxt "DownloadsViewHeader|"
 msgid "Added"
 msgstr "添加时间"
 
+msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
+msgid "Paused"
+msgstr "已暂停"
+
+msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
+msgid "File is missing"
+msgstr "文件丢失"
+
+msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
+msgid "Disk is missing"
+msgstr "磁盘无法使用"
+
+msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
+msgid "Upload paused"
+msgstr "已暂停上传"
+
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "优先级"
+
+msgctxt "DownloadsViewItem|"
+msgid "Upload paused"
+msgstr "已暂停上传"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -941,6 +1275,10 @@ msgstr "打开"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show In Folder"
 msgstr "在文件夹中显示"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Report problem"
+msgstr "报告问题"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -987,8 +1325,20 @@ msgid "Add mirror"
 msgstr "添加镜像"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Open download page"
+msgstr "打开下载页面"
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "复制链接"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Check for update"
+msgstr "检查更新"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Export selected downloads"
+msgstr "导出选中的下载项"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
@@ -1009,6 +1359,10 @@ msgstr "更改 URL"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
 msgstr "转换为 mp3"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Convert to mp4"
+msgstr "转换为 mp4"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
@@ -1039,16 +1393,8 @@ msgid "Download complete"
 msgstr "下载完成"
 
 msgctxt "DownloadsViewItemFileInfo|"
-msgid "Moving... %1%"
-msgstr "移动中... %1%"
-
-msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "检查文件中..."
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp3..."
-msgstr "正在转换为 mp3..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1071,32 +1417,20 @@ msgid "Unknown file size"
 msgstr "未知文件大小"
 
 msgctxt "DownloadsViewStatusItem|"
-msgid "Checking files..."
-msgstr "检查文件中..."
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Merging media streams..."
-msgstr "合并媒体中..."
-
-msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "已排队"
 
 msgctxt "DownloadsViewStatusItem|"
-msgid "Moving... %1%"
-msgstr "移动中... %1%"
+msgid "Checking files"
+msgstr "检查文件中"
 
 msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp3..."
-msgstr "正在转换为 mp3..."
+msgid "Merging media streams"
+msgstr "合并媒体中"
 
 msgctxt "DownloadsViewStatusItem|"
-msgid "Checking for viruses..."
-msgstr "正在检测病毒..."
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Requesting info..."
-msgstr "请求信息中..."
+msgid "Requesting info"
+msgstr "请求信息中"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Unknown file size"
@@ -1109,6 +1443,143 @@ msgstr "已暂停"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "完成"
+
+msgctxt "EditTagDialog|"
+msgid "Edit tag"
+msgstr "编辑标签"
+
+msgctxt "EditTagDialog|"
+msgid "Tag"
+msgstr "标签"
+
+msgctxt "EditTagDialog|"
+msgid "Extensions (e.g. \"avi mp3\")"
+msgstr "扩展名（如\"avi mp3\"）"
+
+msgctxt "EditTagDialog|"
+msgid ""
+"Extensions that are automatically assigned with this tag for new downloads"
+msgstr "自动添加此标签的新下载项的扩展名"
+
+msgctxt "EditTagDialog|"
+msgid "Default download folder"
+msgstr "默认下载文件夹"
+
+msgctxt "EditTagDialog|"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "EditTagDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "EditTagDialog|"
+msgid "Macros"
+msgstr "宏"
+
+msgctxt "EditTagDialog|"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "EnvTools|"
+msgid "Low battery"
+msgstr "电池电量低"
+
+msgctxt "EnvTools|"
+msgid "Data roaming disabled"
+msgstr "已禁用数据漫游"
+
+msgctxt "EnvTools|"
+msgid "No Internet connection"
+msgstr "没有网络连接"
+
+msgctxt "EnvTools|"
+msgid "Mobile data use disabled"
+msgstr "使用移动网络已关闭"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Rename"
+msgstr "重命名"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Overwrite"
+msgstr "覆盖"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Always ask"
+msgstr "总是询问"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export selected downloads"
+msgstr "导出选中的下载项"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export all downloads"
+msgstr "导出所有下载项"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Save to"
+msgstr "保存到"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "All files (%1)"
+msgstr "所有文件（%1）"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export only completed downloads"
+msgstr "仅导出已完成的下载项"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export"
+msgstr "导出"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "%1 downloads files (%2)"
+msgstr "%1个下载项（总计%2）"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Default format"
+msgstr "默认格式"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "List of URLs"
+msgstr "URL列表"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Text files (%1)"
+msgstr "文本文件（%1）"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV file"
+msgstr "CSV文件"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV files (%1)"
+msgstr "CSV文件（%1）"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Export"
+msgstr "导出"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "ExportSettingsDialog|"
+msgid "%1 settings files (%2)"
+msgstr "%1个设置文件（总计%2）"
+
+msgctxt "ExportSettingsDialog|"
+msgid "All files (%1)"
+msgstr "所有文件（%1）"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1176,7 +1647,7 @@ msgstr "检查失败"
 
 msgctxt "FileManagerSupportDialog|"
 msgid "No supported file managers found."
-msgstr "未找到支持的文件管理器."
+msgstr "未找到支持的文件管理器。"
 
 msgctxt "FileName|"
 msgid "Create subfolder"
@@ -1185,6 +1656,14 @@ msgstr "创建子文件夹"
 msgctxt "FileName|"
 msgid "File name"
 msgstr "文件名"
+
+msgctxt "FileName|"
+msgid "%1 files (*.%2)"
+msgstr ""
+
+msgctxt "FileName|"
+msgid "All files"
+msgstr ""
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
@@ -1227,8 +1706,28 @@ msgid "Descending"
 msgstr "降序"
 
 msgctxt "FileType|"
-msgid "Preferred File Type:"
-msgstr "文件类型偏好:"
+msgid "File type:"
+msgstr "文件类型："
+
+msgctxt "FilesExistsDialog|"
+msgid "Warning: file exists already"
+msgstr "警告：文件已存在"
+
+msgctxt "FilesExistsDialog|"
+msgid "Remember my choice for all downloads"
+msgstr "为所有下载记住我的选择"
+
+msgctxt "FilesExistsDialog|"
+msgid "Rename (%1)"
+msgstr "重命名（%1）"
+
+msgctxt "FilesExistsDialog|"
+msgid "Overwrite"
+msgstr "覆盖"
+
+msgctxt "FilesExistsDialog|"
+msgid "Abort"
+msgstr "中止"
 
 msgctxt "FilesTree|"
 msgid "Name"
@@ -1302,6 +1801,18 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
 msgstr "转换视频为 mp3"
 
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert video to mp4"
+msgstr "转换视频为 mp4"
+
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert to mp4"
+msgstr "转换为 mp4"
+
+msgctxt "FixedDownloadFolderCombobox|"
+msgid "Macros"
+msgstr "宏"
+
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "常规"
@@ -1311,25 +1822,8 @@ msgid "Choose theme"
 msgstr "选择主题"
 
 msgctxt "GeneralSettings|"
-msgid "Light"
-msgstr "浅色"
-
-msgctxt "GeneralSettings|"
-msgid "Dark"
-msgstr "深色"
-
-msgctxt "GeneralSettings|"
 msgid "Language"
 msgstr "语言"
-
-msgctxt "GeneralSettings|"
-msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
-msgstr ""
-"没有列出您所使用的语言或翻译不完整? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>期待与您一起完善!</a>"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1340,12 +1834,52 @@ msgid "Suggest folders based on file type"
 msgstr "基于文件类型建议文件夹"
 
 msgctxt "GeneralSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "若系统主题未知，将应用浅色主题。"
+
+msgctxt "GeneralSettings|"
+msgid "Your language is not listed or the translation isn't complete?"
+msgstr "没有列出您所使用的语言或翻译不完整?"
+
+msgctxt "GeneralSettings|"
+msgid "Let's fix it!"
+msgstr "期待与您一起完善!"
+
+msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr "默认下载文件夹"
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr "自动选择默认下载文件夹"
+
+msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
 msgstr "基于下载 URL 建议文件夹"
 
 msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr "固定默认下载文件夹"
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr "宏"
+
+msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
 msgstr "下载列表缩略图"
+
+msgctxt "GeneralSettings|"
+msgid "Enable standalone downloads windows"
+msgstr "启用独立的下载窗口"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
@@ -1356,8 +1890,16 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "自动移除下载列表中已完成的下载"
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr "下载失败时自动重试"
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "创建文件使用服务器的时间"
+
+msgctxt "GeneralSettings|"
+msgid "Maximum urls count in batch download"
+msgstr "批量下载中的最大URL数目"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1372,16 +1914,20 @@ msgid "Install updates automatically"
 msgstr "自动安装更新"
 
 msgctxt "GeneralSettings|"
-msgid "Dark theme"
-msgstr "深色主题"
-
-msgctxt "GeneralSettings|"
-msgid "Start downloading without confirmation"
-msgstr "无需确认就启动下载"
-
-msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "使用移动网络"
+
+msgctxt "GeneralTab|"
+msgid "Status"
+msgstr "状态"
+
+msgctxt "GeneralTab|"
+msgid "completed"
+msgstr "已完成"
+
+msgctxt "GeneralTab|"
+msgid "State"
+msgstr "状态"
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1390,6 +1936,26 @@ msgstr "总计大小："
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "已下载："
+
+msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr "已上传"
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr "比例"
+
+msgctxt "GeneralTab|"
+msgid "Web page"
+msgstr "网页"
+
+msgctxt "GeneralTab|"
+msgid "File"
+msgstr "文件"
+
+msgctxt "GeneralTab|"
+msgid "Speed"
+msgstr "速度"
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -1431,6 +1997,62 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
 
+msgctxt "ImportDialog|"
+msgid "Import"
+msgstr "导入"
+
+msgctxt "ImportDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "ImportDialog|"
+msgid "All files (%1)"
+msgstr "所有文件 （%1）"
+
+msgctxt "ImportDialog|"
+msgid "Text files (%1)"
+msgstr "文本文件 （%1）"
+
+msgctxt "ImportDialog|"
+msgid "%1 downloads files (%2)"
+msgstr "%1个下载项（总计%2）"
+
+msgctxt "ImportDialog|"
+msgid "%1 settings files (%2)"
+msgstr "%1个设置文件（总计%2）"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Error: %1"
+msgstr "错误: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr "从文件粘贴URL失败"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import the list of URLs from the file: %1"
+msgstr "无法从文件导入URL列表，错误：%1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to export"
+msgstr "导出失败"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to export to the file: %1"
+msgstr "无法导出到文件：%1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to import"
+msgstr "导入失败"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import from the file: %1"
+msgstr "无法从文件导入：%1"
+
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
 msgstr "设为默认值"
@@ -1441,7 +2063,7 @@ msgstr "不再询问"
 
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
-msgstr ".仍然关闭？"
+msgstr "仍然关闭？"
 
 msgctxt "LanguageDialog|"
 msgid "Language"
@@ -1464,6 +2086,10 @@ msgid "About"
 msgstr "关于"
 
 msgctxt "LeftDrawer|"
+msgid "Quit"
+msgstr "退出"
+
+msgctxt "LeftDrawer|"
 msgid "Add new download"
 msgstr "添加新的下载"
 
@@ -1474,6 +2100,34 @@ msgstr "添加"
 msgctxt "ListEditor|"
 msgid "Hide"
 msgstr "隐藏"
+
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr "%content_type% - 内容类型 (如 \"音乐\")"
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr "%server% - 服务器名 (如 \"%1\")"
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr "%path_on_server% - 下载中的文件在服务器上的路径"
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr "%year% - 当前年份"
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr "%month% - 当前月份 (1至12的数字)"
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr "%day% - 当前日期"
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
+msgstr "%date% - 等效于%year%-%month%-%day%"
 
 msgctxt "MainFiltersBar|"
 msgid "All"
@@ -1487,9 +2141,37 @@ msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "已完成"
 
+msgctxt "MainFiltersBar|"
+msgid "OK to remove tag?"
+msgstr "确定移除标签吗？"
+
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
 msgstr "从剪贴板粘贴"
+
+msgctxt "MainMenu|"
+msgid "Paste Urls from File"
+msgstr "从文件粘贴URL"
+
+msgctxt "MainMenu|"
+msgid "Export/Import"
+msgstr "导出/导入"
+
+msgctxt "MainMenu|"
+msgid "Export all downloads"
+msgstr "导出所有下载项"
+
+msgctxt "MainMenu|"
+msgid "Import downloads"
+msgstr "导入下载项"
+
+msgctxt "MainMenu|"
+msgid "Export settings"
+msgstr "导出设置"
+
+msgctxt "MainMenu|"
+msgid "Import settings"
+msgstr "导入设置"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -1524,6 +2206,10 @@ msgid "Check for Updates..."
 msgstr "检查更新..."
 
 msgctxt "MainMenu|"
+msgid "Join the Mosaic..."
+msgstr "加入拼图"
+
+msgctxt "MainMenu|"
 msgid "About"
 msgstr "关于"
 
@@ -1538,10 +2224,6 @@ msgstr "慢速模式可以在不停止下载的情况下释放带宽。"
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "慢速模式"
-
-msgctxt "MainStatusBar|"
-msgid "No Internet connection"
-msgstr "没有网络链接"
 
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
@@ -1581,8 +2263,20 @@ msgid "Move to..."
 msgstr "移动选中项到..."
 
 msgctxt "MainToolbar|"
+msgid "Move downloads up"
+msgstr ""
+
+msgctxt "MainToolbar|"
+msgid "Move downloads down"
+msgstr ""
+
+msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "主菜单"
+
+msgctxt "MainToolbar|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -1591,10 +2285,6 @@ msgstr "不限制"
 msgctxt "MaxURatioComboBox|"
 msgid "Custom..."
 msgstr "自定义..."
-
-msgctxt "MaxURatioComboBox|"
-msgid "%"
-msgstr "%"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Custom value"
@@ -1609,8 +2299,12 @@ msgid "CANCEL"
 msgstr "取消"
 
 msgctxt "MaxURatioComboBox|"
+msgid "Invalid value"
+msgstr "无效值"
+
+msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
-msgstr "必须大于0."
+msgstr "必须为正值."
 
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
@@ -1637,20 +2331,40 @@ msgid "Skip"
 msgstr "跳过"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "OK"
-msgstr "好"
+msgid "Skip all (%1)"
+msgstr "全部跳过（%1）"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
 msgstr "下载"
 
-msgctxt "ModeButton|"
-msgid "No Internet connection"
-msgstr "没有网络链接"
+msgctxt "MobileDataUsageDialog|"
+msgid "Mobile data usage"
+msgstr "移动数据使用量"
 
-msgctxt "ModeButton|"
-msgid "Mobile data use disabled"
-msgstr "使用移动网络已关闭"
+msgctxt "MobileDataUsageDialog|"
+msgid "Waiting for Wi-Fi to start download."
+msgstr "等待连接Wi-Fi以下载"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Would you like to enable usage of mobile data? *"
+msgstr "您要开启移动数据使用权吗？"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Don't ask again"
+msgstr "不再询问"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Yes"
+msgstr "是"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "No"
+msgstr "否"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "* additional charges may apply"
+msgstr "*可能收取额外费用"
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
@@ -1672,6 +2386,118 @@ msgctxt "MovingFailedDialog|"
 msgid "Cancel"
 msgstr "取消"
 
+msgctxt "MovingFolderDialog|"
+msgid "Move"
+msgstr "移动"
+
+msgctxt "MovingFolderDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr "转换为 mp3 并调整比特率"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Save to"
+msgstr "保存到"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Bitrate (quality)"
+msgstr "比特率 (品质)"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Constant bitrate of value"
+msgstr "恒定比特率值"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Variable bitrate (VBR)"
+msgstr "可变比特率 (VBR)"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr "地址中包含非法字符"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3"
+msgstr "转换为 mp3"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr "转换为 mp3 并调整比特率"
+
+msgctxt "Mp3ConverterPage|"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Save to"
+msgstr "保存到"
+
+msgctxt "Mp3ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "地址中包含非法字符"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Bitrate (quality)"
+msgstr "比特率 (品质)"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Constant bitrate of value"
+msgstr "恒定比特率值"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Variable bitrate (VBR)"
+msgstr "可变比特率 (VBR)"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Convert to mp4"
+msgstr "转换为 mp4"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Save to"
+msgstr "保存到"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr "地址中包含非法字符"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Convert to mp4"
+msgstr "转换为 mp4"
+
+msgctxt "Mp4ConverterPage|"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Save to"
+msgstr "保存到"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "检查更新..."
@@ -1690,7 +2516,7 @@ msgstr "文件(&F)"
 
 msgctxt "NativeMenuBar|"
 msgid "Add &new download"
-msgstr "添加新的下载(&N)"
+msgstr "添加新的下载(&n)"
 
 msgctxt "NativeMenuBar|"
 msgid "&Edit"
@@ -1750,7 +2576,7 @@ msgstr "不使用代理"
 
 msgctxt "NetworkSettings|"
 msgid "Configure manually:"
-msgstr "手动设置："
+msgstr "手动配置："
 
 msgctxt "NetworkSettings|"
 msgid "Address"
@@ -1818,11 +2644,11 @@ msgstr "KB/s"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Please enter numbers only"
-msgstr "请输入数字"
+msgstr "请仅输入数字"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom value"
-msgstr "自定义"
+msgstr "自定义值"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "OK"
@@ -1833,8 +2659,12 @@ msgid "CANCEL"
 msgstr "取消"
 
 msgctxt "NetworkSpeedLimitComboBox|"
+msgid "Invalid value"
+msgstr "无效值"
+
+msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
-msgstr "必须大于0."
+msgstr "必须为一个大于 0 的数。"
 
 msgctxt "Page|"
 msgid "Info"
@@ -1846,7 +2676,7 @@ msgstr "文件"
 
 msgctxt "Page|"
 msgid "Connections"
-msgstr "链接"
+msgstr "连接"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
@@ -1857,20 +2687,35 @@ msgid "Video"
 msgstr "视频"
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "Low (240p)"
-msgstr "低(240p)"
+msgid "Lowest"
+msgstr "最低"
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "Medium (480p)"
-msgstr "中(480p)"
+msgid "Highest"
+msgstr "最高"
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "High (1080p)"
-msgstr "高(1080p)"
+msgctxt "PrivacyDialog|"
+msgid "User agreement"
+msgstr "用户协议"
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "4K (2160p)"
-msgstr "4K(2160p)"
+msgctxt "PrivacyDialog|"
+msgid ""
+"A bug report will be sent to the server and used to improve %1 performance. "
+"We do not collect your personal data and do not share data with third "
+"parties."
+msgstr "错误报告将会发送到服务器并用于提高 %1 性能。我们不收集您的个人数据，也不与第三方共享数据。"
+
+msgctxt "PrivacyDialog|"
+msgid "I agree (do not show it again)"
+msgstr "我同意(不再显示)"
+
+msgctxt "PrivacyDialog|"
+msgid "Send report"
+msgstr "发送报告"
+
+msgctxt "PrivacyDialog|"
+msgid "Cancel"
+msgstr "取消"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -1878,11 +2723,11 @@ msgstr "意外错误"
 
 msgctxt "QObject|"
 msgid "Service connection terminated."
-msgstr "服务器终端链接."
+msgstr "服务器终端连接。"
 
 msgctxt "QObject|"
 msgid "App backend's server listen failed."
-msgstr "应用后端服务监听失败."
+msgstr "应用后端服务监听失败。"
 
 msgctxt "QObject|"
 msgid "Error"
@@ -1894,15 +2739,15 @@ msgstr "连接失败"
 
 msgctxt "QObject|"
 msgid "App frontend's server listen failed."
-msgstr "应用前端服务剑灵失败."
+msgstr "应用前端服务监听失败。"
 
 msgctxt "QObject|"
 msgid "QML load failure."
-msgstr "QML 加载失败."
+msgstr "QML 加载失败。"
 
 msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
-msgstr "初始化应用状态管理失败."
+msgstr "初始化应用状态管理失败。"
 
 msgctxt "QObject|"
 msgid ""
@@ -1917,8 +2762,12 @@ msgid "Enter URL"
 msgstr "输入链接"
 
 msgctxt "QObject|"
+msgid "Sorry this device is not supported by %1."
+msgstr "抱歉，%1不支持此设备。"
+
+msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
-msgstr "%1 初始化失败. 请重新安装."
+msgstr "%1 初始化失败。 请重新安装。"
 
 msgctxt "QObject|"
 msgid "Reason: %1"
@@ -1945,6 +2794,26 @@ msgid "Quit"
 msgstr "退出"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1K"
 
@@ -1953,12 +2822,28 @@ msgid "%1 M"
 msgstr "%1M"
 
 msgctxt "QObject|"
+msgid "%1 G"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Download complete"
 msgstr "下载完成"
 
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "下载完成"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr "下载失败"
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr "多项下载失败"
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -2237,6 +3122,10 @@ msgid "Invalid parameter"
 msgstr "无效参数"
 
 msgctxt "QObject|"
+msgid "Unsupported format"
+msgstr "不支持的格式"
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "服务未找到"
 
@@ -2398,7 +3287,7 @@ msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
-msgstr "你希望擦除吗 (这将清空下载列表 和 全部 %1 数据)?"
+msgstr "你希望擦除吗 (这将清空下载列表和全部 %1 数据)?"
 
 msgctxt "QObject|"
 msgid "Failed."
@@ -2411,6 +3300,70 @@ msgstr "缺少 %path% 参数."
 msgctxt "QObject|"
 msgid "Update URL"
 msgstr "更新链接"
+
+msgctxt "QObject|"
+msgid "Documents"
+msgstr "文档"
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr "图片"
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr "视频"
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
+msgstr "其他"
+
+msgctxt "QObject|"
+msgid "upload paused"
+msgstr "已暂停上传"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr "您确定要退出吗？"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Remote resource changed"
+msgstr "远程资源已改变"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Always re-download"
+msgstr "总是重新下载"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Re-download"
+msgstr "重新下载"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "ReportSentDialog|"
+msgid "Report problem"
+msgstr "报告问题"
+
+msgctxt "ReportSentDialog|"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr "抱歉 ，报告未发送，发生错误：%1"
+
+msgctxt "ReportSentDialog|"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr "报告已发送。感谢您的帮助！"
+
+msgctxt "ReportSentDialog|"
+msgid "OK"
+msgstr "确定"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -2561,6 +3514,18 @@ msgid "Sort"
 msgstr "排序"
 
 msgctxt "SelectSortFieldDialog|"
+msgid "By date"
+msgstr "日期"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By name"
+msgstr "名称"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By size"
+msgstr "大小"
+
+msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
 msgstr "升序"
 
@@ -2569,8 +3534,12 @@ msgid "Descending"
 msgstr "降序"
 
 msgctxt "SettingsPage|"
+msgid "Invalid settings"
+msgstr "无效设置"
+
+msgctxt "SettingsPage|"
 msgid ". Close anyway?"
-msgstr ". 任然关闭？"
+msgstr ". 仍然关闭？"
 
 msgctxt "SettingsPage|"
 msgid "Preferences"
@@ -2605,6 +3574,10 @@ msgid "Settings"
 msgstr "设置"
 
 msgctxt "SettingsPage|"
+msgid "Downloads settings"
+msgstr "下载项设置"
+
+msgctxt "SettingsPage|"
 msgid "Network settings"
 msgstr "网络设置"
 
@@ -2613,8 +3586,28 @@ msgid "Traffic limits"
 msgstr "限速"
 
 msgctxt "SettingsPage|"
+msgid "Sounds settings"
+msgstr "声音设置"
+
+msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "高级设置"
+
+msgctxt "SettingsPage|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Restore default settings?"
+msgstr ""
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -2656,17 +3649,29 @@ msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
 msgstr "警告! 电脑将关闭."
 
-msgctxt "SortTools|"
-msgid "By date"
-msgstr "日期"
+msgctxt "SoundsSettings|"
+msgid "Sounds settings"
+msgstr "声音设置"
 
-msgctxt "SortTools|"
-msgid "By name"
-msgstr "名称"
+msgctxt "SoundsSettings|"
+msgid "Use sounds"
+msgstr "使用声音"
 
-msgctxt "SortTools|"
-msgid "By size"
-msgstr "大小"
+msgctxt "SoundsSettings|"
+msgid "Downloads added"
+msgstr "下载项已添加"
+
+msgctxt "SoundsSettings|"
+msgid "Downloads completed"
+msgstr "多项下载已完成"
+
+msgctxt "SoundsSettings|"
+msgid "Downloads failed"
+msgstr "多项下载失败"
+
+msgctxt "SoundsSettings|"
+msgid "No active downloads"
+msgstr "无活动下载项"
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
@@ -2705,36 +3710,24 @@ msgid "Continue"
 msgstr "继续"
 
 msgctxt "StatusItem|"
-msgid "Checking files..."
-msgstr "检查文件..."
+msgid "Checking files"
+msgstr "检查文件"
 
 msgctxt "StatusItem|"
-msgid "Merging media streams..."
-msgstr "合并媒体中..."
+msgid "Merging media streams"
+msgstr "合并媒体中"
 
 msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "已排队"
 
 msgctxt "StatusItem|"
-msgid "Moving... %1%"
-msgstr "移动中... %1%"
-
-msgctxt "StatusItem|"
-msgid "Converting to mp3..."
-msgstr "正在转换为 mp3..."
-
-msgctxt "StatusItem|"
-msgid "Checking for viruses..."
-msgstr "正在检测病毒..."
+msgid "Requesting info"
+msgstr "请求信息中"
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"
 msgstr "未知文件大小"
-
-msgctxt "StatusItem|"
-msgid "Requesting info..."
-msgstr "请求信息中..."
 
 msgctxt "StatusItem|"
 msgid "Paused"
@@ -2768,9 +3761,13 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr "下列下载项暂停后无法恢复。"
 
-msgctxt "TagColorDialog|"
-msgid "Remove tag"
-msgstr "移除标签"
+msgctxt "Subtitles|"
+msgid "Download subtitles"
+msgstr "下载字幕"
+
+msgctxt "Subtitles|"
+msgid "Edit list"
+msgstr "编辑列表"
 
 msgctxt "TagMenu|"
 msgid "Edit"
@@ -2783,6 +3780,18 @@ msgstr "移除"
 msgctxt "TagPalette|"
 msgid "Customize color"
 msgstr "自定义颜色"
+
+msgctxt "ThemeComboBox|"
+msgid "System"
+msgstr "跟随系统"
+
+msgctxt "ThemeComboBox|"
+msgid "Light"
+msgstr "浅色"
+
+msgctxt "ThemeComboBox|"
+msgid "Dark"
+msgstr "深色"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -2865,10 +3874,6 @@ msgid "Custom..."
 msgstr "自定义..."
 
 msgctxt "TumMaxURatioComboBox|"
-msgid "%"
-msgstr "%"
-
-msgctxt "TumMaxURatioComboBox|"
 msgid "Please enter numbers only"
 msgstr "请输入数字"
 
@@ -2896,6 +3901,10 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "修改限速"
 
+msgctxt "TumSettingTextField|"
+msgid "Can't be greater than %1"
+msgstr ""
+
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "新的下载"
@@ -2915,6 +3924,10 @@ msgstr "保存到"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "文件名"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "No write access to the selected directory"
+msgstr "没有对选定目录的写入权限"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
@@ -2943,6 +3956,10 @@ msgstr "取消"
 msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "有新版本可用"
+
+msgctxt "UpdateDialog|"
+msgid "What's new in %1"
+msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -2989,8 +4006,8 @@ msgid "Relaunch %1 to update"
 msgstr "重启 %1 以更新"
 
 msgctxt "UpdateDialog|"
-msgid "Relaunch (%1)"
-msgstr "重启(%1)"
+msgid "Relaunch"
+msgstr "重启"
 
 msgctxt "UpdateDialog|"
 msgid "Later"
@@ -3040,10 +4057,22 @@ msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "刷新"
 
-msgctxt "main|"
-msgid "Move"
-msgstr "移动"
+msgctxt "WhatsNewDialog|"
+msgid "New version is available"
+msgstr "有新版本可用"
+
+msgctxt "WhatsNewDialog|"
+msgid "What's new in %1"
+msgstr ""
+
+msgctxt "WhatsNewDialog|"
+msgid "Update"
+msgstr "更新"
 
 msgctxt "main|"
-msgid "Cancel"
-msgstr "取消"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr "抱歉，报告未发送，发生错误：%1"
+
+msgctxt "main|"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr "报告已发送。感谢您的帮助！"

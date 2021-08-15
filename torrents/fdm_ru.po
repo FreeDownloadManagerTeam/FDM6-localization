@@ -16,7 +16,6 @@ msgctxt "AddTrackersPage|"
 msgid "Add trackers"
 msgstr "Добавить трекеры"
 
-
 msgctxt "DownloadContextMenu|"
 msgid "Disable seeding"
 msgstr "Отключить раздачу"
@@ -24,6 +23,14 @@ msgstr "Отключить раздачу"
 msgctxt "DownloadContextMenu|"
 msgid "Add trackers"
 msgstr "Добавить трекеры"
+
+msgctxt "DownloadContextMenu|"
+msgid "Start all seeding downloads"
+msgstr "Возобновить все раздачи"
+
+msgctxt "DownloadContextMenu|"
+msgid "Stop all seeding downloads"
+msgstr "Приостановить все раздачи"
 
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
@@ -57,6 +64,18 @@ msgctxt "QObject|"
 msgid "Torrent"
 msgstr "Торренты"
 
+msgctxt "QObject|"
+msgid "seeding"
+msgstr "раздача"
+
+msgctxt "Settings|"
+msgid "Automatically delete .torrent files once the download is finished"
+msgstr "Автоматически удалять .torrent файлы при завершении загрузки"
+
+msgctxt "Settings|"
+msgid "Monitor folder for new .torrent files"
+msgstr "Мониторинг папки для новых .torrent файлов"
+
 msgctxt "SettingsPage|"
-msgid "Upload ratio limit"
-msgstr "Максимальный коэффициент отдачи"
+msgid "Stop seeding at ratio"
+msgstr "Останавливать раздачу при рейтинге"

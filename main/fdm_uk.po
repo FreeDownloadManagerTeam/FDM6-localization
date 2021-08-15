@@ -13,8 +13,16 @@ msgid "About"
 msgstr "Про програму"
 
 msgctxt "AboutDialog|"
-msgid "<a href='%1'>%2</a> version %3"
-msgstr "<a href='%1'>%2</a> версія %3"
+msgid "Version: %1 (%2)"
+msgstr "Версія: %1 (%2)"
+
+msgctxt "AboutDialog|"
+msgid "Build date: %1"
+msgstr "Дата компіляції: (%1)"
+
+msgctxt "AboutDialog|"
+msgid "version %1"
+msgstr "версія %1"
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -82,11 +90,19 @@ msgstr "Повідомлення"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "Повідомляти про завершені завантаження через Notification Center"
+msgstr "Повідомляти про завершені завантаження через Центр Сповіщень"
+
+msgctxt "AdvancedSettings|"
+msgid "Notify me of failed downloads via Notification Center"
+msgstr "Повідомляти мене про невдалі завантаження через Центр Сповіщень"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "Повідомляти мене про завантаження лише коли вікно %1 неактивне"
+
+msgctxt "AdvancedSettings|"
+msgid "Customize sounds"
+msgstr "Налаштувати звуки"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -109,12 +125,71 @@ msgid "Launch at startup (minimized)"
 msgstr "Запуск під час запуску системи (згорнутим)"
 
 msgctxt "AdvancedSettings|"
+msgid "Interface"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Показати/сховати нижню панель по кліку на завантаженні"
 
 msgctxt "AdvancedSettings|"
+msgid "Restore hidden state when finished adding new downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Restore default settings?"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
 msgstr "Резервне копіювання списку завантажень кожні"
+
+msgctxt "AdvancedSettings|"
+msgid "File exists reaction"
+msgstr "Якщо файл існує"
+
+msgctxt "AdvancedSettings|"
+msgid "Rename"
+msgstr "Перейменувати"
+
+msgctxt "AdvancedSettings|"
+msgid "Overwrite"
+msgstr "Перезаписати"
+
+msgctxt "AdvancedSettings|"
+msgid "Use sounds"
+msgstr "Використовувати звуки"
+
+msgctxt "AdvancedSettings|"
+msgid ""
+"Do not allow downloads to perform post finished tasks when running on battery"
+msgstr ""
+"Не дозволяти завантаженням виконувати дії після їх завершення  при живленні "
+"від акумулятора"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not allow downloads if battery level drops below"
+msgstr "Не дозволяти завантаження при низькому заряді акумулятора"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable user defined order of downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Show \"Save As...\" button"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -136,6 +211,14 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Додаткові установки"
 
+msgctxt "AdvancedSettings|"
+msgid "Choose theme"
+msgstr "Виберіть тему"
+
+msgctxt "AdvancedSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Якщо системна тема невідома, буде використано світлу тему."
+
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
 msgstr "Конфігурувати вручну..."
@@ -149,14 +232,8 @@ msgid "Select antivirus:"
 msgstr "Виберіть антивірус:"
 
 msgctxt "AntivirusSettings|"
-msgid ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Is "
-"your antivirus not listed?</a>"
-msgstr ""
-"<a "
-"href='https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=18212'>Вашого "
-"антивірусу нема в списку?</a>"
+msgid "Is your antivirus not listed?"
+msgstr "Вашого антивірусу нема в списку?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -176,7 +253,7 @@ msgstr "Аргументи повинні містити змінну %path%"
 
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
-msgstr "Автоматично перевіряти на віруси після званатаження"
+msgstr "Автоматично перевіряти на віруси після завантаження"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
@@ -193,6 +270,30 @@ msgstr "Перейти до налаштувань"
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Скасувати"
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Downloads with no resume support (%1)."
+msgstr "Завантаження без можливості зупинки/відновлення (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Moving files (%1)."
+msgstr "Переміщення файлів (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp3 (%1)."
+msgstr "Конвертація файлів у mp3 (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Converting files to mp4 (%1)."
+msgstr "Конвертація файлів у mp4 (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Merging media streams (%1)."
+msgstr "Злиття медіапотоків (%1)."
+
+msgctxt "AppQuitConfirmationUiManager|"
+msgid "There are operations with no resume capability in progress"
+msgstr "Деякі поточні операції не можна зупинити/відновити"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -311,8 +412,8 @@ msgid "Paste"
 msgstr "Вставити"
 
 msgctxt "BatchVideoQuality|"
-msgid "Preferred Video Quality:"
-msgstr "Бажана Якість Відео:"
+msgid "Max. video quality:"
+msgstr "Макс. якість відео:"
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
@@ -436,7 +537,7 @@ msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
-msgstr "Інші підтримувані ,hfepthb"
+msgstr "Інші браузери, що підтримуються"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -510,9 +611,41 @@ msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(браузер не встановлено)"
 
+msgctxt "BtSettings|"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "BtSettings|"
+msgid "Monitoring"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "BtSettings|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "BtSettings|"
+msgid "Start downloading without confirmation"
+msgstr "Почати завантаження без підтвердження"
+
+msgctxt "BtStrings|"
+msgid "Uploaded"
+msgstr "Вивантажено"
+
+msgctxt "BtStrings|"
+msgid "Ratio"
+msgstr "Співвідношення"
+
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
 msgstr "Додати завантаження"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Report problem"
+msgstr "Повідомити про проблему"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
@@ -539,6 +672,10 @@ msgid "OK"
 msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
+msgid "Report problem"
+msgstr "Повідомити про проблему"
+
+msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
 msgstr "Завантаження з цього сайту заборонено"
 
@@ -561,6 +698,10 @@ msgstr "Будь ласка, виберіть посилання для зава
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "Ви можете вибрати не більше %1 посилань одночасно"
+
+msgctxt "ButtonsBlock|"
+msgid "No write access to the selected directory"
+msgstr "Вибрана тека недоступна для запису"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
@@ -595,6 +736,10 @@ msgid "Enter new URL"
 msgstr "Введіть нову URL-адресу"
 
 msgctxt "ChangeUrlDialog|"
+msgid "File location: %1"
+msgstr "Розташування файлу: %1"
+
+msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
 msgstr "Неправильна URL-адреса"
 
@@ -623,6 +768,10 @@ msgid "Enter new URL"
 msgstr "Введіть нову URL-адресу"
 
 msgctxt "ChangeUrlPage|"
+msgid "File location: %1"
+msgstr "Розташування файлу: %1"
+
+msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Запустити завантаження"
 
@@ -642,74 +791,6 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "Кількість з'єднань"
 
-msgctxt "ConvertationDialog|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Конвертувати в mp3 з налаштовуваним бітрейтом"
-
-msgctxt "ConvertationDialog|"
-msgid "Save to"
-msgstr "Зберегти до"
-
-msgctxt "ConvertationDialog|"
-msgid "Open"
-msgstr "Відкрити"
-
-msgctxt "ConvertationDialog|"
-msgid "Cancel"
-msgstr "Скасувати"
-
-msgctxt "ConvertationDialog|"
-msgid "Bitrate (quality)"
-msgstr "Бітрейт (якість)"
-
-msgctxt "ConvertationDialog|"
-msgid "Constant bitrate of value"
-msgstr "Стале значення бітрейту"
-
-msgctxt "ConvertationDialog|"
-msgid "Variable bitrate (VBR)"
-msgstr "Змінний бітрейт (VBR)"
-
-msgctxt "ConvertationDialog|"
-msgid "The path contains invalid characters"
-msgstr "У шляху є неприпустимі символи"
-
-msgctxt "ConvertationDialog|"
-msgid "OK"
-msgstr "OK"
-
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3"
-msgstr "Конвертувати в mp3"
-
-msgctxt "ConvertationPage|"
-msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Конвертувати в mp3 з налаштовуваним бітрейтом"
-
-msgctxt "ConvertationPage|"
-msgid "OK"
-msgstr "OK"
-
-msgctxt "ConvertationPage|"
-msgid "Save to"
-msgstr "Зберегти до"
-
-msgctxt "ConvertationPage|"
-msgid "The path contains invalid characters"
-msgstr "У шляху є неприпустимі символи"
-
-msgctxt "ConvertationPage|"
-msgid "Bitrate (quality)"
-msgstr "Бітрейт (якість)"
-
-msgctxt "ConvertationPage|"
-msgid "Constant bitrate of value"
-msgstr "Стале значення бітрейту"
-
-msgctxt "ConvertationPage|"
-msgid "Variable bitrate (VBR)"
-msgstr "Змінний бітрейт (VBR)"
-
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "Копіювати посилання"
@@ -717,6 +798,10 @@ msgstr "Копіювати посилання"
 msgctxt "CopyMenu|"
 msgid "Copy"
 msgstr "Копіювати"
+
+msgctxt "CppQmlApp|"
+msgid "Are you sure you want to quit?"
+msgstr "Ви справді хочете вийти?"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -805,6 +890,54 @@ msgctxt "CreatePortableDialog|"
 msgid "Close"
 msgstr "Закрити"
 
+msgctxt "CustomizeSoundsDialog|"
+msgid "Customize sounds"
+msgstr "Налаштувати звуки"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Event"
+msgstr "Подія"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Sound file"
+msgstr "Файл звуку"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No sound"
+msgstr "Без звуку"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads added"
+msgstr "Завантаження додано"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads completed"
+msgstr "Завантаження завершено"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Downloads failed"
+msgstr "Збій завантаження"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "No active downloads"
+msgstr "Немає активних завантажень"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Set sound"
+msgstr "Встановити звук"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Remove"
+msgstr "Прибирати"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Test"
+msgstr "Тест"
+
+msgctxt "CustomizeSoundsDialog|"
+msgid "Close"
+msgstr "Закрити"
+
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
 msgstr "Видалити вибрані завантаження"
@@ -853,6 +986,26 @@ msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
 msgstr "Скасувати"
 
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Download deleting failed"
+msgstr "Не вдалося видалити завантаження"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Try again"
+msgstr "Спробувати ще"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore"
+msgstr "Ігнорувати"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Ignore all"
+msgstr "Ігнорувати все"
+
+msgctxt "DeleteDownloadsFailedDialog|"
+msgid "Abort"
+msgstr "Перервати"
+
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Розмір: %1 (Місце на диску: %2)"
@@ -860,6 +1013,124 @@ msgstr "Розмір: %1 (Місце на диску: %2)"
 msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Розмір: %1"
+
+msgctxt "DockUploadSpeedSetting|"
+msgid "Show total upload speed in the Dock icon"
+msgstr "Показати загальну швидкість завантаження в іконці Закріплення"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Download Failure"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Can't resume download. Download link likely expired. Resume attempts failed."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Please try to update the download link to resume."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Go to the website with the original download source and copy the renewed link"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "click here"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Update download"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Close"
+msgstr "Закрити"
+
+msgctxt "DownloadWindow|"
+msgid "Saved in"
+msgstr "Збережено в"
+
+msgctxt "DownloadWindow|"
+msgid "File size"
+msgstr "Розмір файлу"
+
+msgctxt "DownloadWindow|"
+msgid "Resume support"
+msgstr "Відновити підтримку"
+
+msgctxt "DownloadWindow|"
+msgid "Yes"
+msgstr "Так"
+
+msgctxt "DownloadWindow|"
+msgid "No"
+msgstr "Ні"
+
+msgctxt "DownloadWindow|"
+msgid "Unknown"
+msgstr "Невідомо"
+
+msgctxt "DownloadWindow|"
+msgid "Downloaded"
+msgstr "Завантажений"
+
+msgctxt "DownloadWindow|"
+msgid "Speed"
+msgstr "Швидкість"
+
+msgctxt "DownloadWindow|"
+msgid "Time remaining"
+msgstr "Часу лишилося"
+
+msgctxt "DownloadWindow|"
+msgid "Open download when it is completed"
+msgstr "Відкрити завантаження після його завершення"
+
+msgctxt "DownloadWindow|"
+msgid "Close this window when the download is completed or stopped"
+msgstr "Закрити це вікно, коли завантаження завершиться або зупиниться"
+
+msgctxt "DownloadWindow|"
+msgid "Hide"
+msgstr "Сховати"
+
+msgctxt "DownloadWindow|"
+msgid "Show In Folder"
+msgstr "Показати у теці"
+
+msgctxt "DownloadWindow|"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "DownloadWindow|"
+msgid "Stop"
+msgstr "Стоп"
+
+msgctxt "DownloadWindow|"
+msgid "Start"
+msgstr "Запуск"
+
+msgctxt "DownloadsItemTools|"
+msgid "Moving"
+msgstr "Переміщення"
+
+msgctxt "DownloadsItemTools|"
+msgid "Checking for viruses"
+msgstr "Перевірка на віруси"
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp3"
+msgstr "Конвертація в mp3"
+
+msgctxt "DownloadsItemTools|"
+msgid "Converting to mp4"
+msgstr "Конвертація в mp4"
+
+msgctxt "DownloadsItemTools|"
+msgid "Calculating hash"
+msgstr "Розрахунок хешу"
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
@@ -913,6 +1184,50 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "Список завантажень пустий. Додайте нову URL адресу."
 
+msgctxt "DownloadsSettings|"
+msgid "Downloads settings"
+msgstr "Установки завантажень"
+
+msgctxt "DownloadsSettings|"
+msgid "Start downloading without confirmation"
+msgstr "Почати завантаження без підтвердження"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove deleted files from download list"
+msgstr "Автоматично прибирати видалені файли зі списку завантажень"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically remove completed downloads from download list"
+msgstr "Автоматично прибирати завершені завантаження зі списку завантажень"
+
+msgctxt "DownloadsSettings|"
+msgid "Automatically retry failed downloads"
+msgstr "Автоматично перезапускати невдалі завантаження"
+
+msgctxt "DownloadsSettings|"
+msgid "Use server time for file creation"
+msgstr "При створенні файлу використати час сервера"
+
+msgctxt "DownloadsSettings|"
+msgid "Default download folder"
+msgstr "Тека для завантажень"
+
+msgctxt "DownloadsSettings|"
+msgid "Choose default download folder automatically"
+msgstr "Вибрати теку для завантажень автоматично"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on file type"
+msgstr "Пропонувати теки залежно від типу файлу"
+
+msgctxt "DownloadsSettings|"
+msgid "Suggest folders based on download URL"
+msgstr "Пропонувати теки залежно від URL-адреси завантаження"
+
+msgctxt "DownloadsSettings|"
+msgid "Fixed default download folder"
+msgstr "Вибрана тека (незмінна)"
+
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
 msgstr "Зняти позначку"
@@ -937,9 +1252,29 @@ msgctxt "DownloadsViewHeader|"
 msgid "Added"
 msgstr "Додано"
 
+msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
+msgid "Paused"
+msgstr "Зупинено"
+
+msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
+msgid "File is missing"
+msgstr "Відсутній файл"
+
+msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
+msgid "Disk is missing"
+msgstr "Відсутній диск"
+
+msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
+msgid "Upload paused"
+msgstr "Відвантаження призупинено"
+
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "Пріоритет"
+
+msgctxt "DownloadsViewItem|"
+msgid "Upload paused"
+msgstr "Відвантаження призупинено"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -952,6 +1287,10 @@ msgstr "Відкрити"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show In Folder"
 msgstr "Показати у теці"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Report problem"
+msgstr "Повідомити про проблему"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -998,8 +1337,20 @@ msgid "Add mirror"
 msgstr "Додати дзеркало"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Open download page"
+msgstr "Відкрити сторінку завантаження"
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
 msgstr "Копіювати посилання"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Check for update"
+msgstr "Перевірити оновлення"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Export selected downloads"
+msgstr "Експортувати вибрані завантаження"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
@@ -1020,6 +1371,10 @@ msgstr "Змінити URL"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
 msgstr "Конвертувати в mp3"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Convert to mp4"
+msgstr "Конвертувати в mp4"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
@@ -1050,16 +1405,8 @@ msgid "Download complete"
 msgstr "Завантаження завершено"
 
 msgctxt "DownloadsViewItemFileInfo|"
-msgid "Moving... %1%"
-msgstr "Переміщення... %1%"
-
-msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
 msgstr "Перевірка файлів..."
-
-msgctxt "DownloadsViewItemFileInfo|"
-msgid "Converting to mp3..."
-msgstr "Конвертація в mp3..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1082,32 +1429,20 @@ msgid "Unknown file size"
 msgstr "Розмір файлу невідомий"
 
 msgctxt "DownloadsViewStatusItem|"
-msgid "Checking files..."
-msgstr "Перевірка файлів..."
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Merging media streams..."
-msgstr "Злиття потоків даних..."
-
-msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "Додано в чергу"
 
 msgctxt "DownloadsViewStatusItem|"
-msgid "Moving... %1%"
-msgstr "Переміщення... %1%"
+msgid "Checking files"
+msgstr "Перевірка файлів"
 
 msgctxt "DownloadsViewStatusItem|"
-msgid "Converting to mp3..."
-msgstr "Конвертація в mp3..."
+msgid "Merging media streams"
+msgstr "Злиття потоків даних"
 
 msgctxt "DownloadsViewStatusItem|"
-msgid "Checking for viruses..."
-msgstr "Перевірка на віруси...."
-
-msgctxt "DownloadsViewStatusItem|"
-msgid "Requesting info..."
-msgstr "Запит інформації..."
+msgid "Requesting info"
+msgstr "Запит інформації"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Unknown file size"
@@ -1120,6 +1455,144 @@ msgstr "Зупинено"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Завершено"
+
+msgctxt "EditTagDialog|"
+msgid "Edit tag"
+msgstr "Редагувати тег"
+
+msgctxt "EditTagDialog|"
+msgid "Tag"
+msgstr "Тег"
+
+msgctxt "EditTagDialog|"
+msgid "Extensions (e.g. \"avi mp3\")"
+msgstr "Розширення (напр. \"avi mp3\")"
+
+msgctxt "EditTagDialog|"
+msgid ""
+"Extensions that are automatically assigned with this tag for new downloads"
+msgstr ""
+"Розширення, які автоматично присвоюються з цим тегом новим завантаженням"
+
+msgctxt "EditTagDialog|"
+msgid "Default download folder"
+msgstr "Тека для завантажень"
+
+msgctxt "EditTagDialog|"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "EditTagDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "EditTagDialog|"
+msgid "Macros"
+msgstr "Макрос"
+
+msgctxt "EditTagDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "EnvTools|"
+msgid "Low battery"
+msgstr "Низький заряд"
+
+msgctxt "EnvTools|"
+msgid "Data roaming disabled"
+msgstr "Роумінг даних вимкнуто"
+
+msgctxt "EnvTools|"
+msgid "No Internet connection"
+msgstr "Відсутнє з'єднання з Internet"
+
+msgctxt "EnvTools|"
+msgid "Mobile data use disabled"
+msgstr "Використання мобільних даних вимкнено"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Rename"
+msgstr "Перейменувати"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Overwrite"
+msgstr "Перезаписати"
+
+msgctxt "ExistingFileReactionCombobox|"
+msgid "Always ask"
+msgstr "Завжди запитувати"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export selected downloads"
+msgstr "Експортувати вибрані завантаження"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export all downloads"
+msgstr "Експортувати всі завантаження"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Save to"
+msgstr "Зберегти до"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "All files (%1)"
+msgstr "Всі файли (%1)"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export only completed downloads"
+msgstr "Експортувати лише завершені завантаження"
+
+msgctxt "ExportDownloadsDialog|"
+msgid "Export"
+msgstr "Експорт"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "%1 downloads files (%2)"
+msgstr "%1 файлів завантажень (%2)"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Default format"
+msgstr "Формат за замовчуванням"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "List of URLs"
+msgstr "Список URL"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "Text files (%1)"
+msgstr "Текстові файли (%1)"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV file"
+msgstr "Файл CSV"
+
+msgctxt "ExportDownloadsTypeCombobox|"
+msgid "CSV files (%1)"
+msgstr "Файли CSV (%1)"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Export"
+msgstr "Експорт"
+
+msgctxt "ExportSettingsDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "ExportSettingsDialog|"
+msgid "%1 settings files (%2)"
+msgstr "%1 файлів установок (%2)"
+
+msgctxt "ExportSettingsDialog|"
+msgid "All files (%1)"
+msgstr "Всі файли (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1197,6 +1670,14 @@ msgctxt "FileName|"
 msgid "File name"
 msgstr "Ім'я файлу"
 
+msgctxt "FileName|"
+msgid "%1 files (*.%2)"
+msgstr ""
+
+msgctxt "FileName|"
+msgid "All files"
+msgstr ""
+
 msgctxt "FilePickerPage|"
 msgid "Select folder"
 msgstr "Вибрати теку"
@@ -1238,8 +1719,28 @@ msgid "Descending"
 msgstr "За спаданням"
 
 msgctxt "FileType|"
-msgid "Preferred File Type:"
-msgstr "Бажаний тип файлу:"
+msgid "File type:"
+msgstr "Тип файлу:"
+
+msgctxt "FilesExistsDialog|"
+msgid "Warning: file exists already"
+msgstr "Увага: файл вже існує"
+
+msgctxt "FilesExistsDialog|"
+msgid "Remember my choice for all downloads"
+msgstr "Запам'ятати мій вибір для всіх завантажень"
+
+msgctxt "FilesExistsDialog|"
+msgid "Rename (%1)"
+msgstr "Перейменувати (%1)"
+
+msgctxt "FilesExistsDialog|"
+msgid "Overwrite"
+msgstr "Перезаписати"
+
+msgctxt "FilesExistsDialog|"
+msgid "Abort"
+msgstr "Перервати"
 
 msgctxt "FilesTree|"
 msgid "Name"
@@ -1313,6 +1814,18 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
 msgstr "Конвертувати відео в mp3"
 
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert video to mp4"
+msgstr "Конвертувати відео в mp4"
+
+msgctxt "FilesTreeContextMenu|"
+msgid "Convert to mp4"
+msgstr "Конвертувати в mp4"
+
+msgctxt "FixedDownloadFolderCombobox|"
+msgid "Macros"
+msgstr "Макрос"
+
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "Загальні"
@@ -1322,26 +1835,8 @@ msgid "Choose theme"
 msgstr "Виберіть тему"
 
 msgctxt "GeneralSettings|"
-msgid "Light"
-msgstr "Світла"
-
-msgctxt "GeneralSettings|"
-msgid "Dark"
-msgstr "Темна"
-
-msgctxt "GeneralSettings|"
 msgid "Language"
 msgstr "Мова"
-
-msgctxt "GeneralSettings|"
-msgid ""
-"Your language is not listed or the translation isn't complete? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Let's "
-"fix it!</a>"
-msgstr ""
-"Вашої мови нема в списку або переклад неповний? <a "
-"href='https://github.com/FreeDownloadManagerTeam/FDM6-localization'>Давайте "
-"виправимо це!</a>"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1352,12 +1847,52 @@ msgid "Suggest folders based on file type"
 msgstr "Пропонувати теки залежно від типу файлу"
 
 msgctxt "GeneralSettings|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Якщо системна тема невідома, буде використано світлу тему."
+
+msgctxt "GeneralSettings|"
+msgid "Your language is not listed or the translation isn't complete?"
+msgstr "Вашої мови нема в списку або переклад неповний?"
+
+msgctxt "GeneralSettings|"
+msgid "Let's fix it!"
+msgstr "Давайте виправимо це!"
+
+msgctxt "GeneralSettings|"
+msgid "Default download folder"
+msgstr "Тека для завантажень"
+
+msgctxt "GeneralSettings|"
+msgid "Choose default download folder automatically"
+msgstr "Вибрати теку для завантажень автоматично"
+
+msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
 msgstr "Пропонувати теки залежно від URL-адреси завантаження"
 
 msgctxt "GeneralSettings|"
+msgid "Fixed default download folder"
+msgstr "Вибрана тека (незмінна)"
+
+msgctxt "GeneralSettings|"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "GeneralSettings|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "GeneralSettings|"
+msgid "Macros"
+msgstr "Макрос"
+
+msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
 msgstr "Компактний вид списку завантажень"
+
+msgctxt "GeneralSettings|"
+msgid "Enable standalone downloads windows"
+msgstr "Дозволити окремі вікна заванатжень"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
@@ -1368,8 +1903,16 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Автоматично прибирати завершені завантаження зі списку завантажень"
 
 msgctxt "GeneralSettings|"
+msgid "Automatically retry failed downloads"
+msgstr "Автоматично перезапускати невдалі завантаження"
+
+msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
 msgstr "При створенні файлу використати час сервера"
+
+msgctxt "GeneralSettings|"
+msgid "Maximum urls count in batch download"
+msgstr "Максимальна кількість URL в пакетному завантаженні"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1384,16 +1927,20 @@ msgid "Install updates automatically"
 msgstr "Автоматично встановлювати оновлення"
 
 msgctxt "GeneralSettings|"
-msgid "Dark theme"
-msgstr "Темна тема"
-
-msgctxt "GeneralSettings|"
-msgid "Start downloading without confirmation"
-msgstr "Почати завантаження без підтвердження"
-
-msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "Використовувати мобільну мережу"
+
+msgctxt "GeneralTab|"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "GeneralTab|"
+msgid "completed"
+msgstr "завершено"
+
+msgctxt "GeneralTab|"
+msgid "State"
+msgstr "Стан"
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1402,6 +1949,26 @@ msgstr "Загальний розмір:"
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "Завантажено:"
+
+msgctxt "GeneralTab|"
+msgid "Uploaded"
+msgstr "Вивантажено"
+
+msgctxt "GeneralTab|"
+msgid "ratio"
+msgstr "співвідношення"
+
+msgctxt "GeneralTab|"
+msgid "Web page"
+msgstr "Web сторінка"
+
+msgctxt "GeneralTab|"
+msgid "File"
+msgstr "Файл"
+
+msgctxt "GeneralTab|"
+msgid "Speed"
+msgstr "Швидкість"
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
@@ -1443,6 +2010,62 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
 
+msgctxt "ImportDialog|"
+msgid "Import"
+msgstr "Імпорт"
+
+msgctxt "ImportDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "ImportDialog|"
+msgid "All files (%1)"
+msgstr "Всі файли (%1)"
+
+msgctxt "ImportDialog|"
+msgid "Text files (%1)"
+msgstr "Текстові файли (%1)"
+
+msgctxt "ImportDialog|"
+msgid "%1 downloads files (%2)"
+msgstr "%1 файлів завантажень (%2)"
+
+msgctxt "ImportDialog|"
+msgid "%1 settings files (%2)"
+msgstr "%1 файлів установок (%2)"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Error: %1"
+msgstr "Помилка: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to paste URLs from the file"
+msgstr "Не вдалося вставити URL з файлу"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import the list of URLs from the file: %1"
+msgstr "Неможливо імпортувати список URL з файлу: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to export"
+msgstr "Не вдалося експортувати"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to export to the file: %1"
+msgstr "Не вдалося експортувати в файл: %1"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Failure to import"
+msgstr "Не вдалося імпортувати"
+
+msgctxt "ImportExportFailedDialog|"
+msgid "Unable to import from the file: %1"
+msgstr "Не вдалося імпортувати з файлу: %1"
+
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
 msgstr "Встановити за замовчуванням"
@@ -1465,7 +2088,7 @@ msgstr "Браузер"
 
 msgctxt "LeftDrawer|"
 msgid "Settings"
-msgstr "Установки"
+msgstr "Налаштування"
 
 msgctxt "LeftDrawer|"
 msgid "Contact support"
@@ -1474,6 +2097,10 @@ msgstr "Технічна підтримка"
 msgctxt "LeftDrawer|"
 msgid "About"
 msgstr "Про програму"
+
+msgctxt "LeftDrawer|"
+msgid "Quit"
+msgstr "Вихід"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -1487,6 +2114,34 @@ msgctxt "ListEditor|"
 msgid "Hide"
 msgstr "Сховати"
 
+msgctxt "MacrosMenu|"
+msgid "%content_type% - content type (e.g. \"Music\")"
+msgstr "%content_type% - тип контенту (напр. \"Музика\")"
+
+msgctxt "MacrosMenu|"
+msgid "%server% - name of the server (e.g. \"%1\")"
+msgstr "%server% - ім'я сервера (напр. \"%1\")"
+
+msgctxt "MacrosMenu|"
+msgid "%path_on_server% - path to the downloading file on the server"
+msgstr "%path_on_server% - шлях до файлу, що завантажується, на сервері"
+
+msgctxt "MacrosMenu|"
+msgid "%year% - current year"
+msgstr "%year% - поточний рік"
+
+msgctxt "MacrosMenu|"
+msgid "%month% - current month (number from 1 to 12)"
+msgstr "%month% - поточний місяць (число від 1 до 12)"
+
+msgctxt "MacrosMenu|"
+msgid "%day% - current day"
+msgstr "%day% - поточний день"
+
+msgctxt "MacrosMenu|"
+msgid "%date% - equivalent to %year%-%month%-%day%"
+msgstr "%date% - еквівалентно %year%-%month%-%day%"
+
 msgctxt "MainFiltersBar|"
 msgid "All"
 msgstr "Всі"
@@ -1499,9 +2154,37 @@ msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "Завершено"
 
+msgctxt "MainFiltersBar|"
+msgid "OK to remove tag?"
+msgstr "Дійсно прибрати тег?"
+
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
 msgstr "Вставити URL-адреси з буфера обміну"
+
+msgctxt "MainMenu|"
+msgid "Paste Urls from File"
+msgstr "Вставити URL з файлу"
+
+msgctxt "MainMenu|"
+msgid "Export/Import"
+msgstr "Експорт/Імпорт"
+
+msgctxt "MainMenu|"
+msgid "Export all downloads"
+msgstr "Експортувати всі завантаження"
+
+msgctxt "MainMenu|"
+msgid "Import downloads"
+msgstr "Імпортувати завантаження"
+
+msgctxt "MainMenu|"
+msgid "Export settings"
+msgstr "Експортувати установки"
+
+msgctxt "MainMenu|"
+msgid "Import settings"
+msgstr "Імпортувати установки"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -1536,6 +2219,10 @@ msgid "Check for Updates..."
 msgstr "Перевірити оновлення..."
 
 msgctxt "MainMenu|"
+msgid "Join the Mosaic..."
+msgstr "Приєднатися до мозаїки..."
+
+msgctxt "MainMenu|"
 msgid "About"
 msgstr "Про програму"
 
@@ -1550,10 +2237,6 @@ msgstr "Режим равлика звільняє канал Інтернету
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "Режим равлика"
-
-msgctxt "MainStatusBar|"
-msgid "No Internet connection"
-msgstr "Відсутнє з'єднання з Internet"
 
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
@@ -1595,8 +2278,20 @@ msgid "Move to..."
 msgstr "Перенести до..."
 
 msgctxt "MainToolbar|"
+msgid "Move downloads up"
+msgstr ""
+
+msgctxt "MainToolbar|"
+msgid "Move downloads down"
+msgstr ""
+
+msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "Головне меню"
+
+msgctxt "MainToolbar|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -1605,10 +2300,6 @@ msgstr "Необмежена"
 msgctxt "MaxURatioComboBox|"
 msgid "Custom..."
 msgstr "Виберіть..."
-
-msgctxt "MaxURatioComboBox|"
-msgid "%"
-msgstr "%"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Custom value"
@@ -1621,6 +2312,10 @@ msgstr "OK"
 msgctxt "MaxURatioComboBox|"
 msgid "CANCEL"
 msgstr "Скасувати"
+
+msgctxt "MaxURatioComboBox|"
+msgid "Invalid value"
+msgstr "Неправильне значення"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
@@ -1651,20 +2346,40 @@ msgid "Skip"
 msgstr "Пропустити"
 
 msgctxt "MergeDownloadsDialog|"
-msgid "OK"
-msgstr "OK"
+msgid "Skip all (%1)"
+msgstr "Пропустити всі (%1)"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
 msgstr "Завантажити"
 
-msgctxt "ModeButton|"
-msgid "No Internet connection"
-msgstr "Відсутнє з'єднання з Internet"
+msgctxt "MobileDataUsageDialog|"
+msgid "Mobile data usage"
+msgstr "Використання мобільних даних"
 
-msgctxt "ModeButton|"
-msgid "Mobile data use disabled"
-msgstr "Використання мобільних даних вимкнено"
+msgctxt "MobileDataUsageDialog|"
+msgid "Waiting for Wi-Fi to start download."
+msgstr "Чекаю на Wi-Fi для початку завантаження."
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Would you like to enable usage of mobile data? *"
+msgstr "Ви хочете дозволити використання мобільних даних? *"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Don't ask again"
+msgstr "Більше не питати"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "Yes"
+msgstr "Так"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "No"
+msgstr "Ні"
+
+msgctxt "MobileDataUsageDialog|"
+msgid "* additional charges may apply"
+msgstr "* може стягуватися додаткова плата"
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
@@ -1685,6 +2400,118 @@ msgstr "Спробувати ще"
 msgctxt "MovingFailedDialog|"
 msgid "Cancel"
 msgstr "Скасувати"
+
+msgctxt "MovingFolderDialog|"
+msgid "Move"
+msgstr "Перемістити"
+
+msgctxt "MovingFolderDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr "Конвертувати в mp3 з налаштовуваним бітрейтом"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Save to"
+msgstr "Зберегти до"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Bitrate (quality)"
+msgstr "Бітрейт (якість)"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Constant bitrate of value"
+msgstr "Стале значення бітрейту"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "Variable bitrate (VBR)"
+msgstr "Змінний бітрейт (VBR)"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr "У шляху є неприпустимі символи"
+
+msgctxt "Mp3ConverterDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3"
+msgstr "Конвертувати в mp3"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Convert to mp3 with adjustable bitrate"
+msgstr "Конвертувати в mp3 з налаштовуваним бітрейтом"
+
+msgctxt "Mp3ConverterPage|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Save to"
+msgstr "Зберегти до"
+
+msgctxt "Mp3ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "У шляху є неприпустимі символи"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Bitrate (quality)"
+msgstr "Бітрейт (якість)"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Constant bitrate of value"
+msgstr "Стале значення бітрейту"
+
+msgctxt "Mp3ConverterPage|"
+msgid "Variable bitrate (VBR)"
+msgstr "Змінний бітрейт (VBR)"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Convert to mp4"
+msgstr "Конвертувати в mp4"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Save to"
+msgstr "Зберегти до"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "The path contains invalid characters"
+msgstr "У шляху є неприпустимі символи"
+
+msgctxt "Mp4ConverterDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Convert to mp4"
+msgstr "Конвертувати в mp4"
+
+msgctxt "Mp4ConverterPage|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "Mp4ConverterPage|"
+msgid "Save to"
+msgstr "Зберегти до"
 
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
@@ -1847,6 +2674,10 @@ msgid "CANCEL"
 msgstr "СКАСУВАТИ"
 
 msgctxt "NetworkSpeedLimitComboBox|"
+msgid "Invalid value"
+msgstr "Неправильне значення"
+
+msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "Має бути числом більше 0."
 
@@ -1871,20 +2702,37 @@ msgid "Video"
 msgstr "Відео"
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "Low (240p)"
-msgstr "Низька (240p)"
+msgid "Lowest"
+msgstr "Найнижча"
 
 msgctxt "PreferredVideoQualityCombobox|"
-msgid "Medium (480p)"
-msgstr "Середня (480p)"
+msgid "Highest"
+msgstr "Найвища"
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "High (1080p)"
-msgstr "Висока (1080p)"
+msgctxt "PrivacyDialog|"
+msgid "User agreement"
+msgstr "Угода з користувачем"
 
-msgctxt "PreferredVideoQualityCombobox|"
-msgid "4K (2160p)"
-msgstr "4K (2160p)"
+msgctxt "PrivacyDialog|"
+msgid ""
+"A bug report will be sent to the server and used to improve %1 performance. "
+"We do not collect your personal data and do not share data with third "
+"parties."
+msgstr ""
+"На сервер буде надіслано звіт для покращення роботи %1. Ми не збираємо ваші "
+"персональні дані і не передаємо їх третім особам."
+
+msgctxt "PrivacyDialog|"
+msgid "I agree (do not show it again)"
+msgstr "Згода (більше не показувати)"
+
+msgctxt "PrivacyDialog|"
+msgid "Send report"
+msgstr "Надіслати звіт"
+
+msgctxt "PrivacyDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -1931,6 +2779,10 @@ msgid "Enter URL"
 msgstr "Введіть URL-адресу"
 
 msgctxt "QObject|"
+msgid "Sorry this device is not supported by %1."
+msgstr "Перепрошуємо, цей пристрій не підтримується %1."
+
+msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr "%1 не ініціалізується. Будь ласка, перевстановіть."
 
@@ -1959,6 +2811,26 @@ msgid "Quit"
 msgstr "Вихід"
 
 msgctxt "QObject|"
+msgid "%1 B"
+msgstr "%1 б"
+
+msgctxt "QObject|"
+msgid "%1 KB"
+msgstr "%1 кб"
+
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr "%1 Мб"
+
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr "%1 Гб"
+
+msgctxt "QObject|"
+msgid "%1 TB"
+msgstr "%1 Тб"
+
+msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 К"
 
@@ -1967,12 +2839,28 @@ msgid "%1 M"
 msgstr "%1 М"
 
 msgctxt "QObject|"
+msgid "%1 G"
+msgstr "%1 Г"
+
+msgctxt "QObject|"
+msgid "%1 T"
+msgstr "%1 Т"
+
+msgctxt "QObject|"
 msgid "Download complete"
 msgstr "Завантаження завершено"
 
 msgctxt "QObject|"
 msgid "Downloads complete"
 msgstr "Завантаження завершено"
+
+msgctxt "QObject|"
+msgid "Download failed"
+msgstr "Збій завантаження"
+
+msgctxt "QObject|"
+msgid "Downloads failed"
+msgstr "Збій завантаження"
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -2104,7 +2992,7 @@ msgstr "Я - чайник :)"
 
 msgctxt "QObject|"
 msgid "Authentication Timeout"
-msgstr "Час ідентифікації скінчився"
+msgstr "Час аутентифікації скінчився"
 
 msgctxt "QObject|"
 msgid "Method Failure / Enhance Your Calm"
@@ -2249,6 +3137,10 @@ msgstr "Не підтримується"
 msgctxt "QObject|"
 msgid "Invalid parameter"
 msgstr "Неаправильний параметр"
+
+msgctxt "QObject|"
+msgid "Unsupported format"
+msgstr "Формат не підтримується"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -2428,6 +3320,70 @@ msgctxt "QObject|"
 msgid "Update URL"
 msgstr "URL оновлення"
 
+msgctxt "QObject|"
+msgid "Documents"
+msgstr "Документи"
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr "Зображення"
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr "Відео"
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
+msgstr "Різне"
+
+msgctxt "QObject|"
+msgid "upload paused"
+msgstr "вивантаження зупинено"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Are you sure you want to quit?"
+msgstr "Ви справді хочете вийти?"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "QuitConfirmationDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Remote resource changed"
+msgstr "Віддалений ресурс змінено"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Always re-download"
+msgstr "Завжди завантажувати заново"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Re-download"
+msgstr "Завантажити заново"
+
+msgctxt "RemoteResourceChangedDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "ReportSentDialog|"
+msgid "Report problem"
+msgstr "Повідомити про проблему"
+
+msgctxt "ReportSentDialog|"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr "Перепрошуємо, звіт не надіслано, сталася помилка: %1"
+
+msgctxt "ReportSentDialog|"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr "Звіт надіслано. Дякуємо за співпрацю!"
+
+msgctxt "ReportSentDialog|"
+msgid "OK"
+msgstr "OK"
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "Зберегти до"
@@ -2577,12 +3533,28 @@ msgid "Sort"
 msgstr "Сортувати"
 
 msgctxt "SelectSortFieldDialog|"
+msgid "By date"
+msgstr "За датою"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By name"
+msgstr "За ім'ям"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By size"
+msgstr "За розміром"
+
+msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
 msgstr "За зростанням"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Descending"
 msgstr "За спаданням"
+
+msgctxt "SettingsPage|"
+msgid "Invalid settings"
+msgstr "Неправильні налаштування"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
@@ -2621,6 +3593,10 @@ msgid "Settings"
 msgstr "Установки"
 
 msgctxt "SettingsPage|"
+msgid "Downloads settings"
+msgstr "Установки завантажень"
+
+msgctxt "SettingsPage|"
 msgid "Network settings"
 msgstr "Установки мережі"
 
@@ -2629,8 +3605,28 @@ msgid "Traffic limits"
 msgstr "Обмеження трафіку"
 
 msgctxt "SettingsPage|"
+msgid "Sounds settings"
+msgstr "Налаштування звуку"
+
+msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Додаткові установки"
+
+msgctxt "SettingsPage|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Restore default settings?"
+msgstr ""
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -2675,17 +3671,29 @@ msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
 msgstr "Увага! Ваш комп'ютер буде вимкнено."
 
-msgctxt "SortTools|"
-msgid "By date"
-msgstr "За датою"
+msgctxt "SoundsSettings|"
+msgid "Sounds settings"
+msgstr "Налаштування звуку"
 
-msgctxt "SortTools|"
-msgid "By name"
-msgstr "За іменем"
+msgctxt "SoundsSettings|"
+msgid "Use sounds"
+msgstr "Використовувати звуки"
 
-msgctxt "SortTools|"
-msgid "By size"
-msgstr "За розміром"
+msgctxt "SoundsSettings|"
+msgid "Downloads added"
+msgstr "Завантаження додано"
+
+msgctxt "SoundsSettings|"
+msgid "Downloads completed"
+msgstr "Завантаження завершено"
+
+msgctxt "SoundsSettings|"
+msgid "Downloads failed"
+msgstr "Збій завантаження"
+
+msgctxt "SoundsSettings|"
+msgid "No active downloads"
+msgstr "Немає активних завантажень"
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
@@ -2693,7 +3701,7 @@ msgstr "Увага: потенційна загроза безпеці"
 
 msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
-msgstr "Сертифікат SSL невірний."
+msgstr "Сертифікат SSL недійсний."
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -2724,36 +3732,24 @@ msgid "Continue"
 msgstr "Продовжити"
 
 msgctxt "StatusItem|"
-msgid "Checking files..."
-msgstr "Перевірка файлів..."
+msgid "Checking files"
+msgstr "Перевірка файлів"
 
 msgctxt "StatusItem|"
-msgid "Merging media streams..."
-msgstr "Злиття потоків даних..."
+msgid "Merging media streams"
+msgstr "Злиття потоків даних"
 
 msgctxt "StatusItem|"
 msgid "Queued"
 msgstr "Додано в чергу"
 
 msgctxt "StatusItem|"
-msgid "Moving... %1%"
-msgstr "Переміщую... %1%"
-
-msgctxt "StatusItem|"
-msgid "Converting to mp3..."
-msgstr "Конвертація в mp3..."
-
-msgctxt "StatusItem|"
-msgid "Checking for viruses..."
-msgstr "Перевірка на віруси..."
+msgid "Requesting info"
+msgstr "Запит інформації"
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"
 msgstr "Розмір файлу невідомий"
-
-msgctxt "StatusItem|"
-msgid "Requesting info..."
-msgstr "Запит інформації..."
 
 msgctxt "StatusItem|"
 msgid "Paused"
@@ -2789,9 +3785,13 @@ msgid "The download(s) below can't be resumed after pausing"
 msgstr ""
 "Завантаження, зазначене(і) нижче, не можна відновити після призупинення"
 
-msgctxt "TagColorDialog|"
-msgid "Remove tag"
-msgstr "Прибрати тег"
+msgctxt "Subtitles|"
+msgid "Download subtitles"
+msgstr "Завантажити субтитри"
+
+msgctxt "Subtitles|"
+msgid "Edit list"
+msgstr "Редагувати список"
 
 msgctxt "TagMenu|"
 msgid "Edit"
@@ -2804,6 +3804,18 @@ msgstr "Прибирати"
 msgctxt "TagPalette|"
 msgid "Customize color"
 msgstr "Змінити колір"
+
+msgctxt "ThemeComboBox|"
+msgid "System"
+msgstr "Системна"
+
+msgctxt "ThemeComboBox|"
+msgid "Light"
+msgstr "Світла"
+
+msgctxt "ThemeComboBox|"
+msgid "Dark"
+msgstr "Темна"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -2886,10 +3898,6 @@ msgid "Custom..."
 msgstr "Виберіть...."
 
 msgctxt "TumMaxURatioComboBox|"
-msgid "%"
-msgstr "%"
-
-msgctxt "TumMaxURatioComboBox|"
 msgid "Please enter numbers only"
 msgstr "Будь ласка, вводьте лише числа"
 
@@ -2917,6 +3925,10 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Змінити обмеження трафіку"
 
+msgctxt "TumSettingTextField|"
+msgid "Can't be greater than %1"
+msgstr ""
+
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Нове завантаження"
@@ -2936,6 +3948,10 @@ msgstr "Зберегти до"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "Ім'я файлу"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "No write access to the selected directory"
+msgstr "Вибрана тека недоступна для запису"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
@@ -2964,6 +3980,10 @@ msgstr "Скасувати"
 msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "Доступна нова версія"
+
+msgctxt "UpdateDialog|"
+msgid "What's new in %1"
+msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -3010,8 +4030,8 @@ msgid "Relaunch %1 to update"
 msgstr "Для оновлення перезапустіть %1"
 
 msgctxt "UpdateDialog|"
-msgid "Relaunch (%1)"
-msgstr "Перезапустіть (%1)"
+msgid "Relaunch"
+msgstr "Перезапустіть"
 
 msgctxt "UpdateDialog|"
 msgid "Later"
@@ -3061,10 +4081,22 @@ msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Оновити"
 
-msgctxt "main|"
-msgid "Move"
-msgstr "Перемістити"
+msgctxt "WhatsNewDialog|"
+msgid "New version is available"
+msgstr "Доступна нова версія"
+
+msgctxt "WhatsNewDialog|"
+msgid "What's new in %1"
+msgstr ""
+
+msgctxt "WhatsNewDialog|"
+msgid "Update"
+msgstr "Оновити"
 
 msgctxt "main|"
-msgid "Cancel"
-msgstr "Скасувати"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr "Перепрошуємо, звіт не надіслано, сталася помилка: %1"
+
+msgctxt "main|"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr "Звіт надіслано. Дякуємо за співпрацю!"
