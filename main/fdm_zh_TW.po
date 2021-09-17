@@ -125,8 +125,32 @@ msgid "Launch at startup (minimized)"
 msgstr "在系統啟動時載入（最小化）"
 
 msgctxt "AdvancedSettings|"
+msgid "Interface"
+msgstr "介面"
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "點擊下載以 打開/ 隱藏 底部面板"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore hidden state when finished adding new downloads"
+msgstr "完成新增下載後恢復隱藏狀態"
+
+msgctxt "AdvancedSettings|"
+msgid "Go back to default settings"
+msgstr "回到預設值"
+
+msgctxt "AdvancedSettings|"
+msgid "Reset"
+msgstr "重置"
+
+msgctxt "AdvancedSettings|"
+msgid "Default settings"
+msgstr "預設值"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore default settings?"
+msgstr "是否恢復預設值?"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -156,6 +180,14 @@ msgstr "禁止"
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "電池低電量時，禁止下載"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable user defined order of downloads"
+msgstr "啟用使用者定的下載順序"
+
+msgctxt "AdvancedSettings|"
+msgid "Show \"Save As...\" button"
+msgstr "顯示 \"另存\" 按鈕"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -239,11 +271,11 @@ msgstr "取消"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
-msgstr "不支援暫停續載."
+msgstr "不支援暫停續載 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
-msgstr "移動檔案 (%1)."
+msgstr "移動檔案中 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
@@ -497,7 +529,9 @@ msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
-msgstr "確認是否已完成安裝 %1 瀏覽器擴充套件，若無，請依照您慣用瀏覽器 點擊下方按鈕進行安裝套件"
+msgstr ""
+"確認是否已完成安裝 %1 瀏覽器擴充套件，若無，請依照您慣用瀏覽器 \n"
+"點擊下方按鈕進行安裝套件"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -562,8 +596,8 @@ msgstr ""
 "\n"
 "並使用它幫您新增下載連結 %1\n"
 "\n"
-"某些(例如：Google Drive ) 只能使用瀏覽器新增連結，因為它們需要給 %1 "
-"的額外訊息，但android系統瀏覽器無法提供。(或瀏覽器沒有通用方法取得額外資訊)"
+"某些(例如：Google Drive ) 只能使用瀏覽器新增連結，因為它們需要給 %1 的額外訊息，\n"
+"但 Android 系統瀏覽器無法提供。(或瀏覽器沒有通用方法取得額外資訊)"
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -573,13 +607,33 @@ msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "瀏覽器未安裝"
 
+msgctxt "BtSettings|"
+msgid "General"
+msgstr "一般"
+
+msgctxt "BtSettings|"
+msgid "Monitoring"
+msgstr "監控"
+
+msgctxt "BtSettings|"
+msgid "Open"
+msgstr "開啟"
+
+msgctxt "BtSettings|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "BtSettings|"
+msgid "Start downloading without confirmation"
+msgstr "不經確認就開始下載"
+
 msgctxt "BtStrings|"
 msgid "Uploaded"
 msgstr "已上傳"
 
 msgctxt "BtStrings|"
 msgid "Ratio"
-msgstr "比率"
+msgstr "比例"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -954,6 +1008,36 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "在懸浮Icon上 顯示總上傳速度"
 
+msgctxt "DownloadExpiredDialog|"
+msgid "Download Failure"
+msgstr "下載失敗"
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Can't resume download. Download link likely expired. Resume attempts failed."
+msgstr "無法續載。下載鏈結可能已經失效。恢復續載失敗。"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Please try to update the download link to resume."
+msgstr "請更新鏈結後再嘗試恢復續載。"
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Go to the website with the original download source and copy the renewed link"
+msgstr "請到網站複製已更新的下載來源鏈結"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "click here"
+msgstr "請點這裡"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Update download"
+msgstr "更新下載"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Close"
+msgstr "關閉"
+
 msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "保存至"
@@ -1020,7 +1104,7 @@ msgstr "開始"
 
 msgctxt "DownloadsItemTools|"
 msgid "Moving"
-msgstr "移動"
+msgstr "移動中"
 
 msgctxt "DownloadsItemTools|"
 msgid "Checking for viruses"
@@ -1306,6 +1390,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "順序下載"
 
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Remove from list"
+msgstr "從清單中移除"
+
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
 msgstr "下載完成"
@@ -1401,11 +1489,11 @@ msgstr "OK"
 
 msgctxt "EnvTools|"
 msgid "Low battery"
-msgstr ""
+msgstr "低電量"
 
 msgctxt "EnvTools|"
 msgid "Data roaming disabled"
-msgstr ""
+msgstr "數據漫遊已禁用"
 
 msgctxt "EnvTools|"
 msgid "No Internet connection"
@@ -1574,6 +1662,14 @@ msgstr "建立子目錄"
 msgctxt "FileName|"
 msgid "File name"
 msgstr "檔案名稱"
+
+msgctxt "FileName|"
+msgid "%1 files (*.%2)"
+msgstr "%1 檔案 (*.%2)"
+
+msgctxt "FileName|"
+msgid "All files"
+msgstr "全部檔案"
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
@@ -1853,7 +1949,7 @@ msgstr "已上傳"
 
 msgctxt "GeneralTab|"
 msgid "ratio"
-msgstr "比率"
+msgstr "比例"
 
 msgctxt "GeneralTab|"
 msgid "Web page"
@@ -2044,6 +2140,10 @@ msgid "All"
 msgstr "全部"
 
 msgctxt "MainFiltersBar|"
+msgid "Missing Files"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "Active"
 msgstr "運行中"
 
@@ -2135,7 +2235,6 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "蝸速模式"
 
-
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -2174,8 +2273,20 @@ msgid "Move to..."
 msgstr "移動至..."
 
 msgctxt "MainToolbar|"
+msgid "Move downloads up"
+msgstr "下載順序上移"
+
+msgctxt "MainToolbar|"
+msgid "Move downloads down"
+msgstr "下載順序下移"
+
+msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "主選單"
+
+msgctxt "MainToolbar|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr "是否切換至使用者定義的排序列表?"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2265,11 +2376,9 @@ msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
 msgstr "*  可能會產生額外費用 ( 沒有網路吃到飽用戶請注意流量 )"
 
-
-
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
-msgstr "下載項目移動失敗"
+msgstr "移動下載項目失敗"
 
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
@@ -2604,7 +2713,9 @@ msgid ""
 "A bug report will be sent to the server and used to improve %1 performance. "
 "We do not collect your personal data and do not share data with third "
 "parties."
-msgstr "錯誤回報將會傳送到伺服器中並僅用於提升/修正 %1 。我們不會蒐集也不會提供給第三方 您的個人資料。"
+msgstr ""
+"錯誤回報將會傳送到伺服器中並僅用於提升/修正 %1 。\n"
+"我們不會蒐集也不會提供給第三方您的個人資料。"
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
@@ -3415,6 +3526,18 @@ msgid "Sort"
 msgstr "排序"
 
 msgctxt "SelectSortFieldDialog|"
+msgid "By date"
+msgstr "日期"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By name"
+msgstr "名稱"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By size"
+msgstr "大小"
+
+msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
 msgstr "升幂"
 
@@ -3482,6 +3605,22 @@ msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "進階設定"
 
+msgctxt "SettingsPage|"
+msgid "Go back to default settings"
+msgstr "回到預設值"
+
+msgctxt "SettingsPage|"
+msgid "Reset"
+msgstr "重置"
+
+msgctxt "SettingsPage|"
+msgid "Default settings"
+msgstr "預設值"
+
+msgctxt "SettingsPage|"
+msgid "Restore default settings?"
+msgstr "是否恢復預設值?"
+
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
 msgstr "取消"
@@ -3521,18 +3660,6 @@ msgstr "注意! 您的電腦將會進入休眠。"
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
 msgstr "注意! 您的電腦將會關機。"
-
-msgctxt "SortTools|"
-msgid "By date"
-msgstr "日期"
-
-msgctxt "SortTools|"
-msgid "By name"
-msgstr "名稱"
-
-msgctxt "SortTools|"
-msgid "By size"
-msgstr "大小"
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
@@ -3786,6 +3913,10 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "修改速限"
 
+msgctxt "TumSettingTextField|"
+msgid "Can't be greater than %1"
+msgstr "不能大於/超過 %1"
+
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "新的下載"
@@ -3837,6 +3968,10 @@ msgstr "取消"
 msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "有新的更新可用"
+
+msgctxt "UpdateDialog|"
+msgid "What's new in %1"
+msgstr "新增功能 %1"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -3933,6 +4068,18 @@ msgstr "請您給我們回饋，讓我們一起讓FDM變得更棒。"
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "重新整理"
+
+msgctxt "WhatsNewDialog|"
+msgid "New version is available"
+msgstr "有新的更新可用"
+
+msgctxt "WhatsNewDialog|"
+msgid "What's new in %1"
+msgstr "新增功能 %1"
+
+msgctxt "WhatsNewDialog|"
+msgid "Update"
+msgstr "更新"
 
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"

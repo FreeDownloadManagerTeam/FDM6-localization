@@ -14,11 +14,11 @@ msgstr "このソフトについて"
 
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
-msgstr ""
+msgstr "バージョン: %1 (%2)"
 
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
-msgstr ""
+msgstr "ビルド日時: %1"
 
 msgctxt "AboutDialog|"
 msgid "version %1"
@@ -94,7 +94,7 @@ msgstr "通知センターを経由してダウンロードの完了を通知す
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr ""
+msgstr "通知センターで失敗したダウンロードを通知する"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
@@ -102,7 +102,7 @@ msgstr "%1ウィンドウが非アクティブな場合のみダウンロード�
 
 msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
-msgstr ""
+msgstr "通知音の変更"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -125,8 +125,32 @@ msgid "Launch at startup (minimized)"
 msgstr "コンピュータの起動時に起動する (最小化状態で)"
 
 msgctxt "AdvancedSettings|"
+msgid "Interface"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "ダウンロードリストのクリックで下部詳細パネル開/閉を有効"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore hidden state when finished adding new downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Restore default settings?"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -134,27 +158,35 @@ msgstr "次の期間ごとにダウンロードリストをバックアップす
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
-msgstr ""
+msgstr "ファイルが存在した場合の反応"
 
 msgctxt "AdvancedSettings|"
 msgid "Rename"
-msgstr ""
+msgstr "名前の変更"
 
 msgctxt "AdvancedSettings|"
 msgid "Overwrite"
-msgstr ""
+msgstr "上書き"
 
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
-msgstr ""
+msgstr "通知音を有効"
 
 msgctxt "AdvancedSettings|"
 msgid ""
 "Do not allow downloads to perform post finished tasks when running on battery"
-msgstr ""
+msgstr "バッテリーで実行している場合は、ダウンロードが完了後のタスクを実行できない"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
+msgstr "バッテリー レベルが低下した場合、ダウンロードを停止する"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable user defined order of downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Show \"Save As...\" button"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
@@ -183,7 +215,7 @@ msgstr "テーマの選択"
 
 msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr ""
+msgstr "システムテーマが不明な場合、ライトテーマが適用されます。"
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -239,27 +271,27 @@ msgstr "キャンセル"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
-msgstr ""
+msgstr "レジュームがサポートされていないダウンロード (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
-msgstr ""
+msgstr "ファイルが移動されています (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
-msgstr ""
+msgstr "mp3に変換しています (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
-msgstr ""
+msgstr "mp4に変換しています (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
-msgstr ""
+msgstr "メディアを結合しています (%1)."
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
-msgstr ""
+msgstr "この操作をするとダウンロードの再開はできません"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -379,7 +411,7 @@ msgstr "貼り付け"
 
 msgctxt "BatchVideoQuality|"
 msgid "Max. video quality:"
-msgstr ""
+msgstr "最高画質 品質:"
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
@@ -573,13 +605,33 @@ msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(ブラウザがインストールされていません)"
 
+msgctxt "BtSettings|"
+msgid "General"
+msgstr "詳細"
+
+msgctxt "BtSettings|"
+msgid "Monitoring"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Open"
+msgstr "開く"
+
+msgctxt "BtSettings|"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "BtSettings|"
+msgid "Start downloading without confirmation"
+msgstr "確認せずにダウンロードを開始する"
+
 msgctxt "BtStrings|"
 msgid "Uploaded"
-msgstr ""
+msgstr "アップロード済み"
 
 msgctxt "BtStrings|"
 msgid "Ratio"
-msgstr ""
+msgstr "割合"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -587,7 +639,7 @@ msgstr "ダウンロードを追加する"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
-msgstr ""
+msgstr "問題を報告する"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
@@ -615,7 +667,7 @@ msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
-msgstr ""
+msgstr "問題を報告する"
 
 msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
@@ -679,7 +731,7 @@ msgstr "新しいURLを入力してください"
 
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
-msgstr ""
+msgstr "ファイルの場所: %1"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
@@ -711,7 +763,7 @@ msgstr "新しいURLを入力してください"
 
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
-msgstr ""
+msgstr "ファイルの場所: %1"
 
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
@@ -743,7 +795,7 @@ msgstr "コピー"
 
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
-msgstr ""
+msgstr "本当に止めますか？"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -828,31 +880,31 @@ msgstr "閉じる"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Customize sounds"
-msgstr ""
+msgstr "通知音の変更"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Event"
-msgstr ""
+msgstr "イベント"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Sound file"
-msgstr ""
+msgstr "サウンドファイル"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No sound"
-msgstr ""
+msgstr "サウンドなし"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads added"
-msgstr ""
+msgstr "ダウンロードが追加されました"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads completed"
-msgstr ""
+msgstr "ダウンロードが完了しました"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads failed"
-msgstr ""
+msgstr "ダウンロードが失敗しました"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No active downloads"
@@ -860,7 +912,7 @@ msgstr "実行中のダウンロードはありません"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Set sound"
-msgstr ""
+msgstr "サウンドを適用"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Remove"
@@ -868,7 +920,7 @@ msgstr "削除"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Test"
-msgstr ""
+msgstr "テスト"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Close"
@@ -924,7 +976,7 @@ msgstr "キャンセル"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Download deleting failed"
-msgstr ""
+msgstr "ダウンロードの消去に失敗しました"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Try again"
@@ -932,15 +984,15 @@ msgstr "もう一度試してください"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore"
-msgstr ""
+msgstr "無視する"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore all"
-msgstr ""
+msgstr "すべて無視する"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
-msgstr ""
+msgstr "中止"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
@@ -952,35 +1004,65 @@ msgstr "サイズ：%1"
 
 msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
+msgstr "ドックアイコンに合計アップロード速度を表示"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Download Failure"
 msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Can't resume download. Download link likely expired. Resume attempts failed."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Please try to update the download link to resume."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Go to the website with the original download source and copy the renewed link"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "click here"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Update download"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Close"
+msgstr "閉じる"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
-msgstr ""
+msgstr "保存先"
 
 msgctxt "DownloadWindow|"
 msgid "File size"
-msgstr ""
+msgstr "ファイルサイズ"
 
 msgctxt "DownloadWindow|"
 msgid "Resume support"
-msgstr ""
+msgstr "レジューム対応"
 
 msgctxt "DownloadWindow|"
 msgid "Yes"
-msgstr ""
+msgstr "Yes"
 
 msgctxt "DownloadWindow|"
 msgid "No"
-msgstr ""
+msgstr "No"
 
 msgctxt "DownloadWindow|"
 msgid "Unknown"
-msgstr ""
+msgstr "不明"
 
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
-msgstr ""
+msgstr "ダウンロード済み"
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -988,15 +1070,15 @@ msgstr "速度"
 
 msgctxt "DownloadWindow|"
 msgid "Time remaining"
-msgstr ""
+msgstr "残り時間"
 
 msgctxt "DownloadWindow|"
 msgid "Open download when it is completed"
-msgstr ""
+msgstr "ダウンロード完了後に開く"
 
 msgctxt "DownloadWindow|"
 msgid "Close this window when the download is completed or stopped"
-msgstr ""
+msgstr "ダウンロード完了または停止後に、このウィンドウを閉じます"
 
 msgctxt "DownloadWindow|"
 msgid "Hide"
@@ -1012,15 +1094,15 @@ msgstr "開く"
 
 msgctxt "DownloadWindow|"
 msgid "Stop"
-msgstr ""
+msgstr "停止"
 
 msgctxt "DownloadWindow|"
 msgid "Start"
-msgstr ""
+msgstr "開始"
 
 msgctxt "DownloadsItemTools|"
 msgid "Moving"
-msgstr ""
+msgstr "移動"
 
 msgctxt "DownloadsItemTools|"
 msgid "Checking for viruses"
@@ -1036,7 +1118,7 @@ msgstr "MP4に変換しています"
 
 msgctxt "DownloadsItemTools|"
 msgid "Calculating hash"
-msgstr ""
+msgstr "ハッシュを計算中"
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
@@ -1108,7 +1190,7 @@ msgstr "完了したダウンロードをダウンロードリストから自動
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
-msgstr ""
+msgstr "ダウンロードに失敗した場合、自動で再試行する"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1172,7 +1254,7 @@ msgstr "ディスクが見つかりません"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
-msgstr ""
+msgstr "アップロードの一時停止"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -1180,7 +1262,7 @@ msgstr "優先度"
 
 msgctxt "DownloadsViewItem|"
 msgid "Upload paused"
-msgstr ""
+msgstr "アップロードの一時停止"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1196,7 +1278,7 @@ msgstr "フォルダを開く"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
-msgstr ""
+msgstr "問題を報告する"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -1244,7 +1326,7 @@ msgstr "ミラーを追加"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Open download page"
-msgstr ""
+msgstr "ダウンロードページを開く"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
@@ -1252,7 +1334,7 @@ msgstr "リンクのコピー"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Check for update"
-msgstr ""
+msgstr "アップデートを確認"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
@@ -1305,6 +1387,10 @@ msgstr "ファイル"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "シーケンシャルダウンロード"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Remove from list"
+msgstr "リストから削除"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -1364,24 +1450,24 @@ msgstr "完了"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
-msgstr ""
+msgstr "タグの編集"
 
 msgctxt "EditTagDialog|"
 msgid "Tag"
-msgstr ""
+msgstr "タグ"
 
 msgctxt "EditTagDialog|"
 msgid "Extensions (e.g. \"avi mp3\")"
-msgstr ""
+msgstr "拡張機能(例： \"avi mp3\")"
 
 msgctxt "EditTagDialog|"
 msgid ""
 "Extensions that are automatically assigned with this tag for new downloads"
-msgstr ""
+msgstr "新規ダウンロード時、このタグを自動的に割り当てる拡張機能"
 
 msgctxt "EditTagDialog|"
 msgid "Default download folder"
-msgstr ""
+msgstr "デフォルトのダウンロードフォルダー"
 
 msgctxt "EditTagDialog|"
 msgid "Open"
@@ -1401,11 +1487,11 @@ msgstr "OK"
 
 msgctxt "EnvTools|"
 msgid "Low battery"
-msgstr ""
+msgstr "バッテリーの低下"
 
 msgctxt "EnvTools|"
 msgid "Data roaming disabled"
-msgstr ""
+msgstr "データローミング時 無効"
 
 msgctxt "EnvTools|"
 msgid "No Internet connection"
@@ -1417,11 +1503,11 @@ msgstr "モバイルデータの使用が無効になっています"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Rename"
-msgstr ""
+msgstr "名前の変更"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Overwrite"
-msgstr ""
+msgstr "上書き"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Always ask"
@@ -1575,6 +1661,14 @@ msgctxt "FileName|"
 msgid "File name"
 msgstr "ファイル名"
 
+msgctxt "FileName|"
+msgid "%1 files (*.%2)"
+msgstr ""
+
+msgctxt "FileName|"
+msgid "All files"
+msgstr ""
+
 msgctxt "FilePickerPage|"
 msgid "Select folder"
 msgstr "フォルダを選択"
@@ -1617,27 +1711,27 @@ msgstr "降順"
 
 msgctxt "FileType|"
 msgid "File type:"
-msgstr ""
+msgstr "ファイルタイプ:"
 
 msgctxt "FilesExistsDialog|"
 msgid "Warning: file exists already"
-msgstr ""
+msgstr "警告: ファイルがすでに存在します"
 
 msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
-msgstr ""
+msgstr "すべてのダウンロード選択を記憶する"
 
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
-msgstr ""
+msgstr "名前の変更 (%1)"
 
 msgctxt "FilesExistsDialog|"
 msgid "Overwrite"
-msgstr ""
+msgstr "上書き"
 
 msgctxt "FilesExistsDialog|"
 msgid "Abort"
-msgstr ""
+msgstr "中止"
 
 msgctxt "FilesTree|"
 msgid "Name"
@@ -1745,7 +1839,7 @@ msgstr "ファイル形式に基づいてフォルダを提案する"
 
 msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr ""
+msgstr "システムテーマが不明な場合、ライトテーマが適用されます。"
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -1789,7 +1883,7 @@ msgstr "ダウンロードリストをコンパクトに表示する"
 
 msgctxt "GeneralSettings|"
 msgid "Enable standalone downloads windows"
-msgstr ""
+msgstr "独立ダウンロードウィンドウを有効"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
@@ -1801,7 +1895,7 @@ msgstr "完了したダウンロードをダウンロードリストから自動
 
 msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
-msgstr ""
+msgstr "ダウンロードに失敗した場合、自動で再試行する"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -1809,7 +1903,7 @@ msgstr "ファイルの作成にサーバー時間を使用する"
 
 msgctxt "GeneralSettings|"
 msgid "Maximum urls count in batch download"
-msgstr ""
+msgstr "バッチ ダウンロードの最大 URL 数"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1837,7 +1931,7 @@ msgstr "完了"
 
 msgctxt "GeneralTab|"
 msgid "State"
-msgstr ""
+msgstr "ステータス"
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1849,19 +1943,19 @@ msgstr "ダウンロード："
 
 msgctxt "GeneralTab|"
 msgid "Uploaded"
-msgstr ""
+msgstr "アップロード済み"
 
 msgctxt "GeneralTab|"
 msgid "ratio"
-msgstr ""
+msgstr "割合"
 
 msgctxt "GeneralTab|"
 msgid "Web page"
-msgstr ""
+msgstr "Webページ"
 
 msgctxt "GeneralTab|"
 msgid "File"
-msgstr ""
+msgstr "ファイル"
 
 msgctxt "GeneralTab|"
 msgid "Speed"
@@ -2037,11 +2131,15 @@ msgstr "%day% - 日付"
 
 msgctxt "MacrosMenu|"
 msgid "%date% - equivalent to %year%-%month%-%day%"
-msgstr ""
+msgstr "%date% - に相当 %year%-%month%-%day%"
 
 msgctxt "MainFiltersBar|"
 msgid "All"
 msgstr "すべて"
+
+msgctxt "MainFiltersBar|"
+msgid "Missing Files"
+msgstr ""
 
 msgctxt "MainFiltersBar|"
 msgid "Active"
@@ -2053,7 +2151,7 @@ msgstr "完了"
 
 msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
-msgstr ""
+msgstr "タグを消去して良いですか？"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
@@ -2117,7 +2215,7 @@ msgstr "アップデートを確認する..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
-msgstr ""
+msgstr "モザイク画制作に参加する"
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -2134,7 +2232,6 @@ msgstr "カタツムリモードはダウンロードを停止せずに帯域幅
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "カタツムリモード"
-
 
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
@@ -2174,8 +2271,20 @@ msgid "Move to..."
 msgstr "移動..."
 
 msgctxt "MainToolbar|"
+msgid "Move downloads up"
+msgstr ""
+
+msgctxt "MainToolbar|"
+msgid "Move downloads down"
+msgstr ""
+
+msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "メインメニュー"
+
+msgctxt "MainToolbar|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2239,15 +2348,15 @@ msgstr "ダウンロード"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Mobile data usage"
-msgstr ""
+msgstr "モバイルデータ使用量"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Waiting for Wi-Fi to start download."
-msgstr ""
+msgstr "Wi-Fi接続完了までダウンロードを待機しています。"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Would you like to enable usage of mobile data? *"
-msgstr ""
+msgstr "モバイルデータの使用を有効にしますか? *"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Don't ask again"
@@ -2255,17 +2364,15 @@ msgstr "次回から表示しない"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Yes"
-msgstr ""
+msgstr "Yes"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "No"
-msgstr ""
+msgstr "No"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
-msgstr ""
-
-
+msgstr "* 追加料金(パケット代)がかかる場合があります"
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
@@ -2589,30 +2696,30 @@ msgstr "動画"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Lowest"
-msgstr ""
+msgstr "最低"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Highest"
-msgstr ""
+msgstr "最高"
 
 msgctxt "PrivacyDialog|"
 msgid "User agreement"
-msgstr ""
+msgstr "ユーザー規約"
 
 msgctxt "PrivacyDialog|"
 msgid ""
 "A bug report will be sent to the server and used to improve %1 performance. "
 "We do not collect your personal data and do not share data with third "
 "parties."
-msgstr ""
+msgstr "バグレポートがサーバーに送信され、 %1 のパフォーマンスを向上させるために使用します。我々は個人情報を一切収集せず、第三者と共有しません。"
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
-msgstr ""
+msgstr "私は同意します(二度と表示しない)"
 
 msgctxt "PrivacyDialog|"
 msgid "Send report"
-msgstr ""
+msgstr "レポートを送る"
 
 msgctxt "PrivacyDialog|"
 msgid "Cancel"
@@ -2664,7 +2771,7 @@ msgstr "URLを入力してください"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
-msgstr ""
+msgstr "申し訳ございません、このデバイスは%1でサポートされていません。"
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
@@ -2696,23 +2803,23 @@ msgstr "終了"
 
 msgctxt "QObject|"
 msgid "%1 B"
-msgstr ""
+msgstr "%1 B"
 
 msgctxt "QObject|"
 msgid "%1 KB"
-msgstr ""
+msgstr "%1 KB"
 
 msgctxt "QObject|"
 msgid "%1 MB"
-msgstr ""
+msgstr "%1 MB"
 
 msgctxt "QObject|"
 msgid "%1 GB"
-msgstr ""
+msgstr "%1 GB"
 
 msgctxt "QObject|"
 msgid "%1 TB"
-msgstr ""
+msgstr "%1 TB"
 
 msgctxt "QObject|"
 msgid "%1 K"
@@ -2724,11 +2831,11 @@ msgstr "%1 M"
 
 msgctxt "QObject|"
 msgid "%1 G"
-msgstr ""
+msgstr "%1 G"
 
 msgctxt "QObject|"
 msgid "%1 T"
-msgstr ""
+msgstr "%1 T"
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -2740,11 +2847,11 @@ msgstr "ダウンロードが完了しました"
 
 msgctxt "QObject|"
 msgid "Download failed"
-msgstr ""
+msgstr "ダウンロード失敗"
 
 msgctxt "QObject|"
 msgid "Downloads failed"
-msgstr ""
+msgstr "複数のダウンロード失敗"
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -3220,11 +3327,11 @@ msgstr "その他"
 
 msgctxt "QObject|"
 msgid "upload paused"
-msgstr ""
+msgstr "アップロードが一時停止しました"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
-msgstr ""
+msgstr "本当に止めますか？"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "OK"
@@ -3236,15 +3343,15 @@ msgstr "キャンセル"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
-msgstr ""
+msgstr "リモート リソースが変更されました"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Always re-download"
-msgstr ""
+msgstr "常に再ダウンロード"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Re-download"
-msgstr ""
+msgstr "再ダウンロード"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
@@ -3252,15 +3359,15 @@ msgstr "キャンセル"
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
-msgstr ""
+msgstr "問題を報告する"
 
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
-msgstr ""
+msgstr "申し訳ございません、レポート送信に失敗しました。エラーが発生しました: %1"
 
 msgctxt "ReportSentDialog|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr ""
+msgstr "レポートが送信されました。ご協力いただきありがとうございます！"
 
 msgctxt "ReportSentDialog|"
 msgid "OK"
@@ -3415,6 +3522,18 @@ msgid "Sort"
 msgstr "並べ替え"
 
 msgctxt "SelectSortFieldDialog|"
+msgid "By date"
+msgstr "日付"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By name"
+msgstr "名前"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By size"
+msgstr "サイズ"
+
+msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
 msgstr "昇順"
 
@@ -3424,7 +3543,7 @@ msgstr "降順"
 
 msgctxt "SettingsPage|"
 msgid "Invalid settings"
-msgstr ""
+msgstr "無効な設定"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
@@ -3476,11 +3595,27 @@ msgstr "トラフィック制限"
 
 msgctxt "SettingsPage|"
 msgid "Sounds settings"
-msgstr ""
+msgstr "通知音の設定"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "上級者向け設定"
+
+msgctxt "SettingsPage|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Restore default settings?"
+msgstr ""
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -3522,37 +3657,25 @@ msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
 msgstr "注意！ コンピュータはシャットダウンします。"
 
-msgctxt "SortTools|"
-msgid "By date"
-msgstr "日付"
-
-msgctxt "SortTools|"
-msgid "By name"
-msgstr "名前"
-
-msgctxt "SortTools|"
-msgid "By size"
-msgstr "サイズ"
-
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
-msgstr ""
+msgstr "通知音の設定"
 
 msgctxt "SoundsSettings|"
 msgid "Use sounds"
-msgstr ""
+msgstr "サウンドを使う"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads added"
-msgstr ""
+msgstr "ダウンロードが追加されました"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads completed"
-msgstr ""
+msgstr "ダウンロードが完了しました"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads failed"
-msgstr ""
+msgstr "ダウンロード失敗"
 
 msgctxt "SoundsSettings|"
 msgid "No active downloads"
@@ -3668,7 +3791,7 @@ msgstr "色のカスタマイズ"
 
 msgctxt "ThemeComboBox|"
 msgid "System"
-msgstr ""
+msgstr "システム"
 
 msgctxt "ThemeComboBox|"
 msgid "Light"
@@ -3786,6 +3909,10 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "トラフィック制限を変更する"
 
+msgctxt "TumSettingTextField|"
+msgid "Can't be greater than %1"
+msgstr ""
+
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "新しいダウンロード"
@@ -3837,6 +3964,10 @@ msgstr "キャンセル"
 msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "新しいバージョンが利用可能です"
+
+msgctxt "UpdateDialog|"
+msgid "What's new in %1"
+msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -3908,7 +4039,7 @@ msgstr "いや、べつに"
 
 msgctxt "VoteBlock|"
 msgid "Yes!"
-msgstr "はい！"
+msgstr "Yes!"
 
 msgctxt "VoteBlock|"
 msgid "Thanks a lot! Please rate on Google Play."
@@ -3934,10 +4065,22 @@ msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "更新"
 
+msgctxt "WhatsNewDialog|"
+msgid "New version is available"
+msgstr "新しいバージョンが利用可能です"
+
+msgctxt "WhatsNewDialog|"
+msgid "What's new in %1"
+msgstr ""
+
+msgctxt "WhatsNewDialog|"
+msgid "Update"
+msgstr "アップデート"
+
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
-msgstr ""
+msgstr "申し訳ございません、レポート送信に失敗しました。エラーが発生しました: %1"
 
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr ""
+msgstr "レポートが送信されました。ご協力いただきありがとうございます！"

@@ -126,8 +126,32 @@ msgid "Launch at startup (minimized)"
 msgstr "Başlangıçta çalıştır (küçültülmüş)"
 
 msgctxt "AdvancedSettings|"
+msgid "Interface"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "İndirmenin üzerine tıklayarak alt panelde Aç/Gizle"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore hidden state when finished adding new downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Restore default settings?"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -159,6 +183,14 @@ msgstr ""
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "Pil gücü zayıfladığında indirmelere izin verme"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable user defined order of downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Show \"Save As...\" button"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -580,6 +612,26 @@ msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(tarayıcı kurulu değil)"
 
+msgctxt "BtSettings|"
+msgid "General"
+msgstr "Genel"
+
+msgctxt "BtSettings|"
+msgid "Monitoring"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Open"
+msgstr "Aç"
+
+msgctxt "BtSettings|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "BtSettings|"
+msgid "Start downloading without confirmation"
+msgstr "Onay beklemeden indirmeleri başlat"
+
 msgctxt "BtStrings|"
 msgid "Uploaded"
 msgstr ""
@@ -968,6 +1020,36 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr ""
 
+msgctxt "DownloadExpiredDialog|"
+msgid "Download Failure"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Can't resume download. Download link likely expired. Resume attempts failed."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Please try to update the download link to resume."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Go to the website with the original download source and copy the renewed link"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "click here"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Update download"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Close"
+msgstr "Kapat"
+
 msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "Saklandı"
@@ -1320,6 +1402,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Ardışık indirme"
 
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Remove from list"
+msgstr "Listeden kaldır"
+
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
 msgstr "İndirme tamamlandı"
@@ -1588,6 +1674,14 @@ msgstr "Alt klasör oluştur"
 msgctxt "FileName|"
 msgid "File name"
 msgstr "Dosya adı"
+
+msgctxt "FileName|"
+msgid "%1 files (*.%2)"
+msgstr ""
+
+msgctxt "FileName|"
+msgid "All files"
+msgstr ""
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
@@ -2058,6 +2152,10 @@ msgid "All"
 msgstr "Tümü"
 
 msgctxt "MainFiltersBar|"
+msgid "Missing Files"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "Active"
 msgstr "Aktif"
 
@@ -2149,7 +2247,6 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "Salyangoz modu"
 
-
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -2188,8 +2285,20 @@ msgid "Move to..."
 msgstr "Taşı..."
 
 msgctxt "MainToolbar|"
+msgid "Move downloads up"
+msgstr ""
+
+msgctxt "MainToolbar|"
+msgid "Move downloads down"
+msgstr ""
+
+msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "Ana menü"
+
+msgctxt "MainToolbar|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2278,8 +2387,6 @@ msgstr "Hayır"
 msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
 msgstr "* ek ücretler uygulanabilir"
-
-
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
@@ -3430,6 +3537,18 @@ msgid "Sort"
 msgstr "Sırala"
 
 msgctxt "SelectSortFieldDialog|"
+msgid "By date"
+msgstr "Tarihe göre"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By name"
+msgstr "İsme göre"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By size"
+msgstr "Boyuta göre"
+
+msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
 msgstr "Artan"
 
@@ -3497,6 +3616,22 @@ msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Gelişmiş ayarlar"
 
+msgctxt "SettingsPage|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Restore default settings?"
+msgstr ""
+
 msgctxt "ShutdownBanner|"
 msgid "Computer will be put to sleep after all downloads are completed."
 msgstr "Tüm indirmeler tamamlandıktan sonra Bilgisayar uykuya geçecektir."
@@ -3538,18 +3673,6 @@ msgstr "Dikkat! Bilgisayarınız Hazırda beklemeye geçecektir."
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
 msgstr "Dikkat! Bilgisayarınız kapatılacaktır."
-
-msgctxt "SortTools|"
-msgid "By date"
-msgstr "Tarihe göre"
-
-msgctxt "SortTools|"
-msgid "By name"
-msgstr "İsme göre"
-
-msgctxt "SortTools|"
-msgid "By size"
-msgstr "Boyuta göre"
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
@@ -3803,6 +3926,10 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Trafik limitlerini değiştir"
 
+msgctxt "TumSettingTextField|"
+msgid "Can't be greater than %1"
+msgstr ""
+
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Yeni indirme"
@@ -3854,6 +3981,10 @@ msgstr "İptal"
 msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "Yeni sürüm mevcut"
+
+msgctxt "UpdateDialog|"
+msgid "What's new in %1"
+msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -3950,6 +4081,18 @@ msgstr "Birlikte daha iyi yapalım! Bize geri bildirim yapın."
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Yinele"
+
+msgctxt "WhatsNewDialog|"
+msgid "New version is available"
+msgstr "Yeni sürüm mevcut"
+
+msgctxt "WhatsNewDialog|"
+msgid "What's new in %1"
+msgstr ""
+
+msgctxt "WhatsNewDialog|"
+msgid "Update"
+msgstr "Güncelle"
 
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"

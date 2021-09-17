@@ -90,15 +90,15 @@ msgstr "Уведомления"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "Уведоми ме за завършени изтегляния чрез Notification Center"
+msgstr "Уведомяване за завършени изтегляния чрез Notification Center"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr "Уведоми ме за неуспешни изтегляния чрез центъра за уведомяване"
+msgstr "Уведомяване за неуспешни изтегляния чрез Notification Center"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
-msgstr "Уведоми ме за изтеглния само когато %1 прозореца е неактивен"
+msgstr "Уведомяване за изтегляния само когато %1 прозореца е неактивен"
 
 msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
@@ -114,7 +114,7 @@ msgstr "Компютъра да не заспива ако има активно
 
 msgctxt "AdvancedSettings|"
 msgid "Enable sleep mode while running finished downloads"
-msgstr "Позволи заспиване при завършени изтегляния"
+msgstr "Позволяване на заспиване при завършени изтегляния"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -125,8 +125,34 @@ msgid "Launch at startup (minimized)"
 msgstr "Старт при зареждане на ОС (минимизиран)"
 
 msgctxt "AdvancedSettings|"
+msgid "Interface"
+msgstr "Интерфейс"
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Показване/скриване на долен панел при натискане върху изтегляния файл"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore hidden state when finished adding new downloads"
+msgstr ""
+"Възстановяване на скрито състояние когато завършите добавянето на нови "
+"изтегляния"
+
+msgctxt "AdvancedSettings|"
+msgid "Go back to default settings"
+msgstr "Връщане към настройките по подразбиране"
+
+msgctxt "AdvancedSettings|"
+msgid "Reset"
+msgstr "Нулиране"
+
+msgctxt "AdvancedSettings|"
+msgid "Default settings"
+msgstr "Настройки по подразбиране"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore default settings?"
+msgstr "Възстановяване на настройките по подразбиране?"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -158,6 +184,14 @@ msgstr ""
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "Забраняване на изтегляния ако нивото на батерията падне под"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable user defined order of downloads"
+msgstr "Разрешаване на ред от изтегляния указан от потребителя"
+
+msgctxt "AdvancedSettings|"
+msgid "Show \"Save As...\" button"
+msgstr "Показване на бутона \"Запиши като...\""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -221,7 +255,7 @@ msgstr "Ключовете трябва да съдържат %path% проме�
 
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
-msgstr "Автоматично провери за вируси когато изтеглянето приключи"
+msgstr "Автоматична проверка за вируси когато изтеглянето приключи"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
@@ -577,6 +611,26 @@ msgstr "Продължаване"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(браузърът не е инсталиран)"
+
+msgctxt "BtSettings|"
+msgid "General"
+msgstr "Общи"
+
+msgctxt "BtSettings|"
+msgid "Monitoring"
+msgstr "Наблюдение"
+
+msgctxt "BtSettings|"
+msgid "Open"
+msgstr "Отвори"
+
+msgctxt "BtSettings|"
+msgid "Cancel"
+msgstr "Отказ"
+
+msgctxt "BtSettings|"
+msgid "Start downloading without confirmation"
+msgstr "Започване на изтегляне без потвърждение"
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -963,6 +1017,38 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "Показване на общата скорост на качване в иконата в дока"
 
+msgctxt "DownloadExpiredDialog|"
+msgid "Download Failure"
+msgstr "Неуспешно изтегляне"
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Can't resume download. Download link likely expired. Resume attempts failed."
+msgstr ""
+"Не може да се възобнови изтеглянето. Връзката вероятно е просрочена. Опитите "
+"за възстановяване са неуспешни."
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Please try to update the download link to resume."
+msgstr "Опитайте да обновите връзката за възстановяване на изтеглянето."
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Go to the website with the original download source and copy the renewed link"
+msgstr "Отидете до оригиналния сайт за изтегляне и копирайте обновената връзка"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "click here"
+msgstr "кликнете тук"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Update download"
+msgstr "Обновяване на изтеглянето"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Close"
+msgstr "Затвори"
+
 msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "Запазен в"
@@ -1261,7 +1347,7 @@ msgstr "Копиране на връзка"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Check for update"
-msgstr "Провери за актуализация"
+msgstr "Проверка за актуализации"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
@@ -1314,6 +1400,10 @@ msgstr "Файлове"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Последователно изтегляне"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Remove from list"
+msgstr "Премахни от списъка"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -1411,11 +1501,11 @@ msgstr "OK"
 
 msgctxt "EnvTools|"
 msgid "Low battery"
-msgstr ""
+msgstr "Изтощена батерия"
 
 msgctxt "EnvTools|"
 msgid "Data roaming disabled"
-msgstr ""
+msgstr "Мобилните данни при роуминг са забранени"
 
 msgctxt "EnvTools|"
 msgid "No Internet connection"
@@ -1584,6 +1674,14 @@ msgstr "Създаване на подпапка"
 msgctxt "FileName|"
 msgid "File name"
 msgstr "Име на фаил"
+
+msgctxt "FileName|"
+msgid "%1 files (*.%2)"
+msgstr "%1 файлове (*.%2)"
+
+msgctxt "FileName|"
+msgid "All files"
+msgstr "Всички файлове"
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
@@ -1799,7 +1897,7 @@ msgstr "Компактен изглед на списъка за изтегля�
 
 msgctxt "GeneralSettings|"
 msgid "Enable standalone downloads windows"
-msgstr "Разреши самостоятелни прозорци за изтегляне"
+msgstr "Разрешаване на самостоятелни прозорци за изтегляне"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
@@ -1827,7 +1925,7 @@ msgstr "Обновления"
 
 msgctxt "GeneralSettings|"
 msgid "Check for updates automatically"
-msgstr "Провери за обновления автоматично"
+msgstr "Автоматична проверка за обновления"
 
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
@@ -2054,6 +2152,10 @@ msgid "All"
 msgstr "Всички"
 
 msgctxt "MainFiltersBar|"
+msgid "Missing Files"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "Active"
 msgstr "Активни"
 
@@ -2145,7 +2247,6 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "Режим охлюв"
 
-
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -2185,8 +2286,22 @@ msgid "Move to..."
 msgstr "Премести в..."
 
 msgctxt "MainToolbar|"
+msgid "Move downloads up"
+msgstr "Преместване на изтеглянията нагоре"
+
+msgctxt "MainToolbar|"
+msgid "Move downloads down"
+msgstr "Преместване на изтеглянията надолу"
+
+msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "Главно меню"
+
+msgctxt "MainToolbar|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr ""
+"За да използвате тази функция изтеглянията трябва да се сортират по ред. "
+"Желаете ли първо да сортирате изтеглянията си?"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2275,8 +2390,6 @@ msgstr "Не"
 msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
 msgstr "* може да се начислят допълнителни такси"
-
-
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
@@ -2412,7 +2525,7 @@ msgstr "Запази в"
 
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
-msgstr "Провери за обновления..."
+msgstr "Проверка за обновления..."
 
 msgctxt "NativeMenuBar|"
 msgid "Preferences..."
@@ -3430,6 +3543,18 @@ msgid "Sort"
 msgstr "Сортиране"
 
 msgctxt "SelectSortFieldDialog|"
+msgid "By date"
+msgstr "По дата"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By name"
+msgstr "По име"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By size"
+msgstr "По размер"
+
+msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
 msgstr "Нарастващ"
 
@@ -3497,6 +3622,22 @@ msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Разширени настройки"
 
+msgctxt "SettingsPage|"
+msgid "Go back to default settings"
+msgstr "Връщане на настройките по подразбиране"
+
+msgctxt "SettingsPage|"
+msgid "Reset"
+msgstr "Нулиране"
+
+msgctxt "SettingsPage|"
+msgid "Default settings"
+msgstr "Настройки по подразбиране"
+
+msgctxt "SettingsPage|"
+msgid "Restore default settings?"
+msgstr "Възстановяване на настройките по подразбиране?"
+
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
 msgstr "Отказ"
@@ -3536,18 +3677,6 @@ msgstr "Внимание! Компютъра ще премине в хиберн
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
 msgstr "Внимание! Компютъра ще бъде изключен."
-
-msgctxt "SortTools|"
-msgid "By date"
-msgstr "По дата"
-
-msgctxt "SortTools|"
-msgid "By name"
-msgstr "По име"
-
-msgctxt "SortTools|"
-msgid "By size"
-msgstr "По размер"
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
@@ -3759,7 +3888,7 @@ msgstr "Висока"
 
 msgctxt "TumComboBox|"
 msgid "Medium"
-msgstr "Середна"
+msgstr "Средна"
 
 msgctxt "TumComboBox|"
 msgid "Low"
@@ -3800,6 +3929,10 @@ msgstr "Освобождава трафик без да спира изтегл�
 msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Промяна на лимита на трафика"
+
+msgctxt "TumSettingTextField|"
+msgid "Can't be greater than %1"
+msgstr "Не може да бъде по-голямо от %1"
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
@@ -3852,6 +3985,10 @@ msgstr "Отказ"
 msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "Налична е нова версия"
+
+msgctxt "UpdateDialog|"
+msgid "What's new in %1"
+msgstr "Какво е новото в %1"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -3948,6 +4085,18 @@ msgstr "Да направим FDM по-добър заедно! Дайте ни 
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "Обнови"
+
+msgctxt "WhatsNewDialog|"
+msgid "New version is available"
+msgstr "Налична е нова версия"
+
+msgctxt "WhatsNewDialog|"
+msgid "What's new in %1"
+msgstr "Какво е новото в %1"
+
+msgctxt "WhatsNewDialog|"
+msgid "Update"
+msgstr "Обновяване"
 
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"

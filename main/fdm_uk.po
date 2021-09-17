@@ -133,8 +133,32 @@ msgid "Launch at startup (minimized)"
 msgstr "Запуск під час запуску системи (згорнутим)"
 
 msgctxt "AdvancedSettings|"
+msgid "Interface"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Показати/сховати нижню панель по кліку на завантаженні"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore hidden state when finished adding new downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Restore default settings?"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -166,6 +190,14 @@ msgstr ""
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "Не дозволяти завантаження при низькому заряді акумулятора"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable user defined order of downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Show \"Save As...\" button"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -587,6 +619,26 @@ msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(браузер не встановлено)"
 
+msgctxt "BtSettings|"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "BtSettings|"
+msgid "Monitoring"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "BtSettings|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "BtSettings|"
+msgid "Start downloading without confirmation"
+msgstr "Почати завантаження без підтвердження"
+
 msgctxt "BtStrings|"
 msgid "Uploaded"
 msgstr "Вивантажено"
@@ -974,6 +1026,36 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "Показати загальну швидкість завантаження в іконці Закріплення"
 
+msgctxt "DownloadExpiredDialog|"
+msgid "Download Failure"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Can't resume download. Download link likely expired. Resume attempts failed."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Please try to update the download link to resume."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Go to the website with the original download source and copy the renewed link"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "click here"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Update download"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Close"
+msgstr "Закрити"
+
 msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "Збережено в"
@@ -1326,6 +1408,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Послідовне завантаження"
 
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Remove from list"
+msgstr "Видалити зі списку"
+
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
 msgstr "Завантаження завершено"
@@ -1595,6 +1681,14 @@ msgstr "Створити підтеку"
 msgctxt "FileName|"
 msgid "File name"
 msgstr "Ім'я файлу"
+
+msgctxt "FileName|"
+msgid "%1 files (*.%2)"
+msgstr ""
+
+msgctxt "FileName|"
+msgid "All files"
+msgstr ""
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
@@ -2065,6 +2159,10 @@ msgid "All"
 msgstr "Всі"
 
 msgctxt "MainFiltersBar|"
+msgid "Missing Files"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "Active"
 msgstr "Активні"
 
@@ -2196,8 +2294,20 @@ msgid "Move to..."
 msgstr "Перенести до..."
 
 msgctxt "MainToolbar|"
+msgid "Move downloads up"
+msgstr ""
+
+msgctxt "MainToolbar|"
+msgid "Move downloads down"
+msgstr ""
+
+msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "Головне меню"
+
+msgctxt "MainToolbar|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3439,6 +3549,18 @@ msgid "Sort"
 msgstr "Сортувати"
 
 msgctxt "SelectSortFieldDialog|"
+msgid "By date"
+msgstr "За датою"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By name"
+msgstr "За ім'ям"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By size"
+msgstr "За розміром"
+
+msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
 msgstr "За зростанням"
 
@@ -3506,6 +3628,22 @@ msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Додаткові установки"
 
+msgctxt "SettingsPage|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Restore default settings?"
+msgstr ""
+
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
 msgstr "Скасувати"
@@ -3548,18 +3686,6 @@ msgstr "Увага! Ваш комп'ютер буде переведено в Р
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
 msgstr "Увага! Ваш комп'ютер буде вимкнено."
-
-msgctxt "SortTools|"
-msgid "By date"
-msgstr "За датою"
-
-msgctxt "SortTools|"
-msgid "By name"
-msgstr "За іменем"
-
-msgctxt "SortTools|"
-msgid "By size"
-msgstr "За розміром"
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
@@ -3815,6 +3941,10 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Змінити обмеження трафіку"
 
+msgctxt "TumSettingTextField|"
+msgid "Can't be greater than %1"
+msgstr ""
+
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Нове завантаження"
@@ -3866,6 +3996,10 @@ msgstr "Скасувати"
 msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "Доступна нова версія"
+
+msgctxt "UpdateDialog|"
+msgid "What's new in %1"
+msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -3961,6 +4095,18 @@ msgstr "Покращимо це разом! Надішліть нам ваші �
 
 msgctxt "WaitingPage|"
 msgid "Refresh"
+msgstr "Оновити"
+
+msgctxt "WhatsNewDialog|"
+msgid "New version is available"
+msgstr "Доступна нова версія"
+
+msgctxt "WhatsNewDialog|"
+msgid "What's new in %1"
+msgstr ""
+
+msgctxt "WhatsNewDialog|"
+msgid "Update"
 msgstr "Оновити"
 
 msgctxt "main|"

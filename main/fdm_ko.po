@@ -14,11 +14,11 @@ msgstr "프로그램 정보"
 
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
-msgstr ""
+msgstr "버전: %1 (%2)"
 
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
-msgstr ""
+msgstr "빌드 날짜: %1"
 
 msgctxt "AboutDialog|"
 msgid "version %1"
@@ -125,8 +125,32 @@ msgid "Launch at startup (minimized)"
 msgstr "시작시 실행 (최소화)"
 
 msgctxt "AdvancedSettings|"
+msgid "Interface"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "다운로드를 클릭하여 하단 패널 열기/숨기기"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore hidden state when finished adding new downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Restore default settings?"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -156,6 +180,14 @@ msgstr "배터리로 실행할 때 다운로드가 완료된 작업을 수행하
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "배터리 수준이 아래로 떨어질 경우 다운로드를 허용하지 않음"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable user defined order of downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Show \"Save As...\" button"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -279,7 +311,7 @@ msgstr "암호:"
 
 msgctxt "AuthenticationDialog|"
 msgid "remember"
-msgstr "기억"
+msgstr "기억하기"
 
 msgctxt "AuthenticationDialog|"
 msgid "Cancel"
@@ -545,7 +577,7 @@ msgstr "MB"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
-msgstr "%1를 통해 다운로드를 취소하는 경우 브라우저를 사용"
+msgstr "%1를 통한 다운로드를 취소하는 경우 브라우저를 사용"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -572,6 +604,26 @@ msgstr "계속"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(브라우저가 설치되지 않았습니다)"
+
+msgctxt "BtSettings|"
+msgid "General"
+msgstr "일반"
+
+msgctxt "BtSettings|"
+msgid "Monitoring"
+msgstr "모니터링"
+
+msgctxt "BtSettings|"
+msgid "Open"
+msgstr "열기"
+
+msgctxt "BtSettings|"
+msgid "Cancel"
+msgstr "취소"
+
+msgctxt "BtSettings|"
+msgid "Start downloading without confirmation"
+msgstr "확인없이 다운로드 시작"
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -954,6 +1006,36 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "도크 아이콘에 총 업로드 속도 표시"
 
+msgctxt "DownloadExpiredDialog|"
+msgid "Download Failure"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Can't resume download. Download link likely expired. Resume attempts failed."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Please try to update the download link to resume."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Go to the website with the original download source and copy the renewed link"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "click here"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Update download"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Close"
+msgstr "닫기"
+
 msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "저장됨"
@@ -1306,6 +1388,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "순차적 다운로드"
 
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Remove from list"
+msgstr "목록에서 제거"
+
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
 msgstr "다운로드 완료"
@@ -1377,7 +1463,7 @@ msgstr "확장자 (예: \"avi mp3\")"
 msgctxt "EditTagDialog|"
 msgid ""
 "Extensions that are automatically assigned with this tag for new downloads"
-msgstr "새 다운로드를 위해 이 태그와 함께 자동으로 할당되는 확장"
+msgstr "새 다운로드를 위해 이 태그와 함께 자동으로 할당되는 확장자"
 
 msgctxt "EditTagDialog|"
 msgid "Default download folder"
@@ -1401,11 +1487,11 @@ msgstr "확인"
 
 msgctxt "EnvTools|"
 msgid "Low battery"
-msgstr ""
+msgstr "배터리 부족"
 
 msgctxt "EnvTools|"
 msgid "Data roaming disabled"
-msgstr ""
+msgstr "데이터 로밍 사용 안 함"
 
 msgctxt "EnvTools|"
 msgid "No Internet connection"
@@ -1575,6 +1661,14 @@ msgctxt "FileName|"
 msgid "File name"
 msgstr "파일 이름"
 
+msgctxt "FileName|"
+msgid "%1 files (*.%2)"
+msgstr ""
+
+msgctxt "FileName|"
+msgid "All files"
+msgstr ""
+
 msgctxt "FilePickerPage|"
 msgid "Select folder"
 msgstr "폴더 선택"
@@ -1741,7 +1835,7 @@ msgstr "언어가 목록에 없거나 번역이 완전하지 않습니까?"
 
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
-msgstr "고쳐 봅시다!"
+msgstr "비너스걸!"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -1857,11 +1951,11 @@ msgstr "비율"
 
 msgctxt "GeneralTab|"
 msgid "Web page"
-msgstr ""
+msgstr "웹 페이지"
 
 msgctxt "GeneralTab|"
 msgid "File"
-msgstr ""
+msgstr "파일"
 
 msgctxt "GeneralTab|"
 msgid "Speed"
@@ -2044,6 +2138,10 @@ msgid "All"
 msgstr "모두"
 
 msgctxt "MainFiltersBar|"
+msgid "Missing Files"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "Active"
 msgstr "활성"
 
@@ -2135,7 +2233,6 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "달팽이 모드"
 
-
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -2174,8 +2271,20 @@ msgid "Move to..."
 msgstr "이동..."
 
 msgctxt "MainToolbar|"
+msgid "Move downloads up"
+msgstr "다운로드 위로 이동"
+
+msgctxt "MainToolbar|"
+msgid "Move downloads down"
+msgstr "다운로드 아래로 이동"
+
+msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "기본 메뉴"
+
+msgctxt "MainToolbar|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr "다운로드한 목록 사용자 정의 정렬로 전환하시겠습니까?"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2264,8 +2373,6 @@ msgstr "아니오"
 msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
 msgstr "* 추가 요금이 적용될 수 있습니다"
-
-
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
@@ -3417,6 +3524,18 @@ msgid "Sort"
 msgstr "정렬"
 
 msgctxt "SelectSortFieldDialog|"
+msgid "By date"
+msgstr "날짜순"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By name"
+msgstr "이름순"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By size"
+msgstr "크기순"
+
+msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
 msgstr "오름차순"
 
@@ -3484,6 +3603,22 @@ msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "고급 설정"
 
+msgctxt "SettingsPage|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Restore default settings?"
+msgstr ""
+
 msgctxt "ShutdownBanner|"
 msgid "Computer will be put to sleep after all downloads are completed."
 msgstr "모든 다운로드가 완료된 후 컴퓨터가 절전 모드로 전환됩니다."
@@ -3523,18 +3658,6 @@ msgstr "주의! 컴퓨터가 종료됩니다."
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
 msgstr "확인 (%1)"
-
-msgctxt "SortTools|"
-msgid "By date"
-msgstr "날짜순"
-
-msgctxt "SortTools|"
-msgid "By name"
-msgstr "이름순"
-
-msgctxt "SortTools|"
-msgid "By size"
-msgstr "크기순"
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
@@ -3788,6 +3911,10 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "트래픽 제한 변경"
 
+msgctxt "TumSettingTextField|"
+msgid "Can't be greater than %1"
+msgstr ""
+
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "새 다운로드"
@@ -3839,6 +3966,10 @@ msgstr "취소"
 msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "새 버전 사용 가능"
+
+msgctxt "UpdateDialog|"
+msgid "What's new in %1"
+msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -3935,6 +4066,18 @@ msgstr "우리 함께 더 좋게 만들어요! 우리에게 피드백을 주세�
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "새로 고침"
+
+msgctxt "WhatsNewDialog|"
+msgid "New version is available"
+msgstr "새 버전 사용 가능"
+
+msgctxt "WhatsNewDialog|"
+msgid "What's new in %1"
+msgstr ""
+
+msgctxt "WhatsNewDialog|"
+msgid "Update"
+msgstr "업데이트"
 
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"

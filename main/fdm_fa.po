@@ -125,8 +125,32 @@ msgid "Launch at startup (minimized)"
 msgstr "اجرا در زمان راه اندازی (مینیمایز)"
 
 msgctxt "AdvancedSettings|"
+msgid "Interface"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "باز و مخفی کردن پنل پایین بوسیله کلیک کردن روی دانلود"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore hidden state when finished adding new downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Restore default settings?"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -156,6 +180,14 @@ msgstr "در زمان استفاده از باتری اجازه اجرا عمل�
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "اگر شارژ باطری به حداقل رسید اجازه دانلود وجود ندارد"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable user defined order of downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Show \"Save As...\" button"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -577,6 +609,26 @@ msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(مرورگر نصب نشده است)"
 
+msgctxt "BtSettings|"
+msgid "General"
+msgstr "عمومی"
+
+msgctxt "BtSettings|"
+msgid "Monitoring"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Open"
+msgstr "باز کردن"
+
+msgctxt "BtSettings|"
+msgid "Cancel"
+msgstr "انصراف"
+
+msgctxt "BtSettings|"
+msgid "Start downloading without confirmation"
+msgstr "شروع به دانلود کردن بدون نیاز به تایید"
+
 msgctxt "BtStrings|"
 msgid "Uploaded"
 msgstr ""
@@ -964,6 +1016,36 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr ""
 
+msgctxt "DownloadExpiredDialog|"
+msgid "Download Failure"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Can't resume download. Download link likely expired. Resume attempts failed."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Please try to update the download link to resume."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Go to the website with the original download source and copy the renewed link"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "click here"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Update download"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Close"
+msgstr "بستن"
+
 msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr ""
@@ -1316,6 +1398,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "دانلود ترتیبی"
 
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Remove from list"
+msgstr "حذف از لیست"
+
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
 msgstr "دانلود انجام شد"
@@ -1584,6 +1670,14 @@ msgstr "ایجاد زیرپوشه"
 msgctxt "FileName|"
 msgid "File name"
 msgstr "نام فایل"
+
+msgctxt "FileName|"
+msgid "%1 files (*.%2)"
+msgstr ""
+
+msgctxt "FileName|"
+msgid "All files"
+msgstr ""
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
@@ -2054,6 +2148,10 @@ msgid "All"
 msgstr "همه"
 
 msgctxt "MainFiltersBar|"
+msgid "Missing Files"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "Active"
 msgstr "فعال"
 
@@ -2145,7 +2243,6 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "حالت حلزونی (کند)"
 
-
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -2184,8 +2281,20 @@ msgid "Move to..."
 msgstr "انتقال به..."
 
 msgctxt "MainToolbar|"
+msgid "Move downloads up"
+msgstr ""
+
+msgctxt "MainToolbar|"
+msgid "Move downloads down"
+msgstr ""
+
+msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "منوی اصلی"
+
+msgctxt "MainToolbar|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2274,8 +2383,6 @@ msgstr "نه"
 msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
 msgstr "* ممکن است شامل هزینه اضافه شود"
-
-
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
@@ -3427,6 +3534,18 @@ msgid "Sort"
 msgstr "ترتیب"
 
 msgctxt "SelectSortFieldDialog|"
+msgid "By date"
+msgstr "بر اساس تاریخ"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By name"
+msgstr "بر اساس نام"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By size"
+msgstr "بر اساس حجم"
+
+msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
 msgstr "صعودی"
 
@@ -3494,6 +3613,22 @@ msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "تنظیمات پیشرفته"
 
+msgctxt "SettingsPage|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Restore default settings?"
+msgstr ""
+
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
 msgstr "انصراف"
@@ -3533,18 +3668,6 @@ msgstr "توجه! کامپیوتر شما هایبرنیت خواهد شد."
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
 msgstr "توجه! کامپیوتر شما خاموش خواهد شد."
-
-msgctxt "SortTools|"
-msgid "By date"
-msgstr "بر اساس تاریخ"
-
-msgctxt "SortTools|"
-msgid "By name"
-msgstr "بر اساس نام"
-
-msgctxt "SortTools|"
-msgid "By size"
-msgstr "بر اساس حجم"
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
@@ -3798,6 +3921,10 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "محدودیت ترافیک را تغییر دهید"
 
+msgctxt "TumSettingTextField|"
+msgid "Can't be greater than %1"
+msgstr ""
+
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "دانلود جدید"
@@ -3849,6 +3976,10 @@ msgstr "انصراف"
 msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "نسخه جدید موجود است"
+
+msgctxt "UpdateDialog|"
+msgid "What's new in %1"
+msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -3945,6 +4076,18 @@ msgstr "بیایید با هم بهتر شویم! نظراتتون رو بهمو
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "تازه سازی"
+
+msgctxt "WhatsNewDialog|"
+msgid "New version is available"
+msgstr "نسخه جدید موجود است"
+
+msgctxt "WhatsNewDialog|"
+msgid "What's new in %1"
+msgstr ""
+
+msgctxt "WhatsNewDialog|"
+msgid "Update"
+msgstr "بروزرسانی"
 
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"

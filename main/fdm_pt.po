@@ -18,7 +18,7 @@ msgstr "Versão: %1 (%2)"
 
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
-msgstr "Data de compilação: %1"
+msgstr "Data da compilação: %1"
 
 msgctxt "AboutDialog|"
 msgid "version %1"
@@ -126,8 +126,32 @@ msgid "Launch at startup (minimized)"
 msgstr "Executar na inicialização (minimizado)"
 
 msgctxt "AdvancedSettings|"
+msgid "Interface"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Abrir/ocultar o painel inferior ao clicar no download"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore hidden state when finished adding new downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Restore default settings?"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -159,6 +183,14 @@ msgstr ""
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "Não permitir downloads se o nível da bateria estiver abaixo de"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable user defined order of downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Show \"Save As...\" button"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -582,6 +614,26 @@ msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(navegador não instalado)"
 
+msgctxt "BtSettings|"
+msgid "General"
+msgstr "Geral"
+
+msgctxt "BtSettings|"
+msgid "Monitoring"
+msgstr "Monitoramento"
+
+msgctxt "BtSettings|"
+msgid "Open"
+msgstr "Abrir"
+
+msgctxt "BtSettings|"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "BtSettings|"
+msgid "Start downloading without confirmation"
+msgstr "Iniciar o download sem confirmação"
+
 msgctxt "BtStrings|"
 msgid "Uploaded"
 msgstr "Carregado"
@@ -969,6 +1021,36 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "Mostrar velocidade total de upload no ícone da Dock"
 
+msgctxt "DownloadExpiredDialog|"
+msgid "Download Failure"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Can't resume download. Download link likely expired. Resume attempts failed."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Please try to update the download link to resume."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Go to the website with the original download source and copy the renewed link"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "click here"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Update download"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Close"
+msgstr "Fechar"
+
 msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "Salvo em"
@@ -1159,7 +1241,7 @@ msgstr "Nome"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Status"
-msgstr "Status"
+msgstr "Estado"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Speed"
@@ -1321,6 +1403,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Download sequencial"
 
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Remove from list"
+msgstr "Remover da lista"
+
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
 msgstr "Download concluído"
@@ -1418,11 +1504,11 @@ msgstr "OK"
 
 msgctxt "EnvTools|"
 msgid "Low battery"
-msgstr ""
+msgstr "Bateria fraca"
 
 msgctxt "EnvTools|"
 msgid "Data roaming disabled"
-msgstr ""
+msgstr "Roaming de dados desativado"
 
 msgctxt "EnvTools|"
 msgid "No Internet connection"
@@ -1591,6 +1677,14 @@ msgstr "Criar subpasta"
 msgctxt "FileName|"
 msgid "File name"
 msgstr "Nome do arquivo"
+
+msgctxt "FileName|"
+msgid "%1 files (*.%2)"
+msgstr ""
+
+msgctxt "FileName|"
+msgid "All files"
+msgstr ""
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
@@ -1846,7 +1940,7 @@ msgstr "Use rede móvel"
 
 msgctxt "GeneralTab|"
 msgid "Status"
-msgstr "Status"
+msgstr "Estado"
 
 msgctxt "GeneralTab|"
 msgid "completed"
@@ -2061,6 +2155,10 @@ msgid "All"
 msgstr "Todos"
 
 msgctxt "MainFiltersBar|"
+msgid "Missing Files"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "Active"
 msgstr "Ativos"
 
@@ -2134,7 +2232,7 @@ msgstr "Verificar atualizações..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
-msgstr "Junte-se ao mosaico..."
+msgstr "Junte-se ao Mosaico..."
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -2151,7 +2249,6 @@ msgstr "O Modo Caracol libera a largura de banda sem parar os downloads."
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "Modo caracol"
-
 
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
@@ -2192,8 +2289,22 @@ msgid "Move to..."
 msgstr "Mover para..."
 
 msgctxt "MainToolbar|"
+msgid "Move downloads up"
+msgstr "Mover downloads para cima"
+
+msgctxt "MainToolbar|"
+msgid "Move downloads down"
+msgstr "Mover downloads para baixo"
+
+msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "Menu principal"
+
+msgctxt "MainToolbar|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr ""
+"Para usar este recurso, os downloads devem ser classificados por ordem. Você "
+"gostaria de classificar seus downloads por ordem primeiro?"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2282,8 +2393,6 @@ msgstr "Não"
 msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
 msgstr "* taxas adicionais podem ser aplicadas"
-
-
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
@@ -3437,6 +3546,18 @@ msgid "Sort"
 msgstr "Tipo"
 
 msgctxt "SelectSortFieldDialog|"
+msgid "By date"
+msgstr "Por data"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By name"
+msgstr "Por nome"
+
+msgctxt "SelectSortFieldDialog|"
+msgid "By size"
+msgstr "Por tamanho"
+
+msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
 msgstr "Crescente"
 
@@ -3504,6 +3625,22 @@ msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Configurações avançadas"
 
+msgctxt "SettingsPage|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Restore default settings?"
+msgstr ""
+
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
 msgstr "Cancelar"
@@ -3545,18 +3682,6 @@ msgstr "Atenção! Seu computador será hibernado."
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
 msgstr "Atenção! Seu computador será desligado."
-
-msgctxt "SortTools|"
-msgid "By date"
-msgstr "Por data"
-
-msgctxt "SortTools|"
-msgid "By name"
-msgstr "Por nome"
-
-msgctxt "SortTools|"
-msgid "By size"
-msgstr "Por tamanho"
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
@@ -3810,6 +3935,10 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Alterar os limites de tráfego"
 
+msgctxt "TumSettingTextField|"
+msgid "Can't be greater than %1"
+msgstr ""
+
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Novo download"
@@ -3863,12 +3992,16 @@ msgid "New version is available"
 msgstr "Uma nova versão está disponível"
 
 msgctxt "UpdateDialog|"
+msgid "What's new in %1"
+msgstr ""
+
+msgctxt "UpdateDialog|"
 msgid "Update"
 msgstr "Atualizar"
 
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
-msgstr "%1 está atualizado"
+msgstr "O %1 está atualizado"
 
 msgctxt "UpdateDialog|"
 msgid "OK"
@@ -3956,6 +4089,18 @@ msgstr "Vamos melhorar as coisas juntos! Dê sua opinião."
 
 msgctxt "WaitingPage|"
 msgid "Refresh"
+msgstr "Atualizar"
+
+msgctxt "WhatsNewDialog|"
+msgid "New version is available"
+msgstr "Uma nova versão está disponível"
+
+msgctxt "WhatsNewDialog|"
+msgid "What's new in %1"
+msgstr ""
+
+msgctxt "WhatsNewDialog|"
+msgid "Update"
 msgstr "Atualizar"
 
 msgctxt "main|"
