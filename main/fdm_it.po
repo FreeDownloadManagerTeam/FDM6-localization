@@ -127,8 +127,33 @@ msgid "Launch at startup (minimized)"
 msgstr "Esegui all'avvio (ridotto a icona)"
 
 msgctxt "AdvancedSettings|"
+msgid "Interface"
+msgstr "Interfaccia"
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Mostra/nascondi il pannello inferiore facendo clic sul download"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore hidden state when finished adding new downloads"
+msgstr ""
+"Ripristina lo stato nascosto al termine dell'aggiunta di nuovi download"
+
+msgctxt "AdvancedSettings|"
+msgid "Go back to default settings"
+msgstr "Ripristina impostazioni predefinite"
+
+msgctxt "AdvancedSettings|"
+msgid "Reset"
+msgstr "Ripristina"
+
+msgctxt "AdvancedSettings|"
+msgid "Default settings"
+msgstr "Impostazioni predefinite"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore default settings?"
+msgstr "Vuoi ripristinare le impostazioni predefinite?"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -161,6 +186,14 @@ msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr ""
 "Non consentire i download se il livello della batteria scende al di sotto del"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable user defined order of downloads"
+msgstr "Abilita l'ordine dei download definito dall'utente"
+
+msgctxt "AdvancedSettings|"
+msgid "Show \"Save As...\" button"
+msgstr "Mostra pulsante \"Salva con nome...\""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -588,7 +621,7 @@ msgstr "Generale"
 
 msgctxt "BtSettings|"
 msgid "Monitoring"
-msgstr ""
+msgstr "Monitoraggio"
 
 msgctxt "BtSettings|"
 msgid "Open"
@@ -991,6 +1024,40 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "Mostra la velocità di caricamento totale nell'icona del Dock"
 
+msgctxt "DownloadExpiredDialog|"
+msgid "Download Failure"
+msgstr "Download non riuscito"
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Can't resume download. Download link likely expired. Resume attempts failed."
+msgstr ""
+"Impossibile riprendere il download. Il link per il download è probabilmente "
+"scaduto. Tentativi di ripresa non riusciti."
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Please try to update the download link to resume."
+msgstr "Prova ad aggiornare il link del download per riprendere."
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Go to the website with the original download source and copy the renewed link"
+msgstr ""
+"Vai al sito Web con la fonte originale del download e copia il link "
+"aggiornato"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "click here"
+msgstr "clicca qui"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Update download"
+msgstr "Aggiorna download"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Close"
+msgstr "Chiudi"
+
 msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "Salvato in"
@@ -1344,6 +1411,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Download sequenziale"
 
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Remove from list"
+msgstr "Rimuovi dall'elenco"
+
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
 msgstr "Download completato"
@@ -1615,6 +1686,14 @@ msgctxt "FileName|"
 msgid "File name"
 msgstr "Nome file"
 
+msgctxt "FileName|"
+msgid "%1 files (*.%2)"
+msgstr "%1 file (*.%2)"
+
+msgctxt "FileName|"
+msgid "All files"
+msgstr "Tutti i file"
+
 msgctxt "FilePickerPage|"
 msgid "Select folder"
 msgstr "Seleziona cartella"
@@ -1849,7 +1928,7 @@ msgstr "Usa l'orario del server per la creazione del file"
 
 msgctxt "GeneralSettings|"
 msgid "Maximum urls count in batch download"
-msgstr "Numero massimo di URL nel download batch"
+msgstr "Numero massimo di URL nel download multiplo"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1997,7 +2076,7 @@ msgstr "Impossibile esportare nel file: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
-msgstr "Iimportazione fallita"
+msgstr "Importazione fallita"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
@@ -2082,6 +2161,10 @@ msgstr "%date% - equivalente a %year%-%month%-%day%"
 msgctxt "MainFiltersBar|"
 msgid "All"
 msgstr "Tutti"
+
+msgctxt "MainFiltersBar|"
+msgid "Missing Files"
+msgstr ""
 
 msgctxt "MainFiltersBar|"
 msgid "Active"
@@ -2217,21 +2300,20 @@ msgstr "Sposta in..."
 
 msgctxt "MainToolbar|"
 msgid "Move downloads up"
-msgstr ""
+msgstr "Sposta i download in alto"
 
 msgctxt "MainToolbar|"
 msgid "Move downloads down"
-msgstr ""
+msgstr "Sposta i download in basso"
 
 msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "Menu principale"
 
 msgctxt "MainToolbar|"
-msgid ""
-"To use this feature, downloads are required to be sorted by order. Would you "
-"like to sort your downloads by order first?"
+msgid "Switch to user-defined sorting of the download list?"
 msgstr ""
+"Vuoi passare all'ordinamento dell'elenco dei download definito dall'utente?"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3554,6 +3636,22 @@ msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Impostazioni avanzate"
 
+msgctxt "SettingsPage|"
+msgid "Go back to default settings"
+msgstr "Ripristina impostazioni predefinite"
+
+msgctxt "SettingsPage|"
+msgid "Reset"
+msgstr "Ripristina"
+
+msgctxt "SettingsPage|"
+msgid "Default settings"
+msgstr "Impostazioni predefinite"
+
+msgctxt "SettingsPage|"
+msgid "Restore default settings?"
+msgstr "Vuoi ripristinare le impostazioni predefinite?"
+
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
 msgstr "Annulla"
@@ -3595,9 +3693,6 @@ msgstr "Attenzione! Il computer verrà messo in modalità ibernazione."
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
 msgstr "Attenzione! Il computer verrà spento."
-
-
-
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
@@ -3856,6 +3951,10 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Modifica limiti traffico"
 
+msgctxt "TumSettingTextField|"
+msgid "Can't be greater than %1"
+msgstr "Non può essere maggiore di %1"
+
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Nuovo download"
@@ -3907,6 +4006,10 @@ msgstr "Annulla"
 msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "È disponibile una nuova versione"
+
+msgctxt "UpdateDialog|"
+msgid "What's new in %1"
+msgstr "Novità in %1"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -4002,6 +4105,18 @@ msgstr "Rendiamolo migliore insieme! Dacci la tua opinione."
 
 msgctxt "WaitingPage|"
 msgid "Refresh"
+msgstr "Aggiorna"
+
+msgctxt "WhatsNewDialog|"
+msgid "New version is available"
+msgstr "È disponibile una nuova versione"
+
+msgctxt "WhatsNewDialog|"
+msgid "What's new in %1"
+msgstr "Novità in %1"
+
+msgctxt "WhatsNewDialog|"
+msgid "Update"
 msgstr "Aggiorna"
 
 msgctxt "main|"

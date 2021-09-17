@@ -125,8 +125,32 @@ msgid "Launch at startup (minimized)"
 msgstr "在启动时加载（最小化）"
 
 msgctxt "AdvancedSettings|"
+msgid "Interface"
+msgstr "界面"
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "单击下载项以展开/隐藏底部面板"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore hidden state when finished adding new downloads"
+msgstr "添加完新下载项后恢复隐藏状态"
+
+msgctxt "AdvancedSettings|"
+msgid "Go back to default settings"
+msgstr "返回默认设置"
+
+msgctxt "AdvancedSettings|"
+msgid "Reset"
+msgstr "重置"
+
+msgctxt "AdvancedSettings|"
+msgid "Default settings"
+msgstr "默认设置"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore default settings?"
+msgstr "重置为默认设置"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -156,6 +180,14 @@ msgstr "使用电池时禁止下载项运行下载完成时的任务"
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "电池电量低时禁止下载"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable user defined order of downloads"
+msgstr "启用用户定义的下载顺序"
+
+msgctxt "AdvancedSettings|"
+msgid "Show \"Save As...\" button"
+msgstr "显示“另存为”按钮"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -579,7 +611,7 @@ msgstr "常规"
 
 msgctxt "BtSettings|"
 msgid "Monitoring"
-msgstr ""
+msgstr "监视"
 
 msgctxt "BtSettings|"
 msgid "Open"
@@ -974,6 +1006,36 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "在托盘图标中显示总上传速度"
 
+msgctxt "DownloadExpiredDialog|"
+msgid "Download Failure"
+msgstr "下载失败"
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Can't resume download. Download link likely expired. Resume attempts failed."
+msgstr "无法恢复下载。下载链接可能已过期。恢复的尝试失败。"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Please try to update the download link to resume."
+msgstr "请尝试更新下载链接以恢复。"
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Go to the website with the original download source and copy the renewed link"
+msgstr "访问含原始下载源的网站并复制更新的链接"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "click here"
+msgstr "点击此处"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Update download"
+msgstr "已下载更新"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Close"
+msgstr "关闭"
+
 msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "保存于"
@@ -1326,6 +1388,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "顺序下载"
 
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Remove from list"
+msgstr "从列表中移除"
+
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
 msgstr "下载完成"
@@ -1594,6 +1660,14 @@ msgstr "创建子文件夹"
 msgctxt "FileName|"
 msgid "File name"
 msgstr "文件名"
+
+msgctxt "FileName|"
+msgid "%1 files (*.%2)"
+msgstr "%1文件（*.%2）"
+
+msgctxt "FileName|"
+msgid "All files"
+msgstr "所有文件"
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
@@ -2064,6 +2138,10 @@ msgid "All"
 msgstr "全部"
 
 msgctxt "MainFiltersBar|"
+msgid "Missing Files"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "Active"
 msgstr "活动"
 
@@ -2194,21 +2272,19 @@ msgstr "移动选中项到..."
 
 msgctxt "MainToolbar|"
 msgid "Move downloads up"
-msgstr ""
+msgstr "上移下载项"
 
 msgctxt "MainToolbar|"
 msgid "Move downloads down"
-msgstr ""
+msgstr "下移下载项"
 
 msgctxt "MainToolbar|"
 msgid "Main menu"
 msgstr "主菜单"
 
 msgctxt "MainToolbar|"
-msgid ""
-"To use this feature, downloads are required to be sorted by order. Would you "
-"like to sort your downloads by order first?"
-msgstr ""
+msgid "Switch to user-defined sorting of the download list?"
+msgstr "切换到用户定义的下载列表排序？"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3525,6 +3601,22 @@ msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "高级设置"
 
+msgctxt "SettingsPage|"
+msgid "Go back to default settings"
+msgstr "返回默认设置"
+
+msgctxt "SettingsPage|"
+msgid "Reset"
+msgstr "重置"
+
+msgctxt "SettingsPage|"
+msgid "Default settings"
+msgstr "默认设置"
+
+msgctxt "SettingsPage|"
+msgid "Restore default settings?"
+msgstr "重置为默认设置"
+
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
 msgstr "取消"
@@ -3564,9 +3656,6 @@ msgstr "警告! 电脑将进入休眠."
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
 msgstr "警告! 电脑将关闭."
-
-
-
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
@@ -3820,6 +3909,10 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "修改限速"
 
+msgctxt "TumSettingTextField|"
+msgid "Can't be greater than %1"
+msgstr "不能大于%1"
+
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "新的下载"
@@ -3871,6 +3964,10 @@ msgstr "取消"
 msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "有新版本可用"
+
+msgctxt "UpdateDialog|"
+msgid "What's new in %1"
+msgstr "%1的更新内容"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -3967,6 +4064,18 @@ msgstr "让我们一起使它变得更好! 向我们反馈您的建议."
 msgctxt "WaitingPage|"
 msgid "Refresh"
 msgstr "刷新"
+
+msgctxt "WhatsNewDialog|"
+msgid "New version is available"
+msgstr "有新版本可用"
+
+msgctxt "WhatsNewDialog|"
+msgid "What's new in %1"
+msgstr "%1的更新内容"
+
+msgctxt "WhatsNewDialog|"
+msgid "Update"
+msgstr "更新"
 
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
