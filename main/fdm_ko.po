@@ -125,20 +125,12 @@ msgid "Launch at startup (minimized)"
 msgstr "시작시 실행 (최소화)"
 
 msgctxt "AdvancedSettings|"
-msgid "Show special offers"
-msgstr ""
-
-msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "인터페이스"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "다운로드를 클릭하여 하단 패널 열기/숨기기"
-
-msgctxt "AdvancedSettings|"
-msgid "Indicate active download and upload using tray icon"
-msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Restore hidden state when finished adding new downloads"
@@ -296,10 +288,6 @@ msgstr "파일을 MP4로 변환합니다 (%1)."
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "미디어 스트림 병합합니다 (%1)."
-
-msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
-msgid "Deleting files."
-msgstr ""
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -541,7 +529,9 @@ msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
-msgstr "%1 확장이 설치되어 있는지 확인하세요. 그렇지 않으면 아래 버튼 중 하나를 클릭합니다"
+msgstr ""
+"%1 확장이 설치되어 있는지 확인하세요. 그렇지 않으면 아래 버튼 중 하나를 클릭"
+"합니다"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -606,8 +596,10 @@ msgstr ""
 "\n"
 "%1에 다운로드를 추가하는데 도움이 됩니다.\n"
 "\n"
-"이 중 일부 (예: Google Drive 다운로드)는 Android 시스템의 브라우저가 %1에 제공하지 않는 추가 정보가 필요하기 "
-"때문에 이 브라우저를 통해서만 추가할 수 있습니다 (또는 모든 브라우저에서 이러한 작업을 수행할 수 있는 보편적인 방법은 없습니다)."
+"이 중 일부 (예: Google Drive 다운로드)는 Android 시스템의 브라우저가 %1에 제"
+"공하지 않는 추가 정보가 필요하기 때문에 이 브라우저를 통해서만 추가할 수 있습"
+"니다 (또는 모든 브라우저에서 이러한 작업을 수행할 수 있는 보편적인 방법은 없"
+"습니다)."
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -797,38 +789,6 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "연결 수"
 
-msgctxt "ConvertDestinationFilesExistsDialog|"
-msgid "Destination files already exists"
-msgstr ""
-
-msgctxt "ConvertDestinationFilesExistsDialog|"
-msgid "Overwrite All"
-msgstr ""
-
-msgctxt "ConvertDestinationFilesExistsDialog|"
-msgid "Rename All"
-msgstr ""
-
-msgctxt "ConvertDestinationFilesExistsDialog|"
-msgid "Skip All"
-msgstr ""
-
-msgctxt "ConvertDestinationFilesExistsDialog|"
-msgid "Abort"
-msgstr "중단"
-
-msgctxt "ConvertFilesFailedDialog|"
-msgid "Failed to convert"
-msgstr ""
-
-msgctxt "ConvertFilesFailedDialog|"
-msgid "OK"
-msgstr "확인"
-
-msgctxt "ConvertFilesFailedDialog|"
-msgid "Convert failed"
-msgstr ""
-
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "링크 복사"
@@ -844,7 +804,8 @@ msgstr "정말 그만 두시겠습니까?"
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
-msgstr "내부 오류가 발생했습니다. <br>%1을 다시 시작해야 나중에 사용할 수 있습니다."
+msgstr ""
+"내부 오류가 발생했습니다. <br>%1을 다시 시작해야 나중에 사용할 수 있습니다."
 
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
@@ -878,7 +839,9 @@ msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
-msgstr "%1의 휴대용 버전은 각각의 컴퓨터에 설치 및 구성할 필요없이 다른 컴퓨터에서 사용할 수 있습니다."
+msgstr ""
+"%1의 휴대용 버전은 각각의 컴퓨터에 설치 및 구성할 필요없이 다른 컴퓨터에서 사"
+"용할 수 있습니다."
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
@@ -888,7 +851,9 @@ msgctxt "CreatePortableDialog|"
 msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
-msgstr "이 버전을 만들 경로를 여기에 지정하세요. 이동식 드라이브에 있는 폴더여야 합니다."
+msgstr ""
+"이 버전을 만들 경로를 여기에 지정하세요. 이동식 드라이브에 있는 폴더여야 합니"
+"다."
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -1057,7 +1022,9 @@ msgstr "다운로드 실패"
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Can't resume download. Download link likely expired. Resume attempts failed."
-msgstr "다운로드를 재개할 수 없습니다. 다운로드 링크가 만료되었을 수 있습니다. 다시 시도하지 못했습니다."
+msgstr ""
+"다운로드를 재개할 수 없습니다. 다운로드 링크가 만료되었을 수 있습니다. 다시 "
+"시도하지 못했습니다."
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Please try to update the download link to resume."
@@ -1066,7 +1033,8 @@ msgstr "계속하려면 다운로드 링크를 업데이트하십시오."
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Go to the website with the original download source and copy the renewed link"
-msgstr "원본 다운로드 소스가 있는 웹 사이트로 이동하여 갱신된 링크를 복사합니다"
+msgstr ""
+"원본 다운로드 소스가 있는 웹 사이트로 이동하여 갱신된 링크를 복사합니다"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "click here"
@@ -1323,10 +1291,6 @@ msgstr "폴더에 표시"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "문제 보고"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Enable auto retry for this kind of errors"
-msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -1969,14 +1933,6 @@ msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "모바일 네트워크 사용"
 
-msgctxt "GeneralSettings|"
-msgid "Allow data roaming"
-msgstr ""
-
-msgctxt "GeneralSettings|"
-msgid "Using mobile data while roaming may result in additional charges."
-msgstr ""
-
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "상태"
@@ -2236,10 +2192,6 @@ msgstr "내보내기 설정"
 msgctxt "MainMenu|"
 msgid "Import settings"
 msgstr "가져오기 설정"
-
-msgctxt "MainMenu|"
-msgid "Add-ons..."
-msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -2746,164 +2698,6 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "연결"
 
-msgctxt "PluginsDepsInstallerView|"
-msgid "Installed."
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Recently installed dependency"
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Add-ons"
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Check for Updates"
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Install Add-on From File..."
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Update Add-ons Automatically"
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Reset All Add-ons to Update Automatically"
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Updating installed add-ons..."
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "There are no installed add-ons."
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Install add-on from file"
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Install"
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Cancel"
-msgstr "취소"
-
-msgctxt "PluginsPage|"
-msgid "%1 add-ons files (%2)"
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Failed to install add-on"
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Warning!"
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Add-on requests dangerous permissions:"
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Add-on requests dangerous permission:"
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Please install add-ons from trusted sources only."
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Would you like to continue the installation?"
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "The following required components are missing:"
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "%1 is required."
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Would you like to install them?"
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Would you like to install it?"
-msgstr ""
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Failed to update add-on"
-msgstr ""
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Warning!"
-msgstr ""
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requests dangerous permissions:"
-msgstr ""
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requests dangerous permission:"
-msgstr ""
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Please install add-ons from trusted sources only."
-msgstr ""
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to continue the installation?"
-msgstr ""
-
-msgctxt "PluginsUpdateUiManager|"
-msgid ""
-"New version of %1 add-on requires additional components:\n"
-"%2"
-msgstr ""
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requires %2."
-msgstr ""
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install them?"
-msgstr ""
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install it?"
-msgstr ""
-
-msgctxt "PluginsViewItem|"
-msgid "Allow Automatic Updates"
-msgstr ""
-
-msgctxt "PluginsViewItem|"
-msgid "Check for Updates"
-msgstr ""
-
-msgctxt "PluginsViewItem|"
-msgid "Remove"
-msgstr "제거"
-
-msgctxt "PluginsViewItem|"
-msgid "Updating..."
-msgstr ""
-
-msgctxt "PluginsViewItem|"
-msgid "Version: %1"
-msgstr ""
-
-msgctxt "PluginsViewItem|"
-msgid "OK to remove?"
-msgstr ""
-
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
 msgstr "오디오"
@@ -2930,8 +2724,8 @@ msgid ""
 "We do not collect your personal data and do not share data with third "
 "parties."
 msgstr ""
-"버그 보고서가 서버로 전송되어 %1 성능을 개선하는데 사용됩니다. 당사는 귀하의 개인 데이터를 수집하지 않으며 제 3자와 데이터를 "
-"공유하지 않습니다."
+"버그 보고서가 서버로 전송되어 %1 성능을 개선하는데 사용됩니다. 당사는 귀하의 "
+"개인 데이터를 수집하지 않으며 제 3자와 데이터를 공유하지 않습니다."
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
@@ -3473,14 +3267,41 @@ msgctxt "QObject|"
 msgid "Missing %path% parameter."
 msgstr "%path% 매개변수가 없습니다."
 
+msgctxt "QObject|"
+msgid "Path to the dump folder."
+msgstr "덤프 폴더의 경로입니다."
 
+msgctxt "QObject|"
+msgid "Url to upload dumps to."
+msgstr "덤프를 업로드할 URL입니다."
 
+msgctxt "QObject|"
+msgid "Path to the crashed app that can be restarted."
+msgstr "다시 시작할 수 있는 충돌된 앱의 경로입니다."
 
+msgctxt "QObject|"
+msgid "Name of the crashed application."
+msgstr "충돌한 응용 프로그램의 이름입니다."
 
+msgctxt "QObject|"
+msgid "Version of the application."
+msgstr "응용 프로그램의 버전입니다."
 
+msgctxt "QObject|"
+msgid "Architecture."
+msgstr "아키텍처입니다."
 
+msgctxt "QObject|"
+msgid "User's operating system."
+msgstr "사용자의 운영 체제입니다."
 
+msgctxt "QObject|"
+msgid "Fault module name."
+msgstr "고장 모듈 이름입니다."
 
+msgctxt "QObject|"
+msgid "Crash address."
+msgstr "주소 충돌입니다."
 
 msgctxt "QObject|"
 msgid "Signature check failure."
@@ -3521,102 +3342,6 @@ msgstr "기타"
 msgctxt "QObject|"
 msgid "upload paused"
 msgstr "업로드 일시 중지됨"
-
-msgctxt "QObject|"
-msgid "PAUSE ALL"
-msgstr ""
-
-msgctxt "QObject|"
-msgid "Downloading..."
-msgstr ""
-
-msgctxt "QObject|"
-msgid "DISABLE SNAIL MODE"
-msgstr ""
-
-msgctxt "QObject|"
-msgid "SNAIL MODE"
-msgstr ""
-
-msgctxt "QObject|"
-msgid "YouTube downloads are not available"
-msgstr ""
-
-msgctxt "QObject|"
-msgid "%1 of unknown at %2"
-msgstr ""
-
-msgctxt "QObject|"
-msgid "%1 of %2 at %3"
-msgstr ""
-
-msgctxt "QObject|"
-msgid "%1 %2 or higher"
-msgstr ""
-
-msgctxt "QObject|"
-msgid "Launch Python code"
-msgstr ""
-
-msgctxt "QObject|"
-msgid "Allows to execute arbitrary code."
-msgstr ""
-
-msgctxt "QObject|"
-msgid "Installing..."
-msgstr ""
-
-msgctxt "QObject|"
-msgid "Uninstalling..."
-msgstr ""
-
-msgctxt "QObject|"
-msgid "Missing components"
-msgstr ""
-
-msgctxt "QObject|"
-msgid "%1 are required"
-msgstr ""
-
-msgctxt "QObject|"
-msgid "%1 is required"
-msgstr ""
-
-msgctxt "QObject|"
-msgid "Failed to load"
-msgstr ""
-
-msgctxt "QObject|"
-msgid "Playlist"
-msgstr ""
-
-msgctxt "QuaGzipFile|"
-msgid "QIODevice::Append is not supported for GZIP"
-msgstr ""
-
-msgctxt "QuaGzipFile|"
-msgid "Opening gzip for both reading and writing is not supported"
-msgstr ""
-
-msgctxt "QuaGzipFile|"
-msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr ""
-
-msgctxt "QuaGzipFile|"
-msgid "Could not gzopen() file"
-msgstr ""
-
-msgctxt "QuaZIODevice|"
-msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr ""
-
-msgctxt "QuaZIODevice|"
-msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr ""
-
-msgctxt "QuaZipFile|"
-msgid "ZIP/UNZIP API error %1"
-msgstr ""
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
