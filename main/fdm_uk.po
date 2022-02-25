@@ -3,18 +3,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Language: uk_UA\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: uk_UA\n"
-"X-Generator: Poedit 2.4.2\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -133,12 +125,20 @@ msgid "Launch at startup (minimized)"
 msgstr "Запуск під час запуску системи (згорнутим)"
 
 msgctxt "AdvancedSettings|"
+msgid "Show special offers"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "Інтерфейс"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Показати/сховати нижню панель по кліку на завантаженні"
+
+msgctxt "AdvancedSettings|"
+msgid "Indicate active download and upload using tray icon"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Restore hidden state when finished adding new downloads"
@@ -298,6 +298,10 @@ msgstr "Конвертація файлів у mp4 (%1)."
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Злиття медіапотоків (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Deleting files."
+msgstr ""
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -798,6 +802,38 @@ msgstr "Порт"
 msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "Кількість з'єднань"
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Destination files already exists"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Overwrite All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Rename All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Skip All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Abort"
+msgstr "Перервати"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Failed to convert"
+msgstr ""
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Convert failed"
+msgstr ""
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
@@ -1302,6 +1338,10 @@ msgstr "Показати у теці"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "Повідомити про проблему"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Enable auto retry for this kind of errors"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -1945,6 +1985,14 @@ msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "Використовувати мобільну мережу"
 
+msgctxt "GeneralSettings|"
+msgid "Allow data roaming"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Using mobile data while roaming may result in additional charges."
+msgstr ""
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Статус"
@@ -2204,6 +2252,10 @@ msgstr "Експортувати установки"
 msgctxt "MainMenu|"
 msgid "Import settings"
 msgstr "Імпортувати установки"
+
+msgctxt "MainMenu|"
+msgid "Add-ons..."
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -2711,6 +2763,164 @@ msgstr "Файли"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "З'єднання"
+
+msgctxt "PluginsDepsInstallerView|"
+msgid "Installed."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Recently installed dependency"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-ons"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Check for Updates"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install Add-on From File..."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Update Add-ons Automatically"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Reset All Add-ons to Update Automatically"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Updating installed add-ons..."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "There are no installed add-ons."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install add-on from file"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "PluginsPage|"
+msgid "%1 add-ons files (%2)"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Failed to install add-on"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Warning!"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permissions:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permission:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Please install add-ons from trusted sources only."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to continue the installation?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "The following required components are missing:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "%1 is required."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install them?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install it?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Failed to update add-on"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Warning!"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permissions:"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permission:"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Please install add-ons from trusted sources only."
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to continue the installation?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid ""
+"New version of %1 add-on requires additional components:\n"
+"%2"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requires %2."
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install them?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install it?"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Allow Automatic Updates"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Check for Updates"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Remove"
+msgstr "Прибирати"
+
+msgctxt "PluginsViewItem|"
+msgid "Updating..."
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Version: %1"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "OK to remove?"
+msgstr ""
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
@@ -3237,41 +3447,14 @@ msgctxt "QObject|"
 msgid "Mount point does not exist"
 msgstr "Точка монтування не існує"
 
-msgctxt "QObject|"
-msgid "Path to the dump folder."
-msgstr "Шлях до теки дампу."
 
-msgctxt "QObject|"
-msgid "Url to upload dumps to."
-msgstr "URL для відвантаження дампу."
 
-msgctxt "QObject|"
-msgid "Path to the crashed app that can be restarted."
-msgstr "Шлях до збійного застосунку, який можна перезапустити."
 
-msgctxt "QObject|"
-msgid "Name of the crashed application."
-msgstr "Ім'я збійного застосунку."
 
-msgctxt "QObject|"
-msgid "Version of the application."
-msgstr "Версія застосунку."
 
-msgctxt "QObject|"
-msgid "Architecture."
-msgstr "Архітектура."
 
-msgctxt "QObject|"
-msgid "User's operating system."
-msgstr "ОС користувача."
 
-msgctxt "QObject|"
-msgid "Fault module name."
-msgstr "Ім'я збійного модуля."
 
-msgctxt "QObject|"
-msgid "Crash address."
-msgstr "Адреса збою."
 
 msgctxt "QObject|"
 msgid "Signature check failure."
@@ -3358,6 +3541,102 @@ msgstr "Різне"
 msgctxt "QObject|"
 msgid "upload paused"
 msgstr "вивантаження зупинено"
+
+msgctxt "QObject|"
+msgid "PAUSE ALL"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloading..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "DISABLE SNAIL MODE"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "SNAIL MODE"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "YouTube downloads are not available"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 of unknown at %2"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 of %2 at %3"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 %2 or higher"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Launch Python code"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Allows to execute arbitrary code."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Installing..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Uninstalling..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Missing components"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 are required"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 is required"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Failed to load"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Playlist"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "QIODevice::Append is not supported for GZIP"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "Opening gzip for both reading and writing is not supported"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "You can open a gzip either for reading or for writing. Which is it?"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "Could not gzopen() file"
+msgstr ""
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::Append is not supported for QuaZIODevice"
+msgstr ""
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
+msgstr ""
+
+msgctxt "QuaZipFile|"
+msgid "ZIP/UNZIP API error %1"
+msgstr ""
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
