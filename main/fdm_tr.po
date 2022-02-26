@@ -14,11 +14,11 @@ msgstr "Hakkında"
 
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
-msgstr ""
+msgstr "Sürüm: %1 (%2)"
 
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
-msgstr ""
+msgstr "Sürüm tarihi: %1"
 
 msgctxt "AboutDialog|"
 msgid "version %1"
@@ -126,32 +126,40 @@ msgid "Launch at startup (minimized)"
 msgstr "Başlangıçta çalıştır (küçültülmüş)"
 
 msgctxt "AdvancedSettings|"
-msgid "Interface"
+msgid "Show special offers"
 msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Interface"
+msgstr "Arayüz"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "İndirmenin üzerine tıklayarak alt panelde Aç/Gizle"
 
 msgctxt "AdvancedSettings|"
-msgid "Restore hidden state when finished adding new downloads"
+msgid "Indicate active download and upload using tray icon"
 msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Restore hidden state when finished adding new downloads"
+msgstr "Yeni indirmeler eklemeyi tamamladığınızda gizli durumu geri yükle"
 
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
-msgstr ""
+msgstr "Varsayılan ayarlara geri dön"
 
 msgctxt "AdvancedSettings|"
 msgid "Reset"
-msgstr ""
+msgstr "Sıfırla"
 
 msgctxt "AdvancedSettings|"
 msgid "Default settings"
-msgstr ""
+msgstr "Varsayılan ayarlar"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore default settings?"
-msgstr ""
+msgstr "Varsayılan ayarlara sıfırlansın mı?"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -186,11 +194,11 @@ msgstr "Pil gücü zayıfladığında indirmelere izin verme"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
-msgstr ""
+msgstr "Kullanıcı tanımlı indirme sırasını etkinleştir"
 
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
-msgstr ""
+msgstr "\"Farklı Kaydet...\" düğmesini göster"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -274,27 +282,31 @@ msgstr "İptal"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
-msgstr ""
+msgstr "Devam desteği olmayan indirmeler (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
-msgstr ""
+msgstr "Dosyaları taşı (%1)"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
-msgstr ""
+msgstr "Dosyaları MP3'e dönüştürülüyor (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
-msgstr ""
+msgstr "Dosyalar MP4'e dönüştürülüyor (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
+msgstr "Medya akışları birleşiyor (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Deleting files."
 msgstr ""
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
-msgstr ""
+msgstr "Devam etme özelliği olmayan işlemler var"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -618,7 +630,7 @@ msgstr "Genel"
 
 msgctxt "BtSettings|"
 msgid "Monitoring"
-msgstr ""
+msgstr "İzleme"
 
 msgctxt "BtSettings|"
 msgid "Open"
@@ -634,11 +646,11 @@ msgstr "Onay beklemeden indirmeleri başlat"
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
-msgstr ""
+msgstr "Yüklendi"
 
 msgctxt "BtStrings|"
 msgid "Ratio"
-msgstr ""
+msgstr "Oran"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -646,7 +658,7 @@ msgstr "İndirme ekle"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
-msgstr ""
+msgstr "Sorun bildir"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
@@ -674,7 +686,7 @@ msgstr "Tamam"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
-msgstr ""
+msgstr "Sorun bildir"
 
 msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
@@ -738,7 +750,7 @@ msgstr "Yeni URL gir"
 
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
-msgstr ""
+msgstr "Dosya konumu: %1"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
@@ -770,7 +782,7 @@ msgstr "Yeni URL gir"
 
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
-msgstr ""
+msgstr "Dosya konumu: %1"
 
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
@@ -792,6 +804,38 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "Bağlantı sayısı"
 
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Destination files already exists"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Overwrite All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Rename All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Skip All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Abort"
+msgstr "İşlemi iptal et"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Failed to convert"
+msgstr ""
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "OK"
+msgstr "Tamam"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Convert failed"
+msgstr ""
+
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "Bağlantıyı kopyala"
@@ -802,7 +846,7 @@ msgstr "Kopyala"
 
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
-msgstr ""
+msgstr "Çıkmak istediğinden emin misin?"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1018,33 +1062,37 @@ msgstr "Boyut: %1"
 
 msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
-msgstr ""
+msgstr "Dock simgesinde toplam yükleme hızını göster"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Download Failure"
-msgstr ""
+msgstr "İndirme hatası"
 
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Can't resume download. Download link likely expired. Resume attempts failed."
 msgstr ""
+"İndirmeye devam edilemiyor. İndirme bağlantısının süresi dolmuş olabilir. "
+"Devam etme girişimleri başarısız oldu."
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Please try to update the download link to resume."
-msgstr ""
+msgstr "Lütfen devam etmek için indirme bağlantısını güncelleştirmeyi deneyin."
 
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Go to the website with the original download source and copy the renewed link"
 msgstr ""
+"Orijinal indirme kaynağının bulunduğu web sitesine gidin ve yenilenen "
+"bağlantıyı kopyalayın"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "click here"
-msgstr ""
+msgstr "Buraya tıklayın"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Update download"
-msgstr ""
+msgstr "İndirmeyi güncelle"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Close"
@@ -1116,7 +1164,7 @@ msgstr "Başlat"
 
 msgctxt "DownloadsItemTools|"
 msgid "Moving"
-msgstr ""
+msgstr "Hareketli"
 
 msgctxt "DownloadsItemTools|"
 msgid "Checking for viruses"
@@ -1132,7 +1180,7 @@ msgstr "Mp4'e çevriliyor"
 
 msgctxt "DownloadsItemTools|"
 msgid "Calculating hash"
-msgstr ""
+msgstr "Hash hesaplanıyor"
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
@@ -1268,7 +1316,7 @@ msgstr "Disk bulunamadı"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
-msgstr ""
+msgstr "Yükleme duraklatıldı"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -1276,7 +1324,7 @@ msgstr "Öncelik"
 
 msgctxt "DownloadsViewItem|"
 msgid "Upload paused"
-msgstr ""
+msgstr "Yükleme duraklatıldı"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1292,6 +1340,10 @@ msgstr "Klasörde göster"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
+msgstr "Sorun bildir"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Enable auto retry for this kind of errors"
 msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
@@ -1340,7 +1392,7 @@ msgstr "Yansı ekle"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Open download page"
-msgstr ""
+msgstr "İndirme sayfasını aç"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
@@ -1468,7 +1520,7 @@ msgstr "Etiketi düzenle"
 
 msgctxt "EditTagDialog|"
 msgid "Tag"
-msgstr ""
+msgstr "Etiket"
 
 msgctxt "EditTagDialog|"
 msgid "Extensions (e.g. \"avi mp3\")"
@@ -1501,11 +1553,11 @@ msgstr "Tamam"
 
 msgctxt "EnvTools|"
 msgid "Low battery"
-msgstr ""
+msgstr "Düşük pil"
 
 msgctxt "EnvTools|"
 msgid "Data roaming disabled"
-msgstr ""
+msgstr "Veri dolaşımı devre dışı"
 
 msgctxt "EnvTools|"
 msgid "No Internet connection"
@@ -1621,7 +1673,7 @@ msgstr "Doğrulama başarılı"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification failed"
-msgstr "Doğrulama başarısız oldu"
+msgstr "Doğrulama başarısız"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Close"
@@ -1677,11 +1729,11 @@ msgstr "Dosya adı"
 
 msgctxt "FileName|"
 msgid "%1 files (*.%2)"
-msgstr ""
+msgstr "%1 dosya (*.%2)"
 
 msgctxt "FileName|"
 msgid "All files"
-msgstr ""
+msgstr "Tüm dosyalar"
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
@@ -1725,7 +1777,7 @@ msgstr "Azalan"
 
 msgctxt "FileType|"
 msgid "File type:"
-msgstr ""
+msgstr "Dosya tipi:"
 
 msgctxt "FilesExistsDialog|"
 msgid "Warning: file exists already"
@@ -1749,7 +1801,7 @@ msgstr "İşlemi iptal et"
 
 msgctxt "FilesTree|"
 msgid "Name"
-msgstr "Ad"
+msgstr "İsim"
 
 msgctxt "FilesTree|"
 msgid "Size"
@@ -1935,6 +1987,14 @@ msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "Mobil veriyi kullan"
 
+msgctxt "GeneralSettings|"
+msgid "Allow data roaming"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Using mobile data while roaming may result in additional charges."
+msgstr ""
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Durum"
@@ -1945,7 +2005,7 @@ msgstr "tamamlandı"
 
 msgctxt "GeneralTab|"
 msgid "State"
-msgstr ""
+msgstr "Durum"
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
@@ -1957,19 +2017,19 @@ msgstr "İndirildi:"
 
 msgctxt "GeneralTab|"
 msgid "Uploaded"
-msgstr ""
+msgstr "Yüklendi"
 
 msgctxt "GeneralTab|"
 msgid "ratio"
-msgstr ""
+msgstr "oran"
 
 msgctxt "GeneralTab|"
 msgid "Web page"
-msgstr ""
+msgstr "Web sayfası"
 
 msgctxt "GeneralTab|"
 msgid "File"
-msgstr ""
+msgstr "Dosya"
 
 msgctxt "GeneralTab|"
 msgid "Speed"
@@ -2153,7 +2213,7 @@ msgstr "Tümü"
 
 msgctxt "MainFiltersBar|"
 msgid "Missing Files"
-msgstr ""
+msgstr "Kayıp dosyalar"
 
 msgctxt "MainFiltersBar|"
 msgid "Active"
@@ -2194,6 +2254,10 @@ msgstr "Dışarı aktarma ayarları"
 msgctxt "MainMenu|"
 msgid "Import settings"
 msgstr "İçeri aktarma ayarları"
+
+msgctxt "MainMenu|"
+msgid "Add-ons..."
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -2286,11 +2350,11 @@ msgstr "Taşı..."
 
 msgctxt "MainToolbar|"
 msgid "Move downloads up"
-msgstr ""
+msgstr "İndirmeleri yukarı taşı"
 
 msgctxt "MainToolbar|"
 msgid "Move downloads down"
-msgstr ""
+msgstr "İndirmeleri aşağı taşı"
 
 msgctxt "MainToolbar|"
 msgid "Main menu"
@@ -2298,7 +2362,7 @@ msgstr "Ana menü"
 
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
-msgstr ""
+msgstr "İndirme listesinin kullanıcı tanımlı sıralamasına geçilir mi?"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2700,6 +2764,164 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Bağlantılar"
 
+msgctxt "PluginsDepsInstallerView|"
+msgid "Installed."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Recently installed dependency"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-ons"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Check for Updates"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install Add-on From File..."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Update Add-ons Automatically"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Reset All Add-ons to Update Automatically"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Updating installed add-ons..."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "There are no installed add-ons."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install add-on from file"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "PluginsPage|"
+msgid "%1 add-ons files (%2)"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Failed to install add-on"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Warning!"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permissions:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permission:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Please install add-ons from trusted sources only."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to continue the installation?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "The following required components are missing:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "%1 is required."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install them?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install it?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Failed to update add-on"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Warning!"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permissions:"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permission:"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Please install add-ons from trusted sources only."
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to continue the installation?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid ""
+"New version of %1 add-on requires additional components:\n"
+"%2"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requires %2."
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install them?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install it?"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Allow Automatic Updates"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Check for Updates"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Remove"
+msgstr "Kaldır"
+
+msgctxt "PluginsViewItem|"
+msgid "Updating..."
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Version: %1"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "OK to remove?"
+msgstr ""
+
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
 msgstr "Ses"
@@ -2710,15 +2932,15 @@ msgstr "Video"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Lowest"
-msgstr ""
+msgstr "En düşük"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Highest"
-msgstr ""
+msgstr "En yüksek"
 
 msgctxt "PrivacyDialog|"
 msgid "User agreement"
-msgstr ""
+msgstr "Kullanıcı Sözleşmesi"
 
 msgctxt "PrivacyDialog|"
 msgid ""
@@ -2726,14 +2948,17 @@ msgid ""
 "We do not collect your personal data and do not share data with third "
 "parties."
 msgstr ""
+"Sunucuya bir hata raporu gönderilecek ve %1 performansını iyileştirmek için "
+"kullanılacak. Kişisel verilerinizi toplamıyoruz ve üçüncü taraflarla "
+"paylaşmıyoruz."
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
-msgstr ""
+msgstr "Kabul ediyorum (bir daha gösterme)"
 
 msgctxt "PrivacyDialog|"
 msgid "Send report"
-msgstr ""
+msgstr "Rapor gönder"
 
 msgctxt "PrivacyDialog|"
 msgid "Cancel"
@@ -3223,41 +3448,14 @@ msgctxt "QObject|"
 msgid "Mount point does not exist"
 msgstr "Bağlantı noktası mevcut değil"
 
-msgctxt "QObject|"
-msgid "Path to the dump folder."
-msgstr "Döküm klasörü yolu."
 
-msgctxt "QObject|"
-msgid "Url to upload dumps to."
-msgstr "Dökümü yüklenecek URL."
 
-msgctxt "QObject|"
-msgid "Path to the crashed app that can be restarted."
-msgstr "Çöken uygulamanın yeniden başlatılabileceği yol."
 
-msgctxt "QObject|"
-msgid "Name of the crashed application."
-msgstr "Çöken uygulamanın adı."
 
-msgctxt "QObject|"
-msgid "Version of the application."
-msgstr "Uygulamanın sürümü."
 
-msgctxt "QObject|"
-msgid "Architecture."
-msgstr "Mimari."
 
-msgctxt "QObject|"
-msgid "User's operating system."
-msgstr "Kullanıcı işletim sistemi."
 
-msgctxt "QObject|"
-msgid "Fault module name."
-msgstr "Hatalı modül adı."
 
-msgctxt "QObject|"
-msgid "Crash address."
-msgstr "Çökme adresi."
 
 msgctxt "QObject|"
 msgid "Signature check failure."
@@ -3342,11 +3540,107 @@ msgstr "Çeşitli"
 
 msgctxt "QObject|"
 msgid "upload paused"
+msgstr "Yükleme duraklatıldı"
+
+msgctxt "QObject|"
+msgid "PAUSE ALL"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloading..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "DISABLE SNAIL MODE"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "SNAIL MODE"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "YouTube downloads are not available"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 of unknown at %2"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 of %2 at %3"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 %2 or higher"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Launch Python code"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Allows to execute arbitrary code."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Installing..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Uninstalling..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Missing components"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 are required"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 is required"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Failed to load"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Playlist"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "QIODevice::Append is not supported for GZIP"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "Opening gzip for both reading and writing is not supported"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "You can open a gzip either for reading or for writing. Which is it?"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "Could not gzopen() file"
+msgstr ""
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::Append is not supported for QuaZIODevice"
+msgstr ""
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
+msgstr ""
+
+msgctxt "QuaZipFile|"
+msgid "ZIP/UNZIP API error %1"
 msgstr ""
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
-msgstr ""
+msgstr "Çıkmak istediğinden emin misin?"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "OK"
@@ -3374,15 +3668,15 @@ msgstr "İptal"
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
-msgstr ""
+msgstr "Sorun bildir"
 
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
-msgstr ""
+msgstr "Üzgünüz, rapor gönderilmedi, bir hata oluştu: %1"
 
 msgctxt "ReportSentDialog|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr ""
+msgstr "Rapor gönderildi. İşbirliğiniz için teşekkürler!"
 
 msgctxt "ReportSentDialog|"
 msgid "OK"
@@ -3618,19 +3912,19 @@ msgstr "Gelişmiş ayarlar"
 
 msgctxt "SettingsPage|"
 msgid "Go back to default settings"
-msgstr ""
+msgstr "Varsayılan ayarlara geri dön"
 
 msgctxt "SettingsPage|"
 msgid "Reset"
-msgstr ""
+msgstr "Sıfırla"
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
-msgstr ""
+msgstr "Varsayılan ayarlar"
 
 msgctxt "SettingsPage|"
 msgid "Restore default settings?"
-msgstr ""
+msgstr "Varsayılan ayarlara sıfırlansın mı?"
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be put to sleep after all downloads are completed."
@@ -3928,7 +4222,7 @@ msgstr "Trafik limitlerini değiştir"
 
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
-msgstr ""
+msgstr "Şundan büyük olamaz: %1"
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
@@ -3984,7 +4278,7 @@ msgstr "Yeni sürüm mevcut"
 
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
-msgstr ""
+msgstr "%1 yenilikleri"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -4088,7 +4382,7 @@ msgstr "Yeni sürüm mevcut"
 
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
-msgstr ""
+msgstr "%1 yenilikleri"
 
 msgctxt "WhatsNewDialog|"
 msgid "Update"
@@ -4096,8 +4390,8 @@ msgstr "Güncelle"
 
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
-msgstr ""
+msgstr "Üzgünüz, rapor gönderilmedi, bir hata oluştu: %1"
 
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr ""
+msgstr "Rapor gönderildi. İşbirliğiniz için teşekkürler!"
