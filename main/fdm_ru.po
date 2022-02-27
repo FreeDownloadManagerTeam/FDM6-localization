@@ -125,12 +125,20 @@ msgid "Launch at startup (minimized)"
 msgstr "Запускать при старте системы (в свёрнутом виде)"
 
 msgctxt "AdvancedSettings|"
+msgid "Show special offers"
+msgstr "Показывать специальные предложения"
+
+msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "Интерфейс"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Открывать/закрывать нижнюю панель по клику на загрузку"
+
+msgctxt "AdvancedSettings|"
+msgid "Indicate active download and upload using tray icon"
+msgstr "Указывать активные загрузки с помощью иконки панели задач"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore hidden state when finished adding new downloads"
@@ -290,6 +298,10 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Объединение мультимедийных потоков (%1)."
 
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Deleting files."
+msgstr "Удаление файлов"
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Выполняются операции, которые не могут быть возобновлены"
@@ -416,7 +428,7 @@ msgstr "Макс. качество видео"
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
-msgstr ""
+msgstr "кбит/с"
 
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
@@ -790,6 +802,38 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "Количество соединений"
 
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Destination files already exists"
+msgstr "Файл назначения уже существует"
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Overwrite All"
+msgstr "Перезаписать Все"
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Rename All"
+msgstr "Переименовать Все"
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Skip All"
+msgstr "Пропустить Все"
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Abort"
+msgstr "Прервать"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Failed to convert"
+msgstr "Ошибка конвертации"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Convert failed"
+msgstr "Конвертирование не удалось"
+
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "Копировать ссылку"
@@ -1025,6 +1069,8 @@ msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Can't resume download. Download link likely expired. Resume attempts failed."
 msgstr ""
+"Невозможно продолжить загрузку. Возможно, ссылка истекла. Не удалось "
+"продолжить."
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Please try to update the download link to resume."
@@ -1034,6 +1080,8 @@ msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Go to the website with the original download source and copy the renewed link"
 msgstr ""
+"Перейдите на страницу первоначального источника загрузки и скопируйте "
+"обновленную ссылку"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "click here"
@@ -1292,6 +1340,10 @@ msgid "Report problem"
 msgstr "Отчет об ошибке"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Enable auto retry for this kind of errors"
+msgstr "Включите автоповтор для такого рода ошибок"
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
 msgstr "Показать загрузки"
 
@@ -1399,6 +1451,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Последовательная загрузка"
 
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Remove from list"
+msgstr "Удалить из списка"
+
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
 msgstr "Загрузка завершена"
@@ -1495,11 +1551,11 @@ msgstr "ОК"
 
 msgctxt "EnvTools|"
 msgid "Low battery"
-msgstr ""
+msgstr "Низкий уровень заряда"
 
 msgctxt "EnvTools|"
 msgid "Data roaming disabled"
-msgstr ""
+msgstr "Роуминг данных отключен"
 
 msgctxt "EnvTools|"
 msgid "No Internet connection"
@@ -1627,15 +1683,15 @@ msgstr "Проверка целостности файлов"
 
 msgctxt "FileIntegrityPage|"
 msgid "MD5"
-msgstr ""
+msgstr "MD5"
 
 msgctxt "FileIntegrityPage|"
 msgid "SHA-1"
-msgstr ""
+msgstr "SHA-1"
 
 msgctxt "FileIntegrityPage|"
 msgid "SHA-256"
-msgstr ""
+msgstr "SHA-256"
 
 msgctxt "FileIntegrityPage|"
 msgid "Hash"
@@ -1929,6 +1985,16 @@ msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "Используется мобильный Интернет"
 
+msgctxt "GeneralSettings|"
+msgid "Allow data roaming"
+msgstr "Разрешить роуминг данных"
+
+msgctxt "GeneralSettings|"
+msgid "Using mobile data while roaming may result in additional charges."
+msgstr ""
+"За использование сотовых данных в роуминге может взиматься дополнительная "
+"плата."
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Статус"
@@ -1999,15 +2065,15 @@ msgstr "Прогресс:"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
-msgstr ""
+msgstr "MD5"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-1"
-msgstr ""
+msgstr "SHA-1"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
-msgstr ""
+msgstr "SHA-256"
 
 msgctxt "ImportDialog|"
 msgid "Import"
@@ -2146,6 +2212,10 @@ msgid "All"
 msgstr "Все"
 
 msgctxt "MainFiltersBar|"
+msgid "Missing Files"
+msgstr "Файлы отсутствуют"
+
+msgctxt "MainFiltersBar|"
 msgid "Active"
 msgstr "Активные"
 
@@ -2184,6 +2254,10 @@ msgstr "Экспорт настроек"
 msgctxt "MainMenu|"
 msgid "Import settings"
 msgstr "Импорт настроек"
+
+msgctxt "MainMenu|"
+msgid "Add-ons..."
+msgstr "Дополнения..."
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -2290,7 +2364,7 @@ msgstr "Главное меню"
 
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
-msgstr ""
+msgstr "Переключиться на пользовательскую сортировку списка загрузки?"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2326,7 +2400,7 @@ msgstr "Загрузка уже существует"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "URL:"
-msgstr ""
+msgstr "Ссылка:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Path:"
@@ -2606,7 +2680,7 @@ msgstr "HTTP:"
 
 msgctxt "NetworkSettings|"
 msgid ":"
-msgstr ""
+msgstr ":"
 
 msgctxt "NetworkSettings|"
 msgid "HTTPS:"
@@ -2618,7 +2692,7 @@ msgstr "FTP:"
 
 msgctxt "NetworkSettings|"
 msgid "SOCKS5:"
-msgstr ""
+msgstr "SOCKS5:"
 
 msgctxt "NetworkSettings|"
 msgid "Invalid proxy settings"
@@ -2630,19 +2704,19 @@ msgstr "Настройки прокси"
 
 msgctxt "NetworkSettings|"
 msgid "HTTP"
-msgstr ""
+msgstr "HTTP"
 
 msgctxt "NetworkSettings|"
 msgid "HTTPS"
-msgstr ""
+msgstr "HTTPS"
 
 msgctxt "NetworkSettings|"
 msgid "FTP"
-msgstr ""
+msgstr "FTP"
 
 msgctxt "NetworkSettings|"
 msgid "SOCKS5"
-msgstr ""
+msgstr "SOCKS5"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Unlimited"
@@ -2691,6 +2765,166 @@ msgstr "Файлы"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "Соединения"
+
+msgctxt "PluginsDepsInstallerView|"
+msgid "Installed."
+msgstr "Установлено."
+
+msgctxt "PluginsPage|"
+msgid "Recently installed dependency"
+msgstr "Недавно установленная зависимость"
+
+msgctxt "PluginsPage|"
+msgid "Add-ons"
+msgstr "Дополнения"
+
+msgctxt "PluginsPage|"
+msgid "Check for Updates"
+msgstr "Проверить наличие обновлений"
+
+msgctxt "PluginsPage|"
+msgid "Install Add-on From File..."
+msgstr "Установить Дополнение Из Файла..."
+
+msgctxt "PluginsPage|"
+msgid "Update Add-ons Automatically"
+msgstr "Автоматически Обновлять Дополнения"
+
+msgctxt "PluginsPage|"
+msgid "Reset All Add-ons to Update Automatically"
+msgstr "Сбросить Настройки Всех Дополнений для Автоматических Обновлений"
+
+msgctxt "PluginsPage|"
+msgid "Updating installed add-ons..."
+msgstr "Обновление установленных дополнений..."
+
+msgctxt "PluginsPage|"
+msgid "There are no installed add-ons."
+msgstr "Не найдено установленных дополнений."
+
+msgctxt "PluginsPage|"
+msgid "Install add-on from file"
+msgstr "Установить дополнение из файла"
+
+msgctxt "PluginsPage|"
+msgid "Install"
+msgstr "Установить"
+
+msgctxt "PluginsPage|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "PluginsPage|"
+msgid "%1 add-ons files (%2)"
+msgstr "%1 файлы дополнений (%2)"
+
+msgctxt "PluginsPage|"
+msgid "Failed to install add-on"
+msgstr "Не удалось установить дополнение"
+
+msgctxt "PluginsPage|"
+msgid "Warning!"
+msgstr "Внимание!"
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permissions:"
+msgstr "Дополнение запрашивает небезопасные разрешения:"
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permission:"
+msgstr "Дополнение запрашивает небезопасное разрешение:"
+
+msgctxt "PluginsPage|"
+msgid "Please install add-ons from trusted sources only."
+msgstr "Пожалуйста, устанавливайте дополнения только из надежных источников"
+
+msgctxt "PluginsPage|"
+msgid "Would you like to continue the installation?"
+msgstr "Вы хотите продолжить процесс установки?"
+
+msgctxt "PluginsPage|"
+msgid "The following required components are missing:"
+msgstr "Нет следующих необходимых компонентов:"
+
+msgctxt "PluginsPage|"
+msgid "%1 is required."
+msgstr "%1 требуется"
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install them?"
+msgstr "Вы хотите установить их?"
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install it?"
+msgstr "Вы хотите установить его?"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Failed to update add-on"
+msgstr "Не удалось обновить дополнение"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Warning!"
+msgstr "Внимание!"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permissions:"
+msgstr "Новая версия %1 дополнения запрашивает небезопасные разрешения:"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permission:"
+msgstr "Новая версия %1 дополнение запрашивает небезопасное разрешение"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Please install add-ons from trusted sources only."
+msgstr "Пожалуйста, устанавливайте дополнения только из надежных источников"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to continue the installation?"
+msgstr "Вы хотите продолжить процесс установки?"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid ""
+"New version of %1 add-on requires additional components:\n"
+"%2"
+msgstr ""
+"Новая версия %1 дополнения требует наличие дополнительных компонентов:\n"
+"%2"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requires %2."
+msgstr "Новая версия %1 дополнения требует %2."
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install them?"
+msgstr "Вы хотите установить их?"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install it?"
+msgstr "Вы хотите установить его?"
+
+msgctxt "PluginsViewItem|"
+msgid "Allow Automatic Updates"
+msgstr "Разрешить Автоматические Обновления"
+
+msgctxt "PluginsViewItem|"
+msgid "Check for Updates"
+msgstr "Проверить Наличие Обновлений"
+
+msgctxt "PluginsViewItem|"
+msgid "Remove"
+msgstr "Удалить"
+
+msgctxt "PluginsViewItem|"
+msgid "Updating..."
+msgstr "Обновление..."
+
+msgctxt "PluginsViewItem|"
+msgid "Version: %1"
+msgstr "Версия: %1"
+
+msgctxt "PluginsViewItem|"
+msgid "OK to remove?"
+msgstr "Удалить?"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
@@ -2811,23 +3045,23 @@ msgstr "Выход"
 
 msgctxt "QObject|"
 msgid "%1 B"
-msgstr ""
+msgstr "%1 Б"
 
 msgctxt "QObject|"
 msgid "%1 KB"
-msgstr ""
+msgstr "%1 КБ"
 
 msgctxt "QObject|"
 msgid "%1 MB"
-msgstr ""
+msgstr "%1 МБ"
 
 msgctxt "QObject|"
 msgid "%1 GB"
-msgstr ""
+msgstr "%1 ГБ"
 
 msgctxt "QObject|"
 msgid "%1 TB"
-msgstr ""
+msgstr "%1 ТБ"
 
 msgctxt "QObject|"
 msgid "%1 K"
@@ -2839,11 +3073,11 @@ msgstr "%1 M"
 
 msgctxt "QObject|"
 msgid "%1 G"
-msgstr ""
+msgstr "%1 Г"
 
 msgctxt "QObject|"
 msgid "%1 T"
-msgstr ""
+msgstr "%1 Т"
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3031,7 +3265,7 @@ msgstr "Слишком большие поля заголовка запроса
 
 msgctxt "QObject|"
 msgid "Login Timeout"
-msgstr ""
+msgstr "Таймаут Входа"
 
 msgctxt "QObject|"
 msgid "No Response"
@@ -3099,27 +3333,27 @@ msgstr "HTTP не поддерживается"
 
 msgctxt "QObject|"
 msgid "Variant Also Negotiates"
-msgstr ""
+msgstr "Вариант Также Обсуждается"
 
 msgctxt "QObject|"
 msgid "Insufficient Storage"
-msgstr ""
+msgstr "Недостаточно Памяти"
 
 msgctxt "QObject|"
 msgid "Loop Detected"
-msgstr ""
+msgstr "Зацикливание"
 
 msgctxt "QObject|"
 msgid "Bandwidth Limit Exceeded"
-msgstr ""
+msgstr "Превышена Пропускная Способность"
 
 msgctxt "QObject|"
 msgid "Not Extended"
-msgstr ""
+msgstr "Не Расширено"
 
 msgctxt "QObject|"
 msgid "Network Authentication Required"
-msgstr ""
+msgstr "Требуется Сетевая Аутентификация"
 
 msgctxt "QObject|"
 msgid "Network read timeout error"
@@ -3143,7 +3377,7 @@ msgstr "Неподдерживаемый формат"
 
 msgctxt "QObject|"
 msgid "Host not found"
-msgstr ""
+msgstr "Хост не найден"
 
 msgctxt "QObject|"
 msgid "Operation canceled"
@@ -3155,11 +3389,11 @@ msgstr "Соединение закрыто"
 
 msgctxt "QObject|"
 msgid "Timed out"
-msgstr ""
+msgstr "Время истекло"
 
 msgctxt "QObject|"
 msgid "SSL handshake failed"
-msgstr ""
+msgstr "Не удалось рукопожатие SSL"
 
 msgctxt "QObject|"
 msgid "Connection refused"
@@ -3175,19 +3409,19 @@ msgstr "Недопустимая операция"
 
 msgctxt "QObject|"
 msgid "No resume support"
-msgstr ""
+msgstr "Нет поддержки по продолжению загрузки"
 
 msgctxt "QObject|"
 msgid "Resource changed"
-msgstr ""
+msgstr "Ресурс изменен"
 
 msgctxt "QObject|"
 msgid "Resource changed on server"
-msgstr ""
+msgstr "Ресурс изменен на сервере"
 
 msgctxt "QObject|"
 msgid "Fast resume failure"
-msgstr ""
+msgstr "Сбой быстрого продолжения загрузки"
 
 msgctxt "QObject|"
 msgid "Can't process page"
@@ -3211,51 +3445,24 @@ msgstr "Не удалось удалить текущую версию"
 
 msgctxt "QObject|"
 msgid "hdiutil error %1"
-msgstr ""
+msgstr "ошибка hdiutil %1"
 
 msgctxt "QObject|"
 msgid "Mount point does not exist"
-msgstr ""
+msgstr "Точка монтирования отсутствует"
 
-msgctxt "QObject|"
-msgid "Path to the dump folder."
-msgstr ""
 
-msgctxt "QObject|"
-msgid "Url to upload dumps to."
-msgstr ""
 
-msgctxt "QObject|"
-msgid "Path to the crashed app that can be restarted."
-msgstr ""
 
-msgctxt "QObject|"
-msgid "Name of the crashed application."
-msgstr ""
 
-msgctxt "QObject|"
-msgid "Version of the application."
-msgstr ""
 
-msgctxt "QObject|"
-msgid "Architecture."
-msgstr ""
 
-msgctxt "QObject|"
-msgid "User's operating system."
-msgstr ""
 
-msgctxt "QObject|"
-msgid "Fault module name."
-msgstr ""
 
-msgctxt "QObject|"
-msgid "Crash address."
-msgstr ""
 
 msgctxt "QObject|"
 msgid "Signature check failure."
-msgstr ""
+msgstr "Ошибка проверки подписи."
 
 msgctxt "QObject|"
 msgid "Download with %1"
@@ -3297,7 +3504,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
-msgstr ""
+msgstr "Неустранимая ошибка: не удалось загрузить базу данных."
 
 msgctxt "QObject|"
 msgid ""
@@ -3336,6 +3543,102 @@ msgstr "Разное"
 msgctxt "QObject|"
 msgid "upload paused"
 msgstr "раздача приостановлена"
+
+msgctxt "QObject|"
+msgid "PAUSE ALL"
+msgstr "ОСТАНОВИТЬ ВСЕ"
+
+msgctxt "QObject|"
+msgid "Downloading..."
+msgstr "Идет загрузка..."
+
+msgctxt "QObject|"
+msgid "DISABLE SNAIL MODE"
+msgstr "ОТКЛЮЧИТЬ РЕЖИМ УЛИТКИ"
+
+msgctxt "QObject|"
+msgid "SNAIL MODE"
+msgstr "РЕЖИМ УЛИТКИ"
+
+msgctxt "QObject|"
+msgid "YouTube downloads are not available"
+msgstr "Загрузки с YouTube недоступны"
+
+msgctxt "QObject|"
+msgid "%1 of unknown at %2"
+msgstr "%1 от неизвестного в %2"
+
+msgctxt "QObject|"
+msgid "%1 of %2 at %3"
+msgstr "%1 от %2 в %3"
+
+msgctxt "QObject|"
+msgid "%1 %2 or higher"
+msgstr "%1 %2 или выше"
+
+msgctxt "QObject|"
+msgid "Launch Python code"
+msgstr "Запустить код Python"
+
+msgctxt "QObject|"
+msgid "Allows to execute arbitrary code."
+msgstr "Позволяет выполнять произвольный код."
+
+msgctxt "QObject|"
+msgid "Installing..."
+msgstr "Установка..."
+
+msgctxt "QObject|"
+msgid "Uninstalling..."
+msgstr "Удаление..."
+
+msgctxt "QObject|"
+msgid "Missing components"
+msgstr "Недостающие компоненты"
+
+msgctxt "QObject|"
+msgid "%1 are required"
+msgstr "%1 необходимы"
+
+msgctxt "QObject|"
+msgid "%1 is required"
+msgstr "%1 необходим"
+
+msgctxt "QObject|"
+msgid "Failed to load"
+msgstr "Ошибка загрузки"
+
+msgctxt "QObject|"
+msgid "Playlist"
+msgstr "Плейлист"
+
+msgctxt "QuaGzipFile|"
+msgid "QIODevice::Append is not supported for GZIP"
+msgstr "QIODevice::Append не поддерживается для GZIP"
+
+msgctxt "QuaGzipFile|"
+msgid "Opening gzip for both reading and writing is not supported"
+msgstr "Открытие файлов gzip для чтения и написания не поддерживается"
+
+msgctxt "QuaGzipFile|"
+msgid "You can open a gzip either for reading or for writing. Which is it?"
+msgstr "Можно открыть файлы gzip для чтения или письма. Что выбрать?"
+
+msgctxt "QuaGzipFile|"
+msgid "Could not gzopen() file"
+msgstr "Операция gzopen() для файла не может быть выполнена"
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::Append is not supported for QuaZIODevice"
+msgstr "QIODevice::Append не поддерживается для QuaZIODevice"
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
+msgstr "QIODevice::ReadWrite не поддерживается для QuaZIODevice"
+
+msgctxt "QuaZipFile|"
+msgid "ZIP/UNZIP API error %1"
+msgstr "Ошибка ZIP/UNZIP API %1"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
@@ -3652,7 +3955,7 @@ msgstr "Отменить"
 
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
-msgstr ""
+msgstr "ОК (%1)"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be put to Sleep mode."
@@ -3704,11 +4007,11 @@ msgstr "\"Отпечатки пальцев\" сертификата"
 
 msgctxt "SslDialog|"
 msgid "SHA-256:"
-msgstr ""
+msgstr "SHA-256:"
 
 msgctxt "SslDialog|"
 msgid "SHA1:"
-msgstr ""
+msgstr "SHA1:"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"

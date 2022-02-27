@@ -7,13 +7,6 @@ msgstr ""
 "X-Language: bg_BG\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: bg_BG\n"
-"X-Generator: Poedit 3.0\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -132,12 +125,20 @@ msgid "Launch at startup (minimized)"
 msgstr "Старт при зареждане на ОС (минимизиран)"
 
 msgctxt "AdvancedSettings|"
+msgid "Show special offers"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "Интерфейс"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Показване/скриване на долен панел при натискане върху изтегляния файл"
+
+msgctxt "AdvancedSettings|"
+msgid "Indicate active download and upload using tray icon"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Restore hidden state when finished adding new downloads"
@@ -299,6 +300,10 @@ msgstr "Конвертиране на файлове в mp4 (%1)."
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Сливане на медийни потоци (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Deleting files."
+msgstr ""
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -798,6 +803,38 @@ msgstr "Порт"
 msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "Брой връзки"
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Destination files already exists"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Overwrite All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Rename All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Skip All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Abort"
+msgstr "Относно"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Failed to convert"
+msgstr ""
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Convert failed"
+msgstr ""
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
@@ -1301,6 +1338,10 @@ msgid "Report problem"
 msgstr "Докладвайте проблем"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Enable auto retry for this kind of errors"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
 msgstr "Покажи изтегляния"
 
@@ -1407,6 +1448,10 @@ msgstr "Файлове"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Последователно изтегляне"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Remove from list"
+msgstr "Премахни от списъка"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -1596,7 +1641,7 @@ msgstr "Отказ"
 
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
-msgstr "%1 настройки файлове (%2)"
+msgstr "%1 файлове с настройки (%2)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
@@ -1938,6 +1983,14 @@ msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "Използване на мобилна мрежа"
 
+msgctxt "GeneralSettings|"
+msgid "Allow data roaming"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Using mobile data while roaming may result in additional charges."
+msgstr ""
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Статус"
@@ -2076,7 +2129,7 @@ msgstr "Не може да се внесе от файла: %1"
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
-msgstr "Настроване по подразбиране"
+msgstr "Настройване по подразбиране"
 
 msgctxt "IntegrationBanner|"
 msgid "Don't ask again"
@@ -2155,6 +2208,10 @@ msgid "All"
 msgstr "Всички"
 
 msgctxt "MainFiltersBar|"
+msgid "Missing Files"
+msgstr "Липсващи файлове"
+
+msgctxt "MainFiltersBar|"
 msgid "Active"
 msgstr "Активни"
 
@@ -2193,6 +2250,10 @@ msgstr "Настройки за изнасяне"
 msgctxt "MainMenu|"
 msgid "Import settings"
 msgstr "Настройки за внасяне"
+
+msgctxt "MainMenu|"
+msgid "Add-ons..."
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -2701,6 +2762,164 @@ msgstr "Файлове"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "Връзки"
+
+msgctxt "PluginsDepsInstallerView|"
+msgid "Installed."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Recently installed dependency"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-ons"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Check for Updates"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install Add-on From File..."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Update Add-ons Automatically"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Reset All Add-ons to Update Automatically"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Updating installed add-ons..."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "There are no installed add-ons."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install add-on from file"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Cancel"
+msgstr "Отказ"
+
+msgctxt "PluginsPage|"
+msgid "%1 add-ons files (%2)"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Failed to install add-on"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Warning!"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permissions:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permission:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Please install add-ons from trusted sources only."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to continue the installation?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "The following required components are missing:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "%1 is required."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install them?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install it?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Failed to update add-on"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Warning!"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permissions:"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permission:"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Please install add-ons from trusted sources only."
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to continue the installation?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid ""
+"New version of %1 add-on requires additional components:\n"
+"%2"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requires %2."
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install them?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install it?"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Allow Automatic Updates"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Check for Updates"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Remove"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Updating..."
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Version: %1"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "OK to remove?"
+msgstr ""
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
@@ -3227,41 +3446,14 @@ msgctxt "QObject|"
 msgid "Mount point does not exist"
 msgstr "Точката на монтиране не съществува"
 
-msgctxt "QObject|"
-msgid "Path to the dump folder."
-msgstr "Път до папката за дъмп."
 
-msgctxt "QObject|"
-msgid "Url to upload dumps to."
-msgstr "URL за качване на дъмпове."
 
-msgctxt "QObject|"
-msgid "Path to the crashed app that can be restarted."
-msgstr "Път до забилото приложение което може да се рестартира."
 
-msgctxt "QObject|"
-msgid "Name of the crashed application."
-msgstr "Име на забилата програма."
 
-msgctxt "QObject|"
-msgid "Version of the application."
-msgstr "Версия на приложението."
 
-msgctxt "QObject|"
-msgid "Architecture."
-msgstr "Архитектура."
 
-msgctxt "QObject|"
-msgid "User's operating system."
-msgstr "ОС на потребителя."
 
-msgctxt "QObject|"
-msgid "Fault module name."
-msgstr "Име на забилия модул."
 
-msgctxt "QObject|"
-msgid "Crash address."
-msgstr "Адрес на грешката."
 
 msgctxt "QObject|"
 msgid "Signature check failure."
@@ -3348,6 +3540,102 @@ msgstr "Разни"
 msgctxt "QObject|"
 msgid "upload paused"
 msgstr "качването е поставено на пауза"
+
+msgctxt "QObject|"
+msgid "PAUSE ALL"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloading..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "DISABLE SNAIL MODE"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "SNAIL MODE"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "YouTube downloads are not available"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 of unknown at %2"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 of %2 at %3"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 %2 or higher"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Launch Python code"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Allows to execute arbitrary code."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Installing..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Uninstalling..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Missing components"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 are required"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 is required"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Failed to load"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Playlist"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "QIODevice::Append is not supported for GZIP"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "Opening gzip for both reading and writing is not supported"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "You can open a gzip either for reading or for writing. Which is it?"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "Could not gzopen() file"
+msgstr ""
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::Append is not supported for QuaZIODevice"
+msgstr ""
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
+msgstr ""
+
+msgctxt "QuaZipFile|"
+msgid "ZIP/UNZIP API error %1"
+msgstr ""
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
@@ -3811,7 +4099,7 @@ msgstr "Промени цвета"
 
 msgctxt "ThemeComboBox|"
 msgid "System"
-msgstr "Система"
+msgstr "Системна"
 
 msgctxt "ThemeComboBox|"
 msgid "Light"

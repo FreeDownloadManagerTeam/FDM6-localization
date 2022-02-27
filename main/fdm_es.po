@@ -7,13 +7,6 @@ msgstr ""
 "X-Language: es\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: es\n"
-"X-Generator: Poedit 3.0\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -121,7 +114,7 @@ msgstr "Administración de energía"
 
 msgctxt "AdvancedSettings|"
 msgid "Don't put your computer to sleep if there is an active download"
-msgstr "No suspender su computadora si hay una descarga activa"
+msgstr "No suspender tu computador si hay una descarga activa"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable sleep mode while running finished downloads"
@@ -137,12 +130,20 @@ msgid "Launch at startup (minimized)"
 msgstr "Abrir al iniciar (minimizado)"
 
 msgctxt "AdvancedSettings|"
+msgid "Show special offers"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "Interfaz"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Abrir/ocultar el panel inferior haciendo clic en la descarga"
+
+msgctxt "AdvancedSettings|"
+msgid "Indicate active download and upload using tray icon"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Restore hidden state when finished adding new downloads"
@@ -230,7 +231,7 @@ msgstr "Elegir tema"
 
 msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Se usará un tema claro si se desconoce el tema del sistema."
+msgstr "Un tema claro se utilizará, si el tema del sistema es desconocido."
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -246,7 +247,7 @@ msgstr "Seleccionar antivirus:"
 
 msgctxt "AntivirusSettings|"
 msgid "Is your antivirus not listed?"
-msgstr "¿Su antivirus no está listado?"
+msgstr "¿Tu antivirus no está listado?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -254,7 +255,7 @@ msgstr "Ruta:"
 
 msgctxt "AntivirusSettings|"
 msgid "Please enter antivirus path"
-msgstr "Por favor, ingrese la ruta del antivirus"
+msgstr "Por favor, ingresa la ruta del antivirus"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments:"
@@ -305,6 +306,10 @@ msgstr "Convirtiendo archivos a mp4 (%1)."
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Combinando medios de transmisión (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Deleting files."
+msgstr ""
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -504,7 +509,7 @@ msgstr "No hay marcadores en este momento"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr "¿Está seguro/a de que quiere remover este marcador?"
+msgstr "¿Estás seguro/a de que quieres remover este marcador?"
 
 msgctxt "Browser|"
 msgid "YES"
@@ -547,7 +552,7 @@ msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
 msgstr ""
-"Asegúrese de que tiene la extensión %1 instalada o haga clic en uno de los "
+"Asegúrate de que tienes la extensión %1 instalada o haz clic en uno de los "
 "botones abajo"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -560,7 +565,7 @@ msgstr "Capturar automáticamente descargas desde los navegadores"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Intercept downloads in your web browser"
-msgstr "Interceptar descargas en su navegador web"
+msgstr "Interceptar descargas en tu navegador web"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Start downloading without confirmation"
@@ -576,7 +581,7 @@ msgstr "Editar lista"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid domain?"
-msgstr "¿Está seguro/a de que este es un dominio válido?"
+msgstr "¿Estás seguro/a de que este es un dominio válido?"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip files with extensions"
@@ -584,7 +589,7 @@ msgstr "Omitir archivos con extensiones"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid file extension?"
-msgstr "¿Está seguro/a de que esta es una extensión de archivo válida?"
+msgstr "¿Estás seguro/a de que esta es una extensión de archivo válida?"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't catch downloads smaller than"
@@ -596,7 +601,7 @@ msgstr "Mbytes"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
-msgstr "Usar navegador si cancela la descarga a través de %1"
+msgstr "Usar navegador si cancelas la descarga a través de %1"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -609,12 +614,12 @@ msgid ""
 "browser does not provide to %1 (or there is no universal way for all "
 "browsers to do this)."
 msgstr ""
-"Está a punto de abrir un navegador web integrado.\n"
+"Estás a punto de abrir un navegador web integrado.\n"
 "\n"
-"Le ayuda a agregar descargas en %1.\n"
+"Te ayuda a agregar descargas en %1.\n"
 "\n"
 "Algunas de ellas (p. ej. descargas de Google Drive) se pueden agregar solo "
-"usando este navegador, porque requieren información adicional que su "
+"usando este navegador, porque requieren información adicional que tu "
 "navegador de sistema Android no proporciona a %1 (o no hay un modo universal "
 "para todos los navegadores para hacer esto)."
 
@@ -700,19 +705,19 @@ msgstr "El proxy %1 requiere un nombre de usuario y contraseña."
 
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
-msgstr "%1 está solicitando su nombre de usuario y contraseña."
+msgstr "%1 está solicitando tu nombre de usuario y contraseña."
 
 msgctxt "BuildDownloadTools|"
 msgid "Querying info. Please wait..."
-msgstr "Consultando información. Por favor, espere..."
+msgstr "Consultando información. Por favor, espera..."
 
 msgctxt "ButtonsBlock|"
 msgid "Please select download link"
-msgstr "Por favor, seleccione el enlace de descarga"
+msgstr "Por favor, selecciona el enlace de descarga"
 
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
-msgstr "No se puede seleccionar más de %1 enlaces a la vez"
+msgstr "No puedes seleccionar más de %1 enlaces a la vez"
 
 msgctxt "ButtonsBlock|"
 msgid "No write access to the selected directory"
@@ -806,6 +811,38 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "Número de conexiones"
 
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Destination files already exists"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Overwrite All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Rename All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Skip All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Abort"
+msgstr "Abortar"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Failed to convert"
+msgstr ""
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "OK"
+msgstr ""
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Convert failed"
+msgstr ""
+
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "Copiar enlace"
@@ -816,13 +853,13 @@ msgstr "Copiar"
 
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
-msgstr "¿Está seguro/a de que quiere salir?"
+msgstr "¿Estás seguro/a de que quieres salir?"
 
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr ""
-"Ocurrió un error interno.<br>%1 necesita reiniciarse para su uso posterior."
+"Ocurrió un error interno.<br>%1 necesita ser reiniciado para uso posterior."
 
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
@@ -830,7 +867,7 @@ msgstr "Reiniciar %1 automáticamente"
 
 msgctxt "CrashReporter|"
 msgid "Failed to send the report.<br>Check your Internet connection."
-msgstr "Error al enviar el reporte.<br>Compruebe su conexión a Internet."
+msgstr "Error al enviar el reporte.<br>Comprueba tu conexión a Internet."
 
 msgctxt "CrashReporter|"
 msgid "Error"
@@ -857,19 +894,19 @@ msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
 msgstr ""
-"Se puede usar la versión portable de %1 en diferentes computadoras sin "
-"necesidad de instalarla y configurarla en cada una de ellas."
+"La versión portable de %1 se puede usar en diferentes computadores sin "
+"necesidad de instalarla y configurarla en cada una de ellos."
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
-msgstr "Puede colocarse cómodamente en una unidad USB, por ejemplo."
+msgstr "Puede ser convenientemente puesta en una unidad USB, por ejemplo."
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
 msgstr ""
-"Especifique aquí la ruta donde quiere crear esta versión. Debería ser una "
+"Especifica aquí la ruta donde quieres crear esta versión. Debe ser una "
 "carpeta en una unidad extraíble."
 
 msgctxt "CreatePortableDialog|"
@@ -882,7 +919,7 @@ msgstr "Cancelar"
 
 msgctxt "CreatePortableDialog|"
 msgid "Please specify the path."
-msgstr "Por favor, especifique la ruta."
+msgstr "Por favor, especifica la ruta."
 
 msgctxt "CreatePortableDialog|"
 msgid "OK"
@@ -990,7 +1027,8 @@ msgstr "Borrar descargas seleccionadas"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Are you sure you want to delete the selected file(s)?"
-msgstr "¿Está seguro/a de que quiere borrar el/los archivo(s) seleccionado(s)?"
+msgstr ""
+"¿Estás seguro/a de que quieres borrar el/los archivo(s) seleccionado(s)?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "OK"
@@ -1313,6 +1351,10 @@ msgid "Report problem"
 msgstr "Reportar problema"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Enable auto retry for this kind of errors"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
 msgstr "Mostrar descargas"
 
@@ -1419,6 +1461,10 @@ msgstr "Archivos"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Descarga secuencial"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Remove from list"
+msgstr "Eliminar de la lista"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -1833,11 +1879,11 @@ msgstr "Integridad del archivo"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
-msgstr "Convertir vídeo a mp3"
+msgstr "Convertir video a mp3"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp4"
-msgstr "Convertir vídeo a mp4"
+msgstr "Convertir video a mp4"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
@@ -1869,11 +1915,11 @@ msgstr "Sugerir carpetas basadas en el tipo de archivo"
 
 msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Se usará un tema claro si se desconoce el tema del sistema."
+msgstr "Un tema claro se utilizará, si el tema del sistema es desconocido."
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
-msgstr "¿Su idioma no está listado o la traducción no está completa?"
+msgstr "¿Tu idioma no está listado o la traducción no está completa?"
 
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
@@ -1885,7 +1931,7 @@ msgstr "Carpeta de descarga predeterminada"
 
 msgctxt "GeneralSettings|"
 msgid "Choose default download folder automatically"
-msgstr "Elegir carpeta de descarga automáticamente"
+msgstr "Elegir carpeta de descarga predeterminada automáticamente"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
@@ -1952,6 +1998,14 @@ msgstr "Instalar actualizaciones automáticamente"
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "Usar red móvil"
+
+msgctxt "GeneralSettings|"
+msgid "Allow data roaming"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Using mobile data while roaming may result in additional charges."
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Status"
@@ -2170,6 +2224,10 @@ msgid "All"
 msgstr "Todo"
 
 msgctxt "MainFiltersBar|"
+msgid "Missing Files"
+msgstr "Archivos faltantes"
+
+msgctxt "MainFiltersBar|"
 msgid "Active"
 msgstr "Activa"
 
@@ -2210,6 +2268,10 @@ msgid "Import settings"
 msgstr "Importar ajustes"
 
 msgctxt "MainMenu|"
+msgid "Add-ons..."
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "Preferences..."
 msgstr "Preferencias..."
 
@@ -2243,7 +2305,7 @@ msgstr "Comprobar actualizaciones..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
-msgstr "Únase al mosaico..."
+msgstr "Únete al mosaico..."
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -2682,7 +2744,7 @@ msgstr "KB/s"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Please enter numbers only"
-msgstr "Por favor, ingrese solo números"
+msgstr "Por favor, ingresa solo números"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom value"
@@ -2716,13 +2778,171 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Conexiones"
 
+msgctxt "PluginsDepsInstallerView|"
+msgid "Installed."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Recently installed dependency"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-ons"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Check for Updates"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install Add-on From File..."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Update Add-ons Automatically"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Reset All Add-ons to Update Automatically"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Updating installed add-ons..."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "There are no installed add-ons."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install add-on from file"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "PluginsPage|"
+msgid "%1 add-ons files (%2)"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Failed to install add-on"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Warning!"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permissions:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permission:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Please install add-ons from trusted sources only."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to continue the installation?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "The following required components are missing:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "%1 is required."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install them?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install it?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Failed to update add-on"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Warning!"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permissions:"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permission:"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Please install add-ons from trusted sources only."
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to continue the installation?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid ""
+"New version of %1 add-on requires additional components:\n"
+"%2"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requires %2."
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install them?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install it?"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Allow Automatic Updates"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Check for Updates"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Remove"
+msgstr "Eliminar"
+
+msgctxt "PluginsViewItem|"
+msgid "Updating..."
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Version: %1"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "OK to remove?"
+msgstr ""
+
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
 msgstr "Audio"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Video"
-msgstr "Vídeo"
+msgstr "Video"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Lowest"
@@ -3020,7 +3240,7 @@ msgstr "Tiempo de espera de autenticación"
 
 msgctxt "QObject|"
 msgid "Method Failure / Enhance Your Calm"
-msgstr "Error de método / Mejore su calma"
+msgstr "Error de método / Mejore tu calma"
 
 msgctxt "QObject|"
 msgid "Unprocessable Entity"
@@ -3242,41 +3462,14 @@ msgctxt "QObject|"
 msgid "Mount point does not exist"
 msgstr "Punto de montaje no existe"
 
-msgctxt "QObject|"
-msgid "Path to the dump folder."
-msgstr "Ruta a la carpeta de volcado."
 
-msgctxt "QObject|"
-msgid "Url to upload dumps to."
-msgstr "URL para subir volcados."
 
-msgctxt "QObject|"
-msgid "Path to the crashed app that can be restarted."
-msgstr "Ruta de la aplicación bloqueada que se puede reiniciar."
 
-msgctxt "QObject|"
-msgid "Name of the crashed application."
-msgstr "Nombre de la aplicación bloqueada."
 
-msgctxt "QObject|"
-msgid "Version of the application."
-msgstr "Versión de la aplicación."
 
-msgctxt "QObject|"
-msgid "Architecture."
-msgstr "Arquitectura."
 
-msgctxt "QObject|"
-msgid "User's operating system."
-msgstr "Sistema operativo del usuario."
 
-msgctxt "QObject|"
-msgid "Fault module name."
-msgstr "Nombre del módulo con errores."
 
-msgctxt "QObject|"
-msgid "Crash address."
-msgstr "Dirección del bloqueo."
 
 msgctxt "QObject|"
 msgid "Signature check failure."
@@ -3318,7 +3511,7 @@ msgid ""
 msgstr ""
 "La lista de descargas está dañada.\n"
 "%1 no ha podido restaurarla desde una copia de seguridad.\n"
-"Por favor, cierre todos sus navegadores web e intente de nuevo."
+"Por favor, cierra todos tus navegadores web e intenta de nuevo."
 
 msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
@@ -3329,7 +3522,7 @@ msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
 msgstr ""
-"¿Quiere borrarlo (esto borrará su lista de descargas y todos los datos de "
+"¿Quieres borrarlo (esto borrará tu lista de descargas y todos los datos de "
 "%1)?"
 
 msgctxt "QObject|"
@@ -3364,9 +3557,105 @@ msgctxt "QObject|"
 msgid "upload paused"
 msgstr "subida pausada"
 
+msgctxt "QObject|"
+msgid "PAUSE ALL"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloading..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "DISABLE SNAIL MODE"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "SNAIL MODE"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "YouTube downloads are not available"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 of unknown at %2"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 of %2 at %3"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 %2 or higher"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Launch Python code"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Allows to execute arbitrary code."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Installing..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Uninstalling..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Missing components"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 are required"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 is required"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Failed to load"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Playlist"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "QIODevice::Append is not supported for GZIP"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "Opening gzip for both reading and writing is not supported"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "You can open a gzip either for reading or for writing. Which is it?"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "Could not gzopen() file"
+msgstr ""
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::Append is not supported for QuaZIODevice"
+msgstr ""
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
+msgstr ""
+
+msgctxt "QuaZipFile|"
+msgid "ZIP/UNZIP API error %1"
+msgstr ""
+
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
-msgstr "¿Está seguro/a de que quiere salir?"
+msgstr "¿Estás seguro/a de que quieres salir?"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "OK"
@@ -3402,7 +3691,7 @@ msgstr "Lo siento, el reporte no ha sido enviado, ocurrió un error: %1"
 
 msgctxt "ReportSentDialog|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr "El reporte ha sido enviado. ¡Gracias por su cooperación!"
+msgstr "El reporte ha sido enviado. ¡Gracias por tu cooperación!"
 
 msgctxt "ReportSentDialog|"
 msgid "OK"
@@ -3659,19 +3948,19 @@ msgstr "Cancelar"
 msgctxt "ShutdownBanner|"
 msgid "Computer will be put to sleep after all downloads are completed."
 msgstr ""
-"La computadora se suspenderá después de que todas las descargas estén "
+"El computador se suspenderá después de que todas las descargas estén "
 "completadas."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be hibernate after all downloads are completed."
 msgstr ""
-"La computadora se hibernará después de que todas las descargas estén "
+"El computador se hibernará después de que todas las descargas estén "
 "completadas."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be shutdown after all downloads are completed."
 msgstr ""
-"La computadora se apagará después de que todas las descargas estén "
+"El computador se apagará después de que todas las descargas estén "
 "completadas."
 
 msgctxt "ShutdownDialog|"
@@ -3688,15 +3977,15 @@ msgstr "Aceptar (%1)"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be put to Sleep mode."
-msgstr "¡Atención! Su computadora se suspenderá."
+msgstr "¡Atención! Tu computador se suspenderá."
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be hibernated."
-msgstr "¡Atención! Su computadora se hibernará."
+msgstr "¡Atención! Tu computador se hibernará."
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
-msgstr "¡Atención! Su computadora se apagará."
+msgstr "¡Atención! Tu computador se apagará."
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
@@ -3927,7 +4216,7 @@ msgstr "Personalizado..."
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Please enter numbers only"
-msgstr "Por favor, ingrese solo números"
+msgstr "Por favor, ingresa solo números"
 
 msgctxt "TumModeBlock|"
 msgid "Download speed"
@@ -4103,7 +4392,7 @@ msgstr "¡Sí, claro!"
 
 msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."
-msgstr "¡Hagámoslo mejor juntos! Envíenos sus comentarios."
+msgstr "¡Hagámoslo mejor juntos! Envíanos tus comentarios."
 
 msgctxt "WaitingPage|"
 msgid "Refresh"
@@ -4127,4 +4416,4 @@ msgstr "Lo siento, el reporte no ha sido enviado, ocurrió un error: %1"
 
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr "El reporte ha sido enviado. ¡Gracias por su cooperación!"
+msgstr "El reporte ha sido enviado. ¡Gracias por tu cooperación!"
