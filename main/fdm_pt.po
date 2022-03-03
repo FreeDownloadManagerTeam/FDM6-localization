@@ -89,6 +89,10 @@ msgid "Notifications"
 msgstr "Notificações"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of added downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
 msgstr "Notificar downloads concluídos pela Central de Notificações"
 
@@ -127,7 +131,7 @@ msgstr "Executar na inicialização (minimizado)"
 
 msgctxt "AdvancedSettings|"
 msgid "Show special offers"
-msgstr ""
+msgstr "Mostrar ofertas especiais"
 
 msgctxt "AdvancedSettings|"
 msgid "Interface"
@@ -139,7 +143,7 @@ msgstr "Abrir/ocultar o painel inferior ao clicar no download"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
-msgstr ""
+msgstr "Indicar download e upload ativos usando o ícone da bandeja"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore hidden state when finished adding new downloads"
@@ -304,7 +308,7 @@ msgstr "Mesclando fluxos de mídia (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
-msgstr ""
+msgstr "Excluindo arquivos."
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -808,19 +812,19 @@ msgstr "Contagem de conexões"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Destination files already exists"
-msgstr ""
+msgstr "Os arquivos de destino já existem"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Overwrite All"
-msgstr ""
+msgstr "Sobrescrever todos"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Rename All"
-msgstr ""
+msgstr "Renomear todos"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Skip All"
-msgstr ""
+msgstr "Pular todos"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Abort"
@@ -828,7 +832,7 @@ msgstr "Abortar"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "Failed to convert"
-msgstr ""
+msgstr "Falha ao converter"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "OK"
@@ -836,7 +840,7 @@ msgstr "OK"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "Convert failed"
-msgstr ""
+msgstr "Falha na conversão"
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
@@ -1344,7 +1348,7 @@ msgstr "Relatar problema"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Enable auto retry for this kind of errors"
-msgstr ""
+msgstr "Ativar a repetição automática para esse tipo de erro"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -1991,11 +1995,12 @@ msgstr "Use rede móvel"
 
 msgctxt "GeneralSettings|"
 msgid "Allow data roaming"
-msgstr ""
+msgstr "Permitir roaming de dados"
 
 msgctxt "GeneralSettings|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
+"O uso de dados móveis em roaming pode resultar em cobranças adicionais."
 
 msgctxt "GeneralTab|"
 msgid "Status"
@@ -2259,7 +2264,7 @@ msgstr "Importar configurações"
 
 msgctxt "MainMenu|"
 msgid "Add-ons..."
-msgstr ""
+msgstr "Complementos..."
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -2771,47 +2776,47 @@ msgstr "Conexões"
 
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
-msgstr ""
+msgstr "Instalado."
 
 msgctxt "PluginsPage|"
 msgid "Recently installed dependency"
-msgstr ""
+msgstr "Dependência instalada recentemente"
 
 msgctxt "PluginsPage|"
 msgid "Add-ons"
-msgstr ""
+msgstr "Complementos"
 
 msgctxt "PluginsPage|"
 msgid "Check for Updates"
-msgstr ""
+msgstr "Verificar atualizações"
 
 msgctxt "PluginsPage|"
 msgid "Install Add-on From File..."
-msgstr ""
+msgstr "Instalar complemento do arquivo..."
 
 msgctxt "PluginsPage|"
 msgid "Update Add-ons Automatically"
-msgstr ""
+msgstr "Atualizar complementos automaticamente"
 
 msgctxt "PluginsPage|"
 msgid "Reset All Add-ons to Update Automatically"
-msgstr ""
+msgstr "Redefinir todos os complementos para atualizar automaticamente"
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
-msgstr ""
+msgstr "Atualizando complementos instalados..."
 
 msgctxt "PluginsPage|"
 msgid "There are no installed add-ons."
-msgstr ""
+msgstr "Não há complementos instalados."
 
 msgctxt "PluginsPage|"
 msgid "Install add-on from file"
-msgstr ""
+msgstr "Instalar complemento do arquivo"
 
 msgctxt "PluginsPage|"
 msgid "Install"
-msgstr ""
+msgstr "Instalar"
 
 msgctxt "PluginsPage|"
 msgid "Cancel"
@@ -2819,97 +2824,99 @@ msgstr "Cancelar"
 
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files (%2)"
-msgstr ""
+msgstr "Arquivos de complementos do %1 (%2)"
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
-msgstr ""
+msgstr "Falha ao instalar o complemento"
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
-msgstr ""
+msgstr "Aviso!"
 
 msgctxt "PluginsPage|"
 msgid "Add-on requests dangerous permissions:"
-msgstr ""
+msgstr "O complemento solicita permissões perigosas:"
 
 msgctxt "PluginsPage|"
 msgid "Add-on requests dangerous permission:"
-msgstr ""
+msgstr "O complemento solicita permissão perigosa:"
 
 msgctxt "PluginsPage|"
 msgid "Please install add-ons from trusted sources only."
-msgstr ""
+msgstr "Instale complementos apenas de fontes confiáveis."
 
 msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
-msgstr ""
+msgstr "Deseja continuar a instalação?"
 
 msgctxt "PluginsPage|"
 msgid "The following required components are missing:"
-msgstr ""
+msgstr "Os seguintes componentes necessários estão ausentes:"
 
 msgctxt "PluginsPage|"
 msgid "%1 is required."
-msgstr ""
+msgstr "%1 é necessário."
 
 msgctxt "PluginsPage|"
 msgid "Would you like to install them?"
-msgstr ""
+msgstr "Deseja instalá-los?"
 
 msgctxt "PluginsPage|"
 msgid "Would you like to install it?"
-msgstr ""
+msgstr "Deseja instalá-lo?"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
-msgstr ""
+msgstr "Falha ao atualizar o complemento"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
-msgstr ""
+msgstr "Aviso!"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
-msgstr ""
+msgstr "A nova versão do complemento %1 solicita permissões perigosas:"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
-msgstr ""
+msgstr "A nova versão do complemento %1 solicita permissão perigosa:"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Please install add-ons from trusted sources only."
-msgstr ""
+msgstr "Instale complementos apenas de fontes confiáveis."
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
-msgstr ""
+msgstr "Deseja continuar a instalação?"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid ""
 "New version of %1 add-on requires additional components:\n"
 "%2"
 msgstr ""
+"A nova versão do complemento %1 requer componentes adicionais:\n"
+"%2"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requires %2."
-msgstr ""
+msgstr "A nova versão do complemento %1 requer %2."
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to install them?"
-msgstr ""
+msgstr "Deseja instalá-los?"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to install it?"
-msgstr ""
+msgstr "Deseja instalá-lo?"
 
 msgctxt "PluginsViewItem|"
 msgid "Allow Automatic Updates"
-msgstr ""
+msgstr "Permitir atualizações automáticas"
 
 msgctxt "PluginsViewItem|"
 msgid "Check for Updates"
-msgstr ""
+msgstr "Verificar atualizações"
 
 msgctxt "PluginsViewItem|"
 msgid "Remove"
@@ -2917,15 +2924,15 @@ msgstr "Remover"
 
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
-msgstr ""
+msgstr "Atualizando..."
 
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
-msgstr ""
+msgstr "Versão: %1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
-msgstr ""
+msgstr "OK para remover?"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
@@ -3275,7 +3282,7 @@ msgstr "Sem Resposta"
 
 msgctxt "QObject|"
 msgid "Retry With"
-msgstr "Repetir Com"
+msgstr "Repetir com"
 
 msgctxt "QObject|"
 msgid "Blocked by Windows Parental Controls"
@@ -3453,15 +3460,6 @@ msgctxt "QObject|"
 msgid "Mount point does not exist"
 msgstr "Ponto de montagem não existe"
 
-
-
-
-
-
-
-
-
-
 msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr "Falha no checagem de assinatura."
@@ -3549,99 +3547,99 @@ msgstr "upload pausado"
 
 msgctxt "QObject|"
 msgid "PAUSE ALL"
-msgstr ""
+msgstr "PAUSAR TODOS"
 
 msgctxt "QObject|"
 msgid "Downloading..."
-msgstr ""
+msgstr "Baixando..."
 
 msgctxt "QObject|"
 msgid "DISABLE SNAIL MODE"
-msgstr ""
+msgstr "DESATIVAR MODO CARACOL"
 
 msgctxt "QObject|"
 msgid "SNAIL MODE"
-msgstr ""
+msgstr "MODO CARACOL"
 
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
-msgstr ""
+msgstr "Os downloads do YouTube não estão disponíveis"
 
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
-msgstr ""
+msgstr "%1 de desconhecido em %2"
 
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
-msgstr ""
+msgstr "%1 de %2 em %3"
 
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
-msgstr ""
+msgstr "%1 %2 ou superior"
 
 msgctxt "QObject|"
 msgid "Launch Python code"
-msgstr ""
+msgstr "Iniciar código Python"
 
 msgctxt "QObject|"
 msgid "Allows to execute arbitrary code."
-msgstr ""
+msgstr "Permitir executar código arbritário"
 
 msgctxt "QObject|"
 msgid "Installing..."
-msgstr ""
+msgstr "Instalando..."
 
 msgctxt "QObject|"
 msgid "Uninstalling..."
-msgstr ""
+msgstr "Desinstalando..."
 
 msgctxt "QObject|"
 msgid "Missing components"
-msgstr ""
+msgstr "Componentes ausentes"
 
 msgctxt "QObject|"
 msgid "%1 are required"
-msgstr ""
+msgstr "%1 são necessários"
 
 msgctxt "QObject|"
 msgid "%1 is required"
-msgstr ""
+msgstr "%1 é necessário"
 
 msgctxt "QObject|"
 msgid "Failed to load"
-msgstr ""
+msgstr "Falha ao carregar"
 
 msgctxt "QObject|"
 msgid "Playlist"
-msgstr ""
+msgstr "Lista de reprodução"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
-msgstr ""
+msgstr "QIODevice::Append não é compatível com GZIP"
 
 msgctxt "QuaGzipFile|"
 msgid "Opening gzip for both reading and writing is not supported"
-msgstr ""
+msgstr "A abertura de gzip para leitura e escrita não é suportada "
 
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr ""
+msgstr "Você pode abrir um gzip para ler ou escrever. Qual é?"
 
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr ""
+msgstr "Não foi possível arquivo gzopen()"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::Append não é compatível com QuaZIODevice"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::ReadWrite não é compatível com QuaZIODevice"
 
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr ""
+msgstr "Erro de API ZIP/UNZIP %1"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"

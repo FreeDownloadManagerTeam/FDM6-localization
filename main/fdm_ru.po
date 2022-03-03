@@ -82,11 +82,15 @@ msgstr "Добавить тег"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced"
-msgstr "Дополнительно"
+msgstr "Дополнительные настройки"
 
 msgctxt "AdvancedSettings|"
 msgid "Notifications"
 msgstr "Уведомления"
+
+msgctxt "AdvancedSettings|"
+msgid "Notify me of added downloads via Notification Center"
+msgstr "Оповещать меня о добавленных загрузках через Центр Уведомлений"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
@@ -146,11 +150,11 @@ msgstr "Скрывать после добавления новых загруз
 
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
-msgstr "Вернуться к настройкам по умолчанию"
+msgstr "Восстановление настроек по умолчанию"
 
 msgctxt "AdvancedSettings|"
 msgid "Reset"
-msgstr "Перезапустить"
+msgstr "Сбросить настройки"
 
 msgctxt "AdvancedSettings|"
 msgid "Default settings"
@@ -158,7 +162,7 @@ msgstr "Настройки по умолчанию"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore default settings?"
-msgstr "Восстановить настройки по умолчанию?"
+msgstr "Сбросить настройки?"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -2784,15 +2788,15 @@ msgstr "Проверить наличие обновлений"
 
 msgctxt "PluginsPage|"
 msgid "Install Add-on From File..."
-msgstr "Установить Дополнение Из Файла..."
+msgstr "Установить дополнение из файла..."
 
 msgctxt "PluginsPage|"
 msgid "Update Add-ons Automatically"
-msgstr "Автоматически Обновлять Дополнения"
+msgstr "Автоматически обновлять дополнения"
 
 msgctxt "PluginsPage|"
 msgid "Reset All Add-ons to Update Automatically"
-msgstr "Сбросить Настройки Всех Дополнений для Автоматических Обновлений"
+msgstr "Сбросить настройки всех дополнений для автообновления"
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
@@ -2848,7 +2852,7 @@ msgstr "Нет следующих необходимых компонентов:
 
 msgctxt "PluginsPage|"
 msgid "%1 is required."
-msgstr "%1 требуется"
+msgstr "%1 необходим"
 
 msgctxt "PluginsPage|"
 msgid "Would you like to install them?"
@@ -2872,11 +2876,11 @@ msgstr "Новая версия %1 дополнения запрашивает �
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
-msgstr "Новая версия %1 дополнение запрашивает небезопасное разрешение"
+msgstr "Новая версия %1 дополнение запрашивает небезопасное разрешение:"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Please install add-ons from trusted sources only."
-msgstr "Пожалуйста, устанавливайте дополнения только из надежных источников"
+msgstr "Пожалуйста, устанавливайте дополнения только из надежных источников."
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
@@ -2904,11 +2908,11 @@ msgstr "Вы хотите установить его?"
 
 msgctxt "PluginsViewItem|"
 msgid "Allow Automatic Updates"
-msgstr "Разрешить Автоматические Обновления"
+msgstr "Разрешить автоматические обновления"
 
 msgctxt "PluginsViewItem|"
 msgid "Check for Updates"
-msgstr "Проверить Наличие Обновлений"
+msgstr "Проверить наличие обновлений"
 
 msgctxt "PluginsViewItem|"
 msgid "Remove"
@@ -3451,15 +3455,6 @@ msgctxt "QObject|"
 msgid "Mount point does not exist"
 msgstr "Точка монтирования отсутствует"
 
-
-
-
-
-
-
-
-
-
 msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr "Ошибка проверки подписи."
@@ -3886,7 +3881,7 @@ msgstr "Антивирус"
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
-msgstr "Дополнительно"
+msgstr "Дополнительные"
 
 msgctxt "SettingsPage|"
 msgid "Settings"
