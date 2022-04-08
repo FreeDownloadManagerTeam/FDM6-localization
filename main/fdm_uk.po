@@ -89,6 +89,10 @@ msgid "Notifications"
 msgstr "Повідомлення"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of added downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
 msgstr "Повідомляти про завершені завантаження через Центр Сповіщень"
 
@@ -125,32 +129,40 @@ msgid "Launch at startup (minimized)"
 msgstr "Запуск під час запуску системи (згорнутим)"
 
 msgctxt "AdvancedSettings|"
-msgid "Interface"
+msgid "Show special offers"
 msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Interface"
+msgstr "Інтерфейс"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Показати/сховати нижню панель по кліку на завантаженні"
 
 msgctxt "AdvancedSettings|"
-msgid "Restore hidden state when finished adding new downloads"
+msgid "Indicate active download and upload using tray icon"
 msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Restore hidden state when finished adding new downloads"
+msgstr "Знову приховати після завершення додавання нових завантажень"
 
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
-msgstr ""
+msgstr "Повернутися до налаштувань за замовчуванням"
 
 msgctxt "AdvancedSettings|"
 msgid "Reset"
-msgstr ""
+msgstr "Скинути"
 
 msgctxt "AdvancedSettings|"
 msgid "Default settings"
-msgstr ""
+msgstr "За замовчуванням"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore default settings?"
-msgstr ""
+msgstr "Відновити налаштування за замовчуванням?"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -185,11 +197,11 @@ msgstr "Не дозволяти завантаження при низькому
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
-msgstr ""
+msgstr "Дозволити порядок завантажень користувача"
 
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
-msgstr ""
+msgstr "Показувати кнопку \"Зберегти як...\""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -290,6 +302,10 @@ msgstr "Конвертація файлів у mp4 (%1)."
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Злиття медіапотоків (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Deleting files."
+msgstr ""
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -617,7 +633,7 @@ msgstr "Загальні"
 
 msgctxt "BtSettings|"
 msgid "Monitoring"
-msgstr ""
+msgstr "Моніторинг"
 
 msgctxt "BtSettings|"
 msgid "Open"
@@ -790,6 +806,38 @@ msgstr "Порт"
 msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "Кількість з'єднань"
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Destination files already exists"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Overwrite All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Rename All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Skip All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Abort"
+msgstr "Перервати"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Failed to convert"
+msgstr ""
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Convert failed"
+msgstr ""
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
@@ -1020,29 +1068,32 @@ msgstr "Показати загальну швидкість завантаже�
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Download Failure"
-msgstr ""
+msgstr "Збій завантаження"
 
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Can't resume download. Download link likely expired. Resume attempts failed."
 msgstr ""
+"Неможливо відновити завантаження. Схоже, посилання вже не дійсне. Спроби "
+"відновити невдалі."
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Please try to update the download link to resume."
-msgstr ""
+msgstr "Для відновлення спробуйте обновити посилання."
 
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Go to the website with the original download source and copy the renewed link"
 msgstr ""
+"Перейдіть на сайт з джерелом завантаження і скопіюйте оновлене посилання"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "click here"
-msgstr ""
+msgstr "клацніть тут"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Update download"
-msgstr ""
+msgstr "Оновити завантаження"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Close"
@@ -1291,6 +1342,10 @@ msgstr "Показати у теці"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "Повідомити про проблему"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Enable auto retry for this kind of errors"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -1676,11 +1731,11 @@ msgstr "Ім'я файлу"
 
 msgctxt "FileName|"
 msgid "%1 files (*.%2)"
-msgstr ""
+msgstr "%1 файлів (*.%2)"
 
 msgctxt "FileName|"
 msgid "All files"
-msgstr ""
+msgstr "Всі файли"
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
@@ -1934,6 +1989,14 @@ msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "Використовувати мобільну мережу"
 
+msgctxt "GeneralSettings|"
+msgid "Allow data roaming"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Using mobile data while roaming may result in additional charges."
+msgstr ""
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Статус"
@@ -2152,7 +2215,7 @@ msgstr "Всі"
 
 msgctxt "MainFiltersBar|"
 msgid "Missing Files"
-msgstr ""
+msgstr "Файли, яких нема"
 
 msgctxt "MainFiltersBar|"
 msgid "Active"
@@ -2193,6 +2256,10 @@ msgstr "Експортувати установки"
 msgctxt "MainMenu|"
 msgid "Import settings"
 msgstr "Імпортувати установки"
+
+msgctxt "MainMenu|"
+msgid "Add-ons..."
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -2287,11 +2354,11 @@ msgstr "Перенести до..."
 
 msgctxt "MainToolbar|"
 msgid "Move downloads up"
-msgstr ""
+msgstr "Перемістити завантаження вгору"
 
 msgctxt "MainToolbar|"
 msgid "Move downloads down"
-msgstr ""
+msgstr "Перемістити завантаження вниз"
 
 msgctxt "MainToolbar|"
 msgid "Main menu"
@@ -2299,7 +2366,7 @@ msgstr "Головне меню"
 
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
-msgstr ""
+msgstr "Переключитись на сортування завантажень, визначене користувачем?"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2700,6 +2767,164 @@ msgstr "Файли"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "З'єднання"
+
+msgctxt "PluginsDepsInstallerView|"
+msgid "Installed."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Recently installed dependency"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-ons"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Check for Updates"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install Add-on From File..."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Update Add-ons Automatically"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Reset All Add-ons to Update Automatically"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Updating installed add-ons..."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "There are no installed add-ons."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install add-on from file"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "PluginsPage|"
+msgid "%1 add-ons files (%2)"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Failed to install add-on"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Warning!"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permissions:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permission:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Please install add-ons from trusted sources only."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to continue the installation?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "The following required components are missing:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "%1 is required."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install them?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install it?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Failed to update add-on"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Warning!"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permissions:"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permission:"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Please install add-ons from trusted sources only."
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to continue the installation?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid ""
+"New version of %1 add-on requires additional components:\n"
+"%2"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requires %2."
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install them?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install it?"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Allow Automatic Updates"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Check for Updates"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Remove"
+msgstr "Прибирати"
+
+msgctxt "PluginsViewItem|"
+msgid "Updating..."
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Version: %1"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "OK to remove?"
+msgstr ""
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
@@ -3227,42 +3452,6 @@ msgid "Mount point does not exist"
 msgstr "Точка монтування не існує"
 
 msgctxt "QObject|"
-msgid "Path to the dump folder."
-msgstr "Шлях до теки дампу."
-
-msgctxt "QObject|"
-msgid "Url to upload dumps to."
-msgstr "URL для відвантаження дампу."
-
-msgctxt "QObject|"
-msgid "Path to the crashed app that can be restarted."
-msgstr "Шлях до збійного застосунку, який можна перезапустити."
-
-msgctxt "QObject|"
-msgid "Name of the crashed application."
-msgstr "Ім'я збійного застосунку."
-
-msgctxt "QObject|"
-msgid "Version of the application."
-msgstr "Версія застосунку."
-
-msgctxt "QObject|"
-msgid "Architecture."
-msgstr "Архітектура."
-
-msgctxt "QObject|"
-msgid "User's operating system."
-msgstr "ОС користувача."
-
-msgctxt "QObject|"
-msgid "Fault module name."
-msgstr "Ім'я збійного модуля."
-
-msgctxt "QObject|"
-msgid "Crash address."
-msgstr "Адреса збою."
-
-msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr "Помилка перевірки сигнатури."
 
@@ -3347,6 +3536,102 @@ msgstr "Різне"
 msgctxt "QObject|"
 msgid "upload paused"
 msgstr "вивантаження зупинено"
+
+msgctxt "QObject|"
+msgid "PAUSE ALL"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloading..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "DISABLE SNAIL MODE"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "SNAIL MODE"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "YouTube downloads are not available"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 of unknown at %2"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 of %2 at %3"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 %2 or higher"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Launch Python code"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Allows to execute arbitrary code."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Installing..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Uninstalling..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Missing components"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 are required"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 is required"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Failed to load"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Playlist"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "QIODevice::Append is not supported for GZIP"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "Opening gzip for both reading and writing is not supported"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "You can open a gzip either for reading or for writing. Which is it?"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "Could not gzopen() file"
+msgstr ""
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::Append is not supported for QuaZIODevice"
+msgstr ""
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
+msgstr ""
+
+msgctxt "QuaZipFile|"
+msgid "ZIP/UNZIP API error %1"
+msgstr ""
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
@@ -3622,19 +3907,19 @@ msgstr "Додаткові установки"
 
 msgctxt "SettingsPage|"
 msgid "Go back to default settings"
-msgstr ""
+msgstr "Повернутися до налаштувань за замовчуванням"
 
 msgctxt "SettingsPage|"
 msgid "Reset"
-msgstr ""
+msgstr "Скинути"
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
-msgstr ""
+msgstr "За замовчуванням"
 
 msgctxt "SettingsPage|"
 msgid "Restore default settings?"
-msgstr ""
+msgstr "Відновити налаштування за замовчуванням?"
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -3935,7 +4220,7 @@ msgstr "Змінити обмеження трафіку"
 
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
-msgstr ""
+msgstr "Не може бути більше %1"
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
@@ -3991,7 +4276,7 @@ msgstr "Доступна нова версія"
 
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
-msgstr ""
+msgstr "Що нового в %1"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -4095,7 +4380,7 @@ msgstr "Доступна нова версія"
 
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
-msgstr ""
+msgstr "Що нового в %1"
 
 msgctxt "WhatsNewDialog|"
 msgid "Update"

@@ -89,6 +89,10 @@ msgid "Notifications"
 msgstr "Notifications"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of added downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
 msgstr ""
 "Me signaler les téléchargements complets via le Centre de Notifications"
@@ -129,12 +133,20 @@ msgid "Launch at startup (minimized)"
 msgstr "Lancement au démarrage (minimisé)"
 
 msgctxt "AdvancedSettings|"
+msgid "Show special offers"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Ouvrir/fermer le panneau du bas en cliquant sur le téléchargement"
+
+msgctxt "AdvancedSettings|"
+msgid "Indicate active download and upload using tray icon"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Restore hidden state when finished adding new downloads"
@@ -150,7 +162,7 @@ msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Default settings"
-msgstr ""
+msgstr "Paramètres par défaut"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore default settings?"
@@ -297,6 +309,10 @@ msgstr "Conversion des fichiers en mp4 (%1)."
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Fusionnement des flux de média (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Deleting files."
+msgstr ""
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -799,6 +815,38 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "Nombre de connexion"
 
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Destination files already exists"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Overwrite All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Rename All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Skip All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Abort"
+msgstr "Abandonner"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Failed to convert"
+msgstr ""
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Convert failed"
+msgstr ""
+
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "Copier le lien"
@@ -1233,7 +1281,7 @@ msgstr "Choisir automatiquement un dossier de téléchargement par défaut"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on file type"
-msgstr "Proposer des dossier basés sur le type de fichier"
+msgstr "Proposer des dossiers basés sur le type de fichier"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on download URL"
@@ -1306,6 +1354,10 @@ msgstr "Afficher dans un dossier"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "Signaler un problème"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Enable auto retry for this kind of errors"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -1684,7 +1736,7 @@ msgstr "Aucun gestionnaire de fichiers pris en charge trouvé."
 
 msgctxt "FileName|"
 msgid "Create subfolder"
-msgstr "Créer sous-dossier"
+msgstr "Créer un sous-dossier"
 
 msgctxt "FileName|"
 msgid "File name"
@@ -1740,7 +1792,7 @@ msgstr "Descendant"
 
 msgctxt "FileType|"
 msgid "File type:"
-msgstr ""
+msgstr "Type de fichier:"
 
 msgctxt "FilesExistsDialog|"
 msgid "Warning: file exists already"
@@ -1864,7 +1916,7 @@ msgstr "Téléchargements"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
-msgstr "Proposer des dossier basés sur le type de fichier"
+msgstr "Proposer des dossiers basés sur le type de fichier"
 
 msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
@@ -1954,6 +2006,14 @@ msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "Utiliser le réseau mobile"
 
+msgctxt "GeneralSettings|"
+msgid "Allow data roaming"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Using mobile data while roaming may result in additional charges."
+msgstr ""
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Statut"
@@ -1984,11 +2044,11 @@ msgstr "ratio"
 
 msgctxt "GeneralTab|"
 msgid "Web page"
-msgstr ""
+msgstr "Page web"
 
 msgctxt "GeneralTab|"
 msgid "File"
-msgstr ""
+msgstr "Fichier"
 
 msgctxt "GeneralTab|"
 msgid "Speed"
@@ -2100,7 +2160,7 @@ msgstr "Ne pas redemander"
 
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
-msgstr ". Fermer quand même?"
+msgstr ". Fermer quand même ?"
 
 msgctxt "LanguageDialog|"
 msgid "Language"
@@ -2173,7 +2233,7 @@ msgstr "Tout"
 
 msgctxt "MainFiltersBar|"
 msgid "Missing Files"
-msgstr ""
+msgstr "Fichiers manquants"
 
 msgctxt "MainFiltersBar|"
 msgid "Active"
@@ -2214,6 +2274,10 @@ msgstr "Exporter les paramètres"
 msgctxt "MainMenu|"
 msgid "Import settings"
 msgstr "Importer les paramètres"
+
+msgctxt "MainMenu|"
+msgid "Add-ons..."
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -2722,6 +2786,164 @@ msgstr "Fichiers"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "Connexions"
+
+msgctxt "PluginsDepsInstallerView|"
+msgid "Installed."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Recently installed dependency"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-ons"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Check for Updates"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install Add-on From File..."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Update Add-ons Automatically"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Reset All Add-ons to Update Automatically"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Updating installed add-ons..."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "There are no installed add-ons."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install add-on from file"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "%1 add-ons files (%2)"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Failed to install add-on"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Warning!"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permissions:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permission:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Please install add-ons from trusted sources only."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to continue the installation?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "The following required components are missing:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "%1 is required."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install them?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install it?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Failed to update add-on"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Warning!"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permissions:"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permission:"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Please install add-ons from trusted sources only."
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to continue the installation?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid ""
+"New version of %1 add-on requires additional components:\n"
+"%2"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requires %2."
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install them?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install it?"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Allow Automatic Updates"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Check for Updates"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Remove"
+msgstr "Supprimer"
+
+msgctxt "PluginsViewItem|"
+msgid "Updating..."
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Version: %1"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "OK to remove?"
+msgstr ""
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
@@ -3250,42 +3472,6 @@ msgid "Mount point does not exist"
 msgstr "Le point de montage n’existe pas"
 
 msgctxt "QObject|"
-msgid "Path to the dump folder."
-msgstr "Chemin du dossier du dump."
-
-msgctxt "QObject|"
-msgid "Url to upload dumps to."
-msgstr "URL pour envoyer les dumps."
-
-msgctxt "QObject|"
-msgid "Path to the crashed app that can be restarted."
-msgstr "Le chemin de l’application en panne qui peut être relancée."
-
-msgctxt "QObject|"
-msgid "Name of the crashed application."
-msgstr "Nom de l’application en panne."
-
-msgctxt "QObject|"
-msgid "Version of the application."
-msgstr "Version de l’application."
-
-msgctxt "QObject|"
-msgid "Architecture."
-msgstr "Architecture."
-
-msgctxt "QObject|"
-msgid "User's operating system."
-msgstr "Le système d’exploitation de l’utilisateur."
-
-msgctxt "QObject|"
-msgid "Fault module name."
-msgstr "Nom du module défaillant."
-
-msgctxt "QObject|"
-msgid "Crash address."
-msgstr "Adresse de l'erreur."
-
-msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr "Échec de la vérification de la signature."
 
@@ -3370,6 +3556,102 @@ msgstr "Divers"
 msgctxt "QObject|"
 msgid "upload paused"
 msgstr "envoi mis en pause"
+
+msgctxt "QObject|"
+msgid "PAUSE ALL"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloading..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "DISABLE SNAIL MODE"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "SNAIL MODE"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "YouTube downloads are not available"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 of unknown at %2"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 of %2 at %3"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 %2 or higher"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Launch Python code"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Allows to execute arbitrary code."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Installing..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Uninstalling..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Missing components"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 are required"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 is required"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Failed to load"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Playlist"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "QIODevice::Append is not supported for GZIP"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "Opening gzip for both reading and writing is not supported"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "You can open a gzip either for reading or for writing. Which is it?"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "Could not gzopen() file"
+msgstr ""
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::Append is not supported for QuaZIODevice"
+msgstr ""
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
+msgstr ""
+
+msgctxt "QuaZipFile|"
+msgid "ZIP/UNZIP API error %1"
+msgstr ""
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
@@ -3653,7 +3935,7 @@ msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
-msgstr ""
+msgstr "Paramètres par défaut"
 
 msgctxt "SettingsPage|"
 msgid "Restore default settings?"
@@ -3984,7 +4266,7 @@ msgstr "Nom de fichier"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
-msgstr "Aucun accès en écriture au dossier sélectionné"
+msgstr "Pas d’accès en écriture au dossier sélectionné"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
@@ -4016,7 +4298,7 @@ msgstr "Nouvelle version disponible"
 
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
-msgstr ""
+msgstr "Quoi de neuf dans %1"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -4120,7 +4402,7 @@ msgstr "Nouvelle version disponible"
 
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
-msgstr ""
+msgstr "Quoi de neuf dans %1"
 
 msgctxt "WhatsNewDialog|"
 msgid "Update"

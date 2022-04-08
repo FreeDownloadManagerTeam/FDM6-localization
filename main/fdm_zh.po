@@ -18,7 +18,7 @@ msgstr "版本：%1（%2）"
 
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
-msgstr "编译日期：%1"
+msgstr "构建日期：%1"
 
 msgctxt "AboutDialog|"
 msgid "version %1"
@@ -89,6 +89,10 @@ msgid "Notifications"
 msgstr "通知"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of added downloads via Notification Center"
+msgstr "在通知中心中提示我已添加的下载项"
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
 msgstr "通过通知中心提醒我已完成的下载项"
 
@@ -125,12 +129,20 @@ msgid "Launch at startup (minimized)"
 msgstr "在启动时加载（最小化）"
 
 msgctxt "AdvancedSettings|"
+msgid "Show special offers"
+msgstr "显示高级选项"
+
+msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "界面"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "单击下载项以展开/隐藏底部面板"
+
+msgctxt "AdvancedSettings|"
+msgid "Indicate active download and upload using tray icon"
+msgstr "在托盘图标中显示活动下载和上传速度"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore hidden state when finished adding new downloads"
@@ -288,6 +300,10 @@ msgstr "正在转换文件至mp4 (%1)。"
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "正在合并媒体流 (%1)。"
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Deleting files."
+msgstr "正在删除文件。"
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -785,6 +801,38 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "连接数"
 
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Destination files already exists"
+msgstr "目标文件已存在"
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Overwrite All"
+msgstr "全部替换"
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Rename All"
+msgstr "全部重命名"
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Skip All"
+msgstr "全部跳过"
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Abort"
+msgstr "中止"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Failed to convert"
+msgstr "无法转换"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Convert failed"
+msgstr "转换失败"
+
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "复制链接"
@@ -1279,6 +1327,10 @@ msgstr "在文件夹中显示"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "报告问题"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Enable auto retry for this kind of errors"
+msgstr "为此类错误启用自动重试"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -1921,6 +1973,14 @@ msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "使用移动网络"
 
+msgctxt "GeneralSettings|"
+msgid "Allow data roaming"
+msgstr "允许数据漫游"
+
+msgctxt "GeneralSettings|"
+msgid "Using mobile data while roaming may result in additional charges."
+msgstr "在漫游时使用移动数据可能产生额外费用。"
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "状态"
@@ -2139,7 +2199,7 @@ msgstr "全部"
 
 msgctxt "MainFiltersBar|"
 msgid "Missing Files"
-msgstr ""
+msgstr "丢失的文件"
 
 msgctxt "MainFiltersBar|"
 msgid "Active"
@@ -2180,6 +2240,10 @@ msgstr "导出设置"
 msgctxt "MainMenu|"
 msgid "Import settings"
 msgstr "导入设置"
+
+msgctxt "MainMenu|"
+msgid "Add-ons..."
+msgstr "扩展..."
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -2685,6 +2749,166 @@ msgstr "文件"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "连接"
+
+msgctxt "PluginsDepsInstallerView|"
+msgid "Installed."
+msgstr "已安装。"
+
+msgctxt "PluginsPage|"
+msgid "Recently installed dependency"
+msgstr "近期已安装的依赖"
+
+msgctxt "PluginsPage|"
+msgid "Add-ons"
+msgstr "扩展"
+
+msgctxt "PluginsPage|"
+msgid "Check for Updates"
+msgstr "检查更新"
+
+msgctxt "PluginsPage|"
+msgid "Install Add-on From File..."
+msgstr "从文件安装扩展..."
+
+msgctxt "PluginsPage|"
+msgid "Update Add-ons Automatically"
+msgstr "自动更新扩展"
+
+msgctxt "PluginsPage|"
+msgid "Reset All Add-ons to Update Automatically"
+msgstr "重设所有扩展为自动更新"
+
+msgctxt "PluginsPage|"
+msgid "Updating installed add-ons..."
+msgstr "正在更新已安装的扩展..."
+
+msgctxt "PluginsPage|"
+msgid "There are no installed add-ons."
+msgstr "没有已安装的扩展"
+
+msgctxt "PluginsPage|"
+msgid "Install add-on from file"
+msgstr "从文件安装扩展"
+
+msgctxt "PluginsPage|"
+msgid "Install"
+msgstr "安装"
+
+msgctxt "PluginsPage|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "PluginsPage|"
+msgid "%1 add-ons files (%2)"
+msgstr "第%1个扩展文件（共%2个）"
+
+msgctxt "PluginsPage|"
+msgid "Failed to install add-on"
+msgstr "无法安装扩展"
+
+msgctxt "PluginsPage|"
+msgid "Warning!"
+msgstr "警告！"
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permissions:"
+msgstr "扩展请求多项危险的许可："
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permission:"
+msgstr "扩展请求危险的许可："
+
+msgctxt "PluginsPage|"
+msgid "Please install add-ons from trusted sources only."
+msgstr "请仅从可信源安装扩展。"
+
+msgctxt "PluginsPage|"
+msgid "Would you like to continue the installation?"
+msgstr "您想要继续安装吗？"
+
+msgctxt "PluginsPage|"
+msgid "The following required components are missing:"
+msgstr "下列必须组件缺失："
+
+msgctxt "PluginsPage|"
+msgid "%1 is required."
+msgstr "%1是必须的。"
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install them?"
+msgstr "您想安装它们吗？"
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install it?"
+msgstr "您想安装它吗？"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Failed to update add-on"
+msgstr "更新扩展失败"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Warning!"
+msgstr "警告！"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permissions:"
+msgstr "新版本的%1扩展请求多项危险的许可："
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permission:"
+msgstr "新版本的%1扩展请求危险的许可："
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Please install add-ons from trusted sources only."
+msgstr "请仅从可信源安装扩展。"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to continue the installation?"
+msgstr "您想要继续安装吗？"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid ""
+"New version of %1 add-on requires additional components:\n"
+"%2"
+msgstr ""
+"新版本的%1扩展需要多个额外组件：\n"
+"%2"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requires %2."
+msgstr "新版本的%1扩展需要%2."
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install them?"
+msgstr "您想安装它们吗？"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install it?"
+msgstr "您想安装它吗？"
+
+msgctxt "PluginsViewItem|"
+msgid "Allow Automatic Updates"
+msgstr "允许自动更新"
+
+msgctxt "PluginsViewItem|"
+msgid "Check for Updates"
+msgstr "检查更新"
+
+msgctxt "PluginsViewItem|"
+msgid "Remove"
+msgstr "移除"
+
+msgctxt "PluginsViewItem|"
+msgid "Updating..."
+msgstr "正在更新..."
+
+msgctxt "PluginsViewItem|"
+msgid "Version: %1"
+msgstr "版本：%1"
+
+msgctxt "PluginsViewItem|"
+msgid "OK to remove?"
+msgstr "确定移除吗？"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
@@ -3210,42 +3434,6 @@ msgid "Mount point does not exist"
 msgstr "挂载点不存在"
 
 msgctxt "QObject|"
-msgid "Path to the dump folder."
-msgstr "转储文件夹的路径。."
-
-msgctxt "QObject|"
-msgid "Url to upload dumps to."
-msgstr "转储文件上传链接."
-
-msgctxt "QObject|"
-msgid "Path to the crashed app that can be restarted."
-msgstr "用于重启崩溃应用程序的路径."
-
-msgctxt "QObject|"
-msgid "Name of the crashed application."
-msgstr "崩溃应用的名称."
-
-msgctxt "QObject|"
-msgid "Version of the application."
-msgstr "应用版本."
-
-msgctxt "QObject|"
-msgid "Architecture."
-msgstr "架构."
-
-msgctxt "QObject|"
-msgid "User's operating system."
-msgstr "用户操作系统."
-
-msgctxt "QObject|"
-msgid "Fault module name."
-msgstr "错误模块名称."
-
-msgctxt "QObject|"
-msgid "Crash address."
-msgstr "崩溃地址."
-
-msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr "签名验证失败."
 
@@ -3328,6 +3516,102 @@ msgstr "其他"
 msgctxt "QObject|"
 msgid "upload paused"
 msgstr "已暂停上传"
+
+msgctxt "QObject|"
+msgid "PAUSE ALL"
+msgstr "全部暂停"
+
+msgctxt "QObject|"
+msgid "Downloading..."
+msgstr "下载中..."
+
+msgctxt "QObject|"
+msgid "DISABLE SNAIL MODE"
+msgstr "禁用慢速模式"
+
+msgctxt "QObject|"
+msgid "SNAIL MODE"
+msgstr "慢速模式"
+
+msgctxt "QObject|"
+msgid "YouTube downloads are not available"
+msgstr "Youtube下载不可用"
+
+msgctxt "QObject|"
+msgid "%1 of unknown at %2"
+msgstr "%2上%1是未知的"
+
+msgctxt "QObject|"
+msgid "%1 of %2 at %3"
+msgstr "%3上%2的%1"
+
+msgctxt "QObject|"
+msgid "%1 %2 or higher"
+msgstr "%1 %2或更高"
+
+msgctxt "QObject|"
+msgid "Launch Python code"
+msgstr "启动Python代码"
+
+msgctxt "QObject|"
+msgid "Allows to execute arbitrary code."
+msgstr "允许执行任意代码。"
+
+msgctxt "QObject|"
+msgid "Installing..."
+msgstr "正在安装..."
+
+msgctxt "QObject|"
+msgid "Uninstalling..."
+msgstr "正在卸载..."
+
+msgctxt "QObject|"
+msgid "Missing components"
+msgstr "组件缺失"
+
+msgctxt "QObject|"
+msgid "%1 are required"
+msgstr "%1是必须的。"
+
+msgctxt "QObject|"
+msgid "%1 is required"
+msgstr "%1是必须的。"
+
+msgctxt "QObject|"
+msgid "Failed to load"
+msgstr "加载失败"
+
+msgctxt "QObject|"
+msgid "Playlist"
+msgstr "播放列表"
+
+msgctxt "QuaGzipFile|"
+msgid "QIODevice::Append is not supported for GZIP"
+msgstr "QIODevice::不支持向GZIP追加"
+
+msgctxt "QuaGzipFile|"
+msgid "Opening gzip for both reading and writing is not supported"
+msgstr "打开gzip以同时读写不受支持"
+
+msgctxt "QuaGzipFile|"
+msgid "You can open a gzip either for reading or for writing. Which is it?"
+msgstr "您可以打开一个gzip读或写。选择哪个？"
+
+msgctxt "QuaGzipFile|"
+msgid "Could not gzopen() file"
+msgstr "无法gzopen()文件"
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::Append is not supported for QuaZIODevice"
+msgstr "QIODevice::不支持向QuaZIODevice追加"
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
+msgstr "QIODevice::不支持QuaZIODevice的读写"
+
+msgctxt "QuaZipFile|"
+msgid "ZIP/UNZIP API error %1"
+msgstr "ZIP/UNZIP API错误 %1"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
@@ -3983,7 +4267,7 @@ msgstr "确定"
 
 msgctxt "UpdateDialog|"
 msgid "Downloading update"
-msgstr "下载更新中"
+msgstr "正在下载更新"
 
 msgctxt "UpdateDialog|"
 msgid "Error downloading update:"
