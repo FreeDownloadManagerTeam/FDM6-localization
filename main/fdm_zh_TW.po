@@ -298,6 +298,10 @@ msgid "Converting files to mp4 (%1)."
 msgstr "轉成 mp4 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Renaming files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "合併串流媒體中 (%1)."
 
@@ -308,6 +312,38 @@ msgstr ""
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "有無法恢復的操作進行中"
+
+msgctxt "AuthDialog|"
+msgid "Authentication required"
+msgstr "需要驗證"
+
+msgctxt "AuthDialog|"
+msgid "%1 requires authentication"
+msgstr ""
+
+msgctxt "AuthDialog|"
+msgid "The site says: \"%1\"."
+msgstr "網站回應: \"%1\" 。"
+
+msgctxt "AuthDialog|"
+msgid "Username:"
+msgstr "使用者名稱:"
+
+msgctxt "AuthDialog|"
+msgid "Password:"
+msgstr "密碼:"
+
+msgctxt "AuthDialog|"
+msgid "remember"
+msgstr "記住密碼"
+
+msgctxt "AuthDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "AuthDialog|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -647,6 +683,14 @@ msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
 msgstr "不經確認就開始下載"
 
+msgctxt "BtSettings|"
+msgid "Advanced"
+msgstr "進階"
+
+msgctxt "BtSettings|"
+msgid "Custom port:"
+msgstr ""
+
 msgctxt "BtStrings|"
 msgid "Uploaded"
 msgstr "已上傳"
@@ -791,6 +835,42 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "開始下載"
 
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Connect to remote %1"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "(beta)"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on another device."
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at startup"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at %1 startup"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter ID, or <a href='#'>scan QR code</a>"
+msgstr ""
+
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "沒有連結"
@@ -850,6 +930,22 @@ msgstr "複製"
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
 msgstr "您確定要退出嗎?"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Starting..."
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Failed to start."
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Error: %1"
+msgstr "錯誤：%1"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1363,6 +1459,10 @@ msgid "Low"
 msgstr "低"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
 msgstr "移動至..."
 
@@ -1686,6 +1786,10 @@ msgstr "Calculating %1%"
 msgctxt "FileIntegrityPage|"
 msgid "SHA-256"
 msgstr "Calculating %1%"
+
+msgctxt "FileIntegrityPage|"
+msgid "SHA-512"
+msgstr "SHA-256： {512?}"
 
 msgctxt "FileIntegrityPage|"
 msgid "Hash"
@@ -2067,6 +2171,10 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
 
+msgctxt "HashAlgorithmCombobox|"
+msgid "SHA-512"
+msgstr "SHA-256： {512?}"
+
 msgctxt "ImportDialog|"
 msgid "Import"
 msgstr "匯入"
@@ -2150,6 +2258,14 @@ msgstr "設定"
 msgctxt "LeftDrawer|"
 msgid "Contact support"
 msgstr "聯繫支援"
+
+msgctxt "LeftDrawer|"
+msgid "Disconnect from remote %1"
+msgstr ""
+
+msgctxt "LeftDrawer|"
+msgid "Connect to remote %1"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "About"
@@ -2274,6 +2390,14 @@ msgstr "休眠"
 msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "關機"
+
+msgctxt "MainMenu|"
+msgid "Disconnect from remote %1"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Connect to remote %1"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2576,6 +2700,10 @@ msgctxt "Mp4ConverterPage|"
 msgid "Save to"
 msgstr "另存至"
 
+msgctxt "Mp4ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr ""
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "檢查更新..."
@@ -2805,7 +2933,7 @@ msgid "Cancel"
 msgstr "取消"
 
 msgctxt "PluginsPage|"
-msgid "%1 add-ons files (%2)"
+msgid "%1 add-ons files"
 msgstr ""
 
 msgctxt "PluginsPage|"
@@ -3364,6 +3492,10 @@ msgid "Unsupported format"
 msgstr "不支援的格式"
 
 msgctxt "QObject|"
+msgid "Not found"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "主機端未被找到"
 
@@ -3631,6 +3763,30 @@ msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
 msgstr "取消"
 
+msgctxt "RemoteControlSettings|"
+msgid "Remote Access"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "(beta)"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Allow remote access to %1 running on this device"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "ID"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Password"
+msgstr "密碼"
+
+msgctxt "RemoteControlSettings|"
+msgid "Status"
+msgstr "狀態"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr "遠程資源已變更"
@@ -3646,6 +3802,42 @@ msgstr "重新下載"
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "取消"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "A file with that name already exists."
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "A file with that name already exists."
+msgstr ""
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -3862,6 +4054,10 @@ msgstr "流量限制"
 msgctxt "SettingsPage|"
 msgid "Antivirus"
 msgstr "防毒軟體"
+
+msgctxt "SettingsPage|"
+msgid "Remote Access"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
@@ -4090,6 +4286,10 @@ msgstr "亮色系"
 msgctxt "ThemeComboBox|"
 msgid "Dark"
 msgstr "暗色系"
+
+msgctxt "Toast|"
+msgid "Please grant camera permission to use the QR scanner"
+msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4352,8 +4552,28 @@ msgid "Let's make it better together! Give us your feedback."
 msgstr "請您給我們回饋，讓我們一起讓FDM變得更棒。"
 
 msgctxt "WaitingPage|"
-msgid "Refresh"
-msgstr "重新整理"
+msgid "Loading"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Connection to %1"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Error: %1"
+msgstr "錯誤：%1"
+
+msgctxt "WaitingPage|"
+msgid "Retry"
+msgstr "重試"
+
+msgctxt "WaitingPage|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "WaitingPage|"
+msgid "Abort"
+msgstr "中止"
 
 msgctxt "WhatsNewDialog|"
 msgid "New version is available"
@@ -4374,3 +4594,7 @@ msgstr "很抱歉，由於發生 %1 錯誤，因此報告沒有被送出"
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "報告送出成功!! 非常感謝您的合作!!"
+
+msgctxt "main|"
+msgid "Remote connection to %1"
+msgstr ""

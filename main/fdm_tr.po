@@ -301,6 +301,10 @@ msgid "Converting files to mp4 (%1)."
 msgstr "Dosyalar MP4'e dönüştürülüyor (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Renaming files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Medya akışları birleşiyor (%1)."
 
@@ -311,6 +315,38 @@ msgstr ""
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Devam etme özelliği olmayan işlemler var"
+
+msgctxt "AuthDialog|"
+msgid "Authentication required"
+msgstr "Doğrulama gerekli"
+
+msgctxt "AuthDialog|"
+msgid "%1 requires authentication"
+msgstr ""
+
+msgctxt "AuthDialog|"
+msgid "The site says: \"%1\"."
+msgstr "Site : \"%1\" diyor."
+
+msgctxt "AuthDialog|"
+msgid "Username:"
+msgstr "Kullanıcı adı:"
+
+msgctxt "AuthDialog|"
+msgid "Password:"
+msgstr "Parola:"
+
+msgctxt "AuthDialog|"
+msgid "remember"
+msgstr "hatırla"
+
+msgctxt "AuthDialog|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "AuthDialog|"
+msgid "OK"
+msgstr "Tamam"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -652,6 +688,14 @@ msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
 msgstr "Onay beklemeden indirmeleri başlat"
 
+msgctxt "BtSettings|"
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+msgctxt "BtSettings|"
+msgid "Custom port:"
+msgstr ""
+
 msgctxt "BtStrings|"
 msgid "Uploaded"
 msgstr "Yüklendi"
@@ -796,6 +840,42 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "İndirmeye başla"
 
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Connect to remote %1"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "(beta)"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on another device."
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at startup"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at %1 startup"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "OK"
+msgstr "Tamam"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter ID, or <a href='#'>scan QR code</a>"
+msgstr ""
+
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "Bağlantı yok"
@@ -855,6 +935,22 @@ msgstr "Kopyala"
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
 msgstr "Çıkmak istediğinden emin misin?"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Starting..."
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Failed to start."
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Error: %1"
+msgstr "Hata: %1"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "OK"
+msgstr "Tamam"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1379,6 +1475,10 @@ msgid "Low"
 msgstr "Düşük"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
 msgstr "Buraya Taşı..."
 
@@ -1702,6 +1802,10 @@ msgstr "SHA-1"
 msgctxt "FileIntegrityPage|"
 msgid "SHA-256"
 msgstr "SHA-256"
+
+msgctxt "FileIntegrityPage|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
 
 msgctxt "FileIntegrityPage|"
 msgid "Hash"
@@ -2083,6 +2187,10 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
 
+msgctxt "HashAlgorithmCombobox|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
+
 msgctxt "ImportDialog|"
 msgid "Import"
 msgstr "İçeri aktar"
@@ -2166,6 +2274,14 @@ msgstr "Ayarlar"
 msgctxt "LeftDrawer|"
 msgid "Contact support"
 msgstr "Destekle İletişime Geç"
+
+msgctxt "LeftDrawer|"
+msgid "Disconnect from remote %1"
+msgstr ""
+
+msgctxt "LeftDrawer|"
+msgid "Connect to remote %1"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "About"
@@ -2290,6 +2406,14 @@ msgstr "Hazırda Beklet"
 msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "Kapat"
+
+msgctxt "MainMenu|"
+msgid "Disconnect from remote %1"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Connect to remote %1"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2592,6 +2716,10 @@ msgctxt "Mp4ConverterPage|"
 msgid "Save to"
 msgstr "Şuraya kaydet"
 
+msgctxt "Mp4ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "Yol geçersiz karakterler içeriyor"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "Güncellemeleri Kontrol Et..."
@@ -2821,7 +2949,7 @@ msgid "Cancel"
 msgstr "İptal"
 
 msgctxt "PluginsPage|"
-msgid "%1 add-ons files (%2)"
+msgid "%1 add-ons files"
 msgstr ""
 
 msgctxt "PluginsPage|"
@@ -3381,6 +3509,10 @@ msgid "Unsupported format"
 msgstr "Desteklenmeyen biçim"
 
 msgctxt "QObject|"
+msgid "Not found"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "Sağlayıcı bulunamadı"
 
@@ -3649,6 +3781,30 @@ msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
 msgstr "İptal"
 
+msgctxt "RemoteControlSettings|"
+msgid "Remote Access"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "(beta)"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Allow remote access to %1 running on this device"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "ID"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Password"
+msgstr "Parola"
+
+msgctxt "RemoteControlSettings|"
+msgid "Status"
+msgstr "Durum"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr "Uzak kaynak değişti"
@@ -3664,6 +3820,42 @@ msgstr "Yeniden indir"
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "İptal"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "A file with that name already exists."
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "OK"
+msgstr "Tamam"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "OK"
+msgstr "Tamam"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "A file with that name already exists."
+msgstr ""
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -3880,6 +4072,10 @@ msgstr "Trafik Limitleri"
 msgctxt "SettingsPage|"
 msgid "Antivirus"
 msgstr "Antivirüs"
+
+msgctxt "SettingsPage|"
+msgid "Remote Access"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
@@ -4110,6 +4306,10 @@ msgstr "Açık"
 msgctxt "ThemeComboBox|"
 msgid "Dark"
 msgstr "Koyu"
+
+msgctxt "Toast|"
+msgid "Please grant camera permission to use the QR scanner"
+msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4372,8 +4572,28 @@ msgid "Let's make it better together! Give us your feedback."
 msgstr "Birlikte daha iyi yapalım! Bize geri bildirim yapın."
 
 msgctxt "WaitingPage|"
-msgid "Refresh"
-msgstr "Yinele"
+msgid "Loading"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Connection to %1"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Error: %1"
+msgstr "Hata: %1"
+
+msgctxt "WaitingPage|"
+msgid "Retry"
+msgstr "Yeniden dene"
+
+msgctxt "WaitingPage|"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "WaitingPage|"
+msgid "Abort"
+msgstr "İşlemi iptal et"
 
 msgctxt "WhatsNewDialog|"
 msgid "New version is available"
@@ -4394,3 +4614,7 @@ msgstr "Üzgünüz, rapor gönderilmedi, bir hata oluştu: %1"
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "Rapor gönderildi. İşbirliğiniz için teşekkürler!"
+
+msgctxt "main|"
+msgid "Remote connection to %1"
+msgstr ""
