@@ -1,11 +1,5 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: id_ID\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,7 +7,6 @@ msgstr ""
 "X-Language: id_ID\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.0.1\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -114,7 +107,7 @@ msgstr "Beritahu saya mengenai unduhan hanya ketika jendela %1 tidak aktif"
 
 msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
-msgstr ""
+msgstr "Sesuaikan suara"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -308,6 +301,10 @@ msgid "Converting files to mp4 (%1)."
 msgstr "Mengkonversi berkas ke mp4 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Renaming files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Menggabungkan berkas media (%1)."
 
@@ -318,6 +315,38 @@ msgstr "Menghapus berkas."
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Terdapat proses yang tidak dapat diberi jeda sedang berlangsung"
+
+msgctxt "AuthDialog|"
+msgid "Authentication required"
+msgstr "Autentikasi diperlukan"
+
+msgctxt "AuthDialog|"
+msgid "%1 requires authentication"
+msgstr ""
+
+msgctxt "AuthDialog|"
+msgid "The site says: \"%1\"."
+msgstr "Situs tersebut mengatakan: \"%1\"."
+
+msgctxt "AuthDialog|"
+msgid "Username:"
+msgstr "Nama Pengguna:"
+
+msgctxt "AuthDialog|"
+msgid "Password:"
+msgstr "Kata Sandi:"
+
+msgctxt "AuthDialog|"
+msgid "remember"
+msgstr "ingat"
+
+msgctxt "AuthDialog|"
+msgid "Cancel"
+msgstr "Batalkan"
+
+msgctxt "AuthDialog|"
+msgid "OK"
+msgstr "BAIK"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -659,6 +688,14 @@ msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
 msgstr "Mulai pengunduhan tanpa konfirmasi"
 
+msgctxt "BtSettings|"
+msgid "Advanced"
+msgstr "Lanjutan"
+
+msgctxt "BtSettings|"
+msgid "Custom port:"
+msgstr ""
+
 msgctxt "BtStrings|"
 msgid "Uploaded"
 msgstr "Diunggah"
@@ -803,6 +840,34 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Mulai pengunduhan"
 
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Connect to remote %1"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on another device."
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at %1 startup"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Cancel"
+msgstr "Batalkan"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "OK"
+msgstr "BAIK"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter ID, or <a href='#'>scan QR code</a>"
+msgstr ""
+
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "Tidak ada sambungan"
@@ -862,6 +927,22 @@ msgstr "Salin"
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
 msgstr "Apa Anda yakin untuk keluar?"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Starting..."
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Failed to start."
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Error: %1"
+msgstr "Kesalahan: %1"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "OK"
+msgstr "BAIK"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1385,6 +1466,10 @@ msgid "Low"
 msgstr "Rendah"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
 msgstr "Pindahkan ke..."
 
@@ -1708,6 +1793,10 @@ msgstr "SHA-1"
 msgctxt "FileIntegrityPage|"
 msgid "SHA-256"
 msgstr "SHA-256"
+
+msgctxt "FileIntegrityPage|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
 
 msgctxt "FileIntegrityPage|"
 msgid "Hash"
@@ -2090,6 +2179,10 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
 
+msgctxt "HashAlgorithmCombobox|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
+
 msgctxt "ImportDialog|"
 msgid "Import"
 msgstr "Impor"
@@ -2173,6 +2266,14 @@ msgstr "Pengaturan"
 msgctxt "LeftDrawer|"
 msgid "Contact support"
 msgstr "Hubungi Bantuan"
+
+msgctxt "LeftDrawer|"
+msgid "Disconnect from remote %1"
+msgstr ""
+
+msgctxt "LeftDrawer|"
+msgid "Connect to remote %1"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "About"
@@ -2297,6 +2398,14 @@ msgstr "Mode hibernasi"
 msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "Matikan komputer"
+
+msgctxt "MainMenu|"
+msgid "Disconnect from remote %1"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Connect to remote %1"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2600,6 +2709,10 @@ msgctxt "Mp4ConverterPage|"
 msgid "Save to"
 msgstr "Simpan ke"
 
+msgctxt "Mp4ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "Jalur berisi karakter yang salah"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "Tinjau Pembaharuan..."
@@ -2829,8 +2942,9 @@ msgid "Cancel"
 msgstr "Batalkan"
 
 msgctxt "PluginsPage|"
-msgid "%1 add-ons files (%2)"
-msgstr "%1 berkas add-ons (%2)"
+msgid "%1 add-ons files"
+msgstr ""
+
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
@@ -2920,7 +3034,7 @@ msgstr ""
 
 msgctxt "PluginsViewItem|"
 msgid "Check for Updates"
-msgstr ""
+msgstr "Periksa pembaruan"
 
 msgctxt "PluginsViewItem|"
 msgid "Remove"
@@ -3386,6 +3500,10 @@ msgid "Unsupported format"
 msgstr "Format tidak didukung"
 
 msgctxt "QObject|"
+msgid "Not found"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "Host tidak ditemukan"
 
@@ -3645,7 +3763,7 @@ msgstr ""
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
-msgstr ""
+msgstr "Apa Anda yakin untuk keluar?"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "OK"
@@ -3654,6 +3772,26 @@ msgstr "BAIK"
 msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
 msgstr "Batalkan"
+
+msgctxt "RemoteControlSettings|"
+msgid "Remote Access (beta)"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Allow remote access"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "ID"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Password"
+msgstr "Kata Sandi"
+
+msgctxt "RemoteControlSettings|"
+msgid "Status"
+msgstr "Status"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
@@ -3671,9 +3809,45 @@ msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "Batalkan"
 
+msgctxt "RenameDownloadFileDialog|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "A file with that name already exists."
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Cancel"
+msgstr "Batalkan"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "OK"
+msgstr "BAIK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "OK"
+msgstr "BAIK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "A file with that name already exists."
+msgstr ""
+
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
-msgstr ""
+msgstr "Laporkan masalah"
 
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
@@ -3886,6 +4060,10 @@ msgstr "Batasan lalu lintas"
 msgctxt "SettingsPage|"
 msgid "Antivirus"
 msgstr "Antivirus"
+
+msgctxt "SettingsPage|"
+msgid "Remote Access"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
@@ -4116,6 +4294,10 @@ msgstr "Terang"
 msgctxt "ThemeComboBox|"
 msgid "Dark"
 msgstr "Gelap"
+
+msgctxt "Toast|"
+msgid "Please grant camera permission to use the QR scanner"
+msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4377,9 +4559,30 @@ msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."
 msgstr "Mari kita membuatnya lebih baik bersama! Beri kami umpan balik Anda."
 
+
 msgctxt "WaitingPage|"
-msgid "Refresh"
-msgstr "Segarkan"
+msgid "Loading"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Connection to %1"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Error: %1"
+msgstr "Kesalahan: %1"
+
+msgctxt "WaitingPage|"
+msgid "Retry"
+msgstr "Ulangi kembali"
+
+msgctxt "WaitingPage|"
+msgid "Cancel"
+msgstr "Batalkan"
+
+msgctxt "WaitingPage|"
+msgid "Abort"
+msgstr "Gagalkan"
 
 msgctxt "WhatsNewDialog|"
 msgid "New version is available"
@@ -4399,4 +4602,8 @@ msgstr ""
 
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
+msgstr ""
+
+msgctxt "main|"
+msgid "Remote connection to %1"
 msgstr ""

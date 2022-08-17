@@ -146,7 +146,9 @@ msgstr "Gebruik taakbalkpictogram om actieve downloads/uploads aan te geven "
 
 msgctxt "AdvancedSettings|"
 msgid "Restore hidden state when finished adding new downloads"
-msgstr "Herstel de verborgen status wanneer u klaar bent met het toevoegen van nieuwe downloads"
+msgstr ""
+"Herstel de verborgen status wanneer u klaar bent met het toevoegen van "
+"nieuwe downloads"
 
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
@@ -187,7 +189,9 @@ msgstr "Gebruik geluid"
 msgctxt "AdvancedSettings|"
 msgid ""
 "Do not allow downloads to perform post finished tasks when running on battery"
-msgstr "Sta niet toe dat downloads post-beëindigde taken uitvoeren wanneer ze op de batterij werken"
+msgstr ""
+"Sta niet toe dat downloads post-beëindigde taken uitvoeren wanneer ze op de "
+"batterij werken"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
@@ -298,6 +302,10 @@ msgid "Converting files to mp4 (%1)."
 msgstr "Bestanden omzetten naar mp4 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Renaming files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Mediastreams samenvogen (%1)"
 
@@ -308,6 +316,38 @@ msgstr "Bestanden verwijderen."
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Er zijn handelingen actief die niet later kunnen worden hervat"
+
+msgctxt "AuthDialog|"
+msgid "Authentication required"
+msgstr "Authenticatie vereist"
+
+msgctxt "AuthDialog|"
+msgid "%1 requires authentication"
+msgstr ""
+
+msgctxt "AuthDialog|"
+msgid "The site says: \"%1\"."
+msgstr "De website zegt: \"%1\"."
+
+msgctxt "AuthDialog|"
+msgid "Username:"
+msgstr "Gebruikersnaam:"
+
+msgctxt "AuthDialog|"
+msgid "Password:"
+msgstr "Wachtwoord:"
+
+msgctxt "AuthDialog|"
+msgid "remember"
+msgstr "onthoud me"
+
+msgctxt "AuthDialog|"
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgctxt "AuthDialog|"
+msgid "OK"
+msgstr "Ok"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -549,8 +589,9 @@ msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
-msgstr "Wees zeker dat u %1 heeft geïnstalleerd, klik anders op een van "
-"de onderste knoppen"
+msgstr ""
+"Wees zeker dat u %1 heeft geïnstalleerd, klik anders op een van de onderste "
+"knoppen"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -616,9 +657,9 @@ msgstr ""
 "Het helpt je om downloads toe te voegen aan %1.\n"
 "\n"
 "Sommige ervan (bijv. Google Drive-downloads) kunnen alleen worden toegevoegd "
-"met behulp van deze browser omdat ze aanvullende informatie nodig hebben die" 
-"de browser van uw Android-systeem niet levert aan %1 " 
-"(of er is geen universele manier voor alle browsers om dit te doen)."
+"met behulp van deze browser omdat ze aanvullende informatie nodig hebben "
+"diede browser van uw Android-systeem niet levert aan %1 (of er is geen "
+"universele manier voor alle browsers om dit te doen)."
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -647,6 +688,14 @@ msgstr "Annuleren"
 msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
 msgstr "Beginnen met het downloaden zonder bevestiging"
+
+msgctxt "BtSettings|"
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+msgctxt "BtSettings|"
+msgid "Custom port:"
+msgstr ""
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -792,6 +841,34 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Start downloaden"
 
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Connect to remote %1"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on another device."
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at %1 startup"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "OK"
+msgstr "Ok"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter ID, or <a href='#'>scan QR code</a>"
+msgstr ""
+
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "Er zijn geen verbindingen"
@@ -852,11 +929,28 @@ msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
 msgstr "Wilt u echt afsluiten"
 
+msgctxt "CppQmlAppRcServer|"
+msgid "Starting..."
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Failed to start."
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Error: %1"
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "OK"
+msgstr "Ok"
+
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
-msgstr "Er is een interne fout opgetreden.<br>%1 moet opnieuw worden opgestart "
-"als u verder wil gaan"
+msgstr ""
+"Er is een interne fout opgetreden.<br>%1 moet opnieuw worden opgestart als u "
+"verder wil gaan"
 
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
@@ -891,8 +985,8 @@ msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
 msgstr ""
-"Draagbare versie van %1 kan op verschillende computers worden gebruikt"
-"zonder het op elk van hen te installeren en configureren."
+"Draagbare versie van %1 kan op verschillende computers worden gebruiktzonder "
+"het op elk van hen te installeren en configureren."
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
@@ -903,8 +997,8 @@ msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
 msgstr ""
-"Geef hier het pad op waar u deze versie wilt maken. Het zou "
-"een map op een verwisselbare schijf moeten zijn."
+"Geef hier het pad op waar u deze versie wilt maken. Het zou een map op een "
+"verwisselbare schijf moeten zijn."
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -1085,7 +1179,8 @@ msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Go to the website with the original download source and copy the renewed link"
 msgstr ""
-"Ga naar de website met de originele downloadbron en kopieer de vernieuwde link"
+"Ga naar de website met de originele downloadbron en kopieer de vernieuwde "
+"link"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "click here"
@@ -1313,7 +1408,7 @@ msgstr "Bestand ontbreekt"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Disk is missing"
-msgstr ""
+msgstr "Schijf ontbreekt"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
@@ -1341,7 +1436,7 @@ msgstr "In map weergeven"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
-msgstr ""
+msgstr "Probleem melden"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Enable auto retry for this kind of errors"
@@ -1372,6 +1467,10 @@ msgid "Low"
 msgstr "Laag"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
 msgstr "Verplaatsen naar..."
 
@@ -1389,7 +1488,7 @@ msgstr "Sequentiële downloaden"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
-msgstr ""
+msgstr "Voeg mirror toe"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Open download page"
@@ -1534,7 +1633,7 @@ msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Default download folder"
-msgstr ""
+msgstr "Standaard downloadmap"
 
 msgctxt "EditTagDialog|"
 msgid "Open"
@@ -1570,11 +1669,11 @@ msgstr ""
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Rename"
-msgstr ""
+msgstr "Hernoemen"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Overwrite"
-msgstr ""
+msgstr "Vervangen"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Always ask"
@@ -1697,6 +1796,10 @@ msgid "SHA-256"
 msgstr ""
 
 msgctxt "FileIntegrityPage|"
+msgid "SHA-512"
+msgstr ""
+
+msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "Hash"
 
@@ -1794,11 +1897,11 @@ msgstr ""
 
 msgctxt "FilesExistsDialog|"
 msgid "Overwrite"
-msgstr ""
+msgstr "Vervangen"
 
 msgctxt "FilesExistsDialog|"
 msgid "Abort"
-msgstr ""
+msgstr "Annuleren"
 
 msgctxt "FilesTree|"
 msgid "Name"
@@ -1890,7 +1993,7 @@ msgstr "Algemeen"
 
 msgctxt "GeneralSettings|"
 msgid "Choose theme"
-msgstr ""
+msgstr "Kies thema"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -1906,7 +2009,7 @@ msgstr "Mappen voorstellen op basis van bestandstype"
 
 msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr ""
+msgstr "Licht thema zal gebruikt worden als het systeemthema onbekend is."
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -1918,11 +2021,11 @@ msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
-msgstr ""
+msgstr "Standaard downloadmap"
 
 msgctxt "GeneralSettings|"
 msgid "Choose default download folder automatically"
-msgstr ""
+msgstr "Kies automatisch de standaard downloadmap"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
@@ -1930,7 +2033,7 @@ msgstr "Instellingen voorstellen op basis van download URL"
 
 msgctxt "GeneralSettings|"
 msgid "Fixed default download folder"
-msgstr ""
+msgstr "Vaste standaard downloadmap"
 
 msgctxt "GeneralSettings|"
 msgid "Open"
@@ -1958,11 +2061,11 @@ msgstr "Automatisch verwijderen van verwijderde bestanden uit downloadlijst"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr ""
+msgstr "Verwijder voltooide downloads automatisch uit de downloadlijst"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
-msgstr ""
+msgstr "Probeer mislukte downloads automatisch opnieuw"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -2018,7 +2121,7 @@ msgstr "Gedownload:"
 
 msgctxt "GeneralTab|"
 msgid "Uploaded"
-msgstr ""
+msgstr "Geüpload"
 
 msgctxt "GeneralTab|"
 msgid "ratio"
@@ -2074,6 +2177,10 @@ msgstr ""
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
+msgstr ""
+
+msgctxt "HashAlgorithmCombobox|"
+msgid "SHA-512"
 msgstr ""
 
 msgctxt "ImportDialog|"
@@ -2161,8 +2268,16 @@ msgid "Contact support"
 msgstr "Contact Opnemen Met Ondersteuning"
 
 msgctxt "LeftDrawer|"
-msgid "About"
+msgid "Disconnect from remote %1"
 msgstr ""
+
+msgctxt "LeftDrawer|"
+msgid "Connect to remote %1"
+msgstr ""
+
+msgctxt "LeftDrawer|"
+msgid "About"
+msgstr "Over"
 
 msgctxt "LeftDrawer|"
 msgid "Quit"
@@ -2178,7 +2293,7 @@ msgstr "Toevoegen"
 
 msgctxt "ListEditor|"
 msgid "Hide"
-msgstr ""
+msgstr "Verbergen"
 
 msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
@@ -2285,8 +2400,16 @@ msgid "Shutdown"
 msgstr "Afsluiten"
 
 msgctxt "MainMenu|"
-msgid "Create portable version"
+msgid "Disconnect from remote %1"
 msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Connect to remote %1"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Create portable version"
+msgstr "Draagbare versie maken"
 
 msgctxt "MainMenu|"
 msgid "Check for Updates..."
@@ -2298,7 +2421,7 @@ msgstr ""
 
 msgctxt "MainMenu|"
 msgid "About"
-msgstr ""
+msgstr "Over"
 
 msgctxt "MainMenu|"
 msgid "Quit"
@@ -2404,7 +2527,7 @@ msgstr ""
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Path:"
-msgstr ""
+msgstr "Bestandspad:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Size:"
@@ -2444,11 +2567,11 @@ msgstr ""
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "No"
-msgstr ""
+msgstr "Nee"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
@@ -2468,7 +2591,7 @@ msgstr ""
 
 msgctxt "MovingFailedDialog|"
 msgid "Try again"
-msgstr ""
+msgstr "Opnieuw proberen"
 
 msgctxt "MovingFailedDialog|"
 msgid "Cancel"
@@ -2512,7 +2635,7 @@ msgstr ""
 
 msgctxt "Mp3ConverterDialog|"
 msgid "The path contains invalid characters"
-msgstr ""
+msgstr "Het pad bevat ongeldige tekens"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "OK"
@@ -2536,7 +2659,7 @@ msgstr ""
 
 msgctxt "Mp3ConverterPage|"
 msgid "The path contains invalid characters"
-msgstr ""
+msgstr "Het pad bevat ongeldige tekens"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Bitrate (quality)"
@@ -2568,7 +2691,7 @@ msgstr "Annuleren"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "The path contains invalid characters"
-msgstr ""
+msgstr "Het pad bevat ongeldige tekens"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "OK"
@@ -2585,6 +2708,10 @@ msgstr "Ok"
 msgctxt "Mp4ConverterPage|"
 msgid "Save to"
 msgstr ""
+
+msgctxt "Mp4ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "Het pad bevat ongeldige tekens"
 
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
@@ -2764,7 +2891,7 @@ msgstr "Bestanden"
 
 msgctxt "Page|"
 msgid "Connections"
-msgstr ""
+msgstr "Verbindingen"
 
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
@@ -2815,7 +2942,7 @@ msgid "Cancel"
 msgstr "Annuleren"
 
 msgctxt "PluginsPage|"
-msgid "%1 add-ons files (%2)"
+msgid "%1 add-ons files"
 msgstr ""
 
 msgctxt "PluginsPage|"
@@ -2910,7 +3037,7 @@ msgstr ""
 
 msgctxt "PluginsViewItem|"
 msgid "Remove"
-msgstr ""
+msgstr "Verwijder"
 
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
@@ -3003,7 +3130,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Enter URL"
-msgstr ""
+msgstr "Voer URL in"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
@@ -3087,7 +3214,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Downloads failed"
-msgstr ""
+msgstr "Downloads mislukt"
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -3370,6 +3497,10 @@ msgid "Unsupported format"
 msgstr ""
 
 msgctxt "QObject|"
+msgid "Not found"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr ""
 
@@ -3624,7 +3755,7 @@ msgstr ""
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
-msgstr ""
+msgstr "Wilt u echt afsluiten"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "OK"
@@ -3633,6 +3764,26 @@ msgstr "Ok"
 msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
 msgstr "Annuleren"
+
+msgctxt "RemoteControlSettings|"
+msgid "Remote Access (beta)"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Allow remote access"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "ID"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Password"
+msgstr "Wachtwoord"
+
+msgctxt "RemoteControlSettings|"
+msgid "Status"
+msgstr "Status"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
@@ -3650,9 +3801,45 @@ msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "Annuleren"
 
+msgctxt "RenameDownloadFileDialog|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "A file with that name already exists."
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "OK"
+msgstr "Ok"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "OK"
+msgstr "Ok"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "A file with that name already exists."
+msgstr ""
+
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
-msgstr ""
+msgstr "Probleem melden"
 
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
@@ -3864,6 +4051,10 @@ msgstr "Verkeer grenzen"
 
 msgctxt "SettingsPage|"
 msgid "Antivirus"
+msgstr "Antivirus"
+
+msgctxt "SettingsPage|"
+msgid "Remote Access"
 msgstr ""
 
 msgctxt "SettingsPage|"
@@ -3876,7 +4067,7 @@ msgstr "Instellingen"
 
 msgctxt "SettingsPage|"
 msgid "Downloads settings"
-msgstr ""
+msgstr "Downloadinstellingen"
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
@@ -3892,23 +4083,23 @@ msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
-msgstr ""
+msgstr "Geavanceerde instellingen"
 
 msgctxt "SettingsPage|"
 msgid "Go back to default settings"
-msgstr ""
+msgstr "Instellingen terugzetten"
 
 msgctxt "SettingsPage|"
 msgid "Reset"
-msgstr ""
+msgstr "Opnieuw instellen"
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
-msgstr ""
+msgstr "Standaardinstellingen"
 
 msgctxt "SettingsPage|"
 msgid "Restore default settings?"
-msgstr ""
+msgstr "Standaardinstellingen terugzetten?"
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -3956,19 +4147,19 @@ msgstr ""
 
 msgctxt "SoundsSettings|"
 msgid "Use sounds"
-msgstr ""
+msgstr "Gebruik geluid"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads added"
-msgstr ""
+msgstr "Downloads toegevoegd"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads completed"
-msgstr ""
+msgstr "Downloads voltooid"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads failed"
-msgstr ""
+msgstr "Downloads mislukt"
 
 msgctxt "SoundsSettings|"
 msgid "No active downloads"
@@ -4008,7 +4199,7 @@ msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Continue"
-msgstr ""
+msgstr "Doorgaan"
 
 msgctxt "StatusItem|"
 msgid "Checking files"
@@ -4068,7 +4259,7 @@ msgstr ""
 
 msgctxt "Subtitles|"
 msgid "Edit list"
-msgstr ""
+msgstr "Lijst bewerken"
 
 msgctxt "TagMenu|"
 msgid "Edit"
@@ -4076,7 +4267,7 @@ msgstr ""
 
 msgctxt "TagMenu|"
 msgid "Remove"
-msgstr ""
+msgstr "Verwijder"
 
 msgctxt "TagPalette|"
 msgid "Customize color"
@@ -4092,6 +4283,10 @@ msgstr ""
 
 msgctxt "ThemeComboBox|"
 msgid "Dark"
+msgstr ""
+
+msgctxt "Toast|"
+msgid "Please grant camera permission to use the QR scanner"
 msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
@@ -4228,15 +4423,15 @@ msgstr "Bestandsnaam"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
-msgstr ""
+msgstr "Geen schrijftoegang tot de geselecteerde map"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr ""
+msgstr "Grootte: %1 (Schijfruimte: %2)"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
-msgstr ""
+msgstr "Grootte: %1"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
@@ -4355,8 +4550,28 @@ msgid "Let's make it better together! Give us your feedback."
 msgstr ""
 
 msgctxt "WaitingPage|"
-msgid "Refresh"
+msgid "Loading"
 msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Connection to %1"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Error: %1"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Retry"
+msgstr "Opnieuw"
+
+msgctxt "WaitingPage|"
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgctxt "WaitingPage|"
+msgid "Abort"
+msgstr "Annuleren"
 
 msgctxt "WhatsNewDialog|"
 msgid "New version is available"
@@ -4376,4 +4591,8 @@ msgstr ""
 
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
+msgstr ""
+
+msgctxt "main|"
+msgid "Remote connection to %1"
 msgstr ""

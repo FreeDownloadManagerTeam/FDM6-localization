@@ -298,6 +298,10 @@ msgid "Converting files to mp4 (%1)."
 msgstr "MP4に変換しています (%1)"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Renaming files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "メディアストリームを結合しています (%1)"
 
@@ -308,6 +312,38 @@ msgstr ""
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "再開機能がないオペレーションが進行しています"
+
+msgctxt "AuthDialog|"
+msgid "Authentication required"
+msgstr "認証が必要です"
+
+msgctxt "AuthDialog|"
+msgid "%1 requires authentication"
+msgstr ""
+
+msgctxt "AuthDialog|"
+msgid "The site says: \"%1\"."
+msgstr "サイトからのメッセージ: \"%1\""
+
+msgctxt "AuthDialog|"
+msgid "Username:"
+msgstr "ユーザー名:"
+
+msgctxt "AuthDialog|"
+msgid "Password:"
+msgstr "パスワード:"
+
+msgctxt "AuthDialog|"
+msgid "remember"
+msgstr "記憶する"
+
+msgctxt "AuthDialog|"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "AuthDialog|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -645,6 +681,14 @@ msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
 msgstr "確認せずにダウンロードを開始する"
 
+msgctxt "BtSettings|"
+msgid "Advanced"
+msgstr "上級者向け"
+
+msgctxt "BtSettings|"
+msgid "Custom port:"
+msgstr ""
+
 msgctxt "BtStrings|"
 msgid "Uploaded"
 msgstr "アップロード済み"
@@ -789,6 +833,34 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "ダウンロードを開始する"
 
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Connect to remote %1"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on another device."
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at %1 startup"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter ID, or <a href='#'>scan QR code</a>"
+msgstr ""
+
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "インターネット接続がありません"
@@ -848,6 +920,22 @@ msgstr "コピー"
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
 msgstr "本当に終了しますか？"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Starting..."
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Failed to start."
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Error: %1"
+msgstr "エラー: %1"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1361,6 +1449,10 @@ msgid "Low"
 msgstr "低い"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
 msgstr "移動..."
 
@@ -1684,6 +1776,10 @@ msgstr "SHA-1"
 msgctxt "FileIntegrityPage|"
 msgid "SHA-256"
 msgstr "SHA-256"
+
+msgctxt "FileIntegrityPage|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
 
 msgctxt "FileIntegrityPage|"
 msgid "Hash"
@@ -2065,6 +2161,10 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
 
+msgctxt "HashAlgorithmCombobox|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
+
 msgctxt "ImportDialog|"
 msgid "Import"
 msgstr "インポート"
@@ -2148,6 +2248,14 @@ msgstr "設定"
 msgctxt "LeftDrawer|"
 msgid "Contact support"
 msgstr "サポートへのお問い合わせ"
+
+msgctxt "LeftDrawer|"
+msgid "Disconnect from remote %1"
+msgstr ""
+
+msgctxt "LeftDrawer|"
+msgid "Connect to remote %1"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "About"
@@ -2272,6 +2380,14 @@ msgstr "休止状態"
 msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "シャットダウン"
+
+msgctxt "MainMenu|"
+msgid "Disconnect from remote %1"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Connect to remote %1"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2574,6 +2690,10 @@ msgctxt "Mp4ConverterPage|"
 msgid "Save to"
 msgstr "保存先"
 
+msgctxt "Mp4ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "パスに無効な文字が含まれています"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "アップデートを確認する..."
@@ -2803,7 +2923,7 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 msgctxt "PluginsPage|"
-msgid "%1 add-ons files (%2)"
+msgid "%1 add-ons files"
 msgstr ""
 
 msgctxt "PluginsPage|"
@@ -3362,6 +3482,10 @@ msgid "Unsupported format"
 msgstr "サポートされていない形式"
 
 msgctxt "QObject|"
+msgid "Not found"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "ホストが見つかりません"
 
@@ -3629,6 +3753,26 @@ msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
 msgstr "キャンセル"
 
+msgctxt "RemoteControlSettings|"
+msgid "Remote Access (beta)"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Allow remote access"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "ID"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Password"
+msgstr "パスワード"
+
+msgctxt "RemoteControlSettings|"
+msgid "Status"
+msgstr "ステータス"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr "リモート側のリソースが変更されました"
@@ -3644,6 +3788,42 @@ msgstr "再ダウンロード"
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "キャンセル"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "A file with that name already exists."
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "A file with that name already exists."
+msgstr ""
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -3860,6 +4040,10 @@ msgstr "トラフィック制限"
 msgctxt "SettingsPage|"
 msgid "Antivirus"
 msgstr "ウイルス対策"
+
+msgctxt "SettingsPage|"
+msgid "Remote Access"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
@@ -4088,6 +4272,10 @@ msgstr "ライト"
 msgctxt "ThemeComboBox|"
 msgid "Dark"
 msgstr "ダーク"
+
+msgctxt "Toast|"
+msgid "Please grant camera permission to use the QR scanner"
+msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4349,9 +4537,30 @@ msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."
 msgstr "一緒により良いものにしていきましょう！ フィードバックをお寄せください。"
 
+
 msgctxt "WaitingPage|"
-msgid "Refresh"
-msgstr "更新"
+msgid "Loading"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Connection to %1"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Error: %1"
+msgstr "エラー: %1"
+
+msgctxt "WaitingPage|"
+msgid "Retry"
+msgstr "再試行"
+
+msgctxt "WaitingPage|"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "WaitingPage|"
+msgid "Abort"
+msgstr "中止"
 
 msgctxt "WhatsNewDialog|"
 msgid "New version is available"
@@ -4372,3 +4581,7 @@ msgstr "申し訳ございません、レポート送信に失敗しました。
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "レポートが送信されました。ご協力いただきありがとうございます！"
+
+msgctxt "main|"
+msgid "Remote connection to %1"
+msgstr ""

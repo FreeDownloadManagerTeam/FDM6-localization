@@ -299,6 +299,10 @@ msgid "Converting files to mp4 (%1)."
 msgstr "Конвертация файлов в mp4 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Renaming files (%1)."
+msgstr "Переименование файлов (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Объединение мультимедийных потоков (%1)."
 
@@ -309,6 +313,38 @@ msgstr "Удаление файлов"
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Выполняются операции, которые не могут быть возобновлены"
+
+msgctxt "AuthDialog|"
+msgid "Authentication required"
+msgstr "Необходима авторизация"
+
+msgctxt "AuthDialog|"
+msgid "%1 requires authentication"
+msgstr "%1 требуется авторизация"
+
+msgctxt "AuthDialog|"
+msgid "The site says: \"%1\"."
+msgstr "Сайт сообщает: \"%1\"."
+
+msgctxt "AuthDialog|"
+msgid "Username:"
+msgstr "Логин:"
+
+msgctxt "AuthDialog|"
+msgid "Password:"
+msgstr "Пароль:"
+
+msgctxt "AuthDialog|"
+msgid "remember"
+msgstr "запомнить"
+
+msgctxt "AuthDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "AuthDialog|"
+msgid "OK"
+msgstr "ОК"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -650,6 +686,14 @@ msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
 msgstr "Загружать файлы без подтверждения"
 
+msgctxt "BtSettings|"
+msgid "Advanced"
+msgstr "Дополнительные настройки"
+
+msgctxt "BtSettings|"
+msgid "Custom port:"
+msgstr "Пользовательский порт:"
+
 msgctxt "BtStrings|"
 msgid "Uploaded"
 msgstr "Роздано"
@@ -794,6 +838,37 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Начать загрузку"
 
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Connect to remote %1"
+msgstr "Подключиться удаленно %1"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on another device."
+msgstr "Здесь вы можете подключиться к %1, запущенному на другом устройстве."
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at %1 startup"
+msgstr "Автоматически подключаться к %1 при запуске"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
+msgstr ""
+"Здесь вы можете подключиться к %1, запущенному на вашем Windows/macOS/Linux "
+"PC"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter ID, or <a href='#'>scan QR code</a>"
+msgstr ""
+"Пожалуйста, введите идентификатор или <a href='#'>отсканируйте QR-код</a>"
+
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "Соединений нет"
@@ -853,6 +928,22 @@ msgstr "Копировать"
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
 msgstr "Вы уверены, что хотите выйти?"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Starting..."
+msgstr "Идет запуск…"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Failed to start."
+msgstr "Не удалось запустить."
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Error: %1"
+msgstr "Ошибка: %1"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "OK"
+msgstr "ОК"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1376,6 +1467,10 @@ msgid "Low"
 msgstr "Низкий"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Rename file"
+msgstr "Переименовать файл"
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
 msgstr "Переместить в..."
 
@@ -1700,6 +1795,10 @@ msgstr "SHA-1"
 msgctxt "FileIntegrityPage|"
 msgid "SHA-256"
 msgstr "SHA-256"
+
+msgctxt "FileIntegrityPage|"
+msgid "SHA-512"
+msgstr "SHA-512"
 
 msgctxt "FileIntegrityPage|"
 msgid "Hash"
@@ -2083,6 +2182,10 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
 
+msgctxt "HashAlgorithmCombobox|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
+
 msgctxt "ImportDialog|"
 msgid "Import"
 msgstr "Импорт"
@@ -2166,6 +2269,14 @@ msgstr "Настройки"
 msgctxt "LeftDrawer|"
 msgid "Contact support"
 msgstr "Служба поддержки"
+
+msgctxt "LeftDrawer|"
+msgid "Disconnect from remote %1"
+msgstr "Отключиться от пульта ДУ %1"
+
+msgctxt "LeftDrawer|"
+msgid "Connect to remote %1"
+msgstr "Подключиться к пульту ДУ %1"
 
 msgctxt "LeftDrawer|"
 msgid "About"
@@ -2290,6 +2401,14 @@ msgstr "Гибернация"
 msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "Выключение"
+
+msgctxt "MainMenu|"
+msgid "Disconnect from remote %1"
+msgstr "Отключиться от пульта ДУ %1"
+
+msgctxt "MainMenu|"
+msgid "Connect to remote %1"
+msgstr "Подключиться к пульту ДУ %1"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2594,6 +2713,10 @@ msgctxt "Mp4ConverterPage|"
 msgid "Save to"
 msgstr "Сохранить в"
 
+msgctxt "Mp4ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "Путь содержит недопустимые символы"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "Проверка обновлений..."
@@ -2823,8 +2946,8 @@ msgid "Cancel"
 msgstr "Отменить"
 
 msgctxt "PluginsPage|"
-msgid "%1 add-ons files (%2)"
-msgstr "%1 файлы дополнений (%2)"
+msgid "%1 add-ons files"
+msgstr "%1 файлов дополнений"
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
@@ -2865,6 +2988,7 @@ msgstr "Вы хотите установить их?"
 msgctxt "PluginsPage|"
 msgid "Would you like to install it?"
 msgstr "Вы хотите установить его?"
+
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
@@ -3384,6 +3508,10 @@ msgid "Unsupported format"
 msgstr "Неподдерживаемый формат"
 
 msgctxt "QObject|"
+msgid "Not found"
+msgstr "Не найдено"
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "Хост не найден"
 
@@ -3651,6 +3779,26 @@ msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
 msgstr "Отменить"
 
+msgctxt "RemoteControlSettings|"
+msgid "Remote Access (beta)"
+msgstr "Удаленный доступ (бета-версия)"
+
+msgctxt "RemoteControlSettings|"
+msgid "Allow remote access"
+msgstr "Разрешить удаленный доступ"
+
+msgctxt "RemoteControlSettings|"
+msgid "ID"
+msgstr "Идентификатор"
+
+msgctxt "RemoteControlSettings|"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "RemoteControlSettings|"
+msgid "Status"
+msgstr "Статус"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr "Удалённый ресурс изменён"
@@ -3666,6 +3814,42 @@ msgstr "Скачать заново"
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "Отменить"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Rename file"
+msgstr "Переименовать файл"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Enter new name"
+msgstr "Введите новое имя"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "A file with that name already exists."
+msgstr "Файл с таким именем уже существует."
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Rename file"
+msgstr "Переименовать файл"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Enter new name"
+msgstr "Введите новое имя"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "A file with that name already exists."
+msgstr "Файл с таким именем уже существует."
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -3882,6 +4066,10 @@ msgstr "Ограничение скорости"
 msgctxt "SettingsPage|"
 msgid "Antivirus"
 msgstr "Антивирус"
+
+msgctxt "SettingsPage|"
+msgid "Remote Access"
+msgstr "Удаленный доступ"
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
@@ -4111,6 +4299,10 @@ msgstr "Светлая"
 msgctxt "ThemeComboBox|"
 msgid "Dark"
 msgstr "Тёмная"
+
+msgctxt "Toast|"
+msgid "Please grant camera permission to use the QR scanner"
+msgstr "Пожалуйста, предоставьте камере разрешение на использование QR-сканера"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4373,8 +4565,29 @@ msgid "Let's make it better together! Give us your feedback."
 msgstr "Давайте вместе сделаем приложение лучше! Ждём ваших предложений."
 
 msgctxt "WaitingPage|"
-msgid "Refresh"
-msgstr "Обновить"
+msgid "Loading"
+msgstr "Загрузка"
+
+msgctxt "WaitingPage|"
+msgid "Connection to %1"
+msgstr "Подключение к %1"
+
+msgctxt "WaitingPage|"
+msgid "Error: %1"
+msgstr "Ошибка: %1"
+
+msgctxt "WaitingPage|"
+msgid "Retry"
+msgstr "Попробовать снова"
+
+msgctxt "WaitingPage|"
+msgid "Cancel"
+msgstr "Отменить"
+
+msgctxt "WaitingPage|"
+msgid "Abort"
+msgstr "Прервать"
+
 
 msgctxt "WhatsNewDialog|"
 msgid "New version is available"
@@ -4395,3 +4608,7 @@ msgstr "К сожалению, отчёт не отправлен, произо�
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "Отчёт отправлен. Спасибо за сотрудничество!"
+
+msgctxt "main|"
+msgid "Remote connection to %1"
+msgstr "Удаленное подключение к %1"

@@ -185,7 +185,8 @@ msgid "Use sounds"
 msgstr "사운드 사용"
 
 msgctxt "AdvancedSettings|"
-msgid "Do not allow downloads to perform post finished tasks when running on battery"
+msgid ""
+"Do not allow downloads to perform post finished tasks when running on battery"
 msgstr "배터리로 실행할 때 다운로드가 완료된 작업을 수행하도록 허용하지 않음"
 
 msgctxt "AdvancedSettings|"
@@ -297,6 +298,10 @@ msgid "Converting files to mp4 (%1)."
 msgstr "파일을 MP4 (%1)로 변환하는 중입니다."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Renaming files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "미디어 스트림 (%1)을 병합하는 중입니다."
 
@@ -307,6 +312,38 @@ msgstr "파일을 삭제하는 중입니다."
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "진행 중인 재개 기능이 없는 작업이 있습니다"
+
+msgctxt "AuthDialog|"
+msgid "Authentication required"
+msgstr "인증 필요"
+
+msgctxt "AuthDialog|"
+msgid "%1 requires authentication"
+msgstr ""
+
+msgctxt "AuthDialog|"
+msgid "The site says: \"%1\"."
+msgstr ""
+
+msgctxt "AuthDialog|"
+msgid "Username:"
+msgstr "사용자 이름:"
+
+msgctxt "AuthDialog|"
+msgid "Password:"
+msgstr "암호:"
+
+msgctxt "AuthDialog|"
+msgid "remember"
+msgstr "기억하기"
+
+msgctxt "AuthDialog|"
+msgid "Cancel"
+msgstr "취소"
+
+msgctxt "AuthDialog|"
+msgid "OK"
+msgstr "확인"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -545,7 +582,9 @@ msgid "Browser Integration"
 msgstr "브라우저 통합"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Make sure you have %1 extension installed, otherwise, click one of the buttons below"
+msgid ""
+"Make sure you have %1 extension installed, otherwise, click one of the "
+"buttons below"
 msgstr "%1 확장이 설치되어 있는지 확인하세요. 그렇지 않으면 아래 버튼 중 하나를 클릭합니다"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -611,9 +650,8 @@ msgstr ""
 "\n"
 "%1에 다운로드를 추가하는데 도움이 됩니다.\n"
 "\n"
-"이 중 일부 (예: Google Drive 다운로드)는 Android 시스템의 브라우저가 %1에 "
-"제공하지 않는 추가 정보가 필요하기 때문에 이 브라우저를 통해서만 추가할 수 있습니다 "
-"(또는 모든 브라우저에서 이러한 작업을 수행할 수 있는 보편적인 방법은 없습니다)."
+"이 중 일부 (예: Google Drive 다운로드)는 Android 시스템의 브라우저가 %1에 제공하지 않는 추가 정보가 필요하기 "
+"때문에 이 브라우저를 통해서만 추가할 수 있습니다 (또는 모든 브라우저에서 이러한 작업을 수행할 수 있는 보편적인 방법은 없습니다)."
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -642,6 +680,14 @@ msgstr "취소"
 msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
 msgstr "확인없이 다운로드 시작"
+
+msgctxt "BtSettings|"
+msgid "Advanced"
+msgstr "고급"
+
+msgctxt "BtSettings|"
+msgid "Custom port:"
+msgstr ""
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -787,6 +833,34 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "다운로드 시작"
 
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Connect to remote %1"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on another device."
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at %1 startup"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Cancel"
+msgstr "취소"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "OK"
+msgstr "확인"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter ID, or <a href='#'>scan QR code</a>"
+msgstr ""
+
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "연결이 없습니다"
@@ -847,8 +921,25 @@ msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
 msgstr "정말 그만 두시겠습니까?"
 
+msgctxt "CppQmlAppRcServer|"
+msgid "Starting..."
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Failed to start."
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Error: %1"
+msgstr "오류: %1"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "OK"
+msgstr "확인"
+
 msgctxt "CrashReporter|"
-msgid "An internal error occurred.<br>%1 needs to be restarted for further use."
+msgid ""
+"An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr "내부 오류가 발생했습니다. <br>%1을 다시 시작해야 나중에 사용할 수 있습니다."
 
 msgctxt "CrashReporter|"
@@ -880,7 +971,9 @@ msgid "Create portable version"
 msgstr "휴대용 버전 만들기"
 
 msgctxt "CreatePortableDialog|"
-msgid "Portable version of %1 can be used on different computers without the need to install and configure it on each of them."
+msgid ""
+"Portable version of %1 can be used on different computers without the need "
+"to install and configure it on each of them."
 msgstr "%1의 휴대용 버전은 각각의 컴퓨터에 설치 및 구성할 필요없이 다른 컴퓨터에서 사용할 수 있습니다."
 
 msgctxt "CreatePortableDialog|"
@@ -888,7 +981,9 @@ msgid "It can be conveniently placed on a flash disk, for example."
 msgstr "예를 들어 플래시 디스크에 편리하게 배치할 수 있습니다."
 
 msgctxt "CreatePortableDialog|"
-msgid "Specify here the path where you would like to create this version. It should be a folder on some removable drive."
+msgid ""
+"Specify here the path where you would like to create this version. It should "
+"be a folder on some removable drive."
 msgstr "이 버전을 만들 경로를 지정하십시오. 일부 이동식 드라이브의 폴더여야 합니다."
 
 msgctxt "CreatePortableDialog|"
@@ -1056,7 +1151,8 @@ msgid "Download Failure"
 msgstr "다운로드 실패"
 
 msgctxt "DownloadExpiredDialog|"
-msgid "Can't resume download. Download link likely expired. Resume attempts failed."
+msgid ""
+"Can't resume download. Download link likely expired. Resume attempts failed."
 msgstr "다운로드를 재개할 수 없습니다. 다운로드 링크가 만료되었을 수 있습니다. 다시 시도하지 못했습니다."
 
 msgctxt "DownloadExpiredDialog|"
@@ -1064,7 +1160,8 @@ msgid "Please try to update the download link to resume."
 msgstr "계속하려면 다운로드 링크를 업데이트하십시오."
 
 msgctxt "DownloadExpiredDialog|"
-msgid "Go to the website with the original download source and copy the renewed link"
+msgid ""
+"Go to the website with the original download source and copy the renewed link"
 msgstr "원본 다운로드 소스가 있는 웹 사이트로 이동하여 갱신된 링크를 복사합니다"
 
 msgctxt "DownloadExpiredDialog|"
@@ -1352,6 +1449,10 @@ msgid "Low"
 msgstr "낮음"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
 msgstr "이동..."
 
@@ -1508,7 +1609,8 @@ msgid "Extensions (e.g. \"avi mp3\")"
 msgstr "확장자 (예: \"avi mp3\")"
 
 msgctxt "EditTagDialog|"
-msgid "Extensions that are automatically assigned with this tag for new downloads"
+msgid ""
+"Extensions that are automatically assigned with this tag for new downloads"
 msgstr "새 다운로드를 위해 이 태그와 함께 자동으로 할당되는 확장자"
 
 msgctxt "EditTagDialog|"
@@ -1674,6 +1776,10 @@ msgstr "SHA-1"
 msgctxt "FileIntegrityPage|"
 msgid "SHA-256"
 msgstr "SHA-256"
+
+msgctxt "FileIntegrityPage|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
 
 msgctxt "FileIntegrityPage|"
 msgid "Hash"
@@ -2055,6 +2161,10 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
 
+msgctxt "HashAlgorithmCombobox|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
+
 msgctxt "ImportDialog|"
 msgid "Import"
 msgstr "가져오기"
@@ -2140,8 +2250,16 @@ msgid "Contact support"
 msgstr "지원 연락처"
 
 msgctxt "LeftDrawer|"
-msgid "About"
+msgid "Disconnect from remote %1"
 msgstr ""
+
+msgctxt "LeftDrawer|"
+msgid "Connect to remote %1"
+msgstr ""
+
+msgctxt "LeftDrawer|"
+msgid "About"
+msgstr "프로그램 정보"
 
 msgctxt "LeftDrawer|"
 msgid "Quit"
@@ -2262,6 +2380,14 @@ msgstr "최대 절전 모드"
 msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "시스템 종료"
+
+msgctxt "MainMenu|"
+msgid "Disconnect from remote %1"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Connect to remote %1"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2564,6 +2690,10 @@ msgctxt "Mp4ConverterPage|"
 msgid "Save to"
 msgstr "다음으로 저장"
 
+msgctxt "Mp4ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "경로에 유효하지 않은 문자가 포함되어 있습니다"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "업데이트 확인..."
@@ -2793,8 +2923,9 @@ msgid "Cancel"
 msgstr "취소"
 
 msgctxt "PluginsPage|"
-msgid "%1 add-ons files (%2)"
-msgstr "%1 추가 기능 파일 (%2)"
+msgid "%1 add-ons files"
+msgstr ""
+
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
@@ -2927,10 +3058,11 @@ msgstr "사용자 동의"
 msgctxt "PrivacyDialog|"
 msgid ""
 "A bug report will be sent to the server and used to improve %1 performance. "
-"We do not collect your personal data and do not share data with third parties."
+"We do not collect your personal data and do not share data with third "
+"parties."
 msgstr ""
-"버그 보고서가 서버로 전송되어 %1 성능을 개선하는데 사용됩니다. "
-"당사는 귀하의 개인 데이터를 수집하지 않으며 제 3자와 데이터를 공유하지 않습니다."
+"버그 보고서가 서버로 전송되어 %1 성능을 개선하는데 사용됩니다. 당사는 귀하의 개인 데이터를 수집하지 않으며 제 3자와 데이터를 "
+"공유하지 않습니다."
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
@@ -2963,7 +3095,9 @@ msgid "Fatal error: failed to load the database."
 msgstr "치명적인 오류: 데이터베이스를 로드하지 못했습니다."
 
 msgctxt "QObject|"
-msgid "Would you like to erase it (this will clear your downloads list and all %1 data)?"
+msgid ""
+"Would you like to erase it (this will clear your downloads list and all %1 "
+"data)?"
 msgstr "지우시겠습니까? (다운로드 목록과 모든 %1 데이터가 지워집니다)"
 
 msgctxt "QObject|"
@@ -3387,6 +3521,10 @@ msgid "Unsupported format"
 msgstr "지원되지 않는 형식"
 
 msgctxt "QObject|"
+msgid "Not found"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "호스트를 찾을 수 없습니다"
 
@@ -3618,6 +3756,26 @@ msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
 msgstr "취소"
 
+msgctxt "RemoteControlSettings|"
+msgid "Remote Access (beta)"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Allow remote access"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "ID"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Password"
+msgstr "암호"
+
+msgctxt "RemoteControlSettings|"
+msgid "Status"
+msgstr "상태"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr "원격 리소스가 변경됨"
@@ -3633,6 +3791,42 @@ msgstr "다시 다운로드"
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "취소"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "A file with that name already exists."
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Cancel"
+msgstr "취소"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "OK"
+msgstr "확인"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "OK"
+msgstr "확인"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "A file with that name already exists."
+msgstr ""
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -3849,6 +4043,10 @@ msgstr "트래픽 제한"
 msgctxt "SettingsPage|"
 msgid "Antivirus"
 msgstr "바이러스 백신"
+
+msgctxt "SettingsPage|"
+msgid "Remote Access"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
@@ -4077,6 +4275,10 @@ msgstr "밝은 테마"
 msgctxt "ThemeComboBox|"
 msgid "Dark"
 msgstr "어두운 테마"
+
+msgctxt "Toast|"
+msgid "Please grant camera permission to use the QR scanner"
+msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4338,9 +4540,30 @@ msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."
 msgstr "우리 함께 더 좋게 만들어요! 우리에게 피드백을 주세요."
 
+
 msgctxt "WaitingPage|"
-msgid "Refresh"
-msgstr "새로 고침"
+msgid "Loading"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Connection to %1"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Error: %1"
+msgstr "오류: %1"
+
+msgctxt "WaitingPage|"
+msgid "Retry"
+msgstr "재시도"
+
+msgctxt "WaitingPage|"
+msgid "Cancel"
+msgstr "취소"
+
+msgctxt "WaitingPage|"
+msgid "Abort"
+msgstr "중단"
 
 msgctxt "WhatsNewDialog|"
 msgid "New version is available"
@@ -4361,3 +4584,7 @@ msgstr "보고서가 전송되지 않았습니다. 오류가 발생했습니다:
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "보고서가 전송되었습니다. 협조해 주셔서 감사합니다!"
+
+msgctxt "main|"
+msgid "Remote connection to %1"
+msgstr ""
