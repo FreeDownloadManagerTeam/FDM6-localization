@@ -840,11 +840,19 @@ msgstr "Начать загрузку"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
-msgstr "Подключиться удаленно %1"
+msgstr "Подключиться к удаленному %1"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "(beta)"
+msgstr "(бета-версия)"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
 msgstr "Здесь вы можете подключиться к %1, запущенному на другом устройстве."
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at startup"
+msgstr "Автоматически подключаться при запуске"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
@@ -2184,7 +2192,7 @@ msgstr "SHA-256"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-512"
-msgstr "SHA-256: {512?}"
+msgstr "SHA-512"
 
 msgctxt "ImportDialog|"
 msgid "Import"
@@ -2272,11 +2280,11 @@ msgstr "Служба поддержки"
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
-msgstr "Отключиться от пульта ДУ %1"
+msgstr "Отключиться от %1 на другом устройстве"
 
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
-msgstr "Подключиться к пульту ДУ %1"
+msgstr "Подключиться к %1 на другом устройстве"
 
 msgctxt "LeftDrawer|"
 msgid "About"
@@ -2404,11 +2412,11 @@ msgstr "Выключение"
 
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
-msgstr "Отключиться от пульта ДУ %1"
+msgstr "Отключиться от %1 на другом устройстве"
 
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
-msgstr "Подключиться к пульту ДУ %1"
+msgstr "Подключиться к %1 на другом устройстве"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2988,7 +2996,6 @@ msgstr "Вы хотите установить их?"
 msgctxt "PluginsPage|"
 msgid "Would you like to install it?"
 msgstr "Вы хотите установить его?"
-
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
@@ -3780,12 +3787,16 @@ msgid "Cancel"
 msgstr "Отменить"
 
 msgctxt "RemoteControlSettings|"
-msgid "Remote Access (beta)"
-msgstr "Удаленный доступ (бета-версия)"
+msgid "Remote Access"
+msgstr "Удаленный доступ"
 
 msgctxt "RemoteControlSettings|"
-msgid "Allow remote access"
-msgstr "Разрешить удаленный доступ"
+msgid "(beta)"
+msgstr "(бета-версия)"
+
+msgctxt "RemoteControlSettings|"
+msgid "Allow remote access to %1 running on this device"
+msgstr "Разрешить удаленный доступ к %1 на этом устройстве"
 
 msgctxt "RemoteControlSettings|"
 msgid "ID"
@@ -4587,7 +4598,6 @@ msgstr "Отменить"
 msgctxt "WaitingPage|"
 msgid "Abort"
 msgstr "Прервать"
-
 
 msgctxt "WhatsNewDialog|"
 msgid "New version is available"
