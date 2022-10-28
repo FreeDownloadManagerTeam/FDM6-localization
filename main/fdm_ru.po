@@ -90,7 +90,7 @@ msgstr "Уведомления"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of added downloads via Notification Center"
-msgstr "Оповещать меня о добавленных загрузках через Центр Уведомлений"
+msgstr "Уведомлять о добавленных загрузках через Центр Уведомлений"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
@@ -98,11 +98,11 @@ msgstr "Уведомлять о завершении загрузок через
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr "Уведомлять о неудаче при загрузке через Центр Уведомлений"
+msgstr "Уведомлять о неудачных загрузках через Центр Уведомлений"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
-msgstr "Уведомлять меня о загрузках только когда окно %1 неактивно"
+msgstr "Уведомлять о загрузках, только когда окно %1 неактивно"
 
 msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
@@ -118,11 +118,11 @@ msgstr "Не включать режим сна компьютера при на
 
 msgctxt "AdvancedSettings|"
 msgid "Enable sleep mode while running finished downloads"
-msgstr "Переводить компьютер в режим сна после завершения активных закачек"
+msgstr "Переводить компьютер в режим сна по завершении активных загрузок"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
-msgstr "Опции"
+msgstr "Параметры"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch at startup (minimized)"
@@ -138,11 +138,11 @@ msgstr "Интерфейс"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "Открывать/закрывать нижнюю панель по клику на загрузку"
+msgstr "Открывать/скрывать нижнюю панель по щелчку на загрузку"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
-msgstr "Указывать активные загрузки с помощью иконки панели задач"
+msgstr "Показывать активность загрузки с помощью значка в трее"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore hidden state when finished adding new downloads"
@@ -308,7 +308,7 @@ msgstr "Объединение мультимедийных потоков (%1).
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
-msgstr "Удаление файлов"
+msgstr "Удаление файлов."
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -476,7 +476,7 @@ msgstr "С %1 %2 до %3 %4"
 
 msgctxt "BitrateComboBox|"
 msgid "CD quality"
-msgstr "CD качество"
+msgstr "Качество CD"
 
 msgctxt "BitrateComboBox|"
 msgid "High quality"
@@ -520,7 +520,7 @@ msgstr "Соединения"
 
 msgctxt "Browser|"
 msgid "Enter URL"
-msgstr "Введите URL"
+msgstr "Введите ссылку"
 
 msgctxt "Browser|"
 msgid "Bookmark removed"
@@ -804,7 +804,7 @@ msgstr "Расположение файла: %1"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
-msgstr "Некорректный URL"
+msgstr "Неверная ссылка"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Start download"
@@ -840,7 +840,7 @@ msgstr "Начать загрузку"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
-msgstr "Подключиться к удаленному %1"
+msgstr "Подключиться к удалённому %1"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
@@ -939,7 +939,7 @@ msgstr "Вы уверены, что хотите выйти?"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Starting..."
-msgstr "Идет запуск…"
+msgstr "Запускается…"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
@@ -1074,7 +1074,7 @@ msgstr "Нет активных загрузок"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Set sound"
-msgstr "Задать звук"
+msgstr "Выбрать звук"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Remove"
@@ -1320,7 +1320,7 @@ msgstr "Не найдено результатов по запросу"
 
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
-msgstr "Загрузки с тегом \"%1\" не найдены"
+msgstr "Загрузки с меткой \"%1\" не найдены"
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
@@ -1336,7 +1336,7 @@ msgstr "Показать все"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
-msgstr "Список загрузок пуст. Добавьте новый URL для скачивания."
+msgstr "Список загрузок пуст. Добавьте новую ссылку для скачивания."
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1368,23 +1368,23 @@ msgstr "Папка по умолчанию для сохранения"
 
 msgctxt "DownloadsSettings|"
 msgid "Choose default download folder automatically"
-msgstr "Предлагать автоматически выбранную папку для сохранения"
+msgstr "Выбирать папку сохранения автоматически"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on file type"
-msgstr "Предлагать папку для сохранения по типу файла"
+msgstr "Предлагать папку сохранения на основе типа файла"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on download URL"
-msgstr "Предлагать папку для сохранения по адресу ссылки"
+msgstr "Предлагать папку сохранения на основе адреса загрузки"
 
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
-msgstr "Предлагать фиксированную папку для сохранения"
+msgstr "Постоянная папка сохранения"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
-msgstr "Удалить тег"
+msgstr "Снять метку"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Name"
@@ -1516,7 +1516,7 @@ msgstr "Экспорт выбранных загрузок"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
-msgstr "Добавить тег"
+msgstr "Добавить метку"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "File integrity"
@@ -1624,25 +1624,25 @@ msgstr "Завершено"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
-msgstr "Редактировать тег"
+msgstr "Править метку"
 
 msgctxt "EditTagDialog|"
 msgid "Tag"
-msgstr "Тег"
+msgstr "Метка"
 
 msgctxt "EditTagDialog|"
 msgid "Extensions (e.g. \"avi mp3\")"
-msgstr "Расширения (например \"avi mp3\")"
+msgstr "Расширения (например, \"avi mp3\")"
 
 msgctxt "EditTagDialog|"
 msgid ""
 "Extensions that are automatically assigned with this tag for new downloads"
 msgstr ""
-"Расширения, которым автоматически присваивается этот тег для новых загрузок"
+"Расширения, которым автоматически присваивается эта метка для новых загрузок"
 
 msgctxt "EditTagDialog|"
 msgid "Default download folder"
-msgstr "Папка по умолчанию для сохранения"
+msgstr "Папка сохранения по умолчанию"
 
 msgctxt "EditTagDialog|"
 msgid "Open"
@@ -2014,7 +2014,7 @@ msgstr "Загрузки"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
-msgstr "Предлагать папку для сохранения по типу файла"
+msgstr "Предлагать папку сохранения на основе типа файла"
 
 msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
@@ -2034,15 +2034,15 @@ msgstr "Папка по умолчанию для сохранения"
 
 msgctxt "GeneralSettings|"
 msgid "Choose default download folder automatically"
-msgstr "Предлагать автоматически выбранную папку для сохранения"
+msgstr "Выбирать папку сохранения автоматически"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
-msgstr "Предлагать папку для сохранения по адресу ссылки"
+msgstr "Предлагать папку сохранения на основе адреса загрузки"
 
 msgctxt "GeneralSettings|"
 msgid "Fixed default download folder"
-msgstr "Предлагать фиксированную папку для сохранения"
+msgstr "Постоянная папка сохранения"
 
 msgctxt "GeneralSettings|"
 msgid "Open"
@@ -2082,7 +2082,7 @@ msgstr "Использовать время сервера для даты со�
 
 msgctxt "GeneralSettings|"
 msgid "Maximum urls count in batch download"
-msgstr "Макс. кол-во ссылок в пакетной загрузке"
+msgstr "Максимум ссылок в пакетной загрузке"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -2280,11 +2280,11 @@ msgstr "Служба поддержки"
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
-msgstr "Отключиться от %1 на другом устройстве"
+msgstr "Отключить удалённый %1"
 
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
-msgstr "Подключиться к %1 на другом устройстве"
+msgstr "Удалённое подключение к %1"
 
 msgctxt "LeftDrawer|"
 msgid "About"
@@ -2308,11 +2308,11 @@ msgstr "Скрыть"
 
 msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
-msgstr "%content_type% - тип контента (например \"Музыка\")"
+msgstr "%content_type% - тип содержимого (например, \"Музыка\")"
 
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
-msgstr "%server% - имя сервера (например \"%1\")"
+msgstr "%server% - имя сервера (например, \"%1\")"
 
 msgctxt "MacrosMenu|"
 msgid "%path_on_server% - path to the downloading file on the server"
@@ -2332,7 +2332,7 @@ msgstr "%day% - текущий день"
 
 msgctxt "MacrosMenu|"
 msgid "%date% - equivalent to %year%-%month%-%day%"
-msgstr "%date% - эквивалент %year%-%month%-%day%"
+msgstr "%date% - аналогично %year%-%month%-%day%"
 
 msgctxt "MainFiltersBar|"
 msgid "All"
@@ -2352,7 +2352,7 @@ msgstr "Завершённые"
 
 msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
-msgstr "Удалить тег?"
+msgstr "Удалить метку?"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
@@ -2364,7 +2364,7 @@ msgstr "Вставить ссылки из файла"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
-msgstr "Экспорт/Импорт"
+msgstr "Экспорт/импорт"
 
 msgctxt "MainMenu|"
 msgid "Export all downloads"
@@ -2412,11 +2412,11 @@ msgstr "Выключение"
 
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
-msgstr "Отключиться от %1 на другом устройстве"
+msgstr "Отключить удалённый %1"
 
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
-msgstr "Подключиться к %1 на другом устройстве"
+msgstr "Удалённое подключение к %1"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2428,7 +2428,7 @@ msgstr "Проверка обновлений..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
-msgstr "Присоединяйтесь к мозаике..."
+msgstr "Присоединиться к мозаике..."
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -2739,23 +2739,23 @@ msgstr "Выход"
 
 msgctxt "NativeMenuBar|"
 msgid "&File"
-msgstr "Файл"
+msgstr "&Файл"
 
 msgctxt "NativeMenuBar|"
 msgid "Add &new download"
-msgstr "Добавить новую загрузку"
+msgstr "Добавить &новую загрузку"
 
 msgctxt "NativeMenuBar|"
 msgid "&Edit"
-msgstr "Редактировать"
+msgstr "&Правка"
 
 msgctxt "NativeMenuBar|"
 msgid "&Copy"
-msgstr "Копировать"
+msgstr "&Копировать"
 
 msgctxt "NativeMenuBar|"
 msgid "&Paste"
-msgstr "Вставить"
+msgstr "&Вставить"
 
 msgctxt "NativeMenuBar|"
 msgid "Downloads"
@@ -2779,7 +2779,7 @@ msgstr "Удалить из списка"
 
 msgctxt "NativeMenuBar|"
 msgid "Help"
-msgstr "Помощь"
+msgstr "Справка"
 
 msgctxt "NativeMenuBar|"
 msgid "Contact Support"
@@ -2891,7 +2891,7 @@ msgstr "Недопустимое значение"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
-msgstr "Must be a number greater than 0."
+msgstr "Должно быть число больше 0."
 
 msgctxt "Page|"
 msgid "Info"
@@ -2975,7 +2975,7 @@ msgstr "Дополнение запрашивает небезопасное р�
 
 msgctxt "PluginsPage|"
 msgid "Please install add-ons from trusted sources only."
-msgstr "Пожалуйста, устанавливайте дополнения только из надёжных источников"
+msgstr "Пожалуйста, устанавливайте дополнения только из надёжных источников."
 
 msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
@@ -2987,7 +2987,7 @@ msgstr "Нет следующих необходимых компонентов:
 
 msgctxt "PluginsPage|"
 msgid "%1 is required."
-msgstr "%1 необходим"
+msgstr "%1 необходим."
 
 msgctxt "PluginsPage|"
 msgid "Would you like to install them?"
@@ -3091,7 +3091,7 @@ msgid ""
 "We do not collect your personal data and do not share data with third "
 "parties."
 msgstr ""
-"Отчет об ошибке будет отправлен на сервер и использован для улучшения работы "
+"Отчёт об ошибке будет отправлен на сервер и использован для улучшения работы "
 "%1. Мы не собираем ваши личные данные и не передаём данные третьим лицам."
 
 msgctxt "PrivacyDialog|"
@@ -3148,7 +3148,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Enter URL"
-msgstr "Введите URL"
+msgstr "Введите ссылку"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
@@ -3364,7 +3364,7 @@ msgstr "Я - чайничек"
 
 msgctxt "QObject|"
 msgid "Authentication Timeout"
-msgstr "Истёк срок действия проверки подлинности."
+msgstr "Истёк срок действия проверки подлинности"
 
 msgctxt "QObject|"
 msgid "Method Failure / Enhance Your Calm"
@@ -3420,7 +3420,7 @@ msgstr "Заблокировано службой родительского к�
 
 msgctxt "QObject|"
 msgid "Unavailable For Legal Reasons"
-msgstr "Недоступно по юридическим причинам."
+msgstr "Недоступно по юридическим причинам"
 
 msgctxt "QObject|"
 msgid "Request Header Too Large"
@@ -3464,7 +3464,7 @@ msgstr "Служба недоступна"
 
 msgctxt "QObject|"
 msgid "Gateway Timeout"
-msgstr " Таймаут запроса в ожидании шлюза."
+msgstr "Таймаут запроса в ожидании шлюза"
 
 msgctxt "QObject|"
 msgid "HTTP Version Not Supported"
@@ -3472,11 +3472,11 @@ msgstr "HTTP не поддерживается"
 
 msgctxt "QObject|"
 msgid "Variant Also Negotiates"
-msgstr "Вариант Также Обсуждается"
+msgstr "Вариант также обсуждается"
 
 msgctxt "QObject|"
 msgid "Insufficient Storage"
-msgstr "Недостаточно Памяти"
+msgstr "Недостаточно места"
 
 msgctxt "QObject|"
 msgid "Loop Detected"
@@ -3484,19 +3484,19 @@ msgstr "Зацикливание"
 
 msgctxt "QObject|"
 msgid "Bandwidth Limit Exceeded"
-msgstr "Превышена Пропускная Способность"
+msgstr "Превышена пропускная способность"
 
 msgctxt "QObject|"
 msgid "Not Extended"
-msgstr "Не Расширено"
+msgstr "Не расширено"
 
 msgctxt "QObject|"
 msgid "Network Authentication Required"
-msgstr "Требуется Сетевая Аутентификация"
+msgstr "Требуется сетевая аутентификация"
 
 msgctxt "QObject|"
 msgid "Network read timeout error"
-msgstr "Превышено время  ожидания"
+msgstr "Превышено время ожидания"
 
 msgctxt "QObject|"
 msgid "Network connect timeout error"
@@ -3576,7 +3576,7 @@ msgstr "Ошибка обработки содержимого страницы"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
-msgstr "Неподдерживаемый URL"
+msgstr "Неподдерживаемая ссылка"
 
 msgctxt "QObject|"
 msgid "Untitled"
@@ -3648,7 +3648,7 @@ msgstr "Хотите стереть (это очистит ваш список �
 
 msgctxt "QObject|"
 msgid "Failed."
-msgstr "Сбой"
+msgstr "Сбой."
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
@@ -3656,7 +3656,7 @@ msgstr "Пропущен параметр %path%."
 
 msgctxt "QObject|"
 msgid "Update URL"
-msgstr "Обновить URL"
+msgstr "Обновить ссылку"
 
 msgctxt "QObject|"
 msgid "Documents"
@@ -3684,7 +3684,7 @@ msgstr "ОСТАНОВИТЬ ВСЕ"
 
 msgctxt "QObject|"
 msgid "Downloading..."
-msgstr "Идёт загрузка..."
+msgstr "Загружается..."
 
 msgctxt "QObject|"
 msgid "DISABLE SNAIL MODE"
@@ -3752,11 +3752,11 @@ msgstr "QIODevice::Append не поддерживается для GZIP"
 
 msgctxt "QuaGzipFile|"
 msgid "Opening gzip for both reading and writing is not supported"
-msgstr "Открытие файлов gzip для чтения и написания не поддерживается"
+msgstr "Открытие файлов gzip для чтения и записи не поддерживается"
 
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr "Можно открыть файлы gzip для чтения или письма. Что выбрать?"
+msgstr "Можно открыть файлы gzip для чтения или записи. Что выбрать?"
 
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
@@ -3788,7 +3788,7 @@ msgstr "Отменить"
 
 msgctxt "RemoteControlSettings|"
 msgid "Remote Access"
-msgstr "Удаленный доступ"
+msgstr "Удалённый доступ"
 
 msgctxt "RemoteControlSettings|"
 msgid "(beta)"
@@ -3796,7 +3796,7 @@ msgstr "(бета-версия)"
 
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
-msgstr "Разрешить удаленный доступ к %1 на этом устройстве"
+msgstr "Разрешить удалённый доступ к %1 на этом устройстве"
 
 msgctxt "RemoteControlSettings|"
 msgid "ID"
@@ -3920,7 +3920,7 @@ msgstr "СБ"
 
 msgctxt "Scheduler|"
 msgid "From:"
-msgstr "С"
+msgstr "С:"
 
 msgctxt "Scheduler|"
 msgid "Everyday"
@@ -3928,7 +3928,7 @@ msgstr "Ежедневно"
 
 msgctxt "Scheduler|"
 msgid "To:"
-msgstr "До"
+msgstr "До:"
 
 msgctxt "SchedulerButton|"
 msgid "Scheduler"
@@ -3944,7 +3944,7 @@ msgstr "Планировщик"
 
 msgctxt "SchedulerDialog|"
 msgid "Start and pause downloads at specified time"
-msgstr "Начинать и приостанавливать загрузки в установленное время"
+msgstr "Начинать и приостанавливать загрузки в указанное время"
 
 msgctxt "SchedulerDialog|"
 msgid "Enable Scheduler"
@@ -4048,7 +4048,7 @@ msgstr "По убыванию"
 
 msgctxt "SettingsPage|"
 msgid "Invalid settings"
-msgstr "Некорректные настройки"
+msgstr "Неверные настройки"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
@@ -4080,11 +4080,11 @@ msgstr "Антивирус"
 
 msgctxt "SettingsPage|"
 msgid "Remote Access"
-msgstr "Удаленный доступ"
+msgstr "Удалённый доступ"
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
-msgstr "Дополнительные"
+msgstr "Расширенные"
 
 msgctxt "SettingsPage|"
 msgid "Settings"
@@ -4141,7 +4141,7 @@ msgstr ""
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be shutdown after all downloads are completed."
-msgstr "Компьютер будет выключен после загрузки всех файлов."
+msgstr "Компьютер будет выключен по завершении загрузки всех файлов."
 
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
@@ -4201,7 +4201,7 @@ msgstr "SSL-сертификат недействителен."
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
-msgstr "\"Отпечатки пальцев\" сертификата"
+msgstr "Отпечатки сертификата"
 
 msgctxt "SslDialog|"
 msgid "SHA-256:"
@@ -4261,7 +4261,7 @@ msgstr "Остановить загрузку"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing."
-msgstr "Эта закачка(и) не может быть возобновлена(ы) после остановки"
+msgstr "Эта загрузка(и) не может быть возобновлена(ы) после остановки."
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause"
@@ -4277,7 +4277,7 @@ msgstr "Эта закачка не может быть возобновлена 
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
-msgstr "Эта закачка(и) не может быть возобновлена(ы) после остановки."
+msgstr "Эта закачка(и) не может быть возобновлена(ы) после остановки"
 
 msgctxt "Subtitles|"
 msgid "Download subtitles"
@@ -4285,11 +4285,11 @@ msgstr "Скачать субтитры"
 
 msgctxt "Subtitles|"
 msgid "Edit list"
-msgstr "Редактировать список"
+msgstr "Править список"
 
 msgctxt "TagMenu|"
 msgid "Edit"
-msgstr "Редактировать"
+msgstr "Править"
 
 msgctxt "TagMenu|"
 msgid "Remove"
@@ -4341,15 +4341,15 @@ msgstr "Скорость раздачи"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections"
-msgstr "Макс. кол-во соединений"
+msgstr "Максимум соединений"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections per server"
-msgstr "Макс. кол-во соединений на сервер"
+msgstr "Максимум соединений на сервер"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of simultaneous downloads"
-msgstr "Макс. кол-во одновременных загрузок"
+msgstr "Максимум одновременных загрузок"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
@@ -4373,7 +4373,7 @@ msgstr "без ограничений"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
-msgstr "Загрузка: %1, Раздача: %2"
+msgstr "Загрузка: %1, Отдача: %2"
 
 msgctxt "TumComboBox|"
 msgid "High"
@@ -4409,7 +4409,7 @@ msgstr "Без ограничений"
 
 msgctxt "TumModeBlock|"
 msgid "Max. number of simultaneous downloads"
-msgstr "Макс. количество одновременных загрузок"
+msgstr "Максимум одновременных загрузок"
 
 msgctxt "TumModeBlock|"
 msgid "Snail mode"
@@ -4449,11 +4449,11 @@ msgstr "Имя файла"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
-msgstr "Нет доступа на запись в выбранную директорию"
+msgstr "Нет доступа на запись в выбранный каталог"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "Размер: %1 (Место на диске: %2)"
+msgstr "Размер: %1 (место на диске: %2)"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
@@ -4461,7 +4461,7 @@ msgstr "Размер: %1"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
-msgstr "Проверить на обновления..."
+msgstr "Проверка обновлений..."
 
 msgctxt "UpdateDialog|"
 msgid "Error:"
@@ -4481,7 +4481,7 @@ msgstr "Доступна новая версия"
 
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
-msgstr "Что нового в %1"
+msgstr "Новое в %1"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -4521,11 +4521,11 @@ msgstr "Установка обновлений"
 
 msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
-msgstr "Появилась ошибка во время установки:"
+msgstr "Возникла ошибка во время установки:"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
-msgstr "Перезапустить %1, чтобы обновить"
+msgstr "Перезапустить %1 для обновления"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch"
@@ -4565,11 +4565,11 @@ msgstr "Позже"
 
 msgctxt "VoteBlock|"
 msgid "No, thanks"
-msgstr "Нет"
+msgstr "Нет, спасибо"
 
 msgctxt "VoteBlock|"
 msgid "OK, sure!"
-msgstr "OK"
+msgstr "Да, конечно!"
 
 msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."
@@ -4605,7 +4605,7 @@ msgstr "Доступна новая версия"
 
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
-msgstr "Что нового в %1"
+msgstr "Новое в %1"
 
 msgctxt "WhatsNewDialog|"
 msgid "Update"
@@ -4613,7 +4613,7 @@ msgstr "Обновить"
 
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
-msgstr "К сожалению, отчёт не отправлен, произошла ошибка: %1"
+msgstr "К сожалению, отчёт не был отправлен, произошла ошибка: %1"
 
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
@@ -4621,4 +4621,4 @@ msgstr "Отчёт отправлен. Спасибо за сотрудниче�
 
 msgctxt "main|"
 msgid "Remote connection to %1"
-msgstr "Удаленное подключение к %1"
+msgstr "Удалённое подключение к %1"
