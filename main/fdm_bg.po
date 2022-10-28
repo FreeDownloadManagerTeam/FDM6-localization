@@ -145,12 +145,6 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "Показване на активно изтегляне и качване с чрез иконата в трея"
 
 msgctxt "AdvancedSettings|"
-msgid "Restore hidden state when finished adding new downloads"
-msgstr ""
-"Възстановяване на скрито състояние когато завършите добавянето на нови "
-"изтегляния"
-
-msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "Връщане към настройките по подразбиране"
 
@@ -204,6 +198,22 @@ msgstr "Разрешаване на ред от изтегляния указа�
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
 msgstr "Показване на бутона \"Запиши като...\""
+
+msgctxt "AdvancedSettings|"
+msgid "Enable standalone create new downloads windows"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Overall zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Fonts zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -303,7 +313,7 @@ msgstr "Конвертиране на файлове в mp4 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
-msgstr ""
+msgstr "Преименуване на файлове (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
@@ -323,7 +333,7 @@ msgstr "Необходима е идентификация"
 
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
-msgstr ""
+msgstr "%1 изисква удостоверяване"
 
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
@@ -694,7 +704,7 @@ msgstr "Допълнителни"
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
-msgstr ""
+msgstr "Порт по избор:"
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -842,23 +852,23 @@ msgstr "Започни изтегляне"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "Отдалечено свързване с"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
-msgstr ""
+msgstr "(бета)"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
-msgstr ""
+msgstr "Тук можете да се свържете с %1 работещ на друго устройство."
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
-msgstr ""
+msgstr "Автоматично свързване при стартиране"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
-msgstr ""
+msgstr "Автоматично свързване с %1 при стартиране"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Cancel"
@@ -871,10 +881,12 @@ msgstr "OK"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
+"Тук можете да се свържете с %1 който работи на вашия компютър с "
+"Windows/macOS/Linux"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr ""
+msgstr "Моля въведете вашето ID или <a href='#'>сканирайте QR код</a>"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -938,11 +950,11 @@ msgstr "Сигурни ли сте че искате да излезете?"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Starting..."
-msgstr ""
+msgstr "Стартиране..."
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
-msgstr ""
+msgstr "Неуспешно стартиране."
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
@@ -1471,7 +1483,7 @@ msgstr "Нисък"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
-msgstr ""
+msgstr "Преименуване на файл"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
@@ -2274,11 +2286,11 @@ msgstr "Техническа поддръжка"
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
-msgstr ""
+msgstr "Прекъсване на връзката с отдалечения %1"
 
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "Отдалечено свързване с %1"
 
 msgctxt "LeftDrawer|"
 msgid "About"
@@ -2406,11 +2418,11 @@ msgstr "Изключване"
 
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
-msgstr ""
+msgstr "Прекъсване на връзката с отдалечения %1"
 
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "Отдалечено свързване с %1"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2950,7 +2962,7 @@ msgstr "Отказ"
 
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
-msgstr ""
+msgstr "%1 файла с добавки"
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
@@ -3511,7 +3523,7 @@ msgstr "Неподдържан формат"
 
 msgctxt "QObject|"
 msgid "Not found"
-msgstr ""
+msgstr "Не е открит"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -3786,19 +3798,19 @@ msgstr "Отказ"
 
 msgctxt "RemoteControlSettings|"
 msgid "Remote Access"
-msgstr ""
+msgstr "Отдалечен достъп"
 
 msgctxt "RemoteControlSettings|"
 msgid "(beta)"
-msgstr ""
+msgstr "(бета)"
 
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
-msgstr ""
+msgstr "Позволяване на отдалечен достъп до %1 работещ на това устройство"
 
 msgctxt "RemoteControlSettings|"
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 msgctxt "RemoteControlSettings|"
 msgid "Password"
@@ -3826,15 +3838,15 @@ msgstr "Отказ"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Rename file"
-msgstr ""
+msgstr "Преименуване на файл"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Enter new name"
-msgstr ""
+msgstr "Въведете ново име"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "A file with that name already exists."
-msgstr ""
+msgstr "Файл с това име вече съществува."
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Cancel"
@@ -3846,7 +3858,7 @@ msgstr "OK"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "Rename file"
-msgstr ""
+msgstr "Преименуване на файл"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "OK"
@@ -3854,11 +3866,11 @@ msgstr "OK"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "Enter new name"
-msgstr ""
+msgstr "Въведете ново име"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "A file with that name already exists."
-msgstr ""
+msgstr "Файл с това име вече съществува."
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -4078,7 +4090,7 @@ msgstr "Антивирус"
 
 msgctxt "SettingsPage|"
 msgid "Remote Access"
-msgstr ""
+msgstr "Отдалечен достъп"
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
@@ -4113,8 +4125,8 @@ msgid "Go back to default settings"
 msgstr "Връщане на настройките по подразбиране"
 
 msgctxt "SettingsPage|"
-msgid "Reset"
-msgstr "Нулиране"
+msgid "Reset settings"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
@@ -4310,7 +4322,7 @@ msgstr "Тъмна"
 
 msgctxt "Toast|"
 msgid "Please grant camera permission to use the QR scanner"
-msgstr ""
+msgstr "Моля разрешете достъпа до камерата за да сканирате QR кодове"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4574,11 +4586,11 @@ msgstr "Да направим FDM по-добър заедно! Дайте ни 
 
 msgctxt "WaitingPage|"
 msgid "Loading"
-msgstr ""
+msgstr "Зареждане"
 
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
-msgstr ""
+msgstr "Връзка с %1"
 
 msgctxt "WaitingPage|"
 msgid "Error: %1"
@@ -4618,4 +4630,4 @@ msgstr "Докладът е изпратен. Благодарим Ви за с�
 
 msgctxt "main|"
 msgid "Remote connection to %1"
-msgstr ""
+msgstr "Отдалечено свързване с %1"

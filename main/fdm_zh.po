@@ -14,7 +14,7 @@ msgstr "关于"
 
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
-msgstr "版本：%1（%2）"
+msgstr "版本：%1 (%2)"
 
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
@@ -42,7 +42,7 @@ msgstr "添加镜像"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr "输入镜像URL"
+msgstr "输入镜像链接"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
@@ -62,7 +62,7 @@ msgstr "确定"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
-msgstr "输入镜像URL"
+msgstr "输入镜像链接"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -126,7 +126,7 @@ msgstr "选项"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch at startup (minimized)"
-msgstr "在启动时加载（最小化）"
+msgstr "在启动时加载 (最小化)"
 
 msgctxt "AdvancedSettings|"
 msgid "Show special offers"
@@ -145,10 +145,6 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "在托盘图标中显示活动下载和上传速度"
 
 msgctxt "AdvancedSettings|"
-msgid "Restore hidden state when finished adding new downloads"
-msgstr "添加完新下载项后恢复隐藏状态"
-
-msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "返回默认设置"
 
@@ -162,7 +158,7 @@ msgstr "默认设置"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore default settings?"
-msgstr "重置为默认设置"
+msgstr "重置为默认设置？"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -200,6 +196,22 @@ msgstr "启用用户定义的下载顺序"
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
 msgstr "显示“另存为”按钮"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable standalone create new downloads windows"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Overall zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Fonts zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -319,11 +331,11 @@ msgstr "需要身份验证"
 
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
-msgstr "%1需要认证"
+msgstr "%1 要求验证"
 
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
-msgstr "站点回应： \"%1\"。"
+msgstr "此站点响应：\"%1\"."
 
 msgctxt "AuthDialog|"
 msgid "Username:"
@@ -351,7 +363,7 @@ msgstr "需要身份验证"
 
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
-msgstr "此站点响应:\"%1\"."
+msgstr "此站点响应：\"%1\"."
 
 msgctxt "AuthenticationDialog|"
 msgid "Username:"
@@ -383,7 +395,7 @@ msgstr "确定"
 
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
-msgstr "此站点响应: \"%1\"."
+msgstr "此站点响应：\"%1\"."
 
 msgctxt "AuthenticationPage|"
 msgid "Username"
@@ -551,7 +563,7 @@ msgstr "否"
 
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
-msgstr "返回%1"
+msgstr "返回 %1"
 
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
@@ -571,11 +583,11 @@ msgstr "添加书签"
 
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
-msgstr "下载%1浏览器扩展"
+msgstr "下载 %1 浏览器扩展"
 
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
-msgstr "%1浏览器扩展未安装"
+msgstr "%1 浏览器扩展未安装"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
@@ -648,10 +660,10 @@ msgid ""
 msgstr ""
 "您将打开一个内建浏览器。\n"
 "\n"
-"这将帮助您添加下载项到%1.\n"
+"这将帮助您添加下载项到 %1.\n"
 "\n"
-"其中一些（如Google "
-"Drive下载）仅可通过此浏览器添加，因为它们需要您的Android系统浏览器无法提供（或没有对所有浏览器的通用方法）给%1的额外信息。"
+"其中一些 (如 Google Drive 下载)仅可通过此浏览器添加，因为它们需要您的安卓系统浏览器无法提供 (或没有对所有浏览器的通用方法)给 %1 "
+"的额外信息。"
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -791,7 +803,7 @@ msgstr "更改下载链接"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
-msgstr "输入新的 URL"
+msgstr "输入新的链接"
 
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
@@ -799,7 +811,7 @@ msgstr "文件位置：%1"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
-msgstr "无效 URL"
+msgstr "无效链接"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Start download"
@@ -823,7 +835,7 @@ msgstr "确定"
 
 msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
-msgstr "输入新的 URL"
+msgstr "输入新的链接"
 
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
@@ -835,15 +847,15 @@ msgstr "开始下载"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
-msgstr "连接到远程%1"
+msgstr "连接到远程 %1"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
-msgstr ""
+msgstr "(试验)"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
-msgstr "您可在此连接到其他设备上运行的%1."
+msgstr "您可在此连接到其他设备上运行的 %1."
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
@@ -851,7 +863,7 @@ msgstr "启动时自动连接"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
-msgstr "启动时自动连接到%1"
+msgstr "在 %1 启动时自动连接"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Cancel"
@@ -863,11 +875,11 @@ msgstr "确定"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
-msgstr "您可在此连接到您Windows/macOS/Linux PC上运行的%1"
+msgstr "您可在此连接到您Windows/macOS/Linux PC上运行的 %1"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr "请输入ID或<a href='#'>扫描二维码</a>"
+msgstr "请输入 ID，或<a href='#'>扫描二维码</a>"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -931,15 +943,15 @@ msgstr "您确定要退出吗？"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Starting..."
-msgstr "启动中……"
+msgstr "启动中..."
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
-msgstr "启动失败。"
+msgstr "无法启动。"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
-msgstr "错误: %1"
+msgstr "错误：%1"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "OK"
@@ -982,7 +994,7 @@ msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
-msgstr "%1的便携版可在无需安装并分别设置的情况下在不同计算机上使用。"
+msgstr "%1 的便携版可在无需安装并分别设置的情况下在不同计算机上使用。"
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
@@ -1144,11 +1156,11 @@ msgstr "中止"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "大小: %1 (磁盘空间: %2)"
+msgstr "大小：%1 (磁盘空间：%2)"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1"
-msgstr "大小: %1"
+msgstr "大小：%1"
 
 msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
@@ -1358,7 +1370,7 @@ msgstr "基于文件类型建议文件夹"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on download URL"
-msgstr "基于下载 URL 建议文件夹"
+msgstr "基于下载链接建议文件夹"
 
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
@@ -1510,7 +1522,7 @@ msgstr "预约"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Change URL"
-msgstr "更改 URL"
+msgstr "更改链接"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
@@ -1614,7 +1626,7 @@ msgstr "标签"
 
 msgctxt "EditTagDialog|"
 msgid "Extensions (e.g. \"avi mp3\")"
-msgstr "扩展名（如\"avi mp3\"）"
+msgstr "扩展名 (如\"avi mp3\")"
 
 msgctxt "EditTagDialog|"
 msgid ""
@@ -1691,7 +1703,7 @@ msgstr "取消"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
-msgstr "所有文件（%1）"
+msgstr "所有文件 (%1)"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export only completed downloads"
@@ -1703,7 +1715,7 @@ msgstr "导出"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
-msgstr "%1个下载项（总计%2）"
+msgstr "%1个下载项 (总计%2)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Default format"
@@ -1711,11 +1723,11 @@ msgstr "默认格式"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
-msgstr "URL列表"
+msgstr "链接列表"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
-msgstr "文本文件（%1）"
+msgstr "文本文件 (%1)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
@@ -1723,7 +1735,7 @@ msgstr "CSV文件"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
-msgstr "CSV文件（%1）"
+msgstr "CSV 文件 (%1)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Export"
@@ -1735,11 +1747,11 @@ msgstr "取消"
 
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
-msgstr "%1个设置文件（总计%2）"
+msgstr "%1个设置文件 (总计%2)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
-msgstr "所有文件（%1）"
+msgstr "所有文件 (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1795,7 +1807,7 @@ msgstr "Hash"
 
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
-msgstr "计算中 %1%"
+msgstr "计算中%1%"
 
 msgctxt "FileIntegrityPage|"
 msgid "Compare with"
@@ -1823,7 +1835,7 @@ msgstr "文件名"
 
 msgctxt "FileName|"
 msgid "%1 files (*.%2)"
-msgstr "%1文件（*.%2）"
+msgstr "%1 文件 (*.%2)"
 
 msgctxt "FileName|"
 msgid "All files"
@@ -1883,7 +1895,7 @@ msgstr "为所有下载记住我的选择"
 
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
-msgstr "重命名（%1）"
+msgstr "重命名 (%1)"
 
 msgctxt "FilesExistsDialog|"
 msgid "Overwrite"
@@ -2019,7 +2031,7 @@ msgstr "自动选择默认下载文件夹"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
-msgstr "基于下载 URL 建议文件夹"
+msgstr "基于下载链接建议文件夹"
 
 msgctxt "GeneralSettings|"
 msgid "Fixed default download folder"
@@ -2063,7 +2075,7 @@ msgstr "创建文件使用服务器的时间"
 
 msgctxt "GeneralSettings|"
 msgid "Maximum urls count in batch download"
-msgstr "批量下载中的最大URL数目"
+msgstr "批量下载中的最大链接数目"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -2143,7 +2155,7 @@ msgstr "添加时间:"
 
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
-msgstr "%1 共 %2"
+msgstr "%1共%2"
 
 msgctxt "GeneralTab|"
 msgid "Domain:"
@@ -2183,23 +2195,23 @@ msgstr "取消"
 
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
-msgstr "所有文件 （%1）"
+msgstr "所有文件 (%1)"
 
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
-msgstr "文本文件 （%1）"
+msgstr "文本文件 (%1)"
 
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
-msgstr "%1个下载项（总计%2）"
+msgstr "%1个下载项 (总计%2)"
 
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
-msgstr "%1个设置文件（总计%2）"
+msgstr "%1个设置文件 (总计%2)"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
-msgstr "错误: %1"
+msgstr "错误：%1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "OK"
@@ -2207,11 +2219,11 @@ msgstr "确定"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
-msgstr "从文件粘贴URL失败"
+msgstr "从文件粘贴链接失败"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
-msgstr "无法从文件导入URL列表，错误：%1"
+msgstr "无法从文件导入链接列表，错误：%1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
@@ -2259,11 +2271,11 @@ msgstr "联系支持"
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
-msgstr "从远程服务器%1断开"
+msgstr "从远程 %1 断开连接"
 
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
-msgstr "连接到远程服务器%1"
+msgstr "连接到远程 %1"
 
 msgctxt "LeftDrawer|"
 msgid "About"
@@ -2335,11 +2347,11 @@ msgstr "确定移除标签吗？"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
-msgstr "从剪贴板粘贴"
+msgstr "从剪贴板粘贴链接"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from File"
-msgstr "从文件粘贴URL"
+msgstr "从文件粘贴链接"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
@@ -2391,11 +2403,11 @@ msgstr "关机"
 
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
-msgstr ""
+msgstr "从远程 %1 断开连接"
 
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "连接到远程 %1"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2407,7 +2419,7 @@ msgstr "检查更新..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
-msgstr "加入拼图"
+msgstr "加入拼图..."
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -2532,7 +2544,7 @@ msgstr "跳过"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
-msgstr "全部跳过（%1）"
+msgstr "全部跳过 (%1)"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2544,7 +2556,7 @@ msgstr "移动数据使用量"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Waiting for Wi-Fi to start download."
-msgstr "等待连接Wi-Fi以下载"
+msgstr "等待连接 Wi-Fi 下载。"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Would you like to enable usage of mobile data? *"
@@ -2572,11 +2584,11 @@ msgstr "移动下载项失败"
 
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
-msgstr "错误: %1"
+msgstr "错误：%1"
 
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
-msgstr "无法移动:%1"
+msgstr "无法移动：%1"
 
 msgctxt "MovingFailedDialog|"
 msgid "Try again"
@@ -2916,7 +2928,7 @@ msgstr "正在更新已安装的扩展..."
 
 msgctxt "PluginsPage|"
 msgid "There are no installed add-ons."
-msgstr "没有已安装的扩展"
+msgstr "没有已安装的扩展。"
 
 msgctxt "PluginsPage|"
 msgid "Install add-on from file"
@@ -2932,7 +2944,7 @@ msgstr "取消"
 
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
-msgstr "%1个扩展文件"
+msgstr "%1 个扩展文件"
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
@@ -2964,7 +2976,7 @@ msgstr "下列必须组件缺失："
 
 msgctxt "PluginsPage|"
 msgid "%1 is required."
-msgstr "%1是必须的。"
+msgstr "%1 是必须的。"
 
 msgctxt "PluginsPage|"
 msgid "Would you like to install them?"
@@ -2984,11 +2996,11 @@ msgstr "警告！"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
-msgstr "新版本的%1扩展请求多项危险的许可："
+msgstr "新版本的 %1 扩展请求多项危险的许可："
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
-msgstr "新版本的%1扩展请求危险的许可："
+msgstr "新版本的 %1 扩展请求危险的许可："
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Please install add-ons from trusted sources only."
@@ -3003,12 +3015,12 @@ msgid ""
 "New version of %1 add-on requires additional components:\n"
 "%2"
 msgstr ""
-"新版本的%1扩展需要多个额外组件：\n"
+"新版本的 %1 扩展需要多个额外组件：\n"
 "%2"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requires %2."
-msgstr "新版本的%1扩展需要%2."
+msgstr "新版本的 %1 扩展需要 %2."
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to install them?"
@@ -3119,7 +3131,7 @@ msgid ""
 "Error: %1"
 msgstr ""
 "\n"
-"错误: %1"
+"错误：%1"
 
 msgctxt "QObject|"
 msgid "Enter URL"
@@ -3127,7 +3139,7 @@ msgstr "输入链接"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
-msgstr "抱歉，%1不支持此设备。"
+msgstr "抱歉，%1 不支持此设备。"
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
@@ -3135,7 +3147,7 @@ msgstr "%1 初始化失败。 请重新安装。"
 
 msgctxt "QObject|"
 msgid "Reason: %1"
-msgstr "原因: %1"
+msgstr "原因：%1"
 
 msgctxt "QObject|"
 msgid "Contact Support"
@@ -3179,11 +3191,11 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "%1 K"
-msgstr "%1K"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "%1 M"
-msgstr "%1M"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "%1 G"
@@ -3671,23 +3683,23 @@ msgstr "慢速模式"
 
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
-msgstr "Youtube下载不可用"
+msgstr "Youtube 下载不可用"
 
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
-msgstr "%2上%1是未知的"
+msgstr "%2 上 %1 是未知的"
 
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
-msgstr "%3上%2的%1"
+msgstr "%3 上 %2 的 %1"
 
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
-msgstr "%1 %2或更高"
+msgstr "%1 %2 或更高"
 
 msgctxt "QObject|"
 msgid "Launch Python code"
-msgstr "启动Python代码"
+msgstr "启动 Python 代码"
 
 msgctxt "QObject|"
 msgid "Allows to execute arbitrary code."
@@ -3707,11 +3719,11 @@ msgstr "组件缺失"
 
 msgctxt "QObject|"
 msgid "%1 are required"
-msgstr "%1是必须的。"
+msgstr "%1 是必须的"
 
 msgctxt "QObject|"
 msgid "%1 is required"
-msgstr "%1是必须的。"
+msgstr "%1 是必须的"
 
 msgctxt "QObject|"
 msgid "Failed to load"
@@ -3723,7 +3735,7 @@ msgstr "播放列表"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
-msgstr "QIODevice::不支持向GZIP追加"
+msgstr "QIODevice::不支持向 GZIP 追加"
 
 msgctxt "QuaGzipFile|"
 msgid "Opening gzip for both reading and writing is not supported"
@@ -3735,19 +3747,19 @@ msgstr "您可以打开一个gzip读或写。选择哪个？"
 
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr "无法gzopen()文件"
+msgstr "无法 gzopen() 文件"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr "QIODevice::不支持向QuaZIODevice追加"
+msgstr "QIODevice::不支持向 QuaZIODevice 追加"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr "QIODevice::不支持QuaZIODevice的读写"
+msgstr "QIODevice::不支持 QuaZIODevice 的读写"
 
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr "ZIP/UNZIP API错误 %1"
+msgstr "ZIP/UNZIP API 错误 %1"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
@@ -3767,11 +3779,11 @@ msgstr "远程访问"
 
 msgctxt "RemoteControlSettings|"
 msgid "(beta)"
-msgstr ""
+msgstr "(试验)"
 
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
-msgstr "允许远程访问此设备上运行的%1"
+msgstr "允许远程访问运行在这台设备的 %1"
 
 msgctxt "RemoteControlSettings|"
 msgid "ID"
@@ -3995,7 +4007,7 @@ msgstr "搜索"
 
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
-msgstr "已选: %1"
+msgstr "已选：%1"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Sort"
@@ -4090,8 +4102,8 @@ msgid "Go back to default settings"
 msgstr "返回默认设置"
 
 msgctxt "SettingsPage|"
-msgid "Reset"
-msgstr "重置"
+msgid "Reset settings"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
@@ -4099,7 +4111,7 @@ msgstr "默认设置"
 
 msgctxt "SettingsPage|"
 msgid "Restore default settings?"
-msgstr "重置为默认设置"
+msgstr "重置为默认设置？"
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -4127,7 +4139,7 @@ msgstr "取消"
 
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
-msgstr "完成(%1)"
+msgstr "完成 (%1)"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be put to Sleep mode."
@@ -4167,7 +4179,7 @@ msgstr "无活动下载项"
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
-msgstr "警告: 有潜在安全风险"
+msgstr "警告：有潜在安全风险"
 
 msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
@@ -4251,7 +4263,7 @@ msgstr "此下载项暂停后无法恢复"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
-msgstr "下列下载项暂停后无法恢复。"
+msgstr "下列下载项暂停后无法恢复"
 
 msgctxt "Subtitles|"
 msgid "Download subtitles"
@@ -4287,7 +4299,7 @@ msgstr "深色"
 
 msgctxt "Toast|"
 msgid "Please grant camera permission to use the QR scanner"
-msgstr "请授予相机权限以使用二维码扫描"
+msgstr "请授予相机权限以使用二维码扫描仪"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4347,7 +4359,7 @@ msgstr "不限制"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
-msgstr "下载: %1, 上传: %2"
+msgstr "下载：%1, 上传：%2"
 
 msgctxt "TumComboBox|"
 msgid "High"
@@ -4427,11 +4439,11 @@ msgstr "没有对选定目录的写入权限"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "大小: %1 (磁盘空间: %2)"
+msgstr "大小：%1 (磁盘空间：%2)"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
-msgstr "大小: %1"
+msgstr "大小：%1"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
@@ -4455,7 +4467,7 @@ msgstr "有新版本可用"
 
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
-msgstr "%1的更新内容"
+msgstr "%1 的更新内容"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -4551,15 +4563,15 @@ msgstr "让我们一起使它变得更好! 向我们反馈您的建议."
 
 msgctxt "WaitingPage|"
 msgid "Loading"
-msgstr "加载中"
+msgstr "载入中"
 
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
-msgstr "到%1的连接"
+msgstr "连接到 %1"
 
 msgctxt "WaitingPage|"
 msgid "Error: %1"
-msgstr "错误: %1"
+msgstr "错误：%1"
 
 msgctxt "WaitingPage|"
 msgid "Retry"
@@ -4579,7 +4591,7 @@ msgstr "有新版本可用"
 
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
-msgstr "%1的更新内容"
+msgstr "%1 的更新内容"
 
 msgctxt "WhatsNewDialog|"
 msgid "Update"
@@ -4595,4 +4607,4 @@ msgstr "报告已发送。感谢您的帮助！"
 
 msgctxt "main|"
 msgid "Remote connection to %1"
-msgstr "到%1的远程连接"
+msgstr "远程连接到 %1"
