@@ -3,7 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Language: hu_HU\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
@@ -89,6 +89,10 @@ msgid "Notifications"
 msgstr "Értesítések"
 
 msgctxt "AdvancedSettings|"
+msgid "Notify me of added downloads via Notification Center"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
 msgstr ""
 "Értesítsen a befejezett letöltésekről az Értesítési Központon keresztül"
@@ -128,8 +132,32 @@ msgid "Launch at startup (minimized)"
 msgstr "Indítás a rendszer indulásakor (háttérben)"
 
 msgctxt "AdvancedSettings|"
+msgid "Show special offers"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Interface"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Nyissa meg/rejtse el az alsó panelt letöltésre kattintva"
+
+msgctxt "AdvancedSettings|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Reset"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Restore default settings?"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -163,6 +191,34 @@ msgid "Do not allow downloads if battery level drops below"
 msgstr ""
 "Ne engedje a letöltéseket, ha az akkumulátor töltöttségi szintje ? alá "
 "csökken"
+
+msgctxt "AdvancedSettings|"
+msgid "Indicate active download and upload using tray icon"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Enable user defined order of downloads"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Show \"Save As...\" button"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Enable standalone create new downloads windows"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Overall zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Fonts zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -261,12 +317,52 @@ msgid "Converting files to mp4 (%1)."
 msgstr "Fájlok konvertálása mp4-re (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Renaming files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Médiafolyamok egyesítése (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Deleting files."
+msgstr ""
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Vannak olyan műveletek, amelyekben nincs folytatási lehetőség"
+
+msgctxt "AuthDialog|"
+msgid "Authentication required"
+msgstr "Hitelesítés szükséges"
+
+msgctxt "AuthDialog|"
+msgid "%1 requires authentication"
+msgstr ""
+
+msgctxt "AuthDialog|"
+msgid "The site says: \"%1\"."
+msgstr "Az oldal azt mondja: \"%1\"."
+
+msgctxt "AuthDialog|"
+msgid "Username:"
+msgstr "Felhasználónév:"
+
+msgctxt "AuthDialog|"
+msgid "Password:"
+msgstr "Jelszó:"
+
+msgctxt "AuthDialog|"
+msgid "remember"
+msgstr "emlékezz"
+
+msgctxt "AuthDialog|"
+msgid "Cancel"
+msgstr "Mégse"
+
+msgctxt "AuthDialog|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -481,6 +577,10 @@ msgid "Bookmarks"
 msgstr "Könyvjelzők"
 
 msgctxt "Browser MainMenu|"
+msgid "Download media"
+msgstr ""
+
+msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
 msgstr "Könyvjelző eltávolítása"
 
@@ -604,6 +704,14 @@ msgstr "Mégse"
 msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
 msgstr "Letöltés elkezdése megerősítés nélkül"
+
+msgctxt "BtSettings|"
+msgid "Advanced"
+msgstr "Haladó"
+
+msgctxt "BtSettings|"
+msgid "Custom port:"
+msgstr ""
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -749,6 +857,42 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Letöltés elkezdése"
 
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Connect to remote %1"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "(beta)"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on another device."
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at startup"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Cancel"
+msgstr "Mégse"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter ID, or <a href='#'>scan QR code</a>"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at %1 startup"
+msgstr ""
+
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "Nincsenek kapcsolatok"
@@ -765,6 +909,38 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "Kapcsolat szám"
 
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Destination files already exists"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Overwrite All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Rename All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Skip All"
+msgstr ""
+
+msgctxt "ConvertDestinationFilesExistsDialog|"
+msgid "Abort"
+msgstr "Megszakítás"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Failed to convert"
+msgstr ""
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ConvertFilesFailedDialog|"
+msgid "Convert failed"
+msgstr ""
+
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
 msgstr "Hivatkozás másolása"
@@ -776,6 +952,22 @@ msgstr "Másolás"
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
 msgstr "Biztos vagy benne, hogy kilépsz?"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Starting..."
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Failed to start."
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Error: %1"
+msgstr "Hiba: %1"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -992,6 +1184,36 @@ msgstr "Méret: %1"
 msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "A teljes feltöltési sebesség megjelenítése a Dock ikonon"
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Download Failure"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Can't resume download. Download link likely expired. Resume attempts failed."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Please try to update the download link to resume."
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid ""
+"Go to the website with the original download source and copy the renewed link"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "click here"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Update download"
+msgstr ""
+
+msgctxt "DownloadExpiredDialog|"
+msgid "Close"
+msgstr "Bezárás"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
@@ -1238,6 +1460,10 @@ msgid "Report problem"
 msgstr "Probléma jelentése"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Enable auto retry for this kind of errors"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
 msgstr "Letöltések Megjelenítése"
 
@@ -1260,6 +1486,10 @@ msgstr "Közepes"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Low"
 msgstr "Alacsony"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Rename file"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
@@ -1344,6 +1574,10 @@ msgstr "Fájlok"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Letöltés egymás utáni sorrendben"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Remove from list"
+msgstr "Törlés a listáról"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -1585,6 +1819,10 @@ msgid "SHA-256"
 msgstr "SHA-256"
 
 msgctxt "FileIntegrityPage|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
+
+msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "Hash"
 
@@ -1615,6 +1853,14 @@ msgstr "Almappa létrehozása"
 msgctxt "FileName|"
 msgid "File name"
 msgstr "Fájl név"
+
+msgctxt "FileName|"
+msgid "%1 files (*.%2)"
+msgstr ""
+
+msgctxt "FileName|"
+msgid "All files"
+msgstr ""
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
@@ -1868,6 +2114,14 @@ msgctxt "GeneralSettings|"
 msgid "Use mobile network"
 msgstr "Mobilhálózat használata"
 
+msgctxt "GeneralSettings|"
+msgid "Allow data roaming"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Using mobile data while roaming may result in additional charges."
+msgstr ""
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Állapot"
@@ -1947,6 +2201,10 @@ msgstr "SHA-1"
 msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
+
+msgctxt "HashAlgorithmCombobox|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
 
 msgctxt "ImportDialog|"
 msgid "Import"
@@ -2033,6 +2291,14 @@ msgid "Contact support"
 msgstr "Kapcsolatfelvétel az ügyfélszolgálattal"
 
 msgctxt "LeftDrawer|"
+msgid "Disconnect from remote %1"
+msgstr ""
+
+msgctxt "LeftDrawer|"
+msgid "Connect to remote %1"
+msgstr ""
+
+msgctxt "LeftDrawer|"
 msgid "About"
 msgstr "Névjegy"
 
@@ -2085,12 +2351,20 @@ msgid "All"
 msgstr "Összes"
 
 msgctxt "MainFiltersBar|"
+msgid "Missing Files"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "Active"
 msgstr "Aktív"
 
 msgctxt "MainFiltersBar|"
 msgid "Completed"
 msgstr "Befejezve"
+
+msgctxt "MainFiltersBar|"
+msgid "Uncompleted"
+msgstr ""
 
 msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
@@ -2125,6 +2399,10 @@ msgid "Import settings"
 msgstr "Beállítások importálása"
 
 msgctxt "MainMenu|"
+msgid "Add-ons..."
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "Preferences..."
 msgstr "Beállítások..."
 
@@ -2147,6 +2425,14 @@ msgstr "Hibernálás"
 msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "Leállítás"
+
+msgctxt "MainMenu|"
+msgid "Disconnect from remote %1"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Connect to remote %1"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2181,7 +2467,6 @@ msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
 msgstr[0] "%n letöltés kiválasztva."
-msgstr[1] "%n letöltés kiválasztva."
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -2228,12 +2513,8 @@ msgid "Main menu"
 msgstr "Főmenü"
 
 msgctxt "MainToolbar|"
-msgid ""
-"To use this feature, downloads are required to be sorted by order. Would you "
-"like to sort your downloads by order first?"
+msgid "Switch to user-defined sorting of the download list?"
 msgstr ""
-"A funkció használatához a letöltéseket sorrend szerint kell rendezni. "
-"Szeretné sorrend szerint rendezni a letöltéseket?"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2455,6 +2736,10 @@ msgctxt "Mp4ConverterPage|"
 msgid "Save to"
 msgstr "Mentés ide"
 
+msgctxt "Mp4ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "Az elérési út érvénytelen karaktereket tartalmaz"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "Frissítések keresése..."
@@ -2634,6 +2919,164 @@ msgstr "Fájlok"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "Kapcsolatok"
+
+msgctxt "PluginsDepsInstallerView|"
+msgid "Installed."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Recently installed dependency"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-ons"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Check for Updates"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install Add-on From File..."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Update Add-ons Automatically"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Reset All Add-ons to Update Automatically"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Updating installed add-ons..."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "There are no installed add-ons."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install add-on from file"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Install"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Cancel"
+msgstr "Mégse"
+
+msgctxt "PluginsPage|"
+msgid "%1 add-ons files"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Failed to install add-on"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Warning!"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permissions:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Add-on requests dangerous permission:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Please install add-ons from trusted sources only."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to continue the installation?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "The following required components are missing:"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "%1 is required."
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install them?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Would you like to install it?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Failed to update add-on"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Warning!"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permissions:"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requests dangerous permission:"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Please install add-ons from trusted sources only."
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to continue the installation?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid ""
+"New version of %1 add-on requires additional components:\n"
+"%2"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "New version of %1 add-on requires %2."
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install them?"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Would you like to install it?"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Allow Automatic Updates"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Check for Updates"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Remove"
+msgstr "Törlés"
+
+msgctxt "PluginsViewItem|"
+msgid "Updating..."
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "Version: %1"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "OK to remove?"
+msgstr ""
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
@@ -3086,6 +3529,10 @@ msgid "Unsupported format"
 msgstr "Nem támogatott formátum"
 
 msgctxt "QObject|"
+msgid "Not found"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "A gazdagép nem található"
 
@@ -3160,42 +3607,6 @@ msgstr "hdiutil hiba %1"
 msgctxt "QObject|"
 msgid "Mount point does not exist"
 msgstr "Csatlakozási pont nem létezik"
-
-msgctxt "QObject|"
-msgid "Path to the dump folder."
-msgstr "A dump mappa elérési útja."
-
-msgctxt "QObject|"
-msgid "Url to upload dumps to."
-msgstr "Url to upload dumps to."
-
-msgctxt "QObject|"
-msgid "Path to the crashed app that can be restarted."
-msgstr "Elérési út az összeomlott alkalmazáshoz, amely újraindítható."
-
-msgctxt "QObject|"
-msgid "Name of the crashed application."
-msgstr "Az összeomlott alkalmazás neve."
-
-msgctxt "QObject|"
-msgid "Version of the application."
-msgstr "Az alkalmazás verziója."
-
-msgctxt "QObject|"
-msgid "Architecture."
-msgstr "Architektúra."
-
-msgctxt "QObject|"
-msgid "User's operating system."
-msgstr "A felhasználó operációs rendszere."
-
-msgctxt "QObject|"
-msgid "Fault module name."
-msgstr "Hibás modul neve."
-
-msgctxt "QObject|"
-msgid "Crash address."
-msgstr "Összeomlási cím."
 
 msgctxt "QObject|"
 msgid "Signature check failure."
@@ -3282,6 +3693,102 @@ msgctxt "QObject|"
 msgid "upload paused"
 msgstr "a feltöltés szünetel"
 
+msgctxt "QObject|"
+msgid "PAUSE ALL"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Downloading..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "DISABLE SNAIL MODE"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "SNAIL MODE"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "YouTube downloads are not available"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 of unknown at %2"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 of %2 at %3"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 %2 or higher"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Launch Python code"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Allows to execute arbitrary code."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Installing..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Uninstalling..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Missing components"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 are required"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 is required"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Failed to load"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Playlist"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "QIODevice::Append is not supported for GZIP"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "Opening gzip for both reading and writing is not supported"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "You can open a gzip either for reading or for writing. Which is it?"
+msgstr ""
+
+msgctxt "QuaGzipFile|"
+msgid "Could not gzopen() file"
+msgstr ""
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::Append is not supported for QuaZIODevice"
+msgstr ""
+
+msgctxt "QuaZIODevice|"
+msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
+msgstr ""
+
+msgctxt "QuaZipFile|"
+msgid "ZIP/UNZIP API error %1"
+msgstr ""
+
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
 msgstr "Biztosan ki szeretne lépni?"
@@ -3293,6 +3800,30 @@ msgstr "OK"
 msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
 msgstr "Mégse"
+
+msgctxt "RemoteControlSettings|"
+msgid "Remote Access"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "(beta)"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Allow remote access to %1 running on this device"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "ID"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Password"
+msgstr "Jelszó"
+
+msgctxt "RemoteControlSettings|"
+msgid "Status"
+msgstr "Állapot"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
@@ -3309,6 +3840,42 @@ msgstr "Újra letöltés"
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "Mégse"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "A file with that name already exists."
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Cancel"
+msgstr "Mégse"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "A file with that name already exists."
+msgstr ""
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -3527,6 +4094,10 @@ msgid "Antivirus"
 msgstr "Vírusírtó"
 
 msgctxt "SettingsPage|"
+msgid "Remote Access"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Advanced"
 msgstr "Haladó"
 
@@ -3553,6 +4124,22 @@ msgstr "Hangbeállítások"
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "További beállítások"
+
+msgctxt "SettingsPage|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Reset settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Default settings"
+msgstr ""
+
+msgctxt "SettingsPage|"
+msgid "Restore default settings?"
+msgstr ""
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -3738,6 +4325,10 @@ msgctxt "ThemeComboBox|"
 msgid "Dark"
 msgstr "Sötét"
 
+msgctxt "Toast|"
+msgid "Please grant camera permission to use the QR scanner"
+msgstr ""
+
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
 msgstr "Forgalmi korlátok"
@@ -3846,6 +4437,10 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Forgalmi korlátok módosítása"
 
+msgctxt "TumSettingTextField|"
+msgid "Can't be greater than %1"
+msgstr ""
+
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Új letöltés"
@@ -3897,6 +4492,10 @@ msgstr "Mégse"
 msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "Új verzió érhető el"
+
+msgctxt "UpdateDialog|"
+msgid "What's new in %1"
+msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -3991,7 +4590,39 @@ msgid "Let's make it better together! Give us your feedback."
 msgstr "Tegyük jobbá együtt! Mondja el véleményét."
 
 msgctxt "WaitingPage|"
-msgid "Refresh"
+msgid "Loading"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Connection to %1"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Error: %1"
+msgstr "Hiba: %1"
+
+msgctxt "WaitingPage|"
+msgid "Retry"
+msgstr "Próbálja újra"
+
+msgctxt "WaitingPage|"
+msgid "Cancel"
+msgstr "Mégse"
+
+msgctxt "WaitingPage|"
+msgid "Abort"
+msgstr "Megszakítás"
+
+msgctxt "WhatsNewDialog|"
+msgid "New version is available"
+msgstr "Új verzió érhető el"
+
+msgctxt "WhatsNewDialog|"
+msgid "What's new in %1"
+msgstr ""
+
+msgctxt "WhatsNewDialog|"
+msgid "Update"
 msgstr "Frissítés"
 
 msgctxt "main|"
@@ -4001,3 +4632,7 @@ msgstr "Sajnos a jelentést nem küldtük el, hiba történt: %1"
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "A jelentést elküldtük. Köszönjük az együttműködést!"
+
+msgctxt "main|"
+msgid "Remote connection to %1"
+msgstr ""
