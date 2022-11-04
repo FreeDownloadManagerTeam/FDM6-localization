@@ -3,26 +3,26 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: hu_HU\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
-msgstr "Sobre"
+msgstr "Névjegy"
 
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
-msgstr "Versão: %1 (%2)"
+msgstr "Verzió: %1 (%2)"
 
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
-msgstr "Data da compilação: %1"
+msgstr "Build dátum: %1"
 
 msgctxt "AboutDialog|"
 msgid "version %1"
-msgstr "versão %1"
+msgstr "verzió %1"
 
 msgctxt "AboutDialog|"
 msgid "OK"
@@ -30,23 +30,23 @@ msgstr "OK"
 
 msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
-msgstr "Versão %1 (%2)"
+msgstr "Verzió %1 (%2)"
 
 msgctxt "AddDateToFileName|"
 msgid "Add dates to files names"
-msgstr "Adicionar datas aos nomes dos arquivos"
+msgstr "Dátumok hozzáadása a fájlok nevéhez"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
-msgstr "Adicionar espelho"
+msgstr "Mirror hozzáadása"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr "Digite o URL do espelho"
+msgstr "Írja be a mirror URL-t"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "AddMirrorDialog|"
 msgid "OK"
@@ -54,7 +54,7 @@ msgstr "OK"
 
 msgctxt "AddMirrorPage|"
 msgid "Add mirror"
-msgstr "Adicionar espelho"
+msgstr "Mirror hozzáadása"
 
 msgctxt "AddMirrorPage|"
 msgid "OK"
@@ -62,11 +62,11 @@ msgstr "OK"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
-msgstr "Digite o URL do espelho"
+msgstr "Írja be a mirror URL-t"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "AddTDialog|"
 msgid "OK"
@@ -78,313 +78,219 @@ msgstr "OK"
 
 msgctxt "AddTag|"
 msgid "Add tag"
-msgstr "Adicionar tag"
+msgstr "Címke hozzáadása"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced"
-msgstr "Avançado"
+msgstr "Haladó"
 
 msgctxt "AdvancedSettings|"
 msgid "Notifications"
-msgstr "Notificações"
-
-msgctxt "AdvancedSettings|"
-msgid "Notify me of added downloads via Notification Center"
-msgstr "Notificar-me sobre downloads adicionados via Central de Notificações"
+msgstr "Értesítések"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "Notificar downloads concluídos pela Central de Notificações"
+msgstr ""
+"Értesítsen a befejezett letöltésekről az Értesítési Központon keresztül"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr "Notificar downloads com falha pela Central de Notificações"
+msgstr ""
+"Értesítsen a sikertelen letöltésekről az Értesítési Központon keresztül"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
-msgstr ""
-"Notifique-me de downloads somente quando a janela do %1 estiver inativa"
+msgstr "Csak akkor értesítsen a letöltésekről, ha a(z) %1 ablak inaktív"
 
 msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
-msgstr "Personalizar sons"
+msgstr "Hangok testreszabása"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
-msgstr "Gerenciamento de energia"
+msgstr "Energiagazdálkodás"
 
 msgctxt "AdvancedSettings|"
 msgid "Don't put your computer to sleep if there is an active download"
-msgstr "Não colocar computador no modo de suspensão com downloads ativos"
+msgstr "Ne menjen a számítógép alvó állapotba, ha van aktív letöltés"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable sleep mode while running finished downloads"
-msgstr "Habilitar modo de suspensão durante a execução de downloads concluídos"
+msgstr ""
+"Engedélyezze az alvó állapotot a befejezett letöltések futtatása közben"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
-msgstr "Opções"
+msgstr "Beállítások"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch at startup (minimized)"
-msgstr "Executar na inicialização (minimizado)"
-
-msgctxt "AdvancedSettings|"
-msgid "Show special offers"
-msgstr "Mostrar ofertas especiais"
-
-msgctxt "AdvancedSettings|"
-msgid "Interface"
-msgstr "Interface"
+msgstr "Indítás a rendszer indulásakor (háttérben)"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "Abrir/ocultar o painel inferior ao clicar no download"
-
-msgctxt "AdvancedSettings|"
-msgid "Indicate active download and upload using tray icon"
-msgstr "Indicar download e upload ativos usando o ícone da bandeja"
-
-msgctxt "AdvancedSettings|"
-msgid "Go back to default settings"
-msgstr "Voltar para as configurações padrão"
-
-msgctxt "AdvancedSettings|"
-msgid "Reset"
-msgstr "Redefinir"
-
-msgctxt "AdvancedSettings|"
-msgid "Default settings"
-msgstr "Configurações padrão"
-
-msgctxt "AdvancedSettings|"
-msgid "Restore default settings?"
-msgstr "Restaurar as configurações padrão?"
+msgstr "Nyissa meg/rejtse el az alsó panelt letöltésre kattintva"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
-msgstr "Fazer backup da lista de downloads a cada"
+msgstr "Készítsen biztonsági másolatot a letöltések listájáról minden"
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
-msgstr "Se o arquivo existir"
+msgstr "A fájl létezik reakció"
 
 msgctxt "AdvancedSettings|"
 msgid "Rename"
-msgstr "Renomear"
+msgstr "Átnevezés"
 
 msgctxt "AdvancedSettings|"
 msgid "Overwrite"
-msgstr "Sobrescrever"
+msgstr "Felülírás"
 
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
-msgstr "Usar sons"
+msgstr "Hangok használata"
 
 msgctxt "AdvancedSettings|"
 msgid ""
 "Do not allow downloads to perform post finished tasks when running on battery"
 msgstr ""
-"Não permitir que downloads realizem tarefas pós-conclusão quando estiver "
-"funcionando na bateria"
+"Ne engedélyezze a letöltéseket a befejezett feladatok elvégzésére "
+"akkumulátoron való futtatáskor"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
-msgstr "Não permitir downloads se o nível da bateria estiver abaixo de"
-
-msgctxt "AdvancedSettings|"
-msgid "Enable user defined order of downloads"
-msgstr "Habilitar ordem de downloads definida pelo usuário"
-
-msgctxt "AdvancedSettings|"
-msgid "Show \"Save As...\" button"
-msgstr "Exibir botão \"Salvar como...\""
-
-msgctxt "AdvancedSettings|"
-msgid "Enable standalone create new downloads windows"
-msgstr "Habilitar janelas independente em novos downloads"
-
-msgctxt "AdvancedSettings|"
-msgid "Overall zoom"
-msgstr "Zoom geral"
-
-msgctxt "AdvancedSettings|"
-msgid "Fonts zoom"
-msgstr "Zoom de fontes"
-
-msgctxt "AdvancedSettings|"
-msgid "<a href='#'>Restart is required</a>"
-msgstr "<a href='#'>Reiniciar é necessário</a>"
+msgstr ""
+"Ne engedje a letöltéseket, ha az akkumulátor töltöttségi szintje ? alá "
+"csökken"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
-msgstr "Ação do botão Excluir"
+msgstr "Törlés gomb művelet"
 
 msgctxt "AdvancedSettings|"
 msgid "Remove only from download list"
-msgstr "Remover apenas da lista de downloads"
+msgstr "Csak a letöltési listáról távolítsa el"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete files"
-msgstr "Excluir arquivos"
+msgstr "Fájlok törlése"
 
 msgctxt "AdvancedSettings|"
 msgid "Always ask"
-msgstr "Sempre perguntar"
+msgstr "Mindig kérdezz"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
-msgstr "Configurações avançadas"
+msgstr "További beállítások"
 
 msgctxt "AdvancedSettings|"
 msgid "Choose theme"
-msgstr "Escolha o tema"
+msgstr "Téma kiválasztása"
 
 msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Um tema claro será usado caso o tema do sistema for desconhecido."
+msgstr "A világos téma lesz használva, ha a rendszer téma ismeretlen."
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
-msgstr "Configure manualmente..."
+msgstr "Konfigurálás manuálisan..."
 
 msgctxt "AntivirusSettings|"
 msgid "Antivirus"
-msgstr "Antivírus"
+msgstr "Vírusírtó"
 
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
-msgstr "Selecione o antivírus:"
+msgstr "Vírusírtó kiválasztása:"
 
 msgctxt "AntivirusSettings|"
 msgid "Is your antivirus not listed?"
-msgstr "Seu antivírus não está listado?"
+msgstr "Nincs felsorolva az vírusírtód?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
-msgstr "Caminho:"
+msgstr "Elérési út:"
 
 msgctxt "AntivirusSettings|"
 msgid "Please enter antivirus path"
-msgstr "Por favor, digite o caminho do antivírus"
+msgstr "Kérjük, adja meg a vírusírtó elérési útját"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments:"
-msgstr "Argumentos:"
+msgstr "Argumentumok:"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments must contain %path% variable"
-msgstr "Os argumentos devem conter variável de %path%"
+msgstr "Az argumentumoknak tartalmazniuk kell a %path% változót"
 
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
-msgstr ""
-"Realizar automaticamente a verificação de vírus quando o download estiver "
-"concluído"
+msgstr "Vírusellenőrzés automatikus végrehajtása a letöltés befejezése után"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
-msgstr "Verificação de vírus"
+msgstr "Vírusellenőrzés"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
-msgstr "Não há antivírus especificado nas configurações."
+msgstr "A beállításokban nincs megadva vírusírtó."
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Go to settings"
-msgstr "Ir para configurações"
+msgstr "Menj a beállításokhoz"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
-msgstr "Downloads sem suporte à retomada (%1)."
+msgstr "Letöltések folytatás támogatása nélkül (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
-msgstr "Movendo arquivos (%1)."
+msgstr "Fájlok áthelyezése (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
-msgstr "Convertendo arquivos para mp3 (%1)."
+msgstr "Fájlok konvertálása mp3-ra (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
-msgstr "Convertendo arquivos para mp4 (%1)."
-
-msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
-msgid "Renaming files (%1)."
-msgstr "Renomeando arquivos (%1)."
+msgstr "Fájlok konvertálása mp4-re (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
-msgstr "Mesclando fluxos de mídia (%1)."
-
-msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
-msgid "Deleting files."
-msgstr "Excluindo arquivos."
+msgstr "Médiafolyamok egyesítése (%1)."
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
-msgstr "Existem operações sem capacidade de retomada em andamento"
-
-msgctxt "AuthDialog|"
-msgid "Authentication required"
-msgstr "Autenticação necessária"
-
-msgctxt "AuthDialog|"
-msgid "%1 requires authentication"
-msgstr "%1 requer autenticação"
-
-msgctxt "AuthDialog|"
-msgid "The site says: \"%1\"."
-msgstr "O site diz: \"%1\"."
-
-msgctxt "AuthDialog|"
-msgid "Username:"
-msgstr "Usuário:"
-
-msgctxt "AuthDialog|"
-msgid "Password:"
-msgstr "Senha:"
-
-msgctxt "AuthDialog|"
-msgid "remember"
-msgstr "lembrar"
-
-msgctxt "AuthDialog|"
-msgid "Cancel"
-msgstr "Cancelar"
-
-msgctxt "AuthDialog|"
-msgid "OK"
-msgstr "OK"
+msgstr "Vannak olyan műveletek, amelyekben nincs folytatási lehetőség"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
-msgstr "Autenticação necessária"
+msgstr "Hitelesítés szükséges"
 
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
-msgstr "O site diz: \"%1\"."
+msgstr "Az oldal azt mondja: \"%1\"."
 
 msgctxt "AuthenticationDialog|"
 msgid "Username:"
-msgstr "Usuário:"
+msgstr "Felhasználónév:"
 
 msgctxt "AuthenticationDialog|"
 msgid "Password:"
-msgstr "Senha:"
+msgstr "Jelszó:"
 
 msgctxt "AuthenticationDialog|"
 msgid "remember"
-msgstr "lembrar"
+msgstr "emlékezz"
 
 msgctxt "AuthenticationDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "AuthenticationDialog|"
 msgid "OK"
@@ -392,7 +298,7 @@ msgstr "OK"
 
 msgctxt "AuthenticationPage|"
 msgid "Authentication required"
-msgstr "Autenticação necessária"
+msgstr "Hitelesítés szükséges"
 
 msgctxt "AuthenticationPage|"
 msgid "OK"
@@ -400,87 +306,87 @@ msgstr "OK"
 
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
-msgstr "O site diz: \"%1\"."
+msgstr "Az oldal azt mondja: \"%1\"."
 
 msgctxt "AuthenticationPage|"
 msgid "Username"
-msgstr "Usuário"
+msgstr "Felhasználónév"
 
 msgctxt "AuthenticationPage|"
 msgid "Password"
-msgstr "Senha"
+msgstr "Jelszó"
 
 msgctxt "AuthenticationPage|"
 msgid "Remember"
-msgstr "Lembrar"
+msgstr "Emlékezz"
 
 msgctxt "BackupComboBox|"
 msgid "5 minutes"
-msgstr "5 minutos"
+msgstr "5 perc"
 
 msgctxt "BackupComboBox|"
 msgid "15 minutes"
-msgstr "15 minutos"
+msgstr "15 perc"
 
 msgctxt "BackupComboBox|"
 msgid "1 hour"
-msgstr "1 hora"
+msgstr "1 óra"
 
 msgctxt "BackupComboBox|"
 msgid "3 hours"
-msgstr "3 horas"
+msgstr "3 óra"
 
 msgctxt "BackupComboBox|"
 msgid "1 day"
-msgstr "1 dia"
+msgstr "1 nap"
 
 msgctxt "BackupSlider|"
 msgid "5 minutes"
-msgstr "5 minutos"
+msgstr "5 perc"
 
 msgctxt "BackupSlider|"
 msgid "15 minutes"
-msgstr "15 minutos"
+msgstr "15 perc"
 
 msgctxt "BackupSlider|"
 msgid "1 hour"
-msgstr "1 hora"
+msgstr "1 óra"
 
 msgctxt "BackupSlider|"
 msgid "3 hours"
-msgstr "3 horas"
+msgstr "3 óra"
 
 msgctxt "BackupSlider|"
 msgid "1 day"
-msgstr "1 dia"
+msgstr "1 nap"
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
-msgstr "Cortar"
+msgstr "Kivágás"
 
 msgctxt "BaseTextArea|"
 msgid "Copy"
-msgstr "Copiar"
+msgstr "Másolás"
 
 msgctxt "BaseTextArea|"
 msgid "Paste"
-msgstr "Colar"
+msgstr "Beillesztés"
 
 msgctxt "BaseTextField|"
 msgid "Cut"
-msgstr "Cortar"
+msgstr "Kivágás"
 
 msgctxt "BaseTextField|"
 msgid "Copy"
-msgstr "Copiar"
+msgstr "Másolás"
 
 msgctxt "BaseTextField|"
 msgid "Paste"
-msgstr "Colar"
+msgstr "Beillesztés"
 
 msgctxt "BatchVideoQuality|"
 msgid "Max. video quality:"
-msgstr "Qualidade de vídeo máxima:"
+msgstr "Max. videó minőség:"
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
@@ -488,171 +394,168 @@ msgstr "kbps"
 
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
-msgstr "From %1 %2 to %3 %4"
+msgstr "%1 %2 -ból %3 %4 -ba"
 
 msgctxt "BitrateComboBox|"
 msgid "CD quality"
-msgstr "Qualidade de CD"
+msgstr "CD minőség"
 
 msgctxt "BitrateComboBox|"
 msgid "High quality"
-msgstr "Alta qualidade"
+msgstr "Magas minőség"
 
 msgctxt "BitrateComboBox|"
 msgid "Medium quality"
-msgstr "Qualidade média"
+msgstr "Közepes minőség"
 
 msgctxt "BitrateComboBox|"
 msgid "Radio quality"
-msgstr "Qualidade de rádio"
+msgstr "Rádió minőség"
 
 msgctxt "BitrateComboBox|"
 msgid "Low quality"
-msgstr "Baixa qualidade"
+msgstr "Alacsony minőség"
 
 msgctxt "BitrateComboBox|"
 msgid "Speech"
-msgstr "Falar"
+msgstr "Beszéd"
 
 msgctxt "BitrateComboBox|"
 msgid "Lowest quality, smallest file size"
-msgstr "Menor qualidade, menor tamanho de arquivo"
+msgstr "Legalacsonyabb minőség, legalacsonyabb fájl méret"
 
 msgctxt "BottomPanelTools|"
 msgid "General"
-msgstr "Geral"
+msgstr "Általános"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
-msgstr "Progresso"
+msgstr "Folyamat"
 
 msgctxt "BottomPanelTools|"
 msgid "Files"
-msgstr "Arquivos"
+msgstr "Fájlok"
 
 msgctxt "BottomPanelTools|"
 msgid "Connections"
-msgstr "Conexões"
+msgstr "Kapcsolatok"
 
 msgctxt "Browser|"
 msgid "Enter URL"
-msgstr "Digite a URL"
+msgstr "Írja be az URL-t"
 
 msgctxt "Browser|"
 msgid "Bookmark removed"
-msgstr "Marcador removido"
+msgstr "Könyvjelző eltávolítva"
 
 msgctxt "Browser|"
 msgid "Bookmark added"
-msgstr "Marcador adicionado"
+msgstr "Könyvjelző hozzáadva"
 
 msgctxt "Browser|"
 msgid "Bookmarks"
-msgstr "Marcadores"
+msgstr "Könyvjelzők"
 
 msgctxt "Browser|"
 msgid "There are no bookmarks at the moment"
-msgstr "Não há marcadores no momento"
+msgstr "Jelenleg nincsenek könyvjelzők"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr "Tem certeza de que deseja remover este marcador?"
+msgstr "Biztos vagy benne, hogy eltávolítod ezt a könyvjelzőt?"
 
 msgctxt "Browser|"
 msgid "YES"
-msgstr "SIM"
+msgstr "IGEN"
 
 msgctxt "Browser|"
 msgid "NO"
-msgstr "NÃO"
+msgstr "NEM"
 
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
-msgstr "Voltar para %1"
+msgstr "Vissza a %1 -hez"
 
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
-msgstr "Marcadores"
-
-msgctxt "Browser MainMenu|"
-msgid "Download media"
-msgstr "Baixar mídia"
+msgstr "Könyvjelzők"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
-msgstr "Remover marcador"
+msgstr "Könyvjelző eltávolítása"
 
 msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
-msgstr "Adicionar marcador"
+msgstr "Könyvjelző hozzáadása"
 
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
-msgstr "Baixe a extensão do %1"
+msgstr "A(z) %1 bővítmény letöltése"
 
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
-msgstr "%1 não está instalado"
+msgstr "%1 nincs telepítve"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
-msgstr "Integração com o Navegador"
+msgstr "Böngésző integráció"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
 msgstr ""
-"Certifique-se de ter a extensão do %1 instalada, caso contrário, clique em "
-"um dos botões abaixo"
+"Győződjön meg róla, hogy a(z) %1 bővítmény telepítve van, különben "
+"kattintson az alábbi gombok egyikére"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
-msgstr "Outros navegadores suportados"
+msgstr "Más támogatott böngészők"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
-msgstr "Capturar automaticamente links de navegadores"
+msgstr "Automatikusan elkapja a letöltéseket a böngészőkből"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Intercept downloads in your web browser"
-msgstr "Interceptar downloads em seu navegador"
+msgstr "Letöltések elkapása a böngészőjében"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Start downloading without confirmation"
-msgstr "Iniciar o download sem confirmação"
+msgstr "Letöltés elkezdése megerősítés nélkül"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip domains"
-msgstr "Pular domínios"
+msgstr "Domainek kihagyása"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Edit list"
-msgstr "Lista de edição"
+msgstr "Lista szerkesztése"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid domain?"
-msgstr "Tem certeza que este é um domínio válido?"
+msgstr "Biztos vagy benne, hogy ez egy valós domain?"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip files with extensions"
-msgstr "Pular arquivos com extensões"
+msgstr "Fájlok kihagyása kiterjesztésekkel"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid file extension?"
-msgstr "Tem certeza de que é uma extensão de arquivo válida?"
+msgstr "Biztos vagy benne, hogy ez egy valós fájlkiterjesztés?"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't catch downloads smaller than"
-msgstr "Não capturar downloads menores que"
+msgstr "Ne kapjon el letöltéseket amik kisebbek, mint"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
-msgstr "Mbytes"
+msgstr "Megabájt"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
-msgstr "Usar navegador se cancelar o download através do %1"
+msgstr ""
+"Használja a böngészőt, ha megszakítja a letöltést a(z) %1 -en keresztül"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -665,74 +568,66 @@ msgid ""
 "browser does not provide to %1 (or there is no universal way for all "
 "browsers to do this)."
 msgstr ""
-"Você está prestes a abrir um navegador web integrado.\n"
+"Egy beépített webböngésző megnyitására készül.\n"
 "\n"
-"Isso o ajudará a adicionar downloads ao %1.\n"
+"Segít a letöltések %1 -be való hozzáadásában.\n"
 "\n"
-"Alguns deles (por exemplo, downloads do Google Drive) podem ser adicionados "
-"apenas ao usar este navegador, pois exigem informações adicionais que o "
-"navegador do seu sistema Android não fornece ao %1 (ou não existe uma "
-"maneira universal de todos os navegadores fazerem isso)."
+"Néhányuk (pl. Google Drive letöltések) csak ezzel a böngészővel adható "
+"hozzá, mert további információkat igényelnek, amelyeket az Android rendszer "
+"böngészője nem biztosít %1 -nek (vagy nincs univerzális módja annak, hogy "
+"minden böngésző ezt megtegye)."
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
-msgstr "Continuar"
+msgstr "Folytatás"
 
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
-msgstr "(navegador não instalado)"
+msgstr "(a böngésző nincs telepítve)"
 
 msgctxt "BtSettings|"
 msgid "General"
-msgstr "Geral"
+msgstr "Általános"
 
 msgctxt "BtSettings|"
 msgid "Monitoring"
-msgstr "Monitoramento"
+msgstr "Figyelés"
 
 msgctxt "BtSettings|"
 msgid "Open"
-msgstr "Abrir"
+msgstr "Megnyitás"
 
 msgctxt "BtSettings|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
-msgstr "Iniciar o download sem confirmação"
-
-msgctxt "BtSettings|"
-msgid "Advanced"
-msgstr "Avançado"
-
-msgctxt "BtSettings|"
-msgid "Custom port:"
-msgstr "Porta personalizada:"
+msgstr "Letöltés elkezdése megerősítés nélkül"
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
-msgstr "Carregado"
+msgstr "Feltöltött"
 
 msgctxt "BtStrings|"
 msgid "Ratio"
-msgstr "Proporção"
+msgstr "Arány"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
-msgstr "Adicionar download"
+msgstr "Letöltés hozzáadása"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
-msgstr "Relatar problema"
+msgstr "Probléma jelentése"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Download"
-msgstr "Baixar"
+msgstr "Letöltés"
 
 msgctxt "BuildDownloadDialog|"
 msgid "OK"
@@ -740,11 +635,11 @@ msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
 msgid "Add download"
-msgstr "Adicionar download"
+msgstr "Letöltés hozzáadása"
 
 msgctxt "BuildDownloadPage|"
 msgid "Download"
-msgstr "Baixar"
+msgstr "Letöltés"
 
 msgctxt "BuildDownloadPage|"
 msgid "OK"
@@ -752,83 +647,83 @@ msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
-msgstr "Relatar problema"
+msgstr "Probléma jelentése"
 
 msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
-msgstr "Baixar deste site não é permitido"
+msgstr "Erről a webhelyről nem szabad letölteni"
 
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
-msgstr "O proxy %1 requer um nome de usuário e senha."
+msgstr "A %1 proxyhoz felhasználónév és jelszó szükséges."
 
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
-msgstr "%1 está solicitando seu nome de usuário e senha."
+msgstr "%1 kéri a felhasználónevét és jelszavát."
 
 msgctxt "BuildDownloadTools|"
 msgid "Querying info. Please wait..."
-msgstr "Consultando informações. Aguarde..."
+msgstr "Információk lekérdezése. Kérlek várj..."
 
 msgctxt "ButtonsBlock|"
 msgid "Please select download link"
-msgstr "Por favor, selecione o link de download"
+msgstr "Válasszon letöltési linket"
 
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
-msgstr "Você não pode selecionar mais do que %1 links de cada vez"
+msgstr "Egyszerre legfeljebb %1 linket választhat ki"
 
 msgctxt "ButtonsBlock|"
 msgid "No write access to the selected directory"
-msgstr "Sem acesso de gravação ao diretório selecionado"
+msgstr "Nincs írási hozzáférés a kiválasztott könyvtárhoz"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
-msgstr "Não há espaço em disco suficiente"
+msgstr "Nincs elég hely a lemezen"
 
 msgctxt "ButtonsBlock|"
 msgid "The path contains invalid characters"
-msgstr "O caminho contém caracteres inválidos"
+msgstr "Az elérési út érvénytelen karaktereket tartalmaz"
 
 msgctxt "ButtonsBlock|"
 msgid "The subfolder name contains invalid characters"
-msgstr "O nome da subpasta contém caracteres inválidos"
+msgstr "Az almappanév érvénytelen karaktereket tartalmaz"
 
 msgctxt "ButtonsBlock|"
 msgid "The filename contains invalid characters"
-msgstr "O nome do arquivo contém caracteres inválidos"
+msgstr "A fájlnév érvénytelen karaktereket tartalmaz"
 
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
-msgstr "Baixar"
+msgstr "Letöltés"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
-msgstr "Alterar URL de download"
+msgstr "Letöltési URL módosítása"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
-msgstr "Insira novo URL"
+msgstr "Írja be az új URL-t"
 
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
-msgstr "Localização do arquivo: %1"
+msgstr "A fájl helye: %1"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
-msgstr "URL inválida"
+msgstr "Érvénytelen URL"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Start download"
-msgstr "Iniciar download"
+msgstr "Letöltés elkezdése"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "ChangeUrlDialog|"
 msgid "OK"
@@ -836,7 +731,7 @@ msgstr "OK"
 
 msgctxt "ChangeUrlPage|"
 msgid "Change download URL"
-msgstr "Alterar URL de download"
+msgstr "Letöltési URL módosítása"
 
 msgctxt "ChangeUrlPage|"
 msgid "OK"
@@ -844,56 +739,19 @@ msgstr "OK"
 
 msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
-msgstr "Insira novo URL"
+msgstr "Írja be az új URL-t"
 
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
-msgstr "Localização do arquivo: %1"
+msgstr "A fájl helye: %1"
 
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
-msgstr "Iniciar download"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Connect to remote %1"
-msgstr "Conectar ao %1 remoto"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "(beta)"
-msgstr "(beta)"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Here you can connect to %1 running on another device."
-msgstr "Aqui você pode se conectar ao %1 em execução em outro dispositivo."
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Automatically connect at startup"
-msgstr "Conectar automaticamente ao inicializar"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Automatically connect at %1 startup"
-msgstr "Conectar automaticamente ao inicializar o %1"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Cancel"
-msgstr "Cancelar"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "OK"
-msgstr "OK"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
-msgstr ""
-"Aqui você pode se conectar ao %1 em execução no seu PC Windows/macOS/Linux"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr "Insira o ID ou <a href='#'>digitalize o código QR</a>"
+msgstr "Letöltés elkezdése"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
-msgstr "Não há conexões"
+msgstr "Nincsenek kapcsolatok"
 
 msgctxt "ConnectionsTab|"
 msgid "Host"
@@ -901,94 +759,47 @@ msgstr "Host"
 
 msgctxt "ConnectionsTab|"
 msgid "Port"
-msgstr "Porta"
+msgstr "Port"
 
 msgctxt "ConnectionsTab|"
 msgid "Connection count"
-msgstr "Contagem de conexões"
-
-msgctxt "ConvertDestinationFilesExistsDialog|"
-msgid "Destination files already exists"
-msgstr "Os arquivos de destino já existem"
-
-msgctxt "ConvertDestinationFilesExistsDialog|"
-msgid "Overwrite All"
-msgstr "Sobrescrever todos"
-
-msgctxt "ConvertDestinationFilesExistsDialog|"
-msgid "Rename All"
-msgstr "Renomear todos"
-
-msgctxt "ConvertDestinationFilesExistsDialog|"
-msgid "Skip All"
-msgstr "Pular todos"
-
-msgctxt "ConvertDestinationFilesExistsDialog|"
-msgid "Abort"
-msgstr "Abortar"
-
-msgctxt "ConvertFilesFailedDialog|"
-msgid "Failed to convert"
-msgstr "Falha ao converter"
-
-msgctxt "ConvertFilesFailedDialog|"
-msgid "OK"
-msgstr "OK"
-
-msgctxt "ConvertFilesFailedDialog|"
-msgid "Convert failed"
-msgstr "Falha na conversão"
+msgstr "Kapcsolat szám"
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
-msgstr "Copiar link"
+msgstr "Hivatkozás másolása"
 
 msgctxt "CopyMenu|"
 msgid "Copy"
-msgstr "Copiar"
+msgstr "Másolás"
 
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
-msgstr "Você tem certeza que quer sair?"
-
-msgctxt "CppQmlAppRcServer|"
-msgid "Starting..."
-msgstr "Iniciando..."
-
-msgctxt "CppQmlAppRcServer|"
-msgid "Failed to start."
-msgstr "Falha ao iniciar."
-
-msgctxt "CppQmlAppRcServer|"
-msgid "Error: %1"
-msgstr "Erro: %1"
-
-msgctxt "CppQmlAppRcServer|"
-msgid "OK"
-msgstr "OK"
+msgstr "Biztos vagy benne, hogy kilépsz?"
 
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr ""
-"Ocorreu um erro interno. <br>%1 precisa ser reiniciado para uso posterior."
+"Belső hiba történt.<br>A(z) %1 alkalmazást újra kell indítani a további "
+"használat érdekében."
 
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
-msgstr "Reiniciar %1 automaticamente"
+msgstr "%1 automatikus újraindítása"
 
 msgctxt "CrashReporter|"
 msgid "Failed to send the report.<br>Check your Internet connection."
 msgstr ""
-"Falhou em enviar o relatório. <br>Verifique sua conexão com a Internet."
+"Nem sikerült elküldeni a jelentést.<br>Ellenőrizze az internetkapcsolatot."
 
 msgctxt "CrashReporter|"
 msgid "Error"
-msgstr "Erro"
+msgstr "Hiba"
 
 msgctxt "CreateFolderDialog|"
 msgid "Create folder"
-msgstr "Criar pasta"
+msgstr "Mappa létrehozása"
 
 msgctxt "CreateFolderDialog|"
 msgid "OK"
@@ -996,43 +807,43 @@ msgstr "OK"
 
 msgctxt "CreateFolderDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
-msgstr "Criar versão portátil"
+msgstr "Hordozható verzió létrehozása"
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
 msgstr ""
-"A versão portátil do %1 pode ser usada em computadores diferentes sem a "
-"necessidade de instalá-la e configurá-la em cada um deles."
+"A(z) %1 hordozható verziója különféle számítógépeken használható, anélkül, "
+"hogy mindegyikre telepíteni és konfigurálni kellene."
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
-msgstr "Pode ser convenientemente gravado em uma memória flash, por exemplo."
+msgstr "Kényelmesen elhelyezhető például egy flash lemezen."
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
 msgstr ""
-"Especifique aqui o caminho em que você deseja criar esta versão. Deve ser "
-"uma pasta em alguma unidade removível."
+"Itt adja meg azt az elérési utat, ahová ezt a verziót szeretné létrehozni. "
+"Valamely hordozható meghajtó mappájában kellene lennie."
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
-msgstr "Abrir"
+msgstr "Megnyitás"
 
 msgctxt "CreatePortableDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "CreatePortableDialog|"
 msgid "Please specify the path."
-msgstr "Especifique o caminho."
+msgstr "Adja meg az elérési utat."
 
 msgctxt "CreatePortableDialog|"
 msgid "OK"
@@ -1040,87 +851,87 @@ msgstr "OK"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
-msgstr "Criando %1%"
+msgstr "%1% létrehozása"
 
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
-msgstr "Ocorreu um erro ao criar uma versão portátil: %1"
+msgstr "Hiba történt a hordozható verzió létrehozása közben: %1"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating a portable version was successfully completed."
-msgstr "A criação de uma versão portátil foi concluída com sucesso."
+msgstr "A hordozható verzió létrehozása sikeresen befejeződött."
 
 msgctxt "CreatePortableDialog|"
 msgid "Close"
-msgstr "Fechar"
+msgstr "Bezárás"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Customize sounds"
-msgstr "Personalizar sons"
+msgstr "Hangok testreszabása"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Event"
-msgstr "Evento"
+msgstr "Esemény"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Sound file"
-msgstr "Arquivo de som"
+msgstr "Hangfájl"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No sound"
-msgstr "Sem som"
+msgstr "Nincs hang"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads added"
-msgstr "Downloads adicionados"
+msgstr "Letöltések hozzáadva"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads completed"
-msgstr "Downloads concluídos"
+msgstr "A letöltések befejeződtek"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads failed"
-msgstr "Downloads com falha"
+msgstr "A letöltések nem sikerültek"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No active downloads"
-msgstr "Nenhum download ativo"
+msgstr "Nincs aktív letöltés"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Set sound"
-msgstr "Definir som"
+msgstr "Hang beállítása"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Remove"
-msgstr "Remover"
+msgstr "Törlés"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Test"
-msgstr "Testar"
+msgstr "Kipróbálás"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Close"
-msgstr "Fechar"
+msgstr "Bezárás"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
-msgstr "Excluir downloads selecionados"
+msgstr "A kijelölt letöltések törlése"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Remember my choice"
-msgstr "Lembrar minha escolha"
+msgstr "Emlékezz, hogy mit választottam"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete files"
-msgstr "Excluir arquivos"
+msgstr "Fájlok törlése"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Remove from list"
-msgstr "Remover da lista"
+msgstr "Törlés a listáról"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "OK"
@@ -1128,19 +939,19 @@ msgstr "OK"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete this file?"
-msgstr "Excluir esse arquivo?"
+msgstr "Törli ezt a fájlt?"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected files?"
-msgstr "Excluir arquivos selecionados?"
+msgstr "Törli a kijelölt fájlokat?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Delete selected downloads"
-msgstr "Excluir downloads selecionados"
+msgstr "A kijelölt letöltések törlése"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Are you sure you want to delete the selected file(s)?"
-msgstr "Tem certeza de que deseja excluir o(s) arquivo(s) selecionado(s)?"
+msgstr "Biztosan törli a kijelölt fájl(oka)t?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "OK"
@@ -1148,527 +959,482 @@ msgstr "OK"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Download deleting failed"
-msgstr "Falha ao excluir o download"
+msgstr "A letöltés törlése nem sikerült"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Try again"
-msgstr "Tentar novamente"
+msgstr "Próbáld újra"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore"
-msgstr "Ignorar"
+msgstr "Kihagyás"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore all"
-msgstr "Ignorar tudo"
+msgstr "Összes kihagyása"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
-msgstr "Abortar"
+msgstr "Megszakítás"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "Tamanho: %1 (Espaço em disco: %2)"
+msgstr "Méret: %1 (Lemezterület: %2)"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1"
-msgstr "Tamanho: %1"
+msgstr "Méret: %1"
 
 msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
-msgstr "Mostrar velocidade total de upload no ícone da Dock"
-
-msgctxt "DownloadExpiredDialog|"
-msgid "Download Failure"
-msgstr "Falha no download"
-
-msgctxt "DownloadExpiredDialog|"
-msgid ""
-"Can't resume download. Download link likely expired. Resume attempts failed."
-msgstr ""
-"Não é possível retomar o download. O link de download provavelmente expirou. "
-"As tentativas de retomada falharam."
-
-msgctxt "DownloadExpiredDialog|"
-msgid "Please try to update the download link to resume."
-msgstr "Tente atualizar o link de download para retomar."
-
-msgctxt "DownloadExpiredDialog|"
-msgid ""
-"Go to the website with the original download source and copy the renewed link"
-msgstr ""
-"Vá para o site com a fonte de download original e copie o link renovado"
-
-msgctxt "DownloadExpiredDialog|"
-msgid "click here"
-msgstr "clique aqui"
-
-msgctxt "DownloadExpiredDialog|"
-msgid "Update download"
-msgstr "Atualizar download"
-
-msgctxt "DownloadExpiredDialog|"
-msgid "Close"
-msgstr "Fechar"
+msgstr "A teljes feltöltési sebesség megjelenítése a Dock ikonon"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
-msgstr "Salvo em"
+msgstr "Mentve"
 
 msgctxt "DownloadWindow|"
 msgid "File size"
-msgstr "Tamanho do arquivo"
+msgstr "Fájl méret"
 
 msgctxt "DownloadWindow|"
 msgid "Resume support"
-msgstr "Suporte à retomada"
+msgstr "Folytatás támogatás"
 
 msgctxt "DownloadWindow|"
 msgid "Yes"
-msgstr "Sim"
+msgstr "Igen"
 
 msgctxt "DownloadWindow|"
 msgid "No"
-msgstr "Não"
+msgstr "Nem"
 
 msgctxt "DownloadWindow|"
 msgid "Unknown"
-msgstr "Desconhecido"
+msgstr "Ismeretlen"
 
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
-msgstr "Baixado"
+msgstr "Letöltve"
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
-msgstr "Velocidade"
+msgstr "Sebesség"
 
 msgctxt "DownloadWindow|"
 msgid "Time remaining"
-msgstr "Tempo restante"
+msgstr "Hátralevő idő"
 
 msgctxt "DownloadWindow|"
 msgid "Open download when it is completed"
-msgstr "Abrir download quando estiver concluído"
+msgstr "Nyissa meg a letöltést, ha befejeződött"
 
 msgctxt "DownloadWindow|"
 msgid "Close this window when the download is completed or stopped"
-msgstr "Fechar esta janela quando o download for concluído ou interrompido"
+msgstr "Zárja be ezt az ablakot, amikor a letöltés befejeződött vagy leállt"
 
 msgctxt "DownloadWindow|"
 msgid "Hide"
-msgstr "Esconder"
+msgstr "Elrejt"
 
 msgctxt "DownloadWindow|"
 msgid "Show In Folder"
-msgstr "Mostrar na pasta"
+msgstr "Megjelenítés a mappában"
 
 msgctxt "DownloadWindow|"
 msgid "Open"
-msgstr "Abrir"
+msgstr "Megnyitás"
 
 msgctxt "DownloadWindow|"
 msgid "Stop"
-msgstr "Parar"
+msgstr "Leállítás"
 
 msgctxt "DownloadWindow|"
 msgid "Start"
-msgstr "Iniciar"
+msgstr "Indítás"
 
 msgctxt "DownloadsItemTools|"
 msgid "Moving"
-msgstr "Movendo"
+msgstr "Mozgatás"
 
 msgctxt "DownloadsItemTools|"
 msgid "Checking for viruses"
-msgstr "Checando por vírus"
+msgstr "Vírusok ellenőrzése"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp3"
-msgstr "Convertendo para mp3"
+msgstr "Konvertálás mp3-ra"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp4"
-msgstr "Convertendo para mp4"
+msgstr "Konvertálás mp4-re"
 
 msgctxt "DownloadsItemTools|"
 msgid "Calculating hash"
-msgstr "Calculando hash"
+msgstr "A hash kiszámítása"
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
-msgstr "O Arquivo está faltando"
+msgstr "Hiányzik a fájl"
 
 msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
-msgstr "O disco está faltando"
+msgstr "Hiányzik a lemez"
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
-msgstr "Links de download (%1 selecionados)"
+msgstr "Linkek letöltése (%1 kiválasztva)"
 
 msgctxt "DownloadsList|"
 msgid "Select all"
-msgstr "Selecionar Tudo"
+msgstr "Összes kiválasztása"
 
 msgctxt "DownloadsList|"
 msgid "Select none"
-msgstr "Selecionar nenhum"
+msgstr "Semelyiket ne válassza ki"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
-msgstr "A lista de downloads está vazia."
+msgstr "A letöltési lista üres."
 
 msgctxt "DownloadsPage|"
 msgid "Add new download URL."
-msgstr "Adicione nova URL de download."
+msgstr "Új letöltési URL hozzáadása."
 
 msgctxt "DownloadsPage|"
 msgid "No results found for"
-msgstr "Nenhum resultado encontrado para"
+msgstr "Nincs találat a következőre"
 
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
-msgstr "Nenhum resultado marcado \"%1\" encontrado"
+msgstr "Nincs találat a következő címkével: \"%1\""
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
-msgstr "Nenhum download ativo"
+msgstr "Nincsenek aktív letöltések"
 
 msgctxt "DownloadsPage|"
 msgid "No completed downloads"
-msgstr "Nenhum download concluído"
+msgstr "Nincsenek befejezett letöltések"
 
 msgctxt "DownloadsPage|"
 msgid "Show all"
-msgstr "Mostrar tudo"
+msgstr "Összes megjelenítése"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
-msgstr "A lista de downloads está vazia. Adicione nova URL de download."
+msgstr "A letöltési lista üres. Adj hozzá új letöltési URL-t."
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
-msgstr "Configurações de download"
+msgstr "Letöltési beállítások"
 
 msgctxt "DownloadsSettings|"
 msgid "Start downloading without confirmation"
-msgstr "Iniciar o download sem confirmação"
+msgstr "Indítsa el a letöltéseket megerősítés nélkül"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "Remover automaticamente arquivos excluídos da lista de downloads"
+msgstr "A törölt fájlok automatikus eltávolítása a letöltési listáról"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "Remover automaticamente downloads concluídos da lista de downloads"
+msgstr "A befejezett letöltések automatikus eltávolítása a letöltési listáról"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
-msgstr "Repetir automaticamente downloads com falha"
+msgstr "Próbálja meg újra a sikertelen letöltéseket"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
-msgstr "Usar a hora do servidor para a criação de arquivos"
+msgstr "A kiszolgálóidő használata fájlkészítéshez"
 
 msgctxt "DownloadsSettings|"
 msgid "Default download folder"
-msgstr "Pasta de download padrão"
+msgstr "Alapértelmezett letöltési mappa"
 
 msgctxt "DownloadsSettings|"
 msgid "Choose default download folder automatically"
-msgstr "Escolher automaticamente a pasta de download padrão"
+msgstr "Az alapértelmezett letöltési mappa automatikus kiválasztása"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on file type"
-msgstr "Sugerir pastas com base no tipo de arquivo"
+msgstr "Mappák ajánlása fájltípus alapján"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on download URL"
-msgstr "Sugerir pastas com base na URL de download"
+msgstr "Mappák ajánlása a letöltési URL alapján"
 
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
-msgstr "Pasta de download padrão fixa"
+msgstr "Rögzített alapértelmezett letöltési mappa"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
-msgstr "Remover Tag"
+msgstr "Címke eltávolítása"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Name"
-msgstr "Nome"
+msgstr "Név"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Status"
-msgstr "Estado"
+msgstr "Állapot"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Speed"
-msgstr "Velocidade"
+msgstr "Sebesség"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Size"
-msgstr "Tamanho"
+msgstr "Méret"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Added"
-msgstr "Adicionado"
+msgstr "Hozzáadva"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Paused"
-msgstr "Pausado"
+msgstr "Szüneteltetve"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "File is missing"
-msgstr "O Arquivo está faltando"
+msgstr "Hiányzik a fájl"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Disk is missing"
-msgstr "O disco está faltando"
+msgstr "Hiányzik a lemez"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
-msgstr "Upload pausado"
+msgstr "Feltöltés szüneteltetve"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
-msgstr "Prioridade"
+msgstr "Prioritás"
 
 msgctxt "DownloadsViewItem|"
 msgid "Upload paused"
-msgstr "Upload pausado"
+msgstr "Feltöltés szüneteltetve"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
-msgstr "Reiniciar"
+msgstr "Újraindítás"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Open"
-msgstr "Abrir"
+msgstr "Megnyitás"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show In Folder"
-msgstr "Mostrar na pasta"
+msgstr "Megjelenítés Mappában"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
-msgstr "Relatar problema"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Enable auto retry for this kind of errors"
-msgstr "Ativar a repetição automática para esse tipo de erro"
+msgstr "Probléma jelentése"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
-msgstr "Mostrar downloads"
+msgstr "Letöltések Megjelenítése"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Choose Files..."
-msgstr "Escolher arquivos..."
+msgstr "Válassza ki a Fájlokat..."
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set Priority"
-msgstr "Definir prioridade"
+msgstr "Prioritás Beállítása"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
-msgstr "Alto"
+msgstr "Magas"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Normal"
-msgstr "Normal"
+msgstr "Közepes"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Low"
-msgstr "Baixo"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Rename file"
-msgstr "Renomear arquivo"
+msgstr "Alacsony"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
-msgstr "Mover para..."
+msgstr "Áthelyezés..."
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Delete file"
-msgstr "Excluir arquivo"
+msgstr "Fájl törlése"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Remove from list"
-msgstr "Remover da lista"
+msgstr "Törlés a listáról"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential Download"
-msgstr "Download sequencial"
+msgstr "Letöltés egymás utáni sorrendben"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
-msgstr "Adicionar espelho"
+msgstr "Mirror hozzáadása"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Open download page"
-msgstr "Abrir página de download"
+msgstr "Letöltési oldal megnyitása"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
-msgstr "Copiar link"
+msgstr "Hivatkozás másolása"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Check for update"
-msgstr "Verificar por atualizações"
+msgstr "Frissítések keresése"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
-msgstr "Exportar downloads selecionados"
+msgstr "Kiválasztott letöltések exportálása"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
-msgstr "Adicionar tag"
+msgstr "Címke hozzáadása"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "File integrity"
-msgstr "Integridade do arquivo"
+msgstr "Fájl integritása"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Schedule"
-msgstr "Agendar"
+msgstr "Ütemezés"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Change URL"
-msgstr "Alterar URL"
+msgstr "URL módosítása"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
-msgstr "Converter para mp3"
+msgstr "Konvertálás mp3-ra"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp4"
-msgstr "Converter para mp4"
+msgstr "Konvertálás mp4-re"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
-msgstr "Realizar verificação de vírus"
+msgstr "Vírusellenőrzés elvégzése"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
-msgstr "Definir prioridade"
+msgstr "Prioritás beállítása"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show in folder"
-msgstr "Mostrar na pasta"
+msgstr "Megjelenítés mappában"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show info"
-msgstr "Mostrar informações"
+msgstr "Információ megjelenítése"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Files"
-msgstr "Arquivos"
+msgstr "Fájlok"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
-msgstr "Download sequencial"
-
-msgctxt "DownloadsViewItemContextMenu2|"
-msgid "Remove from list"
-msgstr "Remover da lista"
+msgstr "Letöltés egymás utáni sorrendben"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
-msgstr "Download concluído"
+msgstr "Letöltés befejezve"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
-msgstr "Checando arquivos..."
+msgstr "Fájlok ellenőrzése..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
-msgstr "Mesclando fluxos de mídia..."
+msgstr "Médiafolyamok egyesítése..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Requesting info..."
-msgstr "Solicitando informações..."
+msgstr "Információ lekérése..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Queued"
-msgstr "Na fila"
+msgstr "Várólistán"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Paused"
-msgstr "Pausado"
+msgstr "Szüneteltetve"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
-msgstr "Tamanho do arquivo desconhecido"
+msgstr "Ismeretlen fájlméret"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
-msgstr "Na fila"
+msgstr "Várólistán"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files"
-msgstr "Checando arquivos"
+msgstr "Fájlok ellenőrzése"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Merging media streams"
-msgstr "Mesclando fluxos de mídia"
+msgstr "Médiafolyamok egyesítése"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info"
-msgstr "Solicitando informações"
+msgstr "Információ lekérése"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Unknown file size"
-msgstr "Tamanho do arquivo desconhecido"
+msgstr "Ismeretlen fájlméret"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Paused"
-msgstr "Pausado"
+msgstr "Szüneteltetve"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
-msgstr "Concluído"
+msgstr "Befejezve"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
-msgstr "Editar tag"
+msgstr "Címke módosítása"
 
 msgctxt "EditTagDialog|"
 msgid "Tag"
-msgstr "Tag"
+msgstr "Címke"
 
 msgctxt "EditTagDialog|"
 msgid "Extensions (e.g. \"avi mp3\")"
-msgstr "Extensões (ex. \"avi mp3\")"
+msgstr "Kiterjesztések (pl. \"avi mp3\")"
 
 msgctxt "EditTagDialog|"
 msgid ""
 "Extensions that are automatically assigned with this tag for new downloads"
 msgstr ""
-"Extensões que são atribuídas automaticamente com esta tag para novos "
-"downloads"
+"Azok a kiterjesztések, amelyeket automatikusan ehhez a címkéhez rendelnek új "
+"letöltésekhez"
 
 msgctxt "EditTagDialog|"
 msgid "Default download folder"
-msgstr "Pasta de download padrão"
+msgstr "Alapértelmezett letöltési mappa"
 
 msgctxt "EditTagDialog|"
 msgid "Open"
-msgstr "Abrir"
+msgstr "Megnyitás"
 
 msgctxt "EditTagDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "EditTagDialog|"
 msgid "Macros"
-msgstr "Macros"
+msgstr "Makrók"
 
 msgctxt "EditTagDialog|"
 msgid "OK"
@@ -1676,107 +1442,107 @@ msgstr "OK"
 
 msgctxt "EnvTools|"
 msgid "Low battery"
-msgstr "Bateria fraca"
+msgstr "Alacsony töltöttségű akkumulátor"
 
 msgctxt "EnvTools|"
 msgid "Data roaming disabled"
-msgstr "Roaming de dados desativado"
+msgstr "Adatbarangolás letiltva"
 
 msgctxt "EnvTools|"
 msgid "No Internet connection"
-msgstr "Sem conexão com a Internet"
+msgstr "Nincs internetkapcsolat"
 
 msgctxt "EnvTools|"
 msgid "Mobile data use disabled"
-msgstr "Uso de dados móveis desativado"
+msgstr "Mobiladat-használat letiltva"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Rename"
-msgstr "Renomear"
+msgstr "Átnevezés"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Overwrite"
-msgstr "Sobrescrever"
+msgstr "Felülírás"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Always ask"
-msgstr "Sempre perguntar"
+msgstr "Mindig kérdezz"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
-msgstr "Exportar downloads selecionados"
+msgstr "Kiválasztott letöltések exportálása"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export all downloads"
-msgstr "Exportar todos os downloads"
+msgstr "Összes letöltés exportálása"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Save to"
-msgstr "Salvar para"
+msgstr "Mentés ide"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Open"
-msgstr "Abrir"
+msgstr "Megnyitás"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
-msgstr "Todos os arquivos (%1)"
+msgstr "Összes fájl (%1)"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export only completed downloads"
-msgstr "Exportar apenas downloads concluídos"
+msgstr "Csak befejezett letöltések exportálása"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export"
-msgstr "Exportar"
+msgstr "Exportálás"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
-msgstr "Arquivos de download do %1 (%2)"
+msgstr "%1 letöltési fájlok (%2)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Default format"
-msgstr "Formato padrão"
+msgstr "Alapértelmezett formátum"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
-msgstr "Lista de URLs"
+msgstr "URL-ek listája"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
-msgstr "Arquivos de texto (%1)"
+msgstr "Szöveges fájlok (%1)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
-msgstr "Arquivo CSV"
+msgstr "CSV fájl"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
-msgstr "Arquivos CSV (%1)"
+msgstr "CSV fájlok (%1)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Export"
-msgstr "Exportar"
+msgstr "Exportálás"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
-msgstr "%1 arquivo(s) de configuração (%2)"
+msgstr "%1 beállításfájlok (%2)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
-msgstr "Todos os arquivos (%1)"
+msgstr "Minden fájl (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
-msgstr "Verificar integridade do arquivo"
+msgstr "Fájlintegritás ellenőrzése"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Hash"
@@ -1784,27 +1550,27 @@ msgstr "Hash"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
-msgstr "Calculando %1%"
+msgstr "%1% kiszámítása"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Compare with"
-msgstr "Comparar com"
+msgstr "Összehasonlít"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification OK"
-msgstr "Verificação OK"
+msgstr "Ellenőrzés OK"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification failed"
-msgstr "Falha na verificação"
+msgstr "Ellenőrzés sikertelen"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Close"
-msgstr "Fechar"
+msgstr "Bezárás"
 
 msgctxt "FileIntegrityPage|"
 msgid "Check file integrity"
-msgstr "Verificar integridade do arquivo"
+msgstr "Fájlintegritás ellenőrzése"
 
 msgctxt "FileIntegrityPage|"
 msgid "MD5"
@@ -1819,56 +1585,44 @@ msgid "SHA-256"
 msgstr "SHA-256"
 
 msgctxt "FileIntegrityPage|"
-msgid "SHA-512"
-msgstr "SHA-256: {512?}"
-
-msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "Hash"
 
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
-msgstr "Calculando %1%"
+msgstr "%1% kiszámítása"
 
 msgctxt "FileIntegrityPage|"
 msgid "Compare with"
-msgstr "Comparar com"
+msgstr "Összehasonlít"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification OK"
-msgstr "Verificação OK"
+msgstr "Ellenőrzés OK"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification failed"
-msgstr "Falha na verificação"
+msgstr "Ellenőrzés sikertelen"
 
 msgctxt "FileManagerSupportDialog|"
 msgid "No supported file managers found."
-msgstr "Nenhum gerenciador de arquivos suportado encontrado."
+msgstr "Nem található támogatott fájlkezelő."
 
 msgctxt "FileName|"
 msgid "Create subfolder"
-msgstr "Criar subpasta"
+msgstr "Almappa létrehozása"
 
 msgctxt "FileName|"
 msgid "File name"
-msgstr "Nome do arquivo"
-
-msgctxt "FileName|"
-msgid "%1 files (*.%2)"
-msgstr "%1 arquivos (*.%2)"
-
-msgctxt "FileName|"
-msgid "All files"
-msgstr "Todos os arquivos"
+msgstr "Fájl név"
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
-msgstr "Selecionar pasta"
+msgstr "Mappa kiválasztása"
 
 msgctxt "FilePickerPage|"
 msgid "Select file"
-msgstr "Selecionar arquivo"
+msgstr "Fájl kiválasztása"
 
 msgctxt "FilePickerPage|"
 msgid "OK"
@@ -1876,320 +1630,311 @@ msgstr "OK"
 
 msgctxt "FilePickerPage|"
 msgid "Empty folder"
-msgstr "Pasta vazia"
+msgstr "Üres mappa"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By date"
-msgstr "Por data"
+msgstr "Dátum szerint"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By name"
-msgstr "Por nome"
+msgstr "Név szerint"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By size"
-msgstr "Por tamanho"
+msgstr "Méret szerint"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Sort"
-msgstr "Tipo"
+msgstr "Rendezés"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Ascending"
-msgstr "Crescente"
+msgstr "Növekvő"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Descending"
-msgstr "Descendente"
+msgstr "Csökkenő"
 
 msgctxt "FileType|"
 msgid "File type:"
-msgstr "Tipo de arquivo:"
+msgstr "Fájltípus:"
 
 msgctxt "FilesExistsDialog|"
 msgid "Warning: file exists already"
-msgstr "Aviso: o arquivo já existe"
+msgstr "Figyelem: a fájl már létezik"
 
 msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
-msgstr "Lembrar minha escolha para todos os downloads"
+msgstr "Emlékezzen a választásomra az összes letöltésnél"
 
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
-msgstr "Renomear (%1)"
+msgstr "Átnevezés (%1)"
 
 msgctxt "FilesExistsDialog|"
 msgid "Overwrite"
-msgstr "Sobrescrever"
+msgstr "Felülírás"
 
 msgctxt "FilesExistsDialog|"
 msgid "Abort"
-msgstr "Abortar"
+msgstr "Megszakítás"
 
 msgctxt "FilesTree|"
 msgid "Name"
-msgstr "Nome"
+msgstr "Név"
 
 msgctxt "FilesTree|"
 msgid "Size"
-msgstr "Tamanho"
+msgstr "Méret"
 
 msgctxt "FilesTree|"
 msgid "Progress"
-msgstr "Progresso"
+msgstr "Folyamat"
 
 msgctxt "FilesTree|"
 msgid "Priority"
-msgstr "Prioridade"
+msgstr "Prioritás"
 
 msgctxt "FilesTree|"
 msgid "Normal"
-msgstr "Normal"
+msgstr "Közepes"
 
 msgctxt "FilesTree|"
 msgid "High"
-msgstr "Alto"
+msgstr "Magas"
 
 msgctxt "FilesTree|"
 msgid "Low"
-msgstr "Baixo"
+msgstr "Alacsony"
 
 msgctxt "FilesTree|"
 msgid "Files"
-msgstr "Arquivos"
+msgstr "Fájlok"
 
 msgctxt "FilesTree|"
 msgid "Select all"
-msgstr "Selecionar Tudo"
+msgstr "Összes kiválasztása"
 
 msgctxt "FilesTree|"
 msgid "Select none"
-msgstr "Selecionar nenhum"
+msgstr "Semelyiket ne válassza ki"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High Priority"
-msgstr "Prioridade alta"
+msgstr "Magas Prioritás"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Normal Priority"
-msgstr "Prioridade normal"
+msgstr "Közepes Prioritás"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Low Priority"
-msgstr "Prioridade baixa"
+msgstr "Alacsony Prioritás"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
-msgstr "Ignorar"
+msgstr "Kihagyás"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Open"
-msgstr "Abrir"
+msgstr "Megnyitás"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Show in Folder"
-msgstr "Mostrar na pasta"
+msgstr "Megjelenítés mappában"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "File Integrity"
-msgstr "Integridade do arquivo"
+msgstr "Fájlintegritás"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
-msgstr "Converter vídeo para mp3"
+msgstr "Videó konvertálása mp3-ra"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp4"
-msgstr "Converter vídeo para mp4"
+msgstr "Videó konvertálása mp4-re"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
-msgstr "Converter para mp4"
+msgstr "Konvertálás mp4-re"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
-msgstr "Macros"
+msgstr "Makrók"
 
 msgctxt "GeneralSettings|"
 msgid "General"
-msgstr "Geral"
+msgstr "Általános"
 
 msgctxt "GeneralSettings|"
 msgid "Choose theme"
-msgstr "Escolha o tema"
+msgstr "Téma kiválasztása"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
-msgstr "Idioma"
+msgstr "Nyelv (Language)"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
-msgstr "Downloads"
+msgstr "Letöltések"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
-msgstr "Sugerir pastas com base no tipo de arquivo"
+msgstr "Mappák ajánlása fájltípus alapján"
 
 msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Um tema claro será usado caso o tema do sistema for desconhecido."
+msgstr "A világos téma lesz használva, ha a rendszer téma ismeretlen."
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
-msgstr "Seu idioma não está listado ou a tradução não está completa?"
+msgstr "Your language is not listed or the translation isn't complete?"
 
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
-msgstr "Vamos corrigir isso!"
+msgstr "Let's fix it!"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
-msgstr "Pasta de download padrão"
+msgstr "Alapértelmezett letöltési mappa"
 
 msgctxt "GeneralSettings|"
 msgid "Choose default download folder automatically"
-msgstr "Escolher automaticamente a pasta de download padrão"
+msgstr "Az alapértelmezett letöltési mappa automatikus kiválasztása"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
-msgstr "Sugerir pastas com base na URL de download"
+msgstr "Mappák ajánlása a letöltési URL alapján"
 
 msgctxt "GeneralSettings|"
 msgid "Fixed default download folder"
-msgstr "Pasta de download padrão fixa"
+msgstr "Rögzített alapértelmezett letöltési mappa"
 
 msgctxt "GeneralSettings|"
 msgid "Open"
-msgstr "Abrir"
+msgstr "Megnyitás"
 
 msgctxt "GeneralSettings|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "GeneralSettings|"
 msgid "Macros"
-msgstr "Macros"
+msgstr "Makrók"
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
-msgstr "Vista compacta da lista de downloads"
+msgstr "Kompakt nézet"
 
 msgctxt "GeneralSettings|"
 msgid "Enable standalone downloads windows"
-msgstr "Ativar janelas de downloads independentes"
+msgstr "Önálló letöltési ablakok engedélyezése"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "Automaticamente remover arquivos excluídos da lista de downloads"
+msgstr "A törölt fájlok automatikus eltávolítása a letöltési listáról"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "Remova automaticamente downloads concluídos da lista de downloads"
+msgstr "A befejezett letöltések automatikus eltávolítása a letöltési listáról"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
-msgstr "Repetir automaticamente downloads com falha"
+msgstr "Próbálja meg újra a sikertelen letöltéseket"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
-msgstr "Usar a hora do servidor para a criação de arquivos"
+msgstr "A kiszolgálóidő használata fájlkészítéshez"
 
 msgctxt "GeneralSettings|"
 msgid "Maximum urls count in batch download"
-msgstr "Contagem máxima de URLs no download em lote"
+msgstr "Maximális URL-ek száma kötegletöltésben"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
-msgstr "Atualizar"
+msgstr "Frissítés"
 
 msgctxt "GeneralSettings|"
 msgid "Check for updates automatically"
-msgstr "Verificar por atualizações automaticamente"
+msgstr "Frissítések automatikus keresése"
 
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
-msgstr "Instalar atualizações automaticamente"
+msgstr "Frissítések automatikus telepítése"
 
 msgctxt "GeneralSettings|"
 msgid "Use mobile network"
-msgstr "Use rede móvel"
-
-msgctxt "GeneralSettings|"
-msgid "Allow data roaming"
-msgstr "Permitir roaming de dados"
-
-msgctxt "GeneralSettings|"
-msgid "Using mobile data while roaming may result in additional charges."
-msgstr ""
-"O uso de dados móveis em roaming pode resultar em cobranças adicionais."
+msgstr "Mobilhálózat használata"
 
 msgctxt "GeneralTab|"
 msgid "Status"
-msgstr "Estado"
+msgstr "Állapot"
 
 msgctxt "GeneralTab|"
 msgid "completed"
-msgstr "concluído"
+msgstr "befejezve"
 
 msgctxt "GeneralTab|"
 msgid "State"
-msgstr "Estado"
+msgstr "Állapot"
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
-msgstr "Tamanho total:"
+msgstr "Teljes méret:"
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
-msgstr "Baixado:"
+msgstr "Letöltve:"
 
 msgctxt "GeneralTab|"
 msgid "Uploaded"
-msgstr "Carregado"
+msgstr "Feltöltve"
 
 msgctxt "GeneralTab|"
 msgid "ratio"
-msgstr "proporção"
+msgstr "arány"
 
 msgctxt "GeneralTab|"
 msgid "Web page"
-msgstr "Página da web"
+msgstr "Weboldal"
 
 msgctxt "GeneralTab|"
 msgid "File"
-msgstr "Arquivo"
+msgstr "Fájl"
 
 msgctxt "GeneralTab|"
 msgid "Speed"
-msgstr "Velocidade"
+msgstr "Sebesség"
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
-msgstr "Velocidade do download:"
+msgstr "Letöltési sebesség:"
 
 msgctxt "GeneralTab|"
 msgid "Upload speed:"
-msgstr "Velocidade de upload:"
+msgstr "Feltöltési sebesség:"
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
-msgstr "Adicionado em:"
+msgstr "Hozzáadva:"
 
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
-msgstr "%1 de %2"
+msgstr "%1 a %2 -ből"
 
 msgctxt "GeneralTab|"
 msgid "Domain:"
-msgstr "Domínio:"
+msgstr "Domain:"
 
 msgctxt "GeneralTab|"
 msgid "Added:"
-msgstr "Adicionado:"
+msgstr "Hozzáadva:"
 
 msgctxt "GeneralTab|"
 msgid "Progress:"
-msgstr "Progresso:"
+msgstr "Folyamat:"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2203,37 +1948,33 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
 
-msgctxt "HashAlgorithmCombobox|"
-msgid "SHA-512"
-msgstr "SHA-256: {512?}"
-
 msgctxt "ImportDialog|"
 msgid "Import"
-msgstr "Importar"
+msgstr "Importálás"
 
 msgctxt "ImportDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
-msgstr "Todos os arquivos (%1)"
+msgstr "Minden fájl (%1)"
 
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
-msgstr "Arquivos de texto (%1)"
+msgstr "Szöveges fájlok (%1)"
 
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
-msgstr "Arquivos de download do %1 (%2)"
+msgstr "%1 letöltési fájlok (%2)"
 
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
-msgstr "%1 arquivo(s) de configuração (%2)"
+msgstr "%1 beállításfájlok (%2)"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
-msgstr "Erro: %1"
+msgstr "Hiba: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "OK"
@@ -2241,291 +1982,270 @@ msgstr "OK"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
-msgstr "Falha ao colar URLs do arquivo"
+msgstr "Nem sikerült beilleszteni az URL-eket a fájlból"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
-msgstr "Não foi possível importar a lista de URLs do arquivo: %1"
+msgstr "Nem lehet importálni az URL-ek listáját a fájlból: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
-msgstr "Falha ao exportar"
+msgstr "Nem sikerült exportálni"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
-msgstr "Não foi possível exportar para o arquivo: %1"
+msgstr "Nem lehet exportálni a fájlba: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
-msgstr "Falha ao importar"
+msgstr "Nem sikerült importálni"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
-msgstr "Não foi possível importar do arquivo: %1"
+msgstr "Nem lehet importálni a fájlból: %1"
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
-msgstr "Definir como Padrão"
+msgstr "Beállítás alapértelmezettként"
 
 msgctxt "IntegrationBanner|"
 msgid "Don't ask again"
-msgstr "Não pergunte de novo"
+msgstr "Ne kérdezd újra"
 
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
-msgstr ". Fechar mesmo assim?"
+msgstr ". Biztosan bezárja?"
 
 msgctxt "LanguageDialog|"
 msgid "Language"
-msgstr "Idioma"
+msgstr "Nyelv (Language)"
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
-msgstr "Navegador"
+msgstr "Böngésző"
 
 msgctxt "LeftDrawer|"
 msgid "Settings"
-msgstr "Configurações"
+msgstr "Beállítások"
 
 msgctxt "LeftDrawer|"
 msgid "Contact support"
-msgstr "Contatar suporte"
-
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "Desconectar do %1 remoto"
-
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "Conectar ao %1 remoto"
+msgstr "Kapcsolatfelvétel az ügyfélszolgálattal"
 
 msgctxt "LeftDrawer|"
 msgid "About"
-msgstr "Sobre"
+msgstr "Névjegy"
 
 msgctxt "LeftDrawer|"
 msgid "Quit"
-msgstr "Fechar"
+msgstr "Kilépés"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
-msgstr "Adicionar novo download"
+msgstr "Új letöltés hozzáadása"
 
 msgctxt "ListEditor|"
 msgid "Add"
-msgstr "Adicionar"
+msgstr "Hozzáadás"
 
 msgctxt "ListEditor|"
 msgid "Hide"
-msgstr "Esconder"
+msgstr "Elrejtés"
 
 msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
-msgstr "%content_type% - tipo de conteúdo (ex. \"Música\")"
+msgstr "%content_type% - tartalomtípus (pl. \"Zene\")"
 
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
-msgstr "%server% - nome do servidor (ex. \"%1\")"
+msgstr "%server% - a szerver neve (pl. \"%1\")"
 
 msgctxt "MacrosMenu|"
 msgid "%path_on_server% - path to the downloading file on the server"
-msgstr "%path_on_server% - caminho para o arquivo de download no servidor"
+msgstr "%path_on_server% - a szerveren lévő letöltési fájl elérési útja"
 
 msgctxt "MacrosMenu|"
 msgid "%year% - current year"
-msgstr "%year% - ano atual"
+msgstr "%year% - jelen év"
 
 msgctxt "MacrosMenu|"
 msgid "%month% - current month (number from 1 to 12)"
-msgstr "%month% - mês atual (número de 1 a 12)"
+msgstr "%month% - az aktuális hónap (szám 1-től 12-ig)"
 
 msgctxt "MacrosMenu|"
 msgid "%day% - current day"
-msgstr "%day% - dia atual"
+msgstr "%day% - aktuális nap"
 
 msgctxt "MacrosMenu|"
 msgid "%date% - equivalent to %year%-%month%-%day%"
-msgstr "%date% - equivalente a %year%-%month%-%day%"
+msgstr "%date% - egyenértékű %year%-%month%-%day%"
 
 msgctxt "MainFiltersBar|"
 msgid "All"
-msgstr "Todos"
-
-msgctxt "MainFiltersBar|"
-msgid "Missing Files"
-msgstr "Arquivos ausentes"
+msgstr "Összes"
 
 msgctxt "MainFiltersBar|"
 msgid "Active"
-msgstr "Ativos"
+msgstr "Aktív"
 
 msgctxt "MainFiltersBar|"
 msgid "Completed"
-msgstr "Concluído"
+msgstr "Befejezve"
 
 msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
-msgstr "OK para remover a tag?"
+msgstr "OK, hogy törli a címkét?"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
-msgstr "Colar URLs da área de transferência"
+msgstr "Url-ek beillesztése vágólapról"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from File"
-msgstr "Colar URLs do arquivo"
+msgstr "Url-ek beillesztése a fájlból"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
-msgstr "Exportar/Importar"
+msgstr "Exportálás/Importálás"
 
 msgctxt "MainMenu|"
 msgid "Export all downloads"
-msgstr "Exportar todos os downloads"
+msgstr "Összes letöltés exportálása"
 
 msgctxt "MainMenu|"
 msgid "Import downloads"
-msgstr "Importar downloads"
+msgstr "Letöltések importálása"
 
 msgctxt "MainMenu|"
 msgid "Export settings"
-msgstr "Exportar configurações"
+msgstr "Beállítások exportálása"
 
 msgctxt "MainMenu|"
 msgid "Import settings"
-msgstr "Importar configurações"
-
-msgctxt "MainMenu|"
-msgid "Add-ons..."
-msgstr "Complementos..."
+msgstr "Beállítások importálása"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
-msgstr "Preferências..."
+msgstr "Beállítások..."
 
 msgctxt "MainMenu|"
 msgid "Contact Support"
-msgstr "Contatar Suporte"
+msgstr "Kapcsolatfelvétel az ügyfélszolgálattal"
 
 msgctxt "MainMenu|"
 msgid "Auto Shutdown"
-msgstr "Desligamento automático"
+msgstr "Automatikus leállítás"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
-msgstr "Suspender"
+msgstr "Alvó állapot"
 
 msgctxt "MainMenu|"
 msgid "Hibernate"
-msgstr "Hibernar"
+msgstr "Hibernálás"
 
 msgctxt "MainMenu|"
 msgid "Shutdown"
-msgstr "Desligar"
-
-msgctxt "MainMenu|"
-msgid "Disconnect from remote %1"
-msgstr "Desconectar do %1 remoto"
-
-msgctxt "MainMenu|"
-msgid "Connect to remote %1"
-msgstr "Conectar ao %1 remoto"
+msgstr "Leállítás"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
-msgstr "Criar versão portátil"
+msgstr "Hordozható verzió létrehozása"
 
 msgctxt "MainMenu|"
 msgid "Check for Updates..."
-msgstr "Verificar atualizações..."
+msgstr "Frissítések keresése..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
-msgstr "Junte-se ao Mosaico..."
+msgstr "Csatlakozz a Mozaikhoz..."
 
 msgctxt "MainMenu|"
 msgid "About"
-msgstr "Sobre"
+msgstr "Névjegy"
 
 msgctxt "MainMenu|"
 msgid "Quit"
-msgstr "Fechar"
+msgstr "Kilépés"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
-msgstr "O Modo Caracol libera a largura de banda sem parar os downloads."
+msgstr ""
+"A Csiga mód felszabadítja a sávszélességet a letöltések leállítása nélkül."
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
-msgstr "Modo caracol"
+msgstr "Csiga mód"
 
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
-msgstr[0] "%n download selecionado."
-msgstr[1] "%n downloads selecionados."
+msgstr[0] "%n letöltés kiválasztva."
+msgstr[1] "%n letöltés kiválasztva."
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
-msgstr "Tamanho total:"
+msgstr "Teljes méret:"
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
-msgstr "Adicionar novo download..."
+msgstr "Új letöltés hozzáadása..."
 
 msgctxt "MainToolbar|"
 msgid "Start all"
-msgstr "Iniciar todos"
+msgstr "Összes elkezdése"
 
 msgctxt "MainToolbar|"
 msgid "Start selected"
-msgstr "Iniciar selecionado(s)"
+msgstr "Kiválasztott(ak) elkezdése"
 
 msgctxt "MainToolbar|"
 msgid "Pause all"
-msgstr "Pausar todos"
+msgstr "Összes szüneteltetése"
 
 msgctxt "MainToolbar|"
 msgid "Pause selected"
-msgstr "Pausar selecionado(s)"
+msgstr "Kiválasztott(ak) szüneteltetése"
 
 msgctxt "MainToolbar|"
 msgid "Delete selected"
-msgstr "Excluir selecionado(s)"
+msgstr "Kiválasztott(ak) törlése"
 
 msgctxt "MainToolbar|"
 msgid "Move to..."
-msgstr "Mover para..."
+msgstr "Áthelyezés..."
 
 msgctxt "MainToolbar|"
 msgid "Move downloads up"
-msgstr "Mover downloads para cima"
+msgstr "Letöltések mozgatása felfelé"
 
 msgctxt "MainToolbar|"
 msgid "Move downloads down"
-msgstr "Mover downloads para baixo"
+msgstr "Letöltések mozgatása lefelé"
 
 msgctxt "MainToolbar|"
 msgid "Main menu"
-msgstr "Menu principal"
+msgstr "Főmenü"
 
 msgctxt "MainToolbar|"
-msgid "Switch to user-defined sorting of the download list?"
+msgid ""
+"To use this feature, downloads are required to be sorted by order. Would you "
+"like to sort your downloads by order first?"
 msgstr ""
-"Para usar este recurso, os downloads devem ser classificados por ordem. Você "
-"gostaria de classificar seus downloads por ordem primeiro?"
+"A funkció használatához a letöltéseket sorrend szerint kell rendezni. "
+"Szeretné sorrend szerint rendezni a letöltéseket?"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
-msgstr "Ilimitado"
+msgstr "Korlátlan"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Custom..."
-msgstr "Personalizado..."
+msgstr "Egyedi..."
 
 msgctxt "MaxURatioComboBox|"
 msgid "Custom value"
-msgstr "Valor personalizado"
+msgstr "Egyéni érték"
 
 msgctxt "MaxURatioComboBox|"
 msgid "OK"
@@ -2533,19 +2253,19 @@ msgstr "OK"
 
 msgctxt "MaxURatioComboBox|"
 msgid "CANCEL"
-msgstr "Cancelar"
+msgstr "MÉGSE"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Invalid value"
-msgstr "Valor inválido"
+msgstr "Helytelen érték"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
-msgstr "Deve ser um número maior que 0."
+msgstr "0-nál nagyobb számnak kell lennie."
 
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
-msgstr "O download já existe"
+msgstr "A letöltés már létezik"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "URL:"
@@ -2553,115 +2273,115 @@ msgstr "URL:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Path:"
-msgstr "Caminho:"
+msgstr "Elérési út:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Size:"
-msgstr "Tamanho:"
+msgstr "Méret:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Added at:"
-msgstr "Adicionado em:"
+msgstr "Hozzáadva:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
-msgstr "Ignorar"
+msgstr "Kihagyás"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
-msgstr "Pular tudo (%1)"
+msgstr "Összes kihagyása (%1)"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
-msgstr "Baixar"
+msgstr "Letöltés"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Mobile data usage"
-msgstr "Uso de dados móveis"
+msgstr "Mobiladat-használat"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Waiting for Wi-Fi to start download."
-msgstr "Aguardando por Wi-Fi para iniciar o download."
+msgstr "Várakozás a Wi-Fi-re a letöltés megkezdéséhez."
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Would you like to enable usage of mobile data? *"
-msgstr "Você gostaria de habilitar o uso de dados móveis? *"
+msgstr "Szeretné engedélyezni a mobiladat-használatot? *"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Don't ask again"
-msgstr "Não pergunte de novo"
+msgstr "Ne kérdezze újra"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Yes"
-msgstr "Sim"
+msgstr "Igen"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "No"
-msgstr "Não"
+msgstr "Nem"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
-msgstr "* taxas adicionais podem ser aplicadas"
+msgstr "* további díjak merülhetnek fel"
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
-msgstr "Falha ao mover"
+msgstr "A letöltés áthelyezése sikertelen"
 
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
-msgstr "Erro: %1"
+msgstr "Hiba: %1"
 
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
-msgstr "Não é possível mover: %1"
+msgstr "Nem lehet áthelyezni: %1"
 
 msgctxt "MovingFailedDialog|"
 msgid "Try again"
-msgstr "Tentar novamente"
+msgstr "Próbáld újra"
 
 msgctxt "MovingFailedDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "MovingFolderDialog|"
 msgid "Move"
-msgstr "Mover"
+msgstr "Áthelyezés"
 
 msgctxt "MovingFolderDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Converta para mp3 com bitrate ajustável"
+msgstr "Konvertálás mp3-ba állítható bitrátával"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Save to"
-msgstr "Salvar para"
+msgstr "Mentés ide"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Open"
-msgstr "Abrir"
+msgstr "Megnyitás"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Bitrate (quality)"
-msgstr "Bitrate (qualidade)"
+msgstr "Bitráta (minőség)"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Constant bitrate of value"
-msgstr "Taxa de bits constante de valor"
+msgstr "Állandó bitráta"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Variable bitrate (VBR)"
-msgstr "Bitrate variável (VBR)"
+msgstr "Változó bitráta (VBR)"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "The path contains invalid characters"
-msgstr "O caminho contém caracteres inválidos"
+msgstr "Az elérési út érvénytelen karaktereket tartalmaz"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "OK"
@@ -2669,11 +2389,11 @@ msgstr "OK"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Convert to mp3"
-msgstr "Converter para mp3"
+msgstr "Konvertálás mp3-ra"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Converta para mp3 com bitrate ajustável"
+msgstr "Konvertálás mp3-ba állítható bitrátával"
 
 msgctxt "Mp3ConverterPage|"
 msgid "OK"
@@ -2681,43 +2401,43 @@ msgstr "OK"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Save to"
-msgstr "Salvar para"
+msgstr "Mentés ide"
 
 msgctxt "Mp3ConverterPage|"
 msgid "The path contains invalid characters"
-msgstr "O caminho contém caracteres inválidos"
+msgstr "Az elérési út érvénytelen karaktereket tartalmaz"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Bitrate (quality)"
-msgstr "Bitrate (qualidade)"
+msgstr "Bitráta (minőség)"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Constant bitrate of value"
-msgstr "Taxa de bits constante de valor"
+msgstr "Állandó bitráta"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Variable bitrate (VBR)"
-msgstr "Bitrate variável (VBR)"
+msgstr "Változó bitráta (VBR)"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "Convert to mp4"
-msgstr "Converter para mp4"
+msgstr "Konvertálás MP4-re"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "Save to"
-msgstr "Salvar para"
+msgstr "Mentés ide"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "Open"
-msgstr "Abrir"
+msgstr "Megnyitás"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "The path contains invalid characters"
-msgstr "O caminho contém caracteres inválidos"
+msgstr "Az elérési út érvénytelen karaktereket tartalmaz"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "OK"
@@ -2725,7 +2445,7 @@ msgstr "OK"
 
 msgctxt "Mp4ConverterPage|"
 msgid "Convert to mp4"
-msgstr "Converter para mp4"
+msgstr "Konvertálás MP4-re"
 
 msgctxt "Mp4ConverterPage|"
 msgid "OK"
@@ -2733,75 +2453,71 @@ msgstr "OK"
 
 msgctxt "Mp4ConverterPage|"
 msgid "Save to"
-msgstr "Salvar para"
-
-msgctxt "Mp4ConverterPage|"
-msgid "The path contains invalid characters"
-msgstr "O caminho contém caracteres inválidos"
+msgstr "Mentés ide"
 
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
-msgstr "Verificar atualizações..."
+msgstr "Frissítések keresése..."
 
 msgctxt "NativeMenuBar|"
 msgid "Preferences..."
-msgstr "Preferências..."
+msgstr "Beállítások..."
 
 msgctxt "NativeMenuBar|"
 msgid "Quit"
-msgstr "Fechar"
+msgstr "Kilépés"
 
 msgctxt "NativeMenuBar|"
 msgid "&File"
-msgstr "&Arquivo"
+msgstr "&File"
 
 msgctxt "NativeMenuBar|"
 msgid "Add &new download"
-msgstr "Adicionar &new download"
+msgstr "&new letöltés hozzáadása"
 
 msgctxt "NativeMenuBar|"
 msgid "&Edit"
-msgstr "&Editar"
+msgstr "&Edit"
 
 msgctxt "NativeMenuBar|"
 msgid "&Copy"
-msgstr "&Copiar"
+msgstr "&Copy"
 
 msgctxt "NativeMenuBar|"
 msgid "&Paste"
-msgstr "&Colar"
+msgstr "&Paste"
 
 msgctxt "NativeMenuBar|"
 msgid "Downloads"
-msgstr "Downloads"
+msgstr "Letöltések"
 
 msgctxt "NativeMenuBar|"
 msgid "Start selected"
-msgstr "Iniciar selecionado(s)"
+msgstr "Kiválasztott(ak) elkezdése"
 
 msgctxt "NativeMenuBar|"
 msgid "Pause selected"
-msgstr "Pausar selecionado(s)"
+msgstr "Kiválasztott(ak) szüneteltetése"
 
 msgctxt "NativeMenuBar|"
 msgid "Restart selected"
-msgstr "Reiniciar selecionado"
+msgstr "Kiválasztott(ak) újrakezdése"
 
 msgctxt "NativeMenuBar|"
 msgid "Remove from List"
-msgstr "Remover da lista"
+msgstr "Eltávolítás a Listáról"
 
 msgctxt "NativeMenuBar|"
 msgid "Help"
-msgstr "Ajuda"
+msgstr "Súgó"
 
 msgctxt "NativeMenuBar|"
 msgid "Contact Support"
-msgstr "Contatar Suporte"
+msgstr "Kapcsolatfelvétel az ügyfélszolgálattal"
 
 msgctxt "NetworkSettings|"
 msgid "Network"
-msgstr "Rede"
+msgstr "Hálózat"
 
 msgctxt "NetworkSettings|"
 msgid "Proxy"
@@ -2809,23 +2525,23 @@ msgstr "Proxy"
 
 msgctxt "NetworkSettings|"
 msgid "System proxy"
-msgstr "Proxy do sistema"
+msgstr "Rendszer proxy"
 
 msgctxt "NetworkSettings|"
 msgid "No proxy"
-msgstr "Sem proxy"
+msgstr "Nincs proxy"
 
 msgctxt "NetworkSettings|"
 msgid "Configure manually:"
-msgstr "Configurar manualmente:"
+msgstr "Konfigurálás manuálisan:"
 
 msgctxt "NetworkSettings|"
 msgid "Address"
-msgstr "Endereço"
+msgstr "Cím"
 
 msgctxt "NetworkSettings|"
 msgid "Port"
-msgstr "Porta"
+msgstr "Port"
 
 msgctxt "NetworkSettings|"
 msgid "HTTP:"
@@ -2849,11 +2565,11 @@ msgstr "SOCKS5:"
 
 msgctxt "NetworkSettings|"
 msgid "Invalid proxy settings"
-msgstr "Configurações de proxy inválidas"
+msgstr "Érvénytelen proxy beállítások"
 
 msgctxt "NetworkSettings|"
 msgid "Proxy settings"
-msgstr "Configurações de proxy"
+msgstr "Proxy beállítások"
 
 msgctxt "NetworkSettings|"
 msgid "HTTP"
@@ -2873,11 +2589,11 @@ msgstr "SOCKS5"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Unlimited"
-msgstr "Ilimitado"
+msgstr "Korlátlan"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom..."
-msgstr "Personalizado..."
+msgstr "Egyedi..."
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "KB/s"
@@ -2885,11 +2601,11 @@ msgstr "KB/s"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Please enter numbers only"
-msgstr "Por favor, digite apenas números"
+msgstr "Csak számokat adjon meg"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom value"
-msgstr "Valor personalizado"
+msgstr "Egyéni érték"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "OK"
@@ -2897,207 +2613,47 @@ msgstr "OK"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "CANCEL"
-msgstr "Cancelar"
+msgstr "MÉGSE"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Invalid value"
-msgstr "Valor inválido"
+msgstr "Helytelen érték"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
-msgstr "Deve ser um número maior que 0."
+msgstr "0-nál nagyobb számnak kell lennie."
 
 msgctxt "Page|"
 msgid "Info"
-msgstr "Informação"
+msgstr "Információk"
 
 msgctxt "Page|"
 msgid "Files"
-msgstr "Arquivos"
+msgstr "Fájlok"
 
 msgctxt "Page|"
 msgid "Connections"
-msgstr "Conexões"
-
-msgctxt "PluginsDepsInstallerView|"
-msgid "Installed."
-msgstr "Instalado."
-
-msgctxt "PluginsPage|"
-msgid "Recently installed dependency"
-msgstr "Dependência instalada recentemente"
-
-msgctxt "PluginsPage|"
-msgid "Add-ons"
-msgstr "Complementos"
-
-msgctxt "PluginsPage|"
-msgid "Check for Updates"
-msgstr "Verificar atualizações"
-
-msgctxt "PluginsPage|"
-msgid "Install Add-on From File..."
-msgstr "Instalar complemento do arquivo..."
-
-msgctxt "PluginsPage|"
-msgid "Update Add-ons Automatically"
-msgstr "Atualizar complementos automaticamente"
-
-msgctxt "PluginsPage|"
-msgid "Reset All Add-ons to Update Automatically"
-msgstr "Redefinir todos os complementos para atualizar automaticamente"
-
-msgctxt "PluginsPage|"
-msgid "Updating installed add-ons..."
-msgstr "Atualizando complementos instalados..."
-
-msgctxt "PluginsPage|"
-msgid "There are no installed add-ons."
-msgstr "Não há complementos instalados."
-
-msgctxt "PluginsPage|"
-msgid "Install add-on from file"
-msgstr "Instalar complemento do arquivo"
-
-msgctxt "PluginsPage|"
-msgid "Install"
-msgstr "Instalar"
-
-msgctxt "PluginsPage|"
-msgid "Cancel"
-msgstr "Cancelar"
-
-msgctxt "PluginsPage|"
-msgid "%1 add-ons files"
-msgstr "%1 arquivos de complemento"
-
-msgctxt "PluginsPage|"
-msgid "Failed to install add-on"
-msgstr "Falha ao instalar o complemento"
-
-msgctxt "PluginsPage|"
-msgid "Warning!"
-msgstr "Aviso!"
-
-msgctxt "PluginsPage|"
-msgid "Add-on requests dangerous permissions:"
-msgstr "O complemento solicita permissões perigosas:"
-
-msgctxt "PluginsPage|"
-msgid "Add-on requests dangerous permission:"
-msgstr "O complemento solicita permissão perigosa:"
-
-msgctxt "PluginsPage|"
-msgid "Please install add-ons from trusted sources only."
-msgstr "Instale complementos apenas de fontes confiáveis."
-
-msgctxt "PluginsPage|"
-msgid "Would you like to continue the installation?"
-msgstr "Deseja continuar a instalação?"
-
-msgctxt "PluginsPage|"
-msgid "The following required components are missing:"
-msgstr "Os seguintes componentes necessários estão ausentes:"
-
-msgctxt "PluginsPage|"
-msgid "%1 is required."
-msgstr "%1 é necessário."
-
-msgctxt "PluginsPage|"
-msgid "Would you like to install them?"
-msgstr "Deseja instalá-los?"
-
-msgctxt "PluginsPage|"
-msgid "Would you like to install it?"
-msgstr "Deseja instalá-lo?"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Failed to update add-on"
-msgstr "Falha ao atualizar o complemento"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Warning!"
-msgstr "Aviso!"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requests dangerous permissions:"
-msgstr "A nova versão do complemento %1 solicita permissões perigosas:"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requests dangerous permission:"
-msgstr "A nova versão do complemento %1 solicita permissão perigosa:"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Please install add-ons from trusted sources only."
-msgstr "Instale complementos apenas de fontes confiáveis."
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to continue the installation?"
-msgstr "Deseja continuar a instalação?"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid ""
-"New version of %1 add-on requires additional components:\n"
-"%2"
-msgstr ""
-"A nova versão do complemento %1 requer componentes adicionais:\n"
-"%2"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requires %2."
-msgstr "A nova versão do complemento %1 requer %2."
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install them?"
-msgstr "Deseja instalá-los?"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install it?"
-msgstr "Deseja instalá-lo?"
-
-msgctxt "PluginsViewItem|"
-msgid "Allow Automatic Updates"
-msgstr "Permitir atualizações automáticas"
-
-msgctxt "PluginsViewItem|"
-msgid "Check for Updates"
-msgstr "Verificar atualizações"
-
-msgctxt "PluginsViewItem|"
-msgid "Remove"
-msgstr "Remover"
-
-msgctxt "PluginsViewItem|"
-msgid "Updating..."
-msgstr "Atualizando..."
-
-msgctxt "PluginsViewItem|"
-msgid "Version: %1"
-msgstr "Versão: %1"
-
-msgctxt "PluginsViewItem|"
-msgid "OK to remove?"
-msgstr "OK para remover?"
+msgstr "Kapcsolatok"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
-msgstr "Audio"
+msgstr "Hang"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Video"
-msgstr "Vídeo"
+msgstr "Videó"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Lowest"
-msgstr "Mais baixo"
+msgstr "Legalacsonyabb"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Highest"
-msgstr "Mais alto"
+msgstr "Legmagasabb"
 
 msgctxt "PrivacyDialog|"
 msgid "User agreement"
-msgstr "Termo de acordo do usuário"
+msgstr "Felhasználói Szerződés"
 
 msgctxt "PrivacyDialog|"
 msgid ""
@@ -3105,53 +2661,53 @@ msgid ""
 "We do not collect your personal data and do not share data with third "
 "parties."
 msgstr ""
-"Um relatório de bugs será enviado ao servidor e usado para melhorar o "
-"desempenho do %1. Não recolhemos os seus dados pessoais e não os "
-"compartilhamos com terceiros."
+"Hibajelentést küldünk a kiszolgálónak, és felhasználjuk a(z) %1 "
+"teljesítményének javítására. Nem gyűjtjük az Ön személyes adatait, és nem "
+"osztunk meg adatokat harmadik féllel."
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
-msgstr "Eu concordo (não mostrar novamente)"
+msgstr "Egyetértek (ne mutassa újra)"
 
 msgctxt "PrivacyDialog|"
 msgid "Send report"
-msgstr "Enviar relatório"
+msgstr "Jelentés küldése"
 
 msgctxt "PrivacyDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
-msgstr "Erro inesperado"
+msgstr "Váratlan hiba"
 
 msgctxt "QObject|"
 msgid "Service connection terminated."
-msgstr "Conexão de serviço encerrada."
+msgstr "A szolgáltatási kapcsolat megszakadt."
 
 msgctxt "QObject|"
 msgid "App backend's server listen failed."
-msgstr "Falha na escuta do servidor do backend do aplicativo."
+msgstr "Az alkalmazás háttérszerver meghallgatása nem sikerült."
 
 msgctxt "QObject|"
 msgid "Error"
-msgstr "Erro"
+msgstr "Hiba"
 
 msgctxt "QObject|"
 msgid "Connection failure"
-msgstr "Falha de conexão"
+msgstr "Csatlakozási hiba"
 
 msgctxt "QObject|"
 msgid "App frontend's server listen failed."
-msgstr "Falha na escuta do servidor do frontend do aplicativo."
+msgstr "Az alkalmazás elülsőrszerver meghallgatása nem sikerült."
 
 msgctxt "QObject|"
 msgid "QML load failure."
-msgstr "Falha de carga QML."
+msgstr "QML betöltési hiba."
 
 msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
-msgstr "Falha ao inicializar o gerente estadual do aplicativo."
+msgstr "Nem sikerült inicializálni az alkalmazásállapot-kezelőt."
 
 msgctxt "QObject|"
 msgid ""
@@ -3159,43 +2715,43 @@ msgid ""
 "Error: %1"
 msgstr ""
 "\n"
-"Erro: %1"
+"Hiba: %1"
 
 msgctxt "QObject|"
 msgid "Enter URL"
-msgstr "Digite a URL"
+msgstr "Írja be az URL-t"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
-msgstr "Desculpe, este dispositivo não é compatível com %1."
+msgstr "Sajnos a(z) %1 nem támogatja ezt az eszközt."
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
-msgstr "%1 não conseguiu inicializar. Por favor, reinstale."
+msgstr "A(z) %1 inicializálása nem sikerült. Kérjük, telepítse újra."
 
 msgctxt "QObject|"
 msgid "Reason: %1"
-msgstr "Motivo: %1"
+msgstr "Ok: %1"
 
 msgctxt "QObject|"
 msgid "Contact Support"
-msgstr "Contatar Suporte"
+msgstr "Kapcsolatfelvétel az ügyfélszolgálattal"
 
 msgctxt "QObject|"
 msgid "Exit"
-msgstr "Sair"
+msgstr "Kilépés"
 
 msgctxt "QObject|"
 msgid "Show main window"
-msgstr "Mostrar janela principal"
+msgstr "Főablak megjelenítése"
 
 msgctxt "QObject|"
 msgid "About %1"
-msgstr "Sobre o %1"
+msgstr "A(z) %1 -ről"
 
 msgctxt "QObject|"
 msgid "Quit"
-msgstr "Fechar"
+msgstr "Kilépés"
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -3235,411 +2791,443 @@ msgstr "%1 T"
 
 msgctxt "QObject|"
 msgid "Download complete"
-msgstr "Download concluído"
+msgstr "Letöltés befejezve"
 
 msgctxt "QObject|"
 msgid "Downloads complete"
-msgstr "Downloads concluídos"
+msgstr "Letöltések befelyezve"
 
 msgctxt "QObject|"
 msgid "Download failed"
-msgstr "Falha no download"
+msgstr "Sikertelen letöltés"
 
 msgctxt "QObject|"
 msgid "Downloads failed"
-msgstr "Falha nos downloads"
+msgstr "Sikertelen letöltések"
 
 msgctxt "QObject|"
 msgid "Download added"
-msgstr "Download adicionado"
+msgstr "Letöltés hozzáadva"
 
 msgctxt "QObject|"
 msgid "Unknown error"
-msgstr "Erro desconhecido"
+msgstr "Ismeretlen hiba"
 
 msgctxt "QObject|"
 msgid "File read error"
-msgstr "Erro na leitura do arquivo"
+msgstr "Fájlolvasási hiba"
 
 msgctxt "QObject|"
 msgid "Failed to read from file"
-msgstr "Falha ao ler o arquivo"
+msgstr "Nem sikerült olvasni a fájlból"
 
 msgctxt "QObject|"
 msgid "File write error"
-msgstr "Erro de gravação de arquivo"
+msgstr "Fájlírási hiba"
 
 msgctxt "QObject|"
 msgid "Failed to write to file"
-msgstr "Falha ao gravar para o arquivo"
+msgstr "Nem sikerült írni a fájlba"
 
 msgctxt "QObject|"
 msgid "File open error"
-msgstr "Erro de abertura de arquivo"
+msgstr "Fájl megnyitási hiba"
 
 msgctxt "QObject|"
 msgid "Failed to open file"
-msgstr "Falha ao abrir arquivo"
+msgstr "Nem sikerült megnyitni a fájlt"
 
 msgctxt "QObject|"
 msgid "Access denied"
-msgstr "Acesso negado"
+msgstr "Hozzáférés megtagadva"
 
 msgctxt "QObject|"
 msgid "Access to file is denied"
-msgstr "O acesso ao arquivo é negado"
+msgstr "A fájlhoz való hozzáférés megtagadva"
 
 msgctxt "QObject|"
 msgid "File error"
-msgstr "Erro de arquivo"
+msgstr "Fájl hiba"
 
 msgctxt "QObject|"
 msgid "Unknown file I/O error"
-msgstr "Erro de I/O do arquivo desconhecido"
+msgstr "Ismeretlen fájl I/O hiba"
 
 msgctxt "QObject|"
 msgid "HTTP Error %1"
-msgstr "Erro HTTP %1"
+msgstr "HTTP Hiba %1"
 
 msgctxt "QObject|"
 msgid "Bad Request"
-msgstr "Pedido Incorreto"
+msgstr "Rossz kérés"
 
 msgctxt "QObject|"
 msgid "Unauthorized"
-msgstr "Não Autorizado"
+msgstr "Jogosulatlan"
 
 msgctxt "QObject|"
 msgid "Payment Required"
-msgstr "Pagamento Necessário"
+msgstr "Fizetés szükséges"
 
 msgctxt "QObject|"
 msgid "Forbidden"
-msgstr "Proibido"
+msgstr "Tiltott"
 
 msgctxt "QObject|"
 msgid "Not Found"
-msgstr "Não Encontrado"
+msgstr "Nem található"
 
 msgctxt "QObject|"
 msgid "Method Not Allowed"
-msgstr "Método Não Permitido"
+msgstr "Nem engedélyezett módszer"
 
 msgctxt "QObject|"
 msgid "Not Acceptable"
-msgstr "Não Aceitável"
+msgstr "Elfogadhatatlan"
 
 msgctxt "QObject|"
 msgid "Proxy Authentication Required"
-msgstr "Autenticação de Proxy Necessária"
+msgstr "Proxy Hitelesítés szükséges"
 
 msgctxt "QObject|"
 msgid "Request Timeout"
-msgstr "Tempo Limite de Solicitação"
+msgstr "Lekérés időtúllépés"
 
 msgctxt "QObject|"
 msgid "Conflict"
-msgstr "Conflito"
+msgstr "Konfliktus"
 
 msgctxt "QObject|"
 msgid "Gone"
-msgstr "Ausente"
+msgstr "Elveszett"
 
 msgctxt "QObject|"
 msgid "Length Required"
-msgstr "Comprimento Necessário"
+msgstr "Szükséges hossz"
 
 msgctxt "QObject|"
 msgid "Precondition Failed"
-msgstr "Falha na Pré-condição"
+msgstr "Az előkészítés nem sikerült"
 
 msgctxt "QObject|"
 msgid "Request Entity Too Large"
-msgstr "Entidade de Solicitação Muito Grande"
+msgstr "A kérelem Entitása túl nagy"
 
 msgctxt "QObject|"
 msgid "Request-URI Too Long"
-msgstr "URI de Solicitação Muito Grande"
+msgstr "Az URL-kérés túl hosszú"
 
 msgctxt "QObject|"
 msgid "Unsupported Media Type"
-msgstr "Tipo de Mídia Não Suportada"
+msgstr "Nem támogatott médiatípus"
 
 msgctxt "QObject|"
 msgid "Requested Range Not Satisfiable"
-msgstr "Intervalo Solicitado Não Satisfatório"
+msgstr "A kért tartomány nem kielégítő"
 
 msgctxt "QObject|"
 msgid "Expectation Failed"
-msgstr "Falha na Expectativa"
+msgstr "A elvárás nem sikerült"
 
 msgctxt "QObject|"
 msgid "I'm a teapot"
-msgstr "Eu sou um bule"
+msgstr "Teáskanna vagyok"
 
 msgctxt "QObject|"
 msgid "Authentication Timeout"
-msgstr "Tempo Limite de Autenticação"
+msgstr "Hitelesítési időtúllépés"
 
 msgctxt "QObject|"
 msgid "Method Failure / Enhance Your Calm"
-msgstr "Falha de Método / Melhore Sua Calma"
+msgstr "Módszer hiba / Fokozza nyugalmát"
 
 msgctxt "QObject|"
 msgid "Unprocessable Entity"
-msgstr "Entidade Não Processável"
+msgstr "Feldolgozhatatlan Entitás"
 
 msgctxt "QObject|"
 msgid "Locked"
-msgstr "Bloqueado"
+msgstr "Zárt"
 
 msgctxt "QObject|"
 msgid "Failed Dependency / Method Failure"
-msgstr "Falha na Dependência / Falha do Método"
+msgstr "Sikertelen függőség / módszer hiba"
 
 msgctxt "QObject|"
 msgid "Unordered Collection"
-msgstr "Coleção Não Ordenada"
+msgstr "Rendezetlen gyűjtemény"
 
 msgctxt "QObject|"
 msgid "Upgrade Required"
-msgstr "Upgrade Necessário"
+msgstr "Frissítés szükséges"
 
 msgctxt "QObject|"
 msgid "Precondition Required"
-msgstr "Pré-requisito Necessário"
+msgstr "Előkészítés szükséges"
 
 msgctxt "QObject|"
 msgid "Too Many Requests"
-msgstr "Solicitações Demais"
+msgstr "Túl sok kérés"
 
 msgctxt "QObject|"
 msgid "Request Header Fields Too Large"
-msgstr "Campos do Cabeçalho do Pedido Muito Grandes"
+msgstr "A kérés fejléc mezői túl nagyok"
 
 msgctxt "QObject|"
 msgid "Login Timeout"
-msgstr "Tempo Limite de Login"
+msgstr "Bejelentkezés időtúllépés"
 
 msgctxt "QObject|"
 msgid "No Response"
-msgstr "Sem Resposta"
+msgstr "Nincs válasz"
 
 msgctxt "QObject|"
 msgid "Retry With"
-msgstr "Repetir com"
+msgstr "Próbálja újra"
 
 msgctxt "QObject|"
 msgid "Blocked by Windows Parental Controls"
-msgstr "Bloqueado pelo Controle Parental do Windows"
+msgstr "Letiltva a Windows szülői felügyelet által"
 
 msgctxt "QObject|"
 msgid "Unavailable For Legal Reasons"
-msgstr "Não Disponível por Razões Legais"
+msgstr "Jogi okokból nem érhető el"
 
 msgctxt "QObject|"
 msgid "Request Header Too Large"
-msgstr "Cabeçalho de Solicitação Muito Grande"
+msgstr "A fejléc túl nagy"
 
 msgctxt "QObject|"
 msgid "Cert Error"
-msgstr "Erro de Certificado"
+msgstr "Tanúsítványhiba"
 
 msgctxt "QObject|"
 msgid "No Cert"
-msgstr "Sem Certificado"
+msgstr "Nincs tanúsítvány"
 
 msgctxt "QObject|"
 msgid "HTTP to HTTPS"
-msgstr "HTTP para HTTPS"
+msgstr "HTTP-ről HTTPS-re"
 
 msgctxt "QObject|"
 msgid "Token expired/invalid"
-msgstr "Token expirado/inválido"
+msgstr "A token lejárt/érvénytelen"
 
 msgctxt "QObject|"
 msgid "Client Closed Request"
-msgstr "Cliente Fechou a Solicitação"
+msgstr "Client Closed Request"
 
 msgctxt "QObject|"
 msgid "Internal Server Error"
-msgstr "Erro Interno do Servidor"
+msgstr "Belső Szerverhiba"
 
 msgctxt "QObject|"
 msgid "Not Implemented"
-msgstr "Não Implementado"
+msgstr "Nincs implementálva"
 
 msgctxt "QObject|"
 msgid "Bad Gateway"
-msgstr "Gateway Incorreto"
+msgstr "Rossz átjáró"
 
 msgctxt "QObject|"
 msgid "Service Unavailable"
-msgstr "Serviço Indisponível"
+msgstr "A szolgáltatás nem elérhető"
 
 msgctxt "QObject|"
 msgid "Gateway Timeout"
-msgstr "Tempo Limite do Gateway"
+msgstr "Átjáró időtúllépés"
 
 msgctxt "QObject|"
 msgid "HTTP Version Not Supported"
-msgstr "Versão do HTTP Não Suportada"
+msgstr "A HTTP verzió nem támogatott"
 
 msgctxt "QObject|"
 msgid "Variant Also Negotiates"
-msgstr "Variante Também Negocia"
+msgstr "Variant Also Negotiates"
 
 msgctxt "QObject|"
 msgid "Insufficient Storage"
-msgstr "Armazenamento Insuficiente"
+msgstr "Elégtelen tárhely"
 
 msgctxt "QObject|"
 msgid "Loop Detected"
-msgstr "Loop Detectado"
+msgstr "Hurok észlelve"
 
 msgctxt "QObject|"
 msgid "Bandwidth Limit Exceeded"
-msgstr "Limite de Banda Excedido"
+msgstr "Sávszélesség Korlát túllépve"
 
 msgctxt "QObject|"
 msgid "Not Extended"
-msgstr "Não Estendido"
+msgstr "Nem kiterjesztett"
 
 msgctxt "QObject|"
 msgid "Network Authentication Required"
-msgstr "Autenticação de Rede Necessária"
+msgstr "Hálózati hitelesítés szükséges"
 
 msgctxt "QObject|"
 msgid "Network read timeout error"
-msgstr "Erro de tempo limite de leitura de rede"
+msgstr "Hálózati olvasási időtúllépés"
 
 msgctxt "QObject|"
 msgid "Network connect timeout error"
-msgstr "Erro de tempo limite de conexão de rede"
+msgstr "Hálózati csatlakozás időtúllépés"
 
 msgctxt "QObject|"
 msgid "Unsupported"
-msgstr "Não suportado"
+msgstr "Nem támogatott"
 
 msgctxt "QObject|"
 msgid "Invalid parameter"
-msgstr "Parâmetro inválido"
+msgstr "Érvénytelen paraméter"
 
 msgctxt "QObject|"
 msgid "Unsupported format"
-msgstr "Formato não suportado"
-
-msgctxt "QObject|"
-msgid "Not found"
-msgstr "Não encontrado"
+msgstr "Nem támogatott formátum"
 
 msgctxt "QObject|"
 msgid "Host not found"
-msgstr "Host não encontrado"
+msgstr "A gazdagép nem található"
 
 msgctxt "QObject|"
 msgid "Operation canceled"
-msgstr "Operação cancelada"
+msgstr "A művelet megszakítva"
 
 msgctxt "QObject|"
 msgid "Connection closed"
-msgstr "Conexão fechada"
+msgstr "Kapcsolat lezárva"
 
 msgctxt "QObject|"
 msgid "Timed out"
-msgstr "Expirou"
+msgstr "Időtúllépés"
 
 msgctxt "QObject|"
 msgid "SSL handshake failed"
-msgstr "SSL handshake falhou"
+msgstr "Az SSL kézfogás nem sikerült"
 
 msgctxt "QObject|"
 msgid "Connection refused"
-msgstr "Conexão negada"
+msgstr "Kapcsolódás elutasítva"
 
 msgctxt "QObject|"
 msgid "Network error"
-msgstr "Erro de rede"
+msgstr "Hálózati hiba"
 
 msgctxt "QObject|"
 msgid "Operation not permitted"
-msgstr "Operação não permitida"
+msgstr "A művelet nem engedélyezett"
 
 msgctxt "QObject|"
 msgid "No resume support"
-msgstr "Sem suporte à retomada"
+msgstr "Nincs folytatás támogatás"
 
 msgctxt "QObject|"
 msgid "Resource changed"
-msgstr "Recurso alterado"
+msgstr "A forrás megváltozott"
 
 msgctxt "QObject|"
 msgid "Resource changed on server"
-msgstr "Recurso alterado no servidor"
+msgstr "A forrás megváltozott a szerveren"
 
 msgctxt "QObject|"
 msgid "Fast resume failure"
-msgstr "Falha de retomada rápida"
+msgstr "Gyors folytatás hiba"
 
 msgctxt "QObject|"
 msgid "Can't process page"
-msgstr "Não é possível processar a página"
+msgstr "Nem lehet feldolgozni az oldalt"
 
 msgctxt "QObject|"
 msgid "Error processing page content"
-msgstr "Conteúdo da página de processamento de erros"
+msgstr "Hiba történt az oldal tartalmának feldolgozása során"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
-msgstr "URL não suportado"
+msgstr "Nem támogatott URL"
 
 msgctxt "QObject|"
 msgid "Untitled"
-msgstr "Sem Título"
+msgstr "Névtelen"
 
 msgctxt "QObject|"
 msgid "Failed to remove current version"
-msgstr "Falha ao remover a versão atual"
+msgstr "Nem sikerült eltávolítani a jelenlegi verziót"
 
 msgctxt "QObject|"
 msgid "hdiutil error %1"
-msgstr "hdiutil error %1"
+msgstr "hdiutil hiba %1"
 
 msgctxt "QObject|"
 msgid "Mount point does not exist"
-msgstr "Ponto de montagem não existe"
+msgstr "Csatlakozási pont nem létezik"
+
+msgctxt "QObject|"
+msgid "Path to the dump folder."
+msgstr "A dump mappa elérési útja."
+
+msgctxt "QObject|"
+msgid "Url to upload dumps to."
+msgstr "Url to upload dumps to."
+
+msgctxt "QObject|"
+msgid "Path to the crashed app that can be restarted."
+msgstr "Elérési út az összeomlott alkalmazáshoz, amely újraindítható."
+
+msgctxt "QObject|"
+msgid "Name of the crashed application."
+msgstr "Az összeomlott alkalmazás neve."
+
+msgctxt "QObject|"
+msgid "Version of the application."
+msgstr "Az alkalmazás verziója."
+
+msgctxt "QObject|"
+msgid "Architecture."
+msgstr "Architektúra."
+
+msgctxt "QObject|"
+msgid "User's operating system."
+msgstr "A felhasználó operációs rendszere."
+
+msgctxt "QObject|"
+msgid "Fault module name."
+msgstr "Hibás modul neve."
+
+msgctxt "QObject|"
+msgid "Crash address."
+msgstr "Összeomlási cím."
 
 msgctxt "QObject|"
 msgid "Signature check failure."
-msgstr "Falha no checagem de assinatura."
+msgstr "Aláírás-ellenőrzési hiba."
 
 msgctxt "QObject|"
 msgid "Download with %1"
-msgstr "Baixar com o %1"
+msgstr "Letöltés a(z) %1 alkalmazással"
 
 msgctxt "QObject|"
 msgid "Download all with %1"
-msgstr "Baixe tudo com %1"
+msgstr "Az összes letöltése a(z) %1 alkalmazással"
 
 msgctxt "QObject|"
 msgid "Download selected with %1"
-msgstr "Download selecionado com o %1"
+msgstr "Kiválasztott letöltése a(z) %1 alkalmazással"
 
 msgctxt "QObject|"
 msgid "Download video with %1"
-msgstr "Baixar vídeo com o %1"
+msgstr "Videó letöltése a(z) %1 alkalmazással"
 
 msgctxt "QObject|"
 msgid "Video"
-msgstr "Vídeo"
+msgstr "Videó"
 
 msgctxt "QObject|"
 msgid "Music"
-msgstr "Música"
+msgstr "Zene"
 
 msgctxt "QObject|"
 msgid "There is not enough disk space."
-msgstr "Não há espaço em disco suficiente."
+msgstr "Nincs elég lemezterület."
 
 msgctxt "QObject|"
 msgid ""
@@ -3647,152 +3235,56 @@ msgid ""
 "%1 has failed to restore it from backup.\n"
 "Please close all your web browsers and try again."
 msgstr ""
-"A lista de downloads está danificada.\n"
-"%1 falhou em restaurá-lo a partir de backup.\n"
-"Por favor, feche todos os seus navegadores e tente novamente."
+"A letöltések listája sérült.\n"
+"A(z) %1 nem tudta visszaállítani biztonsági másolatból.\n"
+"Kérjük, zárja be az összes böngészőt, és próbálja újra."
 
 msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
-msgstr "Erro fatal: houve uma falha ao carregar o banco de dados."
+msgstr "Végzetes hiba: nem sikerült betölteni az adatbázist."
 
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
 msgstr ""
-"Deseja apaga-lo (isto limpará sua lista de downloads e todos os dados do %1)?"
+"Szeretné törölni (ezzel törli a letöltési listát és az összes %1 adatot)?"
 
 msgctxt "QObject|"
 msgid "Failed."
-msgstr "Falhou."
+msgstr "Sikertelen."
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
-msgstr "Faltando %path% parâmetro."
+msgstr "Hiányzik a %path% paraméter."
 
 msgctxt "QObject|"
 msgid "Update URL"
-msgstr "Atualizar URL"
+msgstr "URL frissítése"
 
 msgctxt "QObject|"
 msgid "Documents"
-msgstr "Documentos"
+msgstr "Dokumentumok"
 
 msgctxt "QObject|"
 msgid "Pictures"
-msgstr "Imagens"
+msgstr "Képek"
 
 msgctxt "QObject|"
 msgid "Videos"
-msgstr "Vídeos"
+msgstr "Videók"
 
 msgctxt "QObject|"
 msgid "Miscellaneous"
-msgstr "Diversos"
+msgstr "Vegyes"
 
 msgctxt "QObject|"
 msgid "upload paused"
-msgstr "upload pausado"
-
-msgctxt "QObject|"
-msgid "PAUSE ALL"
-msgstr "PAUSAR TODOS"
-
-msgctxt "QObject|"
-msgid "Downloading..."
-msgstr "Baixando..."
-
-msgctxt "QObject|"
-msgid "DISABLE SNAIL MODE"
-msgstr "DESATIVAR MODO CARACOL"
-
-msgctxt "QObject|"
-msgid "SNAIL MODE"
-msgstr "MODO CARACOL"
-
-msgctxt "QObject|"
-msgid "YouTube downloads are not available"
-msgstr "Os downloads do YouTube não estão disponíveis"
-
-msgctxt "QObject|"
-msgid "%1 of unknown at %2"
-msgstr "%1 de desconhecido em %2"
-
-msgctxt "QObject|"
-msgid "%1 of %2 at %3"
-msgstr "%1 de %2 em %3"
-
-msgctxt "QObject|"
-msgid "%1 %2 or higher"
-msgstr "%1 %2 ou superior"
-
-msgctxt "QObject|"
-msgid "Launch Python code"
-msgstr "Iniciar código Python"
-
-msgctxt "QObject|"
-msgid "Allows to execute arbitrary code."
-msgstr "Permitir executar código arbritário."
-
-msgctxt "QObject|"
-msgid "Installing..."
-msgstr "Instalando..."
-
-msgctxt "QObject|"
-msgid "Uninstalling..."
-msgstr "Desinstalando..."
-
-msgctxt "QObject|"
-msgid "Missing components"
-msgstr "Componentes ausentes"
-
-msgctxt "QObject|"
-msgid "%1 are required"
-msgstr "%1 são necessários"
-
-msgctxt "QObject|"
-msgid "%1 is required"
-msgstr "%1 é necessário"
-
-msgctxt "QObject|"
-msgid "Failed to load"
-msgstr "Falha ao carregar"
-
-msgctxt "QObject|"
-msgid "Playlist"
-msgstr "Lista de reprodução"
-
-msgctxt "QuaGzipFile|"
-msgid "QIODevice::Append is not supported for GZIP"
-msgstr "QIODevice::Append não é compatível com GZIP"
-
-msgctxt "QuaGzipFile|"
-msgid "Opening gzip for both reading and writing is not supported"
-msgstr "A abertura de gzip para leitura e escrita não é suportada"
-
-msgctxt "QuaGzipFile|"
-msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr "Você pode abrir um gzip para ler ou escrever. Qual é?"
-
-msgctxt "QuaGzipFile|"
-msgid "Could not gzopen() file"
-msgstr "Não foi possível arquivo gzopen()"
-
-msgctxt "QuaZIODevice|"
-msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr "QIODevice::Append não é compatível com QuaZIODevice"
-
-msgctxt "QuaZIODevice|"
-msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr "QIODevice::ReadWrite não é compatível com QuaZIODevice"
-
-msgctxt "QuaZipFile|"
-msgid "ZIP/UNZIP API error %1"
-msgstr "Erro de API ZIP/UNZIP %1"
+msgstr "a feltöltés szünetel"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
-msgstr "Você tem certeza que quer sair?"
+msgstr "Biztosan ki szeretne lépni?"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "OK"
@@ -3800,95 +3292,35 @@ msgstr "OK"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
-
-msgctxt "RemoteControlSettings|"
-msgid "Remote Access"
-msgstr "Acesso Remoto"
-
-msgctxt "RemoteControlSettings|"
-msgid "(beta)"
-msgstr "(beta)"
-
-msgctxt "RemoteControlSettings|"
-msgid "Allow remote access to %1 running on this device"
-msgstr "Permitir acesso remoto ao %1 em execução neste dispositivo"
-
-msgctxt "RemoteControlSettings|"
-msgid "ID"
-msgstr "ID"
-
-msgctxt "RemoteControlSettings|"
-msgid "Password"
-msgstr "Senha"
-
-msgctxt "RemoteControlSettings|"
-msgid "Status"
-msgstr "Estado"
+msgstr "Mégse"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
-msgstr "Recurso remoto alterado"
+msgstr "A távoli forrás megváltozott"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Always re-download"
-msgstr "Sempre baixar novamente"
+msgstr "Mindig töltse le újra"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Re-download"
-msgstr "Baixar novamente"
+msgstr "Újra letöltés"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
-
-msgctxt "RenameDownloadFileDialog|"
-msgid "Rename file"
-msgstr "Renomear arquivo"
-
-msgctxt "RenameDownloadFileDialog|"
-msgid "Enter new name"
-msgstr "Digite o novo nome"
-
-msgctxt "RenameDownloadFileDialog|"
-msgid "A file with that name already exists."
-msgstr "Um arquivo com este nome já existe."
-
-msgctxt "RenameDownloadFileDialog|"
-msgid "Cancel"
-msgstr "Cancelar"
-
-msgctxt "RenameDownloadFileDialog|"
-msgid "OK"
-msgstr "OK"
-
-msgctxt "RenameDownloadFilePage|"
-msgid "Rename file"
-msgstr "Renomear arquivo"
-
-msgctxt "RenameDownloadFilePage|"
-msgid "OK"
-msgstr "OK"
-
-msgctxt "RenameDownloadFilePage|"
-msgid "Enter new name"
-msgstr "Digite o novo nome"
-
-msgctxt "RenameDownloadFilePage|"
-msgid "A file with that name already exists."
-msgstr "Um arquivo com este nome já existe."
+msgstr "Mégse"
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
-msgstr "Relatar problema"
+msgstr "Probléma jelentése"
 
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
-msgstr "Desculpe, o relatório não foi enviado, ocorreu um erro: %1"
+msgstr "Sajnos a jelentést nem küldtük el, hiba történt: %1"
 
 msgctxt "ReportSentDialog|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr "O relatório foi enviado. Obrigado por sua cooperação!"
+msgstr "A jelentést elküldtük. Köszönjük az együttműködést!"
 
 msgctxt "ReportSentDialog|"
 msgid "OK"
@@ -3896,277 +3328,255 @@ msgstr "OK"
 
 msgctxt "SaveTo|"
 msgid "Save to"
-msgstr "Salvar para"
+msgstr "Mentés ide"
 
 msgctxt "SaveTo|"
 msgid "Open"
-msgstr "Abrir"
+msgstr "Megnyitás"
 
 msgctxt "SaveTo|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "Scheduler|"
 msgid "Sun"
-msgstr "Dom"
+msgstr "Vas"
 
 msgctxt "Scheduler|"
 msgid "Mon"
-msgstr "Seg"
+msgstr "Hé"
 
 msgctxt "Scheduler|"
 msgid "Tue"
-msgstr "Ter"
+msgstr "Ke"
 
 msgctxt "Scheduler|"
 msgid "Wed"
-msgstr "Qua"
+msgstr "Sze"
 
 msgctxt "Scheduler|"
 msgid "Thu"
-msgstr "Qui"
+msgstr "Csüt"
 
 msgctxt "Scheduler|"
 msgid "Fri"
-msgstr "Sex"
+msgstr "Pé"
 
 msgctxt "Scheduler|"
 msgid "Sat"
-msgstr "Sáb"
+msgstr "Szo"
 
 msgctxt "Scheduler|"
 msgid "From:"
-msgstr "De:"
+msgstr "Ettől:"
 
 msgctxt "Scheduler|"
 msgid "Everyday"
-msgstr "Todos os dias"
+msgstr "Minden nap"
 
 msgctxt "Scheduler|"
 msgid "To:"
-msgstr "Até:"
+msgstr "Eddig:"
 
 msgctxt "SchedulerButton|"
 msgid "Scheduler"
-msgstr "Agendador"
+msgstr "Ütemezés"
 
 msgctxt "SchedulerCheckbox|"
 msgid "Scheduler"
-msgstr "Agendador"
+msgstr "Ütemezés"
 
 msgctxt "SchedulerDialog|"
 msgid "Scheduler"
-msgstr "Agendador"
+msgstr "Ütemezés"
 
 msgctxt "SchedulerDialog|"
 msgid "Start and pause downloads at specified time"
-msgstr "Iniciar e pausar downloads em um horário específico"
+msgstr "Letöltések elkezdése és szüneteltetése megadott időpontban"
 
 msgctxt "SchedulerDialog|"
 msgid "Enable Scheduler"
-msgstr "Habilitar Agendador"
+msgstr "Ütemezés engedélyezése"
 
 msgctxt "SchedulerDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "SchedulerDialog|"
 msgid "Apply"
-msgstr "Aplicar"
+msgstr "Alkalmaz"
 
 msgctxt "SchedulerDialog|"
 msgid "All the day"
-msgstr "O dia todo"
+msgstr "Egész nap"
 
 msgctxt "SchedulerDialog|"
 msgid "Everyday"
-msgstr "Todos os dias"
+msgstr "Minden nap"
 
 msgctxt "SchedulerDialog|"
 msgid "Close"
-msgstr "Fechar"
+msgstr "Bezárás"
 
 msgctxt "SchedulerDialog|"
 msgid "Sun"
-msgstr "Dom"
+msgstr "Vas"
 
 msgctxt "SchedulerDialog|"
 msgid "Mon"
-msgstr "Seg"
+msgstr "Hé"
 
 msgctxt "SchedulerDialog|"
 msgid "Tue"
-msgstr "Ter"
+msgstr "Ke"
 
 msgctxt "SchedulerDialog|"
 msgid "Wed"
-msgstr "Qua"
+msgstr "Sze"
 
 msgctxt "SchedulerDialog|"
 msgid "Thu"
-msgstr "Qui"
+msgstr "Csüt"
 
 msgctxt "SchedulerDialog|"
 msgid "Fri"
-msgstr "Sex"
+msgstr "Pé"
 
 msgctxt "SchedulerDialog|"
 msgid "Sat"
-msgstr "Sáb"
+msgstr "Szo"
 
 msgctxt "SchedulerTools|"
 msgid "Set days of the week to enable Scheduler"
-msgstr "Definir dias da semana para ativar o Agendador"
+msgstr "A hét napjainak beállítása az Ütemezés engedélyezéséhez"
 
 msgctxt "SearchField|"
 msgid "Search"
-msgstr "Localizar"
+msgstr "Keresés"
 
 msgctxt "SearchPage|"
 msgid "Search"
-msgstr "Localizar"
+msgstr "Keresés"
 
 msgctxt "SearchPage|"
 msgid "No results found for"
-msgstr "Nenhum resultado encontrado para"
+msgstr "Nincs találat a következőre"
 
 msgctxt "SearchToolbar|"
 msgid "Search"
-msgstr "Localizar"
+msgstr "Keresés"
 
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
-msgstr "Selecionado: %1"
+msgstr "Kiválasztva: %1"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Sort"
-msgstr "Tipo"
+msgstr "Rendezés"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "By date"
-msgstr "Por data"
+msgstr "Dátum szerint"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "By name"
-msgstr "Por nome"
+msgstr "Név szerint"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "By size"
-msgstr "Por tamanho"
+msgstr "Méret szerint"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
-msgstr "Crescente"
+msgstr "Növekvő"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Descending"
-msgstr "Descendente"
+msgstr "Csökkenő"
 
 msgctxt "SettingsPage|"
 msgid "Invalid settings"
-msgstr "Configurações inválidas"
+msgstr "Érvénytelen beállítások"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
-msgstr ". Fechar mesmo assim?"
+msgstr ". Biztosan bezárja?"
 
 msgctxt "SettingsPage|"
 msgid "Preferences"
-msgstr "Preferências"
+msgstr "Beállítások"
 
 msgctxt "SettingsPage|"
 msgid "General"
-msgstr "Geral"
+msgstr "Általános"
 
 msgctxt "SettingsPage|"
 msgid "Browser Integration"
-msgstr "Integração com o Navegador"
+msgstr "Böngésző integráció"
 
 msgctxt "SettingsPage|"
 msgid "Network"
-msgstr "Rede"
+msgstr "Hálózat"
 
 msgctxt "SettingsPage|"
 msgid "Traffic Limits"
-msgstr "Limite de Tráfego"
+msgstr "Forgalmi korlátok"
 
 msgctxt "SettingsPage|"
 msgid "Antivirus"
-msgstr "Antivírus"
-
-msgctxt "SettingsPage|"
-msgid "Remote Access"
-msgstr "Acesso Remoto"
+msgstr "Vírusírtó"
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
-msgstr "Avançado"
+msgstr "Haladó"
 
 msgctxt "SettingsPage|"
 msgid "Settings"
-msgstr "Configurações"
+msgstr "Beállítások"
 
 msgctxt "SettingsPage|"
 msgid "Downloads settings"
-msgstr "Configurações de download"
+msgstr "Letöltési beállítások"
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
-msgstr "Configurações de rede"
+msgstr "Hálózati beállítások"
 
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
-msgstr "Limite de Tráfego"
+msgstr "Forgalmi korlátok"
 
 msgctxt "SettingsPage|"
 msgid "Sounds settings"
-msgstr "Configurações de sons"
+msgstr "Hangbeállítások"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
-msgstr "Configurações avançadas"
-
-msgctxt "SettingsPage|"
-msgid "Go back to default settings"
-msgstr "Voltar para as configurações padrão"
-
-msgctxt "SettingsPage|"
-msgid "Reset settings"
-msgstr "Redefinir as configurações"
-
-msgctxt "SettingsPage|"
-msgid "Default settings"
-msgstr "Configurações padrão"
-
-msgctxt "SettingsPage|"
-msgid "Restore default settings?"
-msgstr "Restaurar as configurações padrão?"
+msgstr "További beállítások"
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be put to sleep after all downloads are completed."
-msgstr "O computador será suspenso após todos os downloads serem concluídos."
+msgstr "A számítógép az összes letöltés befejezése után alvó állapotba megy."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be hibernate after all downloads are completed."
-msgstr ""
-"O computador será hibernado depois que todos os downloads forem concluídos."
+msgstr "A számítógép az összes letöltés befejezése után hibernál."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be shutdown after all downloads are completed."
-msgstr ""
-"O computador será desligado depois que todos os downloads forem concluídos."
+msgstr "A számítógép az összes letöltés befejezése után leáll."
 
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
-msgstr "Confirmar"
+msgstr "Megerősítés"
 
 msgctxt "ShutdownDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
@@ -4174,51 +3584,51 @@ msgstr "OK (%1)"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be put to Sleep mode."
-msgstr "Atenção! Seu computador será colocado no modo suspenção."
+msgstr "Figyelem! A számítógép alvó állapotba kerül."
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be hibernated."
-msgstr "Atenção! Seu computador será hibernado."
+msgstr "Figyelem! A számítógép hibernálni fog."
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
-msgstr "Atenção! Seu computador será desligado."
+msgstr "Figyelem! A számítógép leáll."
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
-msgstr "Configurações de sons"
+msgstr "Hangbeállítások"
 
 msgctxt "SoundsSettings|"
 msgid "Use sounds"
-msgstr "Usar sons"
+msgstr "Hangok használata"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads added"
-msgstr "Downloads adicionados"
+msgstr "Hozzáadott letöltések"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads completed"
-msgstr "Downloads concluídos"
+msgstr "Befejezett letöltések"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads failed"
-msgstr "Downloads com falha"
+msgstr "Sikertelen letöltések"
 
 msgctxt "SoundsSettings|"
 msgid "No active downloads"
-msgstr "Nenhum download ativo"
+msgstr "Nincs aktív letöltés"
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
-msgstr "Aviso: risco potencial de segurança à frente"
+msgstr "Figyelem: potenciális biztonsági kockázat"
 
 msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
-msgstr "O certificado SSL não é válido."
+msgstr "Az SSL Tanúsítvány érvénytelen."
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
-msgstr "Impressões digitais do certificado"
+msgstr "Tanúsítvány ujjlenyomatok"
 
 msgctxt "SslDialog|"
 msgid "SHA-256:"
@@ -4230,155 +3640,151 @@ msgstr "SHA1:"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
-msgstr "Aceitar o risco e baixar"
+msgstr "Kockázat elfogadása és letöltés"
 
 msgctxt "SslDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "SslDialog|"
 msgid "Security risk"
-msgstr "Risco de segurança"
+msgstr "Biztonsági kockázat"
 
 msgctxt "SslDialog|"
 msgid "Continue"
-msgstr "Continuar"
+msgstr "Folytatás"
 
 msgctxt "StatusItem|"
 msgid "Checking files"
-msgstr "Checando arquivos"
+msgstr "Fájlok ellenőrzése"
 
 msgctxt "StatusItem|"
 msgid "Merging media streams"
-msgstr "Mesclando fluxos de mídia"
+msgstr "Médiafolyamok egyesítése"
 
 msgctxt "StatusItem|"
 msgid "Queued"
-msgstr "Na fila"
+msgstr "Várólistán"
 
 msgctxt "StatusItem|"
 msgid "Requesting info"
-msgstr "Solicitando informações"
+msgstr "Információ lekérése"
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"
-msgstr "Tamanho do arquivo desconhecido"
+msgstr "Ismeretlen fájlméret"
 
 msgctxt "StatusItem|"
 msgid "Paused"
-msgstr "Pausado"
+msgstr "Szüneteltetve"
 
 msgctxt "StatusItem|"
 msgid "Completed"
-msgstr "Concluído"
+msgstr "Befejezve"
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause download"
-msgstr "Pausar download"
+msgstr "Letöltés szüneteltetése"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing."
-msgstr "Os downloads abaixo não podem ser retomados após a pausa."
+msgstr "Az alábbi letöltés(ek) szüneteltetés után nem folytatható(ak)."
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause"
-msgstr "Pausar"
+msgstr "Szüneteltetés"
 
 msgctxt "StopDownloadDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "StopDownloadDialog|"
 msgid "This download can't be resumed after pausing"
-msgstr "Este download não pode ser retomado após a pausa"
+msgstr "A letöltést szüneteltetés után nem lehet folytatni"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
-msgstr "Os downloads abaixo não podem ser retomados após a pausa"
+msgstr "Az alábbi letöltés(ek) szüneteltetés után nem folytatható(ak)"
 
 msgctxt "Subtitles|"
 msgid "Download subtitles"
-msgstr "Baixar legendas"
+msgstr "Feliratok letöltése"
 
 msgctxt "Subtitles|"
 msgid "Edit list"
-msgstr "Lista de edição"
+msgstr "Lista szerkesztése"
 
 msgctxt "TagMenu|"
 msgid "Edit"
-msgstr "Editar"
+msgstr "Szerkesztés"
 
 msgctxt "TagMenu|"
 msgid "Remove"
-msgstr "Remover"
+msgstr "Törlés"
 
 msgctxt "TagPalette|"
 msgid "Customize color"
-msgstr "Personalizar a cor"
+msgstr "Szín testreszabása"
 
 msgctxt "ThemeComboBox|"
 msgid "System"
-msgstr "Sistema"
+msgstr "Rendszer"
 
 msgctxt "ThemeComboBox|"
 msgid "Light"
-msgstr "Claro"
+msgstr "Világos"
 
 msgctxt "ThemeComboBox|"
 msgid "Dark"
-msgstr "Escuro"
-
-msgctxt "Toast|"
-msgid "Please grant camera permission to use the QR scanner"
-msgstr "Por favor, dê permissão de acesso à câmera para usar o leitor QR"
+msgstr "Sötét"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
-msgstr "Limite de Tráfego"
+msgstr "Forgalmi korlátok"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Low"
-msgstr "Baixo"
+msgstr "Alacsony"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Medium"
-msgstr "Médio"
+msgstr "Közepes"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "High"
-msgstr "Alto"
+msgstr "Magas"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Download speed"
-msgstr "Velocidade de download"
+msgstr "Letöltési sebesség"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Upload speed"
-msgstr "Velocidade de upload"
+msgstr "Feltöltési sebesség"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections"
-msgstr "Número máximo de conexões"
+msgstr "A kapcsolatok maximális száma"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections per server"
-msgstr "Número máximo de conexões por servidor"
+msgstr "Szerverenként a kapcsolatok maximális száma"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of simultaneous downloads"
-msgstr "Número máximo de downloads simultâneos"
+msgstr "Az egyidejű letöltések maximális száma"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
-msgstr "Configurações de limites de tráfego inválidos"
+msgstr "Érvénytelen forgalomkorlátozási beállítások"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
-msgstr "Limite de Tráfego"
+msgstr "Forgalmi korlátok"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
-msgstr "Ilimitado"
+msgstr "Korlátlan"
 
 msgctxt "TumComboBox|"
 msgid "KB/s"
@@ -4386,127 +3792,119 @@ msgstr "KB/s"
 
 msgctxt "TumComboBox|"
 msgid "unlimited"
-msgstr "ilimitado"
+msgstr "korlátlan"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
-msgstr "Download: %1, Upload: %2"
+msgstr "Letöltés: %1, Feltöltés: %2"
 
 msgctxt "TumComboBox|"
 msgid "High"
-msgstr "Alto"
+msgstr "Magas"
 
 msgctxt "TumComboBox|"
 msgid "Medium"
-msgstr "Médio"
+msgstr "Közepes"
 
 msgctxt "TumComboBox|"
 msgid "Low"
-msgstr "Baixo"
+msgstr "Alacsony"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Unlimited"
-msgstr "Ilimitado"
+msgstr "Korlátlan"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Custom..."
-msgstr "Personalizado..."
+msgstr "Egyedi..."
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Please enter numbers only"
-msgstr "Por favor, digite apenas números"
+msgstr "Csak számokat adjon meg"
 
 msgctxt "TumModeBlock|"
 msgid "Download speed"
-msgstr "Velocidade de download"
+msgstr "Letöltési sebesség"
 
 msgctxt "TumModeBlock|"
 msgid "Unlimited"
-msgstr "Ilimitado"
+msgstr "Korlátlan"
 
 msgctxt "TumModeBlock|"
 msgid "Max. number of simultaneous downloads"
-msgstr "Máx. número de downloads simultâneos"
+msgstr "Az egyidejű letöltések max. száma"
 
 msgctxt "TumModeBlock|"
 msgid "Snail mode"
-msgstr "Modo caracol"
+msgstr "Csiga mód"
 
 msgctxt "TumModeBlock|"
 msgid "Frees bandwidth without stopping downloads."
-msgstr "Libera a largura de banda sem parar os downloads."
+msgstr "Felszabadítja a sávszélességet a letöltések leállítása nélkül."
 
 msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
-msgstr "Alterar os limites de tráfego"
-
-msgctxt "TumSettingTextField|"
-msgid "Can't be greater than %1"
-msgstr "Não pode ser maior que %1"
+msgstr "Forgalmi korlátok módosítása"
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
-msgstr "Novo download"
+msgstr "Új letöltés"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "New file"
-msgstr "Novo arquivo"
+msgstr "Új fájl"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
-msgstr "Baixar"
+msgstr "Letöltés"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Save to"
-msgstr "Salvar para"
+msgstr "Mentés ide"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
-msgstr "Nome do arquivo"
+msgstr "Fájl név"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
-msgstr "Sem acesso de gravação ao diretório selecionado"
+msgstr "Nincs írási hozzáférés a kiválasztott könyvtárhoz"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "Tamanho: %1 (Espaço em disco: %2)"
+msgstr "Méret: %1 (Lemez terület: %2)"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
-msgstr "Tamanho: %1"
+msgstr "Méret: %1"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
-msgstr "Verificando por atualizações..."
+msgstr "Frissítések keresése..."
 
 msgctxt "UpdateDialog|"
 msgid "Error:"
-msgstr "Erro:"
+msgstr "Hiba:"
 
 msgctxt "UpdateDialog|"
 msgid "Retry"
-msgstr "Repetir"
+msgstr "Próbálja újra"
 
 msgctxt "UpdateDialog|"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Mégse"
 
 msgctxt "UpdateDialog|"
 msgid "New version is available"
-msgstr "Uma nova versão está disponível"
-
-msgctxt "UpdateDialog|"
-msgid "What's new in %1"
-msgstr "O que há de novo no %1"
+msgstr "Új verzió érhető el"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
-msgstr "Atualizar"
+msgstr "Frissítés"
 
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
-msgstr "O %1 está atualizado"
+msgstr "A(z) %1 naprakész"
 
 msgctxt "UpdateDialog|"
 msgid "OK"
@@ -4514,128 +3912,92 @@ msgstr "OK"
 
 msgctxt "UpdateDialog|"
 msgid "Downloading update"
-msgstr "Baixando atualização"
+msgstr "Frissítés letöltése"
 
 msgctxt "UpdateDialog|"
 msgid "Error downloading update:"
-msgstr "Erro ao baixar atualização:"
+msgstr "Hiba történt a frissítés letöltésekor:"
 
 msgctxt "UpdateDialog|"
 msgid "Checking..."
-msgstr "Verificando..."
+msgstr "Ellenőrzés..."
 
 msgctxt "UpdateDialog|"
 msgid "Update downloaded"
-msgstr "Atualização baixada"
+msgstr "Frissítés letöltött"
 
 msgctxt "UpdateDialog|"
 msgid "Install update"
-msgstr "Instalar atualização"
+msgstr "Frissítés telepítése"
 
 msgctxt "UpdateDialog|"
 msgid "Installing updates"
-msgstr "Instalando atualizações"
+msgstr "Frissítések telepítése"
 
 msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
-msgstr "Ocorreu um erro durante a instalação:"
+msgstr "Hiba történt a telepítés során:"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
-msgstr "Reiniciar o %1 para atualizar"
+msgstr "Indítsa újra a(z) %1 -et a frissítéshez"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch"
-msgstr "Reiniciar"
+msgstr "Újraindítás"
 
 msgctxt "UpdateDialog|"
 msgid "Later"
-msgstr "Mais tarde"
+msgstr "Később"
 
 msgctxt "UpdateDialog|"
 msgid "Check for updates"
-msgstr "Verificar por atualizações"
+msgstr "Frissítések keresése"
 
 msgctxt "VideoQuality|"
 msgid "Quality:"
-msgstr "Qualidade:"
+msgstr "Minőség:"
 
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
-msgstr "Gostou do %1?"
+msgstr "Élvezi a(z) %1 -et?"
 
 msgctxt "VoteBlock|"
 msgid "Not, really"
-msgstr "Não, realmente"
+msgstr "Nem igazán"
 
 msgctxt "VoteBlock|"
 msgid "Yes!"
-msgstr "Sim!"
+msgstr "Igen!"
 
 msgctxt "VoteBlock|"
 msgid "Thanks a lot! Please rate on Google Play."
-msgstr "Muito obrigado! Por favor, avalie no Google Play."
+msgstr "Nagyon köszönjük! Kérjük, értékelje az alkalmazást a Google Play-en."
 
 msgctxt "VoteBlock|"
 msgid "Later"
-msgstr "Mais tarde"
+msgstr "Később"
 
 msgctxt "VoteBlock|"
 msgid "No, thanks"
-msgstr "Não, obrigado"
+msgstr "Nem, köszönöm"
 
 msgctxt "VoteBlock|"
 msgid "OK, sure!"
-msgstr "Ok, claro!"
+msgstr "Oké, rendben!"
 
 msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."
-msgstr "Vamos melhorar as coisas juntos! Dê sua opinião."
+msgstr "Tegyük jobbá együtt! Mondja el véleményét."
 
 msgctxt "WaitingPage|"
-msgid "Loading"
-msgstr "Carregando"
-
-msgctxt "WaitingPage|"
-msgid "Connection to %1"
-msgstr "Conexão a %1"
-
-msgctxt "WaitingPage|"
-msgid "Error: %1"
-msgstr "Erro: %1"
-
-msgctxt "WaitingPage|"
-msgid "Retry"
-msgstr "Repetir"
-
-msgctxt "WaitingPage|"
-msgid "Cancel"
-msgstr "Cancelar"
-
-msgctxt "WaitingPage|"
-msgid "Abort"
-msgstr "Abortar"
-
-msgctxt "WhatsNewDialog|"
-msgid "New version is available"
-msgstr "Uma nova versão está disponível"
-
-msgctxt "WhatsNewDialog|"
-msgid "What's new in %1"
-msgstr "O que há de novo no %1"
-
-msgctxt "WhatsNewDialog|"
-msgid "Update"
-msgstr "Atualizar"
+msgid "Refresh"
+msgstr "Frissítés"
 
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
-msgstr "Desculpe, o relatório não foi enviado, ocorreu um erro: %1"
+msgstr "Sajnos a jelentést nem küldtük el, hiba történt: %1"
 
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr "O relatório foi enviado. Obrigado por sua cooperação!"
-
-msgctxt "main|"
-msgid "Remote connection to %1"
-msgstr "Conexão remota para %1"
+msgstr "A jelentést elküldtük. Köszönjük az együttműködést!"
