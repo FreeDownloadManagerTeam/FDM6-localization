@@ -145,10 +145,6 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "Pokazuj aktywne pobierania i wysyłania poprzez ikonę zasobnika"
 
 msgctxt "AdvancedSettings|"
-msgid "Restore hidden state when finished adding new downloads"
-msgstr "Przywróć ukryty stan, po zakończeniu dodawania nowych plików"
-
-msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "Wróć do ustawień domyślnych"
 
@@ -203,6 +199,22 @@ msgid "Show \"Save As...\" button"
 msgstr "Pokaż przycisk \"Zapisz jako...\""
 
 msgctxt "AdvancedSettings|"
+msgid "Enable standalone create new downloads windows"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Overall zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Fonts zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Delete button action"
 msgstr "Działanie klawisza Delete"
 
@@ -229,7 +241,7 @@ msgstr "Wybierz motyw"
 msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr ""
-"Jasna kompozycja będzie używa, jeżeli nieznana będzie kompozycja systemu."
+"Jasna kompozycja zostanie użyta, jeżeli nieznana będzie kompozycja systemu."
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -300,6 +312,10 @@ msgid "Converting files to mp4 (%1)."
 msgstr "Konwersja plików na format mp4 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Renaming files (%1)."
+msgstr "Zmiana nazw plików (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Łączenie strumieni danych (%1)."
 
@@ -310,6 +326,38 @@ msgstr "Usuwanie plików."
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Trwają operacje bez możliwości wznowienia"
+
+msgctxt "AuthDialog|"
+msgid "Authentication required"
+msgstr "Wymagana autoryzacja"
+
+msgctxt "AuthDialog|"
+msgid "%1 requires authentication"
+msgstr "%1 wymaga autoryzacji"
+
+msgctxt "AuthDialog|"
+msgid "The site says: \"%1\"."
+msgstr "Strona odpowiedziała: \"%1\"."
+
+msgctxt "AuthDialog|"
+msgid "Username:"
+msgstr "Użytkownik:"
+
+msgctxt "AuthDialog|"
+msgid "Password:"
+msgstr "Hasło:"
+
+msgctxt "AuthDialog|"
+msgid "remember"
+msgstr "zapamiętaj"
+
+msgctxt "AuthDialog|"
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgctxt "AuthDialog|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -402,6 +450,10 @@ msgstr "3 godziny"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 dzień"
+
+msgctxt "BaseStringListArea|"
+msgid "Please enter one item per line"
+msgstr ""
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
@@ -522,6 +574,10 @@ msgstr "Powrót do %1"
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
 msgstr "Zakładki"
+
+msgctxt "Browser MainMenu|"
+msgid "Download media"
+msgstr "Pobierz media"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
@@ -646,6 +702,21 @@ msgstr "Anuluj"
 msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
 msgstr "Rozpocznij pobieranie bez potwierdzenia"
+
+msgctxt "BtSettings|"
+msgid "Advanced"
+msgstr "Zaawansowane"
+
+msgctxt "BtSettings|"
+msgid "Custom port:"
+msgstr "Własny port:"
+
+msgctxt "BtSettings|"
+msgid ""
+"The use of additional trackers can improve download speed in some cases. "
+"Lists of such trackers can be retrieved from different sources, e.g. from <a "
+"href='https://github.com/ngosang/trackerslist'>here</a>."
+msgstr ""
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -791,6 +862,44 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Rozpocznij pobieranie"
 
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Connect to remote %1"
+msgstr "Podłącz do zdalnego %1"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "(beta)"
+msgstr "(beta)"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on another device."
+msgstr "Tutaj możesz połączyć do %1 uruchomionego na innym urządzeniu."
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at startup"
+msgstr "Automatycznie podłącz przy starcie"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at %1 startup"
+msgstr "Automatycznie podłącz %1 przy starcie"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
+msgstr ""
+"Tutaj możesz podłączyć się do %1 uruchomionego na Twoim komputerze z "
+"Windows/macOS/Linux"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter ID, or <a href='#'>scan QR code</a>"
+msgstr "Proszę podać ID lub <a href='#'>zeskanować kod QR</a>"
+
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "Brak połączeń"
@@ -850,6 +959,22 @@ msgstr "Kopiuj"
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
 msgstr "Na pewno chcesz wyjść?"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Starting..."
+msgstr "Uruchamianie..."
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Failed to start."
+msgstr "Błąd uruchomienia."
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Error: %1"
+msgstr "Błąd: %1"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -981,7 +1106,7 @@ msgstr "Usuń"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Test"
-msgstr "Test"
+msgstr "Testuj"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Close"
@@ -1373,6 +1498,10 @@ msgid "Low"
 msgstr "Niski"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Rename file"
+msgstr "Zmień nazwę pliku"
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
 msgstr "Przenieś do..."
 
@@ -1612,7 +1741,7 @@ msgstr "Eksportuj tylko w pełni pobrane"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export"
-msgstr "Eksport"
+msgstr "Eksportuj"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
@@ -1640,7 +1769,7 @@ msgstr "Pliki CSV (%1)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Export"
-msgstr "Eksport"
+msgstr "Eksportuj"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
@@ -1699,6 +1828,10 @@ msgid "SHA-256"
 msgstr "SHA-256"
 
 msgctxt "FileIntegrityPage|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
+
+msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "Suma kontrolna"
 
@@ -1720,7 +1853,7 @@ msgstr "Weryfikacja nieudana"
 
 msgctxt "FileManagerSupportDialog|"
 msgid "No supported file managers found."
-msgstr "Znaleziono nie obsługiwany menedżer plików."
+msgstr "Znaleziono nieobsługiwany menedżer plików."
 
 msgctxt "FileName|"
 msgid "Create subfolder"
@@ -1909,7 +2042,7 @@ msgstr "Sugeruj foldery na podstawie rozszerzeń pliku"
 msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr ""
-"Jasna kompozycja będzie użyta, jeżeli nieznana będzie kompozycja systemu"
+"Jasna kompozycja zostanie użyta, jeżeli nieznana będzie kompozycja systemu."
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -1999,7 +2132,7 @@ msgstr "Używaj danych w roamingu"
 msgctxt "GeneralSettings|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
-"Używanie danych mobilnych w roamingu może skutkować dodatkowymi opłatami"
+"Używanie danych mobilnych w roamingu może skutkować dodatkowymi opłatami."
 
 msgctxt "GeneralTab|"
 msgid "Status"
@@ -2080,6 +2213,10 @@ msgstr "SHA-1"
 msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
+
+msgctxt "HashAlgorithmCombobox|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
 
 msgctxt "ImportDialog|"
 msgid "Import"
@@ -2166,6 +2303,14 @@ msgid "Contact support"
 msgstr "Pomoc techniczna"
 
 msgctxt "LeftDrawer|"
+msgid "Disconnect from remote %1"
+msgstr "Rozłącz od zdalnego %1"
+
+msgctxt "LeftDrawer|"
+msgid "Connect to remote %1"
+msgstr "Podłącz do zdalnego %1"
+
+msgctxt "LeftDrawer|"
 msgid "About"
 msgstr "O programie"
 
@@ -2187,7 +2332,7 @@ msgstr "Ukryj"
 
 msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
-msgstr "content_type% - typ zawartości (np. \"Muzyka\")"
+msgstr "%content_type% - typ zawartości (np. \"Muzyka\")"
 
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
@@ -2230,6 +2375,10 @@ msgid "Completed"
 msgstr "Zakończone"
 
 msgctxt "MainFiltersBar|"
+msgid "Uncompleted"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
 msgstr "Usunąć znacznik?"
 
@@ -2268,7 +2417,7 @@ msgstr "Dodatki..."
 msgctxt "MainMenu|"
 msgid "Preferences..."
 msgstr "Preferencje..."
-F
+
 msgctxt "MainMenu|"
 msgid "Contact Support"
 msgstr "Pomoc techniczna"
@@ -2288,6 +2437,14 @@ msgstr "Hibernuj"
 msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "Zamknij system"
+
+msgctxt "MainMenu|"
+msgid "Disconnect from remote %1"
+msgstr "Rozłącz od zdalnego %1"
+
+msgctxt "MainMenu|"
+msgid "Connect to remote %1"
+msgstr "Podłącz do zdalnego %1"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2311,11 +2468,11 @@ msgstr "Wyjście"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
-msgstr "Powolny (ślimaczy) tryb odciąża łącze bez zatrzymywania pobierania."
+msgstr "Tryb powolny (ślimaczy) odciąża łącze bez zatrzymywania pobierania."
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
-msgstr "Powolny tryb"
+msgstr "Tryb powolny"
 
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
@@ -2592,6 +2749,10 @@ msgctxt "Mp4ConverterPage|"
 msgid "Save to"
 msgstr "Zapisz do"
 
+msgctxt "Mp4ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "Ścieżka zawiera niepoprawne znaki"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "Szukaj aktualizacji..."
@@ -2821,8 +2982,8 @@ msgid "Cancel"
 msgstr "Anuluj"
 
 msgctxt "PluginsPage|"
-msgid "%1 add-ons files (%2)"
-msgstr "Pliki dodatków %1 (%2)"
+msgid "%1 add-ons files"
+msgstr "Pliki wtyczek %1"
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
@@ -2854,7 +3015,7 @@ msgstr "Brak poniższych wymaganych komponentów:"
 
 msgctxt "PluginsPage|"
 msgid "%1 is required."
-msgstr "Wymagany jest %1"
+msgstr "Wymagany jest %1."
 
 msgctxt "PluginsPage|"
 msgid "Would you like to install them?"
@@ -2958,7 +3119,7 @@ msgid ""
 "We do not collect your personal data and do not share data with third "
 "parties."
 msgstr ""
-"Raport o błędzie zostanie wysłany na serwer i użyty do poprawienia %1.Nie "
+"Raport o błędzie zostanie wysłany na serwer i użyty do poprawienia %1. Nie "
 "zbieramy żadnych danych osobistych i nie udostępniamy żadnych danych firmom "
 "trzecim."
 
@@ -2984,7 +3145,7 @@ msgstr "Połączenie zakończone."
 
 msgctxt "QObject|"
 msgid "App backend's server listen failed."
-msgstr "Nasłuch serwera aplikacji nie powiódł się"
+msgstr "Nasłuch serwera aplikacji nie powiódł się."
 
 msgctxt "QObject|"
 msgid "Error"
@@ -2996,7 +3157,7 @@ msgstr "Błąd połączenia"
 
 msgctxt "QObject|"
 msgid "App frontend's server listen failed."
-msgstr "Nasłuch serwera aplikacji nie powiódł się"
+msgstr "Nasłuch serwera aplikacji nie powiódł się."
 
 msgctxt "QObject|"
 msgid "QML load failure."
@@ -3380,7 +3541,11 @@ msgstr "Nieprawidłowy parametr"
 
 msgctxt "QObject|"
 msgid "Unsupported format"
-msgstr "Nie obsługiwany format"
+msgstr "Nieobsługiwany format"
+
+msgctxt "QObject|"
+msgid "Not found"
+msgstr "Nie znaleziono"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -3440,7 +3605,7 @@ msgstr "Błąd przetwarzania zawartości strony"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
-msgstr "Nie obsługiwany adres pobierania"
+msgstr "Nieobsługiwany adres pobierania"
 
 msgctxt "QObject|"
 msgid "Untitled"
@@ -3509,8 +3674,7 @@ msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
 msgstr ""
-"Chcesz ją usunąć (zostaną wyczyszczone listy pobierania i wszystkie dane %1 "
-")?"
+"Chcesz ją usunąć (zostaną wyczyszczone listy pobierania i wszystkie dane %1)?"
 
 msgctxt "QObject|"
 msgid "Failed."
@@ -3554,11 +3718,11 @@ msgstr "Pobieranie..."
 
 msgctxt "QObject|"
 msgid "DISABLE SNAIL MODE"
-msgstr "WYŁĄCZ POWOLNY TRYB"
+msgstr "WYŁĄCZ TRYB POWOLNY"
 
 msgctxt "QObject|"
 msgid "SNAIL MODE"
-msgstr "POWOLNY TRYB"
+msgstr "TRYB POWOLNY"
 
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
@@ -3652,6 +3816,30 @@ msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
 msgstr "Anuluj"
 
+msgctxt "RemoteControlSettings|"
+msgid "Remote Access"
+msgstr "Zdalny dostęp"
+
+msgctxt "RemoteControlSettings|"
+msgid "(beta)"
+msgstr "(beta)"
+
+msgctxt "RemoteControlSettings|"
+msgid "Allow remote access to %1 running on this device"
+msgstr "Zezwala na zdalny dostęp do %1 uruchomionego na tym urządzeniu"
+
+msgctxt "RemoteControlSettings|"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "RemoteControlSettings|"
+msgid "Password"
+msgstr "Hasło"
+
+msgctxt "RemoteControlSettings|"
+msgid "Status"
+msgstr "Status"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr "Zmieniono zasób zdalny"
@@ -3667,6 +3855,42 @@ msgstr "Pobierz ponownie"
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "Anuluj"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Rename file"
+msgstr "Zmień nazwę pliku"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Enter new name"
+msgstr "Podaj nową nazwę"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "A file with that name already exists."
+msgstr "Plik o tej nazwie już istnieje."
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Rename file"
+msgstr "Zmień nazwę pliku"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Enter new name"
+msgstr "Podaj nową nazwę"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "A file with that name already exists."
+msgstr "Plik o tej nazwie już istnieje."
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -3885,6 +4109,10 @@ msgid "Antivirus"
 msgstr "Antywirus"
 
 msgctxt "SettingsPage|"
+msgid "Remote Access"
+msgstr "Zdalny dostęp"
+
+msgctxt "SettingsPage|"
 msgid "Advanced"
 msgstr "Zaawansowane"
 
@@ -3917,8 +4145,8 @@ msgid "Go back to default settings"
 msgstr "Wróć do ustawień domyślnych"
 
 msgctxt "SettingsPage|"
-msgid "Reset"
-msgstr "Reset"
+msgid "Reset settings"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
@@ -3926,7 +4154,7 @@ msgstr "Ustawienia domyślnie"
 
 msgctxt "SettingsPage|"
 msgid "Restore default settings?"
-msgstr "Przywróć ustawienia domyślne"
+msgstr "Przywrócić ustawienia domyślne?"
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -4112,6 +4340,10 @@ msgctxt "ThemeComboBox|"
 msgid "Dark"
 msgstr "Ciemny"
 
+msgctxt "Toast|"
+msgid "Please grant camera permission to use the QR scanner"
+msgstr "Proszę przydzielić kamerze uprawnienia do skanowania kodów QR"
+
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
 msgstr "Limity prędkości"
@@ -4210,7 +4442,7 @@ msgstr "Maksymalna liczba jednoczesnych pobierań"
 
 msgctxt "TumModeBlock|"
 msgid "Snail mode"
-msgstr "Powolny tryb"
+msgstr "Tryb powolny"
 
 msgctxt "TumModeBlock|"
 msgid "Frees bandwidth without stopping downloads."
@@ -4366,15 +4598,35 @@ msgstr "Nie, dziękuję"
 
 msgctxt "VoteBlock|"
 msgid "OK, sure!"
-msgstr "OK! Jasne!"
+msgstr "OK, jasne!"
 
 msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."
 msgstr "Zróbmy to lepiej razem! Przekaż nam swoją opinię."
 
 msgctxt "WaitingPage|"
-msgid "Refresh"
-msgstr "Odśwież"
+msgid "Loading"
+msgstr "Wczytywanie"
+
+msgctxt "WaitingPage|"
+msgid "Connection to %1"
+msgstr "Łączenie z %1"
+
+msgctxt "WaitingPage|"
+msgid "Error: %1"
+msgstr "Błąd: %1"
+
+msgctxt "WaitingPage|"
+msgid "Retry"
+msgstr "Ponów"
+
+msgctxt "WaitingPage|"
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgctxt "WaitingPage|"
+msgid "Abort"
+msgstr "Przerwij"
 
 msgctxt "WhatsNewDialog|"
 msgid "New version is available"
@@ -4395,3 +4647,7 @@ msgstr "Przepraszamy, raport nie został wysłany, wystąpił błąd: %1"
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "Raport został wysłany. Dziękujemy za współpracę!"
+
+msgctxt "main|"
+msgid "Remote connection to %1"
+msgstr "Zdalne połączenie do %1"

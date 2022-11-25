@@ -91,6 +91,7 @@ msgstr "Pemberitahuan"
 msgctxt "AdvancedSettings|"
 msgid "Notify me of added downloads via Notification Center"
 msgstr ""
+"Beritahu saya mengenai unduhan yang ditambahkan melalui Pusat Notifikasi"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
@@ -106,7 +107,7 @@ msgstr "Beritahu saya mengenai unduhan hanya ketika jendela %1 tidak aktif"
 
 msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
-msgstr ""
+msgstr "Sesuaikan suara"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -142,27 +143,23 @@ msgstr "Membuka/menyembunyikan panel bawah dengan mengklik unduhan"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
-msgstr ""
-
-msgctxt "AdvancedSettings|"
-msgid "Restore hidden state when finished adding new downloads"
-msgstr ""
+msgstr "Tunjukkan unduhan dan unggahan aktif melalui ikon tray"
 
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
-msgstr ""
+msgstr "Kembali ke setelan bawaan"
 
 msgctxt "AdvancedSettings|"
 msgid "Reset"
-msgstr ""
+msgstr "Setel ulang"
 
 msgctxt "AdvancedSettings|"
 msgid "Default settings"
-msgstr ""
+msgstr "Setelan bawaan"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore default settings?"
-msgstr ""
+msgstr "Pulihkan setelan bawaan?"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -174,31 +171,49 @@ msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Rename"
-msgstr ""
+msgstr "Ubah nama"
 
 msgctxt "AdvancedSettings|"
 msgid "Overwrite"
-msgstr ""
+msgstr "Timpa berkas"
 
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
-msgstr ""
+msgstr "Gunakan suara"
 
 msgctxt "AdvancedSettings|"
 msgid ""
 "Do not allow downloads to perform post finished tasks when running on battery"
 msgstr ""
+"Jangan izinkan unduhan untuk melakukan tugas setelah selesai saat "
+"menggunakan baterai"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
-msgstr ""
+msgstr "Jangan izinkan unduhan apabila baterai kurang dari"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
-msgstr ""
+msgstr "Aktifkan susunan unduhan yang ditentukan pengguna"
 
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
+msgstr "Tampilkan tombol \"Simpan sebagai...\""
+
+msgctxt "AdvancedSettings|"
+msgid "Enable standalone create new downloads windows"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Overall zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Fonts zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "<a href='#'>Restart is required</a>"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
@@ -227,7 +242,7 @@ msgstr "Pilih tema"
 
 msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr ""
+msgstr "Light theme akan digunakan apabila tema sistem tidak diketahui."
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -283,35 +298,71 @@ msgstr "Batalkan"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
-msgstr ""
+msgstr "Unduh tanpa dukungan untuk melanjutkan (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
-msgstr ""
+msgstr "Memindahkan berkas (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
-msgstr ""
+msgstr "Mengkonversi berkas ke mp3 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
+msgstr "Mengkonversi berkas ke mp4 (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Renaming files (%1)."
 msgstr ""
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
-msgstr ""
+msgstr "Menggabungkan berkas media (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
-msgstr ""
+msgstr "Menghapus berkas."
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
+msgstr "Terdapat proses yang tidak dapat diberi jeda sedang berlangsung"
+
+msgctxt "AuthDialog|"
+msgid "Authentication required"
+msgstr "Autentikasi diperlukan"
+
+msgctxt "AuthDialog|"
+msgid "%1 requires authentication"
 msgstr ""
+
+msgctxt "AuthDialog|"
+msgid "The site says: \"%1\"."
+msgstr "Situs tersebut mengatakan: \"%1\"."
+
+msgctxt "AuthDialog|"
+msgid "Username:"
+msgstr "Nama Pengguna:"
+
+msgctxt "AuthDialog|"
+msgid "Password:"
+msgstr "Kata Sandi:"
+
+msgctxt "AuthDialog|"
+msgid "remember"
+msgstr "ingat"
+
+msgctxt "AuthDialog|"
+msgid "Cancel"
+msgstr "Batalkan"
+
+msgctxt "AuthDialog|"
+msgid "OK"
+msgstr "BAIK"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
-msgstr "Diperlukan otentifikasi"
+msgstr "Autentikasi diperlukan"
 
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
@@ -339,7 +390,7 @@ msgstr "BAIK"
 
 msgctxt "AuthenticationPage|"
 msgid "Authentication required"
-msgstr "Diperlukan otentifikasi"
+msgstr "Autentikasi diperlukan"
 
 msgctxt "AuthenticationPage|"
 msgid "OK"
@@ -401,6 +452,10 @@ msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 hari"
 
+msgctxt "BaseStringListArea|"
+msgid "Please enter one item per line"
+msgstr ""
+
 msgctxt "BaseTextArea|"
 msgid "Cut"
 msgstr "Potong"
@@ -427,7 +482,7 @@ msgstr "Tempel"
 
 msgctxt "BatchVideoQuality|"
 msgid "Max. video quality:"
-msgstr ""
+msgstr "Kualitas maksimum video:"
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
@@ -522,6 +577,10 @@ msgid "Bookmarks"
 msgstr "Bookmark"
 
 msgctxt "Browser MainMenu|"
+msgid "Download media"
+msgstr "Unduh berkas media"
+
+msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
 msgstr "Hapus bookmark"
 
@@ -563,7 +622,7 @@ msgstr "Mencegat unduhan di peramban web Anda"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Start downloading without confirmation"
-msgstr "Mulai pengunduhan tanpa konfirmasi"
+msgstr "Mulai unduhan tanpa konfirmasi"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip domains"
@@ -645,13 +704,28 @@ msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
 msgstr "Mulai pengunduhan tanpa konfirmasi"
 
-msgctxt "BtStrings|"
-msgid "Uploaded"
+msgctxt "BtSettings|"
+msgid "Advanced"
+msgstr "Lanjutan"
+
+msgctxt "BtSettings|"
+msgid "Custom port:"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid ""
+"The use of additional trackers can improve download speed in some cases. "
+"Lists of such trackers can be retrieved from different sources, e.g. from <a "
+"href='https://github.com/ngosang/trackerslist'>here</a>."
 msgstr ""
 
 msgctxt "BtStrings|"
+msgid "Uploaded"
+msgstr "Diunggah"
+
+msgctxt "BtStrings|"
 msgid "Ratio"
-msgstr ""
+msgstr "Rasio"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -659,7 +733,7 @@ msgstr "Tambahkan unduhan"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
-msgstr ""
+msgstr "Laporkan masalah"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
@@ -687,7 +761,7 @@ msgstr "BAIK"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
-msgstr ""
+msgstr "Laporkan masalah"
 
 msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
@@ -751,7 +825,7 @@ msgstr "Isikan URL baru"
 
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
-msgstr ""
+msgstr "Lokasi berkas: %1"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
@@ -783,11 +857,47 @@ msgstr "Isikan URL baru"
 
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
-msgstr ""
+msgstr "Lokasi berkas: %1"
 
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Mulai pengunduhan"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Connect to remote %1"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "(beta)"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on another device."
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at startup"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at %1 startup"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Cancel"
+msgstr "Batalkan"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "OK"
+msgstr "BAIK"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter ID, or <a href='#'>scan QR code</a>"
+msgstr ""
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -807,27 +917,27 @@ msgstr "Jumlah sambungan"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Destination files already exists"
-msgstr ""
+msgstr "Berkas tujuan sudah ada"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Overwrite All"
-msgstr ""
+msgstr "Timpa semua"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Rename All"
-msgstr ""
+msgstr "Ubah nama semua"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Skip All"
-msgstr ""
+msgstr "Lewati semua"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Abort"
-msgstr ""
+msgstr "Gagalkan"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "Failed to convert"
-msgstr ""
+msgstr "Gagal mengkonversi"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "OK"
@@ -835,7 +945,7 @@ msgstr "BAIK"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "Convert failed"
-msgstr ""
+msgstr "Konversi gagal"
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
@@ -847,7 +957,23 @@ msgstr "Salin"
 
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
+msgstr "Apa Anda yakin untuk keluar?"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Starting..."
 msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Failed to start."
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Error: %1"
+msgstr "Kesalahan: %1"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "OK"
+msgstr "BAIK"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -938,7 +1064,7 @@ msgstr "Tutup"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Customize sounds"
-msgstr ""
+msgstr "Sesuaikan suara"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Event"
@@ -946,19 +1072,19 @@ msgstr ""
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Sound file"
-msgstr ""
+msgstr "Berkas suara"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No sound"
-msgstr ""
+msgstr "Tanpa suara"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads added"
-msgstr ""
+msgstr "Unduhan ditambahkan"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads completed"
-msgstr ""
+msgstr "Unduhan selesai"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads failed"
@@ -970,7 +1096,7 @@ msgstr "Tidak ada unduhan aktif"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Set sound"
-msgstr ""
+msgstr "Atur suara"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Remove"
@@ -978,7 +1104,7 @@ msgstr "Hilangkan"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Test"
-msgstr ""
+msgstr "Tes"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Close"
@@ -1034,7 +1160,7 @@ msgstr "Batalkan"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Download deleting failed"
-msgstr ""
+msgstr "Hapus unduhan gagal"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Try again"
@@ -1042,15 +1168,15 @@ msgstr "Coba lagi"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore"
-msgstr ""
+msgstr "Abaikan"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore all"
-msgstr ""
+msgstr "Abaikan Semua"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
-msgstr ""
+msgstr "Gagalkan"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
@@ -1066,29 +1192,33 @@ msgstr ""
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Download Failure"
-msgstr ""
+msgstr "Unduhan gagal"
 
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Can't resume download. Download link likely expired. Resume attempts failed."
 msgstr ""
+"Tidak dapat melanjutkan unduhan. Tautan unduhan mungkin kadaluwarsa. "
+"Percobaan untuk melanjutkan gagal."
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Please try to update the download link to resume."
-msgstr ""
+msgstr "Silahkan coba untuk memperbarui tautan unduhan untuk melanjutkan."
 
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Go to the website with the original download source and copy the renewed link"
 msgstr ""
+"Kembali ke tautan unduhan pada situs web asal dan salin tautan yang telah "
+"diperbarui"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "click here"
-msgstr ""
+msgstr "klik di sini"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Update download"
-msgstr ""
+msgstr "Perbarui unduhan"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Close"
@@ -1096,23 +1226,23 @@ msgstr "Tutup"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
-msgstr ""
+msgstr "Tersimpan di"
 
 msgctxt "DownloadWindow|"
 msgid "File size"
-msgstr ""
+msgstr "Ukuran berkas"
 
 msgctxt "DownloadWindow|"
 msgid "Resume support"
-msgstr ""
+msgstr "Dukungan untuk melanjutkan unduhan"
 
 msgctxt "DownloadWindow|"
 msgid "Yes"
-msgstr ""
+msgstr "Ya"
 
 msgctxt "DownloadWindow|"
 msgid "No"
-msgstr ""
+msgstr "Tidak"
 
 msgctxt "DownloadWindow|"
 msgid "Unknown"
@@ -1120,7 +1250,7 @@ msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
-msgstr ""
+msgstr "Terunduh"
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -1128,15 +1258,15 @@ msgstr "Kecepatan"
 
 msgctxt "DownloadWindow|"
 msgid "Time remaining"
-msgstr ""
+msgstr "Waktu tersisa"
 
 msgctxt "DownloadWindow|"
 msgid "Open download when it is completed"
-msgstr ""
+msgstr "Buka berkas unduhan setelah unduhan selesai"
 
 msgctxt "DownloadWindow|"
 msgid "Close this window when the download is completed or stopped"
-msgstr ""
+msgstr "Tutup jendela ini setelah unduhan selesai atau terhenti"
 
 msgctxt "DownloadWindow|"
 msgid "Hide"
@@ -1152,15 +1282,15 @@ msgstr "Buka"
 
 msgctxt "DownloadWindow|"
 msgid "Stop"
-msgstr ""
+msgstr "Berhenti"
 
 msgctxt "DownloadWindow|"
 msgid "Start"
-msgstr ""
+msgstr "Mulai"
 
 msgctxt "DownloadsItemTools|"
 msgid "Moving"
-msgstr ""
+msgstr "Memindahkan"
 
 msgctxt "DownloadsItemTools|"
 msgid "Checking for viruses"
@@ -1176,7 +1306,7 @@ msgstr "Konversikan ke mp4"
 
 msgctxt "DownloadsItemTools|"
 msgid "Calculating hash"
-msgstr ""
+msgstr "Menghitung hash"
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
@@ -1312,7 +1442,7 @@ msgstr "Disk tidak ada"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
-msgstr ""
+msgstr "Unggahan dijeda"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -1320,7 +1450,7 @@ msgstr "Prioritas"
 
 msgctxt "DownloadsViewItem|"
 msgid "Upload paused"
-msgstr ""
+msgstr "Unggahan dijeda"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1336,11 +1466,11 @@ msgstr "Tampilkan dalam folder"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
-msgstr ""
+msgstr "Laporkan masalah"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Enable auto retry for this kind of errors"
-msgstr ""
+msgstr "Aktifkan ulang otomatis untuk kesalahan seperti ini"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -1367,6 +1497,10 @@ msgid "Low"
 msgstr "Rendah"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
 msgstr "Pindahkan ke..."
 
@@ -1388,7 +1522,7 @@ msgstr "Tambahkan mirror"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Open download page"
-msgstr ""
+msgstr "Buka halaman unduhan"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
@@ -1396,7 +1530,7 @@ msgstr "Salin tautan"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Check for update"
-msgstr ""
+msgstr "Periksa pembaruan"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
@@ -1512,20 +1646,20 @@ msgstr "Selesai"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
-msgstr ""
+msgstr "Sunting tagar"
 
 msgctxt "EditTagDialog|"
 msgid "Tag"
-msgstr ""
+msgstr "Tagar"
 
 msgctxt "EditTagDialog|"
 msgid "Extensions (e.g. \"avi mp3\")"
-msgstr ""
+msgstr "Ekstensi (contohnya \"avi mp3\")"
 
 msgctxt "EditTagDialog|"
 msgid ""
 "Extensions that are automatically assigned with this tag for new downloads"
-msgstr ""
+msgstr "Ekstensi yang otomatis ditetapkan dengan tagar ini untuk unduhan baru"
 
 msgctxt "EditTagDialog|"
 msgid "Default download folder"
@@ -1549,11 +1683,11 @@ msgstr "BAIK"
 
 msgctxt "EnvTools|"
 msgid "Low battery"
-msgstr ""
+msgstr "Baterai lemah"
 
 msgctxt "EnvTools|"
 msgid "Data roaming disabled"
-msgstr ""
+msgstr "Roaming data dimatikan"
 
 msgctxt "EnvTools|"
 msgid "No Internet connection"
@@ -1565,11 +1699,11 @@ msgstr "Penggunaan data seluler dinonaktifkan"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Rename"
-msgstr ""
+msgstr "Ubah nama"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Overwrite"
-msgstr ""
+msgstr "Timpa"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Always ask"
@@ -1692,6 +1826,10 @@ msgid "SHA-256"
 msgstr "SHA-256"
 
 msgctxt "FileIntegrityPage|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
+
+msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "Hash"
 
@@ -1725,11 +1863,11 @@ msgstr "Nama berkas"
 
 msgctxt "FileName|"
 msgid "%1 files (*.%2)"
-msgstr ""
+msgstr "%1 berkas (*.%2)"
 
 msgctxt "FileName|"
 msgid "All files"
-msgstr ""
+msgstr "Semua berkas"
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
@@ -1773,27 +1911,27 @@ msgstr "Menurun"
 
 msgctxt "FileType|"
 msgid "File type:"
-msgstr ""
+msgstr "Tipe berkas:"
 
 msgctxt "FilesExistsDialog|"
 msgid "Warning: file exists already"
-msgstr ""
+msgstr "Peringatan: berkas sudah ada"
 
 msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
-msgstr ""
+msgstr "Ingat pilihan saya untuk semua unduhan"
 
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
-msgstr ""
+msgstr "Ubah nama (%1)"
 
 msgctxt "FilesExistsDialog|"
 msgid "Overwrite"
-msgstr ""
+msgstr "Timpa"
 
 msgctxt "FilesExistsDialog|"
 msgid "Abort"
-msgstr ""
+msgstr "Gagalkan"
 
 msgctxt "FilesTree|"
 msgid "Name"
@@ -1901,7 +2039,7 @@ msgstr "Berikan saran folder berdasarkan jenis berkas"
 
 msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr ""
+msgstr "Light theme akan digunakan apabila tema sistem tidak diketahui."
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -1945,7 +2083,7 @@ msgstr "Tampilan ringkas untuk daftar unduhan"
 
 msgctxt "GeneralSettings|"
 msgid "Enable standalone downloads windows"
-msgstr ""
+msgstr "Aktifkan jendela unduhan mandiri"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
@@ -1965,7 +2103,7 @@ msgstr "Gunakan waktu server untuk pembuatan berkas"
 
 msgctxt "GeneralSettings|"
 msgid "Maximum urls count in batch download"
-msgstr ""
+msgstr "Jumlah URL maksimum di kelompok unduhan"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -1985,11 +2123,12 @@ msgstr "Gunakan jaringan seluler"
 
 msgctxt "GeneralSettings|"
 msgid "Allow data roaming"
-msgstr ""
+msgstr "Bolehkan roaming data"
 
 msgctxt "GeneralSettings|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
+"Menggunakan data seluler ketika roaming dapat mengakibatkan biaya tambahan."
 
 msgctxt "GeneralTab|"
 msgid "Status"
@@ -2013,19 +2152,19 @@ msgstr "Diunduh:"
 
 msgctxt "GeneralTab|"
 msgid "Uploaded"
-msgstr ""
+msgstr "Diunggah"
 
 msgctxt "GeneralTab|"
 msgid "ratio"
-msgstr ""
+msgstr "rasio"
 
 msgctxt "GeneralTab|"
 msgid "Web page"
-msgstr ""
+msgstr "Situs web"
 
 msgctxt "GeneralTab|"
 msgid "File"
-msgstr ""
+msgstr "Berkas"
 
 msgctxt "GeneralTab|"
 msgid "Speed"
@@ -2070,6 +2209,10 @@ msgstr "SHA-1"
 msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
+
+msgctxt "HashAlgorithmCombobox|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
 
 msgctxt "ImportDialog|"
 msgid "Import"
@@ -2156,6 +2299,14 @@ msgid "Contact support"
 msgstr "Hubungi Bantuan"
 
 msgctxt "LeftDrawer|"
+msgid "Disconnect from remote %1"
+msgstr ""
+
+msgctxt "LeftDrawer|"
+msgid "Connect to remote %1"
+msgstr ""
+
+msgctxt "LeftDrawer|"
 msgid "About"
 msgstr "Mengenai"
 
@@ -2209,7 +2360,7 @@ msgstr "Semua"
 
 msgctxt "MainFiltersBar|"
 msgid "Missing Files"
-msgstr ""
+msgstr "Berkas hilang"
 
 msgctxt "MainFiltersBar|"
 msgid "Active"
@@ -2220,8 +2371,12 @@ msgid "Completed"
 msgstr "Berhasil"
 
 msgctxt "MainFiltersBar|"
-msgid "OK to remove tag?"
+msgid "Uncompleted"
 msgstr ""
+
+msgctxt "MainFiltersBar|"
+msgid "OK to remove tag?"
+msgstr "Yakin untuk menghapus tagar?"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
@@ -2280,6 +2435,14 @@ msgid "Shutdown"
 msgstr "Matikan komputer"
 
 msgctxt "MainMenu|"
+msgid "Disconnect from remote %1"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Connect to remote %1"
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "Create portable version"
 msgstr "Buat versi portabel"
 
@@ -2289,7 +2452,7 @@ msgstr "Tinjau Pembaharuan..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
-msgstr ""
+msgstr "Gabung di Mosaic..."
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -2347,11 +2510,11 @@ msgstr "Pindahkan ke..."
 
 msgctxt "MainToolbar|"
 msgid "Move downloads up"
-msgstr ""
+msgstr "Pindahkan unduhan ke atas"
 
 msgctxt "MainToolbar|"
 msgid "Move downloads down"
-msgstr ""
+msgstr "Pindahkan unduhan ke bawah"
 
 msgctxt "MainToolbar|"
 msgid "Main menu"
@@ -2359,7 +2522,7 @@ msgstr "Menu utama"
 
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
-msgstr ""
+msgstr "Alihkan sortiran daftar unduhan yang ditentukan pengguna?"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2423,15 +2586,15 @@ msgstr "Unduh"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Mobile data usage"
-msgstr ""
+msgstr "Penggunaan data seluler"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Waiting for Wi-Fi to start download."
-msgstr ""
+msgstr "Menunggu Wi-Fi untuk memulai unduhan."
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Would you like to enable usage of mobile data? *"
-msgstr ""
+msgstr "Apakah Anda ingin mengaktifkan pemakaian data seluler? *"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Don't ask again"
@@ -2439,15 +2602,15 @@ msgstr "Jangan tanyakan lagi"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Yes"
-msgstr ""
+msgstr "Ya"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "No"
-msgstr ""
+msgstr "Tidak"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
-msgstr ""
+msgstr "* memungkinkan biaya tambahan"
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
@@ -2580,6 +2743,10 @@ msgstr "BAIK"
 msgctxt "Mp4ConverterPage|"
 msgid "Save to"
 msgstr "Simpan ke"
+
+msgctxt "Mp4ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "Jalur berisi karakter yang salah"
 
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
@@ -2775,47 +2942,47 @@ msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Check for Updates"
-msgstr ""
+msgstr "Periksa pembaruan"
 
 msgctxt "PluginsPage|"
 msgid "Install Add-on From File..."
-msgstr ""
+msgstr "Pasang Add-on dari berkas..."
 
 msgctxt "PluginsPage|"
 msgid "Update Add-ons Automatically"
-msgstr ""
+msgstr "Perbarui Add-ons Otomatis"
 
 msgctxt "PluginsPage|"
 msgid "Reset All Add-ons to Update Automatically"
-msgstr ""
+msgstr "Setel ulang semua Add-ons untuk diperbarui otomatis"
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
-msgstr ""
+msgstr "Memperbarui add-ons terpasang..."
 
 msgctxt "PluginsPage|"
 msgid "There are no installed add-ons."
-msgstr ""
+msgstr "Tidak terdapat add-ons terpasang."
 
 msgctxt "PluginsPage|"
 msgid "Install add-on from file"
-msgstr ""
+msgstr "Pasang add-on dari berkas"
 
 msgctxt "PluginsPage|"
 msgid "Install"
-msgstr ""
+msgstr "Pasang"
 
 msgctxt "PluginsPage|"
 msgid "Cancel"
 msgstr "Batalkan"
 
 msgctxt "PluginsPage|"
-msgid "%1 add-ons files (%2)"
+msgid "%1 add-ons files"
 msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
-msgstr ""
+msgstr "Gagal memasang add-on"
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
@@ -2901,7 +3068,7 @@ msgstr ""
 
 msgctxt "PluginsViewItem|"
 msgid "Check for Updates"
-msgstr ""
+msgstr "Periksa pembaruan"
 
 msgctxt "PluginsViewItem|"
 msgid "Remove"
@@ -3367,6 +3534,10 @@ msgid "Unsupported format"
 msgstr "Format tidak didukung"
 
 msgctxt "QObject|"
+msgid "Not found"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "Host tidak ditemukan"
 
@@ -3626,7 +3797,7 @@ msgstr ""
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
-msgstr ""
+msgstr "Apa Anda yakin untuk keluar?"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "OK"
@@ -3635,6 +3806,30 @@ msgstr "BAIK"
 msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
 msgstr "Batalkan"
+
+msgctxt "RemoteControlSettings|"
+msgid "Remote Access"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "(beta)"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Allow remote access to %1 running on this device"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "ID"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Password"
+msgstr "Kata Sandi"
+
+msgctxt "RemoteControlSettings|"
+msgid "Status"
+msgstr "Status"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
@@ -3652,9 +3847,45 @@ msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "Batalkan"
 
+msgctxt "RenameDownloadFileDialog|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "A file with that name already exists."
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Cancel"
+msgstr "Batalkan"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "OK"
+msgstr "BAIK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "OK"
+msgstr "BAIK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "A file with that name already exists."
+msgstr ""
+
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
-msgstr ""
+msgstr "Laporkan masalah"
 
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
@@ -3869,6 +4100,10 @@ msgid "Antivirus"
 msgstr "Antivirus"
 
 msgctxt "SettingsPage|"
+msgid "Remote Access"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Advanced"
 msgstr "Lanjutan"
 
@@ -3890,7 +4125,7 @@ msgstr "Batasan lalu lintas"
 
 msgctxt "SettingsPage|"
 msgid "Sounds settings"
-msgstr ""
+msgstr "Setelan suara"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -3898,19 +4133,19 @@ msgstr "Pengaturan lanjutan"
 
 msgctxt "SettingsPage|"
 msgid "Go back to default settings"
-msgstr ""
+msgstr "Kembali setelan bawaan"
 
 msgctxt "SettingsPage|"
-msgid "Reset"
+msgid "Reset settings"
 msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
-msgstr ""
+msgstr "Setelan bawaan"
 
 msgctxt "SettingsPage|"
 msgid "Restore default settings?"
-msgstr ""
+msgstr "Pulihkan setelan bawaan?"
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -3956,19 +4191,19 @@ msgstr "Perhatian! Komputer Anda akan dimatikan."
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
-msgstr ""
+msgstr "Setelan suara"
 
 msgctxt "SoundsSettings|"
 msgid "Use sounds"
-msgstr ""
+msgstr "Gunakan suara"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads added"
-msgstr ""
+msgstr "Unduhan ditambahkan"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads completed"
-msgstr ""
+msgstr "Unduhan selesai"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads failed"
@@ -4097,6 +4332,10 @@ msgstr "Terang"
 msgctxt "ThemeComboBox|"
 msgid "Dark"
 msgstr "Gelap"
+
+msgctxt "Toast|"
+msgid "Please grant camera permission to use the QR scanner"
+msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4359,8 +4598,28 @@ msgid "Let's make it better together! Give us your feedback."
 msgstr "Mari kita membuatnya lebih baik bersama! Beri kami umpan balik Anda."
 
 msgctxt "WaitingPage|"
-msgid "Refresh"
-msgstr "Segarkan"
+msgid "Loading"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Connection to %1"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Error: %1"
+msgstr "Kesalahan: %1"
+
+msgctxt "WaitingPage|"
+msgid "Retry"
+msgstr "Ulangi kembali"
+
+msgctxt "WaitingPage|"
+msgid "Cancel"
+msgstr "Batalkan"
+
+msgctxt "WaitingPage|"
+msgid "Abort"
+msgstr "Gagalkan"
 
 msgctxt "WhatsNewDialog|"
 msgid "New version is available"
@@ -4380,4 +4639,8 @@ msgstr ""
 
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
+msgstr ""
+
+msgctxt "main|"
+msgid "Remote connection to %1"
 msgstr ""

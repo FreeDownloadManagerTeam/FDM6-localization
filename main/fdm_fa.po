@@ -1,4 +1,3 @@
-# Pikhosh <pikhosh@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "MIME-Version: 1.0\n"
@@ -8,12 +7,6 @@ msgstr ""
 "X-Language: fa_IR\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"Last-Translator: Pikhosh <pikhosh@gmail.com>\n"
-"PO-Revision-Date: 2022-03-21 08:56+0330\n"
-"Project-Id-Version: \n"
-"Language-Team: Persian <>\n"
-"Language: fa\n"
-"X-Generator: Lokalize 21.12.2\n"
 
 
 msgctxt "AboutDialog|"
@@ -153,10 +146,6 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "نمایش دانلود و آپلود فعال با استفاده از آیکون نرم افزار"
 
 msgctxt "AdvancedSettings|"
-msgid "Restore hidden state when finished adding new downloads"
-msgstr "بازیابی وضعیت پنهان هنگام پایان افزودن دانلود های جدید"
-
-msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "برگشت به تنظیمات پیش فرض"
 
@@ -208,6 +197,22 @@ msgstr "فعال سازی ترتیب دانلود تعریف شده توسط ک�
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
 msgstr "نمایش دکمه «ذخیره به عنوان...»"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable standalone create new downloads windows"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Overall zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Fonts zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -306,6 +311,10 @@ msgid "Converting files to mp4 (%1)."
 msgstr "تبدیل فایل ها به mp4 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Renaming files (%1)."
+msgstr ""
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr ""
 
@@ -316,6 +325,38 @@ msgstr "حذف فایل ها."
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr ""
+
+msgctxt "AuthDialog|"
+msgid "Authentication required"
+msgstr "احراز هویت الزامی است"
+
+msgctxt "AuthDialog|"
+msgid "%1 requires authentication"
+msgstr ""
+
+msgctxt "AuthDialog|"
+msgid "The site says: \"%1\"."
+msgstr "سایت اعلام می کند: \"%1\"."
+
+msgctxt "AuthDialog|"
+msgid "Username:"
+msgstr "نام کاربری:"
+
+msgctxt "AuthDialog|"
+msgid "Password:"
+msgstr "رمز عبور:"
+
+msgctxt "AuthDialog|"
+msgid "remember"
+msgstr "یادآوری"
+
+msgctxt "AuthDialog|"
+msgid "Cancel"
+msgstr "انصراف"
+
+msgctxt "AuthDialog|"
+msgid "OK"
+msgstr "تایید"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -408,6 +449,10 @@ msgstr "3 ساعت"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 روز"
+
+msgctxt "BaseStringListArea|"
+msgid "Please enter one item per line"
+msgstr ""
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
@@ -528,6 +573,10 @@ msgstr "برگشت به %1"
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
 msgstr "بوک مارک ها"
+
+msgctxt "Browser MainMenu|"
+msgid "Download media"
+msgstr ""
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
@@ -652,6 +701,21 @@ msgstr "انصراف"
 msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
 msgstr "شروع به دانلود کردن بدون نیاز به تایید"
+
+msgctxt "BtSettings|"
+msgid "Advanced"
+msgstr "پیشرفته"
+
+msgctxt "BtSettings|"
+msgid "Custom port:"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid ""
+"The use of additional trackers can improve download speed in some cases. "
+"Lists of such trackers can be retrieved from different sources, e.g. from <a "
+"href='https://github.com/ngosang/trackerslist'>here</a>."
+msgstr ""
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -797,6 +861,42 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "شروع دانلود"
 
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Connect to remote %1"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "(beta)"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on another device."
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at startup"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at %1 startup"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Cancel"
+msgstr "انصراف"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "OK"
+msgstr "تایید"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter ID, or <a href='#'>scan QR code</a>"
+msgstr ""
+
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "هیچ ارتباطی وجود ندارد"
@@ -856,6 +956,22 @@ msgstr "کپی کردن"
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
 msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Starting..."
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Failed to start."
+msgstr ""
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Error: %1"
+msgstr "خطا: %1"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "OK"
+msgstr "تایید"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1375,6 +1491,10 @@ msgid "Low"
 msgstr "کم"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
 msgstr "انتقال به..."
 
@@ -1698,6 +1818,10 @@ msgstr "‏SHA-1"
 msgctxt "FileIntegrityPage|"
 msgid "SHA-256"
 msgstr "‏SHA-256"
+
+msgctxt "FileIntegrityPage|"
+msgid "SHA-512"
+msgstr "‏SHA-256: {512?}"
 
 msgctxt "FileIntegrityPage|"
 msgid "Hash"
@@ -2079,6 +2203,10 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "‏SHA-256"
 
+msgctxt "HashAlgorithmCombobox|"
+msgid "SHA-512"
+msgstr "‏SHA-256: {512?}"
+
 msgctxt "ImportDialog|"
 msgid "Import"
 msgstr "وارد کردن"
@@ -2164,6 +2292,14 @@ msgid "Contact support"
 msgstr "ارتباط با پشتیبانی"
 
 msgctxt "LeftDrawer|"
+msgid "Disconnect from remote %1"
+msgstr ""
+
+msgctxt "LeftDrawer|"
+msgid "Connect to remote %1"
+msgstr ""
+
+msgctxt "LeftDrawer|"
 msgid "About"
 msgstr "درباره"
 
@@ -2228,6 +2364,10 @@ msgid "Completed"
 msgstr "تمام شده"
 
 msgctxt "MainFiltersBar|"
+msgid "Uncompleted"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
 msgstr ""
 
@@ -2286,6 +2426,14 @@ msgstr "هایبرنیت"
 msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "خاموش"
+
+msgctxt "MainMenu|"
+msgid "Disconnect from remote %1"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Connect to remote %1"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2588,6 +2736,10 @@ msgctxt "Mp4ConverterPage|"
 msgid "Save to"
 msgstr "ذخیره در"
 
+msgctxt "Mp4ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "مسیر دارای کاراکترهای غیر معتبر است"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "بررسی بروزرسانی..."
@@ -2817,7 +2969,7 @@ msgid "Cancel"
 msgstr "انصراف"
 
 msgctxt "PluginsPage|"
-msgid "%1 add-ons files (%2)"
+msgid "%1 add-ons files"
 msgstr ""
 
 msgctxt "PluginsPage|"
@@ -2838,7 +2990,7 @@ msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Please install add-ons from trusted sources only."
-msgstr ""
+msgstr "لطفا فقط از منابع مطمئن افزونه نصب کنید."
 
 msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
@@ -2952,9 +3104,9 @@ msgid ""
 "We do not collect your personal data and do not share data with third "
 "parties."
 msgstr ""
-"یک گزارش باگ به سرور ارسال و برای بهبود عملکرد %1 استفاده خواهد شد. "
-"ما داده های شخصی شما را جمع آوری نمی کنیم و داده ها را با "
-"برنامه های شخص ثالث به اشتراک نمی گذاریم."
+"یک گزارش باگ به سرور ارسال و برای بهبود عملکرد %1 استفاده خواهد شد. ما داده "
+"های شخصی شما را جمع آوری نمی کنیم و داده ها را با برنامه های شخص ثالث به "
+"اشتراک نمی گذاریم."
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
@@ -3377,6 +3529,10 @@ msgid "Unsupported format"
 msgstr "قالب پشتیبانی نشده"
 
 msgctxt "QObject|"
+msgid "Not found"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "میزبان یافت نشد"
 
@@ -3646,6 +3802,30 @@ msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
 msgstr "انصراف"
 
+msgctxt "RemoteControlSettings|"
+msgid "Remote Access"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "(beta)"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Allow remote access to %1 running on this device"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "ID"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Password"
+msgstr "رمز عبور"
+
+msgctxt "RemoteControlSettings|"
+msgid "Status"
+msgstr "وضعیت"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr ""
@@ -3661,6 +3841,42 @@ msgstr "باز دانلود"
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "انصراف"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "A file with that name already exists."
+msgstr ""
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Cancel"
+msgstr "انصراف"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "OK"
+msgstr "تایید"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Rename file"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "OK"
+msgstr "تایید"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Enter new name"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "A file with that name already exists."
+msgstr ""
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -3879,6 +4095,10 @@ msgid "Antivirus"
 msgstr "آنتی ویروس"
 
 msgctxt "SettingsPage|"
+msgid "Remote Access"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Advanced"
 msgstr "پیشرفته"
 
@@ -3911,8 +4131,8 @@ msgid "Go back to default settings"
 msgstr "برگشت به تنظیمات پیش فرض"
 
 msgctxt "SettingsPage|"
-msgid "Reset"
-msgstr "بازنشانی"
+msgid "Reset settings"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
@@ -4105,6 +4325,10 @@ msgstr "روشن"
 msgctxt "ThemeComboBox|"
 msgid "Dark"
 msgstr "تیره"
+
+msgctxt "Toast|"
+msgid "Please grant camera permission to use the QR scanner"
+msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4367,8 +4591,28 @@ msgid "Let's make it better together! Give us your feedback."
 msgstr "بیایید با هم بهتر شویم! نظراتتون رو بهمون بگید."
 
 msgctxt "WaitingPage|"
-msgid "Refresh"
-msgstr "تازه سازی"
+msgid "Loading"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Connection to %1"
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Error: %1"
+msgstr "خطا: %1"
+
+msgctxt "WaitingPage|"
+msgid "Retry"
+msgstr "تلاش دوباره"
+
+msgctxt "WaitingPage|"
+msgid "Cancel"
+msgstr "انصراف"
+
+msgctxt "WaitingPage|"
+msgid "Abort"
+msgstr "لغو"
 
 msgctxt "WhatsNewDialog|"
 msgid "New version is available"
@@ -4389,3 +4633,7 @@ msgstr "متاسفیم، گزارش ارسال نشده است، یک خطا ر�
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "گزارش ارسال شده است. ممنون بابت همکاری شما!"
+
+msgctxt "main|"
+msgid "Remote connection to %1"
+msgstr ""

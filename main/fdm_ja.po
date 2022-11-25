@@ -90,7 +90,7 @@ msgstr "通知"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of added downloads via Notification Center"
-msgstr ""
+msgstr "通知センターでダウンロードの追加を通知する"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
@@ -130,7 +130,7 @@ msgstr "スタートアップで起動する (最小化状態で)"
 
 msgctxt "AdvancedSettings|"
 msgid "Show special offers"
-msgstr ""
+msgstr "特別なオファーを表示する"
 
 msgctxt "AdvancedSettings|"
 msgid "Interface"
@@ -142,11 +142,7 @@ msgstr "ダウンロードリストのクリックで下部パネルの表示/�
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
-msgstr ""
-
-msgctxt "AdvancedSettings|"
-msgid "Restore hidden state when finished adding new downloads"
-msgstr "新しいダウンロードの追加が完了したときに、非表示の状態を復元する"
+msgstr "トレイアイコンでアクティブなダウンロードとアップロードを表示する"
 
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
@@ -200,6 +196,22 @@ msgstr "ユーザー定義のダウンロード順序を有効にする"
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
 msgstr "\"名前を付けて保存...\" ボタンを表示する"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable standalone create new downloads windows"
+msgstr "スタンドアロンの新しいダウンロードウィンドウの作成を有効にする"
+
+msgctxt "AdvancedSettings|"
+msgid "Overall zoom"
+msgstr "全体ズーム"
+
+msgctxt "AdvancedSettings|"
+msgid "Fonts zoom"
+msgstr "フォントズーム"
+
+msgctxt "AdvancedSettings|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr "<a href='#'>再起動が必要です</a>"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -298,16 +310,52 @@ msgid "Converting files to mp4 (%1)."
 msgstr "MP4に変換しています (%1)"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Renaming files (%1)."
+msgstr "ファイルをリネームしています (%1)"
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "メディアストリームを結合しています (%1)"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
-msgstr ""
+msgstr "ファイルを削除しています"
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "再開機能がないオペレーションが進行しています"
+
+msgctxt "AuthDialog|"
+msgid "Authentication required"
+msgstr "認証が必要です"
+
+msgctxt "AuthDialog|"
+msgid "%1 requires authentication"
+msgstr "%1 は認証が必要です"
+
+msgctxt "AuthDialog|"
+msgid "The site says: \"%1\"."
+msgstr "サイトからのメッセージ: \"%1\""
+
+msgctxt "AuthDialog|"
+msgid "Username:"
+msgstr "ユーザー名:"
+
+msgctxt "AuthDialog|"
+msgid "Password:"
+msgstr "パスワード:"
+
+msgctxt "AuthDialog|"
+msgid "remember"
+msgstr "記憶する"
+
+msgctxt "AuthDialog|"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "AuthDialog|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -400,6 +448,10 @@ msgstr "3時間"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1日"
+
+msgctxt "BaseStringListArea|"
+msgid "Please enter one item per line"
+msgstr ""
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
@@ -522,6 +574,10 @@ msgid "Bookmarks"
 msgstr "ブックマーク"
 
 msgctxt "Browser MainMenu|"
+msgid "Download media"
+msgstr "メディアのダウンロード"
+
+msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
 msgstr "ブックマークの削除"
 
@@ -640,6 +696,21 @@ msgstr "キャンセル"
 msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
 msgstr "確認せずにダウンロードを開始する"
+
+msgctxt "BtSettings|"
+msgid "Advanced"
+msgstr "上級者向け"
+
+msgctxt "BtSettings|"
+msgid "Custom port:"
+msgstr "カスタムポート:"
+
+msgctxt "BtSettings|"
+msgid ""
+"The use of additional trackers can improve download speed in some cases. "
+"Lists of such trackers can be retrieved from different sources, e.g. from <a "
+"href='https://github.com/ngosang/trackerslist'>here</a>."
+msgstr ""
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -785,6 +856,42 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "ダウンロードを開始する"
 
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Connect to remote %1"
+msgstr "リモート %1 接続"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "(beta)"
+msgstr "(ベータ)"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on another device."
+msgstr "別のデバイスで実行されている %1 に接続できます"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at startup"
+msgstr "開始時に自動的に接続する"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at %1 startup"
+msgstr "%1 開始時に自動的に接続する"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
+msgstr "Windows/macOS/Linux PC で実行されている %1 に接続できます"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter ID, or <a href='#'>scan QR code</a>"
+msgstr "IDを入力するか、<a href='#'>QRコードをスキャン</a>してください"
+
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "インターネット接続がありません"
@@ -803,19 +910,19 @@ msgstr "接続数"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Destination files already exists"
-msgstr ""
+msgstr "宛先ファイルが既に存在しています"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Overwrite All"
-msgstr ""
+msgstr "全て上書き"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Rename All"
-msgstr ""
+msgstr "全てリネーム"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Skip All"
-msgstr ""
+msgstr "全てスキップ"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Abort"
@@ -823,7 +930,7 @@ msgstr "中止"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "Failed to convert"
-msgstr ""
+msgstr "変換に失敗しました"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "OK"
@@ -831,7 +938,7 @@ msgstr "OK"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "Convert failed"
-msgstr ""
+msgstr "変換失敗"
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
@@ -844,6 +951,22 @@ msgstr "コピー"
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
 msgstr "本当に終了しますか？"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Starting..."
+msgstr "開始中..."
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Failed to start."
+msgstr "開始に失敗しました。"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Error: %1"
+msgstr "エラー: %1"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1330,7 +1453,7 @@ msgstr "問題の報告"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Enable auto retry for this kind of errors"
-msgstr ""
+msgstr "この種類のエラーの自動再試行を有効にする"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -1355,6 +1478,10 @@ msgstr "標準"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Low"
 msgstr "低い"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Rename file"
+msgstr "ファイルのリネーム"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
@@ -1682,6 +1809,10 @@ msgid "SHA-256"
 msgstr "SHA-256"
 
 msgctxt "FileIntegrityPage|"
+msgid "SHA-512"
+msgstr "SHA-512"
+
+msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "ハッシュ"
 
@@ -1975,11 +2106,11 @@ msgstr "モバイルネットワークを使用する"
 
 msgctxt "GeneralSettings|"
 msgid "Allow data roaming"
-msgstr ""
+msgstr "データローミングを許可する"
 
 msgctxt "GeneralSettings|"
 msgid "Using mobile data while roaming may result in additional charges."
-msgstr ""
+msgstr "ローミング中にモバイルデータを使用すると、追加料金が発生する場合があります。"
 
 msgctxt "GeneralTab|"
 msgid "Status"
@@ -2060,6 +2191,10 @@ msgstr "SHA-1"
 msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
+
+msgctxt "HashAlgorithmCombobox|"
+msgid "SHA-512"
+msgstr "SHA-512"
 
 msgctxt "ImportDialog|"
 msgid "Import"
@@ -2146,6 +2281,14 @@ msgid "Contact support"
 msgstr "サポートへのお問い合わせ"
 
 msgctxt "LeftDrawer|"
+msgid "Disconnect from remote %1"
+msgstr "リモート %1 から切断"
+
+msgctxt "LeftDrawer|"
+msgid "Connect to remote %1"
+msgstr "リモート %1 に接続"
+
+msgctxt "LeftDrawer|"
 msgid "About"
 msgstr "このソフトについて"
 
@@ -2210,6 +2353,10 @@ msgid "Completed"
 msgstr "完了"
 
 msgctxt "MainFiltersBar|"
+msgid "Uncompleted"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
 msgstr "タグを削除してもよろしいですか？"
 
@@ -2243,7 +2390,7 @@ msgstr "設定をインポート"
 
 msgctxt "MainMenu|"
 msgid "Add-ons..."
-msgstr ""
+msgstr "アドオン..."
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -2268,6 +2415,14 @@ msgstr "休止状態"
 msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "シャットダウン"
+
+msgctxt "MainMenu|"
+msgid "Disconnect from remote %1"
+msgstr "リモート %1 から切断"
+
+msgctxt "MainMenu|"
+msgid "Connect to remote %1"
+msgstr "リモート %1 に接続"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2570,6 +2725,10 @@ msgctxt "Mp4ConverterPage|"
 msgid "Save to"
 msgstr "保存先"
 
+msgctxt "Mp4ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "パスに無効な文字が含まれています"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "アップデートを確認する..."
@@ -2752,145 +2911,147 @@ msgstr "接続先"
 
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
-msgstr ""
+msgstr "インストールしました。"
 
 msgctxt "PluginsPage|"
 msgid "Recently installed dependency"
-msgstr ""
+msgstr "最近インストールした依存関係"
 
 msgctxt "PluginsPage|"
 msgid "Add-ons"
-msgstr ""
+msgstr "アドオン"
 
 msgctxt "PluginsPage|"
 msgid "Check for Updates"
-msgstr ""
+msgstr "更新チェック"
 
 msgctxt "PluginsPage|"
 msgid "Install Add-on From File..."
-msgstr ""
+msgstr "アドオンをファイルからインストール..."
 
 msgctxt "PluginsPage|"
 msgid "Update Add-ons Automatically"
-msgstr ""
+msgstr "アドオンを自動的に更新"
 
 msgctxt "PluginsPage|"
 msgid "Reset All Add-ons to Update Automatically"
-msgstr ""
+msgstr "全てのアドオンをリセットして自動更新"
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
-msgstr ""
+msgstr "インストール済みアドオンを更新中..."
 
 msgctxt "PluginsPage|"
 msgid "There are no installed add-ons."
-msgstr ""
+msgstr "インストールされたアドオンはありません。"
 
 msgctxt "PluginsPage|"
 msgid "Install add-on from file"
-msgstr ""
+msgstr "アドオンをファイルからインストールする"
 
 msgctxt "PluginsPage|"
 msgid "Install"
-msgstr ""
+msgstr "インストール"
 
 msgctxt "PluginsPage|"
 msgid "Cancel"
 msgstr "キャンセル"
 
 msgctxt "PluginsPage|"
-msgid "%1 add-ons files (%2)"
-msgstr ""
+msgid "%1 add-ons files"
+msgstr "%1 アドオンファイル"
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
-msgstr ""
+msgstr "アドオンのインストールに失敗しました"
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
-msgstr ""
+msgstr "警告！"
 
 msgctxt "PluginsPage|"
 msgid "Add-on requests dangerous permissions:"
-msgstr ""
+msgstr "アドオンは危険な権限を要求しています:"
 
 msgctxt "PluginsPage|"
 msgid "Add-on requests dangerous permission:"
-msgstr ""
+msgstr "アドオンは危険な権限を要求しています:"
 
 msgctxt "PluginsPage|"
 msgid "Please install add-ons from trusted sources only."
-msgstr ""
+msgstr "信頼できるソースからのみアドオンをインストールしてください。"
 
 msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
-msgstr ""
+msgstr "インストールを続行しますか？"
 
 msgctxt "PluginsPage|"
 msgid "The following required components are missing:"
-msgstr ""
+msgstr "次の必要なコンポーネントが見つかりません:"
 
 msgctxt "PluginsPage|"
 msgid "%1 is required."
-msgstr ""
+msgstr "%1 が必要です"
 
 msgctxt "PluginsPage|"
 msgid "Would you like to install them?"
-msgstr ""
+msgstr "これらをインストールしますか？"
 
 msgctxt "PluginsPage|"
 msgid "Would you like to install it?"
-msgstr ""
+msgstr "これをインストールしますか？"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
-msgstr ""
+msgstr "アドオンの更新に失敗しました"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
-msgstr ""
+msgstr "警告！"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
-msgstr ""
+msgstr "%1 アドオンの新しいバージョンは危険な権限を要求しています:"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
-msgstr ""
+msgstr "%1 アドオンの新しいバージョンは危険な権限を要求しています:"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Please install add-ons from trusted sources only."
-msgstr ""
+msgstr "信頼できるソースからのみアドオンをインストールしてください。"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
-msgstr ""
+msgstr "インストールを続行しますか？"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid ""
 "New version of %1 add-on requires additional components:\n"
 "%2"
 msgstr ""
+"%1 アドオンの新しいバージョンは追加のコンポーネントを必要としています:\n"
+"%2"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requires %2."
-msgstr ""
+msgstr "%1 アドオンの新しいバージョンは %2 が必要です。"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to install them?"
-msgstr ""
+msgstr "これらをインストールしますか？"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to install it?"
-msgstr ""
+msgstr "インストールしますか？"
 
 msgctxt "PluginsViewItem|"
 msgid "Allow Automatic Updates"
-msgstr ""
+msgstr "自動更新を許可する"
 
 msgctxt "PluginsViewItem|"
 msgid "Check for Updates"
-msgstr ""
+msgstr "更新チェック"
 
 msgctxt "PluginsViewItem|"
 msgid "Remove"
@@ -2898,15 +3059,15 @@ msgstr "削除"
 
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
-msgstr ""
+msgstr "更新中..."
 
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
-msgstr ""
+msgstr "バージョン: %1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
-msgstr ""
+msgstr "削除しても良いですか？"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
@@ -3358,6 +3519,10 @@ msgid "Unsupported format"
 msgstr "サポートされていない形式"
 
 msgctxt "QObject|"
+msgid "Not found"
+msgstr "見つかりません"
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "ホストが見つかりません"
 
@@ -3519,99 +3684,99 @@ msgstr "アップロードの一時停止"
 
 msgctxt "QObject|"
 msgid "PAUSE ALL"
-msgstr ""
+msgstr "全て一時停止"
 
 msgctxt "QObject|"
 msgid "Downloading..."
-msgstr ""
+msgstr "ダウンロード中..."
 
 msgctxt "QObject|"
 msgid "DISABLE SNAIL MODE"
-msgstr ""
+msgstr "カタツムリモード無効化"
 
 msgctxt "QObject|"
 msgid "SNAIL MODE"
-msgstr ""
+msgstr "カタツムリモード"
 
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
-msgstr ""
+msgstr "YouTubeのダウンロードは利用できません"
 
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
-msgstr ""
+msgstr "%1 of 不明 at %2"
 
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
-msgstr ""
+msgstr "%1 of %2 at %3"
 
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
-msgstr ""
+msgstr "%1 %2 以上"
 
 msgctxt "QObject|"
 msgid "Launch Python code"
-msgstr ""
+msgstr "Pythonコードを起動する"
 
 msgctxt "QObject|"
 msgid "Allows to execute arbitrary code."
-msgstr ""
+msgstr "任意のコードの実行を許可する"
 
 msgctxt "QObject|"
 msgid "Installing..."
-msgstr ""
+msgstr "インストール中..."
 
 msgctxt "QObject|"
 msgid "Uninstalling..."
-msgstr ""
+msgstr "アンインストール中..."
 
 msgctxt "QObject|"
 msgid "Missing components"
-msgstr ""
+msgstr "見つからないコンポーネント"
 
 msgctxt "QObject|"
 msgid "%1 are required"
-msgstr ""
+msgstr "%1 が必要です"
 
 msgctxt "QObject|"
 msgid "%1 is required"
-msgstr ""
+msgstr "%1 が必要です"
 
 msgctxt "QObject|"
 msgid "Failed to load"
-msgstr ""
+msgstr "ロードに失敗しました"
 
 msgctxt "QObject|"
 msgid "Playlist"
-msgstr ""
+msgstr "プレイリスト"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
-msgstr ""
+msgstr "QIODevice::Append は GZIP ではサポートされていません"
 
 msgctxt "QuaGzipFile|"
 msgid "Opening gzip for both reading and writing is not supported"
-msgstr ""
+msgstr "読み取りと書き込みの両方で gzip を開くことはサポートされていません"
 
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr ""
+msgstr "読み取りまたは書き込みのいずれかで gzip を開くことができます。どちらですか？"
 
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr ""
+msgstr "ファイルを gzopen() できません"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::Append は QuaZIODevice ではサポートされていません"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::ReadWrite は QuaZIODevice ではサポートされていません"
 
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr ""
+msgstr "ZIP/UNZIP API エラー %1"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
@@ -3624,6 +3789,30 @@ msgstr "OK"
 msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
 msgstr "キャンセル"
+
+msgctxt "RemoteControlSettings|"
+msgid "Remote Access"
+msgstr "リモートアクセス"
+
+msgctxt "RemoteControlSettings|"
+msgid "(beta)"
+msgstr "(ベータ)"
+
+msgctxt "RemoteControlSettings|"
+msgid "Allow remote access to %1 running on this device"
+msgstr "このデバイスで実行中の %1 へのリモートアクセスを許可する"
+
+msgctxt "RemoteControlSettings|"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "RemoteControlSettings|"
+msgid "Password"
+msgstr "パスワード"
+
+msgctxt "RemoteControlSettings|"
+msgid "Status"
+msgstr "ステータス"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
@@ -3640,6 +3829,42 @@ msgstr "再ダウンロード"
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "キャンセル"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Rename file"
+msgstr "ファイルのリネーム"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Enter new name"
+msgstr "新しい名前の入力"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "A file with that name already exists."
+msgstr "その名前のファイルは既に存在しています。"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Rename file"
+msgstr "ファイルのリネーム"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Enter new name"
+msgstr "新しい名前の入力"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "A file with that name already exists."
+msgstr "その名前のファイルは既に存在しています。"
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -3858,6 +4083,10 @@ msgid "Antivirus"
 msgstr "ウイルス対策"
 
 msgctxt "SettingsPage|"
+msgid "Remote Access"
+msgstr "リモートアクセス"
+
+msgctxt "SettingsPage|"
 msgid "Advanced"
 msgstr "上級者向け"
 
@@ -3890,8 +4119,8 @@ msgid "Go back to default settings"
 msgstr "デフォルト設定に戻す"
 
 msgctxt "SettingsPage|"
-msgid "Reset"
-msgstr "リセット"
+msgid "Reset settings"
+msgstr "設定のリセット"
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
@@ -4084,6 +4313,10 @@ msgstr "ライト"
 msgctxt "ThemeComboBox|"
 msgid "Dark"
 msgstr "ダーク"
+
+msgctxt "Toast|"
+msgid "Please grant camera permission to use the QR scanner"
+msgstr "QR スキャナを使用するため、カメラの使用を許可してください"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4346,8 +4579,28 @@ msgid "Let's make it better together! Give us your feedback."
 msgstr "一緒により良いものにしていきましょう！ フィードバックをお寄せください。"
 
 msgctxt "WaitingPage|"
-msgid "Refresh"
-msgstr "更新"
+msgid "Loading"
+msgstr "ロード中"
+
+msgctxt "WaitingPage|"
+msgid "Connection to %1"
+msgstr "%1 への接続"
+
+msgctxt "WaitingPage|"
+msgid "Error: %1"
+msgstr "エラー: %1"
+
+msgctxt "WaitingPage|"
+msgid "Retry"
+msgstr "再試行"
+
+msgctxt "WaitingPage|"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "WaitingPage|"
+msgid "Abort"
+msgstr "中止"
 
 msgctxt "WhatsNewDialog|"
 msgid "New version is available"
@@ -4368,3 +4621,7 @@ msgstr "申し訳ございません、レポート送信に失敗しました。
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "レポートが送信されました。ご協力いただきありがとうございます！"
+
+msgctxt "main|"
+msgid "Remote connection to %1"
+msgstr "%1 へのリモート接続"

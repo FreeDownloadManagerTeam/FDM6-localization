@@ -90,7 +90,7 @@ msgstr "Уведомления"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of added downloads via Notification Center"
-msgstr ""
+msgstr "Уведомяване за добавени изтегляния чрез Notification Center"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
@@ -143,12 +143,6 @@ msgstr "Показване/скриване на долен панел при н
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr "Показване на активно изтегляне и качване с чрез иконата в трея"
-
-msgctxt "AdvancedSettings|"
-msgid "Restore hidden state when finished adding new downloads"
-msgstr ""
-"Възстановяване на скрито състояние когато завършите добавянето на нови "
-"изтегляния"
 
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
@@ -204,6 +198,22 @@ msgstr "Разрешаване на ред от изтегляния указа�
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
 msgstr "Показване на бутона \"Запиши като...\""
+
+msgctxt "AdvancedSettings|"
+msgid "Enable standalone create new downloads windows"
+msgstr "Активиране на самостоятелно създаване на нови прозорци за изтегляне"
+
+msgctxt "AdvancedSettings|"
+msgid "Overall zoom"
+msgstr "Общо увеличение"
+
+msgctxt "AdvancedSettings|"
+msgid "Fonts zoom"
+msgstr "Увеличаване на шрифтовете"
+
+msgctxt "AdvancedSettings|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr "<a href='#'>Изисква се рестартиране</a>"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -302,6 +312,10 @@ msgid "Converting files to mp4 (%1)."
 msgstr "Конвертиране на файлове в mp4 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Renaming files (%1)."
+msgstr "Преименуване на файлове (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Сливане на медийни потоци (%1)."
 
@@ -312,6 +326,38 @@ msgstr "Изтриване на файловете."
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "В момента се извършват операции без възможност за възобновяване"
+
+msgctxt "AuthDialog|"
+msgid "Authentication required"
+msgstr "Необходима е идентификация"
+
+msgctxt "AuthDialog|"
+msgid "%1 requires authentication"
+msgstr "%1 изисква удостоверяване"
+
+msgctxt "AuthDialog|"
+msgid "The site says: \"%1\"."
+msgstr "Сайта казва: \"%1\"."
+
+msgctxt "AuthDialog|"
+msgid "Username:"
+msgstr "Потребителско име:"
+
+msgctxt "AuthDialog|"
+msgid "Password:"
+msgstr "Парола:"
+
+msgctxt "AuthDialog|"
+msgid "remember"
+msgstr "запамети"
+
+msgctxt "AuthDialog|"
+msgid "Cancel"
+msgstr "Отказ"
+
+msgctxt "AuthDialog|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -404,6 +450,10 @@ msgstr "3 часа"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 ден"
+
+msgctxt "BaseStringListArea|"
+msgid "Please enter one item per line"
+msgstr ""
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
@@ -524,6 +574,10 @@ msgstr "Обратно към %1"
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
 msgstr "Маркери"
+
+msgctxt "Browser MainMenu|"
+msgid "Download media"
+msgstr "Изтегляне на носител"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
@@ -647,6 +701,21 @@ msgstr "Отказ"
 msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
 msgstr "Започване на изтегляне без потвърждение"
+
+msgctxt "BtSettings|"
+msgid "Advanced"
+msgstr "Допълнителни"
+
+msgctxt "BtSettings|"
+msgid "Custom port:"
+msgstr "Порт по избор:"
+
+msgctxt "BtSettings|"
+msgid ""
+"The use of additional trackers can improve download speed in some cases. "
+"Lists of such trackers can be retrieved from different sources, e.g. from <a "
+"href='https://github.com/ngosang/trackerslist'>here</a>."
+msgstr ""
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -792,6 +861,44 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Започни изтегляне"
 
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Connect to remote %1"
+msgstr "Отдалечено свързване с"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "(beta)"
+msgstr "(бета)"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on another device."
+msgstr "Тук можете да се свържете с %1 работещ на друго устройство."
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at startup"
+msgstr "Автоматично свързване при стартиране"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at %1 startup"
+msgstr "Автоматично свързване с %1 при стартиране"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Cancel"
+msgstr "Отказ"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
+msgstr ""
+"Тук можете да се свържете с %1 който работи на вашия компютър с "
+"Windows/macOS/Linux"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter ID, or <a href='#'>scan QR code</a>"
+msgstr "Моля въведете вашето ID или <a href='#'>сканирайте QR код</a>"
+
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "Няма връзки"
@@ -851,6 +958,22 @@ msgstr "Копиране"
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
 msgstr "Сигурни ли сте че искате да излезете?"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Starting..."
+msgstr "Стартиране..."
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Failed to start."
+msgstr "Неуспешно стартиране."
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Error: %1"
+msgstr "Грешка: %1"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1243,7 +1366,7 @@ msgstr "Започни изтегляне без потвърждение"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "Автоматично премахни изтритите файлове от списъка с изтеглянията"
+msgstr "Автоматично премахване на изтритите файлове от списъка с изтеглянията"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
@@ -1368,6 +1491,10 @@ msgstr "Нормален"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Low"
 msgstr "Нисък"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Rename file"
+msgstr "Преименуване на файл"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
@@ -1694,6 +1821,10 @@ msgstr "SHA-1"
 msgctxt "FileIntegrityPage|"
 msgid "SHA-256"
 msgstr "SHA-256"
+
+msgctxt "FileIntegrityPage|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
 
 msgctxt "FileIntegrityPage|"
 msgid "Hash"
@@ -2076,6 +2207,10 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
 
+msgctxt "HashAlgorithmCombobox|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
+
 msgctxt "ImportDialog|"
 msgid "Import"
 msgstr "Внасяне"
@@ -2161,6 +2296,14 @@ msgid "Contact support"
 msgstr "Техническа поддръжка"
 
 msgctxt "LeftDrawer|"
+msgid "Disconnect from remote %1"
+msgstr "Прекъсване на връзката с отдалечения %1"
+
+msgctxt "LeftDrawer|"
+msgid "Connect to remote %1"
+msgstr "Отдалечено свързване с %1"
+
+msgctxt "LeftDrawer|"
 msgid "About"
 msgstr "За програмата"
 
@@ -2225,6 +2368,10 @@ msgid "Completed"
 msgstr "Завършени"
 
 msgctxt "MainFiltersBar|"
+msgid "Uncompleted"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
 msgstr "Да премахна ли етикет?"
 
@@ -2283,6 +2430,14 @@ msgstr "Дълбок сън"
 msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "Изключване"
+
+msgctxt "MainMenu|"
+msgid "Disconnect from remote %1"
+msgstr "Прекъсване на връзката с отдалечения %1"
+
+msgctxt "MainMenu|"
+msgid "Connect to remote %1"
+msgstr "Отдалечено свързване с %1"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2588,6 +2743,10 @@ msgctxt "Mp4ConverterPage|"
 msgid "Save to"
 msgstr "Запази в"
 
+msgctxt "Mp4ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "Пътя съдържа недопустими символи"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "Проверка за обновления..."
@@ -2817,8 +2976,8 @@ msgid "Cancel"
 msgstr "Отказ"
 
 msgctxt "PluginsPage|"
-msgid "%1 add-ons files (%2)"
-msgstr "%1 файла с добавки (%2)"
+msgid "%1 add-ons files"
+msgstr "%1 файла с добавки"
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
@@ -3378,6 +3537,10 @@ msgid "Unsupported format"
 msgstr "Неподдържан формат"
 
 msgctxt "QObject|"
+msgid "Not found"
+msgstr "Не е открит"
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "Хоста не е намерен"
 
@@ -3648,6 +3811,30 @@ msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
 msgstr "Отказ"
 
+msgctxt "RemoteControlSettings|"
+msgid "Remote Access"
+msgstr "Отдалечен достъп"
+
+msgctxt "RemoteControlSettings|"
+msgid "(beta)"
+msgstr "(бета)"
+
+msgctxt "RemoteControlSettings|"
+msgid "Allow remote access to %1 running on this device"
+msgstr "Позволяване на отдалечен достъп до %1 работещ на това устройство"
+
+msgctxt "RemoteControlSettings|"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "RemoteControlSettings|"
+msgid "Password"
+msgstr "Парола"
+
+msgctxt "RemoteControlSettings|"
+msgid "Status"
+msgstr "Статус"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr "Отдалечения ресурс е променен"
@@ -3663,6 +3850,42 @@ msgstr "Изтегли отново"
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "Отказ"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Rename file"
+msgstr "Преименуване на файл"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Enter new name"
+msgstr "Въведете ново име"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "A file with that name already exists."
+msgstr "Файл с това име вече съществува."
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Cancel"
+msgstr "Отказ"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Rename file"
+msgstr "Преименуване на файл"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Enter new name"
+msgstr "Въведете ново име"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "A file with that name already exists."
+msgstr "Файл с това име вече съществува."
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -3881,6 +4104,10 @@ msgid "Antivirus"
 msgstr "Антивирус"
 
 msgctxt "SettingsPage|"
+msgid "Remote Access"
+msgstr "Отдалечен достъп"
+
+msgctxt "SettingsPage|"
 msgid "Advanced"
 msgstr "Допълнителни"
 
@@ -3913,8 +4140,8 @@ msgid "Go back to default settings"
 msgstr "Връщане на настройките по подразбиране"
 
 msgctxt "SettingsPage|"
-msgid "Reset"
-msgstr "Нулиране"
+msgid "Reset settings"
+msgstr "Нулиране на настройките"
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
@@ -4107,6 +4334,10 @@ msgstr "Светла"
 msgctxt "ThemeComboBox|"
 msgid "Dark"
 msgstr "Тъмна"
+
+msgctxt "Toast|"
+msgid "Please grant camera permission to use the QR scanner"
+msgstr "Моля разрешете достъпа до камерата за да сканирате QR кодове"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4369,8 +4600,28 @@ msgid "Let's make it better together! Give us your feedback."
 msgstr "Да направим FDM по-добър заедно! Дайте ни препоръка."
 
 msgctxt "WaitingPage|"
-msgid "Refresh"
-msgstr "Обнови"
+msgid "Loading"
+msgstr "Зареждане"
+
+msgctxt "WaitingPage|"
+msgid "Connection to %1"
+msgstr "Връзка с %1"
+
+msgctxt "WaitingPage|"
+msgid "Error: %1"
+msgstr "Грешка: %1"
+
+msgctxt "WaitingPage|"
+msgid "Retry"
+msgstr "Повторен опит"
+
+msgctxt "WaitingPage|"
+msgid "Cancel"
+msgstr "Отказ"
+
+msgctxt "WaitingPage|"
+msgid "Abort"
+msgstr "Относно"
 
 msgctxt "WhatsNewDialog|"
 msgid "New version is available"
@@ -4391,3 +4642,7 @@ msgstr "За съжаление докладът не е изпратен, въ�
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "Докладът е изпратен. Благодарим Ви за съдействието!"
+
+msgctxt "main|"
+msgid "Remote connection to %1"
+msgstr "Отдалечено свързване с %1"

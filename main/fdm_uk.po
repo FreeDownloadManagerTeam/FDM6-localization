@@ -90,7 +90,7 @@ msgstr "Повідомлення"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of added downloads via Notification Center"
-msgstr ""
+msgstr "Повідомляти мене про додані завантаження через Центр Сповіщень"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
@@ -130,7 +130,7 @@ msgstr "Запуск під час запуску системи (згорнут
 
 msgctxt "AdvancedSettings|"
 msgid "Show special offers"
-msgstr ""
+msgstr "Показувати спеціальні пропозиції"
 
 msgctxt "AdvancedSettings|"
 msgid "Interface"
@@ -142,11 +142,7 @@ msgstr "Показати/сховати нижню панель по кліку 
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
-msgstr ""
-
-msgctxt "AdvancedSettings|"
-msgid "Restore hidden state when finished adding new downloads"
-msgstr "Знову приховати після завершення додавання нових завантажень"
+msgstr "Показувати активні завантаження і вивантаження через іконку в треї"
 
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
@@ -202,6 +198,22 @@ msgstr "Дозволити порядок завантажень користу�
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
 msgstr "Показувати кнопку \"Зберегти як...\""
+
+msgctxt "AdvancedSettings|"
+msgid "Enable standalone create new downloads windows"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Overall zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Fonts zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -300,16 +312,52 @@ msgid "Converting files to mp4 (%1)."
 msgstr "Конвертація файлів у mp4 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Renaming files (%1)."
+msgstr "Перейменування файлів (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Злиття медіапотоків (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
-msgstr ""
+msgstr "Видалення файлів."
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Деякі поточні операції не можна зупинити/відновити"
+
+msgctxt "AuthDialog|"
+msgid "Authentication required"
+msgstr "Необхідна аутентифікація"
+
+msgctxt "AuthDialog|"
+msgid "%1 requires authentication"
+msgstr "%1 вимагає аутентифікації"
+
+msgctxt "AuthDialog|"
+msgid "The site says: \"%1\"."
+msgstr "Сайт повідомляє: \"%1\"."
+
+msgctxt "AuthDialog|"
+msgid "Username:"
+msgstr "Ім'я користувача:"
+
+msgctxt "AuthDialog|"
+msgid "Password:"
+msgstr "Пароль:"
+
+msgctxt "AuthDialog|"
+msgid "remember"
+msgstr "пам'ятати"
+
+msgctxt "AuthDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "AuthDialog|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -402,6 +450,10 @@ msgstr "3 години"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 день"
+
+msgctxt "BaseStringListArea|"
+msgid "Please enter one item per line"
+msgstr ""
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
@@ -522,6 +574,10 @@ msgstr "Назад до %1"
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
 msgstr "Закладки"
+
+msgctxt "Browser MainMenu|"
+msgid "Download media"
+msgstr "Завантажити media"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
@@ -646,6 +702,21 @@ msgstr "Скасувати"
 msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
 msgstr "Почати завантаження без підтвердження"
+
+msgctxt "BtSettings|"
+msgid "Advanced"
+msgstr "Додатково"
+
+msgctxt "BtSettings|"
+msgid "Custom port:"
+msgstr "Вибраний порт:"
+
+msgctxt "BtSettings|"
+msgid ""
+"The use of additional trackers can improve download speed in some cases. "
+"Lists of such trackers can be retrieved from different sources, e.g. from <a "
+"href='https://github.com/ngosang/trackerslist'>here</a>."
+msgstr ""
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -791,6 +862,44 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Запустити завантаження"
 
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Connect to remote %1"
+msgstr "З'єднати з віддаленим %1"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "(beta)"
+msgstr "(бета)"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on another device."
+msgstr "Тут ви можете підключитися до  %1 запущеного на іншому пристрої"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at startup"
+msgstr "Автоматично підключатися при запуску"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at %1 startup"
+msgstr "Автоматично підключатися при запуску %1"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
+msgstr ""
+"Тут ви можете підключитися до  %1 запущеного на вашому ПК під "
+"Windows/macOS/Linux"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter ID, or <a href='#'>scan QR code</a>"
+msgstr "Будь ласка введіть ID, або <a href='#'>відскануйте QR код</a>"
+
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "З'єднання відсутні"
@@ -809,19 +918,19 @@ msgstr "Кількість з'єднань"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Destination files already exists"
-msgstr ""
+msgstr "Призначення вже існує"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Overwrite All"
-msgstr ""
+msgstr "Переписати все"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Rename All"
-msgstr ""
+msgstr "Перейменувати все"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Skip All"
-msgstr ""
+msgstr "Пропустити все"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Abort"
@@ -829,7 +938,7 @@ msgstr "Перервати"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "Failed to convert"
-msgstr ""
+msgstr "Не вдалося конвертувати"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "OK"
@@ -837,7 +946,7 @@ msgstr "OK"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "Convert failed"
-msgstr ""
+msgstr "Конвертування не вдалося"
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
@@ -850,6 +959,22 @@ msgstr "Копіювати"
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
 msgstr "Ви справді хочете вийти?"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Starting..."
+msgstr "Запуск..."
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Failed to start."
+msgstr "Не вдалося запустити."
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Error: %1"
+msgstr "Помилка: %1"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1345,7 +1470,7 @@ msgstr "Повідомити про проблему"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Enable auto retry for this kind of errors"
-msgstr ""
+msgstr "Дозволити автоповтор для таких помилок"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -1370,6 +1495,10 @@ msgstr "Нормальний"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Low"
 msgstr "Низький"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Rename file"
+msgstr "Перейменування файла"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
@@ -1698,6 +1827,10 @@ msgid "SHA-256"
 msgstr "SHA-256"
 
 msgctxt "FileIntegrityPage|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
+
+msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "Хеш"
 
@@ -1991,11 +2124,12 @@ msgstr "Використовувати мобільну мережу"
 
 msgctxt "GeneralSettings|"
 msgid "Allow data roaming"
-msgstr ""
+msgstr "Дозволити роумінг даних"
 
 msgctxt "GeneralSettings|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
+"За використання мобільних даних у роумінгу може стягуватися додаткова плата."
 
 msgctxt "GeneralTab|"
 msgid "Status"
@@ -2076,6 +2210,10 @@ msgstr "SHA-1"
 msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr "SHA-256"
+
+msgctxt "HashAlgorithmCombobox|"
+msgid "SHA-512"
+msgstr "SHA-256: {512?}"
 
 msgctxt "ImportDialog|"
 msgid "Import"
@@ -2162,6 +2300,14 @@ msgid "Contact support"
 msgstr "Технічна підтримка"
 
 msgctxt "LeftDrawer|"
+msgid "Disconnect from remote %1"
+msgstr "Відключити від віддаленого %1"
+
+msgctxt "LeftDrawer|"
+msgid "Connect to remote %1"
+msgstr "З'єднати з віддаленим %1"
+
+msgctxt "LeftDrawer|"
 msgid "About"
 msgstr "Про програму"
 
@@ -2226,6 +2372,10 @@ msgid "Completed"
 msgstr "Завершено"
 
 msgctxt "MainFiltersBar|"
+msgid "Uncompleted"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
 msgstr "Дійсно прибрати тег?"
 
@@ -2259,7 +2409,7 @@ msgstr "Імпортувати установки"
 
 msgctxt "MainMenu|"
 msgid "Add-ons..."
-msgstr ""
+msgstr "Додатки..."
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -2284,6 +2434,14 @@ msgstr "Глибокий сон"
 msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "Вимкнення"
+
+msgctxt "MainMenu|"
+msgid "Disconnect from remote %1"
+msgstr "Відключити від віддаленого %1"
+
+msgctxt "MainMenu|"
+msgid "Connect to remote %1"
+msgstr "З'єднати з віддаленим %1"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2588,6 +2746,10 @@ msgctxt "Mp4ConverterPage|"
 msgid "Save to"
 msgstr "Зберегти до"
 
+msgctxt "Mp4ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "У шляху є неприпустимі символи"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "Перевірити оновлення..."
@@ -2770,145 +2932,147 @@ msgstr "З'єднання"
 
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
-msgstr ""
+msgstr "Встановлено."
 
 msgctxt "PluginsPage|"
 msgid "Recently installed dependency"
-msgstr ""
+msgstr "Недавно встановлена залежність"
 
 msgctxt "PluginsPage|"
 msgid "Add-ons"
-msgstr ""
+msgstr "Додатки"
 
 msgctxt "PluginsPage|"
 msgid "Check for Updates"
-msgstr ""
+msgstr "Перевірити оновлення"
 
 msgctxt "PluginsPage|"
 msgid "Install Add-on From File..."
-msgstr ""
+msgstr "Встановити додаток з файлу..."
 
 msgctxt "PluginsPage|"
 msgid "Update Add-ons Automatically"
-msgstr ""
+msgstr "Автоматично оновлювати додатки"
 
 msgctxt "PluginsPage|"
 msgid "Reset All Add-ons to Update Automatically"
-msgstr ""
+msgstr "Скинути всі додатки на автоооновлення"
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
-msgstr ""
+msgstr "Оновлення встановлених додатків..."
 
 msgctxt "PluginsPage|"
 msgid "There are no installed add-ons."
-msgstr ""
+msgstr "Жодного додатка не встановлено."
 
 msgctxt "PluginsPage|"
 msgid "Install add-on from file"
-msgstr ""
+msgstr "Встановити додаток з файлу"
 
 msgctxt "PluginsPage|"
 msgid "Install"
-msgstr ""
+msgstr "Встановити"
 
 msgctxt "PluginsPage|"
 msgid "Cancel"
 msgstr "Скасувати"
 
 msgctxt "PluginsPage|"
-msgid "%1 add-ons files (%2)"
-msgstr ""
+msgid "%1 add-ons files"
+msgstr "%1 файлів доповнень"
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
-msgstr ""
+msgstr "Не вдалося встановити додаток"
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
-msgstr ""
+msgstr "Увага!"
 
 msgctxt "PluginsPage|"
 msgid "Add-on requests dangerous permissions:"
-msgstr ""
+msgstr "Додаток вимагає небезпечних дозволів:"
 
 msgctxt "PluginsPage|"
 msgid "Add-on requests dangerous permission:"
-msgstr ""
+msgstr "Додаток вимагає небезпечного дозволу:"
 
 msgctxt "PluginsPage|"
 msgid "Please install add-ons from trusted sources only."
-msgstr ""
+msgstr "Будь ласка, встановлюйте додатки лише з джерел, яким довіряєте."
 
 msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
-msgstr ""
+msgstr "Ви хочете продовжити встановлення?"
 
 msgctxt "PluginsPage|"
 msgid "The following required components are missing:"
-msgstr ""
+msgstr "Недоступні такі необхідні компоненти:"
 
 msgctxt "PluginsPage|"
 msgid "%1 is required."
-msgstr ""
+msgstr "%1 необхідне."
 
 msgctxt "PluginsPage|"
 msgid "Would you like to install them?"
-msgstr ""
+msgstr "Ви справді хочете їх встановити?"
 
 msgctxt "PluginsPage|"
 msgid "Would you like to install it?"
-msgstr ""
+msgstr "Ви справді хочете його встановити?"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
-msgstr ""
+msgstr "Не вдалося оновити додаток"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
-msgstr ""
+msgstr "Увага!"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
-msgstr ""
+msgstr "Нова версія додатку %1 вимагає небезпечних дозволів:"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
-msgstr ""
+msgstr "Нова версія додатку %1 вимагає небезпечного дозволу:"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Please install add-ons from trusted sources only."
-msgstr ""
+msgstr "Будь ласка, встановлюйте додатки лише з джерел, яким довіряєте."
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
-msgstr ""
+msgstr "Ви хочете продовжити встановлення?"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid ""
 "New version of %1 add-on requires additional components:\n"
 "%2"
 msgstr ""
+"Нова версія додатку %1 потребує додаткових компонентів:\n"
+"%2"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requires %2."
-msgstr ""
+msgstr "Нова версія додатку %1 потребує %2."
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to install them?"
-msgstr ""
+msgstr "Ви справді хочете їх встановити?"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to install it?"
-msgstr ""
+msgstr "Ви справді хочете його встановити?"
 
 msgctxt "PluginsViewItem|"
 msgid "Allow Automatic Updates"
-msgstr ""
+msgstr "Дозволити автоматичне оновлення"
 
 msgctxt "PluginsViewItem|"
 msgid "Check for Updates"
-msgstr ""
+msgstr "Перевірити оновлення"
 
 msgctxt "PluginsViewItem|"
 msgid "Remove"
@@ -2916,15 +3080,15 @@ msgstr "Прибирати"
 
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
-msgstr ""
+msgstr "Оновлення..."
 
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
-msgstr ""
+msgstr "Версія: %1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
-msgstr ""
+msgstr "Дійсно прибрати?"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
@@ -3376,6 +3540,10 @@ msgid "Unsupported format"
 msgstr "Формат не підтримується"
 
 msgctxt "QObject|"
+msgid "Not found"
+msgstr "Не знайдено"
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "Хост не знайдено"
 
@@ -3539,99 +3707,99 @@ msgstr "вивантаження зупинено"
 
 msgctxt "QObject|"
 msgid "PAUSE ALL"
-msgstr ""
+msgstr "ПРИЗУПИНИТИ ВСЕ"
 
 msgctxt "QObject|"
 msgid "Downloading..."
-msgstr ""
+msgstr "Завантаження..."
 
 msgctxt "QObject|"
 msgid "DISABLE SNAIL MODE"
-msgstr ""
+msgstr "ВІДКЛЮЧИТИ РЕЖИМ РАВЛИКА"
 
 msgctxt "QObject|"
 msgid "SNAIL MODE"
-msgstr ""
+msgstr "РЕЖИМ РАВЛИКА"
 
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
-msgstr ""
+msgstr "Завантаження з YouTube недоступне"
 
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
-msgstr ""
+msgstr "%1 з невідомо на %2"
 
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
-msgstr ""
+msgstr "%1 з %2 на %3"
 
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
-msgstr ""
+msgstr "%1 %2 або вище\\"
 
 msgctxt "QObject|"
 msgid "Launch Python code"
-msgstr ""
+msgstr "Запустити код Python"
 
 msgctxt "QObject|"
 msgid "Allows to execute arbitrary code."
-msgstr ""
+msgstr "Дозволяє виконати будь-який код."
 
 msgctxt "QObject|"
 msgid "Installing..."
-msgstr ""
+msgstr "Встановлення..."
 
 msgctxt "QObject|"
 msgid "Uninstalling..."
-msgstr ""
+msgstr "Видалення..."
 
 msgctxt "QObject|"
 msgid "Missing components"
-msgstr ""
+msgstr "Відсутні компоненти"
 
 msgctxt "QObject|"
 msgid "%1 are required"
-msgstr ""
+msgstr "%1 потрібні"
 
 msgctxt "QObject|"
 msgid "%1 is required"
-msgstr ""
+msgstr "%1 потрібно"
 
 msgctxt "QObject|"
 msgid "Failed to load"
-msgstr ""
+msgstr "Не вдалося завантажити"
 
 msgctxt "QObject|"
 msgid "Playlist"
-msgstr ""
+msgstr "Список відтворення"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
-msgstr ""
+msgstr "QIODevice::Append не підтримується для GZIP"
 
 msgctxt "QuaGzipFile|"
 msgid "Opening gzip for both reading and writing is not supported"
-msgstr ""
+msgstr "Відкриття gzip одночасно для читання і запису не підтримується"
 
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr ""
+msgstr "Ви можете відкрити gzip для читання або запису. Як саме відкрити?"
 
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr ""
+msgstr "Не вдається gzopen() файл"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::Append не підтримується для QuaZIODevice"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::ReadWrite не підтримується для QuaZIODevice"
 
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr ""
+msgstr "Помилка ZIP/UNZIP API %1"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
@@ -3644,6 +3812,30 @@ msgstr "OK"
 msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
 msgstr "Скасувати"
+
+msgctxt "RemoteControlSettings|"
+msgid "Remote Access"
+msgstr "Віддалений доступ"
+
+msgctxt "RemoteControlSettings|"
+msgid "(beta)"
+msgstr "(бета)"
+
+msgctxt "RemoteControlSettings|"
+msgid "Allow remote access to %1 running on this device"
+msgstr "Дозвольте віддалений доступ до %1 запущеного на цьому пристрої"
+
+msgctxt "RemoteControlSettings|"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "RemoteControlSettings|"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "RemoteControlSettings|"
+msgid "Status"
+msgstr "Статус"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
@@ -3660,6 +3852,42 @@ msgstr "Завантажити заново"
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "Скасувати"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Rename file"
+msgstr "Перейменування файла"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Enter new name"
+msgstr "Введіть нове ім'я"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "A file with that name already exists."
+msgstr "Файл з таким іменем вже існує."
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Rename file"
+msgstr "Перейменування файла"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Enter new name"
+msgstr "Введіть нове ім'я"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "A file with that name already exists."
+msgstr "Файл з таким іменем вже існує."
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -3878,6 +4106,10 @@ msgid "Antivirus"
 msgstr "Антивірус"
 
 msgctxt "SettingsPage|"
+msgid "Remote Access"
+msgstr "Віддалений доступ"
+
+msgctxt "SettingsPage|"
 msgid "Advanced"
 msgstr "Додатково"
 
@@ -3910,8 +4142,8 @@ msgid "Go back to default settings"
 msgstr "Повернутися до налаштувань за замовчуванням"
 
 msgctxt "SettingsPage|"
-msgid "Reset"
-msgstr "Скинути"
+msgid "Reset settings"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
@@ -4109,6 +4341,10 @@ msgstr "Світла"
 msgctxt "ThemeComboBox|"
 msgid "Dark"
 msgstr "Темна"
+
+msgctxt "Toast|"
+msgid "Please grant camera permission to use the QR scanner"
+msgstr "Для використання QR сканера надайте доступ до камери"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4371,8 +4607,28 @@ msgid "Let's make it better together! Give us your feedback."
 msgstr "Покращимо це разом! Надішліть нам ваші пропозиції."
 
 msgctxt "WaitingPage|"
-msgid "Refresh"
-msgstr "Оновити"
+msgid "Loading"
+msgstr "Завантажую"
+
+msgctxt "WaitingPage|"
+msgid "Connection to %1"
+msgstr "З'єднання з %1"
+
+msgctxt "WaitingPage|"
+msgid "Error: %1"
+msgstr "Помилка: %1"
+
+msgctxt "WaitingPage|"
+msgid "Retry"
+msgstr "Повторити"
+
+msgctxt "WaitingPage|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "WaitingPage|"
+msgid "Abort"
+msgstr "Перервати"
 
 msgctxt "WhatsNewDialog|"
 msgid "New version is available"
@@ -4393,3 +4649,7 @@ msgstr "Перепрошуємо, звіт не надіслано, сталас
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "Звіт надіслано. Дякуємо за співпрацю!"
+
+msgctxt "main|"
+msgid "Remote connection to %1"
+msgstr "Віддалене з'єднання з %1"

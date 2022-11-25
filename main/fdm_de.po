@@ -1,11 +1,5 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,7 +7,6 @@ msgstr ""
 "X-Language: de_DE\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.0.1\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -158,12 +151,6 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "Aktiven Download/Upload durch Symbol in der Taskleiste anzeigen"
 
 msgctxt "AdvancedSettings|"
-msgid "Restore hidden state when finished adding new downloads"
-msgstr ""
-"Ausgeblendeten Zustand wiederherstellen, wenn neue Downloads hinzugefügt "
-"wurden"
-
-msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "Zu den Standardeinstellungen zurückkehren"
 
@@ -215,6 +202,22 @@ msgstr "Benutzerdefinierte Reihenfolge der Downloads aktivieren"
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
 msgstr "Taste \"Speichern unter...\" anzeigen"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable standalone create new downloads windows"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Overall zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Fonts zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -313,6 +316,10 @@ msgid "Converting files to mp4 (%1)."
 msgstr "Dateien in mp4 konvertieren (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
+msgid "Renaming files (%1)."
+msgstr "Dateien umbenennen (%1)."
+
+msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Medien-Streams zusammenführen (%1)."
 
@@ -323,6 +330,38 @@ msgstr "Dateien löschen."
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Es laufen Vorgänge, die nicht fortgesetzt werden können"
+
+msgctxt "AuthDialog|"
+msgid "Authentication required"
+msgstr "Authentifizierung erforderlich"
+
+msgctxt "AuthDialog|"
+msgid "%1 requires authentication"
+msgstr "%1 erfordert Authentifizierung"
+
+msgctxt "AuthDialog|"
+msgid "The site says: \"%1\"."
+msgstr "Seite sagt: \"%1\"."
+
+msgctxt "AuthDialog|"
+msgid "Username:"
+msgstr "Benutzername:"
+
+msgctxt "AuthDialog|"
+msgid "Password:"
+msgstr "Passwort:"
+
+msgctxt "AuthDialog|"
+msgid "remember"
+msgstr "speichern"
+
+msgctxt "AuthDialog|"
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgctxt "AuthDialog|"
+msgid "OK"
+msgstr ""
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -415,6 +454,10 @@ msgstr "3 Stunden"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 Tag"
+
+msgctxt "BaseStringListArea|"
+msgid "Please enter one item per line"
+msgstr ""
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
@@ -535,6 +578,10 @@ msgstr "Zurück zu %1"
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
 msgstr "Lesezeichen"
+
+msgctxt "Browser MainMenu|"
+msgid "Download media"
+msgstr "Medien herunterladen"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
@@ -659,6 +706,21 @@ msgstr "Abbrechen"
 msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
 msgstr "Download ohne Bestätigung starten"
+
+msgctxt "BtSettings|"
+msgid "Advanced"
+msgstr "Erweitert"
+
+msgctxt "BtSettings|"
+msgid "Custom port:"
+msgstr "Benutzerdefinierter Port:"
+
+msgctxt "BtSettings|"
+msgid ""
+"The use of additional trackers can improve download speed in some cases. "
+"Lists of such trackers can be retrieved from different sources, e.g. from <a "
+"href='https://github.com/ngosang/trackerslist'>here</a>."
+msgstr ""
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -804,6 +866,46 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Download starten"
 
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Connect to remote %1"
+msgstr "Verbindung zur Gegenstelle %1"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "(beta)"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on another device."
+msgstr ""
+"Hier können Sie eine Verbindung zu %1 herstellen, das auf einem anderen "
+"Gerät läuft."
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at startup"
+msgstr "Automatisch beim Start verbinden"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at %1 startup"
+msgstr "Automatisch mit %1 beim Start verbinden"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "OK"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
+msgstr ""
+"Hier können Sie sich mit %1 verbinden, das auf Ihrem "
+"Windows-/macOS-/Linux-PC läuft"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter ID, or <a href='#'>scan QR code</a>"
+msgstr "Bitte ID eingeben, oder <a href='#'>QR-Code scannen</a>"
+
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
 msgstr "Es gibt keine Verbindungen"
@@ -863,6 +965,22 @@ msgstr "Kopieren"
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
 msgstr "Sind Sie sicher, dass Sie beenden wollen?"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Starting..."
+msgstr "Starten…"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Failed to start."
+msgstr "Starten fehlgeschlagen."
+
+msgctxt "CppQmlAppRcServer|"
+msgid "Error: %1"
+msgstr "Fehler: %1"
+
+msgctxt "CppQmlAppRcServer|"
+msgid "OK"
+msgstr ""
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1387,6 +1505,10 @@ msgid "Low"
 msgstr "Niedrig"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Rename file"
+msgstr "Datei umbenennen"
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
 msgstr "Verschieben nach…"
 
@@ -1711,6 +1833,10 @@ msgstr ""
 
 msgctxt "FileIntegrityPage|"
 msgid "SHA-256"
+msgstr ""
+
+msgctxt "FileIntegrityPage|"
+msgid "SHA-512"
 msgstr ""
 
 msgctxt "FileIntegrityPage|"
@@ -2096,6 +2222,10 @@ msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-256"
 msgstr ""
 
+msgctxt "HashAlgorithmCombobox|"
+msgid "SHA-512"
+msgstr ""
+
 msgctxt "ImportDialog|"
 msgid "Import"
 msgstr "Importieren"
@@ -2181,6 +2311,14 @@ msgid "Contact support"
 msgstr "Support kontaktieren"
 
 msgctxt "LeftDrawer|"
+msgid "Disconnect from remote %1"
+msgstr "Verbindung zur Gegenstelle %1 trennen"
+
+msgctxt "LeftDrawer|"
+msgid "Connect to remote %1"
+msgstr "Verbindung zur Gegenstelle %1"
+
+msgctxt "LeftDrawer|"
 msgid "About"
 msgstr "Über"
 
@@ -2245,6 +2383,10 @@ msgid "Completed"
 msgstr "Abgeschlossen"
 
 msgctxt "MainFiltersBar|"
+msgid "Uncompleted"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
 msgstr "Markierung wirklich entfernen?"
 
@@ -2303,6 +2445,14 @@ msgstr "Ruhezustand"
 msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "Herunterfahren"
+
+msgctxt "MainMenu|"
+msgid "Disconnect from remote %1"
+msgstr "Verbindung zur Gegenstelle %1 trennen"
+
+msgctxt "MainMenu|"
+msgid "Connect to remote %1"
+msgstr "Verbindung zur Gegenstelle %1"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2608,6 +2758,10 @@ msgctxt "Mp4ConverterPage|"
 msgid "Save to"
 msgstr "Speichern unter"
 
+msgctxt "Mp4ConverterPage|"
+msgid "The path contains invalid characters"
+msgstr "Pfad enthält ungültige Zeichen"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "Nach Updates suchen…"
@@ -2837,8 +2991,8 @@ msgid "Cancel"
 msgstr "Abbrechen"
 
 msgctxt "PluginsPage|"
-msgid "%1 add-ons files (%2)"
-msgstr "%1 Erweiterungsdateien (%2)"
+msgid "%1 add-ons files"
+msgstr "%1 Add-on-Dateien"
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
@@ -3401,6 +3555,10 @@ msgid "Unsupported format"
 msgstr "Nicht unterstütztes Format"
 
 msgctxt "QObject|"
+msgid "Not found"
+msgstr "Nicht gefunden"
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "Host nicht gefunden"
 
@@ -3672,6 +3830,30 @@ msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
 msgstr "Abbrechen"
 
+msgctxt "RemoteControlSettings|"
+msgid "Remote Access"
+msgstr "Fernzugriff"
+
+msgctxt "RemoteControlSettings|"
+msgid "(beta)"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Allow remote access to %1 running on this device"
+msgstr "Fernzugriff auf %1, das auf diesem Gerät läuft, zulassen"
+
+msgctxt "RemoteControlSettings|"
+msgid "ID"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Password"
+msgstr "Passwort"
+
+msgctxt "RemoteControlSettings|"
+msgid "Status"
+msgstr "Status"
+
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
 msgstr "Remote-Ressource geändert"
@@ -3687,6 +3869,42 @@ msgstr "Erneut herunterladen"
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
 msgstr "Abbrechen"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Rename file"
+msgstr "Datei umbenennen"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Enter new name"
+msgstr "Neuen Namen eingeben"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "A file with that name already exists."
+msgstr "Eine Datei mit diesem Namen existiert bereits."
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgctxt "RenameDownloadFileDialog|"
+msgid "OK"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Rename file"
+msgstr "Datei umbenennen"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "OK"
+msgstr ""
+
+msgctxt "RenameDownloadFilePage|"
+msgid "Enter new name"
+msgstr "Neuen Namen eingeben"
+
+msgctxt "RenameDownloadFilePage|"
+msgid "A file with that name already exists."
+msgstr "Eine Datei mit diesem Namen existiert bereits."
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -3905,6 +4123,10 @@ msgid "Antivirus"
 msgstr "Antivirenprogramm"
 
 msgctxt "SettingsPage|"
+msgid "Remote Access"
+msgstr "Fernzugriff"
+
+msgctxt "SettingsPage|"
 msgid "Advanced"
 msgstr "Erweitert"
 
@@ -3937,8 +4159,8 @@ msgid "Go back to default settings"
 msgstr "Zu den Standardeinstellungen zurückkehren"
 
 msgctxt "SettingsPage|"
-msgid "Reset"
-msgstr "Zurücksetzen"
+msgid "Reset settings"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
@@ -4135,6 +4357,10 @@ msgstr "Hell"
 msgctxt "ThemeComboBox|"
 msgid "Dark"
 msgstr "Dunkel"
+
+msgctxt "Toast|"
+msgid "Please grant camera permission to use the QR scanner"
+msgstr "Bitte erlauben Sie der Kamera die Verwendung des QR-Scanners"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4397,8 +4623,28 @@ msgid "Let's make it better together! Give us your feedback."
 msgstr "Lasst es uns gemeinsam besser machen! Geben Sie uns Ihr Feedback."
 
 msgctxt "WaitingPage|"
-msgid "Refresh"
-msgstr "Aktualisieren"
+msgid "Loading"
+msgstr "Laden"
+
+msgctxt "WaitingPage|"
+msgid "Connection to %1"
+msgstr "Verbindung zu %1"
+
+msgctxt "WaitingPage|"
+msgid "Error: %1"
+msgstr "Fehler: %1"
+
+msgctxt "WaitingPage|"
+msgid "Retry"
+msgstr "Erneut versuchen"
+
+msgctxt "WaitingPage|"
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgctxt "WaitingPage|"
+msgid "Abort"
+msgstr "Abbrechen"
 
 msgctxt "WhatsNewDialog|"
 msgid "New version is available"
@@ -4419,3 +4665,7 @@ msgstr "Bericht wurde leider nicht gesendet, ein Fehler ist aufgetreten: %1"
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "Bericht wurde gesendet. Danke für Ihre Unterstützung!"
+
+msgctxt "main|"
+msgid "Remote connection to %1"
+msgstr "Fernverbindung zu %1"
