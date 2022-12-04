@@ -145,10 +145,6 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "Показувати активні завантаження і вивантаження через іконку в треї"
 
 msgctxt "AdvancedSettings|"
-msgid "Restore hidden state when finished adding new downloads"
-msgstr "Знову приховати після завершення додавання нових завантажень"
-
-msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "Повернутися до налаштувань за замовчуванням"
 
@@ -202,6 +198,22 @@ msgstr "Дозволити порядок завантажень користу�
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
 msgstr "Показувати кнопку \"Зберегти як...\""
+
+msgctxt "AdvancedSettings|"
+msgid "Enable standalone create new downloads windows"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Overall zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Fonts zoom"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -301,7 +313,7 @@ msgstr "Конвертація файлів у mp4 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
-msgstr ""
+msgstr "Перейменування файлів (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
@@ -321,7 +333,7 @@ msgstr "Необхідна аутентифікація"
 
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
-msgstr ""
+msgstr "%1 вимагає аутентифікації"
 
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
@@ -438,6 +450,10 @@ msgstr "3 години"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 день"
+
+msgctxt "BaseStringListArea|"
+msgid "Please enter one item per line"
+msgstr ""
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
@@ -693,6 +709,13 @@ msgstr "Додатково"
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
+msgstr "Вибраний порт:"
+
+msgctxt "BtSettings|"
+msgid ""
+"The use of additional trackers can improve download speed in some cases. "
+"Lists of such trackers can be retrieved from different sources, e.g. from <a "
+"href='https://github.com/ngosang/trackerslist'>here</a>."
 msgstr ""
 
 msgctxt "BtStrings|"
@@ -841,23 +864,23 @@ msgstr "Запустити завантаження"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "З'єднати з віддаленим %1"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
-msgstr ""
+msgstr "(бета)"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
-msgstr ""
+msgstr "Тут ви можете підключитися до  %1 запущеного на іншому пристрої"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
-msgstr ""
+msgstr "Автоматично підключатися при запуску"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
-msgstr ""
+msgstr "Автоматично підключатися при запуску %1"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Cancel"
@@ -870,10 +893,12 @@ msgstr "OK"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
+"Тут ви можете підключитися до  %1 запущеного на вашому ПК під "
+"Windows/macOS/Linux"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr ""
+msgstr "Будь ласка введіть ID, або <a href='#'>відскануйте QR код</a>"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -937,11 +962,11 @@ msgstr "Ви справді хочете вийти?"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Starting..."
-msgstr ""
+msgstr "Запуск..."
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
-msgstr ""
+msgstr "Не вдалося запустити."
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
@@ -1473,7 +1498,7 @@ msgstr "Низький"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
-msgstr ""
+msgstr "Перейменування файла"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
@@ -2276,11 +2301,11 @@ msgstr "Технічна підтримка"
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
-msgstr ""
+msgstr "Відключити від віддаленого %1"
 
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "З'єднати з віддаленим %1"
 
 msgctxt "LeftDrawer|"
 msgid "About"
@@ -2347,6 +2372,10 @@ msgid "Completed"
 msgstr "Завершено"
 
 msgctxt "MainFiltersBar|"
+msgid "Uncompleted"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
 msgstr "Дійсно прибрати тег?"
 
@@ -2408,11 +2437,11 @@ msgstr "Вимкнення"
 
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
-msgstr ""
+msgstr "Відключити від віддаленого %1"
 
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "З'єднати з віддаленим %1"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2951,7 +2980,7 @@ msgstr "Скасувати"
 
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
-msgstr ""
+msgstr "%1 файлів доповнень"
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
@@ -3512,7 +3541,7 @@ msgstr "Формат не підтримується"
 
 msgctxt "QObject|"
 msgid "Not found"
-msgstr ""
+msgstr "Не знайдено"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -3786,19 +3815,19 @@ msgstr "Скасувати"
 
 msgctxt "RemoteControlSettings|"
 msgid "Remote Access"
-msgstr ""
+msgstr "Віддалений доступ"
 
 msgctxt "RemoteControlSettings|"
 msgid "(beta)"
-msgstr ""
+msgstr "(бета)"
 
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
-msgstr ""
+msgstr "Дозвольте віддалений доступ до %1 запущеного на цьому пристрої"
 
 msgctxt "RemoteControlSettings|"
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 msgctxt "RemoteControlSettings|"
 msgid "Password"
@@ -3826,15 +3855,15 @@ msgstr "Скасувати"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Rename file"
-msgstr ""
+msgstr "Перейменування файла"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Enter new name"
-msgstr ""
+msgstr "Введіть нове ім'я"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "A file with that name already exists."
-msgstr ""
+msgstr "Файл з таким іменем вже існує."
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Cancel"
@@ -3846,7 +3875,7 @@ msgstr "OK"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "Rename file"
-msgstr ""
+msgstr "Перейменування файла"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "OK"
@@ -3854,11 +3883,11 @@ msgstr "OK"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "Enter new name"
-msgstr ""
+msgstr "Введіть нове ім'я"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "A file with that name already exists."
-msgstr ""
+msgstr "Файл з таким іменем вже існує."
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -4078,7 +4107,7 @@ msgstr "Антивірус"
 
 msgctxt "SettingsPage|"
 msgid "Remote Access"
-msgstr ""
+msgstr "Віддалений доступ"
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
@@ -4113,8 +4142,8 @@ msgid "Go back to default settings"
 msgstr "Повернутися до налаштувань за замовчуванням"
 
 msgctxt "SettingsPage|"
-msgid "Reset"
-msgstr "Скинути"
+msgid "Reset settings"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
@@ -4315,7 +4344,7 @@ msgstr "Темна"
 
 msgctxt "Toast|"
 msgid "Please grant camera permission to use the QR scanner"
-msgstr ""
+msgstr "Для використання QR сканера надайте доступ до камери"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4579,11 +4608,11 @@ msgstr "Покращимо це разом! Надішліть нам ваші �
 
 msgctxt "WaitingPage|"
 msgid "Loading"
-msgstr ""
+msgstr "Завантажую"
 
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
-msgstr ""
+msgstr "З'єднання з %1"
 
 msgctxt "WaitingPage|"
 msgid "Error: %1"
@@ -4623,4 +4652,4 @@ msgstr "Звіт надіслано. Дякуємо за співпрацю!"
 
 msgctxt "main|"
 msgid "Remote connection to %1"
-msgstr ""
+msgstr "Віддалене з'єднання з %1"

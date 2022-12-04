@@ -10,7 +10,7 @@ msgstr ""
 
 msgctxt "AboutDialog|"
 msgid "About"
-msgstr "프로그램 정보"
+msgstr "제품 정보"
 
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
@@ -145,10 +145,6 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "트레이 아이콘을 사용하여 활성 다운로드 및 업로드 표시"
 
 msgctxt "AdvancedSettings|"
-msgid "Restore hidden state when finished adding new downloads"
-msgstr "새 다운로드 추가를 마치면 숨김 상태 복원"
-
-msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "기본 설정으로 돌아가기"
 
@@ -182,7 +178,7 @@ msgstr "덮어쓰기"
 
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
-msgstr "사운드 사용"
+msgstr "소리 사용"
 
 msgctxt "AdvancedSettings|"
 msgid ""
@@ -200,6 +196,22 @@ msgstr "사용자 정의 다운로드 순서 사용"
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
 msgstr "\"다른 이름으로 저장...\" 버튼 표시"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable standalone create new downloads windows"
+msgstr "독립 실행형 새 다운로드 창 만들기 사용"
+
+msgctxt "AdvancedSettings|"
+msgid "Overall zoom"
+msgstr "전체 확대"
+
+msgctxt "AdvancedSettings|"
+msgid "Fonts zoom"
+msgstr "글꼴 확대/축소"
+
+msgctxt "AdvancedSettings|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr "<a href='#'>재시작 필요</a>"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -287,7 +299,7 @@ msgstr "재개 지원이 없는 다운로드입니다 ((%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
-msgstr "파일을 이동합니다 (%1)."
+msgstr "파일(%1)을(를) 이동합니다."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
@@ -299,7 +311,7 @@ msgstr "파일을 MP4 (%1)로 변환하는 중입니다."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
-msgstr ""
+msgstr "파일 이름(%1)을(를) 바꾸는 중입니다."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
@@ -319,11 +331,11 @@ msgstr "인증 필요"
 
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
-msgstr ""
+msgstr "%1은(는) 인증 필요"
 
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
-msgstr ""
+msgstr "이 사이트는 \"%1\"이라고 말합니다."
 
 msgctxt "AuthDialog|"
 msgid "Username:"
@@ -436,6 +448,10 @@ msgstr "3시간"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1일"
+
+msgctxt "BaseStringListArea|"
+msgid "Please enter one item per line"
+msgstr ""
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
@@ -687,6 +703,13 @@ msgstr "고급"
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
+msgstr "사용자 지정 포트:"
+
+msgctxt "BtSettings|"
+msgid ""
+"The use of additional trackers can improve download speed in some cases. "
+"Lists of such trackers can be retrieved from different sources, e.g. from <a "
+"href='https://github.com/ngosang/trackerslist'>here</a>."
 msgstr ""
 
 msgctxt "BtStrings|"
@@ -835,23 +858,23 @@ msgstr "다운로드 시작"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "원격 %1에 연결"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
-msgstr ""
+msgstr "(베타)"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
-msgstr ""
+msgstr "여기서 다른 장치에서 실행 중인 %1에 연결할 수 있습니다."
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
-msgstr ""
+msgstr "시작 시 자동으로 연결"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
-msgstr ""
+msgstr "%1 시작 시 자동으로 연결"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Cancel"
@@ -863,11 +886,11 @@ msgstr "확인"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
-msgstr ""
+msgstr "여기서 Windows/macOS/Linux PC에서 실행 중인 %1에 연결할 수 있습니다"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr ""
+msgstr "ID 또는 <a href='#'>QR 코드 스캔</a>를 입력하십시오"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -931,11 +954,11 @@ msgstr "정말 그만 두시겠습니까?"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Starting..."
-msgstr ""
+msgstr "시작..."
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
-msgstr ""
+msgstr "시작하지 못했습니다."
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
@@ -1028,7 +1051,7 @@ msgstr "닫기"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Customize sounds"
-msgstr "사용자 정의 사운드"
+msgstr "사용자 정의 소리"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Event"
@@ -1036,11 +1059,11 @@ msgstr "이벤트"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Sound file"
-msgstr "사운드 파일"
+msgstr "소리 파일"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No sound"
-msgstr "사운드 없음"
+msgstr "소리 없음"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads added"
@@ -1458,7 +1481,7 @@ msgstr "낮음"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
-msgstr ""
+msgstr "파일 이름 바꾸기"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
@@ -1991,11 +2014,11 @@ msgstr "언어"
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
-msgstr ""
+msgstr "언어가 나열되지 않았거나 번역이 완료되지 않았나요?"
 
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
-msgstr ""
+msgstr "비너스 걸!"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -2259,11 +2282,11 @@ msgstr "지원 연락처"
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
-msgstr ""
+msgstr "원격 %1에서 연결 끊기"
 
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "원격 %1에 연결"
 
 msgctxt "LeftDrawer|"
 msgid "About"
@@ -2330,6 +2353,10 @@ msgid "Completed"
 msgstr "완료"
 
 msgctxt "MainFiltersBar|"
+msgid "Uncompleted"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
 msgstr "태그를 제거하시겠습니까?"
 
@@ -2391,11 +2418,11 @@ msgstr "시스템 종료"
 
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
-msgstr ""
+msgstr "원격 %1에서 연결 끊기"
 
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "원격 %1에 연결"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2932,7 +2959,7 @@ msgstr "취소"
 
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
-msgstr ""
+msgstr "%1 추가 기능 파일"
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
@@ -2980,7 +3007,7 @@ msgstr "추가 기능을 업데이트하지 못했습니다"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
-msgstr "경고"
+msgstr "경고!"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
@@ -2988,7 +3015,7 @@ msgstr "%1 추가 기능의 새 버전이 위험한 사용 권한을 요청:"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
-msgstr "%1 추가 기능의 새 버전이 위험한 사용 권한을 요청"
+msgstr "%1 추가 기능의 새 버전이 위험한 사용 권한을 요청:"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Please install add-ons from trusted sources only."
@@ -3529,7 +3556,7 @@ msgstr "지원되지 않는 형식"
 
 msgctxt "QObject|"
 msgid "Not found"
-msgstr ""
+msgstr "찾을 수 없음"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -3681,7 +3708,7 @@ msgstr "%2에서 알 수없는 %1"
 
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
-msgstr "%1 / %2 이( 가)%3 "
+msgstr "%1 / %2 이( 가)%3"
 
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
@@ -3717,7 +3744,7 @@ msgstr "%1이( 가) 필요"
 
 msgctxt "QObject|"
 msgid "Failed to load"
-msgstr "로드 실패"
+msgstr "불러오기 실패"
 
 msgctxt "QObject|"
 msgid "Playlist"
@@ -3733,11 +3760,11 @@ msgstr "읽기 및 쓰기를 위해 gzip을 여는 것은 지원되지 않습니
 
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr "gzip은 읽기 또는 쓰기용으로 열 수 있습니다. - 어떤 것이죠?"
+msgstr "읽기 또는 쓰기를 위해 gzip을 열 수 있습니다. 무엇입니까?"
 
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr "gzopen() 파일을 열 수 없습니다"
+msgstr "파일 gzopen ()을 사용할 수 없습니다"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
@@ -3765,19 +3792,19 @@ msgstr "취소"
 
 msgctxt "RemoteControlSettings|"
 msgid "Remote Access"
-msgstr ""
+msgstr "원격 접근"
 
 msgctxt "RemoteControlSettings|"
 msgid "(beta)"
-msgstr ""
+msgstr "(베타)"
 
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
-msgstr ""
+msgstr "이 장치에서 실행 중인 %1에 대한 원격 접근 허용"
 
 msgctxt "RemoteControlSettings|"
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 msgctxt "RemoteControlSettings|"
 msgid "Password"
@@ -3805,15 +3832,15 @@ msgstr "취소"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Rename file"
-msgstr ""
+msgstr "파일 이름 바꾸기"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Enter new name"
-msgstr ""
+msgstr "새 이름 입력"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "A file with that name already exists."
-msgstr ""
+msgstr "같은 이름의 파일이 이미 있습니다."
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Cancel"
@@ -3825,7 +3852,7 @@ msgstr "확인"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "Rename file"
-msgstr ""
+msgstr "파일 이름 바꾸기"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "OK"
@@ -3833,11 +3860,11 @@ msgstr "확인"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "Enter new name"
-msgstr ""
+msgstr "새 이름 입력"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "A file with that name already exists."
-msgstr ""
+msgstr "같은 이름의 파일이 이미 있습니다."
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -4057,7 +4084,7 @@ msgstr "바이러스 백신"
 
 msgctxt "SettingsPage|"
 msgid "Remote Access"
-msgstr ""
+msgstr "원격 접근"
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
@@ -4092,8 +4119,8 @@ msgid "Go back to default settings"
 msgstr "기본 설정으로 돌아가기"
 
 msgctxt "SettingsPage|"
-msgid "Reset"
-msgstr "재설ㅈ"
+msgid "Reset settings"
+msgstr "설정 재설정"
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
@@ -4289,7 +4316,7 @@ msgstr "어두운 테마"
 
 msgctxt "Toast|"
 msgid "Please grant camera permission to use the QR scanner"
-msgstr ""
+msgstr "QR 스캐너를 사용하려면 카메라 사용 권한을 부여하십시오"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4553,11 +4580,11 @@ msgstr "우리 함께 더 좋게 만들어요! 우리에게 피드백을 주세�
 
 msgctxt "WaitingPage|"
 msgid "Loading"
-msgstr ""
+msgstr "불러오는 중"
 
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
-msgstr ""
+msgstr "%1에 연결"
 
 msgctxt "WaitingPage|"
 msgid "Error: %1"
@@ -4597,4 +4624,4 @@ msgstr "보고서가 전송되었습니다. 협조해 주셔서 감사합니다!
 
 msgctxt "main|"
 msgid "Remote connection to %1"
-msgstr ""
+msgstr "%1에 원격 연결"

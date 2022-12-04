@@ -146,10 +146,6 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "Indicar download e upload ativos usando o ícone da bandeja"
 
 msgctxt "AdvancedSettings|"
-msgid "Restore hidden state when finished adding new downloads"
-msgstr "Restaurar o estado oculto quando terminar de adicionar novos downloads"
-
-msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "Voltar para as configurações padrão"
 
@@ -203,6 +199,22 @@ msgstr "Habilitar ordem de downloads definida pelo usuário"
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
 msgstr "Exibir botão \"Salvar como...\""
+
+msgctxt "AdvancedSettings|"
+msgid "Enable standalone create new downloads windows"
+msgstr "Habilitar janelas independente em novos downloads"
+
+msgctxt "AdvancedSettings|"
+msgid "Overall zoom"
+msgstr "Zoom geral"
+
+msgctxt "AdvancedSettings|"
+msgid "Fonts zoom"
+msgstr "Zoom de fontes"
+
+msgctxt "AdvancedSettings|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr "<a href='#'>Reiniciar é necessário</a>"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -304,7 +316,7 @@ msgstr "Convertendo arquivos para mp4 (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
-msgstr ""
+msgstr "Renomeando arquivos (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
@@ -324,7 +336,7 @@ msgstr "Autenticação necessária"
 
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
-msgstr ""
+msgstr "%1 requer autenticação"
 
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
@@ -441,6 +453,10 @@ msgstr "3 horas"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 dia"
+
+msgctxt "BaseStringListArea|"
+msgid "Please enter one item per line"
+msgstr ""
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
@@ -696,6 +712,13 @@ msgstr "Avançado"
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
+msgstr "Porta personalizada:"
+
+msgctxt "BtSettings|"
+msgid ""
+"The use of additional trackers can improve download speed in some cases. "
+"Lists of such trackers can be retrieved from different sources, e.g. from <a "
+"href='https://github.com/ngosang/trackerslist'>here</a>."
 msgstr ""
 
 msgctxt "BtStrings|"
@@ -844,23 +867,23 @@ msgstr "Iniciar download"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "Conectar ao %1 remoto"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
-msgstr ""
+msgstr "(beta)"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
-msgstr ""
+msgstr "Aqui você pode se conectar ao %1 em execução em outro dispositivo."
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
-msgstr ""
+msgstr "Conectar automaticamente ao inicializar"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
-msgstr ""
+msgstr "Conectar automaticamente ao inicializar o %1"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Cancel"
@@ -873,10 +896,11 @@ msgstr "OK"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
+"Aqui você pode se conectar ao %1 em execução no seu PC Windows/macOS/Linux"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr ""
+msgstr "Insira o ID ou <a href='#'>digitalize o código QR</a>"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -940,11 +964,11 @@ msgstr "Você tem certeza que quer sair?"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Starting..."
-msgstr ""
+msgstr "Iniciando..."
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
-msgstr ""
+msgstr "Falha ao iniciar."
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
@@ -1476,7 +1500,7 @@ msgstr "Baixo"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
-msgstr ""
+msgstr "Renomear arquivo"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
@@ -2280,11 +2304,11 @@ msgstr "Contatar suporte"
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
-msgstr ""
+msgstr "Desconectar do %1 remoto"
 
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "Conectar ao %1 remoto"
 
 msgctxt "LeftDrawer|"
 msgid "About"
@@ -2351,6 +2375,10 @@ msgid "Completed"
 msgstr "Concluído"
 
 msgctxt "MainFiltersBar|"
+msgid "Uncompleted"
+msgstr ""
+
+msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
 msgstr "OK para remover a tag?"
 
@@ -2412,11 +2440,11 @@ msgstr "Desligar"
 
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
-msgstr ""
+msgstr "Desconectar do %1 remoto"
 
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "Conectar ao %1 remoto"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2956,7 +2984,7 @@ msgstr "Cancelar"
 
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
-msgstr ""
+msgstr "%1 arquivos de complemento"
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
@@ -3518,7 +3546,7 @@ msgstr "Formato não suportado"
 
 msgctxt "QObject|"
 msgid "Not found"
-msgstr ""
+msgstr "Não encontrado"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -3791,19 +3819,19 @@ msgstr "Cancelar"
 
 msgctxt "RemoteControlSettings|"
 msgid "Remote Access"
-msgstr ""
+msgstr "Acesso Remoto"
 
 msgctxt "RemoteControlSettings|"
 msgid "(beta)"
-msgstr ""
+msgstr "(beta)"
 
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
-msgstr ""
+msgstr "Permitir acesso remoto ao %1 em execução neste dispositivo"
 
 msgctxt "RemoteControlSettings|"
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 msgctxt "RemoteControlSettings|"
 msgid "Password"
@@ -3831,15 +3859,15 @@ msgstr "Cancelar"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Rename file"
-msgstr ""
+msgstr "Renomear arquivo"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Enter new name"
-msgstr ""
+msgstr "Digite o novo nome"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "A file with that name already exists."
-msgstr ""
+msgstr "Um arquivo com este nome já existe."
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Cancel"
@@ -3851,7 +3879,7 @@ msgstr "OK"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "Rename file"
-msgstr ""
+msgstr "Renomear arquivo"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "OK"
@@ -3859,11 +3887,11 @@ msgstr "OK"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "Enter new name"
-msgstr ""
+msgstr "Digite o novo nome"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "A file with that name already exists."
-msgstr ""
+msgstr "Um arquivo com este nome já existe."
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -4083,7 +4111,7 @@ msgstr "Antivírus"
 
 msgctxt "SettingsPage|"
 msgid "Remote Access"
-msgstr ""
+msgstr "Acesso Remoto"
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
@@ -4118,8 +4146,8 @@ msgid "Go back to default settings"
 msgstr "Voltar para as configurações padrão"
 
 msgctxt "SettingsPage|"
-msgid "Reset"
-msgstr "Redefinir"
+msgid "Reset settings"
+msgstr "Redefinir as configurações"
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
@@ -4317,7 +4345,7 @@ msgstr "Escuro"
 
 msgctxt "Toast|"
 msgid "Please grant camera permission to use the QR scanner"
-msgstr ""
+msgstr "Por favor, dê permissão de acesso à câmera para usar o leitor QR"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4581,11 +4609,11 @@ msgstr "Vamos melhorar as coisas juntos! Dê sua opinião."
 
 msgctxt "WaitingPage|"
 msgid "Loading"
-msgstr ""
+msgstr "Carregando"
 
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
-msgstr ""
+msgstr "Conexão a %1"
 
 msgctxt "WaitingPage|"
 msgid "Error: %1"
@@ -4625,4 +4653,4 @@ msgstr "O relatório foi enviado. Obrigado por sua cooperação!"
 
 msgctxt "main|"
 msgid "Remote connection to %1"
-msgstr ""
+msgstr "Conexão remota para %1"
