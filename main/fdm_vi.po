@@ -21,6 +21,10 @@ msgid "Build date: %1"
 msgstr ""
 
 msgctxt "AboutDialog|"
+msgid "© %1, %2-%3"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "phiên bản %1"
 
@@ -147,6 +151,30 @@ msgid "Indicate active download and upload using tray icon"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
+msgid "Automation"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Launch external application on download completion"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Path:"
+msgstr "Đường dẫn:"
+
+msgctxt "AdvancedSettings|"
+msgid "Please enter application's path"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments:"
+msgstr "Biến:"
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments must contain %path% variable"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr ""
 
@@ -209,10 +237,6 @@ msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
-msgstr ""
-
-msgctxt "AdvancedSettings|"
-msgid "<a href='#'>Restart is required</a>"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
@@ -696,8 +720,32 @@ msgid "Start downloading without confirmation"
 msgstr "Bắt đầu tải xuống mà không cần xác nhận"
 
 msgctxt "BtSettings|"
+msgid "Privacy"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Encryption:"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "No encryption allowed"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Prefer encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Require encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "Nâng cao"
+
+msgctxt "BtSettings|"
+msgid "Current port: %1"
+msgstr ""
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
@@ -864,6 +912,10 @@ msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "ID:"
 msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
@@ -1206,6 +1258,18 @@ msgid "Close"
 msgstr "Đóng"
 
 msgctxt "DownloadWindow|"
+msgid "[%1%] - %2"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Web page:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Resource URL:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr ""
 
@@ -1231,6 +1295,10 @@ msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "%1% [%2]"
 msgstr ""
 
 msgctxt "DownloadWindow|"
@@ -1358,8 +1426,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Tự động xoá các mục tải xuống thành công khỏi danh sách tải xuống"
 
 msgctxt "DownloadsSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "Tự động tải lại các mục tải xuống thất bại"
+
+msgctxt "DownloadsSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1544,6 +1628,10 @@ msgstr "Chuyển đổi thành tệp mp4"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
 msgstr "Quét virus"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Abort"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
@@ -2077,8 +2165,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Tự động xoá các mục tải xuống thành công khỏi danh sách tải xuống"
 
 msgctxt "GeneralSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "Tự động tải lại các mục tải xuống thất bại"
+
+msgctxt "GeneralSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -3106,6 +3210,13 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "Hủy"
 
+msgctxt ""
+"QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
+"languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
+"to get proper UI layout."
+msgid "QT_LAYOUT_DIRECTION"
+msgstr ""
+
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "Lỗi không mong muốn"
@@ -3214,6 +3325,42 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "%1 T"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 B/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 K/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 M/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 G/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T/s"
 msgstr ""
 
 msgctxt "QObject|"
@@ -3517,6 +3664,10 @@ msgid "Not found"
 msgstr ""
 
 msgctxt "QObject|"
+msgid "Incompatible version"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr ""
 
@@ -3570,6 +3721,14 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Error processing page content"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Unwanted behavior"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Unwanted behavior detected"
 msgstr ""
 
 msgctxt "QObject|"
@@ -3873,6 +4032,10 @@ msgctxt "ReportSentDialog|"
 msgid "OK"
 msgstr "Đồng ý"
 
+msgctxt "RestartRequiredLabel|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr ""
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "Lưu ở"
@@ -4000,14 +4163,6 @@ msgstr ""
 msgctxt "SearchField|"
 msgid "Search"
 msgstr "Tìm kiếm"
-
-msgctxt "SearchPage|"
-msgid "Search"
-msgstr "Tìm kiếm"
-
-msgctxt "SearchPage|"
-msgid "No results found for"
-msgstr "Không tìm thấy kết quả nào cho"
 
 msgctxt "SearchToolbar|"
 msgid "Search"

@@ -21,6 +21,10 @@ msgid "Build date: %1"
 msgstr "Дата сборки: %1"
 
 msgctxt "AboutDialog|"
+msgid "© %1, %2-%3"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "версия %1"
 
@@ -145,6 +149,30 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "Показывать активность загрузки с помощью значка в трее"
 
 msgctxt "AdvancedSettings|"
+msgid "Automation"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Launch external application on download completion"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Path:"
+msgstr "Путь:"
+
+msgctxt "AdvancedSettings|"
+msgid "Please enter application's path"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments:"
+msgstr "Аргументы:"
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments must contain %path% variable"
+msgstr "Аргументы должны содержать переменную %path%"
+
+msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "Восстановление настроек по умолчанию"
 
@@ -209,10 +237,6 @@ msgstr "Общий масштаб"
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
 msgstr "Масштаб шрифтов"
-
-msgctxt "AdvancedSettings|"
-msgid "<a href='#'>Restart is required</a>"
-msgstr "<a href='#'>Требуется перезапуск</a>"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -703,8 +727,32 @@ msgid "Start downloading without confirmation"
 msgstr "Загружать файлы без подтверждения"
 
 msgctxt "BtSettings|"
+msgid "Privacy"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Encryption:"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "No encryption allowed"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Prefer encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Require encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "Дополнительные настройки"
+
+msgctxt "BtSettings|"
+msgid "Current port: %1"
+msgstr ""
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
@@ -875,6 +923,10 @@ msgstr "(бета-версия)"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
 msgstr "Здесь вы можете подключиться к %1, запущенному на другом устройстве."
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "ID:"
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
@@ -1202,8 +1254,8 @@ msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Can't resume download. Download link likely expired. Resume attempts failed."
 msgstr ""
-"Невозможно продолжить загрузку. Возможно, ссылка истекла. Попытки возобновления "
-"не удались."
+"Невозможно продолжить загрузку. Возможно, ссылка истекла. Попытки "
+"возобновления не удались."
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Please try to update the download link to resume."
@@ -1227,6 +1279,18 @@ msgstr "Обновить загрузку"
 msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Закрыть"
+
+msgctxt "DownloadWindow|"
+msgid "[%1%] - %2"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Web page:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Resource URL:"
+msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
@@ -1255,6 +1319,10 @@ msgstr "Неизвестно"
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "Загружено"
+
+msgctxt "DownloadWindow|"
+msgid "%1% [%2]"
+msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -1381,8 +1449,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Автоматически удалять завершённые загрузки из списка загрузок"
 
 msgctxt "DownloadsSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "Автоматически перезапускать неудавшиеся загрузки"
+
+msgctxt "DownloadsSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1567,6 +1651,10 @@ msgstr "Конвертировать в mp4"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
 msgstr "Проверить на вирусы"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Abort"
+msgstr "Прервать"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
@@ -2099,8 +2187,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Автоматически удалять завершённые загрузки из списка загрузок"
 
 msgctxt "GeneralSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "Автоматически перезапускать неудавшиеся загрузки"
+
+msgctxt "GeneralSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -3136,6 +3240,13 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "Отменить"
 
+msgctxt ""
+"QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
+"languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
+"to get proper UI layout."
+msgid "QT_LAYOUT_DIRECTION"
+msgstr ""
+
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "Непредвиденная ошибка"
@@ -3247,6 +3358,42 @@ msgstr "%1 Г"
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 Т"
+
+msgctxt "QObject|"
+msgid "%1 B/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 K/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 M/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 G/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T/s"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3549,6 +3696,10 @@ msgid "Not found"
 msgstr "Не найдено"
 
 msgctxt "QObject|"
+msgid "Incompatible version"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "Хост не найден"
 
@@ -3603,6 +3754,14 @@ msgstr "Не удалось обработать страницу"
 msgctxt "QObject|"
 msgid "Error processing page content"
 msgstr "Ошибка обработки содержимого страницы"
+
+msgctxt "QObject|"
+msgid "Unwanted behavior"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Unwanted behavior detected"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -3908,6 +4067,10 @@ msgctxt "ReportSentDialog|"
 msgid "OK"
 msgstr "ОК"
 
+msgctxt "RestartRequiredLabel|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr "<a href='#'>Требуется перезапуск</a>"
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "Сохранить в"
@@ -4035,14 +4198,6 @@ msgstr "Укажите дни недели, чтобы включить план
 msgctxt "SearchField|"
 msgid "Search"
 msgstr "Поиск"
-
-msgctxt "SearchPage|"
-msgid "Search"
-msgstr "Поиск"
-
-msgctxt "SearchPage|"
-msgid "No results found for"
-msgstr "Не найдено результатов по запросу"
 
 msgctxt "SearchToolbar|"
 msgid "Search"

@@ -21,6 +21,10 @@ msgid "Build date: %1"
 msgstr "Build dátum: %1"
 
 msgctxt "AboutDialog|"
+msgid "© %1, %2-%3"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "verzió %1"
 
@@ -144,6 +148,30 @@ msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Nyissa meg/rejtse el az alsó panelt letöltésre kattintva"
 
 msgctxt "AdvancedSettings|"
+msgid "Automation"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Launch external application on download completion"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Path:"
+msgstr "Elérési út:"
+
+msgctxt "AdvancedSettings|"
+msgid "Please enter application's path"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments:"
+msgstr "Argumentumok:"
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments must contain %path% variable"
+msgstr "Az argumentumoknak tartalmazniuk kell a %path% változót"
+
+msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr ""
 
@@ -214,10 +242,6 @@ msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
-msgstr ""
-
-msgctxt "AdvancedSettings|"
-msgid "<a href='#'>Restart is required</a>"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
@@ -710,8 +734,32 @@ msgid "Start downloading without confirmation"
 msgstr "Letöltés elkezdése megerősítés nélkül"
 
 msgctxt "BtSettings|"
+msgid "Privacy"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Encryption:"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "No encryption allowed"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Prefer encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Require encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "Haladó"
+
+msgctxt "BtSettings|"
+msgid "Current port: %1"
+msgstr ""
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
@@ -878,6 +926,10 @@ msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "ID:"
 msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
@@ -1227,6 +1279,18 @@ msgid "Close"
 msgstr "Bezárás"
 
 msgctxt "DownloadWindow|"
+msgid "[%1%] - %2"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Web page:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Resource URL:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "Mentve"
 
@@ -1253,6 +1317,10 @@ msgstr "Ismeretlen"
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "Letöltve"
+
+msgctxt "DownloadWindow|"
+msgid "%1% [%2]"
+msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -1379,8 +1447,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "A befejezett letöltések automatikus eltávolítása a letöltési listáról"
 
 msgctxt "DownloadsSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "Próbálja meg újra a sikertelen letöltéseket"
+
+msgctxt "DownloadsSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1565,6 +1649,10 @@ msgstr "Konvertálás mp4-re"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
 msgstr "Vírusellenőrzés elvégzése"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Abort"
+msgstr "Megszakítás"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
@@ -2098,8 +2186,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "A befejezett letöltések automatikus eltávolítása a letöltési listáról"
 
 msgctxt "GeneralSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "Próbálja meg újra a sikertelen letöltéseket"
+
+msgctxt "GeneralSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -3131,6 +3235,13 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "Mégse"
 
+msgctxt ""
+"QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
+"languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
+"to get proper UI layout."
+msgid "QT_LAYOUT_DIRECTION"
+msgstr ""
+
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "Váratlan hiba"
@@ -3242,6 +3353,42 @@ msgstr "%1 G"
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 T"
+
+msgctxt "QObject|"
+msgid "%1 B/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 K/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 M/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 G/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T/s"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3544,6 +3691,10 @@ msgid "Not found"
 msgstr ""
 
 msgctxt "QObject|"
+msgid "Incompatible version"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "A gazdagép nem található"
 
@@ -3598,6 +3749,14 @@ msgstr "Nem lehet feldolgozni az oldalt"
 msgctxt "QObject|"
 msgid "Error processing page content"
 msgstr "Hiba történt az oldal tartalmának feldolgozása során"
+
+msgctxt "QObject|"
+msgid "Unwanted behavior"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Unwanted behavior detected"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -3904,6 +4063,10 @@ msgctxt "ReportSentDialog|"
 msgid "OK"
 msgstr "OK"
 
+msgctxt "RestartRequiredLabel|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr ""
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "Mentés ide"
@@ -4031,14 +4194,6 @@ msgstr "A hét napjainak beállítása az Ütemezés engedélyezéséhez"
 msgctxt "SearchField|"
 msgid "Search"
 msgstr "Keresés"
-
-msgctxt "SearchPage|"
-msgid "Search"
-msgstr "Keresés"
-
-msgctxt "SearchPage|"
-msgid "No results found for"
-msgstr "Nincs találat a következőre"
 
 msgctxt "SearchToolbar|"
 msgid "Search"
