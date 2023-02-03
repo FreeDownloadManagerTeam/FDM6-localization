@@ -21,6 +21,10 @@ msgid "Build date: %1"
 msgstr ""
 
 msgctxt "AboutDialog|"
+msgid "© %1, %2-%3"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "έκδοση %1"
 
@@ -145,6 +149,30 @@ msgid "Indicate active download and upload using tray icon"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
+msgid "Automation"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Launch external application on download completion"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Path:"
+msgstr "Διαδρομή:"
+
+msgctxt "AdvancedSettings|"
+msgid "Please enter application's path"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments:"
+msgstr "Παράμετροι:"
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments must contain %path% variable"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr ""
 
@@ -207,10 +235,6 @@ msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
-msgstr ""
-
-msgctxt "AdvancedSettings|"
-msgid "<a href='#'>Restart is required</a>"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
@@ -692,8 +716,32 @@ msgid "Start downloading without confirmation"
 msgstr "Ξεκινήσει η λήψη χωρίς επιβεβαίωση"
 
 msgctxt "BtSettings|"
+msgid "Privacy"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Encryption:"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "No encryption allowed"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Prefer encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Require encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "Για προχωρημένους"
+
+msgctxt "BtSettings|"
+msgid "Current port: %1"
+msgstr ""
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
@@ -860,6 +908,10 @@ msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "ID:"
 msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
@@ -1202,6 +1254,18 @@ msgid "Close"
 msgstr "Κλείσιμο"
 
 msgctxt "DownloadWindow|"
+msgid "[%1%] - %2"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Web page:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Resource URL:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr ""
 
@@ -1227,6 +1291,10 @@ msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "%1% [%2]"
 msgstr ""
 
 msgctxt "DownloadWindow|"
@@ -1354,7 +1422,23 @@ msgid "Automatically remove completed downloads from download list"
 msgstr ""
 
 msgctxt "DownloadsSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "Detect unwanted behavior errors"
 msgstr ""
 
 msgctxt "DownloadsSettings|"
@@ -1539,6 +1623,10 @@ msgstr "Μετατροπή σε mp4"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
+msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Abort"
 msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
@@ -2071,7 +2159,23 @@ msgid "Automatically remove completed downloads from download list"
 msgstr ""
 
 msgctxt "GeneralSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Detect unwanted behavior errors"
 msgstr ""
 
 msgctxt "GeneralSettings|"
@@ -3101,6 +3205,13 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "Άκυρο"
 
+msgctxt ""
+"QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
+"languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
+"to get proper UI layout."
+msgid "QT_LAYOUT_DIRECTION"
+msgstr ""
+
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "Μη αναμενόμενο σφάλμα"
@@ -3211,6 +3322,42 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "%1 T"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 B/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 K/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 M/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 G/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T/s"
 msgstr ""
 
 msgctxt "QObject|"
@@ -3514,6 +3661,10 @@ msgid "Not found"
 msgstr ""
 
 msgctxt "QObject|"
+msgid "Incompatible version"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr ""
 
@@ -3567,6 +3718,14 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Error processing page content"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Unwanted behavior"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Unwanted behavior detected"
 msgstr ""
 
 msgctxt "QObject|"
@@ -3870,6 +4029,10 @@ msgctxt "ReportSentDialog|"
 msgid "OK"
 msgstr "OK"
 
+msgctxt "RestartRequiredLabel|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr ""
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "Αποθήκευση σε"
@@ -3997,14 +4160,6 @@ msgstr "Ορίστε ημέρες της εβδομάδας για να ενερ
 msgctxt "SearchField|"
 msgid "Search"
 msgstr "Αναζήτηση"
-
-msgctxt "SearchPage|"
-msgid "Search"
-msgstr "Αναζήτηση"
-
-msgctxt "SearchPage|"
-msgid "No results found for"
-msgstr "Δεν βρέθηκαν αποτελέσματα για"
 
 msgctxt "SearchToolbar|"
 msgid "Search"

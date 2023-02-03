@@ -21,6 +21,10 @@ msgid "Build date: %1"
 msgstr "निर्माण की तारीख: %1"
 
 msgctxt "AboutDialog|"
+msgid "© %1, %2-%3"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "संस्करण %1"
 
@@ -146,6 +150,30 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "ट्रे आइकन का उपयोग करके सक्रिय डाउनलोड और अपलोड इंगित करें"
 
 msgctxt "AdvancedSettings|"
+msgid "Automation"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Launch external application on download completion"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Path:"
+msgstr "रास्ता:"
+
+msgctxt "AdvancedSettings|"
+msgid "Please enter application's path"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments:"
+msgstr "तर्क:"
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments must contain %path% variable"
+msgstr "तर्कों में %path% चर होना चाहिए"
+
+msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "डिफ़ॉल्ट सेटिंग्स पर वापस जाएँ"
 
@@ -210,10 +238,6 @@ msgstr "कुल मिलाकर ज़ूम"
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
 msgstr "फ़ॉन्ट ज़ूम"
-
-msgctxt "AdvancedSettings|"
-msgid "<a href='#'>Restart is required</a>"
-msgstr "<a href='#'>पुनरारंभ करना आवश्यक है</a>"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -706,8 +730,32 @@ msgid "Start downloading without confirmation"
 msgstr "बिना पुष्टि के डाउनलोड करना शुरू करें"
 
 msgctxt "BtSettings|"
+msgid "Privacy"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Encryption:"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "No encryption allowed"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Prefer encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Require encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "एडवांस"
+
+msgctxt "BtSettings|"
+msgid "Current port: %1"
+msgstr ""
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
@@ -875,6 +923,10 @@ msgstr "(बीटा)"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
 msgstr "यहां आप दूसरे डिवाइस पर चल रहे %1 से कनेक्ट कर सकते हैं।"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "ID:"
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
@@ -1225,6 +1277,18 @@ msgid "Close"
 msgstr "बंद करें"
 
 msgctxt "DownloadWindow|"
+msgid "[%1%] - %2"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Web page:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Resource URL:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "में सहेजा गया"
 
@@ -1251,6 +1315,10 @@ msgstr "अनजान"
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "डाउनलोड"
+
+msgctxt "DownloadWindow|"
+msgid "%1% [%2]"
+msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -1377,8 +1445,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "डाउनलोड सूची से पूर्ण डाउनलोड को स्वचालित रूप से हटा दें"
 
 msgctxt "DownloadsSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "स्वचालित रूप से विफल डाउनलोड का पुन: प्रयास करें"
+
+msgctxt "DownloadsSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1563,6 +1647,10 @@ msgstr "mp4 में बदलें"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
 msgstr "वायरस की जांच करें"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Abort"
+msgstr "बीच में बंद करें"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
@@ -2094,8 +2182,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "डाउनलोड सूची से पूर्ण डाउनलोड को स्वचालित रूप से हटा दें"
 
 msgctxt "GeneralSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "स्वचालित रूप से विफल डाउनलोड का पुन: प्रयास करें"
+
+msgctxt "GeneralSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -3130,6 +3234,13 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "रद्द करें"
 
+msgctxt ""
+"QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
+"languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
+"to get proper UI layout."
+msgid "QT_LAYOUT_DIRECTION"
+msgstr ""
+
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "अप्रत्याशित त्रुटि"
@@ -3241,6 +3352,42 @@ msgstr "%1 G"
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 T"
+
+msgctxt "QObject|"
+msgid "%1 B/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 K/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 M/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 G/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T/s"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3543,6 +3690,10 @@ msgid "Not found"
 msgstr "नहीं मिला"
 
 msgctxt "QObject|"
+msgid "Incompatible version"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "मेज़बान नहीं मिला"
 
@@ -3597,6 +3748,14 @@ msgstr "पृष्ठ संसाधित नहीं कर सकता"
 msgctxt "QObject|"
 msgid "Error processing page content"
 msgstr "पृष्ठ सामग्री संसाधित करने में त्रुटि"
+
+msgctxt "QObject|"
+msgid "Unwanted behavior"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Unwanted behavior detected"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -3904,6 +4063,10 @@ msgctxt "ReportSentDialog|"
 msgid "OK"
 msgstr "ठीक है"
 
+msgctxt "RestartRequiredLabel|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr "<a href='#'>पुनरारंभ करना आवश्यक है</a>"
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "को बचाए"
@@ -4031,14 +4194,6 @@ msgstr "शेड्यूलर को सक्षम करने के ल�
 msgctxt "SearchField|"
 msgid "Search"
 msgstr "खोजें"
-
-msgctxt "SearchPage|"
-msgid "Search"
-msgstr "खोजें"
-
-msgctxt "SearchPage|"
-msgid "No results found for"
-msgstr "के लिए कोई परिणाम नहीं मिला"
 
 msgctxt "SearchToolbar|"
 msgid "Search"

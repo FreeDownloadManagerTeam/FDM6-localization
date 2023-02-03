@@ -21,6 +21,10 @@ msgid "Build date: %1"
 msgstr "Дата на компилация: %1"
 
 msgctxt "AboutDialog|"
+msgid "© %1, %2-%3"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "версия %1"
 
@@ -145,6 +149,30 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "Показване на активно изтегляне и качване с чрез иконата в трея"
 
 msgctxt "AdvancedSettings|"
+msgid "Automation"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Launch external application on download completion"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Path:"
+msgstr "Път:"
+
+msgctxt "AdvancedSettings|"
+msgid "Please enter application's path"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments:"
+msgstr "Ключове:"
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments must contain %path% variable"
+msgstr "Ключовете трябва да съдържат %path% променлива"
+
+msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "Връщане към настройките по подразбиране"
 
@@ -210,10 +238,6 @@ msgstr "Общо увеличение"
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
 msgstr "Увеличаване на шрифтовете"
-
-msgctxt "AdvancedSettings|"
-msgid "<a href='#'>Restart is required</a>"
-msgstr "<a href='#'>Изисква се рестартиране</a>"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -703,8 +727,32 @@ msgid "Start downloading without confirmation"
 msgstr "Започване на изтегляне без потвърждение"
 
 msgctxt "BtSettings|"
+msgid "Privacy"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Encryption:"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "No encryption allowed"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Prefer encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Require encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "Допълнителни"
+
+msgctxt "BtSettings|"
+msgid "Current port: %1"
+msgstr ""
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
@@ -872,6 +920,10 @@ msgstr "(бета)"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
 msgstr "Тук можете да се свържете с %1 работещ на друго устройство."
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "ID:"
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
@@ -1221,6 +1273,18 @@ msgid "Close"
 msgstr "Затвори"
 
 msgctxt "DownloadWindow|"
+msgid "[%1%] - %2"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Web page:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Resource URL:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "Запазен в"
 
@@ -1247,6 +1311,10 @@ msgstr "Неизвестен"
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "Изтеглен"
+
+msgctxt "DownloadWindow|"
+msgid "%1% [%2]"
+msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -1373,8 +1441,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Автоматично премахни завършените изтегляния от списъка"
 
 msgctxt "DownloadsSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "Автоматичен повторен опит за неуспешни изтегляния"
+
+msgctxt "DownloadsSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1559,6 +1643,10 @@ msgstr "Превърни в mp4"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
 msgstr "Провери за вируси"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Abort"
+msgstr "Относно"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
@@ -2091,8 +2179,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Автоматично премахни завършените изтегляния от списъка"
 
 msgctxt "GeneralSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "Автоматичен повторен опит за неуспешни изтегляния"
+
+msgctxt "GeneralSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -3128,6 +3232,13 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "Отказ"
 
+msgctxt ""
+"QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
+"languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
+"to get proper UI layout."
+msgid "QT_LAYOUT_DIRECTION"
+msgstr ""
+
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "Неочаквана грешка"
@@ -3239,6 +3350,42 @@ msgstr "%1 Г"
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 Т"
+
+msgctxt "QObject|"
+msgid "%1 B/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 K/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 M/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 G/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T/s"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3541,6 +3688,10 @@ msgid "Not found"
 msgstr "Не е открит"
 
 msgctxt "QObject|"
+msgid "Incompatible version"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "Хоста не е намерен"
 
@@ -3595,6 +3746,14 @@ msgstr "Не мога да обработя страницата"
 msgctxt "QObject|"
 msgid "Error processing page content"
 msgstr "Не мога да обработя съдържанието на страницата"
+
+msgctxt "QObject|"
+msgid "Unwanted behavior"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Unwanted behavior detected"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -3903,6 +4062,10 @@ msgctxt "ReportSentDialog|"
 msgid "OK"
 msgstr "OK"
 
+msgctxt "RestartRequiredLabel|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr "<a href='#'>Изисква се рестартиране</a>"
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "Запази в"
@@ -4030,14 +4193,6 @@ msgstr "Задаване на дни от седмицата за включва
 msgctxt "SearchField|"
 msgid "Search"
 msgstr "Търсене"
-
-msgctxt "SearchPage|"
-msgid "Search"
-msgstr "Търсене"
-
-msgctxt "SearchPage|"
-msgid "No results found for"
-msgstr "Няма резултати за"
 
 msgctxt "SearchToolbar|"
 msgid "Search"

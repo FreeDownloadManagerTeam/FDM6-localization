@@ -21,6 +21,10 @@ msgid "Build date: %1"
 msgstr "Дата компіляції: (%1)"
 
 msgctxt "AboutDialog|"
+msgid "© %1, %2-%3"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "версія %1"
 
@@ -145,6 +149,30 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "Показувати активні завантаження і вивантаження через іконку в треї"
 
 msgctxt "AdvancedSettings|"
+msgid "Automation"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Launch external application on download completion"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Path:"
+msgstr "Шлях:"
+
+msgctxt "AdvancedSettings|"
+msgid "Please enter application's path"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments:"
+msgstr "Аргументи:"
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments must contain %path% variable"
+msgstr "Аргументи повинні містити змінну %path%"
+
+msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "Повернутися до налаштувань за замовчуванням"
 
@@ -201,19 +229,15 @@ msgstr "Показувати кнопку \"Зберегти як...\""
 
 msgctxt "AdvancedSettings|"
 msgid "Enable standalone create new downloads windows"
-msgstr ""
+msgstr "Дозволити створення окремих вікон завантаження"
 
 msgctxt "AdvancedSettings|"
 msgid "Overall zoom"
-msgstr ""
+msgstr "Загальне збільшенн"
 
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
-msgstr ""
-
-msgctxt "AdvancedSettings|"
-msgid "<a href='#'>Restart is required</a>"
-msgstr ""
+msgstr "Зібльшення шрифту"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -453,7 +477,7 @@ msgstr "1 день"
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
-msgstr ""
+msgstr "Будь ласка, вводьте по одному  пункту на рядок"
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
@@ -704,8 +728,32 @@ msgid "Start downloading without confirmation"
 msgstr "Почати завантаження без підтвердження"
 
 msgctxt "BtSettings|"
+msgid "Privacy"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Encryption:"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "No encryption allowed"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Prefer encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Require encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "Додатково"
+
+msgctxt "BtSettings|"
+msgid "Current port: %1"
+msgstr ""
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
@@ -717,6 +765,9 @@ msgid ""
 "Lists of such trackers can be retrieved from different sources, e.g. from <a "
 "href='https://github.com/ngosang/trackerslist'>here</a>."
 msgstr ""
+"Використання додаткових трекерів іноді може підвищити швидкість "
+"завантаження. Списки таких текерів можна отримати з різних джерел, наприклад "
+"<a href='https://github.com/ngosang/trackerslist'>тут</a>."
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -872,7 +923,11 @@ msgstr "(бета)"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
-msgstr "Тут ви можете підключитися до  %1 запущеного на іншому пристрої"
+msgstr "Тут ви можете підключитися до  %1 запущеного на іншому пристрої."
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "ID:"
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
@@ -1225,6 +1280,18 @@ msgid "Close"
 msgstr "Закрити"
 
 msgctxt "DownloadWindow|"
+msgid "[%1%] - %2"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Web page:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Resource URL:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "Збережено в"
 
@@ -1251,6 +1318,10 @@ msgstr "Невідомо"
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "Завантажений"
+
+msgctxt "DownloadWindow|"
+msgid "%1% [%2]"
+msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -1377,8 +1448,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Автоматично прибирати завершені завантаження зі списку завантажень"
 
 msgctxt "DownloadsSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "Автоматично перезапускати невдалі завантаження"
+
+msgctxt "DownloadsSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1563,6 +1650,10 @@ msgstr "Конвертувати в mp4"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
 msgstr "Перевірити на віруси"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Abort"
+msgstr "Перервати"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
@@ -2095,8 +2186,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Автоматично прибирати завершені завантаження зі списку завантажень"
 
 msgctxt "GeneralSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "Автоматично перезапускати невдалі завантаження"
+
+msgctxt "GeneralSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -2373,7 +2480,7 @@ msgstr "Завершено"
 
 msgctxt "MainFiltersBar|"
 msgid "Uncompleted"
-msgstr ""
+msgstr "Не завершено"
 
 msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
@@ -3131,6 +3238,13 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "Скасувати"
 
+msgctxt ""
+"QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
+"languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
+"to get proper UI layout."
+msgid "QT_LAYOUT_DIRECTION"
+msgstr ""
+
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "Неочікувана помилка"
@@ -3242,6 +3356,42 @@ msgstr "%1 Г"
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 Т"
+
+msgctxt "QObject|"
+msgid "%1 B/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 K/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 M/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 G/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T/s"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3544,6 +3694,10 @@ msgid "Not found"
 msgstr "Не знайдено"
 
 msgctxt "QObject|"
+msgid "Incompatible version"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "Хост не знайдено"
 
@@ -3598,6 +3752,14 @@ msgstr "Не вдається обробити сторінку"
 msgctxt "QObject|"
 msgid "Error processing page content"
 msgstr "Помилка при оброюці вмісту сторінки"
+
+msgctxt "QObject|"
+msgid "Unwanted behavior"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Unwanted behavior detected"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -3905,6 +4067,10 @@ msgctxt "ReportSentDialog|"
 msgid "OK"
 msgstr "OK"
 
+msgctxt "RestartRequiredLabel|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr "<a href='#'>Потрібен перезапуск</a>"
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "Зберегти до"
@@ -4033,14 +4199,6 @@ msgctxt "SearchField|"
 msgid "Search"
 msgstr "Пошук"
 
-msgctxt "SearchPage|"
-msgid "Search"
-msgstr "Пошук"
-
-msgctxt "SearchPage|"
-msgid "No results found for"
-msgstr "Не знайдено результатів для"
-
 msgctxt "SearchToolbar|"
 msgid "Search"
 msgstr "Пошук"
@@ -4143,7 +4301,7 @@ msgstr "Повернутися до налаштувань за замовчув
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
-msgstr ""
+msgstr "Скинути налаштування"
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
