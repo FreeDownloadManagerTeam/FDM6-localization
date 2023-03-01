@@ -36,14 +36,21 @@ msgctxt "DownloadContextMenu|"
 msgid "Ignore upload ratio limit"
 msgstr "Ignora limite del rapporto di upload"
 
+msgctxt "DownloadContextMenu|"
+msgid "Force reannounce"
+msgstr "Forza riannuncio"
+
+#, qt-format
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
 msgstr "Vuoi impostare %1 come client torrent predefinito?"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
 msgstr "Verifica se %1 è il client torrent predefinito"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
 msgstr "Imposta %1 come client torrent predefinito"
@@ -81,12 +88,28 @@ msgid "Monitor folder for new .torrent files"
 msgstr "Monitora la cartella per nuovi file .torrent"
 
 msgctxt "Settings|"
+msgid "Enable DHT to find more peers"
+msgstr "Abilita DHT per trovare più peer"
+
+msgctxt "Settings|"
+msgid "Enable PeX to find more peers"
+msgstr "Abilita PeX per trovare più peer"
+
+msgctxt "Settings|"
+msgid "Enable Local Peer Discovery to find more peers"
+msgstr "Abilita scoperta di peer locali per trovare più peer"
+
+msgctxt "Settings|"
+msgid "Enable uTP"
+msgstr "Abilita uTP"
+
+msgctxt "Settings|"
 msgid "Use system defined port for incoming connections"
 msgstr "Usa la porta definita dal sistema per le connessioni in ingresso"
 
 msgctxt "Settings|"
 msgid "Enable list of predefined trackers"
-msgstr ""
+msgstr "Abilita l'elenco dei tracker predefiniti"
 
 msgctxt "Settings|"
 msgid "BitTorrent settings"

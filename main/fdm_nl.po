@@ -21,6 +21,10 @@ msgid "Build date: %1"
 msgstr ""
 
 msgctxt "AboutDialog|"
+msgid "© %1, %2-%3"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "versie %1"
 
@@ -145,6 +149,30 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "Gebruik taakbalkpictogram om actieve downloads/uploads aan te geven "
 
 msgctxt "AdvancedSettings|"
+msgid "Automation"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Launch external application on download completion"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Path:"
+msgstr "Bestandspad:"
+
+msgctxt "AdvancedSettings|"
+msgid "Please enter application's path"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments:"
+msgstr "Argumenten"
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments must contain %path% variable"
+msgstr "Argumenten moeten %path% variable bevatten"
+
+msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "Instellingen terugzetten"
 
@@ -209,10 +237,6 @@ msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
-msgstr ""
-
-msgctxt "AdvancedSettings|"
-msgid "<a href='#'>Restart is required</a>"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
@@ -704,8 +728,32 @@ msgid "Start downloading without confirmation"
 msgstr "Beginnen met het downloaden zonder bevestiging"
 
 msgctxt "BtSettings|"
+msgid "Privacy"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Encryption:"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "No encryption allowed"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Prefer encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Require encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "Geavanceerd"
+
+msgctxt "BtSettings|"
+msgid "Current port: %1"
+msgstr ""
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
@@ -872,6 +920,10 @@ msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "ID:"
 msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
@@ -1224,6 +1276,18 @@ msgid "Close"
 msgstr "Sluiten"
 
 msgctxt "DownloadWindow|"
+msgid "[%1%] - %2"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Web page:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Resource URL:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "Opgeslagen in"
 
@@ -1250,6 +1314,10 @@ msgstr "Onbekend"
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "Gedownload"
+
+msgctxt "DownloadWindow|"
+msgid "%1% [%2]"
+msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -1376,8 +1444,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Verwijder voltooide downloads automatisch uit de downloadlijst"
 
 msgctxt "DownloadsSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "Probeer mislukte downloads automatisch opnieuw"
+
+msgctxt "DownloadsSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1562,6 +1646,10 @@ msgstr ""
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
 msgstr ""
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Abort"
+msgstr "Annuleren"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
@@ -2093,8 +2181,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Verwijder voltooide downloads automatisch uit de downloadlijst"
 
 msgctxt "GeneralSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "Probeer mislukte downloads automatisch opnieuw"
+
+msgctxt "GeneralSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -3123,6 +3227,13 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "Annuleren"
 
+msgctxt ""
+"QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
+"languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
+"to get proper UI layout."
+msgid "QT_LAYOUT_DIRECTION"
+msgstr ""
+
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "Onverwachte fout"
@@ -3231,6 +3342,42 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "%1 T"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 B/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 K/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 M/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 G/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T/s"
 msgstr ""
 
 msgctxt "QObject|"
@@ -3534,6 +3681,10 @@ msgid "Not found"
 msgstr ""
 
 msgctxt "QObject|"
+msgid "Incompatible version"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr ""
 
@@ -3587,6 +3738,14 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Error processing page content"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Unwanted behavior"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Unwanted behavior detected"
 msgstr ""
 
 msgctxt "QObject|"
@@ -3890,6 +4049,10 @@ msgctxt "ReportSentDialog|"
 msgid "OK"
 msgstr "Ok"
 
+msgctxt "RestartRequiredLabel|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr ""
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr ""
@@ -4017,14 +4180,6 @@ msgstr ""
 msgctxt "SearchField|"
 msgid "Search"
 msgstr "Zoeken"
-
-msgctxt "SearchPage|"
-msgid "Search"
-msgstr "Zoeken"
-
-msgctxt "SearchPage|"
-msgid "No results found for"
-msgstr "Geen resultaten gevonden voor"
 
 msgctxt "SearchToolbar|"
 msgid "Search"

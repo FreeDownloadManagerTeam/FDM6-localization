@@ -21,6 +21,10 @@ msgid "Build date: %1"
 msgstr "构建日期：%1"
 
 msgctxt "AboutDialog|"
+msgid "© %1, %2-%3"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "版本 %1"
 
@@ -145,6 +149,30 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "在托盘图标中显示活动下载和上传速度"
 
 msgctxt "AdvancedSettings|"
+msgid "Automation"
+msgstr "自动化"
+
+msgctxt "AdvancedSettings|"
+msgid "Launch external application on download completion"
+msgstr "下载完成时启动外部程序"
+
+msgctxt "AdvancedSettings|"
+msgid "Path:"
+msgstr "路径:"
+
+msgctxt "AdvancedSettings|"
+msgid "Please enter application's path"
+msgstr "请输入程序路径"
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments:"
+msgstr "额外参数:"
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments must contain %path% variable"
+msgstr "额外参数必须包含 %path% 字段"
+
+msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "返回默认设置"
 
@@ -208,10 +236,6 @@ msgstr "整体缩放"
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
 msgstr "字体缩放"
-
-msgctxt "AdvancedSettings|"
-msgid "<a href='#'>Restart is required</a>"
-msgstr "<a href='#'>需要重启</a>"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -451,7 +475,7 @@ msgstr "1 天"
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
-msgstr ""
+msgstr "请每行输入一个条目"
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
@@ -698,8 +722,32 @@ msgid "Start downloading without confirmation"
 msgstr "无需确认就启动下载"
 
 msgctxt "BtSettings|"
+msgid "Privacy"
+msgstr "隐私"
+
+msgctxt "BtSettings|"
+msgid "Encryption:"
+msgstr "加密："
+
+msgctxt "BtSettings|"
+msgid "No encryption allowed"
+msgstr "不允许加密"
+
+msgctxt "BtSettings|"
+msgid "Prefer encryption"
+msgstr "优先加密"
+
+msgctxt "BtSettings|"
+msgid "Require encryption"
+msgstr "需要加密"
+
+msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "高级"
+
+msgctxt "BtSettings|"
+msgid "Current port: %1"
+msgstr "当前端口：%1"
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
@@ -711,6 +759,8 @@ msgid ""
 "Lists of such trackers can be retrieved from different sources, e.g. from <a "
 "href='https://github.com/ngosang/trackerslist'>here</a>."
 msgstr ""
+"使用额外的tracker在某些场合可以提升下载速度。这样的tracker清单可从不同来源获取，例如从<a "
+"href='https://github.com/ngosang/trackerslist'>这里</a>。"
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -867,6 +917,10 @@ msgstr "(试验)"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
 msgstr "您可在此连接到其他设备上运行的 %1."
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "ID:"
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
@@ -1208,6 +1262,18 @@ msgid "Close"
 msgstr "关闭"
 
 msgctxt "DownloadWindow|"
+msgid "[%1%] - %2"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Web page:"
+msgstr "网页："
+
+msgctxt "DownloadWindow|"
+msgid "Resource URL:"
+msgstr "资源URL："
+
+msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "保存于"
 
@@ -1234,6 +1300,10 @@ msgstr "未知"
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "已下载"
+
+msgctxt "DownloadWindow|"
+msgid "%1% [%2]"
+msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -1360,8 +1430,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "自动移除下载列表中已完成的下载"
 
 msgctxt "DownloadsSettings|"
+msgid "Immediately"
+msgstr "立刻"
+
+msgctxt "DownloadsSettings|"
+msgid "In"
+msgstr "经过"
+
+msgctxt "DownloadsSettings|"
+msgid "days"
+msgstr "天"
+
+msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "下载失败时自动重试"
+
+msgctxt "DownloadsSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr "检查非预期的行为错误"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1546,6 +1632,10 @@ msgstr "转换为 mp4"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
 msgstr "执行病毒检测"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Abort"
+msgstr "中止"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
@@ -2077,8 +2167,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "自动移除下载列表中已完成的下载"
 
 msgctxt "GeneralSettings|"
+msgid "Immediately"
+msgstr "立即"
+
+msgctxt "GeneralSettings|"
+msgid "In"
+msgstr "经过"
+
+msgctxt "GeneralSettings|"
+msgid "days"
+msgstr "天"
+
+msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "下载失败时自动重试"
+
+msgctxt "GeneralSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr "检查非预期的行为错误"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -3108,6 +3214,13 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "取消"
 
+msgctxt ""
+"QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
+"languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
+"to get proper UI layout."
+msgid "QT_LAYOUT_DIRECTION"
+msgstr "LTR"
+
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "意外错误"
@@ -3218,6 +3331,42 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "%1 T"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 B/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 K/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 M/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 G/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T/s"
 msgstr ""
 
 msgctxt "QObject|"
@@ -3521,6 +3670,10 @@ msgid "Not found"
 msgstr "未找到"
 
 msgctxt "QObject|"
+msgid "Incompatible version"
+msgstr "不兼容的版本"
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "服务未找到"
 
@@ -3575,6 +3728,14 @@ msgstr "无法处理页面"
 msgctxt "QObject|"
 msgid "Error processing page content"
 msgstr "处理页面内容时错误"
+
+msgctxt "QObject|"
+msgid "Unwanted behavior"
+msgstr "非预期行为"
+
+msgctxt "QObject|"
+msgid "Unwanted behavior detected"
+msgstr "发现非预期行为"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -3880,6 +4041,10 @@ msgctxt "ReportSentDialog|"
 msgid "OK"
 msgstr "确定"
 
+msgctxt "RestartRequiredLabel|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr "<a href='#'>需要重启</a>"
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "保存到"
@@ -4007,14 +4172,6 @@ msgstr "设置启用计划任务的日期"
 msgctxt "SearchField|"
 msgid "Search"
 msgstr "搜索"
-
-msgctxt "SearchPage|"
-msgid "Search"
-msgstr "搜索"
-
-msgctxt "SearchPage|"
-msgid "No results found for"
-msgstr "未找到以下结果"
 
 msgctxt "SearchToolbar|"
 msgid "Search"

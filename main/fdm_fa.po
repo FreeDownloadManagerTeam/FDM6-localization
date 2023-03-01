@@ -21,6 +21,10 @@ msgid "Build date: %1"
 msgstr "تاریخ بیلد: %1"
 
 msgctxt "AboutDialog|"
+msgid "© %1, %2-%3"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "نسخه %1"
 
@@ -145,6 +149,30 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "نمایش دانلود و آپلود فعال با استفاده از آیکون نرم افزار"
 
 msgctxt "AdvancedSettings|"
+msgid "Automation"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Launch external application on download completion"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Path:"
+msgstr "مسیر:"
+
+msgctxt "AdvancedSettings|"
+msgid "Please enter application's path"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments:"
+msgstr "ورودی ها:"
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments must contain %path% variable"
+msgstr "ورودی ها باید متغیر %path% را شامل شوند"
+
+msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "برگشت به تنظیمات پیش فرض"
 
@@ -207,10 +235,6 @@ msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
-msgstr ""
-
-msgctxt "AdvancedSettings|"
-msgid "<a href='#'>Restart is required</a>"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
@@ -702,8 +726,32 @@ msgid "Start downloading without confirmation"
 msgstr "شروع به دانلود کردن بدون نیاز به تایید"
 
 msgctxt "BtSettings|"
+msgid "Privacy"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Encryption:"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "No encryption allowed"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Prefer encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Require encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "پیشرفته"
+
+msgctxt "BtSettings|"
+msgid "Current port: %1"
+msgstr ""
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
@@ -870,6 +918,10 @@ msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "ID:"
 msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
@@ -1218,6 +1270,18 @@ msgid "Close"
 msgstr "بستن"
 
 msgctxt "DownloadWindow|"
+msgid "[%1%] - %2"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Web page:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Resource URL:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "ذخیره شده در"
 
@@ -1244,6 +1308,10 @@ msgstr "ناشناخته"
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "دانلود شده"
+
+msgctxt "DownloadWindow|"
+msgid "%1% [%2]"
+msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -1370,8 +1438,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "به طور خودکار دانلودهای تکمیل شده را از لیست حذف کن"
 
 msgctxt "DownloadsSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "تکرار خودکار دانلودهای لغو شده"
+
+msgctxt "DownloadsSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1556,6 +1640,10 @@ msgstr "تبدیل به mp4"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
 msgstr "انجام ویروس یابی"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Abort"
+msgstr "لغو"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
@@ -2087,8 +2175,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "به طور خودکار دانلودهای تکمیل شده را از لیست حذف کن"
 
 msgctxt "GeneralSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "تکرار خودکار دانلودهای لغو شده"
+
+msgctxt "GeneralSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -3119,6 +3223,13 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "انصراف"
 
+msgctxt ""
+"QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
+"languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
+"to get proper UI layout."
+msgid "QT_LAYOUT_DIRECTION"
+msgstr ""
+
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "خطای غیرمنتظره"
@@ -3230,6 +3341,42 @@ msgstr "%1 گیگ"
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 ترا"
+
+msgctxt "QObject|"
+msgid "%1 B/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 K/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 M/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 G/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T/s"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3532,6 +3679,10 @@ msgid "Not found"
 msgstr ""
 
 msgctxt "QObject|"
+msgid "Incompatible version"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "میزبان یافت نشد"
 
@@ -3586,6 +3737,14 @@ msgstr "صفحه پردازش نمی شود"
 msgctxt "QObject|"
 msgid "Error processing page content"
 msgstr "خطا در پردازش محتوای صفحه"
+
+msgctxt "QObject|"
+msgid "Unwanted behavior"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Unwanted behavior detected"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -3893,6 +4052,10 @@ msgctxt "ReportSentDialog|"
 msgid "OK"
 msgstr "تایید"
 
+msgctxt "RestartRequiredLabel|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr ""
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "ذخیره در"
@@ -4020,14 +4183,6 @@ msgstr "برای فعال کردن برنامه زمانبندی، روزهای 
 msgctxt "SearchField|"
 msgid "Search"
 msgstr "جستجو"
-
-msgctxt "SearchPage|"
-msgid "Search"
-msgstr "جستجو"
-
-msgctxt "SearchPage|"
-msgid "No results found for"
-msgstr "نتیجه ای یافت نشد برای"
 
 msgctxt "SearchToolbar|"
 msgid "Search"

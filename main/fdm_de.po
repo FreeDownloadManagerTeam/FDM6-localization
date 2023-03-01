@@ -1,11 +1,5 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,7 +7,6 @@ msgstr ""
 "X-Language: de_DE\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.2.2\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -26,6 +19,10 @@ msgstr ""
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
 msgstr "Build-Datum: %1"
+
+msgctxt "AboutDialog|"
+msgid "© %1, %2-%3"
+msgstr ""
 
 msgctxt "AboutDialog|"
 msgid "version %1"
@@ -158,6 +155,30 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "Aktiven Download/Upload durch Symbol in der Taskleiste anzeigen"
 
 msgctxt "AdvancedSettings|"
+msgid "Automation"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Launch external application on download completion"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Path:"
+msgstr "Pfad:"
+
+msgctxt "AdvancedSettings|"
+msgid "Please enter application's path"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments:"
+msgstr "Argumente:"
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments must contain %path% variable"
+msgstr "Argumente müssen %path% Variable enthalten"
+
+msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "Zu den Standardeinstellungen zurückkehren"
 
@@ -221,10 +242,6 @@ msgstr "Gesamtzoom"
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
 msgstr "Schrift zoomen"
-
-msgctxt "AdvancedSettings|"
-msgid "<a href='#'>Restart is required</a>"
-msgstr "<a href='#'>Neustart erforderlich</a>"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -715,8 +732,32 @@ msgid "Start downloading without confirmation"
 msgstr "Download ohne Bestätigung starten"
 
 msgctxt "BtSettings|"
+msgid "Privacy"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Encryption:"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "No encryption allowed"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Prefer encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Require encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "Erweitert"
+
+msgctxt "BtSettings|"
+msgid "Current port: %1"
+msgstr ""
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
@@ -730,8 +771,8 @@ msgid ""
 msgstr ""
 "Die Verwendung zusätzlicher Tracker kann in einigen Fällen die "
 "Downloadgeschwindigkeit verbessern. Listen solcher Tracker können von "
-"verschiedenen Quellen abgerufen werden, z. B. von <a href='https://github."
-"com/ngosang/trackerslist'>hier</a>."
+"verschiedenen Quellen abgerufen werden, z. B. von <a "
+"href='https://github.com/ngosang/trackerslist'>hier</a>."
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -892,6 +933,10 @@ msgstr ""
 "Gerät läuft."
 
 msgctxt "ConnectToRemoteAppDialog|"
+msgid "ID:"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "Automatisch beim Start verbinden"
 
@@ -910,8 +955,8 @@ msgstr ""
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
-"Hier können Sie sich mit %1 verbinden, das auf Ihrem Windows-/macOS-/Linux-"
-"PC läuft"
+"Hier können Sie sich mit %1 verbinden, das auf Ihrem "
+"Windows-/macOS-/Linux-PC läuft"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter ID, or <a href='#'>scan QR code</a>"
@@ -1242,6 +1287,18 @@ msgid "Close"
 msgstr "Schließen"
 
 msgctxt "DownloadWindow|"
+msgid "[%1%] - %2"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Web page:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Resource URL:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "Gespeichert unter"
 
@@ -1268,6 +1325,10 @@ msgstr "Unbekannt"
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "Heruntergeladen"
+
+msgctxt "DownloadWindow|"
+msgid "%1% [%2]"
+msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -1396,8 +1457,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Automatisch fertiggestellte Downloads von der Downloadliste entfernen"
 
 msgctxt "DownloadsSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "Automatisch fehlgeschlagene Downloads erneut versuchen"
+
+msgctxt "DownloadsSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1582,6 +1659,10 @@ msgstr "In mp4 konvertieren"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
 msgstr "Viruscheck durchführen"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Abort"
+msgstr "Abbrechen"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
@@ -2116,8 +2197,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Automatisch fertiggestellte Downloads von der Downloadliste entfernen"
 
 msgctxt "GeneralSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "Fehlgeschlagene Downloads automatisch erneut versuchen"
+
+msgctxt "GeneralSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -3157,6 +3254,13 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "Abbrechen"
 
+msgctxt ""
+"QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
+"languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
+"to get proper UI layout."
+msgid "QT_LAYOUT_DIRECTION"
+msgstr ""
+
 msgctxt "QObject|"
 msgid "Unexpected error"
 msgstr "Unerwarteter Fehler"
@@ -3267,6 +3371,42 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "%1 T"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 B/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 K/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 M/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 G/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T/s"
 msgstr ""
 
 msgctxt "QObject|"
@@ -3570,6 +3710,10 @@ msgid "Not found"
 msgstr "Nicht gefunden"
 
 msgctxt "QObject|"
+msgid "Incompatible version"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "Host nicht gefunden"
 
@@ -3624,6 +3768,14 @@ msgstr "Kann die Seite nicht verarbeiten"
 msgctxt "QObject|"
 msgid "Error processing page content"
 msgstr "Fehler beim Verarbeiten des Seiteninhalts"
+
+msgctxt "QObject|"
+msgid "Unwanted behavior"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Unwanted behavior detected"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -3933,6 +4085,10 @@ msgctxt "ReportSentDialog|"
 msgid "OK"
 msgstr ""
 
+msgctxt "RestartRequiredLabel|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr "<a href='#'>Neustart erforderlich</a>"
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "Speichern unter"
@@ -4060,14 +4216,6 @@ msgstr "Wochentage festlegen, um den Terminplaner zu aktivieren"
 msgctxt "SearchField|"
 msgid "Search"
 msgstr "Suchen"
-
-msgctxt "SearchPage|"
-msgid "Search"
-msgstr "Suchen"
-
-msgctxt "SearchPage|"
-msgid "No results found for"
-msgstr "Keine Ergebnisse gefunden für"
 
 msgctxt "SearchToolbar|"
 msgid "Search"

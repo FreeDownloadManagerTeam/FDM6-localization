@@ -36,6 +36,10 @@ msgctxt "DownloadContextMenu|"
 msgid "Ignore upload ratio limit"
 msgstr "Игнорировать ограничение рейтинга раздачи"
 
+msgctxt "DownloadContextMenu|"
+msgid "Force reannounce"
+msgstr "Переанонсировать принудительно"
+
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
 msgstr "Вы хотели бы сделать %1 торрент-клиентом по умолчанию?"
@@ -81,12 +85,28 @@ msgid "Monitor folder for new .torrent files"
 msgstr "Следить за новыми файлами .torrent в папке"
 
 msgctxt "Settings|"
+msgid "Enable DHT to find more peers"
+msgstr "Включить DHT для поиска пиров"
+
+msgctxt "Settings|"
+msgid "Enable PeX to find more peers"
+msgstr "Включить PeX для поиска пиров"
+
+msgctxt "Settings|"
+msgid "Enable Local Peer Discovery to find more peers"
+msgstr "Включить локальное обнаружение пиров"
+
+msgctxt "Settings|"
+msgid "Enable uTP"
+msgstr "Включить uTP"
+
+msgctxt "Settings|"
 msgid "Use system defined port for incoming connections"
 msgstr "Использовать системный порт для входящих подключений"
 
 msgctxt "Settings|"
 msgid "Enable list of predefined trackers"
-msgstr ""
+msgstr "Включить список предопределённых трекеров"
 
 msgctxt "Settings|"
 msgid "BitTorrent settings"

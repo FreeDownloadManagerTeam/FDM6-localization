@@ -36,6 +36,10 @@ msgctxt "DownloadContextMenu|"
 msgid "Ignore upload ratio limit"
 msgstr "忽略上传率限制"
 
+msgctxt "DownloadContextMenu|"
+msgid "Force reannounce"
+msgstr "强制重新汇报"
+
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
 msgstr "您要把 %1 作为默认 BT 客户端吗？"
@@ -81,12 +85,28 @@ msgid "Monitor folder for new .torrent files"
 msgstr "在此文件夹中查找新种子文件"
 
 msgctxt "Settings|"
+msgid "Enable DHT to find more peers"
+msgstr "启用DHT以发现更多用户"
+
+msgctxt "Settings|"
+msgid "Enable PeX to find more peers"
+msgstr "启用PeX以发现更多用户"
+
+msgctxt "Settings|"
+msgid "Enable Local Peer Discovery to find more peers"
+msgstr "启用本地端点发现以发现更多用户"
+
+msgctxt "Settings|"
+msgid "Enable uTP"
+msgstr "启用uTP"
+
+msgctxt "Settings|"
 msgid "Use system defined port for incoming connections"
 msgstr "为传入连接使用系统定义的端口"
 
 msgctxt "Settings|"
 msgid "Enable list of predefined trackers"
-msgstr ""
+msgstr "启用预定义的tracker列表"
 
 msgctxt "Settings|"
 msgid "BitTorrent settings"

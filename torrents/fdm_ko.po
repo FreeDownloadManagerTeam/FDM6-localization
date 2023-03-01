@@ -36,6 +36,10 @@ msgctxt "DownloadContextMenu|"
 msgid "Ignore upload ratio limit"
 msgstr "업로드 비율 제한 무시"
 
+msgctxt "DownloadContextMenu|"
+msgid "Force reannounce"
+msgstr "강제 재공지"
+
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
 msgstr "%1을 기본 토렌트 클라이언트로 설정하시겠습니까?"
@@ -81,17 +85,33 @@ msgid "Monitor folder for new .torrent files"
 msgstr "새 .torrent 파일의 모니터 폴더"
 
 msgctxt "Settings|"
+msgid "Enable DHT to find more peers"
+msgstr "더 많은 피어를 찾기 위해 DHT 사용"
+
+msgctxt "Settings|"
+msgid "Enable PeX to find more peers"
+msgstr "더 많은 피어를 찾기 위해 PeX 사용"
+
+msgctxt "Settings|"
+msgid "Enable Local Peer Discovery to find more peers"
+msgstr "더 많은 피어를 찾기 위해 로컬 피어 검색 사용"
+
+msgctxt "Settings|"
+msgid "Enable uTP"
+msgstr "uTP 사용"
+
+msgctxt "Settings|"
 msgid "Use system defined port for incoming connections"
-msgstr ""
+msgstr "들어오는 연결에 시스템 정의 포트 사용"
 
 msgctxt "Settings|"
 msgid "Enable list of predefined trackers"
-msgstr ""
+msgstr "미리 정의된 추적기 목록 사용"
 
 msgctxt "Settings|"
 msgid "BitTorrent settings"
-msgstr ""
+msgstr "BitTorrent 설정"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"
-msgstr "비율로 시드 중지"
+msgstr "비율에 따라 시딩 중지"
