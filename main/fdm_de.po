@@ -156,11 +156,11 @@ msgstr "Aktiven Download/Upload durch Symbol in der Taskleiste anzeigen"
 
 msgctxt "AdvancedSettings|"
 msgid "Automation"
-msgstr ""
+msgstr "Automatisierung"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch external application on download completion"
-msgstr ""
+msgstr "Externe Anwendung nach Abschluss des Downloads starten"
 
 msgctxt "AdvancedSettings|"
 msgid "Path:"
@@ -168,7 +168,7 @@ msgstr "Pfad:"
 
 msgctxt "AdvancedSettings|"
 msgid "Please enter application's path"
-msgstr ""
+msgstr "Bitte Anwendungspfad eingeben"
 
 msgctxt "AdvancedSettings|"
 msgid "Arguments:"
@@ -354,6 +354,18 @@ msgstr "Dateien löschen."
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Es laufen Vorgänge, die nicht fortgesetzt werden können"
+
+msgctxt "AppRcClientLoadManager|"
+msgid "Connecting to remote %1 (%2)..."
+msgstr ""
+
+msgctxt "AppRcClientLoadManager|"
+msgid "Getting data from remote %1 (%2)..."
+msgstr ""
+
+msgctxt "AppRcClientLoadManager|"
+msgid "Failed."
+msgstr "Fehlgeschlagen."
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -733,23 +745,23 @@ msgstr "Download ohne Bestätigung starten"
 
 msgctxt "BtSettings|"
 msgid "Privacy"
-msgstr ""
+msgstr "Datenschutz"
 
 msgctxt "BtSettings|"
 msgid "Encryption:"
-msgstr ""
+msgstr "Verschlüsselung:"
 
 msgctxt "BtSettings|"
 msgid "No encryption allowed"
-msgstr ""
+msgstr "Verschlüsselung nicht erlaubt"
 
 msgctxt "BtSettings|"
 msgid "Prefer encryption"
-msgstr ""
+msgstr "Verschlüsselung bevorzugen"
 
 msgctxt "BtSettings|"
 msgid "Require encryption"
-msgstr ""
+msgstr "Verschlüsselung erforderlich"
 
 msgctxt "BtSettings|"
 msgid "Advanced"
@@ -757,7 +769,7 @@ msgstr "Erweitert"
 
 msgctxt "BtSettings|"
 msgid "Current port: %1"
-msgstr ""
+msgstr "Aktueller Port: %1"
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
@@ -1292,11 +1304,11 @@ msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "Web page:"
-msgstr ""
+msgstr "Webseite:"
 
 msgctxt "DownloadWindow|"
 msgid "Resource URL:"
-msgstr ""
+msgstr "Ressourcen-URL:"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
@@ -1458,7 +1470,7 @@ msgstr "Automatisch fertiggestellte Downloads von der Downloadliste entfernen"
 
 msgctxt "DownloadsSettings|"
 msgid "Immediately"
-msgstr ""
+msgstr "Sofort"
 
 msgctxt "DownloadsSettings|"
 msgid "In"
@@ -1466,7 +1478,7 @@ msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "days"
-msgstr ""
+msgstr "Tagen"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
@@ -1474,7 +1486,7 @@ msgstr "Automatisch fehlgeschlagene Downloads erneut versuchen"
 
 msgctxt "DownloadsSettings|"
 msgid "Detect unwanted behavior errors"
-msgstr ""
+msgstr "Unerwünschte Verhaltensfehler erkennen"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -2198,7 +2210,7 @@ msgstr "Automatisch fertiggestellte Downloads von der Downloadliste entfernen"
 
 msgctxt "GeneralSettings|"
 msgid "Immediately"
-msgstr ""
+msgstr "Sofort"
 
 msgctxt "GeneralSettings|"
 msgid "In"
@@ -2206,7 +2218,7 @@ msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "days"
-msgstr ""
+msgstr "Tagen"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
@@ -2214,7 +2226,7 @@ msgstr "Fehlgeschlagene Downloads automatisch erneut versuchen"
 
 msgctxt "GeneralSettings|"
 msgid "Detect unwanted behavior errors"
-msgstr ""
+msgstr "Unerwünschte Verhaltensfehler erkennen"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -3091,6 +3103,10 @@ msgid "Install add-on from file"
 msgstr "Erweiterung aus Datei installieren"
 
 msgctxt "PluginsPage|"
+msgid "Learn more about %1 add-ons"
+msgstr "Mehr über %1 Erweiterungen erfahren"
+
+msgctxt "PluginsPage|"
 msgid "Install"
 msgstr "Installieren"
 
@@ -3100,7 +3116,7 @@ msgstr "Abbrechen"
 
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
-msgstr "%1 Add-on-Dateien"
+msgstr "%1 Erweiterungsdateien"
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
@@ -3711,7 +3727,7 @@ msgstr "Nicht gefunden"
 
 msgctxt "QObject|"
 msgid "Incompatible version"
-msgstr ""
+msgstr "Inkompatible Version"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -3771,11 +3787,11 @@ msgstr "Fehler beim Verarbeiten des Seiteninhalts"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior"
-msgstr ""
+msgstr "Unerwünschtes Verhalten"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior detected"
-msgstr ""
+msgstr "Unerwünschtes Verhalten erkannt"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
