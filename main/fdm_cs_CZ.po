@@ -1,19 +1,12 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Free Download Manager\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: GVG <betacart@gmail.com>\n"
-"Language-Team: GVG, www.gvg.cz\n"
-"Language: cs_CZ\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "X-Language: cs_CZ\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.2\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -26,6 +19,10 @@ msgstr "Verze: %1 (%2)"
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
 msgstr "Datum kompilace: %1"
+
+msgctxt "AboutDialog|"
+msgid "© %1, %2-%3"
+msgstr ""
 
 msgctxt "AboutDialog|"
 msgid "version %1"
@@ -152,6 +149,34 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "Zobrazit aktivní stahování a nahrávání v ikoně v systémové liště"
 
 msgctxt "AdvancedSettings|"
+msgid "Show built-in tags:"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Automation"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Launch external application on download completion"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Path:"
+msgstr "Cesta:"
+
+msgctxt "AdvancedSettings|"
+msgid "Please enter application's path"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments:"
+msgstr "Parametry:"
+
+msgctxt "AdvancedSettings|"
+msgid "Arguments must contain %path% variable"
+msgstr "Parametry musí obsahovat proměnnou %path%"
+
+msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "Přejít do výchozích nastavení"
 
@@ -215,10 +240,6 @@ msgstr "Celkový zoom"
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
 msgstr "Zoom písma"
-
-msgctxt "AdvancedSettings|"
-msgid "<a href='#'>Restart is required</a>"
-msgstr "<a href=‚#‘>Je vyžadován restart</a>"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -331,6 +352,18 @@ msgstr "Mazání souborů."
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Existují operace bez schopnosti navázání"
+
+msgctxt "AppRcClientLoadManager|"
+msgid "Connecting to remote %1 (%2)..."
+msgstr ""
+
+msgctxt "AppRcClientLoadManager|"
+msgid "Getting data from remote %1 (%2)..."
+msgstr ""
+
+msgctxt "AppRcClientLoadManager|"
+msgid "Failed."
+msgstr "Selhalo."
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -709,8 +742,32 @@ msgid "Start downloading without confirmation"
 msgstr "Spustit stahování bez potvrzení"
 
 msgctxt "BtSettings|"
+msgid "Privacy"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Encryption:"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "No encryption allowed"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Prefer encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
+msgid "Require encryption"
+msgstr ""
+
+msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "Rozšířené"
+
+msgctxt "BtSettings|"
+msgid "Current port: %1"
+msgstr ""
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
@@ -870,6 +927,24 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Spustit stahování"
 
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Extraneous files are detected"
+msgstr ""
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid ""
+"The following folder contains extraneous files. Do you still want to delete "
+"it?"
+msgstr ""
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Delete anyway"
+msgstr ""
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Cancel"
+msgstr "Storno"
+
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "Připojit se ke vzdálenému %1"
@@ -881,6 +956,10 @@ msgstr "(beta)"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
 msgstr "Zde se můžete připojit k %1, které běží na jiném zařízení."
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "ID:"
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
@@ -1231,6 +1310,18 @@ msgid "Close"
 msgstr "Zavřít"
 
 msgctxt "DownloadWindow|"
+msgid "[%1%] - %2"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Web page:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Resource URL:"
+msgstr ""
+
+msgctxt "DownloadWindow|"
 msgid "Saved in"
 msgstr "Uloženo v"
 
@@ -1257,6 +1348,10 @@ msgstr "Neznámé"
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "Staženo"
+
+msgctxt "DownloadWindow|"
+msgid "%1% [%2]"
+msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -1383,8 +1478,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Automaticky odebrat dokončená stahování ze seznamu stahování"
 
 msgctxt "DownloadsSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "Automaticky znovu spustit stahování, která selhala"
+
+msgctxt "DownloadsSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1569,6 +1680,10 @@ msgstr "Převést na MP4"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
 msgstr "Provést kontrolu antivirem"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Abort"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
@@ -2100,8 +2215,24 @@ msgid "Automatically remove completed downloads from download list"
 msgstr "Automaticky odebrat dokončená stahování ze seznamu stahování"
 
 msgctxt "GeneralSettings|"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "In"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "days"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
 msgstr "Automaticky znovu spustit stahování, která selhala"
+
+msgctxt "GeneralSettings|"
+msgid "Detect unwanted behavior errors"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -2975,6 +3106,10 @@ msgid "Install add-on from file"
 msgstr "Nainstalovat doplněk ze souboru"
 
 msgctxt "PluginsPage|"
+msgid "Learn more about %1 add-ons"
+msgstr ""
+
+msgctxt "PluginsPage|"
 msgid "Install"
 msgstr "Instalovat"
 
@@ -3025,6 +3160,10 @@ msgstr "Chcete je nainstalovat?"
 msgctxt "PluginsPage|"
 msgid "Would you like to install it?"
 msgstr "Chcete jej nainstalovat?"
+
+msgctxt "PluginsPage|"
+msgid "No updates found"
+msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
@@ -3134,6 +3273,13 @@ msgstr "Odeslat hlášení"
 msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "Storno"
+
+msgctxt ""
+"QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
+"languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
+"to get proper UI layout."
+msgid "QT_LAYOUT_DIRECTION"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -3246,6 +3392,42 @@ msgstr "%1 G"
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 T"
+
+msgctxt "QObject|"
+msgid "%1 B/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 KB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 MB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 GB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 TB/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 K/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 M/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 G/s"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "%1 T/s"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3548,6 +3730,10 @@ msgid "Not found"
 msgstr "Nenalezeno"
 
 msgctxt "QObject|"
+msgid "Incompatible version"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "Hostitel nebyl nalezen"
 
@@ -3602,6 +3788,14 @@ msgstr "Nelze zpracovat stránku"
 msgctxt "QObject|"
 msgid "Error processing page content"
 msgstr "Chyba při zpracovávání obsahu stránky"
+
+msgctxt "QObject|"
+msgid "Unwanted behavior"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Unwanted behavior detected"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -3726,6 +3920,10 @@ msgstr "REŽIM ŠNEK"
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
 msgstr "Stahování z YouTube není dostupné"
+
+msgctxt "QObject|"
+msgid "Files were modified"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
@@ -3907,6 +4105,10 @@ msgctxt "ReportSentDialog|"
 msgid "OK"
 msgstr "OK"
 
+msgctxt "RestartRequiredLabel|"
+msgid "<a href='#'>Restart is required</a>"
+msgstr "<a href=‚#‘>Je vyžadován restart</a>"
+
 msgctxt "SaveTo|"
 msgid "Save to"
 msgstr "Uložit do"
@@ -4034,14 +4236,6 @@ msgstr "Pro povolení plánovače nastavte dny v týdnu"
 msgctxt "SearchField|"
 msgid "Search"
 msgstr "Hledat"
-
-msgctxt "SearchPage|"
-msgid "Search"
-msgstr "Hledat"
-
-msgctxt "SearchPage|"
-msgid "No results found for"
-msgstr "Žádné výsledky pro"
 
 msgctxt "SearchToolbar|"
 msgid "Search"
