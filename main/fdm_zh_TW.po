@@ -118,7 +118,7 @@ msgstr "電源管理"
 
 msgctxt "AdvancedSettings|"
 msgid "Don't put your computer to sleep if there is an active download"
-msgstr "有下載中的項目時防止電腦進入睡眠狀態"
+msgstr "有進行中的下載時防止電腦進入睡眠"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable sleep mode while running finished downloads"
@@ -146,7 +146,11 @@ msgstr "按一下下載以開啟/隱藏底部面板"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
-msgstr "使用系統匣圖示顯示下載中和上傳中的項目"
+msgstr "使用系統匣圖示顯示進行中的下載和上傳"
+
+msgctxt "AdvancedSettings|"
+msgid "Show built-in tags:"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Automation"
@@ -190,7 +194,7 @@ msgstr "還原預設設定？"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
-msgstr "每次備份下載清單"
+msgstr "備份下載清單，每"
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
@@ -351,11 +355,11 @@ msgstr "正在執行的作業沒有續傳功能"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
-msgstr ""
+msgstr "正在連線至遠端 %1 (%2)…"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
-msgstr ""
+msgstr "正在從遠端 %1 (%2) 取得資料…"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
@@ -567,7 +571,7 @@ msgstr "檔案"
 
 msgctxt "BottomPanelTools|"
 msgid "Connections"
-msgstr "連線數"
+msgstr "連線"
 
 msgctxt "Browser|"
 msgid "Enter URL"
@@ -649,11 +653,11 @@ msgstr "自動從瀏覽器擷取下載"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Intercept downloads in your web browser"
-msgstr "攔截瀏覽器的所有下載行為"
+msgstr "攔截瀏覽器下載行為"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Start downloading without confirmation"
-msgstr "不進行確認就開始下載"
+msgstr "不經確認即開始下載"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip domains"
@@ -677,7 +681,7 @@ msgstr "您確定此副檔名有效嗎？"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't catch downloads smaller than"
-msgstr "不要擷取下載小於"
+msgstr "不要擷取下載項目，小於"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
@@ -685,7 +689,7 @@ msgstr "Mbytes"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
-msgstr "經 %1 取消下載時使用瀏覽器"
+msgstr "使用瀏覽器下載透過 %1 取消的項目"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -719,7 +723,7 @@ msgstr "一般"
 
 msgctxt "BtSettings|"
 msgid "Monitoring"
-msgstr "監控"
+msgstr "監視"
 
 msgctxt "BtSettings|"
 msgid "Open"
@@ -731,7 +735,7 @@ msgstr "取消"
 
 msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
-msgstr "不進行確認就開始下載"
+msgstr "不經確認即開始下載"
 
 msgctxt "BtSettings|"
 msgid "Privacy"
@@ -917,6 +921,24 @@ msgstr "檔案位置: %1"
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "開始下載"
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Extraneous files are detected"
+msgstr ""
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid ""
+"The following folder contains extraneous files. Do you still want to delete "
+"it?"
+msgstr ""
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Delete anyway"
+msgstr ""
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Cancel"
+msgstr "取消"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
@@ -1145,7 +1167,7 @@ msgstr "下載失敗"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No active downloads"
-msgstr "沒有執行中的下載"
+msgstr "沒有進行中的下載"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Set sound"
@@ -1431,7 +1453,7 @@ msgstr "下載設定"
 
 msgctxt "DownloadsSettings|"
 msgid "Start downloading without confirmation"
-msgstr "不進行確認就開始下載"
+msgstr "不經確認即開始下載"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove deleted files from download list"
@@ -1459,7 +1481,7 @@ msgstr "自動重試失敗的下載"
 
 msgctxt "DownloadsSettings|"
 msgid "Detect unwanted behavior errors"
-msgstr "偵測不想要的行為錯誤"
+msgstr "偵測非預期行為錯誤"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1551,7 +1573,7 @@ msgstr "回報問題"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Enable auto retry for this kind of errors"
-msgstr "為這類錯誤啟用自動重試"
+msgstr "為此錯誤類型啟用自動重試"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -1800,7 +1822,7 @@ msgstr "匯出選取的下載項目"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export all downloads"
-msgstr "匯出所有的下載項目"
+msgstr "匯出所有下載項目"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Save to"
@@ -2196,7 +2218,7 @@ msgstr "自動重試失敗的下載"
 
 msgctxt "GeneralSettings|"
 msgid "Detect unwanted behavior errors"
-msgstr "偵測不想要的行為錯誤"
+msgstr "偵測非預期行為錯誤"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -2332,11 +2354,11 @@ msgstr "文字檔案 (%1)"
 
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
-msgstr "%1 個下載檔案 (%2)"
+msgstr "%1 下載檔案 (%2)"
 
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
-msgstr "%1 個設定檔案 (%2)"
+msgstr "%1 設定檔案 (%2)"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
@@ -2348,7 +2370,7 @@ msgstr "確定"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
-msgstr "從檔案貼上 URL 失敗"
+msgstr "無法從文字檔貼上 URL"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
@@ -2464,7 +2486,7 @@ msgstr "遺失檔案"
 
 msgctxt "MainFiltersBar|"
 msgid "Active"
-msgstr "已啟用"
+msgstr "進行中"
 
 msgctxt "MainFiltersBar|"
 msgid "Completed"
@@ -2484,7 +2506,7 @@ msgstr "從剪貼簿貼上 URL"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from File"
-msgstr "從檔案貼上 URL"
+msgstr "從文字檔貼上 URL"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
@@ -2492,7 +2514,7 @@ msgstr "匯入/匯出"
 
 msgctxt "MainMenu|"
 msgid "Export all downloads"
-msgstr "匯出所有的下載項目"
+msgstr "匯出所有下載項目"
 
 msgctxt "MainMenu|"
 msgid "Import downloads"
@@ -2536,7 +2558,7 @@ msgstr "關機"
 
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
-msgstr "從 %1 中斷連線"
+msgstr "從遠端 %1 中斷連線"
 
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
@@ -3102,6 +3124,10 @@ msgstr "附加元件要求危險權限:"
 msgctxt "PluginsPage|"
 msgid "The following required components are missing:"
 msgstr "遺失以下要求的元件:"
+
+msgctxt "PluginsPage|"
+msgid "No updates found"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Please install add-ons from trusted sources only."
@@ -3749,11 +3775,11 @@ msgstr "處理頁面內容時失敗"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior"
-msgstr "不想要的行為"
+msgstr "非預期行為"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior detected"
-msgstr "偵測到不想要的行為"
+msgstr "偵測到非預期行為"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -3878,6 +3904,10 @@ msgstr "蝸速模式"
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
 msgstr "YouTube 下載無法使用"
+
+msgctxt "QObject|"
+msgid "Files were modified"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
@@ -4333,7 +4363,7 @@ msgstr "確定 (%1)"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be put to Sleep mode."
-msgstr "注意！您的電腦將會進入睡眠。"
+msgstr "注意！您的電腦將會進入睡眠模式。"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be hibernated."
@@ -4365,7 +4395,7 @@ msgstr "下載失敗"
 
 msgctxt "SoundsSettings|"
 msgid "No active downloads"
-msgstr "沒有執行中的下載"
+msgstr "沒有進行中的下載"
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
@@ -4517,15 +4547,15 @@ msgstr "上傳速度"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections"
-msgstr "最大連線數量"
+msgstr "最大連線數目"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections per server"
-msgstr "每個伺服器的最大連線數量"
+msgstr "每個伺服器的最大連線數目"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of simultaneous downloads"
-msgstr "最大同時下載數量"
+msgstr "最大同時下載數目"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
@@ -4585,7 +4615,7 @@ msgstr "無限制"
 
 msgctxt "TumModeBlock|"
 msgid "Max. number of simultaneous downloads"
-msgstr "最大同時下載數量"
+msgstr "最大同時下載數目"
 
 msgctxt "TumModeBlock|"
 msgid "Snail mode"
@@ -4665,7 +4695,7 @@ msgstr "更新"
 
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
-msgstr "%1 最新的"
+msgstr "%1 已是最新版本"
 
 msgctxt "UpdateDialog|"
 msgid "OK"

@@ -22,7 +22,7 @@ msgstr "Fecha de compilación: %1"
 
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
-msgstr ""
+msgstr "© %1, %2-%3"
 
 msgctxt "AboutDialog|"
 msgid "version %1"
@@ -153,6 +153,10 @@ msgstr "Abrir/ocultar el panel inferior haciendo clic en la descarga"
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr "Indicar descarga y subida activa usando el icono de bandeja"
+
+msgctxt "AdvancedSettings|"
+msgid "Show built-in tags:"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Automation"
@@ -361,15 +365,15 @@ msgstr "Hay operaciones sin soporte de reanudar en progreso"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
-msgstr ""
+msgstr "Conectando a remoto %1 (%2)..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
-msgstr ""
+msgstr "Obteniendo datos desde remoto %1 (%2)..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
-msgstr "Error."
+msgstr "Fallido."
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -934,6 +938,24 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Iniciar descarga"
 
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Extraneous files are detected"
+msgstr ""
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid ""
+"The following folder contains extraneous files. Do you still want to delete "
+"it?"
+msgstr ""
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Delete anyway"
+msgstr ""
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Cancel"
+msgstr "Cancelar"
+
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "Conectar a remoto %1"
@@ -1062,7 +1084,7 @@ msgstr "Reiniciar %1 automáticamente"
 
 msgctxt "CrashReporter|"
 msgid "Failed to send the report.<br>Check your Internet connection."
-msgstr "Error al enviar el reporte.<br>Comprueba tu conexión a Internet."
+msgstr "Fallo al enviar el reporte.<br>Comprueba tu conexión a Internet."
 
 msgctxt "CrashReporter|"
 msgid "Error"
@@ -1305,7 +1327,7 @@ msgstr "[%1%] - %2"
 
 msgctxt "DownloadWindow|"
 msgid "Web page:"
-msgstr "Página web"
+msgstr "Página web:"
 
 msgctxt "DownloadWindow|"
 msgid "Resource URL:"
@@ -1917,7 +1939,7 @@ msgstr "Verificación correcta"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification failed"
-msgstr "Error de verificación"
+msgstr "Verificación fallida"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Close"
@@ -1961,7 +1983,7 @@ msgstr "Verificación correcta"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification failed"
-msgstr "Error de verificación"
+msgstr "Verificación fallida"
 
 msgctxt "FileManagerSupportDialog|"
 msgid "No supported file managers found."
@@ -2746,7 +2768,7 @@ msgstr "* pueden aplicarse cargos adicionales"
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
-msgstr "Error al mover la descarga"
+msgstr "Fallo al mover la descarga"
 
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
@@ -3102,7 +3124,7 @@ msgstr "Instalar complemento desde archivo"
 
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
-msgstr ""
+msgstr "Aprende mas acerca de %1 complementos"
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -3155,6 +3177,10 @@ msgstr "¿Te gustaría instalarlos?"
 msgctxt "PluginsPage|"
 msgid "Would you like to install it?"
 msgstr "¿Te gustaría instalarlo?"
+
+msgctxt "PluginsPage|"
+msgid "No updates found"
+msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
@@ -3250,7 +3276,7 @@ msgid ""
 "We do not collect your personal data and do not share data with third "
 "parties."
 msgstr ""
-"Un reporte de errores se enviará al servidor y se usará para mejorar el "
+"Un reporte de error se enviará al servidor y se usará para mejorar el "
 "rendimiento de %1. No recopilamos sus datos personales y no compartimos "
 "datos con terceros."
 
@@ -3291,7 +3317,7 @@ msgstr "Error"
 
 msgctxt "QObject|"
 msgid "Connection failure"
-msgstr "Error de conexión"
+msgstr "Fallo de conexión"
 
 msgctxt "QObject|"
 msgid "App frontend's server listen failed."
@@ -3299,11 +3325,11 @@ msgstr "La escucha del servidor front-end de la aplicación falló."
 
 msgctxt "QObject|"
 msgid "QML load failure."
-msgstr "Error al cargar QML."
+msgstr "Fallo al cargar QML."
 
 msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
-msgstr "Error al inicializar el administrador de estado de la aplicación."
+msgstr "Fallo al inicializar el administrador de estado de la aplicación."
 
 msgctxt "QObject|"
 msgid ""
@@ -3323,7 +3349,7 @@ msgstr "Lo siento, este dispositivo no es soportado por %1."
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
-msgstr "Error al inicializar %1. Por favor, reinstálela."
+msgstr "Fallo al inicializar %1. Por favor, reinstálela."
 
 msgctxt "QObject|"
 msgid "Reason: %1"
@@ -3451,7 +3477,7 @@ msgstr "Error de lectura de archivo"
 
 msgctxt "QObject|"
 msgid "Failed to read from file"
-msgstr "Error al leer desde archivo"
+msgstr "Fallo al leer desde archivo"
 
 msgctxt "QObject|"
 msgid "File write error"
@@ -3459,7 +3485,7 @@ msgstr "Error de escritura de archivo"
 
 msgctxt "QObject|"
 msgid "Failed to write to file"
-msgstr "Error al escribir al archivo"
+msgstr "Fallo al escribir al archivo"
 
 msgctxt "QObject|"
 msgid "File open error"
@@ -3467,7 +3493,7 @@ msgstr "Error de abertura de archivo"
 
 msgctxt "QObject|"
 msgid "Failed to open file"
-msgstr "Error al abrir el archivo"
+msgstr "Fallo al abrir el archivo"
 
 msgctxt "QObject|"
 msgid "Access denied"
@@ -3539,7 +3565,7 @@ msgstr "Longitud requerida"
 
 msgctxt "QObject|"
 msgid "Precondition Failed"
-msgstr "Error de condición previa"
+msgstr "Fallo de condición previa"
 
 msgctxt "QObject|"
 msgid "Request Entity Too Large"
@@ -3559,7 +3585,7 @@ msgstr "Intervalo solicitado no satisfacible"
 
 msgctxt "QObject|"
 msgid "Expectation Failed"
-msgstr "Error de expectativa"
+msgstr "Fallo de expectativa"
 
 msgctxt "QObject|"
 msgid "I'm a teapot"
@@ -3571,7 +3597,7 @@ msgstr "Tiempo de espera de autenticación"
 
 msgctxt "QObject|"
 msgid "Method Failure / Enhance Your Calm"
-msgstr "Error de método / Mejore tu calma"
+msgstr "Fallo de método / Mejore tu calma"
 
 msgctxt "QObject|"
 msgid "Unprocessable Entity"
@@ -3583,7 +3609,7 @@ msgstr "Bloqueado"
 
 msgctxt "QObject|"
 msgid "Failed Dependency / Method Failure"
-msgstr "Fallo de la dependencia / Error de método"
+msgstr "Fallo de la dependencia / Fallo de método"
 
 msgctxt "QObject|"
 msgid "Unordered Collection"
@@ -3743,7 +3769,7 @@ msgstr "Tiempo agotado"
 
 msgctxt "QObject|"
 msgid "SSL handshake failed"
-msgstr "Error al realizar el protocolo de enlace SSL"
+msgstr "Fallo al realizar el protocolo de enlace SSL"
 
 msgctxt "QObject|"
 msgid "Connection refused"
@@ -3771,7 +3797,7 @@ msgstr "Recurso cambiando en el servidor"
 
 msgctxt "QObject|"
 msgid "Fast resume failure"
-msgstr "Error al reanudar rápidamente"
+msgstr "Fallo al reanudar rápidamente"
 
 msgctxt "QObject|"
 msgid "Can't process page"
@@ -3783,11 +3809,11 @@ msgstr "Error al procesar el contenido de la página"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior"
-msgstr "comportamiento no deseado"
+msgstr "Comportamiento no deseado"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior detected"
-msgstr "comportamiento no deseado detectado"
+msgstr "Comportamiento no deseado detectado"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -3799,7 +3825,7 @@ msgstr "Sin título"
 
 msgctxt "QObject|"
 msgid "Failed to remove current version"
-msgstr "Error al remover la versión actual"
+msgstr "Fallo al remover la versión actual"
 
 msgctxt "QObject|"
 msgid "hdiutil error %1"
@@ -3811,7 +3837,7 @@ msgstr "Punto de montaje no existe"
 
 msgctxt "QObject|"
 msgid "Signature check failure."
-msgstr "Error al comprobar la firma."
+msgstr "Fallo al comprobar la firma."
 
 msgctxt "QObject|"
 msgid "Download with %1"
@@ -3848,12 +3874,12 @@ msgid ""
 "Please close all your web browsers and try again."
 msgstr ""
 "La lista de descargas está dañada.\n"
-"%1 no ha podido restaurarla desde una copia de seguridad.\n"
+"%1 a fallado al restaurarla desde una copia de seguridad.\n"
 "Por favor, cierra todos tus navegadores web e intenta de nuevo."
 
 msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
-msgstr "Error fatal: error al cargar la base de datos."
+msgstr "Error fatal: fallo al cargar la base de datos."
 
 msgctxt "QObject|"
 msgid ""
@@ -3865,7 +3891,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Failed."
-msgstr "Error."
+msgstr "Fallido."
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
@@ -3914,6 +3940,10 @@ msgstr "MODO CARACOL"
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
 msgstr "Descargas de YouTube no están disponibles"
+
+msgctxt "QObject|"
+msgid "Files were modified"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"

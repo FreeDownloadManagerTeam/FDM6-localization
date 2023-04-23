@@ -22,7 +22,7 @@ msgstr "Data da compilação: %1"
 
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
-msgstr ""
+msgstr "© %1, %2-%3"
 
 msgctxt "AboutDialog|"
 msgid "version %1"
@@ -150,12 +150,16 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "Indicar download e upload ativos usando o ícone da bandeja"
 
 msgctxt "AdvancedSettings|"
-msgid "Automation"
+msgid "Show built-in tags:"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
+msgid "Automation"
+msgstr "Automação"
+
+msgctxt "AdvancedSettings|"
 msgid "Launch external application on download completion"
-msgstr ""
+msgstr "Iniciar aplicação externa após a conclusão do download"
 
 msgctxt "AdvancedSettings|"
 msgid "Path:"
@@ -163,7 +167,7 @@ msgstr "Caminho:"
 
 msgctxt "AdvancedSettings|"
 msgid "Please enter application's path"
-msgstr ""
+msgstr "Insira o caminho da aplicação"
 
 msgctxt "AdvancedSettings|"
 msgid "Arguments:"
@@ -356,11 +360,11 @@ msgstr "Existem operações sem capacidade de retomada em andamento"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
-msgstr ""
+msgstr "Conectando ao %1 remoto (%2)..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
-msgstr ""
+msgstr "Obtendo dados do %1 remoto (%2)..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
@@ -744,23 +748,23 @@ msgstr "Iniciar o download sem confirmação"
 
 msgctxt "BtSettings|"
 msgid "Privacy"
-msgstr ""
+msgstr "Privacidade"
 
 msgctxt "BtSettings|"
 msgid "Encryption:"
-msgstr ""
+msgstr "Criptografia:"
 
 msgctxt "BtSettings|"
 msgid "No encryption allowed"
-msgstr ""
+msgstr "Nenhuma criptografia permitida"
 
 msgctxt "BtSettings|"
 msgid "Prefer encryption"
-msgstr ""
+msgstr "Preferir criptografia"
 
 msgctxt "BtSettings|"
 msgid "Require encryption"
-msgstr ""
+msgstr "Exigir criptografia"
 
 msgctxt "BtSettings|"
 msgid "Advanced"
@@ -768,7 +772,7 @@ msgstr "Avançado"
 
 msgctxt "BtSettings|"
 msgid "Current port: %1"
-msgstr ""
+msgstr "Porta atual: %1"
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
@@ -929,6 +933,24 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Iniciar download"
 
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Extraneous files are detected"
+msgstr ""
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid ""
+"The following folder contains extraneous files. Do you still want to delete "
+"it?"
+msgstr ""
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Delete anyway"
+msgstr ""
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Cancel"
+msgstr "Cancelar"
+
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "Conectar ao %1 remoto"
@@ -943,7 +965,7 @@ msgstr "Aqui você pode se conectar ao %1 em execução em outro dispositivo."
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "ID:"
-msgstr ""
+msgstr "ID:"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
@@ -1296,15 +1318,15 @@ msgstr "Fechar"
 
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
-msgstr ""
+msgstr "[%1%] - %2"
 
 msgctxt "DownloadWindow|"
 msgid "Web page:"
-msgstr ""
+msgstr "Página da Web:"
 
 msgctxt "DownloadWindow|"
 msgid "Resource URL:"
-msgstr ""
+msgstr "URL do recurso:"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
@@ -1336,7 +1358,7 @@ msgstr "Baixado"
 
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
-msgstr ""
+msgstr "%1% [%2]"
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -1464,15 +1486,15 @@ msgstr "Remover automaticamente downloads concluídos da lista de downloads"
 
 msgctxt "DownloadsSettings|"
 msgid "Immediately"
-msgstr ""
+msgstr "Imediatamente"
 
 msgctxt "DownloadsSettings|"
 msgid "In"
-msgstr ""
+msgstr "Em"
 
 msgctxt "DownloadsSettings|"
 msgid "days"
-msgstr ""
+msgstr "dias"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
@@ -1480,7 +1502,7 @@ msgstr "Repetir automaticamente downloads com falha"
 
 msgctxt "DownloadsSettings|"
 msgid "Detect unwanted behavior errors"
-msgstr ""
+msgstr "Detectar erros de comportamento indesejados"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -2203,15 +2225,15 @@ msgstr "Remova automaticamente downloads concluídos da lista de downloads"
 
 msgctxt "GeneralSettings|"
 msgid "Immediately"
-msgstr ""
+msgstr "Imediatamente"
 
 msgctxt "GeneralSettings|"
 msgid "In"
-msgstr ""
+msgstr "Em"
 
 msgctxt "GeneralSettings|"
 msgid "days"
-msgstr ""
+msgstr "dias"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
@@ -2219,7 +2241,7 @@ msgstr "Repetir automaticamente downloads com falha"
 
 msgctxt "GeneralSettings|"
 msgid "Detect unwanted behavior errors"
-msgstr ""
+msgstr "Detectar erros de comportamento indesejados"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -3096,7 +3118,7 @@ msgstr "Instalar complemento do arquivo"
 
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
-msgstr ""
+msgstr "Saiba mais sobre os complementos do %1"
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -3149,6 +3171,10 @@ msgstr "Deseja instalá-los?"
 msgctxt "PluginsPage|"
 msgid "Would you like to install it?"
 msgstr "Deseja instalá-lo?"
+
+msgctxt "PluginsPage|"
+msgid "No updates found"
+msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
@@ -3265,7 +3291,7 @@ msgctxt ""
 "languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
 "to get proper UI layout."
 msgid "QT_LAYOUT_DIRECTION"
-msgstr ""
+msgstr "LTR"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -3381,39 +3407,39 @@ msgstr "%1 T"
 
 msgctxt "QObject|"
 msgid "%1 B/s"
-msgstr ""
+msgstr "%1 B/s"
 
 msgctxt "QObject|"
 msgid "%1 KB/s"
-msgstr ""
+msgstr "%1 KB/s"
 
 msgctxt "QObject|"
 msgid "%1 MB/s"
-msgstr ""
+msgstr "%1 MB/s"
 
 msgctxt "QObject|"
 msgid "%1 GB/s"
-msgstr ""
+msgstr "%1 GB/s"
 
 msgctxt "QObject|"
 msgid "%1 TB/s"
-msgstr ""
+msgstr "%1 TB/s"
 
 msgctxt "QObject|"
 msgid "%1 K/s"
-msgstr ""
+msgstr "%1 K/s"
 
 msgctxt "QObject|"
 msgid "%1 M/s"
-msgstr ""
+msgstr "%1 M/s"
 
 msgctxt "QObject|"
 msgid "%1 G/s"
-msgstr ""
+msgstr "%1 G/s"
 
 msgctxt "QObject|"
 msgid "%1 T/s"
-msgstr ""
+msgstr "%1 T/s"
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3717,7 +3743,7 @@ msgstr "Não encontrado"
 
 msgctxt "QObject|"
 msgid "Incompatible version"
-msgstr ""
+msgstr "Versão incompatível"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -3777,11 +3803,11 @@ msgstr "Conteúdo da página de processamento de erros"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior"
-msgstr ""
+msgstr "Comportamento indesejado"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior detected"
-msgstr ""
+msgstr "Comportamento indesejado detectado"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -3907,6 +3933,10 @@ msgstr "MODO CARACOL"
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
 msgstr "Os downloads do YouTube não estão disponíveis"
+
+msgctxt "QObject|"
+msgid "Files were modified"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
