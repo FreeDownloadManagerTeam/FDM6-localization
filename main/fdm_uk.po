@@ -150,7 +150,7 @@ msgstr "Показувати активні завантаження і вива
 
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
-msgstr ""
+msgstr "Показати вбудовані теги:"
 
 msgctxt "AdvancedSettings|"
 msgid "Automation"
@@ -261,7 +261,7 @@ msgstr "Завжди запитувати"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
-msgstr "Додаткові установки"
+msgstr "Додаткові налаштування"
 
 msgctxt "AdvancedSettings|"
 msgid "Choose theme"
@@ -931,17 +931,17 @@ msgstr "Запустити завантаження"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Extraneous files are detected"
-msgstr ""
+msgstr "Виявлено сторонні файли"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid ""
 "The following folder contains extraneous files. Do you still want to delete "
 "it?"
-msgstr ""
+msgstr "Ця папка містить сторонні файли. Видалити її?"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Delete anyway"
-msgstr ""
+msgstr "Все одно видалити"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Cancel"
@@ -1319,7 +1319,7 @@ msgstr "[%1%] - %2"
 
 msgctxt "DownloadWindow|"
 msgid "Web page:"
-msgstr "Web сторінка"
+msgstr "Web сторінка:"
 
 msgctxt "DownloadWindow|"
 msgid "Resource URL:"
@@ -1372,6 +1372,14 @@ msgstr "Відкрити завантаження після його завер
 msgctxt "DownloadWindow|"
 msgid "Close this window when the download is completed or stopped"
 msgstr "Закрити це вікно, коли завантаження завершиться або зупиниться"
+
+msgctxt "DownloadWindow|"
+msgid "Remember to always close by default"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Remember to never close by default"
+msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "Hide"
@@ -1465,9 +1473,13 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "Список завантажень пустий. Додайте нову URL адресу."
 
+msgctxt "DownloadsPage|"
+msgid "Connect to remote %1"
+msgstr "З'єднати з віддаленим %1"
+
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
-msgstr "Установки завантажень"
+msgstr "Налаштування завантажень"
 
 msgctxt "DownloadsSettings|"
 msgid "Start downloading without confirmation"
@@ -1487,7 +1499,7 @@ msgstr "Негайно"
 
 msgctxt "DownloadsSettings|"
 msgid "In"
-msgstr "за"
+msgstr "За"
 
 msgctxt "DownloadsSettings|"
 msgid "days"
@@ -1901,7 +1913,7 @@ msgstr "Скасувати"
 
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
-msgstr "%1 файлів установок (%2)"
+msgstr "%1 файлів налаштувань (%2)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
@@ -2225,7 +2237,7 @@ msgstr "Негайно"
 
 msgctxt "GeneralSettings|"
 msgid "In"
-msgstr "за"
+msgstr "За"
 
 msgctxt "GeneralSettings|"
 msgid "days"
@@ -2378,7 +2390,7 @@ msgstr "%1 файлів завантажень (%2)"
 
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
-msgstr "%1 файлів установок (%2)"
+msgstr "%1 файлів налаштувань (%2)"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
@@ -2542,11 +2554,11 @@ msgstr "Імпортувати завантаження"
 
 msgctxt "MainMenu|"
 msgid "Export settings"
-msgstr "Експортувати установки"
+msgstr "Експортувати налаштування"
 
 msgctxt "MainMenu|"
 msgid "Import settings"
-msgstr "Імпортувати установки"
+msgstr "Імпортувати налаштування"
 
 msgctxt "MainMenu|"
 msgid "Add-ons..."
@@ -3169,7 +3181,7 @@ msgstr "Ви справді хочете його встановити?"
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
-msgstr ""
+msgstr "Оновлень не знайдено"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
@@ -3931,7 +3943,7 @@ msgstr "Завантаження з YouTube недоступне"
 
 msgctxt "QObject|"
 msgid "Files were modified"
-msgstr ""
+msgstr "Файли було модифіковано"
 
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
@@ -4047,11 +4059,11 @@ msgstr "Статус"
 
 msgctxt "RemoteControlSettings|"
 msgid "Don't use network proxy"
-msgstr ""
+msgstr "Не використовувати проксі"
 
 msgctxt "RemoteControlSettings|"
 msgid "Remote control settings"
-msgstr ""
+msgstr "Налаштування віддаленого керування"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
@@ -4327,15 +4339,15 @@ msgstr "Додатково"
 
 msgctxt "SettingsPage|"
 msgid "Settings"
-msgstr "Установки"
+msgstr "Налаштування"
 
 msgctxt "SettingsPage|"
 msgid "Downloads settings"
-msgstr "Установки завантажень"
+msgstr "Налаштування завантажень"
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
-msgstr "Установки мережі"
+msgstr "Налаштування мережі"
 
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
@@ -4347,11 +4359,11 @@ msgstr "Налаштування звуку"
 
 msgctxt "SettingsPage|"
 msgid "Remote control settings"
-msgstr ""
+msgstr "Налаштування віддаленого керування"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
-msgstr "Додаткові установки"
+msgstr "Додаткові налаштування"
 
 msgctxt "SettingsPage|"
 msgid "Go back to default settings"
@@ -4599,8 +4611,12 @@ msgid "Maximum number of simultaneous downloads"
 msgstr "Максимальна кількість одночасних завантажень"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Maximum number of additional querying info downloads:"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
-msgstr "Невірні установки границь трафіку"
+msgstr "Неправильні налаштування границь трафіку"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"

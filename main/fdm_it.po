@@ -153,7 +153,7 @@ msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
-msgstr ""
+msgstr "Mostra etichette integrate:"
 
 msgctxt "AdvancedSettings|"
 msgid "Automation"
@@ -361,11 +361,11 @@ msgstr "Sono in corso operazioni senza possibilità di ripresa"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
-msgstr ""
+msgstr "Connessione ad accesso remoto %1 (%2)..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
-msgstr ""
+msgstr "Ricezione dati da accesso remoto %1 (%2)..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
@@ -936,17 +936,17 @@ msgstr "Avvia download"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Extraneous files are detected"
-msgstr ""
+msgstr "Rilevati file estranei"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid ""
 "The following folder contains extraneous files. Do you still want to delete "
 "it?"
-msgstr ""
+msgstr "La seguente cartella contiene file estranei. Vuoi comunque eliminarla?"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Delete anyway"
-msgstr ""
+msgstr "Elimina comunque"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Cancel"
@@ -1381,6 +1381,14 @@ msgstr ""
 "Chiudi questa finestra quando il download viene completato o interrotto"
 
 msgctxt "DownloadWindow|"
+msgid "Remember to always close by default"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Remember to never close by default"
+msgstr ""
+
+msgctxt "DownloadWindow|"
 msgid "Hide"
 msgstr "Nascondi"
 
@@ -1471,6 +1479,10 @@ msgstr "Visualizza tutti"
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "L'elenco dei download è vuoto. Aggiungi nuovo URL download."
+
+msgctxt "DownloadsPage|"
+msgid "Connect to remote %1"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -3124,7 +3136,7 @@ msgstr "Installa estensione da file"
 
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
-msgstr ""
+msgstr "Ulteriori informazioni riguardo le estensioni di %1"
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -3180,7 +3192,7 @@ msgstr "Vuoi installarlo?"
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
-msgstr ""
+msgstr "Nessun aggiornamento trovato"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
@@ -3946,7 +3958,7 @@ msgstr "Download di YouTube non disponibili"
 
 msgctxt "QObject|"
 msgid "Files were modified"
-msgstr ""
+msgstr "I file sono stati modificati"
 
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
@@ -4062,11 +4074,11 @@ msgstr "Stato"
 
 msgctxt "RemoteControlSettings|"
 msgid "Don't use network proxy"
-msgstr ""
+msgstr "Non utilizzare proxy di rete"
 
 msgctxt "RemoteControlSettings|"
 msgid "Remote control settings"
-msgstr ""
+msgstr "Impostazioni controllo remoto"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
@@ -4363,7 +4375,7 @@ msgstr "Impostazioni suoni"
 
 msgctxt "SettingsPage|"
 msgid "Remote control settings"
-msgstr ""
+msgstr "Impostazioni controllo remoto"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -4615,6 +4627,10 @@ msgstr "Numero massimo di connessioni per server"
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of simultaneous downloads"
 msgstr "Numero massimo di download contemporanei"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Maximum number of additional querying info downloads:"
+msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
