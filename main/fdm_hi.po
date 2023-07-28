@@ -25,6 +25,10 @@ msgid "© %1, %2-%3"
 msgstr ""
 
 msgctxt "AboutDialog|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "संस्करण %1"
 
@@ -959,12 +963,18 @@ msgid "Here you can connect to %1 running on another device."
 msgstr "यहां आप दूसरे डिवाइस पर चल रहे %1 से कनेक्ट कर सकते हैं।"
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "ID:"
+msgid "Automatically connect at startup"
+msgstr "स्टार्टअप पर स्वचालित रूप से कनेक्ट करें"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter %1, or <a href='#'>scan QR code</a>"
 msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "Automatically connect at startup"
-msgstr "स्टार्टअप पर स्वचालित रूप से कनेक्ट करें"
+msgid ""
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
@@ -981,10 +991,6 @@ msgstr "ठीक है"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr "यहां आप अपने विंडोज/मैकओएस/लिनक्स पीसी पर चल रहे %1 से जुड़ सकते हैं"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr "कृपया आईडी दर्ज करें, या <a href='#'>QR कोड स्कैन</a> करें"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -2267,15 +2273,23 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "अपडेट को स्वचालित रूप से इंस्टॉल करें"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
+msgid "Check for updates automatically"
+msgstr "स्वत: अपडेट के लिए जांचें"
+
+msgctxt "GeneralSettings2|"
+msgid "Install updates automatically"
+msgstr "अपडेट को स्वचालित रूप से इंस्टॉल करें"
+
+msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
 msgstr "मोबाइल नेटवर्क का प्रयोग करें"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
 msgstr "डेटा रोमिंग की अनुमति दें"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "रोमिंग के दौरान मोबाइल डेटा का उपयोग करने पर अतिरिक्त शुल्क लग सकते हैं।"
@@ -2435,6 +2449,10 @@ msgstr "। वैसे भी बंद करो?"
 msgctxt "LanguageDialog|"
 msgid "Language"
 msgstr "भाषा"
+
+msgctxt "LeftDrawer|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
@@ -2673,6 +2691,10 @@ msgstr "मुख्य मेन्यू"
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
 msgstr "डाउनलोड सूची की उपयोगकर्ता-निर्धारित छँटाई पर स्विच करें?"
+
+msgctxt "MainToolbar|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -4042,10 +4064,6 @@ msgid "Allow remote access to %1 running on this device"
 msgstr "इस डिवाइस पर चल रहे %1 को रिमोट एक्सेस की अनुमति दें"
 
 msgctxt "RemoteControlSettings|"
-msgid "ID"
-msgstr "पहचान"
-
-msgctxt "RemoteControlSettings|"
 msgid "Password"
 msgstr "पासवर्ड"
 
@@ -4334,6 +4352,10 @@ msgid "Advanced"
 msgstr "एडवांस"
 
 msgctxt "SettingsPage|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "सेटिंग"
 
@@ -4360,10 +4382,6 @@ msgstr ""
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "एडवांस सेटिंग"
-
-msgctxt "SettingsPage|"
-msgid "Go back to default settings"
-msgstr "डिफ़ॉल्ट सेटिंग्स पर वापस जाएँ"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
@@ -4612,6 +4630,30 @@ msgstr "अमान्य ट्रैफ़िक सीमा सेटिं
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
 msgstr "यातायात सीमा"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive logs..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Zip files"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Failed"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive service data..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Hide"
+msgstr "छिपाएं"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"

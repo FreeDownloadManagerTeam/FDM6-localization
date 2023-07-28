@@ -25,6 +25,10 @@ msgid "© %1, %2-%3"
 msgstr ""
 
 msgctxt "AboutDialog|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "Version %1"
 
@@ -967,12 +971,18 @@ msgstr ""
 "Gerät läuft."
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "ID:"
+msgid "Automatically connect at startup"
+msgstr "Automatisch beim Start verbinden"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter %1, or <a href='#'>scan QR code</a>"
 msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "Automatically connect at startup"
-msgstr "Automatisch beim Start verbinden"
+msgid ""
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
@@ -991,10 +1001,6 @@ msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
 "Hier können Sie sich mit %1 verbinden, das auf Ihrem "
 "Windows-/macOS-/Linux-PC läuft"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr "Bitte ID eingeben, oder <a href='#'>QR-Code scannen</a>"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -2282,15 +2288,23 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Updates automatisch installieren"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
+msgid "Check for updates automatically"
+msgstr "Updates automatisch prüfen"
+
+msgctxt "GeneralSettings2|"
+msgid "Install updates automatically"
+msgstr "Updates automatisch installieren"
+
+msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
 msgstr "Mobilfunknetz benutzen"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
 msgstr "Datenroaming erlauben"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "Bei der Nutzung von Mobildaten während des Roamings können zusätzliche "
@@ -2451,6 +2465,10 @@ msgstr ". Trotzdem schließen?"
 msgctxt "LanguageDialog|"
 msgid "Language"
 msgstr "Sprache"
+
+msgctxt "LeftDrawer|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
@@ -2691,6 +2709,10 @@ msgid "Switch to user-defined sorting of the download list?"
 msgstr ""
 "Um diese Funktion zu nutzen, müssen die Downloads nach Reihenfolge sortiert "
 "sein. Möchten Sie Ihre Downloads zuerst nach Reihenfolge sortieren?"
+
+msgctxt "MainToolbar|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -4064,10 +4086,6 @@ msgid "Allow remote access to %1 running on this device"
 msgstr "Fernzugriff auf %1, das auf diesem Gerät läuft, zulassen"
 
 msgctxt "RemoteControlSettings|"
-msgid "ID"
-msgstr ""
-
-msgctxt "RemoteControlSettings|"
 msgid "Password"
 msgstr "Passwort"
 
@@ -4356,6 +4374,10 @@ msgid "Advanced"
 msgstr "Erweitert"
 
 msgctxt "SettingsPage|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "Einstellungen"
 
@@ -4382,10 +4404,6 @@ msgstr ""
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Erweiterte Einstellungen"
-
-msgctxt "SettingsPage|"
-msgid "Go back to default settings"
-msgstr "Zu den Standardeinstellungen zurückkehren"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
@@ -4638,6 +4656,30 @@ msgstr "Einstellungen ungültige Traffic-Limits"
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
 msgstr "Traffic-Limits"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive logs..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Zip files"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Failed"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive service data..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Hide"
+msgstr "Verstecken"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
