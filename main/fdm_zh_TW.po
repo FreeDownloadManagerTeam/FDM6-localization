@@ -25,6 +25,10 @@ msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
 
 msgctxt "AboutDialog|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "版本 %1"
 
@@ -953,12 +957,18 @@ msgid "Here you can connect to %1 running on another device."
 msgstr "在這裡您可以連線到在其他裝置執行的 %1。"
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "ID:"
-msgstr "ID:"
-
-msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "啟動時自動連線"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter %1, or <a href='#'>scan QR code</a>"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid ""
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
@@ -975,10 +985,6 @@ msgstr "確定"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr "在這裡您可以連線到在您的 Windows/macOS/Linux PC 執行的 %1"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr "請輸入 ID，或 <a href='#'>掃描 QR 圖碼</a>"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -1357,11 +1363,11 @@ msgstr "下載完成或下載停止後關閉視窗"
 
 msgctxt "DownloadWindow|"
 msgid "Remember to always close by default"
-msgstr ""
+msgstr "記住一律預設關閉"
 
 msgctxt "DownloadWindow|"
 msgid "Remember to never close by default"
-msgstr ""
+msgstr "記住不要預設關閉"
 
 msgctxt "DownloadWindow|"
 msgid "Hide"
@@ -2252,15 +2258,23 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "自動安裝更新"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
+msgid "Check for updates automatically"
+msgstr "自動檢查更新"
+
+msgctxt "GeneralSettings2|"
+msgid "Install updates automatically"
+msgstr "自動安裝更新"
+
+msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
 msgstr "使用行動網路"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
 msgstr "允許數據漫遊"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr "漫遊時使用行動數據可能會產生額外費用。"
 
@@ -2419,6 +2433,10 @@ msgstr "仍要關閉？"
 msgctxt "LanguageDialog|"
 msgid "Language"
 msgstr "語言"
+
+msgctxt "LeftDrawer|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
@@ -2656,6 +2674,10 @@ msgstr "主選單"
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
 msgstr "是否切換至使用者定義的排序下載清單？"
+
+msgctxt "MainToolbar|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -4022,10 +4044,6 @@ msgid "Allow remote access to %1 running on this device"
 msgstr "允許遠端存取在此裝置執行的 %1"
 
 msgctxt "RemoteControlSettings|"
-msgid "ID"
-msgstr "ID"
-
-msgctxt "RemoteControlSettings|"
 msgid "Password"
 msgstr "密碼"
 
@@ -4314,6 +4332,10 @@ msgid "Advanced"
 msgstr "進階"
 
 msgctxt "SettingsPage|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "設定"
 
@@ -4340,10 +4362,6 @@ msgstr "遠端控制設定"
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "進階設定"
-
-msgctxt "SettingsPage|"
-msgid "Go back to default settings"
-msgstr "回復到預設設定"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
@@ -4583,7 +4601,7 @@ msgstr "最大同時下載數目"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of additional querying info downloads:"
-msgstr ""
+msgstr "最大額外查詢資訊下載數目:"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
@@ -4592,6 +4610,30 @@ msgstr "無效的流量限制設定"
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
 msgstr "流量限制"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive logs..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Zip files"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Failed"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive service data..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Hide"
+msgstr "隱藏"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"

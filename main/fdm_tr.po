@@ -25,6 +25,10 @@ msgid "© %1, %2-%3"
 msgstr ""
 
 msgctxt "AboutDialog|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "sürüm %1"
 
@@ -958,12 +962,18 @@ msgid "Here you can connect to %1 running on another device."
 msgstr "Buradan başka bir cihazda çalışan %1'e bağlanabilirsiniz."
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "ID:"
+msgid "Automatically connect at startup"
+msgstr "Başlangıçta otomatik olarak bağlan"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter %1, or <a href='#'>scan QR code</a>"
 msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "Automatically connect at startup"
-msgstr "Başlangıçta otomatik olarak bağlan"
+msgid ""
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
@@ -980,10 +990,6 @@ msgstr "Tamam"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr "Buradan Windows/macOS/Linux PC'nizde çalışan %1'e bağlanabilirsiniz"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr "Lütfen ID Girin, veta <a href='#'>QR kod taratın</a>"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -2268,15 +2274,23 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Güncellemeleri otomatik olarak kur"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
+msgid "Check for updates automatically"
+msgstr "Güncellemeleri otomatik olarak kontrol et"
+
+msgctxt "GeneralSettings2|"
+msgid "Install updates automatically"
+msgstr "Güncellemeleri otomatik olarak kur"
+
+msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
 msgstr "Mobil veriyi kullan"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
 msgstr "Veri dolaşımına izin ver"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "Dolaşımdayken mobil verilerin kullanılması ek ücretlere neden olabilir."
@@ -2436,6 +2450,10 @@ msgstr ". Yine de kapa?"
 msgctxt "LanguageDialog|"
 msgid "Language"
 msgstr "Dil"
+
+msgctxt "LeftDrawer|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
@@ -2673,6 +2691,10 @@ msgstr "Ana menü"
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
 msgstr "İndirme listesinin kullanıcı tanımlı sıralamasına geçilir mi?"
+
+msgctxt "MainToolbar|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -4042,10 +4064,6 @@ msgid "Allow remote access to %1 running on this device"
 msgstr "Bu cihazda çalışan %1'e uzaktan erişime izin ver"
 
 msgctxt "RemoteControlSettings|"
-msgid "ID"
-msgstr "Kimlik"
-
-msgctxt "RemoteControlSettings|"
 msgid "Password"
 msgstr "Parola"
 
@@ -4334,6 +4352,10 @@ msgid "Advanced"
 msgstr "Gelişmiş"
 
 msgctxt "SettingsPage|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "Seçenekler"
 
@@ -4360,10 +4382,6 @@ msgstr ""
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Gelişmiş ayarlar"
-
-msgctxt "SettingsPage|"
-msgid "Go back to default settings"
-msgstr "Varsayılan ayarlara geri dön"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
@@ -4614,6 +4632,30 @@ msgstr "Geçersiz trafik limit ayarları"
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
 msgstr "Trafik Limitleri"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive logs..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Zip files"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Failed"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive service data..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Hide"
+msgstr "Gizle"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"

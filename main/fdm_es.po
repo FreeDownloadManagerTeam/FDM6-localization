@@ -25,6 +25,10 @@ msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
 
 msgctxt "AboutDialog|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "versión %1"
 
@@ -970,12 +974,18 @@ msgid "Here you can connect to %1 running on another device."
 msgstr "Aquí puedes conectar a %1 ejecutándose en otro dispositivo."
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "ID:"
-msgstr "ID:"
-
-msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "Conectar automáticamente al inicio"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter %1, or <a href='#'>scan QR code</a>"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid ""
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
@@ -992,10 +1002,6 @@ msgstr "ACEPTAR"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr "Aquí puedes conectar a %1 ejecutándose en tu Windows/macOS/Linux PC"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr "Por favor ingresa ID, o <a href='#'>escanea código QR</a>"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -1384,11 +1390,11 @@ msgstr "Cerrar esta ventana cuando la descarga esté completada o parada"
 
 msgctxt "DownloadWindow|"
 msgid "Remember to always close by default"
-msgstr ""
+msgstr "Recordar siempre cerrar por defecto"
 
 msgctxt "DownloadWindow|"
 msgid "Remember to never close by default"
-msgstr ""
+msgstr "Recordar nunca cerrar por defecto"
 
 msgctxt "DownloadWindow|"
 msgid "Hide"
@@ -2283,15 +2289,23 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Instalar actualizaciones automáticamente"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
+msgid "Check for updates automatically"
+msgstr "Comprobar actualizaciones automáticamente"
+
+msgctxt "GeneralSettings2|"
+msgid "Install updates automatically"
+msgstr "Instalar actualizaciones automáticamente"
+
+msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
 msgstr "Usar red móvil"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
 msgstr "Permitir itinerancia de datos"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "Utilizar datos móviles con itinerancia pueden resultar en cargos adicionales."
@@ -2451,6 +2465,10 @@ msgstr ". ¿Cerrar de todos modos?"
 msgctxt "LanguageDialog|"
 msgid "Language"
 msgstr "Idioma"
+
+msgctxt "LeftDrawer|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
@@ -2690,6 +2708,10 @@ msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
 msgstr ""
 "¿Cambiar a la clasificación definida por el usuario de la lista de descargas?"
+
+msgctxt "MainToolbar|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -4059,10 +4081,6 @@ msgid "Allow remote access to %1 running on this device"
 msgstr "Permitir acceso remoto a %1 ejecutándose en este dispositivo"
 
 msgctxt "RemoteControlSettings|"
-msgid "ID"
-msgstr "ID"
-
-msgctxt "RemoteControlSettings|"
 msgid "Password"
 msgstr "Contraseña"
 
@@ -4351,6 +4369,10 @@ msgid "Advanced"
 msgstr "Avanzado"
 
 msgctxt "SettingsPage|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "Ajustes"
 
@@ -4377,10 +4399,6 @@ msgstr "Ajustes de control remoto"
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Ajustes avanzados"
-
-msgctxt "SettingsPage|"
-msgid "Go back to default settings"
-msgstr "Volver a los ajustes predeterminados"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
@@ -4629,7 +4647,7 @@ msgstr "Número máximo de descargas simultáneas"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of additional querying info downloads:"
-msgstr ""
+msgstr "Número máximo de descargas adicionales de información de consultas:"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
@@ -4638,6 +4656,30 @@ msgstr "Ajustes de límites de trafico inválidos"
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
 msgstr "Límites de tráfico"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive logs..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Zip files"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Failed"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive service data..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Hide"
+msgstr "Ocultar"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
