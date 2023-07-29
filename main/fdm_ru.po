@@ -25,6 +25,10 @@ msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
 
 msgctxt "AboutDialog|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "версия %1"
 
@@ -959,12 +963,18 @@ msgid "Here you can connect to %1 running on another device."
 msgstr "Здесь вы можете подключиться к %1, запущенному на другом устройстве."
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "ID:"
-msgstr "ИД:"
-
-msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "Автоматически подключаться при запуске"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter %1, or <a href='#'>scan QR code</a>"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid ""
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
@@ -983,11 +993,6 @@ msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
 "Здесь вы можете подключиться к %1, запущенному на вашем ПК с "
 "Windows/macOS/Linux"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr ""
-"Пожалуйста, введите идентификатор или <a href='#'>отсканируйте QR-код</a>"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -2272,15 +2277,23 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Автоматически устанавливать обновления"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
+msgid "Check for updates automatically"
+msgstr "Автоматически проверять на наличие обновлений"
+
+msgctxt "GeneralSettings2|"
+msgid "Install updates automatically"
+msgstr "Автоматически устанавливать обновления"
+
+msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
 msgstr "Использовать мобильный Интернет"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
 msgstr "Разрешить роуминг данных"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "За использование сотовых данных в роуминге может взиматься дополнительная "
@@ -2441,6 +2454,10 @@ msgstr ". Закрыть в любом случае?"
 msgctxt "LanguageDialog|"
 msgid "Language"
 msgstr "Язык"
+
+msgctxt "LeftDrawer|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
@@ -2680,6 +2697,10 @@ msgstr "Главное меню"
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
 msgstr "Переключиться на пользовательскую сортировку списка загрузки?"
+
+msgctxt "MainToolbar|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -4046,10 +4067,6 @@ msgid "Allow remote access to %1 running on this device"
 msgstr "Разрешить удалённый доступ к %1 на этом устройстве"
 
 msgctxt "RemoteControlSettings|"
-msgid "ID"
-msgstr "Идентификатор"
-
-msgctxt "RemoteControlSettings|"
 msgid "Password"
 msgstr "Пароль"
 
@@ -4338,6 +4355,10 @@ msgid "Advanced"
 msgstr "Расширенные"
 
 msgctxt "SettingsPage|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "Настройки"
 
@@ -4364,10 +4385,6 @@ msgstr "Настройки удалённого управления"
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Расширенные настройки"
-
-msgctxt "SettingsPage|"
-msgid "Go back to default settings"
-msgstr "Вернуться к настройкам по умолчанию"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
@@ -4617,6 +4634,30 @@ msgstr "Недействительные настройки ограничени
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
 msgstr "Ограничение скорости"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive logs..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Zip files"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Failed"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive service data..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Hide"
+msgstr "Скрыть"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
