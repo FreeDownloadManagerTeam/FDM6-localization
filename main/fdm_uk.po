@@ -33,6 +33,10 @@ msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
 
 msgctxt "AboutDialog|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "версія %1"
 
@@ -968,12 +972,18 @@ msgid "Here you can connect to %1 running on another device."
 msgstr "Тут ви можете підключитися до  %1 запущеного на іншому пристрої."
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "ID:"
-msgstr "ID:"
-
-msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "Автоматично підключатися при запуску"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter %1, or <a href='#'>scan QR code</a>"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid ""
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
@@ -992,10 +1002,6 @@ msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
 "Тут ви можете підключитися до  %1 запущеного на вашому ПК під Windows/macOS/"
 "Linux"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr "Будь ласка введіть ID, або <a href='#'>відскануйте QR код</a>"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -2279,15 +2285,23 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Автоматично встановлювати оновлення"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
+msgid "Check for updates automatically"
+msgstr "Автоматично перевіряти оновлення"
+
+msgctxt "GeneralSettings2|"
+msgid "Install updates automatically"
+msgstr "Автоматично встановлювати оновлення"
+
+msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
 msgstr "Використовувати мобільну мережу"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
 msgstr "Дозволити роумінг даних"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "За використання мобільних даних у роумінгу може стягуватися додаткова плата."
@@ -2449,6 +2463,10 @@ msgid "Language"
 msgstr "Мова"
 
 msgctxt "LeftDrawer|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "LeftDrawer|"
 msgid "Browser"
 msgstr "Браузер"
 
@@ -2459,6 +2477,10 @@ msgstr "Налаштування"
 msgctxt "LeftDrawer|"
 msgid "Contact support"
 msgstr "Технічна підтримка"
+
+msgctxt "LeftDrawer|"
+msgid "Submit a bug report"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
@@ -2581,6 +2603,10 @@ msgid "Contact Support"
 msgstr "Технічна підтримка"
 
 msgctxt "MainMenu|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "Auto Shutdown"
 msgstr "Автовимкнення"
 
@@ -2686,6 +2712,10 @@ msgstr "Головне меню"
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
 msgstr "Переключитись на сортування завантажень, визначене користувачем?"
+
+msgctxt "MainToolbar|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3090,6 +3120,29 @@ msgstr "Файли"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "З'єднання"
+
+msgctxt "PluginBannerDialog|"
+msgid "Enjoy using %1 add-on?"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"We would like to ask you to help this add-on to reach its potential users."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"Please use your favorite social networks and forums to let the other people "
+"know about %1 and %2."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "Remind me later"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
@@ -4054,10 +4107,6 @@ msgid "Allow remote access to %1 running on this device"
 msgstr "Дозвольте віддалений доступ до %1 запущеного на цьому пристрої"
 
 msgctxt "RemoteControlSettings|"
-msgid "ID"
-msgstr "ID"
-
-msgctxt "RemoteControlSettings|"
 msgid "Password"
 msgstr "Пароль"
 
@@ -4346,6 +4395,10 @@ msgid "Advanced"
 msgstr "Додатково"
 
 msgctxt "SettingsPage|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "Налаштування"
 
@@ -4372,10 +4425,6 @@ msgstr "Налаштування віддаленого керування"
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Додаткові налаштування"
-
-msgctxt "SettingsPage|"
-msgid "Go back to default settings"
-msgstr "Повернутися до налаштувань за замовчуванням"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
@@ -4546,6 +4595,50 @@ msgid "The download(s) below can't be resumed after pausing"
 msgstr ""
 "Завантаження, зазначене(і) нижче, не можна відновити після призупинення"
 
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Title"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Description"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Name"
+msgstr "Ім'я"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "E-mail"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Attach %1 log files (recommended)"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Required fields"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Close"
+msgstr "Закрити"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submitting"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit"
+msgstr ""
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "Завантажити субтитри"
@@ -4629,6 +4722,30 @@ msgstr "Неправильні налаштування границь траф�
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
 msgstr "Обмеження трафіку"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive logs..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Zip files"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Failed"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive service data..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Hide"
+msgstr "Сховати"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"

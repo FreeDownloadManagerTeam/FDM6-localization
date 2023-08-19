@@ -25,6 +25,10 @@ msgid "© %1, %2-%3"
 msgstr ""
 
 msgctxt "AboutDialog|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "バージョン %1"
 
@@ -951,12 +955,18 @@ msgid "Here you can connect to %1 running on another device."
 msgstr "別のデバイスで実行されている %1 に接続できます"
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "ID:"
+msgid "Automatically connect at startup"
+msgstr "開始時に自動的に接続する"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter %1, or <a href='#'>scan QR code</a>"
 msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "Automatically connect at startup"
-msgstr "開始時に自動的に接続する"
+msgid ""
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
@@ -973,10 +983,6 @@ msgstr "OK"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr "Windows/macOS/Linux PC で実行されている %1 に接続できます"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr "IDを入力するか、<a href='#'>QRコードをスキャン</a>してください"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -2250,15 +2256,23 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "更新プログラムを自動でインストールする"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
+msgid "Check for updates automatically"
+msgstr "アップデートを自動で確認する"
+
+msgctxt "GeneralSettings2|"
+msgid "Install updates automatically"
+msgstr "更新プログラムを自動でインストールする"
+
+msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
 msgstr "モバイルネットワークを使用する"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
 msgstr "データローミングを許可する"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr "ローミング中にモバイルデータを使用すると、追加料金が発生する場合があります。"
 
@@ -2419,6 +2433,10 @@ msgid "Language"
 msgstr "表示言語"
 
 msgctxt "LeftDrawer|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "LeftDrawer|"
 msgid "Browser"
 msgstr "ブラウザ"
 
@@ -2429,6 +2447,10 @@ msgstr "設定"
 msgctxt "LeftDrawer|"
 msgid "Contact support"
 msgstr "サポートへのお問い合わせ"
+
+msgctxt "LeftDrawer|"
+msgid "Submit a bug report"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
@@ -2551,6 +2573,10 @@ msgid "Contact Support"
 msgstr "サポートへのお問い合わせ"
 
 msgctxt "MainMenu|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "Auto Shutdown"
 msgstr "自動シャットダウン"
 
@@ -2654,6 +2680,10 @@ msgstr "メインメニュー"
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
 msgstr "ユーザー定義のダウンロード順序に切り替えますか？"
+
+msgctxt "MainToolbar|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3058,6 +3088,29 @@ msgstr "ファイル"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "接続先"
+
+msgctxt "PluginBannerDialog|"
+msgid "Enjoy using %1 add-on?"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"We would like to ask you to help this add-on to reach its potential users."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"Please use your favorite social networks and forums to let the other people "
+"know about %1 and %2."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "Remind me later"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
@@ -4020,10 +4073,6 @@ msgid "Allow remote access to %1 running on this device"
 msgstr "このデバイスで実行中の %1 へのリモートアクセスを許可する"
 
 msgctxt "RemoteControlSettings|"
-msgid "ID"
-msgstr "ID"
-
-msgctxt "RemoteControlSettings|"
 msgid "Password"
 msgstr "パスワード"
 
@@ -4312,6 +4361,10 @@ msgid "Advanced"
 msgstr "上級者向け"
 
 msgctxt "SettingsPage|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "設定"
 
@@ -4338,10 +4391,6 @@ msgstr ""
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "上級者向け設定"
-
-msgctxt "SettingsPage|"
-msgid "Go back to default settings"
-msgstr "デフォルト設定に戻す"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
@@ -4507,6 +4556,50 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr "以下のダウンロードは一時停止後に再開できません"
 
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Title"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Description"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "E-mail"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Attach %1 log files (recommended)"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Required fields"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Close"
+msgstr "閉じる"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submitting"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit"
+msgstr ""
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "字幕のダウンロード"
@@ -4590,6 +4683,30 @@ msgstr "無効なトラフィック制限の設定"
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
 msgstr "トラフィック制限"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive logs..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Zip files"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Failed"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive service data..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Hide"
+msgstr "隠す"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"

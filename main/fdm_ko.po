@@ -25,6 +25,10 @@ msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
 
 msgctxt "AboutDialog|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "버전 %1"
 
@@ -118,7 +122,7 @@ msgstr "전원 관리"
 
 msgctxt "AdvancedSettings|"
 msgid "Don't put your computer to sleep if there is an active download"
-msgstr "활성 다운로드가 있는 경우 컴퓨터를 절전 모드로 전환하지 않음"
+msgstr "다운로드가 진행 중인 경우 컴퓨터를 절전 모드로 전환하지 않음"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable sleep mode while running finished downloads"
@@ -689,7 +693,7 @@ msgstr "MB"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
-msgstr "%1를 통한 다운로드를 취소하는 경우 브라우저를 사용"
+msgstr "%1를 통한 다운로드를 취소하는 경우 브라우저 사용"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -953,12 +957,18 @@ msgid "Here you can connect to %1 running on another device."
 msgstr "여기서 다른 장치에서 실행 중인 %1에 연결할 수 있습니다."
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "ID:"
-msgstr "ID:"
-
-msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "시작 시 자동으로 연결"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter %1, or <a href='#'>scan QR code</a>"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid ""
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
@@ -975,10 +985,6 @@ msgstr "확인"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr "여기서 Windows/macOS/Linux PC에서 실행 중인 %1에 연결할 수 있습니다"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr "ID 또는 <a href='#'>QR 코드 스캔</a>를 입력하십시오"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -1357,11 +1363,11 @@ msgstr "다운로드가 완료되거나 중지되면 이 창 닫기"
 
 msgctxt "DownloadWindow|"
 msgid "Remember to always close by default"
-msgstr ""
+msgstr "항상 기본적으로 닫는 것을 잊지 마십시오"
 
 msgctxt "DownloadWindow|"
 msgid "Remember to never close by default"
-msgstr ""
+msgstr "기본적으로 닫지 않는 것을 잊지 마세요"
 
 msgctxt "DownloadWindow|"
 msgid "Hide"
@@ -1778,7 +1784,7 @@ msgstr "확장자 (예: \"avi mp3\")"
 msgctxt "EditTagDialog|"
 msgid ""
 "Extensions that are automatically assigned with this tag for new downloads"
-msgstr "새 다운로드를 위해 이 태그와 함께 자동으로 할당되는 확장자"
+msgstr "새 다운로드에 대해 이 태그와 함께 자동으로 할당되는 확장자"
 
 msgctxt "EditTagDialog|"
 msgid "Default download folder"
@@ -2062,7 +2068,7 @@ msgstr "모두 선택"
 
 msgctxt "FilesTree|"
 msgid "Select none"
-msgstr "선택 안함"
+msgstr "선택 안 함"
 
 msgctxt "FilesTree|"
 msgid "Name"
@@ -2252,15 +2258,23 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "자동으로 업데이트 설치"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
+msgid "Check for updates automatically"
+msgstr "자동으로 업데이트 확인"
+
+msgctxt "GeneralSettings2|"
+msgid "Install updates automatically"
+msgstr "자동으로 업데이트 설치"
+
+msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
 msgstr "모바일 네트워크 사용"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
 msgstr "데이터 로밍 허용"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr "로밍 중에 모바일 데이터를 사용하면 추가 요금이 발생할 수 있습니다."
 
@@ -2421,6 +2435,10 @@ msgid "Language"
 msgstr "언어"
 
 msgctxt "LeftDrawer|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "LeftDrawer|"
 msgid "Browser"
 msgstr "브라우저"
 
@@ -2431,6 +2449,10 @@ msgstr "설정"
 msgctxt "LeftDrawer|"
 msgid "Contact support"
 msgstr "지원 연락처"
+
+msgctxt "LeftDrawer|"
+msgid "Submit a bug report"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
@@ -2553,6 +2575,10 @@ msgid "Contact Support"
 msgstr "지원 연락처"
 
 msgctxt "MainMenu|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "Auto Shutdown"
 msgstr "자동 종료"
 
@@ -2656,6 +2682,10 @@ msgstr "기본 메뉴"
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
 msgstr "다운로드한 목록 사용자 정의 정렬로 전환하시겠습니까?"
+
+msgctxt "MainToolbar|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3060,6 +3090,29 @@ msgstr "파일"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "연결"
+
+msgctxt "PluginBannerDialog|"
+msgid "Enjoy using %1 add-on?"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"We would like to ask you to help this add-on to reach its potential users."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"Please use your favorite social networks and forums to let the other people "
+"know about %1 and %2."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "Remind me later"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "OK"
+msgstr "확인"
 
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
@@ -4022,10 +4075,6 @@ msgid "Allow remote access to %1 running on this device"
 msgstr "이 장치에서 실행 중인 %1에 대한 원격 접근 허용"
 
 msgctxt "RemoteControlSettings|"
-msgid "ID"
-msgstr "ID"
-
-msgctxt "RemoteControlSettings|"
 msgid "Password"
 msgstr "암호"
 
@@ -4314,6 +4363,10 @@ msgid "Advanced"
 msgstr "고급"
 
 msgctxt "SettingsPage|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "설정"
 
@@ -4340,10 +4393,6 @@ msgstr "원격 제어 설정"
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "고급 설정"
-
-msgctxt "SettingsPage|"
-msgid "Go back to default settings"
-msgstr "기본 설정으로 돌아가기"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
@@ -4509,6 +4558,50 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr "일시 중지 후 아래의 다운로드를 재개할 수 없습니다"
 
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Title"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Description"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Name"
+msgstr "이름"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "E-mail"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Attach %1 log files (recommended)"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Required fields"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Close"
+msgstr "닫기"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Cancel"
+msgstr "취소"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submitting"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit"
+msgstr ""
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "자막 다운로드"
@@ -4583,7 +4676,7 @@ msgstr "최대 동시 다운로드 수"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of additional querying info downloads:"
-msgstr ""
+msgstr "추가 쿼리 정보 다운로드의 최대 횟수:"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
@@ -4592,6 +4685,30 @@ msgstr "잘못된 트래픽 제한 설정"
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
 msgstr "트래픽 제한"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive logs..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Zip files"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Failed"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive service data..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Hide"
+msgstr "숨김"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"

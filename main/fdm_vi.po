@@ -25,6 +25,10 @@ msgid "© %1, %2-%3"
 msgstr ""
 
 msgctxt "AboutDialog|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "phiên bản %1"
 
@@ -949,11 +953,17 @@ msgid "Here you can connect to %1 running on another device."
 msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "ID:"
+msgid "Automatically connect at startup"
 msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "Automatically connect at startup"
+msgid "Please enter %1, or <a href='#'>scan QR code</a>"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid ""
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
 msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
@@ -970,10 +980,6 @@ msgstr "Đồng ý"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
-msgstr ""
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter ID, or <a href='#'>scan QR code</a>"
 msgstr ""
 
 msgctxt "ConnectionsTab|"
@@ -2250,15 +2256,23 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Cài đặt bản cập nhật tự động"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
+msgid "Check for updates automatically"
+msgstr "Kiểm tra cập nhật tự động"
+
+msgctxt "GeneralSettings2|"
+msgid "Install updates automatically"
+msgstr "Cài đặt bản cập nhật tự động"
+
+msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
 msgstr "Dùng mạng di dộng"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
 msgstr ""
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 
@@ -2419,6 +2433,10 @@ msgid "Language"
 msgstr "Ngôn ngữ"
 
 msgctxt "LeftDrawer|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "LeftDrawer|"
 msgid "Browser"
 msgstr "Trình duyệt"
 
@@ -2429,6 +2447,10 @@ msgstr "Cài đặt"
 msgctxt "LeftDrawer|"
 msgid "Contact support"
 msgstr "Liên hệ hỗ trợ"
+
+msgctxt "LeftDrawer|"
+msgid "Submit a bug report"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
@@ -2551,6 +2573,10 @@ msgid "Contact Support"
 msgstr "Liên hệ hỗ trợ"
 
 msgctxt "MainMenu|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "Auto Shutdown"
 msgstr "Tự động tắt máy"
 
@@ -2653,6 +2679,10 @@ msgstr "Thực đơn chính"
 
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
+msgstr ""
+
+msgctxt "MainToolbar|"
+msgid "remote control"
 msgstr ""
 
 msgctxt "MaxURatioComboBox|"
@@ -3058,6 +3088,29 @@ msgstr "Các tệp tin"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "Số lượng kết nối"
+
+msgctxt "PluginBannerDialog|"
+msgid "Enjoy using %1 add-on?"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"We would like to ask you to help this add-on to reach its potential users."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"Please use your favorite social networks and forums to let the other people "
+"know about %1 and %2."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "Remind me later"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "OK"
+msgstr "Đồng ý"
 
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
@@ -4011,10 +4064,6 @@ msgid "Allow remote access to %1 running on this device"
 msgstr ""
 
 msgctxt "RemoteControlSettings|"
-msgid "ID"
-msgstr ""
-
-msgctxt "RemoteControlSettings|"
 msgid "Password"
 msgstr "Mật khẩu"
 
@@ -4303,6 +4352,10 @@ msgid "Advanced"
 msgstr "Nâng cao"
 
 msgctxt "SettingsPage|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "Cài đặt"
 
@@ -4329,10 +4382,6 @@ msgstr ""
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Cài đặt nâng cao"
-
-msgctxt "SettingsPage|"
-msgid "Go back to default settings"
-msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
@@ -4499,6 +4548,50 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr ""
 
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Title"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Description"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Name"
+msgstr "Tên"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "E-mail"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Attach %1 log files (recommended)"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Required fields"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Close"
+msgstr "Đóng"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Cancel"
+msgstr "Hủy"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submitting"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit"
+msgstr ""
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr ""
@@ -4582,6 +4675,30 @@ msgstr ""
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
 msgstr "Giới hạn lưu lượng"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive logs..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Zip files"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Failed"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive service data..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Hide"
+msgstr "Ẩn"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"

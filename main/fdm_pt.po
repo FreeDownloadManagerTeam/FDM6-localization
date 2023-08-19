@@ -25,6 +25,10 @@ msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
 
 msgctxt "AboutDialog|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "versão %1"
 
@@ -964,12 +968,18 @@ msgid "Here you can connect to %1 running on another device."
 msgstr "Aqui você pode se conectar ao %1 em execução em outro dispositivo."
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "ID:"
-msgstr "ID:"
-
-msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "Conectar automaticamente ao inicializar"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter %1, or <a href='#'>scan QR code</a>"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid ""
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
@@ -987,10 +997,6 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
 "Aqui você pode se conectar ao %1 em execução no seu PC Windows/macOS/Linux"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr "Insira o ID ou <a href='#'>digitalize o código QR</a>"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -2275,15 +2281,23 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Instalar atualizações automaticamente"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
+msgid "Check for updates automatically"
+msgstr "Verificar por atualizações automaticamente"
+
+msgctxt "GeneralSettings2|"
+msgid "Install updates automatically"
+msgstr "Instalar atualizações automaticamente"
+
+msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
 msgstr "Use rede móvel"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
 msgstr "Permitir roaming de dados"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "O uso de dados móveis em roaming pode resultar em cobranças adicionais."
@@ -2445,6 +2459,10 @@ msgid "Language"
 msgstr "Idioma"
 
 msgctxt "LeftDrawer|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "LeftDrawer|"
 msgid "Browser"
 msgstr "Navegador"
 
@@ -2455,6 +2473,10 @@ msgstr "Configurações"
 msgctxt "LeftDrawer|"
 msgid "Contact support"
 msgstr "Contatar suporte"
+
+msgctxt "LeftDrawer|"
+msgid "Submit a bug report"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
@@ -2577,6 +2599,10 @@ msgid "Contact Support"
 msgstr "Contatar Suporte"
 
 msgctxt "MainMenu|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "Auto Shutdown"
 msgstr "Desligamento automático"
 
@@ -2683,6 +2709,10 @@ msgid "Switch to user-defined sorting of the download list?"
 msgstr ""
 "Para usar este recurso, os downloads devem ser classificados por ordem. Você "
 "gostaria de classificar seus downloads por ordem primeiro?"
+
+msgctxt "MainToolbar|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3087,6 +3117,29 @@ msgstr "Arquivos"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "Conexões"
+
+msgctxt "PluginBannerDialog|"
+msgid "Enjoy using %1 add-on?"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"We would like to ask you to help this add-on to reach its potential users."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"Please use your favorite social networks and forums to let the other people "
+"know about %1 and %2."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "Remind me later"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
@@ -4051,10 +4104,6 @@ msgid "Allow remote access to %1 running on this device"
 msgstr "Permitir acesso remoto ao %1 em execução neste dispositivo"
 
 msgctxt "RemoteControlSettings|"
-msgid "ID"
-msgstr "ID"
-
-msgctxt "RemoteControlSettings|"
 msgid "Password"
 msgstr "Senha"
 
@@ -4343,6 +4392,10 @@ msgid "Advanced"
 msgstr "Avançado"
 
 msgctxt "SettingsPage|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "Configurações"
 
@@ -4369,10 +4422,6 @@ msgstr ""
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
 msgstr "Configurações avançadas"
-
-msgctxt "SettingsPage|"
-msgid "Go back to default settings"
-msgstr "Voltar para as configurações padrão"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
@@ -4540,6 +4589,50 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr "Os downloads abaixo não podem ser retomados após a pausa"
 
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Title"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Description"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Name"
+msgstr "Nome"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "E-mail"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Attach %1 log files (recommended)"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Required fields"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Close"
+msgstr "Fechar"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submitting"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit"
+msgstr ""
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "Baixar legendas"
@@ -4623,6 +4716,30 @@ msgstr "Configurações de limites de tráfego inválidos"
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
 msgstr "Limite de Tráfego"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive logs..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Zip files"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Failed"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive service data..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Hide"
+msgstr "Esconder"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
