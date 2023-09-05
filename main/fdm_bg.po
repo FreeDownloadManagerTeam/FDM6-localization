@@ -25,6 +25,10 @@ msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
 
 msgctxt "AboutDialog|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "версия %1"
 
@@ -147,6 +151,10 @@ msgstr "Показване/скриване на долен панел при н
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr "Показване на активно изтегляне и качване с чрез иконата в трея"
+
+msgctxt "AdvancedSettings|"
+msgid "Show built-in tags:"
+msgstr "Показване на вградените етикети:"
 
 msgctxt "AdvancedSettings|"
 msgid "Automation"
@@ -353,11 +361,11 @@ msgstr "В момента се извършват операции без въз
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
-msgstr ""
+msgstr "Свързване към отдалечен %1 (%2)..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
-msgstr ""
+msgstr "Получаване на информация от отдалечен %1 (%2)..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
@@ -752,11 +760,11 @@ msgstr "Не е разрешено криптиране"
 
 msgctxt "BtSettings|"
 msgid "Prefer encryption"
-msgstr "Предпочитайте криптиране"
+msgstr "Криптиране по възможност"
 
 msgctxt "BtSettings|"
 msgid "Require encryption"
-msgstr "Изискване за криптиране"
+msgstr "Задължително криптиране"
 
 msgctxt "BtSettings|"
 msgid "Advanced"
@@ -924,6 +932,24 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Започни изтегляне"
 
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Extraneous files are detected"
+msgstr "Открити са чужди файлове"
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid ""
+"The following folder contains extraneous files. Do you still want to delete "
+"it?"
+msgstr "Следната папка съдържа чужди файлове. Все още ли искате да я изтриете?"
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Delete anyway"
+msgstr "Изтриване въпреки всичко"
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Cancel"
+msgstr "Отказ"
+
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "Отдалечено свързване с"
@@ -937,12 +963,18 @@ msgid "Here you can connect to %1 running on another device."
 msgstr "Тук можете да се свържете с %1 работещ на друго устройство."
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "ID:"
-msgstr "ID:"
-
-msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "Автоматично свързване при стартиране"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter %1, or <a href='#'>scan QR code</a>"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid ""
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
@@ -961,10 +993,6 @@ msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
 "Тук можете да се свържете с %1 който работи на вашия компютър с "
 "Windows/macOS/Linux"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr "Моля въведете вашето ID или <a href='#'>сканирайте QR код</a>"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -1348,6 +1376,14 @@ msgid "Close this window when the download is completed or stopped"
 msgstr "Затваряне на прозореца когато изтеглянето завърши или спре"
 
 msgctxt "DownloadWindow|"
+msgid "Remember to always close by default"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Remember to never close by default"
+msgstr ""
+
+msgctxt "DownloadWindow|"
 msgid "Hide"
 msgstr "Скриване"
 
@@ -1438,6 +1474,10 @@ msgstr "Покажи всички"
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "Списъка за изтегляне е празен. Добавете нов URL за изтегляне."
+
+msgctxt "DownloadsPage|"
+msgid "Connect to remote %1"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -2233,15 +2273,23 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Автоматично инсталиране на обновленията"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
+msgid "Check for updates automatically"
+msgstr "Автоматична проверка за обновления"
+
+msgctxt "GeneralSettings2|"
+msgid "Install updates automatically"
+msgstr "Автоматично инсталиране на обновленията"
+
+msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
 msgstr "Използване на мобилна мрежа"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
 msgstr "Позволяване на данни в роуминг"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "При използването на данни в роуминг могат да се начислят допълнителни такси."
@@ -2403,6 +2451,10 @@ msgid "Language"
 msgstr "Език"
 
 msgctxt "LeftDrawer|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "LeftDrawer|"
 msgid "Browser"
 msgstr "Браузър"
 
@@ -2413,6 +2465,10 @@ msgstr "Настройки"
 msgctxt "LeftDrawer|"
 msgid "Contact support"
 msgstr "Техническа поддръжка"
+
+msgctxt "LeftDrawer|"
+msgid "Submit a bug report"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
@@ -2535,6 +2591,10 @@ msgid "Contact Support"
 msgstr "Техническа поддръжка"
 
 msgctxt "MainMenu|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "Auto Shutdown"
 msgstr "Автоматично изключване"
 
@@ -2641,6 +2701,10 @@ msgid "Switch to user-defined sorting of the download list?"
 msgstr ""
 "За да използвате тази функция изтеглянията трябва да се сортират по ред. "
 "Желаете ли първо да сортирате изтеглянията си?"
+
+msgctxt "MainToolbar|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3046,6 +3110,29 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Връзки"
 
+msgctxt "PluginBannerDialog|"
+msgid "Enjoy using %1 add-on?"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"We would like to ask you to help this add-on to reach its potential users."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"Please use your favorite social networks and forums to let the other people "
+"know about %1 and %2."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "Remind me later"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "OK"
+msgstr "OK"
+
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
 msgstr "Инсталирани."
@@ -3088,7 +3175,7 @@ msgstr "Инсталиране на добавка от файл"
 
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
-msgstr ""
+msgstr "Научете повече за добавките на %1"
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -3141,6 +3228,10 @@ msgstr "Желаете ли да ги инсталирате?"
 msgctxt "PluginsPage|"
 msgid "Would you like to install it?"
 msgstr "Желаете ли да го инсталирате?"
+
+msgctxt "PluginsPage|"
+msgid "No updates found"
+msgstr "Не са намерени актуализации"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
@@ -3901,6 +3992,10 @@ msgid "YouTube downloads are not available"
 msgstr "Изтеглянията от YouTube не са възможни"
 
 msgctxt "QObject|"
+msgid "Files were modified"
+msgstr "Файловете са модифицирани"
+
+msgctxt "QObject|"
 msgid "%1 of unknown at %2"
 msgstr "%1 от неизвестното при %2"
 
@@ -4002,16 +4097,20 @@ msgid "Allow remote access to %1 running on this device"
 msgstr "Позволяване на отдалечен достъп до %1 работещ на това устройство"
 
 msgctxt "RemoteControlSettings|"
-msgid "ID"
-msgstr "ID"
-
-msgctxt "RemoteControlSettings|"
 msgid "Password"
 msgstr "Парола"
 
 msgctxt "RemoteControlSettings|"
 msgid "Status"
 msgstr "Статус"
+
+msgctxt "RemoteControlSettings|"
+msgid "Don't use network proxy"
+msgstr "Да бе се използва мрежово прокси"
+
+msgctxt "RemoteControlSettings|"
+msgid "Remote control settings"
+msgstr "Настройки на дистанционното управление"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
@@ -4286,6 +4385,10 @@ msgid "Advanced"
 msgstr "Допълнителни"
 
 msgctxt "SettingsPage|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "Настройки"
 
@@ -4306,12 +4409,12 @@ msgid "Sounds settings"
 msgstr "Настройки за звуци"
 
 msgctxt "SettingsPage|"
-msgid "Advanced settings"
-msgstr "Разширени настройки"
+msgid "Remote control settings"
+msgstr "Настройки на дистанционното управление"
 
 msgctxt "SettingsPage|"
-msgid "Go back to default settings"
-msgstr "Връщане на настройките по подразбиране"
+msgid "Advanced settings"
+msgstr "Разширени настройки"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
@@ -4477,6 +4580,50 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr "Изтеглянето(ията) по-долу не могат да се възобновят след пауза"
 
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Title"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Description"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Name"
+msgstr "Име"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "E-mail"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Attach %1 log files (recommended)"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Required fields"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Close"
+msgstr "Затвори"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Cancel"
+msgstr "Отказ"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submitting"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit"
+msgstr ""
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "Изтегли субтитри"
@@ -4550,12 +4697,40 @@ msgid "Maximum number of simultaneous downloads"
 msgstr "Максимален брой едновременни изтегляния"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Maximum number of additional querying info downloads:"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "Невалидни настройки за лимит на  трафика"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
 msgstr "Лимит на трафика"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive logs..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Zip files"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Failed"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive service data..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Hide"
+msgstr "Скриване"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"

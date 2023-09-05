@@ -25,6 +25,10 @@ msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
 
 msgctxt "AboutDialog|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "wersja %1"
 
@@ -147,6 +151,10 @@ msgstr "Pokaż/ukryj panel dolny po kliknięciu na pobieranym pliku"
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr "Pokazuj aktywne pobierania i wysyłania poprzez ikonę zasobnika"
+
+msgctxt "AdvancedSettings|"
+msgid "Show built-in tags:"
+msgstr "Pokaż wbudowane tagi:"
 
 msgctxt "AdvancedSettings|"
 msgid "Automation"
@@ -353,11 +361,11 @@ msgstr "Trwają operacje bez możliwości wznowienia"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
-msgstr ""
+msgstr "Łączenie do zdalnego %1 (%2)..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
-msgstr ""
+msgstr "Pobieranie danych ze zdalnego %1 (%2)..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
@@ -925,6 +933,24 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Rozpocznij pobieranie"
 
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Extraneous files are detected"
+msgstr "Wykryto obce pliki"
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid ""
+"The following folder contains extraneous files. Do you still want to delete "
+"it?"
+msgstr "Poniższy folder zawiera obce pliki. Na pewno chcesz je usunąć?"
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Delete anyway"
+msgstr "Usuń na pewno"
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Cancel"
+msgstr "Anuluj"
+
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "Podłącz do zdalnego %1"
@@ -938,12 +964,18 @@ msgid "Here you can connect to %1 running on another device."
 msgstr "Tutaj możesz połączyć do %1 uruchomionego na innym urządzeniu."
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "ID:"
-msgstr "ID:"
-
-msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "Automatycznie podłącz przy starcie"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter %1, or <a href='#'>scan QR code</a>"
+msgstr ""
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid ""
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
@@ -962,10 +994,6 @@ msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
 "Tutaj możesz podłączyć się do %1 uruchomionego na Twoim komputerze z "
 "Windows/macOS/Linux"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr "Proszę podaj ID lub <a href='#'>zeskanuj kod QR</a>"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -1353,6 +1381,14 @@ msgid "Close this window when the download is completed or stopped"
 msgstr "Zamknij to okno po zakończeniu lub zatrzymaniu pobierania"
 
 msgctxt "DownloadWindow|"
+msgid "Remember to always close by default"
+msgstr "Pamiętaj, aby zawsze zamykać jako domyślne"
+
+msgctxt "DownloadWindow|"
+msgid "Remember to never close by default"
+msgstr "Pamiętaj, aby nigdy nie zamykać jako domyślne"
+
+msgctxt "DownloadWindow|"
 msgid "Hide"
 msgstr "Ukryj"
 
@@ -1443,6 +1479,10 @@ msgstr "Pokaż wszystkie"
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "Lista pobierania jest pusta. Dodaj nowy adres pobierania."
+
+msgctxt "DownloadsPage|"
+msgid "Connect to remote %1"
+msgstr "Podłącz do zdalnego %1"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -2240,15 +2280,23 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Zainstaluj aktualizacje automatycznie"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
+msgid "Check for updates automatically"
+msgstr "Sprawdzaj aktualizacje automatycznie"
+
+msgctxt "GeneralSettings2|"
+msgid "Install updates automatically"
+msgstr "Zainstaluj aktualizacje automatycznie"
+
+msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
 msgstr "Używaj połączeń komórkowych"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
 msgstr "Używaj danych w roamingu"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "Używanie danych mobilnych w roamingu może skutkować dodatkowymi opłatami."
@@ -2410,6 +2458,10 @@ msgid "Language"
 msgstr "Język"
 
 msgctxt "LeftDrawer|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "LeftDrawer|"
 msgid "Browser"
 msgstr "Przeglądarka"
 
@@ -2420,6 +2472,10 @@ msgstr "Ustawienia"
 msgctxt "LeftDrawer|"
 msgid "Contact support"
 msgstr "Pomoc techniczna"
+
+msgctxt "LeftDrawer|"
+msgid "Submit a bug report"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
@@ -2542,6 +2598,10 @@ msgid "Contact Support"
 msgstr "Pomoc techniczna"
 
 msgctxt "MainMenu|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "Auto Shutdown"
 msgstr "Automatyczne zamykanie"
 
@@ -2647,6 +2707,10 @@ msgstr "Menu główne"
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
 msgstr "Przełączyć na sortowanie listy wg ustawień użytkownika?"
+
+msgctxt "MainToolbar|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3052,6 +3116,29 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Połączenia"
 
+msgctxt "PluginBannerDialog|"
+msgid "Enjoy using %1 add-on?"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"We would like to ask you to help this add-on to reach its potential users."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"Please use your favorite social networks and forums to let the other people "
+"know about %1 and %2."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "Remind me later"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "OK"
+msgstr "OK"
+
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
 msgstr "Zainstalowany."
@@ -3147,6 +3234,10 @@ msgstr "Chcesz je zainstalować?"
 msgctxt "PluginsPage|"
 msgid "Would you like to install it?"
 msgstr "Chcesz go zainstalować?"
+
+msgctxt "PluginsPage|"
+msgid "No updates found"
+msgstr "Brak aktualizacji"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
@@ -3907,6 +3998,10 @@ msgid "YouTube downloads are not available"
 msgstr "Pobierania z YouTube nie są dostępne"
 
 msgctxt "QObject|"
+msgid "Files were modified"
+msgstr "Pliki zostały zmodyfikowane"
+
+msgctxt "QObject|"
 msgid "%1 of unknown at %2"
 msgstr "%1 z nieznanych przy %2"
 
@@ -4007,16 +4102,20 @@ msgid "Allow remote access to %1 running on this device"
 msgstr "Zezwól na zdalny dostęp do %1 uruchomionego na tym urządzeniu"
 
 msgctxt "RemoteControlSettings|"
-msgid "ID"
-msgstr "ID"
-
-msgctxt "RemoteControlSettings|"
 msgid "Password"
 msgstr "Hasło"
 
 msgctxt "RemoteControlSettings|"
 msgid "Status"
 msgstr "Status"
+
+msgctxt "RemoteControlSettings|"
+msgid "Don't use network proxy"
+msgstr "Nie używać sieciowego proxy"
+
+msgctxt "RemoteControlSettings|"
+msgid "Remote control settings"
+msgstr "Ustawienia zdalnej kontroli"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
@@ -4291,6 +4390,10 @@ msgid "Advanced"
 msgstr "Zaawansowane"
 
 msgctxt "SettingsPage|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "Ustawienia"
 
@@ -4311,12 +4414,12 @@ msgid "Sounds settings"
 msgstr "Ustawienia dźwięków"
 
 msgctxt "SettingsPage|"
-msgid "Advanced settings"
-msgstr "Ustawienia zaawansowane"
+msgid "Remote control settings"
+msgstr "Ustawienia zdalnej kontroli"
 
 msgctxt "SettingsPage|"
-msgid "Go back to default settings"
-msgstr "Wróć do ustawień domyślnych"
+msgid "Advanced settings"
+msgstr "Ustawienia zaawansowane"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
@@ -4482,6 +4585,50 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr "Po zatrzymaniu poniższe pobierania nie będą mogły być już wznowione"
 
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Title"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Description"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Name"
+msgstr "Nazwa"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "E-mail"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Attach %1 log files (recommended)"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Required fields"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Close"
+msgstr "Zamknij"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submitting"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit"
+msgstr ""
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "Pobierz napisy"
@@ -4555,12 +4702,40 @@ msgid "Maximum number of simultaneous downloads"
 msgstr "Maksymalna liczba jednoczesnych pobrań"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Maximum number of additional querying info downloads:"
+msgstr "Maksymalna liczba dodatkowych zapytań o pobraniach:"
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "Niepoprawne ustawienia limitów prędkości"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
 msgstr "Limity prędkości"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive logs..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Zip files"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Failed"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive service data..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Hide"
+msgstr "Ukryj"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"

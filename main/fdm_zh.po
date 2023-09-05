@@ -25,6 +25,10 @@ msgid "© %1, %2-%3"
 msgstr ""
 
 msgctxt "AboutDialog|"
+msgid "remote control"
+msgstr "远程控制"
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "版本 %1"
 
@@ -147,6 +151,10 @@ msgstr "单击下载项以展开/隐藏底部面板"
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr "在托盘图标中显示活动下载和上传速度"
+
+msgctxt "AdvancedSettings|"
+msgid "Show built-in tags:"
+msgstr "显示内建标签："
 
 msgctxt "AdvancedSettings|"
 msgid "Automation"
@@ -918,6 +926,24 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "开始下载"
 
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Extraneous files are detected"
+msgstr "检测到不属于下载项的文件"
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid ""
+"The following folder contains extraneous files. Do you still want to delete "
+"it?"
+msgstr "该文件夹包含不属于下载项的文件。您仍要删除它吗？"
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Delete anyway"
+msgstr "仍然删除"
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Cancel"
+msgstr "取消"
+
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "连接到远程 %1"
@@ -931,12 +957,18 @@ msgid "Here you can connect to %1 running on another device."
 msgstr "您可在此连接到其他设备上运行的 %1."
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "ID:"
-msgstr ""
-
-msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "启动时自动连接"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter %1, or <a href='#'>scan QR code</a>"
+msgstr "请输入 %1，或<a href='#'>扫描二维码</a>"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid ""
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
+msgstr "%1和二维码均位于您将连接到的%2的设置页面中"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
@@ -953,10 +985,6 @@ msgstr "确定"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr "您可在此连接到您Windows/macOS/Linux PC上运行的 %1"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr "请输入 ID，或<a href='#'>扫描二维码</a>"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -1334,6 +1362,14 @@ msgid "Close this window when the download is completed or stopped"
 msgstr "下载完成或停止时关闭此窗口"
 
 msgctxt "DownloadWindow|"
+msgid "Remember to always close by default"
+msgstr "默认设为每次都关闭"
+
+msgctxt "DownloadWindow|"
+msgid "Remember to never close by default"
+msgstr "默认设为从不关闭"
+
+msgctxt "DownloadWindow|"
 msgid "Hide"
 msgstr "隐藏"
 
@@ -1424,6 +1460,10 @@ msgstr "显示全部"
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "下载列表是空的. 添加新的下载链接。"
+
+msgctxt "DownloadsPage|"
+msgid "Connect to remote %1"
+msgstr "连接到远程 %1"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -2218,15 +2258,23 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "自动安装更新"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
+msgid "Check for updates automatically"
+msgstr "自动检查更新"
+
+msgctxt "GeneralSettings2|"
+msgid "Install updates automatically"
+msgstr "自动安装更新"
+
+msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
 msgstr "使用移动网络"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
 msgstr "允许数据漫游"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr "在漫游时使用移动数据可能产生额外费用。"
 
@@ -2387,6 +2435,10 @@ msgid "Language"
 msgstr "语言"
 
 msgctxt "LeftDrawer|"
+msgid "remote control"
+msgstr "远程控制"
+
+msgctxt "LeftDrawer|"
 msgid "Browser"
 msgstr "浏览器"
 
@@ -2397,6 +2449,10 @@ msgstr "设置"
 msgctxt "LeftDrawer|"
 msgid "Contact support"
 msgstr "联系支持"
+
+msgctxt "LeftDrawer|"
+msgid "Submit a bug report"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
@@ -2519,6 +2575,10 @@ msgid "Contact Support"
 msgstr "联系支持"
 
 msgctxt "MainMenu|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "Auto Shutdown"
 msgstr "自动关机"
 
@@ -2622,6 +2682,10 @@ msgstr "主菜单"
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
 msgstr "切换到用户定义的下载列表排序？"
+
+msgctxt "MainToolbar|"
+msgid "remote control"
+msgstr "远程控制"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3027,6 +3091,29 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "连接"
 
+msgctxt "PluginBannerDialog|"
+msgid "Enjoy using %1 add-on?"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"We would like to ask you to help this add-on to reach its potential users."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"Please use your favorite social networks and forums to let the other people "
+"know about %1 and %2."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "Remind me later"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "OK"
+msgstr "确定"
+
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
 msgstr "已安装。"
@@ -3122,6 +3209,10 @@ msgstr "您想安装它们吗？"
 msgctxt "PluginsPage|"
 msgid "Would you like to install it?"
 msgstr "您想安装它吗？"
+
+msgctxt "PluginsPage|"
+msgid "No updates found"
+msgstr "无可用更新"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
@@ -3878,6 +3969,10 @@ msgid "YouTube downloads are not available"
 msgstr "Youtube 下载不可用"
 
 msgctxt "QObject|"
+msgid "Files were modified"
+msgstr "文件已被更改"
+
+msgctxt "QObject|"
 msgid "%1 of unknown at %2"
 msgstr "%2 上 %1 是未知的"
 
@@ -3978,16 +4073,20 @@ msgid "Allow remote access to %1 running on this device"
 msgstr "允许远程访问运行在这台设备的 %1"
 
 msgctxt "RemoteControlSettings|"
-msgid "ID"
-msgstr "ID"
-
-msgctxt "RemoteControlSettings|"
 msgid "Password"
 msgstr "密码"
 
 msgctxt "RemoteControlSettings|"
 msgid "Status"
 msgstr "状态"
+
+msgctxt "RemoteControlSettings|"
+msgid "Don't use network proxy"
+msgstr "不使用网络代理"
+
+msgctxt "RemoteControlSettings|"
+msgid "Remote control settings"
+msgstr "远程控制设置"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
@@ -4262,6 +4361,10 @@ msgid "Advanced"
 msgstr "高级"
 
 msgctxt "SettingsPage|"
+msgid "Troubleshooting"
+msgstr "诊断"
+
+msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "设置"
 
@@ -4282,12 +4385,12 @@ msgid "Sounds settings"
 msgstr "声音设置"
 
 msgctxt "SettingsPage|"
-msgid "Advanced settings"
-msgstr "高级设置"
+msgid "Remote control settings"
+msgstr "远程控制设置"
 
 msgctxt "SettingsPage|"
-msgid "Go back to default settings"
-msgstr "返回默认设置"
+msgid "Advanced settings"
+msgstr "高级设置"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
@@ -4453,6 +4556,50 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr "下列下载项暂停后无法恢复"
 
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Title"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Description"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Name"
+msgstr "名称"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "E-mail"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Attach %1 log files (recommended)"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Required fields"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Close"
+msgstr "关闭"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submitting"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit"
+msgstr ""
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "下载字幕"
@@ -4526,12 +4673,40 @@ msgid "Maximum number of simultaneous downloads"
 msgstr "最大独立下载数"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Maximum number of additional querying info downloads:"
+msgstr "最大额外查询信息下载数："
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "流量限制设置错误"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
 msgstr "限速"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Troubleshooting"
+msgstr "诊断"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive logs..."
+msgstr "存档日志……"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Zip files"
+msgstr "Zip文件"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Failed"
+msgstr "失败"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive service data..."
+msgstr "压缩服务数据……"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Hide"
+msgstr "隐藏"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"

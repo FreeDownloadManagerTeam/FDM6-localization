@@ -25,6 +25,10 @@ msgid "© %1, %2-%3"
 msgstr ""
 
 msgctxt "AboutDialog|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "संस्करण %1"
 
@@ -148,6 +152,10 @@ msgstr "डाउनलोड पर क्लिक करके नीचे �
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr "ट्रे आइकन का उपयोग करके सक्रिय डाउनलोड और अपलोड इंगित करें"
+
+msgctxt "AdvancedSettings|"
+msgid "Show built-in tags:"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Automation"
@@ -924,6 +932,24 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "अधःभारण शुरू करें"
 
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Extraneous files are detected"
+msgstr ""
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid ""
+"The following folder contains extraneous files. Do you still want to delete "
+"it?"
+msgstr ""
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Delete anyway"
+msgstr ""
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Cancel"
+msgstr "रद्द करें"
+
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "%1 रिमोट से कनेक्ट करें"
@@ -937,12 +963,18 @@ msgid "Here you can connect to %1 running on another device."
 msgstr "यहां आप दूसरे डिवाइस पर चल रहे %1 से कनेक्ट कर सकते हैं।"
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "ID:"
+msgid "Automatically connect at startup"
+msgstr "स्टार्टअप पर स्वचालित रूप से कनेक्ट करें"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter %1, or <a href='#'>scan QR code</a>"
 msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "Automatically connect at startup"
-msgstr "स्टार्टअप पर स्वचालित रूप से कनेक्ट करें"
+msgid ""
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
@@ -959,10 +991,6 @@ msgstr "ठीक है"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr "यहां आप अपने विंडोज/मैकओएस/लिनक्स पीसी पर चल रहे %1 से जुड़ सकते हैं"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr "कृपया आईडी दर्ज करें, या <a href='#'>QR कोड स्कैन</a> करें"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -1349,6 +1377,14 @@ msgid "Close this window when the download is completed or stopped"
 msgstr "जब डाउनलोड पूरा हो जाए या रुक जाए तो इस विंडो को बंद कर दें"
 
 msgctxt "DownloadWindow|"
+msgid "Remember to always close by default"
+msgstr ""
+
+msgctxt "DownloadWindow|"
+msgid "Remember to never close by default"
+msgstr ""
+
+msgctxt "DownloadWindow|"
 msgid "Hide"
 msgstr "छिपाएं"
 
@@ -1439,6 +1475,10 @@ msgstr "सभी दिखाएं"
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "डाउनलोड सूची खाली है। नया डाउनलोड URL जोड़ें।"
+
+msgctxt "DownloadsPage|"
+msgid "Connect to remote %1"
+msgstr "%1 रिमोट से कनेक्ट करें"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -2233,15 +2273,23 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "अपडेट को स्वचालित रूप से इंस्टॉल करें"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
+msgid "Check for updates automatically"
+msgstr "स्वत: अपडेट के लिए जांचें"
+
+msgctxt "GeneralSettings2|"
+msgid "Install updates automatically"
+msgstr "अपडेट को स्वचालित रूप से इंस्टॉल करें"
+
+msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
 msgstr "मोबाइल नेटवर्क का प्रयोग करें"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
 msgstr "डेटा रोमिंग की अनुमति दें"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "रोमिंग के दौरान मोबाइल डेटा का उपयोग करने पर अतिरिक्त शुल्क लग सकते हैं।"
@@ -2403,6 +2451,10 @@ msgid "Language"
 msgstr "भाषा"
 
 msgctxt "LeftDrawer|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "LeftDrawer|"
 msgid "Browser"
 msgstr "ब्राउज़र"
 
@@ -2413,6 +2465,10 @@ msgstr "सेटिंग"
 msgctxt "LeftDrawer|"
 msgid "Contact support"
 msgstr "सहयोग टीम से संपर्क करें"
+
+msgctxt "LeftDrawer|"
+msgid "Submit a bug report"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
@@ -2535,6 +2591,10 @@ msgid "Contact Support"
 msgstr "सहयोग टीम से संपर्क करें"
 
 msgctxt "MainMenu|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "MainMenu|"
 msgid "Auto Shutdown"
 msgstr "स्वत: बंद"
 
@@ -2639,6 +2699,10 @@ msgstr "मुख्य मेन्यू"
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
 msgstr "डाउनलोड सूची की उपयोगकर्ता-निर्धारित छँटाई पर स्विच करें?"
+
+msgctxt "MainToolbar|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3044,6 +3108,29 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "सम्बन्ध"
 
+msgctxt "PluginBannerDialog|"
+msgid "Enjoy using %1 add-on?"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"We would like to ask you to help this add-on to reach its potential users."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"Please use your favorite social networks and forums to let the other people "
+"know about %1 and %2."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "Remind me later"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "OK"
+msgstr "ठीक है"
+
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
 msgstr "स्थापित।"
@@ -3139,6 +3226,10 @@ msgstr "क्या आप उन्हें स्थापित करन�
 msgctxt "PluginsPage|"
 msgid "Would you like to install it?"
 msgstr "क्या आप इसे स्थापित करना चाहेंगे?"
+
+msgctxt "PluginsPage|"
+msgid "No updates found"
+msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
@@ -3900,6 +3991,10 @@ msgid "YouTube downloads are not available"
 msgstr "YouTube डाउनलोड उपलब्ध नहीं हैं"
 
 msgctxt "QObject|"
+msgid "Files were modified"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "%1 of unknown at %2"
 msgstr "अज्ञात %1 का %2 पर"
 
@@ -4000,16 +4095,20 @@ msgid "Allow remote access to %1 running on this device"
 msgstr "इस डिवाइस पर चल रहे %1 को रिमोट एक्सेस की अनुमति दें"
 
 msgctxt "RemoteControlSettings|"
-msgid "ID"
-msgstr "पहचान"
-
-msgctxt "RemoteControlSettings|"
 msgid "Password"
 msgstr "पासवर्ड"
 
 msgctxt "RemoteControlSettings|"
 msgid "Status"
 msgstr "स्थिति"
+
+msgctxt "RemoteControlSettings|"
+msgid "Don't use network proxy"
+msgstr ""
+
+msgctxt "RemoteControlSettings|"
+msgid "Remote control settings"
+msgstr ""
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
@@ -4284,6 +4383,10 @@ msgid "Advanced"
 msgstr "एडवांस"
 
 msgctxt "SettingsPage|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Settings"
 msgstr "सेटिंग"
 
@@ -4304,12 +4407,12 @@ msgid "Sounds settings"
 msgstr "ध्वनि सेटिंग्स"
 
 msgctxt "SettingsPage|"
-msgid "Advanced settings"
-msgstr "एडवांस सेटिंग"
+msgid "Remote control settings"
+msgstr ""
 
 msgctxt "SettingsPage|"
-msgid "Go back to default settings"
-msgstr "डिफ़ॉल्ट सेटिंग्स पर वापस जाएँ"
+msgid "Advanced settings"
+msgstr "एडवांस सेटिंग"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
@@ -4475,6 +4578,50 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr "नीचे दिए गए डाउनलोड रुकने के बाद फिर से शुरू नहीं किए जा सकते हैं"
 
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Title"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Description"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Name"
+msgstr "नाम"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "E-mail"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Attach %1 log files (recommended)"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Required fields"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Close"
+msgstr "बंद करें"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Cancel"
+msgstr "रद्द करें"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submitting"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit"
+msgstr ""
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "उपशीर्षक डाउनलोड करें"
@@ -4548,12 +4695,40 @@ msgid "Maximum number of simultaneous downloads"
 msgstr "एक साथ डाउनलोड की अधिकतम संख्या"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Maximum number of additional querying info downloads:"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "अमान्य ट्रैफ़िक सीमा सेटिंग"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
 msgstr "यातायात सीमा"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive logs..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Zip files"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Failed"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive service data..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Hide"
+msgstr "छिपाएं"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"

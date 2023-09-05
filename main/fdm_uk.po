@@ -22,6 +22,10 @@ msgstr "Дата компіляції: (%1)"
 
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
+msgstr "© %1, %2-%3"
+
+msgctxt "AboutDialog|"
+msgid "remote control"
 msgstr ""
 
 msgctxt "AboutDialog|"
@@ -149,12 +153,16 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "Показувати активні завантаження і вивантаження через іконку в треї"
 
 msgctxt "AdvancedSettings|"
+msgid "Show built-in tags:"
+msgstr "Показати вбудовані теги:"
+
+msgctxt "AdvancedSettings|"
 msgid "Automation"
-msgstr ""
+msgstr "Автоматизація"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch external application on download completion"
-msgstr ""
+msgstr "Після завантаження запускати зовнішній застосунок"
 
 msgctxt "AdvancedSettings|"
 msgid "Path:"
@@ -162,7 +170,7 @@ msgstr "Шлях:"
 
 msgctxt "AdvancedSettings|"
 msgid "Please enter application's path"
-msgstr ""
+msgstr "Будь ласка, введіть шлях до застосунка"
 
 msgctxt "AdvancedSettings|"
 msgid "Arguments:"
@@ -257,7 +265,7 @@ msgstr "Завжди запитувати"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
-msgstr "Додаткові установки"
+msgstr "Додаткові налаштування"
 
 msgctxt "AdvancedSettings|"
 msgid "Choose theme"
@@ -353,11 +361,11 @@ msgstr "Деякі поточні операції не можна зупини�
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
-msgstr ""
+msgstr "З'єднання з віддаленим %1 (%2)..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
-msgstr ""
+msgstr "Отримання даних від віддаленого %1 (%2)..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
@@ -741,23 +749,23 @@ msgstr "Почати завантаження без підтвердження"
 
 msgctxt "BtSettings|"
 msgid "Privacy"
-msgstr ""
+msgstr "Приватність"
 
 msgctxt "BtSettings|"
 msgid "Encryption:"
-msgstr ""
+msgstr "Шифрування:"
 
 msgctxt "BtSettings|"
 msgid "No encryption allowed"
-msgstr ""
+msgstr "Шифрування заборонено"
 
 msgctxt "BtSettings|"
 msgid "Prefer encryption"
-msgstr ""
+msgstr "Надавати перевагу шифруванню"
 
 msgctxt "BtSettings|"
 msgid "Require encryption"
-msgstr ""
+msgstr "Вимагати шифрування"
 
 msgctxt "BtSettings|"
 msgid "Advanced"
@@ -765,7 +773,7 @@ msgstr "Додатково"
 
 msgctxt "BtSettings|"
 msgid "Current port: %1"
-msgstr ""
+msgstr "Поточний порт: %1"
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
@@ -925,6 +933,24 @@ msgctxt "ChangeUrlPage|"
 msgid "Start download"
 msgstr "Запустити завантаження"
 
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Extraneous files are detected"
+msgstr "Виявлено сторонні файли"
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid ""
+"The following folder contains extraneous files. Do you still want to delete "
+"it?"
+msgstr "Ця папка містить сторонні файли. Видалити її?"
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Delete anyway"
+msgstr "Все одно видалити"
+
+msgctxt "ConfirmDeleteExtraneousFilesDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "З'єднати з віддаленим %1"
@@ -938,12 +964,18 @@ msgid "Here you can connect to %1 running on another device."
 msgstr "Тут ви можете підключитися до  %1 запущеного на іншому пристрої."
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "ID:"
+msgid "Automatically connect at startup"
+msgstr "Автоматично підключатися при запуску"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter %1, or <a href='#'>scan QR code</a>"
 msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "Automatically connect at startup"
-msgstr "Автоматично підключатися при запуску"
+msgid ""
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
+msgstr ""
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
@@ -962,10 +994,6 @@ msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
 "Тут ви можете підключитися до  %1 запущеного на вашому ПК під "
 "Windows/macOS/Linux"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter ID, or <a href='#'>scan QR code</a>"
-msgstr "Будь ласка введіть ID, або <a href='#'>відскануйте QR код</a>"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -1293,15 +1321,15 @@ msgstr "Закрити"
 
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
-msgstr ""
+msgstr "[%1%] - %2"
 
 msgctxt "DownloadWindow|"
 msgid "Web page:"
-msgstr ""
+msgstr "Web сторінка:"
 
 msgctxt "DownloadWindow|"
 msgid "Resource URL:"
-msgstr ""
+msgstr "URL ресурсу:"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
@@ -1333,7 +1361,7 @@ msgstr "Завантажений"
 
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
-msgstr ""
+msgstr "%1% [%2]"
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -1350,6 +1378,14 @@ msgstr "Відкрити завантаження після його завер
 msgctxt "DownloadWindow|"
 msgid "Close this window when the download is completed or stopped"
 msgstr "Закрити це вікно, коли завантаження завершиться або зупиниться"
+
+msgctxt "DownloadWindow|"
+msgid "Remember to always close by default"
+msgstr "Не забувати завжди закривати за замовчуванням"
+
+msgctxt "DownloadWindow|"
+msgid "Remember to never close by default"
+msgstr "Не забувати ніколи не закривати за замовчуванням"
 
 msgctxt "DownloadWindow|"
 msgid "Hide"
@@ -1443,9 +1479,13 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "Список завантажень пустий. Додайте нову URL адресу."
 
+msgctxt "DownloadsPage|"
+msgid "Connect to remote %1"
+msgstr "З'єднати з віддаленим %1"
+
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
-msgstr "Установки завантажень"
+msgstr "Налаштування завантажень"
 
 msgctxt "DownloadsSettings|"
 msgid "Start downloading without confirmation"
@@ -1461,15 +1501,15 @@ msgstr "Автоматично прибирати завершені заван�
 
 msgctxt "DownloadsSettings|"
 msgid "Immediately"
-msgstr ""
+msgstr "Негайно"
 
 msgctxt "DownloadsSettings|"
 msgid "In"
-msgstr ""
+msgstr "За"
 
 msgctxt "DownloadsSettings|"
 msgid "days"
-msgstr ""
+msgstr "днів"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
@@ -1477,7 +1517,7 @@ msgstr "Автоматично перезапускати невдалі зав�
 
 msgctxt "DownloadsSettings|"
 msgid "Detect unwanted behavior errors"
-msgstr ""
+msgstr "Виявляти помилки/небажану поведінку"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1879,7 +1919,7 @@ msgstr "Скасувати"
 
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
-msgstr "%1 файлів установок (%2)"
+msgstr "%1 файлів налаштувань (%2)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
@@ -2199,15 +2239,15 @@ msgstr "Автоматично прибирати завершені заван�
 
 msgctxt "GeneralSettings|"
 msgid "Immediately"
-msgstr ""
+msgstr "Негайно"
 
 msgctxt "GeneralSettings|"
 msgid "In"
-msgstr ""
+msgstr "За"
 
 msgctxt "GeneralSettings|"
 msgid "days"
-msgstr ""
+msgstr "днів"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
@@ -2215,7 +2255,7 @@ msgstr "Автоматично перезапускати невдалі зав�
 
 msgctxt "GeneralSettings|"
 msgid "Detect unwanted behavior errors"
-msgstr ""
+msgstr "Виявляти помилки/небажану поведінку"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -2237,15 +2277,23 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Автоматично встановлювати оновлення"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
+msgid "Check for updates automatically"
+msgstr "Автоматично перевіряти оновлення"
+
+msgctxt "GeneralSettings2|"
+msgid "Install updates automatically"
+msgstr "Автоматично встановлювати оновлення"
+
+msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
 msgstr "Використовувати мобільну мережу"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
 msgstr "Дозволити роумінг даних"
 
-msgctxt "GeneralSettings|"
+msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "За використання мобільних даних у роумінгу може стягуватися додаткова плата."
@@ -2356,7 +2404,7 @@ msgstr "%1 файлів завантажень (%2)"
 
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
-msgstr "%1 файлів установок (%2)"
+msgstr "%1 файлів налаштувань (%2)"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
@@ -2407,6 +2455,10 @@ msgid "Language"
 msgstr "Мова"
 
 msgctxt "LeftDrawer|"
+msgid "remote control"
+msgstr ""
+
+msgctxt "LeftDrawer|"
 msgid "Browser"
 msgstr "Браузер"
 
@@ -2417,6 +2469,10 @@ msgstr "Налаштування"
 msgctxt "LeftDrawer|"
 msgid "Contact support"
 msgstr "Технічна підтримка"
+
+msgctxt "LeftDrawer|"
+msgid "Submit a bug report"
+msgstr ""
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
@@ -2520,11 +2576,11 @@ msgstr "Імпортувати завантаження"
 
 msgctxt "MainMenu|"
 msgid "Export settings"
-msgstr "Експортувати установки"
+msgstr "Експортувати налаштування"
 
 msgctxt "MainMenu|"
 msgid "Import settings"
-msgstr "Імпортувати установки"
+msgstr "Імпортувати налаштування"
 
 msgctxt "MainMenu|"
 msgid "Add-ons..."
@@ -2537,6 +2593,10 @@ msgstr "Вподобання..."
 msgctxt "MainMenu|"
 msgid "Contact Support"
 msgstr "Технічна підтримка"
+
+msgctxt "MainMenu|"
+msgid "Submit a bug report"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Auto Shutdown"
@@ -2644,6 +2704,10 @@ msgstr "Головне меню"
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
 msgstr "Переключитись на сортування завантажень, визначене користувачем?"
+
+msgctxt "MainToolbar|"
+msgid "remote control"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3049,6 +3113,29 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "З'єднання"
 
+msgctxt "PluginBannerDialog|"
+msgid "Enjoy using %1 add-on?"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"We would like to ask you to help this add-on to reach its potential users."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"Please use your favorite social networks and forums to let the other people "
+"know about %1 and %2."
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "Remind me later"
+msgstr ""
+
+msgctxt "PluginBannerDialog|"
+msgid "OK"
+msgstr "OK"
+
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
 msgstr "Встановлено."
@@ -3091,7 +3178,7 @@ msgstr "Встановити додаток з файлу"
 
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
-msgstr ""
+msgstr "Дізнатися більше про  %1 додатки"
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -3144,6 +3231,10 @@ msgstr "Ви справді хочете їх встановити?"
 msgctxt "PluginsPage|"
 msgid "Would you like to install it?"
 msgstr "Ви справді хочете його встановити?"
+
+msgctxt "PluginsPage|"
+msgid "No updates found"
+msgstr "Оновлень не знайдено"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
@@ -3259,7 +3350,7 @@ msgctxt ""
 "languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
 "to get proper UI layout."
 msgid "QT_LAYOUT_DIRECTION"
-msgstr ""
+msgstr "QT_LAYOUT_DIRECTION"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -3375,39 +3466,39 @@ msgstr "%1 Т"
 
 msgctxt "QObject|"
 msgid "%1 B/s"
-msgstr ""
+msgstr "%1 б/с"
 
 msgctxt "QObject|"
 msgid "%1 KB/s"
-msgstr ""
+msgstr "%1 Кб/с"
 
 msgctxt "QObject|"
 msgid "%1 MB/s"
-msgstr ""
+msgstr "%1 Мб/с"
 
 msgctxt "QObject|"
 msgid "%1 GB/s"
-msgstr ""
+msgstr "%1 Гб/с"
 
 msgctxt "QObject|"
 msgid "%1 TB/s"
-msgstr ""
+msgstr "%1 Тб/с"
 
 msgctxt "QObject|"
 msgid "%1 K/s"
-msgstr ""
+msgstr "%1 К/с"
 
 msgctxt "QObject|"
 msgid "%1 M/s"
-msgstr ""
+msgstr "%1 М/с"
 
 msgctxt "QObject|"
 msgid "%1 G/s"
-msgstr ""
+msgstr "%1 Г/с"
 
 msgctxt "QObject|"
 msgid "%1 T/s"
-msgstr ""
+msgstr "%1 Т/с"
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3711,7 +3802,7 @@ msgstr "Не знайдено"
 
 msgctxt "QObject|"
 msgid "Incompatible version"
-msgstr ""
+msgstr "Несумісна версія"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -3771,11 +3862,11 @@ msgstr "Помилка при оброюці вмісту сторінки"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior"
-msgstr ""
+msgstr "Небажана повкдінка"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior detected"
-msgstr ""
+msgstr "Виявлено небажану повкдінку"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -3904,6 +3995,10 @@ msgid "YouTube downloads are not available"
 msgstr "Завантаження з YouTube недоступне"
 
 msgctxt "QObject|"
+msgid "Files were modified"
+msgstr "Файли було модифіковано"
+
+msgctxt "QObject|"
 msgid "%1 of unknown at %2"
 msgstr "%1 з невідомо на %2"
 
@@ -4004,16 +4099,20 @@ msgid "Allow remote access to %1 running on this device"
 msgstr "Дозвольте віддалений доступ до %1 запущеного на цьому пристрої"
 
 msgctxt "RemoteControlSettings|"
-msgid "ID"
-msgstr "ID"
-
-msgctxt "RemoteControlSettings|"
 msgid "Password"
 msgstr "Пароль"
 
 msgctxt "RemoteControlSettings|"
 msgid "Status"
 msgstr "Статус"
+
+msgctxt "RemoteControlSettings|"
+msgid "Don't use network proxy"
+msgstr "Не використовувати проксі"
+
+msgctxt "RemoteControlSettings|"
+msgid "Remote control settings"
+msgstr "Налаштування віддаленого керування"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
@@ -4288,16 +4387,20 @@ msgid "Advanced"
 msgstr "Додатково"
 
 msgctxt "SettingsPage|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "SettingsPage|"
 msgid "Settings"
-msgstr "Установки"
+msgstr "Налаштування"
 
 msgctxt "SettingsPage|"
 msgid "Downloads settings"
-msgstr "Установки завантажень"
+msgstr "Налаштування завантажень"
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
-msgstr "Установки мережі"
+msgstr "Налаштування мережі"
 
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
@@ -4308,12 +4411,12 @@ msgid "Sounds settings"
 msgstr "Налаштування звуку"
 
 msgctxt "SettingsPage|"
-msgid "Advanced settings"
-msgstr "Додаткові установки"
+msgid "Remote control settings"
+msgstr "Налаштування віддаленого керування"
 
 msgctxt "SettingsPage|"
-msgid "Go back to default settings"
-msgstr "Повернутися до налаштувань за замовчуванням"
+msgid "Advanced settings"
+msgstr "Додаткові налаштування"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
@@ -4484,6 +4587,50 @@ msgid "The download(s) below can't be resumed after pausing"
 msgstr ""
 "Завантаження, зазначене(і) нижче, не можна відновити після призупинення"
 
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Title"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Description"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Name"
+msgstr "Ім'я"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "E-mail"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Attach %1 log files (recommended)"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Required fields"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Close"
+msgstr "Закрити"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submitting"
+msgstr ""
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit"
+msgstr ""
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "Завантажити субтитри"
@@ -4557,12 +4704,40 @@ msgid "Maximum number of simultaneous downloads"
 msgstr "Максимальна кількість одночасних завантажень"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Maximum number of additional querying info downloads:"
+msgstr "Максимальна кількість додаткових запитів інформації завантажень:"
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
-msgstr "Невірні установки границь трафіку"
+msgstr "Неправильні налаштування границь трафіку"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
 msgstr "Обмеження трафіку"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Troubleshooting"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive logs..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Zip files"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Failed"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Archive service data..."
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Hide"
+msgstr "Сховати"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
