@@ -121,11 +121,7 @@ msgid "Power management"
 msgstr "Διαχείριση ενέργειας"
 
 msgctxt "AdvancedSettings|"
-msgid "Don't put your computer to sleep if there is an active download"
-msgstr ""
-
-msgctxt "AdvancedSettings|"
-msgid "Enable sleep mode while running finished downloads"
+msgid "Allow sleep mode while sharing files"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
@@ -201,6 +197,14 @@ msgid "Backup the list of downloads every"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is an active download"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Allow sleep mode if downloads can be resumed later"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
 msgstr ""
 
@@ -223,6 +227,10 @@ msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Do not share files when running on battery"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
@@ -492,6 +500,14 @@ msgstr "3 ώρες"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 μέρα"
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Server has returned a web page."
+msgstr ""
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Click to open it in the web browser."
+msgstr ""
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -1256,6 +1272,10 @@ msgid "Size: %1 (Disk space: %2)"
 msgstr "Μέγεθος: %1 (Χωρητικότητα δίσκου: %2)"
 
 msgctxt "DiskSpace|"
+msgid "Disk space: %1"
+msgstr ""
+
+msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Μέγεθος: %1"
 
@@ -1366,8 +1386,8 @@ msgid "Hide"
 msgstr ""
 
 msgctxt "DownloadWindow|"
-msgid "Show In Folder"
-msgstr "Εμφάνιση Στο Φάκελο"
+msgid "Show in folder"
+msgstr "Παράσταση στο φάκελο"
 
 msgctxt "DownloadWindow|"
 msgid "Open"
@@ -1490,7 +1510,7 @@ msgid "Automatically retry failed downloads"
 msgstr ""
 
 msgctxt "DownloadsSettings|"
-msgid "Detect unwanted behavior errors"
+msgid "Do not download web pages"
 msgstr ""
 
 msgctxt "DownloadsSettings|"
@@ -1574,10 +1594,6 @@ msgid "Open"
 msgstr "Άνοιγμα"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show In Folder"
-msgstr "Εμφάνιση Στο Φάκελο"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr ""
 
@@ -1586,16 +1602,16 @@ msgid "Enable auto retry for this kind of errors"
 msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show Downloads"
-msgstr "Εμφάνιση Λήψεων"
+msgid "Save and complete"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Choose Files..."
-msgstr "Επιλογή Αρχείων..."
+msgid "Show downloads"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Set Priority"
-msgstr "Ορισμός προτεραιότητας"
+msgid "Choose files..."
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -1650,7 +1666,7 @@ msgid "Export selected downloads"
 msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Add Tag"
+msgid "Add tag"
 msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
@@ -2091,16 +2107,16 @@ msgid "Select none"
 msgstr "Αποεπιλογή όλων"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "High Priority"
-msgstr "Υψηλή προτεραιότητας"
+msgid "High priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Normal Priority"
-msgstr "Κανονική προτεραιότητα"
+msgid "Normal priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Low Priority"
-msgstr "Χαμηλή προτεραιότητας"
+msgid "Low priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -2111,11 +2127,11 @@ msgid "Open"
 msgstr "Άνοιγμα"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Show in Folder"
+msgid "Show in folder"
 msgstr "Παράσταση στο φάκελο"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "File Integrity"
+msgid "File integrity"
 msgstr "Ακεραιότητα του αρχείου"
 
 msgctxt "FilesTreeContextMenu|"
@@ -2227,7 +2243,7 @@ msgid "Automatically retry failed downloads"
 msgstr ""
 
 msgctxt "GeneralSettings|"
-msgid "Detect unwanted behavior errors"
+msgid "Do not download web pages"
 msgstr ""
 
 msgctxt "GeneralSettings|"
@@ -2527,11 +2543,11 @@ msgid "OK to remove tag?"
 msgstr ""
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from Clipboard"
+msgid "Paste urls from clipboard"
 msgstr ""
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from File"
+msgid "Paste urls from file"
 msgstr ""
 
 msgctxt "MainMenu|"
@@ -2563,15 +2579,19 @@ msgid "Preferences..."
 msgstr "Προτιμήσεις..."
 
 msgctxt "MainMenu|"
-msgid "Contact Support"
+msgid "Contact support"
 msgstr "Επικοινωνήστε Με Την Υποστήριξη"
 
 msgctxt "MainMenu|"
-msgid "Submit a bug report"
+msgid "Auto shutdown"
 msgstr ""
 
 msgctxt "MainMenu|"
-msgid "Auto Shutdown"
+msgid "Check for updates..."
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Submit a bug report"
 msgstr ""
 
 msgctxt "MainMenu|"
@@ -2597,10 +2617,6 @@ msgstr ""
 msgctxt "MainMenu|"
 msgid "Create portable version"
 msgstr ""
-
-msgctxt "MainMenu|"
-msgid "Check for Updates..."
-msgstr "Έλεγχος για Ενημερώσεις..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
@@ -3070,6 +3086,14 @@ msgstr ""
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
+msgstr ""
+
+msgctxt "NoResumeSupportBlock|"
+msgid "This download may not support resuming."
+msgstr ""
+
+msgctxt "NoResumeSupportBlock|"
+msgid "Prevent sleep mode when downloading files that don't support resuming"
 msgstr ""
 
 msgctxt "Page|"
@@ -4008,6 +4032,10 @@ msgctxt "QObject|"
 msgid "Playlist"
 msgstr ""
 
+msgctxt "QObject|"
+msgid "Open folder"
+msgstr ""
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr ""
@@ -4693,6 +4721,18 @@ msgid "Archive service data..."
 msgstr ""
 
 msgctxt "TroubleshootingSettings|"
+msgid "Enable enhanced logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable LT alerts logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Restart is required"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr ""
 
@@ -4791,6 +4831,10 @@ msgstr ""
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Μέγεθος: %1 (Χωρητικότητα δίσκου: %2)"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Disk space: %1"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"

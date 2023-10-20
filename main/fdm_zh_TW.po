@@ -121,12 +121,8 @@ msgid "Power management"
 msgstr "電源管理"
 
 msgctxt "AdvancedSettings|"
-msgid "Don't put your computer to sleep if there is an active download"
-msgstr "有進行中的下載時防止電腦進入睡眠"
-
-msgctxt "AdvancedSettings|"
-msgid "Enable sleep mode while running finished downloads"
-msgstr "完成下載後啟用睡眠模式"
+msgid "Allow sleep mode while sharing files"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -201,6 +197,14 @@ msgid "Backup the list of downloads every"
 msgstr "備份下載清單，每"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is an active download"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Allow sleep mode if downloads can be resumed later"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
 msgstr "檔案存在時的反應"
 
@@ -224,6 +228,10 @@ msgstr "使用電池時，不允許下載執行完成後的工作"
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "電池低電量時，不允許下載"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not share files when running on battery"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
@@ -492,6 +500,14 @@ msgstr "3 小時"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 天"
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Server has returned a web page."
+msgstr ""
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Click to open it in the web browser."
+msgstr ""
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -1264,6 +1280,10 @@ msgid "Size: %1 (Disk space: %2)"
 msgstr "大小: %1 (磁碟空間: %2)"
 
 msgctxt "DiskSpace|"
+msgid "Disk space: %1"
+msgstr ""
+
+msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "大小: %1"
 
@@ -1374,7 +1394,7 @@ msgid "Hide"
 msgstr "隱藏"
 
 msgctxt "DownloadWindow|"
-msgid "Show In Folder"
+msgid "Show in folder"
 msgstr "在資料夾中顯示"
 
 msgctxt "DownloadWindow|"
@@ -1498,8 +1518,8 @@ msgid "Automatically retry failed downloads"
 msgstr "自動重試失敗的下載"
 
 msgctxt "DownloadsSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "偵測非預期行為錯誤"
+msgid "Do not download web pages"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1582,10 +1602,6 @@ msgid "Open"
 msgstr "開啟"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show In Folder"
-msgstr "在資料夾中顯示"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "回報問題"
 
@@ -1594,16 +1610,16 @@ msgid "Enable auto retry for this kind of errors"
 msgstr "為此錯誤類型啟用自動重試"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show Downloads"
-msgstr "顯示下載項目"
+msgid "Save and complete"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Choose Files..."
-msgstr "選擇檔案…"
+msgid "Show downloads"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Set Priority"
-msgstr "設定優先順序"
+msgid "Choose files..."
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -1658,7 +1674,7 @@ msgid "Export selected downloads"
 msgstr "匯出選取的下載項目"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Add Tag"
+msgid "Add tag"
 msgstr "新增標籤"
 
 msgctxt "DownloadsViewItemContextMenu|"
@@ -2099,16 +2115,16 @@ msgid "Select none"
 msgstr "全部不選"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "High Priority"
-msgstr "高優先順序"
+msgid "High priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Normal Priority"
-msgstr "中優先順序"
+msgid "Normal priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Low Priority"
-msgstr "低優先順序"
+msgid "Low priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -2119,11 +2135,11 @@ msgid "Open"
 msgstr "開啟"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Show in Folder"
+msgid "Show in folder"
 msgstr "在資料夾中顯示"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "File Integrity"
+msgid "File integrity"
 msgstr "檔案完整性"
 
 msgctxt "FilesTreeContextMenu|"
@@ -2235,8 +2251,8 @@ msgid "Automatically retry failed downloads"
 msgstr "自動重試失敗的下載"
 
 msgctxt "GeneralSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "偵測非預期行為錯誤"
+msgid "Do not download web pages"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -2535,12 +2551,12 @@ msgid "OK to remove tag?"
 msgstr "確定要移除標籤嗎？"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from Clipboard"
-msgstr "從剪貼簿貼上 URL"
+msgid "Paste urls from clipboard"
+msgstr ""
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from File"
-msgstr "從文字檔貼上 URL"
+msgid "Paste urls from file"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
@@ -2571,16 +2587,20 @@ msgid "Preferences..."
 msgstr "偏好設定…"
 
 msgctxt "MainMenu|"
-msgid "Contact Support"
+msgid "Contact support"
 msgstr "聯絡支援"
+
+msgctxt "MainMenu|"
+msgid "Auto shutdown"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Check for updates..."
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
 msgstr "提交錯誤報告"
-
-msgctxt "MainMenu|"
-msgid "Auto Shutdown"
-msgstr "自動關機"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
@@ -2605,10 +2625,6 @@ msgstr "連線至遠端 %1"
 msgctxt "MainMenu|"
 msgid "Create portable version"
 msgstr "建立可攜式版本"
-
-msgctxt "MainMenu|"
-msgid "Check for Updates..."
-msgstr "檢查更新…"
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
@@ -3078,6 +3094,14 @@ msgstr "無效數值"
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "必須為數字且大於 0。"
+
+msgctxt "NoResumeSupportBlock|"
+msgid "This download may not support resuming."
+msgstr ""
+
+msgctxt "NoResumeSupportBlock|"
+msgid "Prevent sleep mode when downloading files that don't support resuming"
+msgstr ""
 
 msgctxt "Page|"
 msgid "Info"
@@ -4022,6 +4046,10 @@ msgctxt "QObject|"
 msgid "Playlist"
 msgstr "播放清單"
 
+msgctxt "QObject|"
+msgid "Open folder"
+msgstr ""
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::不支援對 GZIP 的附加"
@@ -4707,6 +4735,18 @@ msgid "Archive service data..."
 msgstr "封存服務資料…"
 
 msgctxt "TroubleshootingSettings|"
+msgid "Enable enhanced logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable LT alerts logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Restart is required"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "隱藏"
 
@@ -4805,6 +4845,10 @@ msgstr "您所選擇的資料夾沒有寫入權限"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "大小: %1 (磁碟空間: %2)"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Disk space: %1"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"

@@ -121,12 +121,8 @@ msgid "Power management"
 msgstr "مدیریت انرژی"
 
 msgctxt "AdvancedSettings|"
-msgid "Don't put your computer to sleep if there is an active download"
-msgstr "اگر دانلودی در جریان است، کامپیوتر خود را به حالت خواب نبرید"
-
-msgctxt "AdvancedSettings|"
-msgid "Enable sleep mode while running finished downloads"
-msgstr "حالت خواب را هنگام اجرای دانلودهای به پایان رسیده فعال کنید"
+msgid "Allow sleep mode while sharing files"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -201,6 +197,14 @@ msgid "Backup the list of downloads every"
 msgstr "بکاپ گرفتن از لیست دانلودها هر"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is an active download"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Allow sleep mode if downloads can be resumed later"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
 msgstr ""
 
@@ -224,6 +228,10 @@ msgstr "در زمان استفاده از باتری اجازه اجرا عمل�
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "اگر شارژ باطری به حداقل رسید اجازه دانلود وجود ندارد"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not share files when running on battery"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
@@ -492,6 +500,14 @@ msgstr "3 ساعت"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 روز"
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Server has returned a web page."
+msgstr ""
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Click to open it in the web browser."
+msgstr ""
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -1272,6 +1288,10 @@ msgid "Size: %1 (Disk space: %2)"
 msgstr "حجم: %1 (فضای دیسک: %2)"
 
 msgctxt "DiskSpace|"
+msgid "Disk space: %1"
+msgstr ""
+
+msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "حجم: %1"
 
@@ -1382,7 +1402,7 @@ msgid "Hide"
 msgstr "پنهان"
 
 msgctxt "DownloadWindow|"
-msgid "Show In Folder"
+msgid "Show in folder"
 msgstr "نمایش در پوشه"
 
 msgctxt "DownloadWindow|"
@@ -1506,7 +1526,7 @@ msgid "Automatically retry failed downloads"
 msgstr "تکرار خودکار دانلودهای لغو شده"
 
 msgctxt "DownloadsSettings|"
-msgid "Detect unwanted behavior errors"
+msgid "Do not download web pages"
 msgstr ""
 
 msgctxt "DownloadsSettings|"
@@ -1590,10 +1610,6 @@ msgid "Open"
 msgstr "باز کردن"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show In Folder"
-msgstr "نمایش در پوشه"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "گزارش مشکل"
 
@@ -1602,16 +1618,16 @@ msgid "Enable auto retry for this kind of errors"
 msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show Downloads"
-msgstr "نمایش دانلودها"
+msgid "Save and complete"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Choose Files..."
-msgstr "انتخاب فایل ها..."
+msgid "Show downloads"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Set Priority"
-msgstr "انتخاب اولویت"
+msgid "Choose files..."
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -1666,7 +1682,7 @@ msgid "Export selected downloads"
 msgstr "بیرون بردن دانلودهای انتخاب شده"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Add Tag"
+msgid "Add tag"
 msgstr "افزودن برچسب"
 
 msgctxt "DownloadsViewItemContextMenu|"
@@ -2107,16 +2123,16 @@ msgid "Select none"
 msgstr "انتخاب هیچ کدام"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "High Priority"
-msgstr "اولویت زیاد"
+msgid "High priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Normal Priority"
-msgstr "اولویت معمولی"
+msgid "Normal priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Low Priority"
-msgstr "اولویت کم"
+msgid "Low priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -2127,11 +2143,11 @@ msgid "Open"
 msgstr "باز کردن"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Show in Folder"
+msgid "Show in folder"
 msgstr "نمایش در پوشه"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "File Integrity"
+msgid "File integrity"
 msgstr "یکپارچگی فایل"
 
 msgctxt "FilesTreeContextMenu|"
@@ -2243,7 +2259,7 @@ msgid "Automatically retry failed downloads"
 msgstr "تکرار خودکار دانلودهای لغو شده"
 
 msgctxt "GeneralSettings|"
-msgid "Detect unwanted behavior errors"
+msgid "Do not download web pages"
 msgstr ""
 
 msgctxt "GeneralSettings|"
@@ -2543,12 +2559,12 @@ msgid "OK to remove tag?"
 msgstr ""
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from Clipboard"
-msgstr "قرار دادن URLها از کلیپ بورد"
+msgid "Paste urls from clipboard"
+msgstr ""
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from File"
-msgstr "قرار دادن URLها از فایل"
+msgid "Paste urls from file"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
@@ -2579,16 +2595,20 @@ msgid "Preferences..."
 msgstr "تنظیمات..."
 
 msgctxt "MainMenu|"
-msgid "Contact Support"
+msgid "Contact support"
 msgstr "ارتباط با پشتیبانی"
+
+msgctxt "MainMenu|"
+msgid "Auto shutdown"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Check for updates..."
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
 msgstr ""
-
-msgctxt "MainMenu|"
-msgid "Auto Shutdown"
-msgstr "خاموش شدن خودکار"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
@@ -2613,10 +2633,6 @@ msgstr ""
 msgctxt "MainMenu|"
 msgid "Create portable version"
 msgstr "ساخت نسخه قابل حمل"
-
-msgctxt "MainMenu|"
-msgid "Check for Updates..."
-msgstr "بررسی بروزرسانی..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
@@ -3086,6 +3102,14 @@ msgstr "مقدار نامعتبر"
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "عدد باید بیشتر از ۰ باشد."
+
+msgctxt "NoResumeSupportBlock|"
+msgid "This download may not support resuming."
+msgstr ""
+
+msgctxt "NoResumeSupportBlock|"
+msgid "Prevent sleep mode when downloading files that don't support resuming"
+msgstr ""
 
 msgctxt "Page|"
 msgid "Info"
@@ -4031,6 +4055,10 @@ msgctxt "QObject|"
 msgid "Playlist"
 msgstr "لیست پخش"
 
+msgctxt "QObject|"
+msgid "Open folder"
+msgstr ""
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr ""
@@ -4716,6 +4744,18 @@ msgid "Archive service data..."
 msgstr ""
 
 msgctxt "TroubleshootingSettings|"
+msgid "Enable enhanced logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable LT alerts logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Restart is required"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "پنهان"
 
@@ -4814,6 +4854,10 @@ msgstr "مجوز نوشتن برای پوشه انتخاب شده وجود ند�
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "حجم: %1 (فضای دیسک: %2)"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Disk space: %1"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
