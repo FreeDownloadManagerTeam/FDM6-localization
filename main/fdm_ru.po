@@ -121,12 +121,8 @@ msgid "Power management"
 msgstr "Энергопотребление"
 
 msgctxt "AdvancedSettings|"
-msgid "Don't put your computer to sleep if there is an active download"
-msgstr "Не включать режим сна компьютера при наличии активных загрузок"
-
-msgctxt "AdvancedSettings|"
-msgid "Enable sleep mode while running finished downloads"
-msgstr "Переводить компьютер в режим сна по завершении активных загрузок"
+msgid "Allow sleep mode while sharing files"
+msgstr "Разрешить спящий режим при раздаче файлов"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -162,7 +158,7 @@ msgstr "Автоматизация"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch external application on download completion"
-msgstr "Запустить внешнее приложение по завершении загрузки"
+msgstr "Запустить внешнее приложение после завершения загрузки"
 
 msgctxt "AdvancedSettings|"
 msgid "Path:"
@@ -201,6 +197,14 @@ msgid "Backup the list of downloads every"
 msgstr "Резервное копирование списка загрузок раз в"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is an active download"
+msgstr "Запретить перевод компьютера в спящий режим при наличии активных загрузок"
+
+msgctxt "AdvancedSettings|"
+msgid "Allow sleep mode if downloads can be resumed later"
+msgstr "Разрешить спящий режим, если закачки могут быть возобновлены позже"
+
+msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
 msgstr "Если файл уже существует"
 
@@ -225,6 +229,10 @@ msgstr ""
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "Остановить загрузки при уровне заряда батареи ниже"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not share files when running on battery"
+msgstr "Не раздавать файлы при работе от батареи"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
@@ -308,7 +316,7 @@ msgstr "Аргументы должны содержать переменную 
 
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
-msgstr "Автоматически проверять на вирусы по завершении загрузки"
+msgstr "Автоматически проверять на вирусы после завершения загрузки"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
@@ -493,6 +501,14 @@ msgstr "3 часа"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 день"
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Server has returned a web page."
+msgstr "Сервер вернул веб страницу."
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Click to open it in the web browser."
+msgstr "Кликните для открытия веб страницы в веб браузере."
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -748,7 +764,7 @@ msgstr "Загружать файлы без подтверждения"
 
 msgctxt "BtSettings|"
 msgid "Privacy"
-msgstr "Секретность"
+msgstr "Конфиденциальность"
 
 msgctxt "BtSettings|"
 msgid "Encryption:"
@@ -1280,6 +1296,10 @@ msgid "Size: %1 (Disk space: %2)"
 msgstr "Размер: %1 (Место на диске: %2)"
 
 msgctxt "DiskSpace|"
+msgid "Disk space: %1"
+msgstr "Место на диске: %1"
+
+msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Размер: %1"
 
@@ -1375,7 +1395,7 @@ msgstr "Времени осталось"
 
 msgctxt "DownloadWindow|"
 msgid "Open download when it is completed"
-msgstr "Открыть загрузку по завершении"
+msgstr "Открыть загрузку после завершения"
 
 msgctxt "DownloadWindow|"
 msgid "Close this window when the download is completed or stopped"
@@ -1394,7 +1414,7 @@ msgid "Hide"
 msgstr "Скрыть"
 
 msgctxt "DownloadWindow|"
-msgid "Show In Folder"
+msgid "Show in folder"
 msgstr "Показать в папке"
 
 msgctxt "DownloadWindow|"
@@ -1518,8 +1538,8 @@ msgid "Automatically retry failed downloads"
 msgstr "Автоматически перезапускать неудавшиеся загрузки"
 
 msgctxt "DownloadsSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "Определять нежелательные ошибки в поведении"
+msgid "Do not download web pages"
+msgstr "Не скачивать веб страницы"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1602,10 +1622,6 @@ msgid "Open"
 msgstr "Открыть"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show In Folder"
-msgstr "Показать в папке"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "Сообщить о проблеме"
 
@@ -1614,16 +1630,16 @@ msgid "Enable auto retry for this kind of errors"
 msgstr "Автоповтор попыток для таких ошибок"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show Downloads"
+msgid "Save and complete"
+msgstr "Сохранить и завершить"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Show downloads"
 msgstr "Показать загрузки"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Choose Files..."
-msgstr "Выбрать файлы…"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Set Priority"
-msgstr "Установить приоритет"
+msgid "Choose files..."
+msgstr "Выбрать файлы..."
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -1678,7 +1694,7 @@ msgid "Export selected downloads"
 msgstr "Экспорт выбранных загрузок"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Add Tag"
+msgid "Add tag"
 msgstr "Добавить метку"
 
 msgctxt "DownloadsViewItemContextMenu|"
@@ -2120,15 +2136,15 @@ msgid "Select none"
 msgstr "Снять выделение"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "High Priority"
+msgid "High priority"
 msgstr "Высокий приоритет"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Normal Priority"
+msgid "Normal priority"
 msgstr "Обычный приоритет"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Low Priority"
+msgid "Low priority"
 msgstr "Низкий приоритет"
 
 msgctxt "FilesTreeContextMenu|"
@@ -2140,11 +2156,11 @@ msgid "Open"
 msgstr "Открыть"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Show in Folder"
+msgid "Show in folder"
 msgstr "Показать в папке"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "File Integrity"
+msgid "File integrity"
 msgstr "Целостность файла"
 
 msgctxt "FilesTreeContextMenu|"
@@ -2256,8 +2272,8 @@ msgid "Automatically retry failed downloads"
 msgstr "Автоматически перезапускать неудавшиеся загрузки"
 
 msgctxt "GeneralSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "Определять нежелательные ошибки в поведении"
+msgid "Do not download web pages"
+msgstr "Не скачивать веб страницы"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -2558,11 +2574,11 @@ msgid "OK to remove tag?"
 msgstr "Удалить метку?"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from Clipboard"
+msgid "Paste urls from clipboard"
 msgstr "Вставить ссылки из буфера"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from File"
+msgid "Paste urls from file"
 msgstr "Вставить ссылки из файла"
 
 msgctxt "MainMenu|"
@@ -2594,16 +2610,20 @@ msgid "Preferences..."
 msgstr "Настройки…"
 
 msgctxt "MainMenu|"
-msgid "Contact Support"
+msgid "Contact support"
 msgstr "Служба поддержки"
+
+msgctxt "MainMenu|"
+msgid "Auto shutdown"
+msgstr "Автовыключение компьютера"
+
+msgctxt "MainMenu|"
+msgid "Check for updates..."
+msgstr "Проверка обновлений..."
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
 msgstr "Отправить отчёт об ошибке"
-
-msgctxt "MainMenu|"
-msgid "Auto Shutdown"
-msgstr "Автовыключение компьютера"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
@@ -2628,10 +2648,6 @@ msgstr "Удалённое подключение к %1"
 msgctxt "MainMenu|"
 msgid "Create portable version"
 msgstr "Создать портативную версию"
-
-msgctxt "MainMenu|"
-msgid "Check for Updates..."
-msgstr "Проверка обновлений…"
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
@@ -3104,6 +3120,14 @@ msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "Должно быть число больше 0."
 
+msgctxt "NoResumeSupportBlock|"
+msgid "This download may not support resuming."
+msgstr "Эта закачка может не поддерживать возобновление"
+
+msgctxt "NoResumeSupportBlock|"
+msgid "Prevent sleep mode when downloading files that don't support resuming"
+msgstr "Запретить спящий режим компьютера при скачивании файлов без поддержки возобновления"
+
 msgctxt "Page|"
 msgid "Info"
 msgstr "Информация"
@@ -3123,8 +3147,7 @@ msgstr "Вам нравится дополнение %1?"
 msgctxt "PluginBannerDialog|"
 msgid ""
 "We would like to ask you to help this add-on to reach its potential users."
-msgstr ""
-"Мы просим вас помочь этому дополнению привлечь больше пользователей."
+msgstr "Мы просим вас помочь этому дополнению привлечь больше пользователей."
 
 msgctxt "PluginBannerDialog|"
 msgid ""
@@ -4050,6 +4073,10 @@ msgctxt "QObject|"
 msgid "Playlist"
 msgstr "Плейлист"
 
+msgctxt "QObject|"
+msgid "Open folder"
+msgstr "Открыть папку"
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::Append не поддерживается для GZIP"
@@ -4449,7 +4476,7 @@ msgstr ""
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be shutdown after all downloads are completed."
-msgstr "Компьютер будет выключен по завершении загрузки всех файлов."
+msgstr "Компьютер будет выключен после завершения загрузки всех файлов."
 
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
@@ -4736,6 +4763,18 @@ msgid "Archive service data..."
 msgstr "Архивировать служебные данные…"
 
 msgctxt "TroubleshootingSettings|"
+msgid "Enable enhanced logging"
+msgstr "Включить расширенное логирование"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable LT alerts logging"
+msgstr "Включить логирование LT событий"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Restart is required"
+msgstr "Требуется перезапуск"
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "Скрыть"
 
@@ -4834,6 +4873,10 @@ msgstr "Нет доступа на запись в выбранный катал
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Размер: %1 (место на диске: %2)"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Disk space: %1"
+msgstr "Место на диске: %1"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"

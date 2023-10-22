@@ -123,13 +123,8 @@ msgid "Power management"
 msgstr "Energiagazdálkodás"
 
 msgctxt "AdvancedSettings|"
-msgid "Don't put your computer to sleep if there is an active download"
-msgstr "Ne menjen a számítógép alvó állapotba, ha van aktív letöltés"
-
-msgctxt "AdvancedSettings|"
-msgid "Enable sleep mode while running finished downloads"
+msgid "Allow sleep mode while sharing files"
 msgstr ""
-"Engedélyezze az alvó állapotot a befejezett letöltések futtatása közben"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -200,6 +195,14 @@ msgid "Backup the list of downloads every"
 msgstr "Készítsen biztonsági másolatot a letöltések listájáról minden"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is an active download"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Allow sleep mode if downloads can be resumed later"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
 msgstr "A fájl létezik reakció"
 
@@ -227,6 +230,10 @@ msgid "Do not allow downloads if battery level drops below"
 msgstr ""
 "Ne engedje a letöltéseket, ha az akkumulátor töltöttségi szintje ? alá "
 "csökken"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not share files when running on battery"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -499,6 +506,14 @@ msgstr "3 óra"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 nap"
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Server has returned a web page."
+msgstr ""
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Click to open it in the web browser."
+msgstr ""
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -1281,6 +1296,10 @@ msgid "Size: %1 (Disk space: %2)"
 msgstr "Méret: %1 (Lemezterület: %2)"
 
 msgctxt "DiskSpace|"
+msgid "Disk space: %1"
+msgstr ""
+
+msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Méret: %1"
 
@@ -1391,8 +1410,8 @@ msgid "Hide"
 msgstr "Elrejt"
 
 msgctxt "DownloadWindow|"
-msgid "Show In Folder"
-msgstr "Megjelenítés a mappában"
+msgid "Show in folder"
+msgstr "Megjelenítés mappában"
 
 msgctxt "DownloadWindow|"
 msgid "Open"
@@ -1515,7 +1534,7 @@ msgid "Automatically retry failed downloads"
 msgstr "Próbálja meg újra a sikertelen letöltéseket"
 
 msgctxt "DownloadsSettings|"
-msgid "Detect unwanted behavior errors"
+msgid "Do not download web pages"
 msgstr ""
 
 msgctxt "DownloadsSettings|"
@@ -1599,10 +1618,6 @@ msgid "Open"
 msgstr "Megnyitás"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show In Folder"
-msgstr "Megjelenítés Mappában"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "Probléma jelentése"
 
@@ -1611,16 +1626,16 @@ msgid "Enable auto retry for this kind of errors"
 msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show Downloads"
-msgstr "Letöltések Megjelenítése"
+msgid "Save and complete"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Choose Files..."
-msgstr "Válassza ki a Fájlokat..."
+msgid "Show downloads"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Set Priority"
-msgstr "Prioritás Beállítása"
+msgid "Choose files..."
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -1675,7 +1690,7 @@ msgid "Export selected downloads"
 msgstr "Kiválasztott letöltések exportálása"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Add Tag"
+msgid "Add tag"
 msgstr "Címke hozzáadása"
 
 msgctxt "DownloadsViewItemContextMenu|"
@@ -2118,16 +2133,16 @@ msgid "Select none"
 msgstr "Semelyiket ne válassza ki"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "High Priority"
-msgstr "Magas Prioritás"
+msgid "High priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Normal Priority"
-msgstr "Közepes Prioritás"
+msgid "Normal priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Low Priority"
-msgstr "Alacsony Prioritás"
+msgid "Low priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -2138,12 +2153,12 @@ msgid "Open"
 msgstr "Megnyitás"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Show in Folder"
+msgid "Show in folder"
 msgstr "Megjelenítés mappában"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "File Integrity"
-msgstr "Fájlintegritás"
+msgid "File integrity"
+msgstr "Fájl integritása"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
@@ -2254,7 +2269,7 @@ msgid "Automatically retry failed downloads"
 msgstr "Próbálja meg újra a sikertelen letöltéseket"
 
 msgctxt "GeneralSettings|"
-msgid "Detect unwanted behavior errors"
+msgid "Do not download web pages"
 msgstr ""
 
 msgctxt "GeneralSettings|"
@@ -2554,12 +2569,12 @@ msgid "OK to remove tag?"
 msgstr "OK, hogy törli a címkét?"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from Clipboard"
-msgstr "Url-ek beillesztése vágólapról"
+msgid "Paste urls from clipboard"
+msgstr ""
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from File"
-msgstr "Url-ek beillesztése a fájlból"
+msgid "Paste urls from file"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
@@ -2590,16 +2605,20 @@ msgid "Preferences..."
 msgstr "Beállítások..."
 
 msgctxt "MainMenu|"
-msgid "Contact Support"
+msgid "Contact support"
 msgstr "Kapcsolatfelvétel az ügyfélszolgálattal"
+
+msgctxt "MainMenu|"
+msgid "Auto shutdown"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Check for updates..."
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
 msgstr ""
-
-msgctxt "MainMenu|"
-msgid "Auto Shutdown"
-msgstr "Automatikus leállítás"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
@@ -2624,10 +2643,6 @@ msgstr ""
 msgctxt "MainMenu|"
 msgid "Create portable version"
 msgstr "Hordozható verzió létrehozása"
-
-msgctxt "MainMenu|"
-msgid "Check for Updates..."
-msgstr "Frissítések keresése..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
@@ -3098,6 +3113,14 @@ msgstr "Helytelen érték"
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "0-nál nagyobb számnak kell lennie."
+
+msgctxt "NoResumeSupportBlock|"
+msgid "This download may not support resuming."
+msgstr ""
+
+msgctxt "NoResumeSupportBlock|"
+msgid "Prevent sleep mode when downloading files that don't support resuming"
+msgstr ""
 
 msgctxt "Page|"
 msgid "Info"
@@ -4042,6 +4065,10 @@ msgctxt "QObject|"
 msgid "Playlist"
 msgstr ""
 
+msgctxt "QObject|"
+msgid "Open folder"
+msgstr ""
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr ""
@@ -4727,6 +4754,18 @@ msgid "Archive service data..."
 msgstr ""
 
 msgctxt "TroubleshootingSettings|"
+msgid "Enable enhanced logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable LT alerts logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Restart is required"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr ""
 
@@ -4825,6 +4864,10 @@ msgstr "Nincs írási hozzáférés a kiválasztott könyvtárhoz"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Méret: %1 (Lemez terület: %2)"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Disk space: %1"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"

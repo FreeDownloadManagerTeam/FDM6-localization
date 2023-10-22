@@ -1,11 +1,5 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,7 +7,6 @@ msgstr ""
 "X-Language: fr_FR\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.0.1\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -130,14 +123,8 @@ msgid "Power management"
 msgstr "Gestion de l'alimentation"
 
 msgctxt "AdvancedSettings|"
-msgid "Don't put your computer to sleep if there is an active download"
+msgid "Allow sleep mode while sharing files"
 msgstr ""
-"Ne pas mettre votre ordinateur en veille si un téléchargement est en cours"
-
-msgctxt "AdvancedSettings|"
-msgid "Enable sleep mode while running finished downloads"
-msgstr ""
-"Activer le mode veille pendant l’exécution des téléchargements terminés"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -212,6 +199,14 @@ msgid "Backup the list of downloads every"
 msgstr "Sauvegarder la liste des téléchargements chaque"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is an active download"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Allow sleep mode if downloads can be resumed later"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
 msgstr "Action quand le fichier est déjà présent"
 
@@ -239,6 +234,10 @@ msgid "Do not allow downloads if battery level drops below"
 msgstr ""
 "Ne pas autoriser de téléchargement si le niveau de la batterie descend en "
 "dessous de"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not share files when running on battery"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
@@ -508,6 +507,14 @@ msgstr "3 heures"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 jour"
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Server has returned a web page."
+msgstr ""
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Click to open it in the web browser."
+msgstr ""
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -1290,6 +1297,10 @@ msgid "Size: %1 (Disk space: %2)"
 msgstr "Taille %1 (Espace disque %2)"
 
 msgctxt "DiskSpace|"
+msgid "Disk space: %1"
+msgstr ""
+
+msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Taille: %1"
 
@@ -1400,7 +1411,7 @@ msgid "Hide"
 msgstr "Cacher"
 
 msgctxt "DownloadWindow|"
-msgid "Show In Folder"
+msgid "Show in folder"
 msgstr "Afficher dans un dossier"
 
 msgctxt "DownloadWindow|"
@@ -1530,7 +1541,7 @@ msgid "Automatically retry failed downloads"
 msgstr "Réessayer automatiquement les téléchargements échoués"
 
 msgctxt "DownloadsSettings|"
-msgid "Detect unwanted behavior errors"
+msgid "Do not download web pages"
 msgstr ""
 
 msgctxt "DownloadsSettings|"
@@ -1614,10 +1625,6 @@ msgid "Open"
 msgstr "Ouvrir"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show In Folder"
-msgstr "Afficher dans un dossier"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "Signaler un problème"
 
@@ -1626,16 +1633,16 @@ msgid "Enable auto retry for this kind of errors"
 msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show Downloads"
-msgstr "Afficher les téléchargements"
+msgid "Save and complete"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Choose Files..."
-msgstr "Choisir les fichiers ..."
+msgid "Show downloads"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Set Priority"
-msgstr "Fixer les priorités"
+msgid "Choose files..."
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -1690,7 +1697,7 @@ msgid "Export selected downloads"
 msgstr "Exporter le(s) téléchargement(s) sélectionné(s)"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Add Tag"
+msgid "Add tag"
 msgstr "Ajouter une étiquette"
 
 msgctxt "DownloadsViewItemContextMenu|"
@@ -2133,16 +2140,16 @@ msgid "Select none"
 msgstr "Ne rien électionner"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "High Priority"
-msgstr "Priorité élevée"
+msgid "High priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Normal Priority"
-msgstr "Priorité normale"
+msgid "Normal priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Low Priority"
-msgstr "Priorité faible"
+msgid "Low priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -2153,11 +2160,11 @@ msgid "Open"
 msgstr "Ouvrir"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Show in Folder"
+msgid "Show in folder"
 msgstr "Afficher dans un dossier"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "File Integrity"
+msgid "File integrity"
 msgstr "Intégrité des fichiers"
 
 msgctxt "FilesTreeContextMenu|"
@@ -2273,7 +2280,7 @@ msgid "Automatically retry failed downloads"
 msgstr "Réessayer automatiquement les téléchargements échoués"
 
 msgctxt "GeneralSettings|"
-msgid "Detect unwanted behavior errors"
+msgid "Do not download web pages"
 msgstr ""
 
 msgctxt "GeneralSettings|"
@@ -2574,12 +2581,12 @@ msgid "OK to remove tag?"
 msgstr "Voulez vous retirer l’étiquette ?"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from Clipboard"
-msgstr "Coller des liens depuis le presse-papiers"
+msgid "Paste urls from clipboard"
+msgstr ""
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from File"
-msgstr "Coller les URLs depuis un fichier"
+msgid "Paste urls from file"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
@@ -2610,16 +2617,20 @@ msgid "Preferences..."
 msgstr "Préférences..."
 
 msgctxt "MainMenu|"
-msgid "Contact Support"
+msgid "Contact support"
 msgstr "Support de contact"
+
+msgctxt "MainMenu|"
+msgid "Auto shutdown"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Check for updates..."
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
 msgstr ""
-
-msgctxt "MainMenu|"
-msgid "Auto Shutdown"
-msgstr "Arrêt automatique"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
@@ -2644,10 +2655,6 @@ msgstr ""
 msgctxt "MainMenu|"
 msgid "Create portable version"
 msgstr "Créer une version portable"
-
-msgctxt "MainMenu|"
-msgid "Check for Updates..."
-msgstr "Rechercher les mises à jour..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
@@ -3120,6 +3127,14 @@ msgstr "Valeur invalide"
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "Doit être un nombre supérieur à 0."
+
+msgctxt "NoResumeSupportBlock|"
+msgid "This download may not support resuming."
+msgstr ""
+
+msgctxt "NoResumeSupportBlock|"
+msgid "Prevent sleep mode when downloading files that don't support resuming"
+msgstr ""
 
 msgctxt "Page|"
 msgid "Info"
@@ -4065,6 +4080,10 @@ msgctxt "QObject|"
 msgid "Playlist"
 msgstr ""
 
+msgctxt "QObject|"
+msgid "Open folder"
+msgstr ""
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr ""
@@ -4757,6 +4776,18 @@ msgid "Archive service data..."
 msgstr ""
 
 msgctxt "TroubleshootingSettings|"
+msgid "Enable enhanced logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable LT alerts logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Restart is required"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "Cacher"
 
@@ -4855,6 +4886,10 @@ msgstr "Pas d’accès en écriture au dossier sélectionné"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Taille: %1 (Espace disque %2)"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Disk space: %1"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"

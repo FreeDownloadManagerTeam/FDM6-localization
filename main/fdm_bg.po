@@ -121,12 +121,8 @@ msgid "Power management"
 msgstr "Управление на захранването"
 
 msgctxt "AdvancedSettings|"
-msgid "Don't put your computer to sleep if there is an active download"
-msgstr "Компютъра да не заспива ако има активно изтегляне"
-
-msgctxt "AdvancedSettings|"
-msgid "Enable sleep mode while running finished downloads"
-msgstr "Позволяване на заспиване при завършени изтегляния"
+msgid "Allow sleep mode while sharing files"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -201,6 +197,14 @@ msgid "Backup the list of downloads every"
 msgstr "Запазване на списъка на изтеглянията всеки"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is an active download"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Allow sleep mode if downloads can be resumed later"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
 msgstr "При съществуващ файл"
 
@@ -226,6 +230,10 @@ msgstr ""
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "Забраняване на изтегляния ако нивото на батерията падне под"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not share files when running on battery"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
@@ -494,6 +502,14 @@ msgstr "3 часа"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 ден"
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Server has returned a web page."
+msgstr ""
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Click to open it in the web browser."
+msgstr ""
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -1276,6 +1292,10 @@ msgid "Size: %1 (Disk space: %2)"
 msgstr "Размер: %1 (Място на диска: %2)"
 
 msgctxt "DiskSpace|"
+msgid "Disk space: %1"
+msgstr ""
+
+msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Размер: %1"
 
@@ -1388,7 +1408,7 @@ msgid "Hide"
 msgstr "Скриване"
 
 msgctxt "DownloadWindow|"
-msgid "Show In Folder"
+msgid "Show in folder"
 msgstr "Покажи в папка"
 
 msgctxt "DownloadWindow|"
@@ -1512,8 +1532,8 @@ msgid "Automatically retry failed downloads"
 msgstr "Автоматичен повторен опит за неуспешни изтегляния"
 
 msgctxt "DownloadsSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "Откриване на нежелани поведенчески грешки"
+msgid "Do not download web pages"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1596,10 +1616,6 @@ msgid "Open"
 msgstr "Отвори"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show In Folder"
-msgstr "Покажи в папка"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "Докладвайте проблем"
 
@@ -1608,16 +1624,16 @@ msgid "Enable auto retry for this kind of errors"
 msgstr "Разрешаване на автоматичен повторен опит при този тип грешки"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show Downloads"
-msgstr "Покажи изтегляния"
+msgid "Save and complete"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Choose Files..."
-msgstr "Избор на файлове..."
+msgid "Show downloads"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Set Priority"
-msgstr "Задаване на приоритет"
+msgid "Choose files..."
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -1672,7 +1688,7 @@ msgid "Export selected downloads"
 msgstr "Изнеси избраните изтегляния"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Add Tag"
+msgid "Add tag"
 msgstr "Добавете етикет"
 
 msgctxt "DownloadsViewItemContextMenu|"
@@ -2114,16 +2130,16 @@ msgid "Select none"
 msgstr "Премахване на избрани"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "High Priority"
-msgstr "Висок приоритет"
+msgid "High priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Normal Priority"
-msgstr "Нормален приоритет"
+msgid "Normal priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Low Priority"
-msgstr "Нисък приоритет"
+msgid "Low priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -2134,11 +2150,11 @@ msgid "Open"
 msgstr "Отвори"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Show in Folder"
-msgstr "Показвзне в папка"
+msgid "Show in folder"
+msgstr "Покажи в папка"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "File Integrity"
+msgid "File integrity"
 msgstr "Файлова цялост"
 
 msgctxt "FilesTreeContextMenu|"
@@ -2250,8 +2266,8 @@ msgid "Automatically retry failed downloads"
 msgstr "Автоматичен повторен опит за неуспешни изтегляния"
 
 msgctxt "GeneralSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "Откриване на нежелани поведенчески грешки"
+msgid "Do not download web pages"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -2551,12 +2567,12 @@ msgid "OK to remove tag?"
 msgstr "Да премахна ли етикет?"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from Clipboard"
-msgstr "Постави URL от клипборда"
+msgid "Paste urls from clipboard"
+msgstr ""
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from File"
-msgstr "Поставяне на URL-и от файл"
+msgid "Paste urls from file"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
@@ -2587,16 +2603,20 @@ msgid "Preferences..."
 msgstr "Настройки..."
 
 msgctxt "MainMenu|"
-msgid "Contact Support"
+msgid "Contact support"
 msgstr "Техническа поддръжка"
+
+msgctxt "MainMenu|"
+msgid "Auto shutdown"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Check for updates..."
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
 msgstr ""
-
-msgctxt "MainMenu|"
-msgid "Auto Shutdown"
-msgstr "Автоматично изключване"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
@@ -2621,10 +2641,6 @@ msgstr "Отдалечено свързване с %1"
 msgctxt "MainMenu|"
 msgid "Create portable version"
 msgstr "Създаване на преносима версия"
-
-msgctxt "MainMenu|"
-msgid "Check for Updates..."
-msgstr "Проверка за обновления..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
@@ -3097,6 +3113,14 @@ msgstr "Невалидна стойност"
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "Трябва да е число по-голямо от 0."
+
+msgctxt "NoResumeSupportBlock|"
+msgid "This download may not support resuming."
+msgstr ""
+
+msgctxt "NoResumeSupportBlock|"
+msgid "Prevent sleep mode when downloading files that don't support resuming"
+msgstr ""
 
 msgctxt "Page|"
 msgid "Info"
@@ -4043,6 +4067,10 @@ msgctxt "QObject|"
 msgid "Playlist"
 msgstr "Лист за изпълнение"
 
+msgctxt "QObject|"
+msgid "Open folder"
+msgstr ""
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::Добавянето не се поддържа за GZIP"
@@ -4729,6 +4757,18 @@ msgid "Archive service data..."
 msgstr ""
 
 msgctxt "TroubleshootingSettings|"
+msgid "Enable enhanced logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable LT alerts logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Restart is required"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "Скриване"
 
@@ -4827,6 +4867,10 @@ msgstr "Няма позволение за запис в избраната па
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Размер: %1 (Място на диска: %2)"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Disk space: %1"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
