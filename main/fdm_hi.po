@@ -122,12 +122,8 @@ msgid "Power management"
 msgstr "पॉवर प्रबंधन"
 
 msgctxt "AdvancedSettings|"
-msgid "Don't put your computer to sleep if there is an active download"
-msgstr "यदि कोई सक्रिय डाउनलोड है तो अपने कंप्यूटर को स्लीप न करें"
-
-msgctxt "AdvancedSettings|"
-msgid "Enable sleep mode while running finished downloads"
-msgstr "समाप्त किये गए डाउनलोड चलाते समय स्लीप मोड सक्षम करें"
+msgid "Allow sleep mode while sharing files"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -202,6 +198,14 @@ msgid "Backup the list of downloads every"
 msgstr "प्रत्येक डाउनलोड की सूची का बैकअप लें"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is an active download"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Allow sleep mode if downloads can be resumed later"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
 msgstr "फ़ाइल प्रत्युत्तर मौजूद है"
 
@@ -226,6 +230,10 @@ msgstr ""
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "यदि बैटरी का स्तर नीचे चला जाता है तो डाउनलोड की अनुमति न दें"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not share files when running on battery"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
@@ -494,6 +502,14 @@ msgstr "3 घंटे"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 दिन"
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Server has returned a web page."
+msgstr ""
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Click to open it in the web browser."
+msgstr ""
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -1276,6 +1292,10 @@ msgid "Size: %1 (Disk space: %2)"
 msgstr "आकार: %1 (डिस्क स्थान: %2)"
 
 msgctxt "DiskSpace|"
+msgid "Disk space: %1"
+msgstr ""
+
+msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "आकार: %1"
 
@@ -1389,7 +1409,7 @@ msgid "Hide"
 msgstr "छिपाएं"
 
 msgctxt "DownloadWindow|"
-msgid "Show In Folder"
+msgid "Show in folder"
 msgstr "फोल्डर में दिखाए"
 
 msgctxt "DownloadWindow|"
@@ -1513,7 +1533,7 @@ msgid "Automatically retry failed downloads"
 msgstr "स्वचालित रूप से विफल डाउनलोड का पुन: प्रयास करें"
 
 msgctxt "DownloadsSettings|"
-msgid "Detect unwanted behavior errors"
+msgid "Do not download web pages"
 msgstr ""
 
 msgctxt "DownloadsSettings|"
@@ -1597,10 +1617,6 @@ msgid "Open"
 msgstr "खुला हुआ"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show In Folder"
-msgstr "फोल्डर में दिखाए"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "समस्या की सूचना दें"
 
@@ -1609,16 +1625,16 @@ msgid "Enable auto retry for this kind of errors"
 msgstr "इस प्रकार की त्रुटियों के लिए स्वतः पुनः प्रयास सक्षम करें"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show Downloads"
-msgstr "डाउनलोड दिखाएं"
+msgid "Save and complete"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Choose Files..."
-msgstr "फ़ाइलों का चयन करें..."
+msgid "Show downloads"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Set Priority"
-msgstr "प्राथमिकता दर्ज करें"
+msgid "Choose files..."
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -1673,8 +1689,8 @@ msgid "Export selected downloads"
 msgstr "चयनित डाउनलोड निर्यात करें"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Add Tag"
-msgstr "टैग जोड़ो"
+msgid "Add tag"
+msgstr "टैग जोड़ें"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "File integrity"
@@ -2114,16 +2130,16 @@ msgid "Select none"
 msgstr "किसी का चयन न करें"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "High Priority"
-msgstr "उच्च प्राथमिकता"
+msgid "High priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Normal Priority"
-msgstr "सामान्य प्राथमिकता"
+msgid "Normal priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Low Priority"
-msgstr "कम प्राथमिकता"
+msgid "Low priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -2134,11 +2150,11 @@ msgid "Open"
 msgstr "खुला हुआ"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Show in Folder"
+msgid "Show in folder"
 msgstr "फोल्डर में दिखाए"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "File Integrity"
+msgid "File integrity"
 msgstr "फ़ाइल अखंडता"
 
 msgctxt "FilesTreeContextMenu|"
@@ -2250,7 +2266,7 @@ msgid "Automatically retry failed downloads"
 msgstr "स्वचालित रूप से विफल डाउनलोड का पुन: प्रयास करें"
 
 msgctxt "GeneralSettings|"
-msgid "Detect unwanted behavior errors"
+msgid "Do not download web pages"
 msgstr ""
 
 msgctxt "GeneralSettings|"
@@ -2551,12 +2567,12 @@ msgid "OK to remove tag?"
 msgstr "टैग हटाना ठीक है?"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from Clipboard"
-msgstr "क्लिपबोर्ड से यूआरएल चिपकाएं"
+msgid "Paste urls from clipboard"
+msgstr ""
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from File"
-msgstr "फ़ाइल से यूआरएल पेस्ट करें"
+msgid "Paste urls from file"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
@@ -2587,16 +2603,20 @@ msgid "Preferences..."
 msgstr "पसंद..."
 
 msgctxt "MainMenu|"
-msgid "Contact Support"
+msgid "Contact support"
 msgstr "सहयोग टीम से संपर्क करें"
+
+msgctxt "MainMenu|"
+msgid "Auto shutdown"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Check for updates..."
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
 msgstr ""
-
-msgctxt "MainMenu|"
-msgid "Auto Shutdown"
-msgstr "स्वत: बंद"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
@@ -2621,10 +2641,6 @@ msgstr "%1 रिमोट से कनेक्ट करें"
 msgctxt "MainMenu|"
 msgid "Create portable version"
 msgstr "पोर्टेबल संस्करण बनाएं"
-
-msgctxt "MainMenu|"
-msgid "Check for Updates..."
-msgstr "अद्यतन के लिए जाँच..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
@@ -3095,6 +3111,14 @@ msgstr "अमान्य मूल्य"
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "0 से बड़ी संख्या होनी चाहिए।"
+
+msgctxt "NoResumeSupportBlock|"
+msgid "This download may not support resuming."
+msgstr ""
+
+msgctxt "NoResumeSupportBlock|"
+msgid "Prevent sleep mode when downloading files that don't support resuming"
+msgstr ""
 
 msgctxt "Page|"
 msgid "Info"
@@ -4042,6 +4066,10 @@ msgctxt "QObject|"
 msgid "Playlist"
 msgstr "प्लेलिस्ट"
 
+msgctxt "QObject|"
+msgid "Open folder"
+msgstr ""
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::संलग्न GZIP के लिए समर्थित नहीं है"
@@ -4727,6 +4755,18 @@ msgid "Archive service data..."
 msgstr ""
 
 msgctxt "TroubleshootingSettings|"
+msgid "Enable enhanced logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable LT alerts logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Restart is required"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "छिपाएं"
 
@@ -4825,6 +4865,10 @@ msgstr "चयनित निर्देशिका में कोई ल�
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "आकार: %1 (डिस्क स्थान: %2)"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Disk space: %1"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
