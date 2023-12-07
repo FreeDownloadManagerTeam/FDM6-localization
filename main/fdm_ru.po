@@ -121,6 +121,10 @@ msgid "Power management"
 msgstr "Энергопотребление"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is a scheduled download"
+msgstr "Запретить перевод компьютера в спящий режим при наличии запланированных загрузок"
+
+msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
 msgstr "Разрешить спящий режим при раздаче файлов"
 
@@ -198,7 +202,8 @@ msgstr "Резервное копирование списка загрузок 
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is an active download"
-msgstr "Запретить перевод компьютера в спящий режим при наличии активных загрузок"
+msgstr ""
+"Запретить перевод компьютера в спящий режим при наличии активных загрузок"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode if downloads can be resumed later"
@@ -219,12 +224,6 @@ msgstr "Перезаписать"
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
 msgstr "Включить звуки"
-
-msgctxt "AdvancedSettings|"
-msgid ""
-"Do not allow downloads to perform post finished tasks when running on battery"
-msgstr ""
-"Останавливать все задачи для завершённых загрузок при работе от батареи"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
@@ -3126,7 +3125,9 @@ msgstr "Эта закачка может не поддерживать возо�
 
 msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
-msgstr "Запретить спящий режим компьютера при скачивании файлов без поддержки возобновления"
+msgstr ""
+"Запретить спящий режим компьютера при скачивании файлов без поддержки "
+"возобновления"
 
 msgctxt "Page|"
 msgid "Info"
