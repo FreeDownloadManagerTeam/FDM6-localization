@@ -121,6 +121,10 @@ msgid "Power management"
 msgstr "Správa napájení"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is a scheduled download"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
 msgstr "Povolit režim spánku při sdílení souborů"
 
@@ -219,13 +223,6 @@ msgstr "Přepsat"
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
 msgstr "Použít zvuky"
-
-msgctxt "AdvancedSettings|"
-msgid ""
-"Do not allow downloads to perform post finished tasks when running on battery"
-msgstr ""
-"Při používaní baterie nedovolovat programům používat příkazy po dokončení "
-"stahování"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
@@ -3122,7 +3119,9 @@ msgstr "Toto stahování nemusí podporovat obnovení stahování."
 
 msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
-msgstr "Zakázat režim spánku při stahování souborů, které nepodporují obnovení stahování"
+msgstr ""
+"Zakázat režim spánku při stahování souborů, které nepodporují obnovení "
+"stahování"
 
 msgctxt "Page|"
 msgid "Info"
@@ -4070,7 +4069,7 @@ msgstr "Playlist"
 
 msgctxt "QObject|"
 msgid "Open folder"
-msgstr ""
+msgstr "Otevřít složku"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"

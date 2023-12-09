@@ -121,6 +121,10 @@ msgid "Power management"
 msgstr "إدارة الطاقة"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is a scheduled download"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
 msgstr ""
 
@@ -219,12 +223,6 @@ msgstr "الكتابة على الملف"
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
 msgstr "إستخدام الأصوات"
-
-msgctxt "AdvancedSettings|"
-msgid ""
-"Do not allow downloads to perform post finished tasks when running on battery"
-msgstr ""
-"لا تسمح للتزيلات المنتهية بتنفيز مهام بعد التنفيز اسناء استخدام البطارية"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
@@ -1333,7 +1331,7 @@ msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "Web page:"
-msgstr ""
+msgstr "صفحة على الإنترنت:"
 
 msgctxt "DownloadWindow|"
 msgid "Resource URL:"
@@ -1517,7 +1515,7 @@ msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "days"
-msgstr ""
+msgstr "أيام"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
@@ -1882,11 +1880,11 @@ msgstr "كل الملفات (%1)"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export only completed downloads"
-msgstr ""
+msgstr "تصدير التنزيلات المكتملة فقط"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export"
-msgstr ""
+msgstr "تصدير"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
@@ -1914,7 +1912,7 @@ msgstr ""
 
 msgctxt "ExportSettingsDialog|"
 msgid "Export"
-msgstr ""
+msgstr "تصدير"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
@@ -2014,7 +2012,7 @@ msgstr ""
 
 msgctxt "FileName|"
 msgid "All files"
-msgstr ""
+msgstr "جميع الملفات"
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
@@ -2058,7 +2056,7 @@ msgstr "تنازلي"
 
 msgctxt "FileType|"
 msgid "File type:"
-msgstr ""
+msgstr "نوع الملف:"
 
 msgctxt "FilesExistsDialog|"
 msgid "Warning: file exists already"
@@ -2250,7 +2248,7 @@ msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "days"
-msgstr ""
+msgstr "أيام"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
@@ -2386,7 +2384,7 @@ msgstr "SHA-256: {512?}"
 
 msgctxt "ImportDialog|"
 msgid "Import"
-msgstr ""
+msgstr "استيراد"
 
 msgctxt "ImportDialog|"
 msgid "Cancel"
@@ -3211,7 +3209,7 @@ msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
-msgstr ""
+msgstr "تحذير!"
 
 msgctxt "PluginsPage|"
 msgid "Add-on requests dangerous permissions:"
@@ -3255,7 +3253,7 @@ msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
-msgstr ""
+msgstr "تحذير!"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
@@ -3407,7 +3405,7 @@ msgstr "أدخل عنوان URL"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
-msgstr ""
+msgstr "عذرا، هذا الجهاز غير مدعوم من ٪1."
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
@@ -3439,23 +3437,23 @@ msgstr "خروج"
 
 msgctxt "QObject|"
 msgid "%1 B"
-msgstr ""
+msgstr "%1 ك"
 
 msgctxt "QObject|"
 msgid "%1 KB"
-msgstr ""
+msgstr "%1 ك.ب"
 
 msgctxt "QObject|"
 msgid "%1 MB"
-msgstr ""
+msgstr "%1 م.ب"
 
 msgctxt "QObject|"
 msgid "%1 GB"
-msgstr ""
+msgstr "%1 ج.ب"
 
 msgctxt "QObject|"
 msgid "%1 TB"
-msgstr ""
+msgstr "%1 ت.ب"
 
 msgctxt "QObject|"
 msgid "%1 K"
@@ -3467,47 +3465,47 @@ msgstr "%1 م"
 
 msgctxt "QObject|"
 msgid "%1 G"
-msgstr ""
+msgstr "%1 ج"
 
 msgctxt "QObject|"
 msgid "%1 T"
-msgstr ""
+msgstr "%1 ت"
 
 msgctxt "QObject|"
 msgid "%1 B/s"
-msgstr ""
+msgstr "%1 ب/ث"
 
 msgctxt "QObject|"
 msgid "%1 KB/s"
-msgstr ""
+msgstr "%1 ك.ب/ث"
 
 msgctxt "QObject|"
 msgid "%1 MB/s"
-msgstr ""
+msgstr "%1 م.ب/ث"
 
 msgctxt "QObject|"
 msgid "%1 GB/s"
-msgstr ""
+msgstr "%1 ج.ب/ث"
 
 msgctxt "QObject|"
 msgid "%1 TB/s"
-msgstr ""
+msgstr "%1 ت.ب/ث"
 
 msgctxt "QObject|"
 msgid "%1 K/s"
-msgstr ""
+msgstr "%1 ك/ث"
 
 msgctxt "QObject|"
 msgid "%1 M/s"
-msgstr ""
+msgstr "%1 م/ث"
 
 msgctxt "QObject|"
 msgid "%1 G/s"
-msgstr ""
+msgstr "%1 ج/ث"
 
 msgctxt "QObject|"
 msgid "%1 T/s"
-msgstr ""
+msgstr "%1 ت/ث"
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3519,11 +3517,11 @@ msgstr "اكتملت التنزيلات"
 
 msgctxt "QObject|"
 msgid "Download failed"
-msgstr ""
+msgstr "فشل التنزيل"
 
 msgctxt "QObject|"
 msgid "Downloads failed"
-msgstr "فشلت التحميلات"
+msgstr "فشلت التنزيل"
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -3963,15 +3961,15 @@ msgstr "تحديث عنوان"
 
 msgctxt "QObject|"
 msgid "Documents"
-msgstr ""
+msgstr "المستندات"
 
 msgctxt "QObject|"
 msgid "Pictures"
-msgstr ""
+msgstr "الصور"
 
 msgctxt "QObject|"
 msgid "Videos"
-msgstr ""
+msgstr "فيديوهات"
 
 msgctxt "QObject|"
 msgid "Miscellaneous"
@@ -3987,7 +3985,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Downloading..."
-msgstr ""
+msgstr "تنزيل..."
 
 msgctxt "QObject|"
 msgid "DISABLE SNAIL MODE"
