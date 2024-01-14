@@ -121,8 +121,12 @@ msgid "Power management"
 msgstr "Správa napájení"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is a scheduled download"
+msgstr "Zakázat režim spánku, pokud je naplánované stahování"
+
+msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
-msgstr ""
+msgstr "Povolit režim spánku při sdílení souborů"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -198,11 +202,11 @@ msgstr "Zálohovat seznam stahování každých"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is an active download"
-msgstr ""
+msgstr "Zakázat režim spánku při aktivním stahování"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode if downloads can be resumed later"
-msgstr ""
+msgstr "Povolit režim spánku, pokud může být později obnoveno stahování"
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
@@ -221,19 +225,12 @@ msgid "Use sounds"
 msgstr "Použít zvuky"
 
 msgctxt "AdvancedSettings|"
-msgid ""
-"Do not allow downloads to perform post finished tasks when running on battery"
-msgstr ""
-"Při používaní baterie nedovolovat programům používat příkazy po dokončení "
-"stahování"
-
-msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "Nepovolit stahování pokud úroveň baterie klesne pod"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not share files when running on battery"
-msgstr ""
+msgstr "Nesdílet soubory při provozu na baterii"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
@@ -334,6 +331,24 @@ msgstr "Přejít do Nastavení"
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Zrušit"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "Storage"
+msgstr "Úložiště"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "Notifications"
+msgstr "Oznámení"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "%1 needs permission to save downloaded files to your local storage."
+msgstr "%1 vyžaduje oprávnění pro uložení stažených souborů do Vašeho místního úložiště."
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid ""
+"%1 needs permission to show download progress within your system's "
+"notification panel."
+msgstr "%1 vyžaduje oprávnění pro zobrazení průběhu stahování v systémovém panelu oznámení."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
@@ -505,11 +520,11 @@ msgstr "1 den"
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Server has returned a web page."
-msgstr ""
+msgstr "Server vrátil webovou stránku."
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Click to open it in the web browser."
-msgstr ""
+msgstr "Klepněte pro její otevření v prohlížeči."
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -1296,7 +1311,7 @@ msgstr "Velikost: %1 (Místo na disku: %2)"
 
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
-msgstr ""
+msgstr "Místo na disku: %1"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1"
@@ -1538,7 +1553,7 @@ msgstr "Automaticky znovu spustit stahování, která selhala"
 
 msgctxt "DownloadsSettings|"
 msgid "Do not download web pages"
-msgstr ""
+msgstr "Nestahovat webové stránky"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1630,15 +1645,15 @@ msgstr "Povolit automatické opakované spouštění pro tento druh chyb"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Save and complete"
-msgstr ""
+msgstr "Uložit a dokončit"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show downloads"
-msgstr ""
+msgstr "Zobrazit stahování"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Choose files..."
-msgstr ""
+msgstr "Vybrat soubory..."
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -2135,15 +2150,15 @@ msgstr "Odznačit vše"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High priority"
-msgstr ""
+msgstr "Vysoká priorita"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Normal priority"
-msgstr ""
+msgstr "Normální priorita"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Low priority"
-msgstr ""
+msgstr "Nízká priorita"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -2271,7 +2286,7 @@ msgstr "Automaticky znovu spustit stahování, která selhala"
 
 msgctxt "GeneralSettings|"
 msgid "Do not download web pages"
-msgstr ""
+msgstr "Nestahovat webové stránky"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -2571,11 +2586,11 @@ msgstr "Opravdu odebrat značku?"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from clipboard"
-msgstr ""
+msgstr "Vložit URL ze schránky"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from file"
-msgstr ""
+msgstr "Vložit URL ze souboru"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
@@ -2611,11 +2626,11 @@ msgstr "Kontaktovat podporu"
 
 msgctxt "MainMenu|"
 msgid "Auto shutdown"
-msgstr ""
+msgstr "Automaticky vypnout"
 
 msgctxt "MainMenu|"
 msgid "Check for updates..."
-msgstr ""
+msgstr "Zkontrolovat aktualizace..."
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
@@ -3118,11 +3133,43 @@ msgstr "Musí být číslo větší než 0."
 
 msgctxt "NoResumeSupportBlock|"
 msgid "This download may not support resuming."
-msgstr ""
+msgstr "Toto stahování nemusí podporovat obnovení stahování."
 
 msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
 msgstr ""
+"Zakázat režim spánku při stahování souborů, které nepodporují obnovení "
+"stahování"
+
+msgctxt "OsPermissionsDialog|"
+msgid "%1 is missing permissions"
+msgstr "%1 nemá oprávnění"
+
+msgctxt "OsPermissionsDialog|"
+msgid "(required)"
+msgstr "(vyžadováno)"
+
+msgctxt "OsPermissionsDialog|"
+msgid ""
+"You can grant these permissions using the Application details screen within "
+"your system's settings."
+msgstr "Tato oprávnění můžete udělit v obrazovce podrobností o aplikaci v rámci nastavení Vašeho systému."
+
+msgctxt "OsPermissionsDialog|"
+msgid "Don't show again"
+msgstr "Příště nezobrazovat"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Grant permissions"
+msgstr "Udělit oprávnění"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Quit"
+msgstr "Konec"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Close"
+msgstr "Zavřít"
 
 msgctxt "Page|"
 msgid "Info"
@@ -4070,7 +4117,7 @@ msgstr "Playlist"
 
 msgctxt "QObject|"
 msgid "Open folder"
-msgstr ""
+msgstr "Otevřít složku"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4758,15 +4805,15 @@ msgstr "Archivovat servisní data..."
 
 msgctxt "TroubleshootingSettings|"
 msgid "Enable enhanced logging"
-msgstr ""
+msgstr "Povolit rozšířené logování"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Enable LT alerts logging"
-msgstr ""
+msgstr "Povolit logování výstrah LT"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Restart is required"
-msgstr ""
+msgstr "Je vyžadováno restartování"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Hide"
@@ -4870,7 +4917,7 @@ msgstr "Velikost: %1 (Místo na disku: %2)"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
-msgstr ""
+msgstr "Místo na disku: %1"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"

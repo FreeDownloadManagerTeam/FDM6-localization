@@ -121,8 +121,12 @@ msgid "Power management"
 msgstr "Zarządzanie zasilaniem"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is a scheduled download"
+msgstr "Zablokuj usypianie, jeżeli istnieją pobrania w harmonogramie"
+
+msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
-msgstr ""
+msgstr "Zezwól na usypianie podczas udostępniania plików"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -198,11 +202,11 @@ msgstr "Utwórz kopię listy pobieranych plików co"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is an active download"
-msgstr ""
+msgstr "Zablokuj usypianie, jeżeli istnieje aktywne pobieranie"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode if downloads can be resumed later"
-msgstr ""
+msgstr "Zezwól na usypianie, jeżeli pobierania mogą być później dokończone"
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
@@ -221,18 +225,12 @@ msgid "Use sounds"
 msgstr "Użyj dźwięków"
 
 msgctxt "AdvancedSettings|"
-msgid ""
-"Do not allow downloads to perform post finished tasks when running on battery"
-msgstr ""
-"Nie zezwalaj na wykonywanie zadań po pobraniach, podczas pracy na baterii"
-
-msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "Nie pobieraj, jeżeli bateria spadnie poniżej"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not share files when running on battery"
-msgstr ""
+msgstr "Nie udostępniaj plików podczas pracy na baterii"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
@@ -334,6 +332,24 @@ msgstr "Przejdź do ustawień"
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Anuluj"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "Storage"
+msgstr "Pamięć masowa"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "Notifications"
+msgstr "Powiadomienia"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "%1 needs permission to save downloaded files to your local storage."
+msgstr "%1 wymaga uprawnienia do zapisania pobieranych plików w lokalnej pamięci masowej."
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid ""
+"%1 needs permission to show download progress within your system's "
+"notification panel."
+msgstr "%1 wymaga uprawnienia do pokazywania postępu pobierania w panelu powiadomień Twojego systemu."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
@@ -505,11 +521,11 @@ msgstr "1 dzień"
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Server has returned a web page."
-msgstr ""
+msgstr "Serwer zwrócił stronę WWW."
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Click to open it in the web browser."
-msgstr ""
+msgstr "Kliknij, aby otworzyć ją w przeglądarce WWW."
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -1299,7 +1315,7 @@ msgstr "Rozmiar: %1 (miejsce na dysku: %2)"
 
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
-msgstr ""
+msgstr "Pojemność dysku: %1"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1"
@@ -1540,7 +1556,7 @@ msgstr "Automatycznie ponów nieudane pobrania"
 
 msgctxt "DownloadsSettings|"
 msgid "Do not download web pages"
-msgstr ""
+msgstr "Nie pobieraj stron WWW"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1632,15 +1648,15 @@ msgstr "Włącz automatyczne ponawianie, przy takich błędach"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Save and complete"
-msgstr ""
+msgstr "Zapisz i zakończ"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show downloads"
-msgstr ""
+msgstr "Pokaż pobrania"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Choose files..."
-msgstr ""
+msgstr "Wybierz pliki..."
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -2138,15 +2154,15 @@ msgstr "Odznacz wszystkie"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High priority"
-msgstr ""
+msgstr "Wysoki priorytet"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Normal priority"
-msgstr ""
+msgstr "Normalny priorytet"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Low priority"
-msgstr ""
+msgstr "Niski priorytet"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -2276,7 +2292,7 @@ msgstr "Automatycznie ponów nieudane pobrania"
 
 msgctxt "GeneralSettings|"
 msgid "Do not download web pages"
-msgstr ""
+msgstr "Nie pobieraj stron WWW"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -2577,11 +2593,11 @@ msgstr "Usunąć znacznik?"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from clipboard"
-msgstr ""
+msgstr "Wklej adresy ze schowka"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from file"
-msgstr ""
+msgstr "Wklej adresy z pliku"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
@@ -2617,11 +2633,11 @@ msgstr "Pomoc techniczna"
 
 msgctxt "MainMenu|"
 msgid "Auto shutdown"
-msgstr ""
+msgstr "Automatycznie zamykanie"
 
 msgctxt "MainMenu|"
 msgid "Check for updates..."
-msgstr ""
+msgstr "Szukaj aktualizacji..."
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
@@ -3124,11 +3140,41 @@ msgstr "Liczba musi być większa niż 0."
 
 msgctxt "NoResumeSupportBlock|"
 msgid "This download may not support resuming."
-msgstr ""
+msgstr "To pobieranie nie obsługuje wznawiania."
 
 msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
-msgstr ""
+msgstr "Zablokuj tryb uśpienia komputera podczas pobieranie plików, które nie obsługują wznawiania"
+
+msgctxt "OsPermissionsDialog|"
+msgid "%1 is missing permissions"
+msgstr "%1 brakuje uprawnień"
+
+msgctxt "OsPermissionsDialog|"
+msgid "(required)"
+msgstr "(wymagane)"
+
+msgctxt "OsPermissionsDialog|"
+msgid ""
+"You can grant these permissions using the Application details screen within "
+"your system's settings."
+msgstr "Możesz przydzielić uprawnienia używając ekranu szczegółów Aplikacji w ustawieniach systemu."
+
+msgctxt "OsPermissionsDialog|"
+msgid "Don't show again"
+msgstr "Nie pokazuj ponownie"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Grant permissions"
+msgstr "Przydziel uprawnienia"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Quit"
+msgstr "Wyjście"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Close"
+msgstr "Zamknij"
 
 msgctxt "Page|"
 msgid "Info"
@@ -4080,7 +4126,7 @@ msgstr "Lista odtwarzania"
 
 msgctxt "QObject|"
 msgid "Open folder"
-msgstr ""
+msgstr "Otwórz folder"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4768,15 +4814,15 @@ msgstr "Archiwum danych serwisowych..."
 
 msgctxt "TroubleshootingSettings|"
 msgid "Enable enhanced logging"
-msgstr ""
+msgstr "Włącz rozszerzone logowanie"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Enable LT alerts logging"
-msgstr ""
+msgstr "Włącz logowania alertów LT"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Restart is required"
-msgstr ""
+msgstr "Wymagany jest restart"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Hide"
@@ -4880,7 +4926,7 @@ msgstr "Rozmiar: %1 (miejsce na dysku: %2)"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
-msgstr ""
+msgstr "Miejsce na dysku: %1"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
