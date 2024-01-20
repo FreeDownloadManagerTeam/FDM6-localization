@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Syklis\n"
+"Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Syklis\n"
 "Language: fi_FI\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgstr "Versio %1 (%2)"
 
 msgctxt "AddDateToFileName|"
 msgid "Add dates to files names"
-msgstr "Lisää päivämäärä tiedostonimiin"
+msgstr "Lisää päiväykset tiedostonimiin"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
@@ -93,7 +93,7 @@ msgstr "OK"
 
 msgctxt "AddTag|"
 msgid "Add tag"
-msgstr "Lisää tägi"
+msgstr "Lisää tunniste"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced"
@@ -121,7 +121,7 @@ msgstr "Ilmoita vain kun %1-ikkuna ei ole aktiivinen"
 
 msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
-msgstr "Muokkaa ääniä"
+msgstr "Mukauta ääniä"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -158,11 +158,11 @@ msgstr "Avaa/sulje alapaneeli klikkaamalla latausta"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
-msgstr "Näytä aktiivinen lataus ja lähetys ilmaisinpalkin kuvakkeella"
+msgstr "Näytä aktiivinen lataus ja lähetys ilmaisinalueen kuvakkeena"
 
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
-msgstr "Näytä valmistägit:"
+msgstr "Näytä sisäänrakennetut tunnisteet:"
 
 msgctxt "AdvancedSettings|"
 msgid "Automation"
@@ -178,7 +178,7 @@ msgstr "Polku:"
 
 msgctxt "AdvancedSettings|"
 msgid "Please enter application's path"
-msgstr "Ohjelman polku"
+msgstr "Sovelluksen polku"
 
 msgctxt "AdvancedSettings|"
 msgid "Arguments:"
@@ -186,7 +186,7 @@ msgstr "Argumentit:"
 
 msgctxt "AdvancedSettings|"
 msgid "Arguments must contain %path% variable"
-msgstr "Argumenttien täytyy sisältää %path% -muuttuja"
+msgstr "Argumenttien täytyy sisältää %path%-muuttuja"
 
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
@@ -194,7 +194,7 @@ msgstr "Palauta oletusasetukset"
 
 msgctxt "AdvancedSettings|"
 msgid "Reset"
-msgstr "Nollaa"
+msgstr "Palauta"
 
 msgctxt "AdvancedSettings|"
 msgid "Default settings"
@@ -202,7 +202,7 @@ msgstr "Oletusasetukset"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore default settings?"
-msgstr "Palauta oletusasetukset?"
+msgstr "Palautetaanko oletusasetukset?"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -218,7 +218,7 @@ msgstr "Nimeä uudelleen"
 
 msgctxt "AdvancedSettings|"
 msgid "Overwrite"
-msgstr "Päällekirjoita"
+msgstr "Korvaa"
 
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
@@ -227,7 +227,8 @@ msgstr "Käytä ääniä"
 msgctxt "AdvancedSettings|"
 msgid ""
 "Do not allow downloads to perform post finished tasks when running on battery"
-msgstr "Älä salli latausten suorittaa tehtäviä akkuvirralla valmistuttuaan"
+msgstr ""
+"Älä salli latausten suorittaa akkuvirralla tehtäviä niiden valmistuessa"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
@@ -239,11 +240,11 @@ msgstr "Ota käyttöön käyttäjän määrittelemä latausjärjestys"
 
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
-msgstr "Näytä \"Tallenna nimellä...\" painike"
+msgstr "Näytä \"Tallenna nimellä...\" -painike"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable standalone create new downloads windows"
-msgstr "Ota käyttöön itsenäiset \"uusi lataus\" -ikkunat"
+msgstr "Käytä itsenäisiä uuden latauksen lisäysikkunoita"
 
 msgctxt "AdvancedSettings|"
 msgid "Overall zoom"
@@ -251,7 +252,7 @@ msgstr "Käyttöliittymän skaalaus"
 
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
-msgstr "Fontin skaalaus"
+msgstr "Tekstin skaalaus"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -267,7 +268,7 @@ msgstr "Poista tiedostot"
 
 msgctxt "AdvancedSettings|"
 msgid "Always ask"
-msgstr "Kysy erikseen"
+msgstr "Kysy aina"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
@@ -279,11 +280,11 @@ msgstr "Valitse teema"
 
 msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Vaaleaa teemaa käytetään, jos järjestelmäteema ei ole tiedossa."
+msgstr "Vaaleaa teemaa käytetään, jos järjestelmän teemaa ei tunnisteta."
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
-msgstr "Aseta manuaalisesti..."
+msgstr "Määritä manuaalisesti..."
 
 msgctxt "AntivirusSettings|"
 msgid "Antivirus"
@@ -295,7 +296,7 @@ msgstr "Valitse virustorjunta:"
 
 msgctxt "AntivirusSettings|"
 msgid "Is your antivirus not listed?"
-msgstr "Eikö virustorjuntaa näy?"
+msgstr "Eikö virustorjuntaasi näy?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -303,7 +304,7 @@ msgstr "Polku:"
 
 msgctxt "AntivirusSettings|"
 msgid "Please enter antivirus path"
-msgstr "Virustorjunnan polku"
+msgstr "Virustorjunnan sijainti"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments:"
@@ -311,7 +312,7 @@ msgstr "Argumentit:"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments must contain %path% variable"
-msgstr "Argumenttien täytyy sisältää %path% -muuttuja"
+msgstr "Argumenttien täytyy sisältää %path%-muuttuja"
 
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
@@ -351,7 +352,7 @@ msgstr "Käännetään tiedostoja mp4-muotoon (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
-msgstr "Uudelleennimetään tiedostoja (%1)."
+msgstr "Nimetään tiedostoja uudelleen (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
@@ -359,7 +360,7 @@ msgstr "Yhdistetään mediastriimejä (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
-msgstr "Poistetaan tiedostoja."
+msgstr "Poistetaan tiedostoja poistetaan."
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -367,11 +368,11 @@ msgstr "Jatkamista tukemattomia toimintoja on edelleen käynnissä"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
-msgstr "Yhdistetään etäyhteyteen %1 (%2)…"
+msgstr "Muodostetaan yhteyttä etäkohteeseen %1 (%2)…"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
-msgstr "Luetaan tietoja etäyhteydeltä %1 (%2)…"
+msgstr "Noudetaan tietoja etälähteestä %1 (%2)…"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
@@ -2354,7 +2355,7 @@ msgstr "Lisätty:"
 
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
-msgstr ""
+msgstr "%1/%2"
 
 msgctxt "GeneralTab|"
 msgid "Domain:"
@@ -3874,15 +3875,15 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
-msgstr ""
+msgstr "Ei tuettu URL-osoite"
 
 msgctxt "QObject|"
 msgid "Untitled"
-msgstr ""
+msgstr "Nimetön"
 
 msgctxt "QObject|"
 msgid "Failed to remove current version"
-msgstr ""
+msgstr "Nykyisen version poisto epäonnistui"
 
 msgctxt "QObject|"
 msgid "hdiutil error %1"
@@ -3894,7 +3895,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Signature check failure."
-msgstr ""
+msgstr "Allekirjoituksen tarkastus epäonnistui."
 
 msgctxt "QObject|"
 msgid "Download with %1"
@@ -3922,7 +3923,7 @@ msgstr "Musiikki"
 
 msgctxt "QObject|"
 msgid "There is not enough disk space."
-msgstr "Ei riittävästi levytilaa."
+msgstr "Levytilaa ei ole riittävästi."
 
 msgctxt "QObject|"
 msgid ""
@@ -3942,7 +3943,8 @@ msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
-msgstr "Haluatko nollata sen? (Tämä poistaa latauslistasi ja kaikki tietosi.)"
+msgstr ""
+"Haluatko tyhjentää sen (tämä poistaa latauslistan ja kaikki %1in tiedot)?"
 
 msgctxt "QObject|"
 msgid "Failed."
@@ -3958,7 +3960,7 @@ msgstr "Päivitä URL"
 
 msgctxt "QObject|"
 msgid "Documents"
-msgstr "Tiedostot"
+msgstr "Dokumentit"
 
 msgctxt "QObject|"
 msgid "Pictures"
@@ -3994,11 +3996,11 @@ msgstr "ETANATILA"
 
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
-msgstr "YouTubesta lataaminen ei ole saatavilla"
+msgstr "YouTube-lataus ei ole käytettävissä"
 
 msgctxt "QObject|"
 msgid "Files were modified"
-msgstr "Tiedostoja on muokattu"
+msgstr "Tiedostot ovat muuttuneet"
 
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
@@ -4026,11 +4028,11 @@ msgstr "Asennetaan…"
 
 msgctxt "QObject|"
 msgid "Uninstalling..."
-msgstr "Poistetaan…"
+msgstr "Poistetaan asennusta…"
 
 msgctxt "QObject|"
 msgid "Missing components"
-msgstr "Puuttuvat komponentit"
+msgstr "Komponentteja puuttuu"
 
 msgctxt "QObject|"
 msgid "%1 are required"
@@ -4074,7 +4076,7 @@ msgstr ""
 
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr ""
+msgstr "ZIP/UNZIP-rajapinnan virhe %1"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
@@ -4098,7 +4100,7 @@ msgstr "(beta)"
 
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
-msgstr "Salli etäyhteys %1:iin tällä laitteella"
+msgstr "Salli etähallinta %1:iin tällä laitteella"
 
 msgctxt "RemoteControlSettings|"
 msgid "Password"
@@ -4142,7 +4144,7 @@ msgstr "Uusi nimi"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "A file with that name already exists."
-msgstr "Tiedosto tällä nimellä on jo olemassa."
+msgstr "Tämän niminen tiedosto on jo olemassa."
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Cancel"
@@ -4166,7 +4168,7 @@ msgstr "Uusi nimi"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "A file with that name already exists."
-msgstr "Tiedosto tällä nimellä on jo olemassa."
+msgstr "Tämän niminen tiedosto on jo olemassa."
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -4190,7 +4192,7 @@ msgstr "<a href='#'>Uudelleenkäynnistys vaaditaan</a>"
 
 msgctxt "SaveTo|"
 msgid "Save to"
-msgstr "Tallenna nimellä"
+msgstr "Tallenna kohteeseen"
 
 msgctxt "SaveTo|"
 msgid "Open"
@@ -4354,7 +4356,7 @@ msgstr "Virheelliset asetukset"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
-msgstr ". Sulje silti?"
+msgstr ". Suljetaanko silti?"
 
 msgctxt "SettingsPage|"
 msgid "Preferences"
@@ -4362,7 +4364,7 @@ msgstr "Asetukset"
 
 msgctxt "SettingsPage|"
 msgid "General"
-msgstr "Yleinen"
+msgstr "Yleiset"
 
 msgctxt "SettingsPage|"
 msgid "Browser Integration"
@@ -4374,7 +4376,7 @@ msgstr "Verkko"
 
 msgctxt "SettingsPage|"
 msgid "Traffic Limits"
-msgstr "Verkon käyttö"
+msgstr "Tiedonsiirtorajoitukset"
 
 msgctxt "SettingsPage|"
 msgid "Antivirus"
@@ -4402,11 +4404,11 @@ msgstr "Latausasetukset"
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
-msgstr "Verkon asetukset"
+msgstr "Verkkoasetukset"
 
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
-msgstr "Verkon käyttö"
+msgstr "Tiedonsiirtorajoitukset"
 
 msgctxt "SettingsPage|"
 msgid "Sounds settings"
@@ -4422,7 +4424,7 @@ msgstr "Lisäasetukset"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
-msgstr "Nollaa asetukset"
+msgstr "Palauta oletusasetukset"
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
@@ -4430,7 +4432,7 @@ msgstr "Oletusasetukset"
 
 msgctxt "SettingsPage|"
 msgid "Restore default settings?"
-msgstr "Palauta oletusasetukset?"
+msgstr "Palautetaanko oletusasetukset?"
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -4450,7 +4452,7 @@ msgstr "Tietokone sammutetaan kaikkien latausten valmistuttua."
 
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
-msgstr "OK"
+msgstr "Vahvista"
 
 msgctxt "ShutdownDialog|"
 msgid "Cancel"
@@ -4494,7 +4496,7 @@ msgstr "Lataus epäonnistui"
 
 msgctxt "SoundsSettings|"
 msgid "No active downloads"
-msgstr "Ei aktiivisia latauksia"
+msgstr "Aktiivisia latauksia ei ole"
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
@@ -4550,7 +4552,7 @@ msgstr "Pyydetään tietoja"
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"
-msgstr "Tiedostokoko ei tiedossa"
+msgstr "Tuntematon tiedostokoko"
 
 msgctxt "StatusItem|"
 msgid "Paused"
@@ -4606,7 +4608,7 @@ msgstr "Sähköposti"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Attach %1 log files (recommended)"
-msgstr "Liitä %1 lokitiedostot (suositeltu)"
+msgstr "Liitä %1 lokitiedostot (suositeltavaa)"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Required fields"
@@ -4662,11 +4664,11 @@ msgstr "Tumma"
 
 msgctxt "Toast|"
 msgid "Please grant camera permission to use the QR scanner"
-msgstr "Kameran lupa tarvitaan QR-skannaukseen"
+msgstr "QR-koodien lukuun tarvitaan kameran käyttöoikeus"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
-msgstr "Verkon käyttö"
+msgstr "Tiedonsiirtorajoitukset"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Low"
@@ -4698,7 +4700,7 @@ msgstr "Yhteyksien enimmäismäärä palvelinta kohden"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of simultaneous downloads"
-msgstr "Samanaikaisten latauksien enimmäismäärä"
+msgstr "Samanaikaisten latausten enimmäismäärä"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of additional querying info downloads:"
@@ -4706,11 +4708,11 @@ msgstr "Ylimääräisten tietoa hakevien latausten enimmäismäärä:"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
-msgstr "Virheelliset verkon käytön asetukset"
+msgstr "Virheelliset tiedonsiirtorajoitukset"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
-msgstr "Verkon käyttö"
+msgstr "Tiedonsiirtorajoitukset"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Troubleshooting"
@@ -4742,7 +4744,7 @@ msgstr "Rajoittamaton"
 
 msgctxt "TumComboBox|"
 msgid "KB/s"
-msgstr "KB/s"
+msgstr "kb/s"
 
 msgctxt "TumComboBox|"
 msgid "unlimited"
@@ -4786,7 +4788,7 @@ msgstr "Rajoittamaton"
 
 msgctxt "TumModeBlock|"
 msgid "Max. number of simultaneous downloads"
-msgstr "Samanaikaisten latauksien enimmäismäärä"
+msgstr "Samanaikaisten latausten enimmäismäärä"
 
 msgctxt "TumModeBlock|"
 msgid "Snail mode"
@@ -4830,7 +4832,7 @@ msgstr "Ei kirjoitusoikeutta valittuun hakemistoon"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "Koko: %1 (Levytila: %2)"
+msgstr "Koko: %1 (levytila: %2)"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
@@ -4854,7 +4856,7 @@ msgstr "Peru"
 
 msgctxt "UpdateDialog|"
 msgid "New version is available"
-msgstr "Uusi versio saatavilla"
+msgstr "Uusi versio on saatavilla"
 
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
@@ -4902,7 +4904,7 @@ msgstr "Virhe asennettaessa:"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
-msgstr "Käynnistä %1 uudelleen päivittääksesi"
+msgstr "Päivitä käynnistämällä %1 uudelleen"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch"
