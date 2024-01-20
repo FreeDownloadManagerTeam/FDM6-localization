@@ -13,7 +13,7 @@ msgstr ""
 "X-Language: fi_FI\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.2\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -25,7 +25,7 @@ msgstr "Versio: %1 (%2)"
 
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
-msgstr "Päivämäärä: %1"
+msgstr "Päiväys: %1"
 
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
@@ -57,7 +57,7 @@ msgstr "Lisää toisiopalvelin"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr "Toisiopalvelimen URL"
+msgstr "Syötä toisiopalvelimen URL-osoite"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
@@ -77,7 +77,7 @@ msgstr "OK"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
-msgstr "Toisiopalvelimen URL"
+msgstr "Syötä toisiopalvelimen URL-osoite"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -105,15 +105,15 @@ msgstr "Ilmoitukset"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of added downloads via Notification Center"
-msgstr "Ilmoita uusista latauksista Ilmoituskeskuksessa"
+msgstr "Ilmoita latauksen lisäyksestä Ilmoituskeskuksessa"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "Ilmoita valmistuneista latauksista Ilmoituskeskuksessa"
+msgstr "Ilmoita latauksen valmistumisesta Ilmoituskeskuksessa"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr "Ilmoita epäonnistuneista latauksista Ilmoituskeskuksessa"
+msgstr "Ilmoita latauksen epäonnistumisesta Ilmoituskeskuksessa"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
@@ -130,11 +130,11 @@ msgstr "Virranhallinta"
 msgctxt "AdvancedSettings|"
 msgid "Don't put your computer to sleep if there is an active download"
 msgstr ""
-"Älä aseta tietokonetta lepotilaan aktiivisten latausten ollessa käynnissä"
+"Älä aseta tietokonetta lepotilaan kun keskeneräisiä latauksia on käynnissä"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable sleep mode while running finished downloads"
-msgstr "Lepotila valmistuneiden latausten ollessa käynnissä"
+msgstr "Salli lepotila valmistuneiden latausten ollessa käynnissä"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -154,7 +154,7 @@ msgstr "Käyttöliittymä"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "Avaa/sulje alapaneeli klikkaamalla latausta"
+msgstr "Näytä/sulje alapaneeli painamalla latausta"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -170,15 +170,15 @@ msgstr "Automaatio"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch external application on download completion"
-msgstr "Käynnistä ulkoinen ohjelma latauksen valmistuttua"
+msgstr "Käynnistä ulkoinen sovellus latauksen valmistuttua"
 
 msgctxt "AdvancedSettings|"
 msgid "Path:"
-msgstr "Polku:"
+msgstr "Sijainti:"
 
 msgctxt "AdvancedSettings|"
 msgid "Please enter application's path"
-msgstr "Sovelluksen polku"
+msgstr "Syötä sovelluksen tiedostosijainti"
 
 msgctxt "AdvancedSettings|"
 msgid "Arguments:"
@@ -206,7 +206,7 @@ msgstr "Palautetaanko oletusasetukset?"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
-msgstr "Latauslistan varmuuskopioinnin aikaväli"
+msgstr "Latauslistan varmuuskopioinnin ajoitus"
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
@@ -227,8 +227,7 @@ msgstr "Käytä ääniä"
 msgctxt "AdvancedSettings|"
 msgid ""
 "Do not allow downloads to perform post finished tasks when running on battery"
-msgstr ""
-"Älä salli latausten suorittaa akkuvirralla tehtäviä niiden valmistuessa"
+msgstr "Älä salli valmistuvien latausten suorittaa tehtäviä akkuvirralla"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
@@ -236,7 +235,7 @@ msgstr "Älä salli latauksia, jos akun varaus laskee alle"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
-msgstr "Ota käyttöön käyttäjän määrittelemä latausjärjestys"
+msgstr "Käytä käyttäjän määritettävissä olevaa latausjärjestystä"
 
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
@@ -244,7 +243,7 @@ msgstr "Näytä \"Tallenna nimellä...\" -painike"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable standalone create new downloads windows"
-msgstr "Käytä itsenäisiä uuden latauksen lisäysikkunoita"
+msgstr "Käytä erillisiä uuden latauksen lisäysikkunoita"
 
 msgctxt "AdvancedSettings|"
 msgid "Overall zoom"
@@ -260,7 +259,7 @@ msgstr "Poista-painikkeen toiminto"
 
 msgctxt "AdvancedSettings|"
 msgid "Remove only from download list"
-msgstr "Poista vain latauslistasta"
+msgstr "Poista vain latauslistalta"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete files"
@@ -300,7 +299,7 @@ msgstr "Eikö virustorjuntaasi näy?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
-msgstr "Polku:"
+msgstr "Sijainti:"
 
 msgctxt "AntivirusSettings|"
 msgid "Please enter antivirus path"
@@ -320,7 +319,7 @@ msgstr "Suorita virustarkistus automaattisesti latauksen valmistuttua"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
-msgstr "Virustarkastus"
+msgstr "Virustarkistus"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
@@ -336,23 +335,23 @@ msgstr "Peru"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
-msgstr "Lataukset eivät tue jatkamista (%1)."
+msgstr "Jotkin lataukset eivät tue jatkamista (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
-msgstr "Siirretään tiedostoja (%1)."
+msgstr "Tiedostoja siirretään (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
-msgstr "Käännetään tiedostoja mp3-muotoon (%1)."
+msgstr "Tiedostoja muunnetaan MP3-muotoon (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
-msgstr "Käännetään tiedostoja mp4-muotoon (%1)."
+msgstr "Tiedostoja muunnetaan MP4-muotoon (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
-msgstr "Nimetään tiedostoja uudelleen (%1)."
+msgstr "Tiedostoja nimetään uudelleen (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
@@ -364,15 +363,15 @@ msgstr "Poistetaan tiedostoja poistetaan."
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
-msgstr "Jatkamista tukemattomia toimintoja on edelleen käynnissä"
+msgstr "Jatkamista tukemattomia toimintoja on käynnissä"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
-msgstr "Muodostetaan yhteyttä etäkohteeseen %1 (%2)…"
+msgstr "Yhdistetään etäinstanssiin %1 (%2)…"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
-msgstr "Noudetaan tietoja etälähteestä %1 (%2)…"
+msgstr "Noudetaan tietoja etäinstanssista %1 (%2)…"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
@@ -380,19 +379,19 @@ msgstr "Epäonnistui."
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
-msgstr "Todentaminen vaaditaan"
+msgstr "Tunnistautuminen vaaditaan"
 
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
-msgstr "%1 vaatii todennusta"
+msgstr "%1 vaatii tunnistautumisen"
 
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
-msgstr "Palvelin sanoo: \"%1\"."
+msgstr "Sivusto ilmoittaa: \"%1\"."
 
 msgctxt "AuthDialog|"
 msgid "Username:"
-msgstr "Käyttäjänimi:"
+msgstr "Käyttäjätunnus"
 
 msgctxt "AuthDialog|"
 msgid "Password:"
@@ -412,11 +411,11 @@ msgstr "OK"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
-msgstr "Todentaminen vaaditaan"
+msgstr "Tunnistautuminen vaaditaan"
 
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
-msgstr "Palvelin sanoo: \"%1\"."
+msgstr "Sivusto ilmoittaa: \"%1\"."
 
 msgctxt "AuthenticationDialog|"
 msgid "Username:"
@@ -440,7 +439,7 @@ msgstr "OK"
 
 msgctxt "AuthenticationPage|"
 msgid "Authentication required"
-msgstr "Todentaminen vaaditaan"
+msgstr "Tunnistautuminen vaaditaan"
 
 msgctxt "AuthenticationPage|"
 msgid "OK"
@@ -448,11 +447,11 @@ msgstr "OK"
 
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
-msgstr "Palvelin sanoo: \"%1\"."
+msgstr "Sivusto ilmoittaa: \"%1\"."
 
 msgctxt "AuthenticationPage|"
 msgid "Username"
-msgstr "Käyttäjänimi"
+msgstr "Käyttäjätunnus"
 
 msgctxt "AuthenticationPage|"
 msgid "Password"
@@ -504,7 +503,7 @@ msgstr "1 päivä"
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
-msgstr "Vain yksi per rivi"
+msgstr "Yksi kohde per rivi"
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
@@ -540,7 +539,7 @@ msgstr "kbps"
 
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
-msgstr ""
+msgstr "%1 %2 – %3 %4"
 
 msgctxt "BitrateComboBox|"
 msgid "CD quality"
@@ -552,7 +551,7 @@ msgstr "Korkea laatu"
 
 msgctxt "BitrateComboBox|"
 msgid "Medium quality"
-msgstr "Keskilaatu"
+msgstr "Keskitasoinen laatu"
 
 msgctxt "BitrateComboBox|"
 msgid "Radio quality"
@@ -572,11 +571,11 @@ msgstr "Matalin laatu, pienin tiedostokoko"
 
 msgctxt "BottomPanelTools|"
 msgid "General"
-msgstr "Yleinen"
+msgstr "Yleiset"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
-msgstr "Edistys"
+msgstr "Edistyminen"
 
 msgctxt "BottomPanelTools|"
 msgid "Files"
@@ -588,15 +587,15 @@ msgstr "Yhteydet"
 
 msgctxt "Browser|"
 msgid "Enter URL"
-msgstr "URL"
+msgstr "Syötä URL-osoite"
 
 msgctxt "Browser|"
 msgid "Bookmark removed"
-msgstr "Kirjanmerkki poistettu"
+msgstr "Kirjanmerkki poistettiin"
 
 msgctxt "Browser|"
 msgid "Bookmark added"
-msgstr "Kirjanmerkki lisätty"
+msgstr "Kirjanmerkki lisättiin"
 
 msgctxt "Browser|"
 msgid "Bookmarks"
@@ -608,7 +607,7 @@ msgstr "Kirjanmerkkejä ei ole"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr "Haluatko varmasti poistaa tämän kirjanmerkin?"
+msgstr "Haluatko varmasti poistaa kirjanmerkin?"
 
 msgctxt "Browser|"
 msgid "YES"
@@ -628,7 +627,7 @@ msgstr "Kirjanmerkit"
 
 msgctxt "Browser MainMenu|"
 msgid "Download media"
-msgstr "Lataa mediaa"
+msgstr "Lataa media"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
@@ -640,11 +639,11 @@ msgstr "Lisää kirjanmerkki"
 
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
-msgstr "Lataa %1 laajennus"
+msgstr "Lataa %1 -laajennus"
 
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
-msgstr "%1 ei ole asennettuna"
+msgstr "%1 ei ole asennettu"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
@@ -654,7 +653,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
-msgstr "Varmista, että %1 laajennus on asennettuna"
+msgstr "Varmista, että %1:n laajennus on asennettu"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -670,11 +669,11 @@ msgstr "Kaappaa lataukset selaimista"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Start downloading without confirmation"
-msgstr "Aloita lataus ilman varmistusta"
+msgstr "Käynnistä lataus ilman vahvistusta"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip domains"
-msgstr "Ohita osoitteet"
+msgstr "Ohita verkkotunnukset"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Edit list"
@@ -686,7 +685,7 @@ msgstr "Onko tämä varmasti oikea osoite?"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip files with extensions"
-msgstr "Ohita tiedostomuodot"
+msgstr "Ohita tiedostopäätteet"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid file extension?"
@@ -698,11 +697,11 @@ msgstr "Älä lisää latauksia, jotka ovat pienempiä kuin"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
-msgstr "MB"
+msgstr "Mt"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
-msgstr "Käytä selainta, jos %1 peruu latauksen"
+msgstr "Käytä selainta, jos lataus perutaan %1:stä"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -715,14 +714,14 @@ msgid ""
 "browser does not provide to %1 (or there is no universal way for all "
 "browsers to do this)."
 msgstr ""
-"Olet avaamassa sisäänrakennettua verkkoselainta.\n"
+"Olet avaamassa sisäänrakennetun verkkoselaimen.\n"
 "\n"
-"Voit lisätä sillä latauksia %1:iin.\n"
+"Sen kautta voit lisätä latauksia %1:ään.\n"
 "\n"
-"Jotkin lataukset (kuten lataukset kohteesta Google Drive) voidaan lisätä "
-"vain käyttämällä tätä selainta, sillä ne vaativat lisätietoja, joita "
-"Androidin järjestelmäselain ei tarjoa %1:lle (tai jos kaikille selaimille ei "
-"ole yhtä tapaa tehdä tätä)."
+"Jotkin lataukset (kuten Google Drive -lataukset) voidaan lisätä vain tästä "
+"selaimesta, koska ne tarvitsevat tietoja joita Androidin järjestelmäselain "
+"ei jaa %1:lle (tai tätä varten ei ole kaikille selaimille soveltuvaa "
+"yleistapaa)."
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -734,7 +733,7 @@ msgstr "(selainta ei ole asennettu)"
 
 msgctxt "BtSettings|"
 msgid "General"
-msgstr "Yleinen"
+msgstr "Yleiset"
 
 msgctxt "BtSettings|"
 msgid "Monitoring"
@@ -750,7 +749,7 @@ msgstr "Peru"
 
 msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
-msgstr "Aloita lataus ilman varmistusta"
+msgstr "Käynnistä lataus ilman vahvistusta"
 
 msgctxt "BtSettings|"
 msgid "Privacy"
@@ -770,7 +769,7 @@ msgstr "Suosi salausta"
 
 msgctxt "BtSettings|"
 msgid "Require encryption"
-msgstr "Vaadi salausta"
+msgstr "Vaadi salaus"
 
 msgctxt "BtSettings|"
 msgid "Advanced"
@@ -782,7 +781,7 @@ msgstr "Nykyinen portti: %1"
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
-msgstr "Muu portti:"
+msgstr "Oma portti:"
 
 msgctxt "BtSettings|"
 msgid ""
@@ -790,9 +789,9 @@ msgid ""
 "Lists of such trackers can be retrieved from different sources, e.g. from <a "
 "href='https://github.com/ngosang/trackerslist'>here</a>."
 msgstr ""
-"Lisäträkkereiden käyttäminen saattaa lisätä latausnopeutta joissain "
-"tapauksissa. Träkkerilistoja saa eri lähteistä, kuten <a href='https://"
-"github.com/ngosang/trackerslist'>täältä</a>."
+"Seurantapalvelimien lisääminen saattaa joissain tapauksissa parantaa "
+"latausnopeuksia. Palvelinlistoja saa eri lähteistä, esimerkiksi <a "
+"href='https://github.com/ngosang/trackerslist'>täältä</a>."
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -840,7 +839,7 @@ msgstr "Ilmoita ongelmasta"
 
 msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
-msgstr "Tästä osoitteesta lataaminen ei ole sallittua"
+msgstr "Tältä sivustolta lataaminen ei ole sallittua"
 
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
@@ -852,7 +851,7 @@ msgstr "%1 pyytää käyttäjätunnusta ja salasanaa."
 
 msgctxt "BuildDownloadTools|"
 msgid "Querying info. Please wait..."
-msgstr "Pyydetään tietoja. Odota..."
+msgstr "Noudetaan tietoja. Odota..."
 
 msgctxt "ButtonsBlock|"
 msgid "Please select download link"
@@ -860,23 +859,23 @@ msgstr "Valitse latauslinkki"
 
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
-msgstr "Voit valita vain %1 linkkiä kerrallaan"
+msgstr "Voit valita kerrallaan enintään %1 linkkiä"
 
 msgctxt "ButtonsBlock|"
 msgid "No write access to the selected directory"
-msgstr "Ei kirjoitusoikeutta valittuun hakemistoon"
+msgstr "Valittuun hakemistoon ei ole kirjoitusoikeutta"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
-msgstr "Ei riittävästi levytilaa"
+msgstr "Levytilaa ei ole riittävästi"
 
 msgctxt "ButtonsBlock|"
 msgid "The path contains invalid characters"
-msgstr "Polku sisältää kiellettyjä merkkejä"
+msgstr "Tiedostosijainti sisältää kiellettyjä merkkejä"
 
 msgctxt "ButtonsBlock|"
 msgid "The subfolder name contains invalid characters"
-msgstr "Alakansion nimi sisältää kiellettyjä merkkejä"
+msgstr "Alikansion nimi sisältää kiellettyjä merkkejä"
 
 msgctxt "ButtonsBlock|"
 msgid "The filename contains invalid characters"
@@ -896,7 +895,7 @@ msgstr "Muuta latauksen URL-osoitetta"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
-msgstr "Uusi URL"
+msgstr "Syötä uusi URL-osoite"
 
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
@@ -904,11 +903,11 @@ msgstr "Tiedostosijainti: %1"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
-msgstr "Virheellinen URL"
+msgstr "Virheellinen URL-osoite"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Start download"
-msgstr "Aloita lataus"
+msgstr "Käynnistä lataus"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Cancel"
@@ -928,7 +927,7 @@ msgstr "OK"
 
 msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
-msgstr "Uusi URL"
+msgstr "Syötä URL-osoite"
 
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
@@ -936,11 +935,11 @@ msgstr "Tiedostosijainti: %1"
 
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
-msgstr "Aloita lataus"
+msgstr "Käynnistä lataus"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Extraneous files are detected"
-msgstr "Ylimääräisiä tiedostoja havaittu"
+msgstr "havaittiin ylimääräisiä tiedostoja"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid ""
@@ -959,7 +958,7 @@ msgstr "Peru"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
-msgstr "Yhdistä etäyhteyteen %1"
+msgstr "Yhdistä etäinstanssiin %1"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
@@ -967,11 +966,11 @@ msgstr "(beta)"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
-msgstr "Täällä voit yhdistää %1:iin, joka sijaitsee toisella laitteella."
+msgstr "Tästä voit yhdistää eri laitteella sijaitsevaan %1-instanssiin."
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
-msgstr "Yhdistä automaattisesti käynnistyksessä"
+msgstr "Yhdistä automaattisesti käynnistettäessä"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
@@ -985,7 +984,7 @@ msgstr "Sekä %1 että QR-koodi sijaitsevat kohteen %2 Ominaisuudet-sivulla."
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
-msgstr "Yhdistä automaattisesti käynnistyksessä kohteeseen %1"
+msgstr "Yhdistä käynnistettäessä automaattisesti kohteeseen %1"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Cancel"
@@ -998,11 +997,12 @@ msgstr "OK"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
-"Täällä voit yhdistää %1:iin, joka sijaitsee Windows/macOS/Linux ympäristössä"
+"Tästä voit yhdistää toiseen Windows-/macOS-/Linux-käyttöjärjestelmässä "
+"suoritettavaan %1-instanssiin"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
-msgstr "Ei yhteyksiä"
+msgstr "Yhteyksiä ei ole"
 
 msgctxt "ConnectionsTab|"
 msgid "Host"
@@ -1022,7 +1022,7 @@ msgstr "Kohdetiedosto on jo olemassa"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Overwrite All"
-msgstr "Päällekirjoita kaikki"
+msgstr "Korvaa kaikki"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Rename All"
@@ -1038,7 +1038,7 @@ msgstr "Keskeytä"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "Failed to convert"
-msgstr "Kääntäminen epäonnistui"
+msgstr "Muunnos epäonnistui"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "OK"
@@ -1046,7 +1046,7 @@ msgstr "OK"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "Convert failed"
-msgstr "Kääntäminen epäonnistui"
+msgstr "Muunnos epäonnistui"
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
@@ -1058,7 +1058,7 @@ msgstr "Kopioi"
 
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
-msgstr "Haluatko varmasti lopettaa?"
+msgstr "Haluatko varmasti sulkea sovelluksen?"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Starting..."
@@ -1079,11 +1079,11 @@ msgstr "OK"
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
-msgstr "Sisäinen virhe havaittu.<br> %1 täytyy käynnistää uudelleen."
+msgstr "Havaittiin sisäinen virhe.<br>%1 on käynnistettävä uudelleen."
 
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
-msgstr "Uudelleenkäynnistä %1 automaattisesti"
+msgstr "Käynnistä %1 automaattisesti uudelleen"
 
 msgctxt "CrashReporter|"
 msgid "Failed to send the report.<br>Check your Internet connection."
@@ -1114,8 +1114,8 @@ msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
 msgstr ""
-"Siirrettävää versiota %1:sta voidaan käyttää eri tietokoneilla ilman "
-"erillistä asennusta tai määrittämistä."
+"%1:n siirrettävää versiota voidaan käyttää eri tietokoneilla ilman erillistä "
+"asennusta tai määrittämistä."
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
@@ -1126,8 +1126,8 @@ msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
 msgstr ""
-"Anna polku, johon haluat tämän version luotavan. Sen tulisi olla kansio "
-"siirrettävällä levyllä."
+"Määritä sijainti, johon haluat tallentaa tämän version. Sen tulisi olla "
+"siirrettävällä levyllä oleva kansio."
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -1139,7 +1139,7 @@ msgstr "Peru"
 
 msgctxt "CreatePortableDialog|"
 msgid "Please specify the path."
-msgstr "Anna polku."
+msgstr "Määritä tiedostosijainti."
 
 msgctxt "CreatePortableDialog|"
 msgid "OK"
@@ -1147,7 +1147,7 @@ msgstr "OK"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
-msgstr "Luodaan %1%"
+msgstr "Luodaan %1 %"
 
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
@@ -1155,7 +1155,7 @@ msgstr "Virhe luotaessa siirrettävää versiota: %1"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating a portable version was successfully completed."
-msgstr "Siirrettävän version luominen onnistui."
+msgstr "Siirrettävän version luonti onnistui."
 
 msgctxt "CreatePortableDialog|"
 msgid "Close"
@@ -1163,7 +1163,7 @@ msgstr "Sulje"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Customize sounds"
-msgstr "Muokkaa ääniä"
+msgstr "Mukauta ääniä"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Event"
@@ -1191,7 +1191,7 @@ msgstr "Lataus epäonnistui"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No active downloads"
-msgstr "Ei aktiivisia latauksia"
+msgstr "Aktiivisia latauksia ei ole"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Set sound"
@@ -1223,7 +1223,7 @@ msgstr "Poista tiedostot"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Remove from list"
-msgstr "Poista listasta"
+msgstr "Poista listalta"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Cancel"
@@ -1235,11 +1235,11 @@ msgstr "OK"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete this file?"
-msgstr "Poista tämä tiedosto?"
+msgstr "Poistetaanko tiedosto?"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected files?"
-msgstr "Poista valitut tiedostot?"
+msgstr "Poistetaanko valitut tiedostot?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Delete selected downloads"
@@ -1279,7 +1279,7 @@ msgstr "Keskeytä"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "Koko: %1 (Levytila: %2)"
+msgstr "Koko: %1 (levytila: %2)"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1"
@@ -1302,7 +1302,7 @@ msgstr ""
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Please try to update the download link to resume."
-msgstr "Yritä päivittää latauslinkki jatkaaksesi."
+msgstr "Yritä jatkaa päivittämällä latauslinkki."
 
 msgctxt "DownloadExpiredDialog|"
 msgid ""
@@ -1311,7 +1311,7 @@ msgstr "Siirry alkuperäiselle lataussivustolle ja kopioi uusi linkki"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "click here"
-msgstr "klikkaa tästä"
+msgstr "paina tästä"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Update download"
@@ -1323,7 +1323,7 @@ msgstr "Sulje"
 
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
-msgstr "[%1%] - %2"
+msgstr "[%1 %] - %2"
 
 msgctxt "DownloadWindow|"
 msgid "Web page:"
@@ -1363,7 +1363,7 @@ msgstr "Ladattu"
 
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
-msgstr "%1% [%2]"
+msgstr "%1 % [%2]"
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -1371,7 +1371,7 @@ msgstr "Nopeus"
 
 msgctxt "DownloadWindow|"
 msgid "Time remaining"
-msgstr "Aikaa jäljellä"
+msgstr "Jäljellä oleva aika"
 
 msgctxt "DownloadWindow|"
 msgid "Open download when it is completed"
@@ -1387,7 +1387,7 @@ msgstr "Sulje aina"
 
 msgctxt "DownloadWindow|"
 msgid "Remember to never close by default"
-msgstr "Älä koskaan sulje"
+msgstr "Älä sulje koskaan"
 
 msgctxt "DownloadWindow|"
 msgid "Hide"
@@ -1407,7 +1407,7 @@ msgstr "Pysäytä"
 
 msgctxt "DownloadWindow|"
 msgid "Start"
-msgstr "Aloita"
+msgstr "Käynnistä"
 
 msgctxt "DownloadsItemTools|"
 msgid "Moving"
@@ -1415,15 +1415,15 @@ msgstr "Siirretään"
 
 msgctxt "DownloadsItemTools|"
 msgid "Checking for viruses"
-msgstr "Tarkistetaan viruksia"
+msgstr "Suoritetaan virustarkistusta"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp3"
-msgstr "Käännetään mp3-muotoon"
+msgstr "Muunnetaan MP3-muotoon"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp4"
-msgstr "Käännetään mp4-muotoon"
+msgstr "Muunnetaan MP3-muotoon"
 
 msgctxt "DownloadsItemTools|"
 msgid "Calculating hash"
@@ -1447,7 +1447,7 @@ msgstr "Valitse kaikki"
 
 msgctxt "DownloadsList|"
 msgid "Select none"
-msgstr "Poista valinnat"
+msgstr "Tyhjennä valinnat"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1459,19 +1459,19 @@ msgstr "Lisää uuden latauksen URL."
 
 msgctxt "DownloadsPage|"
 msgid "No results found for"
-msgstr "Ei tuloksia kohteessa"
+msgstr "Ei tuloksia kohteesta"
 
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
-msgstr "Ei tuloksia tägillä \"%1\""
+msgstr "Tunnisteella \"%1\" ei löytynyt tuloksia"
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
-msgstr "Ei aktiivisia latauksia"
+msgstr "Aktiivisia latauksia ei ole"
 
 msgctxt "DownloadsPage|"
 msgid "No completed downloads"
-msgstr "Ei valmistuneita latauksia"
+msgstr "Valmistuneita latauksia ei ole"
 
 msgctxt "DownloadsPage|"
 msgid "Show all"
@@ -1483,7 +1483,7 @@ msgstr "Latauslista on tyhjä. Lisää uuden latauksen URL."
 
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
-msgstr "Yhdistä etäyhteyteen %1"
+msgstr "Yhdistä etäistuntoon %1"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1491,15 +1491,15 @@ msgstr "Latausasetukset"
 
 msgctxt "DownloadsSettings|"
 msgid "Start downloading without confirmation"
-msgstr "Aloita lataaminen ilman vahvistusta"
+msgstr "Käynnistä lataus ilman vahvistusta"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "Poista poistetut tiedostot automaattisesti latauslistasta"
+msgstr "Poista poistetut tiedostot latauslistalta automaattisesti"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "Poista valmistuneet lataukset automaattisesti latauslistasta"
+msgstr "Poista valmistuneet lataukset latauslistalta automaattisesti"
 
 msgctxt "DownloadsSettings|"
 msgid "Immediately"
@@ -1547,7 +1547,7 @@ msgstr "Muuttumaton oletuslatauskansio"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
-msgstr "Poista tägi"
+msgstr "Poista tunniste"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Name"
@@ -1571,7 +1571,7 @@ msgstr "Lisätty"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Paused"
-msgstr "Tauolla"
+msgstr "Pysäytetty"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "File is missing"
@@ -1583,7 +1583,7 @@ msgstr "Levy puuttuu"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
-msgstr "Lähetys tauolla"
+msgstr "Lähetys on pysäytetty"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -1591,7 +1591,7 @@ msgstr "Tärkeys"
 
 msgctxt "DownloadsViewItem|"
 msgid "Upload paused"
-msgstr "Lähetys tauolla"
+msgstr "Lähetys on pysäytetty"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1611,7 +1611,7 @@ msgstr "Ilmoita ongelmasta"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Enable auto retry for this kind of errors"
-msgstr "Ota käyttöön automaattinen uudelleenyritys tälle virheelle"
+msgstr "Käytä tämän tyyppisille virheille automaattista uudelleenyritystä"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show Downloads"
@@ -1651,11 +1651,11 @@ msgstr "Poista tiedosto"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Remove from list"
-msgstr "Poista listasta"
+msgstr "Poista listalta"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential Download"
-msgstr "Lataus järjestyksessä"
+msgstr "Lataa järjestyksessä"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1679,7 +1679,7 @@ msgstr "Vie valitut lataukset"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add Tag"
-msgstr "Lisää tägi"
+msgstr "Lisää tunniste"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "File integrity"
@@ -1695,11 +1695,11 @@ msgstr "Muuta URL-osoitetta"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
-msgstr "Käännä mp3-muotoon"
+msgstr "Muunna MP3-muotoon"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp4"
-msgstr "Käännä mp4-muotoon"
+msgstr "Muunna MP4-muotoon"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
@@ -1755,7 +1755,7 @@ msgstr "Jonossa"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Paused"
-msgstr "Tauolla"
+msgstr "Pysäytetty"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
@@ -1783,7 +1783,7 @@ msgstr "Tiedostokoko ei tiedossa"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Paused"
-msgstr "Tauolla"
+msgstr "Pysäytetty"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
@@ -1791,11 +1791,11 @@ msgstr "Valmis"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
-msgstr "Muokkaa tägiä"
+msgstr "Muokkaa tunnistetta"
 
 msgctxt "EditTagDialog|"
 msgid "Tag"
-msgstr "Tägi"
+msgstr "Tunniste"
 
 msgctxt "EditTagDialog|"
 msgid "Extensions (e.g. \"avi mp3\")"
@@ -1805,8 +1805,8 @@ msgctxt "EditTagDialog|"
 msgid ""
 "Extensions that are automatically assigned with this tag for new downloads"
 msgstr ""
-"Uusien latausten tiedostomuodot, jotka merkitään tällä tägillä "
-"automaattisesti"
+"Uusien latausten tiedostopäätteet, jotka merkitään automaattisesti tällä "
+"tunnisteella"
 
 msgctxt "EditTagDialog|"
 msgid "Default download folder"
@@ -2150,15 +2150,15 @@ msgstr "Tiedostojen eheys"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
-msgstr "Käännä video mp3-muotoon"
+msgstr "Muunna video MP3-muotoon"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp4"
-msgstr "Käännä video mp4-muotoon"
+msgstr "Muunna video MP4-muotoon"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
-msgstr "Käännä mp4-muotoon"
+msgstr "Muunna MP4-muotoon"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2190,11 +2190,11 @@ msgstr "Vaaleaa teemaa käytetään, jos järjestelmäteema ei ole tiedossa."
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
-msgstr "Puutteellinen käännös?"
+msgstr "Puuttuuko kielesi tai onko käännöksessä puutteita?"
 
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
-msgstr "Korjataanpa asia!"
+msgstr "Korjataan se!"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -2262,7 +2262,7 @@ msgstr "Havaitse epätoivotut käyttäytymisvirheet"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
-msgstr "Käytä palvelimen aikaa tiedoston luonnissa"
+msgstr "Käytä tiedoston luontiaikana palvelimen aikaa"
 
 msgctxt "GeneralSettings|"
 msgid "Maximum urls count in batch download"
@@ -2359,7 +2359,7 @@ msgstr "%1/%2"
 
 msgctxt "GeneralTab|"
 msgid "Domain:"
-msgstr "Osoite:"
+msgstr "Verkkotunnus:"
 
 msgctxt "GeneralTab|"
 msgid "Added:"
@@ -2367,7 +2367,7 @@ msgstr "Lisätty:"
 
 msgctxt "GeneralTab|"
 msgid "Progress:"
-msgstr "Edistys:"
+msgstr "Edistyminen:"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2451,7 +2451,7 @@ msgstr "Älä kysy uudelleen"
 
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
-msgstr ". Sulje silti?"
+msgstr ". Suljetaanko silti?"
 
 msgctxt "LanguageDialog|"
 msgid "Language"
@@ -2491,7 +2491,7 @@ msgstr "Tietoja"
 
 msgctxt "LeftDrawer|"
 msgid "Quit"
-msgstr "Lopeta"
+msgstr "Sulje"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -2555,7 +2555,7 @@ msgstr "Kesken"
 
 msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
-msgstr "Voidaanko tägi poistaa?"
+msgstr "Voidaanko tunniste poistaa?"
 
 msgctxt "MainMenu|"
 msgid "Paste Urls from Clipboard"
@@ -2643,7 +2643,7 @@ msgstr "Tietoja"
 
 msgctxt "MainMenu|"
 msgid "Quit"
-msgstr "Lopeta"
+msgstr "Sulje"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
@@ -2669,19 +2669,19 @@ msgstr "Lisää uusi lataus…"
 
 msgctxt "MainToolbar|"
 msgid "Start all"
-msgstr "Aloita kaikki"
+msgstr "Käynnistä kaikki"
 
 msgctxt "MainToolbar|"
 msgid "Start selected"
-msgstr "Aloita valitut"
+msgstr "Käynnistä valitut"
 
 msgctxt "MainToolbar|"
 msgid "Pause all"
-msgstr "Tauota kaikki"
+msgstr "Pysäytä kaikki"
 
 msgctxt "MainToolbar|"
 msgid "Pause selected"
-msgstr "Tauota valitut"
+msgstr "Pysäytä valitut"
 
 msgctxt "MainToolbar|"
 msgid "Delete selected"
@@ -2829,7 +2829,7 @@ msgstr "Peru"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Käännä mp3-muotoon muuttuvalla bittinopeudella"
+msgstr "Muunna MP3-muotoon muuttuvalla bittinopeudella"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Save to"
@@ -2865,11 +2865,11 @@ msgstr "OK"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Convert to mp3"
-msgstr "Käännä mp3-muotoon"
+msgstr "Muunna MP3-muotoon"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Käännä mp3-muotoon muuttuvalla bittinopeudella"
+msgstr "Muunna MP3-muotoon muuttuvalla bittinopeudella"
 
 msgctxt "Mp3ConverterPage|"
 msgid "OK"
@@ -2897,7 +2897,7 @@ msgstr "Muuttuva bittinopeus (VBR)"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "Convert to mp4"
-msgstr "Käännä mp4-muotoon"
+msgstr "Muunna MP4-muotoon"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "Save to"
@@ -2921,7 +2921,7 @@ msgstr "OK"
 
 msgctxt "Mp4ConverterPage|"
 msgid "Convert to mp4"
-msgstr "Käännä mp4-muotoon"
+msgstr "Muunna MP4-muotoon"
 
 msgctxt "Mp4ConverterPage|"
 msgid "OK"
@@ -2945,7 +2945,7 @@ msgstr "Asetukset…"
 
 msgctxt "NativeMenuBar|"
 msgid "Quit"
-msgstr "Lopeta"
+msgstr "Sulje"
 
 msgctxt "NativeMenuBar|"
 msgid "&File"
@@ -2973,11 +2973,11 @@ msgstr "Lataukset"
 
 msgctxt "NativeMenuBar|"
 msgid "Start selected"
-msgstr "Aloita valitut"
+msgstr "Käynnistä valitut"
 
 msgctxt "NativeMenuBar|"
 msgid "Pause selected"
-msgstr "Tauota valitut"
+msgstr "Pysäytä valitut"
 
 msgctxt "NativeMenuBar|"
 msgid "Restart selected"
@@ -3431,7 +3431,7 @@ msgstr "Tietoja %1:sta"
 
 msgctxt "QObject|"
 msgid "Quit"
-msgstr "Lopeta"
+msgstr "Sulje"
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -3976,11 +3976,11 @@ msgstr "Sekalaiset"
 
 msgctxt "QObject|"
 msgid "upload paused"
-msgstr "lähetys tauolla"
+msgstr "lähetys on pysäytetty"
 
 msgctxt "QObject|"
 msgid "PAUSE ALL"
-msgstr "TAUOTA KAIKKI"
+msgstr "PYSÄYTÄ KAIKKI"
 
 msgctxt "QObject|"
 msgid "Downloading..."
@@ -4080,7 +4080,7 @@ msgstr "ZIP/UNZIP-rajapinnan virhe %1"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
-msgstr "Haluatko varmasti lopettaa?"
+msgstr "Haluatko varmasti sulkea sovelluksen?"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "OK"
@@ -4256,7 +4256,7 @@ msgstr "Aikataulutus"
 
 msgctxt "SchedulerDialog|"
 msgid "Start and pause downloads at specified time"
-msgstr "Aloita ja tauota lataukset tiettyinä aikoina"
+msgstr "Käynnistä ja pysäytä lataukset tiettyinä aikoina"
 
 msgctxt "SchedulerDialog|"
 msgid "Enable Scheduler"
@@ -4556,7 +4556,7 @@ msgstr "Tuntematon tiedostokoko"
 
 msgctxt "StatusItem|"
 msgid "Paused"
-msgstr "Tauolla"
+msgstr "Pysäytetty"
 
 msgctxt "StatusItem|"
 msgid "Completed"
@@ -4564,7 +4564,7 @@ msgstr "Valmis"
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause download"
-msgstr "Latauksen tauotus"
+msgstr "Pysäytä lataus"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing."
@@ -4572,7 +4572,7 @@ msgstr "Seuraavia latauksia ei voida jatkaa tauotuksen jälkeen."
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause"
-msgstr "Tauota"
+msgstr "Pysäytä"
 
 msgctxt "StopDownloadDialog|"
 msgid "Cancel"
