@@ -122,12 +122,12 @@ msgid "Power management"
 msgstr "Gerenciamento de energia"
 
 msgctxt "AdvancedSettings|"
-msgid "Don't put your computer to sleep if there is an active download"
-msgstr "Não colocar computador no modo de suspensão com downloads ativos"
+msgid "Avoid sleep mode if there is a scheduled download"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
-msgid "Enable sleep mode while running finished downloads"
-msgstr "Habilitar modo de suspensão durante a execução de downloads concluídos"
+msgid "Allow sleep mode while sharing files"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -202,6 +202,14 @@ msgid "Backup the list of downloads every"
 msgstr "Fazer backup da lista de downloads a cada"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is an active download"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Allow sleep mode if downloads can be resumed later"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
 msgstr "Se o arquivo existir"
 
@@ -218,15 +226,12 @@ msgid "Use sounds"
 msgstr "Usar sons"
 
 msgctxt "AdvancedSettings|"
-msgid ""
-"Do not allow downloads to perform post finished tasks when running on battery"
-msgstr ""
-"Não permitir que downloads realizem tarefas pós-conclusão quando estiver "
-"funcionando na bateria"
-
-msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "Não permitir downloads se o nível da bateria estiver abaixo de"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not share files when running on battery"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
@@ -329,6 +334,24 @@ msgstr "Ir para configurações"
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Cancelar"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "Storage"
+msgstr ""
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "Notifications"
+msgstr "Notificações"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "%1 needs permission to save downloaded files to your local storage."
+msgstr ""
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid ""
+"%1 needs permission to show download progress within your system's "
+"notification panel."
+msgstr ""
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
@@ -497,6 +520,14 @@ msgstr "3 horas"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 dia"
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Server has returned a web page."
+msgstr ""
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Click to open it in the web browser."
+msgstr ""
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -1282,6 +1313,10 @@ msgid "Size: %1 (Disk space: %2)"
 msgstr "Tamanho: %1 (Espaço em disco: %2)"
 
 msgctxt "DiskSpace|"
+msgid "Disk space: %1"
+msgstr ""
+
+msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Tamanho: %1"
 
@@ -1395,7 +1430,7 @@ msgid "Hide"
 msgstr "Esconder"
 
 msgctxt "DownloadWindow|"
-msgid "Show In Folder"
+msgid "Show in folder"
 msgstr "Mostrar na pasta"
 
 msgctxt "DownloadWindow|"
@@ -1519,8 +1554,8 @@ msgid "Automatically retry failed downloads"
 msgstr "Repetir automaticamente downloads com falha"
 
 msgctxt "DownloadsSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "Detectar erros de comportamento indesejados"
+msgid "Do not download web pages"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1603,10 +1638,6 @@ msgid "Open"
 msgstr "Abrir"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show In Folder"
-msgstr "Mostrar na pasta"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "Relatar problema"
 
@@ -1615,16 +1646,16 @@ msgid "Enable auto retry for this kind of errors"
 msgstr "Ativar a repetição automática para esse tipo de erro"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show Downloads"
-msgstr "Mostrar downloads"
+msgid "Save and complete"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Choose Files..."
-msgstr "Escolher arquivos..."
+msgid "Show downloads"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Set Priority"
-msgstr "Definir prioridade"
+msgid "Choose files..."
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -1679,7 +1710,7 @@ msgid "Export selected downloads"
 msgstr "Exportar downloads selecionados"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Add Tag"
+msgid "Add tag"
 msgstr "Adicionar tag"
 
 msgctxt "DownloadsViewItemContextMenu|"
@@ -2122,16 +2153,16 @@ msgid "Select none"
 msgstr "Selecionar nenhum"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "High Priority"
-msgstr "Prioridade alta"
+msgid "High priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Normal Priority"
-msgstr "Prioridade normal"
+msgid "Normal priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Low Priority"
-msgstr "Prioridade baixa"
+msgid "Low priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -2142,11 +2173,11 @@ msgid "Open"
 msgstr "Abrir"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Show in Folder"
+msgid "Show in folder"
 msgstr "Mostrar na pasta"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "File Integrity"
+msgid "File integrity"
 msgstr "Integridade do arquivo"
 
 msgctxt "FilesTreeContextMenu|"
@@ -2258,8 +2289,8 @@ msgid "Automatically retry failed downloads"
 msgstr "Repetir automaticamente downloads com falha"
 
 msgctxt "GeneralSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "Detectar erros de comportamento indesejados"
+msgid "Do not download web pages"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -2559,12 +2590,12 @@ msgid "OK to remove tag?"
 msgstr "OK para remover a tag?"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from Clipboard"
-msgstr "Colar URLs da área de transferência"
+msgid "Paste urls from clipboard"
+msgstr ""
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from File"
-msgstr "Colar URLs do arquivo"
+msgid "Paste urls from file"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
@@ -2595,16 +2626,20 @@ msgid "Preferences..."
 msgstr "Preferências..."
 
 msgctxt "MainMenu|"
-msgid "Contact Support"
-msgstr "Contatar Suporte"
+msgid "Contact support"
+msgstr "Contatar suporte"
+
+msgctxt "MainMenu|"
+msgid "Auto shutdown"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Check for updates..."
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
 msgstr ""
-
-msgctxt "MainMenu|"
-msgid "Auto Shutdown"
-msgstr "Desligamento automático"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
@@ -2629,10 +2664,6 @@ msgstr "Conectar ao %1 remoto"
 msgctxt "MainMenu|"
 msgid "Create portable version"
 msgstr "Criar versão portátil"
-
-msgctxt "MainMenu|"
-msgid "Check for Updates..."
-msgstr "Verificar atualizações..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
@@ -3105,6 +3136,44 @@ msgstr "Valor inválido"
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "Deve ser um número maior que 0."
+
+msgctxt "NoResumeSupportBlock|"
+msgid "This download may not support resuming."
+msgstr ""
+
+msgctxt "NoResumeSupportBlock|"
+msgid "Prevent sleep mode when downloading files that don't support resuming"
+msgstr ""
+
+msgctxt "OsPermissionsDialog|"
+msgid "%1 is missing permissions"
+msgstr ""
+
+msgctxt "OsPermissionsDialog|"
+msgid "(required)"
+msgstr ""
+
+msgctxt "OsPermissionsDialog|"
+msgid ""
+"You can grant these permissions using the Application details screen within "
+"your system's settings."
+msgstr ""
+
+msgctxt "OsPermissionsDialog|"
+msgid "Don't show again"
+msgstr ""
+
+msgctxt "OsPermissionsDialog|"
+msgid "Grant permissions"
+msgstr ""
+
+msgctxt "OsPermissionsDialog|"
+msgid "Quit"
+msgstr "Fechar"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Close"
+msgstr "Fechar"
 
 msgctxt "Page|"
 msgid "Info"
@@ -4051,6 +4120,10 @@ msgctxt "QObject|"
 msgid "Playlist"
 msgstr "Lista de reprodução"
 
+msgctxt "QObject|"
+msgid "Open folder"
+msgstr ""
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::Append não é compatível com GZIP"
@@ -4738,6 +4811,18 @@ msgid "Archive service data..."
 msgstr ""
 
 msgctxt "TroubleshootingSettings|"
+msgid "Enable enhanced logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable LT alerts logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Restart is required"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "Esconder"
 
@@ -4836,6 +4921,10 @@ msgstr "Sem acesso de gravação ao diretório selecionado"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Tamanho: %1 (Espaço em disco: %2)"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Disk space: %1"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"

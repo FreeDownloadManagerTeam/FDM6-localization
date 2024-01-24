@@ -1,20 +1,12 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: uk_UA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Language: uk_UA\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.2.2\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -129,12 +121,12 @@ msgid "Power management"
 msgstr "Керування живленням"
 
 msgctxt "AdvancedSettings|"
-msgid "Don't put your computer to sleep if there is an active download"
-msgstr "Не вводити комп'ютер в режим сну якщо є активне завантаження"
+msgid "Avoid sleep mode if there is a scheduled download"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
-msgid "Enable sleep mode while running finished downloads"
-msgstr "Дозволити режим сну при роздачі завершених завантажень"
+msgid "Allow sleep mode while sharing files"
+msgstr "Дозволити сплячий режим коли ділимося файлами"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -209,6 +201,14 @@ msgid "Backup the list of downloads every"
 msgstr "Резервне копіювання списку завантажень кожні"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is an active download"
+msgstr "Уникати сплячого режиму при активному завантаженні"
+
+msgctxt "AdvancedSettings|"
+msgid "Allow sleep mode if downloads can be resumed later"
+msgstr "Дозволити сплячий режим якщо завантаження можна довантажити пізніше"
+
+msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
 msgstr "Якщо файл існує"
 
@@ -225,15 +225,12 @@ msgid "Use sounds"
 msgstr "Використовувати звуки"
 
 msgctxt "AdvancedSettings|"
-msgid ""
-"Do not allow downloads to perform post finished tasks when running on battery"
-msgstr ""
-"Не дозволяти завантаженням виконувати дії після їх завершення  при живленні "
-"від акумулятора"
-
-msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "Не дозволяти завантаження при низькому заряді акумулятора"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not share files when running on battery"
+msgstr "Не ділитися файлами при роботі від акумулятора"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
@@ -334,6 +331,24 @@ msgstr "Перейти до налаштувань"
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Скасувати"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "Storage"
+msgstr ""
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "Notifications"
+msgstr "Повідомлення"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "%1 needs permission to save downloaded files to your local storage."
+msgstr ""
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid ""
+"%1 needs permission to show download progress within your system's "
+"notification panel."
+msgstr ""
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
@@ -502,6 +517,14 @@ msgstr "3 години"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 день"
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Server has returned a web page."
+msgstr "Сервер повернув веб-сторінку."
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Click to open it in the web browser."
+msgstr "Клацніть, щоб відкрити у веб-браузері."
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -1002,8 +1025,8 @@ msgstr "OK"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
-"Тут ви можете підключитися до  %1 запущеного на вашому ПК під Windows/macOS/"
-"Linux"
+"Тут ви можете підключитися до  %1 запущеного на вашому ПК під "
+"Windows/macOS/Linux"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -1289,6 +1312,10 @@ msgid "Size: %1 (Disk space: %2)"
 msgstr "Розмір: %1 (Місце на диску: %2)"
 
 msgctxt "DiskSpace|"
+msgid "Disk space: %1"
+msgstr "Місце на диску: %1"
+
+msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Розмір: %1"
 
@@ -1402,7 +1429,7 @@ msgid "Hide"
 msgstr "Сховати"
 
 msgctxt "DownloadWindow|"
-msgid "Show In Folder"
+msgid "Show in folder"
 msgstr "Показати у теці"
 
 msgctxt "DownloadWindow|"
@@ -1526,8 +1553,8 @@ msgid "Automatically retry failed downloads"
 msgstr "Автоматично перезапускати невдалі завантаження"
 
 msgctxt "DownloadsSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "Виявляти помилки/небажану поведінку"
+msgid "Do not download web pages"
+msgstr "Не завантажувати веб-сторінки"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1610,10 +1637,6 @@ msgid "Open"
 msgstr "Відкрити"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show In Folder"
-msgstr "Показати у теці"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "Повідомити про проблему"
 
@@ -1622,16 +1645,16 @@ msgid "Enable auto retry for this kind of errors"
 msgstr "Дозволити автоповтор для таких помилок"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show Downloads"
-msgstr "Показати Завантаження"
+msgid "Save and complete"
+msgstr "Зберегти і завершити"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Choose Files..."
+msgid "Show downloads"
+msgstr "Показати завантаження"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Choose files..."
 msgstr "Вибрати файли..."
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Set Priority"
-msgstr "Встановити пріоритет"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -1686,7 +1709,7 @@ msgid "Export selected downloads"
 msgstr "Експортувати вибрані завантаження"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Add Tag"
+msgid "Add tag"
 msgstr "Додати позначку"
 
 msgctxt "DownloadsViewItemContextMenu|"
@@ -2128,15 +2151,15 @@ msgid "Select none"
 msgstr "Скинути вибір"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "High Priority"
+msgid "High priority"
 msgstr "Високий пріоритет"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Normal Priority"
+msgid "Normal priority"
 msgstr "Нормальний пріоритет"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Low Priority"
+msgid "Low priority"
 msgstr "Низький пріоритет"
 
 msgctxt "FilesTreeContextMenu|"
@@ -2148,11 +2171,11 @@ msgid "Open"
 msgstr "Відкрити"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Show in Folder"
+msgid "Show in folder"
 msgstr "Показати у теці"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "File Integrity"
+msgid "File integrity"
 msgstr "Цілісність файлу"
 
 msgctxt "FilesTreeContextMenu|"
@@ -2264,8 +2287,8 @@ msgid "Automatically retry failed downloads"
 msgstr "Автоматично перезапускати невдалі завантаження"
 
 msgctxt "GeneralSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "Виявляти помилки/небажану поведінку"
+msgid "Do not download web pages"
+msgstr "Не завантажувати веб-сторінки"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -2565,12 +2588,12 @@ msgid "OK to remove tag?"
 msgstr "Дійсно прибрати тег?"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from Clipboard"
+msgid "Paste urls from clipboard"
 msgstr "Вставити URL-адреси з буфера обміну"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from File"
-msgstr "Вставити URL з файлу"
+msgid "Paste urls from file"
+msgstr "Вставити URL-адреси з файлу"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
@@ -2601,16 +2624,20 @@ msgid "Preferences..."
 msgstr "Вподобання..."
 
 msgctxt "MainMenu|"
-msgid "Contact Support"
+msgid "Contact support"
 msgstr "Технічна підтримка"
+
+msgctxt "MainMenu|"
+msgid "Auto shutdown"
+msgstr "Автовимкнення"
+
+msgctxt "MainMenu|"
+msgid "Check for updates..."
+msgstr "Перевірити оновлення..."
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
 msgstr "Повідомити про проблему"
-
-msgctxt "MainMenu|"
-msgid "Auto Shutdown"
-msgstr "Автовимкнення"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
@@ -2635,10 +2662,6 @@ msgstr "З'єднати з віддаленим %1"
 msgctxt "MainMenu|"
 msgid "Create portable version"
 msgstr "Створити переносну версію"
-
-msgctxt "MainMenu|"
-msgid "Check for Updates..."
-msgstr "Перевірити оновлення..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
@@ -3110,6 +3133,46 @@ msgstr "Неправильне значення"
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "Має бути числом більше 0."
+
+msgctxt "NoResumeSupportBlock|"
+msgid "This download may not support resuming."
+msgstr "Це завантаження може не підтримувати довантаження."
+
+msgctxt "NoResumeSupportBlock|"
+msgid "Prevent sleep mode when downloading files that don't support resuming"
+msgstr ""
+"Вимкнути сплячий режим при завантаженні файлів, що не підтримують "
+"довантаження"
+
+msgctxt "OsPermissionsDialog|"
+msgid "%1 is missing permissions"
+msgstr ""
+
+msgctxt "OsPermissionsDialog|"
+msgid "(required)"
+msgstr ""
+
+msgctxt "OsPermissionsDialog|"
+msgid ""
+"You can grant these permissions using the Application details screen within "
+"your system's settings."
+msgstr ""
+
+msgctxt "OsPermissionsDialog|"
+msgid "Don't show again"
+msgstr ""
+
+msgctxt "OsPermissionsDialog|"
+msgid "Grant permissions"
+msgstr ""
+
+msgctxt "OsPermissionsDialog|"
+msgid "Quit"
+msgstr "Вихід"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Close"
+msgstr "Закрити"
 
 msgctxt "Page|"
 msgid "Info"
@@ -4059,6 +4122,10 @@ msgctxt "QObject|"
 msgid "Playlist"
 msgstr "Список відтворення"
 
+msgctxt "QObject|"
+msgid "Open folder"
+msgstr "Відкрити папку"
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::Append не підтримується для GZIP"
@@ -4749,6 +4816,18 @@ msgid "Archive service data..."
 msgstr "Архівувати службові дані..."
 
 msgctxt "TroubleshootingSettings|"
+msgid "Enable enhanced logging"
+msgstr "Увімкнути розширену реєстарацію"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable LT alerts logging"
+msgstr "Увімкнути реєстрацію сповіщень LT"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Restart is required"
+msgstr "Потрібен перезапуск"
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "Сховати"
 
@@ -4847,6 +4926,10 @@ msgstr "Вибрана тека недоступна для запису"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Розмір: %1 (Місце на диску: %2)"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Disk space: %1"
+msgstr "Місце на диску: %1"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"

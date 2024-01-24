@@ -128,13 +128,13 @@ msgid "Power management"
 msgstr "Virranhallinta"
 
 msgctxt "AdvancedSettings|"
-msgid "Don't put your computer to sleep if there is an active download"
+msgid "Avoid sleep mode if there is a scheduled download"
 msgstr ""
 "Älä aseta tietokonetta lepotilaan kun keskeneräisiä latauksia on käynnissä"
 
 msgctxt "AdvancedSettings|"
-msgid "Enable sleep mode while running finished downloads"
-msgstr "Salli lepotila valmistuneiden latausten ollessa käynnissä"
+msgid "Allow sleep mode while sharing files"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -209,6 +209,14 @@ msgid "Backup the list of downloads every"
 msgstr "Latauslistan varmuuskopioinnin ajoitus"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is an active download"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Allow sleep mode if downloads can be resumed later"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
 msgstr "Kun tiedosto on jo olemassa"
 
@@ -225,13 +233,12 @@ msgid "Use sounds"
 msgstr "Käytä ääniä"
 
 msgctxt "AdvancedSettings|"
-msgid ""
-"Do not allow downloads to perform post finished tasks when running on battery"
-msgstr "Älä salli valmistuvien latausten suorittaa tehtäviä akkuvirralla"
-
-msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "Älä salli latauksia, jos akun varaus laskee alle"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not share files when running on battery"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
@@ -332,6 +339,24 @@ msgstr "Avaa asetukset"
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Peru"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "Storage"
+msgstr ""
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "Notifications"
+msgstr "Ilmoitukset"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "%1 needs permission to save downloaded files to your local storage."
+msgstr ""
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid ""
+"%1 needs permission to show download progress within your system's "
+"notification panel."
+msgstr ""
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
@@ -500,6 +525,14 @@ msgstr "3 tuntia"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 päivä"
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Server has returned a web page."
+msgstr ""
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Click to open it in the web browser."
+msgstr ""
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -1282,6 +1315,10 @@ msgid "Size: %1 (Disk space: %2)"
 msgstr "Koko: %1 (levytila: %2)"
 
 msgctxt "DiskSpace|"
+msgid "Disk space: %1"
+msgstr ""
+
+msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Koko: %1"
 
@@ -1394,7 +1431,7 @@ msgid "Hide"
 msgstr "Piilota"
 
 msgctxt "DownloadWindow|"
-msgid "Show In Folder"
+msgid "Show in folder"
 msgstr "Näytä kansiossa"
 
 msgctxt "DownloadWindow|"
@@ -1518,8 +1555,8 @@ msgid "Automatically retry failed downloads"
 msgstr "Yritä epäonnistuneita latauksia automaattisesti uudelleen"
 
 msgctxt "DownloadsSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "Havaitse epätoivotut käyttäytymisvirheet"
+msgid "Do not download web pages"
+msgstr ""
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1602,10 +1639,6 @@ msgid "Open"
 msgstr "Avaa"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show In Folder"
-msgstr "Näytä kansiossa"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "Ilmoita ongelmasta"
 
@@ -1614,16 +1647,16 @@ msgid "Enable auto retry for this kind of errors"
 msgstr "Käytä tämän tyyppisille virheille automaattista uudelleenyritystä"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show Downloads"
-msgstr "Näytä lataukset"
+msgid "Save and complete"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Choose Files..."
-msgstr "Valitse tiedostot..."
+msgid "Show downloads"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Set Priority"
-msgstr "Aseta tärkeys"
+msgid "Choose files..."
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -2121,16 +2154,16 @@ msgid "Select none"
 msgstr "Poista valinnat"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "High Priority"
-msgstr "Korkea tärkeys"
+msgid "High priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Normal Priority"
-msgstr "Normaali tärkeys"
+msgid "Normal priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Low Priority"
-msgstr "Matala tärkeys"
+msgid "Low priority"
+msgstr ""
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -2141,11 +2174,11 @@ msgid "Open"
 msgstr "Avaa"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Show in Folder"
+msgid "Show in folder"
 msgstr "Näytä kansiossa"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "File Integrity"
+msgid "File integrity"
 msgstr "Tiedostojen eheys"
 
 msgctxt "FilesTreeContextMenu|"
@@ -2257,8 +2290,8 @@ msgid "Automatically retry failed downloads"
 msgstr "Yritä epäonnistuneita latauksia automaattisesti uudelleen"
 
 msgctxt "GeneralSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "Havaitse epätoivotut käyttäytymisvirheet"
+msgid "Do not download web pages"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -2558,12 +2591,12 @@ msgid "OK to remove tag?"
 msgstr "Voidaanko tunniste poistaa?"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from Clipboard"
-msgstr "Liitä URL:t leikepöydältä"
+msgid "Paste urls from clipboard"
+msgstr ""
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from File"
-msgstr "Liitä URL:t tiedostosta"
+msgid "Paste urls from file"
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
@@ -2594,16 +2627,20 @@ msgid "Preferences..."
 msgstr "Asetukset…"
 
 msgctxt "MainMenu|"
-msgid "Contact Support"
+msgid "Contact support"
 msgstr "Tuki"
+
+msgctxt "MainMenu|"
+msgid "Auto shutdown"
+msgstr ""
+
+msgctxt "MainMenu|"
+msgid "Check for updates..."
+msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
 msgstr "Lähetä vikailmoitus"
-
-msgctxt "MainMenu|"
-msgid "Auto Shutdown"
-msgstr "Automaattinen sammutus"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
@@ -2628,10 +2665,6 @@ msgstr "Ota etäyhteys kohteeseen %1"
 msgctxt "MainMenu|"
 msgid "Create portable version"
 msgstr "Luo siirrettävä versio"
-
-msgctxt "MainMenu|"
-msgid "Check for Updates..."
-msgstr "Tarkista päivitykset…"
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
@@ -3102,6 +3135,44 @@ msgstr "Virheellinen arvo"
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "Arvon tulee olla nollaa suurempi numero."
+
+msgctxt "NoResumeSupportBlock|"
+msgid "This download may not support resuming."
+msgstr ""
+
+msgctxt "NoResumeSupportBlock|"
+msgid "Prevent sleep mode when downloading files that don't support resuming"
+msgstr ""
+
+msgctxt "OsPermissionsDialog|"
+msgid "%1 is missing permissions"
+msgstr ""
+
+msgctxt "OsPermissionsDialog|"
+msgid "(required)"
+msgstr ""
+
+msgctxt "OsPermissionsDialog|"
+msgid ""
+"You can grant these permissions using the Application details screen within "
+"your system's settings."
+msgstr ""
+
+msgctxt "OsPermissionsDialog|"
+msgid "Don't show again"
+msgstr ""
+
+msgctxt "OsPermissionsDialog|"
+msgid "Grant permissions"
+msgstr ""
+
+msgctxt "OsPermissionsDialog|"
+msgid "Quit"
+msgstr "Lopeta"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Close"
+msgstr "Sulje"
 
 msgctxt "Page|"
 msgid "Info"
@@ -4050,6 +4121,10 @@ msgctxt "QObject|"
 msgid "Playlist"
 msgstr "Soittolista"
 
+msgctxt "QObject|"
+msgid "Open folder"
+msgstr ""
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr ""
@@ -4735,6 +4810,18 @@ msgid "Archive service data..."
 msgstr "Arkistoi palvelutiedot…"
 
 msgctxt "TroubleshootingSettings|"
+msgid "Enable enhanced logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable LT alerts logging"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Restart is required"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "Piilota"
 
@@ -4833,6 +4920,10 @@ msgstr "Ei kirjoitusoikeutta valittuun hakemistoon"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Koko: %1 (levytila: %2)"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Disk space: %1"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"

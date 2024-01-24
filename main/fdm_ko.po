@@ -121,12 +121,12 @@ msgid "Power management"
 msgstr "전원 관리"
 
 msgctxt "AdvancedSettings|"
-msgid "Don't put your computer to sleep if there is an active download"
-msgstr "다운로드가 진행 중인 경우 컴퓨터를 절전 모드로 전환하지 않음"
+msgid "Avoid sleep mode if there is a scheduled download"
+msgstr "예약된 다운로드가 있는 경우 절전 모드 피하기"
 
 msgctxt "AdvancedSettings|"
-msgid "Enable sleep mode while running finished downloads"
-msgstr "완료된 다운로드를 실행하는 동안 절전 모드 사용"
+msgid "Allow sleep mode while sharing files"
+msgstr "파일 공유 중 절전 모드 허용"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -201,6 +201,14 @@ msgid "Backup the list of downloads every"
 msgstr "다운로드 목록 백업 간격"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is an active download"
+msgstr "활성 다운로드가 있는 경우 절전 모드 사용 안 함"
+
+msgctxt "AdvancedSettings|"
+msgid "Allow sleep mode if downloads can be resumed later"
+msgstr "나중에 다운로드를 재개할 수 있는 경우 절전 모드 허용"
+
+msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
 msgstr "파일이 존재할 때 반응"
 
@@ -217,13 +225,12 @@ msgid "Use sounds"
 msgstr "소리 사용"
 
 msgctxt "AdvancedSettings|"
-msgid ""
-"Do not allow downloads to perform post finished tasks when running on battery"
-msgstr "배터리로 실행할 때 다운로드가 완료된 작업을 수행하도록 허용하지 않음"
-
-msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "배터리 수준이 아래로 떨어질 경우 다운로드를 허용하지 않음"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not share files when running on battery"
+msgstr "배터리로 실행할 때 파일 공유 안 함"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
@@ -324,6 +331,26 @@ msgstr "설정으로 가기"
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "취소"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "Storage"
+msgstr "저장소"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "Notifications"
+msgstr "알림"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "%1 needs permission to save downloaded files to your local storage."
+msgstr "%1 다운로드한 파일을 로컬 저장소에 저장하려면 권한이 필요합니다."
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid ""
+"%1 needs permission to show download progress within your system's "
+"notification panel."
+msgstr ""
+"%1은(는) 시스템의 알림 패널에 다운로드 진행 상황을 표시할 수 있는 권한이 필요"
+"합니다."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
@@ -492,6 +519,14 @@ msgstr "3시간"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1일"
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Server has returned a web page."
+msgstr "서버가 웹 페이지를 반환했습니다."
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Click to open it in the web browser."
+msgstr "클릭해서 웹 브라우저에서 엽니다."
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -1274,6 +1309,10 @@ msgid "Size: %1 (Disk space: %2)"
 msgstr "크기: %1 (디스크 공간: %2)"
 
 msgctxt "DiskSpace|"
+msgid "Disk space: %1"
+msgstr "디스크 공간: %1"
+
+msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "크기: %1"
 
@@ -1387,7 +1426,7 @@ msgid "Hide"
 msgstr "숨김"
 
 msgctxt "DownloadWindow|"
-msgid "Show In Folder"
+msgid "Show in folder"
 msgstr "폴더에 표시"
 
 msgctxt "DownloadWindow|"
@@ -1511,8 +1550,8 @@ msgid "Automatically retry failed downloads"
 msgstr "실패한 다운로드 자동으로 재시도"
 
 msgctxt "DownloadsSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "원하지 않는 동작 오류 탐지"
+msgid "Do not download web pages"
+msgstr "웹 페이지 다운로드 안 함"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1595,10 +1634,6 @@ msgid "Open"
 msgstr "열기"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show In Folder"
-msgstr "폴더에 표시"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "문제 보고"
 
@@ -1607,16 +1642,16 @@ msgid "Enable auto retry for this kind of errors"
 msgstr "이런 종류의 오류에 대해 자동 재시도 사용"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show Downloads"
+msgid "Save and complete"
+msgstr "저장 후 완료"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Show downloads"
 msgstr "다운로드 표시"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Choose Files..."
+msgid "Choose files..."
 msgstr "파일 선택..."
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Set Priority"
-msgstr "우선 순위 설정"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -1671,7 +1706,7 @@ msgid "Export selected downloads"
 msgstr "선택한 다운로드 내보내기"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Add Tag"
+msgid "Add tag"
 msgstr "태그 추가"
 
 msgctxt "DownloadsViewItemContextMenu|"
@@ -2112,15 +2147,15 @@ msgid "Low"
 msgstr "낮음"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "High Priority"
+msgid "High priority"
 msgstr "높은 우선 순위"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Normal Priority"
-msgstr "보통 우선 순위"
+msgid "Normal priority"
+msgstr "보통우선순위"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Low Priority"
+msgid "Low priority"
 msgstr "낮은 우선 순위"
 
 msgctxt "FilesTreeContextMenu|"
@@ -2132,11 +2167,11 @@ msgid "Open"
 msgstr "열기"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Show in Folder"
+msgid "Show in folder"
 msgstr "폴더에 표시"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "File Integrity"
+msgid "File integrity"
 msgstr "파일 무결성"
 
 msgctxt "FilesTreeContextMenu|"
@@ -2248,8 +2283,8 @@ msgid "Automatically retry failed downloads"
 msgstr "실패한 다운로드 자동으로 재시도"
 
 msgctxt "GeneralSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "원하지 않는 동작 오류 탐지"
+msgid "Do not download web pages"
+msgstr "웹 페이지 다운로드 안 함"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -2548,12 +2583,12 @@ msgid "OK to remove tag?"
 msgstr "태그를 제거하시겠습니까?"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from Clipboard"
+msgid "Paste urls from clipboard"
 msgstr "클립보드에서 URL 붙여넣기"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from File"
-msgstr "파일에서 URL을 붙여넣기"
+msgid "Paste urls from file"
+msgstr "파일에서 URL 붙여넣기"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
@@ -2584,16 +2619,20 @@ msgid "Preferences..."
 msgstr "환경 설정 ..."
 
 msgctxt "MainMenu|"
-msgid "Contact Support"
+msgid "Contact support"
 msgstr "지원 연락처"
+
+msgctxt "MainMenu|"
+msgid "Auto shutdown"
+msgstr "자동 종료"
+
+msgctxt "MainMenu|"
+msgid "Check for updates..."
+msgstr "업데이트 확인..."
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
 msgstr "버그 보고서 제출"
-
-msgctxt "MainMenu|"
-msgid "Auto Shutdown"
-msgstr "자동 종료"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
@@ -2618,10 +2657,6 @@ msgstr "원격 %1에 연결"
 msgctxt "MainMenu|"
 msgid "Create portable version"
 msgstr "휴대용 버전 만들기"
-
-msgctxt "MainMenu|"
-msgid "Check for Updates..."
-msgstr "업데이트 확인..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
@@ -3091,6 +3126,46 @@ msgstr "잘못된 값"
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "0보다 큰 숫자여야 합니다."
+
+msgctxt "NoResumeSupportBlock|"
+msgid "This download may not support resuming."
+msgstr "이 다운로드는 재개를 지원하지 않을 수 있습니다."
+
+msgctxt "NoResumeSupportBlock|"
+msgid "Prevent sleep mode when downloading files that don't support resuming"
+msgstr "재개를 지원하지 않는 파일을 다운로드할 때 절전 모드 방지"
+
+msgctxt "OsPermissionsDialog|"
+msgid "%1 is missing permissions"
+msgstr "%1에 권한이 없습니다"
+
+msgctxt "OsPermissionsDialog|"
+msgid "(required)"
+msgstr "(필수)"
+
+msgctxt "OsPermissionsDialog|"
+msgid ""
+"You can grant these permissions using the Application details screen within "
+"your system's settings."
+msgstr ""
+"시스템 설정의 응용 프로그램 세부 정보 화면에서 이러한 권한을 부여할 수 있습니"
+"다."
+
+msgctxt "OsPermissionsDialog|"
+msgid "Don't show again"
+msgstr "다시 표시하지 않음"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Grant permissions"
+msgstr "권한 부여"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Quit"
+msgstr "종료"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Close"
+msgstr "닫기"
 
 msgctxt "Page|"
 msgid "Info"
@@ -4037,6 +4112,10 @@ msgctxt "QObject|"
 msgid "Playlist"
 msgstr "재생 목록"
 
+msgctxt "QObject|"
+msgid "Open folder"
+msgstr "폴더 열기"
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::GZIP에는 추가 기능이 지원되지 않습니다"
@@ -4722,6 +4801,18 @@ msgid "Archive service data..."
 msgstr "서비스 데이터 압축..."
 
 msgctxt "TroubleshootingSettings|"
+msgid "Enable enhanced logging"
+msgstr "향상된 로깅 사용"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable LT alerts logging"
+msgstr "LT 알림 로깅"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Restart is required"
+msgstr "다시 시작해야 함"
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "숨김"
 
@@ -4820,6 +4911,10 @@ msgstr "선택한 디렉토리에 대한 쓰기 권한이 없습니다"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "크기: %1 (디스크 공간: %2)"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Disk space: %1"
+msgstr "디스크 공간: %1"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"

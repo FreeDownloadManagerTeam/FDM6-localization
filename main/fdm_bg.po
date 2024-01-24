@@ -1,5 +1,11 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bg_BG\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -7,6 +13,7 @@ msgstr ""
 "X-Language: bg_BG\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
+"X-Generator: Poedit 3.4.2\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -26,7 +33,7 @@ msgstr "© %1, %2-%3"
 
 msgctxt "AboutDialog|"
 msgid "remote control"
-msgstr ""
+msgstr "дистанционно управление"
 
 msgctxt "AboutDialog|"
 msgid "version %1"
@@ -121,12 +128,12 @@ msgid "Power management"
 msgstr "Управление на захранването"
 
 msgctxt "AdvancedSettings|"
-msgid "Don't put your computer to sleep if there is an active download"
-msgstr "Компютъра да не заспива ако има активно изтегляне"
+msgid "Avoid sleep mode if there is a scheduled download"
+msgstr "Избягване на заспиване ако има планирано изтегляне"
 
 msgctxt "AdvancedSettings|"
-msgid "Enable sleep mode while running finished downloads"
-msgstr "Позволяване на заспиване при завършени изтегляния"
+msgid "Allow sleep mode while sharing files"
+msgstr "Разрешаване на режим на заспиване при споделяне на файлове"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -201,6 +208,16 @@ msgid "Backup the list of downloads every"
 msgstr "Запазване на списъка на изтеглянията всеки"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is an active download"
+msgstr "Избягване на режим на заспиване ако има активно изтегляне"
+
+msgctxt "AdvancedSettings|"
+msgid "Allow sleep mode if downloads can be resumed later"
+msgstr ""
+"Разрешаване на режим на заспиване ако изтеглянето може да бъде възобновено "
+"по-късно"
+
+msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
 msgstr "При съществуващ файл"
 
@@ -217,15 +234,12 @@ msgid "Use sounds"
 msgstr "Използване на звуци"
 
 msgctxt "AdvancedSettings|"
-msgid ""
-"Do not allow downloads to perform post finished tasks when running on battery"
-msgstr ""
-"Забраняване на изтеглянията да предприемат пост операции когато компютъра "
-"работи на батерия"
-
-msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "Забраняване на изтегляния ако нивото на батерията падне под"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not share files when running on battery"
+msgstr "Да не се споделят файлове когато се  работи на батерия"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
@@ -326,6 +340,26 @@ msgstr "Отиване в настройки"
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Отказ"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "Storage"
+msgstr "Памет"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "Notifications"
+msgstr "Уведомления"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "%1 needs permission to save downloaded files to your local storage."
+msgstr "%1 се нуждае от разрешение за запазване на изтеглените файлове."
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid ""
+"%1 needs permission to show download progress within your system's "
+"notification panel."
+msgstr ""
+"%1 се нуждае от разрешение за показване на напредъка на изтеглянето в панела "
+"за известия на вашата система."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
@@ -494,6 +528,14 @@ msgstr "3 часа"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 ден"
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Server has returned a web page."
+msgstr "Сървърът е върнал уеб страница."
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Click to open it in the web browser."
+msgstr "Щракнете за да го отворите в браузъра."
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -968,13 +1010,15 @@ msgstr "Автоматично свързване при стартиране"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
-msgstr ""
+msgstr "Моля въведете %1, или <a href='#'>сканирайте QR код</a>"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
 "Both %1 and QR code are located inside of Preferences page of %2 you're "
 "going to connect to."
 msgstr ""
+"Двата %1 и QR кода се намират в страницата с настройки на %2 към която ще се "
+"свържете."
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
@@ -991,8 +1035,8 @@ msgstr "OK"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
-"Тук можете да се свържете с %1 който работи на вашия компютър с "
-"Windows/macOS/Linux"
+"Тук можете да се свържете с %1 който работи на вашия компютър с Windows/"
+"macOS/Linux"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -1276,6 +1320,10 @@ msgid "Size: %1 (Disk space: %2)"
 msgstr "Размер: %1 (Място на диска: %2)"
 
 msgctxt "DiskSpace|"
+msgid "Disk space: %1"
+msgstr "Дисково пространство: %1"
+
+msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Размер: %1"
 
@@ -1377,18 +1425,18 @@ msgstr "Затваряне на прозореца когато изтеглян
 
 msgctxt "DownloadWindow|"
 msgid "Remember to always close by default"
-msgstr ""
+msgstr "Запомняне винаги да се затваря по подразбиране"
 
 msgctxt "DownloadWindow|"
 msgid "Remember to never close by default"
-msgstr ""
+msgstr "Запомняне никога да не се затваря по подразбиране"
 
 msgctxt "DownloadWindow|"
 msgid "Hide"
 msgstr "Скриване"
 
 msgctxt "DownloadWindow|"
-msgid "Show In Folder"
+msgid "Show in folder"
 msgstr "Покажи в папка"
 
 msgctxt "DownloadWindow|"
@@ -1477,7 +1525,7 @@ msgstr "Списъка за изтегляне е празен. Добавете
 
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "Отдалечено свързване с %1"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1512,8 +1560,8 @@ msgid "Automatically retry failed downloads"
 msgstr "Автоматичен повторен опит за неуспешни изтегляния"
 
 msgctxt "DownloadsSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "Откриване на нежелани поведенчески грешки"
+msgid "Do not download web pages"
+msgstr "Без изтегляне на уеб страници"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1596,10 +1644,6 @@ msgid "Open"
 msgstr "Отвори"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show In Folder"
-msgstr "Покажи в папка"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "Докладвайте проблем"
 
@@ -1608,16 +1652,16 @@ msgid "Enable auto retry for this kind of errors"
 msgstr "Разрешаване на автоматичен повторен опит при този тип грешки"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show Downloads"
+msgid "Save and complete"
+msgstr "Запазване и завършване"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Show downloads"
 msgstr "Покажи изтегляния"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Choose Files..."
+msgid "Choose files..."
 msgstr "Избор на файлове..."
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Set Priority"
-msgstr "Задаване на приоритет"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -1672,7 +1716,7 @@ msgid "Export selected downloads"
 msgstr "Изнеси избраните изтегляния"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Add Tag"
+msgid "Add tag"
 msgstr "Добавете етикет"
 
 msgctxt "DownloadsViewItemContextMenu|"
@@ -2114,15 +2158,15 @@ msgid "Select none"
 msgstr "Премахване на избрани"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "High Priority"
+msgid "High priority"
 msgstr "Висок приоритет"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Normal Priority"
+msgid "Normal priority"
 msgstr "Нормален приоритет"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Low Priority"
+msgid "Low priority"
 msgstr "Нисък приоритет"
 
 msgctxt "FilesTreeContextMenu|"
@@ -2134,11 +2178,11 @@ msgid "Open"
 msgstr "Отвори"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Show in Folder"
-msgstr "Показвзне в папка"
+msgid "Show in folder"
+msgstr "Покажи в папка"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "File Integrity"
+msgid "File integrity"
 msgstr "Файлова цялост"
 
 msgctxt "FilesTreeContextMenu|"
@@ -2250,8 +2294,8 @@ msgid "Automatically retry failed downloads"
 msgstr "Автоматичен повторен опит за неуспешни изтегляния"
 
 msgctxt "GeneralSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "Откриване на нежелани поведенчески грешки"
+msgid "Do not download web pages"
+msgstr "Без изтегляне на уеб страници"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -2452,7 +2496,7 @@ msgstr "Език"
 
 msgctxt "LeftDrawer|"
 msgid "remote control"
-msgstr ""
+msgstr "дистанционно управление"
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
@@ -2468,7 +2512,7 @@ msgstr "Техническа поддръжка"
 
 msgctxt "LeftDrawer|"
 msgid "Submit a bug report"
-msgstr ""
+msgstr "Изпращане на доклад за грешки"
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
@@ -2551,12 +2595,12 @@ msgid "OK to remove tag?"
 msgstr "Да премахна ли етикет?"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from Clipboard"
+msgid "Paste urls from clipboard"
 msgstr "Постави URL от клипборда"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from File"
-msgstr "Поставяне на URL-и от файл"
+msgid "Paste urls from file"
+msgstr "Поставяне на URL от файл"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
@@ -2587,16 +2631,20 @@ msgid "Preferences..."
 msgstr "Настройки..."
 
 msgctxt "MainMenu|"
-msgid "Contact Support"
+msgid "Contact support"
 msgstr "Техническа поддръжка"
 
 msgctxt "MainMenu|"
-msgid "Submit a bug report"
-msgstr ""
+msgid "Auto shutdown"
+msgstr "Автоматично изключване"
 
 msgctxt "MainMenu|"
-msgid "Auto Shutdown"
-msgstr "Автоматично изключване"
+msgid "Check for updates..."
+msgstr "Проверка за обновления..."
+
+msgctxt "MainMenu|"
+msgid "Submit a bug report"
+msgstr "Изпращане на доклад за грешки"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
@@ -2621,10 +2669,6 @@ msgstr "Отдалечено свързване с %1"
 msgctxt "MainMenu|"
 msgid "Create portable version"
 msgstr "Създаване на преносима версия"
-
-msgctxt "MainMenu|"
-msgid "Check for Updates..."
-msgstr "Проверка за обновления..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
@@ -2704,7 +2748,7 @@ msgstr ""
 
 msgctxt "MainToolbar|"
 msgid "remote control"
-msgstr ""
+msgstr "дистанционно управление"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3098,6 +3142,48 @@ msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "Трябва да е число по-голямо от 0."
 
+msgctxt "NoResumeSupportBlock|"
+msgid "This download may not support resuming."
+msgstr "Изтеглянето може да не поддържа възстановяване."
+
+msgctxt "NoResumeSupportBlock|"
+msgid "Prevent sleep mode when downloading files that don't support resuming"
+msgstr ""
+"Предотвратяване на заспиване когато се изтеглят файлове не поддържащи "
+"възстановяване"
+
+msgctxt "OsPermissionsDialog|"
+msgid "%1 is missing permissions"
+msgstr "%1 има нужда от разрешения"
+
+msgctxt "OsPermissionsDialog|"
+msgid "(required)"
+msgstr "(задължително)"
+
+msgctxt "OsPermissionsDialog|"
+msgid ""
+"You can grant these permissions using the Application details screen within "
+"your system's settings."
+msgstr ""
+"Можете да предоставите тези разрешения, като използвате екрана \"Подробности "
+"за приложението\" в настройките на вашата система."
+
+msgctxt "OsPermissionsDialog|"
+msgid "Don't show again"
+msgstr "Не показвайте отново"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Grant permissions"
+msgstr "Предоставяне на разрешения"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Quit"
+msgstr "Изход"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Close"
+msgstr "Затвори"
+
 msgctxt "Page|"
 msgid "Info"
 msgstr "Информация"
@@ -3112,22 +3198,25 @@ msgstr "Връзки"
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
-msgstr ""
+msgstr "Харева ли ви %1 добавка?"
 
 msgctxt "PluginBannerDialog|"
 msgid ""
 "We would like to ask you to help this add-on to reach its potential users."
 msgstr ""
+"Ще ви помолим да ни помогнете тази добавка да достигне до потенциални "
+"потребители."
 
 msgctxt "PluginBannerDialog|"
 msgid ""
 "Please use your favorite social networks and forums to let the other people "
 "know about %1 and %2."
 msgstr ""
+"Моля ползвайте социалните мрежи и форуми да уведомите други хора за %1 и %2."
 
 msgctxt "PluginBannerDialog|"
 msgid "Remind me later"
-msgstr ""
+msgstr "Напомни ми по-късно"
 
 msgctxt "PluginBannerDialog|"
 msgid "OK"
@@ -4043,6 +4132,10 @@ msgctxt "QObject|"
 msgid "Playlist"
 msgstr "Лист за изпълнение"
 
+msgctxt "QObject|"
+msgid "Open folder"
+msgstr "Отваряне на папка"
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::Добавянето не се поддържа за GZIP"
@@ -4106,7 +4199,7 @@ msgstr "Статус"
 
 msgctxt "RemoteControlSettings|"
 msgid "Don't use network proxy"
-msgstr "Да бе се използва мрежово прокси"
+msgstr "Да не се използва мрежово прокси"
 
 msgctxt "RemoteControlSettings|"
 msgid "Remote control settings"
@@ -4386,7 +4479,7 @@ msgstr "Допълнителни"
 
 msgctxt "SettingsPage|"
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Отстраняване на неизправности"
 
 msgctxt "SettingsPage|"
 msgid "Settings"
@@ -4582,15 +4675,15 @@ msgstr "Изтеглянето(ията) по-долу не могат да се
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Submit a bug report"
-msgstr ""
+msgstr "Изпращане на доклад за грешки"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Title"
-msgstr ""
+msgstr "Заглавие"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Name"
@@ -4598,15 +4691,15 @@ msgstr "Име"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "E-mail"
-msgstr ""
+msgstr "Имейл"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Attach %1 log files (recommended)"
-msgstr ""
+msgstr "Прикачване на %1 файлове с доклад (препоръчително)"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Required fields"
-msgstr ""
+msgstr "Задължителни полета"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Close"
@@ -4618,11 +4711,11 @@ msgstr "Отказ"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Submitting"
-msgstr ""
+msgstr "Изпращане"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
-msgstr ""
+msgstr "Изпратено"
 
 msgctxt "Subtitles|"
 msgid "Download subtitles"
@@ -4698,7 +4791,7 @@ msgstr "Максимален брой едновременни изтеглян�
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of additional querying info downloads:"
-msgstr ""
+msgstr "Максимален брой на изтегляния на допълнителни запитвания:"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
@@ -4710,23 +4803,35 @@ msgstr "Лимит на трафика"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Отстраняване на неизправности"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Archive logs..."
-msgstr ""
+msgstr "Архивиране на логове..."
 
 msgctxt "TroubleshootingSettings|"
 msgid "Zip files"
-msgstr ""
+msgstr "Zip файлове"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Failed"
-msgstr ""
+msgstr "Неуспешно"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Archive service data..."
-msgstr ""
+msgstr "Архивиране на сервизна информация..."
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable enhanced logging"
+msgstr "Включване на подобрено prosledqwane"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable LT alerts logging"
+msgstr "Включване на проследяване на  LT alerts"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Restart is required"
+msgstr "Изисква се рестартиране"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Hide"
@@ -4827,6 +4932,10 @@ msgstr "Няма позволение за запис в избраната па
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Размер: %1 (Място на диска: %2)"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Disk space: %1"
+msgstr "Дисково пространство: %1"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"

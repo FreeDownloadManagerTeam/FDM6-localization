@@ -14,7 +14,7 @@ msgstr ""
 "X-Language: ro_RO\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.2\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -131,13 +131,12 @@ msgid "Power management"
 msgstr "Gestionare a energiei"
 
 msgctxt "AdvancedSettings|"
-msgid "Don't put your computer to sleep if there is an active download"
-msgstr ""
-"Nu puneți computerul în stare de repaus dacă există o descărcare activă"
+msgid "Avoid sleep mode if there is a scheduled download"
+msgstr "Evitați modul de repaus dacă există o descărcare programată"
 
 msgctxt "AdvancedSettings|"
-msgid "Enable sleep mode while running finished downloads"
-msgstr "Activați modul de repaus în timp ce rulați descărcări finalizate"
+msgid "Allow sleep mode while sharing files"
+msgstr "Permiteți modul de repaus în timp ce partajați fișiere"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -212,6 +211,14 @@ msgid "Backup the list of downloads every"
 msgstr "Faceți backup pentru lista de descărcări fiecare"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is an active download"
+msgstr "Evitați modul de repaus dacă există o descărcare activă"
+
+msgctxt "AdvancedSettings|"
+msgid "Allow sleep mode if downloads can be resumed later"
+msgstr "Permiteți modul de repaus dacă descărcările pot fi reluate târziu"
+
+msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
 msgstr "Fișierul există reacție"
 
@@ -228,15 +235,12 @@ msgid "Use sounds"
 msgstr "Folosiți sunete"
 
 msgctxt "AdvancedSettings|"
-msgid ""
-"Do not allow downloads to perform post finished tasks when running on battery"
-msgstr ""
-"Nu permiteți descărcărilor să efectueze sarcini post-terminate atunci când "
-"funcționează pe baterie"
-
-msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
 msgstr "Nu permiteți descărcări dacă nivelul bateriei scade sub"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not share files when running on battery"
+msgstr "Nu partajați fișiere când rulați pe baterie"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
@@ -338,6 +342,28 @@ msgstr "Mergi la Setări"
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
 msgstr "Anulează"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "Storage"
+msgstr "Stocare"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "Notifications"
+msgstr "Notificări"
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid "%1 needs permission to save downloaded files to your local storage."
+msgstr ""
+"%1 are nevoie de permisiunea pentru a salva fișierele descărcate în spațiul "
+"de stocare local."
+
+msgctxt "AppAndroidPermissionsManager|"
+msgid ""
+"%1 needs permission to show download progress within your system's "
+"notification panel."
+msgstr ""
+"%1 are nevoie de permisiunea pentru a afișa progresul descărcării în panoul "
+"de notificări al sistemului dvs."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
@@ -506,6 +532,14 @@ msgstr "3 ore"
 msgctxt "BackupSlider|"
 msgid "1 day"
 msgstr "1 zi"
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Server has returned a web page."
+msgstr "Serverul a returnat o pagină web."
+
+msgctxt "BaseBaseErrorLabel|"
+msgid "Click to open it in the web browser."
+msgstr "Faceți clic pentru a-l deschide în browserul web."
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -1295,6 +1329,10 @@ msgid "Size: %1 (Disk space: %2)"
 msgstr "Dimensiune: %1 (spațiu pe disc: %2)"
 
 msgctxt "DiskSpace|"
+msgid "Disk space: %1"
+msgstr "Spațiu pe disc: %1"
+
+msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Mărime: %1"
 
@@ -1411,7 +1449,7 @@ msgid "Hide"
 msgstr "Ascunde"
 
 msgctxt "DownloadWindow|"
-msgid "Show In Folder"
+msgid "Show in folder"
 msgstr "Arată în folder"
 
 msgctxt "DownloadWindow|"
@@ -1536,8 +1574,8 @@ msgid "Automatically retry failed downloads"
 msgstr "Reîncercați automat descărcările eșuate"
 
 msgctxt "DownloadsSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "Detectează erorile de comportament nedorite"
+msgid "Do not download web pages"
+msgstr "Nu descărcați pagini web"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1620,10 +1658,6 @@ msgid "Open"
 msgstr "Deschide"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show In Folder"
-msgstr "Arată în folder"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
 msgstr "Raportează o problemă"
 
@@ -1632,16 +1666,16 @@ msgid "Enable auto retry for this kind of errors"
 msgstr "Activați reîncercarea automată pentru acest tip de erori"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show Downloads"
-msgstr "Afișați Descărcările"
+msgid "Save and complete"
+msgstr "Salvați și completați"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Choose Files..."
-msgstr "Alege fișierele..."
+msgid "Show downloads"
+msgstr "Arată descărcările"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Set Priority"
-msgstr "Stabilește prioritatea"
+msgid "Choose files..."
+msgstr "Alege fișiere..."
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -1696,7 +1730,7 @@ msgid "Export selected downloads"
 msgstr "Exportați descărcările selectate"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Add Tag"
+msgid "Add tag"
 msgstr "Adaugă etichetă"
 
 msgctxt "DownloadsViewItemContextMenu|"
@@ -2139,16 +2173,16 @@ msgid "Select none"
 msgstr "Selectați niciunul"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "High Priority"
-msgstr "Prioritate ridicată"
+msgid "High priority"
+msgstr "Prioritate mare"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Normal Priority"
+msgid "Normal priority"
 msgstr "Prioritate normală"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Low Priority"
-msgstr "Prioritate scăzută"
+msgid "Low priority"
+msgstr "Prioritate mică"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -2159,12 +2193,12 @@ msgid "Open"
 msgstr "Deschide"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "Show in Folder"
+msgid "Show in folder"
 msgstr "Arată în folder"
 
 msgctxt "FilesTreeContextMenu|"
-msgid "File Integrity"
-msgstr "Integritatea fișierului"
+msgid "File integrity"
+msgstr "Fişier integritatea"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
@@ -2275,8 +2309,8 @@ msgid "Automatically retry failed downloads"
 msgstr "Reîncercați automat descărcările eșuate"
 
 msgctxt "GeneralSettings|"
-msgid "Detect unwanted behavior errors"
-msgstr "Detectează erorile de comportament nedorite"
+msgid "Do not download web pages"
+msgstr "Nu descărcați pagini web"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -2491,6 +2525,10 @@ msgid "Contact support"
 msgstr "Contactați Asistența"
 
 msgctxt "LeftDrawer|"
+msgid "Submit a bug report"
+msgstr "Trimiteți un raport de eroare"
+
+msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
 msgstr "Deconectați-vă de la distanță %1"
 
@@ -2571,11 +2609,11 @@ msgid "OK to remove tag?"
 msgstr "OK pentru a elimina eticheta?"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from Clipboard"
-msgstr "Lipiți adresele URL din Clipboard"
+msgid "Paste urls from clipboard"
+msgstr "Lipiți adresele URL din clipboard"
 
 msgctxt "MainMenu|"
-msgid "Paste Urls from File"
+msgid "Paste urls from file"
 msgstr "Lipiți adresele URL din fișier"
 
 msgctxt "MainMenu|"
@@ -2607,12 +2645,20 @@ msgid "Preferences..."
 msgstr "Preferințe..."
 
 msgctxt "MainMenu|"
-msgid "Contact Support"
+msgid "Contact support"
 msgstr "Contactați Asistența"
 
 msgctxt "MainMenu|"
-msgid "Auto Shutdown"
+msgid "Submit a bug report"
+msgstr "Trimiteți un raport de eroare"
+
+msgctxt "MainMenu|"
+msgid "Auto shutdown"
 msgstr "Oprire automată"
+
+msgctxt "MainMenu|"
+msgid "Check for updates..."
+msgstr "Verificați actualizări..."
 
 msgctxt "MainMenu|"
 msgid "Sleep"
@@ -2637,10 +2683,6 @@ msgstr "Conectați-vă la distanța %1"
 msgctxt "MainMenu|"
 msgid "Create portable version"
 msgstr "Creați o versiune portabilă"
-
-msgctxt "MainMenu|"
-msgid "Check for Updates..."
-msgstr "Căutați actualizări..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
@@ -3113,6 +3155,47 @@ msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "Trebuie să fie un număr mai mare decât 0."
 
+msgctxt "NoResumeSupportBlock|"
+msgid "This download may not support resuming."
+msgstr "Este posibil ca această descărcare să nu accepte reluarea."
+
+msgctxt "NoResumeSupportBlock|"
+msgid "Prevent sleep mode when downloading files that don't support resuming"
+msgstr ""
+"Preveniți modul de repaus când descărcați fișiere care nu acceptă reluarea"
+
+msgctxt "OsPermissionsDialog|"
+msgid "%1 is missing permissions"
+msgstr "%1 îi lipsesc permisiunile"
+
+msgctxt "OsPermissionsDialog|"
+msgid "(required)"
+msgstr "(necesar)"
+
+msgctxt "OsPermissionsDialog|"
+msgid ""
+"You can grant these permissions using the Application details screen within "
+"your system's settings."
+msgstr ""
+"Puteți acorda aceste permisiuni utilizând ecranul Detalii aplicație din "
+"setările sistemului dumneavoastră."
+
+msgctxt "OsPermissionsDialog|"
+msgid "Don't show again"
+msgstr "Nu mai arăta"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Grant permissions"
+msgstr "Acordați permisiuni"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Quit"
+msgstr "Ieșire"
+
+msgctxt "OsPermissionsDialog|"
+msgid "Close"
+msgstr "Închide"
+
 msgctxt "Page|"
 msgid "Info"
 msgstr "Informații"
@@ -3124,6 +3207,33 @@ msgstr "Fișiere"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "Conexiuni"
+
+msgctxt "PluginBannerDialog|"
+msgid "Enjoy using %1 add-on?"
+msgstr "Îți place să folosești suplimentul %1?"
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"We would like to ask you to help this add-on to reach its potential users."
+msgstr ""
+"Am dori să vă cerem să ajutați acest supliment să ajungă la potențialii săi "
+"utilizatori."
+
+msgctxt "PluginBannerDialog|"
+msgid ""
+"Please use your favorite social networks and forums to let the other people "
+"know about %1 and %2."
+msgstr ""
+"Vă rugăm să folosiți rețelele și forumurile dvs. de socializare preferate "
+"pentru a le informa pe ceilalți despre %1 și %2."
+
+msgctxt "PluginBannerDialog|"
+msgid "Remind me later"
+msgstr "Amintestemi mai tarziu"
+
+msgctxt "PluginBannerDialog|"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
@@ -4036,6 +4146,10 @@ msgctxt "QObject|"
 msgid "Playlist"
 msgstr "Lista de redare"
 
+msgctxt "QObject|"
+msgid "Open folder"
+msgstr "Deschide folder"
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::Append nu este acceptat pentru GZIP"
@@ -4575,6 +4689,50 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr "Descărcările de mai jos nu pot fi reluate după pauză"
 
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit a bug report"
+msgstr "Trimiteți un raport de eroare"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Title"
+msgstr "Titlu"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Description"
+msgstr "Descriere"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Name"
+msgstr "Nume"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "E-mail"
+msgstr "E-mail"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Attach %1 log files (recommended)"
+msgstr "Atașați %1 fișiere jurnal (recomandat)"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Required fields"
+msgstr "Câmpuri obligatorii"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Close"
+msgstr "Închide"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submitting"
+msgstr "Se trimite"
+
+msgctxt "SubmitBugReportDialog|"
+msgid "Submit"
+msgstr "Trimite"
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "Descărcați subtritări"
@@ -4680,6 +4838,18 @@ msgid "Archive service data..."
 msgstr "Arhivați datele serviciului..."
 
 msgctxt "TroubleshootingSettings|"
+msgid "Enable enhanced logging"
+msgstr "Activați înregistrarea îmbunătățită"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable LT alerts logging"
+msgstr "Activați înregistrarea alertelor LT"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Restart is required"
+msgstr "Este necesară repornirea"
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "Ascunde"
 
@@ -4778,6 +4948,10 @@ msgstr "Nu există acces de scriere la directorul selectat"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Mărime: %1 (Spațiu de stocare: %2)"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Disk space: %1"
+msgstr "Spațiu pe disc: %1"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
