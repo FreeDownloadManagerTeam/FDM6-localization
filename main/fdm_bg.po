@@ -122,7 +122,7 @@ msgstr "Управление на захранването"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is a scheduled download"
-msgstr ""
+msgstr "Избягване на заспиване ако има планирано изтегляне"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
@@ -336,7 +336,7 @@ msgstr "Отказ"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "Storage"
-msgstr ""
+msgstr "Памет"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "Notifications"
@@ -344,13 +344,15 @@ msgstr "Уведомления"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
-msgstr ""
+msgstr "%1 се нуждае от разрешение за запазване на изтеглените файлове."
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
 "notification panel."
 msgstr ""
+"%1 се нуждае от разрешение за показване на напредъка на изтеглянето в панела "
+"за известия на вашата система."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
@@ -1683,8 +1685,8 @@ msgid "Remove from list"
 msgstr "Премахни от списъка"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Sequential Download"
-msgstr "Последователно изтегляне"
+msgid "Play file while it is still downloading"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -2769,6 +2771,22 @@ msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "Трябва да е число по-голямо от 0."
 
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Ready to play"
+msgstr ""
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "%1 is ready to play"
+msgstr ""
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Play"
+msgstr ""
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Cancel"
+msgstr "Отказ"
+
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
 msgstr "Изтеглянето вече съществува"
@@ -3143,27 +3161,37 @@ msgstr ""
 "Предотвратяване на заспиване когато се изтеглят файлове не поддържащи "
 "възстановяване"
 
-msgctxt "OsPermissionsDialog|"
-msgid "%1 is missing permissions"
+msgctxt "Notification|"
+msgid "Miscellaneous notifications"
+msgstr ""
+
+msgctxt "Notification|"
+msgid "Ready to play"
 msgstr ""
 
 msgctxt "OsPermissionsDialog|"
+msgid "%1 is missing permissions"
+msgstr "%1 има нужда от разрешения"
+
+msgctxt "OsPermissionsDialog|"
 msgid "(required)"
-msgstr ""
+msgstr "(задължително)"
 
 msgctxt "OsPermissionsDialog|"
 msgid ""
 "You can grant these permissions using the Application details screen within "
 "your system's settings."
 msgstr ""
+"Можете да предоставите тези разрешения, като използвате екрана \"Подробности "
+"за приложението\" в настройките на вашата система."
 
 msgctxt "OsPermissionsDialog|"
 msgid "Don't show again"
-msgstr ""
+msgstr "Не показвайте отново"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Grant permissions"
-msgstr ""
+msgstr "Предоставяне на разрешения"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Quit"
@@ -3184,6 +3212,10 @@ msgstr "Файлове"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "Връзки"
+
+msgctxt "PlayAsap|"
+msgid "Play file while it is still downloading"
+msgstr ""
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -4188,7 +4220,7 @@ msgstr "Статус"
 
 msgctxt "RemoteControlSettings|"
 msgid "Don't use network proxy"
-msgstr "Да бе се използва мрежово прокси"
+msgstr "Да не се използва мрежово прокси"
 
 msgctxt "RemoteControlSettings|"
 msgid "Remote control settings"
@@ -4913,6 +4945,10 @@ msgstr "Запази в"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "Име на фаил"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Play file while it is still downloading"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"

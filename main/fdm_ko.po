@@ -334,7 +334,7 @@ msgstr "취소"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "Storage"
-msgstr ""
+msgstr "저장소"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "Notifications"
@@ -342,13 +342,13 @@ msgstr "알림"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
-msgstr ""
+msgstr "%1 다운로드한 파일을 로컬 저장소에 저장하려면 권한이 필요합니다."
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
 "notification panel."
-msgstr ""
+msgstr "%1은(는) 시스템의 알림 패널에 다운로드 진행 상황을 표시할 수 있는 권한이 필요합니다."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
@@ -1667,8 +1667,8 @@ msgid "Remove from list"
 msgstr "목록에서 제거"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Sequential Download"
-msgstr "순차적 다운로드"
+msgid "Play file while it is still downloading"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -2748,6 +2748,22 @@ msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "0보다 큰 숫자여야 합니다."
 
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Ready to play"
+msgstr ""
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "%1 is ready to play"
+msgstr ""
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Play"
+msgstr ""
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Cancel"
+msgstr "취소"
+
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
 msgstr "다운로드가 이미 존재합니다"
@@ -3120,27 +3136,35 @@ msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
 msgstr "재개를 지원하지 않는 파일을 다운로드할 때 절전 모드 방지"
 
-msgctxt "OsPermissionsDialog|"
-msgid "%1 is missing permissions"
+msgctxt "Notification|"
+msgid "Miscellaneous notifications"
+msgstr ""
+
+msgctxt "Notification|"
+msgid "Ready to play"
 msgstr ""
 
 msgctxt "OsPermissionsDialog|"
+msgid "%1 is missing permissions"
+msgstr "%1에 권한이 없습니다"
+
+msgctxt "OsPermissionsDialog|"
 msgid "(required)"
-msgstr ""
+msgstr "(필수)"
 
 msgctxt "OsPermissionsDialog|"
 msgid ""
 "You can grant these permissions using the Application details screen within "
 "your system's settings."
-msgstr ""
+msgstr "시스템 설정의 응용 프로그램 세부 정보 화면에서 이러한 권한을 부여할 수 있습니다."
 
 msgctxt "OsPermissionsDialog|"
 msgid "Don't show again"
-msgstr ""
+msgstr "다시 표시하지 않음"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Grant permissions"
-msgstr ""
+msgstr "권한 부여"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Quit"
@@ -3161,6 +3185,10 @@ msgstr "파일"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "연결"
+
+msgctxt "PlayAsap|"
+msgid "Play file while it is still downloading"
+msgstr ""
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -4884,6 +4912,10 @@ msgstr "다음으로 저장"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "파일 이름"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Play file while it is still downloading"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
