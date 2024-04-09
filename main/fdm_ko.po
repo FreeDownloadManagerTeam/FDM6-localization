@@ -147,7 +147,7 @@ msgstr "인터페이스"
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
-msgstr ""
+msgstr "닫기 버튼을 클릭하여 %1을 숨기고 백그라운드에서 계속 실행합니다"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
@@ -604,6 +604,10 @@ msgid "General"
 msgstr "일반"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr ""
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "진행 상황"
 
@@ -735,7 +739,7 @@ msgstr "%1를 통한 다운로드를 취소하는 경우 브라우저 사용"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
-msgstr ""
+msgstr "INSERT 키를 누른 경우 가로채지 않음"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -762,6 +766,18 @@ msgstr "계속"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(브라우저가 설치되지 않았습니다)"
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "상태"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "업데이트 중..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1677,7 +1693,7 @@ msgstr "목록에서 제거"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "다운로드 중인 파일 재생"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -2763,15 +2779,15 @@ msgstr "0보다 큰 숫자여야 합니다."
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
-msgstr ""
+msgstr "재생 준비 완료"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
-msgstr ""
+msgstr "%1을(를) 재생할 준비가 되었습니다"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Play"
-msgstr ""
+msgstr "재생"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Cancel"
@@ -3151,11 +3167,11 @@ msgstr "재개를 지원하지 않는 파일을 다운로드할 때 절전 모�
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
-msgstr ""
+msgstr "기타 알림"
 
 msgctxt "Notification|"
 msgid "Ready to play"
-msgstr ""
+msgstr "재생 준비 완료"
 
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
@@ -3192,6 +3208,10 @@ msgid "Info"
 msgstr "정보"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr ""
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "파일"
 
@@ -3201,7 +3221,7 @@ msgstr "연결"
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "다운로드 중인 파일 재생"
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -4138,6 +4158,10 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr "폴더 열기"
 
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr ""
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::GZIP에는 추가 기능이 지원되지 않습니다"
@@ -4796,7 +4820,7 @@ msgstr "추가 쿼리 정보 다운로드의 최대 횟수:"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Enable additional downloads to optimize speed"
-msgstr ""
+msgstr "속도를 최적화하기 위해 추가 다운로드 가능"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
@@ -4932,7 +4956,7 @@ msgstr "파일 이름"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "다운로드 중인 파일 재생"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
