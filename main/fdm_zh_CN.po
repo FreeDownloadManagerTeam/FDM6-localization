@@ -98,19 +98,19 @@ msgstr "通知"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of added downloads via Notification Center"
-msgstr "在通知中心中提示我已添加的下载项"
+msgstr "添加下载时弹出通知"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "通过通知中心提醒我已完成的下载项"
+msgstr "下载完成时弹出通知"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr "通过通知中心提醒我失败的下载项"
+msgstr "下载失败时弹出通知"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
-msgstr "仅在 %1 非前台运行时提醒我"
+msgstr "仅在后台运行时通知"
 
 msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
@@ -122,19 +122,19 @@ msgstr "电源管理"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is a scheduled download"
-msgstr "有计划的下载项时阻止睡眠"
+msgstr "下载时阻止系统休眠"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
-msgstr "在共享文件时允许睡眠模式"
+msgstr "在共享文件时允许系统睡眠"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
-msgstr "选项"
+msgstr "设置"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch at startup (minimized)"
-msgstr "在启动时加载 (最小化)"
+msgstr "开机静默启动"
 
 msgctxt "AdvancedSettings|"
 msgid "Show special offers"
@@ -143,6 +143,11 @@ msgstr "显示高级选项"
 msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "界面"
+
+msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr "点击关闭按钮以隐藏%1并保持其在后台运行"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
@@ -182,7 +187,7 @@ msgstr "额外参数必须包含 %path% 字段"
 
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
-msgstr "返回默认设置"
+msgstr "重置所有设置为默认值"
 
 msgctxt "AdvancedSettings|"
 msgid "Reset"
@@ -194,11 +199,11 @@ msgstr "默认设置"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore default settings?"
-msgstr "重置为默认设置？"
+msgstr "是否重置为默认设置？"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
-msgstr "备份下载列表 每"
+msgstr "定时备份下载列表 每"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is an active download"
@@ -210,7 +215,7 @@ msgstr "若下载项可以稍后恢复则允许睡眠"
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
-msgstr "文件已存在时的反应"
+msgstr "若文件已存在"
 
 msgctxt "AdvancedSettings|"
 msgid "Rename"
@@ -286,15 +291,15 @@ msgstr "手动设置..."
 
 msgctxt "AntivirusSettings|"
 msgid "Antivirus"
-msgstr "防病毒"
+msgstr "杀毒选项"
 
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
-msgstr "选择防病毒软件:"
+msgstr "选择杀毒软件:"
 
 msgctxt "AntivirusSettings|"
 msgid "Is your antivirus not listed?"
-msgstr "未列出您的防病毒软件?"
+msgstr "若没有找到你的杀毒软件，请点击这里"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -302,7 +307,7 @@ msgstr "路径:"
 
 msgctxt "AntivirusSettings|"
 msgid "Please enter antivirus path"
-msgstr "请输入防病毒软件路径"
+msgstr "请输入杀软件的路径"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments:"
@@ -322,7 +327,7 @@ msgstr "检测病毒"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
-msgstr "尚未在设置中指定防病毒软件."
+msgstr "尚未在设置中指定杀毒软件."
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Go to settings"
@@ -520,11 +525,11 @@ msgstr "1 天"
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Server has returned a web page."
-msgstr "服务器返回了一个网页"
+msgstr "服务器返回了一个网页。"
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Click to open it in the web browser."
-msgstr "点击此处以在浏览器中打开它"
+msgstr "点击此处以在浏览器中打开。"
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -597,6 +602,10 @@ msgstr "低品质, 最小文件大小"
 msgctxt "BottomPanelTools|"
 msgid "General"
 msgstr "常规"
+
+msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr "详情"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
@@ -728,6 +737,10 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "取消 %1 下载时改用浏览器下载"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr "当INSERT键被按下时不要捕获"
+
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -753,6 +766,22 @@ msgstr "继续"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(浏览器未安装)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr "(已连接: %1)"
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "状态"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "正在更新..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1667,8 +1696,8 @@ msgid "Remove from list"
 msgstr "从列表中移除"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Sequential Download"
-msgstr "顺序下载"
+msgid "Play file while it is still downloading"
+msgstr "在文件仍在下载时播放"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1745,6 +1774,10 @@ msgstr "顺序下载"
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "从列表中移除"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "重启"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -2748,6 +2781,22 @@ msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "必须为正值."
 
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Ready to play"
+msgstr "已准备好播放"
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "%1 is ready to play"
+msgstr "%1已准备好播放"
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Play"
+msgstr "播放"
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Cancel"
+msgstr "取消"
+
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
 msgstr "下载已存在"
@@ -2790,7 +2839,7 @@ msgstr "等待连接 Wi-Fi 下载。"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Would you like to enable usage of mobile data? *"
-msgstr "您要开启移动数据使用权吗？"
+msgstr "是否使用流量进行下载？"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Don't ask again"
@@ -3114,11 +3163,19 @@ msgstr "必须为一个大于 0 的数。"
 
 msgctxt "NoResumeSupportBlock|"
 msgid "This download may not support resuming."
-msgstr "此下载项可能不支持恢复"
+msgstr "该下载可能不支持断点续传"
 
 msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
 msgstr "下载不支持恢复的文件时阻止睡眠"
+
+msgctxt "Notification|"
+msgid "Miscellaneous notifications"
+msgstr "其他通知"
+
+msgctxt "Notification|"
+msgid "Ready to play"
+msgstr "准备好播放"
 
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
@@ -3155,12 +3212,20 @@ msgid "Info"
 msgstr "信息"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr "详情"
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "文件"
 
 msgctxt "Page|"
 msgid "Connections"
 msgstr "连接"
+
+msgctxt "PlayAsap|"
+msgid "Play file while it is still downloading"
+msgstr "在文件仍在下载时播放"
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -3169,7 +3234,7 @@ msgstr "喜欢使用%1扩展吗？"
 msgctxt "PluginBannerDialog|"
 msgid ""
 "We would like to ask you to help this add-on to reach its potential users."
-msgstr "我们希望您帮助此扩展推广到其潜在用户"
+msgstr "如果喜欢此扩展，我们希望你能将其推广到其他的潜在用户"
 
 msgctxt "PluginBannerDialog|"
 msgid ""
@@ -4095,6 +4160,10 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr "打开文件夹"
 
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr "%1返回了非零(%2)退出状态"
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::不支持向 GZIP 追加"
@@ -4752,6 +4821,10 @@ msgid "Maximum number of additional querying info downloads:"
 msgstr "最大额外查询信息下载数："
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
+msgstr "启用额外下载以优化速度"
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "流量限制设置错误"
 
@@ -4882,6 +4955,10 @@ msgstr "保存到"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "文件名"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Play file while it is still downloading"
+msgstr "在文件仍在下载时播放"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"

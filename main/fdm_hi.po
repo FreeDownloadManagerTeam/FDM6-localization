@@ -146,6 +146,11 @@ msgid "Interface"
 msgstr "इंटरफेस"
 
 msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "डाउनलोड पर क्लिक करके नीचे के पैनल को खोलें/छुपाएं"
 
@@ -600,6 +605,10 @@ msgid "General"
 msgstr "सामान्य"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr ""
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "प्रगति"
 
@@ -732,6 +741,10 @@ msgid "Use browser if you cancel download via %1"
 msgstr ""
 "अगर आप %1 के माध्यम से डाउनलोड रद्द करते हैं तो ब्राउज़र का प्रयोग करें"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr ""
+
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -760,6 +773,22 @@ msgstr "जारी रखना"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(ब्राउज़र स्थापित नहीं है)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "स्थिति"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "अपडेट हो रहा है..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1681,8 +1710,8 @@ msgid "Remove from list"
 msgstr "सूची से निकाल दें"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Sequential Download"
-msgstr "अनुक्रमिक डाउनलोड"
+msgid "Play file while it is still downloading"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1759,6 +1788,10 @@ msgstr "अनुक्रमिक डाउनलोड"
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "सूची से निकाल दें"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "पुनर्प्रारंभ करें"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -2764,6 +2797,22 @@ msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "0 से बड़ी संख्या होनी चाहिए।"
 
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Ready to play"
+msgstr ""
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "%1 is ready to play"
+msgstr ""
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Play"
+msgstr ""
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Cancel"
+msgstr "रद्द करें"
+
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
 msgstr "डाउनलोड पहले से मौजूद है"
@@ -3136,6 +3185,14 @@ msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
 msgstr ""
 
+msgctxt "Notification|"
+msgid "Miscellaneous notifications"
+msgstr ""
+
+msgctxt "Notification|"
+msgid "Ready to play"
+msgstr ""
+
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
 msgstr ""
@@ -3171,12 +3228,20 @@ msgid "Info"
 msgstr "जानकारी"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr ""
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "फ़ाइलें"
 
 msgctxt "Page|"
 msgid "Connections"
 msgstr "सम्बन्ध"
+
+msgctxt "PlayAsap|"
+msgid "Play file while it is still downloading"
+msgstr ""
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -4116,6 +4181,10 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr ""
 
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr ""
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::संलग्न GZIP के लिए समर्थित नहीं है"
@@ -4773,6 +4842,10 @@ msgid "Maximum number of additional querying info downloads:"
 msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "अमान्य ट्रैफ़िक सीमा सेटिंग"
 
@@ -4903,6 +4976,10 @@ msgstr "को बचाए"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "फ़ाइल का नाम"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Play file while it is still downloading"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"

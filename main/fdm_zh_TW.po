@@ -145,6 +145,11 @@ msgid "Interface"
 msgstr "介面"
 
 msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "按一下下載以開啟/隱藏底部面板"
 
@@ -599,6 +604,10 @@ msgid "General"
 msgstr "一般"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr ""
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "進度"
 
@@ -728,6 +737,10 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "使用瀏覽器下載透過 %1 取消的項目"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr ""
+
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -753,6 +766,22 @@ msgstr "繼續"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(瀏覽器尚未安裝)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "狀態"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "正在更新…"
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1667,8 +1696,8 @@ msgid "Remove from list"
 msgstr "從清單中移除"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Sequential Download"
-msgstr "循序下載"
+msgid "Play file while it is still downloading"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1745,6 +1774,10 @@ msgstr "循序下載"
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "從清單中移除"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "重新開始"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -2748,6 +2781,22 @@ msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "必須為數字且大於 0。"
 
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Ready to play"
+msgstr ""
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "%1 is ready to play"
+msgstr ""
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Play"
+msgstr ""
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Cancel"
+msgstr "取消"
+
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
 msgstr "下載項目已存在"
@@ -3120,6 +3169,14 @@ msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
 msgstr ""
 
+msgctxt "Notification|"
+msgid "Miscellaneous notifications"
+msgstr ""
+
+msgctxt "Notification|"
+msgid "Ready to play"
+msgstr ""
+
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
 msgstr ""
@@ -3155,12 +3212,20 @@ msgid "Info"
 msgstr "資訊"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr ""
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "檔案"
 
 msgctxt "Page|"
 msgid "Connections"
 msgstr "連線"
+
+msgctxt "PlayAsap|"
+msgid "Play file while it is still downloading"
+msgstr ""
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -4097,6 +4162,10 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr ""
 
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr ""
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::不支援對 GZIP 的附加"
@@ -4754,6 +4823,10 @@ msgid "Maximum number of additional querying info downloads:"
 msgstr "最大額外查詢資訊下載數目:"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "無效的流量限制設定"
 
@@ -4884,6 +4957,10 @@ msgstr "儲存至"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "檔案名稱"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Play file while it is still downloading"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"

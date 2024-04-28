@@ -145,6 +145,11 @@ msgid "Interface"
 msgstr "Interfejs"
 
 msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Pokaż/ukryj panel dolny po kliknięciu na pobieranym pliku"
 
@@ -343,13 +348,17 @@ msgstr "Powiadomienia"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
-msgstr "%1 wymaga uprawnienia do zapisania pobieranych plików w lokalnej pamięci masowej."
+msgstr ""
+"%1 wymaga uprawnienia do zapisania pobieranych plików w lokalnej pamięci "
+"masowej."
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
 "notification panel."
-msgstr "%1 wymaga uprawnienia do pokazywania postępu pobierania w panelu powiadomień Twojego systemu."
+msgstr ""
+"%1 wymaga uprawnienia do pokazywania postępu pobierania w panelu powiadomień "
+"Twojego systemu."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
@@ -600,6 +609,10 @@ msgid "General"
 msgstr "Ogólne"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr ""
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Postęp"
 
@@ -731,6 +744,10 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Gdy anulujesz pobieranie pliku w %1, użyj pobierania w przeglądarce"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr "Nie przechwytuj, jeśli naciśnięto klawisz INSERT"
+
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -758,6 +775,22 @@ msgstr "Kontynuuj"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(przeglądarka nie jest zainstalowana)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr "(podłączonych: %1)"
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "Aktualizacja..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1687,8 +1720,8 @@ msgid "Remove from list"
 msgstr "Usuń z listy"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Sequential Download"
-msgstr "Pobieranie sekwencyjne"
+msgid "Play file while it is still downloading"
+msgstr "Odtwórz film jeszcze podczas jego pobierania"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1765,6 +1798,10 @@ msgstr "Pobieranie sekwencyjne"
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Usuń z listy"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "Uruchom ponownie"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -2774,6 +2811,22 @@ msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "Musi to być liczba większa niż 0."
 
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Ready to play"
+msgstr "Gotowy do odtworzenia"
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "%1 is ready to play"
+msgstr "%1 jeset gotowy do odtworzenia"
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Play"
+msgstr "Odtwórz"
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Cancel"
+msgstr "Anuluj"
+
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
 msgstr "Pobieranie już istnieje"
@@ -3144,7 +3197,17 @@ msgstr "To pobieranie nie obsługuje wznawiania."
 
 msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
-msgstr "Zablokuj tryb uśpienia komputera podczas pobieranie plików, które nie obsługują wznawiania"
+msgstr ""
+"Zablokuj tryb uśpienia komputera podczas pobieranie plików, które nie "
+"obsługują wznawiania"
+
+msgctxt "Notification|"
+msgid "Miscellaneous notifications"
+msgstr "Różne powiadomienia"
+
+msgctxt "Notification|"
+msgid "Ready to play"
+msgstr "Gotowy do odtworzenia"
 
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
@@ -3158,7 +3221,9 @@ msgctxt "OsPermissionsDialog|"
 msgid ""
 "You can grant these permissions using the Application details screen within "
 "your system's settings."
-msgstr "Możesz przydzielić uprawnienia używając ekranu szczegółów Aplikacji w ustawieniach systemu."
+msgstr ""
+"Możesz przydzielić uprawnienia używając ekranu szczegółów Aplikacji w "
+"ustawieniach systemu."
 
 msgctxt "OsPermissionsDialog|"
 msgid "Don't show again"
@@ -3181,12 +3246,20 @@ msgid "Info"
 msgstr "Info"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr ""
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "Pliki"
 
 msgctxt "Page|"
 msgid "Connections"
 msgstr "Połączenia"
+
+msgctxt "PlayAsap|"
+msgid "Play file while it is still downloading"
+msgstr "Odtwórz film jeszcze podczas jego pobierania"
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -4128,6 +4201,10 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Otwórz folder"
 
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr ""
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::Dołączanie nie jest obsługiwanie przez GZIP"
@@ -4785,6 +4862,10 @@ msgid "Maximum number of additional querying info downloads:"
 msgstr "Maksymalna liczba dodatkowych zapytań o pobraniach:"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
+msgstr "Włącz dodatkowe pobieranie, aby zoptymalizować prędkość"
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "Niepoprawne ustawienia limitów prędkości"
 
@@ -4915,6 +4996,10 @@ msgstr "Zapisz do"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "Nazwa pliku"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Play file while it is still downloading"
+msgstr "Odtwórz film jeszcze podczas jego pobierania"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"

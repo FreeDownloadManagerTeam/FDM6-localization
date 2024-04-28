@@ -122,7 +122,7 @@ msgstr "Керування живленням"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is a scheduled download"
-msgstr ""
+msgstr "Уникати режиму сну якщо заплановано завантаження"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
@@ -143,6 +143,11 @@ msgstr "Показувати спеціальні пропозиції"
 msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "Інтерфейс"
+
+msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
@@ -334,7 +339,7 @@ msgstr "Скасувати"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "Storage"
-msgstr ""
+msgstr "Диск"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "Notifications"
@@ -342,13 +347,15 @@ msgstr "Повідомлення"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
-msgstr ""
+msgstr "%1 потребує дозволу щоб зберігати  файли на ваш локальний диск."
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
 "notification panel."
 msgstr ""
+"%1 потребує дозволу щоб показати прогрес завантаження у панелі сповіщень "
+"вашої системи."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
@@ -599,6 +606,10 @@ msgid "General"
 msgstr "Загальні"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr ""
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Хід"
 
@@ -730,6 +741,10 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Використовувати браузер якщо ви перервете завантаження %1"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr ""
+
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -757,6 +772,22 @@ msgstr "Продовжити"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(браузер не встановлено)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "Оновлення..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1007,7 +1038,7 @@ msgid ""
 "Both %1 and QR code are located inside of Preferences page of %2 you're "
 "going to connect to."
 msgstr ""
-"І %1, і QR-код знаходяться на сторінці Вподобань %2 до якої ви збираєтесь "
+"%1 і QR-код знаходяться на сторінці налаштувань %2, до якого ви збираєтесь "
 "підключитися."
 
 msgctxt "ConnectToRemoteAppDialog|"
@@ -1685,8 +1716,8 @@ msgid "Remove from list"
 msgstr "Видалити зі списку"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Sequential Download"
-msgstr "Послідовне завантаження"
+msgid "Play file while it is still downloading"
+msgstr "Відтворювати файл під час завантаження"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1763,6 +1794,10 @@ msgstr "Послідовне завантаження"
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Видалити зі списку"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "Перезапуск"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -2621,7 +2656,7 @@ msgstr "Додатки..."
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
-msgstr "Вподобання..."
+msgstr "Налаштування..."
 
 msgctxt "MainMenu|"
 msgid "Contact support"
@@ -2769,6 +2804,22 @@ msgstr "Неправильне значення"
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "Має бути числом більше 0."
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Ready to play"
+msgstr "Готовий до відтворення"
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "%1 is ready to play"
+msgstr "%1 готовий до відтворення"
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Play"
+msgstr "Відтворити"
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
@@ -2972,7 +3023,7 @@ msgstr "Перевірити оновлення..."
 
 msgctxt "NativeMenuBar|"
 msgid "Preferences..."
-msgstr "Вподобання..."
+msgstr "Налаштування..."
 
 msgctxt "NativeMenuBar|"
 msgid "Quit"
@@ -3144,27 +3195,37 @@ msgstr ""
 "Вимкнути сплячий режим при завантаженні файлів, що не підтримують "
 "довантаження"
 
+msgctxt "Notification|"
+msgid "Miscellaneous notifications"
+msgstr "Різні сповіщення"
+
+msgctxt "Notification|"
+msgid "Ready to play"
+msgstr "Готовий до відтворення"
+
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
-msgstr ""
+msgstr "%1 відсутні дозволи"
 
 msgctxt "OsPermissionsDialog|"
 msgid "(required)"
-msgstr ""
+msgstr "(необхідно)"
 
 msgctxt "OsPermissionsDialog|"
 msgid ""
 "You can grant these permissions using the Application details screen within "
 "your system's settings."
 msgstr ""
+"Ви можете надати ці дозволи використовуючи екран Деталі програми в "
+"налаштуваннях вашої системи."
 
 msgctxt "OsPermissionsDialog|"
 msgid "Don't show again"
-msgstr ""
+msgstr "Не показувати знову"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Grant permissions"
-msgstr ""
+msgstr "Надати дозволи"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Quit"
@@ -3179,12 +3240,20 @@ msgid "Info"
 msgstr "Інформація"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr ""
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "Файли"
 
 msgctxt "Page|"
 msgid "Connections"
 msgstr "З'єднання"
+
+msgctxt "PlayAsap|"
+msgid "Play file while it is still downloading"
+msgstr "Відтворювати файл під час завантаження"
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -4126,6 +4195,10 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Відкрити папку"
 
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr ""
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::Append не підтримується для GZIP"
@@ -4436,7 +4509,7 @@ msgstr ". Все одно закрити?"
 
 msgctxt "SettingsPage|"
 msgid "Preferences"
-msgstr "Вподобання"
+msgstr "Налаштування"
 
 msgctxt "SettingsPage|"
 msgid "General"
@@ -4788,6 +4861,10 @@ msgid "Maximum number of additional querying info downloads:"
 msgstr "Максимальна кількість додаткових запитів інформації завантажень:"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "Неправильні налаштування границь трафіку"
 
@@ -4918,6 +4995,10 @@ msgstr "Зберегти до"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "Ім'я файлу"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Play file while it is still downloading"
+msgstr "Відтворювати файл під час завантаження"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"

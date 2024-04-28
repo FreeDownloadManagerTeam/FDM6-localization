@@ -16,9 +16,29 @@ msgctxt "AddTrackersPage|"
 msgid "Add trackers"
 msgstr "Ajouter des trackers"
 
+msgctxt "BtDetailsTab|"
+msgid "Peers:"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "Seeds:"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "Availability:"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "Last seen complete:"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "Tracker URL"
+msgstr ""
+
 msgctxt "DownloadContextMenu|"
 msgid "Disable seeding"
-msgstr "Désactiver l'envoi"
+msgstr "Désactiver le partage"
 
 msgctxt "DownloadContextMenu|"
 msgid "Add trackers"
@@ -26,19 +46,19 @@ msgstr "Ajouter des trackers"
 
 msgctxt "DownloadContextMenu|"
 msgid "Start all seeding downloads"
-msgstr "Démarrer tous les téléchargements d'envois"
+msgstr "Démarrer tous les partages de téléchargements"
 
 msgctxt "DownloadContextMenu|"
 msgid "Stop all seeding downloads"
-msgstr "Arrêtez tous les téléchargements d'envois"
+msgstr "Arrêter tous les partages de téléchargements"
 
 msgctxt "DownloadContextMenu|"
 msgid "Ignore upload ratio limit"
-msgstr "Ignorer la limite du taux de téléchargement"
+msgstr "Ignorer la limite du taux d'envoi"
 
 msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
-msgstr ""
+msgstr "Forcer la réannonce"
 
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
@@ -54,15 +74,15 @@ msgstr "Définir %1 comme client torrent par défaut"
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
-msgstr "Associer avec des liens magnet"
+msgstr "Associer avec les liens magnet"
 
 msgctxt "QObject|"
 msgid "Associate with torrent files"
-msgstr "Associer avec des fichiers torrents"
+msgstr "Associer avec les fichiers torrents"
 
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
-msgstr "Entrez l'adresse ou choisissez le fichier torrent"
+msgstr "Entrer l'URL ou choisir le fichier torrent"
 
 msgctxt "QObject|"
 msgid "Merge trackers"
@@ -74,7 +94,7 @@ msgstr "Torrent"
 
 msgctxt "QObject|"
 msgid "seeding"
-msgstr "En cours d'envoi"
+msgstr "en partage"
 
 msgctxt "Settings|"
 msgid "Automatically delete .torrent files once the download is finished"
@@ -88,19 +108,19 @@ msgstr "Surveiller le dossier pour les nouveaux fichiers .torrent"
 
 msgctxt "Settings|"
 msgid "Enable DHT to find more peers"
-msgstr ""
+msgstr "Activer DHT pour trouver plus de pairs"
 
 msgctxt "Settings|"
 msgid "Enable PeX to find more peers"
-msgstr ""
+msgstr "Activer PeX pour trouver plus de pairs"
 
 msgctxt "Settings|"
 msgid "Enable Local Peer Discovery to find more peers"
-msgstr ""
+msgstr "Activer Découverte Locale de Pairs pour trouver plus de pairs"
 
 msgctxt "Settings|"
 msgid "Enable uTP"
-msgstr ""
+msgstr "Activer uTP"
 
 msgctxt "Settings|"
 msgid "Use system defined port for incoming connections"
@@ -108,7 +128,7 @@ msgstr "Utiliser le port défini par le système pour les connexions entrantes"
 
 msgctxt "Settings|"
 msgid "Enable list of predefined trackers"
-msgstr ""
+msgstr "Activer la liste les trackers prédéfinis"
 
 msgctxt "Settings|"
 msgid "BitTorrent settings"
@@ -116,4 +136,4 @@ msgstr "Paramètres BitTorrent"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"
-msgstr "Arrêtez l'envoi une fois le ratio atteint"
+msgstr "Arrêter le partage une fois le taux atteint"

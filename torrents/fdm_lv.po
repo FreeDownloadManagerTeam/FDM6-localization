@@ -3,18 +3,18 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Language: zh_TW\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+"X-Language: lv_LV\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "AddTrackersDialog|"
 msgid "Add trackers"
-msgstr "新增追蹤器"
+msgstr "Pievienot izsekotājus"
 
 msgctxt "AddTrackersPage|"
 msgid "Add trackers"
-msgstr "新增追蹤器"
+msgstr "Pievienot izsekotājus"
 
 msgctxt "BtDetailsTab|"
 msgid "Peers:"
@@ -37,101 +37,102 @@ msgid "Tracker URL"
 msgstr ""
 
 msgctxt "DownloadContextMenu|"
-msgid "Disable seeding"
-msgstr "停用植種"
-
-msgctxt "DownloadContextMenu|"
-msgid "Add trackers"
-msgstr "新增追蹤器"
-
-msgctxt "DownloadContextMenu|"
 msgid "Start all seeding downloads"
-msgstr "開始下載所有種子"
+msgstr "Sākt visas lejupielādes"
 
 msgctxt "DownloadContextMenu|"
 msgid "Stop all seeding downloads"
-msgstr "停止下載所有種子"
+msgstr "Pārtraukt visas lejupielādes"
 
 msgctxt "DownloadContextMenu|"
-msgid "Ignore upload ratio limit"
-msgstr "忽略上傳比率限制"
+msgid "Add trackers"
+msgstr "Pievienot izsekotājus"
+
+msgctxt "DownloadContextMenu|"
+msgid "Disable seeding"
+msgstr "Sēšanas atspējošana"
 
 msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
-msgstr "強制重新宣告"
+msgstr "Piespiedu atkārtota izziņošana"
+
+msgctxt "DownloadContextMenu|"
+msgid "Ignore upload ratio limit"
+msgstr "Ignorēt augšupielādes attiecības ierobežojumu"
 
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
-msgstr "你希望 %1 成為預設 Torrent 用戶端嗎？"
+msgstr "Vai vēlies padarīt %1 par noklusējuma torrent klientu?"
 
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
-msgstr "檢查 %1 是否為您的預設 Torrent 用戶端"
+msgstr "Pārbaudiet, vai %1 ir jūsu noklusējuma torrent klients"
 
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
-msgstr "將 %1 設為預設 Torrent 用戶端"
+msgstr "Padarīt %1 par noklusējuma torrent klientu"
 
 msgctxt "QObject|"
-msgid "Associate with magnet links"
-msgstr "與磁力連結建立關聯"
-
-msgctxt "QObject|"
-msgid "Associate with torrent files"
-msgstr "與 Torrent 檔案建立關聯"
-
-msgctxt "QObject|"
-msgid "Enter URL or choose torrent file"
-msgstr "輸入 URL 或選擇 Torrent 檔案"
-
-msgctxt "QObject|"
-msgid "Merge trackers"
-msgstr "合併追蹤器"
+msgid "seeding"
+msgstr "sēšana"
 
 msgctxt "QObject|"
 msgid "Torrent"
 msgstr "Torrent"
 
 msgctxt "QObject|"
-msgid "seeding"
-msgstr "植種"
+msgid "Associate with magnet links"
+msgstr "Asociēt ar magnētu saitēm"
 
-msgctxt "Settings|"
-msgid "Automatically delete .torrent files once the download is finished"
-msgstr "自動刪除已完成下載的 .torrent 檔案"
+msgctxt "QObject|"
+msgid "Associate with torrent files"
+msgstr "Asociēt ar torrent failiem"
 
-msgctxt "Settings|"
-msgid "Monitor folder for new .torrent files"
-msgstr "監視新 .torrent 檔案的資料夾"
+msgctxt "QObject|"
+msgid "Enter URL or choose torrent file"
+msgstr "Ievadi URL vai izvēlies torrent failu"
 
-msgctxt "Settings|"
-msgid "Enable DHT to find more peers"
-msgstr "啟用 DHT 以尋找更多同儕"
-
-msgctxt "Settings|"
-msgid "Enable PeX to find more peers"
-msgstr "啟用 PeX 以尋找更多同儕"
-
-msgctxt "Settings|"
-msgid "Enable Local Peer Discovery to find more peers"
-msgstr "啟用「本端同儕探索」以尋找更多同儕"
-
-msgctxt "Settings|"
-msgid "Enable uTP"
-msgstr "啟用 uTP"
-
-msgctxt "Settings|"
-msgid "Use system defined port for incoming connections"
-msgstr "使用系統定義的連接埠進行連入連線"
-
-msgctxt "Settings|"
-msgid "Enable list of predefined trackers"
-msgstr "啟用預先定義的追縱器清單"
+msgctxt "QObject|"
+msgid "Merge trackers"
+msgstr "Apvienot izsekotājus"
 
 msgctxt "Settings|"
 msgid "BitTorrent settings"
-msgstr "BitTorrent 設定"
+msgstr "BitTorrent iestatījumi"
+
+msgctxt "Settings|"
+msgid "Automatically delete .torrent files once the download is finished"
+msgstr "Automātiski dzēst .torrent failus kad lejupielāde ir pabeigta"
+
+msgctxt "Settings|"
+msgid "Monitor folder for new .torrent files"
+msgstr "Uzraudzīt mapi priekš jauniem .torrent failiem"
+
+msgctxt "Settings|"
+msgid "Enable DHT to find more peers"
+msgstr "Iespējot DHT lai atrastu vairāk līdzgaitniekus"
+
+msgctxt "Settings|"
+msgid "Enable PeX to find more peers"
+msgstr "Iespējot PeX lai atrastu vairāk līdzgaitniekus"
+
+msgctxt "Settings|"
+msgid "Enable Local Peer Discovery to find more peers"
+msgstr ""
+"Iespējot Lokālo Līdzgaitnieku Atklāšanu lai atrastu vairāk līdzgaitniekus"
+
+msgctxt "Settings|"
+msgid "Enable uTP"
+msgstr "Iespējot uTP"
+
+msgctxt "Settings|"
+msgid "Use system defined port for incoming connections"
+msgstr "Izmantot sistēmas noteikto portu ienākošiem savienojumiem"
+
+msgctxt "Settings|"
+msgid "Enable list of predefined trackers"
+msgstr "Iespējot sarakstu ar jau definētiem izsekotājiem"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"
-msgstr "抵達比率時停止植種"
+msgstr "Pārtraukt sēšanu pie attiecības"

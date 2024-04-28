@@ -10,55 +10,75 @@ msgstr ""
 
 msgctxt "AddTrackersDialog|"
 msgid "Add trackers"
-msgstr "İzleyici ekleyin"
+msgstr "İzleyicileri ekle"
 
 msgctxt "AddTrackersPage|"
 msgid "Add trackers"
-msgstr "İzleyici ekleyin"
+msgstr "İzleyicileri ekle"
+
+msgctxt "BtDetailsTab|"
+msgid "Peers:"
+msgstr "Kişi:"
+
+msgctxt "BtDetailsTab|"
+msgid "Seeds:"
+msgstr "Gönderim:"
+
+msgctxt "BtDetailsTab|"
+msgid "Availability:"
+msgstr "Kullanılabilirlik:"
+
+msgctxt "BtDetailsTab|"
+msgid "Last seen complete:"
+msgstr "Son görülen tamamlama:"
+
+msgctxt "BtDetailsTab|"
+msgid "Tracker URL"
+msgstr "İzleyici URL'si"
 
 msgctxt "DownloadContextMenu|"
 msgid "Disable seeding"
-msgstr "Seed'i devre dışı bırak"
+msgstr "Gönderimi etkisizleştir"
 
 msgctxt "DownloadContextMenu|"
 msgid "Add trackers"
-msgstr "İzleyici ekleyin"
+msgstr "İzleyicileri ekle"
 
 msgctxt "DownloadContextMenu|"
 msgid "Start all seeding downloads"
-msgstr "Tüm seedlenen indirmeleri başlat"
+msgstr "Tüm indirmelerin gönderimini başlat"
 
 msgctxt "DownloadContextMenu|"
 msgid "Stop all seeding downloads"
-msgstr "Tüm seedlenen indirmelerini durdur"
+msgstr "Tüm indirmelerin gönderimini durdur"
 
 msgctxt "DownloadContextMenu|"
 msgid "Ignore upload ratio limit"
-msgstr "Yükleme oranı sınırını yoksay"
+msgstr "Gönderme hız sınırını yoksay"
 
 msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
-msgstr ""
+msgstr "Yeniden duyurmaya zorla"
 
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
-msgstr "%1'ı varsayılan torrent istemcisi yapmak istiyor musunuz?"
+msgstr "%1'yi varsayılan torrent istemcisi yapmak ister misiniz?"
 
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
-msgstr "%1 varsayılan torrent istemcisi mi kontrol et"
+msgstr "%1'nin varsayılan torrent istemciniz olup olmadığını denetle"
 
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
-msgstr "%1'i varsayılan torrent istemcisi yap"
+msgstr "%1'yi varsayılan torrent istemcisi yap"
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
-msgstr "Magnet bağlantılar ile ilişkilendir"
+msgstr "Magnet bağlantıları ile ilişkilendir"
 
 msgctxt "QObject|"
 msgid "Associate with torrent files"
-msgstr "Torrent dosyalarıyla ilişkilendir"
+msgstr "Torrent dosyaları ile ilişkilendir"
 
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
@@ -74,11 +94,11 @@ msgstr "Torrent"
 
 msgctxt "QObject|"
 msgid "seeding"
-msgstr "seedleniyor"
+msgstr "gönderim"
 
 msgctxt "Settings|"
 msgid "Automatically delete .torrent files once the download is finished"
-msgstr "İndirme bittiğinde .torrent dosyalarını otomatik olarak sil"
+msgstr "İndirme bittikten sonra .torrent dosyalarını otomatik olarak sil"
 
 msgctxt "Settings|"
 msgid "Monitor folder for new .torrent files"
@@ -86,19 +106,19 @@ msgstr "Yeni .torrent dosyaları için klasörü izle"
 
 msgctxt "Settings|"
 msgid "Enable DHT to find more peers"
-msgstr ""
+msgstr "Daha fazla kişi bulmak için DHT'yi etkinleştir"
 
 msgctxt "Settings|"
 msgid "Enable PeX to find more peers"
-msgstr ""
+msgstr "Daha fazla kişi bulmak için PeX'i etkinleştir"
 
 msgctxt "Settings|"
 msgid "Enable Local Peer Discovery to find more peers"
-msgstr ""
+msgstr "Daha fazla kişi bulmak için Yerel Kişi Keşfi'ni etkinleştir"
 
 msgctxt "Settings|"
 msgid "Enable uTP"
-msgstr ""
+msgstr "uTP'yi etkinleştir"
 
 msgctxt "Settings|"
 msgid "Use system defined port for incoming connections"
@@ -106,7 +126,7 @@ msgstr "Gelen bağlantılar için sistem tanımlı bağlantı noktasını kullan
 
 msgctxt "Settings|"
 msgid "Enable list of predefined trackers"
-msgstr ""
+msgstr "Önceden tanımlanmış izleyicilerin listesini etkinleştir"
 
 msgctxt "Settings|"
 msgid "BitTorrent settings"
@@ -114,4 +134,4 @@ msgstr "BitTorrent ayarları"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"
-msgstr "Seed'i oranda durdur"
+msgstr "Gönderimi şu oranda durdur"

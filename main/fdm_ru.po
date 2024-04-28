@@ -147,6 +147,11 @@ msgid "Interface"
 msgstr "Интерфейс"
 
 msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr "Оставлять работать %1 в фоне при нажатии кнопки закрытия окна"
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Открывать/скрывать нижнюю панель по щелчку на загрузку"
 
@@ -351,7 +356,9 @@ msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
 "notification panel."
-msgstr "%1 требуется это разрешение для показа прогресса скачивания в системной панели уведомлений."
+msgstr ""
+"%1 требуется это разрешение для показа прогресса скачивания в системной "
+"панели уведомлений."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
@@ -602,6 +609,10 @@ msgid "General"
 msgstr "Основное"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr "Подробности"
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Прогресс"
 
@@ -733,6 +744,10 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Загружать в браузере при отмене загрузки в %1"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr "Не перехватывать при нажатой клавише INSERT"
+
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -760,6 +775,22 @@ msgstr "Продолжить"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(браузер не установлен)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr "N/A"
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr "(подсоединено: %1)"
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "Обновление…"
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1689,8 +1720,8 @@ msgid "Remove from list"
 msgstr "Убрать из списка"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Sequential Download"
-msgstr "Последовательная загрузка"
+msgid "Play file while it is still downloading"
+msgstr "Начать воспроизведение файла пока он ещё качается"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1767,6 +1798,10 @@ msgstr "Последовательная загрузка"
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Убрать из списка"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "Перезапустить"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -2775,6 +2810,22 @@ msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
 msgstr "Требуется значение больше 0."
 
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Ready to play"
+msgstr "Готов к началу воспроизведения"
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "%1 is ready to play"
+msgstr "%1 готов к началу воспроизведения"
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Play"
+msgstr "Воспроизвести"
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Cancel"
+msgstr "Отмена"
+
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
 msgstr "Загрузка уже существует"
@@ -3149,6 +3200,14 @@ msgstr ""
 "Запретить спящий режим компьютера при скачивании файлов без поддержки "
 "возобновления"
 
+msgctxt "Notification|"
+msgid "Miscellaneous notifications"
+msgstr "Разные уведомления"
+
+msgctxt "Notification|"
+msgid "Ready to play"
+msgstr "Готов к началу воспроизведения"
+
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
 msgstr "Для работы %1 требуются разрешения"
@@ -3161,7 +3220,9 @@ msgctxt "OsPermissionsDialog|"
 msgid ""
 "You can grant these permissions using the Application details screen within "
 "your system's settings."
-msgstr "Вы можете предоставить эти разрешения посредством окна Информации о приложении в системных настройках."
+msgstr ""
+"Вы можете предоставить эти разрешения посредством окна Информации о "
+"приложении в системных настройках."
 
 msgctxt "OsPermissionsDialog|"
 msgid "Don't show again"
@@ -3184,12 +3245,20 @@ msgid "Info"
 msgstr "Информация"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr "Подробности"
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "Файлы"
 
 msgctxt "Page|"
 msgid "Connections"
 msgstr "Соединения"
+
+msgctxt "PlayAsap|"
+msgid "Play file while it is still downloading"
+msgstr "Начать воспроизведение файла пока он ещё качается"
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -4128,6 +4197,10 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Открыть папку"
 
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr "%1 вернул ненулевой (%2) код завершения"
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::Append не поддерживается для GZIP"
@@ -4786,6 +4859,10 @@ msgid "Maximum number of additional querying info downloads:"
 msgstr "Максимум дополнительных запросов информации о закачках:"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
+msgstr "Разрешить запуск дополнительных закачек для оптимизации скорости"
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "Недействительные настройки ограничения трафика"
 
@@ -4916,6 +4993,10 @@ msgstr "Сохранить в"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
 msgstr "Имя файла"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Play file while it is still downloading"
+msgstr "Начать воспроизведение файла пока он ещё качается"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"

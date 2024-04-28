@@ -18,15 +18,15 @@ msgstr "Sürüm: %1 (%2)"
 
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
-msgstr "Sürüm tarihi: %1"
+msgstr "Yapım tarihi: %1"
 
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
-msgstr ""
+msgstr "© %1, %2-%3"
 
 msgctxt "AboutDialog|"
 msgid "remote control"
-msgstr ""
+msgstr "uzaktan kumanda"
 
 msgctxt "AboutDialog|"
 msgid "version %1"
@@ -42,7 +42,7 @@ msgstr "Sürüm %1 (%2)"
 
 msgctxt "AddDateToFileName|"
 msgid "Add dates to files names"
-msgstr "Dosya adlarına tarih ekle"
+msgstr "Dosya adlarına tarihleri ekle"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
@@ -50,7 +50,7 @@ msgstr "Yansı ekle"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr "Yansı bağlantısı ekle"
+msgstr "Yansı URL'si girin"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
@@ -70,7 +70,7 @@ msgstr "Tamam"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
-msgstr "Yansı bağlantısı ekle"
+msgstr "Yansı URL'si girin"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -98,24 +98,23 @@ msgstr "Bildirimler"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of added downloads via Notification Center"
-msgstr "Bildirim Merkezi üzerinden eklenen indirmeleri bana bildir"
+msgstr "Bildirim Merkezi aracılığıyla eklenen indirmeleri bana bildir"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "Bildirim Merkezi üzerinden tamamlanan indirmeleri bana bildir"
+msgstr "Bildirim Merkezi aracılığıyla tamamlanan indirmeleri bana bildir"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr "Bildirim Merkezi üzerinden başarısız indirmeleri bana bildir"
+msgstr "Bildirim Merkezi aracılığıyla başarısız indirmeleri bana bildir"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
-msgstr ""
-"Beni sadece %1 penceresi aktif olmadığında indirmeler hakkında bilgilendir"
+msgstr "Sadece %1 penceresi etkin olmadığında indirmeleri bana bildir"
 
 msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
-msgstr "Sesleri yapılandır"
+msgstr "Sesleri özelleştir"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -123,11 +122,11 @@ msgstr "Güç yönetimi"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is a scheduled download"
-msgstr ""
+msgstr "Zamanlanmış bir indirme varsa uyku modunu önle"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
-msgstr ""
+msgstr "Dosyaları paylaşırken uyku moduna izin ver"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -135,7 +134,7 @@ msgstr "Seçenekler"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch at startup (minimized)"
-msgstr "Başlangıçta çalıştır (küçültülmüş)"
+msgstr "Başlangıçta başlat (simge durumunda)"
 
 msgctxt "AdvancedSettings|"
 msgid "Show special offers"
@@ -146,24 +145,30 @@ msgid "Interface"
 msgstr "Arayüz"
 
 msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr ""
+"%1'yi gizlemek ve arka planda çalışır tutmak için Kapat düğmesine tıklayın"
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "İndirmenin üzerine tıklayarak alt panelde Aç/Gizle"
+msgstr "İndirmeye tıklayarak alt paneli aç/gizle"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
-msgstr "Tray simgesini kullanarak etkin indirmeyi ve yüklemeyi belirtin"
+msgstr "Tepsi simgesini kullanarak etkin indirmeyi ve göndermeyi belirt"
 
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
-msgstr ""
+msgstr "Yerleşik etiketleri göster:"
 
 msgctxt "AdvancedSettings|"
 msgid "Automation"
-msgstr ""
+msgstr "Otomatikleştirme"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch external application on download completion"
-msgstr ""
+msgstr "İndirme tamamlandığında harici uygulamayı başlat"
 
 msgctxt "AdvancedSettings|"
 msgid "Path:"
@@ -171,15 +176,15 @@ msgstr "Yol:"
 
 msgctxt "AdvancedSettings|"
 msgid "Please enter application's path"
-msgstr ""
+msgstr "Lütfen uygulamanın yolunu girin"
 
 msgctxt "AdvancedSettings|"
 msgid "Arguments:"
-msgstr "Parametreler:"
+msgstr "Bağ.Değişkenler:"
 
 msgctxt "AdvancedSettings|"
 msgid "Arguments must contain %path% variable"
-msgstr "Parametreler %path% değişkeni içermelidir"
+msgstr "Bağımsız değişkenler %path% değişkenini içermek zorundadır"
 
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
@@ -195,19 +200,19 @@ msgstr "Varsayılan ayarlar"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore default settings?"
-msgstr "Varsayılan ayarlara sıfırlansın mı?"
+msgstr "Varsayılan ayarlar geri yüklensin mi?"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
-msgstr "İndirme listelerini yedekle her"
+msgstr "İndirmeler listesini her şu sürede yedekle:"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is an active download"
-msgstr ""
+msgstr "Etkin bir indirme varsa uyku modunu önle"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode if downloads can be resumed later"
-msgstr ""
+msgstr "İndirmeler daha sonra devam edilebilecekse uyku moduna izin ver"
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
@@ -223,19 +228,19 @@ msgstr "Üzerine yaz"
 
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
-msgstr "Sesleri kullan"
+msgstr "Şu sesleri kullan"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
-msgstr "Pil gücü zayıfladığında indirmelere izin verme"
+msgstr "Pil seviyesi şunun altına düşerse indirmelere izin verme"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not share files when running on battery"
-msgstr ""
+msgstr "Pille çalışırken dosyaları paylaşma"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
-msgstr "Kullanıcı tanımlı indirme sırasını etkinleştir"
+msgstr "Kullanıcı tanımlı indirmeler sıralamasını etkinleştir"
 
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
@@ -243,7 +248,7 @@ msgstr "\"Farklı Kaydet...\" düğmesini göster"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable standalone create new downloads windows"
-msgstr "Bağımsız yeni indirme pencereleri oluşturmayı etkinleştir"
+msgstr "Bağımsız yeni indirmeler pencereleri oluşturmayı etkinleştir"
 
 msgctxt "AdvancedSettings|"
 msgid "Overall zoom"
@@ -251,11 +256,11 @@ msgstr "Genel yakınlaştırma"
 
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
-msgstr "Yazı tipi yakınlaştırma"
+msgstr "Yazı tipleri yakınlaştırma"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
-msgstr "Delete tuşu işlevi"
+msgstr "Delete tuşu eylemi"
 
 msgctxt "AdvancedSettings|"
 msgid "Remove only from download list"
@@ -275,15 +280,15 @@ msgstr "Gelişmiş ayarlar"
 
 msgctxt "AdvancedSettings|"
 msgid "Choose theme"
-msgstr "Tema seç"
+msgstr "Tema seçin"
 
 msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Sistem teması belirlenemediği durumlarda, açık tema kullanılacaktır."
+msgstr "Sistem teması bilinmiyorsa, açık tema kullanılacaktır."
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
-msgstr "El ile ayarla..."
+msgstr "El ile yapılandır..."
 
 msgctxt "AntivirusSettings|"
 msgid "Antivirus"
@@ -291,11 +296,11 @@ msgstr "Antivirüs"
 
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
-msgstr "Antivirüs şeç:"
+msgstr "Antivirüs seçin:"
 
 msgctxt "AntivirusSettings|"
 msgid "Is your antivirus not listed?"
-msgstr "Virüs programınız listede yok mu?"
+msgstr "Antivirüs programınız listede yok mu?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -303,31 +308,31 @@ msgstr "Yol:"
 
 msgctxt "AntivirusSettings|"
 msgid "Please enter antivirus path"
-msgstr "Lütfen antivirüs yolunu girin"
+msgstr "Lütfen antivirüs programı yolunu girin"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments:"
-msgstr "Parametreler:"
+msgstr "Bağ.Değişkenler:"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments must contain %path% variable"
-msgstr "Parametreler %path% değişkeni içermelidir"
+msgstr "Bağımsız değişkenler %path% değişkenini içermek zorundadır"
 
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
-msgstr "İndirme bitince otomatik olarak virüs kontrolü yap"
+msgstr "İndirme tamamlandığında virüs denetimini otomatik olarak gerçekleştir"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
-msgstr "Virüs kontrolü"
+msgstr "Virüs denetimi"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
-msgstr "Ayarlarda belirtilmiş antivirüs yok."
+msgstr "Ayarlarda belirtilmiş antivirüs programı yok."
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Go to settings"
-msgstr "Ayarlara gidiniz"
+msgstr "Ayarlara gidin"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
@@ -335,7 +340,7 @@ msgstr "İptal"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "Storage"
-msgstr ""
+msgstr "Depolama"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "Notifications"
@@ -344,68 +349,72 @@ msgstr "Bildirimler"
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
 msgstr ""
+"%1'nin, indirilen dosyaları yerel depolama alanınıza kaydetmesi için izne "
+"ihtiyacı var."
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
 "notification panel."
 msgstr ""
+"%1'nin sisteminizin bildirim panelinde indirme ilerlemesini göstermesi için "
+"izne ihtiyacı var."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
-msgstr "Devam desteği olmayan indirmeler (%1)."
+msgstr "Devam etme desteği olmayan indirmeler (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
-msgstr "Dosyaları taşı (%1)"
+msgstr "Dosyalar taşınıyor (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
-msgstr "Dosyaları MP3'e dönüştürülüyor (%1)."
+msgstr "Dosyalar Mp3'e dönüştürülüyor (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
-msgstr "Dosyalar MP4'e dönüştürülüyor (%1)."
+msgstr "Dosyalar Mp4'e dönüştürülüyor (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
-msgstr "Dosyaları yeniden adlandırma (%1)."
+msgstr "Dosyalar yeniden adlandırılıyor (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
-msgstr "Medya akışları birleşiyor (%1)."
+msgstr "Ortam akışları birleştiriliyor (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
-msgstr "Dosyaları silme."
+msgstr "Dosyalar siliniyor."
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
-msgstr "Devam etme özelliği olmayan işlemler var"
+msgstr "Devam eden devam etme özelliği olmayan işlemler var"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
-msgstr ""
+msgstr "Uzak %1'ye (%2) bağlanılıyor..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
-msgstr ""
+msgstr "Uzak %1'den (%2) veriler alınıyor..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
-msgstr "Başarısız."
+msgstr "Başarısız oldu."
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
-msgstr "Doğrulama gerekli"
+msgstr "Kimlik doğrulaması gerekli"
 
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
-msgstr "%1 kimlik doğrulaması gerektiriyor"
+msgstr "%1, kimlik doğrulaması gerektiriyor"
 
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
-msgstr "Site : \"%1\" diyor."
+msgstr "Sitenin söylediği: \"%1\"."
 
 msgctxt "AuthDialog|"
 msgid "Username:"
@@ -429,11 +438,11 @@ msgstr "Tamam"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
-msgstr "Doğrulama gerekli"
+msgstr "Kimlik doğrulaması gerekli"
 
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
-msgstr "Site : \"%1\" diyor."
+msgstr "Sitenin söylediği: \"%1\"."
 
 msgctxt "AuthenticationDialog|"
 msgid "Username:"
@@ -457,7 +466,7 @@ msgstr "Tamam"
 
 msgctxt "AuthenticationPage|"
 msgid "Authentication required"
-msgstr "Doğrulama gerekli"
+msgstr "Kimlik doğrulaması gerekli"
 
 msgctxt "AuthenticationPage|"
 msgid "OK"
@@ -465,11 +474,11 @@ msgstr "Tamam"
 
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
-msgstr "Site : \"%1\" diyor."
+msgstr "Sitenin söylediği: \"%1\"."
 
 msgctxt "AuthenticationPage|"
 msgid "Username"
-msgstr "Kullanıcı Adı"
+msgstr "Kullanıcı adı"
 
 msgctxt "AuthenticationPage|"
 msgid "Password"
@@ -521,15 +530,15 @@ msgstr "1 gün"
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Server has returned a web page."
-msgstr ""
+msgstr "Sunucu bir web sayfası döndürdü."
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Click to open it in the web browser."
-msgstr ""
+msgstr "Web tarayıcısında açmak için tıklayın."
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
-msgstr ""
+msgstr "Lütfen her satıra bir öğe girin"
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
@@ -557,7 +566,7 @@ msgstr "Yapıştır"
 
 msgctxt "BatchVideoQuality|"
 msgid "Max. video quality:"
-msgstr "Maks. video kalitesi:"
+msgstr "En fazla görüntü kalitesi:"
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
@@ -600,8 +609,12 @@ msgid "General"
 msgstr "Genel"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr "Ayrıntılar"
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
-msgstr "Süreç"
+msgstr "İlerleme"
 
 msgctxt "BottomPanelTools|"
 msgid "Files"
@@ -613,27 +626,27 @@ msgstr "Bağlantılar"
 
 msgctxt "Browser|"
 msgid "Enter URL"
-msgstr "URL gir"
+msgstr "URL girin"
 
 msgctxt "Browser|"
 msgid "Bookmark removed"
-msgstr "Yer imi kaldırıldı"
+msgstr "Yer işareti kaldırıldı"
 
 msgctxt "Browser|"
 msgid "Bookmark added"
-msgstr "Yer imi eklendi"
+msgstr "Yer işareti eklendi"
 
 msgctxt "Browser|"
 msgid "Bookmarks"
-msgstr "Yer imleri"
+msgstr "Yer işaretleri"
 
 msgctxt "Browser|"
 msgid "There are no bookmarks at the moment"
-msgstr "Şu anda yer imleri yoktur"
+msgstr "Şu anda yer işaretleri yok"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr "Bu yer imini kaldırmak istediğinizden emin misiniz?"
+msgstr "Bu yer işaretini kaldırmak istediğinize emin misiniz?"
 
 msgctxt "Browser|"
 msgid "YES"
@@ -645,43 +658,43 @@ msgstr "HAYIR"
 
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
-msgstr "%1 'e Geri dön"
+msgstr "%1 için geri dön"
 
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
-msgstr "Yer imleri"
+msgstr "Yer işaretleri"
 
 msgctxt "Browser MainMenu|"
 msgid "Download media"
-msgstr "Medyayı indir"
+msgstr "Ortam indir"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
-msgstr "Yer imi kaldır"
+msgstr "Yer işaretini kaldır"
 
 msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
-msgstr "Yer imi ekle"
+msgstr "Yer işareti ekle"
 
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
-msgstr "%1 eklentisini indir"
+msgstr "%1 uzantısını indir"
 
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
-msgstr "%1 yüklenmemiş"
+msgstr "%1 yüklü değil"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
-msgstr "Tarayıcı Entegrasyonu"
+msgstr "Tarayıcı Bütünleştirmesi"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
 msgstr ""
-"%1 Eklentisinin yüklü olduğuna emin olun, yüklenmemişse aşağıdaki "
-"düğmelerden birini tıklayın"
+"%1 uzantısını yüklediğinizden emin olun, aksi halde aşağıdaki düğmelerden "
+"birine tıklayın"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -693,15 +706,15 @@ msgstr "Tarayıcılardan otomatik olarak indirmeleri yakala"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Intercept downloads in your web browser"
-msgstr "Web tarayıcısındaki indirmeleri durdur"
+msgstr "Web tarayıcısında indirmeleri engelle"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Start downloading without confirmation"
-msgstr "Onay beklemeden indirmeleri başlat"
+msgstr "Onay olmadan indirmeyi başlat"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip domains"
-msgstr "Domainleri atla"
+msgstr "Şu etki alanlarını atla"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Edit list"
@@ -709,11 +722,11 @@ msgstr "Listeyi düzenle"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid domain?"
-msgstr "Bunun geçerli bir alan adı olduğundan emin misiniz?"
+msgstr "Bunun geçerli bir etki alanı olduğuna emin misiniz?"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip files with extensions"
-msgstr "Uzantıları olan dosyaları atla"
+msgstr "Şu uzantılara sahip dosyaları atla"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid file extension?"
@@ -721,15 +734,19 @@ msgstr "Bunun geçerli bir dosya uzantısı olduğuna emin misiniz?"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't catch downloads smaller than"
-msgstr "Küçük olan indirmeleri yakalama"
+msgstr "Şundan küçük olan indirmeleri yakalama"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
-msgstr "Mbytes"
+msgstr "Mbayt"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
-msgstr "%1 tarafından indirme iptal edilirse tarayıcıyı kullan"
+msgstr "%1 aracılığıyla indirme iptal edilirse tarayıcıyı kullan"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr "INSERT tuşuna basıldığında müdahale etme"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -742,22 +759,38 @@ msgid ""
 "browser does not provide to %1 (or there is no universal way for all "
 "browsers to do this)."
 msgstr ""
-"Yerleşik web tarayıcısı açmak üzeresiniz.\n"
+"Yerleşik web tarayıcısını açmak üzeresiniz.\n"
 "\n"
-"%1 'e indirmeler eklemenize olanak tanır.\n"
+"İndirmeleri %1 içine eklemenize yardımcı olur.\n"
 "\n"
-"Bunlardan bazıları (Google drive indirmeleri) sadece bu tarayıcı "
-"kullanılarak eklenebilir, çünkü Android sistem tarayıcısı %1 'e destek "
-"sağlamaması\n"
-"nedeni ile ilave bilgi gereklidir."
+"Bunlardan bazıları (örn. Google Drive indirmeleri) sadece bu tarayıcı "
+"kullanılarak eklenebilir, çünkü Android sisteminizin tarayıcısının %1 için "
+"sağlamadığı ek bilgiler gerektirir (veya tüm tarayıcıların bunu yapmasının "
+"evrensel bir yolu yoktur)."
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
-msgstr "Devam et"
+msgstr "Devam"
 
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
-msgstr "(tarayıcı kurulu değil)"
+msgstr "(tarayıcı yüklü değil)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr "(bağlı: %1)"
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "Durum"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "Güncelleniyor..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -777,27 +810,27 @@ msgstr "İptal"
 
 msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
-msgstr "Onay beklemeden indirmeleri başlat"
+msgstr "Onay olmadan indirmeyi başlat"
 
 msgctxt "BtSettings|"
 msgid "Privacy"
-msgstr ""
+msgstr "Gizlilik"
 
 msgctxt "BtSettings|"
 msgid "Encryption:"
-msgstr ""
+msgstr "Şifreleme:"
 
 msgctxt "BtSettings|"
 msgid "No encryption allowed"
-msgstr ""
+msgstr "İzin verilen şifreleme yok"
 
 msgctxt "BtSettings|"
 msgid "Prefer encryption"
-msgstr ""
+msgstr "Şifrelemeyi tercih et"
 
 msgctxt "BtSettings|"
 msgid "Require encryption"
-msgstr ""
+msgstr "Şifreleme gerektir"
 
 msgctxt "BtSettings|"
 msgid "Advanced"
@@ -805,11 +838,11 @@ msgstr "Gelişmiş"
 
 msgctxt "BtSettings|"
 msgid "Current port: %1"
-msgstr ""
+msgstr "Şu anki b.noktası: %1"
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
-msgstr "Özel bağlantı noktası:"
+msgstr "Özel b.noktası:"
 
 msgctxt "BtSettings|"
 msgid ""
@@ -817,10 +850,13 @@ msgid ""
 "Lists of such trackers can be retrieved from different sources, e.g. from <a "
 "href='https://github.com/ngosang/trackerslist'>here</a>."
 msgstr ""
+"Ek izleyicilerin kullanılması bazı durumlarda indirme hızını artırabilir. Bu "
+"tür izleyicilerin listeleri farklı kaynaklardan alınabilir, örn. <a "
+"href='https://github.com/ngosang/trackerslist'>buradan</a>."
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
-msgstr "Yüklendi"
+msgstr "Gönderildi"
 
 msgctxt "BtStrings|"
 msgid "Ratio"
@@ -868,15 +904,15 @@ msgstr "Bu siteden indirmeye izin verilmiyor"
 
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
-msgstr "%1 vekil sunucu kullanıcı adı ve parola gerektiriyor."
+msgstr "%1 vekil sunucu, kullanıcı adı ve parola gerektirir."
 
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
-msgstr "%1 kullanıcı adınızı ve şifrenizi istiyor."
+msgstr "%1 kullanıcı adınızı ve parolanızı istiyor."
 
 msgctxt "BuildDownloadTools|"
 msgid "Querying info. Please wait..."
-msgstr "Bilgi sorgulanıyor. Lütfen bekle..."
+msgstr "Bilgi sorgulanıyor. Lütfen bekleyin..."
 
 msgctxt "ButtonsBlock|"
 msgid "Please select download link"
@@ -884,15 +920,15 @@ msgstr "Lütfen indirme bağlantısını seçin"
 
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
-msgstr "Bir seferde %1'den fazla bağlantı seçemezsiniz"
+msgstr "Bir seferde %1 taneden fazla bağlantı seçemezsiniz"
 
 msgctxt "ButtonsBlock|"
 msgid "No write access to the selected directory"
-msgstr "Seçili dizine yazma yetkisi yok"
+msgstr "Seçilen dizine yazma yetkisi yok"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
-msgstr "Yetersiz disk alanı"
+msgstr "Yeterli disk alanı yok"
 
 msgctxt "ButtonsBlock|"
 msgid "The path contains invalid characters"
@@ -904,7 +940,7 @@ msgstr "Alt klasör adı geçersiz karakterler içeriyor"
 
 msgctxt "ButtonsBlock|"
 msgid "The filename contains invalid characters"
-msgstr "Dosya adı The subfolder name contains invalid characters"
+msgstr "Dosya adı geçersiz karakterler içeriyor"
 
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
@@ -920,7 +956,7 @@ msgstr "İndirme URL'sini değiştir"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
-msgstr "Yeni URL gir"
+msgstr "Yeni URL girin"
 
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
@@ -932,7 +968,7 @@ msgstr "Geçersiz URL"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Start download"
-msgstr "İndirmeye başla"
+msgstr "İndirmeyi başlat"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Cancel"
@@ -952,7 +988,7 @@ msgstr "Tamam"
 
 msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
-msgstr "Yeni URL gir"
+msgstr "Yeni URL girin"
 
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
@@ -960,21 +996,22 @@ msgstr "Dosya konumu: %1"
 
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
-msgstr "İndirmeye başla"
+msgstr "İndirmeyi başlat"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Extraneous files are detected"
-msgstr ""
+msgstr "Yabancı dosyalar algılandı"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid ""
 "The following folder contains extraneous files. Do you still want to delete "
 "it?"
 msgstr ""
+"Aşağıdaki klasör yabancı dosyalar içeriyor. Hala bunu silmek istiyor musunuz?"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Delete anyway"
-msgstr ""
+msgstr "Yine de sil"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Cancel"
@@ -982,7 +1019,7 @@ msgstr "İptal"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
-msgstr "Uzaktan Bağlantı %1"
+msgstr "Uzak %1'ye bağlan"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
@@ -990,7 +1027,7 @@ msgstr "(beta)"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
-msgstr "Buradan başka bir cihazda çalışan %1'e bağlanabilirsiniz."
+msgstr "Burada, başka bir cihazda çalışan %1 için bağlanabilirsiniz."
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
@@ -998,17 +1035,17 @@ msgstr "Başlangıçta otomatik olarak bağlan"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
-msgstr ""
+msgstr "Lütfen %1 girin veya <a href='#'>QR kodunu tarayın</a>"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
 "Both %1 and QR code are located inside of Preferences page of %2 you're "
 "going to connect to."
-msgstr ""
+msgstr "Hem %1 hem de QR kodu, bağlanacağınız %2 Tercihler sayfasında bulunur."
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
-msgstr "Başlangıcında otomatik olarak %1 bağlan"
+msgstr "%1 başlangıcında otomatik olarak bağlan"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Cancel"
@@ -1020,19 +1057,19 @@ msgstr "Tamam"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
-msgstr "Buradan Windows/macOS/Linux PC'nizde çalışan %1'e bağlanabilirsiniz"
+msgstr "Burada, Windows/macOS/Linux PC'nizde çalışan %1 için bağlanabilirsiniz"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
-msgstr "Bağlantı yok"
+msgstr "Bağlantılar yok"
 
 msgctxt "ConnectionsTab|"
 msgid "Host"
-msgstr "Sunucu"
+msgstr "Anamakine"
 
 msgctxt "ConnectionsTab|"
 msgid "Port"
-msgstr "Port"
+msgstr "Bağlantı noktası"
 
 msgctxt "ConnectionsTab|"
 msgid "Connection count"
@@ -1044,19 +1081,19 @@ msgstr "Hedef dosyalar zaten var"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Overwrite All"
-msgstr "Hepsinin Üzerine Yaz"
+msgstr "Tümünün Üzerine Yaz"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Rename All"
-msgstr "Hepsini yeniden adlandır"
+msgstr "Tümünü Yeniden Adlandır"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Skip All"
-msgstr "Hepsini geç"
+msgstr "Tümünü Atla"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Abort"
-msgstr "İşlemi iptal et"
+msgstr "İptal Et"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "Failed to convert"
@@ -1068,7 +1105,7 @@ msgstr "Tamam"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "Convert failed"
-msgstr "Dönüştürme başarısız"
+msgstr "Dönüştürme başarısız oldu"
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
@@ -1080,7 +1117,7 @@ msgstr "Kopyala"
 
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
-msgstr "Çıkmak istediğinden emin misin?"
+msgstr "Çıkmak istediğinize emin misiniz?"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Starting..."
@@ -1088,7 +1125,7 @@ msgstr "Başlatılıyor..."
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
-msgstr "Başlatılamadı."
+msgstr "Başlatma başarısız."
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
@@ -1102,17 +1139,16 @@ msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr ""
-"Dahili bir hata oluştu.<br>%1'in daha fazla kullanılması için yeniden "
+"Bir iç hata meydana geldi.<br>%1'nin daha fazla kullanılması için yeniden "
 "başlatılması gerekiyor."
 
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
-msgstr "%1'i otomatik yeniden başlat"
+msgstr "%1'yi otomatik olarak yeniden başlat"
 
 msgctxt "CrashReporter|"
 msgid "Failed to send the report.<br>Check your Internet connection."
-msgstr ""
-"Rapor gönderme başarısız oldu.<br> İnternet bağlantınızı kontrol ediniz."
+msgstr "Rapor gönderme başarısız.<br>İnternet bağlantınızı gözden geçirin."
 
 msgctxt "CrashReporter|"
 msgid "Error"
@@ -1120,7 +1156,7 @@ msgstr "Hata"
 
 msgctxt "CreateFolderDialog|"
 msgid "Create folder"
-msgstr "Dosya oluştur"
+msgstr "Klasör oluştur"
 
 msgctxt "CreateFolderDialog|"
 msgid "OK"
@@ -1139,20 +1175,20 @@ msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
 msgstr ""
-"%1 taşınabilir sürüm diğer bilgisayarlarda herhangi bir kurulum veya "
-"yapılandırmaya ihtiyaç duymadan çalıştırılabilir."
+"%1'ın taşınabilir sürümü, her birine yükleme ve yapılandırma gerekmeden "
+"farklı bilgisayarlarda kullanılabilir."
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
-msgstr "Taşınabilir belleğe yerleştirilebilir."
+msgstr "Örneğin bir flash diske rahatlıkla yerleştirilebilir."
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
 msgstr ""
-"Bu sürümü eklemek istediğiniz adresi belirtiniz. Bazı taşınabilir disklerde "
-"bir klasör altında olmalıdır."
+"Bu sürümü oluşturmak istediğiniz yolu burada belirtin. Bu çıkarılabilir "
+"sürücüdeki bir klasör olmalıdır."
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -1164,7 +1200,7 @@ msgstr "İptal"
 
 msgctxt "CreatePortableDialog|"
 msgid "Please specify the path."
-msgstr "Lütfen yolu belirtiniz."
+msgstr "Lütfen yolu belirtin."
 
 msgctxt "CreatePortableDialog|"
 msgid "OK"
@@ -1180,7 +1216,7 @@ msgstr "Taşınabilir sürüm oluşturulurken bir hata meydana geldi: %1"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating a portable version was successfully completed."
-msgstr "Taşınabilir sürüm oluşturma başarı ile tamamlandı."
+msgstr "Taşınabilir bir sürüm oluşturma başarılı olarak tamamlandı."
 
 msgctxt "CreatePortableDialog|"
 msgid "Close"
@@ -1188,7 +1224,7 @@ msgstr "Kapat"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Customize sounds"
-msgstr "Sesleri yapılandır"
+msgstr "Sesleri özelleştir"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Event"
@@ -1212,11 +1248,11 @@ msgstr "İndirmeler tamamlandı"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads failed"
-msgstr "İndirmeler başarısız"
+msgstr "İndirmeler başarısız oldu"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No active downloads"
-msgstr "Aktif indirmeler yok"
+msgstr "Etkin indirmeler yok"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Set sound"
@@ -1228,7 +1264,7 @@ msgstr "Kaldır"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Test"
-msgstr "Test"
+msgstr "Dene"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Close"
@@ -1236,7 +1272,7 @@ msgstr "Kapat"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
-msgstr "Seçili indirmeleri sil"
+msgstr "Seçilen indirmeleri sil"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Remember my choice"
@@ -1264,15 +1300,15 @@ msgstr "Bu dosya silinsin mi?"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected files?"
-msgstr "Seçili dosyalar silinsin mi?"
+msgstr "Seçilen dosyalar silinsin mi?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Delete selected downloads"
-msgstr "Seçili indirmeleri sil"
+msgstr "Seçilen indirmeleri sil"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Are you sure you want to delete the selected file(s)?"
-msgstr "Seçili dosyayı(ları) silmek istediğinizden emin misiniz?"
+msgstr "Seçilen dosya(ları)yı silmek istediğinize emin misiniz?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "OK"
@@ -1284,23 +1320,23 @@ msgstr "İptal"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Download deleting failed"
-msgstr "İndirme silme işlemi başarısız"
+msgstr "İndirmeyi silme başarısız oldu"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Try again"
-msgstr "Tekrar deneyin"
+msgstr "Tekrar dene"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore"
-msgstr "Atlayınız"
+msgstr "Yoksay"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore all"
-msgstr "Tamamını atlayınız"
+msgstr "Tümünü yoksay"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
-msgstr "İşlemi iptal et"
+msgstr "İptal et"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
@@ -1308,7 +1344,7 @@ msgstr "Boyut: %1 (Disk alanı: %2)"
 
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
-msgstr ""
+msgstr "Disk alanı: %1"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1"
@@ -1316,11 +1352,11 @@ msgstr "Boyut: %1"
 
 msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
-msgstr "Dock simgesinde toplam yükleme hızını göster"
+msgstr "Kenetleme simgesinde toplam gönderme hızını göster"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Download Failure"
-msgstr "İndirme hatası"
+msgstr "İndirme Hatası"
 
 msgctxt "DownloadExpiredDialog|"
 msgid ""
@@ -1331,7 +1367,7 @@ msgstr ""
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Please try to update the download link to resume."
-msgstr "Lütfen devam etmek için indirme bağlantısını güncelleştirmeyi deneyin."
+msgstr "Lütfen devam etmek için indirme bağlantısını güncellemeyi deneyin."
 
 msgctxt "DownloadExpiredDialog|"
 msgid ""
@@ -1354,19 +1390,19 @@ msgstr "Kapat"
 
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
-msgstr ""
+msgstr "[%1%] - %2"
 
 msgctxt "DownloadWindow|"
 msgid "Web page:"
-msgstr ""
+msgstr "Web sayfası:"
 
 msgctxt "DownloadWindow|"
 msgid "Resource URL:"
-msgstr ""
+msgstr "Kaynak URL'si:"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
-msgstr "Saklandı"
+msgstr "Kaydedildiği yer"
 
 msgctxt "DownloadWindow|"
 msgid "File size"
@@ -1386,15 +1422,15 @@ msgstr "Hayır"
 
 msgctxt "DownloadWindow|"
 msgid "Unknown"
-msgstr "Belirsiz"
+msgstr "Bilinmiyor"
 
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
-msgstr "İndirildi"
+msgstr "İndirilen"
 
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
-msgstr ""
+msgstr "%1% [%2]"
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -1406,7 +1442,7 @@ msgstr "Kalan süre"
 
 msgctxt "DownloadWindow|"
 msgid "Open download when it is completed"
-msgstr "Tamamlandığında indirilen dosyayı aç"
+msgstr "Tamamlandığında indirmeyi aç"
 
 msgctxt "DownloadWindow|"
 msgid "Close this window when the download is completed or stopped"
@@ -1414,11 +1450,11 @@ msgstr "İndirme tamamlandığında veya durdurulduğunda bu pencereyi kapat"
 
 msgctxt "DownloadWindow|"
 msgid "Remember to always close by default"
-msgstr ""
+msgstr "Varsayılan olarak her zaman kapatmayı unutma"
 
 msgctxt "DownloadWindow|"
 msgid "Remember to never close by default"
-msgstr ""
+msgstr "Varsayılan olarak asla kapatmayı unutma"
 
 msgctxt "DownloadWindow|"
 msgid "Hide"
@@ -1442,11 +1478,11 @@ msgstr "Başlat"
 
 msgctxt "DownloadsItemTools|"
 msgid "Moving"
-msgstr "Hareketli"
+msgstr "Taşınıyor"
 
 msgctxt "DownloadsItemTools|"
 msgid "Checking for viruses"
-msgstr "Virüs için kontrol ediliyor"
+msgstr "Virüsler için denetleniyor"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp3"
@@ -1458,23 +1494,23 @@ msgstr "Mp4'e çevriliyor"
 
 msgctxt "DownloadsItemTools|"
 msgid "Calculating hash"
-msgstr "Hash hesaplanıyor"
+msgstr "Adresleme hesaplanıyor"
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
-msgstr "Dosya kayıp"
+msgstr "Dosya eksik"
 
 msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
-msgstr "Disk bulunamadı"
+msgstr "Disk eksik"
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
-msgstr "Bağlantıları indir (%1 seçilmiş)"
+msgstr "Bağlantıları indir (%1 seçildi)"
 
 msgctxt "DownloadsList|"
 msgid "Select all"
-msgstr "Tümünü Seç"
+msgstr "Tümünü seç"
 
 msgctxt "DownloadsList|"
 msgid "Select none"
@@ -1486,19 +1522,19 @@ msgstr "İndirme listesi boş."
 
 msgctxt "DownloadsPage|"
 msgid "Add new download URL."
-msgstr "Yeni indirme URL'si ekle."
+msgstr "Yeni indirme URL'si ekleyin."
 
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
-msgstr "\"%1\" etiketli sonuç bulunamadı"
+msgstr "Bulunan \"%1\" etiketli sonuçlar yok"
 
 msgctxt "DownloadsPage|"
 msgid "No results found for"
-msgstr "Bunun için sonuç bulunamadı"
+msgstr "Sonucun bulunamadığı öğe"
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
-msgstr "Aktif indirmeler yok"
+msgstr "Etkin indirmeler yok"
 
 msgctxt "DownloadsPage|"
 msgid "No completed downloads"
@@ -1506,15 +1542,15 @@ msgstr "Tamamlanan indirmeler yok"
 
 msgctxt "DownloadsPage|"
 msgid "Show all"
-msgstr "Tümünü Göster"
+msgstr "Tümünü göster"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
-msgstr "İndirme listesi boş. Yeni bir indirme URL'si ekleyin."
+msgstr "İndirme listesi boş. Yeni indirme URL'si ekleyin."
 
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "Uzak %1'ye bağlan"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1522,39 +1558,39 @@ msgstr "İndirme ayarları"
 
 msgctxt "DownloadsSettings|"
 msgid "Start downloading without confirmation"
-msgstr "Onay beklemeden indirmeleri başlat"
+msgstr "Onay olmadan indirmeyi başlat"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "İndirme listesinden silinmiş dosyaları otomatik olarak kaldır"
+msgstr "Silinen dosyaları indirme listesinden otomatik olarak kaldır"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "Tamamlanan indirmeleri otomatik olarak indirme listesinden sil"
+msgstr "Tamamlanan indirmeleri indirme listesinden otomatik olarak kaldır"
 
 msgctxt "DownloadsSettings|"
 msgid "Immediately"
-msgstr ""
+msgstr "Hemen"
 
 msgctxt "DownloadsSettings|"
 msgid "In"
-msgstr ""
+msgstr " "
 
 msgctxt "DownloadsSettings|"
 msgid "days"
-msgstr ""
+msgstr "gün içinde"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
-msgstr "Başarısız indirmeleri otomatik olarak tekrar dene"
+msgstr "Başarısız olan indirmeleri otomatik olarak yeniden dene"
 
 msgctxt "DownloadsSettings|"
 msgid "Do not download web pages"
-msgstr ""
+msgstr "Web sayfalarını indirme"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
-msgstr "Dosya oluşturmak için sunucu zamanını kullan"
+msgstr "Dosya oluşturma için sunucu saatini kullan"
 
 msgctxt "DownloadsSettings|"
 msgid "Default download folder"
@@ -1562,15 +1598,15 @@ msgstr "Varsayılan indirme klasörü"
 
 msgctxt "DownloadsSettings|"
 msgid "Choose default download folder automatically"
-msgstr "Otomatik olarak indirme klasörü seç"
+msgstr "Varsayılan indirme klasörünü otomatik olarak seç"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on file type"
-msgstr "Dosya türü tabanlı klasörler öner"
+msgstr "Dosya türüne dayalı klasörler öner"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on download URL"
-msgstr "İndirme URL tabanlı klasörler öner"
+msgstr "İndirme URL'sine dayalı klasörler öner"
 
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
@@ -1598,7 +1634,7 @@ msgstr "Boyut"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Added"
-msgstr "Eklendi"
+msgstr "Eklenme"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Paused"
@@ -1606,15 +1642,15 @@ msgstr "Duraklatıldı"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "File is missing"
-msgstr "Dosya kayıp"
+msgstr "Dosya eksik"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Disk is missing"
-msgstr "Disk bulunamadı"
+msgstr "Disk eksik"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
-msgstr "Yükleme duraklatıldı"
+msgstr "Gönderme duraklatıldı"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -1622,7 +1658,7 @@ msgstr "Öncelik"
 
 msgctxt "DownloadsViewItem|"
 msgid "Upload paused"
-msgstr "Yükleme duraklatıldı"
+msgstr "Gönderme duraklatıldı"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1642,15 +1678,15 @@ msgstr "Bu tür hatalar için otomatik yeniden denemeyi etkinleştir"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Save and complete"
-msgstr ""
+msgstr "Kaydet ve tamamla"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show downloads"
-msgstr ""
+msgstr "İndirmeleri göster"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Choose files..."
-msgstr ""
+msgstr "Dosyaları seçin..."
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -1670,7 +1706,7 @@ msgstr "Dosyayı yeniden adlandır"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
-msgstr "Buraya Taşı..."
+msgstr "Şuraya taşı..."
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Delete file"
@@ -1681,8 +1717,8 @@ msgid "Remove from list"
 msgstr "Listeden kaldır"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Sequential Download"
-msgstr "Ardışık indirme"
+msgid "Play file while it is still downloading"
+msgstr "Dosyayı indirmeye devam ederken oynat"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1698,7 +1734,7 @@ msgstr "Bağlantıyı kopyala"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Check for update"
-msgstr "Güncellemeleri kontrol et"
+msgstr "Güncellemeleri denetle"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
@@ -1722,19 +1758,19 @@ msgstr "URL'yi değiştir"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
-msgstr "Mp3'e çevir"
+msgstr "Mp3'e dönüştür"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp4"
-msgstr "Mp4'e çevir"
+msgstr "Mp4'e dönüştür"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
-msgstr "Virüs kontrolü yap"
+msgstr "Virüs denetimi yap"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Abort"
-msgstr "İşlemi iptal et"
+msgstr "İptal et"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
@@ -1754,11 +1790,15 @@ msgstr "Dosyalar"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
-msgstr "Ardışık indirme"
+msgstr "Sıralı indirme"
 
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Listeden kaldır"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "Yeniden başlat"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -1766,11 +1806,11 @@ msgstr "İndirme tamamlandı"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
-msgstr "Dosyalar kontrol ediliyor..."
+msgstr "Dosyalar denetleniyor..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
-msgstr "Medya akışları birleştiriliyor..."
+msgstr "Ortam akışları birleştiriliyor..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Requesting info..."
@@ -1778,7 +1818,7 @@ msgstr "Bilgi isteniyor..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Queued"
-msgstr "Sıraya alındı"
+msgstr "Kuyruğa alındı"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Paused"
@@ -1790,15 +1830,15 @@ msgstr "Bilinmeyen dosya boyutu"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
-msgstr "Sıraya alındı"
+msgstr "Kuyruğa alındı"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files"
-msgstr "Dosyalar kontrol ediliyor"
+msgstr "Dosyalar denetleniyor"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Merging media streams"
-msgstr "Medya akışları birleştiriliyor"
+msgstr "Ortam akışları birleştiriliyor"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info"
@@ -1826,12 +1866,12 @@ msgstr "Etiket"
 
 msgctxt "EditTagDialog|"
 msgid "Extensions (e.g. \"avi mp3\")"
-msgstr "Uzantılar(\"avi mp3\")"
+msgstr "Uzantılar (örn. \"avi mp3\")"
 
 msgctxt "EditTagDialog|"
 msgid ""
 "Extensions that are automatically assigned with this tag for new downloads"
-msgstr "Bu etikete ait yeni indirmeler için uzantılar otomatik olarak eklendi"
+msgstr "Yeni indirmeler için bu etiketle otomatik olarak atanan uzantılar"
 
 msgctxt "EditTagDialog|"
 msgid "Default download folder"
@@ -1859,7 +1899,7 @@ msgstr "Düşük pil"
 
 msgctxt "EnvTools|"
 msgid "Data roaming disabled"
-msgstr "Veri dolaşımı devre dışı"
+msgstr "Veri dolaşımı etkisizleştirildi"
 
 msgctxt "EnvTools|"
 msgid "No Internet connection"
@@ -1867,7 +1907,7 @@ msgstr "İnternet bağlantısı yok"
 
 msgctxt "EnvTools|"
 msgid "Mobile data use disabled"
-msgstr "Mobil veri kullanımı kapatıldı"
+msgstr "Mobil veri kullanımı etkisizleştirildi"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Rename"
@@ -1883,11 +1923,11 @@ msgstr "Her zaman sor"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
-msgstr "Seçili indirmeleri dışarı aktar"
+msgstr "Seçilen indirmeleri dışa aktar"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export all downloads"
-msgstr "Tüm indirmeleri dışarı aktar"
+msgstr "Tüm indirmeleri dışa aktar"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Save to"
@@ -1907,11 +1947,11 @@ msgstr "Tüm dosyalar (%1)"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export only completed downloads"
-msgstr "Sadece seçili indirmeleri dışarı aktar"
+msgstr "Sadece seçilen indirmeleri dışa aktar"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export"
-msgstr "Dışarı aktar"
+msgstr "Dışa aktar"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
@@ -1923,7 +1963,7 @@ msgstr "Varsayılan biçim"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
-msgstr "Bağlantı listesi"
+msgstr "URL'ler listesi"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
@@ -1939,7 +1979,7 @@ msgstr "CSV dosyaları (%1)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Export"
-msgstr "Dışarı aktar"
+msgstr "Dışa aktar"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
@@ -1955,27 +1995,27 @@ msgstr "Tüm dosyalar (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
-msgstr "Dosya bütünlüğünü kontrol et"
+msgstr "Dosya bütünlüğünü denetle"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Hash"
-msgstr "Hash"
+msgstr "Adresleme"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
-msgstr "Hesaplanıyor %1%"
+msgstr "%1% hesaplanıyor"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Compare with"
-msgstr "İle karşılaştırın"
+msgstr "Şununla karşılaştır"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification OK"
-msgstr "Doğrulama başarılı"
+msgstr "Doğrulama TAMAM"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification failed"
-msgstr "Doğrulama başarısız"
+msgstr "Doğrulama başarısız oldu"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Close"
@@ -1983,7 +2023,7 @@ msgstr "Kapat"
 
 msgctxt "FileIntegrityPage|"
 msgid "Check file integrity"
-msgstr "Dosya bütünlüğünü kontrol et"
+msgstr "Dosya bütünlüğünü denetle"
 
 msgctxt "FileIntegrityPage|"
 msgid "MD5"
@@ -1999,23 +2039,23 @@ msgstr "SHA-256"
 
 msgctxt "FileIntegrityPage|"
 msgid "SHA-512"
-msgstr "SHA-256: {512?}"
+msgstr "SHA-512"
 
 msgctxt "FileIntegrityPage|"
 msgid "Hash"
-msgstr "Hash"
+msgstr "Adresleme"
 
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
-msgstr "Hesaplanıyor %1%"
+msgstr "%1% hesaplanıyor"
 
 msgctxt "FileIntegrityPage|"
 msgid "Compare with"
-msgstr "İle karşılaştırın"
+msgstr "Şununla karşılaştır"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification OK"
-msgstr "Doğrulama başarılı"
+msgstr "Doğrulama TAMAM"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification failed"
@@ -2023,7 +2063,7 @@ msgstr "Doğrulama başarısız oldu"
 
 msgctxt "FileManagerSupportDialog|"
 msgid "No supported file managers found."
-msgstr "Desteklenen dosya yöneticisi bulunamadı."
+msgstr "Desteklenen dosya yöneticileri bulunamadı."
 
 msgctxt "FileName|"
 msgid "Create subfolder"
@@ -2043,11 +2083,11 @@ msgstr "Tüm dosyalar"
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
-msgstr "Klasör seç"
+msgstr "Klasör seçin"
 
 msgctxt "FilePickerPage|"
 msgid "Select file"
-msgstr "Dosya seç"
+msgstr "Dosya seçin"
 
 msgctxt "FilePickerPage|"
 msgid "OK"
@@ -2055,7 +2095,7 @@ msgstr "Tamam"
 
 msgctxt "FilePickerPage|"
 msgid "Empty folder"
-msgstr "Klasör Boş"
+msgstr "Boş klasör"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By date"
@@ -2063,7 +2103,7 @@ msgstr "Tarihe göre"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By name"
-msgstr "İsme göre"
+msgstr "Ada göre"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By size"
@@ -2083,11 +2123,11 @@ msgstr "Azalan"
 
 msgctxt "FileType|"
 msgid "File type:"
-msgstr "Dosya tipi:"
+msgstr "Dosya türü:"
 
 msgctxt "FilesExistsDialog|"
 msgid "Warning: file exists already"
-msgstr "Uyarı: dosya mevcut"
+msgstr "Uyarı: dosya zaten var"
 
 msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
@@ -2103,11 +2143,11 @@ msgstr "Üzerine yaz"
 
 msgctxt "FilesExistsDialog|"
 msgid "Abort"
-msgstr "İşlemi iptal et"
+msgstr "İptal et"
 
 msgctxt "FilesTree|"
 msgid "Name"
-msgstr "İsim"
+msgstr "Ad"
 
 msgctxt "FilesTree|"
 msgid "Size"
@@ -2115,7 +2155,7 @@ msgstr "Boyut"
 
 msgctxt "FilesTree|"
 msgid "Progress"
-msgstr "Süreç"
+msgstr "İlerleme"
 
 msgctxt "FilesTree|"
 msgid "Priority"
@@ -2139,7 +2179,7 @@ msgstr "Dosyalar"
 
 msgctxt "FilesTree|"
 msgid "Select all"
-msgstr "Tümünü Seç"
+msgstr "Tümünü seç"
 
 msgctxt "FilesTree|"
 msgid "Select none"
@@ -2147,15 +2187,15 @@ msgstr "Hiçbirini seçme"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High priority"
-msgstr ""
+msgstr "Yüksek öncelik"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Normal priority"
-msgstr ""
+msgstr "Normal öncelik"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Low priority"
-msgstr ""
+msgstr "Düşük öncelik"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -2175,15 +2215,15 @@ msgstr "Dosya bütünlüğü"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
-msgstr "Video'yu mp3'e çevir"
+msgstr "Görüntüyü Mp3'e dönüştür"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp4"
-msgstr "Video'yu mp4'e çevir"
+msgstr "Görüntüyü Mp4'e dönüştür"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
-msgstr "Mp4'e çevir"
+msgstr "Mp4'e dönüştür"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2195,7 +2235,7 @@ msgstr "Genel"
 
 msgctxt "GeneralSettings|"
 msgid "Choose theme"
-msgstr "Tema seç"
+msgstr "Tema seçin"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -2203,23 +2243,23 @@ msgstr "Dil"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
-msgstr "İndirilenler"
+msgstr "İndirmeler"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
-msgstr "Dosya türü tabanlı klasörler öner"
+msgstr "Dosya türüne dayalı klasörler öner"
 
 msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Sistem teması belirsiz ise açık tema kullanılacaktır."
+msgstr "Sistem teması bilinmiyorsa, açık tema kullanılacaktır."
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
-msgstr "Diliniz listede yok veya çeviri tamamlanmadı mı?"
+msgstr "Diliniz listede yok mu veya çeviri tamamlanmamış mı?"
 
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
-msgstr "Haydi düzeltelim!"
+msgstr "Hadi düzeltelim!"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -2227,15 +2267,15 @@ msgstr "Varsayılan indirme klasörü"
 
 msgctxt "GeneralSettings|"
 msgid "Choose default download folder automatically"
-msgstr "Varsayılan indirme klasörünü otomatik olarak belirle"
+msgstr "Varsayılan indirme klasörünü otomatik olarak seç"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
-msgstr "İndirme URL tabanlı klasörler öner"
+msgstr "İndirme URL'sine dayalı klasörler öner"
 
 msgctxt "GeneralSettings|"
 msgid "Fixed default download folder"
-msgstr "Varsayılan indirme klasörü düzeltildi"
+msgstr "Düzeltilmiş varsayılan indirme klasörü"
 
 msgctxt "GeneralSettings|"
 msgid "Open"
@@ -2251,71 +2291,71 @@ msgstr "Makrolar"
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
-msgstr "İndirilenler listesinin kompakt görünümü"
+msgstr "İndirmeler listesinin sıkışık görünümü"
 
 msgctxt "GeneralSettings|"
 msgid "Enable standalone downloads windows"
-msgstr "Tekil indirme pencerelerini aktif et"
+msgstr "Bağımsız indirmeler pencerelerini etkinleştir"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "İndirme listesinden silinmiş dosyaları otomatik olarak kaldır"
+msgstr "Silinen dosyaları indirme listesinden otomatik olarak kaldır"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "Tamamlanan indirmeleri otomatik olarak indirme listesinden sil"
+msgstr "Tamamlanan indirmeleri indirme listesinden otomatik olarak kaldır"
 
 msgctxt "GeneralSettings|"
 msgid "Immediately"
-msgstr ""
+msgstr "Hemen"
 
 msgctxt "GeneralSettings|"
 msgid "In"
-msgstr ""
+msgstr " "
 
 msgctxt "GeneralSettings|"
 msgid "days"
-msgstr ""
+msgstr "gün içinde"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
-msgstr "Başarısız indirmeleri otomatik olarak yeniden dene"
+msgstr "Başarısız olan indirmeleri otomatik olarak yeniden dene"
 
 msgctxt "GeneralSettings|"
 msgid "Do not download web pages"
-msgstr ""
+msgstr "Web sayfalarını indirme"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
-msgstr "Dosya oluşturmak için sunucu zamanını kullan"
+msgstr "Dosya oluşturma için sunucu saatini kullan"
 
 msgctxt "GeneralSettings|"
 msgid "Maximum urls count in batch download"
-msgstr "Toplu indirme maksimum bağlantı sayısı"
+msgstr "Toplu indirmede en fazla URL sayısı"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
-msgstr "Güncelle"
+msgstr "Güncelleme"
 
 msgctxt "GeneralSettings|"
 msgid "Check for updates automatically"
-msgstr "Güncellemeleri otomatik olarak kontrol et"
+msgstr "Güncellemeleri otomatik olarak denetle"
 
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
-msgstr "Güncellemeleri otomatik olarak kur"
+msgstr "Güncellemeleri otomatik olarak yükle"
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
-msgstr "Güncellemeleri otomatik olarak kontrol et"
+msgstr "Güncellemeleri otomatik olarak denetle"
 
 msgctxt "GeneralSettings2|"
 msgid "Install updates automatically"
-msgstr "Güncellemeleri otomatik olarak kur"
+msgstr "Güncellemeleri otomatik olarak yükle"
 
 msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
-msgstr "Mobil veriyi kullan"
+msgstr "Mobil şebeke kullan"
 
 msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
@@ -2344,11 +2384,11 @@ msgstr "Toplam boyut:"
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
-msgstr "İndirildi:"
+msgstr "İndirilen:"
 
 msgctxt "GeneralTab|"
 msgid "Uploaded"
-msgstr "Yüklendi"
+msgstr "Gönderilen"
 
 msgctxt "GeneralTab|"
 msgid "ratio"
@@ -2368,15 +2408,15 @@ msgstr "Hız"
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
-msgstr "İndirme hızı:"
+msgstr "İndirme hızı   :"
 
 msgctxt "GeneralTab|"
 msgid "Upload speed:"
-msgstr "Yükleme hızı:"
+msgstr "Gönderme hızı:"
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
-msgstr "Şuraya eklendi:"
+msgstr "Eklenme zamanı:"
 
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
@@ -2384,15 +2424,15 @@ msgstr "%1 / %2"
 
 msgctxt "GeneralTab|"
 msgid "Domain:"
-msgstr "Alan adı:"
+msgstr "Etki alanı:"
 
 msgctxt "GeneralTab|"
 msgid "Added:"
-msgstr "Eklendi:"
+msgstr "Eklenme:"
 
 msgctxt "GeneralTab|"
 msgid "Progress:"
-msgstr "Süreç:"
+msgstr "İlerleme:"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2408,11 +2448,11 @@ msgstr "SHA-256"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-512"
-msgstr "SHA-256: {512?}"
+msgstr "SHA-512"
 
 msgctxt "ImportDialog|"
 msgid "Import"
-msgstr "İçeri aktar"
+msgstr "İçe aktar"
 
 msgctxt "ImportDialog|"
 msgid "Cancel"
@@ -2444,31 +2484,31 @@ msgstr "Tamam"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
-msgstr "Dosyadan bağlantıları yapıştırma hatası"
+msgstr "Dosyadan URL'leri yapıştırma hatası"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
-msgstr "Dosyadan bağlantı listesi içeri aktarma yapılamıyor: %1"
+msgstr "Dosyadan URL'ler listesi içe aktarılamıyor: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
-msgstr "Dışarı aktarma başarısız"
+msgstr "Dışa aktarma hatası"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
-msgstr "Dışarı dosya aktarma yapılamıyor: %1"
+msgstr "Dosyaya aktarılamıyor: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
-msgstr "Dışarı aktarma başarısız"
+msgstr "İçe aktarma hatası"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
-msgstr "Dosyadan içeri aktarma yapılamıyor: %1"
+msgstr "Dosyadan aktarılamıyor: %1"
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
-msgstr "Varsayılan Yap"
+msgstr "Varsayılan olarak ayarla"
 
 msgctxt "IntegrationBanner|"
 msgid "Don't ask again"
@@ -2476,7 +2516,7 @@ msgstr "Bir daha sorma"
 
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
-msgstr ". Yine de kapa?"
+msgstr ". Yine de kapatılsın mı?"
 
 msgctxt "LanguageDialog|"
 msgid "Language"
@@ -2484,7 +2524,7 @@ msgstr "Dil"
 
 msgctxt "LeftDrawer|"
 msgid "remote control"
-msgstr ""
+msgstr "uzaktan kumanda"
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
@@ -2496,19 +2536,19 @@ msgstr "Ayarlar"
 
 msgctxt "LeftDrawer|"
 msgid "Contact support"
-msgstr "Destekle İletişime Geç"
+msgstr "Destekle iletişime geç"
 
 msgctxt "LeftDrawer|"
 msgid "Submit a bug report"
-msgstr ""
+msgstr "Hata raporu gönder"
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
-msgstr "Uzak %1 ile bağlantıyı kes"
+msgstr "Uzak %1'den bağlantıyı kes"
 
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
-msgstr "Uzak %1 ile bağlantı kur"
+msgstr "Uzak %1'ye bağlan"
 
 msgctxt "LeftDrawer|"
 msgid "About"
@@ -2516,7 +2556,7 @@ msgstr "Hakkında"
 
 msgctxt "LeftDrawer|"
 msgid "Quit"
-msgstr "Çıkış"
+msgstr "Çık"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -2532,27 +2572,27 @@ msgstr "Gizle"
 
 msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
-msgstr "%content_type% - içerik türü (Ör. \"Müzik\")"
+msgstr "%content_type% - içerik türü (örn. \"Müzik\")"
 
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
-msgstr "%server% - sunucu adı (Ör. \"%1\")"
+msgstr "%server% - sunucunun adı (örn. \"%1\")"
 
 msgctxt "MacrosMenu|"
 msgid "%path_on_server% - path to the downloading file on the server"
-msgstr "%path_on_server% - sunucu üzerinde indirilen dosya yolu"
+msgstr "%path_on_server% - sunucuda indirilen dosya için yol"
 
 msgctxt "MacrosMenu|"
 msgid "%year% - current year"
-msgstr "%year% - mevcut yıl"
+msgstr "%year% - şu anki yıl"
 
 msgctxt "MacrosMenu|"
 msgid "%month% - current month (number from 1 to 12)"
-msgstr "%month% - mevcut ay (1'den 12'ye)"
+msgstr "%month% - şu anki ay (1 ile 12 arası sayı)"
 
 msgctxt "MacrosMenu|"
 msgid "%day% - current day"
-msgstr "%day% - mevcut gün"
+msgstr "%day% - şu anki gün"
 
 msgctxt "MacrosMenu|"
 msgid "%date% - equivalent to %year%-%month%-%day%"
@@ -2564,11 +2604,11 @@ msgstr "Tümü"
 
 msgctxt "MainFiltersBar|"
 msgid "Missing Files"
-msgstr "Kayıp dosyalar"
+msgstr "Eksik Dosyalar"
 
 msgctxt "MainFiltersBar|"
 msgid "Active"
-msgstr "Aktif"
+msgstr "Etkin"
 
 msgctxt "MainFiltersBar|"
 msgid "Completed"
@@ -2576,39 +2616,39 @@ msgstr "Tamamlandı"
 
 msgctxt "MainFiltersBar|"
 msgid "Uncompleted"
-msgstr ""
+msgstr "Tamamlanmadı"
 
 msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
-msgstr "Etiketi kaldırmak istiyor musunuz?"
+msgstr "Etiketi kaldırmak için Tamam?"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from clipboard"
-msgstr ""
+msgstr "URL'leri panodan yapıştır"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from file"
-msgstr ""
+msgstr "URL'leri dosyadan yapıştır"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
-msgstr "Dışarı/İçeri aktar"
+msgstr "Dışa/İçe aktar"
 
 msgctxt "MainMenu|"
 msgid "Export all downloads"
-msgstr "Tüm indirmeleri dışarı aktar"
+msgstr "Tüm indirmeleri dışa aktar"
 
 msgctxt "MainMenu|"
 msgid "Import downloads"
-msgstr "İndirmeleri içeri aktar"
+msgstr "İndirmeleri içe aktar"
 
 msgctxt "MainMenu|"
 msgid "Export settings"
-msgstr "Dışarı aktarma ayarları"
+msgstr "Ayarları dışa aktar"
 
 msgctxt "MainMenu|"
 msgid "Import settings"
-msgstr "İçeri aktarma ayarları"
+msgstr "Ayarları içe aktar"
 
 msgctxt "MainMenu|"
 msgid "Add-ons..."
@@ -2620,19 +2660,19 @@ msgstr "Tercihler..."
 
 msgctxt "MainMenu|"
 msgid "Contact support"
-msgstr "Destekle İletişime Geç"
+msgstr "Destekle iletişime geç"
 
 msgctxt "MainMenu|"
 msgid "Auto shutdown"
-msgstr ""
+msgstr "Otomatik kapat"
 
 msgctxt "MainMenu|"
 msgid "Check for updates..."
-msgstr ""
+msgstr "Güncellemeleri denetle..."
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
-msgstr ""
+msgstr "Hata raporu gönder"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
@@ -2640,7 +2680,7 @@ msgstr "Uyku"
 
 msgctxt "MainMenu|"
 msgid "Hibernate"
-msgstr "Hazırda Beklet"
+msgstr "Hazırda beklet"
 
 msgctxt "MainMenu|"
 msgid "Shutdown"
@@ -2648,11 +2688,11 @@ msgstr "Kapat"
 
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
-msgstr "Uzak %1 ile bağlantıyı kes"
+msgstr "Uzak %1'den bağlantıyı kes"
 
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
-msgstr "Uzak %1 ile bağlantı kur"
+msgstr "Uzak %1'ye bağlan"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2660,7 +2700,7 @@ msgstr "Taşınabilir sürüm oluştur"
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
-msgstr "Mozaiğine katılın..."
+msgstr "Mozaik'e katıl..."
 
 msgctxt "MainMenu|"
 msgid "About"
@@ -2668,7 +2708,7 @@ msgstr "Hakkında"
 
 msgctxt "MainMenu|"
 msgid "Quit"
-msgstr "Çıkış"
+msgstr "Çık"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
@@ -2681,7 +2721,7 @@ msgstr "Salyangoz modu"
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
-msgstr[0] "%n indirmeler seçildi."
+msgstr[0] "%n indirme seçildi."
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
@@ -2697,7 +2737,7 @@ msgstr "Tümünü başlat"
 
 msgctxt "MainToolbar|"
 msgid "Start selected"
-msgstr "Seçiliyi başlat"
+msgstr "Seçileni başlat"
 
 msgctxt "MainToolbar|"
 msgid "Pause all"
@@ -2705,15 +2745,15 @@ msgstr "Tümünü duraklat"
 
 msgctxt "MainToolbar|"
 msgid "Pause selected"
-msgstr "Seçiliyi duraklat"
+msgstr "Seçileni duraklat"
 
 msgctxt "MainToolbar|"
 msgid "Delete selected"
-msgstr "Seçiliyi sil"
+msgstr "Seçileni sil"
 
 msgctxt "MainToolbar|"
 msgid "Move to..."
-msgstr "Taşı..."
+msgstr "Şuraya taşı..."
 
 msgctxt "MainToolbar|"
 msgid "Move downloads up"
@@ -2729,15 +2769,15 @@ msgstr "Ana menü"
 
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
-msgstr "İndirme listesinin kullanıcı tanımlı sıralamasına geçilir mi?"
+msgstr "İndirme listesinin kullanıcı tanımlı sıralamasına geçilsin mi?"
 
 msgctxt "MainToolbar|"
 msgid "remote control"
-msgstr ""
+msgstr "uzaktan kumanda"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
-msgstr "Limitsiz"
+msgstr "Sınırsız"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Custom..."
@@ -2761,7 +2801,23 @@ msgstr "Geçersiz değer"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
-msgstr "0'dan büyük bir sayı olmalıdır."
+msgstr "0'dan büyük bir sayı olmak zorundadır."
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Ready to play"
+msgstr "Oynatmaya hazır"
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "%1 is ready to play"
+msgstr "%1 oynatmaya hazır"
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Play"
+msgstr "Oynat"
+
+msgctxt "MediaFileReadyToPlayDialog|"
+msgid "Cancel"
+msgstr "İptal"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
@@ -2781,7 +2837,7 @@ msgstr "Boyut:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Added at:"
-msgstr "Buraya eklendi:"
+msgstr "Eklenme zamanı:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
@@ -2789,7 +2845,7 @@ msgstr "Atla"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
-msgstr "Tamamını geç (%1)"
+msgstr "Tümünü atla (%1)"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
@@ -2801,11 +2857,11 @@ msgstr "Mobil veri kullanımı"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Waiting for Wi-Fi to start download."
-msgstr "İndirmeye başlamak için Wi-Fi bağlantısı bekleniyor."
+msgstr "İndirmeyi başlatmak için Wi-Fi bekleniyor."
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Would you like to enable usage of mobile data? *"
-msgstr "Mobil veri kullanımını açmak istiyor musunuz?*"
+msgstr "Mobil veri kullanımını etkinleştirmek ister misiniz? *"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Don't ask again"
@@ -2833,11 +2889,11 @@ msgstr "Hata: %1"
 
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
-msgstr "Taşınamadı: %1"
+msgstr "Taşınamıyor: %1"
 
 msgctxt "MovingFailedDialog|"
 msgid "Try again"
-msgstr "Tekrar deneyin"
+msgstr "Tekrar dene"
 
 msgctxt "MovingFailedDialog|"
 msgid "Cancel"
@@ -2853,7 +2909,7 @@ msgstr "İptal"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Ayarlanabilir bitrate ile mp3'e dönüştürme"
+msgstr "Ayarlanabilir bit oranı ile Mp3'e dönüştür"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Save to"
@@ -2869,15 +2925,15 @@ msgstr "İptal"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Bitrate (quality)"
-msgstr "Bitrate (kalite)"
+msgstr "Bit oranı (kalite)"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Constant bitrate of value"
-msgstr "Bitrate sabiti"
+msgstr "Değerin sabit bit oranı"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Variable bitrate (VBR)"
-msgstr "Değişken bitrate (DBR)"
+msgstr "Değişken bit oranı (VBR)"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "The path contains invalid characters"
@@ -2889,11 +2945,11 @@ msgstr "Tamam"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Convert to mp3"
-msgstr "Mp3'e çevir"
+msgstr "Mp3'e dönüştür"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Ayarlanabilir bitrate ile mp3'e dönüştürme"
+msgstr "Ayarlanabilir bit oranı ile Mp3'e dönüştür"
 
 msgctxt "Mp3ConverterPage|"
 msgid "OK"
@@ -2909,19 +2965,19 @@ msgstr "Yol geçersiz karakterler içeriyor"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Bitrate (quality)"
-msgstr "Bitrate (kalite)"
+msgstr "Bit oranı (kalite)"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Constant bitrate of value"
-msgstr "Bitrate sabiti"
+msgstr "Değerin sabit bit oranı"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Variable bitrate (VBR)"
-msgstr "Değişken bitrate (DBR)"
+msgstr "Değişken bit oranı (VBR)"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "Convert to mp4"
-msgstr "Mp4'e çevir"
+msgstr "Mp4'e dönüştür"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "Save to"
@@ -2945,7 +3001,7 @@ msgstr "Tamam"
 
 msgctxt "Mp4ConverterPage|"
 msgid "Convert to mp4"
-msgstr "Mp4'e çevir"
+msgstr "Mp4'e dönüştür"
 
 msgctxt "Mp4ConverterPage|"
 msgid "OK"
@@ -2961,7 +3017,7 @@ msgstr "Yol geçersiz karakterler içeriyor"
 
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
-msgstr "Güncellemeleri Kontrol Et..."
+msgstr "Güncellemeleri denetle..."
 
 msgctxt "NativeMenuBar|"
 msgid "Preferences..."
@@ -2969,27 +3025,27 @@ msgstr "Tercihler..."
 
 msgctxt "NativeMenuBar|"
 msgid "Quit"
-msgstr "Çıkış"
+msgstr "Çık"
 
 msgctxt "NativeMenuBar|"
 msgid "&File"
-msgstr "Dosya"
+msgstr "&Dosya"
 
 msgctxt "NativeMenuBar|"
 msgid "Add &new download"
-msgstr "Ekle & yeni indirme"
+msgstr "&Yeni indirme ekle"
 
 msgctxt "NativeMenuBar|"
 msgid "&Edit"
-msgstr "Düzenle"
+msgstr "Düz&enle"
 
 msgctxt "NativeMenuBar|"
 msgid "&Copy"
-msgstr "Kopyala"
+msgstr "&Kopyala"
 
 msgctxt "NativeMenuBar|"
 msgid "&Paste"
-msgstr "Yapıştır"
+msgstr "&Yapıştır"
 
 msgctxt "NativeMenuBar|"
 msgid "Downloads"
@@ -2997,19 +3053,19 @@ msgstr "İndirmeler"
 
 msgctxt "NativeMenuBar|"
 msgid "Start selected"
-msgstr "Seçiliyi başlat"
+msgstr "Seçileni başlat"
 
 msgctxt "NativeMenuBar|"
 msgid "Pause selected"
-msgstr "Seçiliyi duraklat"
+msgstr "Seçileni duraklat"
 
 msgctxt "NativeMenuBar|"
 msgid "Restart selected"
-msgstr "Seçiliyi yeniden başlat"
+msgstr "Seçileni yeniden başlat"
 
 msgctxt "NativeMenuBar|"
 msgid "Remove from List"
-msgstr "Listeden sil"
+msgstr "Listeden kaldır"
 
 msgctxt "NativeMenuBar|"
 msgid "Help"
@@ -3017,7 +3073,7 @@ msgstr "Yardım"
 
 msgctxt "NativeMenuBar|"
 msgid "Contact Support"
-msgstr "Destek ile İletişime Geç"
+msgstr "Destekle İletişime Geç"
 
 msgctxt "NetworkSettings|"
 msgid "Network"
@@ -3037,7 +3093,7 @@ msgstr "Vekil sunucu yok"
 
 msgctxt "NetworkSettings|"
 msgid "Configure manually:"
-msgstr "Elle konfigüre et:"
+msgstr "El ile yapılandır:"
 
 msgctxt "NetworkSettings|"
 msgid "Address"
@@ -3045,7 +3101,7 @@ msgstr "Adres"
 
 msgctxt "NetworkSettings|"
 msgid "Port"
-msgstr "Port"
+msgstr "B.noktası"
 
 msgctxt "NetworkSettings|"
 msgid "HTTP:"
@@ -3093,7 +3149,7 @@ msgstr "SOCKS5"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Unlimited"
-msgstr "Limitsiz"
+msgstr "Sınırsız"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom..."
@@ -3105,7 +3161,7 @@ msgstr "KB/s"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Please enter numbers only"
-msgstr "Lütfen yalnızca sayı giriniz"
+msgstr "Lütfen sadece sayı girin"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom value"
@@ -3125,41 +3181,51 @@ msgstr "Geçersiz değer"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
-msgstr "0'dan büyük bir sayı olmalı."
+msgstr "0'dan büyük bir sayı olmak zorundadır."
 
 msgctxt "NoResumeSupportBlock|"
 msgid "This download may not support resuming."
-msgstr ""
+msgstr "Bu indirme devam etmeyi desteklemiyor olabilir."
 
 msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
-msgstr ""
+msgstr "Devam ettirmeyi desteklemeyen dosyaları indirirken uyku modunu önle"
+
+msgctxt "Notification|"
+msgid "Miscellaneous notifications"
+msgstr "Çeşitli bildirimler"
+
+msgctxt "Notification|"
+msgid "Ready to play"
+msgstr "Oynatmaya hazır"
 
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
-msgstr ""
+msgstr "%1 eksik izinlerdir"
 
 msgctxt "OsPermissionsDialog|"
 msgid "(required)"
-msgstr ""
+msgstr "(zorunlu)"
 
 msgctxt "OsPermissionsDialog|"
 msgid ""
 "You can grant these permissions using the Application details screen within "
 "your system's settings."
 msgstr ""
+"Bu izinleri, sisteminizin ayarlarındaki Uygulama ayrıntıları ekranını "
+"kullanarak verebilirsiniz."
 
 msgctxt "OsPermissionsDialog|"
 msgid "Don't show again"
-msgstr ""
+msgstr "Bir daha gösterme"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Grant permissions"
-msgstr ""
+msgstr "İzinleri ver"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Quit"
-msgstr "Çıkış"
+msgstr "Çık"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Close"
@@ -3170,6 +3236,10 @@ msgid "Info"
 msgstr "Bilgi"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr "Ayrıntılar"
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "Dosyalar"
 
@@ -3177,24 +3247,32 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Bağlantılar"
 
+msgctxt "PlayAsap|"
+msgid "Play file while it is still downloading"
+msgstr "Dosyayı indirmeye devam ederken oynat"
+
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
-msgstr ""
+msgstr "%1 eklentisini kullanmaktan hoşlanıyor musunuz?"
 
 msgctxt "PluginBannerDialog|"
 msgid ""
 "We would like to ask you to help this add-on to reach its potential users."
 msgstr ""
+"Bu eklentinin olası kullanıcılarına ulaşmasına yardımcı olmanızı rica "
+"ediyoruz."
 
 msgctxt "PluginBannerDialog|"
 msgid ""
 "Please use your favorite social networks and forums to let the other people "
 "know about %1 and %2."
 msgstr ""
+"Lütfen sık kullandığınız sosyal ağları ve forumları kullanarak diğer "
+"insanlara %1 ve %2 hakkında bilgi verin."
 
 msgctxt "PluginBannerDialog|"
 msgid "Remind me later"
-msgstr ""
+msgstr "Daha sonra hatırlat"
 
 msgctxt "PluginBannerDialog|"
 msgid "OK"
@@ -3202,11 +3280,11 @@ msgstr "Tamam"
 
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
-msgstr "Kurulmuş."
+msgstr "Yüklendi."
 
 msgctxt "PluginsPage|"
 msgid "Recently installed dependency"
-msgstr "Son yüklenen bağımlılık"
+msgstr "Son olarak yüklenen bağımlılık"
 
 msgctxt "PluginsPage|"
 msgid "Add-ons"
@@ -3214,7 +3292,7 @@ msgstr "Eklentiler"
 
 msgctxt "PluginsPage|"
 msgid "Check for Updates"
-msgstr "Güncellemeleri kontrol et"
+msgstr "Güncellemeleri Denetle"
 
 msgctxt "PluginsPage|"
 msgid "Install Add-on From File..."
@@ -3234,15 +3312,15 @@ msgstr "Yüklü eklentiler güncelleniyor..."
 
 msgctxt "PluginsPage|"
 msgid "There are no installed add-ons."
-msgstr "Yüklü eklenti yok."
+msgstr "Yüklü eklentiler yok."
 
 msgctxt "PluginsPage|"
 msgid "Install add-on from file"
-msgstr "Eklentiyi dosyadan yükleyin"
+msgstr "Eklentiyi dosyadan yükle"
 
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
-msgstr ""
+msgstr "%1 eklentileri hakkında daha fazla bilgi edinin"
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -3258,7 +3336,7 @@ msgstr "%1 eklenti dosyası"
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
-msgstr "Eklenti yüklenemedi"
+msgstr "Eklentiyi yükleme başarısız"
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
@@ -3266,15 +3344,15 @@ msgstr "Uyarı!"
 
 msgctxt "PluginsPage|"
 msgid "Add-on requests dangerous permissions:"
-msgstr "Eklenti, tehlikeli izinler ister:"
+msgstr "Eklenti, tehlikeli izinler istiyor:"
 
 msgctxt "PluginsPage|"
 msgid "Add-on requests dangerous permission:"
-msgstr "Eklenti, tehlikeli izin ister:"
+msgstr "Eklenti, tehlikeli izin istiyor:"
 
 msgctxt "PluginsPage|"
 msgid "Please install add-ons from trusted sources only."
-msgstr "Lütfen yalnızca güvenilir kaynaklardan gelen eklentileri yükleyin."
+msgstr "Lütfen sadece güvenilir kaynaklardan gelen eklentileri yükleyin."
 
 msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
@@ -3298,11 +3376,11 @@ msgstr "Bunu yüklemek ister misiniz?"
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
-msgstr ""
+msgstr "Bulunan güncellemeler yok"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
-msgstr "Eklenti güncellenemedi"
+msgstr "Eklentiyi güncelleme başarısız"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
@@ -3318,7 +3396,7 @@ msgstr "%1 eklentisinin yeni sürümü tehlikeli izin istiyor:"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Please install add-ons from trusted sources only."
-msgstr "Lütfen yalnızca güvenilir kaynaklardan gelen eklentileri yükleyin."
+msgstr "Lütfen sadece güvenilir kaynaklardan gelen eklentileri yükleyin."
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
@@ -3350,7 +3428,7 @@ msgstr "Otomatik Güncellemelere İzin Ver"
 
 msgctxt "PluginsViewItem|"
 msgid "Check for Updates"
-msgstr "Güncellemeleri Kontrol Et"
+msgstr "Güncellemeleri Denetle"
 
 msgctxt "PluginsViewItem|"
 msgid "Remove"
@@ -3362,11 +3440,11 @@ msgstr "Güncelleniyor..."
 
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
-msgstr "Versiyon: %1"
+msgstr "Sürüm: %1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
-msgstr "Kaldırılsın mı?"
+msgstr "Kaldırmak için Tamam?"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
@@ -3374,7 +3452,7 @@ msgstr "Ses"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Video"
-msgstr "Video"
+msgstr "Görüntü"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Lowest"
@@ -3386,7 +3464,7 @@ msgstr "En yüksek"
 
 msgctxt "PrivacyDialog|"
 msgid "User agreement"
-msgstr "Kullanıcı Sözleşmesi"
+msgstr "Kullanıcı sözleşmesi"
 
 msgctxt "PrivacyDialog|"
 msgid ""
@@ -3395,7 +3473,7 @@ msgid ""
 "parties."
 msgstr ""
 "Sunucuya bir hata raporu gönderilecek ve %1 performansını iyileştirmek için "
-"kullanılacak. Kişisel verilerinizi toplamıyoruz ve üçüncü taraflarla "
+"kullanılacaktır. Kişisel verilerinizi toplamıyoruz ve üçüncü taraflarla "
 "paylaşmıyoruz."
 
 msgctxt "PrivacyDialog|"
@@ -3415,7 +3493,7 @@ msgctxt ""
 "languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
 "to get proper UI layout."
 msgid "QT_LAYOUT_DIRECTION"
-msgstr ""
+msgstr "LTR"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -3423,7 +3501,7 @@ msgstr "Beklenmeyen hata"
 
 msgctxt "QObject|"
 msgid "Service connection terminated."
-msgstr "Servis bağlantısı sonlandırıldı."
+msgstr "Hizmet bağlantısı sonlandırıldı."
 
 msgctxt "QObject|"
 msgid "App backend's server listen failed."
@@ -3443,11 +3521,11 @@ msgstr "Uygulama ön ucunun sunucusunun dinlemesi başarısız oldu."
 
 msgctxt "QObject|"
 msgid "QML load failure."
-msgstr "QML yüklenme hatası."
+msgstr "QML yükleme hatası."
 
 msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
-msgstr "Uygulama durum yöneticisi başlatılamadı."
+msgstr "Uygulama durum yöneticisini başlatma başarısız."
 
 msgctxt "QObject|"
 msgid ""
@@ -3459,7 +3537,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Enter URL"
-msgstr "URL gir"
+msgstr "URL girin"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
@@ -3467,15 +3545,15 @@ msgstr "Üzgünüz, bu cihaz %1 tarafından desteklenmiyor."
 
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
-msgstr "Uygulama başlatılamadı. Lütfen yeniden yükleyin."
+msgstr "%1'yi başlatma başarısız oldu. Lütfen yeniden yükleyin."
 
 msgctxt "QObject|"
 msgid "Reason: %1"
-msgstr "Neden: %1"
+msgstr "Sebep: %1"
 
 msgctxt "QObject|"
 msgid "Contact Support"
-msgstr "Destek ile İletişime Geç"
+msgstr "Destekle İletişime Geç"
 
 msgctxt "QObject|"
 msgid "Exit"
@@ -3491,7 +3569,7 @@ msgstr "%1 Hakkında"
 
 msgctxt "QObject|"
 msgid "Quit"
-msgstr "Çıkış"
+msgstr "Çık"
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -3531,39 +3609,39 @@ msgstr "%1 T"
 
 msgctxt "QObject|"
 msgid "%1 B/s"
-msgstr ""
+msgstr "%1 B/s"
 
 msgctxt "QObject|"
 msgid "%1 KB/s"
-msgstr ""
+msgstr "%1 KB/s"
 
 msgctxt "QObject|"
 msgid "%1 MB/s"
-msgstr ""
+msgstr "%1 MB/s"
 
 msgctxt "QObject|"
 msgid "%1 GB/s"
-msgstr ""
+msgstr "%1 GB/s"
 
 msgctxt "QObject|"
 msgid "%1 TB/s"
-msgstr ""
+msgstr "%1 TB/s"
 
 msgctxt "QObject|"
 msgid "%1 K/s"
-msgstr ""
+msgstr "%1 K/s"
 
 msgctxt "QObject|"
 msgid "%1 M/s"
-msgstr ""
+msgstr "%1 M/s"
 
 msgctxt "QObject|"
 msgid "%1 G/s"
-msgstr ""
+msgstr "%1 G/s"
 
 msgctxt "QObject|"
 msgid "%1 T/s"
-msgstr ""
+msgstr "%1 T/s"
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -3575,11 +3653,11 @@ msgstr "İndirmeler tamamlandı"
 
 msgctxt "QObject|"
 msgid "Download failed"
-msgstr "İndirme başarısız"
+msgstr "İndirme başarısız oldu"
 
 msgctxt "QObject|"
 msgid "Downloads failed"
-msgstr "İndirmeler başarısız"
+msgstr "İndirmeler başarısız oldu"
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -3595,7 +3673,7 @@ msgstr "Dosya okuma hatası"
 
 msgctxt "QObject|"
 msgid "Failed to read from file"
-msgstr "Dosyadan okunamadı"
+msgstr "Dosyadan okuma başarısız"
 
 msgctxt "QObject|"
 msgid "File write error"
@@ -3603,7 +3681,7 @@ msgstr "Dosya yazma hatası"
 
 msgctxt "QObject|"
 msgid "Failed to write to file"
-msgstr "Dosyaya yazılamadı"
+msgstr "Dosyaya yazma başarısız"
 
 msgctxt "QObject|"
 msgid "File open error"
@@ -3611,7 +3689,7 @@ msgstr "Dosya açma hatası"
 
 msgctxt "QObject|"
 msgid "Failed to open file"
-msgstr "Dosya açılamadı"
+msgstr "Dosyayı açma başarısız"
 
 msgctxt "QObject|"
 msgid "Access denied"
@@ -3627,11 +3705,11 @@ msgstr "Dosya hatası"
 
 msgctxt "QObject|"
 msgid "Unknown file I/O error"
-msgstr "Bilinmeyen dosya G / Ç hatası"
+msgstr "Bilinmeyen dosya G/Ç hatası"
 
 msgctxt "QObject|"
 msgid "HTTP Error %1"
-msgstr "HTTP hatası %1"
+msgstr "HTTP Hatası %1"
 
 msgctxt "QObject|"
 msgid "Bad Request"
@@ -3659,7 +3737,7 @@ msgstr "Yönteme İzin Verilmiyor"
 
 msgctxt "QObject|"
 msgid "Not Acceptable"
-msgstr "Kabul edilemez"
+msgstr "Kabul Edilemez"
 
 msgctxt "QObject|"
 msgid "Proxy Authentication Required"
@@ -3671,7 +3749,7 @@ msgstr "İstek Zaman Aşımı"
 
 msgctxt "QObject|"
 msgid "Conflict"
-msgstr "Çatışma"
+msgstr "Çakışma"
 
 msgctxt "QObject|"
 msgid "Gone"
@@ -3687,11 +3765,11 @@ msgstr "Önkoşul Başarısız Oldu"
 
 msgctxt "QObject|"
 msgid "Request Entity Too Large"
-msgstr "İstenilen varlık çok büyük"
+msgstr "İstenilen Varlık Çok Büyük"
 
 msgctxt "QObject|"
 msgid "Request-URI Too Long"
-msgstr "İstenilen URL Çok Uzun"
+msgstr "İstenilen URI Çok Uzun"
 
 msgctxt "QObject|"
 msgid "Unsupported Media Type"
@@ -3699,7 +3777,7 @@ msgstr "Desteklenmeyen Ortam Türü"
 
 msgctxt "QObject|"
 msgid "Requested Range Not Satisfiable"
-msgstr "İstenilen aralık tatmin edici değil"
+msgstr "İstenilen Aralık Karşılanabilir Değil"
 
 msgctxt "QObject|"
 msgid "Expectation Failed"
@@ -3711,15 +3789,15 @@ msgstr "Ben bir çaydanlığım"
 
 msgctxt "QObject|"
 msgid "Authentication Timeout"
-msgstr "Kimlik Doğrulama Zaman Aşımı"
+msgstr "Kimlik Doğrulaması Zaman Aşımı"
 
 msgctxt "QObject|"
 msgid "Method Failure / Enhance Your Calm"
-msgstr "Yöntem Hatası / Sakinliğinizi koruyun"
+msgstr "Yöntem Hatası / Sakinliğinizi Koruyun"
 
 msgctxt "QObject|"
 msgid "Unprocessable Entity"
-msgstr "İşlenemeyen varlık"
+msgstr "İşlenemeyen Varlık"
 
 msgctxt "QObject|"
 msgid "Locked"
@@ -3727,7 +3805,7 @@ msgstr "Kilitli"
 
 msgctxt "QObject|"
 msgid "Failed Dependency / Method Failure"
-msgstr "Yöntem Hatası / Sakinliğinizi koruyun"
+msgstr "Başarısız Bağımlılık / Yöntem Hatası"
 
 msgctxt "QObject|"
 msgid "Unordered Collection"
@@ -3735,15 +3813,15 @@ msgstr "Sırasız Koleksiyon"
 
 msgctxt "QObject|"
 msgid "Upgrade Required"
-msgstr "Yükseltme gerekli"
+msgstr "Yükseltme Gerekli"
 
 msgctxt "QObject|"
 msgid "Precondition Required"
-msgstr "Önkoşul gerekli"
+msgstr "Önkoşul Gerekli"
 
 msgctxt "QObject|"
 msgid "Too Many Requests"
-msgstr "Çok fazla talep"
+msgstr "Çok Fazla İstek"
 
 msgctxt "QObject|"
 msgid "Request Header Fields Too Large"
@@ -3755,11 +3833,11 @@ msgstr "Oturum Açma Zaman Aşımı"
 
 msgctxt "QObject|"
 msgid "No Response"
-msgstr "Cevap yok"
+msgstr "Yanıt Yok"
 
 msgctxt "QObject|"
 msgid "Retry With"
-msgstr "Şununla deneyin"
+msgstr "Şununla Dene"
 
 msgctxt "QObject|"
 msgid "Blocked by Windows Parental Controls"
@@ -3767,11 +3845,11 @@ msgstr "Windows Ebeveyn Denetimleri tarafından engellendi"
 
 msgctxt "QObject|"
 msgid "Unavailable For Legal Reasons"
-msgstr "Yasal nedenlerden dolayı mevcut değil"
+msgstr "Yasal Sebeplerden Dolayı Kullanılamıyor"
 
 msgctxt "QObject|"
 msgid "Request Header Too Large"
-msgstr "İstek başıl çok büyük"
+msgstr "İstek Başlığı Çok Büyük"
 
 msgctxt "QObject|"
 msgid "Cert Error"
@@ -3779,19 +3857,19 @@ msgstr "Sertifika Hatası"
 
 msgctxt "QObject|"
 msgid "No Cert"
-msgstr "Sertifika yok"
+msgstr "Sertifika Yok"
 
 msgctxt "QObject|"
 msgid "HTTP to HTTPS"
-msgstr "HTTP'den HTTPS'e"
+msgstr "HTTP'den HTTPS'ye"
 
 msgctxt "QObject|"
 msgid "Token expired/invalid"
-msgstr "Jetonun süresi doldu/geçersiz"
+msgstr "Belirteç süresi doldu/geçersiz"
 
 msgctxt "QObject|"
 msgid "Client Closed Request"
-msgstr "İstemci Talebi kapattı"
+msgstr "İstemci İsteği Kapattı"
 
 msgctxt "QObject|"
 msgid "Internal Server Error"
@@ -3803,7 +3881,7 @@ msgstr "Uygulanmadı"
 
 msgctxt "QObject|"
 msgid "Bad Gateway"
-msgstr "Hatalı ağ geçidi"
+msgstr "Hatalı Ağ Geçidi"
 
 msgctxt "QObject|"
 msgid "Service Unavailable"
@@ -3815,11 +3893,11 @@ msgstr "Ağ Geçidi Zaman Aşımı"
 
 msgctxt "QObject|"
 msgid "HTTP Version Not Supported"
-msgstr "HTTP Versiyonu Deteklenmiyor"
+msgstr "HTTP Sürümü Desteklenmiyor"
 
 msgctxt "QObject|"
 msgid "Variant Also Negotiates"
-msgstr "Varyant Ayrıca görüşür"
+msgstr "Değişken Ayrıca Görüşür"
 
 msgctxt "QObject|"
 msgid "Insufficient Storage"
@@ -3839,7 +3917,7 @@ msgstr "Genişletilmiş Değil"
 
 msgctxt "QObject|"
 msgid "Network Authentication Required"
-msgstr "Ağ kimlik doğrulaması gerekli"
+msgstr "Ağ Kimlik Doğrulaması Gerekli"
 
 msgctxt "QObject|"
 msgid "Network read timeout error"
@@ -3867,11 +3945,11 @@ msgstr "Bulunamadı"
 
 msgctxt "QObject|"
 msgid "Incompatible version"
-msgstr ""
+msgstr "Uyumsuz sürüm"
 
 msgctxt "QObject|"
 msgid "Host not found"
-msgstr "Sağlayıcı bulunamadı"
+msgstr "Anamakine bulunamadı"
 
 msgctxt "QObject|"
 msgid "Operation canceled"
@@ -3883,7 +3961,7 @@ msgstr "Bağlantı kapatıldı"
 
 msgctxt "QObject|"
 msgid "Timed out"
-msgstr "Zaman aşımına uğradı"
+msgstr "Zaman aşımı"
 
 msgctxt "QObject|"
 msgid "SSL handshake failed"
@@ -3899,7 +3977,7 @@ msgstr "Ağ hatası"
 
 msgctxt "QObject|"
 msgid "Operation not permitted"
-msgstr "İşlem izni verilmedi"
+msgstr "İşleme izni verilmedi"
 
 msgctxt "QObject|"
 msgid "No resume support"
@@ -3907,15 +3985,15 @@ msgstr "Devam etme desteği yok"
 
 msgctxt "QObject|"
 msgid "Resource changed"
-msgstr "Kaynak değişti"
+msgstr "Kaynak değiştirildi"
 
 msgctxt "QObject|"
 msgid "Resource changed on server"
-msgstr "Kaynak server üstünde değişti"
+msgstr "Sunucuda kaynak değiştirildi"
 
 msgctxt "QObject|"
 msgid "Fast resume failure"
-msgstr "Hızlı devam etme başarısız"
+msgstr "Hızlı devam etme hatası"
 
 msgctxt "QObject|"
 msgid "Can't process page"
@@ -3923,15 +4001,15 @@ msgstr "Sayfa işlenemiyor"
 
 msgctxt "QObject|"
 msgid "Error processing page content"
-msgstr "Sayfa içeriğini işlerken hata oluştu"
+msgstr "Sayfa içeriğini işlerken hata oldu"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior"
-msgstr ""
+msgstr "İstenmeyen davranış"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior detected"
-msgstr ""
+msgstr "İstenmeyen davranış algılandı"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -3943,7 +4021,7 @@ msgstr "Başlıksız"
 
 msgctxt "QObject|"
 msgid "Failed to remove current version"
-msgstr "Geçerli sürüm kaldırılamadı"
+msgstr "Şu anki sürümü kaldırma başarısız"
 
 msgctxt "QObject|"
 msgid "hdiutil error %1"
@@ -3951,11 +4029,11 @@ msgstr "hdiutil hatası %1"
 
 msgctxt "QObject|"
 msgid "Mount point does not exist"
-msgstr "Bağlantı noktası mevcut değil"
+msgstr "Bağlama noktası mevcut değil"
 
 msgctxt "QObject|"
 msgid "Signature check failure."
-msgstr "İmza kontrolü başarısız."
+msgstr "İmza denetimi hatası."
 
 msgctxt "QObject|"
 msgid "Download with %1"
@@ -3963,19 +4041,19 @@ msgstr "%1 ile indir"
 
 msgctxt "QObject|"
 msgid "Download all with %1"
-msgstr "Hepsini %1 ile indir"
+msgstr "Tümünü %1 ile indir"
 
 msgctxt "QObject|"
 msgid "Download selected with %1"
-msgstr "%1 ile seçiliyi indir"
+msgstr "Seçileni %1 ile indir"
 
 msgctxt "QObject|"
 msgid "Download video with %1"
-msgstr "%1 ile videoyu indir"
+msgstr "Görüntüyü %1 ile indir"
 
 msgctxt "QObject|"
 msgid "Video"
-msgstr "Video"
+msgstr "Görüntü"
 
 msgctxt "QObject|"
 msgid "Music"
@@ -3983,7 +4061,7 @@ msgstr "Müzik"
 
 msgctxt "QObject|"
 msgid "There is not enough disk space."
-msgstr "Yeterli depolama alanı yok."
+msgstr "Yeterli disk alanı yok."
 
 msgctxt "QObject|"
 msgid ""
@@ -3991,32 +4069,33 @@ msgid ""
 "%1 has failed to restore it from backup.\n"
 "Please close all your web browsers and try again."
 msgstr ""
-"İndirme listesi zarar gördü.\n"
-"%1 yedekten geri yükleyemedi.\n"
+"İndirilenler listesi zarar görmüş.\n"
+"%1'nin yedekten geri yüklenmesi başarısız oldu.\n"
 "Lütfen tüm web tarayıcılarınızı kapatın ve tekrar deneyin."
 
 msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
-msgstr "Ölümcül hata: veri tabanı yüklenemedi."
+msgstr "Önemli hata: veri tabanını yükleme başarısız."
 
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
 msgstr ""
-"Silmek istiyor musunuz (İndirme listeniz ve tüm %1 veriniz silinecektir)?"
+"Bunu silmek istiyor musunuz (bu, indirmeler listenizi ve tüm %1 verilerini "
+"temizleyecektir)?"
 
 msgctxt "QObject|"
 msgid "Failed."
-msgstr "Başarısız."
+msgstr "Başarısız oldu."
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
-msgstr "Kayıp %path% parametresi."
+msgstr "Eksik %path% parametresi."
 
 msgctxt "QObject|"
 msgid "Update URL"
-msgstr "Bağlantı adresini güncelle"
+msgstr "URL'yi güncelle"
 
 msgctxt "QObject|"
 msgid "Documents"
@@ -4028,7 +4107,7 @@ msgstr "Resimler"
 
 msgctxt "QObject|"
 msgid "Videos"
-msgstr "Videolar"
+msgstr "Görüntüler"
 
 msgctxt "QObject|"
 msgid "Miscellaneous"
@@ -4036,11 +4115,11 @@ msgstr "Çeşitli"
 
 msgctxt "QObject|"
 msgid "upload paused"
-msgstr "yükleme duraklatıldı"
+msgstr "gönderme duraklatıldı"
 
 msgctxt "QObject|"
 msgid "PAUSE ALL"
-msgstr "Hepsini Durdur"
+msgstr "TÜMÜNÜ DURAKLAT"
 
 msgctxt "QObject|"
 msgid "Downloading..."
@@ -4048,11 +4127,11 @@ msgstr "İndiriliyor..."
 
 msgctxt "QObject|"
 msgid "DISABLE SNAIL MODE"
-msgstr "Salyangoz Modunu Devre Dışı Bırak"
+msgstr "SALYANGOZ MODUNU ETKİSİZLEŞTİR"
 
 msgctxt "QObject|"
 msgid "SNAIL MODE"
-msgstr "Salyangoz Modu"
+msgstr "SALYANGOZ MODU"
 
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
@@ -4060,11 +4139,11 @@ msgstr "YouTube indirmeleri kullanılamıyor"
 
 msgctxt "QObject|"
 msgid "Files were modified"
-msgstr ""
+msgstr "Dosyalar değiştirildi"
 
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
-msgstr "%2 konumunda bilinmeyenlerin %1'i"
+msgstr "%2 konumunda bilinmeyen %1"
 
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
@@ -4076,7 +4155,7 @@ msgstr "%1 %2 veya üzeri"
 
 msgctxt "QObject|"
 msgid "Launch Python code"
-msgstr "Python Kodunu Başlat"
+msgstr "Python kodunu başlat"
 
 msgctxt "QObject|"
 msgid "Allows to execute arbitrary code."
@@ -4108,11 +4187,15 @@ msgstr "Yükleme başarısız"
 
 msgctxt "QObject|"
 msgid "Playlist"
-msgstr "Çalma Listesi"
+msgstr "Oynatma Listesi"
 
 msgctxt "QObject|"
 msgid "Open folder"
-msgstr ""
+msgstr "Klasörü aç"
+
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr "%1 sıfır olmayan (%2) çıkış durumunu döndürdü"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4125,15 +4208,15 @@ msgstr "Hem okuma hem de yazma için gzip'i açmak desteklenmiyor"
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
 msgstr ""
-"Bir gzip dosyasını yalnızca okumak veya yazmak için açabilirsiniz. Hangisi?"
+"Bir gzip dosyasını sadece okuma veya yazma için açabilirsiniz. Hangisi?"
 
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr "İlgili gzopen() dosyası açılamadı"
+msgstr "gzopen() dosyası açılamadı"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr "QIODevice::QuaZIODevice için ekleme desteklenmez"
+msgstr "QIODevice::QuaZIODevice için ekleme desteklenmiyor"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
@@ -4145,7 +4228,7 @@ msgstr "ZIP/UNZIP API hatası %1"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
-msgstr "Çıkmak istediğinden emin misin?"
+msgstr "Çıkmak istediğinize emin misiniz?"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "OK"
@@ -4165,7 +4248,7 @@ msgstr "(beta)"
 
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
-msgstr "Bu cihazda çalışan %1'e uzaktan erişime izin ver"
+msgstr "Bu cihazda çalışan %1 için uzaktan erişime izin ver"
 
 msgctxt "RemoteControlSettings|"
 msgid "Password"
@@ -4177,15 +4260,15 @@ msgstr "Durum"
 
 msgctxt "RemoteControlSettings|"
 msgid "Don't use network proxy"
-msgstr ""
+msgstr "Ağ vekil sunucusu kullanma"
 
 msgctxt "RemoteControlSettings|"
 msgid "Remote control settings"
-msgstr ""
+msgstr "Uzaktan kumanda ayarları"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
-msgstr "Uzak kaynak değişti"
+msgstr "Uzak kaynak değiştirildi"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Always re-download"
@@ -4229,11 +4312,11 @@ msgstr "Tamam"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "Enter new name"
-msgstr "Enter new name"
+msgstr "Yeni ad girin"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "A file with that name already exists."
-msgstr "A file with that name already exists."
+msgstr "Bu ada sahip bir dosya zaten var."
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
@@ -4241,11 +4324,11 @@ msgstr "Sorun bildir"
 
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
-msgstr "Üzgünüz, rapor gönderilmedi, bir hata oluştu: %1"
+msgstr "Üzgünüz, rapor gönderilmedi, bir hata meydana geldi: %1"
 
 msgctxt "ReportSentDialog|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr "Rapor gönderildi. İşbirliğiniz için teşekkürler!"
+msgstr "Rapor gönderildi. İşbirliğiniz için teşekkür ederiz!"
 
 msgctxt "ReportSentDialog|"
 msgid "OK"
@@ -4253,7 +4336,7 @@ msgstr "Tamam"
 
 msgctxt "RestartRequiredLabel|"
 msgid "<a href='#'>Restart is required</a>"
-msgstr "<a href='#'>Yeniden başlatma gereklidir</a>"
+msgstr "<a href='#'>Yeniden başlatma gerekli</a>"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -4297,7 +4380,7 @@ msgstr "Cts"
 
 msgctxt "Scheduler|"
 msgid "From:"
-msgstr "Kimden:"
+msgstr "Başlangıç:"
 
 msgctxt "Scheduler|"
 msgid "Everyday"
@@ -4305,7 +4388,7 @@ msgstr "Her gün"
 
 msgctxt "Scheduler|"
 msgid "To:"
-msgstr "Kime:"
+msgstr "Bitiş:"
 
 msgctxt "SchedulerButton|"
 msgid "Scheduler"
@@ -4325,7 +4408,7 @@ msgstr "Belirtilen saatte indirmeleri başlat ve duraklat"
 
 msgctxt "SchedulerDialog|"
 msgid "Enable Scheduler"
-msgstr "Zamanlayıcıyı Etkinleştir"
+msgstr "Zamanlayıcıyı etkinleştir"
 
 msgctxt "SchedulerDialog|"
 msgid "Cancel"
@@ -4337,7 +4420,7 @@ msgstr "Uygula"
 
 msgctxt "SchedulerDialog|"
 msgid "All the day"
-msgstr "Bütün gün"
+msgstr "Tüm gün"
 
 msgctxt "SchedulerDialog|"
 msgid "Everyday"
@@ -4377,19 +4460,19 @@ msgstr "Cts"
 
 msgctxt "SchedulerTools|"
 msgid "Set days of the week to enable Scheduler"
-msgstr "Zamanlayıcı'yı etkinleştirmek için haftanın günlerini ayarlayın"
+msgstr "Zamanlayıcıyı etkinleştirmek için haftanın günlerini ayarlayın"
 
 msgctxt "SearchField|"
 msgid "Search"
-msgstr "Arama"
+msgstr "Ara"
 
 msgctxt "SearchToolbar|"
 msgid "Search"
-msgstr "Arama"
+msgstr "Ara"
 
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
-msgstr "Şeçildi: %1"
+msgstr "Şeçilen: %1"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Sort"
@@ -4401,7 +4484,7 @@ msgstr "Tarihe göre"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "By name"
-msgstr "İsme göre"
+msgstr "Ada göre"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "By size"
@@ -4421,7 +4504,7 @@ msgstr "Geçersiz ayarlar"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
-msgstr ". Yine de kapa?"
+msgstr ". Yine de kapatılsın mı?"
 
 msgctxt "SettingsPage|"
 msgid "Preferences"
@@ -4433,7 +4516,7 @@ msgstr "Genel"
 
 msgctxt "SettingsPage|"
 msgid "Browser Integration"
-msgstr "Tarayıcı Entegrasyonu"
+msgstr "Tarayıcı Bütünleştirmesi"
 
 msgctxt "SettingsPage|"
 msgid "Network"
@@ -4441,7 +4524,7 @@ msgstr "Ağ"
 
 msgctxt "SettingsPage|"
 msgid "Traffic Limits"
-msgstr "Trafik Limitleri"
+msgstr "Trafik Sınırları"
 
 msgctxt "SettingsPage|"
 msgid "Antivirus"
@@ -4457,11 +4540,11 @@ msgstr "Gelişmiş"
 
 msgctxt "SettingsPage|"
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Sorun Giderme"
 
 msgctxt "SettingsPage|"
 msgid "Settings"
-msgstr "Seçenekler"
+msgstr "Ayarlar"
 
 msgctxt "SettingsPage|"
 msgid "Downloads settings"
@@ -4473,7 +4556,7 @@ msgstr "Ağ ayarları"
 
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
-msgstr "Trafik Limitleri"
+msgstr "Trafik sınırları"
 
 msgctxt "SettingsPage|"
 msgid "Sounds settings"
@@ -4481,7 +4564,7 @@ msgstr "Ses ayarları"
 
 msgctxt "SettingsPage|"
 msgid "Remote control settings"
-msgstr ""
+msgstr "Uzaktan kumanda ayarları"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -4489,7 +4572,7 @@ msgstr "Gelişmiş ayarlar"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
-msgstr "Ayarları Sıfırla"
+msgstr "Ayarları sıfırla"
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
@@ -4501,13 +4584,12 @@ msgstr "Varsayılan ayarlara sıfırlansın mı?"
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be put to sleep after all downloads are completed."
-msgstr "Tüm indirmeler tamamlandıktan sonra Bilgisayar uykuya geçecektir."
+msgstr "Tüm indirmeler tamamlandıktan sonra bilgisayar uykuya geçecektir."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be hibernate after all downloads are completed."
 msgstr ""
-"Tüm indirmeler tamamlandıktan sonra bilgisayar hazırda bekletme moduna "
-"geçecektir."
+"Tüm indirmeler tamamlandıktan sonra bilgisayar hazırda bekletmeye geçecektir."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be shutdown after all downloads are completed."
@@ -4527,15 +4609,15 @@ msgstr "İptal"
 
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
-msgstr "OK (%1)"
+msgstr "Tamam (%1)"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be put to Sleep mode."
-msgstr "Dikkat! Bilgisayarınız Uyku moduna geçecektir."
+msgstr "Dikkat! Bilgisayarınız uyku moduna geçecektir."
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be hibernated."
-msgstr "Dikkat! Bilgisayarınız Hazırda beklemeye geçecektir."
+msgstr "Dikkat! Bilgisayarınız hazırda beklemeye geçecektir."
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
@@ -4559,15 +4641,15 @@ msgstr "İndirmeler tamamlandı"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads failed"
-msgstr "İndirmeler başarısız"
+msgstr "İndirmeler başarısız oldu"
 
 msgctxt "SoundsSettings|"
 msgid "No active downloads"
-msgstr "Aktif indirmeler yok"
+msgstr "Etkin indirmeler yok"
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
-msgstr "Uyarı: potansiyel güvenlik riski"
+msgstr "Uyarı: olası güvenlik riski ileride"
 
 msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
@@ -4599,19 +4681,19 @@ msgstr "Güvenlik riski"
 
 msgctxt "SslDialog|"
 msgid "Continue"
-msgstr "Devam et"
+msgstr "Devam"
 
 msgctxt "StatusItem|"
 msgid "Checking files"
-msgstr "Dosyalar kontrol ediliyor"
+msgstr "Dosyalar denetleniyor"
 
 msgctxt "StatusItem|"
 msgid "Merging media streams"
-msgstr "Medya akışları birleştiriliyor"
+msgstr "Ortam akışları birleştiriliyor"
 
 msgctxt "StatusItem|"
 msgid "Queued"
-msgstr "Sıraya alındı"
+msgstr "Kuyruğa alındı"
 
 msgctxt "StatusItem|"
 msgid "Requesting info"
@@ -4655,31 +4737,31 @@ msgstr "Aşağıdaki indirme(ler) duraklatıldıktan sonra devam edemez"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Submit a bug report"
-msgstr ""
+msgstr "Hata raporu gönder"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Title"
-msgstr ""
+msgstr "Başlık"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Description"
-msgstr ""
+msgstr "Açıklama"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Name"
-msgstr ""
+msgstr "Ad"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "E-mail"
-msgstr ""
+msgstr "E-posta"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Attach %1 log files (recommended)"
-msgstr ""
+msgstr "%1 günlük dosyalarını ekle (önerilir)"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Required fields"
-msgstr ""
+msgstr "Zorunlu alanlar"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Close"
@@ -4691,11 +4773,11 @@ msgstr "İptal"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Submitting"
-msgstr ""
+msgstr "Gönderiliyor"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
-msgstr ""
+msgstr "Gönder"
 
 msgctxt "Subtitles|"
 msgid "Download subtitles"
@@ -4735,7 +4817,7 @@ msgstr "Lütfen QR tarayıcıyı kullanmak için kameraya izin verin"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
-msgstr "Trafik Limitleri"
+msgstr "Trafik Sınırları"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Low"
@@ -4755,63 +4837,67 @@ msgstr "İndirme hızı"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Upload speed"
-msgstr "Yükleme hızı"
+msgstr "Gönderme hızı"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections"
-msgstr "Bağlantıların maksimum sayısı"
+msgstr "En fazla bağlantı sayısı"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections per server"
-msgstr "Sunucu başına maksimum bağlantı sayısı"
+msgstr "Sunucu başına en fazla bağlantı sayısı"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of simultaneous downloads"
-msgstr "Eşzamanlı indirmelerin maksimum sayısı"
+msgstr "En fazla eşzamanlı indirme sayısı"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of additional querying info downloads:"
-msgstr ""
+msgstr "En fazla ek sorgulama bilgisi indirme sayısı:"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
+msgstr "Hızı iyileştirmek için ek indirmeleri etkinleştir"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
-msgstr "Geçersiz trafik limit ayarları"
+msgstr "Geçersiz trafik sınırları ayarları"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
-msgstr "Trafik Limitleri"
+msgstr "Trafik sınırları"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Sorun giderme"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Archive logs..."
-msgstr ""
+msgstr "Günlükleri arşivle..."
 
 msgctxt "TroubleshootingSettings|"
 msgid "Zip files"
-msgstr ""
+msgstr "Zip dosyaları"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Failed"
-msgstr ""
+msgstr "Başarısız oldu"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Archive service data..."
-msgstr ""
+msgstr "Hizmet verilerini arşivle..."
 
 msgctxt "TroubleshootingSettings|"
 msgid "Enable enhanced logging"
-msgstr ""
+msgstr "Gelişmiş günlüklemeyi etkinleştir"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Enable LT alerts logging"
-msgstr ""
+msgstr "LT uyarılarını günlüklemeyi etkinleştir"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Restart is required"
-msgstr ""
+msgstr "Yeniden başlatma gerekli"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Hide"
@@ -4819,7 +4905,7 @@ msgstr "Gizle"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
-msgstr "Limitsiz"
+msgstr "Sınırsız"
 
 msgctxt "TumComboBox|"
 msgid "KB/s"
@@ -4827,11 +4913,11 @@ msgstr "KB/s"
 
 msgctxt "TumComboBox|"
 msgid "unlimited"
-msgstr "limitsiz"
+msgstr "sınırsız"
 
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
-msgstr "İndirme: %1, Yükleme: %2"
+msgstr "İndirme: %1, Gönderme: %2"
 
 msgctxt "TumComboBox|"
 msgid "High"
@@ -4847,7 +4933,7 @@ msgstr "Düşük"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Unlimited"
-msgstr "Limitsiz"
+msgstr "Sınırsız"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Custom..."
@@ -4855,7 +4941,7 @@ msgstr "Özel..."
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Please enter numbers only"
-msgstr "Lütfen yalnızca sayı giriniz"
+msgstr "Lütfen sadece sayı girin"
 
 msgctxt "TumModeBlock|"
 msgid "Download speed"
@@ -4863,11 +4949,11 @@ msgstr "İndirme hızı"
 
 msgctxt "TumModeBlock|"
 msgid "Unlimited"
-msgstr "Limitsiz"
+msgstr "Sınırsız"
 
 msgctxt "TumModeBlock|"
 msgid "Max. number of simultaneous downloads"
-msgstr "Eşzamanlı indirmelerin maksimum sayısı"
+msgstr "En fazla eşzamanlı indirme sayısı"
 
 msgctxt "TumModeBlock|"
 msgid "Snail mode"
@@ -4879,11 +4965,11 @@ msgstr "Salyangoz modu indirmeleri durdurmadan bant genişliğini boşaltır."
 
 msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
-msgstr "Trafik limitlerini değiştir"
+msgstr "Trafik sınırlarını değiştir"
 
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
-msgstr "Şundan büyük olamaz: %1"
+msgstr "%1 değerinden büyük olamaz"
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
@@ -4906,8 +4992,12 @@ msgid "File name"
 msgstr "Dosya adı"
 
 msgctxt "TuneAndAddDownloadPage|"
+msgid "Play file while it is still downloading"
+msgstr "Dosyayı indirmeye devam ederken oynat"
+
+msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
-msgstr "Seçili dizine yazma izni yok"
+msgstr "Seçilen dizine yazma erişimi yok"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
@@ -4915,7 +5005,7 @@ msgstr "Boyut: %1 (Disk alanı: %2)"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
-msgstr ""
+msgstr "Disk alanı: %1"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
@@ -4923,7 +5013,7 @@ msgstr "Boyut: %1"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
-msgstr "Güncellemeler kontrol ediliyor..."
+msgstr "Güncellemeler denetleniyor..."
 
 msgctxt "UpdateDialog|"
 msgid "Error:"
@@ -4943,7 +5033,7 @@ msgstr "Yeni sürüm mevcut"
 
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
-msgstr "%1 yenilikleri"
+msgstr "%1 sürümündeki yenilikler"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -4967,7 +5057,7 @@ msgstr "Güncelleme indirilirken hata:"
 
 msgctxt "UpdateDialog|"
 msgid "Checking..."
-msgstr "Kontrol ediliyor..."
+msgstr "Denetleniyor..."
 
 msgctxt "UpdateDialog|"
 msgid "Update downloaded"
@@ -4975,19 +5065,19 @@ msgstr "İndirileni güncelle"
 
 msgctxt "UpdateDialog|"
 msgid "Install update"
-msgstr "Güncellemeyi kur"
+msgstr "Güncellemeyi yükle"
 
 msgctxt "UpdateDialog|"
 msgid "Installing updates"
-msgstr "Güncellemeler kuruluyor"
+msgstr "Güncellemeler yükleniyor"
 
 msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
-msgstr "Kurulum sırasında hata oluştu:"
+msgstr "Kurulum sırasında hata meydana geldi:"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
-msgstr "Güncelleme için %1'yi yeniden başlat"
+msgstr "Güncellemek için %1'yi yeniden başlat"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch"
@@ -4999,7 +5089,7 @@ msgstr "Sonra"
 
 msgctxt "UpdateDialog|"
 msgid "Check for updates"
-msgstr "Güncellemeleri kontrol et"
+msgstr "Güncellemeleri denetle"
 
 msgctxt "VideoQuality|"
 msgid "Quality:"
@@ -5007,11 +5097,11 @@ msgstr "Kalite:"
 
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
-msgstr "%1 keyfini çıkarın?"
+msgstr "%1'nin keyfini sürüyor musunuz?"
 
 msgctxt "VoteBlock|"
 msgid "Not, really"
-msgstr "Pek sayılmaz"
+msgstr "Tam olarak değil"
 
 msgctxt "VoteBlock|"
 msgid "Yes!"
@@ -5019,7 +5109,7 @@ msgstr "Evet!"
 
 msgctxt "VoteBlock|"
 msgid "Thanks a lot! Please rate on Google Play."
-msgstr "Çok teşekkür ederiz! Lütfen Google Play'de oy verin."
+msgstr "Çok teşekkürler! Lütfen Google Play'de değerlendirin."
 
 msgctxt "VoteBlock|"
 msgid "Later"
@@ -5031,11 +5121,11 @@ msgstr "Hayır, teşekkürler"
 
 msgctxt "VoteBlock|"
 msgid "OK, sure!"
-msgstr "Tabii olur!"
+msgstr "Tamam elbette!"
 
 msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."
-msgstr "Birlikte daha iyi yapalım! Bize geri bildirim yapın."
+msgstr "Birlikte daha iyi hale getirelim! Bize geri bildirimde bulunun."
 
 msgctxt "WaitingPage|"
 msgid "Loading"
@@ -5043,7 +5133,7 @@ msgstr "Yükleniyor"
 
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
-msgstr "%1 ile bağlantı"
+msgstr "%1 kimliğine bağlantı"
 
 msgctxt "WaitingPage|"
 msgid "Error: %1"
@@ -5059,7 +5149,7 @@ msgstr "İptal"
 
 msgctxt "WaitingPage|"
 msgid "Abort"
-msgstr "İşlemi iptal et"
+msgstr "İptal et"
 
 msgctxt "WhatsNewDialog|"
 msgid "New version is available"
@@ -5067,7 +5157,7 @@ msgstr "Yeni sürüm mevcut"
 
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
-msgstr "%1 yenilikleri"
+msgstr "%1'deki yenilikler"
 
 msgctxt "WhatsNewDialog|"
 msgid "Update"
@@ -5075,12 +5165,12 @@ msgstr "Güncelle"
 
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
-msgstr "Üzgünüz, rapor gönderilmedi, bir hata oluştu: %1"
+msgstr "Üzgünüz, rapor gönderilemedi, bir hata meydana geldi: %1"
 
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr "Rapor gönderildi. İşbirliğiniz için teşekkürler!"
+msgstr "Rapor gönderildi. İşbirliğiniz için teşekkür ederiz!"
 
 msgctxt "main|"
 msgid "Remote connection to %1"
-msgstr "%1 ile uzaktan bağlantı"
+msgstr "%1'ye uzaktan bağlantı"
