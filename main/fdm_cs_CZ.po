@@ -147,7 +147,7 @@ msgstr "Rozhraní"
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
-msgstr ""
+msgstr "Pro skrytí %1 a jeho běh na pozadí klepněte na tlačítko Zavřít"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
@@ -608,6 +608,10 @@ msgid "General"
 msgstr "Obecné"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr "Detaily"
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Průběh"
 
@@ -741,7 +745,7 @@ msgstr "Použít prohlížeč při zrušení stahování pomocí %1"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
-msgstr ""
+msgstr "Nezachytávat při stisknutí klávesy INSERT"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -758,7 +762,7 @@ msgstr ""
 "\n"
 "To Vám pomůže přidat stahování do %1.\n"
 "\n"
-"Některá ze stahování (např. sthování z Google Drive) mohou být přidána jen "
+"Některá ze stahování (např. stahování z Google Drive) mohou být přidána jen "
 "pomocí tohoto prohlížeče, protože vyžadují dodatečné informace, které "
 "systémový prohlížeč Androidu do programu %1 neposílá (nebo neexistuje žádná "
 "univerzální cesta pro všechny prohlížeče)."
@@ -770,6 +774,22 @@ msgstr "Pokračovat"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(prohlížeč není nainstalován)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr "Nedostupné"
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr "(připojeno: %1)"
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "Stav"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "Aktualizování…"
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -3219,6 +3239,10 @@ msgid "Info"
 msgstr "Informace"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr "Detaily"
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "Soubory"
 
@@ -4166,6 +4190,10 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Otevřít složku"
 
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr "%1 vrátil nenulový stav ukončení (%2)"
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::Append není podporován pro GZIP"
@@ -4824,7 +4852,7 @@ msgstr "Maximální počet dalších informací o dotazování stahování:"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Enable additional downloads to optimize speed"
-msgstr ""
+msgstr "Povolit dodatečná stahování pro optimalizaci rychlosti"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"

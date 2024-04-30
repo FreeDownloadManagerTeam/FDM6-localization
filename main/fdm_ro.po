@@ -150,6 +150,8 @@ msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
 msgstr ""
+"Faceți clic pe butonul Închidere pentru a ascunde %1 și menține-l să ruleze "
+"în fundal"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
@@ -611,6 +613,10 @@ msgid "General"
 msgstr "General"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr ""
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Progres"
 
@@ -744,7 +750,7 @@ msgstr "Folosiți browserul dacă anulați descărcarea prin %1"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
-msgstr ""
+msgstr "Nu interceptați dacă este apăsată tasta INSERT"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -773,6 +779,22 @@ msgstr "Continuă"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(browserul nu este instalat)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "Se actualizează..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1708,7 +1730,7 @@ msgstr "Șterge din listă"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Redați fișierul în timp ce încă se descarcă"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -2798,15 +2820,15 @@ msgstr "Trebuie să fie un număr mai mare decât 0."
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
-msgstr ""
+msgstr "Gata de redat"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
-msgstr ""
+msgstr "%1 este gata de redat"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Play"
-msgstr ""
+msgstr "Redare"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Cancel"
@@ -3187,11 +3209,11 @@ msgstr ""
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
-msgstr ""
+msgstr "Notificări diverse"
 
 msgctxt "Notification|"
 msgid "Ready to play"
-msgstr ""
+msgstr "Gata de redat"
 
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
@@ -3230,6 +3252,10 @@ msgid "Info"
 msgstr "Informații"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr ""
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "Fișiere"
 
@@ -3239,7 +3265,7 @@ msgstr "Conexiuni"
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Redați fișierul în timp ce încă se descarcă"
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -4183,6 +4209,10 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Deschide folder"
 
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr ""
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::Append nu este acceptat pentru GZIP"
@@ -4844,7 +4874,7 @@ msgstr "Numărul maxim de descărcări suplimentare de informații de interogare
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Enable additional downloads to optimize speed"
-msgstr ""
+msgstr "Activați descărcări suplimentare pentru a optimiza viteza"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
@@ -4980,7 +5010,7 @@ msgstr "Nume fisier"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Redați fișierul în timp ce încă se descarcă"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"

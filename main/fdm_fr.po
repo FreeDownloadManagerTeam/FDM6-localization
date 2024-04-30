@@ -150,6 +150,7 @@ msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
 msgstr ""
+"Cliquer sur le bouton Fermer pour cacher %1 et le maintenir en arrière-plan"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
@@ -326,11 +327,12 @@ msgstr "Les arguments doivent contenir la variable %path%"
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
 msgstr ""
-"Lancer automatiquement un scan antivirus quand le téléchargement est terminé"
+"Lancer automatiquement une vérification antivirus quand le téléchargement "
+"est terminé"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
-msgstr "Scan antivirus"
+msgstr "Vérification antivirus"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
@@ -615,6 +617,10 @@ msgid "General"
 msgstr "Général"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr ""
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Progression"
 
@@ -748,7 +754,7 @@ msgstr "Utiliser le navigateur si vous annulez le téléchargement via %1"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
-msgstr ""
+msgstr "Ne pas intercepter si la touche INSÉR est pressée"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -778,6 +784,22 @@ msgstr "Continuer"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(le navigateur n’est pas installé)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "Statut"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "Mise à jour..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1008,7 +1030,7 @@ msgstr "Annuler"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
-msgstr "Connecter au distant %1"
+msgstr "Connecter au  %1 distant"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
@@ -1025,7 +1047,7 @@ msgstr "Connecter automatiquement au démarrage"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
-msgstr "Veuillez entrer %1, ou <a href='#'>scanner le QR code</a>"
+msgstr "Veuillez entrer %1, ou <a href='#'>analyser le QR code</a>"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
@@ -1479,7 +1501,7 @@ msgstr "Déplacement"
 
 msgctxt "DownloadsItemTools|"
 msgid "Checking for viruses"
-msgstr "Scan antivirus en cours"
+msgstr "Vérification antivirus en cours"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp3"
@@ -1720,7 +1742,7 @@ msgstr "Enlever de la liste"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Lire le fichier pendant qu'il est encore en téléchargement"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1768,7 +1790,7 @@ msgstr "Convertir en mp4"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
-msgstr "Réaliser un scan antivirus"
+msgstr "Réaliser une vérification antivirus"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Abort"
@@ -2187,7 +2209,7 @@ msgstr "Tout sélectionner"
 
 msgctxt "FilesTree|"
 msgid "Select none"
-msgstr "Ne rien électionner"
+msgstr "Ne rien sélectionner"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High priority"
@@ -2424,7 +2446,7 @@ msgstr "Vitesse d'envoi :"
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
-msgstr "Ajouté à:"
+msgstr "Ajouté le:"
 
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
@@ -2816,15 +2838,15 @@ msgstr "Doit être un nombre supérieur à 0."
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
-msgstr ""
+msgstr "Prêt à lire"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
-msgstr ""
+msgstr "%1 est prêt à lire"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Play"
-msgstr ""
+msgstr "Lire"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Cancel"
@@ -3206,11 +3228,11 @@ msgstr ""
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
-msgstr ""
+msgstr "Notifications diverses"
 
 msgctxt "Notification|"
 msgid "Ready to play"
-msgstr ""
+msgstr "Prêt à lire"
 
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
@@ -3249,6 +3271,10 @@ msgid "Info"
 msgstr "Infos"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr ""
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "Fichiers"
 
@@ -3258,7 +3284,7 @@ msgstr "Connexions"
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Lire le fichier pendant qu'il est encore en téléchargement"
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -3584,23 +3610,23 @@ msgstr "Quitter"
 
 msgctxt "QObject|"
 msgid "%1 B"
-msgstr "%1 O"
+msgstr "%1 o"
 
 msgctxt "QObject|"
 msgid "%1 KB"
-msgstr "%1 KO"
+msgstr "%1 Ko"
 
 msgctxt "QObject|"
 msgid "%1 MB"
-msgstr "%1 MO"
+msgstr "%1 Mo"
 
 msgctxt "QObject|"
 msgid "%1 GB"
-msgstr "%1 GO"
+msgstr "%1 Go"
 
 msgctxt "QObject|"
 msgid "%1 TB"
-msgstr "%1 TO"
+msgstr "%1 To"
 
 msgctxt "QObject|"
 msgid "%1 K"
@@ -3620,23 +3646,23 @@ msgstr "%1 T"
 
 msgctxt "QObject|"
 msgid "%1 B/s"
-msgstr "%1 O/s"
+msgstr "%1 o/s"
 
 msgctxt "QObject|"
 msgid "%1 KB/s"
-msgstr "%1 KO/s"
+msgstr "%1 Ko/s"
 
 msgctxt "QObject|"
 msgid "%1 MB/s"
-msgstr "%1 MO/s"
+msgstr "%1 Mo/s"
 
 msgctxt "QObject|"
 msgid "%1 GB/s"
-msgstr "%1 GO/s"
+msgstr "%1 Go/s"
 
 msgctxt "QObject|"
 msgid "%1 TB/s"
-msgstr "%1 TO/s"
+msgstr "%1 To/s"
 
 msgctxt "QObject|"
 msgid "%1 K/s"
@@ -4203,6 +4229,10 @@ msgstr "Liste de lecture"
 msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Ouvrir le dossier"
+
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr ""
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4825,7 +4855,7 @@ msgstr "Sombre"
 
 msgctxt "Toast|"
 msgid "Please grant camera permission to use the QR scanner"
-msgstr "Veuillez donner l'autorisation caméra pour utiliser le scanner QR"
+msgstr "Veuillez donner l'autorisation caméra pour utiliser l'analyseur QR"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4869,7 +4899,7 @@ msgstr "Nombre maximum de demandes d'infos en plus de téléchargements:"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Enable additional downloads to optimize speed"
-msgstr ""
+msgstr "Activer des téléchargements additionnels pour optimiser la vitesse"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
@@ -5005,7 +5035,7 @@ msgstr "Nom de fichier"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Lire le fichier pendant qu'il est encore en téléchargement"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
