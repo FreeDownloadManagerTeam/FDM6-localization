@@ -122,7 +122,7 @@ msgstr "Gestione alimentazione"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is a scheduled download"
-msgstr "Evita modalità sospensione se è presente un download pianificato"
+msgstr "Disabilita modalità sospensione se è presente un download pianificato"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
@@ -208,7 +208,7 @@ msgstr "Esegui backup elenco download ogni"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is an active download"
-msgstr "Evita modalità sospensione se è presente un download attivo"
+msgstr "Disabilita modalità sospensione se è presente un download attivo"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode if downloads can be resumed later"
@@ -247,7 +247,7 @@ msgstr "Abilita ordine download definito dall'utente"
 
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
-msgstr "Visualizza pulsante \"Salva come...\""
+msgstr "Visualizza pulsante 'Salva come...'"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable standalone create new downloads windows"
@@ -299,7 +299,7 @@ msgstr "Antivirus"
 
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
-msgstr "Seleziona antivirus:"
+msgstr "Programma antivirus:"
 
 msgctxt "AntivirusSettings|"
 msgid "Is your antivirus not listed?"
@@ -533,11 +533,11 @@ msgstr "1 giorno"
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Server has returned a web page."
-msgstr "Il server ha restituito una pagina Web."
+msgstr "Il server ha restituito una pagina web."
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Click to open it in the web browser."
-msgstr "Fai clic per aprirlo nel browser Web."
+msgstr "Fai clic per aprirla nel browser web."
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -613,7 +613,7 @@ msgstr "Generale"
 
 msgctxt "BottomPanelTools|"
 msgid "Details"
-msgstr ""
+msgstr "Dettagli"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
@@ -749,7 +749,7 @@ msgstr "Usa il browser se annulli il download con %1"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
-msgstr "Non intercettare se viene premuto il tasto INS"
+msgstr "Non intercettare download se viene premuto il tasto 'INS'"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -780,8 +780,12 @@ msgid "(browser is not installed)"
 msgstr "(browser non installato)"
 
 msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr "N/D"
+
+msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
-msgstr ""
+msgstr "(connesso: %1)"
 
 msgctxt "BtDetailsTab|"
 msgid "Status"
@@ -1346,7 +1350,7 @@ msgstr "Termina"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "Dimensione: %1 (spazio disponibile: %2)"
+msgstr "Dimensione file: %1 (spazio disponibile disco: %2)"
 
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
@@ -3256,7 +3260,7 @@ msgstr "Informazioni"
 
 msgctxt "Page|"
 msgid "Details"
-msgstr ""
+msgstr "Dettagli"
 
 msgctxt "Page|"
 msgid "Files"
@@ -4219,7 +4223,7 @@ msgstr "Apri cartella"
 
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
-msgstr ""
+msgstr "%1 ha restituito uno stato di uscita diverso da zero (%2)"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -5034,7 +5038,7 @@ msgstr "Nessun accesso in scrittura alla destinazione selezionata"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "Dimensione: %1 (spazio disponibile: %2)"
+msgstr "Dimensione file: %1 (spazio disponibile disco: %2)"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
