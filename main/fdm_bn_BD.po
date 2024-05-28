@@ -1,17 +1,11 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-04-22 02:28+0600\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: bn_BD\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
-"X-Generator: Poedit 3.4.2\n"
-"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: bn_BD\n"
+"X-Qt-Contexts: true\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -30,20 +24,20 @@ msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
 
 msgctxt "AboutDialog|"
-msgid "remote control"
-msgstr "দূরবর্তী নিয়ন্ত্রণ"
-
-msgctxt "AboutDialog|"
-msgid "version %1"
-msgstr "সংস্করণ %1"
-
-msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "ওকে"
 
 msgctxt "AboutDialog|"
+msgid "remote control"
+msgstr "দূরবর্তী নিয়ন্ত্রণ"
+
+msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "সংস্করণ %1 (%2)"
+
+msgctxt "AboutDialog|"
+msgid "version %1"
+msgstr "সংস্করণ %1"
 
 msgctxt "AddDateToFileName|"
 msgid "Add dates to files names"
@@ -103,11 +97,13 @@ msgstr "বিজ্ঞপ্তি"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of added downloads via Notification Center"
-msgstr "নোটিফিকেশান সেন্টারের মাধ্যমে যোগ করা ডাউনলোড সম্পর্কে আমাকে অবহিত করুন"
+msgstr ""
+"নোটিফিকেশান সেন্টারের মাধ্যমে যোগ করা ডাউনলোড সম্পর্কে আমাকে অবহিত করুন"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "নোটিফিকেশান সেন্টারের মাধ্যমে সম্পূর্ণ ডাউনলোডের বিষয়ে আমাকে অবহিত করুন"
+msgstr ""
+"নোটিফিকেশান সেন্টারের মাধ্যমে সম্পূর্ণ ডাউনলোডের বিষয়ে আমাকে অবহিত করুন"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
@@ -118,6 +114,10 @@ msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "%1 উইন্ডো নিষ্ক্রিয় হলেই আমাকে ডাউনলোডের বিষয়ে অবহিত করুন"
 
 msgctxt "AdvancedSettings|"
+msgid "Use sounds"
+msgstr "শব্দ ব্যবহার করুন"
+
+msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
 msgstr "শব্দ কাস্টমাইজ করুন"
 
@@ -126,12 +126,28 @@ msgid "Power management"
 msgstr "শক্তি ব্যবস্থাপনা"
 
 msgctxt "AdvancedSettings|"
+msgid "Avoid sleep mode if there is an active download"
+msgstr "একটি সক্রিয় ডাউনলোড থাকলে স্লিপ মোড এড়িয়ে চলুন"
+
+msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is a scheduled download"
 msgstr "একটি নির্ধারিত ডাউনলোড থাকলে স্লিপ মোড এড়িয়ে চলুন"
 
 msgctxt "AdvancedSettings|"
+msgid "Allow sleep mode if downloads can be resumed later"
+msgstr "যদি ডাউনলোডগুলি পরে আবার শুরু করা যায় তবে স্লিপ মোডকে অনুমতি দিন"
+
+msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
 msgstr "ফাইল শেয়ার করার সময় স্লিপ মোডের অনুমতি দিন"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not allow downloads if battery level drops below"
+msgstr "ব্যাটারির স্তর নিচে নেমে গেলে ডাউনলোডের অনুমতি দেবেন না"
+
+msgctxt "AdvancedSettings|"
+msgid "Do not share files when running on battery"
+msgstr "ব্যাটারি চালানোর সময় ফাইল শেয়ার করবেন না"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -142,6 +158,10 @@ msgid "Launch at startup (minimized)"
 msgstr "স্টার্টআপে লঞ্চ করুন (মিনিমাইজড)"
 
 msgctxt "AdvancedSettings|"
+msgid "Backup the list of downloads every"
+msgstr "প্রতিটি ডাউনলোড তালিকা ব্যাকআপ"
+
+msgctxt "AdvancedSettings|"
 msgid "Show special offers"
 msgstr "বিশেষ অফার দেখান"
 
@@ -150,8 +170,10 @@ msgid "Interface"
 msgstr "ইন্টারফেস"
 
 msgctxt "AdvancedSettings|"
-msgid "Click on the Close button to hide %1 and keep it running in the background"
-msgstr "%1 লুকানোর জন্য বন্ধ বোতামে ক্লিক করুন এবং এটিকে ব্যাকগ্রাউন্ডে চালু রাখুন"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr ""
+"%1 লুকানোর জন্য বন্ধ বোতামে ক্লিক করুন এবং এটিকে ব্যাকগ্রাউন্ডে চালু রাখুন"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
@@ -162,8 +184,28 @@ msgid "Indicate active download and upload using tray icon"
 msgstr "ট্রে আইকন ব্যবহার করে সক্রিয় ডাউনলোড এবং আপলোড নির্দেশ করুন"
 
 msgctxt "AdvancedSettings|"
+msgid "Enable user defined order of downloads"
+msgstr "ডাউনলোডের ব্যবহারকারীর নির্ধারিত ক্রম সক্ষম করুন"
+
+msgctxt "AdvancedSettings|"
+msgid "Show \"Save As...\" button"
+msgstr "\"এভাবে সংরক্ষণ করুন...\" বোতাম দেখান"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable standalone create new downloads windows"
+msgstr "স্বতন্ত্র নতুন ডাউনলোড উইন্ডো তৈরি করতে সক্ষম করুন"
+
+msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
 msgstr "অন্তর্নির্মিত ট্যাগ দেখান:"
+
+msgctxt "AdvancedSettings|"
+msgid "Overall zoom"
+msgstr "সামগ্রিক জুম"
+
+msgctxt "AdvancedSettings|"
+msgid "Fonts zoom"
+msgstr "ফন্ট জুম"
 
 msgctxt "AdvancedSettings|"
 msgid "Automation"
@@ -190,78 +232,6 @@ msgid "Arguments must contain %path% variable"
 msgstr "আর্গুমেন্টে অবশ্যই %path% ভেরিয়েবল থাকতে হবে"
 
 msgctxt "AdvancedSettings|"
-msgid "Go back to default settings"
-msgstr "ডিফল্ট সেটিংসে ফিরে যান"
-
-msgctxt "AdvancedSettings|"
-msgid "Reset"
-msgstr "রিসেট"
-
-msgctxt "AdvancedSettings|"
-msgid "Default settings"
-msgstr "ডিফল্ট সেটিংস"
-
-msgctxt "AdvancedSettings|"
-msgid "Restore default settings?"
-msgstr "ডিফল্ট সেটিংস পূর্বাবস্থায় ফিরিয়ে আনুন?"
-
-msgctxt "AdvancedSettings|"
-msgid "Backup the list of downloads every"
-msgstr "প্রতিটি ডাউনলোড তালিকা ব্যাকআপ"
-
-msgctxt "AdvancedSettings|"
-msgid "Avoid sleep mode if there is an active download"
-msgstr "একটি সক্রিয় ডাউনলোড থাকলে স্লিপ মোড এড়িয়ে চলুন"
-
-msgctxt "AdvancedSettings|"
-msgid "Allow sleep mode if downloads can be resumed later"
-msgstr "যদি ডাউনলোডগুলি পরে আবার শুরু করা যায় তবে স্লিপ মোডকে অনুমতি দিন"
-
-msgctxt "AdvancedSettings|"
-msgid "File exists reaction"
-msgstr "ফাইল বিদ্যমান প্রতিক্রিয়া"
-
-msgctxt "AdvancedSettings|"
-msgid "Rename"
-msgstr "নাম পরিবর্তন করুন"
-
-msgctxt "AdvancedSettings|"
-msgid "Overwrite"
-msgstr "ওভাররাইট করুন"
-
-msgctxt "AdvancedSettings|"
-msgid "Use sounds"
-msgstr "শব্দ ব্যবহার করুন"
-
-msgctxt "AdvancedSettings|"
-msgid "Do not allow downloads if battery level drops below"
-msgstr "ব্যাটারির স্তর নিচে নেমে গেলে ডাউনলোডের অনুমতি দেবেন না"
-
-msgctxt "AdvancedSettings|"
-msgid "Do not share files when running on battery"
-msgstr "ব্যাটারি চালানোর সময় ফাইল শেয়ার করবেন না"
-
-msgctxt "AdvancedSettings|"
-msgid "Enable user defined order of downloads"
-msgstr "ডাউনলোডের ব্যবহারকারীর নির্ধারিত ক্রম সক্ষম করুন"
-
-msgctxt "AdvancedSettings|"
-msgid "Show \"Save As...\" button"
-msgstr "\"এভাবে সংরক্ষণ করুন...\" বোতাম দেখান"
-
-msgctxt "AdvancedSettings|"
-msgid "Enable standalone create new downloads windows"
-msgstr "স্বতন্ত্র নতুন ডাউনলোড উইন্ডো তৈরি করতে সক্ষম করুন"
-
-msgctxt "AdvancedSettings|"
-msgid "Overall zoom"
-msgstr "সামগ্রিক জুম"
-
-msgctxt "AdvancedSettings|"
-msgid "Fonts zoom"
-msgstr "ফন্ট জুম"
-
-msgctxt "AdvancedSettings|"
 msgid "Delete button action"
 msgstr "মুছুন বোতাম অ্যাকশন"
 
@@ -276,6 +246,34 @@ msgstr "ফাইল মুছে দিন"
 msgctxt "AdvancedSettings|"
 msgid "Always ask"
 msgstr "সবসময় জিজ্ঞাসা"
+
+msgctxt "AdvancedSettings|"
+msgid "File exists reaction"
+msgstr "ফাইল বিদ্যমান প্রতিক্রিয়া"
+
+msgctxt "AdvancedSettings|"
+msgid "Rename"
+msgstr "নাম পরিবর্তন করুন"
+
+msgctxt "AdvancedSettings|"
+msgid "Overwrite"
+msgstr "ওভাররাইট করুন"
+
+msgctxt "AdvancedSettings|"
+msgid "Go back to default settings"
+msgstr "ডিফল্ট সেটিংসে ফিরে যান"
+
+msgctxt "AdvancedSettings|"
+msgid "Reset"
+msgstr "রিসেট"
+
+msgctxt "AdvancedSettings|"
+msgid "Default settings"
+msgstr "ডিফল্ট সেটিংস"
+
+msgctxt "AdvancedSettings|"
+msgid "Restore default settings?"
+msgstr "ডিফল্ট সেটিংস পূর্বাবস্থায় ফিরিয়ে আনুন?"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
@@ -351,11 +349,17 @@ msgstr "বিজ্ঞপ্তি"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
-msgstr "ডাউনলোড করা ফাইলগুলিকে আপনার স্থানীয় স্টোরেজে সংরক্ষণ করার জন্য %1-এর অনুমতি প্রয়োজন।"
+msgstr ""
+"ডাউনলোড করা ফাইলগুলিকে আপনার স্থানীয় স্টোরেজে সংরক্ষণ করার জন্য %1-এর "
+"অনুমতি প্রয়োজন।"
 
 msgctxt "AppAndroidPermissionsManager|"
-msgid "%1 needs permission to show download progress within your system's notification panel."
-msgstr "আপনার সিস্টেমের বিজ্ঞপ্তি প্যানেলের মধ্যে ডাউনলোডের অগ্রগতি দেখানোর জন্য %1-এর অনুমতি প্রয়োজন।"
+msgid ""
+"%1 needs permission to show download progress within your system's "
+"notification panel."
+msgstr ""
+"আপনার সিস্টেমের বিজ্ঞপ্তি প্যানেলের মধ্যে ডাউনলোডের অগ্রগতি দেখানোর জন্য "
+"%1-এর অনুমতি প্রয়োজন।"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
@@ -606,36 +610,20 @@ msgid "General"
 msgstr "সাধারণ"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr ""
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "অগ্রগতি"
 
 msgctxt "BottomPanelTools|"
 msgid "Files"
-msgstr "নথি পত্র"
+msgstr ""
 
 msgctxt "BottomPanelTools|"
 msgid "Connections"
 msgstr "সংযোগ"
-
-msgctxt "Browser|"
-msgid "Enter URL"
-msgstr "URL দিন"
-
-msgctxt "Browser|"
-msgid "Bookmark removed"
-msgstr "বুকমার্ক সরানো হয়েছে"
-
-msgctxt "Browser|"
-msgid "Bookmark added"
-msgstr "বুকমার্ক যোগ করা হয়েছে"
-
-msgctxt "Browser|"
-msgid "Bookmarks"
-msgstr "বুকমার্ক"
-
-msgctxt "Browser|"
-msgid "There are no bookmarks at the moment"
-msgstr "এই মুহূর্তে কোন বুকমার্ক নেই"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
@@ -648,6 +636,26 @@ msgstr "হ্যাঁ"
 msgctxt "Browser|"
 msgid "NO"
 msgstr "না"
+
+msgctxt "Browser|"
+msgid "Bookmarks"
+msgstr "বুকমার্ক"
+
+msgctxt "Browser|"
+msgid "There are no bookmarks at the moment"
+msgstr "এই মুহূর্তে কোন বুকমার্ক নেই"
+
+msgctxt "Browser|"
+msgid "Bookmark added"
+msgstr "বুকমার্ক যোগ করা হয়েছে"
+
+msgctxt "Browser|"
+msgid "Bookmark removed"
+msgstr "বুকমার্ক সরানো হয়েছে"
+
+msgctxt "Browser|"
+msgid "Enter URL"
+msgstr "URL দিন"
 
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
@@ -682,8 +690,12 @@ msgid "Browser Integration"
 msgstr "ব্রাউজার ইন্টিগ্রেশন"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Make sure you have %1 extension installed, otherwise, click one of the buttons below"
-msgstr "নিশ্চিত করুন যে আপনি %1 এক্সটেনশন ইনস্টল করেছেন, অন্যথায়, নীচের একটি বোতামে ক্লিক করুন"
+msgid ""
+"Make sure you have %1 extension installed, otherwise, click one of the "
+"buttons below"
+msgstr ""
+"নিশ্চিত করুন যে আপনি %1 এক্সটেনশন ইনস্টল করেছেন, অন্যথায়, নীচের একটি বোতামে "
+"ক্লিক করুন"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -743,15 +755,19 @@ msgid ""
 "\n"
 "It helps you to add downloads into %1.\n"
 "\n"
-"Some of them (e.g. Google Drive downloads) can be added using this browser only, because they require additional information "
-"that your Android system's browser does not provide to %1 (or there is no universal way for all browsers to do this)."
+"Some of them (e.g. Google Drive downloads) can be added using this browser "
+"only, because they require additional information that your Android system's "
+"browser does not provide to %1 (or there is no universal way for all "
+"browsers to do this)."
 msgstr ""
 "আপনি একটি অন্তর্নির্মিত ওয়েব ব্রাউজার খুলতে চলেছেন৷\n"
 "\n"
 "এটি আপনাকে %1 এ ডাউনলোড যোগ করতে সাহায্য করে।\n"
 "\n"
-"তাদের মধ্যে কিছু (যেমন Google ড্রাইভ ডাউনলোড) শুধুমাত্র এই ব্রাউজার ব্যবহার করে যোগ করা যেতে পারে, কারণ তাদের অতিরিক্ত তথ্যের প্রয়োজন যা "
-"আপনার অ্যান্ড্রয়েড সিস্টেমের ব্রাউজার %1-কে প্রদান করে না (অথবা সমস্ত ব্রাউজারগুলির জন্য এটি করার কোনো সর্বজনীন উপায় নেই)।"
+"তাদের মধ্যে কিছু (যেমন Google ড্রাইভ ডাউনলোড) শুধুমাত্র এই ব্রাউজার ব্যবহার "
+"করে যোগ করা যেতে পারে, কারণ তাদের অতিরিক্ত তথ্যের প্রয়োজন যা আপনার "
+"অ্যান্ড্রয়েড সিস্টেমের ব্রাউজার %1-কে প্রদান করে না (অথবা সমস্ত "
+"ব্রাউজারগুলির জন্য এটি করার কোনো সর্বজনীন উপায় নেই)।"
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -760,6 +776,22 @@ msgstr "চালিয়ে যান"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(ব্রাউজার ইনস্টল করা নেই)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "স্ট্যাটাস"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "আপডেট হচ্ছে..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -815,11 +847,13 @@ msgstr "কাস্টম পোর্টঃ"
 
 msgctxt "BtSettings|"
 msgid ""
-"The use of additional trackers can improve download speed in some cases. Lists of such trackers can be retrieved from different "
-"sources, e.g. from <a href='https://github.com/ngosang/trackerslist'>here</a>."
+"The use of additional trackers can improve download speed in some cases. "
+"Lists of such trackers can be retrieved from different sources, e.g. from <a "
+"href='https://github.com/ngosang/trackerslist'>here</a>."
 msgstr ""
-"অতিরিক্ত ট্র্যাকার ব্যবহার কিছু ক্ষেত্রে ডাউনলোডের গতি উন্নত করতে পারে। এই ধরনের ট্র্যাকারের তালিকা বিভিন্ন উত্স থেকে পুনরুদ্ধার করা যেতে পারে, "
-"যেমন <a href='https://github.com/ngosang/trackerslist'>এখানে</a> থেকে।"
+"অতিরিক্ত ট্র্যাকার ব্যবহার কিছু ক্ষেত্রে ডাউনলোডের গতি উন্নত করতে পারে। এই "
+"ধরনের ট্র্যাকারের তালিকা বিভিন্ন উত্স থেকে পুনরুদ্ধার করা যেতে পারে, যেমন <a "
+"href='https://github.com/ngosang/trackerslist'>এখানে</a> থেকে।"
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -899,7 +933,7 @@ msgstr "পর্যাপ্ত ডিস্ক স্থান নেই"
 
 msgctxt "ButtonsBlock|"
 msgid "The path contains invalid characters"
-msgstr "পথটিতে অবৈধ অক্ষর রয়েছে"
+msgstr ""
 
 msgctxt "ButtonsBlock|"
 msgid "The subfolder name contains invalid characters"
@@ -970,7 +1004,9 @@ msgid "Extraneous files are detected"
 msgstr "বহিরাগত ফাইল সনাক্ত করা হয়"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
-msgid "The following folder contains extraneous files. Do you still want to delete it?"
+msgid ""
+"The following folder contains extraneous files. Do you still want to delete "
+"it?"
 msgstr "নিম্নলিখিত ফোল্ডারে বহিরাগত ফাইল রয়েছে। আপনি কি এখনও এটি মুছতে চান?"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
@@ -998,18 +1034,6 @@ msgid "Automatically connect at startup"
 msgstr "স্টার্টআপে স্বয়ংক্রিয়ভাবে সংযোগ করুন"
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid "Please enter %1, or <a href='#'>scan QR code</a>"
-msgstr "স্টার্টআপে স্বয়ংক্রিয়ভাবে সংযোগ করুন"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Both %1 and QR code are located inside of Preferences page of %2 you're going to connect to."
-msgstr "%1 এবং QR কোড উভয়ই %2 এর পছন্দের পৃষ্ঠার ভিতরে অবস্থিত যা আপনি সংযোগ করতে যাচ্ছেন।"
-
-msgctxt "ConnectToRemoteAppDialog|"
-msgid "Automatically connect at %1 startup"
-msgstr "%1 স্টার্টআপে স্বয়ংক্রিয়ভাবে সংযোগ করুন"
-
-msgctxt "ConnectToRemoteAppDialog|"
 msgid "Cancel"
 msgstr "বাতিল করুন"
 
@@ -1019,7 +1043,24 @@ msgstr "ওকে"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
-msgstr "এখানে আপনি আপনার Windows/macOS/Linux পিসিতে চলমান %1 এর সাথে সংযোগ করতে পারেন"
+msgstr ""
+"এখানে আপনি আপনার Windows/macOS/Linux পিসিতে চলমান %1 এর সাথে সংযোগ করতে পারেন"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Please enter %1, or <a href='#'>scan QR code</a>"
+msgstr "স্টার্টআপে স্বয়ংক্রিয়ভাবে সংযোগ করুন"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid ""
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
+msgstr ""
+"%1 এবং QR কোড উভয়ই %2 এর পছন্দের পৃষ্ঠার ভিতরে অবস্থিত যা আপনি সংযোগ করতে "
+"যাচ্ছেন।"
+
+msgctxt "ConnectToRemoteAppDialog|"
+msgid "Automatically connect at %1 startup"
+msgstr "%1 স্টার্টআপে স্বয়ংক্রিয়ভাবে সংযোগ করুন"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -1031,7 +1072,7 @@ msgstr "হোস্ট"
 
 msgctxt "ConnectionsTab|"
 msgid "Port"
-msgstr "পোর্ট"
+msgstr ""
 
 msgctxt "ConnectionsTab|"
 msgid "Connection count"
@@ -1098,8 +1139,10 @@ msgid "OK"
 msgstr "ওকে"
 
 msgctxt "CrashReporter|"
-msgid "An internal error occurred.<br>%1 needs to be restarted for further use."
-msgstr "একটি অভ্যন্তরীণ ত্রুটি ঘটেছে৷<br>আরো ব্যবহারের জন্য %1 পুনরায় চালু করতে হবে৷"
+msgid ""
+"An internal error occurred.<br>%1 needs to be restarted for further use."
+msgstr ""
+"একটি অভ্যন্তরীণ ত্রুটি ঘটেছে৷<br>আরো ব্যবহারের জন্য %1 পুনরায় চালু করতে হবে৷"
 
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
@@ -1111,7 +1154,7 @@ msgstr "রিপোর্ট পাঠাতে ব্যর্থ৷<br>আপ
 
 msgctxt "CrashReporter|"
 msgid "Error"
-msgstr "কপি"
+msgstr ""
 
 msgctxt "CreateFolderDialog|"
 msgid "Create folder"
@@ -1130,16 +1173,25 @@ msgid "Create portable version"
 msgstr "পোর্টেবল সংস্করণ তৈরি করুন"
 
 msgctxt "CreatePortableDialog|"
-msgid "Portable version of %1 can be used on different computers without the need to install and configure it on each of them."
-msgstr "%1 এর পোর্টেবল সংস্করণ বিভিন্ন কম্পিউটারে ব্যবহার করা যেতে পারে তাদের প্রতিটিতে ইনস্টল এবং কনফিগার করার প্রয়োজন ছাড়াই।"
+msgid ""
+"Portable version of %1 can be used on different computers without the need "
+"to install and configure it on each of them."
+msgstr ""
+"%1 এর পোর্টেবল সংস্করণ বিভিন্ন কম্পিউটারে ব্যবহার করা যেতে পারে তাদের "
+"প্রতিটিতে ইনস্টল এবং কনফিগার করার প্রয়োজন ছাড়াই।"
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
-msgstr "এটি সুবিধাজনকভাবে একটি ফ্ল্যাশ ডিস্কে স্থাপন করা যেতে পারে, উদাহরণস্বরূপ।"
+msgstr ""
+"এটি সুবিধাজনকভাবে একটি ফ্ল্যাশ ডিস্কে স্থাপন করা যেতে পারে, উদাহরণস্বরূপ।"
 
 msgctxt "CreatePortableDialog|"
-msgid "Specify here the path where you would like to create this version. It should be a folder on some removable drive."
-msgstr "আপনি যেখানে এই সংস্করণটি তৈরি করতে চান সেই পথটি এখানে নির্দিষ্ট করুন৷ এটি কিছু অপসারণযোগ্য ড্রাইভে একটি ফোল্ডার হওয়া উচিত।"
+msgid ""
+"Specify here the path where you would like to create this version. It should "
+"be a folder on some removable drive."
+msgstr ""
+"আপনি যেখানে এই সংস্করণটি তৈরি করতে চান সেই পথটি এখানে নির্দিষ্ট করুন৷ এটি "
+"কিছু অপসারণযোগ্য ড্রাইভে একটি ফোল্ডার হওয়া উচিত।"
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -1199,7 +1251,7 @@ msgstr "ডাউনলোড সম্পন্ন হয়েছে"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads failed"
-msgstr "ডাউনলোড ব্যর্থ হয়েছে৷"
+msgstr ""
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No active downloads"
@@ -1291,15 +1343,15 @@ msgstr "বন্ধ করুন"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "আকার: %1 (ডিস্কের জায়গা: %2)"
+msgstr ""
 
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
-msgstr "ডিস্কের জায়গা: %1"
+msgstr ""
 
 msgctxt "DiskSpace|"
 msgid "Size: %1"
-msgstr "আকার: %1"
+msgstr ""
 
 msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
@@ -1310,16 +1362,21 @@ msgid "Download Failure"
 msgstr "ডাউনলোড ব্যর্থতা"
 
 msgctxt "DownloadExpiredDialog|"
-msgid "Can't resume download. Download link likely expired. Resume attempts failed."
-msgstr "ডাউনলোড পুনরায় শুরু করা যাবে না। ডাউনলোড লিঙ্কের মেয়াদ শেষ হয়ে গেছে। পুনরায় শুরু করার প্রচেষ্টা ব্যর্থ হয়েছে৷"
+msgid ""
+"Can't resume download. Download link likely expired. Resume attempts failed."
+msgstr ""
+"ডাউনলোড পুনরায় শুরু করা যাবে না। ডাউনলোড লিঙ্কের মেয়াদ শেষ হয়ে গেছে। "
+"পুনরায় শুরু করার প্রচেষ্টা ব্যর্থ হয়েছে৷"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Please try to update the download link to resume."
 msgstr "পুনরায় শুরু করতে ডাউনলোড লিঙ্ক আপডেট করার চেষ্টা করুন."
 
 msgctxt "DownloadExpiredDialog|"
-msgid "Go to the website with the original download source and copy the renewed link"
-msgstr "মূল ডাউনলোড উত্স সহ ওয়েবসাইটে যান এবং পুনর্নবীকরণ লিঙ্কটি অনুলিপি করুন৷"
+msgid ""
+"Go to the website with the original download source and copy the renewed link"
+msgstr ""
+"মূল ডাউনলোড উত্স সহ ওয়েবসাইটে যান এবং পুনর্নবীকরণ লিঙ্কটি অনুলিপি করুন৷"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "click here"
@@ -1442,12 +1499,12 @@ msgid "Calculating hash"
 msgstr "হ্যাশ গণনা করা হচ্ছে"
 
 msgctxt "DownloadsItemTools|"
-msgid "File is missing"
-msgstr "ফাইল পাওয়া যাচ্ছে না"
-
-msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "ডিস্ক অনুপস্থিত"
+
+msgctxt "DownloadsItemTools|"
+msgid "File is missing"
+msgstr "ফাইল পাওয়া যাচ্ছে না"
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
@@ -1606,12 +1663,20 @@ msgid "Upload paused"
 msgstr "আপলোড বিরাম দেওয়া হয়েছে৷"
 
 msgctxt "DownloadsViewItemContextMenu|"
+msgid "Save and complete"
+msgstr "সংরক্ষণ করুন এবং সম্পূর্ণ করুন"
+
+msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
 msgstr "আবার শুরু"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Open"
 msgstr "খুলুন"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Show in folder"
+msgstr "ফাইল এর ভেতরে দেখুন"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
@@ -1622,16 +1687,16 @@ msgid "Enable auto retry for this kind of errors"
 msgstr "এই ধরনের ত্রুটির জন্য স্বয়ংক্রিয় পুনরায় চেষ্টা সক্ষম করুন"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Save and complete"
-msgstr "সংরক্ষণ করুন এবং সম্পূর্ণ করুন"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show downloads"
 msgstr "ডাউনলোড দেখান"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Choose files..."
 msgstr "ফাইল বেছে নিন..."
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Set priority"
+msgstr "অগ্রাধিকার নির্ধারন কর"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -1643,7 +1708,7 @@ msgstr "সাধারণ"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Low"
-msgstr "নিম্ন"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
@@ -1651,7 +1716,7 @@ msgstr "ফাইলের নাম পরিবর্তন করুন"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
-msgstr "এখানে সরান..."
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Delete file"
@@ -1660,6 +1725,10 @@ msgstr "নথিপত্র মুছে দাও"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Remove from list"
 msgstr "তালিকা থেকে বাদ দাও"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Sequential download"
+msgstr "ক্রমিক ডাউনলোড"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Play file while it is still downloading"
@@ -1718,24 +1787,12 @@ msgid "Abort"
 msgstr "বন্ধ করুন"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "Set priority"
-msgstr "অগ্রাধিকার নির্ধারন কর"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Show in folder"
-msgstr "ফাইল এর ভেতরে দেখুন"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show info"
 msgstr "তথ্য দেখান"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Files"
-msgstr "নথি পত্র"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Sequential download"
-msgstr "ক্রমিক ডাউনলোড"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
@@ -1774,16 +1831,16 @@ msgid "Unknown file size"
 msgstr "অজানা ফাইলের আকার"
 
 msgctxt "DownloadsViewStatusItem|"
-msgid "Queued"
-msgstr "সারিবদ্ধ"
-
-msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files"
 msgstr "ফাইল চেক করা হচ্ছে"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Merging media streams"
 msgstr "মিডিয়া স্ট্রীম একত্রিত করা হচ্ছে"
+
+msgctxt "DownloadsViewStatusItem|"
+msgid "Queued"
+msgstr "সারিবদ্ধ"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info"
@@ -1814,8 +1871,10 @@ msgid "Extensions (e.g. \"avi mp3\")"
 msgstr "এক্সটেনশন (যেমন \"avi mp3\")"
 
 msgctxt "EditTagDialog|"
-msgid "Extensions that are automatically assigned with this tag for new downloads"
-msgstr "নতুন ডাউনলোডের জন্য এই ট্যাগের সাথে স্বয়ংক্রিয়ভাবে অ্যাসাইন করা এক্সটেনশন"
+msgid ""
+"Extensions that are automatically assigned with this tag for new downloads"
+msgstr ""
+"নতুন ডাউনলোডের জন্য এই ট্যাগের সাথে স্বয়ংক্রিয়ভাবে অ্যাসাইন করা এক্সটেনশন"
 
 msgctxt "EditTagDialog|"
 msgid "Default download folder"
@@ -2047,11 +2106,11 @@ msgstr "তারিখ অনুসারে"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By name"
-msgstr "নামে"
+msgstr ""
 
 msgctxt "FilePickerSortDialog|"
 msgid "By size"
-msgstr "আকার অনুযায়ী"
+msgstr ""
 
 msgctxt "FilePickerSortDialog|"
 msgid "Sort"
@@ -2090,16 +2149,16 @@ msgid "Abort"
 msgstr "বন্ধ করুন"
 
 msgctxt "FilesTree|"
-msgid "Name"
-msgstr "নাম"
+msgid "Files"
+msgstr ""
 
 msgctxt "FilesTree|"
-msgid "Size"
-msgstr "আকার"
+msgid "Select all"
+msgstr "সব নির্বাচন করুন"
 
 msgctxt "FilesTree|"
-msgid "Progress"
-msgstr "অগ্রগতি"
+msgid "Select none"
+msgstr "কিছুই না"
 
 msgctxt "FilesTree|"
 msgid "Priority"
@@ -2115,19 +2174,19 @@ msgstr "উচ্চ"
 
 msgctxt "FilesTree|"
 msgid "Low"
-msgstr "নিম্ন"
+msgstr ""
 
 msgctxt "FilesTree|"
-msgid "Files"
-msgstr "নথি পত্র"
+msgid "Name"
+msgstr "নাম"
 
 msgctxt "FilesTree|"
-msgid "Select all"
-msgstr "সব নির্বাচন করুন"
+msgid "Size"
+msgstr "আকার"
 
 msgctxt "FilesTree|"
-msgid "Select none"
-msgstr "কিছুই না"
+msgid "Progress"
+msgstr "অগ্রগতি"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High priority"
@@ -2182,20 +2241,12 @@ msgid "Choose theme"
 msgstr "থিম চয়ন করুন"
 
 msgctxt "GeneralSettings|"
-msgid "Language"
-msgstr "ভাষা"
-
-msgctxt "GeneralSettings|"
-msgid "Downloads"
-msgstr "ডাউনলোড"
-
-msgctxt "GeneralSettings|"
-msgid "Suggest folders based on file type"
-msgstr "ফাইলের প্রকারের উপর ভিত্তি করে ফোল্ডার সাজেস্ট করুন"
-
-msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr "একটি হালকা থিম ব্যবহার করা হবে, যদি সিস্টেম থিম অজানা হয়।"
+
+msgctxt "GeneralSettings|"
+msgid "Language"
+msgstr "ভাষা"
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -2212,6 +2263,10 @@ msgstr "ডিফল্ট ডাউনলোড ফোল্ডার"
 msgctxt "GeneralSettings|"
 msgid "Choose default download folder automatically"
 msgstr "স্বয়ংক্রিয়ভাবে ডিফল্ট ডাউনলোড ফোল্ডার চয়ন করুন"
+
+msgctxt "GeneralSettings|"
+msgid "Suggest folders based on file type"
+msgstr "ফাইলের প্রকারের উপর ভিত্তি করে ফোল্ডার সাজেস্ট করুন"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
@@ -2232,6 +2287,10 @@ msgstr "বাতিল করুন"
 msgctxt "GeneralSettings|"
 msgid "Macros"
 msgstr "ম্যাক্রো"
+
+msgctxt "GeneralSettings|"
+msgid "Downloads"
+msgstr "ডাউনলোড"
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
@@ -2322,12 +2381,20 @@ msgid "State"
 msgstr "অবস্থা"
 
 msgctxt "GeneralTab|"
+msgid "Speed"
+msgstr "গতি"
+
+msgctxt "GeneralTab|"
 msgid "Total size:"
 msgstr "টোটাল সাইজঃ"
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
 msgstr "ডাউনলোড করা হয়েছেঃ"
+
+msgctxt "GeneralTab|"
+msgid "%1 of %2"
+msgstr "%2 এর %1"
 
 msgctxt "GeneralTab|"
 msgid "Uploaded"
@@ -2338,6 +2405,10 @@ msgid "ratio"
 msgstr "অনুপাত"
 
 msgctxt "GeneralTab|"
+msgid "Added at:"
+msgstr "এ যোগ করা হয়েছে:"
+
+msgctxt "GeneralTab|"
 msgid "Web page"
 msgstr "ওয়েব পেজ"
 
@@ -2346,24 +2417,12 @@ msgid "File"
 msgstr "ফাইল"
 
 msgctxt "GeneralTab|"
-msgid "Speed"
-msgstr "গতি"
-
-msgctxt "GeneralTab|"
 msgid "Download speed:"
 msgstr "ডাউনলোড স্পীডঃ"
 
 msgctxt "GeneralTab|"
 msgid "Upload speed:"
 msgstr "আপলোড স্পীডঃ"
-
-msgctxt "GeneralTab|"
-msgid "Added at:"
-msgstr "এ যোগ করা হয়েছে:"
-
-msgctxt "GeneralTab|"
-msgid "%1 of %2"
-msgstr "%2 এর %1"
 
 msgctxt "GeneralTab|"
 msgid "Domain:"
@@ -2606,16 +2665,12 @@ msgid "Contact support"
 msgstr "যোগাযোগ সমর্থন"
 
 msgctxt "MainMenu|"
-msgid "Auto shutdown"
-msgstr "স্বয়ংক্রিয় বন্ধ"
-
-msgctxt "MainMenu|"
-msgid "Check for updates..."
-msgstr "হালনাগাদ এর জন্য অনুসন্ধান করুন..."
-
-msgctxt "MainMenu|"
 msgid "Submit a bug report"
 msgstr "একটি বাগ রিপোর্ট জমা দিন"
+
+msgctxt "MainMenu|"
+msgid "Auto shutdown"
+msgstr "স্বয়ংক্রিয় বন্ধ"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
@@ -2640,6 +2695,10 @@ msgstr "দূরবর্তী %1 এর সাথে সংযোগ কর�
 msgctxt "MainMenu|"
 msgid "Create portable version"
 msgstr "পোর্টেবল সংস্করণ তৈরি করুন"
+
+msgctxt "MainMenu|"
+msgid "Check for updates..."
+msgstr "হালনাগাদ এর জন্য অনুসন্ধান করুন..."
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
@@ -2697,7 +2756,7 @@ msgstr "মুছে নির্বাচিত"
 
 msgctxt "MainToolbar|"
 msgid "Move to..."
-msgstr "মুছে নির্বাচিত"
+msgstr ""
 
 msgctxt "MainToolbar|"
 msgid "Move downloads up"
@@ -2745,11 +2804,11 @@ msgstr "অবৈধ মান"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
-msgstr "0 এর থেকে বড় একটি সংখ্যা হতে হবে।"
+msgstr ""
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
-msgstr "খেলতে প্রস্তুত"
+msgstr ""
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
@@ -2881,7 +2940,7 @@ msgstr "পরিবর্তনশীল বিটরেট (VBR)"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "The path contains invalid characters"
-msgstr "পথটিতে অবৈধ অক্ষর রয়েছে"
+msgstr ""
 
 msgctxt "Mp3ConverterDialog|"
 msgid "OK"
@@ -2905,7 +2964,7 @@ msgstr "সংরক্ষণ"
 
 msgctxt "Mp3ConverterPage|"
 msgid "The path contains invalid characters"
-msgstr "পথটিতে অবৈধ অক্ষর রয়েছে"
+msgstr ""
 
 msgctxt "Mp3ConverterPage|"
 msgid "Bitrate (quality)"
@@ -2937,7 +2996,7 @@ msgstr "বাতিল করুন"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "The path contains invalid characters"
-msgstr "পথটিতে অবৈধ অক্ষর রয়েছে"
+msgstr ""
 
 msgctxt "Mp4ConverterDialog|"
 msgid "OK"
@@ -2957,7 +3016,7 @@ msgstr "সংরক্ষণ"
 
 msgctxt "Mp4ConverterPage|"
 msgid "The path contains invalid characters"
-msgstr "পথটিতে অবৈধ অক্ষর রয়েছে৷"
+msgstr ""
 
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
@@ -3021,7 +3080,7 @@ msgstr "যোগাযোগ সমর্থন"
 
 msgctxt "NetworkSettings|"
 msgid "Network"
-msgstr "অন্তর্জাল"
+msgstr ""
 
 msgctxt "NetworkSettings|"
 msgid "Proxy"
@@ -3045,7 +3104,7 @@ msgstr "ঠিকানা"
 
 msgctxt "NetworkSettings|"
 msgid "Port"
-msgstr "Port"
+msgstr ""
 
 msgctxt "NetworkSettings|"
 msgid "HTTP:"
@@ -3125,7 +3184,7 @@ msgstr "অবৈধ মান"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
-msgstr "০ এর থেকে বড় একটি সংখ্যা হতে হবে।"
+msgstr ""
 
 msgctxt "NoResumeSupportBlock|"
 msgid "This download may not support resuming."
@@ -3133,7 +3192,9 @@ msgstr "এই ডাউনলোডটি পুনরায় শুরু �
 
 msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
-msgstr "পুনরায় শুরু করা সমর্থন করে না এমন ফাইলগুলি ডাউনলোড করার সময় স্লিপ মোড প্রতিরোধ করুন"
+msgstr ""
+"পুনরায় শুরু করা সমর্থন করে না এমন ফাইলগুলি ডাউনলোড করার সময় স্লিপ মোড "
+"প্রতিরোধ করুন"
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
@@ -3141,7 +3202,7 @@ msgstr "বিবিধ বিজ্ঞপ্তি"
 
 msgctxt "Notification|"
 msgid "Ready to play"
-msgstr "চালানোর জন্য প্রস্তুত"
+msgstr ""
 
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
@@ -3152,8 +3213,12 @@ msgid "(required)"
 msgstr "(প্রয়োজনীয়)"
 
 msgctxt "OsPermissionsDialog|"
-msgid "You can grant these permissions using the Application details screen within your system's settings."
-msgstr "আপনি আপনার সিস্টেমের সেটিংসের মধ্যে অ্যাপ্লিকেশন বিবরণ স্ক্রীন ব্যবহার করে এই অনুমতিগুলি মনজুর করতে পারেন৷"
+msgid ""
+"You can grant these permissions using the Application details screen within "
+"your system's settings."
+msgstr ""
+"আপনি আপনার সিস্টেমের সেটিংসের মধ্যে অ্যাপ্লিকেশন বিবরণ স্ক্রীন ব্যবহার করে "
+"এই অনুমতিগুলি মনজুর করতে পারেন৷"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Don't show again"
@@ -3176,8 +3241,12 @@ msgid "Info"
 msgstr "তথ্য"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr ""
+
+msgctxt "Page|"
 msgid "Files"
-msgstr "ফাইলস"
+msgstr ""
 
 msgctxt "Page|"
 msgid "Connections"
@@ -3192,12 +3261,19 @@ msgid "Enjoy using %1 add-on?"
 msgstr "%1 অ্যাড-অন ব্যবহার করে উপভোগ করবেন?"
 
 msgctxt "PluginBannerDialog|"
-msgid "We would like to ask you to help this add-on to reach its potential users."
-msgstr "আমরা আপনাকে এই অ্যাড-অনটিকে এর সম্ভাব্য ব্যবহারকারীদের কাছে পৌঁছানোর জন্য সাহায্য করতে চাই।"
+msgid ""
+"We would like to ask you to help this add-on to reach its potential users."
+msgstr ""
+"আমরা আপনাকে এই অ্যাড-অনটিকে এর সম্ভাব্য ব্যবহারকারীদের কাছে পৌঁছানোর জন্য "
+"সাহায্য করতে চাই।"
 
 msgctxt "PluginBannerDialog|"
-msgid "Please use your favorite social networks and forums to let the other people know about %1 and %2."
-msgstr "অন্য লোকেদের %1 এবং %2 সম্পর্কে জানাতে অনুগ্রহ করে আপনার প্রিয় সামাজিক নেটওয়ার্ক এবং ফোরাম ব্যবহার করুন৷"
+msgid ""
+"Please use your favorite social networks and forums to let the other people "
+"know about %1 and %2."
+msgstr ""
+"অন্য লোকেদের %1 এবং %2 সম্পর্কে জানাতে অনুগ্রহ করে আপনার প্রিয় সামাজিক "
+"নেটওয়ার্ক এবং ফোরাম ব্যবহার করুন৷"
 
 msgctxt "PluginBannerDialog|"
 msgid "Remind me later"
@@ -3397,11 +3473,13 @@ msgstr "ব্যবহারকারী চুক্তি"
 
 msgctxt "PrivacyDialog|"
 msgid ""
-"A bug report will be sent to the server and used to improve %1 performance. We do not collect your personal data and do not "
-"share data with third parties."
+"A bug report will be sent to the server and used to improve %1 performance. "
+"We do not collect your personal data and do not share data with third "
+"parties."
 msgstr ""
-"সার্ভারে একটি বাগ রিপোর্ট পাঠানো হবে এবং %1 কর্মক্ষমতা উন্নত করতে ব্যবহৃত হবে। আমরা আপনার ব্যক্তিগত তথ্য সংগ্রহ করি না এবং তৃতীয় পক্ষের সাথে "
-"ডেটা ভাগ করি না।"
+"সার্ভারে একটি বাগ রিপোর্ট পাঠানো হবে এবং %1 কর্মক্ষমতা উন্নত করতে ব্যবহৃত "
+"হবে। আমরা আপনার ব্যক্তিগত তথ্য সংগ্রহ করি না এবং তৃতীয় পক্ষের সাথে ডেটা ভাগ "
+"করি না।"
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
@@ -3416,10 +3494,73 @@ msgid "Cancel"
 msgstr "বাতিল করুন"
 
 msgctxt ""
-"QGuiApplication|Translate this string to the string 'LTR' in left-to-right languages or to 'RTL' in right-to-left languages "
-"(such as Hebrew and Arabic) to get proper UI layout."
+"QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
+"languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
+"to get proper UI layout."
 msgid "QT_LAYOUT_DIRECTION"
 msgstr "QT_LAYOUT_DIRECTION"
+
+msgctxt "QObject|"
+msgid "PAUSE ALL"
+msgstr "সমস্ত বিরাম দিন"
+
+msgctxt "QObject|"
+msgid "Downloading..."
+msgstr "ডাউনলোড হচ্ছে..."
+
+msgctxt "QObject|"
+msgid "DISABLE SNAIL MODE"
+msgstr "শামুক মোড অক্ষম করুন"
+
+msgctxt "QObject|"
+msgid "SNAIL MODE"
+msgstr "শামুক মোড"
+
+msgctxt "QObject|"
+msgid "Open folder"
+msgstr "ফোল্ডার খোলা"
+
+msgctxt "QObject|"
+msgid "upload paused"
+msgstr "আপলোড বিরাম দেওয়া হয়েছে৷"
+
+msgctxt "QObject|"
+msgid "There is not enough disk space."
+msgstr "পর্যাপ্ত ডিস্ক স্থান নেই."
+
+msgctxt "QObject|"
+msgid "YouTube downloads are not available"
+msgstr "YouTube ডাউনলোড পাওয়া যায় না"
+
+msgctxt "QObject|"
+msgid "Files were modified"
+msgstr "ফাইল সংশোধন করা হয়েছে"
+
+msgctxt "QObject|"
+msgid ""
+"The list of downloads is damaged.\n"
+"%1 has failed to restore it from backup.\n"
+"Please close all your web browsers and try again."
+msgstr ""
+"ডাউনলোড তালিকা ক্ষতিগ্রস্ত হয়.\n"
+"%1 এটিকে ব্যাকআপ থেকে পুনরুদ্ধার করতে ব্যর্থ হয়েছে।\n"
+"আপনার সমস্ত ওয়েব ব্রাউজার বন্ধ করুন এবং আবার চেষ্টা করুন."
+
+msgctxt "QObject|"
+msgid "Fatal error: failed to load the database."
+msgstr "মারাত্মক ত্রুটি: ডাটাবেস লোড করতে ব্যর্থ হয়েছে৷"
+
+msgctxt "QObject|"
+msgid ""
+"Would you like to erase it (this will clear your downloads list and all %1 "
+"data)?"
+msgstr ""
+"আপনি কি এটি মুছে ফেলতে চান (এটি আপনার ডাউনলোড তালিকা এবং সমস্ত %1 ডেটা সাফ "
+"করবে)?"
+
+msgctxt "QObject|"
+msgid "Failed."
+msgstr "ব্যর্থ হয়েছে."
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -3435,7 +3576,7 @@ msgstr "অ্যাপ ব্যাকএন্ডের সার্ভার 
 
 msgctxt "QObject|"
 msgid "Error"
-msgstr "ত্রুটি"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Connection failure"
@@ -3446,24 +3587,20 @@ msgid "App frontend's server listen failed."
 msgstr "অ্যাপ ফ্রন্টএন্ডের সার্ভার শোনা ব্যর্থ হয়েছে৷"
 
 msgctxt "QObject|"
-msgid "QML load failure."
-msgstr "QML লোড ব্যর্থতা।"
+msgid "Music"
+msgstr "সঙ্গীত"
 
 msgctxt "QObject|"
-msgid "Failed to initialize app state manager."
-msgstr "অ্যাপ্লিকেশান স্টেট ম্যানেজার শুরু করতে ব্যর্থ হয়েছে৷"
+msgid "Video"
+msgstr "ভিডিও"
 
 msgctxt "QObject|"
-msgid ""
-"\n"
-"Error: %1"
-msgstr ""
-"\n"
-"ত্রুটি: %1"
+msgid "%1 of unknown at %2"
+msgstr "%1 অজানা %2 এ"
 
 msgctxt "QObject|"
-msgid "Enter URL"
-msgstr "URL দিন"
+msgid "%1 of %2 at %3"
+msgstr "%3 এ %2 এর %1"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
@@ -3486,16 +3623,28 @@ msgid "Exit"
 msgstr "প্রস্থান করুন"
 
 msgctxt "QObject|"
-msgid "Show main window"
-msgstr "প্রধান উইন্ডো দেখান"
+msgid "QML load failure."
+msgstr "QML লোড ব্যর্থতা।"
 
 msgctxt "QObject|"
-msgid "About %1"
-msgstr "সম্পর্কিত %1"
+msgid "Failed to initialize app state manager."
+msgstr "অ্যাপ্লিকেশান স্টেট ম্যানেজার শুরু করতে ব্যর্থ হয়েছে৷"
 
 msgctxt "QObject|"
-msgid "Quit"
-msgstr "প্রস্থান করুন"
+msgid ""
+"\n"
+"Error: %1"
+msgstr ""
+"\n"
+"ত্রুটি: %1"
+
+msgctxt "QObject|"
+msgid "Missing %path% parameter."
+msgstr "অনুপস্থিত %path% প্যারামিটার।"
+
+msgctxt "QObject|"
+msgid "Enter URL"
+msgstr "URL দিন"
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -3570,6 +3719,18 @@ msgid "%1 T/s"
 msgstr "%1 T/s"
 
 msgctxt "QObject|"
+msgid "Show main window"
+msgstr "প্রধান উইন্ডো দেখান"
+
+msgctxt "QObject|"
+msgid "About %1"
+msgstr "সম্পর্কিত %1"
+
+msgctxt "QObject|"
+msgid "Quit"
+msgstr "প্রস্থান করুন"
+
+msgctxt "QObject|"
 msgid "Download complete"
 msgstr "ডাউনলোড শেষ"
 
@@ -3583,11 +3744,47 @@ msgstr "ডাউনলোড ব্যর্থ হয়েছে"
 
 msgctxt "QObject|"
 msgid "Downloads failed"
-msgstr "ডাউনলোড ব্যর্থ হয়েছে"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Download added"
 msgstr "ডাউনলোড যোগ করা হয়েছে"
+
+msgctxt "QObject|"
+msgid "%1 %2 or higher"
+msgstr "%1 %2 বা উচ্চতর"
+
+msgctxt "QObject|"
+msgid "Launch Python code"
+msgstr "পাইথন কোড চালু করুন"
+
+msgctxt "QObject|"
+msgid "Allows to execute arbitrary code."
+msgstr "নির্বিচারে কোড চালানোর অনুমতি দেয়।"
+
+msgctxt "QObject|"
+msgid "Installing..."
+msgstr "ইনস্টল করা হচ্ছে..."
+
+msgctxt "QObject|"
+msgid "Uninstalling..."
+msgstr "আনইনস্টল হচ্ছে..."
+
+msgctxt "QObject|"
+msgid "Missing components"
+msgstr "অনুপস্থিত উপাদান"
+
+msgctxt "QObject|"
+msgid "%1 are required"
+msgstr "%1 প্রয়োজন"
+
+msgctxt "QObject|"
+msgid "%1 is required"
+msgstr "%1 প্রয়োজন"
+
+msgctxt "QObject|"
+msgid "Failed to load"
+msgstr "লোড করতে ব্যর্থ"
 
 msgctxt "QObject|"
 msgid "Unknown error"
@@ -3938,12 +4135,44 @@ msgid "Unwanted behavior detected"
 msgstr "অবাঞ্ছিত আচরণ সনাক্ত করা হয়েছে"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "অসমর্থিত URL"
 
 msgctxt "QObject|"
 msgid "Untitled"
 msgstr "শিরোনামহীন"
+
+msgctxt "QObject|"
+msgid "Documents"
+msgstr "নথিপত্র"
+
+msgctxt "QObject|"
+msgid "Pictures"
+msgstr "ছবি"
+
+msgctxt "QObject|"
+msgid "Videos"
+msgstr "ভিডিও"
+
+msgctxt "QObject|"
+msgid "Miscellaneous"
+msgstr "বিবিধ"
+
+msgctxt "QObject|"
+msgid "Playlist"
+msgstr "প্লেলিস্ট"
+
+msgctxt "QObject|"
+msgid "Update URL"
+msgstr "URL আপডেট করুন"
 
 msgctxt "QObject|"
 msgid "Failed to remove current version"
@@ -3977,143 +4206,9 @@ msgctxt "QObject|"
 msgid "Download video with %1"
 msgstr "%1 দিয়ে ভিডিও ডাউনলোড করুন"
 
-msgctxt "QObject|"
-msgid "Video"
-msgstr "ভিডিও"
-
-msgctxt "QObject|"
-msgid "Music"
-msgstr "সঙ্গীত"
-
-msgctxt "QObject|"
-msgid "There is not enough disk space."
-msgstr "পর্যাপ্ত ডিস্ক স্থান নেই."
-
-msgctxt "QObject|"
-msgid ""
-"The list of downloads is damaged.\n"
-"%1 has failed to restore it from backup.\n"
-"Please close all your web browsers and try again."
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
 msgstr ""
-"ডাউনলোড তালিকা ক্ষতিগ্রস্ত হয়.\n"
-"%1 এটিকে ব্যাকআপ থেকে পুনরুদ্ধার করতে ব্যর্থ হয়েছে।\n"
-"আপনার সমস্ত ওয়েব ব্রাউজার বন্ধ করুন এবং আবার চেষ্টা করুন."
-
-msgctxt "QObject|"
-msgid "Fatal error: failed to load the database."
-msgstr "মারাত্মক ত্রুটি: ডাটাবেস লোড করতে ব্যর্থ হয়েছে৷"
-
-msgctxt "QObject|"
-msgid "Would you like to erase it (this will clear your downloads list and all %1 data)?"
-msgstr "আপনি কি এটি মুছে ফেলতে চান (এটি আপনার ডাউনলোড তালিকা এবং সমস্ত %1 ডেটা সাফ করবে)?"
-
-msgctxt "QObject|"
-msgid "Failed."
-msgstr "ব্যর্থ হয়েছে."
-
-msgctxt "QObject|"
-msgid "Missing %path% parameter."
-msgstr "অনুপস্থিত %path% প্যারামিটার।"
-
-msgctxt "QObject|"
-msgid "Update URL"
-msgstr "URL আপডেট করুন"
-
-msgctxt "QObject|"
-msgid "Documents"
-msgstr "নথিপত্র"
-
-msgctxt "QObject|"
-msgid "Pictures"
-msgstr "ছবি"
-
-msgctxt "QObject|"
-msgid "Videos"
-msgstr "ভিডিও"
-
-msgctxt "QObject|"
-msgid "Miscellaneous"
-msgstr "বিবিধ"
-
-msgctxt "QObject|"
-msgid "upload paused"
-msgstr "আপলোড বিরাম দেওয়া হয়েছে৷"
-
-msgctxt "QObject|"
-msgid "PAUSE ALL"
-msgstr "সমস্ত বিরাম দিন"
-
-msgctxt "QObject|"
-msgid "Downloading..."
-msgstr "ডাউনলোড হচ্ছে..."
-
-msgctxt "QObject|"
-msgid "DISABLE SNAIL MODE"
-msgstr "শামুক মোড অক্ষম করুন"
-
-msgctxt "QObject|"
-msgid "SNAIL MODE"
-msgstr "শামুক মোড"
-
-msgctxt "QObject|"
-msgid "YouTube downloads are not available"
-msgstr "YouTube ডাউনলোড পাওয়া যায় না"
-
-msgctxt "QObject|"
-msgid "Files were modified"
-msgstr "ফাইল সংশোধন করা হয়েছে"
-
-msgctxt "QObject|"
-msgid "%1 of unknown at %2"
-msgstr "%1 অজানা %2 এ"
-
-msgctxt "QObject|"
-msgid "%1 of %2 at %3"
-msgstr "%3 এ %2 এর %1"
-
-msgctxt "QObject|"
-msgid "%1 %2 or higher"
-msgstr "%1 %2 বা উচ্চতর"
-
-msgctxt "QObject|"
-msgid "Launch Python code"
-msgstr "পাইথন কোড চালু করুন"
-
-msgctxt "QObject|"
-msgid "Allows to execute arbitrary code."
-msgstr "নির্বিচারে কোড চালানোর অনুমতি দেয়।"
-
-msgctxt "QObject|"
-msgid "Installing..."
-msgstr "ইনস্টল করা হচ্ছে..."
-
-msgctxt "QObject|"
-msgid "Uninstalling..."
-msgstr "আনইনস্টল হচ্ছে..."
-
-msgctxt "QObject|"
-msgid "Missing components"
-msgstr "অনুপস্থিত উপাদান"
-
-msgctxt "QObject|"
-msgid "%1 are required"
-msgstr "%1 প্রয়োজন"
-
-msgctxt "QObject|"
-msgid "%1 is required"
-msgstr "%1 প্রয়োজন"
-
-msgctxt "QObject|"
-msgid "Failed to load"
-msgstr "লোড করতে ব্যর্থ"
-
-msgctxt "QObject|"
-msgid "Playlist"
-msgstr "প্লেলিস্ট"
-
-msgctxt "QObject|"
-msgid "Open folder"
-msgstr "ফোল্ডার খোলা"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4268,6 +4363,18 @@ msgid "Cancel"
 msgstr "বাতিল করুন"
 
 msgctxt "Scheduler|"
+msgid "Everyday"
+msgstr "প্রতিদিন"
+
+msgctxt "Scheduler|"
+msgid "From:"
+msgstr "থেকেঃ"
+
+msgctxt "Scheduler|"
+msgid "To:"
+msgstr "প্রতিঃ"
+
+msgctxt "Scheduler|"
 msgid "Sun"
 msgstr "রবি"
 
@@ -4294,18 +4401,6 @@ msgstr "শুক্র"
 msgctxt "Scheduler|"
 msgid "Sat"
 msgstr "শনি"
-
-msgctxt "Scheduler|"
-msgid "From:"
-msgstr "থেকেঃ"
-
-msgctxt "Scheduler|"
-msgid "Everyday"
-msgstr "প্রতিদিন"
-
-msgctxt "Scheduler|"
-msgid "To:"
-msgstr "প্রতিঃ"
 
 msgctxt "SchedulerButton|"
 msgid "Scheduler"
@@ -4401,11 +4496,11 @@ msgstr "তারিখ অনুসারে"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "By name"
-msgstr "নাম অনুসারে"
+msgstr ""
 
 msgctxt "SelectSortFieldDialog|"
 msgid "By size"
-msgstr "আকার অনুসারে"
+msgstr ""
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
@@ -4437,7 +4532,7 @@ msgstr "ব্রাউজার ইন্টিগ্রেশন"
 
 msgctxt "SettingsPage|"
 msgid "Network"
-msgstr "নেটওয়ার্ক"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Traffic Limits"
@@ -4500,10 +4595,6 @@ msgid "Restore default settings?"
 msgstr "ডিফল্ট সেটিংস পূর্বাবস্থায় ফিরিয়ে আনুন?"
 
 msgctxt "ShutdownBanner|"
-msgid "Cancel"
-msgstr "বাতিল করুন"
-
-msgctxt "ShutdownBanner|"
 msgid "Computer will be put to sleep after all downloads are completed."
 msgstr "সমস্ত ডাউনলোড সম্পূর্ণ হওয়ার পরে কম্পিউটারটি ঘুমাতে দেওয়া হবে।"
 
@@ -4515,17 +4606,13 @@ msgctxt "ShutdownBanner|"
 msgid "Computer will be shutdown after all downloads are completed."
 msgstr "সমস্ত ডাউনলোড শেষ হলে কম্পিউটার বন্ধ হয়ে যাবে।"
 
-msgctxt "ShutdownDialog|"
-msgid "Confirm"
-msgstr "নিশ্চিত করুন"
-
-msgctxt "ShutdownDialog|"
+msgctxt "ShutdownBanner|"
 msgid "Cancel"
 msgstr "বাতিল করুন"
 
 msgctxt "ShutdownDialog|"
-msgid "OK (%1)"
-msgstr "ওকে (%1)"
+msgid "Confirm"
+msgstr "নিশ্চিত করুন"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be put to Sleep mode."
@@ -4538,6 +4625,14 @@ msgstr "দৃষ্টি আকর্ষণ করছি! আপনার ক�
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
 msgstr "দৃষ্টি আকর্ষণ করছি! আপনার কম্পিউটার বন্ধ হয়ে যাবে।"
+
+msgctxt "ShutdownDialog|"
+msgid "Cancel"
+msgstr "বাতিল করুন"
+
+msgctxt "ShutdownDialog|"
+msgid "OK (%1)"
+msgstr "ওকে (%1)"
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
@@ -4557,7 +4652,7 @@ msgstr "ডাউনলোড সম্পন্ন হয়েছে"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads failed"
-msgstr "ডাউনলোড ব্যর্থ হয়েছে৷"
+msgstr ""
 
 msgctxt "SoundsSettings|"
 msgid "No active downloads"
@@ -4568,8 +4663,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "সতর্কতাঃ সামনে সম্ভাব্য নিরাপত্তা ঝুঁকি"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr ""
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL সার্টিফিকেট বৈধ নয়।"
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4582,6 +4685,16 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4737,7 +4850,7 @@ msgstr "ট্রাফিক সীমা"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Low"
-msgstr "নিম্ন"
+msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Medium"
@@ -4845,7 +4958,7 @@ msgstr "মধ্যম"
 
 msgctxt "TumComboBox|"
 msgid "Low"
-msgstr "কম"
+msgstr ""
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Unlimited"
@@ -4917,15 +5030,15 @@ msgstr "নির্বাচিত ডিরেক্টরিতে লেখ�
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "আকারঃ %1 (ডিস্কের স্পেসঃ %2)"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
-msgstr "ডিস্কের স্পেসঃ %1"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
-msgstr "আকারঃ %1"
+msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
@@ -5028,16 +5141,16 @@ msgid "Thanks a lot! Please rate on Google Play."
 msgstr "অনেক ধন্যবাদ! অনুগ্রহ করে গুগল প্লেতে রেটিং দিন।"
 
 msgctxt "VoteBlock|"
-msgid "Later"
-msgstr "পরে"
-
-msgctxt "VoteBlock|"
 msgid "No, thanks"
 msgstr "না, ধন্যবাদ"
 
 msgctxt "VoteBlock|"
 msgid "OK, sure!"
 msgstr "নিশ্চিত ঠিক আছে!"
+
+msgctxt "VoteBlock|"
+msgid "Later"
+msgstr "পরে"
 
 msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."
@@ -5080,13 +5193,13 @@ msgid "Update"
 msgstr "হালনাগাদ"
 
 msgctxt "main|"
+msgid "Remote connection to %1"
+msgstr "%1 এর সাথে দূরবর্তী সংযোগ"
+
+msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "দুঃখিত, প্রতিবেদনটি পাঠানো হয়নি, একটি ত্রুটি ঘটেছে: %1"
 
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "রিপোর্ট পাঠানো হয়েছে। আপনার সহযোগিতার জন্য ধন্যবাদ!"
-
-msgctxt "main|"
-msgid "Remote connection to %1"
-msgstr "%1 এর সাথে দূরবর্তী সংযোগ"
