@@ -605,7 +605,7 @@ msgstr "일반"
 
 msgctxt "BottomPanelTools|"
 msgid "Details"
-msgstr ""
+msgstr "세부 정보"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
@@ -769,11 +769,11 @@ msgstr "(브라우저가 설치되지 않았습니다)"
 
 msgctxt "BtDetailsTab|"
 msgid "N/A"
-msgstr ""
+msgstr "없음"
 
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
-msgstr ""
+msgstr "(연결됨: %1)"
 
 msgctxt "BtDetailsTab|"
 msgid "Status"
@@ -3213,7 +3213,7 @@ msgstr "정보"
 
 msgctxt "Page|"
 msgid "Details"
-msgstr ""
+msgstr "세부 정보"
 
 msgctxt "Page|"
 msgid "Files"
@@ -4019,6 +4019,14 @@ msgid "Unwanted behavior detected"
 msgstr "원하지 않는 동작이 탐지됨"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "지원되지 않는 URL"
 
@@ -4164,7 +4172,7 @@ msgstr "폴더 열기"
 
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
-msgstr ""
+msgstr "%1이(가) 0이 아닌(%2) 종료 상태를 반환했습니다"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4619,8 +4627,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "경고: 잠재적인 보안 위험이 있습니다"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr ""
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL 인증서가 잘못되었습니다."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4633,6 +4649,16 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"

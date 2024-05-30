@@ -1,11 +1,5 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: vi_VN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,7 +7,6 @@ msgstr ""
 "X-Language: vi_VN\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.4.2\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -875,7 +868,7 @@ msgstr "Thêm tải xuống"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
-msgstr ""
+msgstr "Báo cáo vấn đề"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
@@ -1670,7 +1663,7 @@ msgstr "Mở"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
-msgstr ""
+msgstr "Báo cáo vấn đề"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Enable auto retry for this kind of errors"
@@ -2525,7 +2518,7 @@ msgstr "Ngôn ngữ"
 
 msgctxt "LeftDrawer|"
 msgid "remote control"
-msgstr ""
+msgstr "điều khiển từ xa"
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
@@ -2774,7 +2767,7 @@ msgstr ""
 
 msgctxt "MainToolbar|"
 msgid "remote control"
-msgstr ""
+msgstr "điều khiển từ xa"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3236,7 +3229,7 @@ msgstr "Thông tin"
 
 msgctxt "Page|"
 msgid "Details"
-msgstr ""
+msgstr "Chi tiết"
 
 msgctxt "Page|"
 msgid "Files"
@@ -3429,7 +3422,7 @@ msgstr "Loại bỏ"
 
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
-msgstr ""
+msgstr "Đang cập nhật..."
 
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
@@ -4000,6 +3993,14 @@ msgid "Unwanted behavior detected"
 msgstr ""
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr ""
 
@@ -4070,7 +4071,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Failed."
-msgstr ""
+msgstr "Thất bại."
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
@@ -4302,7 +4303,7 @@ msgstr ""
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
-msgstr ""
+msgstr "Báo cáo vấn đề"
 
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
@@ -4558,11 +4559,11 @@ msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
-msgstr ""
+msgstr "Thiết lập mặc định"
 
 msgctxt "SettingsPage|"
 msgid "Restore default settings?"
-msgstr ""
+msgstr "Khôi phục lại các thiết lập mặc định?"
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -4634,7 +4635,15 @@ msgid "Warning: potential security risk ahead"
 msgstr ""
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr ""
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
 msgstr ""
 
 msgctxt "SslDialog|"
@@ -4648,6 +4657,16 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"

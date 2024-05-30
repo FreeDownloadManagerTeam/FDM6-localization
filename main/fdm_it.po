@@ -533,11 +533,11 @@ msgstr "1 giorno"
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Server has returned a web page."
-msgstr "Il server ha restituito una pagina Web."
+msgstr "Il server ha restituito una pagina web."
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Click to open it in the web browser."
-msgstr "Fai clic per aprirlo nel browser Web."
+msgstr "Fai clic per aprirla nel browser web."
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -4040,6 +4040,14 @@ msgid "Unwanted behavior detected"
 msgstr "Rilevato comportamento indesiderato"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "Chiave host sconosciuta"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "La chiave pubblica dell'host è sconosciuta"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "URL non supportato"
 
@@ -4684,8 +4692,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Attenzione: potenziale rischio sicurezza"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "Non è possibile stabilire l'autenticità dell'host."
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "Certificato SSL non valido."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "chiave impronte digitali %1"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4698,6 +4714,18 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+"Se ti fidi di questo host, seleziona 'Accetto' per ricordare la chiave e "
+"continuare a connetterti."
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "Accetto"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
