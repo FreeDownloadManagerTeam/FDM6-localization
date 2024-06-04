@@ -605,7 +605,7 @@ msgstr "常规"
 
 msgctxt "BottomPanelTools|"
 msgid "Details"
-msgstr ""
+msgstr "详情"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
@@ -768,8 +768,12 @@ msgid "(browser is not installed)"
 msgstr "(浏览器未安装)"
 
 msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr "不适用"
+
+msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
-msgstr ""
+msgstr "(已连接: %1)"
 
 msgctxt "BtDetailsTab|"
 msgid "Status"
@@ -3209,7 +3213,7 @@ msgstr "信息"
 
 msgctxt "Page|"
 msgid "Details"
-msgstr ""
+msgstr "详情"
 
 msgctxt "Page|"
 msgid "Files"
@@ -3977,6 +3981,14 @@ msgid "Unwanted behavior detected"
 msgstr "发现非预期行为"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "未知的主机密钥"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "主机的公钥未知"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "不支持的链接"
 
@@ -4158,7 +4170,7 @@ msgstr "打开文件夹"
 
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
-msgstr ""
+msgstr "%1返回了非零(%2)退出状态"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4613,8 +4625,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "警告：有潜在安全风险"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "无法建立到服务器的认证。"
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
-msgstr "SSL 证书不存在."
+msgstr "SSL 证书不存在。"
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "%1公钥指纹"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4627,6 +4647,16 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr "如果您信任此服务器，选择接受以记忆此公钥并继续"
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "接受"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"

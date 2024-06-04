@@ -777,6 +777,10 @@ msgid "(browser is not installed)"
 msgstr "(браузер не установлен)"
 
 msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr "N/A"
+
+msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
 msgstr "(подсоединено: %1)"
 
@@ -4014,6 +4018,14 @@ msgid "Unwanted behavior detected"
 msgstr "Обнаружено нежелательное поведение"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "Неизвестный ключ сервера"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "Публичный ключ сервера не известен"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "Неподдерживаемая ссылка"
 
@@ -4651,8 +4663,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Предупреждение: впереди потенциальная угроза безопасности"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "Подлинность сервера не может быть установлена."
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL-сертификат недействителен."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "Отпечатки %1 ключа"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4665,6 +4685,16 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr "Если вы доверяете этому узлу, выберите Принять, чтобы запомнить ключ и продолжить подключение."
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "Принять"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"

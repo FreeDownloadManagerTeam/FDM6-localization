@@ -204,7 +204,7 @@ msgstr "Varsayılan ayarlar geri yüklensin mi?"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
-msgstr "İndirmeler listesini her şu sürede yedekle"
+msgstr "İndirmeler listesini her şu sürede yedekle:"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is an active download"
@@ -610,7 +610,7 @@ msgstr "Genel"
 
 msgctxt "BottomPanelTools|"
 msgid "Details"
-msgstr ""
+msgstr "Ayrıntılar"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
@@ -777,8 +777,12 @@ msgid "(browser is not installed)"
 msgstr "(tarayıcı yüklü değil)"
 
 msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr "Yok"
+
+msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
-msgstr ""
+msgstr "(bağlı: %1)"
 
 msgctxt "BtDetailsTab|"
 msgid "Status"
@@ -2079,11 +2083,11 @@ msgstr "Tüm dosyalar"
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
-msgstr "Klasör seç"
+msgstr "Klasör seçin"
 
 msgctxt "FilePickerPage|"
 msgid "Select file"
-msgstr "Dosya seç"
+msgstr "Dosya seçin"
 
 msgctxt "FilePickerPage|"
 msgid "OK"
@@ -2404,7 +2408,7 @@ msgstr "Hız"
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
-msgstr "İndirme hızı:"
+msgstr "İndirme hızı     :"
 
 msgctxt "GeneralTab|"
 msgid "Upload speed:"
@@ -3233,7 +3237,7 @@ msgstr "Bilgi"
 
 msgctxt "Page|"
 msgid "Details"
-msgstr ""
+msgstr "Ayrıntılar"
 
 msgctxt "Page|"
 msgid "Files"
@@ -4008,6 +4012,14 @@ msgid "Unwanted behavior detected"
 msgstr "İstenmeyen davranış algılandı"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "Bilinmeyen anamakine anahtarı"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "Anamakinenin ortak anahtarı bilinmiyor"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "Desteklenmeyen URL"
 
@@ -4191,7 +4203,7 @@ msgstr "Klasörü aç"
 
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
-msgstr ""
+msgstr "%1 sıfır olmayan (%2) çıkış durumunu döndürdü"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4256,7 +4268,7 @@ msgstr "Durum"
 
 msgctxt "RemoteControlSettings|"
 msgid "Don't use network proxy"
-msgstr "Ağ vekil sunucu kullanma"
+msgstr "Ağ vekil sunucusu kullanma"
 
 msgctxt "RemoteControlSettings|"
 msgid "Remote control settings"
@@ -4648,8 +4660,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Uyarı: olası güvenlik riski ileride"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "Anamakinenin gerçekliği belirlenemiyor."
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL Sertifikası geçersiz."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "%1 anahtarı parmak izi"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4662,6 +4682,18 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+"Eğer bu anamakineye güveniyorsanız, anahtarı hatırlamak ve bağlanmaya devam "
+"etmek için Kabul et'i seçin."
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "Kabul et"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -5029,7 +5061,7 @@ msgstr "Yeni sürüm mevcut"
 
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
-msgstr "%1'deki yenilikler"
+msgstr "%1 sürümündeki yenilikler"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
@@ -5129,7 +5161,7 @@ msgstr "Yükleniyor"
 
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
-msgstr "%1'ye bağlantı"
+msgstr "%1 kimliğine bağlantı"
 
 msgctxt "WaitingPage|"
 msgid "Error: %1"

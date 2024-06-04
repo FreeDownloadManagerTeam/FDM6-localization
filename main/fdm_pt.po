@@ -615,7 +615,7 @@ msgstr "Geral"
 
 msgctxt "BottomPanelTools|"
 msgid "Details"
-msgstr ""
+msgstr "Detalhes"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
@@ -782,8 +782,12 @@ msgid "(browser is not installed)"
 msgstr "(navegador não instalado)"
 
 msgctxt "BtDetailsTab|"
-msgid "(connected: %1)"
+msgid "N/A"
 msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr "(conectado: %1)"
 
 msgctxt "BtDetailsTab|"
 msgid "Status"
@@ -3246,7 +3250,7 @@ msgstr "Informação"
 
 msgctxt "Page|"
 msgid "Details"
-msgstr ""
+msgstr "Detalhes"
 
 msgctxt "Page|"
 msgid "Files"
@@ -4021,6 +4025,14 @@ msgid "Unwanted behavior detected"
 msgstr "Comportamento indesejado detectado"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "URL não suportado"
 
@@ -4203,7 +4215,7 @@ msgstr "Abrir pasta"
 
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
-msgstr ""
+msgstr "%1 retornou status de saída diferente de zero (%2)"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4660,8 +4672,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Aviso: risco potencial de segurança à frente"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr ""
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "O certificado SSL não é válido."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4674,6 +4694,16 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"

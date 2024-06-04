@@ -611,7 +611,7 @@ msgstr "Ogólne"
 
 msgctxt "BottomPanelTools|"
 msgid "Details"
-msgstr ""
+msgstr "Szczegóły"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
@@ -747,7 +747,7 @@ msgstr "Gdy anulujesz pobieranie pliku w %1, użyj pobierania w przeglądarce"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
-msgstr ""
+msgstr "Nie przechwytuj, jeśli naciśnięto klawisz INSERT"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -778,8 +778,12 @@ msgid "(browser is not installed)"
 msgstr "(przeglądarka nie jest zainstalowana)"
 
 msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr "Brak"
+
+msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
-msgstr ""
+msgstr "(podłączonych: %1)"
 
 msgctxt "BtDetailsTab|"
 msgid "Status"
@@ -3244,7 +3248,7 @@ msgstr "Info"
 
 msgctxt "Page|"
 msgid "Details"
-msgstr ""
+msgstr "Szczegóły"
 
 msgctxt "Page|"
 msgid "Files"
@@ -4018,6 +4022,14 @@ msgid "Unwanted behavior detected"
 msgstr "Wykryto niepożądane zachowanie"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "Nieznany klucz serwera"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "Klucz publiczny serwera jest nieznany"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "Nieobsługiwany adres pobierania"
 
@@ -4200,7 +4212,7 @@ msgstr "Otwórz folder"
 
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
-msgstr ""
+msgstr "%1 zwrócił kod wyjścia nie równy zeru (%2)"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4655,8 +4667,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Uwaga: wykryto potencjalne zagrożenie bezpieczeństwa"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "Nie można potwierdzić autoryzacji serwera."
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "Niepoprawny certyfikat SSL."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "%1 odcisk klucza"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4669,6 +4689,17 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr "Jeżeli ufasz temu serwerowi, wybierz Akceptuj, aby zapamiętać klucz "
+"i kontynuować łączenie."
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "Akceptuj"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4860,7 +4891,7 @@ msgstr "Maksymalna liczba dodatkowych zapytań o pobraniach:"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Enable additional downloads to optimize speed"
-msgstr ""
+msgstr "Włącz dodatkowe pobieranie, aby zoptymalizować prędkość"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
