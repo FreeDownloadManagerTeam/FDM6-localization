@@ -13,7 +13,7 @@ msgstr ""
 "X-Language: es\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -2761,7 +2761,7 @@ msgstr "Iniciar todo"
 
 msgctxt "MainToolbar|"
 msgid "Start selected"
-msgstr "Iniciar seleccionado"
+msgstr "Iniciar seleccionada"
 
 msgctxt "MainToolbar|"
 msgid "Pause all"
@@ -2769,11 +2769,11 @@ msgstr "Pausar todo"
 
 msgctxt "MainToolbar|"
 msgid "Pause selected"
-msgstr "Pausar seleccionado"
+msgstr "Pausar seleccionada"
 
 msgctxt "MainToolbar|"
 msgid "Delete selected"
-msgstr "Borrar seleccionado"
+msgstr "Borrar seleccionada"
 
 msgctxt "MainToolbar|"
 msgid "Move to..."
@@ -4039,6 +4039,14 @@ msgid "Unwanted behavior detected"
 msgstr "Comportamiento no deseado detectado"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "Clave de host desconocida"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "La clave pública del host es desconocida"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "URL no compatible"
 
@@ -4683,8 +4691,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Advertencia: riesgo potencial de seguridad adelante"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "No se puede establecer la autenticidad del host."
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "Certificado SSL no es válido."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "%1 huellas digitales clave"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4697,6 +4713,18 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+"Si confías en este host, selecciona Aceptar para recordar la clave y seguir "
+"conectándote."
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "Aceptar"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"

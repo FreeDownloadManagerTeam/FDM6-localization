@@ -4011,6 +4011,14 @@ msgid "Unwanted behavior detected"
 msgstr "Bylo detekováno nechtěné chování"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "Neznámý klíč hostitele"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "Veřejný klíč hostitele je neznámý"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "Nepodporovaná URL"
 
@@ -4647,8 +4655,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Varování: Možné potenciální riziko"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "Pravost hostitele nelze zjistit."
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL certifikát není platný."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "%1 otisků klíčů"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4661,6 +4677,16 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr "Pokud věříte tomuto hostiteli, zvolte Přijmout pro zapamatování klíče a pokračování v připojení."
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "Přijmout"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
