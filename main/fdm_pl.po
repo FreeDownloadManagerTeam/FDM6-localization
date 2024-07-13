@@ -148,11 +148,15 @@ msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
 msgstr ""
-"Kliknij na przycisku Zamknij, aby ukryć %1 i pozwolić mu na pracę w tle"
+"Użycie przycisku Zamknij ukrywa %1 i pozostawia program uruchomiony w tle"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Pokaż/ukryj panel dolny po kliknięciu na pobieranym pliku"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -4023,11 +4027,11 @@ msgstr "Wykryto niepożądane zachowanie"
 
 msgctxt "QObject|"
 msgid "Unknown host key"
-msgstr ""
+msgstr "Nieznany klucz serwera"
 
 msgctxt "QObject|"
 msgid "Public key of the host is unknown"
-msgstr ""
+msgstr "Klucz publiczny serwera jest nieznany"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -4668,7 +4672,7 @@ msgstr "Uwaga: wykryto potencjalne zagrożenie bezpieczeństwa"
 
 msgctxt "SslDialog|"
 msgid "The authenticity of the host can't be established."
-msgstr ""
+msgstr "Nie można potwierdzić autoryzacji serwera."
 
 msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
@@ -4676,7 +4680,7 @@ msgstr "Niepoprawny certyfikat SSL."
 
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
-msgstr ""
+msgstr "%1 odcisk klucza"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4695,10 +4699,12 @@ msgid ""
 "If you trust this host, select Accept to remember the key and carry on "
 "connecting."
 msgstr ""
+"Jeżeli ufasz temu serwerowi, wybierz Akceptuj, aby zapamiętać klucz i "
+"kontynuować łączenie."
 
 msgctxt "SslDialog|"
 msgid "Accept"
-msgstr ""
+msgstr "Akceptuj"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
