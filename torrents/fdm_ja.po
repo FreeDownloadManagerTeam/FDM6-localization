@@ -7,6 +7,15 @@ msgstr ""
 "X-Language: ja_JP\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
+"X-Crowdin-Project: fdm\n"
+"X-Crowdin-Project-ID: 698909\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /torrents/fdm_ja.po\n"
+"X-Crowdin-File-ID: 53142\n"
+"Project-Id-Version: fdm\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"PO-Revision-Date: 2024-07-27 19:39\n"
 
 msgctxt "AddTrackersDialog|"
 msgid "Add trackers"
@@ -18,23 +27,23 @@ msgstr "トラッカーの追加"
 
 msgctxt "BtDetailsTab|"
 msgid "Peers:"
-msgstr ""
+msgstr "ピア:"
 
 msgctxt "BtDetailsTab|"
 msgid "Seeds:"
-msgstr ""
+msgstr "シード:"
 
 msgctxt "BtDetailsTab|"
 msgid "Availability:"
-msgstr ""
+msgstr "可用性:"
 
 msgctxt "BtDetailsTab|"
 msgid "Last seen complete:"
-msgstr ""
+msgstr "最後に完了を確認:"
 
 msgctxt "BtDetailsTab|"
 msgid "Tracker URL"
-msgstr ""
+msgstr "トラッカーの URL"
 
 msgctxt "DownloadContextMenu|"
 msgid "Disable seeding"
@@ -54,11 +63,11 @@ msgstr "すべてのシーディングダウンロードを停止"
 
 msgctxt "DownloadContextMenu|"
 msgid "Ignore upload ratio limit"
-msgstr "アップロード比率制限を無視する"
+msgstr "アップロード制限を無視する"
 
 msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
-msgstr ""
+msgstr "リアナウンスを強制する"
 
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
@@ -74,15 +83,15 @@ msgstr "%1 をデフォルトのTorrentクライアントにする"
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
-msgstr "マグネットリンクと関連付ける"
+msgstr "マグネットリンクの関連付け"
 
 msgctxt "QObject|"
 msgid "Associate with torrent files"
-msgstr "Torrentファイルと関連付ける"
+msgstr "Torrentファイルの関連付け"
 
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
-msgstr "URLを入力するかTorrentファイルを選択してください"
+msgstr "URL を入力するか Torrent ファイルを選択してください"
 
 msgctxt "QObject|"
 msgid "Merge trackers"
@@ -98,40 +107,41 @@ msgstr "シーディング"
 
 msgctxt "Settings|"
 msgid "Automatically delete .torrent files once the download is finished"
-msgstr "ダウンロード完了時に .torrent ファイルを削除する"
+msgstr "ダウンロードが完了したら .torrent を削除する"
 
 msgctxt "Settings|"
 msgid "Monitor folder for new .torrent files"
-msgstr "新しい .torrent ファイルの監視フォルダ"
+msgstr "新しい .torrent ファイルのフォルダーを監視する"
 
 msgctxt "Settings|"
 msgid "Enable DHT to find more peers"
-msgstr ""
+msgstr "多くのピアを見つけるために DHT を有効にする"
 
 msgctxt "Settings|"
 msgid "Enable PeX to find more peers"
-msgstr ""
+msgstr "多くのピアを見つけるために PeX を有効にする"
 
 msgctxt "Settings|"
 msgid "Enable Local Peer Discovery to find more peers"
-msgstr ""
+msgstr "多くのピアを見つけるために Local Peer Discovery を有効にする"
 
 msgctxt "Settings|"
 msgid "Enable uTP"
-msgstr ""
+msgstr "uTP を有効にする"
 
 msgctxt "Settings|"
 msgid "Use system defined port for incoming connections"
-msgstr "着信接続にシステム定義のポートを使用する"
+msgstr "受信接続にシステム定義のポートを使用する"
 
 msgctxt "Settings|"
 msgid "Enable list of predefined trackers"
-msgstr ""
+msgstr "定義済みのトラッカーリストを有効にする"
 
 msgctxt "Settings|"
 msgid "BitTorrent settings"
-msgstr "BitTorrentの設定"
+msgstr "BitTorrent の設定"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"
 msgstr "比率でシーディングを停止する"
+
