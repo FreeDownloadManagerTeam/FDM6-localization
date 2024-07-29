@@ -2,6 +2,8 @@
 
 Kindly help us improve Free Download Manager :)
 
+Crowdinでpoファイルの編集やったら文句言われたので非公式としてここで公開しようと思います。
+管理しやすい環境を提供しろと思うよ。
 
 This repository contains .po files for [FDM 6.x](http://www.freedownloadmanager.org/download.htm) localization. To edit files, you will need the [Poedit](https://poedit.net/download) program.
 
