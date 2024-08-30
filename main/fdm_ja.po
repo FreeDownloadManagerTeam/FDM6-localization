@@ -225,7 +225,7 @@ msgstr "後でダウンロードを再開できる場合はスリープモード
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
-msgstr "ファイルが既に存在する場合の対応"
+msgstr "既存のファイルがある場合の対応"
 
 msgctxt "AdvancedSettings|"
 msgid "Rename"
@@ -241,11 +241,11 @@ msgstr "サウンドを使用する"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
-msgstr "バッテリーレベルが以下を下回った場合は、ダウンロードを実行しない"
+msgstr "バッテリーの残量が下回った場合はダウンロードを許可しない:"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not share files when running on battery"
-msgstr "バッテリー動作時にファイルを共有しない"
+msgstr "バッテリー駆動時はファイルを共有しない"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
@@ -3820,7 +3820,7 @@ msgstr "HTTP から HTTPS へ"
 
 msgctxt "QObject|"
 msgid "Token expired/invalid"
-msgstr "トークンの無効/有効期限が切れました"
+msgstr "トークンの期限切れ/無効"
 
 msgctxt "QObject|"
 msgid "Client Closed Request"
@@ -4794,7 +4794,7 @@ msgstr "トラフィックの制限"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Low"
-msgstr "低"
+msgstr "低い"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Medium"
@@ -4802,7 +4802,7 @@ msgstr "標準"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "High"
-msgstr "高"
+msgstr "高い"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Download speed"
