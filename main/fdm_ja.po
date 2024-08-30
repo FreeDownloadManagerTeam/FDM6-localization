@@ -1,5 +1,11 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -7,6 +13,7 @@ msgstr ""
 "X-Language: ja_JP\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
+"X-Generator: Poedit 3.4.4\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -50,7 +57,7 @@ msgstr "ミラーの追加"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr "ミラー URL の入力"
+msgstr "ミラー URL を入力してください"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
@@ -70,7 +77,7 @@ msgstr "OK"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
-msgstr "ミラー URL の入力"
+msgstr "ミラー URL を入力してください"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -126,7 +133,7 @@ msgstr "スケジュールされたダウンロードがある場合はスリー
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
-msgstr "ファイル共有中のスリープモードを許可する"
+msgstr "ファイルの共有中にスリープモードを許可する"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -134,7 +141,7 @@ msgstr "オプション"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch at startup (minimized)"
-msgstr "起動時に起動（最小化状態）"
+msgstr "スタートアップ時に起動する (最小化状態)"
 
 msgctxt "AdvancedSettings|"
 msgid "Show special offers"
@@ -158,7 +165,7 @@ msgstr "ドックアイコンを非表示"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
-msgstr "トレイアイコンでアクティブなダウンロードとアップロードを表示する"
+msgstr "トレイアイコンで実行中のダウンロードとアップロードを表示する"
 
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
@@ -210,7 +217,7 @@ msgstr "ダウンロードリストのバックアップ周期"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is an active download"
-msgstr "有効なダウンロードがある場合はスリープモードを回避する"
+msgstr "実行中のダウンロードがある場合はスリープモードを回避する"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode if downloads can be resumed later"
@@ -322,11 +329,11 @@ msgstr "引数には変数の %path%  を含める必要があります"
 
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
-msgstr "ダウンロード完了後に自動的にウイルススキャンを行う"
+msgstr "ダウンロード完了後に自動的にウイルスチェックを行う"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
-msgstr "ウイルスのチェック"
+msgstr "ウイルスチェック"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
@@ -366,35 +373,35 @@ msgstr "ファイルを移動しています。 (%1)"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
-msgstr "MP3 に変換中です。 (%1)"
+msgstr "MP3 に変換しています。 (%1)"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
-msgstr "MP4 に変換中です。 (%1)"
+msgstr "MP4 に変換しています。 (%1)"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
-msgstr "ファイル名を変更中です。 (%1)"
+msgstr "ファイル名を変更しています。 (%1)"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
-msgstr "メディアストリームを結合中です。 (%1)"
+msgstr "メディアストリームを結合しています。 (%1)"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
-msgstr "ファイルを削除中です。"
+msgstr "ファイルを削除しています。"
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
-msgstr "再開機能がないオペレーションが進行中です。"
+msgstr "再開機能がないオペレーションが進行しています"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
-msgstr "リモート %1 (%2) に接続中です..."
+msgstr "リモート %1 (%2) に接続しています..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
-msgstr "リモート %1 (%2) からデータを取得中です..."
+msgstr "リモート %1 (%2) からデータを取得しています..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
@@ -753,8 +760,8 @@ msgstr ""
 "\n"
 "これは、ダウンロードを %1 に追加するのに役立ちます。\n"
 "\n"
-"これらの中 (例えば、Google Drive のダウンロード) には、Android システムのブラウザーが %1 に提供していない追加情報を必要とするため、このブラウザーの"
-"みを使用して追加することができます (または、すべてのブラウザーに共通の方法はありません)。"
+"これらの中 (例えば、Google Drive のダウンロード) には、Android システムのブラウザーが %1 に提供していない追加情報を必要とするため、このブラウザーを"
+"使用してのみ追加することができます (または、すべてのブラウザーに共通の方法はありません)。"
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -1178,7 +1185,7 @@ msgstr "OK"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
-msgstr "作成中です... %1%"
+msgstr "作成しています... %1%"
 
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
@@ -1222,7 +1229,7 @@ msgstr "ダウンロードが失敗しました"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No active downloads"
-msgstr "実行中のダウンロードがありません"
+msgstr "実行中のダウンロードはありません"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Set sound"
@@ -1446,19 +1453,19 @@ msgstr "移動しています"
 
 msgctxt "DownloadsItemTools|"
 msgid "Checking for viruses"
-msgstr "ウイルスをスキャンしています"
+msgstr "ウイルスをチェックしています"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp3"
-msgstr "MP3 に変換中"
+msgstr "MP3 に変換しています"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp4"
-msgstr "MP4 に変換中"
+msgstr "MP4 に変換しています"
 
 msgctxt "DownloadsItemTools|"
 msgid "Calculating hash"
-msgstr "ハッシュを計算中"
+msgstr "ハッシュを計算しています"
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
@@ -1618,7 +1625,7 @@ msgstr "アップロード一時停止"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
-msgstr "優先順位"
+msgstr "優先度"
 
 msgctxt "DownloadsViewItem|"
 msgid "Upload paused"
@@ -1770,7 +1777,7 @@ msgstr "ダウンロードが完了しました"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
-msgstr "ファイルをチェックしています..."
+msgstr "ファイルを確認しています..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1778,7 +1785,7 @@ msgstr "メディアストリームを結合しています..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Requesting info..."
-msgstr "情報を要求... "
+msgstr "情報をリクエストしています..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Queued"
@@ -1798,7 +1805,7 @@ msgstr "キュー"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files"
-msgstr "ファイルをチェックしています"
+msgstr "ファイルを確認しています"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Merging media streams"
@@ -1958,7 +1965,7 @@ msgstr "すべてのファイル (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
-msgstr "ファイルの整合性をチェック"
+msgstr "ファイルの整合性を確認"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Hash"
@@ -1986,7 +1993,7 @@ msgstr "閉じる"
 
 msgctxt "FileIntegrityPage|"
 msgid "Check file integrity"
-msgstr "ファイルの整合性をチェック"
+msgstr "ファイルの整合性を確認"
 
 msgctxt "FileIntegrityPage|"
 msgid "MD5"
@@ -2122,7 +2129,7 @@ msgstr "進行状況"
 
 msgctxt "FilesTree|"
 msgid "Priority"
-msgstr "優先順位"
+msgstr "優先度"
 
 msgctxt "FilesTree|"
 msgid "Normal"
@@ -2150,15 +2157,15 @@ msgstr "選択解除"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High priority"
-msgstr "優先度: 高"
+msgstr "優先度: 高い"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Normal priority"
-msgstr "優先度: 通常"
+msgstr "優先度: 標準"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Low priority"
-msgstr "優先度: 低"
+msgstr "優先度: 低い"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -2298,7 +2305,7 @@ msgstr "一括ダウンロードの上限 URL 数"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
-msgstr "更新プログラム"
+msgstr "更新"
 
 msgctxt "GeneralSettings|"
 msgid "Check for updates automatically"
@@ -4651,7 +4658,7 @@ msgstr "続行"
 
 msgctxt "StatusItem|"
 msgid "Checking files"
-msgstr "ファイルをチェックしています"
+msgstr "ファイルを確認しています"
 
 msgctxt "StatusItem|"
 msgid "Merging media streams"
@@ -5023,7 +5030,7 @@ msgstr "更新プログラムのダウンロードエラー:"
 
 msgctxt "UpdateDialog|"
 msgid "Checking..."
-msgstr "チェック中..."
+msgstr "確認しています..."
 
 msgctxt "UpdateDialog|"
 msgid "Update downloaded"
