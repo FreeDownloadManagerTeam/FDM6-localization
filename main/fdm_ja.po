@@ -1,5 +1,11 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -7,6 +13,7 @@ msgstr ""
 "X-Language: ja_JP\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
+"X-Generator: Poedit 3.4.4\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -50,7 +57,7 @@ msgstr "ミラーの追加"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr "ミラー URL の入力"
+msgstr "ミラー URL を入力してください"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
@@ -70,7 +77,7 @@ msgstr "OK"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
-msgstr "ミラー URL の入力"
+msgstr "ミラー URL を入力してください"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -90,7 +97,7 @@ msgstr "タグの追加"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced"
-msgstr "高度"
+msgstr "高度な設定"
 
 msgctxt "AdvancedSettings|"
 msgid "Notifications"
@@ -98,19 +105,19 @@ msgstr "通知"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of added downloads via Notification Center"
-msgstr "ダウンロードの追加を通知センターで表示する"
+msgstr "追加したダウンロードを通知センターで知らせる"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "通知センターでダウンロード完了の通知を受け取る"
+msgstr "完了したダウンロードを通知センターで知らせる"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr "通知センターでダウンロード失敗の通知を受け取る"
+msgstr "失敗したダウンロードを通知センターで知らせる"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
-msgstr "%1 ウィンドウが非アクティブな時のみダウンロード状況を通知する"
+msgstr "%1 ウィンドウが非アクティブな時のみダウンロード状況を知らせる"
 
 msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
@@ -122,11 +129,11 @@ msgstr "電源の管理"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is a scheduled download"
-msgstr "スケジュールされたダウンロードがある場合はスリープモードを回避する"
+msgstr "ダウンロードが予定されている場合はスリープモードを回避する"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
-msgstr "ファイル共有中のスリープモードを許可する"
+msgstr "ファイルの共有中にスリープモードを許可する"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -134,7 +141,7 @@ msgstr "オプション"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch at startup (minimized)"
-msgstr "起動時に起動（最小化状態）"
+msgstr "スタートアップ時に起動する (最小化状態)"
 
 msgctxt "AdvancedSettings|"
 msgid "Show special offers"
@@ -145,13 +152,12 @@ msgid "Interface"
 msgstr "インターフェース"
 
 msgctxt "AdvancedSettings|"
-msgid ""
-"Click on the Close button to hide %1 and keep it running in the background"
-msgstr "閉じるをクリックすると %1 が非表示になり、バックグラウンドで実行し続けます"
+msgid "Click on the Close button to hide %1 and keep it running in the background"
+msgstr "閉じるボタンをクリックして %1 を非表示にし、バックグラウンドで実行し続ける"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "ダウンロードをクリックで、一番下のパネルを開く/非表示にする"
+msgstr "ダウンロードリストのクリックで下部パネルの表示/非表示を切り替える"
 
 msgctxt "AdvancedSettings|"
 msgid "Hide the Dock icon"
@@ -159,7 +165,7 @@ msgstr "ドックアイコンを非表示"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
-msgstr "トレイアイコンでアクティブなダウンロードとアップロードを表示する"
+msgstr "トレイアイコンで実行中のダウンロードとアップロードを表示する"
 
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
@@ -187,11 +193,11 @@ msgstr "引数:"
 
 msgctxt "AdvancedSettings|"
 msgid "Arguments must contain %path% variable"
-msgstr "引数には変数の %path%  が含まなければなりません"
+msgstr "引数には変数の %path%  を含める必要があります"
 
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
-msgstr "設定する既定値に戻す"
+msgstr "既定の設定に戻す"
 
 msgctxt "AdvancedSettings|"
 msgid "Reset"
@@ -211,7 +217,7 @@ msgstr "ダウンロードリストのバックアップ周期"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is an active download"
-msgstr "有効なダウンロードがある場合はスリープモードを回避する"
+msgstr "実行中のダウンロードがある場合はスリープモードを回避する"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode if downloads can be resumed later"
@@ -219,7 +225,7 @@ msgstr "後でダウンロードを再開できる場合はスリープモード
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
-msgstr "ファイルが既に存在する場合の対応"
+msgstr "既存のファイルがある場合の対応"
 
 msgctxt "AdvancedSettings|"
 msgid "Rename"
@@ -235,11 +241,11 @@ msgstr "サウンドを使用する"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
-msgstr "バッテリーレベルが以下を下回った場合は、ダウンロードを実行しない"
+msgstr "バッテリーの残量が下回った場合はダウンロードを許可しない:"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not share files when running on battery"
-msgstr "バッテリー駆動時はファイル共有をしない"
+msgstr "バッテリー駆動時はファイルを共有しない"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
@@ -319,15 +325,15 @@ msgstr "引数:"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments must contain %path% variable"
-msgstr "引数には変数の %path%  が含まなければなりません"
+msgstr "引数には変数の %path%  を含める必要があります"
 
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
-msgstr "ダウンロード完了後に自動的にウイルススキャンを行う"
+msgstr "ダウンロード完了後に自動的にウイルスチェックを行う"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
-msgstr "ウイルスのチェック"
+msgstr "ウイルスチェック"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
@@ -354,9 +360,7 @@ msgid "%1 needs permission to save downloaded files to your local storage."
 msgstr "%1 はダウンロードしたファイルをローカルストレージに保存する権限が必要です。"
 
 msgctxt "AppAndroidPermissionsManager|"
-msgid ""
-"%1 needs permission to show download progress within your system's "
-"notification panel."
+msgid "%1 needs permission to show download progress within your system's notification panel."
 msgstr "%1 はシステムの通知パネルにダウンロードの進行状況を表示する権限が必要です。"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
@@ -369,35 +373,35 @@ msgstr "ファイルを移動しています。 (%1)"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
-msgstr "MP3 に変換中です。 (%1)"
+msgstr "MP3 に変換しています。 (%1)"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
-msgstr "MP4 に変換中です。 (%1)"
+msgstr "MP4 に変換しています。 (%1)"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
-msgstr "ファイル名を変更中です。 (%1)"
+msgstr "ファイル名を変更しています。 (%1)"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
-msgstr "メディアストリームを結合中です。 (%1)"
+msgstr "メディアストリームを結合しています。 (%1)"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
-msgstr "ファイルを削除中です。"
+msgstr "ファイルを削除しています。"
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
-msgstr "再開機能がないオペレーションが進行中です。"
+msgstr "再開機能がないオペレーションが進行しています"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
-msgstr "リモート %1 (%2) に接続中です..."
+msgstr "リモート %1 (%2) に接続しています..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
-msgstr "リモート %1 (%2) からデータを取得中です..."
+msgstr "リモート %1 (%2) からデータを取得しています..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
@@ -437,7 +441,7 @@ msgstr "OK"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
-msgstr "認証が必須です"
+msgstr "認証が必要です"
 
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
@@ -605,7 +609,7 @@ msgstr "最低の音質ですが、ファイルが最も小さくなります。
 
 msgctxt "BottomPanelTools|"
 msgid "General"
-msgstr "一般"
+msgstr "全般"
 
 msgctxt "BottomPanelTools|"
 msgid "Details"
@@ -613,7 +617,7 @@ msgstr "詳細"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
-msgstr "進捗"
+msgstr "進行状況"
 
 msgctxt "BottomPanelTools|"
 msgid "Files"
@@ -685,13 +689,11 @@ msgstr "%1 がインストールされていません"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
-msgstr "ブラウザーの統合"
+msgstr "ブラウザーとの連携"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid ""
-"Make sure you have %1 extension installed, otherwise, click one of the "
-"buttons below"
-msgstr "ブラウザーの統合をする場合は、%1 の拡張機能をインストールしてください。まだの場合は、以下のボタンをクリックしてください。"
+msgid "Make sure you have %1 extension installed, otherwise, click one of the buttons below"
+msgstr "ブラウザーと連携する場合は、%1 の拡張機能をインストールしてください。まだの場合は、以下のボタンをクリックしてください。"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -731,7 +733,7 @@ msgstr "このファイル拡張子を有効にしますか？"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't catch downloads smaller than"
-msgstr "この値より小さいファイルをダウンロードしない："
+msgstr "この値より小さいファイルをダウンロードしない:"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
@@ -751,16 +753,15 @@ msgid ""
 "\n"
 "It helps you to add downloads into %1.\n"
 "\n"
-"Some of them (e.g. Google Drive downloads) can be added using this browser "
-"only, because they require additional information that your Android system's "
-"browser does not provide to %1 (or there is no universal way for all "
-"browsers to do this)."
+"Some of them (e.g. Google Drive downloads) can be added using this browser only, because they require additional information that your Android "
+"system's browser does not provide to %1 (or there is no universal way for all browsers to do this)."
 msgstr ""
 "内蔵ウェブブラウザーで開こうとしています。\n"
 "\n"
 "これは、ダウンロードを %1 に追加するのに役立ちます。\n"
 "\n"
-"これらの中 (例えば、Google Drive のダウンロード) には、Android システムのブラウザーが %1 に提供していない追加情報を必要とするものがあるため、このブラウザーのみを使用して追加することができます (または、すべてのブラウザーに共通の方法はありません)。"
+"これらの中 (例えば、Google Drive のダウンロード) には、Android システムのブラウザーが %1 に提供していない追加情報を必要とするため、このブラウザーを"
+"使用してのみ追加することができます (または、すべてのブラウザーに共通の方法はありません)。"
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -784,11 +785,11 @@ msgstr "状態"
 
 msgctxt "BtDetailsTab|"
 msgid "Updating..."
-msgstr "アップデート中です..."
+msgstr "更新しています..."
 
 msgctxt "BtSettings|"
 msgid "General"
-msgstr "一般"
+msgstr "全般"
 
 msgctxt "BtSettings|"
 msgid "Monitoring"
@@ -828,7 +829,7 @@ msgstr "暗号化が要求する"
 
 msgctxt "BtSettings|"
 msgid "Advanced"
-msgstr "高度"
+msgstr "高度な設定"
 
 msgctxt "BtSettings|"
 msgid "Current port: %1"
@@ -840,10 +841,11 @@ msgstr "カスタムポート:"
 
 msgctxt "BtSettings|"
 msgid ""
-"The use of additional trackers can improve download speed in some cases. "
-"Lists of such trackers can be retrieved from different sources, e.g. from <a "
-"href='https://github.com/ngosang/trackerslist'>here</a>."
-msgstr "追加トラッカーの使用は、場合によってダウンロード速度を向上させることができます。このようなトラッカーのリストは、さまざまなソースから取得できます。例えば<a href='https://github.com/ngosang/trackerslist'>こちら</a>から取得できます。"
+"The use of additional trackers can improve download speed in some cases. Lists of such trackers can be retrieved from different sources, e.g. from "
+"<a href='https://github.com/ngosang/trackerslist'>here</a>."
+msgstr ""
+"追加トラッカーの使用は、場合によってダウンロード速度を向上させることができます。このようなトラッカーのリストは、さまざまなソースから取得できます。"
+"例えば<a href='https://github.com/ngosang/trackerslist'>こちら</a>から取得できます。"
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -855,7 +857,7 @@ msgstr "比率"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
-msgstr "追加のダウンロード"
+msgstr "ダウンロードの追加"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
@@ -875,7 +877,7 @@ msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
 msgid "Add download"
-msgstr "追加のダウンロード"
+msgstr "ダウンロードの追加"
 
 msgctxt "BuildDownloadPage|"
 msgid "Download"
@@ -911,7 +913,7 @@ msgstr "ダウンロードリンクを選択してください"
 
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
-msgstr "同時に %1 より多いリンクを選択することができます"
+msgstr "一度に選択できるリンクは %1 個までです"
 
 msgctxt "ButtonsBlock|"
 msgid "No write access to the selected directory"
@@ -947,7 +949,7 @@ msgstr "ダウンロード URL を変更する"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
-msgstr "新しい URL を入力"
+msgstr "新規 URL を入力"
 
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
@@ -994,9 +996,7 @@ msgid "Extraneous files are detected"
 msgstr "余分なファイルを検出する"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
-msgid ""
-"The following folder contains extraneous files. Do you still want to delete "
-"it?"
+msgid "The following folder contains extraneous files. Do you still want to delete it?"
 msgstr "以下のフォルダーには余計なファイルが含まれています。それでも削除しますか？"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
@@ -1028,14 +1028,12 @@ msgid "Please enter %1, or <a href='#'>scan QR code</a>"
 msgstr "%1 を入力するか <a href='#'>QR コードをスキャン</a>"
 
 msgctxt "ConnectToRemoteAppDialog|"
-msgid ""
-"Both %1 and QR code are located inside of Preferences page of %2 you're "
-"going to connect to."
+msgid "Both %1 and QR code are located inside of Preferences page of %2 you're going to connect to."
 msgstr "%1 と QR コードは接続しようとしている %2 の設定ページ内にあります。"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
-msgstr "%1 を起動時に自動的で接続する"
+msgstr "%1 を起動時に自動的に接続する"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Cancel"
@@ -1126,13 +1124,12 @@ msgid "OK"
 msgstr "OK"
 
 msgctxt "CrashReporter|"
-msgid ""
-"An internal error occurred.<br>%1 needs to be restarted for further use."
+msgid "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr "内部エラーが発生しました。<br>%1 を再起動してください。"
 
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
-msgstr "%1 を自動で再起動します"
+msgstr "%1 を自動的に再起動します"
 
 msgctxt "CrashReporter|"
 msgid "Failed to send the report.<br>Check your Internet connection."
@@ -1159,19 +1156,15 @@ msgid "Create portable version"
 msgstr "ポータブルバージョンを作成"
 
 msgctxt "CreatePortableDialog|"
-msgid ""
-"Portable version of %1 can be used on different computers without the need "
-"to install and configure it on each of them."
-msgstr "ポータブルバージョンの %1 は、それぞれのコンピューターにインストールして設定をしなくても、簡単に異なるコンピューターで使用することができます。"
+msgid "Portable version of %1 can be used on different computers without the need to install and configure it on each of them."
+msgstr "ポータブルバージョンの %1 は、それぞれのコンピューターにインストールして設定をしなくても異なるコンピューターで使用できます。"
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
-msgstr "フラッシュディスクなどのリムーバブルドライブに、簡単にインストールすることができます。"
+msgstr "フラッシュディスクなどのリムーバブルドライブに簡単にインストールできます。"
 
 msgctxt "CreatePortableDialog|"
-msgid ""
-"Specify here the path where you would like to create this version. It should "
-"be a folder on some removable drive."
+msgid "Specify here the path where you would like to create this version. It should be a folder on some removable drive."
 msgstr "このバージョンを作成するパスをここに指定してください。リムーバブルドライブ上のフォルダーを指定してください。"
 
 msgctxt "CreatePortableDialog|"
@@ -1192,7 +1185,7 @@ msgstr "OK"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
-msgstr "作成中です... %1%"
+msgstr "作成しています... %1%"
 
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
@@ -1236,7 +1229,7 @@ msgstr "ダウンロードが失敗しました"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No active downloads"
-msgstr "実行中のダウンロードがありません"
+msgstr "実行中のダウンロードはありません"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Set sound"
@@ -1256,7 +1249,7 @@ msgstr "閉じる"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
-msgstr "選択したダウンロードを消去"
+msgstr "選択したダウンロードを削除"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Remember my choice"
@@ -1284,15 +1277,15 @@ msgstr "このファイルを削除しますか？"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected files?"
-msgstr "選択されたファイルを削除しますか？"
+msgstr "選択したファイルを削除しますか？"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Delete selected downloads"
-msgstr "選択したダウンロードを消去"
+msgstr "選択したダウンロードを削除"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Are you sure you want to delete the selected file(s)?"
-msgstr "選択されたファイルを削除してもよろしいですか？"
+msgstr "選択したファイルを削除してもよろしいですか？"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "OK"
@@ -1343,8 +1336,7 @@ msgid "Download Failure"
 msgstr "ダウンロードが失敗しました"
 
 msgctxt "DownloadExpiredDialog|"
-msgid ""
-"Can't resume download. Download link likely expired. Resume attempts failed."
+msgid "Can't resume download. Download link likely expired. Resume attempts failed."
 msgstr "ダウンロードを再開できません。ダウンロードリンクの有効期限が切れている可能性があります。再開を試みましたが失敗しました。"
 
 msgctxt "DownloadExpiredDialog|"
@@ -1352,8 +1344,7 @@ msgid "Please try to update the download link to resume."
 msgstr "再開するにはダウンロードリンクを更新してみてください。"
 
 msgctxt "DownloadExpiredDialog|"
-msgid ""
-"Go to the website with the original download source and copy the renewed link"
+msgid "Go to the website with the original download source and copy the renewed link"
 msgstr "元のダウンロードソースがあるウェブサイトにアクセスし、更新されたリンクをコピーする"
 
 msgctxt "DownloadExpiredDialog|"
@@ -1362,7 +1353,7 @@ msgstr "ここをクリック"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Update download"
-msgstr "更新版のダウンロード"
+msgstr "アップデートのダウンロード"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Close"
@@ -1462,19 +1453,19 @@ msgstr "移動しています"
 
 msgctxt "DownloadsItemTools|"
 msgid "Checking for viruses"
-msgstr "ウイルスをスキャンしています"
+msgstr "ウイルスをチェックしています"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp3"
-msgstr "MP3 に変換中"
+msgstr "MP3 に変換しています"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp4"
-msgstr "MP4 に変換中"
+msgstr "MP4 に変換しています"
 
 msgctxt "DownloadsItemTools|"
 msgid "Calculating hash"
-msgstr "ハッシュを計算中"
+msgstr "ハッシュを計算しています"
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
@@ -1526,7 +1517,7 @@ msgstr "すべて表示"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
-msgstr "ダウンロードリストは空です。新しいダウンロード URL を追加してください。"
+msgstr "ダウンロードリストは空です。新規ダウンロード URL を追加してください。"
 
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
@@ -1542,11 +1533,11 @@ msgstr "確認せずにダウンロードを開始する"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "ダウンロードリストから削除されたファイルを自動的に削除する"
+msgstr "削除したファイルをダウンロードリストから自動的に削除する"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "完了済みのダウンロードを自動的にリストから削除する"
+msgstr "完了したダウンロードをダウンロードリストから自動的に削除する"
 
 msgctxt "DownloadsSettings|"
 msgid "Immediately"
@@ -1578,7 +1569,7 @@ msgstr "既定のダウンロードフォルダー"
 
 msgctxt "DownloadsSettings|"
 msgid "Choose default download folder automatically"
-msgstr "自動で既定のダウンロードフォルダーを選択する"
+msgstr "既定のダウンロードフォルダーを自動的に選択する"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on file type"
@@ -1634,7 +1625,7 @@ msgstr "アップロード一時停止"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
-msgstr "優先順位"
+msgstr "優先度"
 
 msgctxt "DownloadsViewItem|"
 msgid "Upload paused"
@@ -1714,11 +1705,11 @@ msgstr "リンクのコピー"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Check for update"
-msgstr "更新プログラムの確認"
+msgstr "アップデートの確認"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
-msgstr "選択するダウンロードをエクスポート"
+msgstr "選択したダウンロードをエクスポート"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add tag"
@@ -1738,15 +1729,15 @@ msgstr "URL を変更する"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
-msgstr "MP3に変換"
+msgstr "MP3 に変換"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp4"
-msgstr "MP4に変換"
+msgstr "MP4 に変換"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
-msgstr "ウイルスのチェックを実行"
+msgstr "ウイルスチェックを実行"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Abort"
@@ -1786,7 +1777,7 @@ msgstr "ダウンロードが完了しました"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
-msgstr "ファイルをチェックしています..."
+msgstr "ファイルを確認しています..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
@@ -1794,7 +1785,7 @@ msgstr "メディアストリームを結合しています..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Requesting info..."
-msgstr "情報を要求... "
+msgstr "情報をリクエストしています..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Queued"
@@ -1814,7 +1805,7 @@ msgstr "キュー"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files"
-msgstr "ファイルをチェックしています"
+msgstr "ファイルを確認しています"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Merging media streams"
@@ -1849,9 +1840,8 @@ msgid "Extensions (e.g. \"avi mp3\")"
 msgstr "拡張子 (例 \"avi mp3\")"
 
 msgctxt "EditTagDialog|"
-msgid ""
-"Extensions that are automatically assigned with this tag for new downloads"
-msgstr "新規ダウンロード時にこのタグで自動的に割り当てられる拡張子"
+msgid "Extensions that are automatically assigned with this tag for new downloads"
+msgstr "新規ダウンロード時にこのタグを自動的に割り当てる拡張子"
 
 msgctxt "EditTagDialog|"
 msgid "Default download folder"
@@ -1903,7 +1893,7 @@ msgstr "常に確認する"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
-msgstr "選択するダウンロードをエクスポート"
+msgstr "選択したダウンロードをエクスポート"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export all downloads"
@@ -1975,7 +1965,7 @@ msgstr "すべてのファイル (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
-msgstr "ファイルの整合性をチェック"
+msgstr "ファイルの整合性を確認"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Hash"
@@ -1995,7 +1985,7 @@ msgstr "検証OK"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification failed"
-msgstr "検証が失敗しました"
+msgstr "検証に失敗しました"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Close"
@@ -2003,7 +1993,7 @@ msgstr "閉じる"
 
 msgctxt "FileIntegrityPage|"
 msgid "Check file integrity"
-msgstr "ファイルの整合性をチェック"
+msgstr "ファイルの整合性を確認"
 
 msgctxt "FileIntegrityPage|"
 msgid "MD5"
@@ -2067,7 +2057,7 @@ msgstr "フォルダーを選択"
 
 msgctxt "FilePickerPage|"
 msgid "Select file"
-msgstr "ファイルの選択"
+msgstr "ファイルを選択"
 
 msgctxt "FilePickerPage|"
 msgid "OK"
@@ -2107,7 +2097,7 @@ msgstr "ファイルタイプ:"
 
 msgctxt "FilesExistsDialog|"
 msgid "Warning: file exists already"
-msgstr "警告：ファイルが既に存在します"
+msgstr "警告: ファイルが既に存在します"
 
 msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
@@ -2135,11 +2125,11 @@ msgstr "サイズ"
 
 msgctxt "FilesTree|"
 msgid "Progress"
-msgstr "進捗状況"
+msgstr "進行状況"
 
 msgctxt "FilesTree|"
 msgid "Priority"
-msgstr "優先順位"
+msgstr "優先度"
 
 msgctxt "FilesTree|"
 msgid "Normal"
@@ -2167,15 +2157,15 @@ msgstr "選択解除"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High priority"
-msgstr "優先度: 高"
+msgstr "優先度: 高い"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Normal priority"
-msgstr "優先度: 通常"
+msgstr "優先度: 標準"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Low priority"
-msgstr "優先度: 低"
+msgstr "優先度: 低い"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -2203,7 +2193,7 @@ msgstr "動画を MP4 に変換する"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
-msgstr "MP4に変換"
+msgstr "MP4 に変換"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2211,7 +2201,7 @@ msgstr "マクロ"
 
 msgctxt "GeneralSettings|"
 msgid "General"
-msgstr "詳細"
+msgstr "全般"
 
 msgctxt "GeneralSettings|"
 msgid "Choose theme"
@@ -2279,11 +2269,11 @@ msgstr "スタンドアロンのダウンロードウィンドウを有効にす
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "自動的にダウンロードリストから削除されたファイルを削除します"
+msgstr "削除したファイルをダウンロードリストから自動的に削除する"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "完了済みのダウンロードを自動的にリストから削除する"
+msgstr "完了したダウンロードをダウンロードリストから自動的に削除する"
 
 msgctxt "GeneralSettings|"
 msgid "Immediately"
@@ -2319,7 +2309,7 @@ msgstr "アップデート"
 
 msgctxt "GeneralSettings|"
 msgid "Check for updates automatically"
-msgstr "自動的にアップデートをチェック"
+msgstr "更新を自動的に確認する"
 
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
@@ -2327,7 +2317,7 @@ msgstr "更新プログラムを自動的にインストールする"
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
-msgstr "自動的にアップデートをチェック"
+msgstr "更新を自動的に確認する"
 
 msgctxt "GeneralSettings2|"
 msgid "Install updates automatically"
@@ -2359,11 +2349,11 @@ msgstr "状態"
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
-msgstr "合計サイズ："
+msgstr "合計サイズ:"
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
-msgstr "ダウンロード："
+msgstr "ダウンロード:"
 
 msgctxt "GeneralTab|"
 msgid "Uploaded"
@@ -2387,15 +2377,15 @@ msgstr "速度"
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
-msgstr "ダウンロード速度："
+msgstr "ダウンロード速度:"
 
 msgctxt "GeneralTab|"
 msgid "Upload speed:"
-msgstr "アップロード速度："
+msgstr "アップロード速度:"
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
-msgstr "追加:"
+msgstr "追加日時:"
 
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
@@ -2403,7 +2393,7 @@ msgstr "%1 of %2"
 
 msgctxt "GeneralTab|"
 msgid "Domain:"
-msgstr "ドメイン："
+msgstr "ドメイン:"
 
 msgctxt "GeneralTab|"
 msgid "Added:"
@@ -2411,7 +2401,7 @@ msgstr "追加:"
 
 msgctxt "GeneralTab|"
 msgid "Progress:"
-msgstr "進捗状況:"
+msgstr "進行状況:"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2475,15 +2465,15 @@ msgstr "エクスポートに失敗"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
-msgstr "ファイルへのエクスポート失敗: %1"
+msgstr "ファイルへのエクスポートに失敗: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
-msgstr "インポート失敗"
+msgstr "インポートに失敗"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
-msgstr "ファイルからのインポート失敗: %1"
+msgstr "ファイルからのインポートに失敗: %1"
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
@@ -2539,7 +2529,7 @@ msgstr "終了"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
-msgstr "新しいダウンロード"
+msgstr "新規ダウンロード"
 
 msgctxt "ListEditor|"
 msgid "Add"
@@ -2623,11 +2613,11 @@ msgstr "ダウンロードのインポート"
 
 msgctxt "MainMenu|"
 msgid "Export settings"
-msgstr "エクスポート設定"
+msgstr "設定をエクスポート"
 
 msgctxt "MainMenu|"
 msgid "Import settings"
-msgstr "インポート設定"
+msgstr "設定をインポート"
 
 msgctxt "MainMenu|"
 msgid "Add-ons..."
@@ -2647,7 +2637,7 @@ msgstr "自動でシャットダウン"
 
 msgctxt "MainMenu|"
 msgid "Check for updates..."
-msgstr "更新プログラムの確認..."
+msgstr "アップデートを確認..."
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
@@ -2704,11 +2694,11 @@ msgstr[0] "%n のダウンロードが選択されています。"
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
-msgstr "合計サイズ："
+msgstr "合計サイズ:"
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
-msgstr "新しいダウンロードを追加... "
+msgstr "新規ダウンロードを追加..."
 
 msgctxt "MainToolbar|"
 msgid "Start all"
@@ -2716,7 +2706,7 @@ msgstr "すべてを再開"
 
 msgctxt "MainToolbar|"
 msgid "Start selected"
-msgstr "選択したものを再開"
+msgstr "選択項目を再開"
 
 msgctxt "MainToolbar|"
 msgid "Pause all"
@@ -2724,11 +2714,11 @@ msgstr "すべてを一時停止"
 
 msgctxt "MainToolbar|"
 msgid "Pause selected"
-msgstr "選択したものを一時停止"
+msgstr "選択項目を一時停止"
 
 msgctxt "MainToolbar|"
 msgid "Delete selected"
-msgstr "選択したものを削除"
+msgstr "選択項目を削除"
 
 msgctxt "MainToolbar|"
 msgid "Move to..."
@@ -2784,7 +2774,7 @@ msgstr "値を 0 より大きくする必要があります。"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
-msgstr "再生をする準備ができました"
+msgstr "再生する準備ができました"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
@@ -2812,11 +2802,11 @@ msgstr "パス:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Size:"
-msgstr "サイズ："
+msgstr "サイズ:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Added at:"
-msgstr "追加日:"
+msgstr "追加日時:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
@@ -2860,7 +2850,7 @@ msgstr "* 追加料金がかかる場合があります"
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
-msgstr "ダウンロードの移動を失敗しました"
+msgstr "ダウンロードの移動が失敗しました"
 
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
@@ -2996,7 +2986,7 @@ msgstr "パスに無効な文字が含まれています"
 
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
-msgstr "ソフトウェアの更新を確認..."
+msgstr "アップデートを確認..."
 
 msgctxt "NativeMenuBar|"
 msgid "Preferences..."
@@ -3032,15 +3022,15 @@ msgstr "ダウンロード"
 
 msgctxt "NativeMenuBar|"
 msgid "Start selected"
-msgstr "選択したものを再開"
+msgstr "選択項目を再開"
 
 msgctxt "NativeMenuBar|"
 msgid "Pause selected"
-msgstr "選択したものを一時停止"
+msgstr "選択項目を一時停止"
 
 msgctxt "NativeMenuBar|"
 msgid "Restart selected"
-msgstr "選択したものをやり直す"
+msgstr "選択項目をやり直す"
 
 msgctxt "NativeMenuBar|"
 msgid "Remove from List"
@@ -3072,7 +3062,7 @@ msgstr "プロキシなし"
 
 msgctxt "NetworkSettings|"
 msgid "Configure manually:"
-msgstr "手動で設定："
+msgstr "手動で設定:"
 
 msgctxt "NetworkSettings|"
 msgid "Address"
@@ -3084,7 +3074,7 @@ msgstr "ポート"
 
 msgctxt "NetworkSettings|"
 msgid "HTTP:"
-msgstr "HTTP："
+msgstr "HTTP:"
 
 msgctxt "NetworkSettings|"
 msgid ":"
@@ -3092,11 +3082,11 @@ msgstr ":"
 
 msgctxt "NetworkSettings|"
 msgid "HTTPS:"
-msgstr "HTTPS："
+msgstr "HTTPS:"
 
 msgctxt "NetworkSettings|"
 msgid "FTP:"
-msgstr "FTP："
+msgstr "FTP:"
 
 msgctxt "NetworkSettings|"
 msgid "SOCKS5:"
@@ -3176,7 +3166,7 @@ msgstr "その他の通知"
 
 msgctxt "Notification|"
 msgid "Ready to play"
-msgstr "再生をする準備ができました"
+msgstr "再生する準備ができました"
 
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
@@ -3187,9 +3177,7 @@ msgid "(required)"
 msgstr "(必須)"
 
 msgctxt "OsPermissionsDialog|"
-msgid ""
-"You can grant these permissions using the Application details screen within "
-"your system's settings."
+msgid "You can grant these permissions using the Application details screen within your system's settings."
 msgstr "システムの設定にあるアプリケーションの詳細画面を使用して、これらの権限を付与することができます。"
 
 msgctxt "OsPermissionsDialog|"
@@ -3233,14 +3221,11 @@ msgid "Enjoy using %1 add-on?"
 msgstr "%1 のアドオンに満足していますか？"
 
 msgctxt "PluginBannerDialog|"
-msgid ""
-"We would like to ask you to help this add-on to reach its potential users."
+msgid "We would like to ask you to help this add-on to reach its potential users."
 msgstr "このアドオンが様々なユーザーに届くよう、皆様のご協力をお願いいたします。"
 
 msgctxt "PluginBannerDialog|"
-msgid ""
-"Please use your favorite social networks and forums to let the other people "
-"know about %1 and %2."
+msgid "Please use your favorite social networks and forums to let the other people know about %1 and %2."
 msgstr "お気に入りの SNS やフォーラムを使って他の人に %1 と %2 を紹介しましょう。"
 
 msgctxt "PluginBannerDialog|"
@@ -3273,19 +3258,19 @@ msgstr "アドオンをファイルからインストール..."
 
 msgctxt "PluginsPage|"
 msgid "Update Add-ons Automatically"
-msgstr "アドオンを自動でアップデートする"
+msgstr "アドオンを自動的に更新する"
 
 msgctxt "PluginsPage|"
 msgid "Reset All Add-ons to Update Automatically"
-msgstr "すべてのアドオンを自動的にアップデートするようにリセットする"
+msgstr "すべてのアドオンをリセットして自動的に更新する"
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
-msgstr "アドオンをアップデートしています..."
+msgstr "インストール済みのアドオンを更新しています..."
 
 msgctxt "PluginsPage|"
 msgid "There are no installed add-ons."
-msgstr "インストールされているアドオンがありません。"
+msgstr "インストールされているアドオンはありません。"
 
 msgctxt "PluginsPage|"
 msgid "Install add-on from file"
@@ -3349,11 +3334,11 @@ msgstr "インストールしますか？"
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
-msgstr "アップデートはありませんでした"
+msgstr "更新が見つかりませんでした"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
-msgstr "アドオンのアップデートに失敗しました"
+msgstr "アドオンの更新に失敗しました"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
@@ -3361,15 +3346,15 @@ msgstr "警告！"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
-msgstr "新バージョンの %1 アドオンが複数の危険な権限を要求しています:"
+msgstr "新しいバージョンの %1 アドオンが複数の危険な権限を要求しています:"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
-msgstr "新バージョンの %1 アドオンが危険な権限を要求しています:"
+msgstr "新しいバージョンの %1 アドオンが危険な権限を要求しています:"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Please install add-ons from trusted sources only."
-msgstr "アドオンは信頼できるところからのもののみをインストールしてください。"
+msgstr "アドオンは信頼できるソースからのみインストールしてください。"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
@@ -3397,11 +3382,11 @@ msgstr "インストールしますか？"
 
 msgctxt "PluginsViewItem|"
 msgid "Allow Automatic Updates"
-msgstr "自動アップデートを許可する"
+msgstr "自動更新を許可する"
 
 msgctxt "PluginsViewItem|"
 msgid "Check for Updates"
-msgstr "アップデートをチェック"
+msgstr "アップデートの確認"
 
 msgctxt "PluginsViewItem|"
 msgid "Remove"
@@ -3409,7 +3394,7 @@ msgstr "削除"
 
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
-msgstr "アップデートしています..."
+msgstr "更新しています..."
 
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
@@ -3441,12 +3426,11 @@ msgstr "利用規約"
 
 msgctxt "PrivacyDialog|"
 msgid ""
-"A bug report will be sent to the server and used to improve %1 performance. "
-"We do not collect your personal data and do not share data with third "
+"A bug report will be sent to the server and used to improve %1 performance. We do not collect your personal data and do not share data with third "
 "parties."
 msgstr ""
-"バグレポートがサーバーに送信され、"
-"%1 のパフォーマンス向上のために使用されます。あなたの個人データを収集したり、第三者とデータを共有したりすることはありません。"
+"バグレポートがサーバーに送信され、%1 のパフォーマンス向上のために使用されます。あなたの個人データを収集したり、第三者とデータを共有したりすることは"
+"ありません。"
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
@@ -3461,9 +3445,8 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 msgctxt ""
-"QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
-"languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
-"to get proper UI layout."
+"QGuiApplication|Translate this string to the string 'LTR' in left-to-right languages or to 'RTL' in right-to-left languages (such as Hebrew and "
+"Arabic) to get proper UI layout."
 msgid "QT_LAYOUT_DIRECTION"
 msgstr ""
 
@@ -3485,7 +3468,7 @@ msgstr "エラー"
 
 msgctxt "QObject|"
 msgid "Connection failure"
-msgstr "接続失敗"
+msgstr "接続に失敗しました"
 
 msgctxt "QObject|"
 msgid "App frontend's server listen failed."
@@ -3633,7 +3616,7 @@ msgstr "ダウンロードが失敗しました"
 
 msgctxt "QObject|"
 msgid "Download added"
-msgstr "ダウンロード追加しました"
+msgstr "ダウンロードが追加されました"
 
 msgctxt "QObject|"
 msgid "Unknown error"
@@ -3741,7 +3724,7 @@ msgstr "要求したエンティティが大きすぎます"
 
 msgctxt "QObject|"
 msgid "Request-URI Too Long"
-msgstr "リクエストした URI が長すぎます"
+msgstr "リクエスト URI が長すぎます"
 
 msgctxt "QObject|"
 msgid "Unsupported Media Type"
@@ -3749,7 +3732,7 @@ msgstr "サポートされていないメディアタイプです"
 
 msgctxt "QObject|"
 msgid "Requested Range Not Satisfiable"
-msgstr "リクエストされた範囲が不足している"
+msgstr "要求された範囲が満たされません"
 
 msgctxt "QObject|"
 msgid "Expectation Failed"
@@ -3837,7 +3820,7 @@ msgstr "HTTP から HTTPS へ"
 
 msgctxt "QObject|"
 msgid "Token expired/invalid"
-msgstr "トークンの無効/有効期限が切れました"
+msgstr "トークンの期限切れ/無効"
 
 msgctxt "QObject|"
 msgid "Client Closed Request"
@@ -4025,7 +4008,7 @@ msgstr "%1 ですべてダウンロード"
 
 msgctxt "QObject|"
 msgid "Download selected with %1"
-msgstr "選択したものを%1でダウンロード"
+msgstr "選択項目を %1 でダウンロード"
 
 msgctxt "QObject|"
 msgid "Download video with %1"
@@ -4037,7 +4020,7 @@ msgstr "動画"
 
 msgctxt "QObject|"
 msgid "Music"
-msgstr "ミュージック"
+msgstr "音楽"
 
 msgctxt "QObject|"
 msgid "There is not enough disk space."
@@ -4058,9 +4041,7 @@ msgid "Fatal error: failed to load the database."
 msgstr "致命的なエラー: データベースの読み込みに失敗しました。"
 
 msgctxt "QObject|"
-msgid ""
-"Would you like to erase it (this will clear your downloads list and all %1 "
-"data)?"
+msgid "Would you like to erase it (this will clear your downloads list and all %1 data)?"
 msgstr "消去してもよろしいですか？これを実行すると、あなたのダウンロードリストとすべての %1 のデータがクリアされます。"
 
 msgctxt "QObject|"
@@ -4357,7 +4338,7 @@ msgstr "土"
 
 msgctxt "Scheduler|"
 msgid "From:"
-msgstr "開始時刻："
+msgstr "開始時刻:"
 
 msgctxt "Scheduler|"
 msgid "Everyday"
@@ -4365,7 +4346,7 @@ msgstr "毎日"
 
 msgctxt "Scheduler|"
 msgid "To:"
-msgstr "終了時刻："
+msgstr "終了時刻:"
 
 msgctxt "SchedulerButton|"
 msgid "Scheduler"
@@ -4385,7 +4366,7 @@ msgstr "指定した時刻にダウンロードを再開または一時停止す
 
 msgctxt "SchedulerDialog|"
 msgid "Enable Scheduler"
-msgstr "スケジュールを有効"
+msgstr "スケジュールを有効にする"
 
 msgctxt "SchedulerDialog|"
 msgid "Cancel"
@@ -4489,11 +4470,11 @@ msgstr "環境設定"
 
 msgctxt "SettingsPage|"
 msgid "General"
-msgstr "詳細"
+msgstr "全般"
 
 msgctxt "SettingsPage|"
 msgid "Browser Integration"
-msgstr "ブラウザーの統合"
+msgstr "ブラウザーとの連携"
 
 msgctxt "SettingsPage|"
 msgid "Network"
@@ -4565,15 +4546,15 @@ msgstr "キャンセル"
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be put to sleep after all downloads are completed."
-msgstr "すべてのダウンロードが完了後にコンピューターをスリープ状態にします。"
+msgstr "すべてのダウンロードが完了すると、コンピューターはスリープ状態になります。"
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be hibernate after all downloads are completed."
-msgstr "コンピューターはすべてのダウンロード完了後に休止状態に移行します。"
+msgstr "すべてのダウンロードが完了すると、コンピュータは休止状態になります。"
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be shutdown after all downloads are completed."
-msgstr "コンピューターはすべてのダウンロード完了後にシャットダウンします。"
+msgstr "すべてのダウンロードが完了すると、コンピューターはシャットダウンされます。"
 
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
@@ -4625,7 +4606,7 @@ msgstr "実行中のダウンロードはありません"
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
-msgstr "警告：セキュリティリスクの可能性があります"
+msgstr "警告: セキュリティリスクの可能性があります"
 
 msgctxt "SslDialog|"
 msgid "The authenticity of the host can't be established."
@@ -4652,10 +4633,8 @@ msgid "SHA1:"
 msgstr "SHA1:"
 
 msgctxt "SslDialog|"
-msgid ""
-"If you trust this host, select Accept to remember the key and carry on "
-"connecting."
-msgstr "このホストが信頼できる場合は、同意を選択でキーを記憶させて接続を続行します。"
+msgid "If you trust this host, select Accept to remember the key and carry on connecting."
+msgstr "このホストが信頼できる場合は、同意を選択してキーを記憶し、接続を続行します。"
 
 msgctxt "SslDialog|"
 msgid "Accept"
@@ -4679,7 +4658,7 @@ msgstr "続行"
 
 msgctxt "StatusItem|"
 msgid "Checking files"
-msgstr "ファイルをチェックしています"
+msgstr "ファイルを確認しています"
 
 msgctxt "StatusItem|"
 msgid "Merging media streams"
@@ -4815,7 +4794,7 @@ msgstr "トラフィックの制限"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Low"
-msgstr "低"
+msgstr "低い"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Medium"
@@ -4823,7 +4802,7 @@ msgstr "標準"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "High"
-msgstr "高"
+msgstr "高い"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Download speed"
@@ -5011,7 +4990,7 @@ msgstr "アップデートを確認しています..."
 
 msgctxt "UpdateDialog|"
 msgid "Error:"
-msgstr "エラー："
+msgstr "エラー:"
 
 msgctxt "UpdateDialog|"
 msgid "Retry"
@@ -5035,7 +5014,7 @@ msgstr "アップデート"
 
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
-msgstr "%1 は最新バージョンです"
+msgstr "%1 は最新です"
 
 msgctxt "UpdateDialog|"
 msgid "OK"
@@ -5043,23 +5022,23 @@ msgstr "OK"
 
 msgctxt "UpdateDialog|"
 msgid "Downloading update"
-msgstr "更新のダウンロード"
+msgstr "アップデートのダウンロード"
 
 msgctxt "UpdateDialog|"
 msgid "Error downloading update:"
-msgstr "アップデートのダウンロードエラー："
+msgstr "アップデートのダウンロードエラー:"
 
 msgctxt "UpdateDialog|"
 msgid "Checking..."
-msgstr "チェック中..."
+msgstr "確認しています..."
 
 msgctxt "UpdateDialog|"
 msgid "Update downloaded"
-msgstr "アップデートをダウンロード"
+msgstr "アップデートをダウンロードしました"
 
 msgctxt "UpdateDialog|"
 msgid "Install update"
-msgstr "更新プログラムをインストール"
+msgstr "アップデートをインストール"
 
 msgctxt "UpdateDialog|"
 msgid "Installing updates"
@@ -5067,11 +5046,11 @@ msgstr "アップデートをインストールしています"
 
 msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
-msgstr "インストール中にエラーが発生しました："
+msgstr "インストール中にエラーが発生しました:"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
-msgstr "更新するために%1を再起動する"
+msgstr "更新するために %1 を再起動する"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch"
@@ -5083,11 +5062,11 @@ msgstr "後で"
 
 msgctxt "UpdateDialog|"
 msgid "Check for updates"
-msgstr "更新プログラムの確認"
+msgstr "アップデートの確認"
 
 msgctxt "VideoQuality|"
 msgid "Quality:"
-msgstr "画質："
+msgstr "画質:"
 
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
@@ -5119,7 +5098,7 @@ msgstr "OK"
 
 msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."
-msgstr "Free Download Manager を良くするために、フィードバックをお願いします。"
+msgstr "FDM をより良くするために、フィードバックをお寄せください。"
 
 msgctxt "WaitingPage|"
 msgid "Loading"
@@ -5155,7 +5134,7 @@ msgstr "%1 の更新内容"
 
 msgctxt "WhatsNewDialog|"
 msgid "Update"
-msgstr "更新"
+msgstr "アップデート"
 
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
@@ -5168,4 +5147,3 @@ msgstr "レポートを送信しました。ご協力ありがとうございま
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "%1 へのリモート接続"
-
