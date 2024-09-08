@@ -13,7 +13,7 @@ msgstr ""
 "X-Language: ja_JP\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.5\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -141,7 +141,7 @@ msgstr "オプション"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch at startup (minimized)"
-msgstr "スタートアップ時に起動する (最小化状態)"
+msgstr "起動時に起動する (最小化して)"
 
 msgctxt "AdvancedSettings|"
 msgid "Show special offers"
@@ -153,11 +153,11 @@ msgstr "インターフェース"
 
 msgctxt "AdvancedSettings|"
 msgid "Click on the Close button to hide %1 and keep it running in the background"
-msgstr "閉じるボタンをクリックして %1 を非表示にし、バックグラウンドで実行し続ける"
+msgstr "閉じるボタンをクリックして %1 を非表示にしてバックグラウンドで実行し続ける"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "ダウンロードリストのクリックで下部パネルの表示/非表示を切り替える"
+msgstr "ダウンロードをクリックして下部のパネルを開く/非表示にする"
 
 msgctxt "AdvancedSettings|"
 msgid "Hide the Dock icon"
@@ -209,7 +209,7 @@ msgstr "既定の設定"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore default settings?"
-msgstr "既定の設定に戻しますか？"
+msgstr "既定の設定に戻しますか?"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
@@ -241,7 +241,7 @@ msgstr "サウンドを使用する"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
-msgstr "バッテリーの残量が下回った場合はダウンロードを許可しない:"
+msgstr "バッテリーの残量が次の値を下回った場合はダウンロードを許可しない:"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not share files when running on battery"
@@ -253,7 +253,7 @@ msgstr "ユーザー定義のダウンロード順序を有効にする"
 
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
-msgstr "\"名前を付けて保存...\" のボタンを表示する"
+msgstr "「名前を付けて保存...」 のボタンを表示する"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable standalone create new downloads windows"
@@ -309,7 +309,7 @@ msgstr "アンチウイルスの選択:"
 
 msgctxt "AntivirusSettings|"
 msgid "Is your antivirus not listed?"
-msgstr "お使いのセキュリティソフトがリストにありませんか？"
+msgstr "お使いのセキュリティソフトがリストにありませんか?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -605,7 +605,7 @@ msgstr "会話"
 
 msgctxt "BitrateComboBox|"
 msgid "Lowest quality, smallest file size"
-msgstr "最低の音質ですが、ファイルが最も小さくなります。"
+msgstr "最低の音質で、最小のファイルサイズです。"
 
 msgctxt "BottomPanelTools|"
 msgid "General"
@@ -629,7 +629,7 @@ msgstr "接続"
 
 msgctxt "Browser|"
 msgid "Enter URL"
-msgstr "URL を入力"
+msgstr "URL を入力してください"
 
 msgctxt "Browser|"
 msgid "Bookmark removed"
@@ -649,7 +649,7 @@ msgstr "現在ブックマークはありません"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr "このブックマークを削除してもよろしいですか？"
+msgstr "このブックマークを削除してもよろしいですか?"
 
 msgctxt "Browser|"
 msgid "YES"
@@ -693,7 +693,7 @@ msgstr "ブラウザーとの連携"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Make sure you have %1 extension installed, otherwise, click one of the buttons below"
-msgstr "ブラウザーと連携する場合は、%1 の拡張機能をインストールしてください。まだの場合は、以下のボタンをクリックしてください。"
+msgstr "ブラウザーと連携する場合は、%1 の拡張機能をインストールしてください。そうでない場合は、以下のボタンをクリックしてください。"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -721,7 +721,7 @@ msgstr "リストの編集"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid domain?"
-msgstr "このドメインを有効にしますか？"
+msgstr "このドメインを有効にしますか?"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip files with extensions"
@@ -729,11 +729,11 @@ msgstr "スキップする拡張子: "
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid file extension?"
-msgstr "このファイル拡張子を有効にしますか？"
+msgstr "このファイル拡張子を有効にしますか?"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't catch downloads smaller than"
-msgstr "この値より小さいファイルをダウンロードしない:"
+msgstr "次の値より小さいファイルをダウンロードしない:"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
@@ -741,7 +741,7 @@ msgstr "MB"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
-msgstr " %1 でのダウンロードをキャンセルした場合は、ブラウザーを使用してダウンロードする"
+msgstr "%1 でのダウンロードをキャンセルした場合は、ブラウザーを使用してダウンロードする"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
@@ -825,7 +825,7 @@ msgstr "暗号化を優先する"
 
 msgctxt "BtSettings|"
 msgid "Require encryption"
-msgstr "暗号化が要求する"
+msgstr "暗号化を要求する"
 
 msgctxt "BtSettings|"
 msgid "Advanced"
@@ -949,7 +949,7 @@ msgstr "ダウンロード URL を変更する"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
-msgstr "新規 URL を入力"
+msgstr "新規 URL を入力してください"
 
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
@@ -981,7 +981,7 @@ msgstr "OK"
 
 msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
-msgstr "新規 URL を入力"
+msgstr "新規 URL を入力してください"
 
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
@@ -997,7 +997,7 @@ msgstr "余分なファイルを検出する"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "The following folder contains extraneous files. Do you still want to delete it?"
-msgstr "以下のフォルダーには余計なファイルが含まれています。それでも削除しますか？"
+msgstr "以下のフォルダーには余計なファイルが含まれています。それでも削除しますか?"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Delete anyway"
@@ -1033,7 +1033,7 @@ msgstr "%1 と QR コードは接続しようとしている %2 の設定ペー�
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
-msgstr "%1 を起動時に自動的に接続する"
+msgstr "%1 の起動時に自動的に接続する"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Cancel"
@@ -1065,7 +1065,7 @@ msgstr "接続数"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Destination files already exists"
-msgstr "ダウンロードは既に存在します。"
+msgstr "宛先ファイルが既に存在します。"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Overwrite All"
@@ -1105,7 +1105,7 @@ msgstr "コピー"
 
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
-msgstr "本当に終了しますか？"
+msgstr "本当に終了しますか?"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Starting..."
@@ -1273,11 +1273,11 @@ msgstr "OK"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete this file?"
-msgstr "このファイルを削除しますか？"
+msgstr "このファイルを削除しますか?"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected files?"
-msgstr "選択したファイルを削除しますか？"
+msgstr "選択したファイルを削除しますか?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Delete selected downloads"
@@ -1285,7 +1285,7 @@ msgstr "選択したダウンロードを削除"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Are you sure you want to delete the selected file(s)?"
-msgstr "選択したファイルを削除してもよろしいですか？"
+msgstr "選択したファイルを削除してもよろしいですか?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "OK"
@@ -1417,7 +1417,7 @@ msgstr "ダウンロード完了時にファイルを開く"
 
 msgctxt "DownloadWindow|"
 msgid "Close this window when the download is completed or stopped"
-msgstr "ダウンロードが完了、または停止時にこのウィンドウを閉じる"
+msgstr "ダウンロードが完了または停止時にこのウィンドウを閉じる"
 
 msgctxt "DownloadWindow|"
 msgid "Remember to always close by default"
@@ -2225,7 +2225,7 @@ msgstr "システムのテーマが不明な場合は、ライトテーマが適
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
-msgstr "あなたの言語がリストにないか、翻訳が十分ではありませんか？"
+msgstr "あなたの言語がリストにないか、翻訳が十分ではありませんか?"
 
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
@@ -2485,7 +2485,7 @@ msgstr "再び確認しない"
 
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
-msgstr "。それでも閉じますか？"
+msgstr "。それでも閉じますか?"
 
 msgctxt "LanguageDialog|"
 msgid "Language"
@@ -2529,7 +2529,7 @@ msgstr "終了"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
-msgstr "新規ダウンロード"
+msgstr "新規ダウンロードを追加"
 
 msgctxt "ListEditor|"
 msgid "Add"
@@ -2589,7 +2589,7 @@ msgstr "未完了"
 
 msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
-msgstr "タグを削除してもよろしいですか？"
+msgstr "タグを削除してもよろしいですか?"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from clipboard"
@@ -2609,7 +2609,7 @@ msgstr "すべてのダウンロードをエクスポート"
 
 msgctxt "MainMenu|"
 msgid "Import downloads"
-msgstr "ダウンロードのインポート"
+msgstr "ダウンロードをインポート"
 
 msgctxt "MainMenu|"
 msgid "Export settings"
@@ -2738,7 +2738,7 @@ msgstr "メインメニュー"
 
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
-msgstr "ユーザー定義のダウンロード順序に切り替えますか？"
+msgstr "ユーザー定義のダウンロード順序に切り替えますか?"
 
 msgctxt "MainToolbar|"
 msgid "remote control"
@@ -2830,7 +2830,7 @@ msgstr "ダウンロードを開始するために Wi-Fi 接続を待ってい�
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Would you like to enable usage of mobile data? *"
-msgstr "モバイルデータの利用を許可しますか？ *"
+msgstr "モバイルデータの利用を許可しますか? *"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Don't ask again"
@@ -3002,7 +3002,7 @@ msgstr "ファイル(&F)"
 
 msgctxt "NativeMenuBar|"
 msgid "Add &new download"
-msgstr "新規ダウンロード(&N)"
+msgstr "新規ダウンロードを追加(&N)"
 
 msgctxt "NativeMenuBar|"
 msgid "&Edit"
@@ -3218,7 +3218,7 @@ msgstr "ダウンロード中にファイルを再生する"
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
-msgstr "%1 のアドオンに満足していますか？"
+msgstr "%1 のアドオンに満足していますか?"
 
 msgctxt "PluginBannerDialog|"
 msgid "We would like to ask you to help this add-on to reach its potential users."
@@ -3310,11 +3310,11 @@ msgstr "アドオンは危険を権限を要求しています:"
 
 msgctxt "PluginsPage|"
 msgid "Please install add-ons from trusted sources only."
-msgstr "信頼できるソースからのみアドオンをインストールしてください"
+msgstr "信頼できるソースからのみアドオンをインストールしてください。"
 
 msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
-msgstr "インストールを続行しますか？"
+msgstr "インストールを続行しますか?"
 
 msgctxt "PluginsPage|"
 msgid "The following required components are missing:"
@@ -3326,11 +3326,11 @@ msgstr "%1 が必要です。"
 
 msgctxt "PluginsPage|"
 msgid "Would you like to install them?"
-msgstr "これらをインストールしますか？"
+msgstr "これらをインストールしますか?"
 
 msgctxt "PluginsPage|"
 msgid "Would you like to install it?"
-msgstr "インストールしますか？"
+msgstr "インストールしますか?"
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
@@ -3358,7 +3358,7 @@ msgstr "アドオンは信頼できるソースからのみインストールし
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
-msgstr "インストールを続行しますか？"
+msgstr "インストールを続行しますか?"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid ""
@@ -3374,11 +3374,11 @@ msgstr "新しいバージョンの %1 アドオンには %2 が必要です。"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to install them?"
-msgstr "これらをインストールしますか？"
+msgstr "これらをインストールしますか?"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to install it?"
-msgstr "インストールしますか？"
+msgstr "インストールしますか?"
 
 msgctxt "PluginsViewItem|"
 msgid "Allow Automatic Updates"
@@ -3402,7 +3402,7 @@ msgstr "バージョン %1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
-msgstr "タグを削除してもよろしいですか？"
+msgstr "タグを削除してもよろしいですか?"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
@@ -3492,7 +3492,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Enter URL"
-msgstr "URL を入力"
+msgstr "URL を入力してください"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
@@ -3516,11 +3516,11 @@ msgstr "終了"
 
 msgctxt "QObject|"
 msgid "Show main window"
-msgstr "メインウィンドウを表示します"
+msgstr "メインウィンドウを表示"
 
 msgctxt "QObject|"
 msgid "About %1"
-msgstr "%1 について"
+msgstr "%1 のバージョン情報"
 
 msgctxt "QObject|"
 msgid "Quit"
@@ -4042,7 +4042,7 @@ msgstr "致命的なエラー: データベースの読み込みに失敗しま�
 
 msgctxt "QObject|"
 msgid "Would you like to erase it (this will clear your downloads list and all %1 data)?"
-msgstr "消去してもよろしいですか？これを実行すると、あなたのダウンロードリストとすべての %1 のデータがクリアされます。"
+msgstr "消去しますか (ダウンロードリストとすべての %1 データが消去されます)?"
 
 msgctxt "QObject|"
 msgid "Failed."
@@ -4166,7 +4166,7 @@ msgstr "gzip で開くことは、読み出しと書き込みの両方で対応�
 
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr "gzip は読み出し用と書き込み用のどちらかを開くことができます。どちらにしますか？"
+msgstr "gzip は読み出し用と書き込み用のどちらかを開くことができます。どちらにしますか?"
 
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
@@ -4186,7 +4186,7 @@ msgstr "ZIP/UNZIP API エラー %1"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
-msgstr "本当に終了しますか？"
+msgstr "本当に終了しますか?"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "OK"
@@ -4246,7 +4246,7 @@ msgstr "ファイル名の変更"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Enter new name"
-msgstr "新しい名前を入力"
+msgstr "新しい名前を入力してください"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "A file with that name already exists."
@@ -4270,7 +4270,7 @@ msgstr "OK"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "Enter new name"
-msgstr "新しい名前を入力"
+msgstr "新しい名前を入力してください"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "A file with that name already exists."
@@ -4462,7 +4462,7 @@ msgstr "設定が正しくありません"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
-msgstr "。それでも閉じますか？"
+msgstr "。それでも閉じますか?"
 
 msgctxt "SettingsPage|"
 msgid "Preferences"
@@ -4538,7 +4538,7 @@ msgstr "既定の設定"
 
 msgctxt "SettingsPage|"
 msgid "Restore default settings?"
-msgstr "既定の設定に戻しますか？"
+msgstr "既定の設定に戻しますか?"
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -5070,7 +5070,7 @@ msgstr "画質:"
 
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
-msgstr "%1 を楽しんでいますか？"
+msgstr "%1 を楽しんでいますか?"
 
 msgctxt "VoteBlock|"
 msgid "Not, really"
