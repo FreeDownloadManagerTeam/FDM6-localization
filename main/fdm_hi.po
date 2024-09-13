@@ -18,7 +18,7 @@ msgstr "संस्करण: %1 (%2)"
 
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
-msgstr "निर्माण की तारीख: %1"
+msgstr "निर्माण का दिनांक: %1"
 
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
@@ -153,6 +153,10 @@ msgstr ""
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "डाउनलोड पर क्लिक करके नीचे के पैनल को खोलें/छुपाएं"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -4000,6 +4004,14 @@ msgid "Unwanted behavior detected"
 msgstr ""
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "असमर्थित URL"
 
@@ -4638,8 +4650,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "चेतावनी: आगे संभावित सुरक्षा जोखिम"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr ""
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL प्रमाणपत्र मान्य नहीं है।"
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4652,6 +4672,16 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"

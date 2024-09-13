@@ -162,6 +162,10 @@ msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Показати/сховати нижню панель по кліку на завантаженні"
 
 msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr "Показувати активні завантаження і вивантаження через іконку в треї"
 
@@ -2564,7 +2568,7 @@ msgstr "Про програму"
 
 msgctxt "LeftDrawer|"
 msgid "Quit"
-msgstr "Вихід"
+msgstr "Вийти"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -2716,7 +2720,7 @@ msgstr "Про програму"
 
 msgctxt "MainMenu|"
 msgid "Quit"
-msgstr "Вихід"
+msgstr "Вийти"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
@@ -3035,7 +3039,7 @@ msgstr "Налаштування..."
 
 msgctxt "NativeMenuBar|"
 msgid "Quit"
-msgstr "Вихід"
+msgstr "Вийти"
 
 msgctxt "NativeMenuBar|"
 msgid "&File"
@@ -3237,7 +3241,7 @@ msgstr "Надати дозволи"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Quit"
-msgstr "Вихід"
+msgstr "Вийти"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Close"
@@ -3567,7 +3571,7 @@ msgstr "Технічна підтримка"
 
 msgctxt "QObject|"
 msgid "Exit"
-msgstr "Вихід"
+msgstr "Вийти"
 
 msgctxt "QObject|"
 msgid "Show main window"
@@ -3579,7 +3583,7 @@ msgstr "Про %1"
 
 msgctxt "QObject|"
 msgid "Quit"
-msgstr "Вихід"
+msgstr "Вийти"
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -4020,6 +4024,14 @@ msgstr "Небажана повкдінка"
 msgctxt "QObject|"
 msgid "Unwanted behavior detected"
 msgstr "Виявлено небажану повкдінку"
+
+msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -4663,8 +4675,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Увага: потенційна загроза безпеці"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr ""
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "Сертифікат SSL недійсний."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4677,6 +4697,16 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"

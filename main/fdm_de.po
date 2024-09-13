@@ -13,7 +13,7 @@ msgstr ""
 "X-Language: de_DE\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -164,6 +164,10 @@ msgstr ""
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Öffnen/Ausblenden des unteren Felds durch Klicken auf den Download"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr "Dock-Symbol ausblenden"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -787,7 +791,7 @@ msgstr "Fortsetzen"
 
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
-msgstr "(Browser ist nicht installiert)"
+msgstr "(Browser nicht installiert)"
 
 msgctxt "BtDetailsTab|"
 msgid "N/A"
@@ -4044,6 +4048,14 @@ msgid "Unwanted behavior detected"
 msgstr "Unerwünschtes Verhalten erkannt"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "Unbekannter Host-Schlüssel"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "Öffentlicher Schlüssel des Hosts ist unbekannt"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "Nicht unterstützte URL"
 
@@ -4686,8 +4698,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Warnung: potentielles Sicherheitsrisiko"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "Authentizität des Hosts kann nicht festgestellt werden."
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL-Zertifikat ungültig."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "%1 Schlüssel-Fingerabdrücke"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4700,6 +4720,18 @@ msgstr ""
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr ""
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+"Wenn Sie diesem Host vertrauen, wählen Sie Akzeptieren, um den Schlüssel zu "
+"speichern und die Verbindung fortzusetzen."
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "Akzeptieren"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"

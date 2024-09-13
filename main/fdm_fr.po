@@ -5,7 +5,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Language: fr_FR\n"
-"X-Source-Language: en\n"
+"X-Source-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "AboutDialog|"
@@ -155,6 +155,10 @@ msgstr ""
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Ouvrir/cacher le panneau du bas en cliquant sur le téléchargement"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr "Cacher l'icône du Dock"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -618,7 +622,7 @@ msgstr "Général"
 
 msgctxt "BottomPanelTools|"
 msgid "Details"
-msgstr ""
+msgstr "Détails"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
@@ -787,11 +791,11 @@ msgstr "(le navigateur n’est pas installé)"
 
 msgctxt "BtDetailsTab|"
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
-msgstr ""
+msgstr "(connecté: %1)"
 
 msgctxt "BtDetailsTab|"
 msgid "Status"
@@ -3272,7 +3276,7 @@ msgstr "Infos"
 
 msgctxt "Page|"
 msgid "Details"
-msgstr ""
+msgstr "Détails"
 
 msgctxt "Page|"
 msgid "Files"
@@ -4049,6 +4053,14 @@ msgid "Unwanted behavior detected"
 msgstr "Comportement indésirable détecté"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "Clé de l'hôte inconnue"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "La clé publique de l'hôte est inconnue"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "URL non supportée"
 
@@ -4232,7 +4244,7 @@ msgstr "Ouvrir le dossier"
 
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
-msgstr ""
+msgstr "%1 a retourné un état de sortie (%2) non-zéro"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4690,8 +4702,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Attention: risque potentiel de sécurité à venir"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "L'authenticité de l'hôte ne peut pas être établie."
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "Le certificat SSL est invalide."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "%1 empreintes digitales clés"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4704,6 +4724,18 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+"Si vous vous fiez à cet hôte, sélectionnez Accepter pour mémoriser la clé et "
+"continuer la connexion."
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "Accepter"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"

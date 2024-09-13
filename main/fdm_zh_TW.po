@@ -122,11 +122,11 @@ msgstr "電源管理"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is a scheduled download"
-msgstr ""
+msgstr "在有已排程的下載時避免進入睡眠"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
-msgstr ""
+msgstr "共享檔案時允許睡眠"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -147,11 +147,15 @@ msgstr "介面"
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
-msgstr ""
+msgstr "點擊關閉按鈕以隱藏 %1 並在背景保持運行"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "按一下下載以開啟/隱藏底部面板"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -207,11 +211,11 @@ msgstr "備份下載清單，每"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is an active download"
-msgstr ""
+msgstr "在有正在下載的任務時避免進入睡眠"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode if downloads can be resumed later"
-msgstr ""
+msgstr "若下載可續傳的情況下則允許睡眠"
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
@@ -231,11 +235,11 @@ msgstr "使用音效"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
-msgstr "電池低電量時，不允許下載"
+msgstr "不允許下載，當電池電量低於"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not share files when running on battery"
-msgstr ""
+msgstr "使用電池時不共享檔案"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
@@ -339,7 +343,7 @@ msgstr "取消"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "Storage"
-msgstr ""
+msgstr "儲存空間"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "Notifications"
@@ -347,37 +351,37 @@ msgstr "通知"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
-msgstr ""
+msgstr "%1 需要權限以將下載的檔案儲存到本機儲存空間。"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
 "notification panel."
-msgstr ""
+msgstr "%1 需要權限以將下載進度顯示於系統通知面板。"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
-msgstr "不支援暫停續傳 (%1)"
+msgstr "不支援暫停續傳 (%1)。"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
-msgstr "正在移動檔案 (%1)"
+msgstr "正在移動檔案 (%1)。"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
-msgstr "正在轉換檔案為 Mp3 (%1)"
+msgstr "正在轉換檔案為 mp3 格式 (%1)。"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
-msgstr "正在轉換檔案為 Mp4 (%1)"
+msgstr "正在轉換檔案為 mp4 格式 (%1)。"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
-msgstr "正在重新命名檔案 (%1)"
+msgstr "正在重新命名檔案 (%1)。"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
-msgstr "正在合併媒體串流 (%1)"
+msgstr "正在合併媒體串流 (%1)。"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
@@ -525,15 +529,15 @@ msgstr "1 天"
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Server has returned a web page."
-msgstr ""
+msgstr "伺服器回應一個網頁。"
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Click to open it in the web browser."
-msgstr ""
+msgstr "點擊以在瀏覧器中開啟。"
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
-msgstr "請在每行輸入項目"
+msgstr "請在每行輸入一個項目"
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
@@ -605,7 +609,7 @@ msgstr "一般"
 
 msgctxt "BottomPanelTools|"
 msgid "Details"
-msgstr ""
+msgstr "詳細資料"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
@@ -739,7 +743,7 @@ msgstr "使用瀏覽器下載透過 %1 取消的項目"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
-msgstr ""
+msgstr "INSERT 鍵按下時不截取"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -769,11 +773,11 @@ msgstr "(瀏覽器尚未安裝)"
 
 msgctxt "BtDetailsTab|"
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
-msgstr ""
+msgstr "(已連線: %1)"
 
 msgctxt "BtDetailsTab|"
 msgid "Status"
@@ -1327,7 +1331,7 @@ msgstr "大小: %1 (磁碟空間: %2)"
 
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
-msgstr ""
+msgstr "磁碟空間: %1"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1"
@@ -1465,11 +1469,11 @@ msgstr "正在檢查病毒"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp3"
-msgstr "正在轉換為 MP3"
+msgstr "正在轉換為 mp3 格式"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp4"
-msgstr "正在轉換為 MP4"
+msgstr "正在轉換為 mp4 格式"
 
 msgctxt "DownloadsItemTools|"
 msgid "Calculating hash"
@@ -1565,7 +1569,7 @@ msgstr "自動重試失敗的下載"
 
 msgctxt "DownloadsSettings|"
 msgid "Do not download web pages"
-msgstr ""
+msgstr "不下載網頁"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1665,7 +1669,7 @@ msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Choose files..."
-msgstr ""
+msgstr "選擇檔案…"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
@@ -1737,11 +1741,11 @@ msgstr "變更 URL"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
-msgstr "轉換為 Mp3"
+msgstr "轉換為 mp3 格式"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp4"
-msgstr "轉換為 Mp4"
+msgstr "轉換為 mp4 格式"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
@@ -2166,15 +2170,15 @@ msgstr "全部不選"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High priority"
-msgstr ""
+msgstr "高優先度"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Normal priority"
-msgstr ""
+msgstr "一般優先度"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Low priority"
-msgstr ""
+msgstr "低優先度"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -2194,15 +2198,15 @@ msgstr "檔案完整性"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
-msgstr "將影片轉換為 Mp3"
+msgstr "將影片轉換為 mp3 格式"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp4"
-msgstr "將影片轉換為 Mp4"
+msgstr "將影片轉換為 mp4 格式"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
-msgstr "轉換為 Mp4"
+msgstr "轉換為 mp4 格式"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2302,7 +2306,7 @@ msgstr "自動重試失敗的下載"
 
 msgctxt "GeneralSettings|"
 msgid "Do not download web pages"
-msgstr ""
+msgstr "不下載網頁"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
@@ -2490,7 +2494,7 @@ msgstr "設為預設值"
 
 msgctxt "IntegrationBanner|"
 msgid "Don't ask again"
-msgstr "不在詢問"
+msgstr "不再詢問"
 
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
@@ -2602,11 +2606,11 @@ msgstr "確定要移除標籤嗎？"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from clipboard"
-msgstr ""
+msgstr "從剪貼簿貼上URL"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from file"
-msgstr ""
+msgstr "從檔案貼上URL"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
@@ -2642,11 +2646,11 @@ msgstr "聯絡支援"
 
 msgctxt "MainMenu|"
 msgid "Auto shutdown"
-msgstr ""
+msgstr "自動關機"
 
 msgctxt "MainMenu|"
 msgid "Check for updates..."
-msgstr ""
+msgstr "檢查更新…"
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
@@ -2791,7 +2795,7 @@ msgstr ""
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Play"
-msgstr ""
+msgstr "播放"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Cancel"
@@ -2887,7 +2891,7 @@ msgstr "取消"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Convert to mp3 with adjustable bitrate"
-msgstr "轉換為 Mp3 並調整位元速率"
+msgstr "轉換為 mp3 格式並調整位元速率"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Save to"
@@ -2923,11 +2927,11 @@ msgstr "確定"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Convert to mp3"
-msgstr "轉換為 Mp3"
+msgstr "轉換為 mp3 格式"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Convert to mp3 with adjustable bitrate"
-msgstr "轉換為 Mp3 並調整位元速率"
+msgstr "轉換為 mp3 格式並調整位元速率"
 
 msgctxt "Mp3ConverterPage|"
 msgid "OK"
@@ -2955,7 +2959,7 @@ msgstr "可變位元速率"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "Convert to mp4"
-msgstr "轉換為 Mp4"
+msgstr "轉換為 mp4 格式"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "Save to"
@@ -2979,7 +2983,7 @@ msgstr "確定"
 
 msgctxt "Mp4ConverterPage|"
 msgid "Convert to mp4"
-msgstr "轉換為 Mp4"
+msgstr "轉換為 mp4 格式"
 
 msgctxt "Mp4ConverterPage|"
 msgid "OK"
@@ -3163,15 +3167,15 @@ msgstr "必須為數字且大於 0。"
 
 msgctxt "NoResumeSupportBlock|"
 msgid "This download may not support resuming."
-msgstr ""
+msgstr "此下載可能不允許續傳。"
 
 msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
-msgstr ""
+msgstr "在下載不支援續傳的情況下避免進入睡眠"
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
-msgstr ""
+msgstr "其它通知"
 
 msgctxt "Notification|"
 msgid "Ready to play"
@@ -3179,11 +3183,11 @@ msgstr ""
 
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
-msgstr ""
+msgstr "%1 缺少權限"
 
 msgctxt "OsPermissionsDialog|"
 msgid "(required)"
-msgstr ""
+msgstr "(必須)"
 
 msgctxt "OsPermissionsDialog|"
 msgid ""
@@ -3193,11 +3197,11 @@ msgstr ""
 
 msgctxt "OsPermissionsDialog|"
 msgid "Don't show again"
-msgstr ""
+msgstr "不再顯示"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Grant permissions"
-msgstr ""
+msgstr "授予權限"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Quit"
@@ -3213,7 +3217,7 @@ msgstr "資訊"
 
 msgctxt "Page|"
 msgid "Details"
-msgstr ""
+msgstr "詳細資訊"
 
 msgctxt "Page|"
 msgid "Files"
@@ -3580,7 +3584,7 @@ msgstr "%1 T"
 
 msgctxt "QObject|"
 msgid "%1 B/s"
-msgstr "%1 B"
+msgstr "%1 B/s"
 
 msgctxt "QObject|"
 msgid "%1 KB/s"
@@ -3592,7 +3596,7 @@ msgstr "%1 MB/s"
 
 msgctxt "QObject|"
 msgid "%1 GB/s"
-msgstr "%1 GB"
+msgstr "%1 GB/s"
 
 msgctxt "QObject|"
 msgid "%1 TB/s"
@@ -3600,7 +3604,7 @@ msgstr "%1 TB/s"
 
 msgctxt "QObject|"
 msgid "%1 K/s"
-msgstr "%1 K"
+msgstr "%1 K/s"
 
 msgctxt "QObject|"
 msgid "%1 M/s"
@@ -3608,7 +3612,7 @@ msgstr "%1 M/s"
 
 msgctxt "QObject|"
 msgid "%1 G/s"
-msgstr "%1 G"
+msgstr "%1 G/s"
 
 msgctxt "QObject|"
 msgid "%1 T/s"
@@ -3983,6 +3987,14 @@ msgid "Unwanted behavior detected"
 msgstr "偵測到非預期行為"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "不支援的 URL"
 
@@ -4000,7 +4012,7 @@ msgstr "hdiutil 錯誤 %1"
 
 msgctxt "QObject|"
 msgid "Mount point does not exist"
-msgstr "掛接點不存在"
+msgstr "掛載點不存在"
 
 msgctxt "QObject|"
 msgid "Signature check failure."
@@ -4160,7 +4172,7 @@ msgstr "播放清單"
 
 msgctxt "QObject|"
 msgid "Open folder"
-msgstr ""
+msgstr "打開資料夾"
 
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
@@ -4619,8 +4631,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "警告: 有潛在安全風險"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr ""
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL 憑證無效。"
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4633,6 +4653,16 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4856,7 +4886,7 @@ msgstr "封存服務資料…"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Enable enhanced logging"
-msgstr ""
+msgstr "啟用加強日誌"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Enable LT alerts logging"
@@ -4864,7 +4894,7 @@ msgstr ""
 
 msgctxt "TroubleshootingSettings|"
 msgid "Restart is required"
-msgstr ""
+msgstr "必需重啟"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Hide"
@@ -4972,7 +5002,7 @@ msgstr "大小: %1 (磁碟空間: %2)"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
-msgstr ""
+msgstr "磁碟空間: %1"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"

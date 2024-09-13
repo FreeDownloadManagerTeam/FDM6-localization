@@ -155,6 +155,10 @@ msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "İndirmeye tıklayarak alt paneli aç/gizle"
 
 msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr "Tepsi simgesini kullanarak etkin indirmeyi ve göndermeyi belirt"
 
@@ -778,7 +782,7 @@ msgstr "(tarayıcı yüklü değil)"
 
 msgctxt "BtDetailsTab|"
 msgid "N/A"
-msgstr ""
+msgstr "Yok"
 
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
@@ -2408,7 +2412,7 @@ msgstr "Hız"
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
-msgstr "İndirme hızı   :"
+msgstr "İndirme hızı     :"
 
 msgctxt "GeneralTab|"
 msgid "Upload speed:"
@@ -4012,6 +4016,14 @@ msgid "Unwanted behavior detected"
 msgstr "İstenmeyen davranış algılandı"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "Bilinmeyen anamakine anahtarı"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "Anamakinenin ortak anahtarı bilinmiyor"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "Desteklenmeyen URL"
 
@@ -4652,8 +4664,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Uyarı: olası güvenlik riski ileride"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "Anamakinenin gerçekliği belirlenemiyor."
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL Sertifikası geçersiz."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "%1 anahtarı parmak izi"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4666,6 +4686,18 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+"Eğer bu anamakineye güveniyorsanız, anahtarı hatırlamak ve bağlanmaya devam "
+"etmek için Kabul et'i seçin."
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "Kabul et"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
