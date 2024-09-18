@@ -105,15 +105,15 @@ msgstr "通知"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of added downloads via Notification Center"
-msgstr "追加したダウンロードを通知センターで知らせる"
+msgstr "通知センターで追加したダウンロードを知らせる"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "完了したダウンロードを通知センターで知らせる"
+msgstr "通知センターで完了したダウンロードを知らせる"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr "失敗したダウンロードを通知センターで知らせる"
+msgstr "通知センターで失敗したダウンロードを知らせる"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
@@ -157,7 +157,7 @@ msgstr "閉じるボタンをクリックして %1 を非表示にしてバッ�
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "ダウンロードをクリックして下部のパネルを開く/非表示にする"
+msgstr "ダウンロードをクリックして下部のパネルを表示/非表示にする"
 
 msgctxt "AdvancedSettings|"
 msgid "Hide the Dock icon"
@@ -701,7 +701,7 @@ msgstr "その他の対応ブラウザー"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
-msgstr "ブラウザーから自動的にダウンロード"
+msgstr "ブラウザーからのダウンロードを自動的にキャッチ"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Intercept downloads in your web browser"
@@ -2229,7 +2229,7 @@ msgstr "あなたの言語がリストにないか、翻訳が十分ではあり
 
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
-msgstr "修正しましょう！"
+msgstr "修正しましょう!"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -2561,7 +2561,7 @@ msgstr "%month% - 現在の月 (1 から 12)"
 
 msgctxt "MacrosMenu|"
 msgid "%day% - current day"
-msgstr "%day% - 現在の日"
+msgstr "%day% - 現在の日付"
 
 msgctxt "MacrosMenu|"
 msgid "%date% - equivalent to %year%-%month%-%day%"
@@ -2681,7 +2681,7 @@ msgstr "終了"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
-msgstr "「カタツムリモード」はダウンロードを停止することなく、帯域幅を解放することができます。"
+msgstr "「カタツムリモード」 はダウンロードを停止することなく、帯域幅を解放することができます。"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
@@ -2702,15 +2702,15 @@ msgstr "新規ダウンロードを追加..."
 
 msgctxt "MainToolbar|"
 msgid "Start all"
-msgstr "すべてを再開"
+msgstr "すべて開始"
 
 msgctxt "MainToolbar|"
 msgid "Start selected"
-msgstr "選択項目を再開"
+msgstr "選択項目を開始"
 
 msgctxt "MainToolbar|"
 msgid "Pause all"
-msgstr "すべてを一時停止"
+msgstr "すべて一時停止"
 
 msgctxt "MainToolbar|"
 msgid "Pause selected"
@@ -2858,7 +2858,7 @@ msgstr "エラー: %1"
 
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
-msgstr "移動失敗: %1"
+msgstr "移動できません: %1"
 
 msgctxt "MovingFailedDialog|"
 msgid "Try again"
@@ -3022,7 +3022,7 @@ msgstr "ダウンロード"
 
 msgctxt "NativeMenuBar|"
 msgid "Start selected"
-msgstr "選択項目を再開"
+msgstr "選択項目を開始"
 
 msgctxt "NativeMenuBar|"
 msgid "Pause selected"
@@ -3298,7 +3298,7 @@ msgstr "アドオンのインストールに失敗しました"
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
-msgstr "警告！"
+msgstr "警告!"
 
 msgctxt "PluginsPage|"
 msgid "Add-on requests dangerous permissions:"
@@ -3342,7 +3342,7 @@ msgstr "アドオンの更新に失敗しました"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
-msgstr "警告！"
+msgstr "警告!"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
@@ -3668,7 +3668,7 @@ msgstr "HTTP エラー %1"
 
 msgctxt "QObject|"
 msgid "Bad Request"
-msgstr "要求が正しくありません"
+msgstr "不正なリクエスト"
 
 msgctxt "QObject|"
 msgid "Unauthorized"
@@ -3912,7 +3912,7 @@ msgstr "操作がキャンセルされました"
 
 msgctxt "QObject|"
 msgid "Connection closed"
-msgstr "接続を閉じました"
+msgstr "接続が閉じました"
 
 msgctxt "QObject|"
 msgid "Timed out"
@@ -3924,7 +3924,7 @@ msgstr "SSL のハンドシェイクに失敗しました"
 
 msgctxt "QObject|"
 msgid "Connection refused"
-msgstr "接続拒否されました"
+msgstr "接続が拒否されました"
 
 msgctxt "QObject|"
 msgid "Network error"
@@ -4286,7 +4286,7 @@ msgstr "エラーによりレポートが送信できませんでした。エラ
 
 msgctxt "ReportSentDialog|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr "レポートを送信しました。ご協力ありがとうございました！"
+msgstr "レポートを送信しました。ご協力ありがとうございました!"
 
 msgctxt "ReportSentDialog|"
 msgid "OK"
@@ -4362,7 +4362,7 @@ msgstr "スケジュール"
 
 msgctxt "SchedulerDialog|"
 msgid "Start and pause downloads at specified time"
-msgstr "指定した時刻にダウンロードを再開または一時停止する"
+msgstr "指定した時刻にダウンロードを開始または一時停止する"
 
 msgctxt "SchedulerDialog|"
 msgid "Enable Scheduler"
@@ -4570,15 +4570,15 @@ msgstr "OK (%1)"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be put to Sleep mode."
-msgstr "注意！コンピューターがスリープモードに移行します。"
+msgstr "注意! コンピューターがスリープモードに移行します。"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be hibernated."
-msgstr "注意！コンピューターが休止状態に移行します。"
+msgstr "注意! コンピューターが休止状態に移行します。"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
-msgstr "注意！コンピューターがシャットダウンされます。"
+msgstr "注意! コンピューターがシャットダウンされます。"
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
@@ -5078,11 +5078,11 @@ msgstr "いいえ"
 
 msgctxt "VoteBlock|"
 msgid "Yes!"
-msgstr "もちろん！"
+msgstr "もちろん!"
 
 msgctxt "VoteBlock|"
 msgid "Thanks a lot! Please rate on Google Play."
-msgstr "ありがとうございます！是非 Google Play で評価をお願いします。"
+msgstr "ありがとうございます! 是非 Google Play で評価をお願いします。"
 
 msgctxt "VoteBlock|"
 msgid "Later"
@@ -5142,7 +5142,7 @@ msgstr "エラーによりレポートが送信できませんでした。エラ
 
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr "レポートを送信しました。ご協力ありがとうございました！"
+msgstr "レポートを送信しました。ご協力ありがとうございました!"
 
 msgctxt "main|"
 msgid "Remote connection to %1"
