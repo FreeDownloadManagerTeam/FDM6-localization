@@ -1,11 +1,5 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: hieuck\n"
-"Language-Team: \n"
-"Language: vi_VN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,7 +7,6 @@ msgstr ""
 "X-Language: vi_VN\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.5\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -105,7 +98,8 @@ msgstr "Thông báo"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of added downloads via Notification Center"
-msgstr "Thông báo cho tôi về các lượt tải xuống được thêm qua Trung tâm thông báo"
+msgstr ""
+"Thông báo cho tôi về các lượt tải xuống được thêm qua Trung tâm thông báo"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
@@ -114,11 +108,13 @@ msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr "Thông báo cho tôi về các lần tải xuống thất bại qua Trung tâm thông báo"
+msgstr ""
+"Thông báo cho tôi về các lần tải xuống thất bại qua Trung tâm thông báo"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
-msgstr "Chỉ thông báo cho tôi về các lượt tải xuống khi cửa sổ %1 không hoạt động"
+msgstr ""
+"Chỉ thông báo cho tôi về các lượt tải xuống khi cửa sổ %1 không hoạt động"
 
 msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
@@ -153,7 +149,8 @@ msgid "Interface"
 msgstr "Giao diện"
 
 msgctxt "AdvancedSettings|"
-msgid "Click on the Close button to hide %1 and keep it running in the background"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
 msgstr "Bấm vào nút Đóng để ẩn %1 và giữ cho nó chạy ở chế độ nền"
 
 msgctxt "AdvancedSettings|"
@@ -295,8 +292,84 @@ msgstr "Chọn giao diện"
 msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr ""
-"Giao diện sáng sẽ được áp dụng trong trường hợp không phân biệt được giao diện "
-"hệ thống."
+"Giao diện sáng sẽ được áp dụng trong trường hợp không phân biệt được giao "
+"diện hệ thống."
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "All"
+msgstr "Tất cả"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Downloads only"
+msgstr ""
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Uploads only"
+msgstr ""
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Completed"
+msgstr "Đã hoàn thành"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Stopped"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Missing Files"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "All files"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Active"
+msgstr "Hoạt động"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Completed"
+msgstr "Đã hoàn thành"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Uncompleted"
+msgstr ""
+
+msgctxt "AllDownloadsSearchField_V2|"
+msgid "Search in downloads..."
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Old"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Newest"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "A-Z"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Z-A"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By size: small"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By size: large"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By status: ascending"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By status: descending"
+msgstr ""
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -364,11 +437,11 @@ msgstr "%1 cần có quyền lưu các tệp đã tải xuống vào bộ nhớ 
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
-"%1 needs permission to show download progress within your system's notification "
-"panel."
+"%1 needs permission to show download progress within your system's "
+"notification panel."
 msgstr ""
-"%1 cần có quyền hiển thị tiến trình tải xuống trong bảng thông báo của hệ thống "
-"của bạn."
+"%1 cần có quyền hiển thị tiến trình tải xuống trong bảng thông báo của hệ "
+"thống của bạn."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
@@ -700,11 +773,11 @@ msgstr "Tích hợp trình duyệt"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
-"Make sure you have %1 extension installed, otherwise, click one of the buttons "
-"below"
+"Make sure you have %1 extension installed, otherwise, click one of the "
+"buttons below"
 msgstr ""
-"Đảm bảo bạn đã cài đặt tiện ích mở rộng %1, nếu không, hãy nhấp vào một trong "
-"các nút bên dưới"
+"Đảm bảo bạn đã cài đặt tiện ích mở rộng %1, nếu không, hãy nhấp vào một "
+"trong các nút bên dưới"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -766,17 +839,17 @@ msgid ""
 "\n"
 "Some of them (e.g. Google Drive downloads) can be added using this browser "
 "only, because they require additional information that your Android system's "
-"browser does not provide to %1 (or there is no universal way for all browsers "
-"to do this)."
+"browser does not provide to %1 (or there is no universal way for all "
+"browsers to do this)."
 msgstr ""
 "Bạn sắp mở một trình duyệt web tích hợp sẵn.\n"
 "\n"
 "Nó giúp bạn thêm các lượt tải xuống vào %1.\n"
 "\n"
-"Một số trong số chúng (ví dụ: tải xuống Google Drive) chỉ có thể được thêm bằng "
-"trình duyệt này vì chúng yêu cầu thông tin bổ sung mà trình duyệt trên hệ thống "
-"Android của bạn không cung cấp cho %1 (hoặc không có cách chung nào cho tất cả "
-"các trình duyệt thực hiện việc này)."
+"Một số trong số chúng (ví dụ: tải xuống Google Drive) chỉ có thể được thêm "
+"bằng trình duyệt này vì chúng yêu cầu thông tin bổ sung mà trình duyệt trên "
+"hệ thống Android của bạn không cung cấp cho %1 (hoặc không có cách chung nào "
+"cho tất cả các trình duyệt thực hiện việc này)."
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -856,14 +929,14 @@ msgstr "Cổng tùy chỉnh:"
 
 msgctxt "BtSettings|"
 msgid ""
-"The use of additional trackers can improve download speed in some cases. Lists "
-"of such trackers can be retrieved from different sources, e.g. from <a "
+"The use of additional trackers can improve download speed in some cases. "
+"Lists of such trackers can be retrieved from different sources, e.g. from <a "
 "href='https://github.com/ngosang/trackerslist'>here</a>."
 msgstr ""
-"Việc sử dụng các trình theo dõi bổ sung có thể cải thiện tốc độ tải xuống trong "
-"một số trường hợp. Danh sách các trình theo dõi như vậy có thể được lấy từ "
-"nhiều nguồn khác nhau, ví dụ từ <a href='https://github.com/ngosang/"
-"trackerslist'>đây</a> ."
+"Việc sử dụng các trình theo dõi bổ sung có thể cải thiện tốc độ tải xuống "
+"trong một số trường hợp. Danh sách các trình theo dõi như vậy có thể được "
+"lấy từ nhiều nguồn khác nhau, ví dụ từ <a "
+"href='https://github.com/ngosang/trackerslist'>đây</a> ."
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -1015,8 +1088,10 @@ msgstr "Các tệp không cần thiết đã được phát hiện"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid ""
-"The following folder contains extraneous files. Do you still want to delete it?"
-msgstr "Thư mục sau đây chứa các tệp không cần thiết. Bạn vẫn muốn xóa nó không?"
+"The following folder contains extraneous files. Do you still want to delete "
+"it?"
+msgstr ""
+"Thư mục sau đây chứa các tệp không cần thiết. Bạn vẫn muốn xóa nó không?"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Delete anyway"
@@ -1048,8 +1123,8 @@ msgstr "Vui lòng nhập %1, hoặc <a href='#'>quét mã QR</a>"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
-"Both %1 and QR code are located inside of Preferences page of %2 you're going "
-"to connect to."
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
 msgstr ""
 "Cả %1 và mã QR đều nằm trong trang Tùy chọn của %2 mà bạn sắp kết nối tới."
 
@@ -1068,8 +1143,8 @@ msgstr "Đồng ý"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
-"Tại đây, bạn có thể kết nối đến %1 đang chạy trên máy tính Windows/macOS/Linux "
-"của bạn"
+"Tại đây, bạn có thể kết nối đến %1 đang chạy trên máy tính "
+"Windows/macOS/Linux của bạn"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -1147,8 +1222,17 @@ msgctxt "CppQmlAppRcServer|"
 msgid "OK"
 msgstr "Đồng ý"
 
+msgctxt "CppQmlLocalizations|"
+msgid "Today"
+msgstr ""
+
+msgctxt "CppQmlLocalizations|"
+msgid "Yesterday"
+msgstr ""
+
 msgctxt "CrashReporter|"
-msgid "An internal error occurred.<br>%1 needs to be restarted for further use."
+msgid ""
+"An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr "Đã xảy ra lỗi nội bộ.<br>%1 cần được khởi động lại để sử dụng tiếp."
 
 msgctxt "CrashReporter|"
@@ -1181,8 +1265,8 @@ msgstr "Tạo phiên bản di động"
 
 msgctxt "CreatePortableDialog|"
 msgid ""
-"Portable version of %1 can be used on different computers without the need to "
-"install and configure it on each of them."
+"Portable version of %1 can be used on different computers without the need "
+"to install and configure it on each of them."
 msgstr ""
 "Phiên bản di động của %1 có thể được sử dụng trên các máy tính khác nhau mà "
 "không cần cài đặt và định cấu hình trên từng máy tính."
@@ -1193,11 +1277,11 @@ msgstr "Ví dụ, nó có thể được đặt thuận tiện trên một đĩa
 
 msgctxt "CreatePortableDialog|"
 msgid ""
-"Specify here the path where you would like to create this version. It should be "
-"a folder on some removable drive."
+"Specify here the path where you would like to create this version. It should "
+"be a folder on some removable drive."
 msgstr ""
-"Chỉ định ở đây đường dẫn mà bạn muốn tạo phiên bản này. Nó phải là một thư mục "
-"trên một số ổ đĩa di động."
+"Chỉ định ở đây đường dẫn mà bạn muốn tạo phiên bản này. Nó phải là một thư "
+"mục trên một số ổ đĩa di động."
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -1393,6 +1477,26 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Đóng"
 
+msgctxt "DownloadProgressBar_V2|"
+msgid "Checking files"
+msgstr "Đang kiểm tra tệp"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Merging media streams"
+msgstr ""
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Queued"
+msgstr "Đã xếp hàng"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Requesting info"
+msgstr "Yêu cầu thông tin"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Paused"
+msgstr "Đã tạm dừng"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr ""
@@ -1477,7 +1581,6 @@ msgctxt "DownloadWindow|"
 msgid "Stop"
 msgstr ""
 
-#, fuzzy
 msgctxt "DownloadWindow|"
 msgid "Start"
 msgstr "Không khởi động được."
@@ -1508,7 +1611,7 @@ msgstr "Thiếu tệp tin"
 
 msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
-msgstr ""
+msgstr "Thiếu ổ đĩa"
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
@@ -1657,6 +1760,30 @@ msgstr "Thiếu ổ đĩa"
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
 msgstr "Đã dừng tải lên"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Name"
+msgstr "Tên"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Size"
+msgstr "Kích thước"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Status"
+msgstr "Trạng thái"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Download"
+msgstr "Tải xuống"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Upload"
+msgstr ""
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Added"
+msgstr "Thêm"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -1834,6 +1961,18 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Kích thước tệp tin không xác định"
 
+msgctxt "DownloadsViewItem_V2|"
+msgid "n/a"
+msgstr ""
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Delete file"
+msgstr "Xóa tệp tin"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Remove from list"
+msgstr "Xóa từ danh sách"
+
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "Đã xếp hàng"
@@ -1875,7 +2014,8 @@ msgid "Extensions (e.g. \"avi mp3\")"
 msgstr ""
 
 msgctxt "EditTagDialog|"
-msgid "Extensions that are automatically assigned with this tag for new downloads"
+msgid ""
+"Extensions that are automatically assigned with this tag for new downloads"
 msgstr ""
 
 msgctxt "EditTagDialog|"
@@ -1906,7 +2046,6 @@ msgctxt "EnvTools|"
 msgid "Data roaming disabled"
 msgstr ""
 
-#, fuzzy
 msgctxt "EnvTools|"
 msgid "No Internet connection"
 msgstr "Không gửi được báo cáo.<br>Hãy kiểm tra kết nối Internet của bạn."
@@ -1929,7 +2068,7 @@ msgstr "Luôn luôn hỏi"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
-msgstr ""
+msgstr "Xuất những tải xuống đã chọn"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export all downloads"
@@ -2231,6 +2370,54 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
 msgstr "Chuyển đổi thành tệp mp4"
 
+msgctxt "FilesTreeHeader_V2|"
+msgid "Name"
+msgstr "Tên"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Size"
+msgstr "Kích thước"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Status"
+msgstr "Trạng thái"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Completed"
+msgstr "Đã hoàn thành"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Priority"
+msgstr ""
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Normal"
+msgstr "Bình thường"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "High"
+msgstr "Cao"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Low"
+msgstr "Thấp"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Completed"
+msgstr "Đã hoàn thành"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Low"
+msgstr "Thấp"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Normal"
+msgstr "Bình thường"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "High"
+msgstr "Cao"
+
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Macros"
@@ -2238,10 +2425,6 @@ msgstr "Macros"
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "Chung"
-
-msgctxt "GeneralSettings|"
-msgid "Choose theme"
-msgstr "Chọn giao diện"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -2256,14 +2439,31 @@ msgid "Suggest folders based on file type"
 msgstr "Đề xuất thư mục dựa trên loại tệp tin"
 
 msgctxt "GeneralSettings|"
+msgid "Theme"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr ""
-"Giao diện sáng sẽ được áp dụng trong trường hợp không phân biệt được giao diện "
-"hệ thống."
+"Giao diện sáng sẽ được áp dụng trong trường hợp không phân biệt được giao "
+"diện hệ thống."
+
+msgctxt "GeneralSettings|"
+msgid "UI style"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "New (beta)"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Classic"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
-msgstr "Ngôn ngữ của bạn không có trong danh sách hoặc bản dịch chưa hoàn chỉnh?"
+msgstr ""
+"Ngôn ngữ của bạn không có trong danh sách hoặc bản dịch chưa hoàn chỉnh?"
 
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
@@ -2397,7 +2597,6 @@ msgctxt "GeneralTab|"
 msgid "Uploaded"
 msgstr "Đã tải lên"
 
-#, fuzzy
 msgctxt "GeneralTab|"
 msgid "ratio"
 msgstr "Tỷ lệ"
@@ -2406,7 +2605,6 @@ msgctxt "GeneralTab|"
 msgid "Web page"
 msgstr "Trang web"
 
-#, fuzzy
 msgctxt "GeneralTab|"
 msgid "File"
 msgstr "Vị trí tệp: %1"
@@ -2442,6 +2640,34 @@ msgstr "Đã thêm:"
 msgctxt "GeneralTab|"
 msgid "Progress:"
 msgstr "Tiến độ:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Downloaded:"
+msgstr "Đã tải xuống:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Uploaded"
+msgstr "Đã tải lên"
+
+msgctxt "GeneralTab_V2|"
+msgid "ratio"
+msgstr "Tỷ lệ"
+
+msgctxt "GeneralTab_V2|"
+msgid "Added at:"
+msgstr "Đã thêm vào:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Download speed:"
+msgstr "Tốc độ tải xuống:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Upload speed:"
+msgstr "Tốc độ tải lên:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Web page"
+msgstr "Trang web"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2736,6 +2962,43 @@ msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Tổng kích thước:"
 
+msgctxt "MainStatusBar_V2|"
+msgid "Low"
+msgstr "Thấp"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Medium"
+msgstr "Trung bình"
+
+msgctxt "MainStatusBar_V2|"
+msgid "High"
+msgstr "Cao"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Unlimited"
+msgstr "Không giới hạn"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode frees bandwidth without stopping downloads."
+msgstr "Chế độ ốc sên giải phóng băng thông mà không dừng tải xuống."
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode"
+msgstr "Chế độ ốc sên"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Set the traffic usage mode"
+msgstr ""
+
+msgctxt "MainStatusBar_V2|"
+msgid "%n downloads selected."
+msgid_plural "%n downloads selected."
+msgstr[0] ""
+
+msgctxt "MainStatusBar_V2|"
+msgid "Total size:"
+msgstr "Tổng kích thước:"
+
 msgctxt "MainToolbar|"
 msgid "Add new download..."
 msgstr "Thêm tải xuống mới ..."
@@ -2783,6 +3046,46 @@ msgstr ""
 msgctxt "MainToolbar|"
 msgid "remote control"
 msgstr "điều khiển từ xa"
+
+msgctxt "MainToolbar_V2|"
+msgid "Select"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Sort"
+msgstr "Sắp xếp"
+
+msgctxt "MainToolbar_V2|"
+msgid "Filters"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Start"
+msgstr "Không khởi động được."
+
+msgctxt "MainToolbar_V2|"
+msgid "Pause"
+msgstr "Tạm dừng"
+
+msgctxt "MainToolbar_V2|"
+msgid "Remove"
+msgstr "Loại bỏ"
+
+msgctxt "MainToolbar_V2|"
+msgid "Move files"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Add download"
+msgstr "Thêm tải xuống"
+
+msgctxt "MainToolbar_V2|"
+msgid "Menu and settings"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr ""
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2846,7 +3149,7 @@ msgstr "Kích thước:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Added at:"
-msgstr ""
+msgstr "Đã thêm vào:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
@@ -3212,7 +3515,6 @@ msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
 msgstr ""
 
-#, fuzzy
 msgctxt "OsPermissionsDialog|"
 msgid "(required)"
 msgstr "Yêu cầu xác thực"
@@ -3257,14 +3559,15 @@ msgstr "Số lượng kết nối"
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Phát tập tin đó ngay lập tức trong khi đang tải xuống"
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
 msgstr ""
 
 msgctxt "PluginBannerDialog|"
-msgid "We would like to ask you to help this add-on to reach its potential users."
+msgid ""
+"We would like to ask you to help this add-on to reach its potential users."
 msgstr ""
 
 msgctxt "PluginBannerDialog|"
@@ -3469,8 +3772,9 @@ msgstr ""
 
 msgctxt "PrivacyDialog|"
 msgid ""
-"A bug report will be sent to the server and used to improve %1 performance. We "
-"do not collect your personal data and do not share data with third parties."
+"A bug report will be sent to the server and used to improve %1 performance. "
+"We do not collect your personal data and do not share data with third "
+"parties."
 msgstr ""
 
 msgctxt "PrivacyDialog|"
@@ -3485,10 +3789,14 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "Hủy"
 
+msgctxt "ProgressBar_V2|"
+msgid "n/a"
+msgstr ""
+
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
-"languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) to "
-"get proper UI layout."
+"languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
+"to get proper UI layout."
 msgid "QT_LAYOUT_DIRECTION"
 msgstr ""
 
@@ -3533,6 +3841,10 @@ msgstr ""
 msgctxt "QObject|"
 msgid "Enter URL"
 msgstr "Nhập URL"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
@@ -4281,7 +4593,7 @@ msgstr "Hủy"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Rename file"
-msgstr ""
+msgstr "Đổi tên file"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Enter new name"
@@ -4301,7 +4613,7 @@ msgstr "Đồng ý"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "Rename file"
-msgstr ""
+msgstr "Đổi tên file"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "OK"
@@ -4894,7 +5206,6 @@ msgctxt "TroubleshootingSettings|"
 msgid "Zip files"
 msgstr ""
 
-#, fuzzy
 msgctxt "TroubleshootingSettings|"
 msgid "Failed"
 msgstr "Chuyển đổi không thành công"
@@ -4913,6 +5224,10 @@ msgstr ""
 
 msgctxt "TroubleshootingSettings|"
 msgid "Restart is required"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
+msgid "Do crash app"
 msgstr ""
 
 msgctxt "TroubleshootingSettings|"
@@ -5009,7 +5324,7 @@ msgstr "Tên tệp"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Phát tập tin đó ngay lập tức trong khi đang tải xuống"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
@@ -5021,11 +5336,23 @@ msgstr "Kích thước: %1 (Ổ đĩa: %2)"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
-msgstr ""
+msgstr "Dung lượng đĩa: %1"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Kích thước: %1"
+
+msgctxt "UiUpdatedBanner|"
+msgid "UI has been updated to the new (beta) style."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "OK"
+msgstr "Đồng ý"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Revert to the classic UI"
+msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
