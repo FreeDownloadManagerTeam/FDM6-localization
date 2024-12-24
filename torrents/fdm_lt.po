@@ -3,94 +3,86 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Language: my_MM\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Language: lt_LT\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "AddTrackersDialog|"
 msgid "Add trackers"
-msgstr ""
+msgstr "Pridėti stebėjimo priemones"
 
 msgctxt "AddTrackersPage|"
 msgid "Add trackers"
-msgstr ""
+msgstr "Pridėti stebėjimo priemones"
 
 msgctxt "BtDetailsTab|"
 msgid "Peers:"
-msgstr ""
+msgstr "Bendraamžiai:"
 
 msgctxt "BtDetailsTab|"
 msgid "Seeds:"
-msgstr ""
+msgstr "Sėklos:"
 
 msgctxt "BtDetailsTab|"
 msgid "Availability:"
-msgstr ""
+msgstr "Prieinamumas:"
 
 msgctxt "BtDetailsTab|"
 msgid "Last seen complete:"
-msgstr ""
+msgstr "Paskutinį kartą matytas baigtas:"
 
 msgctxt "BtDetailsTab|"
 msgid "Tracker URL"
-msgstr ""
-
-msgctxt "DownloadContextMenu|"
-msgid "Start all seeding downloads"
-msgstr ""
-
-msgctxt "DownloadContextMenu|"
-msgid "Stop all seeding downloads"
-msgstr ""
-
-msgctxt "DownloadContextMenu|"
-msgid "Add trackers"
-msgstr ""
+msgstr "Stebėjimo priemonės URL"
 
 msgctxt "DownloadContextMenu|"
 msgid "Disable seeding"
-msgstr ""
+msgstr "Išjungti sėjimą"
 
 msgctxt "DownloadContextMenu|"
-msgid "Force reannounce"
-msgstr ""
+msgid "Add trackers"
+msgstr "Pridėti stebėjimo priemones"
+
+msgctxt "DownloadContextMenu|"
+msgid "Start all seeding downloads"
+msgstr "Pradėkite visus sėjimo atsisiuntimus"
+
+msgctxt "DownloadContextMenu|"
+msgid "Stop all seeding downloads"
+msgstr "Sustabdyti visus sėjimo atsisiuntimus"
 
 msgctxt "DownloadContextMenu|"
 msgid "Ignore upload ratio limit"
-msgstr ""
+msgstr "Nepaisyti įkėlimo koeficiento apribojimo"
+
+msgctxt "DownloadContextMenu|"
+msgid "Force reannounce"
+msgstr "Priversti perskelbti"
 
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
-msgstr ""
+msgstr "Ar norite %1 padaryti numatytuoju torrent klientu?"
 
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
-msgstr ""
+msgstr "Patikrinkite, ar %1 yra numatytasis torrent klientas"
 
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
-msgstr ""
-
-msgctxt "QObject|"
-msgid "seeding"
-msgstr ""
-
-msgctxt "QObject|"
-msgid "Torrent"
-msgstr ""
+msgstr "Padaryti %1 numatytuoju torrent klientu"
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
-msgstr ""
+msgstr "Susiekite su magnetinėmis jungtimis"
 
 msgctxt "QObject|"
 msgid "Associate with torrent files"
-msgstr ""
+msgstr "Susieti su torrent failais"
 
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
-msgstr ""
+msgstr "Įveskite URL arba pasirinkite torrent failą"
 
 msgctxt "QObject|"
 msgid "Drag-and-drop URL or torrent file"
@@ -98,44 +90,53 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Merge trackers"
-msgstr ""
+msgstr "Sujungti stebėjimo priemones"
 
-msgctxt "Settings|"
-msgid "BitTorrent settings"
-msgstr ""
+msgctxt "QObject|"
+msgid "Torrent"
+msgstr "Torrent"
+
+msgctxt "QObject|"
+msgid "seeding"
+msgstr "sėjimas"
 
 msgctxt "Settings|"
 msgid "Automatically delete .torrent files once the download is finished"
-msgstr ""
+msgstr "Kai atsisiuntimas bus baigtas, automatiškai ištrinkite .torrent failus"
 
 msgctxt "Settings|"
 msgid "Monitor folder for new .torrent files"
-msgstr ""
+msgstr "Stebėkite aplanką, ar nėra naujų .torrent failų"
 
 msgctxt "Settings|"
 msgid "Enable DHT to find more peers"
-msgstr ""
+msgstr "Įgalinkite DHT, kad rastumėte daugiau bendraamžių"
 
 msgctxt "Settings|"
 msgid "Enable PeX to find more peers"
-msgstr ""
+msgstr "Įgalinkite DHT, kad rastumėte daugiau bendraamžių"
 
 msgctxt "Settings|"
 msgid "Enable Local Peer Discovery to find more peers"
 msgstr ""
+"Įgalinkite vietinį bendraamžių atradimą, kad rastumėte daugiau bendraamžių"
 
 msgctxt "Settings|"
 msgid "Enable uTP"
-msgstr ""
+msgstr "Įgalinti uTP"
 
 msgctxt "Settings|"
 msgid "Use system defined port for incoming connections"
-msgstr ""
+msgstr "Įeinantiems ryšiams naudokite sistemos apibrėžtą prievadą"
 
 msgctxt "Settings|"
 msgid "Enable list of predefined trackers"
-msgstr ""
+msgstr "Įgalinti iš anksto nustatytų stebėjimo priemonių sąrašą"
+
+msgctxt "Settings|"
+msgid "BitTorrent settings"
+msgstr "BitTorrent nustatymai"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"
-msgstr ""
+msgstr "Sustabdykite sėjimą santykiu"

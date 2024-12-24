@@ -1,11 +1,5 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: MELERIX\n"
-"Language-Team: \n"
-"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,7 +7,6 @@ msgstr ""
 "X-Language: es\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.4.4\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -282,7 +275,7 @@ msgstr "Acción del botón borrar"
 
 msgctxt "AdvancedSettings|"
 msgid "Remove only from download list"
-msgstr "Remover solo de la lista de descargas"
+msgstr "Eliminar solo de la lista de descargas"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete files"
@@ -303,6 +296,82 @@ msgstr "Elegir tema"
 msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr "Un tema claro se utilizará, si el tema del sistema es desconocido."
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "All"
+msgstr "Todo"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Downloads only"
+msgstr ""
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Uploads only"
+msgstr ""
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Completed"
+msgstr "Completada"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Stopped"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Missing Files"
+msgstr "Archivos faltantes"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "All files"
+msgstr "Todos los archivos"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Active"
+msgstr "Activa"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Completed"
+msgstr "Completada"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Uncompleted"
+msgstr "Incompleta"
+
+msgctxt "AllDownloadsSearchField_V2|"
+msgid "Search in downloads..."
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Old"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Newest"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "A-Z"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Z-A"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By size: small"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By size: large"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By status: ascending"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By status: descending"
+msgstr ""
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -690,7 +759,7 @@ msgstr "Descargar medio"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
-msgstr "Remover marcador"
+msgstr "Eliminar marcador"
 
 msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
@@ -872,8 +941,8 @@ msgid ""
 msgstr ""
 "El uso rastreadores adicionales puede mejorar la velocidad de descarga en "
 "algunos casos. Las listas de dichos rastreadores se pueden obtener desde "
-"diferentes fuentes, por ejemplo desde <a href='https://github.com/ngosang/"
-"trackerslist'>aquí</a>."
+"diferentes fuentes, por ejemplo desde <a "
+"href='https://github.com/ngosang/trackerslist'>aquí</a>."
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -1158,6 +1227,14 @@ msgctxt "CppQmlAppRcServer|"
 msgid "OK"
 msgstr "ACEPTAR"
 
+msgctxt "CppQmlLocalizations|"
+msgid "Today"
+msgstr ""
+
+msgctxt "CppQmlLocalizations|"
+msgid "Yesterday"
+msgstr ""
+
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
@@ -1282,7 +1359,7 @@ msgstr "Establecer sonido"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Remove"
-msgstr "Remover"
+msgstr "Eliminar"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Test"
@@ -1306,7 +1383,7 @@ msgstr "Borrar archivos"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Remove from list"
-msgstr "Remover de la lista"
+msgstr "Eliminar de la lista"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Cancel"
@@ -1410,6 +1487,26 @@ msgstr "Actualizar descarga"
 msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Cerrar"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Checking files"
+msgstr "Comprobando archivos"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Merging media streams"
+msgstr "Combinando medios de transmisión"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Queued"
+msgstr "En cola"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Requesting info"
+msgstr "Solicitando información"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Paused"
+msgstr "Pausada"
 
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
@@ -1585,12 +1682,13 @@ msgstr "Iniciar descarga sin confirmación"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "Remover automáticamente los archivos borrados de la lista de descargas"
+msgstr ""
+"Eliminar automáticamente los archivos borrados de la lista de descargas"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
 msgstr ""
-"Remover automáticamente las descargas completadas de la lista de descargas"
+"Eliminar automáticamente las descargas completadas de la lista de descargas"
 
 msgctxt "DownloadsSettings|"
 msgid "Immediately"
@@ -1676,6 +1774,30 @@ msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
 msgstr "Carga pausada"
 
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Size"
+msgstr "Tamaño"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Status"
+msgstr "Estado"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Download"
+msgstr "Descargar"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Upload"
+msgstr ""
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Added"
+msgstr "Agregada"
+
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "Prioridad"
@@ -1738,7 +1860,7 @@ msgstr "Borrar archivo"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Remove from list"
-msgstr "Remover de la lista"
+msgstr "Eliminar de la lista"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Play file while it is still downloading"
@@ -1818,7 +1940,7 @@ msgstr "Descarga secuencial"
 
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
-msgstr "Remover de la lista"
+msgstr "Eliminar de la lista"
 
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Restart"
@@ -1851,6 +1973,18 @@ msgstr "Pausada"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Tamaño de archivo desconocido"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "n/a"
+msgstr ""
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Delete file"
+msgstr "Borrar archivo"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Remove from list"
+msgstr "Eliminar de la lista"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -2251,6 +2385,54 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
 msgstr "Convertir a mp4"
 
+msgctxt "FilesTreeHeader_V2|"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Size"
+msgstr "Tamaño"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Status"
+msgstr "Estado"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Completed"
+msgstr "Completada"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Priority"
+msgstr "Prioridad"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Normal"
+msgstr "Normal"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "High"
+msgstr "Alta"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Low"
+msgstr "Baja"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Completed"
+msgstr "Completada"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Low"
+msgstr "Baja"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Normal"
+msgstr "Normal"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "High"
+msgstr "Alta"
+
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Macros"
@@ -2258,10 +2440,6 @@ msgstr "Macros"
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "General"
-
-msgctxt "GeneralSettings|"
-msgid "Choose theme"
-msgstr "Elegir tema"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -2276,8 +2454,24 @@ msgid "Suggest folders based on file type"
 msgstr "Sugerir carpetas basadas en el tipo de archivo"
 
 msgctxt "GeneralSettings|"
+msgid "Theme"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr "Un tema claro se utilizará, si el tema del sistema es desconocido."
+
+msgctxt "GeneralSettings|"
+msgid "UI style"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "New (beta)"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Classic"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -2325,12 +2519,13 @@ msgstr "Habilitar ventanas de descargas independientes"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "Remover automáticamente los archivos borrados de la lista de descargas"
+msgstr ""
+"Eliminar automáticamente los archivos borrados de la lista de descargas"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
 msgstr ""
-"Remover automáticamente las descargas completadas de la lista de descargas"
+"Eliminar automáticamente las descargas completadas de la lista de descargas"
 
 msgctxt "GeneralSettings|"
 msgid "Immediately"
@@ -2460,6 +2655,34 @@ msgstr "Agregada:"
 msgctxt "GeneralTab|"
 msgid "Progress:"
 msgstr "Progreso:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Downloaded:"
+msgstr "Descargada:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Uploaded"
+msgstr "Cargada"
+
+msgctxt "GeneralTab_V2|"
+msgid "ratio"
+msgstr "proporción"
+
+msgctxt "GeneralTab_V2|"
+msgid "Added at:"
+msgstr "Agregada a las:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Download speed:"
+msgstr "Velocidad de descarga:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Upload speed:"
+msgstr "Velocidad de carga:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Web page"
+msgstr "Página web"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2755,6 +2978,44 @@ msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Tamaño total:"
 
+msgctxt "MainStatusBar_V2|"
+msgid "Low"
+msgstr "Baja"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Medium"
+msgstr "Media"
+
+msgctxt "MainStatusBar_V2|"
+msgid "High"
+msgstr "Alta"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode frees bandwidth without stopping downloads."
+msgstr "El modo caracol libera ancho de banda sin parar las descargas."
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode"
+msgstr "Modo caracol"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Set the traffic usage mode"
+msgstr ""
+
+msgctxt "MainStatusBar_V2|"
+msgid "%n downloads selected."
+msgid_plural "%n downloads selected."
+msgstr[0] "%n descarga seleccionada."
+msgstr[1] "%n descargas seleccionadas."
+
+msgctxt "MainStatusBar_V2|"
+msgid "Total size:"
+msgstr "Tamaño total:"
+
 msgctxt "MainToolbar|"
 msgid "Add new download..."
 msgstr "Agregar nueva descarga..."
@@ -2803,6 +3064,47 @@ msgstr ""
 msgctxt "MainToolbar|"
 msgid "remote control"
 msgstr "control remoto"
+
+msgctxt "MainToolbar_V2|"
+msgid "Select"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Sort"
+msgstr "Ordenar"
+
+msgctxt "MainToolbar_V2|"
+msgid "Filters"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Start"
+msgstr "Iniciar"
+
+msgctxt "MainToolbar_V2|"
+msgid "Pause"
+msgstr "Pausar"
+
+msgctxt "MainToolbar_V2|"
+msgid "Remove"
+msgstr "Eliminar"
+
+msgctxt "MainToolbar_V2|"
+msgid "Move files"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Add download"
+msgstr "Agregar descarga"
+
+msgctxt "MainToolbar_V2|"
+msgid "Menu and settings"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr ""
+"¿Cambiar a la clasificación definida por el usuario de la lista de descargas?"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3094,7 +3396,7 @@ msgstr "Reiniciar seleccionada"
 
 msgctxt "NativeMenuBar|"
 msgid "Remove from List"
-msgstr "Remover de la lista"
+msgstr "Eliminar de la lista"
 
 msgctxt "NativeMenuBar|"
 msgid "Help"
@@ -3463,7 +3765,7 @@ msgstr "Comprobar actualizaciones"
 
 msgctxt "PluginsViewItem|"
 msgid "Remove"
-msgstr "Remover"
+msgstr "Eliminar"
 
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
@@ -3519,6 +3821,10 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "Cancelar"
 
+msgctxt "ProgressBar_V2|"
+msgid "n/a"
+msgstr ""
+
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
 "languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
@@ -3569,6 +3875,10 @@ msgstr ""
 msgctxt "QObject|"
 msgid "Enter URL"
 msgstr "Ingresar URL"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
@@ -4859,7 +5169,7 @@ msgstr "Editar"
 
 msgctxt "TagMenu|"
 msgid "Remove"
-msgstr "Remover"
+msgstr "Eliminar"
 
 msgctxt "TagPalette|"
 msgid "Customize color"
@@ -4964,6 +5274,10 @@ msgstr "Habilitar registro de alertas de LT"
 msgctxt "TroubleshootingSettings|"
 msgid "Restart is required"
 msgstr "Se requiere reinciar"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Do crash app"
+msgstr ""
 
 msgctxt "TroubleshootingSettings|"
 msgid "Hide"
@@ -5076,6 +5390,18 @@ msgstr "Espacio en disco: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Tamaño: %1"
+
+msgctxt "UiUpdatedBanner|"
+msgid "UI has been updated to the new (beta) style."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "OK"
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "Revert to the classic UI"
+msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
