@@ -157,7 +157,7 @@ msgstr "Показване/скриване на долен панел при н
 
 msgctxt "AdvancedSettings|"
 msgid "Hide the Dock icon"
-msgstr ""
+msgstr "Скриване на иконата в  Dock"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -292,6 +292,82 @@ msgstr "Избор на тема"
 msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr "Ще се използва светла тема ако системната тема е неизвестна."
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "All"
+msgstr "Всички"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Downloads only"
+msgstr ""
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Uploads only"
+msgstr ""
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Completed"
+msgstr ""
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Stopped"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Missing Files"
+msgstr "Липсващи файлове"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "All files"
+msgstr "Всички файлове"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Active"
+msgstr "Активни"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Completed"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Uncompleted"
+msgstr "Незавършено"
+
+msgctxt "AllDownloadsSearchField_V2|"
+msgid "Search in downloads..."
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Old"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Newest"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "A-Z"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Z-A"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By size: small"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By size: large"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By status: ascending"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By status: descending"
+msgstr ""
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -615,7 +691,7 @@ msgstr "Общи"
 
 msgctxt "BottomPanelTools|"
 msgid "Details"
-msgstr ""
+msgstr "Детайли"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
@@ -782,11 +858,11 @@ msgstr "(браузърът не е инсталиран)"
 
 msgctxt "BtDetailsTab|"
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
-msgstr ""
+msgstr "(свързан: %1)"
 
 msgctxt "BtDetailsTab|"
 msgid "Status"
@@ -1142,6 +1218,14 @@ msgctxt "CppQmlAppRcServer|"
 msgid "OK"
 msgstr "OK"
 
+msgctxt "CppQmlLocalizations|"
+msgid "Today"
+msgstr ""
+
+msgctxt "CppQmlLocalizations|"
+msgid "Yesterday"
+msgstr ""
+
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
@@ -1390,6 +1474,26 @@ msgstr "Обновяване на изтеглянето"
 msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Затвори"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Checking files"
+msgstr "Проверка на файлове"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Merging media streams"
+msgstr "Сливане на потоци от данни"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Queued"
+msgstr "На опашка"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Requesting info"
+msgstr "Очаквам информация"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Paused"
+msgstr "На пауза"
 
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
@@ -1655,6 +1759,30 @@ msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
 msgstr "Качването е поставено на пауза"
 
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Name"
+msgstr "Име"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Size"
+msgstr "Размер"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Download"
+msgstr "Изтегляне"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Upload"
+msgstr ""
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Added"
+msgstr "Добавен"
+
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "Приоритет"
@@ -1830,6 +1958,18 @@ msgstr "На пауза"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Неизв. размер на файла"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "n/a"
+msgstr ""
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Delete file"
+msgstr "Изтриване на файл"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Remove from list"
+msgstr "Премахни от списъка"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -2229,6 +2369,54 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
 msgstr "Превърни в mp4"
 
+msgctxt "FilesTreeHeader_V2|"
+msgid "Name"
+msgstr "Име"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Size"
+msgstr "Размер"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Completed"
+msgstr ""
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Priority"
+msgstr "Приоритет"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Normal"
+msgstr "Нормален"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "High"
+msgstr ""
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Low"
+msgstr ""
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Completed"
+msgstr ""
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Low"
+msgstr ""
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Normal"
+msgstr "Нормален"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "High"
+msgstr ""
+
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Макроси"
@@ -2236,10 +2424,6 @@ msgstr "Макроси"
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "Общи"
-
-msgctxt "GeneralSettings|"
-msgid "Choose theme"
-msgstr "Изберете тема"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -2254,8 +2438,24 @@ msgid "Suggest folders based on file type"
 msgstr "Предложение за папки базирано на типа на файла"
 
 msgctxt "GeneralSettings|"
+msgid "Theme"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr "Ще се използва светла тема ако системната тема е неизвестна."
+
+msgctxt "GeneralSettings|"
+msgid "UI style"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "New (beta)"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Classic"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -2437,6 +2637,34 @@ msgstr "Добавен:"
 msgctxt "GeneralTab|"
 msgid "Progress:"
 msgstr "Напредък:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Downloaded:"
+msgstr "Изтеглено:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Uploaded"
+msgstr "Качено"
+
+msgctxt "GeneralTab_V2|"
+msgid "ratio"
+msgstr "съотношение"
+
+msgctxt "GeneralTab_V2|"
+msgid "Added at:"
+msgstr "Добавено в:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Download speed:"
+msgstr "Скорост на изтегляне:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Upload speed:"
+msgstr "Скорост на качване:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Web page"
+msgstr "Уеб страница"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2732,6 +2960,44 @@ msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Пълен размер:"
 
+msgctxt "MainStatusBar_V2|"
+msgid "Low"
+msgstr ""
+
+msgctxt "MainStatusBar_V2|"
+msgid "Medium"
+msgstr ""
+
+msgctxt "MainStatusBar_V2|"
+msgid "High"
+msgstr ""
+
+msgctxt "MainStatusBar_V2|"
+msgid "Unlimited"
+msgstr ""
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode frees bandwidth without stopping downloads."
+msgstr "Режим охлюв освобождава трафик без да спира изтеглянията."
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode"
+msgstr "Режим охлюв"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Set the traffic usage mode"
+msgstr ""
+
+msgctxt "MainStatusBar_V2|"
+msgid "%n downloads selected."
+msgid_plural "%n downloads selected."
+msgstr[0] "%n изтегляния избрани."
+msgstr[1] "%n изтегляния избрани."
+
+msgctxt "MainStatusBar_V2|"
+msgid "Total size:"
+msgstr "Пълен размер:"
+
 msgctxt "MainToolbar|"
 msgid "Add new download..."
 msgstr "Добавете ново изтегляне..."
@@ -2781,6 +3047,48 @@ msgstr ""
 msgctxt "MainToolbar|"
 msgid "remote control"
 msgstr "дистанционно управление"
+
+msgctxt "MainToolbar_V2|"
+msgid "Select"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Sort"
+msgstr "Сортиране"
+
+msgctxt "MainToolbar_V2|"
+msgid "Filters"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Start"
+msgstr "Старт"
+
+msgctxt "MainToolbar_V2|"
+msgid "Pause"
+msgstr "Пауза"
+
+msgctxt "MainToolbar_V2|"
+msgid "Remove"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Move files"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Add download"
+msgstr "Добавете изтегляне"
+
+msgctxt "MainToolbar_V2|"
+msgid "Menu and settings"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr ""
+"За да използвате тази функция изтеглянията трябва да се сортират по ред. "
+"Желаете ли първо да сортирате изтеглянията си?"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3246,7 +3554,7 @@ msgstr "Информация"
 
 msgctxt "Page|"
 msgid "Details"
-msgstr ""
+msgstr "Детайли"
 
 msgctxt "Page|"
 msgid "Files"
@@ -3495,6 +3803,10 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "Отказ"
 
+msgctxt "ProgressBar_V2|"
+msgid "n/a"
+msgstr ""
+
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
 "languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
@@ -3545,6 +3857,10 @@ msgstr ""
 msgctxt "QObject|"
 msgid "Enter URL"
 msgstr "Въведете URL"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
@@ -4020,11 +4336,11 @@ msgstr "Открито е нежелано поведение"
 
 msgctxt "QObject|"
 msgid "Unknown host key"
-msgstr ""
+msgstr "Неизвестен ключ на хоста"
 
 msgctxt "QObject|"
 msgid "Public key of the host is unknown"
-msgstr ""
+msgstr "Публичният ключ на хоста е неизвестен"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -4210,7 +4526,7 @@ msgstr "Отваряне на папка"
 
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
-msgstr ""
+msgstr "%1 е върнал ненулев (%2) статус на изхода"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4667,7 +4983,7 @@ msgstr "Внимание: Потенциален риск за сигурнос�
 
 msgctxt "SslDialog|"
 msgid "The authenticity of the host can't be established."
-msgstr ""
+msgstr "Автентичността на хоста не може да бъде установена."
 
 msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
@@ -4675,7 +4991,7 @@ msgstr "SSL Сертификата е невалиден."
 
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
-msgstr ""
+msgstr "%1 пръстови отпечатъци на ключове"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4694,10 +5010,12 @@ msgid ""
 "If you trust this host, select Accept to remember the key and carry on "
 "connecting."
 msgstr ""
+"Ако се доверявате на този хост изберете Приемам за да запаметите ключа и да "
+"се свържете."
 
 msgctxt "SslDialog|"
 msgid "Accept"
-msgstr ""
+msgstr "Приемам"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4932,6 +5250,10 @@ msgid "Restart is required"
 msgstr "Изисква се рестартиране"
 
 msgctxt "TroubleshootingSettings|"
+msgid "Do crash app"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "Скриване"
 
@@ -5042,6 +5364,26 @@ msgstr "Дисково пространство: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Размер: %1"
+
+msgctxt "UiUpdatedBanner|"
+msgid "The classic interface is turned on."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the new interface"
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
+msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
