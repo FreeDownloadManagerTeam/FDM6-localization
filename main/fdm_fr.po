@@ -1,12 +1,19 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Thierry\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Language: fr_FR\n"
-"X-Source-Language: en\n"
+"X-Source-Language: en_US\n"
 "X-Qt-Contexts: true\n"
+"X-Generator: Poedit 3.5\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -50,7 +57,7 @@ msgstr "Ajouter un miroir"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr "Entrez l’URL du miroir"
+msgstr "Entrer l’URL du miroir"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
@@ -124,7 +131,7 @@ msgstr "Gestion de l'alimentation"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is a scheduled download"
-msgstr "Eviter le mode veille s'il y a un téléchargement planifié"
+msgstr "Éviter le mode veille s'il y a un téléchargement planifié"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
@@ -136,7 +143,7 @@ msgstr "Options"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch at startup (minimized)"
-msgstr "Lancement au démarrage (minimisé)"
+msgstr "Lancer au démarrage (minimisé)"
 
 msgctxt "AdvancedSettings|"
 msgid "Show special offers"
@@ -150,10 +157,15 @@ msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
 msgstr ""
+"Cliquer sur le bouton Fermer pour cacher %1 et le maintenir en arrière-plan"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Ouvrir/cacher le panneau du bas en cliquant sur le téléchargement"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr "Cacher l'icône du Dock"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -291,6 +303,82 @@ msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr "Si le thème du système est inconnu, un thème clair sera utilisé."
 
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "All"
+msgstr "Tout"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Downloads only"
+msgstr "Téléchargements seuls"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Uploads only"
+msgstr "Envois seuls"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Completed"
+msgstr "Terminés"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Stopped"
+msgstr "Arrêtés"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Missing Files"
+msgstr "Fichiers manquants"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "All files"
+msgstr "Tous les fichiers"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Active"
+msgstr "Actif"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Completed"
+msgstr "Terminés"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Uncompleted"
+msgstr "Incomplets"
+
+msgctxt "AllDownloadsSearchField_V2|"
+msgid "Search in downloads..."
+msgstr "Chercher dans les téléchargements..."
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Old"
+msgstr "Anciens"
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Newest"
+msgstr "Plus récents"
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "A-Z"
+msgstr "A-Z"
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Z-A"
+msgstr "Z-A"
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By size: small"
+msgstr "Par taille: petits"
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By size: large"
+msgstr "Par taille: grands"
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By status: ascending"
+msgstr "Par statut: ascendant"
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By status: descending"
+msgstr "Par statut: descendant"
+
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
 msgstr "Configurer manuellement..."
@@ -326,11 +414,12 @@ msgstr "Les arguments doivent contenir la variable %path%"
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
 msgstr ""
-"Lancer automatiquement un scan antivirus quand le téléchargement est terminé"
+"Lancer automatiquement une vérification antivirus quand le téléchargement "
+"est terminé"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
-msgstr "Scan antivirus"
+msgstr "Vérification antivirus"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
@@ -355,7 +444,7 @@ msgstr "Notifications"
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
 msgstr ""
-"%1 a besoin d'une autorisation pour sauvegarder les fichiers téléchargés sur "
+"%1 a besoin d'une autorisation pour enregistrer les fichiers téléchargés sur "
 "votre stockage local."
 
 msgctxt "AppAndroidPermissionsManager|"
@@ -408,7 +497,7 @@ msgstr "Récupération de données depuis %1 (%2) distant..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
-msgstr "Échoué."
+msgstr "Échouée."
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -615,6 +704,10 @@ msgid "General"
 msgstr "Général"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr "Détails"
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Progression"
 
@@ -648,7 +741,7 @@ msgstr "Il n'y a pas de favori pour l'instant"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr "Êtes vous sûr de vouloir supprimer ce favori ?"
+msgstr "Êtes vous sûr de vouloir enlever ce favori ?"
 
 msgctxt "Browser|"
 msgid "YES"
@@ -672,7 +765,7 @@ msgstr "Télécharger le média"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
-msgstr "Supprimer le favori"
+msgstr "Enlever le favori"
 
 msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
@@ -695,7 +788,7 @@ msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
 msgstr ""
-"Assurez-vous que l’extension %1 est installée, sinon, cliquez sur l’un des "
+"Assurez-vous que l’extension %1 est installée, sinon, cliquez sur un des "
 "boutons ci-dessous"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -748,7 +841,7 @@ msgstr "Utiliser le navigateur si vous annulez le téléchargement via %1"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
-msgstr ""
+msgstr "Ne pas intercepter si la touche INSÉR est pressée"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -765,8 +858,8 @@ msgstr ""
 "\n"
 "Cela vous aide à ajouter des téléchargements dans %1.\n"
 "\n"
-"Certains d’entre eux (par ex: les  téléchargements Google Drive) peuvent "
-"être ajoutés en utilisant uniquement ce navigateur, car ils requièrent une "
+"Certains d’entre eux (par ex: les téléchargements Google Drive) peuvent être "
+"ajoutés en utilisant uniquement ce navigateur, car ils requièrent une "
 "information additionnelle que votre navigateur système Android ne fournit "
 "pas à %1 (ou il n’y a pas un moyen universel pour tous les navigateurs de "
 "faire cela)."
@@ -778,6 +871,22 @@ msgstr "Continuer"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(le navigateur n’est pas installé)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr "N/A"
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr "(connecté: %1)"
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "Statut"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "Mise à jour..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -839,8 +948,8 @@ msgid ""
 msgstr ""
 "L'utilisation de trackers additionnels peut améliorer la vitesse de "
 "téléchargement dans certains cas. Des listes de tels trackers peuvent être "
-"récupérées depuis diverses sources, par ex. depuis <a "
-"href='https://github.com/ngosang/trackerslist'>ici</a>."
+"récupérées depuis diverses sources, par ex. depuis <a href='https://github."
+"com/ngosang/trackerslist'>ici</a>."
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -848,7 +957,7 @@ msgstr "Envoyé"
 
 msgctxt "BtStrings|"
 msgid "Ratio"
-msgstr "Ratio"
+msgstr "Taux"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
@@ -1008,7 +1117,7 @@ msgstr "Annuler"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
-msgstr "Connecter au distant %1"
+msgstr "Connecter au %1 distant"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
@@ -1025,7 +1134,7 @@ msgstr "Connecter automatiquement au démarrage"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
-msgstr "Veuillez entrer %1, ou <a href='#'>scanner le QR code</a>"
+msgstr "Veuillez entrer %1, ou <a href='#'>analyser le QR code</a>"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
@@ -1050,8 +1159,8 @@ msgstr "OK"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
-"Ici vous pouvez vous connecter à %1 fonctionnant sur votre PC "
-"Windows/macOS/Linux"
+"Ici vous pouvez vous connecter à %1 fonctionnant sur votre PC Windows/macOS/"
+"Linux"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -1111,7 +1220,7 @@ msgstr "Copier"
 
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
-msgstr "Êtes-vous sûre(e) de vouloir quitter ?"
+msgstr "Êtes-vous sûre(e) de vouloir quitter?"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Starting..."
@@ -1128,6 +1237,14 @@ msgstr "Erreur: %1"
 msgctxt "CppQmlAppRcServer|"
 msgid "OK"
 msgstr "OK"
+
+msgctxt "CppQmlLocalizations|"
+msgid "Today"
+msgstr "Aujourd'hui"
+
+msgctxt "CppQmlLocalizations|"
+msgid "Yesterday"
+msgstr "Hier"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1183,7 +1300,7 @@ msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
 msgstr ""
-"Spécifier ici le chemin où vous voulez créer cette version. Cela devrait "
+"Spécifiez ici le chemin où vous voulez créer cette version. Cela devrait "
 "être un dossier sur un lecteur amovible."
 
 msgctxt "CreatePortableDialog|"
@@ -1260,7 +1377,7 @@ msgstr "Enlever"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Test"
-msgstr "Test"
+msgstr "Tester"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Close"
@@ -1385,6 +1502,26 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Fermer"
 
+msgctxt "DownloadProgressBar_V2|"
+msgid "Checking files"
+msgstr "Vérification des fichiers"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Merging media streams"
+msgstr "Fusion des flux de médias"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Queued"
+msgstr "En file d'attente"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Requesting info"
+msgstr "Demande d'infos"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Paused"
+msgstr "En pause"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1479,7 +1616,7 @@ msgstr "Déplacement"
 
 msgctxt "DownloadsItemTools|"
 msgid "Checking for viruses"
-msgstr "Scan antivirus en cours"
+msgstr "Vérification antivirus"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp3"
@@ -1503,7 +1640,7 @@ msgstr "Le disque est manquant"
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
-msgstr "Liens de téléchargement (%1 sélectionné(s))"
+msgstr "Liens de téléchargement (%1 sélectionnés)"
 
 msgctxt "DownloadsList|"
 msgid "Select all"
@@ -1616,7 +1753,7 @@ msgstr "Dossier de téléchargement par défaut fixe"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
-msgstr "Ne pas étiquetter"
+msgstr "Enlever l'étiquette"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Name"
@@ -1653,6 +1790,30 @@ msgstr "Le disque est manquant"
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
 msgstr "Envoi mis en pause"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Size"
+msgstr "Taille"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Status"
+msgstr "Statut"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Download"
+msgstr "Télécharger"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Upload"
+msgstr "Envoyer"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Added"
+msgstr "Ajouté"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -1720,7 +1881,7 @@ msgstr "Enlever de la liste"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Lire le fichier pendant qu'il est encore en téléchargement"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1768,7 +1929,7 @@ msgstr "Convertir en mp4"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
-msgstr "Réaliser un scan antivirus"
+msgstr "Réaliser une vérification antivirus"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Abort"
@@ -1776,7 +1937,7 @@ msgstr "Abandonner"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
-msgstr "Fixer la priorité"
+msgstr "Régler la priorité"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show in folder"
@@ -1804,7 +1965,7 @@ msgstr "Relancer"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
-msgstr "Téléchargement complet"
+msgstr "Téléchargement terminé"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
@@ -1829,6 +1990,18 @@ msgstr "En pause"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Taille du fichier inconnue"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Delete file"
+msgstr "Supprimer le fichier"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Remove from list"
+msgstr "Enlever de la liste"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -1903,7 +2076,7 @@ msgstr "Batterie faible"
 
 msgctxt "EnvTools|"
 msgid "Data roaming disabled"
-msgstr "Itinérance de donnée désactivée"
+msgstr "Itinérance des données désactivée"
 
 msgctxt "EnvTools|"
 msgid "No Internet connection"
@@ -1911,7 +2084,7 @@ msgstr "Pas de connexion internet"
 
 msgctxt "EnvTools|"
 msgid "Mobile data use disabled"
-msgstr "L’utilisation des données mobiles est désactivée"
+msgstr "Usage des données mobiles désactivé"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Rename"
@@ -1951,7 +2124,7 @@ msgstr "Tous les fichiers (%1)"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export only completed downloads"
-msgstr "Exporter uniquement les téléchargements terminés"
+msgstr "Exporter seulement les téléchargements terminés"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export"
@@ -2187,7 +2360,7 @@ msgstr "Tout sélectionner"
 
 msgctxt "FilesTree|"
 msgid "Select none"
-msgstr "Ne rien électionner"
+msgstr "Ne rien sélectionner"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High priority"
@@ -2229,6 +2402,54 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
 msgstr "Convertir en mp4"
 
+msgctxt "FilesTreeHeader_V2|"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Size"
+msgstr "Taille"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Status"
+msgstr "Statut"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Completed"
+msgstr "Terminé"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Priority"
+msgstr "Priorité"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Normal"
+msgstr "Normale"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "High"
+msgstr "Haute"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Low"
+msgstr "Basse"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Completed"
+msgstr "Terminé"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Low"
+msgstr "Basse"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Normal"
+msgstr "Normale"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "High"
+msgstr "Haute"
+
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Macros"
@@ -2238,12 +2459,8 @@ msgid "General"
 msgstr "Général"
 
 msgctxt "GeneralSettings|"
-msgid "Choose theme"
-msgstr "Choisir un thème"
-
-msgctxt "GeneralSettings|"
 msgid "Language"
-msgstr "Langage"
+msgstr "Langue"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -2254,12 +2471,28 @@ msgid "Suggest folders based on file type"
 msgstr "Suggérer des dossiers basés sur le type de fichier"
 
 msgctxt "GeneralSettings|"
+msgid "Theme"
+msgstr "Thème"
+
+msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr "Un thème clair sera utilisé, si le thème du système est inconnu."
 
 msgctxt "GeneralSettings|"
+msgid "UI style"
+msgstr "Style d'UI"
+
+msgctxt "GeneralSettings|"
+msgid "New (beta)"
+msgstr "Nouveau (bêta)"
+
+msgctxt "GeneralSettings|"
+msgid "Classic"
+msgstr "Classique"
+
+msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
-msgstr "Votre langage n'est pas listé ou la traduction est incomplète?"
+msgstr "Votre langue n'est pas listée ou la traduction est incomplète?"
 
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
@@ -2354,7 +2587,7 @@ msgstr "Installer automatiquement les mises à jour"
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
-msgstr "Rechercher automatiquement les mises à jour"
+msgstr "Vérifier automatiquement les mises à jour"
 
 msgctxt "GeneralSettings2|"
 msgid "Install updates automatically"
@@ -2366,7 +2599,7 @@ msgstr "Utiliser le réseau mobile"
 
 msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
-msgstr "Autoriser l'itinérance de donnée"
+msgstr "Autoriser l'itinérance de données"
 
 msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
@@ -2400,7 +2633,7 @@ msgstr "Envoyé"
 
 msgctxt "GeneralTab|"
 msgid "ratio"
-msgstr "ratio"
+msgstr "taux"
 
 msgctxt "GeneralTab|"
 msgid "Web page"
@@ -2424,7 +2657,7 @@ msgstr "Vitesse d'envoi :"
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
-msgstr "Ajouté à:"
+msgstr "Ajouté le:"
 
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
@@ -2441,6 +2674,34 @@ msgstr "Ajouté:"
 msgctxt "GeneralTab|"
 msgid "Progress:"
 msgstr "Progression:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Downloaded:"
+msgstr "Téléchargé :"
+
+msgctxt "GeneralTab_V2|"
+msgid "Uploaded"
+msgstr "Envoyé"
+
+msgctxt "GeneralTab_V2|"
+msgid "ratio"
+msgstr "taux"
+
+msgctxt "GeneralTab_V2|"
+msgid "Added at:"
+msgstr "Ajouté le:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Download speed:"
+msgstr "Vitesse de téléchargement:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Upload speed:"
+msgstr "Vitesse d'envoi :"
+
+msgctxt "GeneralTab_V2|"
+msgid "Web page"
+msgstr "Page web"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2528,7 +2789,7 @@ msgstr ". Fermer quand même?"
 
 msgctxt "LanguageDialog|"
 msgid "Language"
-msgstr "Langage"
+msgstr "Langue"
 
 msgctxt "LeftDrawer|"
 msgid "remote control"
@@ -2600,7 +2861,7 @@ msgstr "%month% - mois courant (nombre de 1 à 12)"
 
 msgctxt "MacrosMenu|"
 msgid "%day% - current day"
-msgstr "%day% - jour curant"
+msgstr "%day% - jour courant"
 
 msgctxt "MacrosMenu|"
 msgid "%date% - equivalent to %year%-%month%-%day%"
@@ -2632,7 +2893,7 @@ msgstr "OK pour enlever l’étiquette?"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from clipboard"
-msgstr "Coller des urls depuis le presse-papier"
+msgstr "Coller des urls depuis le presse-papiers"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from file"
@@ -2737,6 +2998,45 @@ msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Taille totale:"
 
+msgctxt "MainStatusBar_V2|"
+msgid "Low"
+msgstr "Bas"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Medium"
+msgstr "Moyen"
+
+msgctxt "MainStatusBar_V2|"
+msgid "High"
+msgstr "Haut"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Unlimited"
+msgstr "Illimité"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode frees bandwidth without stopping downloads."
+msgstr ""
+"Le mode escargot libère la bande passante sans stopper les téléchargements."
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode"
+msgstr "Mode escargot"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Set the traffic usage mode"
+msgstr "Régler le mode d'utilisation du trafic"
+
+msgctxt "MainStatusBar_V2|"
+msgid "%n downloads selected."
+msgid_plural "%n downloads selected."
+msgstr[0] "%n téléchargements sélectionnés."
+msgstr[1] "%n téléchargements sélectionnés."
+
+msgctxt "MainStatusBar_V2|"
+msgid "Total size:"
+msgstr "Taille totale:"
+
 msgctxt "MainToolbar|"
 msgid "Add new download..."
 msgstr "Ajouter un nouveau téléchargement..."
@@ -2763,7 +3063,7 @@ msgstr "Supprimer la sélection"
 
 msgctxt "MainToolbar|"
 msgid "Move to..."
-msgstr "Déplacer vers ..."
+msgstr "Déplacer vers..."
 
 msgctxt "MainToolbar|"
 msgid "Move downloads up"
@@ -2785,6 +3085,47 @@ msgstr ""
 msgctxt "MainToolbar|"
 msgid "remote control"
 msgstr "contrôle distant"
+
+msgctxt "MainToolbar_V2|"
+msgid "Select"
+msgstr "Sélectionner"
+
+msgctxt "MainToolbar_V2|"
+msgid "Sort"
+msgstr "Trier"
+
+msgctxt "MainToolbar_V2|"
+msgid "Filters"
+msgstr "Filtres"
+
+msgctxt "MainToolbar_V2|"
+msgid "Start"
+msgstr "Démarrer"
+
+msgctxt "MainToolbar_V2|"
+msgid "Pause"
+msgstr "Mettre en pause"
+
+msgctxt "MainToolbar_V2|"
+msgid "Remove"
+msgstr "Enlever"
+
+msgctxt "MainToolbar_V2|"
+msgid "Move files"
+msgstr "Déplacer les fichiers"
+
+msgctxt "MainToolbar_V2|"
+msgid "Add download"
+msgstr "Ajouter un téléchargement"
+
+msgctxt "MainToolbar_V2|"
+msgid "Menu and settings"
+msgstr "Menu et préférences"
+
+msgctxt "MainToolbar_V2|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr ""
+"Basculer vers le tri de liste de téléchargement défini par utilisateur?"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2816,15 +3157,15 @@ msgstr "Doit être un nombre supérieur à 0."
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
-msgstr ""
+msgstr "Prêt à lire"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
-msgstr ""
+msgstr "%1 est prêt à lire"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Play"
-msgstr ""
+msgstr "Lire"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Cancel"
@@ -2864,7 +3205,7 @@ msgstr "Télécharger"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Mobile data usage"
-msgstr "Utilisation de données mobiles"
+msgstr "Utilisation des données mobiles"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Waiting for Wi-Fi to start download."
@@ -3002,6 +3343,7 @@ msgctxt "Mp4ConverterDialog|"
 msgid "Cancel"
 msgstr "Annuler"
 
+# arrêt
 msgctxt "Mp4ConverterDialog|"
 msgid "The path contains invalid characters"
 msgstr "Le chemin contient des caractères invalides"
@@ -3032,7 +3374,7 @@ msgstr "Rechercher les Mises à jour..."
 
 msgctxt "NativeMenuBar|"
 msgid "Preferences..."
-msgstr "Préférences ..."
+msgstr "Préférences..."
 
 msgctxt "NativeMenuBar|"
 msgid "Quit"
@@ -3168,7 +3510,7 @@ msgstr "Personnalisé..."
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "KB/s"
-msgstr "KB/s"
+msgstr "Ko/s"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Please enter numbers only"
@@ -3206,15 +3548,15 @@ msgstr ""
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
-msgstr ""
+msgstr "Notifications diverses"
 
 msgctxt "Notification|"
 msgid "Ready to play"
-msgstr ""
+msgstr "Prêt à lire"
 
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
-msgstr "%1 manque d'autorisation"
+msgstr "%1 manque d'autorisations"
 
 msgctxt "OsPermissionsDialog|"
 msgid "(required)"
@@ -3249,6 +3591,10 @@ msgid "Info"
 msgstr "Infos"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr "Détails"
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "Fichiers"
 
@@ -3258,7 +3604,7 @@ msgstr "Connexions"
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Lire le fichier pendant qu'il est encore en téléchargement"
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -3305,7 +3651,7 @@ msgstr "Vérifier les Mises à jour"
 
 msgctxt "PluginsPage|"
 msgid "Install Add-on From File..."
-msgstr "Installer le Complément depuis un Fichier..."
+msgstr "Installer le Complément Depuis un Fichier..."
 
 msgctxt "PluginsPage|"
 msgid "Update Add-ons Automatically"
@@ -3499,6 +3845,10 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "Annuler"
 
+msgctxt "ProgressBar_V2|"
+msgid "n/a"
+msgstr "n/a"
+
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
 "languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
@@ -3551,6 +3901,10 @@ msgid "Enter URL"
 msgstr "Entrer l'URL"
 
 msgctxt "QObject|"
+msgid "Drag-and-drop URL"
+msgstr "Glisser-déposer l'URL"
+
+msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
 msgstr "Désolé, cet appareil n’est pas pris en charge par %1."
 
@@ -3564,7 +3918,7 @@ msgstr "Raison: %1"
 
 msgctxt "QObject|"
 msgid "Contact Support"
-msgstr "Contacter le support"
+msgstr "Contacter le Support"
 
 msgctxt "QObject|"
 msgid "Exit"
@@ -3584,23 +3938,23 @@ msgstr "Quitter"
 
 msgctxt "QObject|"
 msgid "%1 B"
-msgstr "%1 O"
+msgstr "%1 o"
 
 msgctxt "QObject|"
 msgid "%1 KB"
-msgstr "%1 KO"
+msgstr "%1 Ko"
 
 msgctxt "QObject|"
 msgid "%1 MB"
-msgstr "%1 MO"
+msgstr "%1 Mo"
 
 msgctxt "QObject|"
 msgid "%1 GB"
-msgstr "%1 GO"
+msgstr "%1 Go"
 
 msgctxt "QObject|"
 msgid "%1 TB"
-msgstr "%1 TO"
+msgstr "%1 To"
 
 msgctxt "QObject|"
 msgid "%1 K"
@@ -3620,23 +3974,23 @@ msgstr "%1 T"
 
 msgctxt "QObject|"
 msgid "%1 B/s"
-msgstr "%1 O/s"
+msgstr "%1 o/s"
 
 msgctxt "QObject|"
 msgid "%1 KB/s"
-msgstr "%1 KO/s"
+msgstr "%1 Ko/s"
 
 msgctxt "QObject|"
 msgid "%1 MB/s"
-msgstr "%1 MO/s"
+msgstr "%1 Mo/s"
 
 msgctxt "QObject|"
 msgid "%1 GB/s"
-msgstr "%1 GO/s"
+msgstr "%1 Go/s"
 
 msgctxt "QObject|"
 msgid "%1 TB/s"
-msgstr "%1 TO/s"
+msgstr "%1 To/s"
 
 msgctxt "QObject|"
 msgid "%1 K/s"
@@ -3708,7 +4062,7 @@ msgstr "Accès refusé"
 
 msgctxt "QObject|"
 msgid "Access to file is denied"
-msgstr "L’accès à ce fichier est refusé"
+msgstr "Accès à ce fichier refusé"
 
 msgctxt "QObject|"
 msgid "File error"
@@ -3880,7 +4234,7 @@ msgstr "Jeton expiré/invalide"
 
 msgctxt "QObject|"
 msgid "Client Closed Request"
-msgstr "Demande Clôturée du Client"
+msgstr "Demande Fermée par le Client"
 
 msgctxt "QObject|"
 msgid "Internal Server Error"
@@ -3992,7 +4346,7 @@ msgstr "Opération non permise"
 
 msgctxt "QObject|"
 msgid "No resume support"
-msgstr "Aucune reprise supportée"
+msgstr "Pas de support de reprise"
 
 msgctxt "QObject|"
 msgid "Resource changed"
@@ -4021,6 +4375,14 @@ msgstr "Comportement indésirable"
 msgctxt "QObject|"
 msgid "Unwanted behavior detected"
 msgstr "Comportement indésirable détecté"
+
+msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "Clé de l'hôte inconnue"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "La clé publique de l'hôte est inconnue"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -4098,7 +4460,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Failed."
-msgstr "Échec."
+msgstr "Échoué."
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
@@ -4204,13 +4566,17 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Ouvrir le dossier"
 
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr "%1 a retourné un état de sortie (%2) non-zéro"
+
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
 msgstr "QIODevice::Ajout non supporté pour GZIP"
 
 msgctxt "QuaGzipFile|"
 msgid "Opening gzip for both reading and writing is not supported"
-msgstr "Ouvrir un gzip pour lire et écrire n'est pas supporté"
+msgstr "Ouvrir gzip pour lire et écrire n'est pas supporté"
 
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
@@ -4218,7 +4584,7 @@ msgstr "Vous pouvez ouvrir un gzip pour lire ou écrire. Lequel des deux?"
 
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr "gzopen() du fichier impossible"
+msgstr "Impossible de gzopen() le fichier"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
@@ -4230,7 +4596,7 @@ msgstr "QIODevice::LectureÉcriture non supportée pour QuaZIODevice"
 
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr "Erreur %1  sur l'API ZIP/UNZIP"
+msgstr "Erreur %1 sur l'API ZIP/UNZIP"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
@@ -4274,7 +4640,7 @@ msgstr "Paramètres de contrôle distant"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
-msgstr "La ressource distante a changé"
+msgstr "Ressource distante changée"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Always re-download"
@@ -4466,15 +4832,15 @@ msgstr "Sam"
 
 msgctxt "SchedulerTools|"
 msgid "Set days of the week to enable Scheduler"
-msgstr "Paramétrer les jours de la semaine pour activer le Planificateur"
+msgstr "Régler les jours de la semaine pour activer le Planificateur"
 
 msgctxt "SearchField|"
 msgid "Search"
-msgstr "Rechercher"
+msgstr "Chercher"
 
 msgctxt "SearchToolbar|"
 msgid "Search"
-msgstr "Rechercher"
+msgstr "Chercher"
 
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
@@ -4660,8 +5026,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Attention: risque potentiel de sécurité à venir"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "L'authenticité de l'hôte ne peut pas être établie."
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "Le certificat SSL est invalide."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "%1 empreintes digitales clés"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4674,6 +5048,18 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+"Si vous vous fiez à cet hôte, sélectionnez Accepter pour mémoriser la clé et "
+"continuer la connexion."
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "Accepter"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4726,7 +5112,7 @@ msgstr "Mettre en pause le téléchargement"
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing."
 msgstr ""
-"Le(s) téléchargement(s) ci-dessous ne peuvent pas être repris après avoir "
+"Le(s) téléchargement(s) ci-dessous ne peu(ven)t pas être repris après avoir "
 "été mis en pause."
 
 msgctxt "StopDownloadDialog|"
@@ -4744,7 +5130,7 @@ msgstr "Ce téléchargement ne peut être repris après avoir été mis en pause
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr ""
-"Le(s) téléchargement(s) ci-dessous ne peuvent pas être repris après avoir "
+"Le(s) téléchargement(s) ci-dessous ne peu(ven)t pas être repris après avoir "
 "été mis en pause"
 
 msgctxt "SubmitBugReportDialog|"
@@ -4825,7 +5211,7 @@ msgstr "Sombre"
 
 msgctxt "Toast|"
 msgid "Please grant camera permission to use the QR scanner"
-msgstr "Veuillez donner l'autorisation caméra pour utiliser le scanner QR"
+msgstr "Veuillez donner l'autorisation caméra pour utiliser l'analyseur QR"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4865,11 +5251,11 @@ msgstr "Nombre maximum de téléchargements simultanés"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of additional querying info downloads:"
-msgstr "Nombre maximum de demandes d'infos en plus de téléchargements:"
+msgstr "Nombre maximum de demandes d'infos de téléchargements en plus:"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Enable additional downloads to optimize speed"
-msgstr ""
+msgstr "Activer des téléchargements additionnels pour optimiser la vitesse"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
@@ -4893,7 +5279,7 @@ msgstr "Fichiers Zip"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Failed"
-msgstr "Echoué"
+msgstr "Échoué"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Archive service data..."
@@ -4912,6 +5298,10 @@ msgid "Restart is required"
 msgstr "Redémarrage requis"
 
 msgctxt "TroubleshootingSettings|"
+msgid "Do crash app"
+msgstr "Faire planter l'appli"
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "Cacher"
 
@@ -4921,7 +5311,7 @@ msgstr "Illimité"
 
 msgctxt "TumComboBox|"
 msgid "KB/s"
-msgstr "KB/s"
+msgstr "Ko/s"
 
 msgctxt "TumComboBox|"
 msgid "unlimited"
@@ -4953,7 +5343,7 @@ msgstr "Personnalisé..."
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Please enter numbers only"
-msgstr "Veuillez entre seulement des nombres"
+msgstr "Veuillez entrer seulement des nombres"
 
 msgctxt "TumModeBlock|"
 msgid "Download speed"
@@ -5005,7 +5395,7 @@ msgstr "Nom de fichier"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Lire le fichier pendant qu'il est encore en téléchargement"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
@@ -5022,6 +5412,26 @@ msgstr "Espace disque: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Taille: %1"
+
+msgctxt "UiUpdatedBanner|"
+msgid "The classic interface is turned on."
+msgstr "L'interface classique est activée."
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
+msgstr "La nouvelle interface est activée."
+
+msgctxt "UiUpdatedBanner|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the new interface"
+msgstr "Passer à la nouvelle interface"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
+msgstr "Passer à l'interface classique"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
