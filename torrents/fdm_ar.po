@@ -16,6 +16,26 @@ msgctxt "AddTrackersPage|"
 msgid "Add trackers"
 msgstr "إضافة متتبعين"
 
+msgctxt "BtDetailsTab|"
+msgid "Peers:"
+msgstr "الاقترانات:"
+
+msgctxt "BtDetailsTab|"
+msgid "Seeds:"
+msgstr "التلقيمات:"
+
+msgctxt "BtDetailsTab|"
+msgid "Availability:"
+msgstr "التوفر:"
+
+msgctxt "BtDetailsTab|"
+msgid "Last seen complete:"
+msgstr "آخر مرة تم فيها إكمال التنزيل:"
+
+msgctxt "BtDetailsTab|"
+msgid "Tracker URL"
+msgstr "رابط التتبع"
+
 msgctxt "DownloadContextMenu|"
 msgid "Disable seeding"
 msgstr "تعطيل التلقيم"
@@ -30,7 +50,7 @@ msgstr "بدء جميع التحميلات في وضع التلقيم"
 
 msgctxt "DownloadContextMenu|"
 msgid "Stop all seeding downloads"
-msgstr "إيقاف جميع عمليات التلقيم"
+msgstr "ايقاف جميع التحميلات في وضع التلقيم"
 
 msgctxt "DownloadContextMenu|"
 msgid "Ignore upload ratio limit"
@@ -38,7 +58,7 @@ msgstr "تجاهل حد النسبة للرفع"
 
 msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
-msgstr ""
+msgstr "فرض إعادة الإعلان"
 
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
@@ -54,7 +74,7 @@ msgstr "جعل %1عميل التورنت الافتراضي"
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
-msgstr "اقتران مع وصلات ماجنت"
+msgstr "ربط مع الروابط المغناطيسية"
 
 msgctxt "QObject|"
 msgid "Associate with torrent files"
@@ -63,6 +83,10 @@ msgstr "اقتران مع ملفات تورنت"
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
 msgstr "ادخل رابط أو اختر ملف تورنت"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL or torrent file"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Merge trackers"
@@ -86,19 +110,19 @@ msgstr "مراقبة المجلد لاكتشاف ملفات .torrent الجدي�
 
 msgctxt "Settings|"
 msgid "Enable DHT to find more peers"
-msgstr ""
+msgstr "تفعيل DHT للعثور على المزيد من الأقران"
 
 msgctxt "Settings|"
 msgid "Enable PeX to find more peers"
-msgstr ""
+msgstr "تفعيل PeX للعثور على المزيد من الأقران"
 
 msgctxt "Settings|"
 msgid "Enable Local Peer Discovery to find more peers"
-msgstr ""
+msgstr "تفعيل اكتشاف الأقران المحليين للعثور على المزيد من الأقران"
 
 msgctxt "Settings|"
 msgid "Enable uTP"
-msgstr ""
+msgstr "تفعيل uTP"
 
 msgctxt "Settings|"
 msgid "Use system defined port for incoming connections"
@@ -110,7 +134,7 @@ msgstr "تمكين قائمة بمتتبعين محددة مسبقًا"
 
 msgctxt "Settings|"
 msgid "BitTorrent settings"
-msgstr "إعدادات بيت تورنت"
+msgstr "إعدادات بت تورنت"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"

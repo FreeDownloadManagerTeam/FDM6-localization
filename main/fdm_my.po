@@ -156,6 +156,10 @@ msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "ဒေါင်းလုပ်တွင် နှိပ်ခြင်းဖြင့် ခလုတ် ဖွင့်/ဝှက် အကွက်"
 
 msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr ""
 "အပြားပုံ သင်္ကေတသုံးပြီး လုပ်နေသည် ဒေါင်းလုပ် နှင့် အပ်လုပ်တို့ကို ပြပါ"
@@ -287,6 +291,82 @@ msgstr "ဒီဇိုင်းပုံစံ ရွေးရန်"
 msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr "စနစ်၏ ဒီဇိုင်းပုံစံကို မသိပါက အလင်းပုံစံကို သုံးပါမည်။"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "All"
+msgstr "အားလုံး"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Downloads only"
+msgstr ""
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Uploads only"
+msgstr ""
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Completed"
+msgstr "ပြီးဆုံး"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Stopped"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Missing Files"
+msgstr "ပျောက်နေသည့် ဖိုင်များ"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "All files"
+msgstr "ဖိုင်အားလုံး"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Active"
+msgstr "လုပ်နေသည်"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Completed"
+msgstr "ပြီးဆုံး"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Uncompleted"
+msgstr "မပြီးဆုံး"
+
+msgctxt "AllDownloadsSearchField_V2|"
+msgid "Search in downloads..."
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Old"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Newest"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "A-Z"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Z-A"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By size: small"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By size: large"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By status: ascending"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By status: descending"
+msgstr ""
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -612,6 +692,10 @@ msgid "General"
 msgstr "အထွေထွေ"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr ""
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "တိုးတက်မှု"
 
@@ -774,6 +858,22 @@ msgstr "ဆက်လုပ်ရန်"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(ဘရောင်ဇာကို ထည့်သွင်းမထားပါ)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "အခြေအနေ"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "အသစ်တင်နေ..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1123,6 +1223,14 @@ msgctxt "CppQmlAppRcServer|"
 msgid "OK"
 msgstr "အိုကေ"
 
+msgctxt "CppQmlLocalizations|"
+msgid "Today"
+msgstr ""
+
+msgctxt "CppQmlLocalizations|"
+msgid "Yesterday"
+msgstr ""
+
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
@@ -1374,6 +1482,26 @@ msgstr "ဒေါင်းလုပ်ကို အသစ်လုပ်ပါ"
 msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "ပိတ်"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Checking files"
+msgstr ""
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Merging media streams"
+msgstr "မီဒီယာ ထုတ်လွှင်မှုများကို ပေါင်းစည်းခြင်း"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Queued"
+msgstr "တန်းစီနေ"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Requesting info"
+msgstr "ဒေတာများ တောင်းခြင်း"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Paused"
+msgstr "ရပ်နေ"
 
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
@@ -1639,6 +1767,30 @@ msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
 msgstr "အပ်လုပ် ရပ်ထား"
 
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Name"
+msgstr "အမည်"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Size"
+msgstr "ပမာဏ"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Status"
+msgstr "အခြေအနေ"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Download"
+msgstr "ဒေါင်းလုပ်"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Upload"
+msgstr ""
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Added"
+msgstr "ထည့်ထား"
+
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "ဦးစားပေး"
@@ -1814,6 +1966,18 @@ msgstr "ရပ်နေ"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "ဖိုင်ပမာဏ မသိ"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "n/a"
+msgstr ""
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Delete file"
+msgstr "ဖိုင်ကို ဖျက်ရန်"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Remove from list"
+msgstr "စာရင်းမှ ဖယ်ရှားပါ"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -2214,6 +2378,54 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
 msgstr "Mp4 သို့ ပြောင်းပါ"
 
+msgctxt "FilesTreeHeader_V2|"
+msgid "Name"
+msgstr "အမည်"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Size"
+msgstr "ပမာဏ"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Status"
+msgstr "အခြေအနေ"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Completed"
+msgstr "ပြီးဆုံး"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Priority"
+msgstr "ဦးစားပေး"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Normal"
+msgstr "ပုံမှန်"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "High"
+msgstr "မြင့်"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Low"
+msgstr "နိမ့်"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Completed"
+msgstr "ပြီးဆုံး"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Low"
+msgstr "နိမ့်"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Normal"
+msgstr "ပုံမှန်"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "High"
+msgstr "မြင့်"
+
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Macros"
@@ -2221,10 +2433,6 @@ msgstr "Macros"
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "အထွေထွေ"
-
-msgctxt "GeneralSettings|"
-msgid "Choose theme"
-msgstr "ဒီဇိုင်းပုံစံ ရွေးရန်"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -2239,8 +2447,24 @@ msgid "Suggest folders based on file type"
 msgstr "ဖိုင်ပုံစံပေါ် မူတည်၍ ဖိုင်တွဲများကို အကြံပြုပါ"
 
 msgctxt "GeneralSettings|"
+msgid "Theme"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr "စနစ်၏ ဒီဇိုင်းပုံစံကို မသိပါက အလင်းပုံစံကို သုံးပါမည်။"
+
+msgctxt "GeneralSettings|"
+msgid "UI style"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "New (beta)"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Classic"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -2421,6 +2645,34 @@ msgstr "ထည့်ထား၊"
 msgctxt "GeneralTab|"
 msgid "Progress:"
 msgstr "တိုးတက်မှု၊"
+
+msgctxt "GeneralTab_V2|"
+msgid "Downloaded:"
+msgstr "ဒေါင်းယူပြီး၊"
+
+msgctxt "GeneralTab_V2|"
+msgid "Uploaded"
+msgstr "တင်ပြီး"
+
+msgctxt "GeneralTab_V2|"
+msgid "ratio"
+msgstr "အချိုး"
+
+msgctxt "GeneralTab_V2|"
+msgid "Added at:"
+msgstr "ထည့်ထား >"
+
+msgctxt "GeneralTab_V2|"
+msgid "Download speed:"
+msgstr "ဒေါင်းလုပ် အမြန်နှုန်း၊"
+
+msgctxt "GeneralTab_V2|"
+msgid "Upload speed:"
+msgstr "အပ်လုပ် အမြန်နှုန်း၊"
+
+msgctxt "GeneralTab_V2|"
+msgid "Web page"
+msgstr "ဝဘ်စာမျက်နှာ"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2717,6 +2969,45 @@ msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "စုစုပေါင်း ပမာဏ၊"
 
+msgctxt "MainStatusBar_V2|"
+msgid "Low"
+msgstr "နိမ့်"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Medium"
+msgstr "ပုံမှန်"
+
+msgctxt "MainStatusBar_V2|"
+msgid "High"
+msgstr "မြင့်"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Unlimited"
+msgstr "ကန့်သတ်မဲ့"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode frees bandwidth without stopping downloads."
+msgstr "ခရုက ဒေါင်းလုပ်များ ရပ်မသွားဘဲ ဘန်အကျယ်ကို လွှတ်ပေးသည်။"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode"
+msgstr "ခရုနည်းလမ်း"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Set the traffic usage mode"
+msgstr ""
+
+msgctxt "MainStatusBar_V2|"
+msgid "%n downloads selected."
+msgid_plural "%n downloads selected."
+msgstr[0] "ဒေါင်းလုပ် %n ခု ရွေးထားသည်။"
+msgstr[1] ""
+msgstr[2] ""
+
+msgctxt "MainStatusBar_V2|"
+msgid "Total size:"
+msgstr "စုစုပေါင်း ပမာဏ၊"
+
 msgctxt "MainToolbar|"
 msgid "Add new download..."
 msgstr "ဒေါင်းလုပ်အသစ် ထည့်ပါ..."
@@ -2764,6 +3055,46 @@ msgstr "ဒေါင်းလုပ်စာရင်းကို အသုံ�
 msgctxt "MainToolbar|"
 msgid "remote control"
 msgstr "အဝေးထိန်း"
+
+msgctxt "MainToolbar_V2|"
+msgid "Select"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Sort"
+msgstr "စဉ်"
+
+msgctxt "MainToolbar_V2|"
+msgid "Filters"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Start"
+msgstr "စတင်"
+
+msgctxt "MainToolbar_V2|"
+msgid "Pause"
+msgstr "ရပ်"
+
+msgctxt "MainToolbar_V2|"
+msgid "Remove"
+msgstr "ဖယ်ရှားပါ"
+
+msgctxt "MainToolbar_V2|"
+msgid "Move files"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Add download"
+msgstr "ဒေါင်းလုပ်ထည့်ပါ"
+
+msgctxt "MainToolbar_V2|"
+msgid "Menu and settings"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr "ဒေါင်းလုပ်စာရင်းကို အသုံးပြုသူစိတ်ကြိုက် စဉ်ခြင်းသို့ ပြောင်းပါ"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3227,6 +3558,10 @@ msgid "Info"
 msgstr "ဒေတာ"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr ""
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "ဖိုင်များ"
 
@@ -3476,6 +3811,10 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "ပယ်ဖျက်"
 
+msgctxt "ProgressBar_V2|"
+msgid "n/a"
+msgstr ""
+
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
 "languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
@@ -3526,6 +3865,10 @@ msgstr ""
 msgctxt "QObject|"
 msgid "Enter URL"
 msgstr "URL ဖြည့်ပါ"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
@@ -4000,6 +4343,14 @@ msgid "Unwanted behavior detected"
 msgstr "မလိုချင်သည့် အပြုအမူကို သတိထားမိ"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "ထောက်ပံ့မထားသည့် URL"
 
@@ -4178,6 +4529,10 @@ msgstr "အဖွင့်စာရင်း"
 msgctxt "QObject|"
 msgid "Open folder"
 msgstr "ဖိုင်တွဲကို ဖွင့်ပါ"
+
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr ""
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4632,8 +4987,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "သတိပေးချက်၊ လုံခြုံရေး အန္တရာယ် ရှိလာနိုင်သည်"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr ""
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL Certificate က တရားမဝင်ပါ။"
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4646,6 +5009,16 @@ msgstr "SHA-256၊"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4880,6 +5253,10 @@ msgid "Restart is required"
 msgstr "ပြန်စရန် လိုအပ်သည်"
 
 msgctxt "TroubleshootingSettings|"
+msgid "Do crash app"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "ဝှက်"
 
@@ -4990,6 +5367,26 @@ msgstr "သိုလှောင်မှု၊ %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "ပမာဏ၊ %1"
+
+msgctxt "UiUpdatedBanner|"
+msgid "The classic interface is turned on."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "OK"
+msgstr "အိုကေ"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the new interface"
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
+msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."

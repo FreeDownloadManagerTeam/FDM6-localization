@@ -150,10 +150,16 @@ msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
 msgstr ""
+"Faceți clic pe butonul Închidere pentru a ascunde %1 și menține-l să ruleze "
+"în fundal"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Deschideți/ascundeți panoul de jos făcând clic pe descărcare"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -286,6 +292,82 @@ msgstr "Selectați temă"
 msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr "Se va folosi o temă luminoasă, dacă tema sistemului este necunoscută."
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "All"
+msgstr "Tot"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Downloads only"
+msgstr ""
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Uploads only"
+msgstr ""
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Completed"
+msgstr ""
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Stopped"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Missing Files"
+msgstr "Fișiere lipsă"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "All files"
+msgstr "Toate fișierele"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Active"
+msgstr "Activ"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Completed"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Uncompleted"
+msgstr "Nefinalizat"
+
+msgctxt "AllDownloadsSearchField_V2|"
+msgid "Search in downloads..."
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Old"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Newest"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "A-Z"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Z-A"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By size: small"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By size: large"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By status: ascending"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By status: descending"
+msgstr ""
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -611,6 +693,10 @@ msgid "General"
 msgstr "General"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr "Detalii"
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Progres"
 
@@ -744,7 +830,7 @@ msgstr "Folosiți browserul dacă anulați descărcarea prin %1"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
-msgstr ""
+msgstr "Nu interceptați dacă este apăsată tasta INSERT"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -773,6 +859,22 @@ msgstr "Continuă"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(browserul nu este instalat)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr "N/A"
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr "(conectat: %1)"
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "Se actualizează..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1121,6 +1223,14 @@ msgctxt "CppQmlAppRcServer|"
 msgid "OK"
 msgstr "OK"
 
+msgctxt "CppQmlLocalizations|"
+msgid "Today"
+msgstr ""
+
+msgctxt "CppQmlLocalizations|"
+msgid "Yesterday"
+msgstr ""
+
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
@@ -1375,6 +1485,26 @@ msgstr "Descărcare actualizare"
 msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Închide"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Checking files"
+msgstr "Verificarea fișierelor"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Merging media streams"
+msgstr "Îmbinarea fluxurilor media"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Queued"
+msgstr "În așteptare"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Requesting info"
+msgstr "Solicitare info"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Paused"
+msgstr ""
 
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
@@ -1642,6 +1772,30 @@ msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
 msgstr "Încărcarea a fost întreruptă"
 
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Name"
+msgstr "Nume"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Size"
+msgstr "Dimensiune"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Download"
+msgstr "Descarcă"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Upload"
+msgstr ""
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Added"
+msgstr "Adăugat"
+
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "Prioritate"
@@ -1708,7 +1862,7 @@ msgstr "Șterge din listă"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Redați fișierul în timp ce încă se descarcă"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1817,6 +1971,18 @@ msgstr "Pauzat"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Dimensiunea fișierului necunoscută"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "n/a"
+msgstr ""
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Delete file"
+msgstr "Șterge fișier"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Remove from list"
+msgstr "Șterge din listă"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -2217,6 +2383,54 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
 msgstr "Convertiți în mp4"
 
+msgctxt "FilesTreeHeader_V2|"
+msgid "Name"
+msgstr "Nume"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Size"
+msgstr "Dimensiune"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Completed"
+msgstr ""
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Priority"
+msgstr "Prioritate"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Normal"
+msgstr "Normal"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "High"
+msgstr "Ridicat"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Low"
+msgstr "Scăzut"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Completed"
+msgstr ""
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Low"
+msgstr "Scăzut"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Normal"
+msgstr "Normal"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "High"
+msgstr "Ridicat"
+
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Macro-uri"
@@ -2224,10 +2438,6 @@ msgstr "Macro-uri"
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "General"
-
-msgctxt "GeneralSettings|"
-msgid "Choose theme"
-msgstr "Alege tema"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -2242,8 +2452,24 @@ msgid "Suggest folders based on file type"
 msgstr "Sugerați foldere în funcție de tipul de fișier"
 
 msgctxt "GeneralSettings|"
+msgid "Theme"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr "Se va folosi o temă luminoasă, dacă tema sistemului este necunoscută."
+
+msgctxt "GeneralSettings|"
+msgid "UI style"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "New (beta)"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Classic"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -2424,6 +2650,34 @@ msgstr "Adăugat:"
 msgctxt "GeneralTab|"
 msgid "Progress:"
 msgstr "Progres:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Downloaded:"
+msgstr "Descărcat:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Uploaded"
+msgstr "Încărcat"
+
+msgctxt "GeneralTab_V2|"
+msgid "ratio"
+msgstr "rație"
+
+msgctxt "GeneralTab_V2|"
+msgid "Added at:"
+msgstr "Adăugat la:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Download speed:"
+msgstr "Viteza de descărcare:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Upload speed:"
+msgstr "Viteza de încărcare:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Web page"
+msgstr "Pagină web"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2720,6 +2974,45 @@ msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Dimensiunea totală:"
 
+msgctxt "MainStatusBar_V2|"
+msgid "Low"
+msgstr "Scăzut"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Medium"
+msgstr "Mediu"
+
+msgctxt "MainStatusBar_V2|"
+msgid "High"
+msgstr "Ridicat"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Unlimited"
+msgstr "Nelimitat"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode frees bandwidth without stopping downloads."
+msgstr "Modul Lent eliberează lățimea de bandă fără a opri procesele download."
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode"
+msgstr ""
+
+msgctxt "MainStatusBar_V2|"
+msgid "Set the traffic usage mode"
+msgstr ""
+
+msgctxt "MainStatusBar_V2|"
+msgid "%n downloads selected."
+msgid_plural "%n downloads selected."
+msgstr[0] "%n descărcări selectate."
+msgstr[1] "%n descărcări selectate."
+msgstr[2] "%n descărcări selectate."
+
+msgctxt "MainStatusBar_V2|"
+msgid "Total size:"
+msgstr "Dimensiunea totală:"
+
 msgctxt "MainToolbar|"
 msgid "Add new download..."
 msgstr "Adăugă un nou proces de descărcare."
@@ -2768,6 +3061,46 @@ msgctxt "MainToolbar|"
 msgid "remote control"
 msgstr "control la distanță"
 
+msgctxt "MainToolbar_V2|"
+msgid "Select"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Sort"
+msgstr "Sortare"
+
+msgctxt "MainToolbar_V2|"
+msgid "Filters"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Start"
+msgstr "Start"
+
+msgctxt "MainToolbar_V2|"
+msgid "Pause"
+msgstr "Întrerupeți"
+
+msgctxt "MainToolbar_V2|"
+msgid "Remove"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Move files"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Add download"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Menu and settings"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr "Treceți la sortarea definită de utilizator a listei de descărcare?"
+
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
 msgstr "Nelimitat"
@@ -2798,15 +3131,15 @@ msgstr "Trebuie să fie un număr mai mare decât 0."
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
-msgstr ""
+msgstr "Gata de redat"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
-msgstr ""
+msgstr "%1 este gata de redat"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Play"
-msgstr ""
+msgstr "Redare"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Cancel"
@@ -3187,11 +3520,11 @@ msgstr ""
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
-msgstr ""
+msgstr "Notificări diverse"
 
 msgctxt "Notification|"
 msgid "Ready to play"
-msgstr ""
+msgstr "Gata de redat"
 
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
@@ -3230,6 +3563,10 @@ msgid "Info"
 msgstr "Informații"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr "Detalii"
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "Fișiere"
 
@@ -3239,7 +3576,7 @@ msgstr "Conexiuni"
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Redați fișierul în timp ce încă se descarcă"
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -3478,6 +3815,10 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "Anulează"
 
+msgctxt "ProgressBar_V2|"
+msgid "n/a"
+msgstr ""
+
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
 "languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
@@ -3528,6 +3869,10 @@ msgstr ""
 msgctxt "QObject|"
 msgid "Enter URL"
 msgstr "Introdu URL-ul"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
@@ -4002,6 +4347,14 @@ msgid "Unwanted behavior detected"
 msgstr "Comportament nedorit detectat"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "Cheie gazdă necunoscută"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "Cheia publică a gazdei este necunoscută"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "Adresă URL neacceptată"
 
@@ -4182,6 +4535,10 @@ msgstr "Lista de redare"
 msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Deschide folder"
+
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr "%1 a returnat starea de ieșire diferită de zero (%2)"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4639,8 +4996,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Atenție: risc potențial de securitate înainte"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "Autenticitatea gazdei nu poate fi stabilită."
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "Certificatul SSL nu este valid."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "%1 amprente cheie"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4653,6 +5018,18 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+"Dacă aveți încredere în această gazdă, selectați Accept pentru a vă aminti "
+"cheia și continuați conectarea."
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "Acceptare"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4844,7 +5221,7 @@ msgstr "Numărul maxim de descărcări suplimentare de informații de interogare
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Enable additional downloads to optimize speed"
-msgstr ""
+msgstr "Activați descărcări suplimentare pentru a optimiza viteza"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
@@ -4885,6 +5262,10 @@ msgstr "Activați înregistrarea alertelor LT"
 msgctxt "TroubleshootingSettings|"
 msgid "Restart is required"
 msgstr "Este necesară repornirea"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Do crash app"
+msgstr ""
 
 msgctxt "TroubleshootingSettings|"
 msgid "Hide"
@@ -4980,7 +5361,7 @@ msgstr "Nume fisier"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Redați fișierul în timp ce încă se descarcă"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
@@ -4997,6 +5378,26 @@ msgstr "Spațiu pe disc: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Mărime: %1"
+
+msgctxt "UiUpdatedBanner|"
+msgid "The classic interface is turned on."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the new interface"
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
+msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
