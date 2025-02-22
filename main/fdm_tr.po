@@ -1613,6 +1613,22 @@ msgid "Disk is missing"
 msgstr "Disk eksik"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr ""
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Bağlantıları indir (%1 seçildi)"
 
@@ -1639,6 +1655,10 @@ msgstr "Bulunan \"%1\" etiketli sonuçlar yok"
 msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "Sonucun bulunamadığı öğe"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
@@ -1964,14 +1984,6 @@ msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr "yok"
 
-msgctxt "DownloadsViewItem_V2|"
-msgid "Delete file"
-msgstr "Dosyayı sil"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "Remove from list"
-msgstr "Listeden kaldır"
-
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "Kuyruğa alındı"
@@ -1999,6 +2011,10 @@ msgstr "Duraklatıldı"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Tamamlandı"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2665,6 +2681,10 @@ msgstr "Gönderme hızı:"
 msgctxt "GeneralTab_V2|"
 msgid "Web page"
 msgstr "Web sayfası"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "Dosya"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -3556,6 +3576,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Bağlantılar"
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr ""
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "Dosyayı indirmeye devam ederken oynat"
@@ -4263,6 +4287,14 @@ msgstr "Bulunamadı"
 msgctxt "QObject|"
 msgid "Incompatible version"
 msgstr "Uyumsuz sürüm"
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -5543,3 +5575,11 @@ msgstr "Rapor gönderildi. İşbirliğiniz için teşekkür ederiz!"
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "%1'ye uzaktan bağlantı"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "İndirme ekle"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "Yeni indirme"

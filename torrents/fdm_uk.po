@@ -1,19 +1,11 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"POT-Creation-Date: "
-"PO-Revision-Date: "
-"Last-Translator: "
-"Language-Team: "
-"Language: uk_UA"
-"MIME-Version: 1.0"
-"Content-Type: text/plain; charset=UTF-8"
-"Content-Transfer-Encoding: 8bit"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
-"X-Language: uk_UA"
-"X-Source-Language: en"
-"X-Qt-Contexts: true"
-"X-Generator: Poedit 3.2.2"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Language: uk_UA\n"
+"X-Qt-Contexts: true\n"
 
 msgctxt "AddTrackersDialog|"
 msgid "Add trackers"
@@ -44,14 +36,6 @@ msgid "Tracker URL"
 msgstr "URL трекера"
 
 msgctxt "DownloadContextMenu|"
-msgid "Disable seeding"
-msgstr "Забронити роздачу"
-
-msgctxt "DownloadContextMenu|"
-msgid "Add trackers"
-msgstr "Додати трекери"
-
-msgctxt "DownloadContextMenu|"
 msgid "Start all seeding downloads"
 msgstr "Запустити всі роздачі"
 
@@ -60,12 +44,20 @@ msgid "Stop all seeding downloads"
 msgstr "Зупинити всі роздачі"
 
 msgctxt "DownloadContextMenu|"
-msgid "Ignore upload ratio limit"
-msgstr "Ігнорувати границю завантаженого/вивантаженого"
+msgid "Add trackers"
+msgstr "Додати трекери"
+
+msgctxt "DownloadContextMenu|"
+msgid "Disable seeding"
+msgstr "Забронити роздачу"
 
 msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
 msgstr "Примусове переоголошення"
+
+msgctxt "DownloadContextMenu|"
+msgid "Ignore upload ratio limit"
+msgstr "Ігнорувати границю завантаженого/вивантаженого"
 
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
@@ -78,6 +70,14 @@ msgstr "Перевіряти, чи є %1 торрент-клієнтом за з
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
 msgstr "Зробити %1 торрент-клієнтом за замовчуванням"
+
+msgctxt "QObject|"
+msgid "seeding"
+msgstr "сідую"
+
+msgctxt "QObject|"
+msgid "Torrent"
+msgstr "Торрент"
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
@@ -99,13 +99,9 @@ msgctxt "QObject|"
 msgid "Merge trackers"
 msgstr "Злити трекери"
 
-msgctxt "QObject|"
-msgid "Torrent"
-msgstr "Торрент"
-
-msgctxt "QObject|"
-msgid "seeding"
-msgstr "сідую"
+msgctxt "Settings|"
+msgid "BitTorrent settings"
+msgstr "Налаштування BitTorrent"
 
 msgctxt "Settings|"
 msgid "Automatically delete .torrent files once the download is finished"
@@ -138,10 +134,6 @@ msgstr "Використовувати для вхідних з'єднань п�
 msgctxt "Settings|"
 msgid "Enable list of predefined trackers"
 msgstr "Дозволити список заданих трекерів"
-
-msgctxt "Settings|"
-msgid "BitTorrent settings"
-msgstr "Налаштування BitTorrent"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"
