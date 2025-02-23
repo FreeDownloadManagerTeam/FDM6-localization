@@ -148,7 +148,7 @@ msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
 msgstr ""
-"Użycie przycisku Zamknij ukrywa %1 i pozostawia program uruchomiony w tle"
+"Użycie przycisku \"Zamknij\" ukrywa %1 i pozostawia program uruchomiony w tle"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
@@ -156,7 +156,7 @@ msgstr "Pokaż/ukryj panel dolny po kliknięciu na pobieranym pliku"
 
 msgctxt "AdvancedSettings|"
 msgid "Hide the Dock icon"
-msgstr ""
+msgstr "Ukryj ikonę dokowania"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -290,6 +290,82 @@ msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr ""
 "Zostanie użyta jasna kompozycja, jeżeli kompozycja systemu będzie nieznana."
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "All"
+msgstr "Wszystkie"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Downloads only"
+msgstr "Tylko pobierania"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Uploads only"
+msgstr "Tylko wysyłania"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Completed"
+msgstr "Zakończone"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Stopped"
+msgstr "Zatrzymane"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Missing Files"
+msgstr "Brakujące pliki"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "All files"
+msgstr "Wszystkie pliki"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Active"
+msgstr "Aktywne"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Completed"
+msgstr "Zakończone"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Uncompleted"
+msgstr "Nie zakończone"
+
+msgctxt "AllDownloadsSearchField_V2|"
+msgid "Search in downloads..."
+msgstr "Wyszukiwanie w pobieraniach..."
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Old"
+msgstr "Najstarsze"
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Newest"
+msgstr "Najnowsze"
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "A-Z"
+msgstr "A-Z"
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Z-A"
+msgstr "Z-A"
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By size: small"
+msgstr "Od najmniejszych"
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By size: large"
+msgstr "Od największych"
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By status: ascending"
+msgstr "Status rosnący"
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By status: descending"
+msgstr "Status malejący"
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -1143,6 +1219,14 @@ msgctxt "CppQmlAppRcServer|"
 msgid "OK"
 msgstr "OK"
 
+msgctxt "CppQmlLocalizations|"
+msgid "Today"
+msgstr "Dziś"
+
+msgctxt "CppQmlLocalizations|"
+msgid "Yesterday"
+msgstr "Wczoraj"
+
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
@@ -1396,6 +1480,26 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Zamknij"
 
+msgctxt "DownloadProgressBar_V2|"
+msgid "Checking files"
+msgstr "Sprawdzanie plików"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Merging media streams"
+msgstr "Scalanie strumieni mediów"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Queued"
+msgstr "W kolejce"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Requesting info"
+msgstr "Pobieranie info"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Paused"
+msgstr "Wstrzymane"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1513,6 +1617,22 @@ msgid "Disk is missing"
 msgstr "Brak nośnika/dysku"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr ""
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Pobierz linki (%1 wybranych)"
 
@@ -1523,6 +1643,10 @@ msgstr "Zaznacz wszystkie"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "Odznacz wszystkie"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1659,6 +1783,30 @@ msgstr "Brak nośnika/dysku"
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
 msgstr "Wysyłanie wstrzymane"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Name"
+msgstr "Nazwa"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Size"
+msgstr "Wielkość"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Download"
+msgstr "Pobierz"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Upload"
+msgstr "Wyślij"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Added"
+msgstr "Dodane"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -1836,6 +1984,10 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Nieznany rozmiar pliku"
 
+msgctxt "DownloadsViewItem_V2|"
+msgid "n/a"
+msgstr "brak"
+
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "W kolejce"
@@ -1863,6 +2015,10 @@ msgstr "Wstrzymane"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Zakończone"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2234,6 +2390,54 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
 msgstr "Konwertuj do MP4"
 
+msgctxt "FilesTreeHeader_V2|"
+msgid "Name"
+msgstr "Nazwa"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Size"
+msgstr "Wielkość"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Completed"
+msgstr "Zakończone"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Priority"
+msgstr "Priorytet"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Normal"
+msgstr "Normalny"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "High"
+msgstr "Wysoki"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Low"
+msgstr "Niski"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Completed"
+msgstr "Zakończone"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Low"
+msgstr "Niski"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Normal"
+msgstr "Normalny"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "High"
+msgstr "Wysoki"
+
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Makra"
@@ -2241,10 +2445,6 @@ msgstr "Makra"
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "Ogólne"
-
-msgctxt "GeneralSettings|"
-msgid "Choose theme"
-msgstr "Wybierz motyw"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -2259,9 +2459,25 @@ msgid "Suggest folders based on file type"
 msgstr "Sugeruj foldery na podstawie rozszerzeń pliku"
 
 msgctxt "GeneralSettings|"
+msgid "Theme"
+msgstr "Kompozycja"
+
+msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr ""
 "Zostanie użyta jasna kompozycja, jeżeli kompozycja systemu będzie nieznana."
+
+msgctxt "GeneralSettings|"
+msgid "UI style"
+msgstr "Wygląd programu"
+
+msgctxt "GeneralSettings|"
+msgid "New (beta)"
+msgstr "Nowy (beta)"
+
+msgctxt "GeneralSettings|"
+msgid "Classic"
+msgstr "Klasyczny"
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -2444,6 +2660,38 @@ msgstr "Dodano:"
 msgctxt "GeneralTab|"
 msgid "Progress:"
 msgstr "Postęp:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Downloaded:"
+msgstr "Pobrane:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Uploaded"
+msgstr "Wysłane"
+
+msgctxt "GeneralTab_V2|"
+msgid "ratio"
+msgstr "stopień"
+
+msgctxt "GeneralTab_V2|"
+msgid "Added at:"
+msgstr "Dodane:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Download speed:"
+msgstr "Prędkość pobierania:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Upload speed:"
+msgstr "Prędkość wysyłania:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Web page"
+msgstr "Strona WWW"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "Plik"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2740,6 +2988,45 @@ msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Całkowity rozmiar:"
 
+msgctxt "MainStatusBar_V2|"
+msgid "Low"
+msgstr "Niski"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Medium"
+msgstr "Średni"
+
+msgctxt "MainStatusBar_V2|"
+msgid "High"
+msgstr "Wysoki"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Unlimited"
+msgstr "Bez limitu"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode frees bandwidth without stopping downloads."
+msgstr "Tryb powolny (ślimaczy) odciąża łącze bez zatrzymywania pobierania."
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode"
+msgstr "Tryb powolny"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Set the traffic usage mode"
+msgstr "Ustaw tryb wykorzystania ruchu"
+
+msgctxt "MainStatusBar_V2|"
+msgid "%n downloads selected."
+msgid_plural "%n downloads selected."
+msgstr[0] "%n pobieranie zaznaczone."
+msgstr[1] "%n pobierania zaznaczone."
+msgstr[2] "%n pobierań zaznaczonych."
+
+msgctxt "MainStatusBar_V2|"
+msgid "Total size:"
+msgstr "Całkowity rozmiar:"
+
 msgctxt "MainToolbar|"
 msgid "Add new download..."
 msgstr "Dodaj nowe pobieranie..."
@@ -2787,6 +3074,46 @@ msgstr "Przełączyć na sortowanie listy wg ustawień użytkownika?"
 msgctxt "MainToolbar|"
 msgid "remote control"
 msgstr "zdalna kontrola"
+
+msgctxt "MainToolbar_V2|"
+msgid "Select"
+msgstr "Wybierz"
+
+msgctxt "MainToolbar_V2|"
+msgid "Sort"
+msgstr "Sortuj"
+
+msgctxt "MainToolbar_V2|"
+msgid "Filters"
+msgstr "Filtry"
+
+msgctxt "MainToolbar_V2|"
+msgid "Start"
+msgstr "Start"
+
+msgctxt "MainToolbar_V2|"
+msgid "Pause"
+msgstr "Wstrzymaj"
+
+msgctxt "MainToolbar_V2|"
+msgid "Remove"
+msgstr "Usuń"
+
+msgctxt "MainToolbar_V2|"
+msgid "Move files"
+msgstr "Przenieś pliki"
+
+msgctxt "MainToolbar_V2|"
+msgid "Add download"
+msgstr "Dodaj pobieranie"
+
+msgctxt "MainToolbar_V2|"
+msgid "Menu and settings"
+msgstr "Menu i ustawienia"
+
+msgctxt "MainToolbar_V2|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr "Przełączyć na sortowanie listy wg ustawień użytkownika?"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3262,6 +3589,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Połączenia"
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr ""
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "Odtwórz film jeszcze podczas jego pobierania"
@@ -3502,6 +3833,10 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "Anuluj"
 
+msgctxt "ProgressBar_V2|"
+msgid "n/a"
+msgstr "brak"
+
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
 "languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
@@ -3552,6 +3887,10 @@ msgstr ""
 msgctxt "QObject|"
 msgid "Enter URL"
 msgstr "Wpisz adres pobierania"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL"
+msgstr "Przeciąganie adresów"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
@@ -3960,6 +4299,14 @@ msgstr "Nie znaleziono"
 msgctxt "QObject|"
 msgid "Incompatible version"
 msgstr "Wersja niezgodna"
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -4939,6 +5286,10 @@ msgid "Restart is required"
 msgstr "Wymagany jest restart"
 
 msgctxt "TroubleshootingSettings|"
+msgid "Do crash app"
+msgstr "Wywołaj awarię aplikacji"
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "Ukryj"
 
@@ -5049,6 +5400,26 @@ msgstr "Miejsce na dysku: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Rozmiar: %1"
+
+msgctxt "UiUpdatedBanner|"
+msgid "The classic interface is turned on."
+msgstr "Włączony jest klasyczny interfejs."
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
+msgstr "Włączony jest nowy interfejs."
+
+msgctxt "UiUpdatedBanner|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the new interface"
+msgstr "Przełącz na nowy interfejs"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
+msgstr "Przełącz na klasyczny interfejs"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
@@ -5213,3 +5584,11 @@ msgstr "Raport został wysłany. Dziękujemy za współpracę!"
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "Zdalne połączenie do %1"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "Dodaj pobieranie"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "Nowe pobieranie"

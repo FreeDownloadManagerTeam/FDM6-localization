@@ -293,6 +293,82 @@ msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr "A világos téma lesz használva, ha a rendszer téma ismeretlen."
 
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "All"
+msgstr "Összes"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Downloads only"
+msgstr ""
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Uploads only"
+msgstr ""
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Completed"
+msgstr "Befejezve"
+
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Stopped"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Missing Files"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "All files"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Active"
+msgstr "Aktív"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Completed"
+msgstr "Befejezve"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Uncompleted"
+msgstr ""
+
+msgctxt "AllDownloadsSearchField_V2|"
+msgid "Search in downloads..."
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Old"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Newest"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "A-Z"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Z-A"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By size: small"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By size: large"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By status: ascending"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButton|"
+msgid "By status: descending"
+msgstr ""
+
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
 msgstr "Konfigurálás manuálisan..."
@@ -1135,6 +1211,14 @@ msgctxt "CppQmlAppRcServer|"
 msgid "OK"
 msgstr "OK"
 
+msgctxt "CppQmlLocalizations|"
+msgid "Today"
+msgstr ""
+
+msgctxt "CppQmlLocalizations|"
+msgid "Yesterday"
+msgstr ""
+
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
@@ -1385,6 +1469,26 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Bezárás"
 
+msgctxt "DownloadProgressBar_V2|"
+msgid "Checking files"
+msgstr "Fájlok ellenőrzése"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Merging media streams"
+msgstr "Médiafolyamok egyesítése"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Queued"
+msgstr "Várólistán"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Requesting info"
+msgstr "Információ lekérése"
+
+msgctxt "DownloadProgressBar_V2|"
+msgid "Paused"
+msgstr "Szüneteltetve"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr ""
@@ -1502,6 +1606,22 @@ msgid "Disk is missing"
 msgstr "Hiányzik a lemez"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr ""
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Linkek letöltése (%1 kiválasztva)"
 
@@ -1512,6 +1632,10 @@ msgstr "Összes kiválasztása"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "Semelyiket ne válassza ki"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1648,6 +1772,30 @@ msgstr "Hiányzik a lemez"
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
 msgstr "Feltöltés szüneteltetve"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Name"
+msgstr "Név"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Size"
+msgstr "Méret"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Status"
+msgstr "Állapot"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Download"
+msgstr "Letöltés"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Upload"
+msgstr ""
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Added"
+msgstr "Hozzáadva"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -1825,6 +1973,10 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Ismeretlen fájlméret"
 
+msgctxt "DownloadsViewItem_V2|"
+msgid "n/a"
+msgstr ""
+
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "Várólistán"
@@ -1852,6 +2004,10 @@ msgstr "Szüneteltetve"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Befejezve"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2224,6 +2380,54 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
 msgstr "Konvertálás mp4-re"
 
+msgctxt "FilesTreeHeader_V2|"
+msgid "Name"
+msgstr "Név"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Size"
+msgstr "Méret"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Status"
+msgstr "Állapot"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Completed"
+msgstr "Befejezve"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Priority"
+msgstr "Prioritás"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Normal"
+msgstr "Közepes"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "High"
+msgstr "Magas"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Low"
+msgstr "Alacsony"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Completed"
+msgstr "Befejezve"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Low"
+msgstr "Alacsony"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Normal"
+msgstr "Közepes"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "High"
+msgstr "Magas"
+
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Makrók"
@@ -2231,10 +2435,6 @@ msgstr "Makrók"
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "Általános"
-
-msgctxt "GeneralSettings|"
-msgid "Choose theme"
-msgstr "Téma kiválasztása"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -2249,8 +2449,24 @@ msgid "Suggest folders based on file type"
 msgstr "Mappák ajánlása fájltípus alapján"
 
 msgctxt "GeneralSettings|"
+msgid "Theme"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr "A világos téma lesz használva, ha a rendszer téma ismeretlen."
+
+msgctxt "GeneralSettings|"
+msgid "UI style"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "New (beta)"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Classic"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -2431,6 +2647,38 @@ msgstr "Hozzáadva:"
 msgctxt "GeneralTab|"
 msgid "Progress:"
 msgstr "Folyamat:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Downloaded:"
+msgstr "Letöltve:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Uploaded"
+msgstr ""
+
+msgctxt "GeneralTab_V2|"
+msgid "ratio"
+msgstr "arány"
+
+msgctxt "GeneralTab_V2|"
+msgid "Added at:"
+msgstr "Hozzáadva:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Download speed:"
+msgstr "Letöltési sebesség:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Upload speed:"
+msgstr "Feltöltési sebesség:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Web page"
+msgstr "Weboldal"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "Fájl"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2726,6 +2974,44 @@ msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Teljes méret:"
 
+msgctxt "MainStatusBar_V2|"
+msgid "Low"
+msgstr "Alacsony"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Medium"
+msgstr "Közepes"
+
+msgctxt "MainStatusBar_V2|"
+msgid "High"
+msgstr "Magas"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Unlimited"
+msgstr "Korlátlan"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode frees bandwidth without stopping downloads."
+msgstr ""
+"A Csiga mód felszabadítja a sávszélességet a letöltések leállítása nélkül."
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode"
+msgstr "Csiga mód"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Set the traffic usage mode"
+msgstr ""
+
+msgctxt "MainStatusBar_V2|"
+msgid "%n downloads selected."
+msgid_plural "%n downloads selected."
+msgstr[0] "%n letöltés kiválasztva."
+
+msgctxt "MainStatusBar_V2|"
+msgid "Total size:"
+msgstr "Teljes méret:"
+
 msgctxt "MainToolbar|"
 msgid "Add new download..."
 msgstr "Új letöltés hozzáadása..."
@@ -2772,6 +3058,46 @@ msgstr ""
 
 msgctxt "MainToolbar|"
 msgid "remote control"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Select"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Sort"
+msgstr "Rendezés"
+
+msgctxt "MainToolbar_V2|"
+msgid "Filters"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Start"
+msgstr "Indítás"
+
+msgctxt "MainToolbar_V2|"
+msgid "Pause"
+msgstr "Szüneteltetés"
+
+msgctxt "MainToolbar_V2|"
+msgid "Remove"
+msgstr "Törlés"
+
+msgctxt "MainToolbar_V2|"
+msgid "Move files"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Add download"
+msgstr "Letöltés hozzáadása"
+
+msgctxt "MainToolbar_V2|"
+msgid "Menu and settings"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Switch to user-defined sorting of the download list?"
 msgstr ""
 
 msgctxt "MaxURatioComboBox|"
@@ -3244,6 +3570,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Kapcsolatok"
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr ""
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr ""
@@ -3479,6 +3809,10 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "Mégse"
 
+msgctxt "ProgressBar_V2|"
+msgid "n/a"
+msgstr ""
+
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
 "languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
@@ -3529,6 +3863,10 @@ msgstr ""
 msgctxt "QObject|"
 msgid "Enter URL"
 msgstr "Írja be az URL-t"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
@@ -3936,6 +4274,14 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Incompatible version"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Already exists"
 msgstr ""
 
 msgctxt "QObject|"
@@ -4914,6 +5260,10 @@ msgid "Restart is required"
 msgstr ""
 
 msgctxt "TroubleshootingSettings|"
+msgid "Do crash app"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr ""
 
@@ -5024,6 +5374,26 @@ msgstr ""
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Méret: %1"
+
+msgctxt "UiUpdatedBanner|"
+msgid "The classic interface is turned on."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the new interface"
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
+msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
@@ -5188,3 +5558,11 @@ msgstr "A jelentést elküldtük. Köszönjük az együttműködést!"
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr ""
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "Letöltés hozzáadása"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "Új letöltés"

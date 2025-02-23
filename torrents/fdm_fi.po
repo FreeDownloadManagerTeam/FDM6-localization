@@ -10,31 +10,31 @@ msgstr ""
 
 msgctxt "AddTrackersDialog|"
 msgid "Add trackers"
-msgstr "Lisää seurantapalvelimia"
+msgstr "Lisää trakkereita"
 
 msgctxt "AddTrackersPage|"
 msgid "Add trackers"
-msgstr "Lisää seurantapalvelimia"
+msgstr "Lisää trakkereita"
 
 msgctxt "BtDetailsTab|"
 msgid "Peers:"
-msgstr ""
+msgstr "Vertaiset:"
 
 msgctxt "BtDetailsTab|"
 msgid "Seeds:"
-msgstr ""
+msgstr "Jakajat:"
 
 msgctxt "BtDetailsTab|"
 msgid "Availability:"
-msgstr ""
+msgstr "Saatavuus:"
 
 msgctxt "BtDetailsTab|"
 msgid "Last seen complete:"
-msgstr ""
+msgstr "Viimeksi nähty kokonaisena:"
 
 msgctxt "BtDetailsTab|"
 msgid "Tracker URL"
-msgstr ""
+msgstr "Trakkerin URL"
 
 msgctxt "DownloadContextMenu|"
 msgid "Start all seeding downloads"
@@ -46,7 +46,7 @@ msgstr "Pysäytä kaikki jaettavat lataukset"
 
 msgctxt "DownloadContextMenu|"
 msgid "Add trackers"
-msgstr "Lisää seurantapalvelimia"
+msgstr "Lisää trakkereita"
 
 msgctxt "DownloadContextMenu|"
 msgid "Disable seeding"
@@ -58,19 +58,19 @@ msgstr "Pakota uudelleenilmoitus"
 
 msgctxt "DownloadContextMenu|"
 msgid "Ignore upload ratio limit"
-msgstr "Ohita jakosuhteen rajoitus"
+msgstr "Ohita jakosuhtderajoitus"
 
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
-msgstr "Haluatko asettaa %1:n torrenttien oletussovellukseksi?"
+msgstr "Haluatko asettaa %1:n torrentien oletussovellukseksi?"
 
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
-msgstr "Tarkista onko %1 torrenttien oletussovellus"
+msgstr "Tarkista onko %1 torrentien oletussovellus"
 
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
-msgstr "Aseta %1 torrenttien oletussovellukseksi"
+msgstr "Aseta %1 torrentien oletussovellukseksi"
 
 msgctxt "QObject|"
 msgid "seeding"
@@ -78,7 +78,7 @@ msgstr "jaetaan"
 
 msgctxt "QObject|"
 msgid "Torrent"
-msgstr "Torrentti"
+msgstr "Torrentit"
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
@@ -90,7 +90,11 @@ msgstr "Liitä torrent-linkkeihin"
 
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
-msgstr "Syötä URL-osoite tai valitse .torrent-tiedosto"
+msgstr "Syötä URL-osoite tai valitse torrent-tiedosto"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL or torrent file"
+msgstr "Vedä ja pudota URL-osoite tai torrent-tiedosto"
 
 msgctxt "QObject|"
 msgid "Merge trackers"
@@ -102,11 +106,11 @@ msgstr "BitTorrent-asetukset"
 
 msgctxt "Settings|"
 msgid "Automatically delete .torrent files once the download is finished"
-msgstr "Poista .torrent-tiedostot automaattisesti latauksen valmistuttua"
+msgstr "Poista torrent-tiedostot automaattisesti latauksen valmistuttua"
 
 msgctxt "Settings|"
 msgid "Monitor folder for new .torrent files"
-msgstr "Havaitse uudet .torrent-tiedostot kansiossa"
+msgstr "Avaa uudet torrent-tiedostot kansiosta"
 
 msgctxt "Settings|"
 msgid "Enable DHT to find more peers"
@@ -130,7 +134,7 @@ msgstr "Käytä saapuville yhteyksille järjestelmän määrittämää porttia"
 
 msgctxt "Settings|"
 msgid "Enable list of predefined trackers"
-msgstr "Käytä ennalta määritettyä seurantapalvelinlistaa"
+msgstr "Käytä esimääritettyä trakkerilistaa"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"
