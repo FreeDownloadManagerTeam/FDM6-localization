@@ -445,7 +445,7 @@ msgstr "Notificaciones"
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
 msgstr ""
-"%1 necesita permisos para guardar los archivos descargadas a tu "
+"%1 necesita permisos para guardar los archivos descargados a tu "
 "almacenamiento local."
 
 msgctxt "AppAndroidPermissionsManager|"
@@ -1427,7 +1427,7 @@ msgstr "Cancelar"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Download deleting failed"
-msgstr "Fallo al borrar la descarga"
+msgstr "Borrado de descarga fallido"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Try again"
@@ -1553,7 +1553,7 @@ msgstr "Desconocido"
 
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
-msgstr "Descargada"
+msgstr "Descargado"
 
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
@@ -1632,6 +1632,22 @@ msgid "Disk is missing"
 msgstr "Disco no encontrado"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr "duplicadas (%1)"
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr "inválida (%1)"
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr "no soportada (%1)"
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr "Descargas omitidas"
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Enlaces de descarga (%1 seleccionados)"
 
@@ -1642,6 +1658,10 @@ msgstr "Seleccionar todo"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "Seleccionar nada"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr "Mostrar todas las descargas"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1795,11 +1815,11 @@ msgstr "Estado"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Download"
-msgstr "Descargar"
+msgstr "Descarga"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Upload"
-msgstr "Cargar"
+msgstr "Carga"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Added"
@@ -1985,14 +2005,6 @@ msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr "n/a"
 
-msgctxt "DownloadsViewItem_V2|"
-msgid "Delete file"
-msgstr "Borrar archivo"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "Remove from list"
-msgstr "Eliminar de la lista"
-
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "En cola"
@@ -2020,6 +2032,10 @@ msgstr "Pausada"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Completa"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr "Descargas: %1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2613,7 +2629,7 @@ msgstr "Tamaño total:"
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
-msgstr "Descargada:"
+msgstr "Descargado:"
 
 msgctxt "GeneralTab|"
 msgid "Uploaded"
@@ -2665,11 +2681,11 @@ msgstr "Progreso:"
 
 msgctxt "GeneralTab_V2|"
 msgid "Downloaded:"
-msgstr "Descargada:"
+msgstr "Descargado:"
 
 msgctxt "GeneralTab_V2|"
 msgid "Uploaded"
-msgstr "Cargada"
+msgstr "Cargado"
 
 msgctxt "GeneralTab_V2|"
 msgid "ratio"
@@ -2690,6 +2706,10 @@ msgstr "Velocidad de carga:"
 msgctxt "GeneralTab_V2|"
 msgid "Web page"
 msgstr "Página web"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "Archivo"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -3587,6 +3607,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Conexiones"
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr "Navegar..."
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "Reproducir el archivo mientras aún se está descargando"
@@ -4294,6 +4318,14 @@ msgstr "No encontrado"
 msgctxt "QObject|"
 msgid "Incompatible version"
 msgstr "Versión incompatible"
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr "Comprobación de seguridad fallida"
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr "Ya existe"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -5400,11 +5432,11 @@ msgstr "Tamaño: %1"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."
-msgstr "La interfaz clásica está encendida"
+msgstr "La interfaz clásica está encendida."
 
 msgctxt "UiUpdatedBanner|"
 msgid "The new interface is turned on."
-msgstr "La nueva interfaz está encendida"
+msgstr "La nueva interfaz está encendida."
 
 msgctxt "UiUpdatedBanner|"
 msgid "OK"
@@ -5581,3 +5613,11 @@ msgstr "El reporte ha sido enviado. ¡Gracias por tu cooperación!"
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "Conexión remota a %1"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "Agregar descarga"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "Nueva descarga"

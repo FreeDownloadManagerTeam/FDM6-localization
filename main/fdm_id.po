@@ -202,7 +202,7 @@ msgstr "Setel ulang"
 
 msgctxt "AdvancedSettings|"
 msgid "Default settings"
-msgstr "Setelan bawaan"
+msgstr "Pengaturan bawaan"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore default settings?"
@@ -222,7 +222,7 @@ msgstr "Izinkan mode sleep jika unduhan dapat dilanjutkan nanti"
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
-msgstr "File ada reaksi"
+msgstr "Reaksi berkas yang sudah ada"
 
 msgctxt "AdvancedSettings|"
 msgid "Rename"
@@ -266,7 +266,7 @@ msgstr "Perbesar font"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
-msgstr "Tanggapan tombol Hapus"
+msgstr "Tindakan tombol hapus"
 
 msgctxt "AdvancedSettings|"
 msgid "Remove only from download list"
@@ -274,7 +274,7 @@ msgstr "Hanya hapus dari daftar unduhan"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete files"
-msgstr "Hapus berkas-berkas"
+msgstr "Hapus berkas"
 
 msgctxt "AdvancedSettings|"
 msgid "Always ask"
@@ -298,19 +298,19 @@ msgstr "Semua"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Downloads only"
-msgstr ""
+msgstr "Hanya unduhan"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Uploads only"
-msgstr ""
+msgstr "Hanya unggahan"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Completed"
-msgstr "Berhasil"
+msgstr "Selesai"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Stopped"
-msgstr ""
+msgstr "Hentikan"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Missing Files"
@@ -334,43 +334,43 @@ msgstr "Belum selesai"
 
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
-msgstr ""
+msgstr "Cari di unduhan..."
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Old"
-msgstr ""
+msgstr "Lama"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Newest"
-msgstr ""
+msgstr "Terbaru"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "A-Z"
-msgstr ""
+msgstr "A-Z"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Z-A"
-msgstr ""
+msgstr "Z-A"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By size: small"
-msgstr ""
+msgstr "Oleh ukuran: kecil"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By size: large"
-msgstr ""
+msgstr "Oleh ukuran: besar"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By status: ascending"
-msgstr ""
+msgstr "Oleh status: keatas"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By status: descending"
-msgstr ""
+msgstr "Oleh status: menurun"
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
-msgstr "Atur secara manual..."
+msgstr "Konfigurasikan secara manual..."
 
 msgctxt "AntivirusSettings|"
 msgid "Antivirus"
@@ -1620,6 +1620,22 @@ msgid "Disk is missing"
 msgstr "Disk tidak ada"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr ""
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Tautan unduhan (%1 dipilih)"
 
@@ -1630,6 +1646,10 @@ msgstr "Pilih Semua"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "Tidak memilih apapun"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1971,14 +1991,6 @@ msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr ""
 
-msgctxt "DownloadsViewItem_V2|"
-msgid "Delete file"
-msgstr "Hapus berkas"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "Remove from list"
-msgstr "Hapus dari daftar"
-
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "Dalam antrian"
@@ -2006,6 +2018,10 @@ msgstr "Ditunda"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Selesai"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2672,6 +2688,10 @@ msgstr "Kecepatan Unggahan:"
 msgctxt "GeneralTab_V2|"
 msgid "Web page"
 msgstr "Situs web"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "Berkas"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -3566,6 +3586,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Sambungan"
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr ""
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "Putar berkas saat masih mengunduh"
@@ -4273,6 +4297,14 @@ msgstr "Tidak ditemukan"
 msgctxt "QObject|"
 msgid "Incompatible version"
 msgstr "Versi tidak kompaibel"
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -5553,3 +5585,11 @@ msgstr "Laporan telah dikirim. Terima kasih atas kerja sama Anda!"
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "Sambungan jarak jauh ke %1"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "Tambahkan unduhan"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "Unduhan baru"

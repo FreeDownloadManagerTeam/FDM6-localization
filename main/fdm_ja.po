@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Re*Index.(ot_inc)\n"
+"Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
@@ -154,11 +154,11 @@ msgstr "インターフェイス"
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
-msgstr "閉じるボタンをクリックして %1 を非表示にし、バックグラウンドで実行する"
+msgstr "閉じるボタンのクリックで %1 を非表示にしてバックグラウンドで実行する"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "ダウンロードをクリックして下部のパネルを表示/非表示にする"
+msgstr "ダウンロードリストのクリックで下部パネルの表示/非表示を切り替える"
 
 msgctxt "AdvancedSettings|"
 msgid "Hide the Dock icon"
@@ -230,11 +230,11 @@ msgstr "既存のファイルがある場合の対応"
 
 msgctxt "AdvancedSettings|"
 msgid "Rename"
-msgstr "名前の変更"
+msgstr "名前を変更する"
 
 msgctxt "AdvancedSettings|"
 msgid "Overwrite"
-msgstr "上書き"
+msgstr "上書きする"
 
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
@@ -262,11 +262,11 @@ msgstr "スタンドアロンの新規ダウンロードウィンドウの作成
 
 msgctxt "AdvancedSettings|"
 msgid "Overall zoom"
-msgstr "全体の拡大"
+msgstr "全体のズーム"
 
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
-msgstr "フォントの拡大"
+msgstr "フォントのズーム"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -274,11 +274,11 @@ msgstr "削除ボタンのアクション"
 
 msgctxt "AdvancedSettings|"
 msgid "Remove only from download list"
-msgstr "ダウンロードリストからのみ削除"
+msgstr "ダウンロードリストからのみ削除する"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete files"
-msgstr "ファイルを削除"
+msgstr "ファイルを削除する"
 
 msgctxt "AdvancedSettings|"
 msgid "Always ask"
@@ -338,7 +338,7 @@ msgstr "未完了"
 
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
-msgstr "ダウンロードを検索..."
+msgstr "ダウンロードリストを検索..."
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Old"
@@ -474,7 +474,7 @@ msgstr "ファイルを削除しています。"
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
-msgstr "再開機能がないオペレーションが進行しています"
+msgstr "再開機能のない操作が進行しています"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
@@ -782,7 +782,7 @@ msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
-msgstr "その他の対応ブラウザー"
+msgstr "他の対応しているブラウザー"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -1168,7 +1168,7 @@ msgstr "すべて上書き"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Rename All"
-msgstr "すべて名前の変更"
+msgstr "すべて名前を変更"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Skip All"
@@ -1365,7 +1365,7 @@ msgstr "選択したダウンロードを削除"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Remember my choice"
-msgstr "この選択を忘れないでください"
+msgstr "この選択を記憶する"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete files"
@@ -1519,7 +1519,7 @@ msgstr "ファイルサイズ"
 
 msgctxt "DownloadWindow|"
 msgid "Resume support"
-msgstr "再開のサポート"
+msgstr "再開への対応"
 
 msgctxt "DownloadWindow|"
 msgid "Yes"
@@ -1614,6 +1614,22 @@ msgid "Disk is missing"
 msgstr "ディスクが見つかりません"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr "重複 (%1)"
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr "無効 (%1)"
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr "未サポート (%1)"
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr "スキップされたダウンロード"
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "ダウンロードリンク (%1 選択済み)"
 
@@ -1624,6 +1640,10 @@ msgstr "すべて選択"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "選択解除"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr "すべてのダウンロードを表示"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1965,14 +1985,6 @@ msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr "利用不可"
 
-msgctxt "DownloadsViewItem_V2|"
-msgid "Delete file"
-msgstr "ファイルを削除"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "Remove from list"
-msgstr "リストから削除"
-
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "キュー"
@@ -2000,6 +2012,10 @@ msgstr "一時停止"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "完了"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr "ダウンロード: %1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2056,7 +2072,7 @@ msgstr "モバイルデータ利用を無効にしました"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Rename"
-msgstr "名前の変更"
+msgstr "名前を変更"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Overwrite"
@@ -2280,7 +2296,7 @@ msgstr "すべてのダウンロードに対してこの選択を適用する"
 
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
-msgstr "名前の変更 (%1)"
+msgstr "名前を変更 (%1)"
 
 msgctxt "FilesExistsDialog|"
 msgid "Overwrite"
@@ -2456,7 +2472,7 @@ msgstr "新しい UI (ベータ)"
 
 msgctxt "GeneralSettings|"
 msgid "Classic"
-msgstr "クラシック"
+msgstr "クラシック UI"
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -2516,11 +2532,11 @@ msgstr "すぐに"
 
 msgctxt "GeneralSettings|"
 msgid "In"
-msgstr "In"
+msgstr "完了の"
 
 msgctxt "GeneralSettings|"
 msgid "days"
-msgstr "日"
+msgstr "日後に"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
@@ -2666,6 +2682,10 @@ msgstr "アップロード速度:"
 msgctxt "GeneralTab_V2|"
 msgid "Web page"
 msgstr "ウェブページ"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "ファイル"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -3043,7 +3063,7 @@ msgstr "メインメニュー"
 
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
-msgstr "ユーザー定義のダウンロード順序に切り替えますか?"
+msgstr "ユーザー定義のダウンロード順序に変更しますか?"
 
 msgctxt "MainToolbar|"
 msgid "remote control"
@@ -3087,7 +3107,7 @@ msgstr "メニューと設定"
 
 msgctxt "MainToolbar_V2|"
 msgid "Switch to user-defined sorting of the download list?"
-msgstr "ユーザー定義のダウンロード順序に切り替えますか?"
+msgstr "ユーザー定義のダウンロード順序に変更しますか?"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -3439,7 +3459,7 @@ msgstr "SOCKS5:"
 
 msgctxt "NetworkSettings|"
 msgid "Invalid proxy settings"
-msgstr "プロキシ設定が正しくありません"
+msgstr "無効なプロキシ設定です"
 
 msgctxt "NetworkSettings|"
 msgid "Proxy settings"
@@ -3499,12 +3519,12 @@ msgstr "値を 0 より大きくする必要があります。"
 
 msgctxt "NoResumeSupportBlock|"
 msgid "This download may not support resuming."
-msgstr "このダウンロードは再開をサポートしていない可能性があります。"
+msgstr "このダウンロードは再開に対応していない可能性があります。"
 
 msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
 msgstr ""
-"再開をサポートしていないファイルをダウンロードする場合はスリープモードを回避"
+"再開に対応していないファイルをダウンロードする場合はスリープモードを回避する"
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
@@ -3561,6 +3581,10 @@ msgstr "ファイル"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "接続数"
+
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr "参照..."
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
@@ -4092,7 +4116,7 @@ msgstr "リクエスト URI が長すぎます"
 
 msgctxt "QObject|"
 msgid "Unsupported Media Type"
-msgstr "サポートされていないメディアタイプです"
+msgstr "対応していないメディアタイプです"
 
 msgctxt "QObject|"
 msgid "Requested Range Not Satisfiable"
@@ -4240,7 +4264,7 @@ msgstr "ネットワーク認証が必要です"
 
 msgctxt "QObject|"
 msgid "Network read timeout error"
-msgstr "ネットワークの読み込みタイムアウト・エラー"
+msgstr "ネットワークの読み込みタイムアウトエラー"
 
 msgctxt "QObject|"
 msgid "Network connect timeout error"
@@ -4248,15 +4272,15 @@ msgstr "ネットワーク接続のタイムアウトエラー"
 
 msgctxt "QObject|"
 msgid "Unsupported"
-msgstr "未対応"
+msgstr "対応していません"
 
 msgctxt "QObject|"
 msgid "Invalid parameter"
-msgstr "パラメータが正しくありません"
+msgstr "無効なパラメーターです"
 
 msgctxt "QObject|"
 msgid "Unsupported format"
-msgstr "未対応の形式"
+msgstr "対応していない形式です"
 
 msgctxt "QObject|"
 msgid "Not found"
@@ -4265,6 +4289,14 @@ msgstr "見つかりません"
 msgctxt "QObject|"
 msgid "Incompatible version"
 msgstr "互換性のないバージョン"
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr "セキュリティチェックに失敗しました"
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr "既に存在します"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -4280,7 +4312,7 @@ msgstr "接続が閉じました"
 
 msgctxt "QObject|"
 msgid "Timed out"
-msgstr "タイム・アウトしました"
+msgstr "タイムアウトしました"
 
 msgctxt "QObject|"
 msgid "SSL handshake failed"
@@ -4340,7 +4372,7 @@ msgstr "ホストのパブリックキーが不明です"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
-msgstr "サポートしていない URL です"
+msgstr "対応していない URL です"
 
 msgctxt "QObject|"
 msgid "Untitled"
@@ -4825,7 +4857,7 @@ msgstr "降順"
 
 msgctxt "SettingsPage|"
 msgid "Invalid settings"
-msgstr "設定が正しくありません"
+msgstr "無効な設定です"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
@@ -4983,7 +5015,7 @@ msgstr "ホストの信頼性が確立できません。"
 
 msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
-msgstr "SSL 証明書が正しくありません。"
+msgstr "SSL 証明書が無効です。"
 
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
@@ -5206,7 +5238,7 @@ msgstr "速度を最適化するために追加のダウンロードを有効に
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
-msgstr "トラフィック制限設定が正しくありません"
+msgstr "無効なトラフィック制限の設定です"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
@@ -5362,11 +5394,11 @@ msgstr "サイズ: %1"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."
-msgstr "クラシックインターフェースがオンになっています。"
+msgstr "クラシックインターフェイスがオンになっています。"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The new interface is turned on."
-msgstr "新しいインターフェースがオンになっています。"
+msgstr "新しいインターフェイスがオンになっています。"
 
 msgctxt "UiUpdatedBanner|"
 msgid "OK"
@@ -5374,11 +5406,11 @@ msgstr "OK"
 
 msgctxt "UiUpdatedBanner|"
 msgid "Switch to the new interface"
-msgstr "新しいインターフェースに変更"
+msgstr "新しいインターフェイスに変更"
 
 msgctxt "UiUpdatedBanner|"
 msgid "Switch to the classic interface"
-msgstr "クラシックインターフェースに変更"
+msgstr "クラシックインターフェイスに変更"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
@@ -5543,3 +5575,11 @@ msgstr "レポートを送信しました。ご協力ありがとうございま
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "%1 へのリモート接続"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "ダウンロードを追加"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "新規ダウンロード"

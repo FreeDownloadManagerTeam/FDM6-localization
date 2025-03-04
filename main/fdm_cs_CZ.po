@@ -295,11 +295,11 @@ msgstr "Vše"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Downloads only"
-msgstr ""
+msgstr "Jen stahování"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Uploads only"
-msgstr ""
+msgstr "Jen nahrávání"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Completed"
@@ -307,7 +307,7 @@ msgstr "Dokončeno"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Stopped"
-msgstr ""
+msgstr "Zastaveno"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Missing Files"
@@ -331,39 +331,39 @@ msgstr "Nedokončeno"
 
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
-msgstr ""
+msgstr "Prohledat stahování..."
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Old"
-msgstr ""
+msgstr "Nejstarší"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Newest"
-msgstr ""
+msgstr "Nejnovější"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "A-Z"
-msgstr ""
+msgstr "A-Z"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Z-A"
-msgstr ""
+msgstr "Z-A"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By size: small"
-msgstr ""
+msgstr "Podle velikosti: malé"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By size: large"
-msgstr ""
+msgstr "Podle velikosti: velké"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By status: ascending"
-msgstr ""
+msgstr "Podle stavu: vzestupně"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By status: descending"
-msgstr ""
+msgstr "Podle stavu: sestupně"
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -1218,11 +1218,11 @@ msgstr "OK"
 
 msgctxt "CppQmlLocalizations|"
 msgid "Today"
-msgstr ""
+msgstr "Dnes"
 
 msgctxt "CppQmlLocalizations|"
 msgid "Yesterday"
-msgstr ""
+msgstr "Včera"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1480,7 +1480,7 @@ msgstr "Kontrolování souborů"
 
 msgctxt "DownloadProgressBar_V2|"
 msgid "Merging media streams"
-msgstr ""
+msgstr "Spojování mediálních proudů"
 
 msgctxt "DownloadProgressBar_V2|"
 msgid "Queued"
@@ -1611,6 +1611,22 @@ msgid "Disk is missing"
 msgstr "Disk chybí"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr ""
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Odkazy stahování (%1 vybráno)"
 
@@ -1621,6 +1637,10 @@ msgstr "Označit vše"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "Odznačit vše"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1776,7 +1796,7 @@ msgstr "Stáhnout"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Upload"
-msgstr ""
+msgstr "Nahrát"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Added"
@@ -1960,15 +1980,7 @@ msgstr "Neznámá velikost souboru"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
-msgstr ""
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "Delete file"
-msgstr "Smazat soubor"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "Remove from list"
-msgstr "Odebrat ze seznamu"
+msgstr "N/A"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -1997,6 +2009,10 @@ msgstr "Pozastaveno"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Dokončeno"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2393,11 +2409,11 @@ msgstr "Normální"
 
 msgctxt "FilesTreeHeader_V2|"
 msgid "High"
-msgstr ""
+msgstr "Vysoká"
 
 msgctxt "FilesTreeHeader_V2|"
 msgid "Low"
-msgstr ""
+msgstr "Nízká"
 
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
@@ -2405,7 +2421,7 @@ msgstr "Dokončeno"
 
 msgctxt "FilesTreeItem_V2|"
 msgid "Low"
-msgstr ""
+msgstr "Nízká"
 
 msgctxt "FilesTreeItem_V2|"
 msgid "Normal"
@@ -2413,7 +2429,7 @@ msgstr "Normální"
 
 msgctxt "FilesTreeItem_V2|"
 msgid "High"
-msgstr ""
+msgstr "Vysoká"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2437,7 +2453,7 @@ msgstr "Navrhovat složky podle typů souborů"
 
 msgctxt "GeneralSettings|"
 msgid "Theme"
-msgstr ""
+msgstr "Motiv"
 
 msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
@@ -2445,15 +2461,15 @@ msgstr "Pokud je neznámý motiv systému, bude použit světlý motiv."
 
 msgctxt "GeneralSettings|"
 msgid "UI style"
-msgstr ""
+msgstr "Styl UI"
 
 msgctxt "GeneralSettings|"
 msgid "New (beta)"
-msgstr ""
+msgstr "Nový (beta)"
 
 msgctxt "GeneralSettings|"
 msgid "Classic"
-msgstr ""
+msgstr "Klasický"
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -2662,6 +2678,10 @@ msgstr "Rychlost nahrávání:"
 msgctxt "GeneralTab_V2|"
 msgid "Web page"
 msgstr "Webová stránka"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "Soubor"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2960,7 +2980,7 @@ msgstr "Celková velikost:"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Low"
-msgstr ""
+msgstr "Nízký"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Medium"
@@ -2968,7 +2988,7 @@ msgstr "Střední"
 
 msgctxt "MainStatusBar_V2|"
 msgid "High"
-msgstr ""
+msgstr "Vysoký"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -2984,7 +3004,7 @@ msgstr "Režim Šnek"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Set the traffic usage mode"
-msgstr ""
+msgstr "Nastavit režim využití přenosu"
 
 msgctxt "MainStatusBar_V2|"
 msgid "%n downloads selected."
@@ -3047,15 +3067,15 @@ msgstr "Vzdálený přístup"
 
 msgctxt "MainToolbar_V2|"
 msgid "Select"
-msgstr ""
+msgstr "Vybrat"
 
 msgctxt "MainToolbar_V2|"
 msgid "Sort"
-msgstr ""
+msgstr "Řadit"
 
 msgctxt "MainToolbar_V2|"
 msgid "Filters"
-msgstr ""
+msgstr "Filtry"
 
 msgctxt "MainToolbar_V2|"
 msgid "Start"
@@ -3071,7 +3091,7 @@ msgstr "Odebrat"
 
 msgctxt "MainToolbar_V2|"
 msgid "Move files"
-msgstr ""
+msgstr "Přesunout soubory"
 
 msgctxt "MainToolbar_V2|"
 msgid "Add download"
@@ -3079,7 +3099,7 @@ msgstr "Přidat stahování"
 
 msgctxt "MainToolbar_V2|"
 msgid "Menu and settings"
-msgstr ""
+msgstr "Menu a nastavení"
 
 msgctxt "MainToolbar_V2|"
 msgid "Switch to user-defined sorting of the download list?"
@@ -3559,6 +3579,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Připojení"
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr ""
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "Přehrát soubor, který je stále stahován"
@@ -3798,7 +3822,7 @@ msgstr "Storno"
 
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
-msgstr ""
+msgstr "N/A"
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -3853,7 +3877,7 @@ msgstr "Zadejte URL"
 
 msgctxt "QObject|"
 msgid "Drag-and-drop URL"
-msgstr ""
+msgstr "Přesuňte a pusťte URL"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
@@ -4262,6 +4286,14 @@ msgstr "Nenalezeno"
 msgctxt "QObject|"
 msgid "Incompatible version"
 msgstr "Nekompatibilní verze"
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -5241,7 +5273,7 @@ msgstr "Je vyžadováno restartování"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Do crash app"
-msgstr ""
+msgstr "Havarovat aplikaci"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Hide"
@@ -5357,23 +5389,23 @@ msgstr "Velikost: %1"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."
-msgstr ""
+msgstr "Je zapnuto klasické rozhraní."
 
 msgctxt "UiUpdatedBanner|"
 msgid "The new interface is turned on."
-msgstr ""
+msgstr "Je zapnuto nové rozhraní."
 
 msgctxt "UiUpdatedBanner|"
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgctxt "UiUpdatedBanner|"
 msgid "Switch to the new interface"
-msgstr ""
+msgstr "Přepnout do nového rozhraní"
 
 msgctxt "UiUpdatedBanner|"
 msgid "Switch to the classic interface"
-msgstr ""
+msgstr "Přepnout do klasického rozhraní"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
@@ -5538,3 +5570,11 @@ msgstr "Hlášení bylo odesláno. Děkujeme za spolupráci!"
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "Vzdálené připojení k %1"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "Přidat stahování"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "Nové stahování"

@@ -1616,6 +1616,22 @@ msgid "Disk is missing"
 msgstr "Диск отсутствует"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr "дубликаты (%1)"
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr "некорректные (%1)"
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr "неподдерживаемые (%1)"
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr "Пропущенные закачки"
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Ссылки загрузок (%1 выбрано)"
 
@@ -1626,6 +1642,10 @@ msgstr "Выбрать все"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "Снять выделение"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr "Показать все закачки"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1967,14 +1987,6 @@ msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr "n/a"
 
-msgctxt "DownloadsViewItem_V2|"
-msgid "Delete file"
-msgstr "Удалить файл"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "Remove from list"
-msgstr "Убрать из списка"
-
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "В очереди"
@@ -2002,6 +2014,10 @@ msgstr "Остановлено"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Завершено"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr "Закачек: %1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2670,6 +2686,10 @@ msgstr "Скорость отдачи:"
 msgctxt "GeneralTab_V2|"
 msgid "Web page"
 msgstr "Веб-страница"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "Файл"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -3567,6 +3587,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Соединения"
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr "Выбрать..."
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "Начать воспроизведение файла пока он ещё качается"
@@ -3585,7 +3609,7 @@ msgid ""
 "Please use your favorite social networks and forums to let the other people "
 "know about %1 and %2."
 msgstr ""
-"Пожалуйста, расскажите другим людям с помощью ваших любимых социальные сетей "
+"Пожалуйста, расскажите другим людям с помощью ваших любимых социальных сетей "
 "и форумов о %1 и %2."
 
 msgctxt "PluginBannerDialog|"
@@ -4271,6 +4295,14 @@ msgstr "Не найдено"
 msgctxt "QObject|"
 msgid "Incompatible version"
 msgstr "Несовместимая версия"
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr "Проверка безопасности не прошла"
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr "Уже существует"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -5548,3 +5580,11 @@ msgstr "Отчёт отправлен. Спасибо за сотрудниче�
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "Удалённое подключение к %1"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "Добавить загрузку"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "Новая загрузка"
