@@ -472,6 +472,14 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "Se șterg fișierele."
 
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "Anulează"
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Există operațiuni fără capacitatea de reluare în curs"
@@ -1506,6 +1514,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "În pauză"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "Verificarea fișierelor"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "Îmbinarea fluxurilor media"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "Solicitare info"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr "indisponibil"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "În așteptare"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "Terminat"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1625,19 +1657,19 @@ msgstr "Discul lipsește"
 
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
-msgstr ""
+msgstr "duplicate (%1)"
 
 msgctxt "DownloadsList|"
 msgid "invalid (%1)"
-msgstr ""
+msgstr "invalid (%1)"
 
 msgctxt "DownloadsList|"
 msgid "unsupported (%1)"
-msgstr ""
+msgstr "nesuportat (%1)"
 
 msgctxt "DownloadsList|"
 msgid "Skipped downloads"
-msgstr ""
+msgstr "Descărcări sărite"
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
@@ -1653,7 +1685,7 @@ msgstr "Deselectează tot"
 
 msgctxt "DownloadsPage|"
 msgid "Show all downloads"
-msgstr ""
+msgstr "Afișați toate descărcările"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1992,6 +2024,30 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Dimensiunea fișierului necunoscută"
 
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "Verificarea fișierelor"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "Îmbinarea fluxurilor media"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "Solicitare info"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "n/a"
+msgstr "indisponibil"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "În așteptare"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "Terminat"
+
 msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr "indisponibil"
@@ -2026,7 +2082,7 @@ msgstr "Complet"
 
 msgctxt "DownloadsViewTools|"
 msgid "Downloads: %1"
-msgstr ""
+msgstr "Descărcări: %1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2494,6 +2550,14 @@ msgstr "Limba dvs. nu este listată sau traducerea nu este completă?"
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
 msgstr "Hai să o reparăm!"
+
+msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "Opţiuni"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Lansare la pornire (minimizat)"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -3442,6 +3506,10 @@ msgid "Configure manually:"
 msgstr "Configurează manual:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "Configurează manual"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "Adresă"
 
@@ -3596,7 +3664,7 @@ msgstr "Conexiuni"
 
 msgctxt "PickFileButton|"
 msgid "Browse..."
-msgstr ""
+msgstr "Caută..."
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
@@ -3929,6 +3997,14 @@ msgstr "Despre %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "Ieșire"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "Preferințe..."
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "Verificați actualizări..."
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -4308,11 +4384,11 @@ msgstr "Versiune incompatibilă"
 
 msgctxt "QObject|"
 msgid "Security check failed"
-msgstr ""
+msgstr "Verificarea de securitate a eșuat"
 
 msgctxt "QObject|"
 msgid "Already exists"
-msgstr ""
+msgstr "Deja există"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -5597,7 +5673,7 @@ msgstr "Conexiune la distanță la %1"
 
 msgctxt "main|"
 msgid "Add download"
-msgstr ""
+msgstr "Adăugare descărcare"
 
 msgctxt "main|"
 msgid "New download"

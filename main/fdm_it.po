@@ -471,6 +471,14 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "Eliminazione file."
 
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "Annulla"
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Sono in corso operazioni senza possibilità di ripresa"
@@ -1508,6 +1516,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "In pausa"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "Verifica file"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "Unione flussi multimediali"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "Richiesta info"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr "n/d"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "In coda"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "Completati"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1627,19 +1659,19 @@ msgstr "Unità di archiviazione non presente"
 
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
-msgstr ""
+msgstr "duplicati (%1)"
 
 msgctxt "DownloadsList|"
 msgid "invalid (%1)"
-msgstr ""
+msgstr "non validi (%1)"
 
 msgctxt "DownloadsList|"
 msgid "unsupported (%1)"
-msgstr ""
+msgstr "non supportati (%1)"
 
 msgctxt "DownloadsList|"
 msgid "Skipped downloads"
-msgstr ""
+msgstr "Download saltati"
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
@@ -1655,7 +1687,7 @@ msgstr "Deseleziona tutto"
 
 msgctxt "DownloadsPage|"
 msgid "Show all downloads"
-msgstr ""
+msgstr "Visualizza tutti i download"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1995,6 +2027,30 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Dimensione file sconosciuta"
 
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "Verifica file"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "Unione flussi multimediali"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "Richiesta info"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "n/a"
+msgstr "n/d"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "In coda"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "Completati"
+
 msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr "n/d"
@@ -2029,7 +2085,7 @@ msgstr "Completato"
 
 msgctxt "DownloadsViewTools|"
 msgid "Downloads: %1"
-msgstr ""
+msgstr "Downlaod: %1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2497,6 +2553,14 @@ msgstr "La lingua non è in elenco o la traduzione non è completa?"
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
 msgstr "Aiutaci!"
+
+msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "Opzioni"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Esegui FDM (ridotto a icona) all'avvio del sistema"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -3450,6 +3514,10 @@ msgid "Configure manually:"
 msgstr "Configura manualmente proxy:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "Configura manualmente proxy"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "Indirizzo"
 
@@ -3605,7 +3673,7 @@ msgstr "Connessioni"
 
 msgctxt "PickFileButton|"
 msgid "Browse..."
-msgstr ""
+msgstr "Sfoglia..."
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
@@ -3943,6 +4011,14 @@ msgstr "Info su %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "Esci da Free Download manager"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "Impostazioni..."
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "Controlla aggiornamenti..."
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -4322,11 +4398,11 @@ msgstr "Versione non compatibile"
 
 msgctxt "QObject|"
 msgid "Security check failed"
-msgstr ""
+msgstr "Controllo sicurezza fallito"
 
 msgctxt "QObject|"
 msgid "Already exists"
-msgstr ""
+msgstr "Esiste già"
 
 msgctxt "QObject|"
 msgid "Host not found"

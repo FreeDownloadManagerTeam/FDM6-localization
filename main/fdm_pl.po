@@ -469,6 +469,14 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "Usuwanie plików."
 
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "Anuluj"
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Trwają operacje bez możliwości wznowienia"
@@ -1500,6 +1508,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "Wstrzymane"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "Sprawdzanie plików"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "Scalanie strumieni mediów"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "Pobieranie info"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr "brak"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "W kolejce"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "Zakończone"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1618,19 +1650,19 @@ msgstr "Brak nośnika/dysku"
 
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
-msgstr ""
+msgstr "duplikatów (%1)"
 
 msgctxt "DownloadsList|"
 msgid "invalid (%1)"
-msgstr ""
+msgstr "nieprawidłowych (%1)"
 
 msgctxt "DownloadsList|"
 msgid "unsupported (%1)"
-msgstr ""
+msgstr "nieobsługiwanych (%1)"
 
 msgctxt "DownloadsList|"
 msgid "Skipped downloads"
-msgstr ""
+msgstr "Pominiętych pobrań"
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
@@ -1646,7 +1678,7 @@ msgstr "Odznacz wszystkie"
 
 msgctxt "DownloadsPage|"
 msgid "Show all downloads"
-msgstr ""
+msgstr "Pokaż wszystkie pobrania"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1984,6 +2016,30 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Nieznany rozmiar pliku"
 
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "Sprawdzanie plików"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "Scalanie strumieni mediów"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "Pobieranie info"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "n/a"
+msgstr "brak"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "W kolejce"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "Zakończone"
+
 msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr "brak"
@@ -2018,7 +2074,7 @@ msgstr "Zakończone"
 
 msgctxt "DownloadsViewTools|"
 msgid "Downloads: %1"
-msgstr ""
+msgstr "Pobrań: %1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2487,6 +2543,14 @@ msgstr ""
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
 msgstr "Pomóż nam to zmienić!"
+
+msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "Opcje"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Uruchom przy starcie systemu (zminimalizowany)"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -3436,6 +3500,10 @@ msgid "Configure manually:"
 msgstr "Konfiguruj ręcznie:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "Konfiguruj ręcznie"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "Adres"
 
@@ -3591,7 +3659,7 @@ msgstr "Połączenia"
 
 msgctxt "PickFileButton|"
 msgid "Browse..."
-msgstr ""
+msgstr "Przeglądaj..."
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
@@ -3923,6 +3991,14 @@ msgstr "O %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "Wyjście"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "Preferencje..."
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "Szukaj aktualizacji..."
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -4302,11 +4378,11 @@ msgstr "Wersja niezgodna"
 
 msgctxt "QObject|"
 msgid "Security check failed"
-msgstr ""
+msgstr "Błąd sprawdzania zabezpieczeń"
 
 msgctxt "QObject|"
 msgid "Already exists"
-msgstr ""
+msgstr "Już istnieje"
 
 msgctxt "QObject|"
 msgid "Host not found"

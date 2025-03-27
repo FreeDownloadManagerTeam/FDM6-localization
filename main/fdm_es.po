@@ -438,7 +438,7 @@ msgstr "Notificaciones"
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
 msgstr ""
-"%1 necesita permisos para guardar los archivos descargadas a tu "
+"%1 necesita permisos para guardar los archivos descargados a tu "
 "almacenamiento local."
 
 msgctxt "AppAndroidPermissionsManager|"
@@ -476,6 +476,14 @@ msgstr "Combinando medios de transmisión (%1)."
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "Borrando archivos."
+
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "Aceptar"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "Cancelar"
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -523,7 +531,7 @@ msgstr "Cancelar"
 
 msgctxt "AuthDialog|"
 msgid "OK"
-msgstr "ACEPTAR"
+msgstr "Aceptar"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
@@ -1145,7 +1153,7 @@ msgstr "Cancelar"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "OK"
-msgstr "ACEPTAR"
+msgstr "Aceptar"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
@@ -1225,7 +1233,7 @@ msgstr "Error: %1"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "OK"
-msgstr "ACEPTAR"
+msgstr "Aceptar"
 
 msgctxt "CppQmlLocalizations|"
 msgid "Today"
@@ -1420,7 +1428,7 @@ msgstr "Cancelar"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Download deleting failed"
-msgstr "Fallo al borrar la descarga"
+msgstr "Borrado de descarga fallido"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Try again"
@@ -1508,6 +1516,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "Pausada"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "Comprobando archivos"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "Combinando medios de transmisión"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "Solicitando información"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "En cola"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "Completada"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1546,7 +1578,7 @@ msgstr "Desconocido"
 
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
-msgstr "Descargada"
+msgstr "Descargado"
 
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
@@ -1626,19 +1658,19 @@ msgstr "Disco no encontrado"
 
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
-msgstr ""
+msgstr "duplicadas (%1)"
 
 msgctxt "DownloadsList|"
 msgid "invalid (%1)"
-msgstr ""
+msgstr "inválida (%1)"
 
 msgctxt "DownloadsList|"
 msgid "unsupported (%1)"
-msgstr ""
+msgstr "no soportada (%1)"
 
 msgctxt "DownloadsList|"
 msgid "Skipped downloads"
-msgstr ""
+msgstr "Descargas omitidas"
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
@@ -1654,7 +1686,7 @@ msgstr "Seleccionar nada"
 
 msgctxt "DownloadsPage|"
 msgid "Show all downloads"
-msgstr ""
+msgstr "Mostrar todas las descargas"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1808,11 +1840,11 @@ msgstr "Estado"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Download"
-msgstr "Descargar"
+msgstr "Descarga"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Upload"
-msgstr "Cargar"
+msgstr "Carga"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Added"
@@ -1994,6 +2026,30 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Tamaño de archivo desconocido"
 
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "Comprobando archivos"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "Combinando medios de transmisión"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "Solicitando información"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "En cola"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "Completada"
+
 msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr "n/a"
@@ -2028,7 +2084,7 @@ msgstr "Completa"
 
 msgctxt "DownloadsViewTools|"
 msgid "Downloads: %1"
-msgstr ""
+msgstr "Descargas: %1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2498,6 +2554,14 @@ msgid "Let's fix it!"
 msgstr "¡Corrijámoslo!"
 
 msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "Opciones"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Abrir al iniciar (minimizado)"
+
+msgctxt "GeneralSettings|"
 msgid "Default download folder"
 msgstr "Carpeta de descarga predeterminada"
 
@@ -2622,7 +2686,7 @@ msgstr "Tamaño total:"
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
-msgstr "Descargada:"
+msgstr "Descargado:"
 
 msgctxt "GeneralTab|"
 msgid "Uploaded"
@@ -2674,11 +2738,11 @@ msgstr "Progreso:"
 
 msgctxt "GeneralTab_V2|"
 msgid "Downloaded:"
-msgstr "Descargada:"
+msgstr "Descargado:"
 
 msgctxt "GeneralTab_V2|"
 msgid "Uploaded"
-msgstr "Cargada"
+msgstr "Cargado"
 
 msgctxt "GeneralTab_V2|"
 msgid "ratio"
@@ -3140,7 +3204,7 @@ msgstr "Valor personalizado"
 
 msgctxt "MaxURatioComboBox|"
 msgid "OK"
-msgstr "ACEPTAR"
+msgstr "Aceptar"
 
 msgctxt "MaxURatioComboBox|"
 msgid "CANCEL"
@@ -3292,7 +3356,7 @@ msgstr "La ruta contiene caracteres inválidos"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "OK"
-msgstr "ACEPTAR"
+msgstr "Aceptar"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Convert to mp3"
@@ -3304,7 +3368,7 @@ msgstr "Convertir a mp3 con tasa de bits ajustable"
 
 msgctxt "Mp3ConverterPage|"
 msgid "OK"
-msgstr "ACEPTAR"
+msgstr "Aceptar"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Save to"
@@ -3348,7 +3412,7 @@ msgstr "La ruta contiene caracteres inválidos"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "OK"
-msgstr "ACEPTAR"
+msgstr "Aceptar"
 
 msgctxt "Mp4ConverterPage|"
 msgid "Convert to mp4"
@@ -3356,7 +3420,7 @@ msgstr "Convertir a mp4"
 
 msgctxt "Mp4ConverterPage|"
 msgid "OK"
-msgstr "ACEPTAR"
+msgstr "Aceptar"
 
 msgctxt "Mp4ConverterPage|"
 msgid "Save to"
@@ -3447,6 +3511,10 @@ msgid "Configure manually:"
 msgstr "Configurar manualmente:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "Configurar manualmente"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "Dirección"
 
@@ -3520,7 +3588,7 @@ msgstr "Valor personalizado"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "OK"
-msgstr "ACEPTAR"
+msgstr "Aceptar"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "CANCEL"
@@ -3602,7 +3670,7 @@ msgstr "Conexiones"
 
 msgctxt "PickFileButton|"
 msgid "Browse..."
-msgstr ""
+msgstr "Navegar..."
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
@@ -3633,7 +3701,7 @@ msgstr "Recuérdame después"
 
 msgctxt "PluginBannerDialog|"
 msgid "OK"
-msgstr "ACEPTAR"
+msgstr "Aceptar"
 
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
@@ -3935,6 +4003,14 @@ msgstr "Acerca de %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "Salir"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "Preferencias..."
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "Comprobar actualizaciones..."
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -4314,11 +4390,11 @@ msgstr "Versión incompatible"
 
 msgctxt "QObject|"
 msgid "Security check failed"
-msgstr ""
+msgstr "Comprobación de seguridad fallida"
 
 msgctxt "QObject|"
 msgid "Already exists"
-msgstr ""
+msgstr "Ya existe"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -4680,7 +4756,7 @@ msgstr "Cancelar"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "OK"
-msgstr "ACEPTAR"
+msgstr "Aceptar"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "Rename file"
@@ -4688,7 +4764,7 @@ msgstr "Renombrar archivo"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "OK"
-msgstr "ACEPTAR"
+msgstr "Aceptar"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "Enter new name"
@@ -4712,7 +4788,7 @@ msgstr "El reporte ha sido enviado. ¡Gracias por tu cooperación!"
 
 msgctxt "ReportSentDialog|"
 msgid "OK"
-msgstr "ACEPTAR"
+msgstr "Aceptar"
 
 msgctxt "RestartRequiredLabel|"
 msgid "<a href='#'>Restart is required</a>"
@@ -5425,11 +5501,11 @@ msgstr "Tamaño: %1"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."
-msgstr "La interfaz clásica está encendida"
+msgstr "La interfaz clásica está encendida."
 
 msgctxt "UiUpdatedBanner|"
 msgid "The new interface is turned on."
-msgstr "La nueva interfaz está encendida"
+msgstr "La nueva interfaz está encendida."
 
 msgctxt "UiUpdatedBanner|"
 msgid "OK"

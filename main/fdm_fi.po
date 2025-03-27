@@ -467,6 +467,14 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "Poistetaan tiedostoja."
 
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr ""
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Jatkamista tukemattomia toimintoja on käynnissä"
@@ -1492,6 +1500,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "Pysäytetty"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "Tarkistetaan tiedostoja"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "Yhdistetään mediastriimejä"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "Pyydetään tietoja"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "Jonossa"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "Valmis"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1 %] - %2"
@@ -1975,6 +2007,30 @@ msgstr "Pysäytetty"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Tiedostokoko ei tiedossa"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "Tarkistetaan tiedostoja"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "Yhdistetään mediastriimejä"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "Pyydetään tietoja"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "Jonossa"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "Valmis"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
@@ -2478,6 +2534,14 @@ msgstr "Puuttuuko kielesi tai onko käännöksessä puutteita?"
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
 msgstr "Korjataan se!"
+
+msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "Valinnat"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Käynnistä tietokoneen käynnistyessä (pienennettynä)"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -3425,6 +3489,10 @@ msgid "Configure manually:"
 msgstr "Aseta manuaalisesti:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "Aseta manuaalisesti"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "Osoite"
 
@@ -3908,6 +3976,14 @@ msgstr "Tietoja %1ista"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "Sulje"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "Asetukset…"
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "Tarkista päivitykset..."
 
 msgctxt "QObject|"
 msgid "%1 B"

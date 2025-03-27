@@ -465,6 +465,14 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "در حال حذف فایل‌ها."
 
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "تأیید"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "انصراف"
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "عملیاتی در حال انجام است که امکان ادامه ندارد"
@@ -1493,6 +1501,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "مکث شده"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "در حال بررسی فایل‌ها"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr ""
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "در حال درخواست اطلاعات"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr "نامشخص"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "صف شده"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "تمام شده"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1976,6 +2008,30 @@ msgstr "مکث شده"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "حجم فایل نامشخص"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "در حال بررسی فایل‌ها"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr ""
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "در حال درخواست اطلاعات"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "n/a"
+msgstr "نامشخص"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "صف شده"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "تمام شده"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
@@ -2479,6 +2535,14 @@ msgstr "زبان شما در لیست نیست یا ترجمه کامل نیست
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
 msgstr "بیایید آن را درست کنیم!"
+
+msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "گزینه ها"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "راه‌اندازی در شروع (در حالت کوچک شده)"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -3424,6 +3488,10 @@ msgid "Configure manually:"
 msgstr "تنظیم دستی:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "تنظیم دستی"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "آدرس"
 
@@ -3830,7 +3898,7 @@ msgctxt ""
 "languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
 "to get proper UI layout."
 msgid "QT_LAYOUT_DIRECTION"
-msgstr "QT_LAYOUT_DIRECTION"
+msgstr "RTL"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -3911,6 +3979,14 @@ msgstr "درباره %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "خروج"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "تنظیمات..."
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "بررسی برای به‌روزرسانی‌ها..."
 
 msgctxt "QObject|"
 msgid "%1 B"

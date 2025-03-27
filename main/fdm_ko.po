@@ -463,6 +463,14 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "파일을 삭제하는 중입니다."
 
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "확인"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "취소"
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "진행 중인 재개 기능이 없는 작업이 있습니다"
@@ -1475,6 +1483,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "일시 중지됨"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "파일 확인 중"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "미디어 스트림 병합 중"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "정보 요청 중"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr "없음"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr ""
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "완료"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1593,19 +1625,19 @@ msgstr "파일이 없습니다"
 
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
-msgstr ""
+msgstr "중복 (%1)"
 
 msgctxt "DownloadsList|"
 msgid "invalid (%1)"
-msgstr ""
+msgstr "유효하지 않음 (%1)"
 
 msgctxt "DownloadsList|"
 msgid "unsupported (%1)"
-msgstr ""
+msgstr "지원되지 않음 (%1)"
 
 msgctxt "DownloadsList|"
 msgid "Skipped downloads"
-msgstr ""
+msgstr "다운로드 건너뛰기"
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
@@ -1621,7 +1653,7 @@ msgstr "선택 안 함"
 
 msgctxt "DownloadsPage|"
 msgid "Show all downloads"
-msgstr ""
+msgstr "모든 다운로드 표시"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1959,6 +1991,30 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "알 수 없는 파일 크기"
 
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "파일 확인 중"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "미디어 스트림 병합 중"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "정보 요청 중"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "n/a"
+msgstr "없음"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "대기열"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "완료"
+
 msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr "없음"
@@ -1993,7 +2049,7 @@ msgstr "완료"
 
 msgctxt "DownloadsViewTools|"
 msgid "Downloads: %1"
-msgstr ""
+msgstr "다운로드: %1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2459,6 +2515,14 @@ msgstr "신규 (베타)"
 msgctxt "GeneralSettings|"
 msgid "Classic"
 msgstr "클래식"
+
+msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "옵션"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "시작 시 실행 (최소화)"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -3403,6 +3467,10 @@ msgid "Configure manually:"
 msgstr "수동 구성:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "수동 구성"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "주소"
 
@@ -3554,7 +3622,7 @@ msgstr "연결"
 
 msgctxt "PickFileButton|"
 msgid "Browse..."
-msgstr ""
+msgstr "찾아보기..."
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
@@ -3918,6 +3986,14 @@ msgstr "%1 정보"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "종료"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "환경설정..."
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "업데이트 확인..."
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -4297,11 +4373,11 @@ msgstr "호환되지 않는 버전"
 
 msgctxt "QObject|"
 msgid "Security check failed"
-msgstr ""
+msgstr "보안 검사 실패"
 
 msgctxt "QObject|"
 msgid "Already exists"
-msgstr ""
+msgstr "이미 존재합니다"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -4537,7 +4613,7 @@ msgstr "읽기 또는 쓰기를 위해 gzip을 열 수 있습니다. 무엇입�
 
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr "gzopen() 파일을 사용할 수 없습니다"
+msgstr "gzopen() 파일을 열 수 없습니다"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"

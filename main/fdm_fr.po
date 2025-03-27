@@ -476,6 +476,14 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "Suppression de fichiers."
 
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "Annuler"
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Il y a des opérations en cours qui ne supportent pas la reprise"
@@ -1515,6 +1523,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "En pause"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "Vérification des fichiers"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "Fusion des flux de médias"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "Demande d'infos"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "En file d'attente"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "Terminé"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1633,19 +1665,19 @@ msgstr "Le disque est manquant"
 
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
-msgstr ""
+msgstr "doublons (%1)"
 
 msgctxt "DownloadsList|"
 msgid "invalid (%1)"
-msgstr ""
+msgstr "invalides (%1)"
 
 msgctxt "DownloadsList|"
 msgid "unsupported (%1)"
-msgstr ""
+msgstr "non supportés (%1)"
 
 msgctxt "DownloadsList|"
 msgid "Skipped downloads"
-msgstr ""
+msgstr "Téléchargements ignorés"
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
@@ -1661,7 +1693,7 @@ msgstr "Ne rien sélectionner"
 
 msgctxt "DownloadsPage|"
 msgid "Show all downloads"
-msgstr ""
+msgstr "Afficher tous les téléchargements"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -2004,6 +2036,30 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Taille du fichier inconnue"
 
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "Vérification des fichiers"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "Fusion des flux de médias"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "Demande d'infos"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "En file d'attente"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "Terminé"
+
 msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr "n/a"
@@ -2038,7 +2094,7 @@ msgstr "Terminé"
 
 msgctxt "DownloadsViewTools|"
 msgid "Downloads: %1"
-msgstr ""
+msgstr "Téléchargements: %1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2506,6 +2562,14 @@ msgstr "Votre langue n'est pas listée ou la traduction est incomplète?"
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
 msgstr "Réparons cela!"
+
+msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "Options"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Lancer au démarrage (minimisé)"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -3461,6 +3525,10 @@ msgid "Configure manually:"
 msgstr "Configurer manuellement:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "Configurer manuellement"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "Adresse"
 
@@ -3616,7 +3684,7 @@ msgstr "Connexions"
 
 msgctxt "PickFileButton|"
 msgid "Browse..."
-msgstr ""
+msgstr "Parcourir..."
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
@@ -3951,6 +4019,14 @@ msgstr "À propos de %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "Quitter"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "Préférences..."
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "Vérifier les mises à jour..."
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -4330,11 +4406,11 @@ msgstr "Version incompatible"
 
 msgctxt "QObject|"
 msgid "Security check failed"
-msgstr ""
+msgstr "Contrôle de sécurité échoué"
 
 msgctxt "QObject|"
 msgid "Already exists"
-msgstr ""
+msgstr "Existe déjà"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -5623,7 +5699,7 @@ msgstr "Connexion distante à %1"
 
 msgctxt "main|"
 msgid "Add download"
-msgstr ""
+msgstr "Ajouter un téléchargement"
 
 msgctxt "main|"
 msgid "New download"

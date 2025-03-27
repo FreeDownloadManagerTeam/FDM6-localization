@@ -463,6 +463,14 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "正在删除文件。"
 
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "取消"
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "有无法恢复的操作进行中"
@@ -1457,7 +1465,7 @@ msgstr "关闭"
 
 msgctxt "DownloadProgressBar_V2|"
 msgid "Checking files"
-msgstr "正在检查文件"
+msgstr "检查文件中"
 
 msgctxt "DownloadProgressBar_V2|"
 msgid "Merging media streams"
@@ -1474,6 +1482,30 @@ msgstr "请求信息中"
 msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "已暂停"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "检查文件中"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "合并媒体中"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "请求信息中"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "已排队"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "已完成"
 
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
@@ -1958,6 +1990,30 @@ msgstr "已暂停"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "未知文件大小"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "检查文件中"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "合并媒体中"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "请求信息中"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "已排队"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "已完成"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
@@ -2459,6 +2515,14 @@ msgstr "没有列出您所使用的语言或翻译不完整?"
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
 msgstr "期待与您一起完善!"
+
+msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "设置"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "开机静默启动"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -3403,6 +3467,10 @@ msgid "Configure manually:"
 msgstr "手动配置："
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "手动配置"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "地址"
 
@@ -3880,6 +3948,14 @@ msgstr "关于 %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "退出"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "选项..."
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "检查更新…"
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -5025,7 +5101,7 @@ msgstr "继续"
 
 msgctxt "StatusItem|"
 msgid "Checking files"
-msgstr "检查文件"
+msgstr "检查文件中"
 
 msgctxt "StatusItem|"
 msgid "Merging media streams"

@@ -147,7 +147,7 @@ msgstr "インターフェイス"
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
-msgstr "閉じるボタンのクリックで %1 を非表示にし、バックグラウンドで実行する"
+msgstr "閉じるボタンのクリックで %1 を非表示にしてバックグラウンドで実行する"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
@@ -179,7 +179,7 @@ msgstr "パス:"
 
 msgctxt "AdvancedSettings|"
 msgid "Please enter application's path"
-msgstr "アンチウイルスのパスを入力してください"
+msgstr "ウイルス対策ソフトのパスを入力してください"
 
 msgctxt "AdvancedSettings|"
 msgid "Arguments:"
@@ -223,11 +223,11 @@ msgstr "既存のファイルがある場合の対応"
 
 msgctxt "AdvancedSettings|"
 msgid "Rename"
-msgstr "名前を変更"
+msgstr "名前を変更する"
 
 msgctxt "AdvancedSettings|"
 msgid "Overwrite"
-msgstr "上書き"
+msgstr "上書きする"
 
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
@@ -255,11 +255,11 @@ msgstr "スタンドアロンの新規ダウンロードウィンドウの作成
 
 msgctxt "AdvancedSettings|"
 msgid "Overall zoom"
-msgstr "全体の拡大"
+msgstr "全体のズーム"
 
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
-msgstr "フォントの拡大"
+msgstr "フォントのズーム"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -267,11 +267,11 @@ msgstr "削除ボタンのアクション"
 
 msgctxt "AdvancedSettings|"
 msgid "Remove only from download list"
-msgstr "ダウンロードリストからのみ削除"
+msgstr "ダウンロードリストからのみ削除する"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete files"
-msgstr "ファイルを削除"
+msgstr "ファイルを削除する"
 
 msgctxt "AdvancedSettings|"
 msgid "Always ask"
@@ -331,7 +331,7 @@ msgstr "未完了"
 
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
-msgstr "ダウンロードを検索..."
+msgstr "ダウンロードリストを検索..."
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Old"
@@ -371,15 +371,15 @@ msgstr "手動で設定する..."
 
 msgctxt "AntivirusSettings|"
 msgid "Antivirus"
-msgstr "アンチウイルス"
+msgstr "ウイルス対策"
 
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
-msgstr "アンチウイルスの選択:"
+msgstr "ウイルス対策ソフトの選択:"
 
 msgctxt "AntivirusSettings|"
 msgid "Is your antivirus not listed?"
-msgstr "お使いのセキュリティソフトがリストにありませんか?"
+msgstr "お使いのウイルス対策ソフトがリストにありませんか?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -387,7 +387,7 @@ msgstr "パス:"
 
 msgctxt "AntivirusSettings|"
 msgid "Please enter antivirus path"
-msgstr "アンチウイルスのパスを入力してください"
+msgstr "ウイルス対策ソフトのパスを入力してください"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments:"
@@ -407,7 +407,7 @@ msgstr "ウイルスチェック"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
-msgstr "アンチウイルスが設定されていません。"
+msgstr "ウイルス対策ソフトが設定されていません。"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Go to settings"
@@ -463,9 +463,17 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "ファイルを削除しています。"
 
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "キャンセル"
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
-msgstr "再開機能がないオペレーションが進行しています"
+msgstr "再開機能のない操作が進行しています"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
@@ -771,7 +779,7 @@ msgstr "%1 の拡張機能がインストールされているか確認してく
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
-msgstr "その他の対応ブラウザー"
+msgstr "他の対応しているブラウザー"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
@@ -1347,7 +1355,7 @@ msgstr "選択したダウンロードを削除"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Remember my choice"
-msgstr "この選択を忘れないでください"
+msgstr "この選択を記憶する"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete files"
@@ -1475,6 +1483,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "一時停止"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "ファイルを確認しています"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "メディアストリームを結合しています"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "情報を要求しています"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr "利用不可"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "キュー"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "完了"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1497,7 +1529,7 @@ msgstr "ファイルサイズ"
 
 msgctxt "DownloadWindow|"
 msgid "Resume support"
-msgstr "再開のサポート"
+msgstr "再開への対応"
 
 msgctxt "DownloadWindow|"
 msgid "Yes"
@@ -1593,19 +1625,19 @@ msgstr "ディスクが見つかりません"
 
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
-msgstr ""
+msgstr "重複 (%1)"
 
 msgctxt "DownloadsList|"
 msgid "invalid (%1)"
-msgstr ""
+msgstr "無効 (%1)"
 
 msgctxt "DownloadsList|"
 msgid "unsupported (%1)"
-msgstr ""
+msgstr "未サポート (%1)"
 
 msgctxt "DownloadsList|"
 msgid "Skipped downloads"
-msgstr ""
+msgstr "スキップされたダウンロード"
 
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
@@ -1621,7 +1653,7 @@ msgstr "選択解除"
 
 msgctxt "DownloadsPage|"
 msgid "Show all downloads"
-msgstr ""
+msgstr "すべてのダウンロードを表示"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1959,6 +1991,30 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "不明なファイルサイズ"
 
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "ファイルを確認しています"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "メディアストリームを結合しています"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "情報を要求しています"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "n/a"
+msgstr "利用不可"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "キュー"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "完了"
+
 msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr "利用不可"
@@ -1993,7 +2049,7 @@ msgstr "完了"
 
 msgctxt "DownloadsViewTools|"
 msgid "Downloads: %1"
-msgstr ""
+msgstr "ダウンロード: %1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2461,6 +2517,14 @@ msgid "Let's fix it!"
 msgstr "修正しましょう!"
 
 msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "オプション"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "起動時に起動する (最小化して)"
+
+msgctxt "GeneralSettings|"
 msgid "Default download folder"
 msgstr "既定のダウンロードフォルダー"
 
@@ -2886,7 +2950,7 @@ msgstr "アドオン..."
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
-msgstr "環境設定... "
+msgstr "環境設定..."
 
 msgctxt "MainMenu|"
 msgid "Contact support"
@@ -3403,6 +3467,10 @@ msgid "Configure manually:"
 msgstr "手動で設定:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "手動で設定"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "アドレス"
 
@@ -3432,7 +3500,7 @@ msgstr "SOCKS5:"
 
 msgctxt "NetworkSettings|"
 msgid "Invalid proxy settings"
-msgstr "プロキシ設定が正しくありません"
+msgstr "無効なプロキシ設定です"
 
 msgctxt "NetworkSettings|"
 msgid "Proxy settings"
@@ -3492,11 +3560,11 @@ msgstr "値を 0 より大きくする必要があります。"
 
 msgctxt "NoResumeSupportBlock|"
 msgid "This download may not support resuming."
-msgstr "このダウンロードは再開をサポートしていない可能性があります。"
+msgstr "このダウンロードは再開に対応していない可能性があります。"
 
 msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
-msgstr "再開をサポートしていないファイルをダウンロードする場合はスリープモードを回避"
+msgstr "再開に対応していないファイルをダウンロードする場合はスリープモードを回避する"
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
@@ -3554,7 +3622,7 @@ msgstr "接続数"
 
 msgctxt "PickFileButton|"
 msgid "Browse..."
-msgstr ""
+msgstr "参照..."
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
@@ -3884,6 +3952,14 @@ msgid "Quit"
 msgstr "終了"
 
 msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "環境設定..."
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "更新を確認..."
+
+msgctxt "QObject|"
 msgid "%1 B"
 msgstr "%1 B"
 
@@ -4085,7 +4161,7 @@ msgstr "リクエスト URI が長すぎます"
 
 msgctxt "QObject|"
 msgid "Unsupported Media Type"
-msgstr "サポートされていないメディアタイプです"
+msgstr "対応していないメディアタイプです"
 
 msgctxt "QObject|"
 msgid "Requested Range Not Satisfiable"
@@ -4233,7 +4309,7 @@ msgstr "ネットワーク認証が必要です"
 
 msgctxt "QObject|"
 msgid "Network read timeout error"
-msgstr "ネットワークの読み込みタイムアウト・エラー"
+msgstr "ネットワークの読み込みタイムアウトエラー"
 
 msgctxt "QObject|"
 msgid "Network connect timeout error"
@@ -4241,15 +4317,15 @@ msgstr "ネットワーク接続のタイムアウトエラー"
 
 msgctxt "QObject|"
 msgid "Unsupported"
-msgstr "未対応"
+msgstr "対応していません"
 
 msgctxt "QObject|"
 msgid "Invalid parameter"
-msgstr "パラメータが正しくありません"
+msgstr "無効なパラメーターです"
 
 msgctxt "QObject|"
 msgid "Unsupported format"
-msgstr "未対応の形式"
+msgstr "対応していない形式です"
 
 msgctxt "QObject|"
 msgid "Not found"
@@ -4261,11 +4337,11 @@ msgstr "互換性のないバージョン"
 
 msgctxt "QObject|"
 msgid "Security check failed"
-msgstr ""
+msgstr "セキュリティチェックに失敗しました"
 
 msgctxt "QObject|"
 msgid "Already exists"
-msgstr ""
+msgstr "既に存在します"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -4281,7 +4357,7 @@ msgstr "接続が閉じました"
 
 msgctxt "QObject|"
 msgid "Timed out"
-msgstr "タイム・アウトしました"
+msgstr "タイムアウトしました"
 
 msgctxt "QObject|"
 msgid "SSL handshake failed"
@@ -4341,7 +4417,7 @@ msgstr "ホストのパブリックキーが不明です"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
-msgstr "サポートしていない URL です"
+msgstr "対応していない URL です"
 
 msgctxt "QObject|"
 msgid "Untitled"
@@ -4825,7 +4901,7 @@ msgstr "降順"
 
 msgctxt "SettingsPage|"
 msgid "Invalid settings"
-msgstr "設定が正しくありません"
+msgstr "無効な設定です"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
@@ -4853,7 +4929,7 @@ msgstr "トラフィックの制限"
 
 msgctxt "SettingsPage|"
 msgid "Antivirus"
-msgstr "アンチウイルス"
+msgstr "ウイルス対策"
 
 msgctxt "SettingsPage|"
 msgid "Remote Access"
@@ -4917,7 +4993,7 @@ msgstr "すべてのダウンロードが完了すると、コンピューター
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be hibernate after all downloads are completed."
-msgstr "すべてのダウンロードが完了すると、コンピュータは休止状態になります。"
+msgstr "すべてのダウンロードが完了すると、コンピューターは休止状態になります。"
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be shutdown after all downloads are completed."
@@ -4981,7 +5057,7 @@ msgstr "ホストの信頼性が確立できません。"
 
 msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
-msgstr "SSL 証明書が正しくありません。"
+msgstr "SSL 証明書が無効です。"
 
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
@@ -5203,7 +5279,7 @@ msgstr "速度を最適化するために追加のダウンロードを有効に
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
-msgstr "トラフィック制限設定が正しくありません"
+msgstr "無効なトラフィック制限の設定です"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
