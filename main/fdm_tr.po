@@ -312,7 +312,7 @@ msgstr "Durduruldu"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Missing Files"
-msgstr "Eksik Dosyalar"
+msgstr "Eksik dosyalar"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "All files"
@@ -494,11 +494,11 @@ msgstr "Başarısız oldu."
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
-msgstr "Kimlik doğrulaması gerekli"
+msgstr "Kimlik doğrulama gerekli"
 
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
-msgstr "%1, kimlik doğrulaması gerektiriyor"
+msgstr "%1, kimlik doğrulama gerektiriyor"
 
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
@@ -526,7 +526,7 @@ msgstr "Tamam"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
-msgstr "Kimlik doğrulaması gerekli"
+msgstr "Kimlik doğrulama gerekli"
 
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
@@ -554,7 +554,7 @@ msgstr "Tamam"
 
 msgctxt "AuthenticationPage|"
 msgid "Authentication required"
-msgstr "Kimlik doğrulaması gerekli"
+msgstr "Kimlik doğrulama gerekli"
 
 msgctxt "AuthenticationPage|"
 msgid "OK"
@@ -789,7 +789,7 @@ msgid "Other supported browsers"
 msgstr "Diğer desteklenen tarayıcılar"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "Tarayıcılardan otomatik olarak indirmeleri yakala"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -821,7 +821,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "Bunun geçerli bir dosya uzantısı olduğuna emin misiniz?"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "Şundan küçük olan indirmeleri yakalama"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -835,6 +835,10 @@ msgstr "%1 aracılığıyla indirme iptal edilirse tarayıcıyı kullan"
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
 msgstr "INSERT tuşuna basıldığında müdahale etme"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr ""
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -1037,6 +1041,14 @@ msgstr "İptal"
 msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "İndir"
+
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr "Alt klasör adı boş olmamak zorundadır"
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr "Dosya adı boş olmamak zorundadır"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -1826,11 +1838,11 @@ msgstr "Durum"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Download"
-msgstr "İndir"
+msgstr "İndirme"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Upload"
-msgstr "Gönder"
+msgstr "Gönderme"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Added"
@@ -1976,6 +1988,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Sıralı indirme"
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr "Dosyayı paylaş"
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Listeden kaldır"
@@ -2070,7 +2086,7 @@ msgstr "Tamamlandı"
 
 msgctxt "DownloadsViewTools|"
 msgid "Downloads: %1"
-msgstr ""
+msgstr "İndirmeler: %1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2629,6 +2645,10 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Güncellemeleri otomatik olarak yükle"
 
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr "İndirilen dosyaları işaretle"
+
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
 msgstr "Güncellemeleri otomatik olarak denetle"
@@ -3041,7 +3061,7 @@ msgstr[0] "%n indirme seçildi."
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
-msgstr "Toplam boyut:"
+msgstr "Toplam boyut: "
 
 msgctxt "MainStatusBar_V2|"
 msgid "Low"
@@ -4211,7 +4231,7 @@ msgstr "Ben bir çaydanlığım"
 
 msgctxt "QObject|"
 msgid "Authentication Timeout"
-msgstr "Kimlik Doğrulaması Zaman Aşımı"
+msgstr "Kimlik Doğrulama Zaman Aşımı"
 
 msgctxt "QObject|"
 msgid "Method Failure / Enhance Your Calm"

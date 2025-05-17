@@ -782,7 +782,7 @@ msgid "Other supported browsers"
 msgstr "其他支援的瀏覽器"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "自動從瀏覽器擷取下載"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -814,7 +814,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "您確定此副檔名有效嗎？"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "不要擷取下載項目，小於"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -828,6 +828,10 @@ msgstr "使用瀏覽器下載透過 %1 取消的項目"
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
 msgstr "INSERT 鍵按下時不截取"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr ""
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -1027,6 +1031,14 @@ msgstr "取消"
 msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "下載"
+
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr ""
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -1955,6 +1967,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "循序下載"
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr ""
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "從清單中移除"
@@ -2607,6 +2623,10 @@ msgstr "自動檢查更新"
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "自動安裝更新"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr ""
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"

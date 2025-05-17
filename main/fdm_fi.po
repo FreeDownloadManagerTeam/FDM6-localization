@@ -786,7 +786,7 @@ msgid "Other supported browsers"
 msgstr "Muut tuetut selaimet"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "Lisää lataukset selaimista automaattisesti"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -818,7 +818,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "Onko tämä varmasti oikea tiedostopääte?"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "Älä lisää latauksia, jotka ovat pienempiä kuin"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -832,6 +832,10 @@ msgstr "Käytä selainta, jos %1-lataus perutaan"
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
 msgstr "Älä kaappaa painettaessa INSERT-näppäintä"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr ""
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -1034,6 +1038,14 @@ msgstr "Peru"
 msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "Lataa"
+
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr ""
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -1972,6 +1984,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Lataa tiedostot järjestyksessä"
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr ""
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Poista listasta"
@@ -2626,6 +2642,10 @@ msgstr "Tarkista päivitykset automaattisesti"
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Asenna päivitykset automaattisesti"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr ""
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"

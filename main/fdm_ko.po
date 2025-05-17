@@ -782,7 +782,7 @@ msgid "Other supported browsers"
 msgstr "지원되는 다른 브라우저"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "브라우저에서 자동으로 다운로드 받기"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -814,7 +814,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "이것이 유효한 파일 확장자입니까?"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "다음보다 작은 다운로드 검색 안 함"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -828,6 +828,10 @@ msgstr "%1를 통한 다운로드를 취소하는 경우 브라우저 사용"
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
 msgstr "INSERT 키를 누른 경우 가로채지 않음"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr ""
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -1027,6 +1031,14 @@ msgstr "취소"
 msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "다운로드"
+
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr ""
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -1501,7 +1513,7 @@ msgstr "없음"
 
 msgctxt "DownloadStatus_V2|"
 msgid "Queued"
-msgstr ""
+msgstr "대기 중"
 
 msgctxt "DownloadStatus_V2|"
 msgid "Completed"
@@ -1954,6 +1966,10 @@ msgstr "파일"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "순차적 다운로드"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
@@ -2607,6 +2623,10 @@ msgstr "자동으로 업데이트 확인"
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "자동으로 업데이트 설치"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr ""
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -3681,7 +3701,7 @@ msgstr "자동으로 업데이트하도록 모든 추가 기능 재설정"
 
 msgctxt "PluginsPage|"
 msgid "Allow add-ons to use web browser cookies"
-msgstr ""
+msgstr "추가 기능이 웹 브라우저 쿠키를 사용하도록 허용"
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."

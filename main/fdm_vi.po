@@ -792,7 +792,7 @@ msgid "Other supported browsers"
 msgstr "Các trình duyệt khác được hỗ trợ"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "Tự động bắt tải từ trình duyệt"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -824,7 +824,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "Bạn có chắc đây là phần mở rộng tệp hợp lệ không?"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "Không bắt tải nhỏ hơn"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -838,6 +838,10 @@ msgstr "Sử dụng trình duyệt nếu bạn hủy tải qua %1"
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
 msgstr "Không chặn nếu nhấn phím INSERT"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr ""
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -1041,6 +1045,14 @@ msgstr "Hủy"
 msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "Tải xuống"
+
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr ""
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -1977,6 +1989,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Tải xuống tuần tự"
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr ""
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Xóa từ danh sách"
@@ -2632,6 +2648,10 @@ msgstr "Kiểm tra cập nhật tự động"
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Cài đặt bản cập nhật tự động"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr ""
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"

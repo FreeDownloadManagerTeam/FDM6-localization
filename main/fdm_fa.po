@@ -786,7 +786,7 @@ msgid "Other supported browsers"
 msgstr "دیگر مرورگرهای پشتیبانی‌شده"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "دریافت کردن به طور خودکار دانلودها از مرورگرها"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -818,7 +818,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "مطمئن هستید که پسوند این فایل معتبر است؟"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "از دانلود فایل های کوچکتر از این خودداری کن"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -832,6 +832,10 @@ msgstr "اگر دانلود از طریق %1 را لغو کردید، از مر�
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
 msgstr "اگر کلید INSERT فشار داده شود، دخالت نکنید"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr ""
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -1032,6 +1036,14 @@ msgstr "انصراف"
 msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "دانلود"
+
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr ""
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -1973,6 +1985,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "دانلود ترتیبی"
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr ""
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "حذف از لیست"
@@ -2627,6 +2643,10 @@ msgstr "بررسی خودکار بروزرسانی"
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "نصب خودکار بروزرسانی"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr ""
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"

@@ -797,7 +797,7 @@ msgid "Other supported browsers"
 msgstr "Autres navigateurs supportés"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "Capturer automatiquement les téléchargements depuis les navigateurs"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -829,7 +829,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "Êtes vous sûr(e) que cette extension de fichier est valide?"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "Ne pas capturer les téléchargements plus petits que"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -843,6 +843,10 @@ msgstr "Utiliser le navigateur si vous annulez le téléchargement via %1"
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
 msgstr "Ne pas intercepter si la touche INSÉR est pressée"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr ""
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -1047,6 +1051,14 @@ msgstr "Annuler"
 msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "Télécharger"
+
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr ""
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -2000,6 +2012,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Téléchargement séquentiel"
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr ""
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Enlever de la liste"
@@ -2657,6 +2673,10 @@ msgstr "Rechercher automatiquement les mises à jour"
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Installer automatiquement les mises à jour"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr ""
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
