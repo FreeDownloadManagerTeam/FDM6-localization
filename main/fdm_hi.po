@@ -464,6 +464,14 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "फ़ाइलें हटा रहा है।"
 
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "ठीक है"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "रद्द करें"
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "ऐसे संचालन हैं जिनमें फिर से शुरू करने की क्षमता नहीं है"
@@ -777,7 +785,7 @@ msgid "Other supported browsers"
 msgstr "अन्य समर्थित ब्राउज़र"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "ब्राउज़र से स्वचालित रूप से डाउनलोड पकड़ें"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -809,7 +817,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "क्या आप सुनिश्चित हैं कि यह एक वैध फ़ाइल एक्सटेंशन है?"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "से छोटे डाउनलोड न पकड़ें"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -823,6 +831,10 @@ msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
+msgstr ""
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
 msgstr ""
 
 msgctxt "BrowserIntroDialog|"
@@ -1024,6 +1036,14 @@ msgstr "रद्द करें"
 msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "डाउनलोड"
+
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr ""
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -1489,6 +1509,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "रोके गए"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "फाइलों की जांच"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "मीडिया स्ट्रीम मर्ज करना"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "जानकारी का अनुरोध"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr ""
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "कतारबद्ध"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "पूरा हुआ"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr ""
@@ -1606,6 +1650,22 @@ msgid "Disk is missing"
 msgstr "डिस्क गायब है"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr ""
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "लिंक डाउनलोड करें (%1 चयनित)"
 
@@ -1616,6 +1676,10 @@ msgstr "सभी का चयन करे"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "किसी का चयन न करें"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1917,6 +1981,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "अनुक्रमिक डाउनलोड"
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr ""
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "सूची से निकाल दें"
@@ -1953,17 +2021,33 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "अज्ञात फ़ाइल आकार"
 
-msgctxt "DownloadsViewItem_V2|"
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "फाइलों की जांच"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "मीडिया स्ट्रीम मर्ज करना"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "जानकारी का अनुरोध"
+
+msgctxt "DownloadsViewItemStatus_V2|"
 msgid "n/a"
 msgstr ""
 
-msgctxt "DownloadsViewItem_V2|"
-msgid "Delete file"
-msgstr "फ़ाइल को हटाएं"
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "कतारबद्ध"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "पूरा हुआ"
 
 msgctxt "DownloadsViewItem_V2|"
-msgid "Remove from list"
-msgstr "सूची से निकाल दें"
+msgid "n/a"
+msgstr ""
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -1992,6 +2076,10 @@ msgstr "रोके गए"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "पूरा"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2459,6 +2547,14 @@ msgid "Let's fix it!"
 msgstr "चलो इसे ठीक करें!"
 
 msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "विकल्प"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "स्टार्टअप पर लॉन्च (कम से कम)"
+
+msgctxt "GeneralSettings|"
 msgid "Default download folder"
 msgstr "डिफ़ॉल्ट डाउनलोड फ़ोल्डर"
 
@@ -2541,6 +2637,10 @@ msgstr "स्वत: अपडेट के लिए जांचें"
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "अपडेट को स्वचालित रूप से इंस्टॉल करें"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr ""
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2658,6 +2758,10 @@ msgstr "अपलोड गति:"
 msgctxt "GeneralTab_V2|"
 msgid "Web page"
 msgstr "वेब पृष्ठ"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "फ़ाइल"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -3400,6 +3504,10 @@ msgid "Configure manually:"
 msgstr "मैन्युअल रूप से कॉन्फ़िगर करें:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "मैन्युअल रूप से कॉन्फ़िगर करें"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "पता"
 
@@ -3549,6 +3657,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "सम्बन्ध"
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr ""
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr ""
@@ -3589,20 +3701,24 @@ msgid "Add-ons"
 msgstr "ऐड-ऑन"
 
 msgctxt "PluginsPage|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "अद्यतन के लिए जाँच"
 
 msgctxt "PluginsPage|"
-msgid "Install Add-on From File..."
+msgid "Install add-on from file..."
 msgstr "फ़ाइल से ऐड-ऑन स्थापित करें..."
 
 msgctxt "PluginsPage|"
-msgid "Update Add-ons Automatically"
+msgid "Update add-ons automatically"
 msgstr "ऐड-ऑन स्वचालित रूप से अपडेट करें"
 
 msgctxt "PluginsPage|"
-msgid "Reset All Add-ons to Update Automatically"
+msgid "Reset all add-ons to update automatically"
 msgstr "सभी ऐड-ऑन को स्वचालित रूप से अपडेट करने के लिए रीसेट करें"
+
+msgctxt "PluginsPage|"
+msgid "Allow add-ons to use web browser cookies"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
@@ -3721,11 +3837,11 @@ msgid "Would you like to install it?"
 msgstr "क्या आप इसे स्थापित करना चाहेंगे?"
 
 msgctxt "PluginsViewItem|"
-msgid "Allow Automatic Updates"
+msgid "Allow automatic updates"
 msgstr "स्वचालित अपडेट की अनुमति दें"
 
 msgctxt "PluginsViewItem|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "अद्यतन के लिए जाँच"
 
 msgctxt "PluginsViewItem|"
@@ -3876,6 +3992,14 @@ msgstr "लगभग %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "छोड़ना"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "पसंद..."
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr ""
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -4251,6 +4375,14 @@ msgstr "नहीं मिला"
 
 msgctxt "QObject|"
 msgid "Incompatible version"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Already exists"
 msgstr ""
 
 msgctxt "QObject|"
@@ -5346,7 +5478,11 @@ msgid "Size: %1"
 msgstr "आकार: %1"
 
 msgctxt "UiUpdatedBanner|"
-msgid "UI has been updated to the new (beta) style."
+msgid "The classic interface is turned on."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
 msgstr ""
 
 msgctxt "UiUpdatedBanner|"
@@ -5354,7 +5490,11 @@ msgid "OK"
 msgstr "ठीक है"
 
 msgctxt "UiUpdatedBanner|"
-msgid "Revert to the classic UI"
+msgid "Switch to the new interface"
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
 msgstr ""
 
 msgctxt "UpdateDialog|"
@@ -5520,3 +5660,11 @@ msgstr "रिपोर्ट भेज दी गई है। आपके स
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "%1 से रिमोट कनेक्शन"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "डाउनलोड जोड़ें"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "नया डाउनलोड"

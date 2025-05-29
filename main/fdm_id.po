@@ -202,7 +202,7 @@ msgstr "Setel ulang"
 
 msgctxt "AdvancedSettings|"
 msgid "Default settings"
-msgstr "Setelan bawaan"
+msgstr "Pengaturan bawaan"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore default settings?"
@@ -222,7 +222,7 @@ msgstr "Izinkan mode sleep jika unduhan dapat dilanjutkan nanti"
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
-msgstr "File ada reaksi"
+msgstr "Reaksi berkas yang sudah ada"
 
 msgctxt "AdvancedSettings|"
 msgid "Rename"
@@ -266,7 +266,7 @@ msgstr "Perbesar font"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
-msgstr "Tanggapan tombol Hapus"
+msgstr "Tindakan tombol hapus"
 
 msgctxt "AdvancedSettings|"
 msgid "Remove only from download list"
@@ -274,7 +274,7 @@ msgstr "Hanya hapus dari daftar unduhan"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete files"
-msgstr "Hapus berkas-berkas"
+msgstr "Hapus berkas"
 
 msgctxt "AdvancedSettings|"
 msgid "Always ask"
@@ -298,19 +298,19 @@ msgstr "Semua"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Downloads only"
-msgstr ""
+msgstr "Hanya unduhan"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Uploads only"
-msgstr ""
+msgstr "Hanya unggahan"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Completed"
-msgstr "Berhasil"
+msgstr "Selesai"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Stopped"
-msgstr ""
+msgstr "Hentikan"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Missing Files"
@@ -334,43 +334,43 @@ msgstr "Belum selesai"
 
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
-msgstr ""
+msgstr "Cari di unduhan..."
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Old"
-msgstr ""
+msgstr "Lama"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Newest"
-msgstr ""
+msgstr "Terbaru"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "A-Z"
-msgstr ""
+msgstr "A-Z"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Z-A"
-msgstr ""
+msgstr "Z-A"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By size: small"
-msgstr ""
+msgstr "Oleh ukuran: kecil"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By size: large"
-msgstr ""
+msgstr "Oleh ukuran: besar"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By status: ascending"
-msgstr ""
+msgstr "Oleh status: keatas"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By status: descending"
-msgstr ""
+msgstr "Oleh status: menurun"
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
-msgstr "Atur secara manual..."
+msgstr "Konfigurasikan secara manual..."
 
 msgctxt "AntivirusSettings|"
 msgid "Antivirus"
@@ -469,6 +469,14 @@ msgstr "Menggabungkan berkas media (%1)."
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "Menghapus berkas."
+
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr ""
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr ""
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -783,7 +791,7 @@ msgid "Other supported browsers"
 msgstr "Peramban lain yang didukung"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "Secara otomatis menangkap unduhan dari peramban-peramban"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -815,7 +823,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "Apakah Anda yakin bahwa ini adalah ekstensi berkas yang sah?"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "Jangan menangkap unduhan lebih kecil dari"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -829,6 +837,10 @@ msgstr "Gunakan peramban apabila Anda membatalkan unduhan melalui %1"
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
 msgstr "Jangan mencegah jika tombol MASUKKAN key ditekan"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr ""
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -1031,6 +1043,14 @@ msgstr "Batalkan"
 msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "Unduh"
+
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr ""
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -1503,6 +1523,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "Ditunda"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "Memeriksa berkas"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "Menyatukan aliran media"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "Meminta informasi"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr ""
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "Dalam antrian"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "Berhasil"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1620,6 +1664,22 @@ msgid "Disk is missing"
 msgstr "Disk tidak ada"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr ""
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Tautan unduhan (%1 dipilih)"
 
@@ -1630,6 +1690,10 @@ msgstr "Pilih Semua"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "Tidak memilih apapun"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1931,6 +1995,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Unduhan berurutan"
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr ""
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Hapus dari daftar"
@@ -1967,17 +2035,33 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Ukuran berkas tidak diketahui"
 
-msgctxt "DownloadsViewItem_V2|"
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "Memeriksa berkas"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "Menyatukan aliran media"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "Meminta informasi"
+
+msgctxt "DownloadsViewItemStatus_V2|"
 msgid "n/a"
 msgstr ""
 
-msgctxt "DownloadsViewItem_V2|"
-msgid "Delete file"
-msgstr "Hapus berkas"
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "Dalam antrian"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "Berhasil"
 
 msgctxt "DownloadsViewItem_V2|"
-msgid "Remove from list"
-msgstr "Hapus dari daftar"
+msgid "n/a"
+msgstr ""
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -2006,6 +2090,10 @@ msgstr "Ditunda"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Selesai"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2473,6 +2561,14 @@ msgid "Let's fix it!"
 msgstr "Mari kita perbaiki!"
 
 msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "Opsi"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Luncurkan saat memulai (minimalkan)"
+
+msgctxt "GeneralSettings|"
 msgid "Default download folder"
 msgstr "Folder unduhan standar"
 
@@ -2555,6 +2651,10 @@ msgstr "Periksa pembaharuan secara otomatis"
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Pasang pembaharuan secara otomatis"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr ""
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2672,6 +2772,10 @@ msgstr "Kecepatan Unggahan:"
 msgctxt "GeneralTab_V2|"
 msgid "Web page"
 msgstr "Situs web"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "Berkas"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -3414,6 +3518,10 @@ msgid "Configure manually:"
 msgstr "Atur secara manual:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "Atur secara manual"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "Alamat"
 
@@ -3566,6 +3674,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Sambungan"
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr ""
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "Putar berkas saat masih mengunduh"
@@ -3610,20 +3722,24 @@ msgid "Add-ons"
 msgstr "Add-on"
 
 msgctxt "PluginsPage|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "Periksa pembaruan"
 
 msgctxt "PluginsPage|"
-msgid "Install Add-on From File..."
+msgid "Install add-on from file..."
 msgstr "Pasang Add-on dari berkas..."
 
 msgctxt "PluginsPage|"
-msgid "Update Add-ons Automatically"
+msgid "Update add-ons automatically"
 msgstr "Perbarui Add-ons Otomatis"
 
 msgctxt "PluginsPage|"
-msgid "Reset All Add-ons to Update Automatically"
+msgid "Reset all add-ons to update automatically"
 msgstr "Setel ulang semua Add-ons untuk diperbarui otomatis"
+
+msgctxt "PluginsPage|"
+msgid "Allow add-ons to use web browser cookies"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
@@ -3742,11 +3858,11 @@ msgid "Would you like to install it?"
 msgstr "Apakah Anda ingin memasangnya?"
 
 msgctxt "PluginsViewItem|"
-msgid "Allow Automatic Updates"
+msgid "Allow automatic updates"
 msgstr "Izinkan Pembaruan Otomatis"
 
 msgctxt "PluginsViewItem|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "Periksa pembaruan"
 
 msgctxt "PluginsViewItem|"
@@ -3897,6 +4013,14 @@ msgstr "Mengenai %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "Keluar"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "Periksa pembaruan..."
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -4273,6 +4397,14 @@ msgstr "Tidak ditemukan"
 msgctxt "QObject|"
 msgid "Incompatible version"
 msgstr "Versi tidak kompaibel"
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -5371,7 +5503,11 @@ msgid "Size: %1"
 msgstr "Ukuran: %1"
 
 msgctxt "UiUpdatedBanner|"
-msgid "UI has been updated to the new (beta) style."
+msgid "The classic interface is turned on."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
 msgstr ""
 
 msgctxt "UiUpdatedBanner|"
@@ -5379,7 +5515,11 @@ msgid "OK"
 msgstr ""
 
 msgctxt "UiUpdatedBanner|"
-msgid "Revert to the classic UI"
+msgid "Switch to the new interface"
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
 msgstr ""
 
 msgctxt "UpdateDialog|"
@@ -5545,3 +5685,11 @@ msgstr "Laporan telah dikirim. Terima kasih atas kerja sama Anda!"
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "Sambungan jarak jauh ke %1"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "Tambahkan unduhan"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "Unduhan baru"

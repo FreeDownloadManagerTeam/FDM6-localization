@@ -34,7 +34,7 @@ msgstr "Visto por última vez completo:"
 
 msgctxt "BtDetailsTab|"
 msgid "Tracker URL"
-msgstr "URL del rastreador"
+msgstr "LRU del rastreador"
 
 msgctxt "DownloadContextMenu|"
 msgid "Disable seeding"
@@ -62,7 +62,7 @@ msgstr "Forzar reanuncio"
 
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
-msgstr "¿Quieres hacer que %1 sea el cliente de torrent predeterminado?"
+msgstr "¿Quieres hacer a %1 el cliente de torrent predeterminado?"
 
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
@@ -70,7 +70,15 @@ msgstr "Comprobar si %1 es tu cliente de torrent predeterminado"
 
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
-msgstr "Hacer que %1 sea el cliente de torrent predeterminado"
+msgstr "Hacer a %1 el cliente de torrent predeterminado"
+
+msgctxt "IntegrationSettings|"
+msgid ""
+"Please use %2Default apps system settings%3 to make %1 the default torrent "
+"client"
+msgstr ""
+"Por favor usa la %2Configuracion del sistema de aplicaciones predeterminadas "
+"%3 para hacer a %1 el cliente de torrent predeterminado"
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
@@ -82,11 +90,11 @@ msgstr "Asociar con archivos torrent"
 
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
-msgstr "Ingresa URL o elige un archivo torrent"
+msgstr "Ingresa LRU o elige un archivo torrent"
 
 msgctxt "QObject|"
 msgid "Drag-and-drop URL or torrent file"
-msgstr ""
+msgstr "Arrastrar y soltar LRU o archivo torrent"
 
 msgctxt "QObject|"
 msgid "Merge trackers"
@@ -136,6 +144,10 @@ msgstr "Habilitar lista de rastreadores predefinidos"
 msgctxt "Settings|"
 msgid "BitTorrent settings"
 msgstr "Ajustes de BitTorrent"
+
+msgctxt "Settings|"
+msgid "Use UPnP / NAT-PMP port forwarding"
+msgstr "Usar direccionamiento de puerto UPnP / NAT-PMP"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"

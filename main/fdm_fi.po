@@ -18,7 +18,7 @@ msgstr "Versio: %1 (%2)"
 
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
-msgstr "Päiväys: %1"
+msgstr "Luotu: %1"
 
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
@@ -98,15 +98,15 @@ msgstr "Ilmoitukset"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of added downloads via Notification Center"
-msgstr "Ilmoita latauksen lisäyksestä Ilmoituskeskuksessa"
+msgstr "Ilmoita latauksen lisäyksestä ilmoituskeskuksessa"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "Ilmoita latauksen valmistumisesta Ilmoituskeskuksessa"
+msgstr "Ilmoita latauksen valmistumisesta ilmoituskeskuksessa"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr "Ilmoita latauksen epäonnistumisesta Ilmoituskeskuksessa"
+msgstr "Ilmoita latauksen epäonnistumisesta ilmoituskeskuksessa"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
@@ -122,12 +122,11 @@ msgstr "Virranhallinta"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is a scheduled download"
-msgstr ""
-"Älä aseta tietokonetta lepotilaan kun keskeneräisiä latauksia on käynnissä"
+msgstr "Estä valmiustila, jos latauksia on ajoitettu"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
-msgstr "Salli valmiustila jaettaessa tiedostoja"
+msgstr "Salli valmiustila, jos tiedostoja jaetaan"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -148,7 +147,7 @@ msgstr "Käyttöliittymä"
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
-msgstr "Piilota %1 sulkupainikkeesta pitäen sen käynnissä taustalla"
+msgstr "Piilota %1 sulkupainikkeesta ja pidä se käynnissä taustalla"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
@@ -212,11 +211,11 @@ msgstr "Latauslistan varmuuskopioinnin ajoitus"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is an active download"
-msgstr "Vältä valmiustilaa, jos latauksia on käynnissä"
+msgstr "Estä valmiustila, kun latauksia on käynnissä"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode if downloads can be resumed later"
-msgstr "Salli valmiustila, jos latauksia on mahdollista jatkaa myöhemmin"
+msgstr "Salli valmiustila, kun latauksia voidaan jatkaa myöhemmin"
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
@@ -232,7 +231,7 @@ msgstr "Korvaa"
 
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
-msgstr "Käytä ääniä"
+msgstr "Toista ääniä"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
@@ -296,23 +295,23 @@ msgstr "Kaikki"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Downloads only"
-msgstr ""
+msgstr "Vain lataukset"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Uploads only"
-msgstr ""
+msgstr "Vain lähetykset"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Completed"
-msgstr "Valmis"
+msgstr "Valmistuneet"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Stopped"
-msgstr ""
+msgstr "Pysäytetyt"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Missing Files"
-msgstr "Puuttuvat tiedostot"
+msgstr "Puuttuvia tiedostoja"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "All files"
@@ -320,51 +319,51 @@ msgstr "Kaikki tiedostot"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Active"
-msgstr "Aktiivinen"
+msgstr "Aktiiviset"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Completed"
-msgstr "Valmis"
+msgstr "Valmistuneet"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
-msgstr "Kesken"
+msgstr "Keskeneräiset"
 
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
-msgstr ""
+msgstr "Etsi latauksista..."
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Old"
-msgstr ""
+msgstr "Vanhimmasta uusimpaan"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Newest"
-msgstr ""
+msgstr "Uusimmasta vanhimpaan"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "A-Z"
-msgstr ""
+msgstr "Aakkosellisesti A–Ö"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Z-A"
-msgstr ""
+msgstr "Aakkosellisesti Ö–A"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By size: small"
-msgstr ""
+msgstr "Pienimmästä suurimpaan"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By size: large"
-msgstr ""
+msgstr "Suurimmasta pienimpään"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By status: ascending"
-msgstr ""
+msgstr "Tilan mukaan nousevasti"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By status: descending"
-msgstr ""
+msgstr "Tilan mukaan laskevasti"
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -446,19 +445,19 @@ msgstr "Jotkin lataukset eivät tue jatkamista (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
-msgstr "Tiedostoja siirretään (%1)."
+msgstr "Siirretään tiedostoja (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
-msgstr "Tiedostoja muunnetaan MP3-muotoon (%1)."
+msgstr "Muunnetaan tiedostoja MP3-muotoon (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
-msgstr "Tiedostoja muunnetaan MP4-muotoon (%1)."
+msgstr "Muunnetaan tiedostoja MP4-muotoon (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
-msgstr "Tiedostoja nimetään uudelleen (%1)."
+msgstr "Nimetään tiedostoja (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
@@ -466,7 +465,15 @@ msgstr "Yhdistetään mediastriimejä (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
-msgstr "Poistetaan tiedostoja poistetaan."
+msgstr "Poistetaan tiedostoja."
+
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr ""
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -474,11 +481,11 @@ msgstr "Jatkamista tukemattomia toimintoja on käynnissä"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
-msgstr "Yhdistetään etäinstanssiin %1 (%2)…"
+msgstr "Yhdistetään %1-etäinstanssiin (%2)…"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
-msgstr "Noudetaan tietoja etäinstanssista %1 (%2)…"
+msgstr "Noudetaan tietoja %1-etäinstanssista (%2)…"
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
@@ -758,7 +765,7 @@ msgstr "Lisää kirjanmerkki"
 
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
-msgstr "Lataa %1 -laajennus"
+msgstr "Lataa %1 -lisäosa"
 
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
@@ -772,14 +779,14 @@ msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
-msgstr "Varmista, että %1 -laajennus on asennettu"
+msgstr "Varmista, että %1 -lisäosa on asennettu"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
 msgstr "Muut tuetut selaimet"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "Lisää lataukset selaimista automaattisesti"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -811,7 +818,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "Onko tämä varmasti oikea tiedostopääte?"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "Älä lisää latauksia, jotka ovat pienempiä kuin"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -825,6 +832,10 @@ msgstr "Käytä selainta, jos %1-lataus perutaan"
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
 msgstr "Älä kaappaa painettaessa INSERT-näppäintä"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr ""
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -1028,9 +1039,17 @@ msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "Lataa"
 
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr ""
+
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
-msgstr "Muuta latauksen URL-osoitetta"
+msgstr "Muokkaa latauksen URL-osoitetta"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
@@ -1097,15 +1116,16 @@ msgstr "Peru"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
-msgstr "Yhdistä %1-etäinstanssiin"
+msgstr "Muodosta %1-etäyhteys"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
-msgstr "(beta)"
+msgstr "(beeta)"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
-msgstr "Tästä voit yhdistää eri laitteella suoritettavaan %1-instanssiin."
+msgstr ""
+"Tässä voit muodostaa yhteyden eri laitteella suoritettavaan %1-instanssiin."
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
@@ -1217,11 +1237,11 @@ msgstr "OK"
 
 msgctxt "CppQmlLocalizations|"
 msgid "Today"
-msgstr ""
+msgstr "Tänään"
 
 msgctxt "CppQmlLocalizations|"
 msgid "Yesterday"
-msgstr ""
+msgstr "Eilen"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1492,6 +1512,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "Pysäytetty"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "Tarkistetaan tiedostoja"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "Yhdistetään mediastriimejä"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "Pyydetään tietoja"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "Jonossa"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "Valmis"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1 %] - %2"
@@ -1609,6 +1653,22 @@ msgid "Disk is missing"
 msgstr "Levy puuttuu"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr ""
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Latauslinkit (%1 valittu)"
 
@@ -1619,6 +1679,10 @@ msgstr "Valitse kaikki"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "Tyhjennä valinnat"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1654,7 +1718,7 @@ msgstr "Latauslista on tyhjä. Lisää uuden latauksen URL."
 
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
-msgstr "Yhdistä etäistuntoon %1"
+msgstr "Muodosta %1-etäyhteys"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1750,7 +1814,7 @@ msgstr "Tiedosto puuttuu"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Disk is missing"
-msgstr "Levy puuttuu"
+msgstr "Tallennusmedia puuttuu"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
@@ -1770,11 +1834,11 @@ msgstr "Tila"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Download"
-msgstr "Lataa"
+msgstr "Lataus"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Upload"
-msgstr ""
+msgstr "Lähetys"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Added"
@@ -1878,11 +1942,11 @@ msgstr "Tiedostojen eheys"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Schedule"
-msgstr "Aikataulu"
+msgstr "Ajoitus"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Change URL"
-msgstr "Muuta URL-osoitetta"
+msgstr "Vaihda URL-osoite"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
@@ -1918,7 +1982,11 @@ msgstr "Tiedostot"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
-msgstr "Lataus järjestyksessä"
+msgstr "Lataa tiedostot järjestyksessä"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
@@ -1956,17 +2024,33 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Tiedostokoko ei tiedossa"
 
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "Tarkistetaan tiedostoja"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "Yhdistetään mediastriimejä"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "Pyydetään tietoja"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "Jonossa"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "Valmis"
+
 msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
-msgstr ""
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "Delete file"
-msgstr "Poista tiedosto"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "Remove from list"
-msgstr ""
+msgstr "n/a"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -1995,6 +2079,10 @@ msgstr "Pysäytetty"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Valmis"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2437,7 +2525,7 @@ msgstr "Ehdota kansioita tiedostotyypistä"
 
 msgctxt "GeneralSettings|"
 msgid "Theme"
-msgstr ""
+msgstr "Teema"
 
 msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
@@ -2445,15 +2533,15 @@ msgstr "Vaaleaa teemaa käytetään, jos järjestelmäteema ei ole tiedossa."
 
 msgctxt "GeneralSettings|"
 msgid "UI style"
-msgstr ""
+msgstr "Käyttöliittymän tyyli"
 
 msgctxt "GeneralSettings|"
 msgid "New (beta)"
-msgstr ""
+msgstr "Uusi (beeta)"
 
 msgctxt "GeneralSettings|"
 msgid "Classic"
-msgstr ""
+msgstr "Perinteinen"
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -2462,6 +2550,14 @@ msgstr "Puuttuuko kielesi tai onko käännöksessä puutteita?"
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
 msgstr "Korjataan se!"
+
+msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "Valinnat"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Käynnistä tietokoneen käynnistyessä (pienennettynä)"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -2497,15 +2593,15 @@ msgstr "Kompakti latauslista"
 
 msgctxt "GeneralSettings|"
 msgid "Enable standalone downloads windows"
-msgstr "Ota käyttöön latausten itsenäiset ikkunat"
+msgstr "Käytä erillisiä latausikkunoita"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "Poista poistetut tiedostot automaattisesti latauslistasta"
+msgstr "Poista poistetut tiedostot latauslistalta automaattisesti"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "Poista valmistuneet lataukset automaattisesti latauslistasta"
+msgstr "Poista valmistuneet lataukset latauslistasta automaattisesti"
 
 msgctxt "GeneralSettings|"
 msgid "Immediately"
@@ -2546,6 +2642,10 @@ msgstr "Tarkista päivitykset automaattisesti"
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Asenna päivitykset automaattisesti"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr ""
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2664,6 +2764,10 @@ msgctxt "GeneralTab_V2|"
 msgid "Web page"
 msgstr "Verkkosivu"
 
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "Tiedosto"
+
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
 msgstr "MD5"
@@ -2774,11 +2878,11 @@ msgstr "Lähetä vikailmoitus"
 
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
-msgstr "Katkaise etäyhteys kohteeseen %1"
+msgstr "Katkaise %1-etäyhteys"
 
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
-msgstr "Ota etäyhteys kohteeseen %1"
+msgstr "Muodosta %1-etäyhteys"
 
 msgctxt "LeftDrawer|"
 msgid "About"
@@ -2882,7 +2986,7 @@ msgstr "Tuo asetukset"
 
 msgctxt "MainMenu|"
 msgid "Add-ons..."
-msgstr "Laajennukset…"
+msgstr "Lisäosat…"
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
@@ -2906,7 +3010,7 @@ msgstr "Lähetä vikailmoitus"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
-msgstr "Lepotila"
+msgstr "Valmiustila"
 
 msgctxt "MainMenu|"
 msgid "Hibernate"
@@ -2918,11 +3022,11 @@ msgstr "Sammuta"
 
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
-msgstr "Katkaise etäyhteys kohteeseen %1"
+msgstr "Katkaise %1-etäyhteys"
 
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
-msgstr "Ota etäyhteys kohteeseen %1"
+msgstr "Muodosta %1-etäyhteys"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2964,7 +3068,7 @@ msgstr "Matala"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Medium"
-msgstr ""
+msgstr "Keskitaso"
 
 msgctxt "MainStatusBar_V2|"
 msgid "High"
@@ -2984,7 +3088,7 @@ msgstr "Etanatila"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Set the traffic usage mode"
-msgstr ""
+msgstr "Aseta tiedonsiirtotila"
 
 msgctxt "MainStatusBar_V2|"
 msgid "%n downloads selected."
@@ -3046,7 +3150,7 @@ msgstr "etähallinta"
 
 msgctxt "MainToolbar_V2|"
 msgid "Select"
-msgstr ""
+msgstr "Valitse"
 
 msgctxt "MainToolbar_V2|"
 msgid "Sort"
@@ -3054,7 +3158,7 @@ msgstr "Järjestys"
 
 msgctxt "MainToolbar_V2|"
 msgid "Filters"
-msgstr ""
+msgstr "Suodattimet"
 
 msgctxt "MainToolbar_V2|"
 msgid "Start"
@@ -3070,7 +3174,7 @@ msgstr "Poista"
 
 msgctxt "MainToolbar_V2|"
 msgid "Move files"
-msgstr ""
+msgstr "Siirrä tiedostot"
 
 msgctxt "MainToolbar_V2|"
 msgid "Add download"
@@ -3078,7 +3182,7 @@ msgstr "Lisää lataus"
 
 msgctxt "MainToolbar_V2|"
 msgid "Menu and settings"
-msgstr ""
+msgstr "Valikko ja asetukset"
 
 msgctxt "MainToolbar_V2|"
 msgid "Switch to user-defined sorting of the download list?"
@@ -3405,6 +3509,10 @@ msgid "Configure manually:"
 msgstr "Aseta manuaalisesti:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "Aseta manuaalisesti"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "Osoite"
 
@@ -3498,7 +3606,7 @@ msgstr "Tämä lataus ei ehkä ole jatkettavissa pysäytyksen jälkeen."
 
 msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
-msgstr "Estä valmiustila ladattaessa jatkamista tukemattomia latauksia"
+msgstr "Estä valmiustila ladattaessa latauksia, joita ei voida jatkaa"
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
@@ -3555,6 +3663,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Yhteydet"
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr ""
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "Toista tiedosto vaikka sitä ladataan edelleen"
@@ -3595,39 +3707,43 @@ msgstr "Uudet asennetut riippuvuudet"
 
 msgctxt "PluginsPage|"
 msgid "Add-ons"
-msgstr "Laajennukset"
+msgstr "Lisäosat"
 
 msgctxt "PluginsPage|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "Tarkista päivitykset"
 
 msgctxt "PluginsPage|"
-msgid "Install Add-on From File..."
-msgstr "Asenna laajennus tiedostosta…"
+msgid "Install add-on from file..."
+msgstr "Asenna lisäosa tiedostosta…"
 
 msgctxt "PluginsPage|"
-msgid "Update Add-ons Automatically"
-msgstr "Päivitä laajennukset automaattisesti"
+msgid "Update add-ons automatically"
+msgstr "Päivitä lisäosat automaattisesti"
 
 msgctxt "PluginsPage|"
-msgid "Reset All Add-ons to Update Automatically"
-msgstr "Aseta kaikki laajennukset päivittymään automaattisesti"
+msgid "Reset all add-ons to update automatically"
+msgstr "Aseta kaikki lisäosat päivittymään automaattisesti"
+
+msgctxt "PluginsPage|"
+msgid "Allow add-ons to use web browser cookies"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
-msgstr "Päivitetään asennettuja laajennuksia…"
+msgstr "Päivitetään asennettuja lisäosia…"
 
 msgctxt "PluginsPage|"
 msgid "There are no installed add-ons."
-msgstr "Ei asennettuja laajennuksia."
+msgstr "Lisäosia ei ole asennettu."
 
 msgctxt "PluginsPage|"
 msgid "Install add-on from file"
-msgstr "Asenna laajennus tiedostosta"
+msgstr "Asenna lisäosa tiedostosta"
 
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
-msgstr "Lue lisää %1 laajennuksista"
+msgstr "Lisätietoja %1:n lisäosista"
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -3639,11 +3755,11 @@ msgstr "Peru"
 
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
-msgstr "%1 laajennustiedostot"
+msgstr "%1 lisäosatiedostot"
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
-msgstr "Laajennuksen asennus epäonnistui"
+msgstr "Lisäosan asennus epäonnistui"
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
@@ -3651,15 +3767,15 @@ msgstr "Varoitus!"
 
 msgctxt "PluginsPage|"
 msgid "Add-on requests dangerous permissions:"
-msgstr "Laajennus pyytää vaarallisia oikeuksia:"
+msgstr "Lisäosa pyytää vaarallisia oikeuksia:"
 
 msgctxt "PluginsPage|"
 msgid "Add-on requests dangerous permission:"
-msgstr "Laajennus pyytää vaarallista oikeutta:"
+msgstr "Lisäosa pyytää vaarallista oikeutta:"
 
 msgctxt "PluginsPage|"
 msgid "Please install add-ons from trusted sources only."
-msgstr "Asennathan laajennuksia vain luotettavista lähteistä."
+msgstr "Asennathan lisäosia vain luotettavista lähteistä."
 
 msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
@@ -3687,7 +3803,7 @@ msgstr "Ei päivityksiä"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
-msgstr "Laajennuksen päivittäminen epäonnistui"
+msgstr "Lisäosan päivitys epäonnistui"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
@@ -3695,15 +3811,15 @@ msgstr "Varoitus!"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
-msgstr "Laajennuksen %1 uusi versio pyytää vaarallisia oikeuksia:"
+msgstr "Lisäosan %1 uusi versio pyytää vaarallisia oikeuksia:"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
-msgstr "Laajennuksen %1 uusi versio pyytää vaarallista oikeutta:"
+msgstr "Lisäosan %1 uusi versio pyytää vaarallista oikeutta:"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Please install add-ons from trusted sources only."
-msgstr "Asennathan laajennuksia vain luotettavista lähteistä."
+msgstr "Asennathan lisäosia vain luotettavista lähteistä."
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
@@ -3714,12 +3830,12 @@ msgid ""
 "New version of %1 add-on requires additional components:\n"
 "%2"
 msgstr ""
-"Laajennuksen %1 uusi versio vaatii lisäkomponentteja:\n"
+"Lisäosan %1 uusi versio vaatii lisäkomponentteja:\n"
 "%2"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requires %2."
-msgstr "Laajennuksen %1 uusi versio vaatii %2."
+msgstr "Lisäosan %1 uusi versio vaatii %2."
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to install them?"
@@ -3730,11 +3846,11 @@ msgid "Would you like to install it?"
 msgstr "Haluatko asentaa sen?"
 
 msgctxt "PluginsViewItem|"
-msgid "Allow Automatic Updates"
+msgid "Allow automatic updates"
 msgstr "Salli automaattiset päivitykset"
 
 msgctxt "PluginsViewItem|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "Tarkista päivitykset"
 
 msgctxt "PluginsViewItem|"
@@ -3796,7 +3912,7 @@ msgstr "Peru"
 
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
-msgstr ""
+msgstr "n/a"
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -3851,7 +3967,7 @@ msgstr "URL"
 
 msgctxt "QObject|"
 msgid "Drag-and-drop URL"
-msgstr ""
+msgstr "Vedä ja pudota URL-osoite"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
@@ -3884,6 +4000,14 @@ msgstr "Tietoja %1ista"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "Sulje"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "Asetukset…"
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "Tarkista päivitykset..."
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -4211,131 +4335,139 @@ msgstr "HTTP-versiota ei tueta"
 
 msgctxt "QObject|"
 msgid "Variant Also Negotiates"
-msgstr ""
+msgstr "Myös variantti neuvottelee"
 
 msgctxt "QObject|"
 msgid "Insufficient Storage"
-msgstr ""
+msgstr "Vapaa tallennustila ei riitä"
 
 msgctxt "QObject|"
 msgid "Loop Detected"
-msgstr ""
+msgstr "Havaittiin silmukka"
 
 msgctxt "QObject|"
 msgid "Bandwidth Limit Exceeded"
-msgstr ""
+msgstr "Kaistanleveysrajoitus saavutettu"
 
 msgctxt "QObject|"
 msgid "Not Extended"
-msgstr ""
+msgstr "Laajentamaton"
 
 msgctxt "QObject|"
 msgid "Network Authentication Required"
-msgstr ""
+msgstr "Verkko vaatii tunnistautumisen"
 
 msgctxt "QObject|"
 msgid "Network read timeout error"
-msgstr ""
+msgstr "Verkkoluvun aikakatkaisuvirhe"
 
 msgctxt "QObject|"
 msgid "Network connect timeout error"
-msgstr ""
+msgstr "Verkkoluvun aikakatkaisuvirhe"
 
 msgctxt "QObject|"
 msgid "Unsupported"
-msgstr ""
+msgstr "Ei-tuettu"
 
 msgctxt "QObject|"
 msgid "Invalid parameter"
-msgstr ""
+msgstr "Virheellinen parametri"
 
 msgctxt "QObject|"
 msgid "Unsupported format"
-msgstr ""
+msgstr "Ei-tuettu muoto"
 
 msgctxt "QObject|"
 msgid "Not found"
-msgstr ""
+msgstr "Ei löytynyt"
 
 msgctxt "QObject|"
 msgid "Incompatible version"
+msgstr "Yhteensopimaton versio"
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Already exists"
 msgstr ""
 
 msgctxt "QObject|"
 msgid "Host not found"
-msgstr ""
+msgstr "Isäntää ei löytynyt"
 
 msgctxt "QObject|"
 msgid "Operation canceled"
-msgstr ""
+msgstr "Toiminto peruttiin"
 
 msgctxt "QObject|"
 msgid "Connection closed"
-msgstr ""
+msgstr "Yhteys suljettiin"
 
 msgctxt "QObject|"
 msgid "Timed out"
-msgstr ""
+msgstr "Aikakatkaisu"
 
 msgctxt "QObject|"
 msgid "SSL handshake failed"
-msgstr ""
+msgstr "SSL-kättely epäonnistui"
 
 msgctxt "QObject|"
 msgid "Connection refused"
-msgstr ""
+msgstr "Yhteydestä kieltäydyttiin"
 
 msgctxt "QObject|"
 msgid "Network error"
-msgstr ""
+msgstr "Verkkovirhe"
 
 msgctxt "QObject|"
 msgid "Operation not permitted"
-msgstr ""
+msgstr "Toiminto ei ole sallittu"
 
 msgctxt "QObject|"
 msgid "No resume support"
-msgstr ""
+msgstr "Jatkamista ei tueta"
 
 msgctxt "QObject|"
 msgid "Resource changed"
-msgstr ""
+msgstr "Resurssi on muuttunut"
 
 msgctxt "QObject|"
 msgid "Resource changed on server"
-msgstr ""
+msgstr "Resurssi on muuttui palvelimella"
 
 msgctxt "QObject|"
 msgid "Fast resume failure"
-msgstr ""
+msgstr "Nopea jatkaminen epäonnistui"
 
 msgctxt "QObject|"
 msgid "Can't process page"
-msgstr ""
+msgstr "Sivua ei voida käsitellä"
 
 msgctxt "QObject|"
 msgid "Error processing page content"
-msgstr ""
+msgstr "Virhe käsiteltäessä sivun sisältöä"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior"
-msgstr ""
+msgstr "Ei-toivottua toimintaa"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior detected"
-msgstr ""
+msgstr "Havaittiin ei-toivottua toimintaa"
 
 msgctxt "QObject|"
 msgid "Unknown host key"
-msgstr ""
+msgstr "Tuntematon isännän avain"
 
 msgctxt "QObject|"
 msgid "Public key of the host is unknown"
-msgstr ""
+msgstr "Isännän julkinen avain on tuntematon"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
-msgstr "Ei tuettu URL-osoite"
+msgstr "Ei-tuettu URL-osoite"
 
 msgctxt "QObject|"
 msgid "Untitled"
@@ -4351,7 +4483,7 @@ msgstr "hdiutil-virhe %1"
 
 msgctxt "QObject|"
 msgid "Mount point does not exist"
-msgstr ""
+msgstr "Kytkentäpistettä ei ole olemassa"
 
 msgctxt "QObject|"
 msgid "Signature check failure."
@@ -4464,15 +4596,15 @@ msgstr "Tiedostot ovat muuttuneet"
 
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
-msgstr ""
+msgstr "%1 tuntemattomasta, %2"
 
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
-msgstr ""
+msgstr "%1/%2, %3"
 
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
-msgstr ""
+msgstr "%1 %2 tai suurempi"
 
 msgctxt "QObject|"
 msgid "Launch Python code"
@@ -4566,7 +4698,7 @@ msgstr "Etähallinta"
 
 msgctxt "RemoteControlSettings|"
 msgid "(beta)"
-msgstr "(beta)"
+msgstr "(beeta)"
 
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
@@ -4674,31 +4806,31 @@ msgstr "Peru"
 
 msgctxt "Scheduler|"
 msgid "Sun"
-msgstr "su"
+msgstr "Su"
 
 msgctxt "Scheduler|"
 msgid "Mon"
-msgstr "ma"
+msgstr "Ma"
 
 msgctxt "Scheduler|"
 msgid "Tue"
-msgstr "ti"
+msgstr "Ti"
 
 msgctxt "Scheduler|"
 msgid "Wed"
-msgstr "ke"
+msgstr "Ke"
 
 msgctxt "Scheduler|"
 msgid "Thu"
-msgstr "to"
+msgstr "To"
 
 msgctxt "Scheduler|"
 msgid "Fri"
-msgstr "pe"
+msgstr "Pe"
 
 msgctxt "Scheduler|"
 msgid "Sat"
-msgstr "la"
+msgstr "La"
 
 msgctxt "Scheduler|"
 msgid "From:"
@@ -4714,23 +4846,23 @@ msgstr "Mihin:"
 
 msgctxt "SchedulerButton|"
 msgid "Scheduler"
-msgstr "Aikataulutus"
+msgstr "Ajoita"
 
 msgctxt "SchedulerCheckbox|"
 msgid "Scheduler"
-msgstr "Aikataulutus"
+msgstr "Ajoita"
 
 msgctxt "SchedulerDialog|"
 msgid "Scheduler"
-msgstr "Aikataulutus"
+msgstr "Ajoitus"
 
 msgctxt "SchedulerDialog|"
 msgid "Start and pause downloads at specified time"
-msgstr "Käynnistä ja pysäytä lataukset tiettyinä aikoina"
+msgstr "Käynnistä ja pysäytä lataus haluttuun aikaan."
 
 msgctxt "SchedulerDialog|"
 msgid "Enable Scheduler"
-msgstr "Ota aikataulutus käyttöön"
+msgstr "Käytä ajoitusta"
 
 msgctxt "SchedulerDialog|"
 msgid "Cancel"
@@ -4754,35 +4886,35 @@ msgstr "Sulje"
 
 msgctxt "SchedulerDialog|"
 msgid "Sun"
-msgstr "su"
+msgstr "Su"
 
 msgctxt "SchedulerDialog|"
 msgid "Mon"
-msgstr "ma"
+msgstr "Ma"
 
 msgctxt "SchedulerDialog|"
 msgid "Tue"
-msgstr "ti"
+msgstr "Ti"
 
 msgctxt "SchedulerDialog|"
 msgid "Wed"
-msgstr "ke"
+msgstr "Ke"
 
 msgctxt "SchedulerDialog|"
 msgid "Thu"
-msgstr "to"
+msgstr "To"
 
 msgctxt "SchedulerDialog|"
 msgid "Fri"
-msgstr "pe"
+msgstr "Pe"
 
 msgctxt "SchedulerDialog|"
 msgid "Sat"
-msgstr "la"
+msgstr "La"
 
 msgctxt "SchedulerTools|"
 msgid "Set days of the week to enable Scheduler"
-msgstr "Päivät, joina aikataulutus on käytössä"
+msgstr "Viikonpäivät, joina ajoitusta käytetään."
 
 msgctxt "SearchField|"
 msgid "Search"
@@ -4910,7 +5042,7 @@ msgstr "Peru"
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be put to sleep after all downloads are completed."
-msgstr "Tietokone asetetaan lepotilaan kaikkien latausten valmistuttua."
+msgstr "Tietokone asetetaan valmiustilaan kaikkien latausten valmistuttua."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be hibernate after all downloads are completed."
@@ -4934,7 +5066,7 @@ msgstr "OK (%1)"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be put to Sleep mode."
-msgstr "Huomio! Tietokone asetetaan lepotilaan."
+msgstr "Huomio! Tietokone asetetaan valmiustilaan."
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be hibernated."
@@ -5242,7 +5374,7 @@ msgstr "Uudelleenkäynnistys vaaditaan"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Do crash app"
-msgstr ""
+msgstr "Kaada sovellus"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Hide"
@@ -5357,16 +5489,24 @@ msgid "Size: %1"
 msgstr "Koko: %1"
 
 msgctxt "UiUpdatedBanner|"
-msgid "UI has been updated to the new (beta) style."
-msgstr ""
+msgid "The classic interface is turned on."
+msgstr "Perinteinen käyttöliittymä on käytössä."
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
+msgstr "Uusi käyttöliittymä on käytössä."
 
 msgctxt "UiUpdatedBanner|"
 msgid "OK"
 msgstr "OK"
 
 msgctxt "UiUpdatedBanner|"
-msgid "Revert to the classic UI"
-msgstr ""
+msgid "Switch to the new interface"
+msgstr "Vaihda uuteen käyttöliittymään"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
+msgstr "Vaihda perinteiseen käyttöliittymään"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
@@ -5530,4 +5670,12 @@ msgstr "Raportti lähetetty. Kiitos yhteistyöstä!"
 
 msgctxt "main|"
 msgid "Remote connection to %1"
-msgstr "Etäyhteys kohteeseen %1"
+msgstr "%1-etäyhteys"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "Lisää lataus"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "Uusi lataus"

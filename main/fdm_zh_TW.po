@@ -463,6 +463,14 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "正在刪除檔案。"
 
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "確定"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "取消"
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "正在執行的作業沒有續傳功能"
@@ -774,7 +782,7 @@ msgid "Other supported browsers"
 msgstr "其他支援的瀏覽器"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "自動從瀏覽器擷取下載"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -806,7 +814,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "您確定此副檔名有效嗎？"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "不要擷取下載項目，小於"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -820,6 +828,10 @@ msgstr "使用瀏覽器下載透過 %1 取消的項目"
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
 msgstr "INSERT 鍵按下時不截取"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr ""
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -1019,6 +1031,14 @@ msgstr "取消"
 msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "下載"
+
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr ""
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -1475,6 +1495,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "已暫停"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "正在檢查檔案"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr ""
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "正在要求資訊"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr ""
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "已佇列"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "已完成"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1592,6 +1636,22 @@ msgid "Disk is missing"
 msgstr "磁碟遺失"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr ""
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "下載連結 (%1 已選取)"
 
@@ -1602,6 +1662,10 @@ msgstr "全部選取"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "全部不選"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1903,6 +1967,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "循序下載"
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr ""
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "從清單中移除"
@@ -1939,17 +2007,33 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "未知檔案大小"
 
-msgctxt "DownloadsViewItem_V2|"
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "正在檢查檔案"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr ""
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "正在要求資訊"
+
+msgctxt "DownloadsViewItemStatus_V2|"
 msgid "n/a"
 msgstr ""
 
-msgctxt "DownloadsViewItem_V2|"
-msgid "Delete file"
-msgstr "刪除檔案"
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "已佇列"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "已完成"
 
 msgctxt "DownloadsViewItem_V2|"
-msgid "Remove from list"
-msgstr "從清單中移除"
+msgid "n/a"
+msgstr ""
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -1978,6 +2062,10 @@ msgstr "已暫停"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "已完成"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2445,6 +2533,14 @@ msgid "Let's fix it!"
 msgstr "讓我們一起完善它！"
 
 msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "選項"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "開機時啟動 (最小化)"
+
+msgctxt "GeneralSettings|"
 msgid "Default download folder"
 msgstr "預設下載資料夾"
 
@@ -2527,6 +2623,10 @@ msgstr "自動檢查更新"
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "自動安裝更新"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr ""
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2643,6 +2743,10 @@ msgstr "上傳速度:"
 msgctxt "GeneralTab_V2|"
 msgid "Web page"
 msgstr "網頁"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "檔案"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -3407,6 +3511,10 @@ msgid "Address"
 msgstr "位址"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "手動設定"
+
+msgctxt "NetworkSettings|"
 msgid "Port"
 msgstr "連接埠"
 
@@ -3532,6 +3640,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "連線"
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr ""
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr ""
@@ -3570,22 +3682,6 @@ msgstr "最近安裝的相依性"
 msgctxt "PluginsPage|"
 msgid "Add-ons"
 msgstr "附加元件"
-
-msgctxt "PluginsPage|"
-msgid "Check for Updates"
-msgstr "檢查更新"
-
-msgctxt "PluginsPage|"
-msgid "Install Add-on From File..."
-msgstr "從檔案安裝附加元件…"
-
-msgctxt "PluginsPage|"
-msgid "Update Add-ons Automatically"
-msgstr "自動更新附加元件"
-
-msgctxt "PluginsPage|"
-msgid "Reset All Add-ons to Update Automatically"
-msgstr "更新時自動重設所有附加元件"
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
@@ -3642,6 +3738,26 @@ msgstr "找不到更新"
 msgctxt "PluginsPage|"
 msgid "Please install add-ons from trusted sources only."
 msgstr "請僅從受信任的來源下載附加元件。"
+
+msgctxt "PluginsPage|"
+msgid "Check for updates"
+msgstr "檢查更新"
+
+msgctxt "PluginsPage|"
+msgid "Install add-on from file..."
+msgstr "從檔案安裝附加元件…"
+
+msgctxt "PluginsPage|"
+msgid "Update add-ons automatically"
+msgstr "自動更新附加元件"
+
+msgctxt "PluginsPage|"
+msgid "Reset all add-ons to update automatically"
+msgstr "更新時自動重設所有附加元件"
+
+msgctxt "PluginsPage|"
+msgid "Allow add-ons to use web browser cookies"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
@@ -3704,11 +3820,11 @@ msgid "Would you like to install it?"
 msgstr "要安裝它嗎？"
 
 msgctxt "PluginsViewItem|"
-msgid "Allow Automatic Updates"
+msgid "Allow automatic updates"
 msgstr "允許自動更新"
 
 msgctxt "PluginsViewItem|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "檢查更新"
 
 msgctxt "PluginsViewItem|"
@@ -3858,6 +3974,14 @@ msgstr "關於 %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "結束"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "檢查更新…"
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -4234,6 +4358,14 @@ msgstr "找不到"
 msgctxt "QObject|"
 msgid "Incompatible version"
 msgstr "不相容版本"
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -5326,7 +5458,11 @@ msgid "Size: %1"
 msgstr "大小: %1"
 
 msgctxt "UiUpdatedBanner|"
-msgid "UI has been updated to the new (beta) style."
+msgid "The classic interface is turned on."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
 msgstr ""
 
 msgctxt "UiUpdatedBanner|"
@@ -5334,7 +5470,11 @@ msgid "OK"
 msgstr "確定"
 
 msgctxt "UiUpdatedBanner|"
-msgid "Revert to the classic UI"
+msgid "Switch to the new interface"
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
 msgstr ""
 
 msgctxt "UpdateDialog|"
@@ -5500,3 +5640,11 @@ msgstr "報告傳送成功！非常感謝您的合作！"
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "遠端連線至 %1"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "新增下載"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "新的下載"

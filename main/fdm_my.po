@@ -470,6 +470,14 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "ဖိုင်များ ဖျက်ခြင်း"
 
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "အိုကေ"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "ပယ်ဖျက်"
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr ""
@@ -784,7 +792,7 @@ msgid "Other supported browsers"
 msgstr "အခြားလက်ခံသည့် ဘရောင်ဇာများ"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "ဘရောင်ဇာများမှ ဒေါင်းလုပ်များကို အလိုအလျောက် ဖမ်းယူရန်"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -816,7 +824,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "တရားဝင်ဖိုင်ဆိုတာ သေချာပါသလား။"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "အောက်နည်းသည့် ဒေါင်းလုပ်များကို မဖမ်းယူရန်"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -829,6 +837,10 @@ msgstr "%1 မှတစ်ဆင့် ဒေါင်းလုပ်ကို �
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
+msgstr ""
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
 msgstr ""
 
 msgctxt "BrowserIntroDialog|"
@@ -1033,6 +1045,14 @@ msgstr "ပယ်ဖျက်"
 msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "ဒေါင်းလုပ်"
+
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr ""
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -1503,6 +1523,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "ရပ်နေ"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr ""
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "မီဒီယာ ထုတ်လွှင်မှုများကို ပေါင်းစည်းခြင်း"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "ဒေတာများ တောင်းခြင်း"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr ""
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "တန်းစီနေ"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "ပြီးဆုံး"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1620,6 +1664,22 @@ msgid "Disk is missing"
 msgstr "သိုလှောင်မှု ပျောက်နေသည်"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr ""
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "ဒေါင်းလုပ်လင့်ခ် (%1 ရွေးထား)"
 
@@ -1630,6 +1690,10 @@ msgstr "အားလုံး ရွေးပါ"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "ဘာမှ မရွေးပါ"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1931,6 +1995,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "အစဉ်လိုက် ဒေါင်းလုပ်"
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr ""
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "စာရင်းမှ ဖယ်ရှားပါ"
@@ -1967,17 +2035,33 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "ဖိုင်ပမာဏ မသိ"
 
-msgctxt "DownloadsViewItem_V2|"
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr ""
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "မီဒီယာ ထုတ်လွှင်မှုများကို ပေါင်းစည်းခြင်း"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "ဒေတာများ တောင်းခြင်း"
+
+msgctxt "DownloadsViewItemStatus_V2|"
 msgid "n/a"
 msgstr ""
 
-msgctxt "DownloadsViewItem_V2|"
-msgid "Delete file"
-msgstr "ဖိုင်ကို ဖျက်ရန်"
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "တန်းစီနေ"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "ပြီးဆုံး"
 
 msgctxt "DownloadsViewItem_V2|"
-msgid "Remove from list"
-msgstr "စာရင်းမှ ဖယ်ရှားပါ"
+msgid "n/a"
+msgstr ""
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -2006,6 +2090,10 @@ msgstr "ရပ်နေ"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "ပြီးဆုံး"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2475,6 +2563,14 @@ msgid "Let's fix it!"
 msgstr "ပြင်လိုက်ရအောင်။"
 
 msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "ရွေးစရာများ"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "စက်ဖွင့်ရာတွင် ဖွင့်ရန် (ချုံ့)"
+
+msgctxt "GeneralSettings|"
 msgid "Default download folder"
 msgstr "မူလ ဒေါင်းလုပ်ဖိုင်တွဲ"
 
@@ -2557,6 +2653,10 @@ msgstr "အသစ်များကို အလိုအလျောက် စ�
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "အသစ်များကို အလိုအလျောက် ထည့်သွင်းပါ"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr ""
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2673,6 +2773,10 @@ msgstr "အပ်လုပ် အမြန်နှုန်း၊"
 msgctxt "GeneralTab_V2|"
 msgid "Web page"
 msgstr "ဝဘ်စာမျက်နှာ"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "ဖိုင်"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -3417,6 +3521,10 @@ msgid "Configure manually:"
 msgstr "ကိုယ်တိုင် သတ်မှတ်ပါ၊"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "ကိုယ်တိုင် သတ်မှတ်ပါ၊"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "လိပ်စာ"
 
@@ -3569,6 +3677,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "ဆက်သွယ်မှုများ"
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr ""
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr ""
@@ -3613,20 +3725,24 @@ msgid "Add-ons"
 msgstr "Add-ons"
 
 msgctxt "PluginsPage|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "အသစ်များကို စစ်ဆေးပါ"
 
 msgctxt "PluginsPage|"
-msgid "Install Add-on From File..."
+msgid "Install add-on from file..."
 msgstr "ဖိုင်မှ Add-on ကို ထည့်သွင်းပါ..."
 
 msgctxt "PluginsPage|"
-msgid "Update Add-ons Automatically"
+msgid "Update add-ons automatically"
 msgstr "Add-on များကို အလိုအလျောက် အဆင့်မြှင့်ပါ"
 
 msgctxt "PluginsPage|"
-msgid "Reset All Add-ons to Update Automatically"
+msgid "Reset all add-ons to update automatically"
 msgstr "Add-on အားလုံးကို အလိုအလျောက် အဆင့်မြှင့်ခြင်းသို့ ပြန်သတ်မှတ်ပါ"
+
+msgctxt "PluginsPage|"
+msgid "Allow add-ons to use web browser cookies"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
@@ -3746,11 +3862,11 @@ msgid "Would you like to install it?"
 msgstr "၎င်းကို ထည့်သွင်းချင်လား။"
 
 msgctxt "PluginsViewItem|"
-msgid "Allow Automatic Updates"
+msgid "Allow automatic updates"
 msgstr "အလိုအလျောက် အဆင့်မြှင့်မှုကို ခွင့်ပြုပါ"
 
 msgctxt "PluginsViewItem|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "အသစ်များကို စစ်ဆေးပါ"
 
 msgctxt "PluginsViewItem|"
@@ -3901,6 +4017,14 @@ msgstr "%1 အကြောင်း"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "ထွက်"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "အပြင်အဆင်များ..."
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "အသစ်များကို စစ်ဆေးပါ..."
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -4277,6 +4401,14 @@ msgstr "မတွေ့"
 msgctxt "QObject|"
 msgid "Incompatible version"
 msgstr "မကိုက်ညီသည့် ဗားရှင်း"
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -5369,7 +5501,11 @@ msgid "Size: %1"
 msgstr "ပမာဏ၊ %1"
 
 msgctxt "UiUpdatedBanner|"
-msgid "UI has been updated to the new (beta) style."
+msgid "The classic interface is turned on."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
 msgstr ""
 
 msgctxt "UiUpdatedBanner|"
@@ -5377,7 +5513,11 @@ msgid "OK"
 msgstr "အိုကေ"
 
 msgctxt "UiUpdatedBanner|"
-msgid "Revert to the classic UI"
+msgid "Switch to the new interface"
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
 msgstr ""
 
 msgctxt "UpdateDialog|"
@@ -5544,3 +5684,11 @@ msgstr "တင်ပြမှုကို ပို့ပြီးပါပြ�
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "%1 နှင့် အဝေးဆက်သွယ်ခြင်း"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "ဒေါင်းလုပ်ထည့်ပါ"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "ဒေါင်းလုပ်အသစ်"

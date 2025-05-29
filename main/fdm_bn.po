@@ -469,6 +469,14 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "ফাইল মুছে ফেলা হচ্ছে।"
 
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "ওকে"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "বাতিল করুন"
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "কোন সারসংকলন ক্ষমতা অগ্রগতি সঙ্গে অপারেশন আছে"
@@ -782,7 +790,7 @@ msgid "Other supported browsers"
 msgstr "অন্যান্য সমর্থিত ব্রাউজার"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "স্বয়ংক্রিয়ভাবে ব্রাউজার থেকে ডাউনলোড ধরা"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -814,7 +822,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "আপনি কি নিশ্চিত যে এটি একটি বৈধ ফাইল এক্সটেনশন?"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "এর চেয়ে ছোট ডাউনলোড ধরবেন না"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -828,6 +836,10 @@ msgstr "আপনি %1 এর মাধ্যমে ডাউনলোড ব�
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
 msgstr "INSERT কী চাপলে বাধা দেবেন না"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr ""
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -1030,6 +1042,14 @@ msgstr "বাতিল করুন"
 msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "ডাউনলোড করুন"
+
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr ""
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -1498,6 +1518,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "বিরতি দেওয়া হয়েছে"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "ফাইল চেক করা হচ্ছে"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "মিডিয়া স্ট্রীম একত্রিত করা হচ্ছে"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "তথ্যের অনুরোধ করা হচ্ছে"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr ""
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "সারিবদ্ধ"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "সম্পন্ন"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1615,6 +1659,22 @@ msgid "File is missing"
 msgstr "ফাইল পাওয়া যাচ্ছে না"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr ""
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "ডাউনলোড লিঙ্ক (%1 নির্বাচিত)"
 
@@ -1625,6 +1685,10 @@ msgstr "সব নির্বাচন করুন"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "কিছুই না"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1926,6 +1990,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Files"
 msgstr ""
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr ""
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "তালিকা থেকে বাদ দাও"
@@ -1962,17 +2030,33 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "অজানা ফাইলের আকার"
 
-msgctxt "DownloadsViewItem_V2|"
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "ফাইল চেক করা হচ্ছে"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "মিডিয়া স্ট্রীম একত্রিত করা হচ্ছে"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "তথ্যের অনুরোধ করা হচ্ছে"
+
+msgctxt "DownloadsViewItemStatus_V2|"
 msgid "n/a"
 msgstr ""
 
-msgctxt "DownloadsViewItem_V2|"
-msgid "Delete file"
-msgstr "নথিপত্র মুছে দাও"
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "সারিবদ্ধ"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "সম্পন্ন"
 
 msgctxt "DownloadsViewItem_V2|"
-msgid "Remove from list"
-msgstr "তালিকা থেকে বাদ দাও"
+msgid "n/a"
+msgstr ""
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files"
@@ -2001,6 +2085,10 @@ msgstr "বিরতি দেওয়া হয়েছে"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "সম্পূর্ণ"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2461,6 +2549,14 @@ msgid "Let's fix it!"
 msgstr "এটা ঠিক করা যাক!"
 
 msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "অপশন"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "স্টার্টআপে লঞ্চ করুন (মিনিমাইজড)"
+
+msgctxt "GeneralSettings|"
 msgid "Default download folder"
 msgstr "ডিফল্ট ডাউনলোড ফোল্ডার"
 
@@ -2551,6 +2647,10 @@ msgstr "স্বয়ংক্রিয়ভাবে আপডেটের �
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "স্বয়ংক্রিয়ভাবে আপডেট ইনস্টল করুন"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr ""
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2667,6 +2767,10 @@ msgstr "আপলোড স্পীডঃ"
 msgctxt "GeneralTab_V2|"
 msgid "Web page"
 msgstr "ওয়েব পেজ"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "ফাইল"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -3409,6 +3513,10 @@ msgid "Configure manually:"
 msgstr "ম্যানুয়ালি কনফিগার করুন:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "ম্যানুয়ালি কনফিগার করুন"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "ঠিকানা"
 
@@ -3562,6 +3670,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "সংযোগ"
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr ""
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "ফাইলটি ডাউনলোড করার সময় প্লে করুন"
@@ -3606,20 +3718,24 @@ msgid "Add-ons"
 msgstr "অ্যাড-অন"
 
 msgctxt "PluginsPage|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "হালনাগাদ এর জন্য অনুসন্ধান করুন"
 
 msgctxt "PluginsPage|"
-msgid "Install Add-on From File..."
+msgid "Install add-on from file..."
 msgstr "ফাইল থেকে অ্যাড-অন ইনস্টল করুন..."
 
 msgctxt "PluginsPage|"
-msgid "Update Add-ons Automatically"
+msgid "Update add-ons automatically"
 msgstr "স্বয়ংক্রিয়ভাবে অ্যাড-অন আপডেট করুন"
 
 msgctxt "PluginsPage|"
-msgid "Reset All Add-ons to Update Automatically"
+msgid "Reset all add-ons to update automatically"
 msgstr "স্বয়ংক্রিয়ভাবে আপডেট করতে সমস্ত অ্যাড-অন রিসেট করুন"
+
+msgctxt "PluginsPage|"
+msgid "Allow add-ons to use web browser cookies"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
@@ -3738,11 +3854,11 @@ msgid "Would you like to install it?"
 msgstr "আপনি কি এটি ইনস্টল করতে চান?"
 
 msgctxt "PluginsViewItem|"
-msgid "Allow Automatic Updates"
+msgid "Allow automatic updates"
 msgstr "স্বয়ংক্রিয় আপডেটের অনুমতি দিন"
 
 msgctxt "PluginsViewItem|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "হালনাগাদ এর জন্য অনুসন্ধান করুন"
 
 msgctxt "PluginsViewItem|"
@@ -4047,6 +4163,14 @@ msgstr "সম্পর্কিত %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "প্রস্থান করুন"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "পছন্দ..."
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "হালনাগাদ এর জন্য অনুসন্ধান করুন..."
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -4387,6 +4511,14 @@ msgstr "পাওয়া যায়নি"
 msgctxt "QObject|"
 msgid "Incompatible version"
 msgstr "বেমানান সংস্করণ"
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -5363,7 +5495,11 @@ msgid "Size: %1"
 msgstr ""
 
 msgctxt "UiUpdatedBanner|"
-msgid "UI has been updated to the new (beta) style."
+msgid "The classic interface is turned on."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
 msgstr ""
 
 msgctxt "UiUpdatedBanner|"
@@ -5371,7 +5507,11 @@ msgid "OK"
 msgstr "ওকে"
 
 msgctxt "UiUpdatedBanner|"
-msgid "Revert to the classic UI"
+msgid "Switch to the new interface"
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
 msgstr ""
 
 msgctxt "UpdateDialog|"
@@ -5529,6 +5669,14 @@ msgstr "হালনাগাদ"
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "%1 এর সাথে দূরবর্তী সংযোগ"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "ডাউনলোড যোগ করুন"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "নতুন ডাউনলোড"
 
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"

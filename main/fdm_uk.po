@@ -155,7 +155,7 @@ msgstr "Показати/сховати нижню панель по кліку 
 
 msgctxt "AdvancedSettings|"
 msgid "Hide the Dock icon"
-msgstr ""
+msgstr "Приховати іконку Прив'язки"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -295,11 +295,11 @@ msgstr "Всі"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Downloads only"
-msgstr ""
+msgstr "Лише завантаження"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Uploads only"
-msgstr ""
+msgstr "Лише вивантаження"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Completed"
@@ -307,7 +307,7 @@ msgstr "Завершено"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Stopped"
-msgstr ""
+msgstr "Зупинені"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Missing Files"
@@ -331,39 +331,39 @@ msgstr "Не завершено"
 
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
-msgstr ""
+msgstr "Шукати в завантаженнях..."
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Old"
-msgstr ""
+msgstr "Старий"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Newest"
-msgstr ""
+msgstr "Найновіший"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "A-Z"
-msgstr ""
+msgstr "А-Я"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Z-A"
-msgstr ""
+msgstr "Я-А"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By size: small"
-msgstr ""
+msgstr "Розмір: зростання"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By size: large"
-msgstr ""
+msgstr "Розмір: спадання"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By status: ascending"
-msgstr ""
+msgstr "Статус: зростання"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By status: descending"
-msgstr ""
+msgstr "Статус: спадання"
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -464,6 +464,14 @@ msgstr "Злиття медіапотоків (%1)."
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "Видалення файлів."
+
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "Скасувати"
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -778,7 +786,7 @@ msgid "Other supported browsers"
 msgstr "Інші браузери, що підтримуються"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "Автоматично підхоплювати завантаження з браузерів"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -810,7 +818,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "Ви впевнені, що це вірне розширення файла?"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "Не підхоплювати завантаження менші за"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -824,6 +832,10 @@ msgstr "Використовувати браузер якщо ви перерв
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
 msgstr "Не перехоплювати якщо натиснута клавіша INSERT"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr ""
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -1027,6 +1039,14 @@ msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "Завантажити"
 
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr ""
+
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
 msgstr "Змінити URL-адресу завантаження"
@@ -1217,11 +1237,11 @@ msgstr "OK"
 
 msgctxt "CppQmlLocalizations|"
 msgid "Today"
-msgstr ""
+msgstr "Сьогодні"
 
 msgctxt "CppQmlLocalizations|"
 msgid "Yesterday"
-msgstr ""
+msgstr "Вчора"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1495,6 +1515,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "Зупинено"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "Перевірка файлів"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "Злиття потоків даних"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "Запит інформації"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr "н/д"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "Додано в чергу"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "Завершено"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1612,6 +1656,22 @@ msgid "Disk is missing"
 msgstr "Відсутній диск"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr ""
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Посилання на завантаження (%1 вибрано)"
 
@@ -1622,6 +1682,10 @@ msgstr "Вибрати все"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "Скинути вибір"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1777,7 +1841,7 @@ msgstr "Завантажити"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Upload"
-msgstr ""
+msgstr "Вивантаження"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Added"
@@ -1923,6 +1987,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Послідовне завантаження"
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr ""
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Видалити зі списку"
@@ -1959,17 +2027,33 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Розмір файлу невідомий"
 
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "Перевірка файлів"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "Злиття потоків даних"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "Запит інформації"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "n/a"
+msgstr "н/д"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "Додано в чергу"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "Завершено"
+
 msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
-msgstr ""
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "Delete file"
-msgstr "Видалити файл"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "Remove from list"
-msgstr "Видалити зі списку"
+msgstr "н/д"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -1998,6 +2082,10 @@ msgstr "Зупинено"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Завершено"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2395,11 +2483,11 @@ msgstr "Нормальний"
 
 msgctxt "FilesTreeHeader_V2|"
 msgid "High"
-msgstr ""
+msgstr "Висок"
 
 msgctxt "FilesTreeHeader_V2|"
 msgid "Low"
-msgstr ""
+msgstr "Низьк"
 
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
@@ -2407,7 +2495,7 @@ msgstr "Завершено"
 
 msgctxt "FilesTreeItem_V2|"
 msgid "Low"
-msgstr ""
+msgstr "Низьк"
 
 msgctxt "FilesTreeItem_V2|"
 msgid "Normal"
@@ -2415,7 +2503,7 @@ msgstr "Нормальний"
 
 msgctxt "FilesTreeItem_V2|"
 msgid "High"
-msgstr ""
+msgstr "Висок"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2439,7 +2527,7 @@ msgstr "Пропонувати теки залежно від типу файл�
 
 msgctxt "GeneralSettings|"
 msgid "Theme"
-msgstr ""
+msgstr "Тема"
 
 msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
@@ -2447,15 +2535,15 @@ msgstr "Якщо системна тема невідома, буде викор
 
 msgctxt "GeneralSettings|"
 msgid "UI style"
-msgstr ""
+msgstr "Стиль ІК"
 
 msgctxt "GeneralSettings|"
 msgid "New (beta)"
-msgstr ""
+msgstr "Новий (бета)"
 
 msgctxt "GeneralSettings|"
 msgid "Classic"
-msgstr ""
+msgstr "Класичний"
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -2464,6 +2552,14 @@ msgstr "Вашої мови нема в списку або переклад н�
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
 msgstr "Давайте виправимо це!"
+
+msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "Параметри"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Запуск під час запуску системи (згорнутим)"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -2548,6 +2644,10 @@ msgstr "Автоматично перевіряти оновлення"
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Автоматично встановлювати оновлення"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr ""
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2665,6 +2765,10 @@ msgstr "Швидкість відвантаження:"
 msgctxt "GeneralTab_V2|"
 msgid "Web page"
 msgstr "Web сторінка"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "Файл"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2963,7 +3067,7 @@ msgstr "Загальний розмір:"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Low"
-msgstr ""
+msgstr "Низьк"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Medium"
@@ -2971,7 +3075,7 @@ msgstr "Середня"
 
 msgctxt "MainStatusBar_V2|"
 msgid "High"
-msgstr ""
+msgstr "Висок"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -2987,7 +3091,7 @@ msgstr "Режим равлика"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Set the traffic usage mode"
-msgstr ""
+msgstr "Встановити режим використання трафіку"
 
 msgctxt "MainStatusBar_V2|"
 msgid "%n downloads selected."
@@ -3050,7 +3154,7 @@ msgstr "віддалене керування"
 
 msgctxt "MainToolbar_V2|"
 msgid "Select"
-msgstr ""
+msgstr "Вибрати"
 
 msgctxt "MainToolbar_V2|"
 msgid "Sort"
@@ -3058,7 +3162,7 @@ msgstr "Сортувати"
 
 msgctxt "MainToolbar_V2|"
 msgid "Filters"
-msgstr ""
+msgstr "Фільтри"
 
 msgctxt "MainToolbar_V2|"
 msgid "Start"
@@ -3074,7 +3178,7 @@ msgstr "Прибирати"
 
 msgctxt "MainToolbar_V2|"
 msgid "Move files"
-msgstr ""
+msgstr "Перемістити файли"
 
 msgctxt "MainToolbar_V2|"
 msgid "Add download"
@@ -3082,7 +3186,7 @@ msgstr "Додати завантаження"
 
 msgctxt "MainToolbar_V2|"
 msgid "Menu and settings"
-msgstr ""
+msgstr "Меню і налаштування"
 
 msgctxt "MainToolbar_V2|"
 msgid "Switch to user-defined sorting of the download list?"
@@ -3409,6 +3513,10 @@ msgid "Configure manually:"
 msgstr "Конфігурувати вручну:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "Конфігурувати вручну"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "Адреса"
 
@@ -3562,6 +3670,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "З'єднання"
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr ""
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "Відтворювати файл під час завантаження"
@@ -3605,20 +3717,24 @@ msgid "Add-ons"
 msgstr "Додатки"
 
 msgctxt "PluginsPage|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "Перевірити оновлення"
 
 msgctxt "PluginsPage|"
-msgid "Install Add-on From File..."
+msgid "Install add-on from file..."
 msgstr "Встановити додаток з файлу..."
 
 msgctxt "PluginsPage|"
-msgid "Update Add-ons Automatically"
+msgid "Update add-ons automatically"
 msgstr "Автоматично оновлювати додатки"
 
 msgctxt "PluginsPage|"
-msgid "Reset All Add-ons to Update Automatically"
+msgid "Reset all add-ons to update automatically"
 msgstr "Скинути всі додатки на автоооновлення"
+
+msgctxt "PluginsPage|"
+msgid "Allow add-ons to use web browser cookies"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
@@ -3737,11 +3853,11 @@ msgid "Would you like to install it?"
 msgstr "Ви справді хочете його встановити?"
 
 msgctxt "PluginsViewItem|"
-msgid "Allow Automatic Updates"
+msgid "Allow automatic updates"
 msgstr "Дозволити автоматичне оновлення"
 
 msgctxt "PluginsViewItem|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "Перевірити оновлення"
 
 msgctxt "PluginsViewItem|"
@@ -3803,7 +3919,7 @@ msgstr "Скасувати"
 
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
-msgstr ""
+msgstr "н/д"
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -3858,7 +3974,7 @@ msgstr "Введіть URL-адресу"
 
 msgctxt "QObject|"
 msgid "Drag-and-drop URL"
-msgstr ""
+msgstr "Перетягніть URL"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
@@ -3891,6 +4007,14 @@ msgstr "Про %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "Вийти"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "Налаштування..."
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "Перевірити оновлення..."
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -4269,6 +4393,14 @@ msgid "Incompatible version"
 msgstr "Несумісна версія"
 
 msgctxt "QObject|"
+msgid "Security check failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "Хост не знайдено"
 
@@ -4334,11 +4466,11 @@ msgstr "Виявлено небажану повкдінку"
 
 msgctxt "QObject|"
 msgid "Unknown host key"
-msgstr ""
+msgstr "Невідомий ключ хоста"
 
 msgctxt "QObject|"
 msgid "Public key of the host is unknown"
-msgstr ""
+msgstr "Публічний ключ хоста невідомий"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -4524,7 +4656,7 @@ msgstr "Відкрити папку"
 
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
-msgstr "%1 повернуто статус виходу (%2) "
+msgstr "%1 повернуто статус виходу (%2)"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4983,7 +5115,7 @@ msgstr "Увага: потенційна загроза безпеці"
 
 msgctxt "SslDialog|"
 msgid "The authenticity of the host can't be established."
-msgstr ""
+msgstr "Неможливо встановити аутентичнісь хоста."
 
 msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
@@ -4991,7 +5123,7 @@ msgstr "Сертифікат SSL недійсний."
 
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
-msgstr ""
+msgstr "%1 відбитків ключа"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -5010,10 +5142,12 @@ msgid ""
 "If you trust this host, select Accept to remember the key and carry on "
 "connecting."
 msgstr ""
+"Якщо ви довіряєте цьому хосту, клацніть Прийняти щоб запам'ятати ключ і "
+"з'єднатися."
 
 msgctxt "SslDialog|"
 msgid "Accept"
-msgstr ""
+msgstr "Прийняти"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -5251,7 +5385,7 @@ msgstr "Потрібен перезапуск"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Do crash app"
-msgstr ""
+msgstr "Зупинити застосунок"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Hide"
@@ -5366,16 +5500,24 @@ msgid "Size: %1"
 msgstr "Розмір: %1"
 
 msgctxt "UiUpdatedBanner|"
-msgid "UI has been updated to the new (beta) style."
-msgstr ""
+msgid "The classic interface is turned on."
+msgstr "Увімкнено класичний інтерфейс."
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
+msgstr "Увімкнено новий інтерфейс."
 
 msgctxt "UiUpdatedBanner|"
 msgid "OK"
 msgstr "OK"
 
 msgctxt "UiUpdatedBanner|"
-msgid "Revert to the classic UI"
-msgstr ""
+msgid "Switch to the new interface"
+msgstr "Перемкнути на навий інтерфейс"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
+msgstr "Перемкнути на класичний інтерфейс"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
@@ -5540,3 +5682,11 @@ msgstr "Звіт надіслано. Дякуємо за співпрацю!"
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "Віддалене з'єднання з %1"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "Додати завантаження"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "Нове завантаження"

@@ -468,6 +468,14 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "Удаление файлов."
 
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "Отмена"
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Выполняются операции, которые не могут быть возобновлены"
@@ -781,7 +789,7 @@ msgid "Other supported browsers"
 msgstr "Другие поддерживаемые браузеры"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "Автоматически перехватывать ссылки из браузеров"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -813,7 +821,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "Вы уверены, что это правильное расширение файла?"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "Не перехватывать загрузки размером меньше, чем"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -827,6 +835,10 @@ msgstr "Загружать в браузере при отмене загруз�
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
 msgstr "Не перехватывать при нажатой клавише INSERT"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr "Перехватывать файлы с расширениями"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -1029,6 +1041,14 @@ msgstr "Отмена"
 msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "Скачать"
+
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr "Имя подкаталога не должно быть пустым"
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr "Имя файла не должно быть пустым"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -1499,6 +1519,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "Остановлено"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "Проверка файлов"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "Слияние медиапотоков"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "Запрос информации"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "В очереди"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "Завершено"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1616,6 +1660,22 @@ msgid "Disk is missing"
 msgstr "Диск отсутствует"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr "дубликаты (%1)"
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr "некорректные (%1)"
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr "неподдерживаемые (%1)"
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr "Пропущенные закачки"
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Ссылки загрузок (%1 выбрано)"
 
@@ -1626,6 +1686,10 @@ msgstr "Выбрать все"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "Снять выделение"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr "Показать все закачки"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1927,6 +1991,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Последовательная загрузка"
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr "Поделиться файлом"
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Убрать из списка"
@@ -1963,17 +2031,33 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Размер файла неизвестен"
 
-msgctxt "DownloadsViewItem_V2|"
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "Проверка файлов"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "Слияние медиапотоков"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "Запрос информации"
+
+msgctxt "DownloadsViewItemStatus_V2|"
 msgid "n/a"
 msgstr "n/a"
 
-msgctxt "DownloadsViewItem_V2|"
-msgid "Delete file"
-msgstr "Удалить файл"
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "В очереди"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "Завершено"
 
 msgctxt "DownloadsViewItem_V2|"
-msgid "Remove from list"
-msgstr "Убрать из списка"
+msgid "n/a"
+msgstr "n/a"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -2002,6 +2086,10 @@ msgstr "Остановлено"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Завершено"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr "Закачек: %1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2407,7 +2495,7 @@ msgstr "Низкий"
 
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
-msgstr ""
+msgstr "Завершено"
 
 msgctxt "FilesTreeItem_V2|"
 msgid "Low"
@@ -2468,6 +2556,14 @@ msgstr "Вашего языка нет в списке или перевод н�
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
 msgstr "Давайте это исправим!"
+
+msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "Параметры"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Запускать при старте системы (в свёрнутом виде)"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -2552,6 +2648,10 @@ msgstr "Автоматически проверять на наличие обн
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Автоматически устанавливать обновления"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr "Помечать скачиваемые файлы"
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2670,6 +2770,10 @@ msgstr "Скорость отдачи:"
 msgctxt "GeneralTab_V2|"
 msgid "Web page"
 msgstr "Веб-страница"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "Файл"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -3414,6 +3518,10 @@ msgid "Configure manually:"
 msgstr "Ручная настройка:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "Ручная настройка"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "Адрес"
 
@@ -3567,6 +3675,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Соединения"
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr "Выбрать..."
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "Начать воспроизведение файла пока он ещё качается"
@@ -3585,7 +3697,7 @@ msgid ""
 "Please use your favorite social networks and forums to let the other people "
 "know about %1 and %2."
 msgstr ""
-"Пожалуйста, расскажите другим людям с помощью ваших любимых социальные сетей "
+"Пожалуйста, расскажите другим людям с помощью ваших любимых социальных сетей "
 "и форумов о %1 и %2."
 
 msgctxt "PluginBannerDialog|"
@@ -3609,20 +3721,24 @@ msgid "Add-ons"
 msgstr "Дополнения"
 
 msgctxt "PluginsPage|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "Проверить наличие обновлений"
 
 msgctxt "PluginsPage|"
-msgid "Install Add-on From File..."
+msgid "Install add-on from file..."
 msgstr "Установить дополнение из файла…"
 
 msgctxt "PluginsPage|"
-msgid "Update Add-ons Automatically"
+msgid "Update add-ons automatically"
 msgstr "Автоматически обновлять дополнения"
 
 msgctxt "PluginsPage|"
-msgid "Reset All Add-ons to Update Automatically"
+msgid "Reset all add-ons to update automatically"
 msgstr "Вернуть автообновление для всех дополнений"
+
+msgctxt "PluginsPage|"
+msgid "Allow add-ons to use web browser cookies"
+msgstr "Разрешить дополнениям использовать куки веб браузера"
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
@@ -3741,11 +3857,11 @@ msgid "Would you like to install it?"
 msgstr "Вы хотите установить его?"
 
 msgctxt "PluginsViewItem|"
-msgid "Allow Automatic Updates"
+msgid "Allow automatic updates"
 msgstr "Разрешить автоматические обновления"
 
 msgctxt "PluginsViewItem|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "Проверить наличие обновлений"
 
 msgctxt "PluginsViewItem|"
@@ -3895,6 +4011,14 @@ msgstr "О программе %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "Выход"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "Настройки…"
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "Проверка обновлений..."
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -4271,6 +4395,14 @@ msgstr "Не найдено"
 msgctxt "QObject|"
 msgid "Incompatible version"
 msgstr "Несовместимая версия"
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr "Проверка безопасности не прошла"
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr "Уже существует"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -5366,16 +5498,24 @@ msgid "Size: %1"
 msgstr "Размер: %1"
 
 msgctxt "UiUpdatedBanner|"
-msgid "UI has been updated to the new (beta) style."
-msgstr "Интерфейс был обновлен на новый (бета) стиль."
+msgid "The classic interface is turned on."
+msgstr "Установлена классическая версия интерфейса."
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
+msgstr "Установлена новая версия интерфейса."
 
 msgctxt "UiUpdatedBanner|"
 msgid "OK"
 msgstr "ОК"
 
 msgctxt "UiUpdatedBanner|"
-msgid "Revert to the classic UI"
-msgstr "Откатиться к классическому интерфейсу"
+msgid "Switch to the new interface"
+msgstr "Переключить на новую версию интерфейса"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
+msgstr "Переключить на классическую версию интерфейса"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
@@ -5540,3 +5680,11 @@ msgstr "Отчёт отправлен. Спасибо за сотрудниче�
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "Удалённое подключение к %1"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "Добавить загрузку"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "Новая загрузка"

@@ -1,5 +1,11 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Fúlvio Alves <fga.fulvio@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -7,6 +13,7 @@ msgstr ""
 "X-Language: pt_BR\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
+"X-Generator: Poedit 3.6\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -158,7 +165,7 @@ msgstr "Abrir/ocultar o painel inferior ao clicar no download"
 
 msgctxt "AdvancedSettings|"
 msgid "Hide the Dock icon"
-msgstr ""
+msgstr "Ocultar o ícone do Dock"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -255,7 +262,7 @@ msgstr "Exibir botão \"Salvar como...\""
 
 msgctxt "AdvancedSettings|"
 msgid "Enable standalone create new downloads windows"
-msgstr "Habilitar janelas independente em novos downloads"
+msgstr "Habilitar janelas independentes em novos downloads"
 
 msgctxt "AdvancedSettings|"
 msgid "Overall zoom"
@@ -299,19 +306,19 @@ msgstr "Todos"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Downloads only"
-msgstr ""
+msgstr "Somente downloads"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Uploads only"
-msgstr ""
+msgstr "Somente uploads"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Completed"
-msgstr "Concluído"
+msgstr "Concluídos"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Stopped"
-msgstr ""
+msgstr "Parados"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Missing Files"
@@ -327,7 +334,7 @@ msgstr "Ativos"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Completed"
-msgstr "Concluído"
+msgstr "Concluídos"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
@@ -335,39 +342,39 @@ msgstr "Incompleto"
 
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
-msgstr ""
+msgstr "Localizar nos downloads..."
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Old"
-msgstr ""
+msgstr "Mais antigos"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Newest"
-msgstr ""
+msgstr "Mais novos"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "A-Z"
-msgstr ""
+msgstr "A-Z"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Z-A"
-msgstr ""
+msgstr "Z-A"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By size: small"
-msgstr ""
+msgstr "Por tamanho: pequeno"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By size: large"
-msgstr ""
+msgstr "Por tamanho: grande"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By status: ascending"
-msgstr ""
+msgstr "Por status: ascendente"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By status: descending"
-msgstr ""
+msgstr "Por status: descendente"
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -472,6 +479,14 @@ msgstr "Mesclando fluxos de mídia (%1)."
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "Excluindo arquivos."
+
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "Cancelar"
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -767,7 +782,7 @@ msgstr "Baixe a extensão do %1"
 
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
-msgstr "%1 não está instalado"
+msgstr "O %1 não está instalado"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
@@ -786,7 +801,7 @@ msgid "Other supported browsers"
 msgstr "Outros navegadores suportados"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "Capturar automaticamente links de navegadores"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -818,7 +833,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "Tem certeza de que é uma extensão de arquivo válida?"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "Não capturar downloads menores que"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -832,6 +847,10 @@ msgstr "Usar navegador se cancelar o download através do %1"
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
 msgstr "Não interceptar se a tecla INSERT for pressionada"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr "Capturar arquivos com extensões"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -863,7 +882,7 @@ msgstr "(navegador não instalado)"
 
 msgctxt "BtDetailsTab|"
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
@@ -937,8 +956,8 @@ msgid ""
 msgstr ""
 "O uso de rastreadores adicionais pode melhorar a velocidade de download em "
 "alguns casos. Listas destes rastreadores podem ser obtidas em diferentes "
-"fontes; por exemplo, <a "
-"href='https://github.com/ngosang/trackerslist'>aqui</a>."
+"fontes; por exemplo, <a href='https://github.com/ngosang/trackerslist'>aqui</"
+"a>."
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -1035,6 +1054,14 @@ msgstr "Cancelar"
 msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "Baixar"
+
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr "O nome da subpasta não deve estar vazio"
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr "O nome do arquivo não deve estar vazio"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -1226,11 +1253,11 @@ msgstr "OK"
 
 msgctxt "CppQmlLocalizations|"
 msgid "Today"
-msgstr ""
+msgstr "Hoje"
 
 msgctxt "CppQmlLocalizations|"
 msgid "Yesterday"
-msgstr ""
+msgstr "Ontem"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1503,6 +1530,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "Pausado"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "Checando arquivos"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "Mesclando fluxos de mídia"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "Solicitando informações"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "Na fila"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "Concluído"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1620,6 +1671,22 @@ msgid "Disk is missing"
 msgstr "O disco está faltando"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr "duplicatas (%1)"
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr "inválido (%1)"
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr "sem suporte (%1)"
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr "Downloads ignorados"
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Links de download (%1 selecionados)"
 
@@ -1630,6 +1697,10 @@ msgstr "Selecionar Tudo"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "Selecionar nenhum"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr "Mostrar todos os downloads"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1785,7 +1856,7 @@ msgstr "Baixar"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Upload"
-msgstr ""
+msgstr "Upload"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Added"
@@ -1931,6 +2002,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Download sequencial"
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr "Compartilhar arquivo"
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Remover da lista"
@@ -1967,17 +2042,33 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Tamanho do arquivo desconhecido"
 
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "Checando arquivos"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "Mesclando fluxos de mídia"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "Solicitando informações"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "Na fila"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "Concluído"
+
 msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
-msgstr ""
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "Delete file"
-msgstr "Excluir arquivo"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "Remove from list"
-msgstr "Remover da lista"
+msgstr "n/a"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -2006,6 +2097,10 @@ msgstr "Pausado"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Concluído"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr "Downloads: %1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2448,7 +2543,7 @@ msgstr "Sugerir pastas com base no tipo de arquivo"
 
 msgctxt "GeneralSettings|"
 msgid "Theme"
-msgstr ""
+msgstr "Tema"
 
 msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
@@ -2456,15 +2551,15 @@ msgstr "Um tema claro será usado caso o tema do sistema for desconhecido."
 
 msgctxt "GeneralSettings|"
 msgid "UI style"
-msgstr ""
+msgstr "Estilo da interface do usuário"
 
 msgctxt "GeneralSettings|"
 msgid "New (beta)"
-msgstr ""
+msgstr "Novo (beta)"
 
 msgctxt "GeneralSettings|"
 msgid "Classic"
-msgstr ""
+msgstr "Clássico"
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -2473,6 +2568,14 @@ msgstr "Seu idioma não está listado ou a tradução não está completa?"
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
 msgstr "Vamos corrigir isso!"
+
+msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "Opções"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Executar na inicialização (minimizado)"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -2512,11 +2615,11 @@ msgstr "Ativar janelas de downloads independentes"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "Automaticamente remover arquivos excluídos da lista de downloads"
+msgstr "Remover automaticamente arquivos excluídos da lista de downloads"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "Remova automaticamente downloads concluídos da lista de downloads"
+msgstr "Remover automaticamente downloads concluídos da lista de downloads"
 
 msgctxt "GeneralSettings|"
 msgid "Immediately"
@@ -2557,6 +2660,10 @@ msgstr "Verificar por atualizações automaticamente"
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Instalar atualizações automaticamente"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr "Marcar arquivos baixados"
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2674,6 +2781,10 @@ msgstr "Velocidade de upload:"
 msgctxt "GeneralTab_V2|"
 msgid "Web page"
 msgstr "Página da web"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "Arquivo"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2995,7 +3106,7 @@ msgstr "Modo caracol"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Set the traffic usage mode"
-msgstr ""
+msgstr "Defina o modo de uso do tráfego"
 
 msgctxt "MainStatusBar_V2|"
 msgid "%n downloads selected."
@@ -3059,7 +3170,7 @@ msgstr "controle remoto"
 
 msgctxt "MainToolbar_V2|"
 msgid "Select"
-msgstr ""
+msgstr "Selecionar"
 
 msgctxt "MainToolbar_V2|"
 msgid "Sort"
@@ -3067,7 +3178,7 @@ msgstr "Tipo"
 
 msgctxt "MainToolbar_V2|"
 msgid "Filters"
-msgstr ""
+msgstr "Filtros"
 
 msgctxt "MainToolbar_V2|"
 msgid "Start"
@@ -3083,7 +3194,7 @@ msgstr "Remover"
 
 msgctxt "MainToolbar_V2|"
 msgid "Move files"
-msgstr ""
+msgstr "Mover arquivos"
 
 msgctxt "MainToolbar_V2|"
 msgid "Add download"
@@ -3091,7 +3202,7 @@ msgstr "Adicionar download"
 
 msgctxt "MainToolbar_V2|"
 msgid "Menu and settings"
-msgstr ""
+msgstr "Menu e configurações"
 
 msgctxt "MainToolbar_V2|"
 msgid "Switch to user-defined sorting of the download list?"
@@ -3420,6 +3531,10 @@ msgid "Configure manually:"
 msgstr "Configurar manualmente:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "Configurar manualmente"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "Endereço"
 
@@ -3572,6 +3687,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Conexões"
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr "Navegar..."
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "Reproduzir arquivo enquanto ele ainda está sendo baixado"
@@ -3616,20 +3735,24 @@ msgid "Add-ons"
 msgstr "Complementos"
 
 msgctxt "PluginsPage|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "Verificar atualizações"
 
 msgctxt "PluginsPage|"
-msgid "Install Add-on From File..."
+msgid "Install add-on from file..."
 msgstr "Instalar complemento do arquivo..."
 
 msgctxt "PluginsPage|"
-msgid "Update Add-ons Automatically"
+msgid "Update add-ons automatically"
 msgstr "Atualizar complementos automaticamente"
 
 msgctxt "PluginsPage|"
-msgid "Reset All Add-ons to Update Automatically"
+msgid "Reset all add-ons to update automatically"
 msgstr "Redefinir todos os complementos para atualizar automaticamente"
+
+msgctxt "PluginsPage|"
+msgid "Allow add-ons to use web browser cookies"
+msgstr "Permitir que os complementos usem cookies do navegador da Web"
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
@@ -3748,11 +3871,11 @@ msgid "Would you like to install it?"
 msgstr "Deseja instalá-lo?"
 
 msgctxt "PluginsViewItem|"
-msgid "Allow Automatic Updates"
+msgid "Allow automatic updates"
 msgstr "Permitir atualizações automáticas"
 
 msgctxt "PluginsViewItem|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "Verificar atualizações"
 
 msgctxt "PluginsViewItem|"
@@ -3815,7 +3938,7 @@ msgstr "Cancelar"
 
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
-msgstr ""
+msgstr "n/a"
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -3870,7 +3993,7 @@ msgstr "Digite a URL"
 
 msgctxt "QObject|"
 msgid "Drag-and-drop URL"
-msgstr ""
+msgstr "Arraste e solte uma URL"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
@@ -3903,6 +4026,14 @@ msgstr "Sobre o %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "Fechar"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "Preferências..."
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "Verificar atualizações..."
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -4281,6 +4412,14 @@ msgid "Incompatible version"
 msgstr "Versão incompatível"
 
 msgctxt "QObject|"
+msgid "Security check failed"
+msgstr "Falha na verificação de segurança"
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr "Já existe"
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "Host não encontrado"
 
@@ -4346,11 +4485,11 @@ msgstr "Comportamento indesejado detectado"
 
 msgctxt "QObject|"
 msgid "Unknown host key"
-msgstr ""
+msgstr "Chave de host desconhecida"
 
 msgctxt "QObject|"
 msgid "Public key of the host is unknown"
-msgstr ""
+msgstr "A chave pública do host é desconhecida"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -4993,7 +5132,7 @@ msgstr "Aviso: risco potencial de segurança à frente"
 
 msgctxt "SslDialog|"
 msgid "The authenticity of the host can't be established."
-msgstr ""
+msgstr "A autenticidade do host não pode ser estabelecida."
 
 msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
@@ -5001,7 +5140,7 @@ msgstr "O certificado SSL não é válido."
 
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
-msgstr ""
+msgstr "%1 impressões digitais principais"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -5020,10 +5159,12 @@ msgid ""
 "If you trust this host, select Accept to remember the key and carry on "
 "connecting."
 msgstr ""
+"Se você confia neste host, selecione Aceitar para lembrar a chave e "
+"continuar a conexão."
 
 msgctxt "SslDialog|"
 msgid "Accept"
-msgstr ""
+msgstr "Aceitar"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -5259,7 +5400,7 @@ msgstr "É necessário reiniciar"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Do crash app"
-msgstr ""
+msgstr "Não bloquear a aplicação"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Hide"
@@ -5374,16 +5515,24 @@ msgid "Size: %1"
 msgstr "Tamanho: %1"
 
 msgctxt "UiUpdatedBanner|"
-msgid "UI has been updated to the new (beta) style."
-msgstr ""
+msgid "The classic interface is turned on."
+msgstr "A interface clássica está ativada."
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
+msgstr "A nova interface está ativada."
 
 msgctxt "UiUpdatedBanner|"
 msgid "OK"
 msgstr "OK"
 
 msgctxt "UiUpdatedBanner|"
-msgid "Revert to the classic UI"
-msgstr ""
+msgid "Switch to the new interface"
+msgstr "Mudar para a nova interface"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
+msgstr "Mudar para a interface clássica"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
@@ -5548,3 +5697,11 @@ msgstr "O relatório foi enviado. Obrigado por sua cooperação!"
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "Conexão remota para %1"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "Adicionar download"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "Novo download"

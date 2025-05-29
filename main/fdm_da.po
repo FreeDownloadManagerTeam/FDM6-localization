@@ -463,6 +463,14 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr ""
 
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "Afbryd"
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr ""
@@ -774,7 +782,7 @@ msgid "Other supported browsers"
 msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "Automatisk tag imod links fra browsers"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -806,7 +814,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "Tillad ikke downloads mindre end"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -819,6 +827,10 @@ msgstr ""
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
+msgstr ""
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
 msgstr ""
 
 msgctxt "BrowserIntroDialog|"
@@ -1011,6 +1023,14 @@ msgstr "Afbryd"
 msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "Download"
+
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr ""
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -1467,6 +1487,30 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "Pause"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr ""
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr ""
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "Anmoder om info"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr ""
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "I kø"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "Færdig"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr ""
@@ -1584,6 +1628,22 @@ msgid "Disk is missing"
 msgstr ""
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr ""
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr ""
 
@@ -1594,6 +1654,10 @@ msgstr "Væg Alle"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "Vælg ingen"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr ""
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1895,6 +1959,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Sekventiel download"
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr ""
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Fjern fra liste"
@@ -1931,17 +1999,33 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Ukendt filstørrelse"
 
-msgctxt "DownloadsViewItem_V2|"
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr ""
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr ""
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "Anmoder om info"
+
+msgctxt "DownloadsViewItemStatus_V2|"
 msgid "n/a"
 msgstr ""
 
-msgctxt "DownloadsViewItem_V2|"
-msgid "Delete file"
-msgstr "Slet fil"
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "I kø"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "Færdig"
 
 msgctxt "DownloadsViewItem_V2|"
-msgid "Remove from list"
-msgstr "Fjern fra liste"
+msgid "n/a"
+msgstr ""
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -1970,6 +2054,10 @@ msgstr "Pause"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Færdig"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2437,6 +2525,14 @@ msgid "Let's fix it!"
 msgstr ""
 
 msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Åben ved opstart"
+
+msgctxt "GeneralSettings|"
 msgid "Default download folder"
 msgstr ""
 
@@ -2519,6 +2615,10 @@ msgstr "Tjek for opdateringer automatisk"
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Installér opdateringer automatisk"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr ""
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2634,6 +2734,10 @@ msgstr "Upload-hastighed:"
 
 msgctxt "GeneralTab_V2|"
 msgid "Web page"
+msgstr ""
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
 msgstr ""
 
 msgctxt "HashAlgorithmCombobox|"
@@ -3377,6 +3481,10 @@ msgid "Configure manually:"
 msgstr "Konfigurér manuelt:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "Konfigurér manuelt"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "Adresse"
 
@@ -3526,6 +3634,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr ""
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr ""
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr ""
@@ -3566,19 +3678,23 @@ msgid "Add-ons"
 msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Check for Updates"
+msgid "Check for updates"
+msgstr "Søg efter opdateringer"
+
+msgctxt "PluginsPage|"
+msgid "Install add-on from file..."
 msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Install Add-on From File..."
+msgid "Update add-ons automatically"
 msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Update Add-ons Automatically"
+msgid "Reset all add-ons to update automatically"
 msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Reset All Add-ons to Update Automatically"
+msgid "Allow add-ons to use web browser cookies"
 msgstr ""
 
 msgctxt "PluginsPage|"
@@ -3696,12 +3812,12 @@ msgid "Would you like to install it?"
 msgstr ""
 
 msgctxt "PluginsViewItem|"
-msgid "Allow Automatic Updates"
+msgid "Allow automatic updates"
 msgstr ""
 
 msgctxt "PluginsViewItem|"
-msgid "Check for Updates"
-msgstr ""
+msgid "Check for updates"
+msgstr "Søg efter opdateringer"
 
 msgctxt "PluginsViewItem|"
 msgid "Remove"
@@ -3846,6 +3962,14 @@ msgstr "Om %1"
 msgctxt "QObject|"
 msgid "Quit"
 msgstr "Luk"
+
+msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "Præferencer..."
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr ""
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -4221,6 +4345,14 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Incompatible version"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Already exists"
 msgstr ""
 
 msgctxt "QObject|"
@@ -5311,7 +5443,11 @@ msgid "Size: %1"
 msgstr ""
 
 msgctxt "UiUpdatedBanner|"
-msgid "UI has been updated to the new (beta) style."
+msgid "The classic interface is turned on."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
 msgstr ""
 
 msgctxt "UiUpdatedBanner|"
@@ -5319,7 +5455,11 @@ msgid "OK"
 msgstr "OK"
 
 msgctxt "UiUpdatedBanner|"
-msgid "Revert to the classic UI"
+msgid "Switch to the new interface"
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
 msgstr ""
 
 msgctxt "UpdateDialog|"
@@ -5484,4 +5624,12 @@ msgstr ""
 
 msgctxt "main|"
 msgid "Remote connection to %1"
+msgstr ""
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "TIlføj download"
+
+msgctxt "main|"
+msgid "New download"
 msgstr ""

@@ -22,7 +22,7 @@ msgstr "构建日期：%1"
 
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
-msgstr ""
+msgstr "© %1, %2-%3"
 
 msgctxt "AboutDialog|"
 msgid "remote control"
@@ -295,11 +295,11 @@ msgstr "全部"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Downloads only"
-msgstr ""
+msgstr "仅下载"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Uploads only"
-msgstr ""
+msgstr "仅上传"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Completed"
@@ -307,7 +307,7 @@ msgstr "已完成"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Stopped"
-msgstr ""
+msgstr "已停止"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Missing Files"
@@ -331,39 +331,39 @@ msgstr "未完成"
 
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
-msgstr ""
+msgstr "在下载列表中搜索..."
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Old"
-msgstr ""
+msgstr "按时间：升序"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Newest"
-msgstr ""
+msgstr "按时间：降序"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "A-Z"
-msgstr ""
+msgstr "按首字母：升序"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Z-A"
-msgstr ""
+msgstr "按首字母：降序"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By size: small"
-msgstr ""
+msgstr "按文件大小：升序"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By size: large"
-msgstr ""
+msgstr "按文件大小：降序"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By status: ascending"
-msgstr ""
+msgstr "按状态：升序"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By status: descending"
-msgstr ""
+msgstr "按状态：降序"
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -462,6 +462,14 @@ msgstr "正在合并媒体流 (%1)。"
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "正在删除文件。"
+
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "取消"
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -774,7 +782,7 @@ msgid "Other supported browsers"
 msgstr "其他支持的浏览器"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "自动从浏览器捕获下载项"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -806,7 +814,7 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "确定此文件格式正确？"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "不捕获小于此大小的下载项"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -820,6 +828,10 @@ msgstr "取消 %1 下载时改用浏览器下载"
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
 msgstr "当INSERT键被按下时不要捕获"
+
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr "使用扩展捕获文件"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -1020,6 +1032,14 @@ msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "下载"
 
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr "子文件夹名不能为空"
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr "文件名不能为空"
+
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
 msgstr "更改下载链接"
@@ -1206,11 +1226,11 @@ msgstr "确定"
 
 msgctxt "CppQmlLocalizations|"
 msgid "Today"
-msgstr ""
+msgstr "今天"
 
 msgctxt "CppQmlLocalizations|"
 msgid "Yesterday"
-msgstr ""
+msgstr "昨天"
 
 msgctxt "CrashReporter|"
 msgid ""
@@ -1457,7 +1477,7 @@ msgstr "关闭"
 
 msgctxt "DownloadProgressBar_V2|"
 msgid "Checking files"
-msgstr ""
+msgstr "检查文件中"
 
 msgctxt "DownloadProgressBar_V2|"
 msgid "Merging media streams"
@@ -1475,9 +1495,33 @@ msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
 msgstr "已暂停"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Checking files"
+msgstr "检查文件中"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Merging media streams"
+msgstr "合并媒体中"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Requesting info"
+msgstr "请求信息中"
+
+msgctxt "DownloadStatus_V2|"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Queued"
+msgstr "已排队"
+
+msgctxt "DownloadStatus_V2|"
+msgid "Completed"
+msgstr "已完成"
+
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
-msgstr ""
+msgstr "[%1%] - %2"
 
 msgctxt "DownloadWindow|"
 msgid "Web page:"
@@ -1517,7 +1561,7 @@ msgstr "已下载"
 
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
-msgstr ""
+msgstr "%1% [%2]"
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -1592,6 +1636,22 @@ msgid "Disk is missing"
 msgstr "磁盘无法使用"
 
 msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr "重复项 (%1)"
+
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr "无效项 (%1)"
+
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr "不支持项 (%1)"
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr "跳过的下载项 (%1)"
+
+msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "下载链接(%1 选中)"
 
@@ -1602,6 +1662,10 @@ msgstr "选择全部"
 msgctxt "DownloadsList|"
 msgid "Select none"
 msgstr "全不选"
+
+msgctxt "DownloadsPage|"
+msgid "Show all downloads"
+msgstr "显示所有下载项"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
@@ -1757,7 +1821,7 @@ msgstr "下载"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Upload"
-msgstr ""
+msgstr "上传"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Added"
@@ -1903,6 +1967,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "顺序下载"
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr "共享文件"
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "从列表中移除"
@@ -1939,17 +2007,33 @@ msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "未知文件大小"
 
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Checking files"
+msgstr "检查文件中"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Merging media streams"
+msgstr "合并媒体中"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Requesting info"
+msgstr "请求信息中"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Queued"
+msgstr "已排队"
+
+msgctxt "DownloadsViewItemStatus_V2|"
+msgid "Completed"
+msgstr "已完成"
+
 msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
-msgstr ""
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "Delete file"
-msgstr "删除文件"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "Remove from list"
-msgstr "从列表中移除"
+msgstr "n/a"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -1978,6 +2062,10 @@ msgstr "已暂停"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "完成"
+
+msgctxt "DownloadsViewTools|"
+msgid "Downloads: %1"
+msgstr "下载项：%1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2374,11 +2462,11 @@ msgstr "正常"
 
 msgctxt "FilesTreeHeader_V2|"
 msgid "High"
-msgstr ""
+msgstr "高"
 
 msgctxt "FilesTreeHeader_V2|"
 msgid "Low"
-msgstr ""
+msgstr "低"
 
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
@@ -2386,7 +2474,7 @@ msgstr "已完成"
 
 msgctxt "FilesTreeItem_V2|"
 msgid "Low"
-msgstr ""
+msgstr "低"
 
 msgctxt "FilesTreeItem_V2|"
 msgid "Normal"
@@ -2394,7 +2482,7 @@ msgstr "正常"
 
 msgctxt "FilesTreeItem_V2|"
 msgid "High"
-msgstr ""
+msgstr "高"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2418,7 +2506,7 @@ msgstr "基于文件类型建议文件夹"
 
 msgctxt "GeneralSettings|"
 msgid "Theme"
-msgstr ""
+msgstr "主题"
 
 msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
@@ -2426,15 +2514,15 @@ msgstr "若系统主题未知，将应用浅色主题。"
 
 msgctxt "GeneralSettings|"
 msgid "UI style"
-msgstr ""
+msgstr "界面风格"
 
 msgctxt "GeneralSettings|"
 msgid "New (beta)"
-msgstr ""
+msgstr "全新（Beta）"
 
 msgctxt "GeneralSettings|"
 msgid "Classic"
-msgstr ""
+msgstr "经典"
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -2443,6 +2531,14 @@ msgstr "没有列出您所使用的语言或翻译不完整?"
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
 msgstr "期待与您一起完善!"
+
+msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "设置"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "开机静默启动"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -2527,6 +2623,10 @@ msgstr "自动检查更新"
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "自动安装更新"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr "标记下载的文件"
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2630,7 +2730,7 @@ msgstr "比例"
 
 msgctxt "GeneralTab_V2|"
 msgid "Added at:"
-msgstr ""
+msgstr "添加于："
 
 msgctxt "GeneralTab_V2|"
 msgid "Download speed:"
@@ -2643,6 +2743,10 @@ msgstr "上传速度："
 msgctxt "GeneralTab_V2|"
 msgid "Web page"
 msgstr "网页"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "文件"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2939,15 +3043,15 @@ msgstr "总计大小："
 
 msgctxt "MainStatusBar_V2|"
 msgid "Low"
-msgstr ""
+msgstr "低速"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Medium"
-msgstr "中限速"
+msgstr "中速"
 
 msgctxt "MainStatusBar_V2|"
 msgid "High"
-msgstr ""
+msgstr "高速"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -2963,7 +3067,7 @@ msgstr "慢速模式"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Set the traffic usage mode"
-msgstr ""
+msgstr "设置网速使用模式"
 
 msgctxt "MainStatusBar_V2|"
 msgid "%n downloads selected."
@@ -3024,7 +3128,7 @@ msgstr "远程控制"
 
 msgctxt "MainToolbar_V2|"
 msgid "Select"
-msgstr ""
+msgstr "选择"
 
 msgctxt "MainToolbar_V2|"
 msgid "Sort"
@@ -3032,7 +3136,7 @@ msgstr "排序"
 
 msgctxt "MainToolbar_V2|"
 msgid "Filters"
-msgstr ""
+msgstr "筛选"
 
 msgctxt "MainToolbar_V2|"
 msgid "Start"
@@ -3048,7 +3152,7 @@ msgstr "移除"
 
 msgctxt "MainToolbar_V2|"
 msgid "Move files"
-msgstr ""
+msgstr "移动文件"
 
 msgctxt "MainToolbar_V2|"
 msgid "Add download"
@@ -3056,7 +3160,7 @@ msgstr "添加下载"
 
 msgctxt "MainToolbar_V2|"
 msgid "Menu and settings"
-msgstr ""
+msgstr "菜单和设置"
 
 msgctxt "MainToolbar_V2|"
 msgid "Switch to user-defined sorting of the download list?"
@@ -3383,6 +3487,10 @@ msgid "Configure manually:"
 msgstr "手动配置："
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "手动配置"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "地址"
 
@@ -3532,6 +3640,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "连接"
 
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr "浏览……"
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "在文件仍在下载时播放"
@@ -3572,20 +3684,24 @@ msgid "Add-ons"
 msgstr "扩展"
 
 msgctxt "PluginsPage|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "检查更新"
 
 msgctxt "PluginsPage|"
-msgid "Install Add-on From File..."
+msgid "Install add-on from file..."
 msgstr "从文件安装扩展..."
 
 msgctxt "PluginsPage|"
-msgid "Update Add-ons Automatically"
+msgid "Update add-ons automatically"
 msgstr "自动更新扩展"
 
 msgctxt "PluginsPage|"
-msgid "Reset All Add-ons to Update Automatically"
+msgid "Reset all add-ons to update automatically"
 msgstr "重设所有扩展为自动更新"
+
+msgctxt "PluginsPage|"
+msgid "Allow add-ons to use web browser cookies"
+msgstr "允许扩展使用浏览器cookie"
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
@@ -3704,11 +3820,11 @@ msgid "Would you like to install it?"
 msgstr "您想安装它吗？"
 
 msgctxt "PluginsViewItem|"
-msgid "Allow Automatic Updates"
+msgid "Allow automatic updates"
 msgstr "允许自动更新"
 
 msgctxt "PluginsViewItem|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "检查更新"
 
 msgctxt "PluginsViewItem|"
@@ -3768,7 +3884,7 @@ msgstr "取消"
 
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
-msgstr ""
+msgstr "n/a"
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -3823,7 +3939,7 @@ msgstr "输入链接"
 
 msgctxt "QObject|"
 msgid "Drag-and-drop URL"
-msgstr ""
+msgstr "拖入链接"
 
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
@@ -3858,76 +3974,84 @@ msgid "Quit"
 msgstr "退出"
 
 msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "选项..."
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "检查更新…"
+
+msgctxt "QObject|"
 msgid "%1 B"
-msgstr ""
+msgstr "%1 B"
 
 msgctxt "QObject|"
 msgid "%1 KB"
-msgstr ""
+msgstr "%1 KB"
 
 msgctxt "QObject|"
 msgid "%1 MB"
-msgstr ""
+msgstr "%1 MB"
 
 msgctxt "QObject|"
 msgid "%1 GB"
-msgstr ""
+msgstr "%1 GB"
 
 msgctxt "QObject|"
 msgid "%1 TB"
-msgstr ""
+msgstr "%1 TB"
 
 msgctxt "QObject|"
 msgid "%1 K"
-msgstr ""
+msgstr "%1 K"
 
 msgctxt "QObject|"
 msgid "%1 M"
-msgstr ""
+msgstr "%1 M"
 
 msgctxt "QObject|"
 msgid "%1 G"
-msgstr ""
+msgstr "%1 G"
 
 msgctxt "QObject|"
 msgid "%1 T"
-msgstr ""
+msgstr "%1 T"
 
 msgctxt "QObject|"
 msgid "%1 B/s"
-msgstr ""
+msgstr "%1 B/s"
 
 msgctxt "QObject|"
 msgid "%1 KB/s"
-msgstr ""
+msgstr "%1 KB/s"
 
 msgctxt "QObject|"
 msgid "%1 MB/s"
-msgstr ""
+msgstr "%1 MB/s"
 
 msgctxt "QObject|"
 msgid "%1 GB/s"
-msgstr ""
+msgstr "%1 GB/s"
 
 msgctxt "QObject|"
 msgid "%1 TB/s"
-msgstr ""
+msgstr "%1 TB/s"
 
 msgctxt "QObject|"
 msgid "%1 K/s"
-msgstr ""
+msgstr "%1 K/s"
 
 msgctxt "QObject|"
 msgid "%1 M/s"
-msgstr ""
+msgstr "%1 M/s"
 
 msgctxt "QObject|"
 msgid "%1 G/s"
-msgstr ""
+msgstr "%1 G/s"
 
 msgctxt "QObject|"
 msgid "%1 T/s"
-msgstr ""
+msgstr "%1 T/s"
 
 msgctxt "QObject|"
 msgid "Download complete"
@@ -4232,6 +4356,14 @@ msgstr "未找到"
 msgctxt "QObject|"
 msgid "Incompatible version"
 msgstr "不兼容的版本"
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr "安全检查失败"
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr "已存在"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -4993,7 +5125,7 @@ msgstr "继续"
 
 msgctxt "StatusItem|"
 msgid "Checking files"
-msgstr "检查文件"
+msgstr "检查文件中"
 
 msgctxt "StatusItem|"
 msgid "Merging media streams"
@@ -5209,7 +5341,7 @@ msgstr "需要重启软件"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Do crash app"
-msgstr ""
+msgstr "使应用崩溃"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Hide"
@@ -5324,16 +5456,24 @@ msgid "Size: %1"
 msgstr "大小：%1"
 
 msgctxt "UiUpdatedBanner|"
-msgid "UI has been updated to the new (beta) style."
-msgstr ""
+msgid "The classic interface is turned on."
+msgstr "经典界面已启用。"
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
+msgstr "全新界面已启用。"
 
 msgctxt "UiUpdatedBanner|"
 msgid "OK"
 msgstr "确定"
 
 msgctxt "UiUpdatedBanner|"
-msgid "Revert to the classic UI"
-msgstr ""
+msgid "Switch to the new interface"
+msgstr "切换到全新界面"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
+msgstr "切换到经典界面"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
@@ -5498,3 +5638,11 @@ msgstr "报告已发送。感谢您的帮助！"
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "远程连接到 %1"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "添加下载"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "新的下载"
