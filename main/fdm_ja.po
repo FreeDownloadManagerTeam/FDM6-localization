@@ -151,7 +151,7 @@ msgstr "閉じるボタンのクリックで %1 を非表示にしてバック�
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "ダウンロードリストのクリックで下部パネルの表示/非表示を切り替える"
+msgstr "ダウンロードリストのクリックで下部パネルを表示/非表示にする"
 
 msgctxt "AdvancedSettings|"
 msgid "Hide the Dock icon"
@@ -339,7 +339,7 @@ msgstr "古い順"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Newest"
-msgstr "新しい順"
+msgstr "新着順"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "A-Z"
@@ -647,6 +647,10 @@ msgctxt "BaseTextField|"
 msgid "Paste"
 msgstr "貼り付け"
 
+msgctxt "BatchLanguage|"
+msgid "Language"
+msgstr "表示言語"
+
 msgctxt "BatchVideoQuality|"
 msgid "Max. video quality:"
 msgstr "最大の画質:"
@@ -783,7 +787,7 @@ msgstr "他の対応しているブラウザー"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically capture downloads from browsers"
-msgstr "ブラウザーでのダウンロードを自動的にキャッチ"
+msgstr "ブラウザーからのダウンロードを自動的に取得"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Intercept downloads in your web browser"
@@ -815,7 +819,7 @@ msgstr "このファイル拡張子を有効にしますか?"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't capture downloads smaller than"
-msgstr "次の値より小さいファイルをダウンロードしない:"
+msgstr "指定サイズ未満のダウンロードを取得しない:"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
@@ -831,7 +835,7 @@ msgstr "INSERT キーを押した場合は禁止しない"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Capture files with extensions"
-msgstr ""
+msgstr "拡張子付きのファイルを取得する"
 
 msgctxt "BrowserIntroDialog|"
 msgid ""
@@ -2836,6 +2840,14 @@ msgctxt "LanguageDialog|"
 msgid "Language"
 msgstr "表示言語"
 
+msgctxt "LanguageSelection|"
+msgid "Language"
+msgstr "表示言語"
+
+msgctxt "LanguageSelection|"
+msgid "Unknown"
+msgstr "不明なエラー"
+
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "リモートコントロール"
@@ -3745,7 +3757,7 @@ msgstr "アドオンが複数の危険な権限を要求しています:"
 
 msgctxt "PluginsPage|"
 msgid "Add-on requests dangerous permission:"
-msgstr "アドオンは危険を権限を要求しています:"
+msgstr "アドオンが危険な権限を要求しています:"
 
 msgctxt "PluginsPage|"
 msgid "Please install add-ons from trusted sources only."
@@ -3921,7 +3933,7 @@ msgstr "アプリケーションフロントエンドのサーバーの待機に
 
 msgctxt "QObject|"
 msgid "QML load failure."
-msgstr "QMLの読み込みに失敗しました。"
+msgstr "QML の読み込みに失敗しました。"
 
 msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
@@ -4137,7 +4149,7 @@ msgstr "お支払いが必要です"
 
 msgctxt "QObject|"
 msgid "Forbidden"
-msgstr "禁止されている"
+msgstr "禁止されています"
 
 msgctxt "QObject|"
 msgid "Not Found"
@@ -4153,11 +4165,11 @@ msgstr "受け入れられません"
 
 msgctxt "QObject|"
 msgid "Proxy Authentication Required"
-msgstr "プロキシ認証が必要"
+msgstr "プロキシ認証が必要です"
 
 msgctxt "QObject|"
 msgid "Request Timeout"
-msgstr "要求のタイムアウト"
+msgstr "リクエストタイムアウト"
 
 msgctxt "QObject|"
 msgid "Conflict"
@@ -4169,7 +4181,7 @@ msgstr "経過"
 
 msgctxt "QObject|"
 msgid "Length Required"
-msgstr "長さが必要"
+msgstr "長さが必要です"
 
 msgctxt "QObject|"
 msgid "Precondition Failed"
@@ -4177,7 +4189,7 @@ msgstr "前提条件に失敗しました"
 
 msgctxt "QObject|"
 msgid "Request Entity Too Large"
-msgstr "要求したエンティティが大きすぎます"
+msgstr "リクエストエンティティが大きすぎます"
 
 msgctxt "QObject|"
 msgid "Request-URI Too Long"
@@ -4189,11 +4201,11 @@ msgstr "対応していないメディアタイプです"
 
 msgctxt "QObject|"
 msgid "Requested Range Not Satisfiable"
-msgstr "要求された範囲が満たされません"
+msgstr "要求された範囲は満たされていません"
 
 msgctxt "QObject|"
 msgid "Expectation Failed"
-msgstr "期待できません"
+msgstr "期待値の処理に失敗しました"
 
 msgctxt "QObject|"
 msgid "I'm a teapot"
@@ -4217,19 +4229,19 @@ msgstr "ロックされています"
 
 msgctxt "QObject|"
 msgid "Failed Dependency / Method Failure"
-msgstr "失敗した依存関係/メソッドの失敗"
+msgstr "失敗した依存関係 / メソッドの失敗"
 
 msgctxt "QObject|"
 msgid "Unordered Collection"
-msgstr "順序付けられていないコレクションです"
+msgstr "順序なしコレクションです"
 
 msgctxt "QObject|"
 msgid "Upgrade Required"
-msgstr "アップグレードが必要"
+msgstr "アップグレードが必要です"
 
 msgctxt "QObject|"
 msgid "Precondition Required"
-msgstr "前提条件が必要"
+msgstr "前提条件が必要です"
 
 msgctxt "QObject|"
 msgid "Too Many Requests"
@@ -4237,7 +4249,7 @@ msgstr "リクエストが多すぎます"
 
 msgctxt "QObject|"
 msgid "Request Header Fields Too Large"
-msgstr "リクエストヘッダフィールドが大きすぎます"
+msgstr "リクエストヘッダーフィールドが大きすぎます"
 
 msgctxt "QObject|"
 msgid "Login Timeout"
@@ -4245,7 +4257,7 @@ msgstr "ログインのタイムアウト"
 
 msgctxt "QObject|"
 msgid "No Response"
-msgstr "応答してません"
+msgstr "応答していません"
 
 msgctxt "QObject|"
 msgid "Retry With"
@@ -4257,11 +4269,11 @@ msgstr "Windows のペアレンタルコントロールによりブロックさ�
 
 msgctxt "QObject|"
 msgid "Unavailable For Legal Reasons"
-msgstr "法律上の理由で使用不可"
+msgstr "法律上の理由で利用不可"
 
 msgctxt "QObject|"
 msgid "Request Header Too Large"
-msgstr "要求ヘッダーが大きすぎます"
+msgstr "リクエストヘッダーが大きすぎます"
 
 msgctxt "QObject|"
 msgid "Cert Error"
@@ -4281,7 +4293,7 @@ msgstr "トークンの期限切れ/無効"
 
 msgctxt "QObject|"
 msgid "Client Closed Request"
-msgstr "クライアントの匿名の要求"
+msgstr "クライアントがリクエストを閉じました"
 
 msgctxt "QObject|"
 msgid "Internal Server Error"
@@ -4305,11 +4317,11 @@ msgstr "ゲートウェイタイムアウト"
 
 msgctxt "QObject|"
 msgid "HTTP Version Not Supported"
-msgstr "HTTPバージョンがサポートされていません"
+msgstr "HTTP バージョンがサポートされていません"
 
 msgctxt "QObject|"
 msgid "Variant Also Negotiates"
-msgstr "特殊はまた、ネゴシエーション"
+msgstr "バリエーション選択エラー"
 
 msgctxt "QObject|"
 msgid "Insufficient Storage"
@@ -4325,7 +4337,7 @@ msgstr "帯域幅の制限を超過しました"
 
 msgctxt "QObject|"
 msgid "Not Extended"
-msgstr "拡張されません"
+msgstr "拡張されていません"
 
 msgctxt "QObject|"
 msgid "Network Authentication Required"
@@ -4545,7 +4557,7 @@ msgstr "アップロードを一時停止"
 
 msgctxt "QObject|"
 msgid "PAUSE ALL"
-msgstr "すべて停止"
+msgstr "すべて一時停止"
 
 msgctxt "QObject|"
 msgid "Downloading..."
@@ -4829,7 +4841,7 @@ msgstr "スケジュール"
 
 msgctxt "SchedulerDialog|"
 msgid "Start and pause downloads at specified time"
-msgstr "指定した時刻にダウンロードを開始または一時停止する"
+msgstr "指定した時刻にダウンロードを開始および一時停止します"
 
 msgctxt "SchedulerDialog|"
 msgid "Enable Scheduler"
@@ -5037,11 +5049,11 @@ msgstr "OK (%1)"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be put to Sleep mode."
-msgstr "注意! コンピューターがスリープモードに移行します。"
+msgstr "注意! コンピューターがスリープモードに入ります。"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be hibernated."
-msgstr "注意! コンピューターが休止状態に移行します。"
+msgstr "注意! コンピューターが休止状態になります。"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
