@@ -1,11 +1,5 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,20 +7,23 @@ msgstr ""
 "X-Language: ja_JP\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.6\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
 msgstr "バージョン情報"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
 msgstr "バージョン: %1 (%2)"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
 msgstr "ビルドの日付: %1"
 
+#. © FreeDownloadManager.org, 2004-2023
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
@@ -35,6 +32,7 @@ msgctxt "AboutDialog|"
 msgid "remote control"
 msgstr "リモートコントロール"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "バージョン %1"
@@ -43,6 +41,7 @@ msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "OK"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "バージョン %1 (%2)"
@@ -119,6 +118,7 @@ msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
 msgstr "通知センターで失敗したダウンロードを知らせる"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "%1 ウィンドウが非アクティブな時のみダウンロード状況を知らせる"
@@ -155,6 +155,7 @@ msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "インターフェイス"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
@@ -352,6 +353,7 @@ msgctxt "AllDownloadsSortModeButton|"
 msgid "Newest"
 msgstr "新着順"
 
+#. sort by title mode
 msgctxt "AllDownloadsSortModeButton|"
 msgid "A-Z"
 msgstr "A-Z 順"
@@ -436,38 +438,44 @@ msgctxt "AppAndroidPermissionsManager|"
 msgid "Notifications"
 msgstr "通知"
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
-msgstr ""
-"%1 はダウンロードしたファイルをローカルストレージに保存する権限が必要です。"
+msgstr "%1 はダウンロードしたファイルをローカルストレージに保存する権限が必要です。"
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
 "notification panel."
-msgstr ""
-"%1 はシステムの通知パネルにダウンロードの進行状況を表示する権限が必要です。"
+msgstr "%1 はシステムの通知パネルにダウンロードの進行状況を表示する権限が必要です。"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
 msgstr "再開機能なしでダウンロード (%1)"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
 msgstr "ファイルを移動しています。 (%1)"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
 msgstr "MP3 に変換しています。 (%1)"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
 msgstr "MP4 に変換しています。 (%1)"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
 msgstr "ファイル名を変更しています。 (%1)"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "メディアストリームを結合しています。 (%1)"
@@ -488,10 +496,12 @@ msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "再開機能のない操作が進行しています"
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
 msgstr "リモート %1 (%2) に接続しています..."
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
 msgstr "リモート %1 (%2) からデータを取得しています..."
@@ -504,10 +514,12 @@ msgctxt "AuthDialog|"
 msgid "Authentication required"
 msgstr "認証が必要です"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
 msgstr "%1 には認証が必要です"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
 msgstr "サイトからのメッセージ: \"%1\""
@@ -536,6 +548,7 @@ msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "認証が必要です"
 
+#, qt-format
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
 msgstr "サイトからのメッセージ: \"%1\""
@@ -568,6 +581,7 @@ msgctxt "AuthenticationPage|"
 msgid "OK"
 msgstr "OK"
 
+#, qt-format
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
 msgstr "サイトからのメッセージ: \"%1\""
@@ -672,6 +686,7 @@ msgctxt "BitrateComboBox|"
 msgid "kbps"
 msgstr "kbps"
 
+#, qt-format
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
 msgstr "%1 %2 から %3 %4 へ"
@@ -756,6 +771,7 @@ msgctxt "Browser|"
 msgid "NO"
 msgstr "いいえ"
 
+#, qt-format
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
 msgstr "%1 に戻る"
@@ -776,10 +792,12 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr "ブックマークを追加"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
 msgstr "%1 の拡張機能をダウンロード"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
 msgstr "%1 がインストールされていません"
@@ -788,13 +806,12 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "ブラウザーとの連携"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
-"Make sure you have %1 extension installed, otherwise, click one of the buttons "
-"below"
-msgstr ""
-"%1 の拡張機能がインストールされているか確認してください。そうでない場合は、以下"
-"のボタンのいずれかをクリックしてください。"
+"Make sure you have %1 extension installed, otherwise, click one of the "
+"buttons below"
+msgstr "%1 の拡張機能がインストールされているか確認してください。そうでない場合は、以下のボタンのいずれかをクリックしてください。"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -840,10 +857,10 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
 msgstr "MB"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
-msgstr ""
-"%1 でのダウンロードをキャンセルした場合は、ブラウザーを使用してダウンロードする"
+msgstr "%1 でのダウンロードをキャンセルした場合は、ブラウザーを使用してダウンロードする"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
@@ -853,6 +870,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Capture files with extensions"
 msgstr "拡張子付きのファイルを取得する"
 
+#, qt-format
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -861,16 +879,15 @@ msgid ""
 "\n"
 "Some of them (e.g. Google Drive downloads) can be added using this browser "
 "only, because they require additional information that your Android system's "
-"browser does not provide to %1 (or there is no universal way for all browsers "
-"to do this)."
+"browser does not provide to %1 (or there is no universal way for all "
+"browsers to do this)."
 msgstr ""
 "内蔵ウェブブラウザーで開こうとしています。\n"
 "\n"
 "これは、ダウンロードを %1 に追加するのに役立ちます。\n"
 "\n"
-"これらの中 (例えば、Google Drive のダウンロード) には、Android システムのブラウ"
-"ザーが %1 に提供していない追加情報を必要とするため、このブラウザーを使用しての"
-"み追加することができます (または、すべてのブラウザーに共通の方法はありません)。"
+"これらの中 (例えば、Google Drive のダウンロード) には、Android システムのブラウザーが %1 "
+"に提供していない追加情報を必要とするため、このブラウザーを使用してのみ追加することができます (または、すべてのブラウザーに共通の方法はありません)。"
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -884,6 +901,7 @@ msgctxt "BtDetailsTab|"
 msgid "N/A"
 msgstr "N/A"
 
+#, qt-format
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
 msgstr "(接続済み: %1)"
@@ -940,6 +958,7 @@ msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "高度な設定"
 
+#, qt-format
 msgctxt "BtSettings|"
 msgid "Current port: %1"
 msgstr "現在のポート: %1"
@@ -950,12 +969,11 @@ msgstr "カスタムポート:"
 
 msgctxt "BtSettings|"
 msgid ""
-"The use of additional trackers can improve download speed in some cases. Lists "
-"of such trackers can be retrieved from different sources, e.g. from <a "
+"The use of additional trackers can improve download speed in some cases. "
+"Lists of such trackers can be retrieved from different sources, e.g. from <a "
 "href='https://github.com/ngosang/trackerslist'>here</a>."
 msgstr ""
-"追加トラッカーの使用は、場合によってダウンロード速度を向上させることができま"
-"す。このようなトラッカーのリストは、さまざまなソースから取得できます。例えば<a "
+"追加トラッカーの使用は、場合によってダウンロード速度を向上させることができます。このようなトラッカーのリストは、さまざまなソースから取得できます。例えば<a "
 "href='https://github.com/ngosang/trackerslist'>こちら</a>から取得できます。"
 
 msgctxt "BtStrings|"
@@ -1006,10 +1024,12 @@ msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
 msgstr "このサイトのダウンロードは許可されていません"
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
 msgstr "プロキシ %1 にはユーザー名とパスワードが必要になります。"
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
 msgstr "%1 はユーザー名とパスワードを要求しています。"
@@ -1022,6 +1042,7 @@ msgctxt "ButtonsBlock|"
 msgid "Please select download link"
 msgstr "ダウンロードリンクを選択してください"
 
+#, qt-format
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "一度に選択できるリンクは %1 個までです"
@@ -1070,6 +1091,7 @@ msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
 msgstr "新規 URL を入力してください"
 
+#, qt-format
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
 msgstr "ファイルの場所: %1"
@@ -1102,6 +1124,7 @@ msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
 msgstr "新規 URL を入力してください"
 
+#, qt-format
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
 msgstr "ファイルの場所: %1"
@@ -1116,9 +1139,9 @@ msgstr "余分なファイルを検出する"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid ""
-"The following folder contains extraneous files. Do you still want to delete it?"
-msgstr ""
-"以下のフォルダーには余計なファイルが含まれています。それでも削除しますか?"
+"The following folder contains extraneous files. Do you still want to delete "
+"it?"
+msgstr "以下のフォルダーには余計なファイルが含まれています。それでも削除しますか?"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Delete anyway"
@@ -1128,6 +1151,7 @@ msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Cancel"
 msgstr "キャンセル"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "リモート %1 に接続"
@@ -1136,6 +1160,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
 msgstr "(ベータ)"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
 msgstr "別のデバイスで動作している %1 に接続できます。"
@@ -1144,16 +1169,19 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "起動時に自動的に接続する"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
 msgstr "%1 を入力するか <a href='#'>QR コードをスキャン</a>"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
-"Both %1 and QR code are located inside of Preferences page of %2 you're going "
-"to connect to."
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
 msgstr "%1 と QR コードは接続しようとしている %2 の設定ページ内にあります。"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
 msgstr "%1 の起動時に自動的に接続する"
@@ -1166,6 +1194,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "OK"
 msgstr "OK"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr "Windows/macOS/Linux の PC で動作している %1 に接続できます。"
@@ -1238,6 +1267,7 @@ msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
 msgstr "開始に失敗しました。"
 
+#, qt-format
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
 msgstr "エラー: %1"
@@ -1254,10 +1284,13 @@ msgctxt "CppQmlLocalizations|"
 msgid "Yesterday"
 msgstr "昨日"
 
+#, qt-format
 msgctxt "CrashReporter|"
-msgid "An internal error occurred.<br>%1 needs to be restarted for further use."
+msgid ""
+"An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr "内部エラーが発生しました。<br>%1 を再起動してください。"
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
 msgstr "%1 を自動的に再起動します"
@@ -1286,26 +1319,22 @@ msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
 msgstr "ポータブルバージョンを作成"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid ""
-"Portable version of %1 can be used on different computers without the need to "
-"install and configure it on each of them."
-msgstr ""
-"ポータブルバージョンの %1 は、それぞれのコンピューターにインストールして設定を"
-"しなくても異なるコンピューターで使用できます。"
+"Portable version of %1 can be used on different computers without the need "
+"to install and configure it on each of them."
+msgstr "ポータブルバージョンの %1 は、それぞれのコンピューターにインストールして設定をしなくても異なるコンピューターで使用できます。"
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
-msgstr ""
-"フラッシュディスクなどのリムーバブルドライブに簡単にインストールできます。"
+msgstr "フラッシュディスクなどのリムーバブルドライブに簡単にインストールできます。"
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
-msgstr ""
-"このバージョンを作成するパスをここに指定してください。リムーバブルドライブ上の"
-"フォルダーを指定してください。"
+msgstr "このバージョンを作成するパスをここに指定してください。リムーバブルドライブ上のフォルダーを指定してください。"
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -1323,10 +1352,12 @@ msgctxt "CreatePortableDialog|"
 msgid "OK"
 msgstr "OK"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
 msgstr "作成しています... %1%"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
 msgstr "ポータブルバージョンの作成中にエラーが発生しました: %1"
@@ -1455,14 +1486,17 @@ msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "中止"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "サイズ: %1 (ディスクの空き容量: %2)"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
 msgstr "ディスクの空き: %1"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "サイズ: %1"
@@ -1478,9 +1512,7 @@ msgstr "ダウンロードに失敗しました"
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Can't resume download. Download link likely expired. Resume attempts failed."
-msgstr ""
-"ダウンロードを再開できません。ダウンロードリンクの有効期限が切れている可能性が"
-"あります。再開を試みましたが失敗しました。"
+msgstr "ダウンロードを再開できません。ダウンロードリンクの有効期限が切れている可能性があります。再開を試みましたが失敗しました。"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Please try to update the download link to resume."
@@ -1489,9 +1521,7 @@ msgstr "再開するにはダウンロードリンクを更新してみてくだ
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Go to the website with the original download source and copy the renewed link"
-msgstr ""
-"元のダウンロードソースがあるウェブサイトにアクセスし、更新されたリンクをコピー"
-"する"
+msgstr "元のダウンロードソースがあるウェブサイトにアクセスし、更新されたリンクをコピーする"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "click here"
@@ -1549,6 +1579,8 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "完了"
 
+#. [50%] - myfile.txt
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1589,6 +1621,8 @@ msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "ダウンロード"
 
+#. 50% [200 MB]
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
 msgstr "%1% [%2]"
@@ -1665,14 +1699,17 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "ディスクが見つかりません"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
 msgstr "重複 (%1)"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "invalid (%1)"
 msgstr "無効 (%1)"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "unsupported (%1)"
 msgstr "未サポート (%1)"
@@ -1681,6 +1718,7 @@ msgctxt "DownloadsList|"
 msgid "Skipped downloads"
 msgstr "スキップされたダウンロード"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "ダウンロードリンク (%1 選択済み)"
@@ -1705,6 +1743,7 @@ msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "該当する結果は見つかりません"
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
 msgstr "\"%1\" のタグが付いた結果はありませんでした"
@@ -1725,6 +1764,7 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "ダウンロードリストは空です。新規ダウンロード URL を追加してください。"
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "%1 にリモートで接続"
@@ -1749,10 +1789,12 @@ msgctxt "DownloadsSettings|"
 msgid "Immediately"
 msgstr "すぐに"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "In"
 msgstr "完了の"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "days"
 msgstr "日後に"
@@ -2194,6 +2236,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Cancel"
 msgstr "キャンセル"
 
+#, qt-format
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
 msgstr "すべてのファイル (%1)"
@@ -2206,6 +2249,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Export"
 msgstr "エクスポート"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
 msgstr "%1 ダウンロードファイル (%2)"
@@ -2218,6 +2262,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
 msgstr "URL のリスト"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
 msgstr "テキストファイル (%1)"
@@ -2226,6 +2271,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
 msgstr "CSVファイル"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
 msgstr "CSVファイル (%1)"
@@ -2238,10 +2284,12 @@ msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
 msgstr "キャンセル"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
 msgstr "%1 設定ファイル (%2)"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
 msgstr "すべてのファイル (%1)"
@@ -2254,6 +2302,7 @@ msgctxt "FileIntegrityDialog|"
 msgid "Hash"
 msgstr "ハッシュ"
 
+#, qt-format
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
 msgstr "計算しています... %1%"
@@ -2298,6 +2347,7 @@ msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "ハッシュ"
 
+#, qt-format
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
 msgstr "計算しています... %1%"
@@ -2326,6 +2376,7 @@ msgctxt "FileName|"
 msgid "File name"
 msgstr "ファイル名"
 
+#, qt-format
 msgctxt "FileName|"
 msgid "%1 files (*.%2)"
 msgstr "%1 ファイル  (*.%2)"
@@ -2386,6 +2437,7 @@ msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
 msgstr "すべてのダウンロードに対してこの選択を適用する"
 
+#, qt-format
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
 msgstr "名前を変更 (%1)"
@@ -2626,10 +2678,12 @@ msgctxt "GeneralSettings|"
 msgid "Immediately"
 msgstr "すぐに"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "In"
 msgstr "完了の"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "days"
 msgstr "日後に"
@@ -2688,8 +2742,7 @@ msgstr "データローミングを許可する"
 
 msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
-msgstr ""
-"ローミング中にモバイルデータを使用すると、追加料金が発生する場合があります。"
+msgstr "ローミング中にモバイルデータを使用すると、追加料金が発生する場合があります。"
 
 msgctxt "GeneralTab|"
 msgid "Status"
@@ -2743,6 +2796,7 @@ msgctxt "GeneralTab|"
 msgid "Added at:"
 msgstr "追加日時:"
 
+#, qt-format
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
 msgstr "%1 of %2"
@@ -2815,22 +2869,27 @@ msgctxt "ImportDialog|"
 msgid "Cancel"
 msgstr "キャンセル"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
 msgstr "すべてのファイル (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
 msgstr "テキストファイル (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
 msgstr "%1 ダウンロードファイル (%2)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
 msgstr "%1 設定ファイル (%2)"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
 msgstr "エラー: %1"
@@ -2843,6 +2902,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
 msgstr "ファイルからの URL の貼り付けに失敗しました"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
 msgstr "ファイルから URL のリストをインポートできません: %1"
@@ -2851,6 +2911,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
 msgstr "エクスポートに失敗"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
 msgstr "ファイルへのエクスポートに失敗: %1"
@@ -2859,6 +2920,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
 msgstr "インポートに失敗"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr "ファイルからのインポートに失敗: %1"
@@ -2907,10 +2969,12 @@ msgctxt "LeftDrawer|"
 msgid "Submit a bug report"
 msgstr "バグレポートを送信"
 
+#, qt-format
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
 msgstr "リモート %1 から切断"
 
+#, qt-format
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
 msgstr "リモート %1 に接続"
@@ -2939,6 +3003,7 @@ msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
 msgstr "%content_type% - コンテンツタイプ (例: \"音楽\")"
 
+#, qt-format
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
 msgstr "%server% - サーバーの名前 (例: \"%1\")"
@@ -3047,10 +3112,12 @@ msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "シャットダウン"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
 msgstr "リモート %1 から切断"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
 msgstr "リモート %1 に接続"
@@ -3073,14 +3140,13 @@ msgstr "終了"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
-msgstr ""
-"「カタツムリモード」 はダウンロードを停止することなく、帯域幅を解放することがで"
-"きます。"
+msgstr "「カタツムリモード」 はダウンロードを停止することなく、帯域幅を解放することができます。"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "カタツムリモード"
 
+#, qt-format
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -3108,9 +3174,7 @@ msgstr "無制限"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Snail mode frees bandwidth without stopping downloads."
-msgstr ""
-"「カタツムリモード」 はダウンロードを停止することなく、帯域幅を解放することがで"
-"きます。"
+msgstr "「カタツムリモード」 はダウンロードを停止することなく、帯域幅を解放することができます。"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Snail mode"
@@ -3120,6 +3184,7 @@ msgctxt "MainStatusBar_V2|"
 msgid "Set the traffic usage mode"
 msgstr "トラフィック使用モードの設定"
 
+#, qt-format
 msgctxt "MainStatusBar_V2|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -3131,15 +3196,12 @@ msgstr "合計サイズ:"
 
 msgctxt "MainStatusBar_V2|"
 msgid ""
-"Snail Mode puts active downloads into sleep mode, freeing up as much Internet "
-"bandwidth as possible. When you turn it off, all active downloads will resume "
-"at normal speed. Snail Mode is especially useful when your Internet is slow "
-"and you need to make a call, for example."
+"Snail Mode puts active downloads into sleep mode, freeing up as much "
+"Internet bandwidth as possible. When you turn it off, all active downloads "
+"will resume at normal speed. Snail Mode is especially useful when your "
+"Internet is slow and you need to make a call, for example."
 msgstr ""
-"カタツムリモードは、アクティブなダウンロードをスリープモードにし、可能な限りイ"
-"ンターネット帯域幅を解放します。これをオフにすると、すべてのアクティブなダウン"
-"ロードは通常の速度で再開されます。カタツムリモードは、インターネットが遅いとき"
-"に電話をかける必要がある場合などに特に役立ちます。"
+"カタツムリモードは、アクティブなダウンロードをスリープモードにし、可能な限りインターネット帯域幅を解放します。これをオフにすると、すべてのアクティブなダウンロードは通常の速度で再開されます。カタツムリモードは、インターネットが遅いときに電話をかける必要がある場合などに特に役立ちます。"
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
@@ -3261,6 +3323,7 @@ msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
 msgstr "再生する準備ができました"
 
+#, qt-format
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
 msgstr "%1 を再生する準備ができました"
@@ -3297,6 +3360,7 @@ msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
 msgstr "スキップ"
 
+#, qt-format
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr "すべてスキップ (%1)"
@@ -3337,10 +3401,12 @@ msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
 msgstr "ダウンロードの移動に失敗しました"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
 msgstr "エラー: %1"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
 msgstr "移動できません: %1"
@@ -3647,8 +3713,7 @@ msgstr "このダウンロードは再開に対応していない可能性があ
 
 msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
-msgstr ""
-"再開に対応していないファイルをダウンロードする場合はスリープモードを回避する"
+msgstr "再開に対応していないファイルをダウンロードする場合はスリープモードを回避する"
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
@@ -3658,6 +3723,7 @@ msgctxt "Notification|"
 msgid "Ready to play"
 msgstr "再生する準備ができました"
 
+#, qt-format
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
 msgstr "%1 には権限がありません"
@@ -3670,9 +3736,7 @@ msgctxt "OsPermissionsDialog|"
 msgid ""
 "You can grant these permissions using the Application details screen within "
 "your system's settings."
-msgstr ""
-"システムの設定にあるアプリケーションの詳細画面を使用して、これらの権限を付与す"
-"ることができます。"
+msgstr "システムの設定にあるアプリケーションの詳細画面を使用して、これらの権限を付与することができます。"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Don't show again"
@@ -3706,6 +3770,7 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "接続数"
 
+#. Browse for a file
 msgctxt "PickFileButton|"
 msgid "Browse..."
 msgstr "参照..."
@@ -3714,6 +3779,7 @@ msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "ダウンロード中にファイルを再生する"
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
 msgstr "%1 のアドオンに満足していますか?"
@@ -3723,12 +3789,12 @@ msgid ""
 "We would like to ask you to help this add-on to reach its potential users."
 msgstr "このアドオンが様々なユーザーに届くよう、皆様のご協力をお願いいたします。"
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid ""
 "Please use your favorite social networks and forums to let the other people "
 "know about %1 and %2."
-msgstr ""
-"お気に入りの SNS やフォーラムを使って他の人に %1 と %2 を紹介しましょう。"
+msgstr "お気に入りの SNS やフォーラムを使って他の人に %1 と %2 を紹介しましょう。"
 
 msgctxt "PluginBannerDialog|"
 msgid "Remind me later"
@@ -3782,6 +3848,7 @@ msgctxt "PluginsPage|"
 msgid "Install add-on from file"
 msgstr "ファイルからアドオンをインストール"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "%1 アドオンの詳細を確認する"
@@ -3794,6 +3861,7 @@ msgctxt "PluginsPage|"
 msgid "Cancel"
 msgstr "キャンセル"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
 msgstr "%1 のアドオンファイル"
@@ -3826,6 +3894,7 @@ msgctxt "PluginsPage|"
 msgid "The following required components are missing:"
 msgstr "以下の必要なコンポーネントが不足しています:"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 is required."
 msgstr "%1 が必要です。"
@@ -3850,10 +3919,12 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
 msgstr "警告!"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
 msgstr "新しいバージョンの %1 アドオンが複数の危険な権限を要求しています:"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
 msgstr "新しいバージョンの %1 アドオンが危険な権限を要求しています:"
@@ -3866,6 +3937,7 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
 msgstr "インストールを続行しますか?"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid ""
 "New version of %1 add-on requires additional components:\n"
@@ -3874,6 +3946,7 @@ msgstr ""
 "%1 新しいバージョンの %1 アドオンには、以下の追加のコンポーネントが必要です:\n"
 "%2"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requires %2."
 msgstr "新しいバージョンの %1 アドオンには %2 が必要です。"
@@ -3902,6 +3975,7 @@ msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "更新しています..."
 
+#, qt-format
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
 msgstr "バージョン %1"
@@ -3930,14 +4004,15 @@ msgctxt "PrivacyDialog|"
 msgid "User agreement"
 msgstr "利用規約"
 
+#, qt-format
 msgctxt "PrivacyDialog|"
 msgid ""
-"A bug report will be sent to the server and used to improve %1 performance. We "
-"do not collect your personal data and do not share data with third parties."
+"A bug report will be sent to the server and used to improve %1 performance. "
+"We do not collect your personal data and do not share data with third "
+"parties."
 msgstr ""
-"バグレポートがサーバーに送信され、%1 のパフォーマンス向上のために使用されます。"
-"あなたの個人データを収集したり、第三者とデータを共有したりすることはありませ"
-"ん。"
+"バグレポートがサーバーに送信され、%1 "
+"のパフォーマンス向上のために使用されます。あなたの個人データを収集したり、第三者とデータを共有したりすることはありません。"
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
@@ -3994,6 +4069,7 @@ msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
 msgstr "アプリケーションのステートマネージャの初期化に失敗しました。"
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "\n"
@@ -4010,14 +4086,17 @@ msgctxt "QObject|"
 msgid "Drag-and-drop URL"
 msgstr "URL をドラッグ＆ドロップ"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
 msgstr "このデバイスは %1 に対応していません。"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr "%1 の初期化に失敗しました。再インストールしてください。"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Reason: %1"
 msgstr "理由: %1"
@@ -4034,6 +4113,7 @@ msgctxt "QObject|"
 msgid "Show main window"
 msgstr "メインウィンドウを表示"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "About %1"
 msgstr "%1 について"
@@ -4050,74 +4130,92 @@ msgctxt "QObject|"
 msgid "Check for updates..."
 msgstr "更新を確認..."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B"
 msgstr "%1 B"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB"
 msgstr "%1 KB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB"
 msgstr "%1 MB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB"
 msgstr "%1 GB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB"
 msgstr "%1 TB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G"
 msgstr "%1 G"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 T"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B/s"
 msgstr "%1 B/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB/s"
 msgstr "%1 KB/秒"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB/s"
 msgstr "%1 MB/秒"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB/s"
 msgstr "%1 GB/秒"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB/s"
 msgstr "%1 TB/秒"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K/s"
 msgstr "%1 K/秒"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M/s"
 msgstr "%1 M/秒"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G/s"
 msgstr "%1 G/秒"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T/s"
 msgstr "%1 T/秒"
@@ -4186,6 +4284,7 @@ msgctxt "QObject|"
 msgid "Unknown file I/O error"
 msgstr "不明なファイルの I/O エラーが発生しました"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "HTTP Error %1"
 msgstr "HTTP エラー %1"
@@ -4518,6 +4617,7 @@ msgctxt "QObject|"
 msgid "Failed to remove current version"
 msgstr "現在のバージョンの削除に失敗しました"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "hdiutil error %1"
 msgstr "hdiutil エラー %1"
@@ -4530,18 +4630,22 @@ msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr "署名の確認に失敗しました。"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download with %1"
 msgstr "%1 でダウンロード"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download all with %1"
 msgstr "%1 ですべてダウンロード"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download selected with %1"
 msgstr "選択項目を %1 でダウンロード"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download video with %1"
 msgstr "%1 で動画をダウンロード"
@@ -4558,6 +4662,7 @@ msgctxt "QObject|"
 msgid "There is not enough disk space."
 msgstr "ディスクの空き容量が十分ではありません。"
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "The list of downloads is damaged.\n"
@@ -4572,6 +4677,7 @@ msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
 msgstr "致命的なエラー: データベースの読み込みに失敗しました。"
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
@@ -4634,14 +4740,19 @@ msgctxt "QObject|"
 msgid "Files were modified"
 msgstr "ファイルが修正されました"
 
+#. 10 MB of unknown at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
 msgstr "％2 で不明な点 %1"
 
+#. 10 MB of 200 MB at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
 msgstr "%1 of %2 at %3"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
 msgstr "%1 %2 より大きい"
@@ -4666,10 +4777,12 @@ msgctxt "QObject|"
 msgid "Missing components"
 msgstr "コンポーネントが見つかりません"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 are required"
 msgstr "%1 が必要です"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 is required"
 msgstr "%1 が必要です"
@@ -4694,6 +4807,7 @@ msgctxt "QObject|"
 msgid "Invalid version."
 msgstr "無効なバージョンです。"
 
+#, qt-format
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
 msgstr "%1 が 0 ではない (%2) 終了状態を返しました"
@@ -4708,8 +4822,7 @@ msgstr "gzip で開くことは、読み出しと書き込みの両方で対応�
 
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr ""
-"gzip は読み出し用と書き込み用のどちらかを開くことができます。どちらにしますか?"
+msgstr "gzip は読み出し用と書き込み用のどちらかを開くことができます。どちらにしますか?"
 
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
@@ -4723,6 +4836,7 @@ msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
 msgstr "QuaZIODevice では QIODevice::ReadWrite に対応していません"
 
+#, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
 msgstr "ZIP/UNZIP API エラー %1"
@@ -4747,6 +4861,7 @@ msgctxt "RemoteControlSettings|"
 msgid "(beta)"
 msgstr "(ベータ)"
 
+#, qt-format
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
 msgstr "このデバイス上で動作している %1 へのリモートアクセスを許可する"
@@ -4823,6 +4938,7 @@ msgctxt "ReportSentDialog|"
 msgid "Report problem"
 msgstr "問題の報告"
 
+#, qt-format
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "エラーによりレポートが送信できませんでした。エラー: %1"
@@ -4971,6 +5087,7 @@ msgctxt "SearchToolbar|"
 msgid "Search"
 msgstr "検索"
 
+#, qt-format
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
 msgstr "選択済み: %1"
@@ -5089,8 +5206,7 @@ msgstr "キャンセル"
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be put to sleep after all downloads are completed."
-msgstr ""
-"すべてのダウンロードが完了すると、コンピューターはスリープ状態になります。"
+msgstr "すべてのダウンロードが完了すると、コンピューターはスリープ状態になります。"
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be hibernate after all downloads are completed."
@@ -5098,8 +5214,7 @@ msgstr "すべてのダウンロードが完了すると、コンピューター
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be shutdown after all downloads are completed."
-msgstr ""
-"すべてのダウンロードが完了すると、コンピューターはシャットダウンされます。"
+msgstr "すべてのダウンロードが完了すると、コンピューターはシャットダウンされます。"
 
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
@@ -5109,6 +5224,7 @@ msgctxt "ShutdownDialog|"
 msgid "Cancel"
 msgstr "キャンセル"
 
+#, qt-format
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
 msgstr "OK (%1)"
@@ -5161,6 +5277,7 @@ msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL 証明書が無効です。"
 
+#, qt-format
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
 msgstr "%1 のキーフィンガープリント"
@@ -5181,8 +5298,7 @@ msgctxt "SslDialog|"
 msgid ""
 "If you trust this host, select Accept to remember the key and carry on "
 "connecting."
-msgstr ""
-"このホストが信頼できる場合は、同意を選択してキーを記憶し、接続を続行します。"
+msgstr "このホストが信頼できる場合は、同意を選択してキーを記憶し、接続を続行します。"
 
 msgctxt "SslDialog|"
 msgid "Accept"
@@ -5276,6 +5392,7 @@ msgctxt "SubmitBugReportDialog|"
 msgid "E-mail"
 msgstr "メールアドレス"
 
+#, qt-format
 msgctxt "SubmitBugReportDialog|"
 msgid "Attach %1 log files (recommended)"
 msgstr "%1 のログファイルを添付 (推奨)"
@@ -5444,6 +5561,7 @@ msgctxt "TumComboBox|"
 msgid "unlimited"
 msgstr "無制限"
 
+#, qt-format
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
 msgstr "ダウンロード: %1, アップロード: %2"
@@ -5496,6 +5614,7 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "トラフィック制限を変更する"
 
+#, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
 msgstr "値を %1 以下にする必要があります"
@@ -5528,14 +5647,17 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
 msgstr "選択したフォルダーへのアクセス権がありません"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "サイズ: %1 (ディスクの空き容量: %2)"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
 msgstr "ディスクの空き: %1"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "サイズ: %1"
@@ -5580,6 +5702,7 @@ msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "新しいバージョンが利用可能です"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
 msgstr "%1 の更新内容"
@@ -5588,6 +5711,7 @@ msgctxt "UpdateDialog|"
 msgid "Update"
 msgstr "更新"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
 msgstr "%1 は最新です"
@@ -5624,6 +5748,7 @@ msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
 msgstr "インストール中にエラーが発生しました:"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
 msgstr "更新するために %1 を再起動する"
@@ -5644,6 +5769,7 @@ msgctxt "VideoQuality|"
 msgid "Quality:"
 msgstr "画質:"
 
+#, qt-format
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
 msgstr "%1 を楽しんでいますか?"
@@ -5680,10 +5806,12 @@ msgctxt "WaitingPage|"
 msgid "Loading"
 msgstr "読み込んでいます"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
 msgstr "%1 への接続"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Error: %1"
 msgstr "エラー: %1"
@@ -5704,6 +5832,7 @@ msgctxt "WhatsNewDialog|"
 msgid "New version is available"
 msgstr "新しいバージョンが利用可能です"
 
+#, qt-format
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
 msgstr "%1 の更新内容"
@@ -5712,6 +5841,7 @@ msgctxt "WhatsNewDialog|"
 msgid "Update"
 msgstr "更新"
 
+#, qt-format
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "エラーによりレポートが送信できませんでした。エラー: %1"
@@ -5720,6 +5850,7 @@ msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "レポートを送信しました。ご協力ありがとうございました!"
 
+#, qt-format
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "%1 へのリモート接続"
