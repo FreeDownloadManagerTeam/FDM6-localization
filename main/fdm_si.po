@@ -12,14 +12,18 @@ msgctxt "AboutDialog|"
 msgid "About"
 msgstr "ගැන"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
 msgstr "අනුවාදය: %1 (%2)"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
 msgstr "දිනය ගොඩනැගීම: %1"
 
+#. © FreeDownloadManager.org, 2004-2023
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
@@ -28,6 +32,7 @@ msgctxt "AboutDialog|"
 msgid "remote control"
 msgstr "දුරස්ථ පාලකය"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "අනුවාදය %1"
@@ -36,6 +41,7 @@ msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "හරි"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "අනුවාදය %1 (%2)"
@@ -71,6 +77,10 @@ msgstr "හරි"
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
 msgstr "සමාන සේවාදායක URL ඇතුලත් කරන්න"
+
+msgctxt "AddNewTagMenuItem|"
+msgid "Add tag"
+msgstr "ටැගය එක් කරන්න"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -108,6 +118,7 @@ msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
 msgstr "දැනුම්දීමේ මධ්යස්ථානය හරහා අසාර්ථක බාගත කිරීම් ගැන මට දැනුම් දෙන්න"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "%1 කවුළුව අක් රිය වූ විට පමණක් බාගත කිරීම් ගැන මට දැනුම් දෙන්න"
@@ -144,6 +155,7 @@ msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "අතුරු මුහුණත"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
@@ -341,6 +353,7 @@ msgctxt "AllDownloadsSortModeButton|"
 msgid "Newest"
 msgstr "අලුත්ම"
 
+#. sort by title mode
 msgctxt "AllDownloadsSortModeButton|"
 msgid "A-Z"
 msgstr "A-Z"
@@ -425,10 +438,12 @@ msgctxt "AppAndroidPermissionsManager|"
 msgid "Notifications"
 msgstr "දැනුම්දීම්"
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
 msgstr "%1 ඔබගේ දේශීය ගබඩාවට බාගත කරන ලද ගොනු සුරැකීමට අවසර අවශ්ය වේ."
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
@@ -437,26 +452,32 @@ msgstr ""
 "%1 ඔබගේ පද්ධතියේ දැනුම්දීමේ පුවරුව තුළ බාගත කිරීමේ ප්රගතිය පෙන්වීමට අවසර "
 "අවශ් ය වේ."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
 msgstr "නැවත ආරම්භ කිරීමේ සහාය (%1).නොමැතිව බාගත කිරීම්."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
 msgstr "ගොනු චලනය කිරීම (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
 msgstr "ගොනු mp3 (%1) වෙත පරිවර්තනය කිරීම."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
 msgstr "ගොනු mp4 (%1) වෙත පරිවර්තනය කිරීම."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
 msgstr "ගොනු නම් කිරීම (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "මාධ්ය ධාරා ඒකාබද්ධ කිරීම (%1)."
@@ -477,10 +498,12 @@ msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "නැවත ආරම්භ කිරීමේ හැකියාවක් නොමැති මෙහෙයුම් සිදුවෙමින් පවතී"
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
 msgstr "දුරස්ථ %1 (%2) වෙත සම්බන්ධ වීම..."
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
 msgstr "දුරස්ථ %1 (%2) වෙතින් දත්ත ලබා ගැනීම..."
@@ -493,10 +516,12 @@ msgctxt "AuthDialog|"
 msgid "Authentication required"
 msgstr "සත්‍යාපනය අවශ්යයි"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
 msgstr "%1 ට සත්‍යාපනය අවශ්යයි"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
 msgstr "වෙබ් අඩවිය මෙසේ පවසයි: \"%1\"."
@@ -525,6 +550,7 @@ msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "සත්‍යාපනය අවශ්යයි"
 
+#, qt-format
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
 msgstr "වෙබ් අඩවිය මෙසේ පවසයි: \"%1\"."
@@ -557,6 +583,7 @@ msgctxt "AuthenticationPage|"
 msgid "OK"
 msgstr "හරි"
 
+#, qt-format
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
 msgstr "වෙබ් අඩවිය මෙසේ පවසයි: \"%1\"."
@@ -661,6 +688,7 @@ msgctxt "BitrateComboBox|"
 msgid "kbps"
 msgstr "kbps"
 
+#, qt-format
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
 msgstr "%1%2 සිට%3%4 දක්වා"
@@ -745,6 +773,7 @@ msgctxt "Browser|"
 msgid "NO"
 msgstr "නෑ"
 
+#, qt-format
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
 msgstr "%1 වෙත ආපසු යන්න"
@@ -765,10 +794,12 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr "පිටු සලකුණු එකතු කරන්න"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
 msgstr "%1 දිගුව බාගත කරන්න"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
 msgstr "%1 ස්ථාපනය කර නැත"
@@ -777,6 +808,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "බ්රව්සර් ඒකාබද්ධ කිරීම"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
@@ -829,6 +861,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
 msgstr "Mbytes"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "%1 හරහා බාගත කිරීම අවලංගු කරන්නේ නම් බ් රව්සරය භාවිතා කරන්න"
@@ -841,6 +874,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Capture files with extensions"
 msgstr ""
 
+#, qt-format
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -873,6 +907,7 @@ msgctxt "BtDetailsTab|"
 msgid "N/A"
 msgstr "N/A"
 
+#, qt-format
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
 msgstr "(සම්බන්ධ: %1)"
@@ -929,6 +964,7 @@ msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "අධි"
 
+#, qt-format
 msgctxt "BtSettings|"
 msgid "Current port: %1"
 msgstr "වත්මන් සම්බන්ධන අංකය: %1"
@@ -995,10 +1031,12 @@ msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
 msgstr "මෙම වෙබ් අඩවියෙන් බාගත කිරීමට අවසර නැත"
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
 msgstr "ප්රොක්සි%1 සඳහා පරිශීලක නාමයක් සහ මුරපදයක් අවශ්ය වේ."
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
 msgstr "%1 ඔබගේ පරිශීලක නාමය සහ මුරපදය ඉල්ලා සිටී."
@@ -1011,6 +1049,7 @@ msgctxt "ButtonsBlock|"
 msgid "Please select download link"
 msgstr "කරුණාකර බාගත කිරීමේ සබැඳිය තෝරන්න"
 
+#, qt-format
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "ඔබට වරකට%1 සබැඳි වලට වඩා තෝරා ගත නොහැක"
@@ -1059,6 +1098,7 @@ msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
 msgstr "නව URL ඇතුලත් කරන්න"
 
+#, qt-format
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
 msgstr "ගොනු පිහිටීම: %1"
@@ -1091,6 +1131,7 @@ msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
 msgstr "නව URL ඇතුලත් කරන්න"
 
+#, qt-format
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
 msgstr "ගොනු පිහිටීම: %1"
@@ -1118,6 +1159,7 @@ msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Cancel"
 msgstr "අවලංගු කරන්න"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "දුරස්ථ %1 වෙත සම්බන්ධ වන්න"
@@ -1126,6 +1168,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
 msgstr "(බීටා)"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
 msgstr "මෙහිදී ඔබට වෙනත් උපාංගයක් මත ධාවනය වන %1 වෙත සම්බන්ධ විය හැකිය."
@@ -1134,10 +1177,12 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "ආරම්භයේ දී ස්වයංක්රීයව සම්බන්ධ වන්න"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
 msgstr "කරුණාකර %1 ඇතුලත් කරන්න, නැතහොත් <a href='#'>ඉරිත QR කේතයක්</a>"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
 "Both %1 and QR code are located inside of Preferences page of %2 you're "
@@ -1145,6 +1190,7 @@ msgid ""
 msgstr ""
 "%1 සහ QR කේත දෙකම ඔබ සම්බන්ධ වීමට යන%2 හි මනාප පිටුව ේ ඇතුළත පිහිටා ඇත."
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
 msgstr "%1 ආරම්භයේ දී ස්වයංක්රීයව සම්බන්ධ වන්න"
@@ -1157,6 +1203,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "OK"
 msgstr "හරි"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
@@ -1231,6 +1278,7 @@ msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
 msgstr "ආරම්භ කිරීමට අසමත් විය."
 
+#, qt-format
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
 msgstr "දෝෂය: %1"
@@ -1247,12 +1295,14 @@ msgctxt "CppQmlLocalizations|"
 msgid "Yesterday"
 msgstr "ඊයේ"
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr ""
 "අභ්‍යන්තර දෝෂයක් ඇති විය. <br>%1 වැඩිදුර භාවිතය සඳහා නැවත ආරම්භ කළ යුතුය."
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
 msgstr "%1 ස්වයංක් රීයව නැවත ආරම්භ කරන්න"
@@ -1282,6 +1332,7 @@ msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
 msgstr "අතේ ගෙන යා හැකි අනුවාදය සාදන්න"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
@@ -1318,10 +1369,12 @@ msgctxt "CreatePortableDialog|"
 msgid "OK"
 msgstr "හරි"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
 msgstr "Creating %1%"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
 msgstr "එහා මෙහා ගෙන යා හැකි අනුවාදයක් නිර්මාණය කිරීමේදී දෝෂයක් ඇති විය: %1"
@@ -1450,14 +1503,17 @@ msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "නවත්වන්න"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "තරම: %1 (තැටි අවකාශය: %2)"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
 msgstr "තැටි අවකාශය: %1"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "තරම: %1"
@@ -1546,6 +1602,8 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "සම්පුර්ණ කර ඇත"
 
+#. [50%] - myfile.txt
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1586,6 +1644,8 @@ msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "බාගත කර ඇත"
 
+#. 50% [200 MB]
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
 msgstr "%1% [%2]"
@@ -1662,14 +1722,17 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "තැටිය අතුරුදහන් වී ඇත"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
 msgstr ""
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "invalid (%1)"
 msgstr ""
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "unsupported (%1)"
 msgstr ""
@@ -1678,6 +1741,7 @@ msgctxt "DownloadsList|"
 msgid "Skipped downloads"
 msgstr ""
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "සබැඳි බාගත කරන්න (%1 තෝරාගත්)"
@@ -1691,10 +1755,6 @@ msgid "Select none"
 msgstr "කිසිවක් තෝරන්න"
 
 msgctxt "DownloadsPage|"
-msgid "Show all downloads"
-msgstr ""
-
-msgctxt "DownloadsPage|"
 msgid "Download list is empty."
 msgstr "බාගත ලැයිස්තුව හිස්ය."
 
@@ -1706,6 +1766,7 @@ msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "සඳහා කිසිදු ප්රතිඵලයක් හමු වී නැත"
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
 msgstr "\"%1\" ටැග් කරන ලද ප්රතිඵල නොමැත"
@@ -1726,6 +1787,7 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "බාගත ලැයිස්තුව හිස්ය. නව බාගත URL එක් කරන්න."
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "දුරස්ථ%1 වෙත සම්බන්ධ වන්න"
@@ -1750,10 +1812,12 @@ msgctxt "DownloadsSettings|"
 msgid "Immediately"
 msgstr "වහාම"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "In"
 msgstr "තුළ"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "days"
 msgstr "දින"
@@ -1853,6 +1917,14 @@ msgstr "උඩුගත කරන්න"
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Added"
 msgstr "එකතු කර ඇත"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Remaining"
+msgstr ""
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Stopped"
+msgstr "නැවැත්තුවා"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -2062,6 +2134,18 @@ msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr "n/a"
 
+msgctxt "DownloadsViewItem_V2|"
+msgid "Priority"
+msgstr "ප්රමුඛතාවය"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Stopped"
+msgstr "නැවැත්තුවා"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Remaining"
+msgstr ""
+
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "පිළිවෙලට එකතු කර ඇත"
@@ -2089,10 +2173,6 @@ msgstr "තාවකාලිකව නවත්වා ඇත"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "සම්පූර්ණ කරන්න"
-
-msgctxt "DownloadsViewTools|"
-msgid "Downloads: %1"
-msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2179,6 +2259,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Cancel"
 msgstr "අවලංගු කරන්න"
 
+#, qt-format
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
 msgstr "සියලුම ගොනු (%1)"
@@ -2191,6 +2272,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Export"
 msgstr "අපනයනය"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
 msgstr "%1 බාගත කිරීම් ගොනු (%2)"
@@ -2203,6 +2285,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
 msgstr "URL ලැයිස්තුව"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
 msgstr "පෙළ ගොනු (%1)"
@@ -2211,6 +2294,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
 msgstr "CSV ගොනුව"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
 msgstr "CSV ගොනු (%1)"
@@ -2223,10 +2307,12 @@ msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
 msgstr "අවලංගු කරන්න"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
 msgstr "%1 සැකසුම් ගොනු (%2)"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
 msgstr "සියලුම ගොනු (%1)"
@@ -2239,6 +2325,7 @@ msgctxt "FileIntegrityDialog|"
 msgid "Hash"
 msgstr "හැෂ්"
 
+#, qt-format
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
 msgstr "ගණනය කිරීම %1%"
@@ -2283,6 +2370,7 @@ msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "හැෂ්"
 
+#, qt-format
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
 msgstr "ගණනය කිරීම %1%"
@@ -2311,6 +2399,7 @@ msgctxt "FileName|"
 msgid "File name"
 msgstr "ගොනුවේ නම"
 
+#, qt-format
 msgctxt "FileName|"
 msgid "%1 files (*.%2)"
 msgstr "%1 ගොනු (*.%2)"
@@ -2371,6 +2460,7 @@ msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
 msgstr "සියලුම බාගැනීම් සඳහා මගේ තේරීම මතක තබා ගන්න"
 
+#, qt-format
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
 msgstr "නැවත නම් කරන්න (%1)"
@@ -2544,10 +2634,6 @@ msgid "UI style"
 msgstr "UI ශෛලිය"
 
 msgctxt "GeneralSettings|"
-msgid "New (beta)"
-msgstr "නව (බීටා)"
-
-msgctxt "GeneralSettings|"
 msgid "Classic"
 msgstr "සම්භාව්ය"
 
@@ -2615,10 +2701,12 @@ msgctxt "GeneralSettings|"
 msgid "Immediately"
 msgstr "වහාම"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "In"
 msgstr "තුළ"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "days"
 msgstr "දින"
@@ -2654,6 +2742,10 @@ msgstr "යාවත්කාලීන ස්වයංක්රීයව ස්�
 msgctxt "GeneralSettings|"
 msgid "Mark downloaded files"
 msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "New"
+msgstr "නව"
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2727,6 +2819,7 @@ msgctxt "GeneralTab|"
 msgid "Added at:"
 msgstr "දී එකතු කරන ලදී:"
 
+#, qt-format
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
 msgstr "%2 න්%1"
@@ -2799,22 +2892,27 @@ msgctxt "ImportDialog|"
 msgid "Cancel"
 msgstr "අවලංගු කරන්න"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
 msgstr "සියලුම ගොනු (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
 msgstr "පෙළ ගොනු (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
 msgstr "%1 බාගත කිරීම් ගොනු (%2)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
 msgstr "%1 සැකසුම් ගොනු (%2)"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
 msgstr "දෝෂය: %1"
@@ -2827,6 +2925,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
 msgstr "ගොනුවෙන් URL ඇලවීමට අසමත් විය"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
 msgstr "ගොනුවෙන් URL ලැයිස්තුව ආනයනය කළ නොහැක: %1"
@@ -2835,6 +2934,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
 msgstr "අපනයනය කිරීමට අපොහොසත් විය"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
 msgstr "ගොනුව වෙත අපනයනය කළ නොහැක: %1"
@@ -2843,6 +2943,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
 msgstr "ආනයනය කිරීමට අපොහොසත් විය"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr "ගොනුවෙන් ආනයනය කළ නොහැක: %1"
@@ -2891,10 +2992,12 @@ msgctxt "LeftDrawer|"
 msgid "Submit a bug report"
 msgstr "දෝෂ වාර්තාවක් ඉදිරිපත් කරන්න"
 
+#, qt-format
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
 msgstr "දුරස්ථ%1 වෙතින් විසන්ධි කරන්න"
 
+#, qt-format
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
 msgstr "දුරස්ථ%1 වෙත සම්බන්ධ වන්න"
@@ -2923,6 +3026,7 @@ msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
 msgstr "%%content_type% - අන්තර්ගත වර්ගය (උදා: \"සංගීතය\")"
 
+#, qt-format
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
 msgstr "%server% - සේවාදායකයේ නම (උදා: \"%1\")"
@@ -2966,10 +3070,6 @@ msgstr "සම්පුර්ණ කර ඇත"
 msgctxt "MainFiltersBar|"
 msgid "Uncompleted"
 msgstr "සම්පූර්ණ නොකළ"
-
-msgctxt "MainFiltersBar|"
-msgid "OK to remove tag?"
-msgstr "ටැග් එක අයින් කරන්න කැමතිද?"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from clipboard"
@@ -3035,10 +3135,12 @@ msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "වසා දැමීම"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
 msgstr "දුරස්ථ%1 වෙතින් විසන්ධි කරන්න"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
 msgstr "දුරස්ථ%1 වෙත සම්බන්ධ වන්න"
@@ -3067,6 +3169,7 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "Snail mode"
 
+#, qt-format
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -3105,6 +3208,7 @@ msgctxt "MainStatusBar_V2|"
 msgid "Set the traffic usage mode"
 msgstr "වේග භාවිතා කිරීම් සකසන්න"
 
+#, qt-format
 msgctxt "MainStatusBar_V2|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -3114,6 +3218,14 @@ msgstr[1] "%n භාගත කිරීම් තෝරාගන්නා ලද
 msgctxt "MainStatusBar_V2|"
 msgid "Total size:"
 msgstr "මුළු ප්රමාණය:"
+
+msgctxt "MainStatusBar_V2|"
+msgid ""
+"Snail Mode puts active downloads into sleep mode, freeing up as much "
+"Internet bandwidth as possible. When you turn it off, all active downloads "
+"will resume at normal speed. Snail Mode is especially useful when your "
+"Internet is slow and you need to make a call, for example."
+msgstr ""
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
@@ -3237,6 +3349,7 @@ msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
 msgstr "ධාවනය කරන්න සූදානම්"
 
+#, qt-format
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
 msgstr "%1 ධාවනය කරන්න සූදානම්"
@@ -3273,6 +3386,7 @@ msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
 msgstr "මඟ හරින්න"
 
+#, qt-format
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr "සියල්ල මඟ හරින්න (%1)"
@@ -3313,10 +3427,12 @@ msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
 msgstr "බාගත කිරීම අසමත් වීම"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
 msgstr "දෝෂය: %1"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
 msgstr "චලනය කළ නොහැක: %1"
@@ -3633,6 +3749,7 @@ msgctxt "Notification|"
 msgid "Ready to play"
 msgstr "සෙල්ලම් කිරීමට සූදානම්"
 
+#, qt-format
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
 msgstr "%1 ට අවසර නැති වී ඇත"
@@ -3681,6 +3798,7 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "සම්බන්ධතා"
 
+#. Browse for a file
 msgctxt "PickFileButton|"
 msgid "Browse..."
 msgstr ""
@@ -3689,6 +3807,7 @@ msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "බාගත කරන අතරතුර ගොනුව ධාවනය කරන්න"
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
 msgstr "%1 ඇඩෝනය භාවිතා කිරීම භුක්ති විඳින්නද?"
@@ -3700,6 +3819,7 @@ msgstr ""
 "මෙම ඇඩෝනය එහි විභව පරිශීලකයින් වෙත ළඟා වීමට උපකාර කරන ලෙස අපි ඔබෙන් ඉල්ලා "
 "සිටීමට කැමැත්තෙමු."
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid ""
 "Please use your favorite social networks and forums to let the other people "
@@ -3760,6 +3880,7 @@ msgctxt "PluginsPage|"
 msgid "Install add-on from file"
 msgstr "ගොනුවෙන් ඇඩෝන ස්ථාපනය කරන්න"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "%1 ඇඩෝන ගැන වැඩිදුර දැනගන්න"
@@ -3772,6 +3893,7 @@ msgctxt "PluginsPage|"
 msgid "Cancel"
 msgstr "අවලංගු කරන්න"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
 msgstr "%1 ඇඩෝන ගොනු"
@@ -3804,6 +3926,7 @@ msgctxt "PluginsPage|"
 msgid "The following required components are missing:"
 msgstr "පහත සඳහන් අවශ්ය සංරචක සොයාගත නොහැක:"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 is required."
 msgstr "%1 අවශ් යයි."
@@ -3828,10 +3951,12 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
 msgstr "අවවාදයක්!"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
 msgstr "%1 ඇඩෝනයේ නව අනුවාදය අනතුරුදායක අවසර ඉල්ලා සිටී:"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
 msgstr "%1 ඇඩෝනයේ නව අනුවාදය අනතුරුදායක අවසරයක් ඉල්ලයි:"
@@ -3844,6 +3969,7 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
 msgstr "ඔබ ස්ථාපනය දිගටම කරගෙන යාමට කැමතිද?"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid ""
 "New version of %1 add-on requires additional components:\n"
@@ -3852,6 +3978,7 @@ msgstr ""
 "%1 ඇඩෝනයේ නව අනුවාදයට අමතර සංරචක අවශ්ය වේ:\n"
 "%2"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requires %2."
 msgstr "%1 ඇඩෝනයේ නව අනුවාදය%2 අවශ්ය වේ."
@@ -3880,6 +4007,7 @@ msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "යාවත්කාලීන කිරීම..."
 
+#, qt-format
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
 msgstr "අනුවාදය: %1"
@@ -3908,6 +4036,7 @@ msgctxt "PrivacyDialog|"
 msgid "User agreement"
 msgstr "පරිශීලක ගිවිසුම"
 
+#, qt-format
 msgctxt "PrivacyDialog|"
 msgid ""
 "A bug report will be sent to the server and used to improve %1 performance. "
@@ -3973,6 +4102,7 @@ msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
 msgstr "යෙදුමේ තත්වය ආරම්භ කිරීමට අසමත් විය."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "\n"
@@ -3989,14 +4119,17 @@ msgctxt "QObject|"
 msgid "Drag-and-drop URL"
 msgstr "URL එක ඇද දමන්න"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
 msgstr "කණගාටුයි මෙම උපාංගය %1 විසින් සහය නොදක්වයි."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr "%1 ආරම්භ කිරීමට අසමත් වී ඇත. කරුණාකර නැවත ස්ථාපනය කරන්න."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Reason: %1"
 msgstr "හේතුව: %1"
@@ -4013,6 +4146,7 @@ msgctxt "QObject|"
 msgid "Show main window"
 msgstr "ප්රධාන කවුළුව පෙන්වන්න"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "About %1"
 msgstr "%1 ගැන"
@@ -4029,74 +4163,92 @@ msgctxt "QObject|"
 msgid "Check for updates..."
 msgstr "යාවත්කාලීන කිරීම් සඳහා පරීක්ෂා කරන්න..."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B"
 msgstr "%1 B"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB"
 msgstr "%1 KB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB"
 msgstr "%1 MB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB"
 msgstr "%1 GB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB"
 msgstr "%1 TB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G"
 msgstr "%1 G"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 T"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B/s"
 msgstr "%1 B/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB/s"
 msgstr "%1 KB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB/s"
 msgstr "%1 MB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB/s"
 msgstr "%1 GB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB/s"
 msgstr "%1 TB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K/s"
 msgstr "%1 K/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M/s"
 msgstr "%1 M/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G/s"
 msgstr "%1 G/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T/s"
 msgstr "%1 T/s"
@@ -4165,6 +4317,7 @@ msgctxt "QObject|"
 msgid "Unknown file I/O error"
 msgstr "නොදන්නා ගොනුවකි I/O දෝෂයකි"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "HTTP Error %1"
 msgstr "HTTP දෝෂය%1"
@@ -4497,6 +4650,7 @@ msgctxt "QObject|"
 msgid "Failed to remove current version"
 msgstr "වත්මන් අනුවාදය ඉවත් කිරීමට අසමත් විය"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "hdiutil error %1"
 msgstr "hdiutil error%1"
@@ -4509,18 +4663,22 @@ msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr "අත්සන පරික්ෂාව අසමත්."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download with %1"
 msgstr "%1 සමඟ බාගත කරන්න"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download all with %1"
 msgstr "%1 සමඟ සියල්ල බාගත කරන්න"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download selected with %1"
 msgstr "%1 සමඟ තෝරාගත් දේ බාගත කරන්න"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download video with %1"
 msgstr "%1 සමඟ වීඩියෝව බාගත කරන්න"
@@ -4537,6 +4695,7 @@ msgctxt "QObject|"
 msgid "There is not enough disk space."
 msgstr "ප්රමාණවත් තැටි ඉඩක් නැත."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "The list of downloads is damaged.\n"
@@ -4551,6 +4710,7 @@ msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
 msgstr "මාරාන්තික දෝෂය: දත්ත කියවීමට අසමත් විය."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
@@ -4615,14 +4775,19 @@ msgctxt "QObject|"
 msgid "Files were modified"
 msgstr "ගොනු වෙනස් කරන ලදී"
 
+#. 10 MB of unknown at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
 msgstr "%2 හි නොදන්නා%1"
 
+#. 10 MB of 200 MB at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
 msgstr "%3 හි%2 හි%1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
 msgstr "%1%2 හෝ ඊට වැඩි"
@@ -4647,10 +4812,12 @@ msgctxt "QObject|"
 msgid "Missing components"
 msgstr "අතුරුදන් සංරචක"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 are required"
 msgstr "%1 අවශ් ය වේ"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 is required"
 msgstr "%1 අවශ් ය වේ"
@@ -4667,6 +4834,15 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr "ෆෝල්ඩරය විවෘත කරන්න"
 
+msgctxt "QObject|"
+msgid "Security check failure."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Invalid version."
+msgstr ""
+
+#, qt-format
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
 msgstr "%1 ශුන් ය නොවන (%2) පිටවීමේ තත්වය ආපසු ලබා දුන්නේය"
@@ -4695,6 +4871,7 @@ msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
 msgstr "QIODevice::ReadWritece QuaZIODevice සඳහා සහාය නොදක්වයි"
 
+#, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
 msgstr "ZIP/UNZIP API දෝෂය%1"
@@ -4719,6 +4896,7 @@ msgctxt "RemoteControlSettings|"
 msgid "(beta)"
 msgstr "(බීටා)"
 
+#, qt-format
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
 msgstr "මෙම උපාංගයේ%1 ධාවනය වන දුරස්ථ ප්රවේශයට ඉඩ දෙන්න"
@@ -4795,6 +4973,7 @@ msgctxt "ReportSentDialog|"
 msgid "Report problem"
 msgstr "ගැටළු වාර්ථා කරන්න"
 
+#, qt-format
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "කණගාටුයි, වාර්තාව එවා නැත, දෝෂයක් ඇති විය: %1"
@@ -4943,6 +5122,7 @@ msgctxt "SearchToolbar|"
 msgid "Search"
 msgstr "සොයන්න"
 
+#, qt-format
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
 msgstr "තෝරාගත්තා: %1"
@@ -5079,6 +5259,7 @@ msgctxt "ShutdownDialog|"
 msgid "Cancel"
 msgstr "අවලංගු කරන්න"
 
+#, qt-format
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
 msgstr "හරි (%1)"
@@ -5131,6 +5312,7 @@ msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL සහතිකය වලංගු නොවේ."
 
+#, qt-format
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
 msgstr "%1 යතුරේ සලකුණු"
@@ -5247,6 +5429,7 @@ msgctxt "SubmitBugReportDialog|"
 msgid "E-mail"
 msgstr "ඊමේල්"
 
+#, qt-format
 msgctxt "SubmitBugReportDialog|"
 msgid "Attach %1 log files (recommended)"
 msgstr "අමුණන්න%1 විස්තර ගොනු (නිර්දේශිත)"
@@ -5399,6 +5582,10 @@ msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "සඟවන්න"
 
+msgctxt "TroubleshootingSettings|"
+msgid "Enable downloads management logging"
+msgstr ""
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "අසීමිත"
@@ -5411,6 +5598,7 @@ msgctxt "TumComboBox|"
 msgid "unlimited"
 msgstr "අසීමිත"
 
+#, qt-format
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
 msgstr "බාගත: %1, උඩුගත: %2"
@@ -5463,6 +5651,7 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "වේග සීමාවන් වෙනස් කරන්න"
 
+#, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
 msgstr "%1 ට වඩා වැඩි විය නොහැක"
@@ -5495,14 +5684,17 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
 msgstr "තෝරාගත් නාමාවලියට ලිඛිත අවසරයක් නොමැත"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "ප්‍රමාණය: %1 (තැටියේ ඉඩ: %2)"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
 msgstr "තැටියේ ඉඩ: %1"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "ප්‍රමාණය: %1"
@@ -5547,6 +5739,7 @@ msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "නව අනුවාදය ලබා ගත හැකිය"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
 msgstr "%1 හි අලුත් දේ"
@@ -5555,6 +5748,7 @@ msgctxt "UpdateDialog|"
 msgid "Update"
 msgstr "යාවත්කාලීන කරන්න"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
 msgstr "%1 යාවත්කාලීන වේ"
@@ -5591,6 +5785,7 @@ msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
 msgstr "ස්ථාපනයේදී දෝෂයක් සිදු විය:"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
 msgstr "යාවත්කාලීන කිරීම සඳහා%1 නැවත දියත් කරන්න"
@@ -5611,6 +5806,7 @@ msgctxt "VideoQuality|"
 msgid "Quality:"
 msgstr "තත්ත්ව:"
 
+#, qt-format
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
 msgstr "%1 භුක්ති විඳිනවද?"
@@ -5647,10 +5843,12 @@ msgctxt "WaitingPage|"
 msgid "Loading"
 msgstr "පූරණය වෙමින් පවතී"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
 msgstr "%1 වෙත සම්බන්ධ වීම"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Error: %1"
 msgstr "දෝෂය: %1"
@@ -5671,6 +5869,7 @@ msgctxt "WhatsNewDialog|"
 msgid "New version is available"
 msgstr "නව අනුවාදය ලබා ගත හැකිය"
 
+#, qt-format
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
 msgstr "%1 හි අලුත් දේ"
@@ -5679,6 +5878,7 @@ msgctxt "WhatsNewDialog|"
 msgid "Update"
 msgstr "යාවත්කාලීන කරන්න"
 
+#, qt-format
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "කණගාටුයි, වාර්තාව එවා නැත, දෝෂයක් ඇති විය: %1"
@@ -5687,6 +5887,7 @@ msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "වාර්තාව යැවීය. ඔබගේ සහයෝගයට ස්තුතියි!"
 
+#, qt-format
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "%1 වෙත දුරස්ථ සම්බන්ධතාවය"
@@ -5698,3 +5899,7 @@ msgstr "බාගත එකතු කරන්න"
 msgctxt "main|"
 msgid "New download"
 msgstr "නව බාගත කිරීමක්"
+
+msgctxt "main|"
+msgid "OK to remove tag?"
+msgstr "ටැග් එක අයින් කරන්න කැමතිද?"

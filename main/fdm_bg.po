@@ -12,14 +12,18 @@ msgctxt "AboutDialog|"
 msgid "About"
 msgstr "За програмата"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
 msgstr "Версия %1 (%2)"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
 msgstr "Дата на компилация: %1"
 
+#. © FreeDownloadManager.org, 2004-2023
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
@@ -28,6 +32,7 @@ msgctxt "AboutDialog|"
 msgid "remote control"
 msgstr "дистанционно управление"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "версия %1"
@@ -36,6 +41,7 @@ msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "OK"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "Версия %1 (%2)"
@@ -71,6 +77,10 @@ msgstr "OK"
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
 msgstr "Въведи URL на огледалния адрес"
+
+msgctxt "AddNewTagMenuItem|"
+msgid "Add tag"
+msgstr "Добавете етикет"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -108,6 +118,7 @@ msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
 msgstr "Уведомяване за неуспешни изтегляния чрез Notification Center"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "Уведомяване за изтегляния само когато %1 прозореца е неактивен"
@@ -144,6 +155,7 @@ msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "Интерфейс"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
@@ -345,6 +357,7 @@ msgctxt "AllDownloadsSortModeButton|"
 msgid "Newest"
 msgstr "Най-нови"
 
+#. sort by title mode
 msgctxt "AllDownloadsSortModeButton|"
 msgid "A-Z"
 msgstr "А-Я"
@@ -429,10 +442,12 @@ msgctxt "AppAndroidPermissionsManager|"
 msgid "Notifications"
 msgstr "Уведомления"
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
 msgstr "%1 се нуждае от разрешение за запазване на изтеглените файлове."
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
@@ -441,26 +456,32 @@ msgstr ""
 "%1 се нуждае от разрешение за показване на напредъка на изтеглянето в панела "
 "за известия на вашата система."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
 msgstr "Изтегляния не поддържащи възобновяване (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
 msgstr "Преместване на файлове (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
 msgstr "Конвертиране на файлове в mp3 (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
 msgstr "Конвертиране на файлове в mp4 (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
 msgstr "Преименуване на файлове (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Сливане на медийни потоци (%1)."
@@ -481,10 +502,12 @@ msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "В момента се извършват операции без възможност за възобновяване"
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
 msgstr "Свързване към отдалечен %1 (%2)..."
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
 msgstr "Получаване на информация от отдалечен %1 (%2)..."
@@ -497,10 +520,12 @@ msgctxt "AuthDialog|"
 msgid "Authentication required"
 msgstr "Необходима е идентификация"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
 msgstr "%1 изисква удостоверяване"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
 msgstr "Сайта казва: \"%1\"."
@@ -529,6 +554,7 @@ msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "Необходима е идентификация"
 
+#, qt-format
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
 msgstr "Сайта казва: \"%1\"."
@@ -561,6 +587,7 @@ msgctxt "AuthenticationPage|"
 msgid "OK"
 msgstr "OK"
 
+#, qt-format
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
 msgstr "Сайта казва: \"%1\"."
@@ -665,6 +692,7 @@ msgctxt "BitrateComboBox|"
 msgid "kbps"
 msgstr "кбвс"
 
+#, qt-format
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
 msgstr "От %1 %2 към %3 %4"
@@ -749,6 +777,7 @@ msgctxt "Browser|"
 msgid "NO"
 msgstr "НЕ"
 
+#, qt-format
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
 msgstr "Обратно към %1"
@@ -769,10 +798,12 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr "Добавете маркер"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
 msgstr "Изтеглете добавка за %1"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
 msgstr "%1 не е инсталиран"
@@ -781,6 +812,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "Интегриране в браузъра"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
@@ -833,6 +865,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
 msgstr "Мбайта"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Използване на браузъра при отмяна на изтеглянето с %1"
@@ -843,8 +876,9 @@ msgstr "Без прихващане ако е натиснат клавиш INSE
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Capture files with extensions"
-msgstr ""
+msgstr "Прихващане на файлове с разширения"
 
+#, qt-format
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -876,6 +910,7 @@ msgctxt "BtDetailsTab|"
 msgid "N/A"
 msgstr "N/A"
 
+#, qt-format
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
 msgstr "(свързан: %1)"
@@ -932,6 +967,7 @@ msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "Допълнителни"
 
+#, qt-format
 msgctxt "BtSettings|"
 msgid "Current port: %1"
 msgstr "Текущ порт: %1"
@@ -998,10 +1034,12 @@ msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
 msgstr "Изтеглянето от този сайт не е позволено"
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
 msgstr "Прокси сървър %1 изисква потребителско име и парола."
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
 msgstr "%1 очаква вашето потребителско име и парола."
@@ -1014,6 +1052,7 @@ msgctxt "ButtonsBlock|"
 msgid "Please select download link"
 msgstr "Изберете линк за изтегляне"
 
+#, qt-format
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "Не може да избирате повече от %1 линка едновременно"
@@ -1048,11 +1087,11 @@ msgstr "Изтегляне"
 
 msgctxt "ButtonsBlock|"
 msgid "The subfolder name must not be empty"
-msgstr ""
+msgstr "Името на подпапка не трябва да е празно"
 
 msgctxt "ButtonsBlock|"
 msgid "The filename must not be empty"
-msgstr ""
+msgstr "Името на файла не трябва да е празно"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -1062,6 +1101,7 @@ msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
 msgstr "Въведи нов URL"
 
+#, qt-format
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
 msgstr "Местоположение на файла: %1"
@@ -1094,6 +1134,7 @@ msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
 msgstr "Въведи нов URL"
 
+#, qt-format
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
 msgstr "Местоположение на файла:% 1"
@@ -1120,6 +1161,7 @@ msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Cancel"
 msgstr "Отказ"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "Отдалечено свързване с"
@@ -1128,6 +1170,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
 msgstr "(бета)"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
 msgstr "Тук можете да се свържете с %1 работещ на друго устройство."
@@ -1136,10 +1179,12 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "Автоматично свързване при стартиране"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
 msgstr "Моля въведете %1, или <a href='#'>сканирайте QR код</a>"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
 "Both %1 and QR code are located inside of Preferences page of %2 you're "
@@ -1148,6 +1193,7 @@ msgstr ""
 "Двата %1 и QR кода се намират в страницата с настройки на %2 към която ще се "
 "свържете."
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
 msgstr "Автоматично свързване с %1 при стартиране"
@@ -1160,6 +1206,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "OK"
 msgstr "OK"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
@@ -1234,6 +1281,7 @@ msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
 msgstr "Неуспешно стартиране."
 
+#, qt-format
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
 msgstr "Грешка: %1"
@@ -1250,11 +1298,13 @@ msgctxt "CppQmlLocalizations|"
 msgid "Yesterday"
 msgstr "Вчера"
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr "Възникна вътрешна грешка.<br>%1 изисква рестартиране за да продължите."
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
 msgstr "Рестартиране на %1 автоматично"
@@ -1283,6 +1333,7 @@ msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
 msgstr "Създаване на преносима версия"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
@@ -1319,10 +1370,12 @@ msgctxt "CreatePortableDialog|"
 msgid "OK"
 msgstr "OK"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
 msgstr "Създавам %1%"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
 msgstr "Възникна грешка при създаване на преносима версия: %1"
@@ -1451,14 +1504,17 @@ msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "Относно"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Размер: %1 (Място на диска: %2)"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
 msgstr "Дисково пространство: %1"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Размер: %1"
@@ -1543,6 +1599,8 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "Завършен"
 
+#. [50%] - myfile.txt
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1583,6 +1641,8 @@ msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "Изтеглен"
 
+#. 50% [200 MB]
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
 msgstr "%1% [%2]"
@@ -1659,14 +1719,17 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Диска липсва"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
 msgstr "дубликати (%1)"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "invalid (%1)"
 msgstr "невалиден (%1)"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "unsupported (%1)"
 msgstr "неподдържан (%1)"
@@ -1675,6 +1738,7 @@ msgctxt "DownloadsList|"
 msgid "Skipped downloads"
 msgstr "Пропуснати изтегляния"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Линкове за изтегляне (%1 избрано)"
@@ -1688,10 +1752,6 @@ msgid "Select none"
 msgstr "Премахни избор"
 
 msgctxt "DownloadsPage|"
-msgid "Show all downloads"
-msgstr "Показване на всички изтегляния"
-
-msgctxt "DownloadsPage|"
 msgid "Download list is empty."
 msgstr "Списъка за изтегляне е празен."
 
@@ -1703,6 +1763,7 @@ msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "Няма резултати за"
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
 msgstr "Не са открити резултати за \"%1\""
@@ -1723,6 +1784,7 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "Списъка за изтегляне е празен. Добавете нов URL за изтегляне."
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "Отдалечено свързване с %1"
@@ -1747,10 +1809,12 @@ msgctxt "DownloadsSettings|"
 msgid "Immediately"
 msgstr "Веднага"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "In"
 msgstr "В"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "days"
 msgstr "дни"
@@ -1850,6 +1914,14 @@ msgstr "Качване"
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Added"
 msgstr "Добавен"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Remaining"
+msgstr ""
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Stopped"
+msgstr "Спряно"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -1993,7 +2065,7 @@ msgstr "Последователно изтегляне"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Share file"
-msgstr ""
+msgstr "Споделяне на файла"
 
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
@@ -2059,6 +2131,18 @@ msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr "n/a"
 
+msgctxt "DownloadsViewItem_V2|"
+msgid "Priority"
+msgstr "Приоритет"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Stopped"
+msgstr "Спряно"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Remaining"
+msgstr ""
+
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "На опашка"
@@ -2086,10 +2170,6 @@ msgstr "На пауза"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Завършено"
-
-msgctxt "DownloadsViewTools|"
-msgid "Downloads: %1"
-msgstr "Изтегляния: %1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2177,6 +2257,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Cancel"
 msgstr "Отказ"
 
+#, qt-format
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
 msgstr "Всички файлове (%1)"
@@ -2189,6 +2270,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Export"
 msgstr "Изнасяне"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
 msgstr "%1 изтегляния файлове (%2)"
@@ -2201,6 +2283,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
 msgstr "Списък с URL-и"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
 msgstr "Текстови файлове (%1)"
@@ -2209,6 +2292,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
 msgstr "CSV файл"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
 msgstr "CSV файлове (%1)"
@@ -2221,10 +2305,12 @@ msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
 msgstr "Отказ"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
 msgstr "%1 файлове с настройки (%2)"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
 msgstr "Всички файлове (%1)"
@@ -2237,6 +2323,7 @@ msgctxt "FileIntegrityDialog|"
 msgid "Hash"
 msgstr "Хеш"
 
+#, qt-format
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
 msgstr "Изчислявам %1%"
@@ -2281,6 +2368,7 @@ msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "Хеш"
 
+#, qt-format
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
 msgstr "Изчислявам %1%"
@@ -2309,6 +2397,7 @@ msgctxt "FileName|"
 msgid "File name"
 msgstr "Име на фаил"
 
+#, qt-format
 msgctxt "FileName|"
 msgid "%1 files (*.%2)"
 msgstr "%1 файлове (*.%2)"
@@ -2369,6 +2458,7 @@ msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
 msgstr "Запомни избора ми за всички изтегляния"
 
+#, qt-format
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
 msgstr "Презаписване (%1)"
@@ -2542,10 +2632,6 @@ msgid "UI style"
 msgstr "Стил на потребителския интерфейс"
 
 msgctxt "GeneralSettings|"
-msgid "New (beta)"
-msgstr "Нов (бета)"
-
-msgctxt "GeneralSettings|"
 msgid "Classic"
 msgstr "Класически"
 
@@ -2613,10 +2699,12 @@ msgctxt "GeneralSettings|"
 msgid "Immediately"
 msgstr "Веднага"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "In"
 msgstr "В"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "days"
 msgstr "дни"
@@ -2651,7 +2739,11 @@ msgstr "Автоматично инсталиране на обновления�
 
 msgctxt "GeneralSettings|"
 msgid "Mark downloaded files"
-msgstr ""
+msgstr "Маркиране на изтеглени файлове"
+
+msgctxt "GeneralSettings|"
+msgid "New"
+msgstr "Нов"
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2726,6 +2818,7 @@ msgctxt "GeneralTab|"
 msgid "Added at:"
 msgstr "Добавено в:"
 
+#, qt-format
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
 msgstr "%1 от %2"
@@ -2798,22 +2891,27 @@ msgctxt "ImportDialog|"
 msgid "Cancel"
 msgstr "Отказ"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
 msgstr "Всички файлове (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
 msgstr "Текстови файлове (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
 msgstr "%1 изтегляния файлове (%2)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
 msgstr "%1 настройки файлове (%2)"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
 msgstr "Грешка: %1"
@@ -2826,6 +2924,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
 msgstr "Не могат да се поставят URL-и от файла"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
 msgstr "Не може да се внесе списъка с URL-и от файла: %1"
@@ -2834,6 +2933,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
 msgstr "Невъзможно изнасяне"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
 msgstr "Не може да се изнесе към файла: %1"
@@ -2842,6 +2942,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
 msgstr "Невъзможно внасяне"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr "Не може да се внесе от файла: %1"
@@ -2890,10 +2991,12 @@ msgctxt "LeftDrawer|"
 msgid "Submit a bug report"
 msgstr "Изпращане на доклад за грешки"
 
+#, qt-format
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
 msgstr "Прекъсване на връзката с отдалечения %1"
 
+#, qt-format
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
 msgstr "Отдалечено свързване с %1"
@@ -2922,6 +3025,7 @@ msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
 msgstr "%content_type% - тип съдържание (т.е. ,,Музика\")"
 
+#, qt-format
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
 msgstr "%server% - име на сървъра (т.е. \"%1\")"
@@ -2965,10 +3069,6 @@ msgstr "Завършени"
 msgctxt "MainFiltersBar|"
 msgid "Uncompleted"
 msgstr "Незавършено"
-
-msgctxt "MainFiltersBar|"
-msgid "OK to remove tag?"
-msgstr "Да премахна ли етикет?"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from clipboard"
@@ -3034,10 +3134,12 @@ msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "Изключване"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
 msgstr "Прекъсване на връзката с отдалечения %1"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
 msgstr "Отдалечено свързване с %1"
@@ -3066,6 +3168,7 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "Режим охлюв"
 
+#, qt-format
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -3104,6 +3207,7 @@ msgctxt "MainStatusBar_V2|"
 msgid "Set the traffic usage mode"
 msgstr "Задаване на режима на използване на трафика"
 
+#, qt-format
 msgctxt "MainStatusBar_V2|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -3113,6 +3217,14 @@ msgstr[1] "%n изтегляния избрани."
 msgctxt "MainStatusBar_V2|"
 msgid "Total size:"
 msgstr "Пълен размер:"
+
+msgctxt "MainStatusBar_V2|"
+msgid ""
+"Snail Mode puts active downloads into sleep mode, freeing up as much "
+"Internet bandwidth as possible. When you turn it off, all active downloads "
+"will resume at normal speed. Snail Mode is especially useful when your "
+"Internet is slow and you need to make a call, for example."
+msgstr ""
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
@@ -3238,6 +3350,7 @@ msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
 msgstr "Готов за възпроизвеждане"
 
+#, qt-format
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
 msgstr "%1 е готов за възпроизвеждане"
@@ -3274,6 +3387,7 @@ msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
 msgstr "Пропусни"
 
+#, qt-format
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr "Пропусни всички (%1)"
@@ -3314,10 +3428,12 @@ msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
 msgstr "Грешка при преместване на изтеглянето"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
 msgstr "Грешка: %1"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
 msgstr "Не мога да преместя: %1"
@@ -3636,6 +3752,7 @@ msgctxt "Notification|"
 msgid "Ready to play"
 msgstr "Готов за възпроизвеждане"
 
+#, qt-format
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
 msgstr "%1 има нужда от разрешения"
@@ -3684,6 +3801,7 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Връзки"
 
+#. Browse for a file
 msgctxt "PickFileButton|"
 msgid "Browse..."
 msgstr "Преглед..."
@@ -3692,6 +3810,7 @@ msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "Възпроизвеждане на файла докато той все още се изтегля"
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
 msgstr "Харева ли ви %1 добавка?"
@@ -3703,6 +3822,7 @@ msgstr ""
 "Ще ви помолим да ни помогнете тази добавка да достигне до потенциални "
 "потребители."
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid ""
 "Please use your favorite social networks and forums to let the other people "
@@ -3762,6 +3882,7 @@ msgctxt "PluginsPage|"
 msgid "Install add-on from file"
 msgstr "Инсталиране на добавка от файл"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "Научете повече за добавките на %1"
@@ -3774,6 +3895,7 @@ msgctxt "PluginsPage|"
 msgid "Cancel"
 msgstr "Отказ"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
 msgstr "%1 файла с добавки"
@@ -3806,6 +3928,7 @@ msgctxt "PluginsPage|"
 msgid "The following required components are missing:"
 msgstr "Липсват следните задължителни компоненти:"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 is required."
 msgstr "%1 се изисква."
@@ -3830,10 +3953,12 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
 msgstr "Внимание!"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
 msgstr "Новата версия на добавката %1 изисква опасни разрешения:"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
 msgstr "Новата версия на добавката %1 изисква опасно разрешение:"
@@ -3846,6 +3971,7 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
 msgstr "Желаете ли да продължите с инсталацията?"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid ""
 "New version of %1 add-on requires additional components:\n"
@@ -3854,6 +3980,7 @@ msgstr ""
 "Новата версия на добавката %1 изисква допълнителни компоненти:\n"
 "%2"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requires %2."
 msgstr "Новата версия на добавката %1 изисква %2."
@@ -3882,6 +4009,7 @@ msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "Актуализиране..."
 
+#, qt-format
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
 msgstr "Версия: %1"
@@ -3910,6 +4038,7 @@ msgctxt "PrivacyDialog|"
 msgid "User agreement"
 msgstr "Споразумение с потребителя"
 
+#, qt-format
 msgctxt "PrivacyDialog|"
 msgid ""
 "A bug report will be sent to the server and used to improve %1 performance. "
@@ -3974,6 +4103,7 @@ msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
 msgstr "Грешка при инициализирането на приложението."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "\n"
@@ -3990,14 +4120,17 @@ msgctxt "QObject|"
 msgid "Drag-and-drop URL"
 msgstr "Влачене и пускане на URL"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
 msgstr "Съжаляваме но това устройство не се поддържа от %1."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr "%1 не се инициализира. Моля преинсталирайте."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Reason: %1"
 msgstr "Причина: %1"
@@ -4014,6 +4147,7 @@ msgctxt "QObject|"
 msgid "Show main window"
 msgstr "Покажи главния прозорец"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "About %1"
 msgstr "За %1"
@@ -4030,74 +4164,92 @@ msgctxt "QObject|"
 msgid "Check for updates..."
 msgstr "Проверка за обновления..."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B"
 msgstr "%1 Б"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB"
 msgstr "%1 КБ"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB"
 msgstr "%1 МБ"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB"
 msgstr "%1 ГБ"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB"
 msgstr "%1 ТБ"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 К"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 М"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G"
 msgstr "%1 Г"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 Т"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B/s"
 msgstr "%1 Б/с"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB/s"
 msgstr "Кб/с"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB/s"
 msgstr "%1 МБ/с"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB/s"
 msgstr "%1 ГБ/с"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB/s"
 msgstr "%1 ТБ/с"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K/s"
 msgstr "%1 К/с"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M/s"
 msgstr "%1 М/с"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G/s"
 msgstr "%1 Г/с"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T/s"
 msgstr "%1 Т/с"
@@ -4166,6 +4318,7 @@ msgctxt "QObject|"
 msgid "Unknown file I/O error"
 msgstr "Непозната I/O грешка на файла"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "HTTP Error %1"
 msgstr "Грешка HTTP %1"
@@ -4498,6 +4651,7 @@ msgctxt "QObject|"
 msgid "Failed to remove current version"
 msgstr "Не мога да премахна текущата версия"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "hdiutil error %1"
 msgstr "грешка hdiutil %1"
@@ -4510,18 +4664,22 @@ msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr "Грешка при проверка на подписа."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download with %1"
 msgstr "Изтегли с %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download all with %1"
 msgstr "Изтегли всички с %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download selected with %1"
 msgstr "Изтегли избраните с %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download video with %1"
 msgstr "Изтегли видеото с %1"
@@ -4538,6 +4696,7 @@ msgctxt "QObject|"
 msgid "There is not enough disk space."
 msgstr "Недостатъчно дисково пространство."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "The list of downloads is damaged.\n"
@@ -4552,6 +4711,7 @@ msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
 msgstr "Грешка: неуспешно зареждане на базата данни."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
@@ -4616,14 +4776,19 @@ msgctxt "QObject|"
 msgid "Files were modified"
 msgstr "Файловете са модифицирани"
 
+#. 10 MB of unknown at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
 msgstr "%1 от неизвестното при %2"
 
+#. 10 MB of 200 MB at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
 msgstr "%1 от %2 при %3"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
 msgstr "%1 %2 или по-висока"
@@ -4648,10 +4813,12 @@ msgctxt "QObject|"
 msgid "Missing components"
 msgstr "Липсващи компоненти"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 are required"
 msgstr "%1 се изискват"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 is required"
 msgstr "%1 се изисква"
@@ -4668,6 +4835,15 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Отваряне на папка"
 
+msgctxt "QObject|"
+msgid "Security check failure."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Invalid version."
+msgstr ""
+
+#, qt-format
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
 msgstr "%1 е върнал ненулев (%2) статус на изхода"
@@ -4697,6 +4873,7 @@ msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
 msgstr ""
 "QIODevice::Четенето и запис едновременно не се поддържат за QuaZIODevice"
 
+#, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
 msgstr "ZIP/UNZIP API грешка %1"
@@ -4721,6 +4898,7 @@ msgctxt "RemoteControlSettings|"
 msgid "(beta)"
 msgstr "(бета)"
 
+#, qt-format
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
 msgstr "Позволяване на отдалечен достъп до %1 работещ на това устройство"
@@ -4797,6 +4975,7 @@ msgctxt "ReportSentDialog|"
 msgid "Report problem"
 msgstr "Докладване на проблем"
 
+#, qt-format
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "За съжаление докладът не е изпратен, възникна грешка: %1"
@@ -4945,6 +5124,7 @@ msgctxt "SearchToolbar|"
 msgid "Search"
 msgstr "Търсене"
 
+#, qt-format
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
 msgstr "Избрано: %1"
@@ -5081,6 +5261,7 @@ msgctxt "ShutdownDialog|"
 msgid "Cancel"
 msgstr "Отказ"
 
+#, qt-format
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
 msgstr "OK (%1)"
@@ -5133,6 +5314,7 @@ msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL Сертификата е невалиден."
 
+#, qt-format
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
 msgstr "%1 пръстови отпечатъци на ключове"
@@ -5249,6 +5431,7 @@ msgctxt "SubmitBugReportDialog|"
 msgid "E-mail"
 msgstr "Имейл"
 
+#, qt-format
 msgctxt "SubmitBugReportDialog|"
 msgid "Attach %1 log files (recommended)"
 msgstr "Прикачване на %1 файлове с доклад (препоръчително)"
@@ -5401,6 +5584,10 @@ msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "Скриване"
 
+msgctxt "TroubleshootingSettings|"
+msgid "Enable downloads management logging"
+msgstr ""
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "Неограничен"
@@ -5413,6 +5600,7 @@ msgctxt "TumComboBox|"
 msgid "unlimited"
 msgstr "неограничен"
 
+#, qt-format
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
 msgstr "Изтегляне: %1, Качване: %2"
@@ -5465,6 +5653,7 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Промяна на лимита на трафика"
 
+#, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
 msgstr "Не може да бъде по-голямо от %1"
@@ -5497,14 +5686,17 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
 msgstr "Няма позволение за запис в избраната папка"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Размер: %1 (Място на диска: %2)"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
 msgstr "Дисково пространство: %1"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Размер: %1"
@@ -5549,6 +5741,7 @@ msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "Налична е нова версия"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
 msgstr "Какво е новото в %1"
@@ -5557,6 +5750,7 @@ msgctxt "UpdateDialog|"
 msgid "Update"
 msgstr "Обновяване"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
 msgstr "%1 е последна версия"
@@ -5593,6 +5787,7 @@ msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
 msgstr "Възникна грешка при инсталиране:"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
 msgstr "Презареди %1 за обновяване"
@@ -5613,6 +5808,7 @@ msgctxt "VideoQuality|"
 msgid "Quality:"
 msgstr "Качество:"
 
+#, qt-format
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
 msgstr "Харесвате ли %1?"
@@ -5649,10 +5845,12 @@ msgctxt "WaitingPage|"
 msgid "Loading"
 msgstr "Зареждане"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
 msgstr "Връзка с %1"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Error: %1"
 msgstr "Грешка: %1"
@@ -5673,6 +5871,7 @@ msgctxt "WhatsNewDialog|"
 msgid "New version is available"
 msgstr "Налична е нова версия"
 
+#, qt-format
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
 msgstr "Какво е новото в %1"
@@ -5681,6 +5880,7 @@ msgctxt "WhatsNewDialog|"
 msgid "Update"
 msgstr "Обновяване"
 
+#, qt-format
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "За съжаление докладът не е изпратен, възникна грешка: %1"
@@ -5689,6 +5889,7 @@ msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "Докладът е изпратен. Благодарим Ви за съдействието!"
 
+#, qt-format
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "Отдалечено свързване с %1"
@@ -5700,3 +5901,7 @@ msgstr "Добавете изтегляне"
 msgctxt "main|"
 msgid "New download"
 msgstr "Ново изтегляне"
+
+msgctxt "main|"
+msgid "OK to remove tag?"
+msgstr "Да премахна ли етикет?"
