@@ -1599,6 +1599,10 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "Завършен"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Remaining"
+msgstr ""
+
 #. [50%] - myfile.txt
 #, qt-format
 msgctxt "DownloadWindow|"
@@ -2587,18 +2591,6 @@ msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Завършен"
 
-msgctxt "FilesTreeItem_V2|"
-msgid "Low"
-msgstr "Нисък"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "Normal"
-msgstr "Нормален"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "High"
-msgstr "Висок"
-
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Макроси"
@@ -2866,6 +2858,11 @@ msgstr "Уеб страница"
 msgctxt "GeneralTab_V2|"
 msgid "File"
 msgstr "Файл"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Priority"
+msgstr "Приоритет"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -5700,6 +5697,19 @@ msgstr "Дисково пространство: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Размер: %1"
+
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "Висок"
+
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "Нисък"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "Нормален"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."

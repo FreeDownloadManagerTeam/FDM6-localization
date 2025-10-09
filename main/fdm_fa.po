@@ -1597,6 +1597,10 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "تمام شده"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Remaining"
+msgstr ""
+
 #. [50%] - myfile.txt
 #, qt-format
 msgctxt "DownloadWindow|"
@@ -2586,18 +2590,6 @@ msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "تمام شده‌است"
 
-msgctxt "FilesTreeItem_V2|"
-msgid "Low"
-msgstr "کم"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "Normal"
-msgstr "عادی"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "High"
-msgstr "زیاد"
-
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "ماکروها"
@@ -2865,6 +2857,11 @@ msgstr "صفحه وب"
 msgctxt "GeneralTab_V2|"
 msgid "File"
 msgstr "فایل"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Priority"
+msgstr "اولویت"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -5693,6 +5690,21 @@ msgstr "فضای‌دیسک: 1%"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "حجم: %1"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "زیاد"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "کم"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "عادی"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."

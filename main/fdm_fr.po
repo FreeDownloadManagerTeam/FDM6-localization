@@ -1619,6 +1619,11 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "Terminé"
 
+#, fuzzy
+msgctxt "DownloadStatus_V2|"
+msgid "Remaining"
+msgstr "Restant"
+
 #. [50%] - myfile.txt
 #, qt-format
 msgctxt "DownloadWindow|"
@@ -2613,18 +2618,6 @@ msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Terminé"
 
-msgctxt "FilesTreeItem_V2|"
-msgid "Low"
-msgstr "Basse"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "Normal"
-msgstr "Normale"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "High"
-msgstr "Haute"
-
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Macros"
@@ -2896,6 +2889,11 @@ msgstr "Page web"
 msgctxt "GeneralTab_V2|"
 msgid "File"
 msgstr "Fichier"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Priority"
+msgstr "Priorité"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -3257,11 +3255,11 @@ msgid ""
 "will resume at normal speed. Snail Mode is especially useful when your "
 "Internet is slow and you need to make a call, for example."
 msgstr ""
-"Le Mode Escargot mets les téléchargements actifs en mode veille, libé- "
-"rant autant de bande passante Internet que possible. Quand vous le coupez, "
-"tous les téléchargements actifs sont repris en vitesse normale. Le Mode "
-"Escargot est spécialement utile quand votre Internet est lent et que vous "
-"avez besoin de passer un appel, par exemple."
+"Le Mode Escargot mets les téléchargements actifs en mode veille, libé- rant "
+"autant de bande passante Internet que possible. Quand vous le coupez, tous "
+"les téléchargements actifs sont repris en vitesse normale. Le Mode Escargot "
+"est spécialement utile quand votre Internet est lent et que vous avez besoin "
+"de passer un appel, par exemple."
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
@@ -5745,6 +5743,18 @@ msgstr "Espace disque: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Taille: %1"
+
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "Haute"
+
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "Basse"
+
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "Normale"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."

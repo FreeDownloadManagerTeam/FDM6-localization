@@ -1596,6 +1596,10 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "Valmis"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Remaining"
+msgstr ""
+
 #. [50%] - myfile.txt
 #, qt-format
 msgctxt "DownloadWindow|"
@@ -2585,18 +2589,6 @@ msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Valmis"
 
-msgctxt "FilesTreeItem_V2|"
-msgid "Low"
-msgstr "Matala"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "Normal"
-msgstr "Normaali"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "High"
-msgstr "Korkea"
-
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Makrot"
@@ -2864,6 +2856,11 @@ msgstr "Verkkosivu"
 msgctxt "GeneralTab_V2|"
 msgid "File"
 msgstr "Tiedosto"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Priority"
+msgstr "Tärkeys"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -5691,6 +5688,21 @@ msgstr "Levytila: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Koko: %1"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "Korkea"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "Matala"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "Normaali"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."

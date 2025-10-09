@@ -1600,6 +1600,11 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "Dokončeno"
 
+#, fuzzy
+msgctxt "DownloadStatus_V2|"
+msgid "Remaining"
+msgstr "Zbývá"
+
 #. [50%] - myfile.txt
 #, qt-format
 msgctxt "DownloadWindow|"
@@ -2587,18 +2592,6 @@ msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Dokončeno"
 
-msgctxt "FilesTreeItem_V2|"
-msgid "Low"
-msgstr "Nízká"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "Normal"
-msgstr "Normální"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "High"
-msgstr "Vysoká"
-
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Makra"
@@ -2865,6 +2858,11 @@ msgstr "Webová stránka"
 msgctxt "GeneralTab_V2|"
 msgid "File"
 msgstr "Soubor"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Priority"
+msgstr "Priorita"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -3225,7 +3223,11 @@ msgid ""
 "Internet bandwidth as possible. When you turn it off, all active downloads "
 "will resume at normal speed. Snail Mode is especially useful when your "
 "Internet is slow and you need to make a call, for example."
-msgstr "Režim Šnek přepne aktivní stahování do režimu spánku, čímž uvolní co nejvíce internetové šířky pásma. Po jeho vypnutí budou všechna aktivní stahování pokračovat normální rychlostí. Režim Šnek je užitečný zejména v případě, že máte pomalé připojení k internetu a potřebujete například telefonovat."
+msgstr ""
+"Režim Šnek přepne aktivní stahování do režimu spánku, čímž uvolní co nejvíce "
+"internetové šířky pásma. Po jeho vypnutí budou všechna aktivní stahování "
+"pokračovat normální rychlostí. Režim Šnek je užitečný zejména v případě, že "
+"máte pomalé připojení k internetu a potřebujete například telefonovat."
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
@@ -5692,6 +5694,19 @@ msgstr "Místo na disku: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Velikost: %1"
+
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "Vysoká"
+
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "Nízká"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "Normální"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."

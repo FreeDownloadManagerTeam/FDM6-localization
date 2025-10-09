@@ -1601,6 +1601,10 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "Baigta"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Remaining"
+msgstr ""
+
 #. [50%] - myfile.txt
 #, qt-format
 msgctxt "DownloadWindow|"
@@ -2589,18 +2593,6 @@ msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Baigta"
 
-msgctxt "FilesTreeItem_V2|"
-msgid "Low"
-msgstr "Žemas"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "Normal"
-msgstr "Normalus"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "High"
-msgstr "Aukštas"
-
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Makrokomandos"
@@ -2869,6 +2861,11 @@ msgstr "Tinklalapis"
 msgctxt "GeneralTab_V2|"
 msgid "File"
 msgstr "Failas"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Priority"
+msgstr "Pirmenybė"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -5704,6 +5701,21 @@ msgstr "Vietos diske: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Size: %1"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "Aukštas"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "Žemas"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "Normalus"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."

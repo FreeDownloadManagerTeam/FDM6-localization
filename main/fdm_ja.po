@@ -1579,6 +1579,11 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "完了"
 
+#, fuzzy
+msgctxt "DownloadStatus_V2|"
+msgid "Remaining"
+msgstr "残り"
+
 #. [50%] - myfile.txt
 #, qt-format
 msgctxt "DownloadWindow|"
@@ -2566,18 +2571,6 @@ msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "完了"
 
-msgctxt "FilesTreeItem_V2|"
-msgid "Low"
-msgstr "低い"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "Normal"
-msgstr "標準"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "High"
-msgstr "高い"
-
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "マクロ"
@@ -2844,6 +2837,11 @@ msgstr "ウェブページ"
 msgctxt "GeneralTab_V2|"
 msgid "File"
 msgstr "ファイル"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Priority"
+msgstr "優先度"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -5661,6 +5659,19 @@ msgstr "ディスクの空き: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "サイズ: %1"
+
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "高い"
+
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "低い"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "標準"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."

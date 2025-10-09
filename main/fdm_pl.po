@@ -1604,6 +1604,11 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "Zakończone"
 
+#, fuzzy
+msgctxt "DownloadStatus_V2|"
+msgid "Remaining"
+msgstr "Pozostało"
+
 #. [50%] - myfile.txt
 #, qt-format
 msgctxt "DownloadWindow|"
@@ -2592,18 +2597,6 @@ msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Zakończone"
 
-msgctxt "FilesTreeItem_V2|"
-msgid "Low"
-msgstr "Niski"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "Normal"
-msgstr "Normalny"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "High"
-msgstr "Wysoki"
-
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Makra"
@@ -2873,6 +2866,11 @@ msgstr "Strona WWW"
 msgctxt "GeneralTab_V2|"
 msgid "File"
 msgstr "Plik"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Priority"
+msgstr "Priorytet"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -3235,9 +3233,10 @@ msgid ""
 "Internet is slow and you need to make a call, for example."
 msgstr ""
 "Tryb ślimaczy przełącza aktywne pobrania plików w tryb uśpienia, zwalniając "
-"jak najwięcej przepustowości internetu. Po wyłączeniu trybu wszystkie aktywne "
-"pobrania zostaną wznowione z normalną prędkością. Tryb ślimaczy jest szczególnie "
-"przydatny gdy internet działa wolno, a użytkownik musi wykonać np. połączenie video."
+"jak najwięcej przepustowości internetu. Po wyłączeniu trybu wszystkie "
+"aktywne pobrania zostaną wznowione z normalną prędkością. Tryb ślimaczy jest "
+"szczególnie przydatny gdy internet działa wolno, a użytkownik musi wykonać "
+"np. połączenie video."
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
@@ -5708,6 +5707,21 @@ msgstr "Miejsce na dysku: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Rozmiar: %1"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "Wysoki"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "Niski"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "Normalny"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."

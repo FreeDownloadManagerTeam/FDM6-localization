@@ -1579,6 +1579,10 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "已完成"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Remaining"
+msgstr ""
+
 #. [50%] - myfile.txt
 #, qt-format
 msgctxt "DownloadWindow|"
@@ -2566,18 +2570,6 @@ msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "已完成"
 
-msgctxt "FilesTreeItem_V2|"
-msgid "Low"
-msgstr "低"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "Normal"
-msgstr "中"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "High"
-msgstr "高"
-
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "巨集"
@@ -2844,6 +2836,11 @@ msgstr "網頁"
 msgctxt "GeneralTab_V2|"
 msgid "File"
 msgstr "檔案"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Priority"
+msgstr "優先順序"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -5660,6 +5657,21 @@ msgstr "磁碟空間: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "大小: %1"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "高"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "低"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "中"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."
