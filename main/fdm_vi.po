@@ -12,14 +12,18 @@ msgctxt "AboutDialog|"
 msgid "About"
 msgstr "Thông tin ứng dụng"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
 msgstr "Phiên bản: %1 (%2)"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
 msgstr "Ngày xây dựng: %1"
 
+#. © FreeDownloadManager.org, 2004-2023
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
@@ -28,6 +32,7 @@ msgctxt "AboutDialog|"
 msgid "remote control"
 msgstr "điều khiển từ xa"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "phiên bản %1"
@@ -36,6 +41,7 @@ msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "Đồng ý"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "Phiên bản %1 (%2)"
@@ -71,6 +77,10 @@ msgstr "Đồng ý"
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
 msgstr "Thêm"
+
+msgctxt "AddNewTagMenuItem|"
+msgid "Add tag"
+msgstr "Thêm tag"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -111,6 +121,7 @@ msgid "Notify me of failed downloads via Notification Center"
 msgstr ""
 "Thông báo cho tôi về các lần tải xuống thất bại qua Trung tâm thông báo"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr ""
@@ -148,6 +159,7 @@ msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "Giao diện"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
@@ -347,6 +359,7 @@ msgctxt "AllDownloadsSortModeButton|"
 msgid "Newest"
 msgstr ""
 
+#. sort by title mode
 msgctxt "AllDownloadsSortModeButton|"
 msgid "A-Z"
 msgstr ""
@@ -431,10 +444,12 @@ msgctxt "AppAndroidPermissionsManager|"
 msgid "Notifications"
 msgstr "Thông báo"
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
 msgstr "%1 cần có quyền lưu các tệp đã tải xuống vào bộ nhớ cục bộ của bạn."
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
@@ -443,26 +458,32 @@ msgstr ""
 "%1 cần có quyền hiển thị tiến trình tải xuống trong bảng thông báo của hệ "
 "thống của bạn."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
 msgstr "Tải xuống không có hỗ trợ tiếp tục (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
 msgstr "Di chuyển tập tin (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
 msgstr "Chuyển đổi tập tin sang mp3 (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
 msgstr "Chuyển đổi tập tin sang mp4 (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
 msgstr "Đổi tên tập tin (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Hợp nhất các luồng phương tiện (%1)."
@@ -483,10 +504,12 @@ msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Có các hoạt động không có khả năng tiếp tục đang diễn ra"
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
 msgstr "Đang kết nối với điều khiển từ xa %1 (%2)..."
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
 msgstr "Đang lấy dữ liệu từ xa %1 (%2)..."
@@ -499,10 +522,12 @@ msgctxt "AuthDialog|"
 msgid "Authentication required"
 msgstr "Yêu cầu xác thực"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
 msgstr "%1 yêu cầu xác thực"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
 msgstr "Trang web cho biết: \"%1\"."
@@ -531,6 +556,7 @@ msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "Yêu cầu xác thực"
 
+#, qt-format
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
 msgstr "Trang web cho biết: \"%1\"."
@@ -563,6 +589,7 @@ msgctxt "AuthenticationPage|"
 msgid "OK"
 msgstr "Đồng ý"
 
+#, qt-format
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
 msgstr "Trang web cho biết: \"%1\"."
@@ -667,6 +694,7 @@ msgctxt "BitrateComboBox|"
 msgid "kbps"
 msgstr "kbps"
 
+#, qt-format
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
 msgstr "Từ %1 %2 đến %3 %4"
@@ -751,6 +779,7 @@ msgctxt "Browser|"
 msgid "NO"
 msgstr "KHÔNG"
 
+#, qt-format
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
 msgstr "Quay lại %1"
@@ -771,10 +800,12 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr "Thêm dấu trang"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
 msgstr "Tải xuống tiện ích mở rộng %1"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
 msgstr "%1 không được cài đặt"
@@ -783,6 +814,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "Tích hợp trình duyệt"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
@@ -835,6 +867,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
 msgstr "Mbytes"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Sử dụng trình duyệt nếu bạn hủy tải qua %1"
@@ -847,6 +880,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Capture files with extensions"
 msgstr ""
 
+#, qt-format
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -879,6 +913,7 @@ msgctxt "BtDetailsTab|"
 msgid "N/A"
 msgstr "Không áp dụng"
 
+#, qt-format
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
 msgstr "(đã kết nối: %1)"
@@ -935,6 +970,7 @@ msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "Nâng cao"
 
+#, qt-format
 msgctxt "BtSettings|"
 msgid "Current port: %1"
 msgstr "Cổng hiện tại: %1"
@@ -1002,10 +1038,12 @@ msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
 msgstr "Tải về từ trang này không khả dụng"
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
 msgstr "Proxy %1 yêu cầu tên người dùng và mật khẩu."
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
 msgstr "%1 đang yêu cầu tên người dùng và mật khẩu."
@@ -1018,6 +1056,7 @@ msgctxt "ButtonsBlock|"
 msgid "Please select download link"
 msgstr "Hãy chọn đường dẫn tải về"
 
+#, qt-format
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "Không thể chọn nhiều hơn %1 đường dẫn tại cùng thời điểm"
@@ -1066,6 +1105,7 @@ msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
 msgstr "Nhập URL mới"
 
+#, qt-format
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
 msgstr "Vị trí tệp: %1"
@@ -1098,6 +1138,7 @@ msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
 msgstr "Nhập URL mới"
 
+#, qt-format
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
 msgstr "Vị trí tệp: %1"
@@ -1125,6 +1166,7 @@ msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Cancel"
 msgstr "Hủy"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "Kết nối đến %1 từ xa"
@@ -1133,6 +1175,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
 msgstr ""
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
 msgstr "Bạn có thể kết nối đến %1 đang chạy trên một thiết bị khác."
@@ -1141,10 +1184,12 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "Kết nối tự động khi khởi động"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
 msgstr "Vui lòng nhập %1, hoặc <a href='#'>quét mã QR</a>"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
 "Both %1 and QR code are located inside of Preferences page of %2 you're "
@@ -1152,6 +1197,7 @@ msgid ""
 msgstr ""
 "Cả %1 và mã QR đều nằm trong trang Tùy chọn của %2 mà bạn sắp kết nối tới."
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
 msgstr "Kết nối tự động tại %1 khi khởi động"
@@ -1164,6 +1210,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "OK"
 msgstr "Đồng ý"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
@@ -1238,6 +1285,7 @@ msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
 msgstr "Không khởi động được."
 
+#, qt-format
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
 msgstr "Lỗi: %1"
@@ -1254,11 +1302,13 @@ msgctxt "CppQmlLocalizations|"
 msgid "Yesterday"
 msgstr ""
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr "Đã xảy ra lỗi nội bộ.<br>%1 cần được khởi động lại để sử dụng tiếp."
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
 msgstr "Khởi động %1 tự động"
@@ -1287,6 +1337,7 @@ msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
 msgstr "Tạo phiên bản di động"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
@@ -1323,10 +1374,12 @@ msgctxt "CreatePortableDialog|"
 msgid "OK"
 msgstr "Đồng ý"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
 msgstr "Đang tạo %1%"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
 msgstr "Lỗi khi tạo bản di động: %1"
@@ -1455,14 +1508,17 @@ msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "Hủy bỏ"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Kích thước: %1 (Ổ đĩa: %2)"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
 msgstr "Dung lượng đĩa: %1"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Kích thước: %1"
@@ -1545,6 +1601,12 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "Đã hoàn thành"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Remaining"
+msgstr ""
+
+#. [50%] - myfile.txt
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr ""
@@ -1585,6 +1647,8 @@ msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr ""
 
+#. 50% [200 MB]
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
 msgstr ""
@@ -1661,14 +1725,17 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Thiếu ổ đĩa"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
 msgstr ""
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "invalid (%1)"
 msgstr ""
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "unsupported (%1)"
 msgstr ""
@@ -1677,6 +1744,7 @@ msgctxt "DownloadsList|"
 msgid "Skipped downloads"
 msgstr ""
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr ""
@@ -1690,10 +1758,6 @@ msgid "Select none"
 msgstr "Không chọn"
 
 msgctxt "DownloadsPage|"
-msgid "Show all downloads"
-msgstr ""
-
-msgctxt "DownloadsPage|"
 msgid "Download list is empty."
 msgstr "Danh sách tải xuống trống."
 
@@ -1705,6 +1769,7 @@ msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "Không tìm thấy kết quả nào cho"
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
 msgstr ""
@@ -1725,6 +1790,7 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr ""
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "Kết nối đến %1 từ xa"
@@ -1749,10 +1815,12 @@ msgctxt "DownloadsSettings|"
 msgid "Immediately"
 msgstr "Ngay bây giờ"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "In"
 msgstr ""
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "days"
 msgstr "ngày"
@@ -1852,6 +1920,14 @@ msgstr ""
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Added"
 msgstr "Thêm"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Remaining"
+msgstr ""
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Stopped"
+msgstr ""
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -2061,6 +2137,18 @@ msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr ""
 
+msgctxt "DownloadsViewItem_V2|"
+msgid "Priority"
+msgstr ""
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Stopped"
+msgstr ""
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Remaining"
+msgstr ""
+
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "Đã xếp hàng"
@@ -2088,10 +2176,6 @@ msgstr "Đã tạm dừng"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Hoàn thành"
-
-msgctxt "DownloadsViewTools|"
-msgid "Downloads: %1"
-msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2178,6 +2262,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Cancel"
 msgstr "Hủy"
 
+#, qt-format
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
 msgstr "Tất cả tệp (%1)"
@@ -2190,6 +2275,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Export"
 msgstr ""
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
 msgstr ""
@@ -2202,6 +2288,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
 msgstr "Danh sách URLs"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
 msgstr "Tệp văn bản (%1)"
@@ -2210,6 +2297,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
 msgstr "Tệp CSV"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
 msgstr "Tệp CSV (%1)"
@@ -2222,10 +2310,12 @@ msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
 msgstr "Hủy"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
 msgstr ""
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
 msgstr "Tất cả tệp (%1)"
@@ -2238,6 +2328,7 @@ msgctxt "FileIntegrityDialog|"
 msgid "Hash"
 msgstr ""
 
+#, qt-format
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
 msgstr "Tính toán %1%"
@@ -2282,6 +2373,7 @@ msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr ""
 
+#, qt-format
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
 msgstr "Tính toán %1%"
@@ -2310,6 +2402,7 @@ msgctxt "FileName|"
 msgid "File name"
 msgstr "Tên tệp"
 
+#, qt-format
 msgctxt "FileName|"
 msgid "%1 files (*.%2)"
 msgstr ""
@@ -2370,6 +2463,7 @@ msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
 msgstr ""
 
+#, qt-format
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
 msgstr ""
@@ -2498,18 +2592,6 @@ msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Đã hoàn thành"
 
-msgctxt "FilesTreeItem_V2|"
-msgid "Low"
-msgstr "Thấp"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "Normal"
-msgstr "Bình thường"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "High"
-msgstr "Cao"
-
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Macros"
@@ -2542,10 +2624,6 @@ msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "UI style"
-msgstr ""
-
-msgctxt "GeneralSettings|"
-msgid "New (beta)"
 msgstr ""
 
 msgctxt "GeneralSettings|"
@@ -2617,10 +2695,12 @@ msgctxt "GeneralSettings|"
 msgid "Immediately"
 msgstr "Ngay lập tức"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "In"
 msgstr ""
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "days"
 msgstr "ngày"
@@ -2655,6 +2735,10 @@ msgstr "Cài đặt bản cập nhật tự động"
 
 msgctxt "GeneralSettings|"
 msgid "Mark downloaded files"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "New"
 msgstr ""
 
 msgctxt "GeneralSettings2|"
@@ -2729,6 +2813,7 @@ msgctxt "GeneralTab|"
 msgid "Added at:"
 msgstr "Đã thêm vào:"
 
+#, qt-format
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
 msgstr "%1 của %2"
@@ -2777,6 +2862,10 @@ msgctxt "GeneralTab_V2|"
 msgid "File"
 msgstr "Vị trí tệp: %1"
 
+msgctxt "GeneralTab_V2|"
+msgid "Priority"
+msgstr ""
+
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
 msgstr "MD5"
@@ -2801,22 +2890,27 @@ msgctxt "ImportDialog|"
 msgid "Cancel"
 msgstr "Hủy"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
 msgstr "Tất cả tệp (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
 msgstr "Tệp văn bản (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
 msgstr ""
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
 msgstr ""
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
 msgstr "Lỗi: %1"
@@ -2829,6 +2923,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
 msgstr "Không dán được URL từ tệp"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
 msgstr "Không thể nhập danh sách URL từ tệp:% 1"
@@ -2837,6 +2932,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
 msgstr "Không xuất được"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
 msgstr ""
@@ -2845,6 +2941,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
 msgstr ""
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr ""
@@ -2893,10 +2990,12 @@ msgctxt "LeftDrawer|"
 msgid "Submit a bug report"
 msgstr ""
 
+#, qt-format
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
 msgstr ""
 
+#, qt-format
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
 msgstr "Kết nối đến %1 từ xa"
@@ -2925,6 +3024,7 @@ msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
 msgstr ""
 
+#, qt-format
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
 msgstr ""
@@ -2967,10 +3067,6 @@ msgstr "Đã hoàn thành"
 
 msgctxt "MainFiltersBar|"
 msgid "Uncompleted"
-msgstr ""
-
-msgctxt "MainFiltersBar|"
-msgid "OK to remove tag?"
 msgstr ""
 
 msgctxt "MainMenu|"
@@ -3037,10 +3133,12 @@ msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "Tắt"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
 msgstr ""
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
 msgstr "Kết nối đến %1 từ xa"
@@ -3069,6 +3167,7 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "Chế độ ốc sên"
 
+#, qt-format
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -3106,6 +3205,7 @@ msgctxt "MainStatusBar_V2|"
 msgid "Set the traffic usage mode"
 msgstr ""
 
+#, qt-format
 msgctxt "MainStatusBar_V2|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -3114,6 +3214,14 @@ msgstr[0] ""
 msgctxt "MainStatusBar_V2|"
 msgid "Total size:"
 msgstr "Tổng kích thước:"
+
+msgctxt "MainStatusBar_V2|"
+msgid ""
+"Snail Mode puts active downloads into sleep mode, freeing up as much "
+"Internet bandwidth as possible. When you turn it off, all active downloads "
+"will resume at normal speed. Snail Mode is especially useful when your "
+"Internet is slow and you need to make a call, for example."
+msgstr ""
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
@@ -3235,6 +3343,7 @@ msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
 msgstr ""
 
+#, qt-format
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
 msgstr ""
@@ -3271,6 +3380,7 @@ msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
 msgstr "Bỏ qua"
 
+#, qt-format
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr "Bỏ qua toàn bộ (%1)"
@@ -3311,10 +3421,12 @@ msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
 msgstr ""
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
 msgstr "Lỗi: %1"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
 msgstr ""
@@ -3631,6 +3743,7 @@ msgctxt "Notification|"
 msgid "Ready to play"
 msgstr ""
 
+#, qt-format
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
 msgstr ""
@@ -3677,6 +3790,7 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Số lượng kết nối"
 
+#. Browse for a file
 msgctxt "PickFileButton|"
 msgid "Browse..."
 msgstr ""
@@ -3685,6 +3799,7 @@ msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "Phát tập tin đó ngay lập tức trong khi đang tải xuống"
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
 msgstr ""
@@ -3694,6 +3809,7 @@ msgid ""
 "We would like to ask you to help this add-on to reach its potential users."
 msgstr ""
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid ""
 "Please use your favorite social networks and forums to let the other people "
@@ -3752,6 +3868,7 @@ msgctxt "PluginsPage|"
 msgid "Install add-on from file"
 msgstr ""
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr ""
@@ -3764,6 +3881,7 @@ msgctxt "PluginsPage|"
 msgid "Cancel"
 msgstr "Hủy"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
 msgstr ""
@@ -3796,6 +3914,7 @@ msgctxt "PluginsPage|"
 msgid "The following required components are missing:"
 msgstr ""
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 is required."
 msgstr ""
@@ -3820,10 +3939,12 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
 msgstr ""
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
 msgstr ""
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
 msgstr ""
@@ -3836,12 +3957,14 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
 msgstr ""
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid ""
 "New version of %1 add-on requires additional components:\n"
 "%2"
 msgstr ""
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requires %2."
 msgstr ""
@@ -3870,6 +3993,7 @@ msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "Đang cập nhật..."
 
+#, qt-format
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
 msgstr ""
@@ -3898,6 +4022,7 @@ msgctxt "PrivacyDialog|"
 msgid "User agreement"
 msgstr ""
 
+#, qt-format
 msgctxt "PrivacyDialog|"
 msgid ""
 "A bug report will be sent to the server and used to improve %1 performance. "
@@ -3960,6 +4085,7 @@ msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "\n"
@@ -3974,14 +4100,17 @@ msgctxt "QObject|"
 msgid "Drag-and-drop URL"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Reason: %1"
 msgstr "Lý do: %1"
@@ -3998,6 +4127,7 @@ msgctxt "QObject|"
 msgid "Show main window"
 msgstr "Hiển thị cửa sổ chính"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "About %1"
 msgstr "Giới thiệu %1"
@@ -4014,74 +4144,92 @@ msgctxt "QObject|"
 msgid "Check for updates..."
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B/s"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB/s"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB/s"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB/s"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB/s"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K/s"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M/s"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G/s"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T/s"
 msgstr ""
@@ -4150,6 +4298,7 @@ msgctxt "QObject|"
 msgid "Unknown file I/O error"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "HTTP Error %1"
 msgstr "Lỗi HTTP %1"
@@ -4482,6 +4631,7 @@ msgctxt "QObject|"
 msgid "Failed to remove current version"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "hdiutil error %1"
 msgstr ""
@@ -4494,18 +4644,22 @@ msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download with %1"
 msgstr "Tải xuống với %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download all with %1"
 msgstr "Tải xuống tất cả với %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download selected with %1"
 msgstr "Tải về lựa chọn với %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download video with %1"
 msgstr "Tải xuống video với %1"
@@ -4522,6 +4676,7 @@ msgctxt "QObject|"
 msgid "There is not enough disk space."
 msgstr "Ổ đĩa không đủ dung lượng trống."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "The list of downloads is damaged.\n"
@@ -4533,6 +4688,7 @@ msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
@@ -4595,14 +4751,19 @@ msgctxt "QObject|"
 msgid "Files were modified"
 msgstr ""
 
+#. 10 MB of unknown at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
 msgstr ""
 
+#. 10 MB of 200 MB at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
 msgstr ""
@@ -4627,10 +4788,12 @@ msgctxt "QObject|"
 msgid "Missing components"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 are required"
 msgstr ""
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 is required"
 msgstr ""
@@ -4647,6 +4810,15 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr ""
 
+msgctxt "QObject|"
+msgid "Security check failure."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Invalid version."
+msgstr ""
+
+#, qt-format
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
 msgstr ""
@@ -4675,6 +4847,7 @@ msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
 msgstr ""
 
+#, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
 msgstr ""
@@ -4699,6 +4872,7 @@ msgctxt "RemoteControlSettings|"
 msgid "(beta)"
 msgstr ""
 
+#, qt-format
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
 msgstr ""
@@ -4775,6 +4949,7 @@ msgctxt "ReportSentDialog|"
 msgid "Report problem"
 msgstr "Báo cáo vấn đề"
 
+#, qt-format
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr ""
@@ -4923,6 +5098,7 @@ msgctxt "SearchToolbar|"
 msgid "Search"
 msgstr "Tìm kiếm"
 
+#, qt-format
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
 msgstr "Đã chọn: %1"
@@ -5060,6 +5236,7 @@ msgctxt "ShutdownDialog|"
 msgid "Cancel"
 msgstr "Hủy"
 
+#, qt-format
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
 msgstr "OK (%1)"
@@ -5112,6 +5289,7 @@ msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr ""
 
+#, qt-format
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
 msgstr ""
@@ -5226,6 +5404,7 @@ msgctxt "SubmitBugReportDialog|"
 msgid "E-mail"
 msgstr ""
 
+#, qt-format
 msgctxt "SubmitBugReportDialog|"
 msgid "Attach %1 log files (recommended)"
 msgstr ""
@@ -5378,6 +5557,10 @@ msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "Ẩn"
 
+msgctxt "TroubleshootingSettings|"
+msgid "Enable downloads management logging"
+msgstr ""
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "Không giới hạn"
@@ -5390,6 +5573,7 @@ msgctxt "TumComboBox|"
 msgid "unlimited"
 msgstr "không giới hạn"
 
+#, qt-format
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
 msgstr "Tải xuốngL %1, Tải lên: %2"
@@ -5442,6 +5626,7 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr ""
 
+#, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
 msgstr ""
@@ -5474,17 +5659,35 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
 msgstr "Không có quyền ghi vào thư mục đã chọn"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Kích thước: %1 (Ổ đĩa: %2)"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
 msgstr "Dung lượng đĩa: %1"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Kích thước: %1"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "Cao"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "Thấp"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "Bình thường"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."
@@ -5526,6 +5729,7 @@ msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "Phiên bản mới có sẵn"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
 msgstr ""
@@ -5534,6 +5738,7 @@ msgctxt "UpdateDialog|"
 msgid "Update"
 msgstr "Cập nhật"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
 msgstr "%1 đã được cập nhật"
@@ -5570,6 +5775,7 @@ msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
 msgstr "Lỗi xảy ra trong quá trình cài đặt:"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
 msgstr "Mở lại %1 để cập nhật"
@@ -5590,6 +5796,7 @@ msgctxt "VideoQuality|"
 msgid "Quality:"
 msgstr "Chất lượng:"
 
+#, qt-format
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
 msgstr "Thích %1?"
@@ -5626,10 +5833,12 @@ msgctxt "WaitingPage|"
 msgid "Loading"
 msgstr ""
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
 msgstr ""
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Error: %1"
 msgstr "Lỗi: %1"
@@ -5650,6 +5859,7 @@ msgctxt "WhatsNewDialog|"
 msgid "New version is available"
 msgstr "Phiên bản mới có sẵn"
 
+#, qt-format
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
 msgstr ""
@@ -5658,6 +5868,7 @@ msgctxt "WhatsNewDialog|"
 msgid "Update"
 msgstr "Cập nhật"
 
+#, qt-format
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr ""
@@ -5666,6 +5877,7 @@ msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr ""
 
+#, qt-format
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr ""
@@ -5677,3 +5889,7 @@ msgstr "Thêm tải xuống"
 msgctxt "main|"
 msgid "New download"
 msgstr "Tải xuống mới"
+
+msgctxt "main|"
+msgid "OK to remove tag?"
+msgstr ""

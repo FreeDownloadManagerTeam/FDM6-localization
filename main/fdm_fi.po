@@ -12,14 +12,18 @@ msgctxt "AboutDialog|"
 msgid "About"
 msgstr "Tietoja"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
 msgstr "Versio: %1 (%2)"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
 msgstr "Luotu: %1"
 
+#. © FreeDownloadManager.org, 2004-2023
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
@@ -28,6 +32,7 @@ msgctxt "AboutDialog|"
 msgid "remote control"
 msgstr "etähallinta"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "versio %1"
@@ -36,6 +41,7 @@ msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "OK"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "Versio %1 (%2)"
@@ -71,6 +77,10 @@ msgstr "OK"
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
 msgstr "Syötä toisiopalvelimen URL-osoite"
+
+msgctxt "AddNewTagMenuItem|"
+msgid "Add tag"
+msgstr "Lisää tunniste"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -108,6 +118,7 @@ msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
 msgstr "Ilmoita latauksen epäonnistumisesta ilmoituskeskuksessa"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "Ilmoita vain kun %1:n ikkuna ei ole aktiivinen"
@@ -144,6 +155,7 @@ msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "Käyttöliittymä"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
@@ -341,6 +353,7 @@ msgctxt "AllDownloadsSortModeButton|"
 msgid "Newest"
 msgstr "Uusimmasta vanhimpaan"
 
+#. sort by title mode
 msgctxt "AllDownloadsSortModeButton|"
 msgid "A-Z"
 msgstr "Aakkosellisesti A–Ö"
@@ -425,12 +438,14 @@ msgctxt "AppAndroidPermissionsManager|"
 msgid "Notifications"
 msgstr "Ilmoitukset"
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
 msgstr ""
 "%1 tarvitsee käyttöoikeuden tallentaakseen ladatut tiedostot paikalliseen "
 "tallennustilaan."
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
@@ -439,26 +454,32 @@ msgstr ""
 "%1 tarvitsee käyttöoikeuden näyttääkseen lataustilanteen järjestelmän "
 "ilmoituspaneelissa."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
 msgstr "Jotkin lataukset eivät tue jatkamista (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
 msgstr "Siirretään tiedostoja (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
 msgstr "Muunnetaan tiedostoja MP3-muotoon (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
 msgstr "Muunnetaan tiedostoja MP4-muotoon (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
 msgstr "Nimetään tiedostoja (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Yhdistetään mediastriimejä (%1)."
@@ -479,10 +500,12 @@ msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Jatkamista tukemattomia toimintoja on käynnissä"
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
 msgstr "Yhdistetään %1-etäinstanssiin (%2)…"
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
 msgstr "Noudetaan tietoja %1-etäinstanssista (%2)…"
@@ -495,10 +518,12 @@ msgctxt "AuthDialog|"
 msgid "Authentication required"
 msgstr "Tunnistautuminen vaaditaan"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
 msgstr "%1 vaatii tunnistautumisen"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
 msgstr "Sivusto ilmoittaa: \"%1\"."
@@ -527,6 +552,7 @@ msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "Tunnistautuminen vaaditaan"
 
+#, qt-format
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
 msgstr "Sivusto ilmoittaa: \"%1\"."
@@ -559,6 +585,7 @@ msgctxt "AuthenticationPage|"
 msgid "OK"
 msgstr "OK"
 
+#, qt-format
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
 msgstr "Sivusto ilmoittaa: \"%1\"."
@@ -663,6 +690,7 @@ msgctxt "BitrateComboBox|"
 msgid "kbps"
 msgstr "kbps"
 
+#, qt-format
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
 msgstr "%1 %2 – %3 %4"
@@ -747,6 +775,7 @@ msgctxt "Browser|"
 msgid "NO"
 msgstr "EI"
 
+#, qt-format
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
 msgstr "Takaisin: %1"
@@ -767,10 +796,12 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr "Lisää kirjanmerkki"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
 msgstr "Lataa %1 -lisäosa"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
 msgstr "Selainta %1 ei ole asennettu"
@@ -779,6 +810,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "Selainintegraatio"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
@@ -829,6 +861,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
 msgstr "Mt"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Käytä selainta, jos %1-lataus perutaan"
@@ -841,6 +874,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Capture files with extensions"
 msgstr ""
 
+#, qt-format
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -873,6 +907,7 @@ msgctxt "BtDetailsTab|"
 msgid "N/A"
 msgstr "Ei käytettävissä"
 
+#, qt-format
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
 msgstr "(yhdistetty: %1)"
@@ -929,6 +964,7 @@ msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "Lisäasetukset"
 
+#, qt-format
 msgctxt "BtSettings|"
 msgid "Current port: %1"
 msgstr "Nykyinen portti: %1"
@@ -995,10 +1031,12 @@ msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
 msgstr "Tältä sivustolta lataaminen ei ole sallittua"
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
 msgstr "Välityspalvelin %1 vaatii käyttäjätunnuksen ja salasanan."
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
 msgstr "%1 pyytää käyttäjätunnusta ja salasanaa."
@@ -1011,6 +1049,7 @@ msgctxt "ButtonsBlock|"
 msgid "Please select download link"
 msgstr "Valitse latauslinkki"
 
+#, qt-format
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "Voit valita kerrallaan enintään %1 linkkiä"
@@ -1059,6 +1098,7 @@ msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
 msgstr "Syötä uusi URL-osoite"
 
+#, qt-format
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
 msgstr "Tiedostosijainti: %1"
@@ -1091,6 +1131,7 @@ msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
 msgstr "Syötä URL-osoite"
 
+#, qt-format
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
 msgstr "Tiedostosijainti: %1"
@@ -1118,6 +1159,7 @@ msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Cancel"
 msgstr "Peru"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "Muodosta %1-etäyhteys"
@@ -1126,6 +1168,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
 msgstr "(beeta)"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
 msgstr ""
@@ -1135,16 +1178,19 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "Yhdistä automaattisesti käynnistettäessä"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
 msgstr "Syötä %1 tai <a href='#'>skannaa QR-koodi</a>."
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
 "Both %1 and QR code are located inside of Preferences page of %2 you're "
 "going to connect to."
 msgstr "%1 ja QR-koodi löytyvät yhdistettävän %2-instanssin asetuksista."
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
 msgstr "Yhdistä automaattisesti kun %1 avataan"
@@ -1157,6 +1203,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "OK"
 msgstr "OK"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
@@ -1231,6 +1278,7 @@ msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
 msgstr "Käynnistys epäonnistui."
 
+#, qt-format
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
 msgstr "Virhe: %1"
@@ -1247,11 +1295,13 @@ msgctxt "CppQmlLocalizations|"
 msgid "Yesterday"
 msgstr "Eilen"
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr "Havaittiin sisäinen virhe.<br>%1 on käynnistettävä uudelleen."
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
 msgstr "Käynnistä %1 automaattisesti uudelleen"
@@ -1280,6 +1330,7 @@ msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
 msgstr "Luo siirrettävä versio"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
@@ -1316,10 +1367,12 @@ msgctxt "CreatePortableDialog|"
 msgid "OK"
 msgstr "OK"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
 msgstr "Luodaan %1 %"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
 msgstr "Virhe luotaessa siirrettävää versiota: %1"
@@ -1448,14 +1501,17 @@ msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "Keskeytä"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Koko: %1 (levytila: %2)"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
 msgstr "Levytila: %1"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Koko: %1"
@@ -1540,6 +1596,12 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "Valmis"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Remaining"
+msgstr ""
+
+#. [50%] - myfile.txt
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1 %] - %2"
@@ -1580,6 +1642,8 @@ msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "Ladattu"
 
+#. 50% [200 MB]
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
 msgstr "%1 % [%2]"
@@ -1656,14 +1720,17 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Levy puuttuu"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
 msgstr ""
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "invalid (%1)"
 msgstr ""
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "unsupported (%1)"
 msgstr ""
@@ -1672,6 +1739,7 @@ msgctxt "DownloadsList|"
 msgid "Skipped downloads"
 msgstr ""
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Latauslinkit (%1 valittu)"
@@ -1685,10 +1753,6 @@ msgid "Select none"
 msgstr "Tyhjennä valinnat"
 
 msgctxt "DownloadsPage|"
-msgid "Show all downloads"
-msgstr ""
-
-msgctxt "DownloadsPage|"
 msgid "Download list is empty."
 msgstr "Latauslista on tyhjä."
 
@@ -1700,6 +1764,7 @@ msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "Ei tuloksia kohteesta"
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
 msgstr "Tunnisteella \"%1\" ei löytynyt tuloksia"
@@ -1720,6 +1785,7 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "Latauslista on tyhjä. Lisää uuden latauksen URL."
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "Muodosta %1-etäyhteys"
@@ -1744,10 +1810,12 @@ msgctxt "DownloadsSettings|"
 msgid "Immediately"
 msgstr "Heti"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "In"
 msgstr " "
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "days"
 msgstr "päivässä"
@@ -1847,6 +1915,14 @@ msgstr "Lähetys"
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Added"
 msgstr "Lisätty"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Remaining"
+msgstr ""
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Stopped"
+msgstr "Pysäytetyt"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -2056,6 +2132,18 @@ msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr "n/a"
 
+msgctxt "DownloadsViewItem_V2|"
+msgid "Priority"
+msgstr "Tärkeys"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Stopped"
+msgstr "Pysäytetyt"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Remaining"
+msgstr ""
+
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "Jonossa"
@@ -2083,10 +2171,6 @@ msgstr "Pysäytetty"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Valmis"
-
-msgctxt "DownloadsViewTools|"
-msgid "Downloads: %1"
-msgstr ""
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2175,6 +2259,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Cancel"
 msgstr "Peru"
 
+#, qt-format
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
 msgstr "Kaikki tiedostot (%1)"
@@ -2187,6 +2272,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Export"
 msgstr "Vie"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
 msgstr "%1 lataustiedostot (%2)"
@@ -2199,6 +2285,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
 msgstr "URL-lista"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
 msgstr "Tekstitiedostot (%1)"
@@ -2207,6 +2294,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
 msgstr "CSV-tiedosto"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
 msgstr "CSV-tiedostot (%1)"
@@ -2219,10 +2307,12 @@ msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
 msgstr "Peru"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
 msgstr "%1 asetustiedostot (%2)"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
 msgstr "Kaikki tiedostot (%1)"
@@ -2235,6 +2325,7 @@ msgctxt "FileIntegrityDialog|"
 msgid "Hash"
 msgstr "Tarkistussumma"
 
+#, qt-format
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
 msgstr "Lasketaan %1%"
@@ -2279,6 +2370,7 @@ msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "Tarkistussumma"
 
+#, qt-format
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
 msgstr "Lasketaan %1%"
@@ -2307,6 +2399,7 @@ msgctxt "FileName|"
 msgid "File name"
 msgstr "Tiedostonimi"
 
+#, qt-format
 msgctxt "FileName|"
 msgid "%1 files (*.%2)"
 msgstr "%1 tiedostot (*.%2)"
@@ -2367,6 +2460,7 @@ msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
 msgstr "Muista valintani kaikille latauksille"
 
+#, qt-format
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
 msgstr "Nimeä uudelleen (%1)"
@@ -2495,18 +2589,6 @@ msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Valmis"
 
-msgctxt "FilesTreeItem_V2|"
-msgid "Low"
-msgstr "Matala"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "Normal"
-msgstr "Normaali"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "High"
-msgstr "Korkea"
-
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Makrot"
@@ -2538,10 +2620,6 @@ msgstr "Vaaleaa teemaa käytetään, jos järjestelmäteema ei ole tiedossa."
 msgctxt "GeneralSettings|"
 msgid "UI style"
 msgstr "Käyttöliittymän tyyli"
-
-msgctxt "GeneralSettings|"
-msgid "New (beta)"
-msgstr "Uusi (beeta)"
 
 msgctxt "GeneralSettings|"
 msgid "Classic"
@@ -2611,10 +2689,12 @@ msgctxt "GeneralSettings|"
 msgid "Immediately"
 msgstr "Heti"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "In"
 msgstr " "
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "days"
 msgstr "päivässä"
@@ -2650,6 +2730,10 @@ msgstr "Asenna päivitykset automaattisesti"
 msgctxt "GeneralSettings|"
 msgid "Mark downloaded files"
 msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "New"
+msgstr "Uusi"
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2724,6 +2808,7 @@ msgctxt "GeneralTab|"
 msgid "Added at:"
 msgstr "Lisätty:"
 
+#, qt-format
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
 msgstr "%1/%2"
@@ -2772,6 +2857,11 @@ msgctxt "GeneralTab_V2|"
 msgid "File"
 msgstr "Tiedosto"
 
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Priority"
+msgstr "Tärkeys"
+
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
 msgstr "MD5"
@@ -2796,22 +2886,27 @@ msgctxt "ImportDialog|"
 msgid "Cancel"
 msgstr "Peru"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
 msgstr "Kaikki tiedostot (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
 msgstr "Tekstitiedostot (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
 msgstr "%1 lataustiedostot (%2)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
 msgstr "%1 asetustiedostot (%2)"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
 msgstr "Virhe: %1"
@@ -2824,6 +2919,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
 msgstr "Tuonti tiedostosta epäonnistui"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
 msgstr "URL-osoitteiden listan tuonti tiedostosta epäonnistui: %1"
@@ -2832,6 +2928,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
 msgstr "Vienti epäonnistui"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
 msgstr "Vienti tiedostoon epäonnistui: %1"
@@ -2840,6 +2937,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
 msgstr "Tuonti epäonnistui"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr "Tuonti tiedostosta epäonnistui: %1"
@@ -2888,10 +2986,12 @@ msgctxt "LeftDrawer|"
 msgid "Submit a bug report"
 msgstr "Lähetä vikailmoitus"
 
+#, qt-format
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
 msgstr "Katkaise %1-etäyhteys"
 
+#, qt-format
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
 msgstr "Muodosta %1-etäyhteys"
@@ -2920,6 +3020,7 @@ msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
 msgstr "%content_type% - sisällön tyyppi (esim. \"musiikki\")"
 
+#, qt-format
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
 msgstr "%server% - palvelimen nimi (esim. \"%1\")"
@@ -2963,10 +3064,6 @@ msgstr "Valmis"
 msgctxt "MainFiltersBar|"
 msgid "Uncompleted"
 msgstr "Kesken"
-
-msgctxt "MainFiltersBar|"
-msgid "OK to remove tag?"
-msgstr "Voidaanko tunniste poistaa?"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from clipboard"
@@ -3032,10 +3129,12 @@ msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "Sammuta"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
 msgstr "Katkaise %1-etäyhteys"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
 msgstr "Muodosta %1-etäyhteys"
@@ -3064,6 +3163,7 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "Etanatila"
 
+#, qt-format
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -3102,6 +3202,7 @@ msgctxt "MainStatusBar_V2|"
 msgid "Set the traffic usage mode"
 msgstr "Aseta tiedonsiirtotila"
 
+#, qt-format
 msgctxt "MainStatusBar_V2|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -3111,6 +3212,14 @@ msgstr[1] "%n latausta valittu."
 msgctxt "MainStatusBar_V2|"
 msgid "Total size:"
 msgstr "Koko:"
+
+msgctxt "MainStatusBar_V2|"
+msgid ""
+"Snail Mode puts active downloads into sleep mode, freeing up as much "
+"Internet bandwidth as possible. When you turn it off, all active downloads "
+"will resume at normal speed. Snail Mode is especially useful when your "
+"Internet is slow and you need to make a call, for example."
+msgstr ""
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
@@ -3232,6 +3341,7 @@ msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
 msgstr "Valmis toistettavaksi"
 
+#, qt-format
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
 msgstr "%1 on valmis toistettavaksi"
@@ -3268,6 +3378,7 @@ msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
 msgstr "Ohita"
 
+#, qt-format
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr "Ohita kaikki (%1)"
@@ -3308,10 +3419,12 @@ msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
 msgstr "Latauksen siirtäminen epäonnistui"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
 msgstr "Virhe: %1"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
 msgstr "Ei voitu siirtää: %1"
@@ -3628,6 +3741,7 @@ msgctxt "Notification|"
 msgid "Ready to play"
 msgstr "Valmis toistettavaksi"
 
+#, qt-format
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
 msgstr "%1ilta puuttuu oikeuksia"
@@ -3675,6 +3789,7 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Yhteydet"
 
+#. Browse for a file
 msgctxt "PickFileButton|"
 msgid "Browse..."
 msgstr ""
@@ -3683,6 +3798,7 @@ msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "Toista tiedosto vaikka sitä ladataan edelleen"
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
 msgstr "Pidätkö lisäosasta %1?"
@@ -3693,6 +3809,7 @@ msgid ""
 msgstr ""
 "Haluaisimme sinun auttavan tätä lisäosaa löytämään potentiaalisia käyttäjiä."
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid ""
 "Please use your favorite social networks and forums to let the other people "
@@ -3753,6 +3870,7 @@ msgctxt "PluginsPage|"
 msgid "Install add-on from file"
 msgstr "Asenna lisäosa tiedostosta"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "Lisätietoja %1:n lisäosista"
@@ -3765,6 +3883,7 @@ msgctxt "PluginsPage|"
 msgid "Cancel"
 msgstr "Peru"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
 msgstr "%1 lisäosatiedostot"
@@ -3797,6 +3916,7 @@ msgctxt "PluginsPage|"
 msgid "The following required components are missing:"
 msgstr "Seuraavat vaadittavat komponentit puuttuvat:"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 is required."
 msgstr "%1 vaaditaan."
@@ -3821,10 +3941,12 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
 msgstr "Varoitus!"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
 msgstr "Lisäosan %1 uusi versio pyytää vaarallisia oikeuksia:"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
 msgstr "Lisäosan %1 uusi versio pyytää vaarallista oikeutta:"
@@ -3837,6 +3959,7 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
 msgstr "Haluatko jatkaa asennusta?"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid ""
 "New version of %1 add-on requires additional components:\n"
@@ -3845,6 +3968,7 @@ msgstr ""
 "Lisäosan %1 uusi versio vaatii lisäkomponentteja:\n"
 "%2"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requires %2."
 msgstr "Lisäosan %1 uusi versio vaatii %2."
@@ -3873,6 +3997,7 @@ msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "Päivitetään…"
 
+#, qt-format
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
 msgstr "Versio: %1"
@@ -3901,6 +4026,7 @@ msgctxt "PrivacyDialog|"
 msgid "User agreement"
 msgstr "Käyttäjäsopimus"
 
+#, qt-format
 msgctxt "PrivacyDialog|"
 msgid ""
 "A bug report will be sent to the server and used to improve %1 performance. "
@@ -3965,6 +4091,7 @@ msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
 msgstr "Ohjelman tilan hallinnan latausvirhe."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "\n"
@@ -3981,14 +4108,17 @@ msgctxt "QObject|"
 msgid "Drag-and-drop URL"
 msgstr "Vedä ja pudota URL-osoite"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
 msgstr "%1 ei tue tätä laitetta, pahoittelumme."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr "%1 ei voinut käynnistyä. Uudelleenasennus vaaditaan."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Reason: %1"
 msgstr "Syy: %1"
@@ -4005,6 +4135,7 @@ msgctxt "QObject|"
 msgid "Show main window"
 msgstr "Näytä pääikkuna"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "About %1"
 msgstr "Tietoja %1ista"
@@ -4021,74 +4152,92 @@ msgctxt "QObject|"
 msgid "Check for updates..."
 msgstr "Tarkista päivitykset..."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B"
 msgstr "%1 B"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB"
 msgstr "%1 KB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB"
 msgstr "%1 MB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB"
 msgstr "%1 GB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB"
 msgstr "%1 TB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G"
 msgstr "%1 G"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 T"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B/s"
 msgstr "%1 B/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB/s"
 msgstr "%1 KB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB/s"
 msgstr "%1 MB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB/s"
 msgstr "%1 GB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB/s"
 msgstr "%1 TB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K/s"
 msgstr "%1 K/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M/s"
 msgstr "%1 M/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G/s"
 msgstr "%1 G/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T/s"
 msgstr "%1 T/s"
@@ -4157,6 +4306,7 @@ msgctxt "QObject|"
 msgid "Unknown file I/O error"
 msgstr "Määrittelemätön tiedostovirhe"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "HTTP Error %1"
 msgstr "HTTP-virhe %1"
@@ -4489,6 +4639,7 @@ msgctxt "QObject|"
 msgid "Failed to remove current version"
 msgstr "Nykyisen version poisto epäonnistui"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "hdiutil error %1"
 msgstr "hdiutil-virhe %1"
@@ -4501,18 +4652,22 @@ msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr "Allekirjoituksen tarkastus epäonnistui."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download with %1"
 msgstr "Lataa %1:llä"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download all with %1"
 msgstr "Lataa kaikki %1:llä"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download selected with %1"
 msgstr "Lataa valinta %1:llä"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download video with %1"
 msgstr "Lataa video %1:llä"
@@ -4529,6 +4684,7 @@ msgctxt "QObject|"
 msgid "There is not enough disk space."
 msgstr "Levytilaa ei ole riittävästi."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "The list of downloads is damaged.\n"
@@ -4543,6 +4699,7 @@ msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
 msgstr "Kriittinen virhe: tietokannan lataus epäonnistui."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
@@ -4606,14 +4763,19 @@ msgctxt "QObject|"
 msgid "Files were modified"
 msgstr "Tiedostot ovat muuttuneet"
 
+#. 10 MB of unknown at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
 msgstr "%1 tuntemattomasta, %2"
 
+#. 10 MB of 200 MB at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
 msgstr "%1/%2, %3"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
 msgstr "%1 %2 tai suurempi"
@@ -4638,10 +4800,12 @@ msgctxt "QObject|"
 msgid "Missing components"
 msgstr "Komponentteja puuttuu"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 are required"
 msgstr "%1 vaaditaan"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 is required"
 msgstr "%1 vaaditaan"
@@ -4658,6 +4822,15 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Avaa kansio"
 
+msgctxt "QObject|"
+msgid "Security check failure."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Invalid version."
+msgstr ""
+
+#, qt-format
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
 msgstr "%1 palautti nollasta poikkeavan (%2) sulkutilan"
@@ -4688,6 +4861,7 @@ msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
 msgstr "QIODevice::QuaZIODevice ei tue ReadWrite-tilaa"
 
+#, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
 msgstr "ZIP/UNZIP-rajapintavirhe %1"
@@ -4712,6 +4886,7 @@ msgctxt "RemoteControlSettings|"
 msgid "(beta)"
 msgstr "(beeta)"
 
+#, qt-format
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
 msgstr "Salli tällä laitteella suoritettavan %1:n etähallinta"
@@ -4788,6 +4963,7 @@ msgctxt "ReportSentDialog|"
 msgid "Report problem"
 msgstr "Ilmoita ongelmasta"
 
+#, qt-format
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "Raporttia ei voitu lähettää, virhe: %1"
@@ -4936,6 +5112,7 @@ msgctxt "SearchToolbar|"
 msgid "Search"
 msgstr "Hae"
 
+#, qt-format
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
 msgstr "Valittu: %1"
@@ -5072,6 +5249,7 @@ msgctxt "ShutdownDialog|"
 msgid "Cancel"
 msgstr "Peru"
 
+#, qt-format
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
 msgstr "OK (%1)"
@@ -5124,6 +5302,7 @@ msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL-sertifikaatti on virheellinen."
 
+#, qt-format
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
 msgstr "%1-avainsormenjäljet"
@@ -5240,6 +5419,7 @@ msgctxt "SubmitBugReportDialog|"
 msgid "E-mail"
 msgstr "Sähköposti"
 
+#, qt-format
 msgctxt "SubmitBugReportDialog|"
 msgid "Attach %1 log files (recommended)"
 msgstr "Liitä %1 lokitiedostot (suositeltavaa)"
@@ -5392,6 +5572,10 @@ msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "Piilota"
 
+msgctxt "TroubleshootingSettings|"
+msgid "Enable downloads management logging"
+msgstr ""
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "Rajoittamaton"
@@ -5404,6 +5588,7 @@ msgctxt "TumComboBox|"
 msgid "unlimited"
 msgstr "rajoittamaton"
 
+#, qt-format
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
 msgstr "Lataus: %1, Lähetys: %2"
@@ -5456,6 +5641,7 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Muuta verkon käyttöä"
 
+#, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
 msgstr "Ei voi olla suurempi kuin %1"
@@ -5488,17 +5674,35 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
 msgstr "Ei kirjoitusoikeutta valittuun hakemistoon"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Koko: %1 (levytila: %2)"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
 msgstr "Levytila: %1"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Koko: %1"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "Korkea"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "Matala"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "Normaali"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."
@@ -5540,6 +5744,7 @@ msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "Uusi versio on saatavilla"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
 msgstr "Uutta versiossa %1"
@@ -5548,6 +5753,7 @@ msgctxt "UpdateDialog|"
 msgid "Update"
 msgstr "Päivitä"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
 msgstr "%1 on ajan tasalla"
@@ -5584,6 +5790,7 @@ msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
 msgstr "Virhe asennettaessa:"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
 msgstr "Päivitä käynnistämällä %1 se uudelleen"
@@ -5604,6 +5811,7 @@ msgctxt "VideoQuality|"
 msgid "Quality:"
 msgstr "Laatu:"
 
+#, qt-format
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
 msgstr "Pidätkö %1:stä?"
@@ -5640,10 +5848,12 @@ msgctxt "WaitingPage|"
 msgid "Loading"
 msgstr "Ladataan"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
 msgstr "Yhteys kohteeseen %1"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Error: %1"
 msgstr "Virhe: %1"
@@ -5664,6 +5874,7 @@ msgctxt "WhatsNewDialog|"
 msgid "New version is available"
 msgstr "Uusi versio on saatavilla"
 
+#, qt-format
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
 msgstr "Uutta versiossa %1"
@@ -5672,6 +5883,7 @@ msgctxt "WhatsNewDialog|"
 msgid "Update"
 msgstr "Päivitä"
 
+#, qt-format
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "Raporttia ei voitu lähettää, virhe: %1"
@@ -5680,6 +5892,7 @@ msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "Raportti lähetetty. Kiitos yhteistyöstä!"
 
+#, qt-format
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "%1-etäyhteys"
@@ -5691,3 +5904,7 @@ msgstr "Lisää lataus"
 msgctxt "main|"
 msgid "New download"
 msgstr "Uusi lataus"
+
+msgctxt "main|"
+msgid "OK to remove tag?"
+msgstr "Voidaanko tunniste poistaa?"

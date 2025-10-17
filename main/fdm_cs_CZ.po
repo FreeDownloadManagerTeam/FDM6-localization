@@ -12,14 +12,18 @@ msgctxt "AboutDialog|"
 msgid "About"
 msgstr "O programu"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
 msgstr "Verze: %1 (%2)"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
 msgstr "Datum kompilace: %1"
 
+#. © FreeDownloadManager.org, 2004-2023
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
@@ -28,6 +32,7 @@ msgctxt "AboutDialog|"
 msgid "remote control"
 msgstr "Vzdálený přístup"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "verze %1"
@@ -36,6 +41,7 @@ msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "Potvrdit"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "Verze %1 (%2)"
@@ -71,6 +77,10 @@ msgstr "OK"
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
 msgstr "Zadejte URL zrcadla"
+
+msgctxt "AddNewTagMenuItem|"
+msgid "Add tag"
+msgstr "Přidat značku"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -108,6 +118,7 @@ msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
 msgstr "Oznámit selhání stahování"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "Oznámit stahování jen pokud je okno %1 neaktivní"
@@ -144,6 +155,7 @@ msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "Rozhraní"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
@@ -341,6 +353,7 @@ msgctxt "AllDownloadsSortModeButton|"
 msgid "Newest"
 msgstr "Nejnovější"
 
+#. sort by title mode
 msgctxt "AllDownloadsSortModeButton|"
 msgid "A-Z"
 msgstr "A-Z"
@@ -425,12 +438,14 @@ msgctxt "AppAndroidPermissionsManager|"
 msgid "Notifications"
 msgstr "Oznámení"
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
 msgstr ""
 "%1 vyžaduje oprávnění pro uložení stažených souborů do Vašeho místního "
 "úložiště."
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
@@ -439,26 +454,32 @@ msgstr ""
 "%1 vyžaduje oprávnění pro zobrazení průběhu stahování v systémovém panelu "
 "oznámení."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
 msgstr "Stahování bez podpory pokračování (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
 msgstr "Přesouvání souborů (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
 msgstr "Převádění souborů do MP3 (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
 msgstr "Převádění souborů do MP4 (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
 msgstr "Přejmenovávání souborů (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Spojování proudů médií (%1)."
@@ -479,10 +500,12 @@ msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Existují operace bez schopnosti pokračovaní"
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
 msgstr "Připojování k ovladači %1 (%2)..."
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
 msgstr "Získávání dat od ovladače %1 (%2)..."
@@ -495,10 +518,12 @@ msgctxt "AuthDialog|"
 msgid "Authentication required"
 msgstr "Je vyžadováno ověření"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
 msgstr "%1 vyžaduje pověření"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
 msgstr "Stránka hlásí: \"%1\"."
@@ -527,6 +552,7 @@ msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "Je vyžadováno ověření"
 
+#, qt-format
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
 msgstr "Stránka hlásí: \"%1\"."
@@ -559,6 +585,7 @@ msgctxt "AuthenticationPage|"
 msgid "OK"
 msgstr "Potvrdit"
 
+#, qt-format
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
 msgstr "Stránka hlásí: \"%1\"."
@@ -663,6 +690,7 @@ msgctxt "BitrateComboBox|"
 msgid "kbps"
 msgstr "kbps"
 
+#, qt-format
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
 msgstr "Od %1 %2 do %3 %4"
@@ -747,6 +775,7 @@ msgctxt "Browser|"
 msgid "Bookmark added"
 msgstr "Záložka byla přidána"
 
+#, qt-format
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
 msgstr "Zpět na %1"
@@ -767,10 +796,12 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr "Přidat záložku"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
 msgstr "Stáhnout doplněk %1"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
 msgstr "%1: není nainstalováno"
@@ -779,6 +810,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "Integrace s prohlížečem"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
@@ -831,6 +863,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
 msgstr "MB"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Použít prohlížeč při zrušení stahování pomocí %1"
@@ -841,8 +874,9 @@ msgstr "Nezachytávat při stisknutí klávesy INSERT"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Capture files with extensions"
-msgstr ""
+msgstr "Zachytávat soubory s příponami"
 
+#, qt-format
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -875,6 +909,7 @@ msgctxt "BtDetailsTab|"
 msgid "N/A"
 msgstr "Nedostupné"
 
+#, qt-format
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
 msgstr "(připojeno: %1)"
@@ -931,6 +966,7 @@ msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "Rozšířené"
 
+#, qt-format
 msgctxt "BtSettings|"
 msgid "Current port: %1"
 msgstr "Aktuální port: %1"
@@ -997,10 +1033,12 @@ msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
 msgstr "Stahování z této stránky není povoleno"
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
 msgstr "Proxy %1 vyžaduje uživatelské jméno a heslo."
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
 msgstr "%1 vyžaduje Vaše uživatelské jméno a heslo."
@@ -1013,6 +1051,7 @@ msgctxt "ButtonsBlock|"
 msgid "Please select download link"
 msgstr "Zvolte odkaz ke stažení"
 
+#, qt-format
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "Najednou můžete vybrat maximálně %1 odkazů"
@@ -1047,11 +1086,11 @@ msgstr "Stáhnout"
 
 msgctxt "ButtonsBlock|"
 msgid "The subfolder name must not be empty"
-msgstr ""
+msgstr "Název podsložky nesmí být prázdný"
 
 msgctxt "ButtonsBlock|"
 msgid "The filename must not be empty"
-msgstr ""
+msgstr "Název souboru nesmí být prázdný"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -1061,6 +1100,7 @@ msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
 msgstr "Zadejte novou URL"
 
+#, qt-format
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
 msgstr "Umístění souboru: %1"
@@ -1093,6 +1133,7 @@ msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
 msgstr "Zadejte novou URL"
 
+#, qt-format
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
 msgstr "Umístění souboru: %1"
@@ -1120,6 +1161,7 @@ msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Cancel"
 msgstr "Storno"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "Připojit se ke vzdálenému %1"
@@ -1128,6 +1170,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
 msgstr "(beta)"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
 msgstr "Zde se můžete připojit k %1, které běží na jiném zařízení."
@@ -1136,10 +1179,12 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "Automaticky se připojit při spuštění"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
 msgstr "Zadejte %1 nebo <a href='#'>naskenujte QR kód</a>"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
 "Both %1 and QR code are located inside of Preferences page of %2 you're "
@@ -1148,6 +1193,7 @@ msgstr ""
 "QR kód i %1 jsou umístěny v menu Možnosti stránky %2, ke které se chcete "
 "připojit."
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
 msgstr "Automaticky se připojit při spuštění %1"
@@ -1160,6 +1206,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "OK"
 msgstr "OK"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr "Zde se můžete připojit k %1, které běží na Windows/macOS/Linux"
@@ -1232,6 +1279,7 @@ msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
 msgstr "Spuštění selhalo."
 
+#, qt-format
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
 msgstr "Chyba: %1"
@@ -1248,12 +1296,14 @@ msgctxt "CppQmlLocalizations|"
 msgid "Yesterday"
 msgstr "Včera"
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr ""
 "Vyskytla se vnitřní chyba.<br>%1 musí být pro další používání restartován."
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
 msgstr "Automaticky restartovat %1"
@@ -1282,6 +1332,7 @@ msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
 msgstr "Vytvořit přenosnou verzi"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
@@ -1318,10 +1369,12 @@ msgctxt "CreatePortableDialog|"
 msgid "OK"
 msgstr "OK"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
-msgstr "Vytváření %1%"
+msgstr "Vytváření %1 %"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
 msgstr "Při vytváření přenosné verze se vyskytla chyba: %1"
@@ -1450,14 +1503,17 @@ msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "Přerušit"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Velikost: %1 (Místo na disku: %2)"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
 msgstr "Místo na disku: %1"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Velikost: %1"
@@ -1526,7 +1582,7 @@ msgstr "Kontrolování souborů"
 
 msgctxt "DownloadStatus_V2|"
 msgid "Merging media streams"
-msgstr ""
+msgstr "Spojování mediálních proudů"
 
 msgctxt "DownloadStatus_V2|"
 msgid "Requesting info"
@@ -1544,6 +1600,13 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "Dokončeno"
 
+#, fuzzy
+msgctxt "DownloadStatus_V2|"
+msgid "Remaining"
+msgstr "Zbývá"
+
+#. [50%] - myfile.txt
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1584,6 +1647,8 @@ msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "Staženo"
 
+#. 50% [200 MB]
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
 msgstr "%1% [%2]"
@@ -1660,14 +1725,17 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Disk chybí"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
 msgstr "duplikáty (%1)"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "invalid (%1)"
 msgstr "neplatné (%1)"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "unsupported (%1)"
 msgstr "nepodporované (%1)"
@@ -1676,6 +1744,7 @@ msgctxt "DownloadsList|"
 msgid "Skipped downloads"
 msgstr "Přeskočená stahování"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Odkazy stahování (%1 vybráno)"
@@ -1689,10 +1758,6 @@ msgid "Select none"
 msgstr "Odznačit vše"
 
 msgctxt "DownloadsPage|"
-msgid "Show all downloads"
-msgstr "Zobrazit všechna stahování"
-
-msgctxt "DownloadsPage|"
 msgid "Download list is empty."
 msgstr "Seznam stahování je prázdný."
 
@@ -1704,6 +1769,7 @@ msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "Žádné výsledky pro"
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
 msgstr "Nebyly nalezeny žádné výsledky označené jako \"%1\""
@@ -1724,6 +1790,7 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "Seznam stahování je prázdný. Přidejte novou URL stahování."
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "Nelze se připojit ke vzdálenému %1"
@@ -1748,10 +1815,12 @@ msgctxt "DownloadsSettings|"
 msgid "Immediately"
 msgstr "Okamžitě"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "In"
 msgstr "Za"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "days"
 msgstr "dnů"
@@ -1851,6 +1920,14 @@ msgstr "Nahrávání"
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Added"
 msgstr "Přidáno"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Remaining"
+msgstr "Zbývá"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Stopped"
+msgstr "Zastaveno"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -1994,7 +2071,7 @@ msgstr "Sekvenční stahování"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Share file"
-msgstr ""
+msgstr "Sdílet soubor"
 
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
@@ -2060,6 +2137,18 @@ msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr "N/A"
 
+msgctxt "DownloadsViewItem_V2|"
+msgid "Priority"
+msgstr "Priorita"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Stopped"
+msgstr "Zastaveno"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Remaining"
+msgstr "Zbývá"
+
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "Ve frontě"
@@ -2087,10 +2176,6 @@ msgstr "Pozastaveno"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "Dokončeno"
-
-msgctxt "DownloadsViewTools|"
-msgid "Downloads: %1"
-msgstr "Stahování: %1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2177,6 +2262,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Cancel"
 msgstr "Storno"
 
+#, qt-format
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
 msgstr "Všechny soubory (%1)"
@@ -2189,6 +2275,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Export"
 msgstr "Exportovat"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
 msgstr "Soubory stahování %1 (%2)"
@@ -2201,6 +2288,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
 msgstr "Seznam URL"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
 msgstr "Textové soubory (%1)"
@@ -2209,6 +2297,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
 msgstr "Soubor CSV"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
 msgstr "Soubory CSV (%1)"
@@ -2221,10 +2310,12 @@ msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
 msgstr "Storno"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
 msgstr "Soubory nastavení %1 (%2)"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
 msgstr "Všechny soubory (%1)"
@@ -2237,6 +2328,7 @@ msgctxt "FileIntegrityDialog|"
 msgid "Hash"
 msgstr "Hash"
 
+#, qt-format
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
 msgstr "Počítání %1%"
@@ -2281,6 +2373,7 @@ msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "Hash"
 
+#, qt-format
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
 msgstr "Počítání %1%"
@@ -2309,6 +2402,7 @@ msgctxt "FileName|"
 msgid "File name"
 msgstr "Název souboru"
 
+#, qt-format
 msgctxt "FileName|"
 msgid "%1 files (*.%2)"
 msgstr "%1 souborů (*.%2)"
@@ -2369,6 +2463,7 @@ msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
 msgstr "Zapamatovat volbu pro všechna stahování"
 
+#, qt-format
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
 msgstr "Přejmenovat (%1)"
@@ -2497,18 +2592,6 @@ msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Dokončeno"
 
-msgctxt "FilesTreeItem_V2|"
-msgid "Low"
-msgstr "Nízká"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "Normal"
-msgstr "Normální"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "High"
-msgstr "Vysoká"
-
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Makra"
@@ -2540,10 +2623,6 @@ msgstr "Pokud je neznámý motiv systému, bude použit světlý motiv."
 msgctxt "GeneralSettings|"
 msgid "UI style"
 msgstr "Styl UI"
-
-msgctxt "GeneralSettings|"
-msgid "New (beta)"
-msgstr "Nový (beta)"
 
 msgctxt "GeneralSettings|"
 msgid "Classic"
@@ -2613,10 +2692,12 @@ msgctxt "GeneralSettings|"
 msgid "Immediately"
 msgstr "Okamžitě"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "In"
 msgstr "Za"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "days"
 msgstr "dnů"
@@ -2651,7 +2732,11 @@ msgstr "Automaticky instalovat aktualizace"
 
 msgctxt "GeneralSettings|"
 msgid "Mark downloaded files"
-msgstr ""
+msgstr "Označit stažené soubory"
+
+msgctxt "GeneralSettings|"
+msgid "New"
+msgstr "Nový"
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2725,6 +2810,7 @@ msgctxt "GeneralTab|"
 msgid "Added at:"
 msgstr "Přidáno:"
 
+#, qt-format
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
 msgstr "%1 z %2"
@@ -2773,6 +2859,11 @@ msgctxt "GeneralTab_V2|"
 msgid "File"
 msgstr "Soubor"
 
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Priority"
+msgstr "Priorita"
+
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
 msgstr "MD5"
@@ -2797,22 +2888,27 @@ msgctxt "ImportDialog|"
 msgid "Cancel"
 msgstr "Storno"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
 msgstr "Všechny soubory (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
 msgstr "Textové soubory (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
 msgstr "Soubory stahování %1 (%2)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
 msgstr "Soubory nastavení %1 (%2)"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
 msgstr "Chyba: %1"
@@ -2825,6 +2921,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
 msgstr "Selhalo vložení URL ze souboru"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
 msgstr "Nelze importovat seznam URL ze souboru: %1"
@@ -2833,6 +2930,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
 msgstr "Selhalo exportování"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
 msgstr "Nelze exportovat do souboru: %1"
@@ -2841,6 +2939,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
 msgstr "Selhalo importování"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr "Nelze importovat ze souboru: %1"
@@ -2889,10 +2988,12 @@ msgctxt "LeftDrawer|"
 msgid "Submit a bug report"
 msgstr "Odeslat hlášení o chybě"
 
+#, qt-format
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
 msgstr "Odpojit od vzdáleného %1"
 
+#, qt-format
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
 msgstr "Připojit ke vzdálenému %1"
@@ -2921,6 +3022,7 @@ msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
 msgstr "%content_type% - typ obsahu (např. \"Hudba\")"
 
+#, qt-format
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
 msgstr "%server% - název serveru (např. \"%1\")"
@@ -2964,10 +3066,6 @@ msgstr "Dokončeno"
 msgctxt "MainFiltersBar|"
 msgid "Uncompleted"
 msgstr "Nedokončeno"
-
-msgctxt "MainFiltersBar|"
-msgid "OK to remove tag?"
-msgstr "Opravdu odebrat značku?"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from clipboard"
@@ -3033,10 +3131,12 @@ msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "Vypnout"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
 msgstr "Odpojit od vzdáleného %1"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
 msgstr "Připojit ke vzdálenému %1"
@@ -3065,6 +3165,7 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "Režim Šnek"
 
+#, qt-format
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -3104,6 +3205,7 @@ msgctxt "MainStatusBar_V2|"
 msgid "Set the traffic usage mode"
 msgstr "Nastavit režim využití přenosu"
 
+#, qt-format
 msgctxt "MainStatusBar_V2|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -3114,6 +3216,18 @@ msgstr[2] "Vybráno %n stahování."
 msgctxt "MainStatusBar_V2|"
 msgid "Total size:"
 msgstr "Celková velikost:"
+
+msgctxt "MainStatusBar_V2|"
+msgid ""
+"Snail Mode puts active downloads into sleep mode, freeing up as much "
+"Internet bandwidth as possible. When you turn it off, all active downloads "
+"will resume at normal speed. Snail Mode is especially useful when your "
+"Internet is slow and you need to make a call, for example."
+msgstr ""
+"Režim Šnek přepne aktivní stahování do režimu spánku, čímž uvolní co nejvíce "
+"internetové šířky pásma. Po jeho vypnutí budou všechna aktivní stahování "
+"pokračovat normální rychlostí. Režim Šnek je užitečný zejména v případě, že "
+"máte pomalé připojení k internetu a potřebujete například telefonovat."
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
@@ -3235,6 +3349,7 @@ msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
 msgstr "Připraveno k přehrávání"
 
+#, qt-format
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
 msgstr "%1 je připraven k přehrávání"
@@ -3271,6 +3386,7 @@ msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
 msgstr "Přeskočit"
 
+#, qt-format
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr "Přeskočit vše (%1)"
@@ -3311,10 +3427,12 @@ msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
 msgstr "Přesunutí stahování selhalo"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
 msgstr "Chyba: %1"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
 msgstr "Nelze přesunout: %1"
@@ -3633,6 +3751,7 @@ msgctxt "Notification|"
 msgid "Ready to play"
 msgstr "Připraveno k přehrávání"
 
+#, qt-format
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
 msgstr "%1 nemá oprávnění"
@@ -3681,6 +3800,7 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Připojení"
 
+#. Browse for a file
 msgctxt "PickFileButton|"
 msgid "Browse..."
 msgstr "Procházet..."
@@ -3689,6 +3809,7 @@ msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "Přehrát soubor, který je stále stahován"
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
 msgstr "Líbí se Vám doplněk %1?"
@@ -3698,6 +3819,7 @@ msgid ""
 "We would like to ask you to help this add-on to reach its potential users."
 msgstr "Chceme Vás poprosit, abyste mu pomohli dostat se mezi další uživatele."
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid ""
 "Please use your favorite social networks and forums to let the other people "
@@ -3743,7 +3865,7 @@ msgstr "Resetovat všechny doplňky pro automatickou aktualizaci"
 
 msgctxt "PluginsPage|"
 msgid "Allow add-ons to use web browser cookies"
-msgstr ""
+msgstr "Povolit doplňkům používat cookies webového prohlížeče"
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
@@ -3757,6 +3879,7 @@ msgctxt "PluginsPage|"
 msgid "Install add-on from file"
 msgstr "Nainstalovat doplněk ze souboru"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "Více informací o doplňcích pro %1"
@@ -3769,6 +3892,7 @@ msgctxt "PluginsPage|"
 msgid "Cancel"
 msgstr "Storno"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
 msgstr "Soubory doplňků pro %1"
@@ -3801,6 +3925,7 @@ msgctxt "PluginsPage|"
 msgid "The following required components are missing:"
 msgstr "Následující vyžadované součásti chybí:"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 is required."
 msgstr "%1 je vyžadováno."
@@ -3825,10 +3950,12 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
 msgstr "Varování!"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
 msgstr "Nová verze doplňku %1 vyžaduje nebezpečná oprávnění:"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
 msgstr "Nová verze doplňku %1 vyžaduje nebezpečné oprávnění:"
@@ -3841,6 +3968,7 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
 msgstr "Chcete pokračovat v instalaci?"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid ""
 "New version of %1 add-on requires additional components:\n"
@@ -3849,6 +3977,7 @@ msgstr ""
 "Nová verze doplňku %1 vyžaduje dodatečné součásti:\n"
 "%2"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requires %2."
 msgstr "Nová verze doplňku %1 vyžaduje %2."
@@ -3877,6 +4006,7 @@ msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "Aktualizování…"
 
+#, qt-format
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
 msgstr "Verze: %1"
@@ -3905,6 +4035,7 @@ msgctxt "PrivacyDialog|"
 msgid "User agreement"
 msgstr "Uživatelská smlouva"
 
+#, qt-format
 msgctxt "PrivacyDialog|"
 msgid ""
 "A bug report will be sent to the server and used to improve %1 performance. "
@@ -3969,6 +4100,7 @@ msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
 msgstr "Selhala inicializace správce stavu aplikace."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "\n"
@@ -3985,14 +4117,17 @@ msgctxt "QObject|"
 msgid "Drag-and-drop URL"
 msgstr "Přesuňte a pusťte URL"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
 msgstr "Omlouváme se, ale toto zařízení není %1 podporováno."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr "Selhala inicializace %1. Přeinstalujte program."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Reason: %1"
 msgstr "Důvod: %1"
@@ -4009,6 +4144,7 @@ msgctxt "QObject|"
 msgid "Show main window"
 msgstr "Zobrazit hlavní okno"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "About %1"
 msgstr "O programu %1"
@@ -4025,74 +4161,92 @@ msgctxt "QObject|"
 msgid "Check for updates..."
 msgstr "Zkontrolovat aktualizace..."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B"
 msgstr "%1 B"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB"
 msgstr "%1 KB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB"
 msgstr "%1 MB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB"
 msgstr "%1 GB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB"
 msgstr "%1 TB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G"
 msgstr "%1 G"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 T"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B/s"
 msgstr "%1 B/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB/s"
 msgstr "%1 KB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB/s"
 msgstr "%1 MB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB/s"
 msgstr "%1 GB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB/s"
 msgstr "%1 TB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K/s"
 msgstr "%1 K/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M/s"
 msgstr "%1 M/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G/s"
 msgstr "%1 G/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T/s"
 msgstr "%1 T/s"
@@ -4161,6 +4315,7 @@ msgctxt "QObject|"
 msgid "Unknown file I/O error"
 msgstr "Neznámá chyba I/O"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "HTTP Error %1"
 msgstr "Chyba HTTP %1"
@@ -4493,6 +4648,7 @@ msgctxt "QObject|"
 msgid "Failed to remove current version"
 msgstr "Selhalo odebrání aktuální verze"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "hdiutil error %1"
 msgstr "Chyba hdiutil %1"
@@ -4505,18 +4661,22 @@ msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr "Selhala kontrola podpisu."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download with %1"
 msgstr "Stáhnout s %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download all with %1"
 msgstr "Stáhnout vše s %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download selected with %1"
 msgstr "Stáhnout vybrané s %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download video with %1"
 msgstr "Stáhnout video s %1"
@@ -4533,6 +4693,7 @@ msgctxt "QObject|"
 msgid "There is not enough disk space."
 msgstr "Nedostatek volného místa na disku."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "The list of downloads is damaged.\n"
@@ -4547,6 +4708,7 @@ msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
 msgstr "Fatální chyba: selhalo načtení databáze."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
@@ -4609,14 +4771,19 @@ msgctxt "QObject|"
 msgid "Files were modified"
 msgstr "Soubory byly upraveny"
 
+#. 10 MB of unknown at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
 msgstr "%1 z neznámého na %2"
 
+#. 10 MB of 200 MB at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
 msgstr "%1 z %2 na %3"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
 msgstr "%1 %2 nebo vyšší"
@@ -4641,10 +4808,12 @@ msgctxt "QObject|"
 msgid "Missing components"
 msgstr "Chybějící součásti"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 are required"
 msgstr "%1 jsou vyžadována"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 is required"
 msgstr "%1 je vyžadováno"
@@ -4661,6 +4830,15 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Otevřít složku"
 
+msgctxt "QObject|"
+msgid "Security check failure."
+msgstr "Bezpečnostní kontrola selhala."
+
+msgctxt "QObject|"
+msgid "Invalid version."
+msgstr "Neplatná varze"
+
+#, qt-format
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
 msgstr "%1 vrátil nenulový stav ukončení (%2)"
@@ -4689,6 +4867,7 @@ msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
 msgstr "QIODevice::Čtení/Zápis není podporován pro QuaZIODevice"
 
+#, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
 msgstr "Chyba API pro ZIP/UNZIP %1"
@@ -4713,6 +4892,7 @@ msgctxt "RemoteControlSettings|"
 msgid "(beta)"
 msgstr "(beta)"
 
+#, qt-format
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
 msgstr "Umožnit vzdálený přístup k %1 běžícím na tomto zařízení"
@@ -4789,6 +4969,7 @@ msgctxt "ReportSentDialog|"
 msgid "Report problem"
 msgstr "Nahlásit problém"
 
+#, qt-format
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "Omlouváme se, ale hlášení nebylo odesláno. Vyskytla se chyba: %1"
@@ -4937,6 +5118,7 @@ msgctxt "SearchToolbar|"
 msgid "Search"
 msgstr "Hledat"
 
+#, qt-format
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
 msgstr "Vybráno: %1"
@@ -5073,6 +5255,7 @@ msgctxt "ShutdownDialog|"
 msgid "Cancel"
 msgstr "Storno"
 
+#, qt-format
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
 msgstr "OK (%1)"
@@ -5125,6 +5308,7 @@ msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL certifikát není platný."
 
+#, qt-format
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
 msgstr "%1 otisků klíčů"
@@ -5241,6 +5425,7 @@ msgctxt "SubmitBugReportDialog|"
 msgid "E-mail"
 msgstr "E-mail"
 
+#, qt-format
 msgctxt "SubmitBugReportDialog|"
 msgid "Attach %1 log files (recommended)"
 msgstr "Připojit soubory s logem (doporučeno)"
@@ -5393,6 +5578,10 @@ msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "Skrýt"
 
+msgctxt "TroubleshootingSettings|"
+msgid "Enable downloads management logging"
+msgstr "Povolit logování správy stahování"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "Bez limitu"
@@ -5405,6 +5594,7 @@ msgctxt "TumComboBox|"
 msgid "unlimited"
 msgstr "bez limitu"
 
+#, qt-format
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
 msgstr "Stahování: %1, Nahrávání: %2"
@@ -5457,6 +5647,7 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Změnit limity přenosu"
 
+#, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
 msgstr "Nemůže být větší než %1"
@@ -5489,17 +5680,33 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
 msgstr "Nemáte práva pro zápis do vybraného adresáře"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Velikost: %1 (Místo na disku: %2)"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
 msgstr "Místo na disku: %1"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Velikost: %1"
+
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "Vysoká"
+
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "Nízká"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "Normální"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."
@@ -5541,6 +5748,7 @@ msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "Je dostupná nová verze"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
 msgstr "Co je nového v %1"
@@ -5549,6 +5757,7 @@ msgctxt "UpdateDialog|"
 msgid "Update"
 msgstr "Aktualizovat"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
 msgstr "%1 je aktuální"
@@ -5585,6 +5794,7 @@ msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
 msgstr "V průběhu instalace se vyskytla chyba:"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
 msgstr "Pro aktualizaci musíte znovu spustit %1"
@@ -5605,6 +5815,7 @@ msgctxt "VideoQuality|"
 msgid "Quality:"
 msgstr "Kvalita:"
 
+#, qt-format
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
 msgstr "Libí se Vám %1?"
@@ -5641,10 +5852,12 @@ msgctxt "WaitingPage|"
 msgid "Loading"
 msgstr "Načítání"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
 msgstr "Připojování k %1"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Error: %1"
 msgstr "Chyba: %1"
@@ -5665,6 +5878,7 @@ msgctxt "WhatsNewDialog|"
 msgid "New version is available"
 msgstr "Je dostupná nová verze"
 
+#, qt-format
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
 msgstr "Co je nového v %1"
@@ -5673,6 +5887,7 @@ msgctxt "WhatsNewDialog|"
 msgid "Update"
 msgstr "Aktualizovat"
 
+#, qt-format
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "Omlouváme se, ale hlášení nebylo odesláno. Vyskytla se chyba: %1"
@@ -5681,6 +5896,7 @@ msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "Hlášení bylo odesláno. Děkujeme za spolupráci!"
 
+#, qt-format
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "Vzdálené připojení k %1"
@@ -5692,3 +5908,7 @@ msgstr "Přidat stahování"
 msgctxt "main|"
 msgid "New download"
 msgstr "Nové stahování"
+
+msgctxt "main|"
+msgid "OK to remove tag?"
+msgstr "Opravdu odebrat značku?"

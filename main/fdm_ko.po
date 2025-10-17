@@ -12,14 +12,18 @@ msgctxt "AboutDialog|"
 msgid "About"
 msgstr "제품 정보"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
 msgstr "버전: %1 (%2)"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
 msgstr "빌드 날짜: %1"
 
+#. © FreeDownloadManager.org, 2004-2023
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
@@ -28,6 +32,7 @@ msgctxt "AboutDialog|"
 msgid "remote control"
 msgstr "원격 제어"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "버전 %1"
@@ -36,6 +41,7 @@ msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "확인"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "버전 %1 (%2)"
@@ -71,6 +77,10 @@ msgstr "확인"
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
 msgstr "미러 URL 입력"
+
+msgctxt "AddNewTagMenuItem|"
+msgid "Add tag"
+msgstr "태그 추가"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -108,13 +118,14 @@ msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
 msgstr "알림 센터를 통해 실패한 다운로드 알림"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "%1 창이 비활성 상태인 경우에만 다운로드 알림"
 
 msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
-msgstr "사용자 정의 사운드"
+msgstr "사용자 지정 사운드"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -144,6 +155,7 @@ msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "인터페이스"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
@@ -341,6 +353,7 @@ msgctxt "AllDownloadsSortModeButton|"
 msgid "Newest"
 msgstr "최신순"
 
+#. sort by title mode
 msgctxt "AllDownloadsSortModeButton|"
 msgid "A-Z"
 msgstr "A-Z"
@@ -425,36 +438,46 @@ msgctxt "AppAndroidPermissionsManager|"
 msgid "Notifications"
 msgstr "알림"
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
 msgstr "%1 다운로드한 파일을 로컬 저장소에 저장하려면 권한이 필요합니다."
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
 "notification panel."
-msgstr "%1은(는) 시스템의 알림 패널에 다운로드 진행 상황을 표시할 수 있는 권한이 필요합니다."
+msgstr ""
+"%1은(는) 시스템의 알림 패널에 다운로드 진행 상황을 표시할 수 있는 권한이 필요"
+"합니다."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
 msgstr "재개 지원이 없는 다운로드입니다 (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
 msgstr "파일 (%1)을(를) 이동합니다."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
 msgstr "파일을 MP3 (%1)로 변환하는 중입니다."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
 msgstr "파일을 MP4 (%1)로 변환하는 중입니다."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
 msgstr "파일 이름(%1)을(를) 바꾸는 중입니다."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "미디어 스트림 (%1)을 병합하는 중입니다."
@@ -475,10 +498,12 @@ msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "진행 중인 재개 기능이 없는 작업이 있습니다"
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
 msgstr "원격 %1 (%2)에 연결하는 중..."
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
 msgstr "원격 %1 (%2)에서 데이터를 가져오는 중..."
@@ -491,10 +516,12 @@ msgctxt "AuthDialog|"
 msgid "Authentication required"
 msgstr "인증 필요"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
 msgstr "%1은(는) 인증 필요"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
 msgstr "이 사이트는 \"%1\"이라고 말합니다."
@@ -523,6 +550,7 @@ msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "인증 필요"
 
+#, qt-format
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
 msgstr "사이트에 다음과 같이 표시됩니다: \"%1\"."
@@ -555,6 +583,7 @@ msgctxt "AuthenticationPage|"
 msgid "OK"
 msgstr "확인"
 
+#, qt-format
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
 msgstr "사이트의 메시지: \"%1\"."
@@ -659,6 +688,7 @@ msgctxt "BitrateComboBox|"
 msgid "kbps"
 msgstr "kbps"
 
+#, qt-format
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
 msgstr "%1 %2에서 %3 %4까지"
@@ -743,6 +773,7 @@ msgctxt "Browser|"
 msgid "Bookmark added"
 msgstr "북마크가 추가되었습니다"
 
+#, qt-format
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
 msgstr "%1 뒤로"
@@ -763,10 +794,12 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr "북마크 추가"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
 msgstr "%1 확장 다운로드"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
 msgstr "%1 이 설치되지 않았습니다"
@@ -775,11 +808,14 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "브라우저 통합"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
-msgstr "%1 확장이 설치되어 있는지 확인하세요. 그렇지 않으면 아래 버튼 중 하나를 클릭합니다"
+msgstr ""
+"%1 확장이 설치되어 있는지 확인하세요. 그렇지 않으면 아래 버튼 중 하나를 클릭"
+"합니다"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -825,6 +861,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
 msgstr "MB"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "%1를 통한 다운로드를 취소하는 경우 브라우저 사용"
@@ -837,6 +874,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Capture files with extensions"
 msgstr "확장 기능으로 파일 캡처"
 
+#, qt-format
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -852,8 +890,10 @@ msgstr ""
 "\n"
 "%1에 다운로드를 추가하는데 도움이 됩니다.\n"
 "\n"
-"이 중 일부 (예: Google Drive 다운로드)는 Android 시스템의 브라우저가 %1에 제공하지 않는 추가 정보가 필요하기 "
-"때문에 이 브라우저를 통해서만 추가할 수 있습니다 (또는 모든 브라우저에서 이러한 작업을 수행할 수 있는 보편적인 방법은 없습니다)."
+"이 중 일부 (예: Google Drive 다운로드)는 Android 시스템의 브라우저가 %1에 제"
+"공하지 않는 추가 정보가 필요하기 때문에 이 브라우저를 통해서만 추가할 수 있습"
+"니다 (또는 모든 브라우저에서 이러한 작업을 수행할 수 있는 보편적인 방법은 없"
+"습니다)."
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -867,6 +907,7 @@ msgctxt "BtDetailsTab|"
 msgid "N/A"
 msgstr "없음"
 
+#, qt-format
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
 msgstr "(연결됨: %1)"
@@ -923,6 +964,7 @@ msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "고급"
 
+#, qt-format
 msgctxt "BtSettings|"
 msgid "Current port: %1"
 msgstr "현재 포트: %1"
@@ -937,8 +979,10 @@ msgid ""
 "Lists of such trackers can be retrieved from different sources, e.g. from <a "
 "href='https://github.com/ngosang/trackerslist'>here</a>."
 msgstr ""
-"추가 추적기를 사용하면 경우에 따라 다운로드 속도가 향상될 수 있습니다. 이러한 추적기의 목록은 다른 소스에서 검색할 수 있습니다. 예를 "
-"들어, <a href='https://github.com/ngosang/trackerslist'>여기</a>에서 검색할 수 있습니다."
+"추가 추적기를 사용하면 경우에 따라 다운로드 속도가 향상될 수 있습니다. 이러"
+"한 추적기의 목록은 다른 소스에서 검색할 수 있습니다. 예를 들어, <a "
+"href='https://github.com/ngosang/trackerslist'>여기</a>에서 검색할 수 있습니"
+"다."
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -988,10 +1032,12 @@ msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
 msgstr "이 사이트에서 다운로드가 허용되지 않습니다"
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
 msgstr "프록시 %1에는 사용자 이름과 암호가 필요합니다."
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
 msgstr "%1이(가) 사용자 이름과 암호를 요청하고 있습니다."
@@ -1004,6 +1050,7 @@ msgctxt "ButtonsBlock|"
 msgid "Please select download link"
 msgstr "다운로드 링크를 선택하세요"
 
+#, qt-format
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "한 번에 %1개의 링크만 선택할 수 있습니다"
@@ -1052,6 +1099,7 @@ msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
 msgstr "새 URL 입력"
 
+#, qt-format
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
 msgstr "파일 위치: %1"
@@ -1084,6 +1132,7 @@ msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
 msgstr "새 URL 입력"
 
+#, qt-format
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
 msgstr "파일 위치: %1"
@@ -1110,6 +1159,7 @@ msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Cancel"
 msgstr "취소"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "원격 %1에 연결"
@@ -1118,6 +1168,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
 msgstr "(베타)"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
 msgstr "여기서 다른 장치에서 실행 중인 %1에 연결할 수 있습니다."
@@ -1126,16 +1177,19 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "시작 시 자동으로 연결"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
 msgstr "%1을(를) 입력하거나 <a href='#'>QR 코드를 스캔</a>하십시오"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
 "Both %1 and QR code are located inside of Preferences page of %2 you're "
 "going to connect to."
 msgstr "%1과 QR 코드는 모두 연결할 %2의 기본 설정 페이지 안에 있습니다."
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
 msgstr "%1 시작 시 자동으로 연결"
@@ -1148,6 +1202,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "OK"
 msgstr "확인"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr "여기서 Windows/macOS/Linux PC에서 실행 중인 %1에 연결할 수 있습니다"
@@ -1220,6 +1275,7 @@ msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
 msgstr "시작하지 못했습니다."
 
+#, qt-format
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
 msgstr "오류: %1"
@@ -1236,11 +1292,14 @@ msgctxt "CppQmlLocalizations|"
 msgid "Yesterday"
 msgstr "어제"
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
-msgstr "내부 오류가 발생했습니다. <br>%1을 다시 시작해야 나중에 사용할 수 있습니다."
+msgstr ""
+"내부 오류가 발생했습니다. <br>%1을 다시 시작해야 나중에 사용할 수 있습니다."
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
 msgstr "%1을 자동으로 다시 시작"
@@ -1269,11 +1328,14 @@ msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
 msgstr "휴대용 버전 만들기"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
-msgstr "%1의 휴대용 버전은 각각의 컴퓨터에 설치 및 구성할 필요없이 다른 컴퓨터에서 사용할 수 있습니다."
+msgstr ""
+"%1의 휴대용 버전은 각각의 컴퓨터에 설치 및 구성할 필요없이 다른 컴퓨터에서 사"
+"용할 수 있습니다."
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
@@ -1283,7 +1345,8 @@ msgctxt "CreatePortableDialog|"
 msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
-msgstr "이 버전을 만들 경로를 지정하십시오. 일부 이동식 드라이브의 폴더여야 합니다."
+msgstr ""
+"이 버전을 만들 경로를 지정하십시오. 일부 이동식 드라이브의 폴더여야 합니다."
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -1301,10 +1364,12 @@ msgctxt "CreatePortableDialog|"
 msgid "OK"
 msgstr "확인"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
 msgstr "%1% 만들기"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
 msgstr "포터블 버전을 만드는 동안 오류가 발생했습니다: %1"
@@ -1433,14 +1498,17 @@ msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "중단"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "크기: %1 (디스크 공간: %2)"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
 msgstr "디스크 공간: %1"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "크기: %1"
@@ -1456,7 +1524,9 @@ msgstr "다운로드 실패"
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Can't resume download. Download link likely expired. Resume attempts failed."
-msgstr "다운로드를 재개할 수 없습니다. 다운로드 링크가 만료되었을 수 있습니다. 다시 시도하지 못했습니다."
+msgstr ""
+"다운로드를 재개할 수 없습니다. 다운로드 링크가 만료되었을 수 있습니다. 다시 "
+"시도하지 못했습니다."
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Please try to update the download link to resume."
@@ -1465,7 +1535,8 @@ msgstr "재개하려면 다운로드 링크를 업데이트하세요."
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Go to the website with the original download source and copy the renewed link"
-msgstr "원본 다운로드 소스가 있는 웹 사이트로 이동하여 갱신된 링크를 복사합니다"
+msgstr ""
+"원본 다운로드 소스가 있는 웹 사이트로 이동하여 갱신된 링크를 복사합니다"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "click here"
@@ -1523,6 +1594,12 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "완료"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Remaining"
+msgstr "남은"
+
+#. [50%] - myfile.txt
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1563,6 +1640,8 @@ msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "다운로드"
 
+#. 50% [200 MB]
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
 msgstr "%1% [%2]"
@@ -1639,14 +1718,17 @@ msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "파일이 없습니다"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
 msgstr "중복 (%1)"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "invalid (%1)"
 msgstr "유효하지 않음 (%1)"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "unsupported (%1)"
 msgstr "지원되지 않음 (%1)"
@@ -1655,6 +1737,7 @@ msgctxt "DownloadsList|"
 msgid "Skipped downloads"
 msgstr "다운로드 건너뛰기"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "링크 다운로드 (%1 선택됨)"
@@ -1668,10 +1751,6 @@ msgid "Select none"
 msgstr "선택 안 함"
 
 msgctxt "DownloadsPage|"
-msgid "Show all downloads"
-msgstr "모든 다운로드 표시"
-
-msgctxt "DownloadsPage|"
 msgid "Download list is empty."
 msgstr "다운로드 목록이 비어 있습니다."
 
@@ -1683,6 +1762,7 @@ msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "다음에 대한 결과를 찾을 수 없음"
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
 msgstr "\"%1\" 태그로 검색된 결과가 없습니다"
@@ -1703,6 +1783,7 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "다운로드 목록이 비어 있습니다. 새 다운로드 URL을 추가하세요."
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "원격 %1에 연결"
@@ -1727,10 +1808,12 @@ msgctxt "DownloadsSettings|"
 msgid "Immediately"
 msgstr "즉시"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "In"
 msgstr "에"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "days"
 msgstr "일"
@@ -1830,6 +1913,14 @@ msgstr "업로드"
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Added"
 msgstr "추가 날짜"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Remaining"
+msgstr "남은"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Stopped"
+msgstr "중지됨"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -2039,6 +2130,18 @@ msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr "없음"
 
+msgctxt "DownloadsViewItem_V2|"
+msgid "Priority"
+msgstr "우선 순위"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Stopped"
+msgstr "중지됨"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Remaining"
+msgstr "남은"
+
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "대기됨"
@@ -2066,10 +2169,6 @@ msgstr "일시 중지됨"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "완료"
-
-msgctxt "DownloadsViewTools|"
-msgid "Downloads: %1"
-msgstr "다운로드: %1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2156,6 +2255,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Cancel"
 msgstr "취소"
 
+#, qt-format
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
 msgstr "모든 파일 (%1)"
@@ -2168,6 +2268,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Export"
 msgstr "내보내기"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
 msgstr "%1 다운로드 파일 (%2)"
@@ -2180,6 +2281,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
 msgstr "URL 목록"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
 msgstr "텍스트 파일 (%1)"
@@ -2188,6 +2290,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
 msgstr "CSV 파일"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
 msgstr "CSV 파일 (%1)"
@@ -2200,10 +2303,12 @@ msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
 msgstr "취소"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
 msgstr "%1 설정 파일 (%2)"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
 msgstr "모든 파일 (%1)"
@@ -2216,6 +2321,7 @@ msgctxt "FileIntegrityDialog|"
 msgid "Hash"
 msgstr "해시"
 
+#, qt-format
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
 msgstr "%1% 계산 중"
@@ -2260,6 +2366,7 @@ msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "해시"
 
+#, qt-format
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
 msgstr "%1% 계산 중"
@@ -2288,6 +2395,7 @@ msgctxt "FileName|"
 msgid "File name"
 msgstr "파일 이름"
 
+#, qt-format
 msgctxt "FileName|"
 msgid "%1 files (*.%2)"
 msgstr "%1 파일 (*.%2)"
@@ -2348,6 +2456,7 @@ msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
 msgstr "모든 다운로드에 대한 내 선택 기억"
 
+#, qt-format
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
 msgstr "(%1) 이름 바꾸기"
@@ -2476,18 +2585,6 @@ msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "완료"
 
-msgctxt "FilesTreeItem_V2|"
-msgid "Low"
-msgstr "낮음"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "Normal"
-msgstr "일반"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "High"
-msgstr "높음"
-
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "매크로"
@@ -2527,10 +2624,6 @@ msgstr "시스템 테마를 알 수 없는 경우 밝은 테마가 사용됩니�
 msgctxt "GeneralSettings|"
 msgid "UI style"
 msgstr "UI 스타일"
-
-msgctxt "GeneralSettings|"
-msgid "New (beta)"
-msgstr "신규 (베타)"
 
 msgctxt "GeneralSettings|"
 msgid "Classic"
@@ -2592,10 +2685,12 @@ msgctxt "GeneralSettings|"
 msgid "Immediately"
 msgstr "즉시"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "In"
 msgstr "에"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "days"
 msgstr "일"
@@ -2631,6 +2726,10 @@ msgstr "자동으로 업데이트 설치"
 msgctxt "GeneralSettings|"
 msgid "Mark downloaded files"
 msgstr "다운로드한 파일 표시"
+
+msgctxt "GeneralSettings|"
+msgid "New"
+msgstr "신규"
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2704,6 +2803,7 @@ msgctxt "GeneralTab|"
 msgid "Added at:"
 msgstr "추가 시간:"
 
+#, qt-format
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
 msgstr "%1 / %2"
@@ -2752,6 +2852,10 @@ msgctxt "GeneralTab_V2|"
 msgid "File"
 msgstr "파일"
 
+msgctxt "GeneralTab_V2|"
+msgid "Priority"
+msgstr "우선 순위"
+
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
 msgstr "MD5"
@@ -2776,22 +2880,27 @@ msgctxt "ImportDialog|"
 msgid "Cancel"
 msgstr "취소"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
 msgstr "모든 파일 (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
 msgstr "텍스트 파일 (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
 msgstr "%1 다운로드 파일 (%2)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
 msgstr "%1 설정 파일 (%2)"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
 msgstr "오류: %1"
@@ -2804,6 +2913,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
 msgstr "파일에서 URL을 붙여넣지 못했습니다"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
 msgstr "파일에서 URL 목록을 가져올 수 없습니다: %1"
@@ -2812,6 +2922,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
 msgstr "내보내기 실패"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
 msgstr "파일로 내보낼 수 없습니다: %1"
@@ -2820,6 +2931,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
 msgstr "가져오기 실패"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr "파일에서 URL 목록을 가져올 수 없습니다: %1"
@@ -2868,10 +2980,12 @@ msgctxt "LeftDrawer|"
 msgid "Submit a bug report"
 msgstr "버그 보고서 제출"
 
+#, qt-format
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
 msgstr "원격 %1에서 연결 끊기"
 
+#, qt-format
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
 msgstr "원격 %1에 연결"
@@ -2900,6 +3014,7 @@ msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
 msgstr "%content_type% - 콘텐츠 유형 (예: \"음악\")"
 
+#, qt-format
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
 msgstr "%server% - 서버의 이름 (예: \"%1\")"
@@ -2943,10 +3058,6 @@ msgstr "완료"
 msgctxt "MainFiltersBar|"
 msgid "Uncompleted"
 msgstr "완료되지 않음"
-
-msgctxt "MainFiltersBar|"
-msgid "OK to remove tag?"
-msgstr "태그를 제거하시겠습니까?"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from clipboard"
@@ -3012,10 +3123,12 @@ msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "시스템 종료"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
 msgstr "원격 %1에서 연결 끊기"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
 msgstr "원격 %1에 연결"
@@ -3044,6 +3157,7 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "달팽이 모드"
 
+#, qt-format
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -3081,6 +3195,7 @@ msgctxt "MainStatusBar_V2|"
 msgid "Set the traffic usage mode"
 msgstr "트래픽 사용 모드 설정"
 
+#, qt-format
 msgctxt "MainStatusBar_V2|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -3089,6 +3204,18 @@ msgstr[0] "%n개의 다운로드가 선택되었습니다."
 msgctxt "MainStatusBar_V2|"
 msgid "Total size:"
 msgstr "전체 크기:"
+
+msgctxt "MainStatusBar_V2|"
+msgid ""
+"Snail Mode puts active downloads into sleep mode, freeing up as much "
+"Internet bandwidth as possible. When you turn it off, all active downloads "
+"will resume at normal speed. Snail Mode is especially useful when your "
+"Internet is slow and you need to make a call, for example."
+msgstr ""
+"달팽이 모드는 활성 다운로드를 절전 모드로 전환하여 가능한 한 많은 인터넷 대역"
+"폭을 확보합니다. 전원을 끄면 모든 활성 다운로드가 정상 속도로 재개됩니다. 달"
+"팽이 모드는 예를 들어 인터넷 속도가 느리고 전화를 걸어야 할 때 특히 유용합니"
+"다."
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
@@ -3210,6 +3337,7 @@ msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
 msgstr "재생 준비 완료"
 
+#, qt-format
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
 msgstr "%1을(를) 재생할 준비가 되었습니다"
@@ -3246,6 +3374,7 @@ msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
 msgstr "건너뛰기"
 
+#, qt-format
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr "모두 건너뛰기 (%1)"
@@ -3286,10 +3415,12 @@ msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
 msgstr "이동 다운로드 실패"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
 msgstr "오류: %1"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
 msgstr "이동할 수 없음: %1"
@@ -3606,6 +3737,7 @@ msgctxt "Notification|"
 msgid "Ready to play"
 msgstr "재생 준비 완료"
 
+#, qt-format
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
 msgstr "%1에 권한이 없습니다"
@@ -3618,7 +3750,9 @@ msgctxt "OsPermissionsDialog|"
 msgid ""
 "You can grant these permissions using the Application details screen within "
 "your system's settings."
-msgstr "시스템 설정의 응용 프로그램 세부 정보 화면에서 이러한 권한을 부여할 수 있습니다."
+msgstr ""
+"시스템 설정의 응용 프로그램 세부 정보 화면에서 이러한 권한을 부여할 수 있습니"
+"다."
 
 msgctxt "OsPermissionsDialog|"
 msgid "Don't show again"
@@ -3652,6 +3786,7 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "연결"
 
+#. Browse for a file
 msgctxt "PickFileButton|"
 msgid "Browse..."
 msgstr "찾아보기..."
@@ -3660,6 +3795,7 @@ msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "다운로드 중인 파일 재생"
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
 msgstr "%1 추가 기능을 사용하시겠습니까?"
@@ -3667,13 +3803,17 @@ msgstr "%1 추가 기능을 사용하시겠습니까?"
 msgctxt "PluginBannerDialog|"
 msgid ""
 "We would like to ask you to help this add-on to reach its potential users."
-msgstr "이 추가 기능이 잠재적인 사용자에게 도달할 수 있도록 도와주시기 바랍니다."
+msgstr ""
+"이 추가 기능이 잠재적인 사용자에게 도달할 수 있도록 도와주시기 바랍니다."
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid ""
 "Please use your favorite social networks and forums to let the other people "
 "know about %1 and %2."
-msgstr "선호하는 소셜 네트워크와 포럼을 이용하여 %1과 %2에 대해 다른 사람에게 알려주시기 바랍니다."
+msgstr ""
+"선호하는 소셜 네트워크와 포럼을 이용하여 %1과 %2에 대해 다른 사람에게 알려주"
+"시기 바랍니다."
 
 msgctxt "PluginBannerDialog|"
 msgid "Remind me later"
@@ -3727,6 +3867,7 @@ msgctxt "PluginsPage|"
 msgid "Install add-on from file"
 msgstr "파일에서 추가 기능 설치"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "%1 추가 기능에 대해 자세히 알아보기"
@@ -3739,6 +3880,7 @@ msgctxt "PluginsPage|"
 msgid "Cancel"
 msgstr "취소"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
 msgstr "%1 추가 기능 파일"
@@ -3771,6 +3913,7 @@ msgctxt "PluginsPage|"
 msgid "The following required components are missing:"
 msgstr "다음 필수 구성 요소가 누락되었습니다:"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 is required."
 msgstr "%1이(가) 필요합니다."
@@ -3795,10 +3938,12 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
 msgstr "경고!"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
 msgstr "%1 추가 기능의 새 버전이 위험한 사용 권한을 요청합니다:"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
 msgstr "%1 추가 기능의 새 버전이 위험한 사용 권한을 요청합니다:"
@@ -3811,6 +3956,7 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
 msgstr "설치를 계속하시겠습니까?"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid ""
 "New version of %1 add-on requires additional components:\n"
@@ -3819,6 +3965,7 @@ msgstr ""
 "%1 추가 기능의 새 버전에는 추가 구성 요소가 필요합니다:\n"
 "%2"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requires %2."
 msgstr "%1 추가 기능의 새 버전은 %2을 필요로 합니다."
@@ -3847,6 +3994,7 @@ msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "업데이트 중..."
 
+#, qt-format
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
 msgstr "버전: %1"
@@ -3875,14 +4023,15 @@ msgctxt "PrivacyDialog|"
 msgid "User agreement"
 msgstr "사용자 동의"
 
+#, qt-format
 msgctxt "PrivacyDialog|"
 msgid ""
 "A bug report will be sent to the server and used to improve %1 performance. "
 "We do not collect your personal data and do not share data with third "
 "parties."
 msgstr ""
-"버그 보고서가 서버로 전송되어 %1 성능을 개선하는 데 사용됩니다. 당사는 사용자의 개인 데이터를 수집하지 않으며 제3자와 데이터를 "
-"공유하지 않습니다."
+"버그 보고서가 서버로 전송되어 %1 성능을 개선하는 데 사용됩니다. 당사는 사용자"
+"의 개인 데이터를 수집하지 않으며 제3자와 데이터를 공유하지 않습니다."
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
@@ -3911,6 +4060,7 @@ msgctxt "QObject|"
 msgid "There is not enough disk space."
 msgstr "저장 공간이 부족합니다."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "The list of downloads is damaged.\n"
@@ -3925,6 +4075,7 @@ msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
 msgstr "치명적인 오류: 데이터베이스를 로드하지 못했습니다."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
@@ -3967,14 +4118,17 @@ msgctxt "QObject|"
 msgid "Video"
 msgstr "비디오"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
 msgstr "이 장치는 %1에서 지원하지 않습니다."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr "%1을 초기화하지 못했습니다. 다시 설치해 주세요."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Reason: %1"
 msgstr "이유: %1"
@@ -3995,6 +4149,7 @@ msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
 msgstr "앱 상태 관리자를 초기화하지 못했습니다."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "\n"
@@ -4015,6 +4170,7 @@ msgctxt "QObject|"
 msgid "Show main window"
 msgstr "기본 창 표시"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "About %1"
 msgstr "%1 정보"
@@ -4031,74 +4187,92 @@ msgctxt "QObject|"
 msgid "Check for updates..."
 msgstr "업데이트 확인..."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B"
 msgstr "%1 B"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB"
 msgstr "%1 KB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB"
 msgstr "%1 MB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB"
 msgstr "%1 GB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB"
 msgstr "%1 TB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G"
 msgstr "%1 G"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 T"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B/s"
 msgstr "%1 B/초"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB/s"
 msgstr "%1 KB/초"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB/s"
 msgstr "%1 MB/초"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB/s"
 msgstr "%1 GB/초"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB/s"
 msgstr "%1 TB/초"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K/s"
 msgstr "%1 K/초"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M/s"
 msgstr "%1 M/초"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G/s"
 msgstr "%1 G/초"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T/s"
 msgstr "%1 T/초"
@@ -4167,6 +4341,7 @@ msgctxt "QObject|"
 msgid "Unknown file I/O error"
 msgstr "알 수 없는 파일 입출력 오류"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "HTTP Error %1"
 msgstr "HTTP 오류 %1"
@@ -4503,6 +4678,7 @@ msgctxt "QObject|"
 msgid "Failed to remove current version"
 msgstr "현재 버전을 제거하지 못했습니다"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "hdiutil error %1"
 msgstr "hdiutil 오류 %1"
@@ -4519,18 +4695,22 @@ msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr "서명 확인에 실패했습니다."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download with %1"
 msgstr "%1로 다운로드"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download all with %1"
 msgstr "%1로 모두 다운로드"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download selected with %1"
 msgstr "%1로 선택 다운로드"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download video with %1"
 msgstr "%1로 비디오 다운로드"
@@ -4579,14 +4759,19 @@ msgctxt "QObject|"
 msgid "Files were modified"
 msgstr "파일이 수정되었습니다"
 
+#. 10 MB of unknown at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
 msgstr "알 수 없는 %1 - %2에서"
 
+#. 10 MB of 200 MB at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
 msgstr "%1 / %2 - %3에서"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
 msgstr "%1 %2 이상"
@@ -4611,10 +4796,12 @@ msgctxt "QObject|"
 msgid "Missing components"
 msgstr "구성 요소 누락"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 are required"
 msgstr "%1이(가) 필요"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 is required"
 msgstr "%1이(가) 필요"
@@ -4631,6 +4818,15 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr "폴더 열기"
 
+msgctxt "QObject|"
+msgid "Security check failure."
+msgstr "보안 검사에 실패했습니다."
+
+msgctxt "QObject|"
+msgid "Invalid version."
+msgstr "잘못된 버전입니다."
+
+#, qt-format
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
 msgstr "%1이(가) 0이 아닌 (%2) 종료 상태를 반환했습니다"
@@ -4649,7 +4845,7 @@ msgstr "읽기 또는 쓰기를 위해 gzip을 열 수 있습니다. 무엇입�
 
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr "gzopen() 파일을 열 수 없습니다"
+msgstr "gzopen() 파일 불가능"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
@@ -4659,6 +4855,7 @@ msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
 msgstr "QIODevice::QuaZIODevice에는 읽기 쓰기가 지원되지 않습니다"
 
+#, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
 msgstr "ZIP/UNZIP API 오류 %1"
@@ -4683,6 +4880,7 @@ msgctxt "RemoteControlSettings|"
 msgid "(beta)"
 msgstr "(베타)"
 
+#, qt-format
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
 msgstr "이 장치에서 실행 중인 %1에 대한 원격 접근 허용"
@@ -4759,6 +4957,7 @@ msgctxt "ReportSentDialog|"
 msgid "Report problem"
 msgstr "문제 보고"
 
+#, qt-format
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "보고서가 전송되지 않았습니다. 오류가 발생했습니다: %1"
@@ -4907,6 +5106,7 @@ msgctxt "SearchToolbar|"
 msgid "Search"
 msgstr "검색"
 
+#, qt-format
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
 msgstr "선택: %1"
@@ -5055,6 +5255,7 @@ msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
 msgstr "주의! 컴퓨터가 종료됩니다."
 
+#, qt-format
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
 msgstr "확인 (%1)"
@@ -5095,6 +5296,7 @@ msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL 인증서가 잘못되었습니다."
 
+#, qt-format
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
 msgstr "%1 키 지문"
@@ -5115,7 +5317,8 @@ msgctxt "SslDialog|"
 msgid ""
 "If you trust this host, select Accept to remember the key and carry on "
 "connecting."
-msgstr "이 호스트를 신뢰하는 경우 수락을 선택하여 키를 기억하고 연결을 계속합니다."
+msgstr ""
+"이 호스트를 신뢰하는 경우 수락을 선택하여 키를 기억하고 연결을 계속합니다."
 
 msgctxt "SslDialog|"
 msgid "Accept"
@@ -5209,6 +5412,7 @@ msgctxt "SubmitBugReportDialog|"
 msgid "E-mail"
 msgstr "이메일"
 
+#, qt-format
 msgctxt "SubmitBugReportDialog|"
 msgid "Attach %1 log files (recommended)"
 msgstr "%1 로그 파일 첨부 (권장)"
@@ -5361,6 +5565,10 @@ msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "숨김"
 
+msgctxt "TroubleshootingSettings|"
+msgid "Enable downloads management logging"
+msgstr "다운로드 관리 로깅 사용"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "무제한"
@@ -5373,6 +5581,7 @@ msgctxt "TumComboBox|"
 msgid "unlimited"
 msgstr "무제한"
 
+#, qt-format
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
 msgstr "다운로드: %1, 업로드: %2"
@@ -5425,6 +5634,7 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "트래픽 제한 변경"
 
+#, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
 msgstr "%1보다 클 수 없습니다"
@@ -5457,17 +5667,32 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
 msgstr "선택한 디렉터리에 대한 쓰기 권한이 없습니다"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "크기: %1 (디스크 공간: %2)"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
 msgstr "디스크 공간: %1"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "크기: %1"
+
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "높음"
+
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "낮음"
+
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "일반"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."
@@ -5509,6 +5734,7 @@ msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "새 버전 사용 가능"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
 msgstr "%1의 새로운 기능"
@@ -5517,6 +5743,7 @@ msgctxt "UpdateDialog|"
 msgid "Update"
 msgstr "업데이트"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
 msgstr "%1가 최신 버전입니다"
@@ -5553,6 +5780,7 @@ msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
 msgstr "설치 중 오류 발생:"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
 msgstr "업데이트하려면 %1을 다시 시작하세요"
@@ -5573,13 +5801,14 @@ msgctxt "VideoQuality|"
 msgid "Quality:"
 msgstr "품질:"
 
+#, qt-format
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
 msgstr "%1를 즐기시겠습니까?"
 
 msgctxt "VoteBlock|"
 msgid "Not, really"
-msgstr "아니요, 정말로"
+msgstr "아니요, 정말"
 
 msgctxt "VoteBlock|"
 msgid "Yes!"
@@ -5609,10 +5838,12 @@ msgctxt "WaitingPage|"
 msgid "Loading"
 msgstr "불러오는 중"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
 msgstr "%1에 연결"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Error: %1"
 msgstr "오류: %1"
@@ -5633,6 +5864,7 @@ msgctxt "WhatsNewDialog|"
 msgid "New version is available"
 msgstr "새 버전 사용 가능"
 
+#, qt-format
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
 msgstr "%1의 새로운 기능"
@@ -5641,6 +5873,7 @@ msgctxt "WhatsNewDialog|"
 msgid "Update"
 msgstr "업데이트"
 
+#, qt-format
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "보고서가 전송되지 않았습니다. 오류가 발생했습니다: %1"
@@ -5649,6 +5882,7 @@ msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "보고서가 전송되었습니다. 협조해 주셔서 감사합니다!"
 
+#, qt-format
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "%1에 원격 연결"
@@ -5660,3 +5894,7 @@ msgstr "다운로드 추가"
 msgctxt "main|"
 msgid "New download"
 msgstr "새 다운로드"
+
+msgctxt "main|"
+msgid "OK to remove tag?"
+msgstr "태그를 제거하시겠습니까?"

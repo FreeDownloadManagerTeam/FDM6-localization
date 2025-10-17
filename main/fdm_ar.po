@@ -12,14 +12,18 @@ msgctxt "AboutDialog|"
 msgid "About"
 msgstr "حول البرنامج"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
 msgstr "الإصدار %1 (%2)"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
 msgstr "تاريخ الاصدار %1"
 
+#. © FreeDownloadManager.org, 2004-2023
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
@@ -28,6 +32,7 @@ msgctxt "AboutDialog|"
 msgid "remote control"
 msgstr "تحكم عن بعد"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "الإصدار %1"
@@ -36,6 +41,7 @@ msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "حسنا"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "الإصدار %1 (%2)"
@@ -71,6 +77,10 @@ msgstr "حسنا"
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
 msgstr "إدخال عنوان الرابط البديل"
+
+msgctxt "AddNewTagMenuItem|"
+msgid "Add tag"
+msgstr "إضافة علامة"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -108,6 +118,7 @@ msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
 msgstr "أعلامي بالتنزيلات الفاشلة عبر مركز الإشعارات"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "أعلامي بالتنزيلات فقط عندما تكون نافذة %1 غير نشطة"
@@ -144,6 +155,7 @@ msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "واجهة"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
@@ -341,6 +353,7 @@ msgctxt "AllDownloadsSortModeButton|"
 msgid "Newest"
 msgstr "الأحدث"
 
+#. sort by title mode
 msgctxt "AllDownloadsSortModeButton|"
 msgid "A-Z"
 msgstr "A-Z"
@@ -425,36 +438,44 @@ msgctxt "AppAndroidPermissionsManager|"
 msgid "Notifications"
 msgstr "الإشعارات"
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
 msgstr "%1 يحتاج إلى إذن لحفظ الملفات التي تم تنزيلها إلى التخزين المحلي لديك."
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
 "notification panel."
 msgstr "%1 يحتاج إلى إذن لعرض تقدم التنزيل ضمن لوحة إشعارات النظام لديك."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
 msgstr "التنزيلات بدون دعم استئناف (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
 msgstr "نقل الملفات (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
 msgstr "تحويل الملفات إلى mp3 (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
 msgstr "تحويل الملفات إلى mp4 (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
 msgstr "إعادة تسمية الملفات (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "دمج تدفقات الوسائط (%1)."
@@ -475,10 +496,12 @@ msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "هناك عمليات قيد التنفيذ بدون القدرة على الاستئناف"
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
 msgstr "الاتصال عن بعد بـ  %1 (%2)..."
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
 msgstr "جلب البيانات عن بعد من %1 (%2)..."
@@ -491,10 +514,12 @@ msgctxt "AuthDialog|"
 msgid "Authentication required"
 msgstr "المصادقة مطلوبة"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
 msgstr "%1 يطلب المصادقة"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
 msgstr "الموقع يقول: \"%1\"."
@@ -523,6 +548,7 @@ msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "المصادقة مطلوبة"
 
+#, qt-format
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
 msgstr "الموقع يقول: \"%1\"."
@@ -555,6 +581,7 @@ msgctxt "AuthenticationPage|"
 msgid "OK"
 msgstr "حسنا"
 
+#, qt-format
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
 msgstr "الموقع يقول: \"%1\"."
@@ -659,6 +686,7 @@ msgctxt "BitrateComboBox|"
 msgid "kbps"
 msgstr "ك.بت/ث"
 
+#, qt-format
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
 msgstr "من %1 %2 إلى %3 %4"
@@ -743,6 +771,7 @@ msgctxt "Browser|"
 msgid "NO"
 msgstr "لا"
 
+#, qt-format
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
 msgstr "عودة إلى %1"
@@ -763,10 +792,12 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr "إضافة إشارة مرجعية"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
 msgstr "تنزيل الامتداد %1"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
 msgstr "%1 غير مثبت"
@@ -775,6 +806,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "تكامل المتصفح"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
@@ -825,6 +857,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
 msgstr "ميجابايت"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "استخدام المتصفح إذا قمت بإلغاء التنزيل عبر %1"
@@ -837,6 +870,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Capture files with extensions"
 msgstr ""
 
+#, qt-format
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -868,6 +902,7 @@ msgctxt "BtDetailsTab|"
 msgid "N/A"
 msgstr "لاشئ"
 
+#, qt-format
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
 msgstr "(متصل: %1)"
@@ -924,6 +959,7 @@ msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "متقدم"
 
+#, qt-format
 msgctxt "BtSettings|"
 msgid "Current port: %1"
 msgstr "المنفذ الحالي : %1"
@@ -990,10 +1026,12 @@ msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
 msgstr "التنزيل من هذا الموقع غير مسموح به"
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
 msgstr "الخادم الوكيل %1 يطلب اسم مستخدم وكلمة مرور."
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
 msgstr "%1 يطلب اسم المستخدم وكلمة المرور."
@@ -1006,6 +1044,7 @@ msgctxt "ButtonsBlock|"
 msgid "Please select download link"
 msgstr "يرجى اختيار رابط التنزيل"
 
+#, qt-format
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "لا يمكن اختيار أكثر من %1 رابط في المرة الواحدة"
@@ -1054,6 +1093,7 @@ msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
 msgstr "ادخل رابط جديد"
 
+#, qt-format
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
 msgstr "مكان الملف: %1"
@@ -1086,6 +1126,7 @@ msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
 msgstr "ادخل رابط جديد"
 
+#, qt-format
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
 msgstr "مكان الملف: %1"
@@ -1112,6 +1153,7 @@ msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Cancel"
 msgstr "إلغاء"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "الاتصال عن بعد %1"
@@ -1120,6 +1162,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
 msgstr "(بيتا)"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
 msgstr "هنا يمكنك الاتصال بـ %1 الذي يعمل على جهاز آخر."
@@ -1128,10 +1171,12 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "الاتصال تلقائيًا عند بدء التشغيل"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
 msgstr "يرجى إدخال %1، أو <a href='#'>مسح رمز الاستجابة السريعة</a>"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
 "Both %1 and QR code are located inside of Preferences page of %2 you're "
@@ -1140,6 +1185,7 @@ msgstr ""
 "كلا من %1 ورمز الاستجابة السريعة موجودان في صفحة التفضيلات لـ %2 الذي ستتصل "
 "به."
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
 msgstr "الاتصال تلقائيًا عند بدء تشغيل %1"
@@ -1152,6 +1198,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "OK"
 msgstr "حسنا"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
@@ -1226,6 +1273,7 @@ msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
 msgstr "فشل بدء التشغيل."
 
+#, qt-format
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
 msgstr "خطأ: %1"
@@ -1242,11 +1290,13 @@ msgctxt "CppQmlLocalizations|"
 msgid "Yesterday"
 msgstr "أمس"
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr "حدث خطأ داخلي. %1 يحتاج لإعادة تشغيله ليستمر استخدامه."
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
 msgstr "إعادة تشغيل %1 تلقائيا"
@@ -1275,6 +1325,7 @@ msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
 msgstr "إنشاء إصدار متنقل"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
@@ -1311,10 +1362,12 @@ msgctxt "CreatePortableDialog|"
 msgid "OK"
 msgstr "حسنا"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
 msgstr "إنشاء %1%"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
 msgstr "حدث خطأ أثناء إنشاء الإصدار المتنقل: %1"
@@ -1443,14 +1496,17 @@ msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "إيقاف إجباري"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "الحجم: %1 (مساحة القرص: %2)"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
 msgstr "مساحة تخزين: %1"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "الحجم: %1"
@@ -1535,6 +1591,12 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "مكتمل"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Remaining"
+msgstr ""
+
+#. [50%] - myfile.txt
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1575,6 +1637,8 @@ msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "محمل"
 
+#. 50% [200 MB]
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
 msgstr "%1% [%2]"
@@ -1651,14 +1715,17 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "القرص غير موجود"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
 msgstr "مكررات (%1)"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "invalid (%1)"
 msgstr "غير صالح (%1)"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "unsupported (%1)"
 msgstr "غير مدعوم (%1)"
@@ -1667,6 +1734,7 @@ msgctxt "DownloadsList|"
 msgid "Skipped downloads"
 msgstr "التنزيلات المتخطية"
 
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "روابط التنزيل ( %1 محدد)"
@@ -1680,10 +1748,6 @@ msgid "Select none"
 msgstr "لا تختر شيئا"
 
 msgctxt "DownloadsPage|"
-msgid "Show all downloads"
-msgstr "عرض جميع التنزيلات"
-
-msgctxt "DownloadsPage|"
 msgid "Download list is empty."
 msgstr "قائمة التنزيلات فارغة."
 
@@ -1695,6 +1759,7 @@ msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "لا توجد نتائج لـ"
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
 msgstr "لا توجد نتائج معلمة بـ\"%1\""
@@ -1715,6 +1780,7 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "قائمة التنزيلات فارغة. أضف عنوان تنزيل جديد."
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "اتصال عن بعد  %1"
@@ -1739,10 +1805,12 @@ msgctxt "DownloadsSettings|"
 msgid "Immediately"
 msgstr "فورًا"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "In"
 msgstr "في"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "days"
 msgstr "أيام"
@@ -1842,6 +1910,14 @@ msgstr "رفع"
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Added"
 msgstr "تمت الإضافة"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Remaining"
+msgstr ""
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Stopped"
+msgstr "توقف"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -2051,6 +2127,18 @@ msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
 msgstr "غير متوفر"
 
+msgctxt "DownloadsViewItem_V2|"
+msgid "Priority"
+msgstr "الأولوية"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Stopped"
+msgstr "توقف"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Remaining"
+msgstr ""
+
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
 msgstr "قيد الانتظار"
@@ -2078,10 +2166,6 @@ msgstr "متوقف مؤقتا"
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
 msgstr "مكتمل"
-
-msgctxt "DownloadsViewTools|"
-msgid "Downloads: %1"
-msgstr "التنزيلات: %1"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -2168,6 +2252,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Cancel"
 msgstr "إلغاء"
 
+#, qt-format
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
 msgstr "كل الملفات (%1)"
@@ -2180,6 +2265,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Export"
 msgstr "تصدير"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
 msgstr "%1 الملفات المنزلة (%2)"
@@ -2192,6 +2278,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
 msgstr "قائمة الروابط"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
 msgstr "ملفات نصية (%1)"
@@ -2200,6 +2287,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
 msgstr "ملف CSV"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
 msgstr "ملفات CSV (%1)"
@@ -2212,10 +2300,12 @@ msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
 msgstr "إلغاء"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
 msgstr "%1 ملفات الاعدادات (%2)"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
 msgstr "كل الملفات (%1)"
@@ -2228,6 +2318,7 @@ msgctxt "FileIntegrityDialog|"
 msgid "Hash"
 msgstr "تجزئة"
 
+#, qt-format
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
 msgstr "حساب %1%"
@@ -2272,6 +2363,7 @@ msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "تجزئة"
 
+#, qt-format
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
 msgstr "حساب %1%"
@@ -2300,6 +2392,7 @@ msgctxt "FileName|"
 msgid "File name"
 msgstr "اسم الملف"
 
+#, qt-format
 msgctxt "FileName|"
 msgid "%1 files (*.%2)"
 msgstr "%1 ملفات (*.%2)"
@@ -2360,6 +2453,7 @@ msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
 msgstr "تذكر اختياري لجميع التنزيلات"
 
+#, qt-format
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
 msgstr "إعادة تسمية (%1)"
@@ -2488,18 +2582,6 @@ msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "مكتمل"
 
-msgctxt "FilesTreeItem_V2|"
-msgid "Low"
-msgstr "منخفضة"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "Normal"
-msgstr "عادية"
-
-msgctxt "FilesTreeItem_V2|"
-msgid "High"
-msgstr "مرتفعة"
-
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "ماكرو"
@@ -2531,10 +2613,6 @@ msgstr "المظهر الفاتح سيتم استخدامه، إذا كانت س
 msgctxt "GeneralSettings|"
 msgid "UI style"
 msgstr "نمط واجهة المستخدم"
-
-msgctxt "GeneralSettings|"
-msgid "New (beta)"
-msgstr "جديد (بيتا)"
 
 msgctxt "GeneralSettings|"
 msgid "Classic"
@@ -2604,10 +2682,12 @@ msgctxt "GeneralSettings|"
 msgid "Immediately"
 msgstr "فوراً"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "In"
 msgstr "في"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "days"
 msgstr "أيام"
@@ -2643,6 +2723,10 @@ msgstr "تثبيت التحديثات تلقائيا"
 msgctxt "GeneralSettings|"
 msgid "Mark downloaded files"
 msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "New"
+msgstr "جديد"
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2716,6 +2800,7 @@ msgctxt "GeneralTab|"
 msgid "Added at:"
 msgstr "إضافة في:"
 
+#, qt-format
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
 msgstr "%1 من %2"
@@ -2764,6 +2849,11 @@ msgctxt "GeneralTab_V2|"
 msgid "File"
 msgstr "ملف"
 
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Priority"
+msgstr "الأولوية"
+
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
 msgstr "MD5"
@@ -2788,22 +2878,27 @@ msgctxt "ImportDialog|"
 msgid "Cancel"
 msgstr "إلغاء"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
 msgstr "كل الملفات (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
 msgstr "ملفات نصية (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
 msgstr "%1 ملفات التنزيلات (%2)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
 msgstr "%1 ملفات الاعدادات (%2)"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
 msgstr "خطأ: %1"
@@ -2816,6 +2911,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
 msgstr "فشل في لصق الروابط من الملف"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
 msgstr "غير قادر على استيراد قائمة الروابط من الملف: %1"
@@ -2824,6 +2920,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
 msgstr "فشل التصدير"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
 msgstr "فشل في تصدير للملف"
@@ -2832,6 +2929,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
 msgstr "فشل الاستيراد"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr "غير قادر على الاستيراد من الملف: %1"
@@ -2880,10 +2978,12 @@ msgctxt "LeftDrawer|"
 msgid "Submit a bug report"
 msgstr "تقديم تقرير عن الخطأ"
 
+#, qt-format
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
 msgstr "الغاء الاتصال عن بعد %1"
 
+#, qt-format
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
 msgstr "اتصل عن بعد %1"
@@ -2912,6 +3012,7 @@ msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
 msgstr "%content_type% - نوع المحتوى (مثل \"موسيقى\")"
 
+#, qt-format
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
 msgstr "%server% - اسم الخادم (مثل \"%1\")"
@@ -2955,10 +3056,6 @@ msgstr "مكتمل"
 msgctxt "MainFiltersBar|"
 msgid "Uncompleted"
 msgstr "غير مكتمل"
-
-msgctxt "MainFiltersBar|"
-msgid "OK to remove tag?"
-msgstr "حسنا إزالة العلامة؟"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from clipboard"
@@ -3024,10 +3121,12 @@ msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "إيقاف التشغيل"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
 msgstr "الغاء الاتصال عن بعد %1"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
 msgstr "اتصال عن بعد %1"
@@ -3056,6 +3155,7 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "الوضع البطيئ"
 
+#, qt-format
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -3098,6 +3198,7 @@ msgctxt "MainStatusBar_V2|"
 msgid "Set the traffic usage mode"
 msgstr "ضبط وضع استخدام حركة المرور"
 
+#, qt-format
 msgctxt "MainStatusBar_V2|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -3111,6 +3212,14 @@ msgstr[5] "%n تنزيل محدد."
 msgctxt "MainStatusBar_V2|"
 msgid "Total size:"
 msgstr "الحجم الإجمالي:"
+
+msgctxt "MainStatusBar_V2|"
+msgid ""
+"Snail Mode puts active downloads into sleep mode, freeing up as much "
+"Internet bandwidth as possible. When you turn it off, all active downloads "
+"will resume at normal speed. Snail Mode is especially useful when your "
+"Internet is slow and you need to make a call, for example."
+msgstr ""
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
@@ -3232,6 +3341,7 @@ msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
 msgstr "جاهز للتشغيل"
 
+#, qt-format
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
 msgstr "%1 جاهز للتشغيل"
@@ -3268,6 +3378,7 @@ msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
 msgstr "تخطي"
 
+#, qt-format
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr "تجاوز الكل (%1)"
@@ -3308,10 +3419,12 @@ msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
 msgstr "نقل التنزيل فشل"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
 msgstr "خطأ: %1"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
 msgstr "غير قادر على نقل: %1"
@@ -3628,6 +3741,7 @@ msgctxt "Notification|"
 msgid "Ready to play"
 msgstr "جاهز للتشغيل"
 
+#, qt-format
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
 msgstr "%1 يفتقد الأذونات"
@@ -3674,6 +3788,7 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "اتصالات"
 
+#. Browse for a file
 msgctxt "PickFileButton|"
 msgid "Browse..."
 msgstr "تصفح..."
@@ -3682,6 +3797,7 @@ msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "تشغيل الملف أثناء تنزيله"
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
 msgstr "استمتع باستخدام إضافة %1؟"
@@ -3691,6 +3807,7 @@ msgid ""
 "We would like to ask you to help this add-on to reach its potential users."
 msgstr "نود أن نطلب منك المساعدة في توصيل هذه الإضافة إلى مستخدميها المحتملين."
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid ""
 "Please use your favorite social networks and forums to let the other people "
@@ -3751,6 +3868,7 @@ msgctxt "PluginsPage|"
 msgid "Install add-on from file"
 msgstr "تثبيت الإضافة من ملف"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "تعلم المزيد عن الإضافات %1"
@@ -3763,6 +3881,7 @@ msgctxt "PluginsPage|"
 msgid "Cancel"
 msgstr "إلغاء"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
 msgstr "ملفات إضافات %1"
@@ -3795,6 +3914,7 @@ msgctxt "PluginsPage|"
 msgid "The following required components are missing:"
 msgstr "المكونات المطلوبة التالية مفقودة:"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 is required."
 msgstr "%1 مطلوب."
@@ -3819,10 +3939,12 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
 msgstr "تحذير!"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
 msgstr "الإصدار الجديد من إضافة %1 يطلب أذونات خطيرة:"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
 msgstr "الإصدار الجديد من إضافة %1 يطلب أذن خطيرة:"
@@ -3835,6 +3957,7 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
 msgstr "هل ترغب في متابعة التثبيت؟"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid ""
 "New version of %1 add-on requires additional components:\n"
@@ -3843,6 +3966,7 @@ msgstr ""
 "الإصدار الجديد من إضافة %1 يتطلب مكونات إضافية:\n"
 "%2"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requires %2."
 msgstr "الإصدار الجديد من إضافة %1 يتطلب %2."
@@ -3871,6 +3995,7 @@ msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "تحديث..."
 
+#, qt-format
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
 msgstr "الإصدار: %1"
@@ -3899,6 +4024,7 @@ msgctxt "PrivacyDialog|"
 msgid "User agreement"
 msgstr "اتفاقية المستخم"
 
+#, qt-format
 msgctxt "PrivacyDialog|"
 msgid ""
 "A bug report will be sent to the server and used to improve %1 performance. "
@@ -3963,6 +4089,7 @@ msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
 msgstr "فشل بدء مدير حالة التطبيق."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "\n"
@@ -3979,14 +4106,17 @@ msgctxt "QObject|"
 msgid "Drag-and-drop URL"
 msgstr "سحب وإفلات عنوان URL"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
 msgstr "عذرا، هذا الجهاز غير مدعوم من ٪1."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr "%1 فشل في البدء. يرجى إعادة التثبيت."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Reason: %1"
 msgstr "السبب: %1"
@@ -4003,6 +4133,7 @@ msgctxt "QObject|"
 msgid "Show main window"
 msgstr "إظهار النافذة الرئيسية"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "About %1"
 msgstr "حول %1"
@@ -4019,74 +4150,92 @@ msgctxt "QObject|"
 msgid "Check for updates..."
 msgstr "البحث عن تحديثات..."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B"
 msgstr "%1 ك"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB"
 msgstr "%1 ك.ب"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB"
 msgstr "%1 م.ب"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB"
 msgstr "%1 ج.ب"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB"
 msgstr "%1 ت.ب"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 ك"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 م"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G"
 msgstr "%1 ج"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 ت"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B/s"
 msgstr "%1 ب/ث"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB/s"
 msgstr "%1 ك.ب/ث"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB/s"
 msgstr "%1 م.ب/ث"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB/s"
 msgstr "%1 ج.ب/ث"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB/s"
 msgstr "%1 ت.ب/ث"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K/s"
 msgstr "%1 ك/ث"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M/s"
 msgstr "%1 م/ث"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G/s"
 msgstr "%1 ج/ث"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T/s"
 msgstr "%1 ت/ث"
@@ -4155,6 +4304,7 @@ msgctxt "QObject|"
 msgid "Unknown file I/O error"
 msgstr "خطأ غير معروف بقراءة/كتابة الملف"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "HTTP Error %1"
 msgstr "خطأ HTTP %1"
@@ -4487,6 +4637,7 @@ msgctxt "QObject|"
 msgid "Failed to remove current version"
 msgstr "فشل حذف الإصدار الحالي"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "hdiutil error %1"
 msgstr "خطأ hdiutil %1"
@@ -4499,18 +4650,22 @@ msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr "فشل التحقق من التوقيع."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download with %1"
 msgstr "تنزيل بـ %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download all with %1"
 msgstr "تنزيل الكل بـ %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download selected with %1"
 msgstr "تنزيل المحدد بـ %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download video with %1"
 msgstr "تنزيل الفيديو بـ %1"
@@ -4527,6 +4682,7 @@ msgctxt "QObject|"
 msgid "There is not enough disk space."
 msgstr "لا توجد مساحة تخزين كافية."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "The list of downloads is damaged.\n"
@@ -4541,6 +4697,7 @@ msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
 msgstr "خطأ فادح: فشل تحميل قاعدة البيانات."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
@@ -4603,14 +4760,19 @@ msgctxt "QObject|"
 msgid "Files were modified"
 msgstr "الملفات تم تعديلها"
 
+#. 10 MB of unknown at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
 msgstr "%1 غير معروف في %2"
 
+#. 10 MB of 200 MB at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
 msgstr "%1 من %2 في %3"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
 msgstr "%1 %2 أو أعلى"
@@ -4635,10 +4797,12 @@ msgctxt "QObject|"
 msgid "Missing components"
 msgstr "محتويات مفقودة"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 are required"
 msgstr "%1 مطلوبات"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 is required"
 msgstr "%1 مطلوب"
@@ -4655,6 +4819,15 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr "فتح المجلد"
 
+msgctxt "QObject|"
+msgid "Security check failure."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Invalid version."
+msgstr ""
+
+#, qt-format
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
 msgstr "%1 أعاد حالة خروج غير صفرية (%2)"
@@ -4683,6 +4856,7 @@ msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
 msgstr "لا يتم دعم QIODevice::ReadWrite لـ QuaZIODevice"
 
+#, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
 msgstr "خطأ API في ZIP/UNZIP %1"
@@ -4707,6 +4881,7 @@ msgctxt "RemoteControlSettings|"
 msgid "(beta)"
 msgstr "(بيتا)"
 
+#, qt-format
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
 msgstr "السماح بالوصول عن بعد إلى %1 قيد التشغيل على هذا الجهاز"
@@ -4783,6 +4958,7 @@ msgctxt "ReportSentDialog|"
 msgid "Report problem"
 msgstr "إبلاغ عن مشكلة"
 
+#, qt-format
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "عذرا، لم يتم إرسال التقرير، حدث خطأ: %1"
@@ -4931,6 +5107,7 @@ msgctxt "SearchToolbar|"
 msgid "Search"
 msgstr "بحث"
 
+#, qt-format
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
 msgstr "محدد: %1"
@@ -5067,6 +5244,7 @@ msgctxt "ShutdownDialog|"
 msgid "Cancel"
 msgstr "إلغاء"
 
+#, qt-format
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
 msgstr "موافق (%1)"
@@ -5119,6 +5297,7 @@ msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "شهادة SSL غير صالحة."
 
+#, qt-format
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
 msgstr "%1 بصمات الأصابع الرئيسية"
@@ -5233,6 +5412,7 @@ msgctxt "SubmitBugReportDialog|"
 msgid "E-mail"
 msgstr "البريد الالكتروني"
 
+#, qt-format
 msgctxt "SubmitBugReportDialog|"
 msgid "Attach %1 log files (recommended)"
 msgstr "إرفاق ملفات السجل %1 (مستحسن)"
@@ -5385,6 +5565,10 @@ msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "إخفاء"
 
+msgctxt "TroubleshootingSettings|"
+msgid "Enable downloads management logging"
+msgstr ""
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "غير محدود"
@@ -5397,6 +5581,7 @@ msgctxt "TumComboBox|"
 msgid "unlimited"
 msgstr "غير محدود"
 
+#, qt-format
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
 msgstr "تنزيل: %1, رفع: %2"
@@ -5449,6 +5634,7 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "تغيير حدود نقل البيانات"
 
+#, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
 msgstr "لا يمكن ان تكون القيمة اكبر من %1"
@@ -5481,17 +5667,35 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
 msgstr "لا يمتلك البرنامج ازن الكتابة على المسار المحدد"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "الحجم: %1 (مساحة القرص: %2)"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
 msgstr "مساحة القرص: %1"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "الحجم: %1"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "مرتفعة"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "منخفضة"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "عادية"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."
@@ -5533,6 +5737,7 @@ msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "إصدار جديد متاح"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
 msgstr "ما الجديد في %1"
@@ -5541,6 +5746,7 @@ msgctxt "UpdateDialog|"
 msgid "Update"
 msgstr "تحديث"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
 msgstr "%1 محدث"
@@ -5577,6 +5783,7 @@ msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
 msgstr "حدث خطأ أثناء التثبيت:"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
 msgstr "أعد تشغيل %1 للتحديث"
@@ -5597,6 +5804,7 @@ msgctxt "VideoQuality|"
 msgid "Quality:"
 msgstr "الجودة:"
 
+#, qt-format
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
 msgstr "استمتعت بـ %1؟"
@@ -5633,10 +5841,12 @@ msgctxt "WaitingPage|"
 msgid "Loading"
 msgstr "تحميل"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
 msgstr "الإتصال في %1"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Error: %1"
 msgstr "خطأ: %1"
@@ -5657,6 +5867,7 @@ msgctxt "WhatsNewDialog|"
 msgid "New version is available"
 msgstr "إصدار جديد متاح"
 
+#, qt-format
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
 msgstr "ما الجديد في %1"
@@ -5665,6 +5876,7 @@ msgctxt "WhatsNewDialog|"
 msgid "Update"
 msgstr "تحديث"
 
+#, qt-format
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "للأسف, حدث مشكلة لم يتم ارسال التقرير: %1"
@@ -5673,6 +5885,7 @@ msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "التقرير تم ارساله. شكرا لتعاونك!"
 
+#, qt-format
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "اتصل عن بعد ب %1"
@@ -5684,3 +5897,7 @@ msgstr "إضافة تنزيل"
 msgctxt "main|"
 msgid "New download"
 msgstr "تنزيل جديد"
+
+msgctxt "main|"
+msgid "OK to remove tag?"
+msgstr "حسنا إزالة العلامة؟"
