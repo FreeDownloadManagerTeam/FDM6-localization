@@ -6,5 +6,5 @@ LanguageID=$040E
 LanguageCodePage=1250
 
 [CustomMessages]
-AppStillRunning=%1 is still running.
-KeepSettingsQuestion=Would you like to keep your settings? Recommended if you are planning to install %1 later.
+AppStillRunning=%1 még fut.
+KeepSettingsQuestion=Szeretnéd megőrizni a beállításaidat? Ajánlott, ha később telepíteni szeretnéd a(z) %1 programot.
