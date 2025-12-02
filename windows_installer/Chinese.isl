@@ -1,4 +1,4 @@
-; *** Inno Setup version 6.5.0+ Korean messages ***
+; *** Inno Setup version 6.5.0+ Chinese messages ***
 
 [LangOptions]
 LanguageName=简体中文
