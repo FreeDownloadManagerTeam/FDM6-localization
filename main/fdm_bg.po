@@ -1137,7 +1137,7 @@ msgstr "Въведи нов URL"
 #, qt-format
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
-msgstr "Местоположение на файла:% 1"
+msgstr "Местоположение на файла: %1"
 
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
@@ -1164,7 +1164,7 @@ msgstr "Отказ"
 #, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
-msgstr "Отдалечено свързване с"
+msgstr "Отдалечено свързване с %1"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
@@ -1601,7 +1601,7 @@ msgstr "Завършен"
 
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
-msgstr ""
+msgstr "Оставащи"
 
 #. [50%] - myfile.txt
 #, qt-format
@@ -1921,7 +1921,7 @@ msgstr "Добавен"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Remaining"
-msgstr ""
+msgstr "Оставащи"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Stopped"
@@ -2145,7 +2145,7 @@ msgstr "Спряно"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Remaining"
-msgstr ""
+msgstr "Оставащи"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -3222,6 +3222,11 @@ msgid ""
 "will resume at normal speed. Snail Mode is especially useful when your "
 "Internet is slow and you need to make a call, for example."
 msgstr ""
+"Режимът „Охлюв“ превключва активните изтегляния в режим на заспиване, "
+"освобождавайки колкото се може повече интернет трафик. Когато го изключите, "
+"всички активни изтегляния ще продължат с нормална скорост. Режимът „Охлюв“ е "
+"особено полезен, когато интернетът ви е бавен и трябва да проведете "
+"разговор, например."
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
@@ -3872,6 +3877,23 @@ msgid "Updating installed add-ons..."
 msgstr "Актуализиране на инсталираните добавки..."
 
 msgctxt "PluginsPage|"
+msgid "Developer options"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Allow unsigned add-ons to access external directories"
+msgstr ""
+
+#, fuzzy
+msgctxt "PluginsPage|"
+msgid "Restart is required"
+msgstr "Изисква се рестартиране"
+
+msgctxt "PluginsPage|"
+msgid "Hide developer options"
+msgstr ""
+
+msgctxt "PluginsPage|"
 msgid "There are no installed add-ons."
 msgstr "Няма инсталирани добавки."
 
@@ -4214,7 +4236,7 @@ msgstr "%1 Б/с"
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 KB/s"
-msgstr "Кб/с"
+msgstr "%1 Кб/с"
 
 #, qt-format
 msgctxt "QObject|"
@@ -4799,6 +4821,10 @@ msgid "Allows to execute arbitrary code."
 msgstr "Позволява да се изпълни произволен код."
 
 msgctxt "QObject|"
+msgid "Launch Deno (JavaScript runtime)"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Installing..."
 msgstr "Инсталиране..."
 
@@ -4834,11 +4860,11 @@ msgstr "Отваряне на папка"
 
 msgctxt "QObject|"
 msgid "Security check failure."
-msgstr ""
+msgstr "Неуспешна проверка за сигурност."
 
 msgctxt "QObject|"
 msgid "Invalid version."
-msgstr ""
+msgstr "Невалидна версия."
 
 #, qt-format
 msgctxt "QtFfmpegAvMerger|"
@@ -5583,7 +5609,7 @@ msgstr "Скриване"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
-msgstr ""
+msgstr "Активиране на регистриране на управлението на изтеглянията"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"

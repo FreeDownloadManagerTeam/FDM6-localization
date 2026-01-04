@@ -1579,7 +1579,6 @@ msgctxt "DownloadStatus_V2|"
 msgid "Completed"
 msgstr "完了"
 
-#, fuzzy
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
 msgstr "残り"
@@ -2318,7 +2317,7 @@ msgstr "比較対象"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification OK"
-msgstr "検証OK"
+msgstr "検証 OK"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification failed"
@@ -2363,7 +2362,7 @@ msgstr "比較対象"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification OK"
-msgstr "検証OK"
+msgstr " 検証 OK"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification failed"
@@ -2838,7 +2837,6 @@ msgctxt "GeneralTab_V2|"
 msgid "File"
 msgstr "ファイル"
 
-#, fuzzy
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "優先度"
@@ -3373,7 +3371,7 @@ msgstr "モバイルデータ利用"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Waiting for Wi-Fi to start download."
-msgstr "ダウンロードを開始するために Wi-Fi 接続を待っています"
+msgstr "ダウンロードを開始するために Wi-Fi 接続を待っています。"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Would you like to enable usage of mobile data? *"
@@ -3796,7 +3794,7 @@ msgstr "お気に入りの SNS やフォーラムを使って他の人に %1 と
 
 msgctxt "PluginBannerDialog|"
 msgid "Remind me later"
-msgstr "後ほど"
+msgstr "後で通知する"
 
 msgctxt "PluginBannerDialog|"
 msgid "OK"
@@ -3837,6 +3835,22 @@ msgstr "アドオンがウェブブラウザーのクッキーを使用するこ
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
 msgstr "インストール済みのアドオンを更新しています..."
+
+msgctxt "PluginsPage|"
+msgid "Developer options"
+msgstr "開発者向けオプション"
+
+msgctxt "PluginsPage|"
+msgid "Allow unsigned add-ons to access external directories"
+msgstr "署名されていないアドオンに外部フォルダーへのアクセスを許可する"
+
+msgctxt "PluginsPage|"
+msgid "Restart is required"
+msgstr "再起動が必要です"
+
+msgctxt "PluginsPage|"
+msgid "Hide developer options"
+msgstr "開発者向けオプションを非表示にする"
 
 msgctxt "PluginsPage|"
 msgid "There are no installed add-ons."
@@ -4742,7 +4756,7 @@ msgstr "ファイルが修正されました"
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
-msgstr "％2 で不明な点 %1"
+msgstr "%2 で不明な点 %1"
 
 #. 10 MB of 200 MB at 1 MB/s
 #, qt-format
@@ -4762,6 +4776,10 @@ msgstr "Python コードを実行"
 msgctxt "QObject|"
 msgid "Allows to execute arbitrary code."
 msgstr "任意のコードの実行を許可する。"
+
+msgctxt "QObject|"
+msgid "Launch Deno (JavaScript runtime)"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Installing..."
@@ -5668,7 +5686,6 @@ msgctxt "UiCoreBase|"
 msgid "Low"
 msgstr "低い"
 
-#, fuzzy
 msgctxt "UiCoreBase|"
 msgid "Normal"
 msgstr "標準"
@@ -5787,11 +5804,11 @@ msgstr "%1 を楽しんでいますか?"
 
 msgctxt "VoteBlock|"
 msgid "Not, really"
-msgstr "いいえ"
+msgstr "そうでもない"
 
 msgctxt "VoteBlock|"
 msgid "Yes!"
-msgstr "もちろん!"
+msgstr "はい!"
 
 msgctxt "VoteBlock|"
 msgid "Thanks a lot! Please rate on Google Play."
@@ -5799,7 +5816,7 @@ msgstr "ありがとうございます! 是非 Google Play で評価をお願い
 
 msgctxt "VoteBlock|"
 msgid "Later"
-msgstr "後ほど"
+msgstr "後で"
 
 msgctxt "VoteBlock|"
 msgid "No, thanks"
@@ -5807,7 +5824,7 @@ msgstr "結構です"
 
 msgctxt "VoteBlock|"
 msgid "OK, sure!"
-msgstr "OK"
+msgstr "了解です!"
 
 msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."

@@ -6,5 +6,5 @@ LanguageID=$0411
 LanguageCodePage=932
 
 [CustomMessages]
-AppStillRunning=%1 is still running.
-KeepSettingsQuestion=Would you like to keep your settings? Recommended if you are planning to install %1 later.
+AppStillRunning=%1 がまだ起動しています。
+KeepSettingsQuestion=設定を保存しますか? 後で %1 をインストールする予定がある場合は、保存をおすすめします。

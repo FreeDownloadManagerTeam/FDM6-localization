@@ -3839,6 +3839,23 @@ msgid "Updating installed add-ons..."
 msgstr "正在更新已安装的扩展..."
 
 msgctxt "PluginsPage|"
+msgid "Developer options"
+msgstr "开发者选项"
+
+msgctxt "PluginsPage|"
+msgid "Allow unsigned add-ons to access external directories"
+msgstr "允许未签名的扩展访问外部文件夹"
+
+#, fuzzy
+msgctxt "PluginsPage|"
+msgid "Restart is required"
+msgstr "需要重启软件"
+
+msgctxt "PluginsPage|"
+msgid "Hide developer options"
+msgstr "隐藏开发者选项"
+
+msgctxt "PluginsPage|"
 msgid "There are no installed add-ons."
 msgstr "没有已安装的扩展。"
 
@@ -4760,6 +4777,10 @@ msgstr "启动 Python 代码"
 msgctxt "QObject|"
 msgid "Allows to execute arbitrary code."
 msgstr "允许执行任意代码。"
+
+msgctxt "QObject|"
+msgid "Launch Deno (JavaScript runtime)"
+msgstr "启动Deno (Javascript运行时)"
 
 msgctxt "QObject|"
 msgid "Installing..."
