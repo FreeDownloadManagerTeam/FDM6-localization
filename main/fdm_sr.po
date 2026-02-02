@@ -1,34 +1,26 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: ro_RO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Language: ro_RO\n"
-"X-Source-Language: en\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Language: sr_RS\n"
+"X-Source-Language: en_US\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.8\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
-msgstr "Despre"
+msgstr "О програму"
 
 #, qt-format
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
-msgstr "Versiune: %1 (%2)"
+msgstr "Верзија: %1 (%2)"
 
 #, qt-format
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
-msgstr "Data construirii: %1"
+msgstr "Датум израде: %1"
 
 #. © FreeDownloadManager.org, 2004-2023
 #, qt-format
@@ -38,425 +30,419 @@ msgstr "© %1, %2-%3"
 
 msgctxt "AboutDialog|"
 msgid "remote control"
-msgstr "control la distanță"
+msgstr "даљинско управљање"
 
 #, qt-format
 msgctxt "AboutDialog|"
 msgid "version %1"
-msgstr "versiunea %1"
+msgstr "верзија %1"
 
 msgctxt "AboutDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 #, qt-format
 msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
-msgstr "Versiunea %1 (%2)"
+msgstr "Верзија %1 (%2)"
 
 msgctxt "AddDateToFileName|"
 msgid "Add dates to files names"
-msgstr "Adăugați date la numele fișierelor"
+msgstr "Додај датуме у називе датотека"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
-msgstr "Adăugați mirror"
+msgstr "Додај огледало"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
-msgstr "Introduceți adresa URL mirror"
+msgstr "Унесите URL огледала"
 
 msgctxt "AddMirrorDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "AddMirrorDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "AddMirrorPage|"
 msgid "Add mirror"
-msgstr "Adăugați mirror"
+msgstr "Додај огледало"
 
 msgctxt "AddMirrorPage|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
-msgstr "Introduceți adresa URL mirror"
+msgstr "Унесите URL огледала"
 
 msgctxt "AddNewTagMenuItem|"
 msgid "Add tag"
-msgstr "Adaugă etichetă"
+msgstr "Додај ознаку"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "AddTDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "AddTPage|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "AddTag|"
 msgid "Add tag"
-msgstr "Adaugă etichetă"
+msgstr "Додај ознаку"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced"
-msgstr "Avansat"
+msgstr "Напредно"
 
 msgctxt "AdvancedSettings|"
 msgid "Notifications"
-msgstr "Notificări"
+msgstr "Обавештења"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of added downloads via Notification Center"
-msgstr "Notificați-mă despre descărcări adăugate prin Centrul de notificări"
+msgstr "Обавести ме о додатим преузимањима преко Центра за обавештења"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr ""
-"Notificați-mă despre descărcările finalizate prin Centrul de notificări"
+msgstr "Обавести ме о завршеним преузимањима преко Центра за обавештења"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr "Notificați-mă despre descărcări eșuate prin Centrul de notificări"
+msgstr "Обавести ме о неуспелим преузимањима преко Центра за обавештења"
 
 #, qt-format
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
-msgstr ""
-"Anunțați-mă despre descărcări numai atunci când fereastra %1 este inactivă"
+msgstr "Обавести ме о преузимањима само када је прозор %1 неактиван"
 
 msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
-msgstr "Personalizați sunetele"
+msgstr "Прилагоди звукове"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
-msgstr "Gestionare a energiei"
+msgstr "Управљање напајањем"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is a scheduled download"
-msgstr "Evitați modul de repaus dacă există o descărcare programată"
+msgstr "Избегавај режим спавања ако постоји заказано преузимање"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
-msgstr "Permiteți modul de repaus în timp ce partajați fișiere"
+msgstr "Дозволи режим спавања током дељења датотека"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
-msgstr "Opţiuni"
+msgstr "Опције"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch at startup (minimized)"
-msgstr "Lansare la pornire (minimizat)"
+msgstr "Покрени при подизању система (умањено)"
 
 msgctxt "AdvancedSettings|"
 msgid "Show special offers"
-msgstr "Afișați oferte speciale"
+msgstr "Прикажи специјалне понуде"
 
 msgctxt "AdvancedSettings|"
 msgid "Interface"
-msgstr "Interfață"
+msgstr "Интерфејс"
 
 #, qt-format
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
-msgstr ""
-"Faceți clic pe butonul Închidere pentru a ascunde %1 și menține-l să ruleze "
-"în fundal"
+msgstr "Кликните на дугме Затвори да сакријете %1 и задржите га у позадини"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "Deschideți/ascundeți panoul de jos făcând clic pe descărcare"
+msgstr "Отвори/сакриј доњи панел кликом на преузимање"
 
 msgctxt "AdvancedSettings|"
 msgid "Hide the Dock icon"
-msgstr "Ascunde pictograma din bara de activități"
+msgstr "Сакриј икону у доку"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
-msgstr "Indicați descărcarea și încărcarea activă folosind pictograma tavă"
+msgstr "Прикажи активно преузимање и слање преко иконе у системској касети"
 
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
-msgstr "Afișați etichetele încorporate:"
+msgstr "Прикажи уграђене ознаке:"
 
 msgctxt "AdvancedSettings|"
 msgid "Automation"
-msgstr "Automatizare"
+msgstr "Аутоматизација"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch external application on download completion"
-msgstr "Lansați aplicația externă la finalizarea descărcării"
+msgstr "Покрени спољну апликацију по завршетку преузимања"
 
 msgctxt "AdvancedSettings|"
 msgid "Path:"
-msgstr "Cale:"
+msgstr "Путања:"
 
 msgctxt "AdvancedSettings|"
 msgid "Please enter application's path"
-msgstr "Vă rugăm să introduceți calea aplicației"
+msgstr "Унесите путању апликације"
 
 msgctxt "AdvancedSettings|"
 msgid "Arguments:"
-msgstr "Argumente:"
+msgstr "Аргументи:"
 
 msgctxt "AdvancedSettings|"
 msgid "Arguments must contain %path% variable"
-msgstr "Argumentele trebuie să conțină variabila %path%"
+msgstr "Аргументи морају садржати променљиву %path%"
 
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
-msgstr "Reveniți la setările implicite"
+msgstr "Врати се на подразумевана подешавања"
 
 msgctxt "AdvancedSettings|"
 msgid "Reset"
-msgstr "Resetați"
+msgstr "Ресетуј"
 
 msgctxt "AdvancedSettings|"
 msgid "Default settings"
-msgstr "Setări implicite"
+msgstr "Подразумевана подешавања"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore default settings?"
-msgstr "Restabilește setările implicite?"
+msgstr "Вратити подразумевана подешавања?"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
-msgstr "Faceți backup pentru lista de descărcări fiecare"
+msgstr "Прави резервну копију листе преузимања сваких"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is an active download"
-msgstr "Evitați modul de repaus dacă există o descărcare activă"
+msgstr "Избегавај режим спавања ако постоји активно преузимање"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode if downloads can be resumed later"
-msgstr "Permiteți modul de repaus dacă descărcările pot fi reluate târziu"
+msgstr "Дозволи режим спавања ако се преузимања могу наставити касније"
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
-msgstr "Fișierul există reacție"
+msgstr "Реакција ако датотека већ постоји"
 
 msgctxt "AdvancedSettings|"
 msgid "Rename"
-msgstr "Redenumire"
+msgstr "Преименуј"
 
 msgctxt "AdvancedSettings|"
 msgid "Overwrite"
-msgstr "Suprascriere"
+msgstr "Препиши"
 
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
-msgstr "Folosiți sunete"
+msgstr "Користи звукове"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
-msgstr "Nu permiteți descărcări dacă nivelul bateriei scade sub"
+msgstr "Не дозвољавај преузимања ако ниво батерије падне испод"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not share files when running on battery"
-msgstr "Nu partajați fișiere când rulați pe baterie"
+msgstr "Не дели датотеке када се уређај напаја из батерије"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
-msgstr "Activați ordinea de descărcări definită de utilizator"
+msgstr "Омогући редослед преузимања који дефинише корисник"
 
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
-msgstr "Afișați butonul \"Salvare ca...\""
+msgstr "Прикажи дугме „Сачувај као...“"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable standalone create new downloads windows"
-msgstr "Activați ferestrele autonome pentru crearea de descărcări noi"
+msgstr "Омогући засебне прозоре за креирање нових преузимања"
 
 msgctxt "AdvancedSettings|"
 msgid "Overall zoom"
-msgstr "Zoom general"
+msgstr "Опште зумирање"
 
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
-msgstr "Fonturi zoom"
+msgstr "Зумирање фонтова"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
-msgstr "Acțiune buton de ștergere"
+msgstr "Радња дугмета за брисање"
 
 msgctxt "AdvancedSettings|"
 msgid "Remove only from download list"
-msgstr "Eliminați numai din lista de descărcare"
+msgstr "Уклони само са листе преузимања"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete files"
-msgstr "Șterge fișiere"
+msgstr "Обриши датотеке"
 
 msgctxt "AdvancedSettings|"
 msgid "Always ask"
-msgstr "Întreabă întotdeauna"
+msgstr "Увек питај"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
-msgstr "Setări avansate"
+msgstr "Напредна подешавања"
 
 msgctxt "AdvancedSettings|"
 msgid "Choose theme"
-msgstr "Selectați temă"
+msgstr "Изабери тему"
 
 msgctxt "AdvancedSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Se va folosi o temă luminoasă, dacă tema sistemului este necunoscută."
+msgstr "Светла тема ће се користити ако је системска тема непозната."
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "All"
-msgstr "Tot"
+msgstr "Све"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Downloads only"
-msgstr "Numai descărcări"
+msgstr "Само преузимања"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Uploads only"
-msgstr "Numai încărcări"
+msgstr "Само слања"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Completed"
-msgstr "Finalizat"
+msgstr "Завршено"
 
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Stopped"
-msgstr "Oprit"
+msgstr "Заустављено"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Missing Files"
-msgstr "Fișiere lipsă"
+msgstr "Датотеке које недостају"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "All files"
-msgstr "Toate fișierele"
+msgstr "Све датотеке"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Active"
-msgstr "Activ"
+msgstr "Активно"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Completed"
-msgstr "Finalizat"
+msgstr "Завршено"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
-msgstr "Nefinalizat"
+msgstr "Незавршено"
 
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
-msgstr "Caută în descărcări..."
+msgstr "Претражи у преузимањима..."
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Old"
-msgstr "Vechi"
+msgstr "Старо"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Newest"
-msgstr "Nou"
+msgstr "Најновије"
 
 #. sort by title mode
 msgctxt "AllDownloadsSortModeButton|"
 msgid "A-Z"
-msgstr "A-Z"
+msgstr "А-Ш"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Z-A"
-msgstr "A-Z"
+msgstr "Ш-А"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By size: small"
-msgstr "După mărime: mic"
+msgstr "По величини: мало"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By size: large"
-msgstr "După mărime: mare"
+msgstr "По величини: велико"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By status: ascending"
-msgstr "După status: ascendent"
+msgstr "По статусу: растуће"
 
 msgctxt "AllDownloadsSortModeButton|"
 msgid "By status: descending"
-msgstr "După status: descendent"
+msgstr "По статусу: опадајуће"
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
-msgstr "Configurați manual..."
+msgstr "Подеси ручно..."
 
 msgctxt "AntivirusSettings|"
 msgid "Antivirus"
-msgstr "Antivirus"
+msgstr "Антивирус"
 
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
-msgstr "Selectați antivirus:"
+msgstr "Изаберите антивирус:"
 
 msgctxt "AntivirusSettings|"
 msgid "Is your antivirus not listed?"
-msgstr "Antivirusul dvs. nu este listat?"
+msgstr "Ваш антивирус није на листи?"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
-msgstr "Cale:"
+msgstr "Путања:"
 
 msgctxt "AntivirusSettings|"
 msgid "Please enter antivirus path"
-msgstr "Vă rugăm să introduceți calea antivirus"
+msgstr "Унесите путању антивируса"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments:"
-msgstr "Argumente:"
+msgstr "Аргументи:"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments must contain %path% variable"
-msgstr "Argumentele trebuie să conțină variabila %path%"
+msgstr "Аргументи морају садржати променљиву %path%"
 
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
-msgstr ""
-"Efectuați automat verificarea virușilor când descărcarea este terminată"
+msgstr "Аутоматски изврши проверу вируса када се преузимање заврши"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
-msgstr "Se verifică de viruși"
+msgstr "Провера вируса"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
-msgstr "Nu există niciun antivirus specificat în setări."
+msgstr "Ниједан антивирус није наведен у подешавањима."
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Go to settings"
-msgstr "Mergi la Setări"
+msgstr "Иди на подешавања"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "Storage"
-msgstr "Stocare"
+msgstr "Складиште"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "Notifications"
-msgstr "Notificări"
+msgstr "Обавештења"
 
 #, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
 msgstr ""
-"%1 are nevoie de permisiunea pentru a salva fișierele descărcate în spațiul "
-"de stocare local."
+"%1 треба дозволу за чување преузетих датотека на ваше локално складиште."
 
 #, qt-format
 msgctxt "AppAndroidPermissionsManager|"
@@ -464,364 +450,364 @@ msgid ""
 "%1 needs permission to show download progress within your system's "
 "notification panel."
 msgstr ""
-"%1 are nevoie de permisiunea pentru a afișa progresul descărcării în panoul "
-"de notificări al sistemului dvs."
+"%1 треба дозволу за приказ напретка преузимања унутар панела за обавештења "
+"вашег система."
 
 #, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
-msgstr "Descărcări fără suport pentru reluare (%1)."
+msgstr "Преузимања без подршке за наставак (%1)."
 
 #, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
-msgstr "Se mută fișiere (%1)."
+msgstr "Премештање датотека (%1)."
 
 #, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
-msgstr "Se convertesc fișiere în mp3 (%1)."
+msgstr "Конвертовање датотека у mp3 (%1)."
 
 #, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
-msgstr "Se convertesc fișiere în mp4 (%1)."
+msgstr "Конвертовање датотека у mp4 (%1)."
 
 #, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
-msgstr "Se redenumesc fișierele (%1)."
+msgstr "Преименовање датотека (%1)."
 
 #, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
-msgstr "Se îmbină fluxele media (%1)."
+msgstr "Спајање медијских токова (%1)."
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
-msgstr "Se șterg fișierele."
+msgstr "Брисање датотека."
 
 msgctxt "AppMessageDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "AppMessageDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
-msgstr "Există operațiuni fără capacitatea de reluare în curs"
+msgstr "У току су операције које не подржавају наставак"
 
 #, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
-msgstr "Se conectează la distanța %1 (%2)..."
+msgstr "Повезивање са удаљеним %1 (%2)..."
 
 #, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
-msgstr "Se obțin date de la distanță %1 (%2)..."
+msgstr "Преузимање података са удаљеног %1 (%2)..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
-msgstr "A eșuat."
+msgstr "Није успело."
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
-msgstr "Autentificare necesară"
+msgstr "Потребна аутентификација"
 
 #, qt-format
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
-msgstr "%1 necesită autentificare"
+msgstr "%1 захтева аутентификацију"
 
 #, qt-format
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
-msgstr "Site-ul spune: \"%1\"."
+msgstr "Сајт каже: „%1“."
 
 msgctxt "AuthDialog|"
 msgid "Username:"
-msgstr "Nume de utilizator:"
+msgstr "Корисничко име:"
 
 msgctxt "AuthDialog|"
 msgid "Password:"
-msgstr "Parolă:"
+msgstr "Лозинка:"
 
 msgctxt "AuthDialog|"
 msgid "remember"
-msgstr "ține minte"
+msgstr "запамти"
 
 msgctxt "AuthDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "AuthDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
-msgstr "Autentificare necesară"
+msgstr "Потребна аутентификација"
 
 #, qt-format
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
-msgstr "Site-ul spune: \"%1\"."
+msgstr "Сајт каже: „%1“."
 
 msgctxt "AuthenticationDialog|"
 msgid "Username:"
-msgstr "Nume de utilizator:"
+msgstr "Корисничко име:"
 
 msgctxt "AuthenticationDialog|"
 msgid "Password:"
-msgstr "Parolă:"
+msgstr "Лозинка:"
 
 msgctxt "AuthenticationDialog|"
 msgid "remember"
-msgstr "ține minte"
+msgstr "запамти"
 
 msgctxt "AuthenticationDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "AuthenticationDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "AuthenticationPage|"
 msgid "Authentication required"
-msgstr "Autentificare necesară"
+msgstr "Потребна аутентификација"
 
 msgctxt "AuthenticationPage|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 #, qt-format
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
-msgstr "Site-ul spune: \"%1\"."
+msgstr "Сајт каже: „%1“."
 
 msgctxt "AuthenticationPage|"
 msgid "Username"
-msgstr "Nume de utilizator"
+msgstr "Корисничко име"
 
 msgctxt "AuthenticationPage|"
 msgid "Password"
-msgstr "Parolă"
+msgstr "Лозинка"
 
 msgctxt "AuthenticationPage|"
 msgid "Remember"
-msgstr "Ține minte"
+msgstr "Запамти"
 
 msgctxt "BackupComboBox|"
 msgid "5 minutes"
-msgstr "5 minute"
+msgstr "5 минута"
 
 msgctxt "BackupComboBox|"
 msgid "15 minutes"
-msgstr "15 minute"
+msgstr "15 минута"
 
 msgctxt "BackupComboBox|"
 msgid "1 hour"
-msgstr "1 oră"
+msgstr "1 сат"
 
 msgctxt "BackupComboBox|"
 msgid "3 hours"
-msgstr "3 ore"
+msgstr "3 сата"
 
 msgctxt "BackupComboBox|"
 msgid "1 day"
-msgstr "1 zi"
+msgstr "1 дан"
 
 msgctxt "BackupSlider|"
 msgid "5 minutes"
-msgstr "5 minute"
+msgstr "5 минута"
 
 msgctxt "BackupSlider|"
 msgid "15 minutes"
-msgstr "15 minute"
+msgstr "15 минута"
 
 msgctxt "BackupSlider|"
 msgid "1 hour"
-msgstr "1 oră"
+msgstr "1 сат"
 
 msgctxt "BackupSlider|"
 msgid "3 hours"
-msgstr "3 ore"
+msgstr "3 сата"
 
 msgctxt "BackupSlider|"
 msgid "1 day"
-msgstr "1 zi"
+msgstr "1 дан"
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Server has returned a web page."
-msgstr "Serverul a returnat o pagină web."
+msgstr "Сервер је вратио веб страницу."
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Click to open it in the web browser."
-msgstr "Faceți clic pentru a-l deschide în browserul web."
+msgstr "Кликните да је отворите у веб прегледачу."
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
-msgstr "Vă rugăm să introduceți un articol pe rând"
+msgstr "Унесите једну ставку по реду"
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
-msgstr "Taie"
+msgstr "Исеци"
 
 msgctxt "BaseTextArea|"
 msgid "Copy"
-msgstr "Copiază"
+msgstr "Копирај"
 
 msgctxt "BaseTextArea|"
 msgid "Paste"
-msgstr "Lipire"
+msgstr "Налепи"
 
 msgctxt "BaseTextField|"
 msgid "Cut"
-msgstr "Taie"
+msgstr "Исеци"
 
 msgctxt "BaseTextField|"
 msgid "Copy"
-msgstr "Copiază"
+msgstr "Копирај"
 
 msgctxt "BaseTextField|"
 msgid "Paste"
-msgstr "Lipire"
+msgstr "Налепи"
 
 msgctxt "BatchLanguage|"
 msgid "Language"
-msgstr "Limbă"
+msgstr "Језик"
 
 msgctxt "BatchVideoQuality|"
 msgid "Max. video quality:"
-msgstr "Max. calitate video:"
+msgstr "Макс. квалитет видеа:"
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
-msgstr "kops"
+msgstr "kbps"
 
 #, qt-format
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
-msgstr "De la %1 %2 la %3 %4"
+msgstr "Од %1 %2 до %3 %4"
 
 msgctxt "BitrateComboBox|"
 msgid "CD quality"
-msgstr "Calitate CD"
+msgstr "CD квалитет"
 
 msgctxt "BitrateComboBox|"
 msgid "High quality"
-msgstr "Calitate ridicată"
+msgstr "Висок квалитет"
 
 msgctxt "BitrateComboBox|"
 msgid "Medium quality"
-msgstr "Calitate medie"
+msgstr "Средњи квалитет"
 
 msgctxt "BitrateComboBox|"
 msgid "Radio quality"
-msgstr "Calitate radio"
+msgstr "Радио квалитет"
 
 msgctxt "BitrateComboBox|"
 msgid "Low quality"
-msgstr "Calitate scăzută"
+msgstr "Низак квалитет"
 
 msgctxt "BitrateComboBox|"
 msgid "Speech"
-msgstr "Vorbire"
+msgstr "Говор"
 
 msgctxt "BitrateComboBox|"
 msgid "Lowest quality, smallest file size"
-msgstr "Cea mai scăzută calitate, cea mai mică dimensiune a fișierului"
+msgstr "Најнижи квалитет, најмања величина датотеке"
 
 msgctxt "BottomPanelTools|"
 msgid "General"
-msgstr "General"
+msgstr "Опште"
 
 msgctxt "BottomPanelTools|"
 msgid "Details"
-msgstr "Detalii"
+msgstr "Детаљи"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
-msgstr "Progres"
+msgstr "Напредак"
 
 msgctxt "BottomPanelTools|"
 msgid "Files"
-msgstr "Fișiere"
+msgstr "Датотеке"
 
 msgctxt "BottomPanelTools|"
 msgid "Connections"
-msgstr "Conexiuni"
+msgstr "Везе"
 
 msgctxt "Browser|"
 msgid "Enter URL"
-msgstr "Introdu URL-ul"
+msgstr "Унесите URL"
 
 msgctxt "Browser|"
 msgid "Bookmark removed"
-msgstr "Marcaj șters"
+msgstr "Обележивач уклоњен"
 
 msgctxt "Browser|"
 msgid "Bookmark added"
-msgstr "Marcaj dăugat"
+msgstr "Обележивач додат"
 
 msgctxt "Browser|"
 msgid "Bookmarks"
-msgstr "Marcaje"
+msgstr "Обележивачи"
 
 msgctxt "Browser|"
 msgid "There are no bookmarks at the moment"
-msgstr "Nu există marcaje momentan"
+msgstr "Тренутно нема обележивача"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr "Sigur doriți să eliminați acest marcaj?"
+msgstr "Да ли сте сигурни да желите да уклоните овај обележивач?"
 
 msgctxt "Browser|"
 msgid "YES"
-msgstr "DA"
+msgstr "ДА"
 
 msgctxt "Browser|"
 msgid "NO"
-msgstr "NU"
+msgstr "НЕ"
 
 #, qt-format
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
-msgstr "Înapoi la %1"
+msgstr "Назад на %1"
 
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
-msgstr "Marcaje"
+msgstr "Обележивачи"
 
 msgctxt "Browser MainMenu|"
 msgid "Download media"
-msgstr "Descărcați media"
+msgstr "Преузми медиј"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
-msgstr "Ștergeți marcajul"
+msgstr "Уклони обележивач"
 
 msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
-msgstr "Adaugă în bookmark"
+msgstr "Додај обележивач"
 
 #, qt-format
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
-msgstr "Descărcați extensia %1"
+msgstr "Преузми %1 екстензију"
 
 #, qt-format
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
-msgstr "%1 nu este instalat"
+msgstr "%1 није инсталиран"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
-msgstr "Integrarea browserului"
+msgstr "Интеграција са прегледачем"
 
 #, qt-format
 msgctxt "BrowserIntegrationSettings|"
@@ -829,65 +815,65 @@ msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
 msgstr ""
-"Asigurați-vă că aveți extensia %1 instalată, în caz contrar, faceți clic pe "
-"unul dintre butoanele de mai jos"
+"Проверите да ли имате инсталирану %1 екстензију, у супротном кликните на "
+"једно од дугмади испод"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
-msgstr "Alte browsere acceptate"
+msgstr "Остали подржани прегледачи"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically capture downloads from browsers"
-msgstr "Capturați automat descărcări din browsere"
+msgstr "Аутоматски пресретни преузимања из прегледача"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Intercept downloads in your web browser"
-msgstr "Interceptați descărcările în browserul dvs. web"
+msgstr "Пресретни преузимања у вашем веб прегледачу"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Start downloading without confirmation"
-msgstr "Începeți descărcarea fără confirmare"
+msgstr "Покрени преузимање без потврде"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip domains"
-msgstr "Omite domenii"
+msgstr "Прескочи домене"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Edit list"
-msgstr "Editare listă"
+msgstr "Измени листу"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid domain?"
-msgstr "Sunteți sigur că acesta este un domeniu valid?"
+msgstr "Да ли сте сигурни да је ово важећи домен?"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip files with extensions"
-msgstr "Omite fișierele cu extensii"
+msgstr "Прескочи датотеке са екстензијама"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid file extension?"
-msgstr "Sunteți sigur că aceasta este o extensie de fișier validă?"
+msgstr "Да ли сте сигурни да је ово важећа екстензија датотеке?"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't capture downloads smaller than"
-msgstr "Nu prinde descărcări mai mici decât"
+msgstr "Не пресрећи преузимања мања од"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
-msgstr "Mocteți"
+msgstr "Мбајта"
 
 #, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
-msgstr "Folosiți browserul dacă anulați descărcarea prin %1"
+msgstr "Користи прегледач ако откажете преузимање преко %1"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
-msgstr "Nu interceptați dacă este apăsată tasta INSERT"
+msgstr "Не пресрећи ако је притиснут тастер INSERT"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Capture files with extensions"
-msgstr "Capturați fișiere cu extensii"
+msgstr "Пресретни датотеке са екстензијама"
 
 #, qt-format
 msgctxt "BrowserIntroDialog|"
@@ -901,92 +887,92 @@ msgid ""
 "browser does not provide to %1 (or there is no universal way for all "
 "browsers to do this)."
 msgstr ""
-"Sunteți pe cale să deschideți un browser web încorporat.\n"
+"Управо ћете отворити уграђени веб прегледач.\n"
 "\n"
-"Vă ajută să adăugați descărcări în %1.\n"
+"Он вам помаже да додате преузимања у %1.\n"
 "\n"
-"Unele dintre ele (de exemplu, descărcări Google Drive) pot fi adăugate numai "
-"folosind acest browser, deoarece necesită informații suplimentare pe care "
-"browserul sistemului dvs. Android nu le furnizează %1 (sau nu există o "
-"modalitate universală pentru toate browserele de a face acest lucru)."
+"Нека од њих (нпр. преузимања са Google Drive-а) могу се додати само помоћу "
+"овог прегледачајер захтевају додатне информације које прегледач вашег "
+"Android системане пружа апликацији %1 (или не постоји универзални начин за "
+"све прегледаче да то ураде)."
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
-msgstr "Continuă"
+msgstr "Настави"
 
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
-msgstr "(browserul nu este instalat)"
+msgstr "(прегледач није инсталиран)"
 
 msgctxt "BtDetailsTab|"
 msgid "N/A"
-msgstr "N/A"
+msgstr "Н/А"
 
 #, qt-format
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
-msgstr "(conectat: %1)"
+msgstr "(повезано: %1)"
 
 msgctxt "BtDetailsTab|"
 msgid "Status"
-msgstr "Status"
+msgstr "Статус"
 
 msgctxt "BtDetailsTab|"
 msgid "Updating..."
-msgstr "Se actualizează..."
+msgstr "Ажурирање..."
 
 msgctxt "BtSettings|"
 msgid "General"
-msgstr "General"
+msgstr "Опште"
 
 msgctxt "BtSettings|"
 msgid "Monitoring"
-msgstr "Monitorizare"
+msgstr "Надгледање"
 
 msgctxt "BtSettings|"
 msgid "Open"
-msgstr "Deschide"
+msgstr "Отвори"
 
 msgctxt "BtSettings|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
-msgstr "Începeți descărcarea fără confirmare"
+msgstr "Покрени преузимање без потврде"
 
 msgctxt "BtSettings|"
 msgid "Privacy"
-msgstr "Confidențialitate"
+msgstr "Приватност"
 
 msgctxt "BtSettings|"
 msgid "Encryption:"
-msgstr "Criptare:"
+msgstr "Шифровање:"
 
 msgctxt "BtSettings|"
 msgid "No encryption allowed"
-msgstr "Nu este permisă criptare"
+msgstr "Шифровање није дозвољено"
 
 msgctxt "BtSettings|"
 msgid "Prefer encryption"
-msgstr "Prefer criptarea"
+msgstr "Преферирај шифровање"
 
 msgctxt "BtSettings|"
 msgid "Require encryption"
-msgstr "Necesită criptare"
+msgstr "Захтевај шифровање"
 
 msgctxt "BtSettings|"
 msgid "Advanced"
-msgstr "Avansat"
+msgstr "Напредно"
 
 #, qt-format
 msgctxt "BtSettings|"
 msgid "Current port: %1"
-msgstr "Port curent: %1"
+msgstr "Тренутни порт: %1"
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
-msgstr "Port personalizat:"
+msgstr "Прилагођени порт:"
 
 msgctxt "BtSettings|"
 msgid ""
@@ -994,208 +980,208 @@ msgid ""
 "Lists of such trackers can be retrieved from different sources, e.g. from <a "
 "href='https://github.com/ngosang/trackerslist'>here</a>."
 msgstr ""
-"Utilizarea de trackere suplimentare poate îmbunătăți viteza de descărcare în "
-"unele cazuri. Listele de astfel de trackere pot fi preluate din diferite "
-"surse, de ex. de pe <a href='https://github.com/ngosang/trackerslist'>aici</"
-"a>."
+"Коришћење додатних тракера може побољшати брзину преузимања у неким "
+"случајевима.Листе таквих тракера могу се преузети са различитих извора, нпр. "
+"са <ahref='https://github.com/ngosang/trackerslist'>овог места</a>."
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
-msgstr "Încărcat"
+msgstr "Послато"
 
 msgctxt "BtStrings|"
 msgid "Ratio"
-msgstr "Rație"
+msgstr "Однос (Ratio)"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Add download"
-msgstr "Adaugă descărcare"
+msgstr "Додај преузимање"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
-msgstr "Raportează o problemă"
+msgstr "Пријави проблем"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Download"
-msgstr "Descarcă"
+msgstr "Преузми"
 
 msgctxt "BuildDownloadDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "BuildDownloadPage|"
 msgid "Add download"
-msgstr "Adăugați descărcare"
+msgstr "Додај преузимање"
 
 msgctxt "BuildDownloadPage|"
 msgid "Download"
-msgstr "Descarcă"
+msgstr "Преузми"
 
 msgctxt "BuildDownloadPage|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
-msgstr "Raportează o problemă"
+msgstr "Пријави проблем"
 
 msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
-msgstr "Descărcarea de pe acest site nu este permisă"
+msgstr "Преузимање са овог сајта није дозвољено"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
-msgstr "Proxy-ul %1 necesită un nume de utilizator și o parolă."
+msgstr "Прокси %1 захтева корисничко име и лозинку."
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
-msgstr "%1 vă solicită numele de utilizator și parola."
+msgstr "%1 захтева ваше корисничко име и лозинку."
 
 msgctxt "BuildDownloadTools|"
 msgid "Querying info. Please wait..."
-msgstr "Interogarea informațiilor. Va rugam așteptați..."
+msgstr "Прибављање информација. Молимо сачекајте..."
 
 msgctxt "ButtonsBlock|"
 msgid "Please select download link"
-msgstr "Vă rugăm să selectați linkul de descărcare"
+msgstr "Изаберите везу за преузимање"
 
 #, qt-format
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
-msgstr "Nu puteți selecta mai mult de %1 linkuri simultan"
+msgstr "Можете изабрати највише %1 веза одједном"
 
 msgctxt "ButtonsBlock|"
 msgid "No write access to the selected directory"
-msgstr "Nu există acces de scriere la directorul selectat"
+msgstr "Нема приступа за писање у изабраном директоријуму"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
-msgstr "Spatiu pe disc insuficient"
+msgstr "Нема довољно простора на диску"
 
 msgctxt "ButtonsBlock|"
 msgid "The path contains invalid characters"
-msgstr "Calea conține caractere nevalide"
+msgstr "Путања садржи неважеће знакове"
 
 msgctxt "ButtonsBlock|"
 msgid "The subfolder name contains invalid characters"
-msgstr "Numele subdosarului conține caractere nevalide"
+msgstr "Назив подфасцикле садржи неважеће знакове"
 
 msgctxt "ButtonsBlock|"
 msgid "The filename contains invalid characters"
-msgstr "Numele fișierului conține caractere nevalide"
+msgstr "Назив датотеке садржи неважеће знакове"
 
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
-msgstr "Descarcă"
+msgstr "Преузми"
 
 msgctxt "ButtonsBlock|"
 msgid "The subfolder name must not be empty"
-msgstr "Numele subfolderului nu trebuie să fie gol"
+msgstr "Назив подфасцикле не сме бити празан"
 
 msgctxt "ButtonsBlock|"
 msgid "The filename must not be empty"
-msgstr "Numele fișierului nu trebuie să fie gol"
+msgstr "Назив датотеке не сме бити празан"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
-msgstr "Schimbați adresa URL de descărcare"
+msgstr "Промени URL преузимања"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
-msgstr "Introduceți noua adresă URL"
+msgstr "Унесите нови URL"
 
 #, qt-format
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
-msgstr "Locația fișierului: %1"
+msgstr "Локација датотеке: %1"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
-msgstr "URL Invalid"
+msgstr "Неважећи URL"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Start download"
-msgstr "Începe descărcarea"
+msgstr "Покрени преузимање"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "ChangeUrlDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "ChangeUrlPage|"
 msgid "Change download URL"
-msgstr "Schimbați adresa URL de descărcare"
+msgstr "Промени URL преузимања"
 
 msgctxt "ChangeUrlPage|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
-msgstr "Introduceți noua adresă URL"
+msgstr "Унесите нови URL"
 
 #, qt-format
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
-msgstr "Locația fișierului: %1"
+msgstr "Локација датотеке: %1"
 
 msgctxt "ChangeUrlPage|"
 msgid "Start download"
-msgstr "Începe descărcarea"
+msgstr "Покрени преузимање"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Extraneous files are detected"
-msgstr "Sunt detectate fișiere străine"
+msgstr "Детектоване су сувишне датотеке"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid ""
 "The following folder contains extraneous files. Do you still want to delete "
 "it?"
-msgstr "Următorul folder conține fișiere inutile. Doriți să îl ștergeți?"
+msgstr ""
+"Следећа фасцикла садржи сувишне датотеке. Да ли и даље желите да је обришете?"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Delete anyway"
-msgstr "Ștergeți oricum"
+msgstr "Ипак обриши"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 #, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
-msgstr "Conectați-vă la distanța %1"
+msgstr "Повежи се са удаљеним %1"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
-msgstr "(beta)"
+msgstr "(бета)"
 
 #, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
-msgstr "Aici vă puteți conecta la %1 care rulează pe alt dispozitiv."
+msgstr "Овде се можете повезати са апликацијом %1 која ради на другом уређају."
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
-msgstr "Conectați-vă automat la pornire"
+msgstr "Аутоматски се повежи при покретању"
 
 #, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
-msgstr "Introduceți %1 sau <a href='#'>scanați codul QR</a>"
+msgstr "Унесите %1 или <a href='#'>скенирајте QR код</a>"
 
 #, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
@@ -1203,150 +1189,149 @@ msgid ""
 "Both %1 and QR code are located inside of Preferences page of %2 you're "
 "going to connect to."
 msgstr ""
-"Atât %1, cât și codul QR se află în interiorul paginii Preferințe a %2 la "
-"care vă veți conecta."
+"И %1 и QR код се налазе унутар странице Подешавања апликације %2 са којом "
+"желите да се повежете."
 
 #, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
-msgstr "Conectați-vă automat la pornirea %1"
+msgstr "Аутоматски се повежи при покретању %1"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 #, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
-"Aici vă puteți conecta la %1 care rulează pe computerul dvs. Windows/macOS/"
-"Linux"
+"Овде се можете повезати са апликацијом %1 која ради на вашем "
+"Windows/macOS/Linux рачунару"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
-msgstr "Nu există conexiuni"
+msgstr "Нема успостављених веза"
 
 msgctxt "ConnectionsTab|"
 msgid "Host"
-msgstr "Gazdă"
+msgstr "Хост"
 
 msgctxt "ConnectionsTab|"
 msgid "Port"
-msgstr "Port"
+msgstr "Порт"
 
 msgctxt "ConnectionsTab|"
 msgid "Connection count"
-msgstr "Număr de conexiuni"
+msgstr "Број веза"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Destination files already exists"
-msgstr "Fișierele de destinație deja există"
+msgstr "Одредишне датотеке већ постоје"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Overwrite All"
-msgstr "Suprascrie totul"
+msgstr "Препиши све"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Rename All"
-msgstr "Redenumește totul"
+msgstr "Преименуј све"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Skip All"
-msgstr "Omite totul"
+msgstr "Прескочи све"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Abort"
-msgstr "Abort"
+msgstr "Прекини"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "Failed to convert"
-msgstr "Conversia nu a reușit"
+msgstr "Конверзија није успела"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "Convert failed"
-msgstr "Conversia a eșuat"
+msgstr "Конверзија неуспела"
 
 msgctxt "CopyLinkMenu|"
 msgid "Copy link"
-msgstr "Copiază link-ul"
+msgstr "Копирај везу"
 
 msgctxt "CopyMenu|"
 msgid "Copy"
-msgstr "Copiază"
+msgstr "Копирај"
 
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
-msgstr "Ești sigur ca vrei sa ieșiți?"
+msgstr "Да ли сте сигурни да желите да изађете?"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Starting..."
-msgstr "Pornire..."
+msgstr "Покретање..."
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
-msgstr "Nu s-a putut porni."
+msgstr "Покретање није успело."
 
 #, qt-format
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
-msgstr "Eroare: %1"
+msgstr "Грешка: %1"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "CppQmlLocalizations|"
 msgid "Today"
-msgstr "Astăzi"
+msgstr "Данас"
 
 msgctxt "CppQmlLocalizations|"
 msgid "Yesterday"
-msgstr "Ieri"
+msgstr "Јуче"
 
 #, qt-format
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr ""
-"A apărut o eroare internă.<br>%1 trebuie repornit pentru utilizare "
-"ulterioară."
+"Дошло је до унутрашње грешке.<br>%1 мора бити поново покренут за даљи рад."
 
 #, qt-format
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
-msgstr "Reporniți automat %1"
+msgstr "Аутоматски поново покрени %1"
 
 msgctxt "CrashReporter|"
 msgid "Failed to send the report.<br>Check your Internet connection."
-msgstr "Nu s-a putut trimite raportul.<br>Verificați conexiunea la Internet."
+msgstr "Слање извештаја није успело.<br>Проверите вашу интернет везу."
 
 msgctxt "CrashReporter|"
 msgid "Error"
-msgstr "Eroare"
+msgstr "Грешка"
 
 msgctxt "CreateFolderDialog|"
 msgid "Create folder"
-msgstr "Creare folder"
+msgstr "Креирај фасциклу"
 
 msgctxt "CreateFolderDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "CreateFolderDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
-msgstr "Creați o versiune portabilă"
+msgstr "Креирај портабл верзију"
 
 #, qt-format
 msgctxt "CreatePortableDialog|"
@@ -1354,272 +1339,271 @@ msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
 msgstr ""
-"Versiunea portabilă a %1 poate fi utilizată pe diferite computere fără a fi "
-"nevoie să o instalați și să o configurați pe fiecare dintre ele."
+"Портабл верзија апликације %1 се може користити на различитим рачунарима без "
+"потребе за инсталацијом и подешавањем на сваком од њих."
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
-msgstr "Poate fi plasat convenabil pe un stic USB, de exemplu."
+msgstr "Може се практично поставити на флеш диск, на пример."
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
 msgstr ""
-"Specificați aici calea în care doriți să creați această versiune. Ar trebui "
-"să fie un folder pe o unitate amovibilă."
+"Овде наведите путању где желите да креирате ову верзију. То треба да буде "
+"фасцикла на неком преносивом диску."
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
-msgstr "Deschide"
+msgstr "Отвори"
 
 msgctxt "CreatePortableDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "CreatePortableDialog|"
 msgid "Please specify the path."
-msgstr "Vă rugăm să specificați calea."
+msgstr "Наведите путању."
 
 msgctxt "CreatePortableDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 #, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
-msgstr "Se creează %1%"
+msgstr "Креирање %1%"
 
 #, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
-msgstr "A apărut o eroare la crearea unei versiuni portabile: %1"
+msgstr "Дошло је до грешке при креирању портабл верзије: %1"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating a portable version was successfully completed."
-msgstr "Crearea unei versiuni portabile a fost finalizată cu succes."
+msgstr "Креирање портабл верзије је успешно завршено."
 
 msgctxt "CreatePortableDialog|"
 msgid "Close"
-msgstr "Închide"
+msgstr "Затвори"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Customize sounds"
-msgstr "Personalizați sunetele"
+msgstr "Прилагоди звукове"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Event"
-msgstr "Eveniment"
+msgstr "Догађај"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Sound file"
-msgstr "Fișier sunet"
+msgstr "Звучна датотека"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No sound"
-msgstr "Fără sunet"
+msgstr "Без звука"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads added"
-msgstr "Descărcări adăugate"
+msgstr "Преузимања додата"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads completed"
-msgstr "Descărcări finalizate"
+msgstr "Преузимања завршена"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads failed"
-msgstr "Descărcările au eșuat"
+msgstr "Преузимања неуспела"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No active downloads"
-msgstr "Nu există descărcări active"
+msgstr "Нема активних преузимања"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Set sound"
-msgstr "Setează sunet"
+msgstr "Постави звук"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Remove"
-msgstr "Șterge"
+msgstr "Уклони"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Test"
-msgstr "Test"
+msgstr "Тестирај"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Close"
-msgstr "Închide"
+msgstr "Затвори"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected downloads"
-msgstr "Ștergeți descărcările selectate"
+msgstr "Обриши изабрана преузимања"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Remember my choice"
-msgstr "Reamintește-mi alegerea mea"
+msgstr "Запамти мој избор"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete files"
-msgstr "Șterge fișiere"
+msgstr "Обриши датотеке"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Remove from list"
-msgstr "Șterge din listă"
+msgstr "Уклони са листе"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete this file?"
-msgstr "Ștergeți acest fișier?"
+msgstr "Обрисати ову датотеку?"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete selected files?"
-msgstr "Ștergeți fișierele selectate?"
+msgstr "Обрисати изабране датотеке?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Delete selected downloads"
-msgstr "Ștergeți descărcările selectate"
+msgstr "Обриши изабрана преузимања"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Are you sure you want to delete the selected file(s)?"
-msgstr "Sigur doriți să ștergeți fișierele selectate?"
+msgstr "Да ли сте сигурни да желите да обришете изабране датотеке?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Download deleting failed"
-msgstr "Ștergerea descărcării a eșuat"
+msgstr "Брисање преузимања није успело"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Try again"
-msgstr "Încearcă din nou"
+msgstr "Покушај поново"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore"
-msgstr "Ignoră"
+msgstr "Игнориши"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore all"
-msgstr "Ignoră tot"
+msgstr "Игнориши све"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
-msgstr "Abort"
+msgstr "Прекини"
 
 #, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "Dimensiune: %1 (spațiu pe disc: %2)"
+msgstr "Величина: %1 (Простор на диску: %2)"
 
 #, qt-format
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
-msgstr "Spațiu pe disc: %1"
+msgstr "Простор на диску: %1"
 
 #, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1"
-msgstr "Mărime: %1"
+msgstr "Величина: %1"
 
 msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
-msgstr "Afișați viteza totală de încărcare în pictograma Dock"
+msgstr "Прикажи укупну брзину слања у Док икони"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Download Failure"
-msgstr "Descărcarea a eșuat"
+msgstr "Неуспех преузимања"
 
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Can't resume download. Download link likely expired. Resume attempts failed."
 msgstr ""
-"Nu se poate relua descărcarea. Linkul de descărcare a expirat probabil. "
-"Încercările de reluare au eșuat."
+"Није могуће наставити преузимање. Веза за преузимање је вероватно истекла. "
+"Покушаји наставка нису успели."
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Please try to update the download link to resume."
-msgstr ""
-"Vă rugăm să încercați să actualizați linkul de descărcare pentru a relua."
+msgstr "Покушајте да ажурирате везу за преузимање да бисте наставили."
 
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Go to the website with the original download source and copy the renewed link"
 msgstr ""
-"Accesați site-ul web cu sursa originală de descărcare și copiați linkul "
-"reînnoit"
+"Идите на веб сајт са оригиналним извором преузимања и копирајте нову везу"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "click here"
-msgstr "clic aici"
+msgstr "кликните овде"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Update download"
-msgstr "Descărcare actualizare"
+msgstr "Ажурирај преузимање"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Close"
-msgstr "Închide"
+msgstr "Затвори"
 
 msgctxt "DownloadProgressBar_V2|"
 msgid "Checking files"
-msgstr "Verificarea fișierelor"
+msgstr "Провера датотека"
 
 msgctxt "DownloadProgressBar_V2|"
 msgid "Merging media streams"
-msgstr "Îmbinarea fluxurilor media"
+msgstr "Спајање медијских токова"
 
 msgctxt "DownloadProgressBar_V2|"
 msgid "Queued"
-msgstr "În așteptare"
+msgstr "На чекању"
 
 msgctxt "DownloadProgressBar_V2|"
 msgid "Requesting info"
-msgstr "Solicitare informații"
+msgstr "Захтевање информација"
 
 msgctxt "DownloadProgressBar_V2|"
 msgid "Paused"
-msgstr "În pauză"
+msgstr "Паузирано"
 
 msgctxt "DownloadStatus_V2|"
 msgid "Checking files"
-msgstr "Verificarea fișierelor"
+msgstr "Провера датотека"
 
 msgctxt "DownloadStatus_V2|"
 msgid "Merging media streams"
-msgstr "Îmbinarea fluxurilor media"
+msgstr "Спајање медијских токова"
 
 msgctxt "DownloadStatus_V2|"
 msgid "Requesting info"
-msgstr "Solicitare informații"
+msgstr "Захтевање информација"
 
 msgctxt "DownloadStatus_V2|"
 msgid "n/a"
-msgstr "indisponibil"
+msgstr "н/д"
 
 msgctxt "DownloadStatus_V2|"
 msgid "Queued"
-msgstr "În așteptare"
+msgstr "На чекању"
 
 msgctxt "DownloadStatus_V2|"
 msgid "Completed"
-msgstr "Terminat"
+msgstr "Завршено"
 
+#, fuzzy
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
-msgstr "Rămas"
+msgstr "Преостало"
 
 #. [50%] - myfile.txt
 #, qt-format
@@ -1629,39 +1613,39 @@ msgstr "[%1%] - %2"
 
 msgctxt "DownloadWindow|"
 msgid "Web page:"
-msgstr "Pagina web:"
+msgstr "Веб страница:"
 
 msgctxt "DownloadWindow|"
 msgid "Resource URL:"
-msgstr "Adresa URL a resursei:"
+msgstr "URL ресурса:"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
-msgstr "Salvat în"
+msgstr "Сачувано у"
 
 msgctxt "DownloadWindow|"
 msgid "File size"
-msgstr "Mărime fișier"
+msgstr "Величина датотеке"
 
 msgctxt "DownloadWindow|"
 msgid "Resume support"
-msgstr "Reluați asistența"
+msgstr "Подршка за наставак"
 
 msgctxt "DownloadWindow|"
 msgid "Yes"
-msgstr "Da"
+msgstr "Да"
 
 msgctxt "DownloadWindow|"
 msgid "No"
-msgstr "Nu"
+msgstr "Не"
 
 msgctxt "DownloadWindow|"
 msgid "Unknown"
-msgstr "Necunoscut"
+msgstr "Непознато"
 
 msgctxt "DownloadWindow|"
 msgid "Downloaded"
-msgstr "Descărcat"
+msgstr "Преузето"
 
 #. 50% [200 MB]
 #, qt-format
@@ -1671,707 +1655,703 @@ msgstr "%1% [%2]"
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
-msgstr "Viteză"
+msgstr "Брзина"
 
 msgctxt "DownloadWindow|"
 msgid "Time remaining"
-msgstr "Timp rămas"
+msgstr "Преостало време"
 
 msgctxt "DownloadWindow|"
 msgid "Open download when it is completed"
-msgstr "Deschideți descărcarea când este finalizată"
+msgstr "Отвори преузимање када се заврши"
 
 msgctxt "DownloadWindow|"
 msgid "Close this window when the download is completed or stopped"
-msgstr ""
-"Închideți această fereastră când descărcarea este finalizată sau oprită"
+msgstr "Затвори овај прозор када се преузимање заврши или заустави"
 
 msgctxt "DownloadWindow|"
 msgid "Remember to always close by default"
-msgstr "Nu uitați să închideți întotdeauna în mod implicit"
+msgstr "Запамти да увек затвориш по подразумеваној вредности"
 
 msgctxt "DownloadWindow|"
 msgid "Remember to never close by default"
-msgstr "Nu uitați să nu închideți niciodată în mod implicit"
+msgstr "Запамти да никад не затвориш по подразумеваној вредности"
 
 msgctxt "DownloadWindow|"
 msgid "Hide"
-msgstr "Ascunde"
+msgstr "Сакриј"
 
 msgctxt "DownloadWindow|"
 msgid "Show in folder"
-msgstr "Arată în folder"
+msgstr "Прикажи у фасцикли"
 
 msgctxt "DownloadWindow|"
 msgid "Open"
-msgstr "Deschide"
+msgstr "Отвори"
 
 msgctxt "DownloadWindow|"
 msgid "Stop"
-msgstr "Stop"
+msgstr "Заустави"
 
 msgctxt "DownloadWindow|"
 msgid "Start"
-msgstr "Start"
+msgstr "Покрени"
 
 msgctxt "DownloadsItemTools|"
 msgid "Moving"
-msgstr "Se mută"
+msgstr "Премештање"
 
 msgctxt "DownloadsItemTools|"
 msgid "Checking for viruses"
-msgstr "Se verifică de viruși"
+msgstr "Провера на вирусе"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp3"
-msgstr "Conversie în format mp3"
+msgstr "Конвертовање у mp3"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp4"
-msgstr "Conversie în format mp4"
+msgstr "Конвертовање у mp4"
 
 msgctxt "DownloadsItemTools|"
 msgid "Calculating hash"
-msgstr "Calculare hash"
+msgstr "Израчунавање хеша"
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
-msgstr "Fișierul lipsește"
+msgstr "Датотека недостаје"
 
 msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
-msgstr "Disc-ul lipsește"
+msgstr "Диск недостаје"
 
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
-msgstr "duplicate (%1)"
+msgstr "дупликати (%1)"
 
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "invalid (%1)"
-msgstr "invalid (%1)"
+msgstr "неважећи (%1)"
 
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "unsupported (%1)"
-msgstr "nesuportat (%1)"
+msgstr "неподржани (%1)"
 
 msgctxt "DownloadsList|"
 msgid "Skipped downloads"
-msgstr "Descărcări sărite"
+msgstr "Прескочена преузимања"
 
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
-msgstr "Linkuri de descărcare (%1 selectat)"
+msgstr "Везе за преузимање (%1 изабрано)"
 
 msgctxt "DownloadsList|"
 msgid "Select all"
-msgstr "Selectează tot"
+msgstr "Изабери све"
 
 msgctxt "DownloadsList|"
 msgid "Select none"
-msgstr "Deselectează tot"
+msgstr "Поништи избор"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty."
-msgstr "Lista de descărcare este goală."
+msgstr "Листа преузимања је празна."
 
 msgctxt "DownloadsPage|"
 msgid "Add new download URL."
-msgstr "Adăugați o nouă adresă URL de descărcare."
+msgstr "Додај нови URL преузимања."
 
 msgctxt "DownloadsPage|"
 msgid "No results found for"
-msgstr "Nu s-au găsit rezultate pentru"
+msgstr "Нема резултата за"
 
 #, qt-format
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
-msgstr "Nu a fost găsit niciun rezultat etichetat „%1”."
+msgstr "Нема резултата са ознаком „%1“"
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
-msgstr "Nu există descărcări active"
+msgstr "Нема активних преузимања"
 
 msgctxt "DownloadsPage|"
 msgid "No completed downloads"
-msgstr "Nu există descărcări finalizate"
+msgstr "Нема завршених преузимања"
 
 msgctxt "DownloadsPage|"
 msgid "Show all"
-msgstr "Arată tot"
+msgstr "Прикажи све"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
-msgstr ""
-"Lista de descărcare este goală. Adăugați o nouă adresă URL de descărcare."
+msgstr "Листа преузимања је празна. Додајте нови URL за преузимање."
 
 #, qt-format
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
-msgstr "Conectați-vă la distanța %1"
+msgstr "Повежи се са удаљеним %1"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
-msgstr "Setări de descărcări"
+msgstr "Подешавања преузимања"
 
 msgctxt "DownloadsSettings|"
 msgid "Start downloading without confirmation"
-msgstr "Începeți descărcarea fără confirmare"
+msgstr "Покрени преузимање без потврде"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "Eliminați automat fișierele șterse din lista de descărcare"
+msgstr "Аутоматски уклони обрисане датотеке из листе преузимања"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "Eliminați automat descărcările finalizate din lista de descărcare"
+msgstr "Аутоматски уклони завршена преузимања из листе преузимања"
 
 msgctxt "DownloadsSettings|"
 msgid "Immediately"
-msgstr "Imediat"
+msgstr "Одмах"
 
 #. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "In"
-msgstr "În"
+msgstr "За"
 
 #. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "days"
-msgstr "zile"
+msgstr "дана"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
-msgstr "Reîncercați automat descărcările eșuate"
+msgstr "Аутоматски поново покушај неуспела преузимања"
 
 msgctxt "DownloadsSettings|"
 msgid "Do not download web pages"
-msgstr "Nu descărcați pagini web"
+msgstr "Не преузимај веб странице"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
-msgstr "Utilizați timpul serverului pentru crearea fișierelor"
+msgstr "Користи време сервера за креирање датотеке"
 
 msgctxt "DownloadsSettings|"
 msgid "Default download folder"
-msgstr "Dosarul de descărcare implicit"
+msgstr "Подразумевана фасцикла за преузимање"
 
 msgctxt "DownloadsSettings|"
 msgid "Choose default download folder automatically"
-msgstr "Alegeți automat folderul de descărcare implicit"
+msgstr "Аутоматски изабери подразумевану фасциклу за преузимање"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on file type"
-msgstr "Sugerați foldere în funcție de tipul de fișier"
+msgstr "Предложи фасцикле на основу типа датотеке"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on download URL"
-msgstr "Sugerați foldere pe baza adresei URL de descărcare"
+msgstr "Предложи фасцикле на основу URL-а преузимања"
 
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
-msgstr "S-a remediat folderul de descărcare implicit"
+msgstr "Фиксна подразумевана фасцикла за преузимање"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
-msgstr "Deetichetează"
+msgstr "Уклони ознаку"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Name"
-msgstr "Nume"
+msgstr "Име"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Status"
-msgstr "Status"
+msgstr "Статус"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Speed"
-msgstr "Viteză"
+msgstr "Брзина"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Size"
-msgstr "Dimensiune"
+msgstr "Величина"
 
 msgctxt "DownloadsViewHeader|"
 msgid "Added"
-msgstr "Adăugat"
+msgstr "Додато"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Paused"
-msgstr "Întrerupt"
+msgstr "Паузирано"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "File is missing"
-msgstr "Fișierul lipsește"
+msgstr "Датотека недостаје"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Disk is missing"
-msgstr "Disc-ul lipsește"
+msgstr "Диск недостаје"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
-msgstr "Încărcarea a fost întreruptă"
+msgstr "Слање паузирано"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Name"
-msgstr "Nume"
+msgstr "Име"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Size"
-msgstr "Dimensiune"
+msgstr "Величина"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Status"
-msgstr "Status"
+msgstr "Статус"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Download"
-msgstr "Descarcă"
+msgstr "Преузимање"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Upload"
-msgstr "Încarcă"
+msgstr "Слање"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Added"
-msgstr "Adăugat"
+msgstr "Додато"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Remaining"
-msgstr "Rămas"
+msgstr "Преостало"
 
 msgctxt "DownloadsViewHeader_V2|"
 msgid "Stopped"
-msgstr "Oprit"
+msgstr "Заустављено"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
-msgstr "Prioritate"
+msgstr "Приоритет"
 
 msgctxt "DownloadsViewItem|"
 msgid "Upload paused"
-msgstr "Încărcarea a fost întreruptă"
+msgstr "Слање паузирано"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
-msgstr "Restart"
+msgstr "Поново покрени"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Open"
-msgstr "Deschide"
+msgstr "Отвори"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
-msgstr "Raportează o problemă"
+msgstr "Пријави проблем"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Enable auto retry for this kind of errors"
-msgstr "Activați reîncercarea automată pentru acest tip de erori"
+msgstr "Омогући аутоматски поновни покушај за ову врсту грешака"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Save and complete"
-msgstr "Salvați și completați"
+msgstr "Сачувај и заврши"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show downloads"
-msgstr "Arată descărcările"
+msgstr "Прикажи преузимања"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Choose files..."
-msgstr "Alege fișiere..."
+msgstr "Изабери датотеке..."
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "High"
-msgstr "Ridicat"
+msgstr "Висок"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Normal"
-msgstr "Normal"
+msgstr "Нормалан"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Low"
-msgstr "Scăzut"
+msgstr "Низак"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
-msgstr "Redenumește fisierul"
+msgstr "Преименуј датотеку"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
-msgstr "Mută în…"
+msgstr "Премести у..."
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Delete file"
-msgstr "Șterge fișier"
+msgstr "Обриши датотеку"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Remove from list"
-msgstr "Șterge din listă"
+msgstr "Уклони са листе"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Play file while it is still downloading"
-msgstr "Redați fișierul în timp ce încă se descarcă"
+msgstr "Пусти датотеку док се још преузима"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
-msgstr "Adăugați mirror"
+msgstr "Додај огледало (mirror)"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Open download page"
-msgstr "Deschide pagina de descărcare"
+msgstr "Отвори страницу преузимања"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Copy link"
-msgstr "Copiați link-ul"
+msgstr "Копирај везу"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Check for update"
-msgstr "Căutați actualizări"
+msgstr "Провери ажурирања"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
-msgstr "Exportați descărcările selectate"
+msgstr "Извези изабрана преузимања"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add tag"
-msgstr "Adaugă etichetă"
+msgstr "Додај ознаку"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "File integrity"
-msgstr "Integritatea fișierului"
+msgstr "Интегритет датотеке"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Schedule"
-msgstr "Planificare"
+msgstr "Испланирај"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Change URL"
-msgstr "Schimbați adresa URL"
+msgstr "Промени URL"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp3"
-msgstr "Convertiți în mp3"
+msgstr "Конвертуј у mp3"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Convert to mp4"
-msgstr "Convertiți în mp4"
+msgstr "Конвертуј у mp4"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
-msgstr "Efectuați verificarea virușilor"
+msgstr "Изврши проверу на вирусе"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Abort"
-msgstr "Abort"
+msgstr "Прекини"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Set priority"
-msgstr "Stabilește prioritatea"
+msgstr "Постави приоритет"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show in folder"
-msgstr "Arată în folder"
+msgstr "Прикажи у фасцикли"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show info"
-msgstr "Afișați informații"
+msgstr "Прикажи информације"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Files"
-msgstr "Fișiere"
+msgstr "Датотеке"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
-msgstr "Descărcare secvenţială"
+msgstr "Секвенцијално преузимање"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Share file"
-msgstr "Partajați fișierul"
+msgstr "Подели датотеку"
 
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
-msgstr "Șterge din listă"
+msgstr "Уклони са листе"
 
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Restart"
-msgstr "Restart"
+msgstr "Поново покрени"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
-msgstr "Descărcare completă"
+msgstr "Преузимање завршено"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
-msgstr "Se verifică fișierele..."
+msgstr "Провера датотека..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
-msgstr "Se îmbină fluxurile media..."
+msgstr "Спајање медијских токова..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Requesting info..."
-msgstr "Solicitare informații..."
+msgstr "Захтевање информација..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Queued"
-msgstr "În așteptare"
+msgstr "На чекању"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Paused"
-msgstr "Întrerupt"
+msgstr "Паузирано"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
-msgstr "Dimensiunea fișierului necunoscută"
+msgstr "Непозната величина датотеке"
 
 msgctxt "DownloadsViewItemStatus_V2|"
 msgid "Checking files"
-msgstr "Verificarea fișierelor"
+msgstr "Провера датотека"
 
 msgctxt "DownloadsViewItemStatus_V2|"
 msgid "Merging media streams"
-msgstr "Îmbinarea fluxurilor media"
+msgstr "Спајање медијских токова"
 
 msgctxt "DownloadsViewItemStatus_V2|"
 msgid "Requesting info"
-msgstr "Solicitare informații"
+msgstr "Захтевање информација"
 
 msgctxt "DownloadsViewItemStatus_V2|"
 msgid "n/a"
-msgstr "indisponibil"
+msgstr "н/д"
 
 msgctxt "DownloadsViewItemStatus_V2|"
 msgid "Queued"
-msgstr "În așteptare"
+msgstr "На чекању"
 
 msgctxt "DownloadsViewItemStatus_V2|"
 msgid "Completed"
-msgstr "Terminat"
+msgstr "Завршено"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "n/a"
-msgstr "indisponibil"
+msgstr "н/д"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
-msgstr "Prioritate"
+msgstr "Приоритет"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Stopped"
-msgstr "Oprit"
+msgstr "Заустављено"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Remaining"
-msgstr "Rămas"
+msgstr "Преостало"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
-msgstr "În așteptare"
+msgstr "На чекању"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files"
-msgstr "Verificarea fișierelor"
+msgstr "Провера датотека"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Merging media streams"
-msgstr "Îmbinarea fluxurilor media"
+msgstr "Спајање медијских токова"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Requesting info"
-msgstr "Solicitare informații"
+msgstr "Захтевање информација"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Unknown file size"
-msgstr "Dimensiunea fișierului necunoscută"
+msgstr "Непозната величина датотеке"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Paused"
-msgstr "Întrerupt"
+msgstr "Паузирано"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
-msgstr "Complet"
+msgstr "Завршено"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
-msgstr "Editează eticheta"
+msgstr "Измени ознаку"
 
 msgctxt "EditTagDialog|"
 msgid "Tag"
-msgstr "Etichetă"
+msgstr "Ознака"
 
 msgctxt "EditTagDialog|"
 msgid "Extensions (e.g. \"avi mp3\")"
-msgstr "Extensii (de exemplu, „avi mp3”)"
+msgstr "Екстензије (нпр. „avi mp3“)"
 
 msgctxt "EditTagDialog|"
 msgid ""
 "Extensions that are automatically assigned with this tag for new downloads"
-msgstr ""
-"Extensii care sunt atribuite automat cu această etichetă pentru descărcări "
-"noi"
+msgstr "Екстензије које се аутоматски додељују овој ознаци за нова преузимања"
 
 msgctxt "EditTagDialog|"
 msgid "Default download folder"
-msgstr "Folderul de descărcare implicit"
+msgstr "Подразумевана фасцикла за преузимање"
 
 msgctxt "EditTagDialog|"
 msgid "Open"
-msgstr "Deschide"
+msgstr "Отвори"
 
 msgctxt "EditTagDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "EditTagDialog|"
 msgid "Macros"
-msgstr "Macro-uri"
+msgstr "Макрои"
 
 msgctxt "EditTagDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "EnvTools|"
 msgid "Low battery"
-msgstr "Baterie scăzută"
+msgstr "Батерија је скоро празна"
 
 msgctxt "EnvTools|"
 msgid "Data roaming disabled"
-msgstr "Roaming de date dezactivat"
+msgstr "Роаминг података је искључен"
 
 msgctxt "EnvTools|"
 msgid "No Internet connection"
-msgstr "Fără conexiune la internet"
+msgstr "Нема интернет везе"
 
 msgctxt "EnvTools|"
 msgid "Mobile data use disabled"
-msgstr "Utilizarea datelor mobile este dezactivată"
+msgstr "Употреба мобилних података је искључена"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Rename"
-msgstr "Redenumiți"
+msgstr "Преименуј"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Overwrite"
-msgstr "Suprascrie"
+msgstr "Препиши"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Always ask"
-msgstr "Întreabă întotdeauna"
+msgstr "Увек питај"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
-msgstr "Exportați descărcările selectate"
+msgstr "Извези изабрана преузимања"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export all downloads"
-msgstr "Exportați toate descărcările"
+msgstr "Извези сва преузимања"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Save to"
-msgstr "Salvează în"
+msgstr "Сачувај у"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Open"
-msgstr "Deschide"
+msgstr "Отвори"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 #, qt-format
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
-msgstr "Toate fișierele (%1)"
+msgstr "Све датотеке (%1)"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export only completed downloads"
-msgstr "Exportați numai descărcările finalizate"
+msgstr "Извези само завршена преузимања"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export"
-msgstr "Export"
+msgstr "Извези"
 
 #, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
-msgstr "%1 descarcă fișiere (%2)"
+msgstr "%1 датотеке преузимања (%2)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Default format"
-msgstr "Format implicit"
+msgstr "Подразумевани формат"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
-msgstr "Lista de adrese URL"
+msgstr "Листа URL адреса"
 
 #, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
-msgstr "Fișiere text (%1)"
+msgstr "Текстуалне датотеке (%1)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
-msgstr "Fșier CSV"
+msgstr "CSV датотека"
 
 #, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
-msgstr "Fișiere CSV (%1)"
+msgstr "CSV датотеке (%1)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Export"
-msgstr "Export"
+msgstr "Извези"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 #, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
-msgstr "%1 fișiere de setări (%2)"
+msgstr "%1 датотеке подешавања (%2)"
 
 #, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
-msgstr "Toate fișierele (%1)"
+msgstr "Све датотеке (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
-msgstr "Verificați integritatea fișierului"
+msgstr "Провери интегритет датотеке"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Hash"
-msgstr "Hash"
+msgstr "Хеш (Hash)"
 
 #, qt-format
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
-msgstr "Calculare %1%"
+msgstr "Израчунавање %1%"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Compare with"
-msgstr "Compara cu"
+msgstr "Упореди са"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification OK"
-msgstr "Verificarea OK"
+msgstr "Верификација успешна"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification failed"
-msgstr "Verificare esuata"
+msgstr "Верификација није успела"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Close"
-msgstr "Închide"
+msgstr "Затвори"
 
 msgctxt "FileIntegrityPage|"
 msgid "Check file integrity"
-msgstr "Verificați integritatea fișierului"
+msgstr "Провери интегритет датотеке"
 
 msgctxt "FileIntegrityPage|"
 msgid "MD5"
@@ -2391,497 +2371,499 @@ msgstr "SHA-512"
 
 msgctxt "FileIntegrityPage|"
 msgid "Hash"
-msgstr "Hash"
+msgstr "Хеш (Hash)"
 
 #, qt-format
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
-msgstr "Calculare %1%"
+msgstr "Израчунавање %1%"
 
 msgctxt "FileIntegrityPage|"
 msgid "Compare with"
-msgstr "Compara cu"
+msgstr "Упореди са"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification OK"
-msgstr "Verificarea OK"
+msgstr "Верификација успешна"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification failed"
-msgstr "Verificare esuata"
+msgstr "Верификација није успела"
 
 msgctxt "FileManagerSupportDialog|"
 msgid "No supported file managers found."
-msgstr "Nu s-au găsit manageri de fișiere compatibili."
+msgstr "Нису пронађени подржани управљачи датотекама."
 
 msgctxt "FileName|"
 msgid "Create subfolder"
-msgstr "Creaţi subfolderul"
+msgstr "Креирај подфасциклу"
 
 msgctxt "FileName|"
 msgid "File name"
-msgstr "Nume fișier"
+msgstr "Име датотеке"
 
 #, qt-format
 msgctxt "FileName|"
 msgid "%1 files (*.%2)"
-msgstr "%1 fișiere (*.%2)"
+msgstr "%1 датотеке (*.%2)"
 
 msgctxt "FileName|"
 msgid "All files"
-msgstr "Toate fișierele"
+msgstr "Све датотеке"
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
-msgstr "Selectează folder"
+msgstr "Изабери фасциклу"
 
 msgctxt "FilePickerPage|"
 msgid "Select file"
-msgstr "Selectează fișier"
+msgstr "Изабери датотеку"
 
 msgctxt "FilePickerPage|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "FilePickerPage|"
 msgid "Empty folder"
-msgstr "Folder gol"
+msgstr "Празна фасцикла"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By date"
-msgstr "După dată"
+msgstr "По датуму"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By name"
-msgstr "După nume"
+msgstr "По имену"
 
 msgctxt "FilePickerSortDialog|"
 msgid "By size"
-msgstr "După mărime"
+msgstr "По величини"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Sort"
-msgstr "Sortare"
+msgstr "Сортирај"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Ascending"
-msgstr "Ascendent"
+msgstr "Растуће"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Descending"
-msgstr "Descendent"
+msgstr "Опадајуће"
 
 msgctxt "FileType|"
 msgid "File type:"
-msgstr "Tip fișier:"
+msgstr "Тип датотеке:"
 
 msgctxt "FilesExistsDialog|"
 msgid "Warning: file exists already"
-msgstr "Atenție: fișierul există deja"
+msgstr "Упозорење: датотека већ постоји"
 
 msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
-msgstr "Ține minte alegerea mea pentru toate descărcările"
+msgstr "Запамти мој избор за сва преузимања"
 
 #, qt-format
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
-msgstr "Redenumiți (%1)"
+msgstr "Преименуј (%1)"
 
 msgctxt "FilesExistsDialog|"
 msgid "Overwrite"
-msgstr "Suprascrie"
+msgstr "Препиши"
 
 msgctxt "FilesExistsDialog|"
 msgid "Abort"
-msgstr "Abort"
+msgstr "Прекини"
 
 msgctxt "FilesTree|"
 msgid "Name"
-msgstr "Nume"
+msgstr "Име"
 
 msgctxt "FilesTree|"
 msgid "Size"
-msgstr "Dimensiune"
+msgstr "Величина"
 
 msgctxt "FilesTree|"
 msgid "Progress"
-msgstr "Progres"
+msgstr "Напредак"
 
 msgctxt "FilesTree|"
 msgid "Priority"
-msgstr "Prioritate"
+msgstr "Приоритет"
 
 msgctxt "FilesTree|"
 msgid "Normal"
-msgstr "Normal"
+msgstr "Нормалан"
 
 msgctxt "FilesTree|"
 msgid "High"
-msgstr "Ridicat"
+msgstr "Висок"
 
 msgctxt "FilesTree|"
 msgid "Low"
-msgstr "Scăzut"
+msgstr "Низак"
 
 msgctxt "FilesTree|"
 msgid "Files"
-msgstr "Fișiere"
+msgstr "Датотеке"
 
 msgctxt "FilesTree|"
 msgid "Select all"
-msgstr "Selectează tot"
+msgstr "Изабери све"
 
 msgctxt "FilesTree|"
 msgid "Select none"
-msgstr "Selectați niciunul"
+msgstr "Поништи избор"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High priority"
-msgstr "Prioritate mare"
+msgstr "Висок приоритет"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Normal priority"
-msgstr "Prioritate normală"
+msgstr "Нормалан приоритет"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Low priority"
-msgstr "Prioritate mică"
+msgstr "Низак приоритет"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
-msgstr "Omite"
+msgstr "Прескочи"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Open"
-msgstr "Deschide"
+msgstr "Отвори"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Show in folder"
-msgstr "Arată în folder"
+msgstr "Прикажи у фасцикли"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "File integrity"
-msgstr "Integritatea fișierului"
+msgstr "Интегритет датотеке"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp3"
-msgstr "Convertiți videoclipul în mp3"
+msgstr "Конвертуј видео у mp3"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert video to mp4"
-msgstr "Convertiți videoclipul în mp4"
+msgstr "Конвертуј видео у mp4"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
-msgstr "Convertiți în mp4"
+msgstr "Конвертуј у mp4"
 
 msgctxt "FilesTreeHeader_V2|"
 msgid "Name"
-msgstr "Nume"
+msgstr "Име"
 
 msgctxt "FilesTreeHeader_V2|"
 msgid "Size"
-msgstr "Dimensiune"
+msgstr "Величина"
 
 msgctxt "FilesTreeHeader_V2|"
 msgid "Status"
-msgstr "Status"
+msgstr "Статус"
 
 msgctxt "FilesTreeHeader_V2|"
 msgid "Completed"
-msgstr "Finalizat"
+msgstr "Завршено"
 
 msgctxt "FilesTreeHeader_V2|"
 msgid "Priority"
-msgstr "Prioritate"
+msgstr "Приоритет"
 
 msgctxt "FilesTreeHeader_V2|"
 msgid "Normal"
-msgstr "Normal"
+msgstr "Нормалан"
 
 msgctxt "FilesTreeHeader_V2|"
 msgid "High"
-msgstr "Ridicat"
+msgstr "Висок"
 
 msgctxt "FilesTreeHeader_V2|"
 msgid "Low"
-msgstr "Scăzut"
+msgstr "Низак"
 
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
-msgstr "Finalizat"
+msgstr "Завршено"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
-msgstr "Macro-uri"
+msgstr "Макрои"
 
 msgctxt "GeneralSettings|"
 msgid "General"
-msgstr "General"
+msgstr "Опште"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
-msgstr "Limbă"
+msgstr "Језик"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
-msgstr "Descărcări"
+msgstr "Преузимања"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on file type"
-msgstr "Sugerați foldere în funcție de tipul de fișier"
+msgstr "Предложи фасцикле на основу типа датотеке"
 
 msgctxt "GeneralSettings|"
 msgid "Theme"
-msgstr "Temă"
+msgstr "Тема"
 
 msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Se va folosi o temă luminoasă, dacă tema sistemului este necunoscută."
+msgstr "Светла тема ће се користити ако је системска тема непозната."
 
 msgctxt "GeneralSettings|"
 msgid "UI style"
-msgstr "Stil interfață utilizator (UI)"
+msgstr "Стил корисничког интерфејса"
 
 msgctxt "GeneralSettings|"
 msgid "Classic"
-msgstr "Clasic"
+msgstr "Класичан"
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
-msgstr "Limba dvs. nu este listată sau traducerea nu este completă?"
+msgstr "Ваш језик није на листи или превод није завршен?"
 
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
-msgstr "Hai să o reparăm!"
+msgstr "Хајде да то поправимо!"
 
 msgctxt "GeneralSettings|"
 msgid "Options"
-msgstr "Opţiuni"
+msgstr "Опције"
 
 msgctxt "GeneralSettings|"
 msgid "Launch at startup (minimized)"
-msgstr "Lansare la pornire (minimizat)"
+msgstr "Покрени при подизању система (умањено)"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
-msgstr "Dosarul de descărcare implicit"
+msgstr "Подразумевана фасцикла за преузимање"
 
 msgctxt "GeneralSettings|"
 msgid "Choose default download folder automatically"
-msgstr "Alegeți automat folderul de descărcare implicit"
+msgstr "Аутоматски изабери подразумевану фасциклу за преузимање"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
-msgstr "Sugerați foldere pe baza adresei URL de descărcare"
+msgstr "Предложи фасцикле на основу URL-а преузимања"
 
 msgctxt "GeneralSettings|"
 msgid "Fixed default download folder"
-msgstr "Folder implicit de descărcare fixat"
+msgstr "Фиксна подразумевана фасцикла за преузимање"
 
 msgctxt "GeneralSettings|"
 msgid "Open"
-msgstr "Deschide"
+msgstr "Отвори"
 
 msgctxt "GeneralSettings|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "GeneralSettings|"
 msgid "Macros"
-msgstr "Macro-uri"
+msgstr "Макрои"
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
-msgstr "Vizualizare compactă a listei de descărcări"
+msgstr "Компактан приказ листе преузимања"
 
 msgctxt "GeneralSettings|"
 msgid "Enable standalone downloads windows"
-msgstr "Activați ferestrele de descărcări independente"
+msgstr "Омогући засебне прозоре за преузимања"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "Eliminați automat fișierele șterse din lista de descărcare"
+msgstr "Аутоматски уклони обрисане датотеке из листе преузимања"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "Eliminați automat descărcările finalizate din lista de descărcare"
+msgstr "Аутоматски уклони завршена преузимања из листе преузимања"
 
 msgctxt "GeneralSettings|"
 msgid "Immediately"
-msgstr "Imediat"
+msgstr "Одмах"
 
 #. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "In"
-msgstr "În"
+msgstr "За"
 
 #. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "days"
-msgstr "zile"
+msgstr "дана"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
-msgstr "Reîncercați automat descărcările eșuate"
+msgstr "Аутоматски поново покушај неуспела преузимања"
 
 msgctxt "GeneralSettings|"
 msgid "Do not download web pages"
-msgstr "Nu descărcați pagini web"
+msgstr "Не преузимај веб странице"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
-msgstr "Utilizați timpul serverului pentru crearea fișierelor"
+msgstr "Користи време сервера за време креирања датотеке"
 
 msgctxt "GeneralSettings|"
 msgid "Maximum urls count in batch download"
-msgstr "Numărul maxim de adrese URL la descărcarea în lot"
+msgstr "Максималан број URL адреса у групном преузимању"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
-msgstr "Actualizare"
+msgstr "Ажурирање"
 
 msgctxt "GeneralSettings|"
 msgid "Check for updates automatically"
-msgstr "Verificați automat actualizările"
+msgstr "Аутоматски провери ажурирања"
 
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
-msgstr "Instalați automat actualizări"
+msgstr "Аутоматски инсталирај ажурирања"
 
 msgctxt "GeneralSettings|"
 msgid "Mark downloaded files"
-msgstr "Marcați fișierele descărcate"
+msgstr "Означи преузете датотеке"
 
 msgctxt "GeneralSettings|"
 msgid "New"
-msgstr "Nou"
+msgstr "Ново"
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
-msgstr "Verificați automat actualizările"
+msgstr "Аутоматски провери ажурирања"
 
 msgctxt "GeneralSettings2|"
 msgid "Install updates automatically"
-msgstr "Instalați actualizările automat"
+msgstr "Аутоматски инсталирај ажурирања"
 
 msgctxt "GeneralSettings2|"
 msgid "Use mobile network"
-msgstr "Utilizați rețeaua mobilă"
+msgstr "Користи мобилну мрежу"
 
 msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
-msgstr "Permite roamingul de date"
+msgstr "Дозволи роаминг података"
 
 msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
-msgstr "Utilizarea datelor mobile în roaming poate duce la taxe suplimentare."
+msgstr ""
+"Коришћење мобилних података у роамингу може проузроковати додатне трошкове."
 
 msgctxt "GeneralTab|"
 msgid "Status"
-msgstr "Status"
+msgstr "Статус"
 
 msgctxt "GeneralTab|"
 msgid "completed"
-msgstr "terminat"
+msgstr "завршено"
 
 msgctxt "GeneralTab|"
 msgid "State"
-msgstr "Stat"
+msgstr "Стање"
 
 msgctxt "GeneralTab|"
 msgid "Total size:"
-msgstr "Dimensiunea totală:"
+msgstr "Укупна величина:"
 
 msgctxt "GeneralTab|"
 msgid "Downloaded:"
-msgstr "Descărcat:"
+msgstr "Преузето:"
 
 msgctxt "GeneralTab|"
 msgid "Uploaded"
-msgstr "Încărcat"
+msgstr "Послато"
 
 msgctxt "GeneralTab|"
 msgid "ratio"
-msgstr "rație"
+msgstr "однос (ratio)"
 
 msgctxt "GeneralTab|"
 msgid "Web page"
-msgstr "Pagină web"
+msgstr "Веб страница"
 
 msgctxt "GeneralTab|"
 msgid "File"
-msgstr "Fișier"
+msgstr "Датотека"
 
 msgctxt "GeneralTab|"
 msgid "Speed"
-msgstr "Viteză"
+msgstr "Брзина"
 
 msgctxt "GeneralTab|"
 msgid "Download speed:"
-msgstr "Viteza de descărcare:"
+msgstr "Брзина преузимања:"
 
 msgctxt "GeneralTab|"
 msgid "Upload speed:"
-msgstr "Viteza de încărcare:"
+msgstr "Брзина слања:"
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
-msgstr "Adăugat la:"
+msgstr "Додато дана:"
 
 #, qt-format
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
-msgstr "%1 din %2"
+msgstr "%1 од %2"
 
 msgctxt "GeneralTab|"
 msgid "Domain:"
-msgstr "Domeniu:"
+msgstr "Домен:"
 
 msgctxt "GeneralTab|"
 msgid "Added:"
-msgstr "Adăugat:"
+msgstr "Додато:"
 
 msgctxt "GeneralTab|"
 msgid "Progress:"
-msgstr "Progres:"
+msgstr "Напредак:"
 
 msgctxt "GeneralTab_V2|"
 msgid "Downloaded:"
-msgstr "Descărcat:"
+msgstr "Преузето:"
 
 msgctxt "GeneralTab_V2|"
 msgid "Uploaded"
-msgstr "Încărcat"
+msgstr "Послато"
 
 msgctxt "GeneralTab_V2|"
 msgid "ratio"
-msgstr "rație"
+msgstr "однос (ratio)"
 
 msgctxt "GeneralTab_V2|"
 msgid "Added at:"
-msgstr "Adăugat la:"
+msgstr "Додато дана:"
 
 msgctxt "GeneralTab_V2|"
 msgid "Download speed:"
-msgstr "Viteza de descărcare:"
+msgstr "Брзина преузимања:"
 
 msgctxt "GeneralTab_V2|"
 msgid "Upload speed:"
-msgstr "Viteza de încărcare:"
+msgstr "Брзина слања:"
 
 msgctxt "GeneralTab_V2|"
 msgid "Web page"
-msgstr "Pagină web"
+msgstr "Веб страница"
 
 msgctxt "GeneralTab_V2|"
 msgid "File"
-msgstr "Fișier"
+msgstr "Датотека"
 
+#, fuzzy
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
-msgstr "Prioritate"
+msgstr "Приоритет"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2901,340 +2883,340 @@ msgstr "SHA-512"
 
 msgctxt "ImportDialog|"
 msgid "Import"
-msgstr "Import"
+msgstr "Увези"
 
 msgctxt "ImportDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 #, qt-format
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
-msgstr "Toate fișierele (%1)"
+msgstr "Све датотеке (%1)"
 
 #, qt-format
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
-msgstr "Fișiere text (%1)"
+msgstr "Текстуалне датотеке (%1)"
 
 #, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
-msgstr "%1 descarcă fișiere (%2)"
+msgstr "%1 датотеке преузимања (%2)"
 
 #, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
-msgstr "%1 fișiere de setări (%2)"
+msgstr "%1 датотеке подешавања (%2)"
 
 #, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
-msgstr "Eroare: %1"
+msgstr "Грешка: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
-msgstr "Nu se inserează adresele URL din fișier"
+msgstr "Грешка при лепљењу URL адреса из датотеке"
 
 #, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
-msgstr "Nu se poate importa lista de adrese URL din fișier: %1"
+msgstr "Није могуће увести листу URL адреса из датотеке: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
-msgstr "Eroare la exportare"
+msgstr "Грешка при извозу"
 
 #, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
-msgstr "Nu se poate exporta în fișierul: %1"
+msgstr "Није могуће извести у датотеку: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
-msgstr "Eroare la importare"
+msgstr "Грешка при увозу"
 
 #, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
-msgstr "Nu se poate importa din fișier: %1"
+msgstr "Није могуће увести из датотеке: %1"
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
-msgstr "Setați ca implicit"
+msgstr "Постави као подразумевано"
 
 msgctxt "IntegrationBanner|"
 msgid "Don't ask again"
-msgstr "Nu mai întreba"
+msgstr "Не питај поново"
 
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
-msgstr ". Închide oricum?"
+msgstr ". Ипак затвори?"
 
 msgctxt "LanguageDialog|"
 msgid "Language"
-msgstr "Limbă"
+msgstr "Језик"
 
 msgctxt "LanguageSelection|"
 msgid "Language"
-msgstr "Limbă"
+msgstr "Језик"
 
 msgctxt "LanguageSelection|"
 msgid "Unknown"
-msgstr "Necunoscut"
+msgstr "Непознато"
 
 msgctxt "LeftDrawer|"
 msgid "remote control"
-msgstr "control la distanță"
+msgstr "даљинско управљање"
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
-msgstr "Browser"
+msgstr "Прегледач"
 
 msgctxt "LeftDrawer|"
 msgid "Settings"
-msgstr "Setări"
+msgstr "Подешавања"
 
 msgctxt "LeftDrawer|"
 msgid "Contact support"
-msgstr "Contactați Asistența"
+msgstr "Контактирај подршку"
 
 msgctxt "LeftDrawer|"
 msgid "Submit a bug report"
-msgstr "Trimiteți un raport de eroare"
+msgstr "Пошаљи извештај о грешци"
 
 #, qt-format
 msgctxt "LeftDrawer|"
 msgid "Disconnect from remote %1"
-msgstr "Deconectați-vă de la distanță %1"
+msgstr "Прекини везу са удаљеним %1"
 
 #, qt-format
 msgctxt "LeftDrawer|"
 msgid "Connect to remote %1"
-msgstr "Conectați-vă la distanța %1"
+msgstr "Повежи се на удаљени %1"
 
 msgctxt "LeftDrawer|"
 msgid "About"
-msgstr "Despre"
+msgstr "О програму"
 
 msgctxt "LeftDrawer|"
 msgid "Quit"
-msgstr "Ieșire"
+msgstr "Изађи"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
-msgstr "Adăugați o nouă descărcare"
+msgstr "Додај ново преузимање"
 
 msgctxt "ListEditor|"
 msgid "Add"
-msgstr "Adaugă"
+msgstr "Додај"
 
 msgctxt "ListEditor|"
 msgid "Hide"
-msgstr "Ascunde"
+msgstr "Сакриј"
 
 msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
-msgstr "%content_type% - tip de conținut (de exemplu, „Muzică”)"
+msgstr "%content_type% - тип садржаја (нпр. „Музика“)"
 
 #, qt-format
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
-msgstr "%server% - numele serverului (de exemplu, „%1”)"
+msgstr "%server% - име сервера (нпр. „%1“)"
 
 msgctxt "MacrosMenu|"
 msgid "%path_on_server% - path to the downloading file on the server"
-msgstr "%path_on_server% - calea către fișierul de descărcare de pe server"
+msgstr "%path_on_server% - путања до датотеке на серверу"
 
 msgctxt "MacrosMenu|"
 msgid "%year% - current year"
-msgstr "%year% - anul curent"
+msgstr "%year% - тренутна година"
 
 msgctxt "MacrosMenu|"
 msgid "%month% - current month (number from 1 to 12)"
-msgstr "%month% - luna curentă (numărul de la 1 la 12)"
+msgstr "%month% - тренутни месец (број од 1 до 12)"
 
 msgctxt "MacrosMenu|"
 msgid "%day% - current day"
-msgstr "%day% - ziua curentă"
+msgstr "%day% - тренутни дан"
 
 msgctxt "MacrosMenu|"
 msgid "%date% - equivalent to %year%-%month%-%day%"
-msgstr "%date% - echivalent cu %year%-%month%-%day%"
+msgstr "%date% - исто што и %year%-%month%-%day%"
 
 msgctxt "MainFiltersBar|"
 msgid "All"
-msgstr "Tot"
+msgstr "Све"
 
 msgctxt "MainFiltersBar|"
 msgid "Missing Files"
-msgstr "Fișiere lipsă"
+msgstr "Недостајуће датотеке"
 
 msgctxt "MainFiltersBar|"
 msgid "Active"
-msgstr "Activ"
+msgstr "Активно"
 
 msgctxt "MainFiltersBar|"
 msgid "Completed"
-msgstr "Completat"
+msgstr "Завршено"
 
 msgctxt "MainFiltersBar|"
 msgid "Uncompleted"
-msgstr "Nefinalizat"
+msgstr "Незавршено"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from clipboard"
-msgstr "Lipiți adresele URL din clipboard"
+msgstr "Налепи URL-ове из оставе"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from file"
-msgstr "Lipiți adresele URL din fișier"
+msgstr "Налепи URL-ове из датотеке"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
-msgstr "Export/Import"
+msgstr "Извоз/Увоз"
 
 msgctxt "MainMenu|"
 msgid "Export all downloads"
-msgstr "Exportați toate descărcările"
+msgstr "Извези сва преузимања"
 
 msgctxt "MainMenu|"
 msgid "Import downloads"
-msgstr "Importă descărcări"
+msgstr "Увези преузимања"
 
 msgctxt "MainMenu|"
 msgid "Export settings"
-msgstr "Exportați setările"
+msgstr "Извези подешавања"
 
 msgctxt "MainMenu|"
 msgid "Import settings"
-msgstr "Import setări"
+msgstr "Увези подешавања"
 
 msgctxt "MainMenu|"
 msgid "Add-ons..."
-msgstr "Suplimente..."
+msgstr "Додаци..."
 
 msgctxt "MainMenu|"
 msgid "Preferences..."
-msgstr "Preferințe..."
+msgstr "Поставке..."
 
 msgctxt "MainMenu|"
 msgid "Contact support"
-msgstr "Contactați Asistența"
-
-msgctxt "MainMenu|"
-msgid "Submit a bug report"
-msgstr "Trimiteți un raport de eroare"
+msgstr "Контактирај подршку"
 
 msgctxt "MainMenu|"
 msgid "Auto shutdown"
-msgstr "Oprire automată"
+msgstr "Аутоматско гашење"
 
 msgctxt "MainMenu|"
 msgid "Check for updates..."
-msgstr "Verificați actualizări..."
+msgstr "Провери ажурирања..."
+
+msgctxt "MainMenu|"
+msgid "Submit a bug report"
+msgstr "Пошаљи извештај о грешци"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
-msgstr "Repaus"
+msgstr "Спавање"
 
 msgctxt "MainMenu|"
 msgid "Hibernate"
-msgstr "Hibernare"
+msgstr "Хибернација"
 
 msgctxt "MainMenu|"
 msgid "Shutdown"
-msgstr "Închidere"
+msgstr "Угаси рачунар"
 
 #, qt-format
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
-msgstr "Deconectați-vă de la distanță %1"
+msgstr "Прекини везу са удаљеним %1"
 
 #, qt-format
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
-msgstr "Conectați-vă la distanța %1"
+msgstr "Повежи се на удаљени %1"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
-msgstr "Creați o versiune portabilă"
+msgstr "Креирај преносиву (portable) верзију"
 
 msgctxt "MainMenu|"
 msgid "Join the Mosaic..."
-msgstr "Alăturați-vă Mozaicului..."
+msgstr "Придружи се Мозаику..."
 
 msgctxt "MainMenu|"
 msgid "About"
-msgstr "Despre"
+msgstr "О програму"
 
 msgctxt "MainMenu|"
 msgid "Quit"
-msgstr "Ieșire"
+msgstr "Изађи"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
-msgstr "Modul Lent eliberează lățimea de bandă fără a opri procesele download."
+msgstr "Пуж режим ослобађа проток без заустављања преузимања."
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
-msgstr "Modul Lent"
+msgstr "Пуж режим"
 
 #, qt-format
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
-msgstr[0] "%n descărcări selectate."
-msgstr[1] "%n descărcări selectate."
-msgstr[2] "%n descărcări selectate."
+msgstr[0] "Изабрано %n преузимање."
+msgstr[1] "Изабрана %n преузимања."
+msgstr[2] "Изабрано %n преузимања."
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
-msgstr "Dimensiunea totală:"
+msgstr "Укупна величина:"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Low"
-msgstr "Scăzut"
+msgstr "Низак"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Medium"
-msgstr "Mediu"
+msgstr "Средњи"
 
 msgctxt "MainStatusBar_V2|"
 msgid "High"
-msgstr "Ridicat"
+msgstr "Висок"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
-msgstr "Nelimitat"
+msgstr "Неограничено"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Snail mode frees bandwidth without stopping downloads."
-msgstr "Modul Lent eliberează lățimea de bandă fără a opri procesele download."
+msgstr "Пуж режим ослобађа проток без заустављања преузимања."
 
 msgctxt "MainStatusBar_V2|"
 msgid "Snail mode"
-msgstr "Modul Lent"
+msgstr "Пуж режим"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Set the traffic usage mode"
-msgstr "Setați modul de utilizare a traficului"
+msgstr "Постави режим коришћења саобраћаја"
 
 #, qt-format
 msgctxt "MainStatusBar_V2|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
-msgstr[0] "%n descărcări selectate."
-msgstr[1] "%n descărcări selectate."
-msgstr[2] "%n descărcări selectate."
+msgstr[0] "Изабрано %n преузимање."
+msgstr[1] "Изабрана %n преузимања."
+msgstr[2] "Изабрано %n преузимања."
 
 msgctxt "MainStatusBar_V2|"
 msgid "Total size:"
-msgstr "Dimensiunea totală:"
+msgstr "Укупна величина:"
 
 msgctxt "MainStatusBar_V2|"
 msgid ""
@@ -3243,147 +3225,147 @@ msgid ""
 "will resume at normal speed. Snail Mode is especially useful when your "
 "Internet is slow and you need to make a call, for example."
 msgstr ""
-"Modul Lent pune descărcările active în modul de repaus, eliberând cât mai "
-"multă lățime de bandă Internet posibil. Când îl opriți, toate descărcările "
-"active vor fi reluate la viteza normală. Modul Lent este deosebit de util "
-"atunci când Internetul este lent și trebuie să efectuați un apel, de exemplu."
+"Пуж режим ставља активна преузимања у стање мировања, ослобађајући што више "
+"интернет протока. Када га искључите, сва активна преузимања ће се наставити "
+"нормалном брзином. Овај режим је нарочито користан када вам је интернет "
+"спор, а потребно је, на пример, да обавите позив."
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
-msgstr "Adăugă un nou proces de descărcare."
+msgstr "Додај ново преузимање..."
 
 msgctxt "MainToolbar|"
 msgid "Start all"
-msgstr "Pornește tot"
+msgstr "Покрени све"
 
 msgctxt "MainToolbar|"
 msgid "Start selected"
-msgstr "Porniți selecția"
+msgstr "Покрени изабрано"
 
 msgctxt "MainToolbar|"
 msgid "Pause all"
-msgstr "Întrerupe tot"
+msgstr "Паузирај све"
 
 msgctxt "MainToolbar|"
 msgid "Pause selected"
-msgstr "Întrerupe selecția"
+msgstr "Паузирај изабрано"
 
 msgctxt "MainToolbar|"
 msgid "Delete selected"
-msgstr "Șterge selecția"
+msgstr "Обриши изабрано"
 
 msgctxt "MainToolbar|"
 msgid "Move to..."
-msgstr "Muta în…"
+msgstr "Премести у..."
 
 msgctxt "MainToolbar|"
 msgid "Move downloads up"
-msgstr "Mutați descărcările în sus"
+msgstr "Помери преузимања нагоре"
 
 msgctxt "MainToolbar|"
 msgid "Move downloads down"
-msgstr "Mutați descărcările în jos"
+msgstr "Помери преузимања надоле"
 
 msgctxt "MainToolbar|"
 msgid "Main menu"
-msgstr "Meniul principal"
+msgstr "Главни мени"
 
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
-msgstr "Treceți la sortarea definită de utilizator a listei de descărcare?"
+msgstr "Пребаци на корисничко сортирање листе преузимања?"
 
 msgctxt "MainToolbar|"
 msgid "remote control"
-msgstr "control la distanță"
+msgstr "даљинско управљање"
 
 msgctxt "MainToolbar_V2|"
 msgid "Select"
-msgstr "Selectare"
+msgstr "Изабери"
 
 msgctxt "MainToolbar_V2|"
 msgid "Sort"
-msgstr "Sortare"
+msgstr "Сортирај"
 
 msgctxt "MainToolbar_V2|"
 msgid "Filters"
-msgstr "Filtre"
+msgstr "Филтери"
 
 msgctxt "MainToolbar_V2|"
 msgid "Start"
-msgstr "Start"
+msgstr "Покрени"
 
 msgctxt "MainToolbar_V2|"
 msgid "Pause"
-msgstr "Întrerupeți"
+msgstr "Паузирај"
 
 msgctxt "MainToolbar_V2|"
 msgid "Remove"
-msgstr "Înlătură"
+msgstr "Уклони"
 
 msgctxt "MainToolbar_V2|"
 msgid "Move files"
-msgstr "Mută fișiere"
+msgstr "Премести датотеке"
 
 msgctxt "MainToolbar_V2|"
 msgid "Add download"
-msgstr "Adaugă descărcare"
+msgstr "Додај преузимање"
 
 msgctxt "MainToolbar_V2|"
 msgid "Menu and settings"
-msgstr "Meniu și setări"
+msgstr "Мени и подешавања"
 
 msgctxt "MainToolbar_V2|"
 msgid "Switch to user-defined sorting of the download list?"
-msgstr "Treceți la sortarea definită de utilizator a listei de descărcare?"
+msgstr "Пребаци на корисничко сортирање листе преузимања?"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
-msgstr "Nelimitat"
+msgstr "Неограничено"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Custom..."
-msgstr "Personalizat..."
+msgstr "Прилагођено..."
 
 msgctxt "MaxURatioComboBox|"
 msgid "Custom value"
-msgstr "Valoare personalizată"
+msgstr "Прилагођена вредност"
 
 msgctxt "MaxURatioComboBox|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "MaxURatioComboBox|"
 msgid "CANCEL"
-msgstr "Anulează"
+msgstr "ОТКАЖИ"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Invalid value"
-msgstr "Valoare invalidă"
+msgstr "Неважећа вредност"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Must be a number greater than 0."
-msgstr "Trebuie să fie un număr mai mare decât 0."
+msgstr "Мора бити број већи од 0."
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
-msgstr "Gata de redat"
+msgstr "Спремно за пуштање"
 
 #, qt-format
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
-msgstr "%1 este gata de redat"
+msgstr "%1 је спреман за пуштање"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Play"
-msgstr "Redare"
+msgstr "Пусти"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
-msgstr "Descărcarea deja există"
+msgstr "Преузимање већ постоји"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "URL:"
@@ -3391,286 +3373,286 @@ msgstr "URL:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Path:"
-msgstr "Cale:"
+msgstr "Путања:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Size:"
-msgstr "Dimensiune:"
+msgstr "Величина:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Added at:"
-msgstr "Adăugat la:"
+msgstr "Додато дана:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
-msgstr "Omite"
+msgstr "Прескочи"
 
 #, qt-format
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
-msgstr "Omite-le pe toate (%1)"
+msgstr "Прескочи све (%1)"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
-msgstr "Descarcă"
+msgstr "Преузми"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Mobile data usage"
-msgstr "Utilizarea datelor mobile"
+msgstr "Коришћење мобилних података"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Waiting for Wi-Fi to start download."
-msgstr "Se așteaptă conexiunea Wi-Fi pentru a începe descărcarea."
+msgstr "Чекање на Wi-Fi за почетак преузимања."
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Would you like to enable usage of mobile data? *"
-msgstr "Doriți să activați utilizarea datelor mobile? *"
+msgstr "Желите ли да омогућите коришћење мобилних података? *"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Don't ask again"
-msgstr "Nu mai întreba"
+msgstr "Не питај поново"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Yes"
-msgstr "Da"
+msgstr "Да"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "No"
-msgstr "Nu"
+msgstr "Не"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
-msgstr "* se pot aplica taxe suplimentare"
+msgstr "* могући су додатни трошкови"
 
 msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
-msgstr "Mutarea descărcării a eșuat"
+msgstr "Премештање преузимања није успело"
 
 #, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
-msgstr "Eroare: %1"
+msgstr "Грешка: %1"
 
 #, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
-msgstr "Nu se poate muta: %1"
+msgstr "Неуспело премештање: %1"
 
 msgctxt "MovingFailedDialog|"
 msgid "Try again"
-msgstr "Încearcă din nou"
+msgstr "Покушај поново"
 
 msgctxt "MovingFailedDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "MovingFolderDialog|"
 msgid "Move"
-msgstr "Mută"
+msgstr "Премести"
 
 msgctxt "MovingFolderDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Convertiți în mp3 cu rată de biți ajustabilă"
+msgstr "Конвертуј у mp3 са подесивим протоком (bitrate)"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Save to"
-msgstr "Salvează în"
+msgstr "Сачувај у"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Open"
-msgstr "Deschide"
+msgstr "Отвори"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Bitrate (quality)"
-msgstr "Rata de biți (calitate)"
+msgstr "Проток (квалитет)"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Constant bitrate of value"
-msgstr "Rata de biți constantă a valorii"
+msgstr "Константан проток вредности"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "Variable bitrate (VBR)"
-msgstr "Rată de biți variabilă (VBR)"
+msgstr "Варијабилни проток (VBR)"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "The path contains invalid characters"
-msgstr "Calea conține caractere nevalide"
+msgstr "Путања садржи неважеће карактере"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Convert to mp3"
-msgstr "Convertiți in mp3"
+msgstr "Конвертуј у mp3"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Convert to mp3 with adjustable bitrate"
-msgstr "Convertiți în mp3 cu rata de biți reglabilă"
+msgstr "Конвертуј у mp3 са подесивим протоком (bitrate)"
 
 msgctxt "Mp3ConverterPage|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Save to"
-msgstr "Salvează în"
+msgstr "Сачувај у"
 
 msgctxt "Mp3ConverterPage|"
 msgid "The path contains invalid characters"
-msgstr "Calea conține caractere nevalide"
+msgstr "Путања садржи неважеће карактере"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Bitrate (quality)"
-msgstr "Rata de biți (calitate)"
+msgstr "Проток (квалитет)"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Constant bitrate of value"
-msgstr "Rata de biți constantă a valorii"
+msgstr "Константан проток вредности"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Variable bitrate (VBR)"
-msgstr "Rată de biți variabilă (VBR)"
+msgstr "Варијабилни проток (VBR)"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "Convert to mp4"
-msgstr "Convertiți în mp4"
+msgstr "Конвертуј у mp4"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "Save to"
-msgstr "Salvează în"
+msgstr "Сачувај у"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "Open"
-msgstr "Deschis"
+msgstr "Отвори"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "The path contains invalid characters"
-msgstr "Calea conține caractere nevalide"
+msgstr "Путања садржи неважеће карактере"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "Mp4ConverterPage|"
 msgid "Convert to mp4"
-msgstr "Convertiți în mp4"
+msgstr "Конвертуј у mp4"
 
 msgctxt "Mp4ConverterPage|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "Mp4ConverterPage|"
 msgid "Save to"
-msgstr "Salvează în"
+msgstr "Сачувај у"
 
 msgctxt "Mp4ConverterPage|"
 msgid "The path contains invalid characters"
-msgstr "Calea conține caractere nevalide"
+msgstr "Путања садржи неважеће карактере"
 
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
-msgstr "Căutați actualizări..."
+msgstr "Провери ажурирања..."
 
 msgctxt "NativeMenuBar|"
 msgid "Preferences..."
-msgstr "Preferințe..."
+msgstr "Поставке..."
 
 msgctxt "NativeMenuBar|"
 msgid "Quit"
-msgstr "Ieșire"
+msgstr "Изађи"
 
 msgctxt "NativeMenuBar|"
 msgid "&File"
-msgstr "&Fișier"
+msgstr "&Датотека"
 
 msgctxt "NativeMenuBar|"
 msgid "Add &new download"
-msgstr "Adăugați &o descărcare nouă"
+msgstr "Додај &ново преузимање"
 
 msgctxt "NativeMenuBar|"
 msgid "&Edit"
-msgstr "&Editează"
+msgstr "&Уреди"
 
 msgctxt "NativeMenuBar|"
 msgid "&Copy"
-msgstr "&Copiază"
+msgstr "&Копирај"
 
 msgctxt "NativeMenuBar|"
 msgid "&Paste"
-msgstr "&Lipire"
+msgstr "&Налепи"
 
 msgctxt "NativeMenuBar|"
 msgid "Downloads"
-msgstr "Descărcări"
+msgstr "Преузимања"
 
 msgctxt "NativeMenuBar|"
 msgid "Start selected"
-msgstr "Pornește selecția"
+msgstr "Покрени изабрано"
 
 msgctxt "NativeMenuBar|"
 msgid "Pause selected"
-msgstr "Întrerupe selecția"
+msgstr "Паузирај изабрано"
 
 msgctxt "NativeMenuBar|"
 msgid "Restart selected"
-msgstr "Repornește selecția"
+msgstr "Поново покрени изабрано"
 
 msgctxt "NativeMenuBar|"
 msgid "Remove from List"
-msgstr "Șterge din lista"
+msgstr "Уклони са листе"
 
 msgctxt "NativeMenuBar|"
 msgid "Help"
-msgstr "Ajutor"
+msgstr "Помоћ"
 
 msgctxt "NativeMenuBar|"
 msgid "Contact Support"
-msgstr "Contactați Asistența"
+msgstr "Контактирај подршку"
 
 msgctxt "NetworkSettings|"
 msgid "Network"
-msgstr "Rețea"
+msgstr "Мрежа"
 
 msgctxt "NetworkSettings|"
 msgid "Proxy"
-msgstr "Proxy"
+msgstr "Прокси"
 
 msgctxt "NetworkSettings|"
 msgid "System proxy"
-msgstr "Proxy de sistem"
+msgstr "Системски прокси"
 
 msgctxt "NetworkSettings|"
 msgid "No proxy"
-msgstr "Fără proxy"
+msgstr "Без проксија"
 
 msgctxt "NetworkSettings|"
 msgid "Configure manually:"
-msgstr "Configurează manual:"
+msgstr "Ручно подеси:"
 
 msgctxt "NetworkSettings|"
 msgid "Configure manually"
-msgstr "Configurează manual"
+msgstr "Ручно подеси"
 
 msgctxt "NetworkSettings|"
 msgid "Address"
-msgstr "Adresă"
+msgstr "Адреса"
 
 msgctxt "NetworkSettings|"
 msgid "Port"
-msgstr "Port"
+msgstr "Порт"
 
 msgctxt "NetworkSettings|"
 msgid "HTTP:"
@@ -3694,11 +3676,11 @@ msgstr "SOCKS5:"
 
 msgctxt "NetworkSettings|"
 msgid "Invalid proxy settings"
-msgstr "Setări proxy nevalide"
+msgstr "Неважећа подешавања проксија"
 
 msgctxt "NetworkSettings|"
 msgid "Proxy settings"
-msgstr "Setări proxy"
+msgstr "Подешавања проксија"
 
 msgctxt "NetworkSettings|"
 msgid "HTTP"
@@ -3718,126 +3700,124 @@ msgstr "SOCKS5"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Unlimited"
-msgstr "Nelimitat"
+msgstr "Неограничено"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom..."
-msgstr "Personalizat..."
+msgstr "Прилагођено..."
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "KB/s"
-msgstr "KO/s"
+msgstr "КБ/с"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Please enter numbers only"
-msgstr "Vă rugăm introduceți doar numere"
+msgstr "Унесите само бројеве"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom value"
-msgstr "Valoare personalizată"
+msgstr "Прилагођена вредност"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "CANCEL"
-msgstr "Anulează"
+msgstr "ОТКАЖИ"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Invalid value"
-msgstr "Valoare invalidă"
+msgstr "Неважећа вредност"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Must be a number greater than 0."
-msgstr "Trebuie să fie un număr mai mare decât 0."
+msgstr "Мора бити број већи од 0."
 
 msgctxt "NoResumeSupportBlock|"
 msgid "This download may not support resuming."
-msgstr "Este posibil ca această descărcare să nu accepte reluarea."
+msgstr "Ово преузимање можда не подржава настављање."
 
 msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
-msgstr ""
-"Preveniți modul de repaus când descărcați fișiere care nu acceptă reluarea"
+msgstr "Спречи спавање док се преузимају датотеке без подршке за настављање"
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
-msgstr "Notificări diverse"
+msgstr "Разна обавештења"
 
 msgctxt "Notification|"
 msgid "Ready to play"
-msgstr "Gata de redat"
+msgstr "Спремно за пуштање"
 
 #, qt-format
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
-msgstr "%1 îi lipsesc permisiunile"
+msgstr "%1 недостају дозволе"
 
 msgctxt "OsPermissionsDialog|"
 msgid "(required)"
-msgstr "(necesar)"
+msgstr "(обавезно)"
 
 msgctxt "OsPermissionsDialog|"
 msgid ""
 "You can grant these permissions using the Application details screen within "
 "your system's settings."
 msgstr ""
-"Puteți acorda aceste permisiuni utilizând ecranul de Detalii aplicație din "
-"setările sistemului dumneavoastră."
+"Ове дозволе можете доделити у подешавањима система, у оквиру детаља "
+"апликације."
 
 msgctxt "OsPermissionsDialog|"
 msgid "Don't show again"
-msgstr "Nu mai arăta"
+msgstr "Не приказуј поново"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Grant permissions"
-msgstr "Acordați permisiuni"
+msgstr "Додели дозволе"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Quit"
-msgstr "Ieșire"
+msgstr "Изађи"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Close"
-msgstr "Închide"
+msgstr "Затвори"
 
 msgctxt "Page|"
 msgid "Info"
-msgstr "Informații"
+msgstr "Информације"
 
 msgctxt "Page|"
 msgid "Details"
-msgstr "Detalii"
+msgstr "Детаљи"
 
 msgctxt "Page|"
 msgid "Files"
-msgstr "Fișiere"
+msgstr "Датотеке"
 
 msgctxt "Page|"
 msgid "Connections"
-msgstr "Conexiuni"
+msgstr "Везе"
 
 #. Browse for a file
 msgctxt "PickFileButton|"
 msgid "Browse..."
-msgstr "Caută..."
+msgstr "Претражи..."
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
-msgstr "Redați fișierul în timp ce încă se descarcă"
+msgstr "Пусти датотеку док се још преузима"
 
 #, qt-format
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
-msgstr "Îți place să folosești suplimentul %1?"
+msgstr "Свиђа вам се додатак %1?"
 
 msgctxt "PluginBannerDialog|"
 msgid ""
 "We would like to ask you to help this add-on to reach its potential users."
 msgstr ""
-"Am dori să vă cerem să ajutați acest supliment să ajungă la potențialii săi "
-"utilizatori."
+"Желимо да вас замолимо да помогнете овом додатку да дође до нових корисника."
 
 #, qt-format
 msgctxt "PluginBannerDialog|"
@@ -3845,165 +3825,166 @@ msgid ""
 "Please use your favorite social networks and forums to let the other people "
 "know about %1 and %2."
 msgstr ""
-"Vă rugăm să folosiți rețelele și forumurile dvs. de socializare preferate "
-"pentru a le informa pe ceilalți despre %1 și %2."
+"Поделите информацију о %1 и %2 на својим омиљеним друштвеним мрежама и "
+"форумима."
 
 msgctxt "PluginBannerDialog|"
 msgid "Remind me later"
-msgstr "Amintestemi mai tarziu"
+msgstr "Подсети ме касније"
 
 msgctxt "PluginBannerDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
-msgstr "Instalat."
+msgstr "Инсталирано."
 
 msgctxt "PluginsPage|"
 msgid "Recently installed dependency"
-msgstr "Dependență instalată recent"
+msgstr "Недавно инсталирана зависност"
 
 msgctxt "PluginsPage|"
 msgid "Add-ons"
-msgstr "Suplimente"
+msgstr "Додаци"
 
 msgctxt "PluginsPage|"
 msgid "Check for updates"
-msgstr "Căutați actualizări"
+msgstr "Провери ажурирања"
 
 msgctxt "PluginsPage|"
 msgid "Install add-on from file..."
-msgstr "Instalați suplimentul din fișier..."
+msgstr "Инсталирај додатак из датотеке..."
 
 msgctxt "PluginsPage|"
 msgid "Update add-ons automatically"
-msgstr "Actualizați automat suplimentele"
+msgstr "Аутоматски ажурирај додатке"
 
 msgctxt "PluginsPage|"
 msgid "Reset all add-ons to update automatically"
-msgstr "Resetați toate suplimentele pentru a se actualiza automat"
+msgstr "Ресетуј све додатке на аутоматско ажурирање"
 
 msgctxt "PluginsPage|"
 msgid "Allow add-ons to use web browser cookies"
-msgstr "Permiteți add-on-urilor să utilizeze cookie-urile browserului web"
+msgstr "Дозволи додацима коришћење колачића прегледача"
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
-msgstr "Se actualizează suplimentele instalate..."
+msgstr "Ажурирање инсталираних додатака..."
 
 msgctxt "PluginsPage|"
 msgid "Developer options"
-msgstr "Opțiuni pentru dezvoltatori"
+msgstr "Опције за програмере"
 
 msgctxt "PluginsPage|"
 msgid "Allow unsigned add-ons to access external directories"
-msgstr "Permiteți suplimentelor nesemnate să acceseze directoare externe"
+msgstr "Дозволи непотписаним додацима приступ спољним директоријумима"
 
+#, fuzzy
 msgctxt "PluginsPage|"
 msgid "Restart is required"
-msgstr "Este necesară repornirea"
+msgstr "Потребно је поновно покретање"
 
 msgctxt "PluginsPage|"
 msgid "Hide developer options"
-msgstr "Ascunde opțiunile pentru dezvoltatori"
+msgstr "Сакриј опције за програмере"
 
 msgctxt "PluginsPage|"
 msgid "There are no installed add-ons."
-msgstr "Nu există suplimente instalate."
+msgstr "Нема инсталираних додатака."
 
 msgctxt "PluginsPage|"
 msgid "Install add-on from file"
-msgstr "Instalați suplimentul din fișier"
+msgstr "Инсталирај додатак из датотеке"
 
 #, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
-msgstr "Aflați mai multe despre %1 suplimente"
+msgstr "Сазнајте више о %1 додацима"
 
 msgctxt "PluginsPage|"
 msgid "Install"
-msgstr "Instalează"
+msgstr "Инсталирај"
 
 msgctxt "PluginsPage|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 #, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
-msgstr "%1 fișiere de suplimente"
+msgstr "%1 датотеке додатака"
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
-msgstr "Nu s-a instalat suplimentul"
+msgstr "Неуспела инсталација додатка"
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
-msgstr "Atenție!"
+msgstr "Упозорење!"
 
 msgctxt "PluginsPage|"
 msgid "Add-on requests dangerous permissions:"
-msgstr "Suplimentul solicită permisiuni periculoase:"
+msgstr "Додатак захтева опасне дозволе:"
 
 msgctxt "PluginsPage|"
 msgid "Add-on requests dangerous permission:"
-msgstr "Suplimentul solicită permisiuni periculoase:"
+msgstr "Додатак захтева опасну дозволу:"
 
 msgctxt "PluginsPage|"
 msgid "Please install add-ons from trusted sources only."
-msgstr "Vă rog să instalați suplimente numai din surse de încredere."
+msgstr "Инсталирајте додатке само из проверених извора."
 
 msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
-msgstr "Doriți să continuați instalarea?"
+msgstr "Желите ли да наставите инсталацију?"
 
 msgctxt "PluginsPage|"
 msgid "The following required components are missing:"
-msgstr "Următoarele componente necesare lipsesc:"
+msgstr "Недостају следеће неопходне компоненте:"
 
 #, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 is required."
-msgstr "%1 este necesar."
+msgstr "%1 је неопходан."
 
 msgctxt "PluginsPage|"
 msgid "Would you like to install them?"
-msgstr "Doriți să le instalați?"
+msgstr "Желите ли да их инсталирате?"
 
 msgctxt "PluginsPage|"
 msgid "Would you like to install it?"
-msgstr "Doriți să îl instalați?"
+msgstr "Желите ли да га инсталирате?"
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
-msgstr "Nu s-au găsit actualizări"
+msgstr "Нису пронађена ажурирања"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
-msgstr "Nu s-a putut actualiza suplimentul"
+msgstr "Неуспело ажурирање додатка"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
-msgstr "Atenție!"
+msgstr "Упозорење!"
 
 #, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
-msgstr "Noua versiune a suplimentului %1 solicită permisiuni periculoase:"
+msgstr "Нова верзија додатка %1 захтева опасне дозволе:"
 
 #, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
-msgstr "Versiunea nouă a suplimentului %1 solicită permisiuni periculoase:"
+msgstr "Нова верзија додатка %1 захтева опасну дозволу:"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Please install add-ons from trusted sources only."
-msgstr "Instalați suplimente numai din surse de încredere."
+msgstr "Инсталирајте додатке само из проверених извора."
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
-msgstr "Doriți să continuați instalarea?"
+msgstr "Желите ли да наставите инсталацију?"
 
 #, qt-format
 msgctxt "PluginsUpdateUiManager|"
@@ -4011,66 +3992,66 @@ msgid ""
 "New version of %1 add-on requires additional components:\n"
 "%2"
 msgstr ""
-"Noua versiune a suplimentului %1 necesită componente suplimentare:\n"
+"Нова верзија додатка %1 захтева додатне компоненте:\n"
 "%2"
 
 #, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requires %2."
-msgstr "Noua versiune a suplimentului %1 necesită %2."
+msgstr "Нова верзија додатка %1 захтева %2."
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to install them?"
-msgstr "Doriți să le instalați?"
+msgstr "Желите ли да их инсталирате?"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to install it?"
-msgstr "Doriți să-l instalați?"
+msgstr "Желите ли да га инсталирате?"
 
 msgctxt "PluginsViewItem|"
 msgid "Allow automatic updates"
-msgstr "Permite actualizări automate"
+msgstr "Дозволи аутоматска ажурирања"
 
 msgctxt "PluginsViewItem|"
 msgid "Check for updates"
-msgstr "Căutați actualizări"
+msgstr "Провери ажурирања"
 
 msgctxt "PluginsViewItem|"
 msgid "Remove"
-msgstr "Elimină"
+msgstr "Уклони"
 
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
-msgstr "Se actualizează..."
+msgstr "Ажурирање..."
 
 #, qt-format
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
-msgstr "Versiune: %1"
+msgstr "Верзија: %1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
-msgstr "OK pentru a elimina?"
+msgstr "Уклонити?"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
-msgstr "Audio"
+msgstr "Аудио"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Video"
-msgstr "Videoclip"
+msgstr "Видео"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Lowest"
-msgstr "Cel mai scăzut"
+msgstr "Најнижи"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Highest"
-msgstr "Cel mai înalt"
+msgstr "Највиши"
 
 msgctxt "PrivacyDialog|"
 msgid "User agreement"
-msgstr "Acordul utilizatorului"
+msgstr "Кориснички уговор"
 
 #, qt-format
 msgctxt "PrivacyDialog|"
@@ -4079,64 +4060,64 @@ msgid ""
 "We do not collect your personal data and do not share data with third "
 "parties."
 msgstr ""
-"Un raport de eroare va fi trimis la server și folosit pentru a îmbunătăți "
-"performanța %1. Nu colectăm datele dumneavoastră cu caracter personal și nu "
-"împărtășim datele cu terțe părți."
+"Извештај о грешци ће бити послат на сервер и коришћен за побољшање "
+"перформанси програма %1. Ми не прикупљамо ваше личне податке и не делимо "
+"податке са трећим странама."
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
-msgstr "Sunt de acord (nu-l mai arăta)"
+msgstr "Слажем се (не приказуј више)"
 
 msgctxt "PrivacyDialog|"
 msgid "Send report"
-msgstr "Trimite raport"
+msgstr "Пошаљи извештај"
 
 msgctxt "PrivacyDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
-msgstr "indisponibil"
+msgstr "н/д"
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
 "languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
 "to get proper UI layout."
 msgid "QT_LAYOUT_DIRECTION"
-msgstr ""
+msgstr "LTR"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
-msgstr "Eroare neașteptată"
+msgstr "Неочекивана грешка"
 
 msgctxt "QObject|"
 msgid "Service connection terminated."
-msgstr "Conexiunea la serviciu sa încheiat."
+msgstr "Веза са сервисом је прекинута."
 
 msgctxt "QObject|"
 msgid "App backend's server listen failed."
-msgstr "Ascultarea serverului backend-ului aplicației a eșuat."
+msgstr "Неуспешан одзив позадинског сервера апликације."
 
 msgctxt "QObject|"
 msgid "Error"
-msgstr "Eroare"
+msgstr "Грешка"
 
 msgctxt "QObject|"
 msgid "Connection failure"
-msgstr "Eroare de conectare"
+msgstr "Неуспело повезивање"
 
 msgctxt "QObject|"
 msgid "App frontend's server listen failed."
-msgstr "Ascultarea serverului aplicației frontend a eșuat."
+msgstr "Неуспешан одзив корисничког сервера апликације."
 
 msgctxt "QObject|"
 msgid "QML load failure."
-msgstr "Eroare de încărcare QML."
+msgstr "Грешка при учитавању QML-а."
 
 msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
-msgstr "Nu s-a inițializat managerul de stare a aplicației."
+msgstr "Неуспела иницијализација управљача стањем апликације."
 
 #, qt-format
 msgctxt "QObject|"
@@ -4145,84 +4126,84 @@ msgid ""
 "Error: %1"
 msgstr ""
 "\n"
-"Eroare: %1"
+"Грешка: %1"
 
 msgctxt "QObject|"
 msgid "Enter URL"
-msgstr "Introdu URL-ul"
+msgstr "Унесите URL"
 
 msgctxt "QObject|"
 msgid "Drag-and-drop URL"
-msgstr "Trageți și plasați adresa URL"
+msgstr "Превуците URL"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
-msgstr "Ne pare rău, acest dispozitiv nu este acceptat de %1."
+msgstr "Нажалост, %1 не подржава овај уређај."
 
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
-msgstr "%1 nu a reușit să se inițializeze. Va rog, reinstalați."
+msgstr "Иницијализација програма %1 није успела. Поново инсталирајте програм."
 
 #, qt-format
 msgctxt "QObject|"
 msgid "Reason: %1"
-msgstr "Motiv: %1"
+msgstr "Разлог: %1"
 
 msgctxt "QObject|"
 msgid "Contact Support"
-msgstr "Contactați Asistența"
+msgstr "Контактирај подршку"
 
 msgctxt "QObject|"
 msgid "Exit"
-msgstr "Ieșire"
+msgstr "Излаз"
 
 msgctxt "QObject|"
 msgid "Show main window"
-msgstr "Arată fereastra principală"
+msgstr "Прикажи главни прозор"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "About %1"
-msgstr "Despre %1"
+msgstr "О програму %1"
 
 msgctxt "QObject|"
 msgid "Quit"
-msgstr "Ieșire"
+msgstr "Изађи"
 
 msgctxt "QObject|"
 msgid "Preferences..."
-msgstr "Preferințe..."
+msgstr "Поставке..."
 
 msgctxt "QObject|"
 msgid "Check for updates..."
-msgstr "Verificați actualizări..."
+msgstr "Провери ажурирања..."
 
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 B"
-msgstr "%1 O"
+msgstr "%1 B"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 KB"
-msgstr "%1 KO"
+msgstr "%1 KB"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 MB"
-msgstr "%1 MO"
+msgstr "%1 MB"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 GB"
-msgstr "%1 GO"
+msgstr "%1 GB"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 TB"
-msgstr "%1 TO"
+msgstr "%1 TB"
 
 #, qt-format
 msgctxt "QObject|"
@@ -4247,27 +4228,27 @@ msgstr "%1 T"
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 B/s"
-msgstr "%1 O/s"
+msgstr "%1 B/s"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 KB/s"
-msgstr "%1 KO/s"
+msgstr "%1 KB/s"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 MB/s"
-msgstr "%1 MO/s"
+msgstr "%1 MB/s"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 GB/s"
-msgstr "%1 GO/s"
+msgstr "%1 GB/s"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 TB/s"
-msgstr "%1 TO/s"
+msgstr "%1 TB/s"
 
 #, qt-format
 msgctxt "QObject|"
@@ -4291,445 +4272,445 @@ msgstr "%1 T/s"
 
 msgctxt "QObject|"
 msgid "Download complete"
-msgstr "Descărcare finalizată"
+msgstr "Преузимање завршено"
 
 msgctxt "QObject|"
 msgid "Downloads complete"
-msgstr "Descărcări finalizate"
+msgstr "Преузимања завршена"
 
 msgctxt "QObject|"
 msgid "Download failed"
-msgstr "Descărcare eșuată"
+msgstr "Преузимање није успело"
 
 msgctxt "QObject|"
 msgid "Downloads failed"
-msgstr "Descărcări eșuate"
+msgstr "Преузимања нису успела"
 
 msgctxt "QObject|"
 msgid "Download added"
-msgstr "Descărcare adăugată"
+msgstr "Преузимање додато"
 
 msgctxt "QObject|"
 msgid "Unknown error"
-msgstr "Eroare necunoscută"
+msgstr "Непозната грешка"
 
 msgctxt "QObject|"
 msgid "File read error"
-msgstr "Eroare de citire a fișierului"
+msgstr "Грешка при читању датотеке"
 
 msgctxt "QObject|"
 msgid "Failed to read from file"
-msgstr "Failed to read from file"
+msgstr "Неуспело читање из датотеке"
 
 msgctxt "QObject|"
 msgid "File write error"
-msgstr "Eroare la scrierea fișierului"
+msgstr "Грешка при писању у датотеку"
 
 msgctxt "QObject|"
 msgid "Failed to write to file"
-msgstr "Nu s-a putut scrie în fișier"
+msgstr "Неуспело писање у датотеку"
 
 msgctxt "QObject|"
 msgid "File open error"
-msgstr "Eroare de deschidere a fișierului"
+msgstr "Грешка при отварању датотеке"
 
 msgctxt "QObject|"
 msgid "Failed to open file"
-msgstr "Deschiderea fișierului a eșuat"
+msgstr "Неуспело отварање датотеке"
 
 msgctxt "QObject|"
 msgid "Access denied"
-msgstr "Acces interzis"
+msgstr "Приступ одбијен"
 
 msgctxt "QObject|"
 msgid "Access to file is denied"
-msgstr "Accesul la fișier este interzis"
+msgstr "Приступ датотеци је одбијен"
 
 msgctxt "QObject|"
 msgid "File error"
-msgstr "Eroare de fișier"
+msgstr "Грешка датотеке"
 
 msgctxt "QObject|"
 msgid "Unknown file I/O error"
-msgstr "Eroare I/O fișier necunoscut"
+msgstr "Непозната У/И грешка датотеке"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "HTTP Error %1"
-msgstr "Eroare HTTP %1"
+msgstr "HTTP грешка %1"
 
 msgctxt "QObject|"
 msgid "Bad Request"
-msgstr "Cerere greşită"
+msgstr "Лош захтев"
 
 msgctxt "QObject|"
 msgid "Unauthorized"
-msgstr "Neautorizat"
+msgstr "Неовлашћено"
 
 msgctxt "QObject|"
 msgid "Payment Required"
-msgstr "Plata obligatorie"
+msgstr "Плаћање неопходно"
 
 msgctxt "QObject|"
 msgid "Forbidden"
-msgstr "Interzis"
+msgstr "Забрањено"
 
 msgctxt "QObject|"
 msgid "Not Found"
-msgstr "Nu a fost găsit"
+msgstr "Није пронађено"
 
 msgctxt "QObject|"
 msgid "Method Not Allowed"
-msgstr "Metodă nepermisă"
+msgstr "Метод није дозвољен"
 
 msgctxt "QObject|"
 msgid "Not Acceptable"
-msgstr "Inacceptabil"
+msgstr "Није прихватљиво"
 
 msgctxt "QObject|"
 msgid "Proxy Authentication Required"
-msgstr "Este necesară autentificarea proxy"
+msgstr "Потребна пријава на прокси"
 
 msgctxt "QObject|"
 msgid "Request Timeout"
-msgstr "Solicitare Timeout"
+msgstr "Време захтева је истекло"
 
 msgctxt "QObject|"
 msgid "Conflict"
-msgstr "Conflict"
+msgstr "Конфликт"
 
 msgctxt "QObject|"
 msgid "Gone"
-msgstr "Plecat"
+msgstr "Уклоњено"
 
 msgctxt "QObject|"
 msgid "Length Required"
-msgstr "Lungimea necesară"
+msgstr "Дужина неопходна"
 
 msgctxt "QObject|"
 msgid "Precondition Failed"
-msgstr "Condiție preliminară eșuată"
+msgstr "Предуслов није испуњен"
 
 msgctxt "QObject|"
 msgid "Request Entity Too Large"
-msgstr "Entitatea solicitată este prea mare"
+msgstr "Ентитет захтева је превелик"
 
 msgctxt "QObject|"
 msgid "Request-URI Too Long"
-msgstr "Solicitare-URI prea lung"
+msgstr "URI захтева је предугачак"
 
 msgctxt "QObject|"
 msgid "Unsupported Media Type"
-msgstr "Tip media neacceptat"
+msgstr "Неподржан тип медија"
 
 msgctxt "QObject|"
 msgid "Requested Range Not Satisfiable"
-msgstr "Interval solicitat nu este satisfăcător"
+msgstr "Захтевани опсег није испуњив"
 
 msgctxt "QObject|"
 msgid "Expectation Failed"
-msgstr "Așteptarea a eșuat"
+msgstr "Очекивање није испуњено"
 
 msgctxt "QObject|"
 msgid "I'm a teapot"
-msgstr "Sunt un ceainic :)"
+msgstr "Ја сам чајник"
 
 msgctxt "QObject|"
 msgid "Authentication Timeout"
-msgstr "Timeout autentificare"
+msgstr "Време пријаве је истекло"
 
 msgctxt "QObject|"
 msgid "Method Failure / Enhance Your Calm"
-msgstr "Eșecul metodei / Îmbunătățiți-vă calmul"
+msgstr "Грешка метода / Смирите се (Enhance Your Calm)"
 
 msgctxt "QObject|"
 msgid "Unprocessable Entity"
-msgstr "Entitate neprocesabilă"
+msgstr "Ентитет се не може обрадити"
 
 msgctxt "QObject|"
 msgid "Locked"
-msgstr "Blocat"
+msgstr "Закључано"
 
 msgctxt "QObject|"
 msgid "Failed Dependency / Method Failure"
-msgstr "Dependență eșuată / Eșecul metodei"
+msgstr "Неуспела зависност / Грешка метода"
 
 msgctxt "QObject|"
 msgid "Unordered Collection"
-msgstr "Colecție necomandată"
+msgstr "Неуређена колекција"
 
 msgctxt "QObject|"
 msgid "Upgrade Required"
-msgstr "Îmbunătățire necesară"
+msgstr "Неопходна надоградња"
 
 msgctxt "QObject|"
 msgid "Precondition Required"
-msgstr "Precondiție necesară"
+msgstr "Неопходан предуслов"
 
 msgctxt "QObject|"
 msgid "Too Many Requests"
-msgstr "Prea multe cereri"
+msgstr "Превише захтева"
 
 msgctxt "QObject|"
 msgid "Request Header Fields Too Large"
-msgstr "Câmpurile antetului solicitării sunt prea mari"
+msgstr "Поља заглавља захтева су превелика"
 
 msgctxt "QObject|"
 msgid "Login Timeout"
-msgstr "Autentificarea a expirat"
+msgstr "Време за пријаву је истекло"
 
 msgctxt "QObject|"
 msgid "No Response"
-msgstr "Niciun raspuns"
+msgstr "Нема одговора"
 
 msgctxt "QObject|"
 msgid "Retry With"
-msgstr "Reîncercați cu"
+msgstr "Покушај поново са"
 
 msgctxt "QObject|"
 msgid "Blocked by Windows Parental Controls"
-msgstr "Blocat de Controlul parental Windows"
+msgstr "Блокирано Windows родитељским надзором"
 
 msgctxt "QObject|"
 msgid "Unavailable For Legal Reasons"
-msgstr "Indisponibil din motive legale"
+msgstr "Недоступно из правних разлога"
 
 msgctxt "QObject|"
 msgid "Request Header Too Large"
-msgstr "Antetul cererii este prea mare"
+msgstr "Заглавље захтева је превелико"
 
 msgctxt "QObject|"
 msgid "Cert Error"
-msgstr "Eroare Certificat"
+msgstr "Грешка сертификата"
 
 msgctxt "QObject|"
 msgid "No Cert"
-msgstr "Fără Certificat"
+msgstr "Нема сертификата"
 
 msgctxt "QObject|"
 msgid "HTTP to HTTPS"
-msgstr "HTTP la HTTPS"
+msgstr "Преусмеравање HTTP на HTTPS"
 
 msgctxt "QObject|"
 msgid "Token expired/invalid"
-msgstr "Token-ul expirat/invalid"
+msgstr "Жетон је истекао/неважећи"
 
 msgctxt "QObject|"
 msgid "Client Closed Request"
-msgstr "Solicitare client închisă"
+msgstr "Клијент је затворио захтев"
 
 msgctxt "QObject|"
 msgid "Internal Server Error"
-msgstr "Eroare Internă de Server"
+msgstr "Унутрашња грешка сервера"
 
 msgctxt "QObject|"
 msgid "Not Implemented"
-msgstr "Neimplementat"
+msgstr "Није имплементирано"
 
 msgctxt "QObject|"
 msgid "Bad Gateway"
-msgstr "Poartă de acces proastă"
+msgstr "Лош мрежни пролаз"
 
 msgctxt "QObject|"
 msgid "Service Unavailable"
-msgstr "Serviciu indisponibil"
+msgstr "Услуга недоступна"
 
 msgctxt "QObject|"
 msgid "Gateway Timeout"
-msgstr "Expirare Gateway"
+msgstr "Време пролаза је истекло"
 
 msgctxt "QObject|"
 msgid "HTTP Version Not Supported"
-msgstr "Versiunea HTTP nu este acceptată"
+msgstr "HTTP верзија није подржана"
 
 msgctxt "QObject|"
 msgid "Variant Also Negotiates"
-msgstr "Varianta, de asemenea, negociază"
+msgstr "Варијанта такође преговара"
 
 msgctxt "QObject|"
 msgid "Insufficient Storage"
-msgstr "Spațiu de stocare insuficient"
+msgstr "Недовољно простора"
 
 msgctxt "QObject|"
 msgid "Loop Detected"
-msgstr "Bucla detectată"
+msgstr "Откривена петља"
 
 msgctxt "QObject|"
 msgid "Bandwidth Limit Exceeded"
-msgstr "Limita pentru lățime de bandă a fost depășită"
+msgstr "Ограничење протока је прекорачено"
 
 msgctxt "QObject|"
 msgid "Not Extended"
-msgstr "Nu este extins"
+msgstr "Није проширено"
 
 msgctxt "QObject|"
 msgid "Network Authentication Required"
-msgstr "Este necesară autentificarea în rețea"
+msgstr "Потребна мрежна пријава"
 
 msgctxt "QObject|"
 msgid "Network read timeout error"
-msgstr "Eroare de expirare pentru citirea rețelei"
+msgstr "Мрежно време за читање је истекло"
 
 msgctxt "QObject|"
 msgid "Network connect timeout error"
-msgstr "Eroare de expirare a conexiunii la rețea"
+msgstr "Мрежно време за повезивање је истекло"
 
 msgctxt "QObject|"
 msgid "Unsupported"
-msgstr "Neacceptat"
+msgstr "Неподржано"
 
 msgctxt "QObject|"
 msgid "Invalid parameter"
-msgstr "Parametru invalid"
+msgstr "Неважећи параметар"
 
 msgctxt "QObject|"
 msgid "Unsupported format"
-msgstr "Format neacceptat"
+msgstr "Неподржан формат"
 
 msgctxt "QObject|"
 msgid "Not found"
-msgstr "Nu a fost găsit"
+msgstr "Није пронађено"
 
 msgctxt "QObject|"
 msgid "Incompatible version"
-msgstr "Versiune incompatibilă"
+msgstr "Некомпатибилна верзија"
 
 msgctxt "QObject|"
 msgid "Security check failed"
-msgstr "Verificarea de securitate a eșuat"
+msgstr "Безбедносна провера није успела"
 
 msgctxt "QObject|"
 msgid "Already exists"
-msgstr "Deja există"
+msgstr "Већ постоји"
 
 msgctxt "QObject|"
 msgid "Host not found"
-msgstr "Gazda nu a fost găsită"
+msgstr "Хост није пронађен"
 
 msgctxt "QObject|"
 msgid "Operation canceled"
-msgstr "Operațiunea anulată"
+msgstr "Операција је отказана"
 
 msgctxt "QObject|"
 msgid "Connection closed"
-msgstr "Conexiune închisă"
+msgstr "Веза је затворена"
 
 msgctxt "QObject|"
 msgid "Timed out"
-msgstr "Expirat"
+msgstr "Време је истекло"
 
 msgctxt "QObject|"
 msgid "SSL handshake failed"
-msgstr "Acordarea de mână SSL a eșuat"
+msgstr "SSL руковање није успело"
 
 msgctxt "QObject|"
 msgid "Connection refused"
-msgstr "Conexiune refuzată"
+msgstr "Повезивање одбијено"
 
 msgctxt "QObject|"
 msgid "Network error"
-msgstr "Eroare de rețea"
+msgstr "Мрежна грешка"
 
 msgctxt "QObject|"
 msgid "Operation not permitted"
-msgstr "Operație nepermisa"
+msgstr "Операција није дозвољена"
 
 msgctxt "QObject|"
 msgid "No resume support"
-msgstr "Fără suport pentru CV"
+msgstr "Настављање није подржано"
 
 msgctxt "QObject|"
 msgid "Resource changed"
-msgstr "Resursa modificată"
+msgstr "Ресурс је промењен"
 
 msgctxt "QObject|"
 msgid "Resource changed on server"
-msgstr "Resursa modificată pe server"
+msgstr "Ресурс на серверу је промењен"
 
 msgctxt "QObject|"
 msgid "Fast resume failure"
-msgstr "Eșec rapid la reluare"
+msgstr "Брзо настављање није успело"
 
 msgctxt "QObject|"
 msgid "Can't process page"
-msgstr "Pagina nu poate fi procesată"
+msgstr "Страница се не може обрадити"
 
 msgctxt "QObject|"
 msgid "Error processing page content"
-msgstr "Eroare la procesarea conținutului paginii"
+msgstr "Грешка при обради садржаја странице"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior"
-msgstr "Comportament nedorit"
+msgstr "Нежељено понашање"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior detected"
-msgstr "Comportament nedorit detectat"
+msgstr "Откривено нежељено понашање"
 
 msgctxt "QObject|"
 msgid "Unknown host key"
-msgstr "Cheie gazdă necunoscută"
+msgstr "Непознат кључ хоста"
 
 msgctxt "QObject|"
 msgid "Public key of the host is unknown"
-msgstr "Cheia publică a gazdei este necunoscută"
+msgstr "Јавни кључ хоста је непознат"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
-msgstr "Adresă URL neacceptată"
+msgstr "Неподржан URL"
 
 msgctxt "QObject|"
 msgid "Untitled"
-msgstr "Fără titlu"
+msgstr "Без наслова"
 
 msgctxt "QObject|"
 msgid "Failed to remove current version"
-msgstr "Nu s-a putut elimina versiune curentă"
+msgstr "Неуспело уклањање тренутне верзије"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "hdiutil error %1"
-msgstr "eroare hdiutil %1"
+msgstr "hdiutil грешка %1"
 
 msgctxt "QObject|"
 msgid "Mount point does not exist"
-msgstr "Punctul de montare nu există"
+msgstr "Тачка монтирања не постоји"
 
 msgctxt "QObject|"
 msgid "Signature check failure."
-msgstr "Eroare la verificarea semnăturii."
+msgstr "Грешка при провери потписа."
 
 #, qt-format
 msgctxt "QObject|"
 msgid "Download with %1"
-msgstr "Descarcă cu %1"
+msgstr "Преузми помоћу %1"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "Download all with %1"
-msgstr "Descărcați toate cu %1"
+msgstr "Преузми све помоћу %1"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "Download selected with %1"
-msgstr "Descărcarea selectată cu %1"
+msgstr "Преузми изабрано помоћу %1"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "Download video with %1"
-msgstr "Descărcați videoclipul cu %1"
+msgstr "Преузми видео помоћу %1"
 
 msgctxt "QObject|"
 msgid "Video"
-msgstr "Videoclipuri"
+msgstr "Видео"
 
 msgctxt "QObject|"
 msgid "Music"
-msgstr "Muzică"
+msgstr "Музика"
 
 msgctxt "QObject|"
 msgid "There is not enough disk space."
-msgstr "Nu există suficient spațiu pe disc."
+msgstr "Нема довољно простора на диску."
 
 #, qt-format
 msgctxt "QObject|"
@@ -4738,13 +4719,13 @@ msgid ""
 "%1 has failed to restore it from backup.\n"
 "Please close all your web browsers and try again."
 msgstr ""
-"Lista de descărcări este deteriorată.\n"
-"%1 nu a reușit să-l restabilească din backup.\n"
-"Închideți toate browserele web și încercați din nou."
+"Листа преузимања је оштећена.\n"
+"%1 није успео да је поврати из резервне копије.\n"
+"Затворите све прегледаче и покушајте поново."
 
 msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
-msgstr "Eroare fatală: nu s-a putut încărca baza de date."
+msgstr "Фатална грешка: неуспело учитавање базе података."
 
 #, qt-format
 msgctxt "QObject|"
@@ -4752,617 +4733,615 @@ msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
 msgstr ""
-"Doriți să îl ștergeți (acest lucru va șterge lista dvs. de descărcări și "
-"toate datele %1)?"
+"Желите ли да је обришете (ово ће испразнити листу преузимања и све податке "
+"програма %1)?"
 
 msgctxt "QObject|"
 msgid "Failed."
-msgstr "A eșuat."
+msgstr "Неуспело."
 
 msgctxt "QObject|"
 msgid "Missing %path% parameter."
-msgstr "Lipsește parametrul %path%."
+msgstr "Недостаје параметар %path%."
 
 msgctxt "QObject|"
 msgid "Update URL"
-msgstr "Actualizați adresa URL"
+msgstr "Ажурирај URL"
 
 msgctxt "QObject|"
 msgid "Documents"
-msgstr "Documente"
+msgstr "Документи"
 
 msgctxt "QObject|"
 msgid "Pictures"
-msgstr "Poze"
+msgstr "Слике"
 
 msgctxt "QObject|"
 msgid "Videos"
-msgstr "Videoclipuri"
+msgstr "Видео снимци"
 
 msgctxt "QObject|"
 msgid "Miscellaneous"
-msgstr "Diverse"
+msgstr "Разно"
 
 msgctxt "QObject|"
 msgid "upload paused"
-msgstr "încărcarea a fost întreruptă"
+msgstr "слање паузирано"
 
 msgctxt "QObject|"
 msgid "PAUSE ALL"
-msgstr "ÎNTRERUPE TOT"
+msgstr "ПАУЗИРАЈ СВЕ"
 
 msgctxt "QObject|"
 msgid "Downloading..."
-msgstr "Se descarcă..."
+msgstr "Преузимање..."
 
 msgctxt "QObject|"
 msgid "DISABLE SNAIL MODE"
-msgstr "DEZACTIVAȚI MODUL LENT"
+msgstr "ОНЕМЕОГУЋИ ПУЖ РЕЖИМ"
 
 msgctxt "QObject|"
 msgid "SNAIL MODE"
-msgstr "MODUL LENT"
+msgstr "ПУЖ РЕЖИМ"
 
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
-msgstr "Descărcările YouTube nu sunt disponibile"
+msgstr "YouTube преузимања нису доступна"
 
 msgctxt "QObject|"
 msgid "Files were modified"
-msgstr "Fișierele au fost modificate"
+msgstr "Датотеке су измењене"
 
 #. 10 MB of unknown at 1 MB/s
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
-msgstr "%1 din necunoscut la %2"
+msgstr "%1 од непознато при %2"
 
 #. 10 MB of 200 MB at 1 MB/s
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
-msgstr "%1 din %2 la %3"
+msgstr "%1 од %2 при %3"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
-msgstr "%1 %2 sau mai mare"
+msgstr "%1 %2 или новији"
 
 msgctxt "QObject|"
 msgid "Launch Python code"
-msgstr "Lansați codul Python"
+msgstr "Покрени Python код"
 
 msgctxt "QObject|"
 msgid "Allows to execute arbitrary code."
-msgstr "Permite executarea unui cod arbitrar."
+msgstr "Омогућава извршавање произвољног кода."
 
 msgctxt "QObject|"
 msgid "Launch Deno (JavaScript runtime)"
-msgstr "Lansare Deno (timp de execuție JavaScript)"
+msgstr "Покрени Deno (JavaScript окружење)"
 
 msgctxt "QObject|"
 msgid "Installing..."
-msgstr "Se instalează..."
+msgstr "Инсталација..."
 
 msgctxt "QObject|"
 msgid "Uninstalling..."
-msgstr "Se dezinstalează..."
+msgstr "Уклањање..."
 
 msgctxt "QObject|"
 msgid "Missing components"
-msgstr "Componente lipsă"
+msgstr "Недостајуће компоненте"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 are required"
-msgstr "%1 sunt necesare"
+msgstr "%1 су неопходни"
 
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 is required"
-msgstr "%1 este necesar"
+msgstr "%1 је неопходан"
 
 msgctxt "QObject|"
 msgid "Failed to load"
-msgstr "Eroare la încărcare"
+msgstr "Неуспело учитавање"
 
 msgctxt "QObject|"
 msgid "Playlist"
-msgstr "Lista de redare"
+msgstr "Листа песама"
 
 msgctxt "QObject|"
 msgid "Open folder"
-msgstr "Deschide folder"
+msgstr "Отвори фасциклу"
 
 msgctxt "QObject|"
 msgid "Security check failure."
-msgstr "Eroare la verificarea securității."
+msgstr "Безбедносна провера није успела."
 
 msgctxt "QObject|"
 msgid "Invalid version."
-msgstr "Versiune invalidă."
+msgstr "Неважећа верзија."
 
 #, qt-format
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
-msgstr "%1 a returnat starea de ieșire diferită de zero (%2)"
+msgstr "%1 је вратио излазни статус различит од нуле (%2)"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
-msgstr "QIODevice::Append nu este acceptat pentru GZIP"
+msgstr "QIODevice::Append није подржано за GZIP"
 
 msgctxt "QuaGzipFile|"
 msgid "Opening gzip for both reading and writing is not supported"
-msgstr ""
-"Deschiderea gzip atât pentru citire, cât și pentru scriere nu este acceptată"
+msgstr "Истовремено отварање gzip-а за читање и писање није подржано"
 
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr ""
-"Puteți deschide un gzip fie pentru citire, fie pentru scriere. Care este?"
+msgstr "Gzip можете отворити или за читање или за писање. Шта бирате?"
 
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr "Fișierul gzopen() nu a putut fi"
+msgstr "Неуспело gzopen() датотеке"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr "QIODevice::Append nu este acceptat pentru QuaZIODevice"
+msgstr "QIODevice::Append није подржано за QuaZIODevice"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr "QIODevice::ReadWrite nu este acceptat pentru QuaZIODevice"
+msgstr "QIODevice::ReadWrite није подржано за QuaZIODevice"
 
 #, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr "ZIP/UNZIP eroare API %1"
+msgstr "ZIP/UNZIP API грешка %1"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
-msgstr "Ești sigur că vrei să ieșiți?"
+msgstr "Да ли сте сигурни да желите да изађете?"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "RemoteControlSettings|"
 msgid "Remote Access"
-msgstr "Acces de la distanță"
+msgstr "Даљински приступ"
 
 msgctxt "RemoteControlSettings|"
 msgid "(beta)"
-msgstr "(beta)"
+msgstr "(бета)"
 
 #, qt-format
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
-msgstr "Permite accesul de la distanță la %1 care rulează pe acest dispozitiv"
+msgstr "Дозволи даљински приступ програму %1 на овом уређају"
 
 msgctxt "RemoteControlSettings|"
 msgid "Password"
-msgstr "Parolă"
+msgstr "Лозинка"
 
 msgctxt "RemoteControlSettings|"
 msgid "Status"
-msgstr "Status"
+msgstr "Статус"
 
 msgctxt "RemoteControlSettings|"
 msgid "Don't use network proxy"
-msgstr "Nu utilizați proxy de rețea"
+msgstr "Не користи мрежни прокси"
 
 msgctxt "RemoteControlSettings|"
 msgid "Remote control settings"
-msgstr "Setări la distanță"
+msgstr "Подешавања даљинског управљања"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
-msgstr "Resursa de la distanță a fost schimbată"
+msgstr "Удаљени ресурс је промењен"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Always re-download"
-msgstr "Re-descărcați întotdeauna"
+msgstr "Увек поново преузми"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Re-download"
-msgstr "Re-descărcați"
+msgstr "Поново преузми"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Rename file"
-msgstr "Redenumește fișierul"
+msgstr "Преименуј датотеку"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Enter new name"
-msgstr "Introduceți un nume nou"
+msgstr "Унесите ново име"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "A file with that name already exists."
-msgstr "Un fișier cu acest nume deja există."
+msgstr "Датотека са тим именом већ постоји."
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "Rename file"
-msgstr "Redenumește fișierul"
+msgstr "Преименуј датотеку"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "Enter new name"
-msgstr "Introduceți un nume nou"
+msgstr "Унесите ново име"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "A file with that name already exists."
-msgstr "Un fișier cu acest nume deja există."
+msgstr "Датотека са тим именом већ постоји."
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
-msgstr "Raportează problema"
+msgstr "Пријави проблем"
 
 #, qt-format
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
-msgstr "Ne pare rău, raportul nu a fost trimis, o eroare a avut loc: %1"
+msgstr "Нажалост, извештај није послат, дошло је до грешке: %1"
 
 msgctxt "ReportSentDialog|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr "Raportarea a fost trimisă. Vă mulțumim pentru cooperare!"
+msgstr "Извештај је послат. Хвала Вам на сарадњи!"
 
 msgctxt "ReportSentDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "RestartRequiredLabel|"
 msgid "<a href='#'>Restart is required</a>"
-msgstr "<a href='#'>Este necesară repornirea</a>"
+msgstr "<a href='#'>Потребно је поновно покретање</a>"
 
 msgctxt "SaveTo|"
 msgid "Save to"
-msgstr "Salvează in"
+msgstr "Сачувај у"
 
 msgctxt "SaveTo|"
 msgid "Open"
-msgstr "Deschide"
+msgstr "Отвори"
 
 msgctxt "SaveTo|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "Scheduler|"
 msgid "Sun"
-msgstr "Duminică"
+msgstr "Нед"
 
 msgctxt "Scheduler|"
 msgid "Mon"
-msgstr "Luni"
+msgstr "Пон"
 
 msgctxt "Scheduler|"
 msgid "Tue"
-msgstr "Marți"
+msgstr "Уто"
 
 msgctxt "Scheduler|"
 msgid "Wed"
-msgstr "Miercuri"
+msgstr "Сре"
 
 msgctxt "Scheduler|"
 msgid "Thu"
-msgstr "Joi"
+msgstr "Чет"
 
 msgctxt "Scheduler|"
 msgid "Fri"
-msgstr "Vineri"
+msgstr "Пет"
 
 msgctxt "Scheduler|"
 msgid "Sat"
-msgstr "Sâmbătă"
+msgstr "Суб"
 
 msgctxt "Scheduler|"
 msgid "From:"
-msgstr "De la:"
+msgstr "Од:"
 
 msgctxt "Scheduler|"
 msgid "Everyday"
-msgstr "În fiecare zi"
+msgstr "Сваки дан"
 
 msgctxt "Scheduler|"
 msgid "To:"
-msgstr "La:"
+msgstr "До:"
 
 msgctxt "SchedulerButton|"
 msgid "Scheduler"
-msgstr "Planificator"
+msgstr "Планер"
 
 msgctxt "SchedulerCheckbox|"
 msgid "Scheduler"
-msgstr "Planificator"
+msgstr "Планер"
 
 msgctxt "SchedulerDialog|"
 msgid "Scheduler"
-msgstr "Planificator"
+msgstr "Планер"
 
 msgctxt "SchedulerDialog|"
 msgid "Start and pause downloads at specified time"
-msgstr "Porniți și întrerupeți descărcările la ora specificată"
+msgstr "Покрени и паузирај преузимања у одређено време"
 
 msgctxt "SchedulerDialog|"
 msgid "Enable Scheduler"
-msgstr "Activează Planificator"
+msgstr "Омогући планер"
 
 msgctxt "SchedulerDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "SchedulerDialog|"
 msgid "Apply"
-msgstr "Aplică"
+msgstr "Примени"
 
 msgctxt "SchedulerDialog|"
 msgid "All the day"
-msgstr "Toată ziua"
+msgstr "Цео дан"
 
 msgctxt "SchedulerDialog|"
 msgid "Everyday"
-msgstr "În fiecare zi"
+msgstr "Сваки дан"
 
 msgctxt "SchedulerDialog|"
 msgid "Close"
-msgstr "Închide"
+msgstr "Затвори"
 
 msgctxt "SchedulerDialog|"
 msgid "Sun"
-msgstr "Duminică"
+msgstr "Нед"
 
 msgctxt "SchedulerDialog|"
 msgid "Mon"
-msgstr "Luni"
+msgstr "Пон"
 
 msgctxt "SchedulerDialog|"
 msgid "Tue"
-msgstr "Marți"
+msgstr "Уто"
 
 msgctxt "SchedulerDialog|"
 msgid "Wed"
-msgstr "Miercuri"
+msgstr "Сре"
 
 msgctxt "SchedulerDialog|"
 msgid "Thu"
-msgstr "Joi"
+msgstr "Чет"
 
 msgctxt "SchedulerDialog|"
 msgid "Fri"
-msgstr "Vineri"
+msgstr "Пет"
 
 msgctxt "SchedulerDialog|"
 msgid "Sat"
-msgstr "Sâmbătă"
+msgstr "Суб"
 
 msgctxt "SchedulerTools|"
 msgid "Set days of the week to enable Scheduler"
-msgstr "Setați zilele săptămânii pentru a activa Planificator"
+msgstr "Подесите дане у недељи за активацију планера"
 
 msgctxt "SearchField|"
 msgid "Search"
-msgstr "Cautare"
+msgstr "Претрага"
 
 msgctxt "SearchToolbar|"
 msgid "Search"
-msgstr "Cautare"
+msgstr "Претрага"
 
 #, qt-format
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
-msgstr "Selectat(e): %1"
+msgstr "Изабрано: %1"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Sort"
-msgstr "Sortare"
+msgstr "Сортирај"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "By date"
-msgstr "După dată"
+msgstr "По датуму"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "By name"
-msgstr "După nume"
+msgstr "По имену"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "By size"
-msgstr "După mărime"
+msgstr "По величини"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
-msgstr "Ascendent"
+msgstr "Растуће"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Descending"
-msgstr "Descendent"
+msgstr "Опадајуће"
 
 msgctxt "SettingsPage|"
 msgid "Invalid settings"
-msgstr "Setări nevalide"
+msgstr "Неважећа подешавања"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
-msgstr ". Închideți oricum?"
+msgstr ". Ипак затворити?"
 
 msgctxt "SettingsPage|"
 msgid "Preferences"
-msgstr "Preferinţe"
+msgstr "Поставке"
 
 msgctxt "SettingsPage|"
 msgid "General"
-msgstr "General"
+msgstr "Опште"
 
 msgctxt "SettingsPage|"
 msgid "Browser Integration"
-msgstr "Integrare în browser web"
+msgstr "Интеграција са прегледачем"
 
 msgctxt "SettingsPage|"
 msgid "Network"
-msgstr "Rețea"
+msgstr "Мрежа"
 
 msgctxt "SettingsPage|"
 msgid "Traffic Limits"
-msgstr "Limite de trafic"
+msgstr "Ограничења саобраћаја"
 
 msgctxt "SettingsPage|"
 msgid "Antivirus"
-msgstr "Antivirus"
+msgstr "Антивирус"
 
 msgctxt "SettingsPage|"
 msgid "Remote Access"
-msgstr "Acces de la distanță"
+msgstr "Даљински приступ"
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
-msgstr "Avansat"
+msgstr "Напредно"
 
 msgctxt "SettingsPage|"
 msgid "Troubleshooting"
-msgstr "Depanare"
+msgstr "Решавање проблема"
 
 msgctxt "SettingsPage|"
 msgid "Settings"
-msgstr "Setări"
+msgstr "Подешавања"
 
 msgctxt "SettingsPage|"
 msgid "Downloads settings"
-msgstr "Setări de descărcări"
+msgstr "Подешавања преузимања"
 
 msgctxt "SettingsPage|"
 msgid "Network settings"
-msgstr "Setări de rețea"
+msgstr "Мрежна подешавања"
 
 msgctxt "SettingsPage|"
 msgid "Traffic limits"
-msgstr "Limite de trafic"
+msgstr "Ограничења саобраћаја"
 
 msgctxt "SettingsPage|"
 msgid "Sounds settings"
-msgstr "Setări de sunet"
+msgstr "Подешавања звука"
 
 msgctxt "SettingsPage|"
 msgid "Remote control settings"
-msgstr "Setări la distanță"
+msgstr "Подешавања даљинског управљања"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
-msgstr "Setari avansate"
+msgstr "Напредна подешавања"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
-msgstr "Resetează setările"
+msgstr "Ресетуј подешавања"
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
-msgstr "Setări implicite"
+msgstr "Подразумевана подешавања"
 
 msgctxt "SettingsPage|"
 msgid "Restore default settings?"
-msgstr "Restabilește setările implicite?"
+msgstr "Повратити подразумевана подешавања?"
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be put to sleep after all downloads are completed."
-msgstr "Computerul va fi pus în repaus după finalizarea tuturor descărcărilor."
+msgstr ""
+"Рачунар ће бити стављен у режим спавања након што се заврше сва преузимања."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be hibernate after all downloads are completed."
-msgstr ""
-"Computerul va intra în hibernare după finalizarea tuturor descărcărilor."
+msgstr "Рачунар ће бити хиберниран након што се заврше сва преузимања."
 
 msgctxt "ShutdownBanner|"
 msgid "Computer will be shutdown after all downloads are completed."
-msgstr "Computerul va fi oprit după finalizarea tuturor descărcărilor."
+msgstr "Рачунар ће бити искључен након што се заврше сва преузимања."
 
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
-msgstr "Confirmă"
+msgstr "Потврди"
 
 msgctxt "ShutdownDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 #, qt-format
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
-msgstr "OK (%1)"
+msgstr "У реду (%1)"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be put to Sleep mode."
-msgstr "Atenţie! Computerul dvs. va fi pus în modul repaus."
+msgstr "Пажња! Ваш рачунар ће бити стављен у режим спавања."
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be hibernated."
-msgstr "Atenţie! Computerul dvs. va fi hibernat."
+msgstr "Пажња! Ваш рачунар ће бити хиберниран."
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be shut down."
-msgstr "Atenţie! Computerul dvs. va fi oprit."
+msgstr "Пажња! Ваш рачунар ће бити искључен."
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
-msgstr "Setări sunete de de avertizare"
+msgstr "Подешавања звука"
 
 msgctxt "SoundsSettings|"
 msgid "Use sounds"
-msgstr "Folosiți sunete de avertizare"
+msgstr "Користи звукове"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads added"
-msgstr "Descărcări adăugate"
+msgstr "Преузимања додата"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads completed"
-msgstr "Descărcări finalizate"
+msgstr "Преузимања завршена"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads failed"
-msgstr "Descărcările au eșuat"
+msgstr "Преузимања неуспела"
 
 msgctxt "SoundsSettings|"
 msgid "No active downloads"
-msgstr "Nu există procese de descărcare active"
+msgstr "Нема активних преузимања"
 
 msgctxt "SslDialog|"
 msgid "Warning: potential security risk ahead"
-msgstr "Atenție: risc potențial de securitate înainte"
+msgstr "Упозорење: потенцијални безбедносни ризик"
 
 msgctxt "SslDialog|"
 msgid "The authenticity of the host can't be established."
-msgstr "Autenticitatea gazdei nu poate fi stabilită."
+msgstr "Аутентичност хоста се не може утврдити."
 
 msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
-msgstr "Certificatul SSL nu este valid."
+msgstr "SSL сертификат није важећи."
 
 #, qt-format
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
-msgstr "%1 amprente cheie"
+msgstr "Отисци кључа %1"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
-msgstr "Amprentele digitale ale certificatului"
+msgstr "Отисци сертификата"
 
 msgctxt "SslDialog|"
 msgid "SHA-256:"
@@ -5377,584 +5356,584 @@ msgid ""
 "If you trust this host, select Accept to remember the key and carry on "
 "connecting."
 msgstr ""
-"Dacă aveți încredere în această gazdă, selectați Accept pentru a vă aminti "
-"cheia și continuați conectarea."
+"Ако верујете овом хосту, изаберите „Прихвати“ да запамтите кључ и наставите "
+"са повезивањем."
 
 msgctxt "SslDialog|"
 msgid "Accept"
-msgstr "Acceptare"
+msgstr "Прихвати"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
-msgstr "Acceptați riscul și descărcați"
+msgstr "Прихвати ризик и преузми"
 
 msgctxt "SslDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "SslDialog|"
 msgid "Security risk"
-msgstr "Risc de securitate"
+msgstr "Безбедносни ризик"
 
 msgctxt "SslDialog|"
 msgid "Continue"
-msgstr "Continuă"
+msgstr "Настави"
 
 msgctxt "StatusItem|"
 msgid "Checking files"
-msgstr "Verificarea fișierelor"
+msgstr "Провера датотека"
 
 msgctxt "StatusItem|"
 msgid "Merging media streams"
-msgstr "Îmbinarea fluxurilor media"
+msgstr "Спајање медијских токова"
 
 msgctxt "StatusItem|"
 msgid "Queued"
-msgstr "În așteptare"
+msgstr "У реду за чекање"
 
 msgctxt "StatusItem|"
 msgid "Requesting info"
-msgstr "Solicitare informații"
+msgstr "Захтевање информација"
 
 msgctxt "StatusItem|"
 msgid "Unknown file size"
-msgstr "Dimensiune necunoscută a fișierului"
+msgstr "Непозната величина датотеке"
 
 msgctxt "StatusItem|"
 msgid "Paused"
-msgstr "Întrerupt"
+msgstr "Паузирано"
 
 msgctxt "StatusItem|"
 msgid "Completed"
-msgstr "Terminat"
+msgstr "Завршено"
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause download"
-msgstr "Întrerupeți descărcarea"
+msgstr "Паузирај преузимање"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing."
-msgstr "Descărcările de mai jos nu pot fi reluate după pauză."
+msgstr "Преузимања испод се не могу наставити након паузирања."
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause"
-msgstr "Întrerupeți"
+msgstr "Паузирај"
 
 msgctxt "StopDownloadDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "StopDownloadDialog|"
 msgid "This download can't be resumed after pausing"
-msgstr "Această descărcare nu poate fi reluată după pauză"
+msgstr "Ово преузимање се не може наставити након паузирања"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
-msgstr "Descărcările de mai jos nu pot fi reluate după pauză"
+msgstr "Преузимања испод се не могу наставити након паузирања"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Submit a bug report"
-msgstr "Trimiteți un raport de eroare"
+msgstr "Пошаљите извештај о грешци"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Title"
-msgstr "Titlu"
+msgstr "Наслов"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Description"
-msgstr "Descriere"
+msgstr "Опис"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Name"
-msgstr "Nume"
+msgstr "Име"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "E-mail"
-msgstr "E-mail"
+msgstr "Е-пошта"
 
 #, qt-format
 msgctxt "SubmitBugReportDialog|"
 msgid "Attach %1 log files (recommended)"
-msgstr "Atașați %1 fișiere jurnal (recomandat)"
+msgstr "Приложи %1 лог датотеке (препоручено)"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Required fields"
-msgstr "Câmpuri obligatorii"
+msgstr "Обавезна поља"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Close"
-msgstr "Închide"
+msgstr "Затвори"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Submitting"
-msgstr "Se trimite"
+msgstr "Слање"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
-msgstr "Trimite"
+msgstr "Пошаљи"
 
 msgctxt "Subtitles|"
 msgid "Download subtitles"
-msgstr "Descărcați subtritări"
+msgstr "Преузми титлове"
 
 msgctxt "Subtitles|"
 msgid "Edit list"
-msgstr "Editare listă"
+msgstr "Уреди листу"
 
 msgctxt "TagMenu|"
 msgid "Edit"
-msgstr "Editare"
+msgstr "Уреди"
 
 msgctxt "TagMenu|"
 msgid "Remove"
-msgstr "Elimină"
+msgstr "Уклони"
 
 msgctxt "TagPalette|"
 msgid "Customize color"
-msgstr "Personalizați culoarea"
+msgstr "Прилагоди боју"
 
 msgctxt "ThemeComboBox|"
 msgid "System"
-msgstr "Sistem"
+msgstr "Системска"
 
 msgctxt "ThemeComboBox|"
 msgid "Light"
-msgstr "Luminat"
+msgstr "Светла"
 
 msgctxt "ThemeComboBox|"
 msgid "Dark"
-msgstr "Întunecat"
+msgstr "Тамна"
 
 msgctxt "Toast|"
 msgid "Please grant camera permission to use the QR scanner"
-msgstr "Vă rugăm să acordați camerei permisiunea de a utiliza scanerul QR"
+msgstr "Молимо одобрите приступ камери за коришћење QR скенера"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
-msgstr "Limite de trafic"
+msgstr "Ограничења саобраћаја"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Low"
-msgstr "Scăzut"
+msgstr "Ниско"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Medium"
-msgstr "Mediu"
+msgstr "Средње"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "High"
-msgstr "Ridicat"
+msgstr "Високо"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Download speed"
-msgstr "Viteza de descărcare"
+msgstr "Брзина преузимања"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Upload speed"
-msgstr "Viteza de încărcare"
+msgstr "Брзина слања"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections"
-msgstr "Numărul maxim de conexiuni"
+msgstr "Максималан број конекција"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections per server"
-msgstr "Numărul maxim de conexiuni pe server"
+msgstr "Максималан број конекција по серверу"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of simultaneous downloads"
-msgstr "Numărul maxim de descărcări simultane"
+msgstr "Максималан број истовремених преузимања"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of additional querying info downloads:"
-msgstr "Numărul maxim de descărcări suplimentare de informații de interogare:"
+msgstr "Максималан број додатних преузимања информација:"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Enable additional downloads to optimize speed"
-msgstr "Activați descărcări suplimentare pentru a optimiza viteza"
+msgstr "Омогући додатна преузимања ради оптимизације брзине"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
-msgstr "Setări nevalide ale limitelor de trafic"
+msgstr "Неважећа подешавања ограничења саобраћаја"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
-msgstr "Limite de trafic"
+msgstr "Ограничења саобраћаја"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Troubleshooting"
-msgstr "Depanare"
+msgstr "Решавање проблема"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Archive logs..."
-msgstr "Arhivați jurnalele..."
+msgstr "Архивирај логове..."
 
 msgctxt "TroubleshootingSettings|"
 msgid "Zip files"
-msgstr "Fișiere Zip"
+msgstr "Zip датотеке"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Failed"
-msgstr "A eșuat"
+msgstr "Неуспело"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Archive service data..."
-msgstr "Arhivați datele serviciului..."
+msgstr "Архивирај сервисне податке..."
 
 msgctxt "TroubleshootingSettings|"
 msgid "Enable enhanced logging"
-msgstr "Activați înregistrarea îmbunătățită"
+msgstr "Омогући детаљније бележење (логовање)"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Enable LT alerts logging"
-msgstr "Activați înregistrarea alertelor LT"
+msgstr "Омогући бележење LT упозорења"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Restart is required"
-msgstr "Este necesară repornirea"
+msgstr "Потребно је поновно покретање"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Do crash app"
-msgstr "Faceți aplicația să se blocheze"
+msgstr "Изазови пад апликације"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Hide"
-msgstr "Ascunde"
+msgstr "Сакриј"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
-msgstr "Activați înregistrarea gestionării descărcărilor"
+msgstr "Омогући бележење управљања преузимањима"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
-msgstr "Nelimitat"
+msgstr "Неограничено"
 
 msgctxt "TumComboBox|"
 msgid "KB/s"
-msgstr "KO/s"
+msgstr "КБ/с"
 
 msgctxt "TumComboBox|"
 msgid "unlimited"
-msgstr "nelimitat"
+msgstr "неограничено"
 
 #, qt-format
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
-msgstr "Descărcare: %1, Încărcare: %2"
+msgstr "Преузимање: %1, Слање: %2"
 
 msgctxt "TumComboBox|"
 msgid "High"
-msgstr "Ridicat"
+msgstr "Високо"
 
 msgctxt "TumComboBox|"
 msgid "Medium"
-msgstr "Mediu"
+msgstr "Средње"
 
 msgctxt "TumComboBox|"
 msgid "Low"
-msgstr "Scăzut"
+msgstr "Ниско"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Unlimited"
-msgstr "Nelimitat"
+msgstr "Неограничено"
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Custom..."
-msgstr "Personalizat..."
+msgstr "Прилагођено..."
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Please enter numbers only"
-msgstr "Vă rugăm introduceți doar numere"
+msgstr "Молимо унесите само бројеве"
 
 msgctxt "TumModeBlock|"
 msgid "Download speed"
-msgstr "Viteza de descărcare"
+msgstr "Брзина преузимања"
 
 msgctxt "TumModeBlock|"
 msgid "Unlimited"
-msgstr "Nelimitat"
+msgstr "Неограничено"
 
 msgctxt "TumModeBlock|"
 msgid "Max. number of simultaneous downloads"
-msgstr "Număr maxim de descărcări simultane"
+msgstr "Макс. број истовремених преузимања"
 
 msgctxt "TumModeBlock|"
 msgid "Snail mode"
-msgstr "Modul Lent"
+msgstr "Пуж режим"
 
 msgctxt "TumModeBlock|"
 msgid "Frees bandwidth without stopping downloads."
-msgstr "Eliberează lățime de bandă fără a opri descărcările."
+msgstr "Ослобађа проток без заустављања преузимања."
 
 msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
-msgstr "Modificați limitele de trafic"
+msgstr "Промени ограничења саобраћаја"
 
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
-msgstr "Nu poate fi mai mare decât %1"
+msgstr "Не може бити веће од %1"
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
-msgstr "Descărcare nouă"
+msgstr "Ново преузимање"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "New file"
-msgstr "Fişier nou"
+msgstr "Нова датотека"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
-msgstr "Descarcă"
+msgstr "Преузми"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Save to"
-msgstr "Salvează in"
+msgstr "Сачувај у"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
-msgstr "Nume fisier"
+msgstr "Име датотеке"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Play file while it is still downloading"
-msgstr "Redați fișierul în timp ce încă se descarcă"
+msgstr "Пусти датотеку док се још преузима"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
-msgstr "Nu există acces de scriere la directorul selectat"
+msgstr "Нема права писања у изабрани директоријум"
 
 #, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "Mărime: %1 (Spațiu de stocare: %2)"
+msgstr "Величина: %1 (Простор на диску: %2)"
 
 #, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
-msgstr "Spațiu pe disc: %1"
+msgstr "Простор на диску: %1"
 
 #, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
-msgstr "Mărime: %1"
+msgstr "Величина: %1"
 
 msgctxt "UiCoreBase|"
 msgid "High"
-msgstr "Ridicat"
+msgstr "Висок"
 
 msgctxt "UiCoreBase|"
 msgid "Low"
-msgstr "Scăzut"
+msgstr "Низак"
 
 msgctxt "UiCoreBase|"
 msgid "Normal"
-msgstr "Normal"
+msgstr "Нормалан"
 
 msgctxt "UiUpdatedBanner|"
 msgid "The classic interface is turned on."
-msgstr "Interfața clasică este setată."
+msgstr "Класични интерфејс је укључен."
 
 msgctxt "UiUpdatedBanner|"
 msgid "The new interface is turned on."
-msgstr "Interfața nouă este setată."
+msgstr "Нови интерфејс је укључен."
 
 msgctxt "UiUpdatedBanner|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "UiUpdatedBanner|"
 msgid "Switch to the new interface"
-msgstr "Treceți la interfața nouă"
+msgstr "Пребаци на нови интерфејс"
 
 msgctxt "UiUpdatedBanner|"
 msgid "Switch to the classic interface"
-msgstr "Treceți la interfața clasică"
+msgstr "Пребаци на класични интерфејс"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
-msgstr "Se caută actualizări…"
+msgstr "Провера ажурирања..."
 
 msgctxt "UpdateDialog|"
 msgid "Error:"
-msgstr "Eroare:"
+msgstr "Грешка:"
 
 msgctxt "UpdateDialog|"
 msgid "Retry"
-msgstr "Reîncearcă"
+msgstr "Покушај поново"
 
 msgctxt "UpdateDialog|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "UpdateDialog|"
 msgid "New version is available"
-msgstr "Noua versiune este disponibilă"
+msgstr "Нова верзија је доступна"
 
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
-msgstr "Ce este nou in %1"
+msgstr "Шта је ново у %1"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
-msgstr "Actualizare"
+msgstr "Ажурирај"
 
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
-msgstr "%1 este la zi"
+msgstr "%1 је ажуриран"
 
 msgctxt "UpdateDialog|"
 msgid "OK"
-msgstr "OK"
+msgstr "У реду"
 
 msgctxt "UpdateDialog|"
 msgid "Downloading update"
-msgstr "Se descarcă actualizarea"
+msgstr "Преузимање ажурирања"
 
 msgctxt "UpdateDialog|"
 msgid "Error downloading update:"
-msgstr "Eroare în descărcarea actualizărilor:"
+msgstr "Грешка при преузимању ажурирања:"
 
 msgctxt "UpdateDialog|"
 msgid "Checking..."
-msgstr "Se verifică..."
+msgstr "Провера..."
 
 msgctxt "UpdateDialog|"
 msgid "Update downloaded"
-msgstr "Actualizare descărcată"
+msgstr "Ажурирање је преузето"
 
 msgctxt "UpdateDialog|"
 msgid "Install update"
-msgstr "Instalează actualizarea"
+msgstr "Инсталирај ажурирање"
 
 msgctxt "UpdateDialog|"
 msgid "Installing updates"
-msgstr "Se instalează actualizările"
+msgstr "Инсталирање ажурирања"
 
 msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
-msgstr "Eroare apărută în timpul instalării:"
+msgstr "Дошло је до грешке током инсталације:"
 
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
-msgstr "Repornește %1 pentru a actualiza"
+msgstr "Поново покрените %1 ради ажурирања"
 
 msgctxt "UpdateDialog|"
 msgid "Relaunch"
-msgstr "Repornește"
+msgstr "Поново покрени"
 
 msgctxt "UpdateDialog|"
 msgid "Later"
-msgstr "Mai târziu"
+msgstr "Касније"
 
 msgctxt "UpdateDialog|"
 msgid "Check for updates"
-msgstr "Căutați actualizări"
+msgstr "Провери ажурирања"
 
 msgctxt "VideoQuality|"
 msgid "Quality:"
-msgstr "Calitate:"
+msgstr "Квалитет:"
 
 #, qt-format
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
-msgstr "Bucurați-vă %1?"
+msgstr "Свиђа вам се %1?"
 
 msgctxt "VoteBlock|"
 msgid "Not, really"
-msgstr "Nu, chiar"
+msgstr "Не баш"
 
 msgctxt "VoteBlock|"
 msgid "Yes!"
-msgstr "Da!"
+msgstr "Да!"
 
 msgctxt "VoteBlock|"
 msgid "Thanks a lot! Please rate on Google Play."
-msgstr "Mulțumesc mult! Vă rugăm să evaluați pe Google Play."
+msgstr "Хвала вам пуно! Оцените нас на Google Play продавници."
 
 msgctxt "VoteBlock|"
 msgid "Later"
-msgstr "Mai târziu"
+msgstr "Касније"
 
 msgctxt "VoteBlock|"
 msgid "No, thanks"
-msgstr "Nu, mulțumesc"
+msgstr "Не, хвала"
 
 msgctxt "VoteBlock|"
 msgid "OK, sure!"
-msgstr "OK, desigur!"
+msgstr "У реду, наравно!"
 
 msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."
-msgstr "Hai să facem totul mai bine împreună! Dați-ne o părere."
+msgstr "Учинимо га бољим заједно! Пошаљите нам своје утиске."
 
 msgctxt "WaitingPage|"
 msgid "Loading"
-msgstr "Se încarcă"
+msgstr "Учитавање"
 
 #, qt-format
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
-msgstr "Conexiune la %1"
+msgstr "Повезивање на %1"
 
 #, qt-format
 msgctxt "WaitingPage|"
 msgid "Error: %1"
-msgstr "Eroare: %1"
+msgstr "Грешка: %1"
 
 msgctxt "WaitingPage|"
 msgid "Retry"
-msgstr "Reîncearcă"
+msgstr "Покушај поново"
 
 msgctxt "WaitingPage|"
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Откажи"
 
 msgctxt "WaitingPage|"
 msgid "Abort"
-msgstr "Respinge"
+msgstr "Прекини"
 
 msgctxt "WhatsNewDialog|"
 msgid "New version is available"
-msgstr "O nouă versiune este disponibilă"
+msgstr "Нова верзија је доступна"
 
 #, qt-format
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
-msgstr "Ce este nou în %1"
+msgstr "Шта је ново у %1"
 
 msgctxt "WhatsNewDialog|"
 msgid "Update"
-msgstr "Actualizare"
+msgstr "Ажурирај"
 
 #, qt-format
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
-msgstr "Ne pare rău, raportul nu a fost trimis, o eroare a avut loc: %1"
+msgstr "Нажалост, извештај није послат, дошло је до грешке: %1"
 
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr "Raportarea a fost trimisă. Vă mulțumim pentru cooperare!"
+msgstr "Извештај је послат. Хвала Вам на сарадњи!"
 
 #, qt-format
 msgctxt "main|"
 msgid "Remote connection to %1"
-msgstr "Conexiune la distanță la %1"
+msgstr "Даљинско повезивање на %1"
 
 msgctxt "main|"
 msgid "Add download"
-msgstr "Adăugare descărcare"
+msgstr "Додај преузимање"
 
 msgctxt "main|"
 msgid "New download"
-msgstr "Descărcare nouă"
+msgstr "Ново преузимање"
 
 msgctxt "main|"
 msgid "OK to remove tag?"
-msgstr "OK pentru a elimina eticheta?"
+msgstr "Уклонити ознаку?"
