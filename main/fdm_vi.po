@@ -1527,6 +1527,15 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "Hiển thị tốc độ tải lên tổng trong biểu tượng Dock"
 
+#, qt-format
+msgctxt "DonateBannerStrip|"
+msgid "Thank you for using %1!"
+msgstr ""
+
+msgctxt "DonateBannerStrip|"
+msgid "You help us grow and progress"
+msgstr ""
+
 msgctxt "DownloadExpiredDialog|"
 msgid "Download Failure"
 msgstr "Tải xuống thất bại"
@@ -1534,7 +1543,9 @@ msgstr "Tải xuống thất bại"
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Can't resume download. Download link likely expired. Resume attempts failed."
-msgstr "Không thể tiếp tục tải xuống. Liên kết tải xuống có thể đã hết hạn. Các nỗ lực tiếp tục đã thất bại."
+msgstr ""
+"Không thể tiếp tục tải xuống. Liên kết tải xuống có thể đã hết hạn. Các nỗ "
+"lực tiếp tục đã thất bại."
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Please try to update the download link to resume."
@@ -1543,7 +1554,9 @@ msgstr "Vui lòng thử cập nhật liên kết tải xuống để tiếp tụ
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Go to the website with the original download source and copy the renewed link"
-msgstr "Truy cập trang web có nguồn tải xuống gốc và sao chép liên kết đã được làm mới"
+msgstr ""
+"Truy cập trang web có nguồn tải xuống gốc và sao chép liên kết đã được làm "
+"mới"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "click here"
@@ -3223,9 +3236,10 @@ msgid ""
 "Internet is slow and you need to make a call, for example."
 msgstr ""
 "Chế độ Ốc sên đưa các tải xuống đang hoạt động vào chế độ ngủ, giải phóng "
-"càng nhiều băng thông Internet càng tốt. Khi bạn tắt nó, tất cả các tải xuống "
-"đang hoạt động sẽ tiếp tục ở tốc độ bình thường. Chế độ Ốc sên đặc biệt hữu ích "
-"khi Internet của bạn chậm và bạn cần thực hiện cuộc gọi, chẳng hạn."
+"càng nhiều băng thông Internet càng tốt. Khi bạn tắt nó, tất cả các tải "
+"xuống đang hoạt động sẽ tiếp tục ở tốc độ bình thường. Chế độ Ốc sên đặc "
+"biệt hữu ích khi Internet của bạn chậm và bạn cần thực hiện cuộc gọi, chẳng "
+"hạn."
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
@@ -3558,6 +3572,11 @@ msgstr "Lưu vào"
 msgctxt "Mp4ConverterPage|"
 msgid "The path contains invalid characters"
 msgstr "Đường dẫn chứa kí tự đặc biệt"
+
+#, fuzzy
+msgctxt "MySearchField|"
+msgid "Search"
+msgstr "Tìm kiếm"
 
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
@@ -4056,9 +4075,9 @@ msgid ""
 "We do not collect your personal data and do not share data with third "
 "parties."
 msgstr ""
-"Báo cáo lỗi sẽ được gửi đến máy chủ và được sử dụng để cải thiện hiệu suất %1. "
-"Chúng tôi không thu thập dữ liệu cá nhân của bạn và không chia sẻ dữ liệu với "
-"bên thứ ba."
+"Báo cáo lỗi sẽ được gửi đến máy chủ và được sử dụng để cải thiện hiệu suất "
+"%1. Chúng tôi không thu thập dữ liệu cá nhân của bạn và không chia sẻ dữ "
+"liệu với bên thứ ba."
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
@@ -5131,10 +5150,6 @@ msgctxt "SchedulerTools|"
 msgid "Set days of the week to enable Scheduler"
 msgstr "Đặt các ngày trong tuần để bật Bộ lập lịch"
 
-msgctxt "SearchField|"
-msgid "Search"
-msgstr "Tìm kiếm"
-
 msgctxt "SearchToolbar|"
 msgid "Search"
 msgstr "Tìm kiếm"
@@ -5200,9 +5215,10 @@ msgctxt "SettingsPage|"
 msgid "Antivirus"
 msgstr "Diệt virus"
 
+#, fuzzy
 msgctxt "SettingsPage|"
 msgid "Remote Access"
-msgstr ""
+msgstr "Truy cập từ xa"
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
@@ -5232,9 +5248,10 @@ msgctxt "SettingsPage|"
 msgid "Sounds settings"
 msgstr "Cài đặt âm thanh"
 
+#, fuzzy
 msgctxt "SettingsPage|"
 msgid "Remote control settings"
-msgstr ""
+msgstr "Cài đặt điều khiển từ xa"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -5377,9 +5394,10 @@ msgctxt "StatusItem|"
 msgid "Checking files"
 msgstr "Đang kiểm tra tệp"
 
+#, fuzzy
 msgctxt "StatusItem|"
 msgid "Merging media streams"
-msgstr ""
+msgstr "Đang hợp nhất các luồng phương tiện"
 
 msgctxt "StatusItem|"
 msgid "Queued"
@@ -5425,9 +5443,10 @@ msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
 msgstr ""
 
+#, fuzzy
 msgctxt "SubmitBugReportDialog|"
 msgid "Submit a bug report"
-msgstr ""
+msgstr "Gửi báo cáo lỗi"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Title"
@@ -5586,9 +5605,10 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable LT alerts logging"
 msgstr ""
 
+#, fuzzy
 msgctxt "TroubleshootingSettings|"
 msgid "Restart is required"
-msgstr ""
+msgstr "Yêu cầu khởi động lại"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Do crash app"
@@ -5639,9 +5659,10 @@ msgctxt "TumMaxURatioComboBox|"
 msgid "Custom..."
 msgstr "Tuỳ chỉnh..."
 
+#, fuzzy
 msgctxt "TumMaxURatioComboBox|"
 msgid "Please enter numbers only"
-msgstr ""
+msgstr "Vui lòng chỉ nhập số"
 
 msgctxt "TumModeBlock|"
 msgid "Download speed"
@@ -5714,6 +5735,10 @@ msgstr "Dung lượng đĩa: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Kích thước: %1"
+
+msgctxt "UiCoreBase|"
+msgid "Support the project"
+msgstr ""
 
 #, fuzzy
 msgctxt "UiCoreBase|"
@@ -5909,14 +5934,15 @@ msgctxt "WhatsNewDialog|"
 msgid "Update"
 msgstr "Cập nhật"
 
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
-msgstr ""
+msgstr "Xin lỗi, báo cáo chưa được gửi, đã xảy ra lỗi: %1"
 
+#, fuzzy
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr ""
+msgstr "Báo cáo đã được gửi. Cảm ơn sự hợp tác của bạn!"
 
 #, qt-format
 msgctxt "main|"

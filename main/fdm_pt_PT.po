@@ -3,7 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Language: pt_PT\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
@@ -457,8 +457,8 @@ msgid ""
 "%1 needs permission to show download progress within your system's "
 "notification panel."
 msgstr ""
-"O %1 necessita de permissão para mostrar o progresso da transferência no painel "
-"de notificações do seu sistema."
+"O %1 necessita de permissão para mostrar o progresso da transferência no "
+"painel de notificações do seu sistema."
 
 #, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
@@ -1157,8 +1157,7 @@ msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid ""
 "The following folder contains extraneous files. Do you still want to delete "
 "it?"
-msgstr ""
-"A pasta seguinte contém ficheiros estranhos. Ainda deseja eliminá-la?"
+msgstr "A pasta seguinte contém ficheiros estranhos. Ainda deseja eliminá-la?"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Delete anyway"
@@ -1309,7 +1308,8 @@ msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr ""
-"Ocorreu um erro interno.<br>O %1 precisa de ser reiniciado para uso posterior."
+"Ocorreu um erro interno.<br>O %1 precisa de ser reiniciado para uso "
+"posterior."
 
 #, qt-format
 msgctxt "CrashReporter|"
@@ -1530,6 +1530,15 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "Mostrar velocidade total de upload no ícone da Dock"
 
+#, qt-format
+msgctxt "DonateBannerStrip|"
+msgid "Thank you for using %1!"
+msgstr ""
+
+msgctxt "DonateBannerStrip|"
+msgid "You help us grow and progress"
+msgstr ""
+
 msgctxt "DownloadExpiredDialog|"
 msgid "Download Failure"
 msgstr "Falha no download"
@@ -1538,8 +1547,8 @@ msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Can't resume download. Download link likely expired. Resume attempts failed."
 msgstr ""
-"Não é possível retomar a transferência. A ligação de transferência provavelmente expirou. "
-"As tentativas de retomada falharam."
+"Não é possível retomar a transferência. A ligação de transferência "
+"provavelmente expirou. As tentativas de retomada falharam."
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Please try to update the download link to resume."
@@ -1795,7 +1804,8 @@ msgstr "Mostrar tudo"
 
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
-msgstr "A lista de transferências está vazia. Adicione novo URL de transferência."
+msgstr ""
+"A lista de transferências está vazia. Adicione novo URL de transferência."
 
 #, qt-format
 msgctxt "DownloadsPage|"
@@ -1812,11 +1822,13 @@ msgstr "Iniciar o download sem confirmação"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "Remover automaticamente ficheiros eliminados da lista de transferências"
+msgstr ""
+"Remover automaticamente ficheiros eliminados da lista de transferências"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "Remover automaticamente transferências concluídas da lista de transferências"
+msgstr ""
+"Remover automaticamente transferências concluídas da lista de transferências"
 
 msgctxt "DownloadsSettings|"
 msgid "Immediately"
@@ -2691,11 +2703,13 @@ msgstr "Ativar janelas de downloads independentes"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "Remover automaticamente ficheiros eliminados da lista de transferências"
+msgstr ""
+"Remover automaticamente ficheiros eliminados da lista de transferências"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "Remover automaticamente transferências concluídas da lista de transferências"
+msgstr ""
+"Remover automaticamente transferências concluídas da lista de transferências"
 
 msgctxt "GeneralSettings|"
 msgid "Immediately"
@@ -3574,6 +3588,11 @@ msgctxt "Mp4ConverterPage|"
 msgid "The path contains invalid characters"
 msgstr "O caminho contém caracteres inválidos"
 
+#, fuzzy
+msgctxt "MySearchField|"
+msgid "Search"
+msgstr "Localizar"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "Verificar atualizações..."
@@ -3970,6 +3989,10 @@ msgctxt "PluginsPage|"
 msgid "Would you like to install it?"
 msgstr "Deseja instalá-lo?"
 
+msgctxt "PluginsPage|"
+msgid "No updates found"
+msgstr ""
+
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
 msgstr "Falha ao atualizar o complemento"
@@ -4018,6 +4041,51 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to install it?"
 msgstr "Deseja instalá-lo?"
 
+msgctxt "PluginsViewItem|"
+msgid "Allow automatic updates"
+msgstr ""
+
+#, fuzzy
+msgctxt "PluginsViewItem|"
+msgid "Check for updates"
+msgstr "Verificar atualizações"
+
+#, fuzzy
+msgctxt "PluginsViewItem|"
+msgid "Remove"
+msgstr "Remover"
+
+#, fuzzy
+msgctxt "PluginsViewItem|"
+msgid "Updating..."
+msgstr "Atualizando..."
+
+#, qt-format
+msgctxt "PluginsViewItem|"
+msgid "Version: %1"
+msgstr ""
+
+msgctxt "PluginsViewItem|"
+msgid "OK to remove?"
+msgstr ""
+
+msgctxt "PreferredFileTypeCombobox|"
+msgid "Audio"
+msgstr ""
+
+#, fuzzy
+msgctxt "PreferredFileTypeCombobox|"
+msgid "Video"
+msgstr "Vídeo"
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "Lowest"
+msgstr ""
+
+msgctxt "PreferredVideoQualityCombobox|"
+msgid "Highest"
+msgstr ""
+
 msgctxt "PrivacyDialog|"
 msgid "User agreement"
 msgstr "Termo de acordo do usuário"
@@ -4030,8 +4098,8 @@ msgid ""
 "parties."
 msgstr ""
 "Um relatório de erros será enviado ao servidor e usado para melhorar o "
-"desempenho do %1. Não recolhemos os seus dados pessoais nem os "
-"partilhamos com terceiros."
+"desempenho do %1. Não recolhemos os seus dados pessoais nem os partilhamos "
+"com terceiros."
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
@@ -4702,7 +4770,8 @@ msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
 msgstr ""
-"Deseja apagá-lo (isto limpará a sua lista de transferências e todos os dados do %1)?"
+"Deseja apagá-lo (isto limpará a sua lista de transferências e todos os dados "
+"do %1)?"
 
 msgctxt "QObject|"
 msgid "Failed."
@@ -4784,6 +4853,10 @@ msgstr "Iniciar código Python"
 msgctxt "QObject|"
 msgid "Allows to execute arbitrary code."
 msgstr "Permitir executar código arbritário."
+
+msgctxt "QObject|"
+msgid "Launch Deno (JavaScript runtime)"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Installing..."
@@ -5099,10 +5172,6 @@ msgctxt "SchedulerTools|"
 msgid "Set days of the week to enable Scheduler"
 msgstr "Definir dias da semana para ativar o Agendador"
 
-msgctxt "SearchField|"
-msgid "Search"
-msgstr "Localizar"
-
 msgctxt "SearchToolbar|"
 msgid "Search"
 msgstr "Localizar"
@@ -5351,8 +5420,6 @@ msgstr "Checando arquivos"
 msgctxt "StatusItem|"
 msgid "Merging media streams"
 msgstr "Mesclando fluxos de mídia"
-
-
 
 msgctxt "StatusItem|"
 msgid "Queued"
@@ -5672,3 +5739,253 @@ msgstr "Reproduzir arquivo enquanto ele ainda está sendo baixado"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
 msgstr "Sem acesso de escrita ao diretório selecionado"
+
+#, fuzzy, qt-format
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Size: %1 (Disk space: %2)"
+msgstr "Tamanho: %1 (Espaço em disco: %2)"
+
+#, fuzzy, qt-format
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Disk space: %1"
+msgstr "Espaço em disco: %1"
+
+#, fuzzy, qt-format
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Size: %1"
+msgstr "Tamanho: %1"
+
+msgctxt "UiCoreBase|"
+msgid "Support the project"
+msgstr ""
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "Alto"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "Baixo"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "Normal"
+
+msgctxt "UiUpdatedBanner|"
+msgid "The classic interface is turned on."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
+msgstr ""
+
+#, fuzzy
+msgctxt "UiUpdatedBanner|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the new interface"
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
+msgstr ""
+
+msgctxt "UpdateDialog|"
+msgid "Checking for updates..."
+msgstr ""
+
+msgctxt "UpdateDialog|"
+msgid "Error:"
+msgstr ""
+
+msgctxt "UpdateDialog|"
+msgid "Retry"
+msgstr ""
+
+#, fuzzy
+msgctxt "UpdateDialog|"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "UpdateDialog|"
+msgid "New version is available"
+msgstr ""
+
+#, qt-format
+msgctxt "UpdateDialog|"
+msgid "What's new in %1"
+msgstr ""
+
+#, fuzzy
+msgctxt "UpdateDialog|"
+msgid "Update"
+msgstr "Atualizar"
+
+#, qt-format
+msgctxt "UpdateDialog|"
+msgid "%1 is up to date"
+msgstr ""
+
+#, fuzzy
+msgctxt "UpdateDialog|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "UpdateDialog|"
+msgid "Downloading update"
+msgstr ""
+
+msgctxt "UpdateDialog|"
+msgid "Error downloading update:"
+msgstr ""
+
+msgctxt "UpdateDialog|"
+msgid "Checking..."
+msgstr ""
+
+msgctxt "UpdateDialog|"
+msgid "Update downloaded"
+msgstr ""
+
+msgctxt "UpdateDialog|"
+msgid "Install update"
+msgstr ""
+
+msgctxt "UpdateDialog|"
+msgid "Installing updates"
+msgstr ""
+
+msgctxt "UpdateDialog|"
+msgid "Error occurred during installation:"
+msgstr ""
+
+#, qt-format
+msgctxt "UpdateDialog|"
+msgid "Relaunch %1 to update"
+msgstr ""
+
+msgctxt "UpdateDialog|"
+msgid "Relaunch"
+msgstr ""
+
+msgctxt "UpdateDialog|"
+msgid "Later"
+msgstr ""
+
+#, fuzzy
+msgctxt "UpdateDialog|"
+msgid "Check for updates"
+msgstr "Verificar atualizações"
+
+msgctxt "VideoQuality|"
+msgid "Quality:"
+msgstr ""
+
+#, qt-format
+msgctxt "VoteBlock|"
+msgid "Enjoy %1?"
+msgstr ""
+
+msgctxt "VoteBlock|"
+msgid "Not, really"
+msgstr ""
+
+msgctxt "VoteBlock|"
+msgid "Yes!"
+msgstr ""
+
+msgctxt "VoteBlock|"
+msgid "Thanks a lot! Please rate on Google Play."
+msgstr ""
+
+msgctxt "VoteBlock|"
+msgid "No, thanks"
+msgstr ""
+
+msgctxt "VoteBlock|"
+msgid "OK, sure!"
+msgstr ""
+
+msgctxt "VoteBlock|"
+msgid "Later"
+msgstr ""
+
+msgctxt "VoteBlock|"
+msgid "Let's make it better together! Give us your feedback."
+msgstr ""
+
+msgctxt "WaitingPage|"
+msgid "Loading"
+msgstr ""
+
+#, qt-format
+msgctxt "WaitingPage|"
+msgid "Connection to %1"
+msgstr ""
+
+#, fuzzy, qt-format
+msgctxt "WaitingPage|"
+msgid "Error: %1"
+msgstr "Erro: %1"
+
+msgctxt "WaitingPage|"
+msgid "Retry"
+msgstr ""
+
+#, fuzzy
+msgctxt "WaitingPage|"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#, fuzzy
+msgctxt "WaitingPage|"
+msgid "Abort"
+msgstr "Abortar"
+
+msgctxt "WhatsNewDialog|"
+msgid "New version is available"
+msgstr ""
+
+#, qt-format
+msgctxt "WhatsNewDialog|"
+msgid "What's new in %1"
+msgstr ""
+
+#, fuzzy
+msgctxt "WhatsNewDialog|"
+msgid "Update"
+msgstr "Atualizar"
+
+#, qt-format
+msgctxt "main|"
+msgid "Remote connection to %1"
+msgstr ""
+
+#, fuzzy
+msgctxt "main|"
+msgid "Add download"
+msgstr "Adicionar download"
+
+#, fuzzy
+msgctxt "main|"
+msgid "New download"
+msgstr "Novo download"
+
+msgctxt "main|"
+msgid "OK to remove tag?"
+msgstr ""
+
+#, fuzzy, qt-format
+msgctxt "main|"
+msgid "Sorry, the report hasn't been sent, an error occurred: %1"
+msgstr "Desculpe, o relatório não foi enviado, ocorreu um erro: %1"
+
+#, fuzzy
+msgctxt "main|"
+msgid "The report has been sent. Thank you for your cooperation!"
+msgstr "O relatório foi enviado. Obrigado por sua cooperação!"
