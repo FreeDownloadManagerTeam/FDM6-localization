@@ -299,31 +299,32 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "További beállítások"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "Téma kiválasztása"
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "A világos téma kerül használatra, ha a rendszertéma ismeretlen."
-
+#, fuzzy
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr "Kiválasztás"
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "Összes"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr "Csak letöltés"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr "Csak feltöltés"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "Befejezve"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr "Leállítva"
 
@@ -347,40 +348,82 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr "Befejezetlen"
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "Hiányzó fájlok"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "Összes fájl"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "Aktív"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "Befejezve"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "Befejezetlen"
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr "Keresés a letöltésekben..."
 
+#, fuzzy
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "Rendezés"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr "Régi"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr "Legújabb"
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr "A-Z"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr "Z-A"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr "Méret szerint: kicsi"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr "Méret szerint: nagy"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr "Állapot szerint: emelkedő"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr "Állapot szerint: csökkenő"
 
@@ -518,6 +561,11 @@ msgstr "Adatok lekérése a távoli címről: %1 (%2)..."
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "Sikertelen."
+
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "Kiválasztva: %1"
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -1020,24 +1068,32 @@ msgid "OK"
 msgstr "Rendben"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "Letöltés hozzáadása"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Letöltés"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "Rendben"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "Probléma jelentése"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "Erről a webhelyről nem szabad letölteni"
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "Letöltés hozzáadása"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "Letöltés"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "Rendben"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "Letöltés hozzáadása"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1232,6 +1288,26 @@ msgid "Port"
 msgstr "Port"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "Kapcsolat szám"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "Nincsenek kapcsolatok"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "Host"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "Port"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "Kapcsolat szám"
 
@@ -1575,50 +1651,6 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Bezárás"
 
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr "Fájlok ellenőrzése"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr "Médiafolyamok egyesítése"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr "Várólistán"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr "Információ lekérése"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "Szüneteltetve"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr "Fájlok ellenőrzése"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr "Médiafolyamok egyesítése"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr "Információ lekérése"
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr "n/a"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr "Várólistán"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "Befejezve"
-
 #, fuzzy
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
@@ -1744,6 +1776,40 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Hiányzik a lemez"
 
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "Fájlok ellenőrzése"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "Médiafolyamok egyesítése"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "Információ lekérése"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "Várólistán"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr "Megállítva"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "Befejezve"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "n/a"
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1813,6 +1879,11 @@ msgstr "A letöltési lista üres. Adj hozzá új letöltési URL-t."
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "Távoli csatlakozás: %1"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "Keresés"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1985,18 +2056,6 @@ msgid "Choose files..."
 msgstr "Fájlok kiválasztása..."
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "Magas"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "Közepes"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "Alacsony"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr "Fájl átnevezése"
 
@@ -2127,34 +2186,6 @@ msgstr "Szüneteltetve"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Ismeretlen fájlméret"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr "Fájlok ellenőrzése"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr "Médiafolyamok egyesítése"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr "Információ lekérése"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr "n/a"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr "Várólistán"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "Befejezve"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr "n/a"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2472,6 +2503,41 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "Csökkenő"
 
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "Rendezés"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr "Régi"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr "Legújabb"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr "A-Z"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr "Z-A"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr "Méret szerint: kicsi"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr "Méret szerint: nagy"
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "Fájltípus:"
@@ -2612,6 +2678,16 @@ msgstr "Alacsony"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Befejezve"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "Név"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "Prioritás"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2780,6 +2856,30 @@ msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "A mobil adatforgalom használata roaming közben további díjakat eredményezhet."
 
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "Téma kiválasztása"
+
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "A világos téma lesz használva, ha a rendszer téma ismeretlen."
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr "Felületi stílus"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr "Új"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr "Klasszikus"
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Állapot"
@@ -2885,6 +2985,16 @@ msgstr "Weboldal"
 msgctxt "GeneralTab_V2|"
 msgid "File"
 msgstr "Fájl"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr "Hátralévő"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "Folyamat"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2993,40 +3103,6 @@ msgstr "Ismeretlen"
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "távirányító"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "Böngésző"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "Beállítások"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "Kapcsolatfelvétel az ügyfélszolgálattal"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "Hibajelentés beküldése"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "Távoli lecsatlakozás: %1"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "Távoli csatlakozás: %1"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "Névjegy"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "Kilépés"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -3179,6 +3255,50 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "Kilépés"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "Böngésző"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "Beállítások"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "Kapcsolatfelvétel az ügyfélszolgálattal"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "Hibajelentés beküldése"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "Távoli lecsatlakozás: %1"
+
+#, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "Távoli csatlakozás: %1"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "Névjegy"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "Kilépés"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr ""
@@ -3197,18 +3317,6 @@ msgstr[0] "%n letöltés kiválasztva."
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Teljes méret:"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "Alacsony"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "Közepes"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "Magas"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3826,6 +3934,11 @@ msgstr "Fájlok"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "Kapcsolatok"
+
+#, fuzzy
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "Rendben"
 
 #. Browse for a file
 msgctxt "PickFileButton|"
@@ -5500,6 +5613,51 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr "Beküldés"
 
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "Hibajelentés beküldése"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "Cím"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "Leírás"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "Név"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "E-mail"
+
+#, fuzzy, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "%1 naplófájl csatolása (ajánlott)"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "Szükséges mezők"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "Beküldés"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit"
+msgstr "Beküldés"
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "Feliratok letöltése"
@@ -5632,6 +5790,44 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr "Letöltéskezelés naplózásának engedélyezése"
 
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "Alacsony"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "Közepes"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "Magas"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "Csiga mód"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "Forgalmi korlátok módosítása"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "Korlátlan"
@@ -5697,6 +5893,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Forgalmi korlátok módosítása"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5705,10 +5909,6 @@ msgstr "%1 értéknél nem lehet nagyobb"
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Új letöltés"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Új fájl"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5744,6 +5944,21 @@ msgstr "Lemezterület: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Méret: %1"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "Új fájl"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "Letöltés"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "Új fájl"
 
 msgctxt "UiCoreBase|"
 msgid "Support the project"

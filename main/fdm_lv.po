@@ -293,31 +293,29 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Paplašinātie iestatījumi"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "Izvēlies tēmu"
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Gaišā tēma tiks lietota, ja sistēmas tēma ir nezināma."
-
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "Viss"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr ""
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr ""
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "Pabeigts"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr ""
 
@@ -341,40 +339,74 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr "Nepabeigts"
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "Trūkstošie Faili"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "Visi faili"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "Aktīvs"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "Pabeigts"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "Nepabeigts"
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr ""
 
+#, fuzzy
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "Kārtot"
+
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr ""
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr ""
 
@@ -493,7 +525,7 @@ msgstr "OK"
 
 msgctxt "AppMessageDialog|"
 msgid "Cancel"
-msgstr ""
+msgstr "Atcelt"
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -512,6 +544,11 @@ msgstr "Iegūst datus no attālinātā %1 (%2)..."
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "Neizdevās."
+
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "Izvēlēti: %1"
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -1013,24 +1050,32 @@ msgid "OK"
 msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "Pievienot lejupielādi"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Lejupielādēt"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "Paziņot par problēmu"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "Lejupielādēšana no šīs saites nav atļauta"
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "Pievienot lejupielādi"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "Lejupielādēt"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "OK"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "Pievienot lejupielādi"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1222,6 +1267,26 @@ msgid "Port"
 msgstr "Ports"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "Savienojumu skaits"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "Nav savienojumu"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "Saimnieks"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "Ports"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "Savienojumu skaits"
 
@@ -1561,50 +1626,6 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Aizvērt"
 
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr "Pārbauda failus"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr "Apvieno multivides straumes"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr "Ierindots"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr "Pieprasa informāciju"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "Apturēts"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr "Pārbauda failus"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr "Apvieno multivides straumes"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr "Pieprasa informāciju"
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr ""
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr "Ierindots"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "Pabeigts"
-
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
 msgstr ""
@@ -1729,6 +1750,39 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Trūkst disks"
 
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "Pārbauda failus"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "Apvieno multivides straumes"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "Pieprasa informāciju"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "Ierindots"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr ""
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "Pabeigts"
+
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr ""
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1798,6 +1852,11 @@ msgstr "Lejupielāžu saraksts ir tukšs. Pievieno jaunu lejupielādes URL."
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "Pievienoties attālināti %1"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "Meklēt"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1970,18 +2029,6 @@ msgid "Choose files..."
 msgstr "Izvēlēties failus..."
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "Augsta"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "Normāla"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "Zema"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr "Pārdēvēt failu"
 
@@ -2112,34 +2159,6 @@ msgstr "Apturēts"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Nezināms faila lielums"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr "Pārbauda failus"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr "Apvieno multivides straumes"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr "Pieprasa informāciju"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr ""
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr "Ierindots"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "Pabeigts"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr ""
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2456,6 +2475,35 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "Dilstošs"
 
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "Kārtot"
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr ""
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "Faila veids:"
@@ -2596,6 +2644,16 @@ msgstr "Zema"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Pabeigts"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "Nosaukums"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "Prioritāte"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2765,6 +2823,28 @@ msgstr ""
 "Mobilo datu lietošana datu viesabonēšanas laikā var izraisīt papildus "
 "izmaksas."
 
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "Izvēlies tēmu"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Gaišā tēma tiks lietota, ja sistēmas tēma ir nezināma."
+
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr ""
+
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr ""
+
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr ""
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Satuss"
@@ -2870,6 +2950,15 @@ msgstr "Fails"
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "Prioritāte"
+
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr ""
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "Progress"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2978,40 +3067,6 @@ msgstr "Nezināms"
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "attālinātā kontrole"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "Interneta pārlūks"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "Iestatījumi"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "Sazināties ar atbalstu"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "Iesniegt kļūdas atskaiti"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "Atvienoties no attālināta %1"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "Pievienoties attālināti %1"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "Par"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "Iziet"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -3164,6 +3219,50 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "Iziet"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "Interneta pārlūks"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "Iestatījumi"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "Sazināties ar atbalstu"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "Iesniegt kļūdas atskaiti"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "Atvienoties no attālināta %1"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "Pievienoties attālināti %1"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "Par"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "Iziet"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "Gliemeža režīms atbrīvo joslas platumu neapturot lejupielādes."
@@ -3183,18 +3282,6 @@ msgstr[2] "%n lejupielādes izvēlētas."
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Kopējais izmērs:"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "Zema"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "Vidēja"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "Augsta"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3363,7 +3450,7 @@ msgstr ""
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Cancel"
-msgstr ""
+msgstr "Atcelt"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "The download already exists"
@@ -3805,6 +3892,11 @@ msgstr "Faili"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "Savienojumi"
+
+#, fuzzy
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "OK"
 
 #. Browse for a file
 msgctxt "PickFileButton|"
@@ -5484,6 +5576,51 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr "Apstiprināt"
 
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "Iesniegt kļūdas atskaiti"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "Virsraksts"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "Apraksts"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "Nosaukums"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "E-pasts"
+
+#, fuzzy, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "Pievieno %1 reģistra failus (rekomendēts)"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "Nepieciešamie lauciņi"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "Apstiprināšana"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit"
+msgstr "Apstiprināt"
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "Lejupielādēt subtitrus"
@@ -5616,6 +5753,44 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr ""
 
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "Zema"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "Vidēja"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "Augsta"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "Gliemeža režīms"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "Mainīt satiksmes limitus"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "Bezlimitēts"
@@ -5681,6 +5856,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Mainīt satiksmes limitus"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5689,10 +5872,6 @@ msgstr "Nevar būt lielāks par %1"
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Jauna lejupielāde"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Jauns fails"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5728,6 +5907,21 @@ msgstr "Vieta diskā: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Izmērs: %1"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "Jauns fails"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "Lejupielādēt"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "Jauns fails"
 
 msgctxt "UiCoreBase|"
 msgid "Support the project"

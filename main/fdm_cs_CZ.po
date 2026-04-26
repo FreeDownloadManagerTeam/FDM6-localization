@@ -293,31 +293,33 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Rozšířená nastavení"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "Zvolit motiv"
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Pokud je neznámý motiv systému, bude použit světlý motiv."
-
+#, fuzzy
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr "Vybrat"
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "Vše"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr "Jen stahování"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr "Jen nahrávání"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "Dokončeno"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr "Zastaveno"
 
@@ -341,40 +343,81 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr "Nedokončeno"
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "Chybějící soubory"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "Všechny soubory"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "Aktivní"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "Dokončeno"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "Nedokončeno"
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr "Prohledat stahování..."
 
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "Řadit"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr "Nejstarší"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr "Nejnovější"
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr "A-Z"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr "Z-A"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr "Podle velikosti: malé"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr "Podle velikosti: velké"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr "Podle stavu: vzestupně"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr "Podle stavu: sestupně"
 
@@ -513,6 +556,11 @@ msgstr "Získávání dat od ovladače %1 (%2)..."
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "Selhalo."
+
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "Vybráno: %1"
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -1014,24 +1062,30 @@ msgid "OK"
 msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "Přidat stahování"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Stáhnout"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "Nahlásit problém"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "Stahování z této stránky není povoleno"
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "Přidat stahování"
+
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "Stáhnout"
+
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "OK"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "Přidat stahování"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1224,6 +1278,26 @@ msgid "Port"
 msgstr "Port"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "Počet připojení"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "Žádná připojení"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "Hostitel"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "Port"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "Počet připojení"
 
@@ -1565,50 +1639,6 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Zavřít"
 
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr "Kontrolování souborů"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr "Spojování mediálních proudů"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr "Ve frontě"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr "Vyžadování informací"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "Pozastaveno"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr "Kontrolování souborů"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr "Spojování mediálních proudů"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr "Vyžadování informací"
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr "N/A"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr "Ve frontě"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "Dokončeno"
-
 #, fuzzy
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
@@ -1734,6 +1764,40 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Disk chybí"
 
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "Kontrolování souborů"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "Spojování mediálních proudů"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "Vyžadování informací"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "Ve frontě"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr "Zastaveno"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "Dokončeno"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "N/A"
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1803,6 +1867,11 @@ msgstr "Seznam stahování je prázdný. Přidejte novou URL stahování."
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "Nelze se připojit ke vzdálenému %1"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "Hledat"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1975,18 +2044,6 @@ msgid "Choose files..."
 msgstr "Vybrat soubory..."
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "Vysoká"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "Normální"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "Nízká"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr "Přejmenovat soubor"
 
@@ -2117,34 +2174,6 @@ msgstr "Pozastaveno"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Neznámá velikost souboru"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr "Kontrolování souborů"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr "Spojování mediálních proudů"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr "Vyžadování informací"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr "N/A"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr "Ve frontě"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "Dokončeno"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr "N/A"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2460,6 +2489,40 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "Sestupně"
 
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "Řazení"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr "Nejstarší"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr "Nejnovější"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr "A-Z"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr "Z-A"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr "Podle velikosti: malé"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr "Podle velikosti: velké"
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "Typ souboru:"
@@ -2600,6 +2663,15 @@ msgstr "Nízká"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Dokončeno"
+
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "Název"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "Priorita"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2767,6 +2839,31 @@ msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr "Použití datového roamingu může mít za následek další dodatečné platby."
 
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "Zvolit motiv"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Pokud je neznámý motiv systému, bude použit světlý motiv."
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr "Styl UI"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr "Nový"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr "Klasický"
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Stav"
@@ -2872,6 +2969,16 @@ msgstr "Soubor"
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "Priorita"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr "Zbývá"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "Průběh"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2980,40 +3087,6 @@ msgstr "Neznámé"
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "Vzdálený přístup"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "Prohlížeč"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "Nastavení"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "Kontaktovat podporu"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "Odeslat hlášení o chybě"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "Odpojit od vzdáleného %1"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "Připojit ke vzdálenému %1"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "O programu"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "Konec"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -3166,6 +3239,50 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "Konec"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "Prohlížeč"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "Nastavení"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "Kontaktovat podporu"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "Odeslat hlášení o chybě"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "Odpojit od vzdáleného %1"
+
+#, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "Připojit ke vzdálenému %1"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "O programu"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "Konec"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "Režim Šnek uvolní šířku pásma bez zastavení stahování."
@@ -3185,18 +3302,6 @@ msgstr[2] "Vybráno %n stahování."
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Celková velikost:"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "Nízký"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "Střední"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "Vysoký"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3813,6 +3918,10 @@ msgstr "Soubory"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "Připojení"
+
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "OK"
 
 #. Browse for a file
 msgctxt "PickFileButton|"
@@ -5481,6 +5590,50 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr "Odeslat"
 
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "Odeslat hlášení o chybě"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "Název"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "Popis"
+
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "Jméno"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "E-mail"
+
+#, fuzzy, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "Připojit soubory s logem (doporučeno)"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "Vyžadovaná pole"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "Odesílání"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit"
+msgstr "Odeslat"
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "Stáhnout titulky"
@@ -5613,6 +5766,42 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr "Povolit logování správy stahování"
 
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "Nízký"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "Střední"
+
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "Vysoký"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "Režim Šnek"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "Změnit limity přenosu"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "Bez limitu"
@@ -5678,6 +5867,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Změnit limity přenosu"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5686,10 +5883,6 @@ msgstr "Nemůže být větší než %1"
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Nové stahování"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Nový soubor"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5725,6 +5918,20 @@ msgstr "Místo na disku: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Velikost: %1"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "Nový soubor"
+
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "Stáhnout"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "Nový soubor"
 
 msgctxt "UiCoreBase|"
 msgid "Support the project"

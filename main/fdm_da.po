@@ -1,11 +1,5 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,7 +7,6 @@ msgstr ""
 "X-Language: da_DK\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.9\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -300,31 +293,33 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Avancerede indstillinger"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "Vælg tema"
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Et lyst tema vil blive brugt, hvis systemtemaet er ukendt."
-
+#, fuzzy
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr "Vælg"
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "Alle"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr "Kun downloads"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr "Kun uploads"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "Færdig"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr "Stoppet"
 
@@ -348,40 +343,82 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr "Uafsluttet"
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "Manglende filer"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "Alle filer"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "Aktiv"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "Færdig"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "Uafsluttet"
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr "Søg i downloads..."
 
+#, fuzzy
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "Sorter"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr "Gammel"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr "Nyeste"
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr "A-Å"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr "Å-A"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr "Efter størrelse: lille"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr "Efter størrelse: stor"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr "Efter status: stigende"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr "Efter status: faldende"
 
@@ -519,6 +556,11 @@ msgstr "Henter data fra fjern enhed %1 (%2..."
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "Mislykkedes."
+
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "Valgt: %1"
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -819,11 +861,11 @@ msgstr "Browser Integration"
 #, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
-"Make sure you have %1 extension installed, otherwise, click one of the buttons "
-"below"
+"Make sure you have %1 extension installed, otherwise, click one of the "
+"buttons below"
 msgstr ""
-"Sørg for at du har udvidelsen %1 installeret, ellers skal du klikke på en af ​​"
-"knapperne nedenfor"
+"Sørg for at du har udvidelsen %1 installeret, ellers skal du klikke på en af "
+"​​knapperne nedenfor"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -891,17 +933,17 @@ msgid ""
 "\n"
 "Some of them (e.g. Google Drive downloads) can be added using this browser "
 "only, because they require additional information that your Android system's "
-"browser does not provide to %1 (or there is no universal way for all browsers "
-"to do this)."
+"browser does not provide to %1 (or there is no universal way for all "
+"browsers to do this)."
 msgstr ""
 "Du er ved at åbne en indbygget webbrowser.\n"
 "\n"
 "Den hjælper dig med at tilføje downloads til %1.\n"
 "\n"
 "Nogle af dem (f.eks. Google Drive-downloads) kan kun tilføjes ved hjælp af "
-"denne browser, fordi de kræver yderligere oplysninger, som din Android-"
-"systembrowser ikke giver til %1 (eller der er ingen universel måde for alle "
-"browsere at gøre dette på)."
+"denne browser, fordi de kræver yderligere oplysninger, som din "
+"Android-systembrowser ikke giver til %1 (eller der er ingen universel måde "
+"for alle browsere at gøre dette på)."
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -983,8 +1025,8 @@ msgstr "Brugerdefineret port:"
 
 msgctxt "BtSettings|"
 msgid ""
-"The use of additional trackers can improve download speed in some cases. Lists "
-"of such trackers can be retrieved from different sources, e.g. from <a "
+"The use of additional trackers can improve download speed in some cases. "
+"Lists of such trackers can be retrieved from different sources, e.g. from <a "
 "href='https://github.com/ngosang/trackerslist'>here</a>."
 msgstr ""
 "Brugen af ​​yderligere trackere kan forbedre downloadhastigheden i nogle "
@@ -1020,24 +1062,30 @@ msgid "OK"
 msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "Tilføj download"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Download"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "Rapportér problem"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "Det er ikke tilladt at downloade fra dette websted"
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "Tilføj download"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "Download"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "Tilføj download"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1154,7 +1202,8 @@ msgstr "Der er registreret uvedkommende filer"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid ""
-"The following folder contains extraneous files. Do you still want to delete it?"
+"The following folder contains extraneous files. Do you still want to delete "
+"it?"
 msgstr "Følgende mappe indeholder overflødige filer. Vil du stadig slette den?"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
@@ -1191,11 +1240,11 @@ msgstr "Indtast venligst %1, eller <a href='#'>scan QR-koden</a>"
 #, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
-"Both %1 and QR code are located inside of Preferences page of %2 you're going "
-"to connect to."
+"Both %1 and QR code are located inside of Preferences page of %2 you're "
+"going to connect to."
 msgstr ""
-"Både %1 og QR-koden findes på siden Indstillinger for %2, som du skal oprette "
-"forbindelse til."
+"Både %1 og QR-koden findes på siden Indstillinger for %2, som du skal "
+"oprette forbindelse til."
 
 #, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
@@ -1214,7 +1263,8 @@ msgstr "OK"
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
-"Her kan du oprette forbindelse til %1, der kører på din Windows/macOS/Linux-pc"
+"Her kan du oprette forbindelse til %1, der kører på din "
+"Windows/macOS/Linux-pc"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -1229,6 +1279,26 @@ msgid "Port"
 msgstr "Port"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "Antal forbindelser"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "Der er ingen forbindelser"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "Vært"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "Port"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "Antal forbindelser"
 
@@ -1303,7 +1373,8 @@ msgstr "I går"
 
 #, qt-format
 msgctxt "CrashReporter|"
-msgid "An internal error occurred.<br>%1 needs to be restarted for further use."
+msgid ""
+"An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr "Der opstod en intern fejl.<br>%1 skal genstartes for yderligere brug."
 
 #, qt-format
@@ -1338,11 +1409,11 @@ msgstr "Opret en portable version"
 #, qt-format
 msgctxt "CreatePortableDialog|"
 msgid ""
-"Portable version of %1 can be used on different computers without the need to "
-"install and configure it on each of them."
+"Portable version of %1 can be used on different computers without the need "
+"to install and configure it on each of them."
 msgstr ""
-"Den portable version af %1 kan bruges på forskellige computere uden behov for "
-"at installere og konfigurere den på hver af dem."
+"Den portable version af %1 kan bruges på forskellige computere uden behov "
+"for at installere og konfigurere den på hver af dem."
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
@@ -1353,8 +1424,8 @@ msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
 msgstr ""
-"Angiv her stien, hvor du vil oprette denne version. Det skal være en mappe på "
-"et flytbart drev."
+"Angiv her stien, hvor du vil oprette denne version. Det skal være en mappe "
+"på et flytbart drev."
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -1567,50 +1638,6 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Luk"
 
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr "Tjekker filer"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr "Sammenlægning af mediestrømme"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr "I kø"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr "Anmoder om info"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "Pause"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr "Tjekker filer"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr "Sammenlægning af mediestrømme"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr "Anmoder om info"
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr "n/a"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr "I kø"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "Færdig"
-
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
 msgstr "Resterende"
@@ -1735,6 +1762,40 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Disken mangler"
 
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "Tjekker filer"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "Sammenlægger mediestrømme"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "Anmoder om info"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "I kø"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr "Stoppet"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "Færdig"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "n/a"
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1804,6 +1865,11 @@ msgstr "Downloadlisten er tom. Tilføj ny download-URL."
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "Opret forbindelse til fjern enhed %1"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "Søg"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1976,18 +2042,6 @@ msgid "Choose files..."
 msgstr "Vælg filer..."
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "Høj"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "Normal"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "Lav"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr "Omdøb fil"
 
@@ -2118,34 +2172,6 @@ msgstr "Pause"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Ukendt filstørrelse"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr "Tjekker filer"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr "Sammenlægger mediestrømme"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr "Anmoder om info"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr "n/a"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr "I kø"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "Færdig"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr "n/a"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2461,6 +2487,41 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "Faldende"
 
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "Sorter"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr "Gammel"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr "Nyeste"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr "A-Å"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr "Å-A"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr "Efter størrelse: lille"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr "Efter størrelse: stor"
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "Filtype:"
@@ -2601,6 +2662,16 @@ msgstr "Lav"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Færdig"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "Navn"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "Prioritet"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2768,6 +2839,31 @@ msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr "Brug af mobildata under roaming kan medføre yderligere gebyrer."
 
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "Vælg tema"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Et lyst tema vil blive brugt, hvis systemtemaet er ukendt."
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr "UI-stil"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr "Ny"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr "Klassisk"
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Status"
@@ -2872,6 +2968,16 @@ msgstr "Fil"
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "Prioritet"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr "Resterende"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "Forløb"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2980,40 +3086,6 @@ msgstr "Ukendt"
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "fjernstyring"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "Browser"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "Indstillinger"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "Kontakte Support"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "Indsend en fejlrapport"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "Afbryd forbindelsen til fjern enhed %1"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "Opret forbindelse til fjern enhed %1"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "Om"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "Luk"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -3166,6 +3238,50 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "Luk"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "Browser"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "Indstillinger"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "Kontakte Support"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "Indsend en fejlrapport"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "Afbryd forbindelsen til fjern enhed %1"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "Opret forbindelse til fjern enhed %1"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "Om"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "Luk"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "Snail tilstand frigør båndbredde uden at stoppe downloads."
@@ -3184,18 +3300,6 @@ msgstr[1] "%n downloads valgt."
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Sammenlagt størrelse:"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "Lav"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "Mellem"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "Høj"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3226,10 +3330,10 @@ msgstr "Sammenlagt størrelse:"
 
 msgctxt "MainStatusBar_V2|"
 msgid ""
-"Snail Mode puts active downloads into sleep mode, freeing up as much Internet "
-"bandwidth as possible. When you turn it off, all active downloads will resume "
-"at normal speed. Snail Mode is especially useful when your Internet is slow "
-"and you need to make a call, for example."
+"Snail Mode puts active downloads into sleep mode, freeing up as much "
+"Internet bandwidth as possible. When you turn it off, all active downloads "
+"will resume at normal speed. Snail Mode is especially useful when your "
+"Internet is slow and you need to make a call, for example."
 msgstr ""
 "Snegletilstand sætter aktive downloads i dvaletilstand og frigør så meget "
 "internetbåndbredde som muligt. Når du slukker den, genoptages alle aktive "
@@ -3808,6 +3912,11 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Forbindelser"
 
+#, fuzzy
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "OK"
+
 #. Browse for a file
 msgctxt "PickFileButton|"
 msgid "Browse..."
@@ -3835,8 +3944,8 @@ msgid ""
 "Please use your favorite social networks and forums to let the other people "
 "know about %1 and %2."
 msgstr ""
-"Brug venligst dine foretrukne sociale netværk og fora til at fortælle andre om "
-"%1 og %2."
+"Brug venligst dine foretrukne sociale netværk og fora til at fortælle andre "
+"om %1 og %2."
 
 msgctxt "PluginBannerDialog|"
 msgid "Remind me later"
@@ -3888,7 +3997,8 @@ msgstr "Udviklerindstillinger"
 
 msgctxt "PluginsPage|"
 msgid "Allow unsigned add-ons to access external directories"
-msgstr "Tillad usignerede tilføjelsesprogrammer at få adgang til eksterne mapper"
+msgstr ""
+"Tillad usignerede tilføjelsesprogrammer at få adgang til eksterne mapper"
 
 msgctxt "PluginsPage|"
 msgid "Restart is required"
@@ -4065,8 +4175,9 @@ msgstr "Brugeraftale"
 #, qt-format
 msgctxt "PrivacyDialog|"
 msgid ""
-"A bug report will be sent to the server and used to improve %1 performance. We "
-"do not collect your personal data and do not share data with third parties."
+"A bug report will be sent to the server and used to improve %1 performance. "
+"We do not collect your personal data and do not share data with third "
+"parties."
 msgstr ""
 "En fejlrapport vil blive sendt til serveren og brugt til at forbedre %1 "
 "ydeevne. Vi indsamler ikke dine personlige data og deler ikke data med "
@@ -5358,8 +5469,8 @@ msgid ""
 "If you trust this host, select Accept to remember the key and carry on "
 "connecting."
 msgstr ""
-"Hvis du har tillid til denne vært, skal du vælge Accepter for at huske nøglen "
-"og fortsætte med at oprette forbindelse."
+"Hvis du har tillid til denne vært, skal du vælge Accepter for at huske "
+"nøglen og fortsætte med at oprette forbindelse."
 
 msgctxt "SslDialog|"
 msgid "Accept"
@@ -5475,6 +5586,51 @@ msgid "Submitting"
 msgstr "Indsender"
 
 msgctxt "SubmitBugReportDialog|"
+msgid "Submit"
+msgstr "Indsend"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "Indsend en fejlrapport"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "Titel"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "Beskrivelse"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "Navn"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "E-mail"
+
+#, fuzzy, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "Vedhæft %1 logfiler (anbefales)"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "Obligatoriske felter"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "Indsender"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
 msgid "Submit"
 msgstr "Indsend"
 
@@ -5610,6 +5766,44 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr "Aktivér logføring af downloads"
 
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "Lav"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "Mellem"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "Høj"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "Snegletilstand"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "Ændr trafikgrænser"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "Ubegrænset"
@@ -5675,6 +5869,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Ændr trafikgrænser"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5683,10 +5885,6 @@ msgstr "Kan ikke være større end %1"
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Ny download"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Ny fil"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5722,6 +5920,21 @@ msgstr "Diskplads: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Størrelse: %1"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "Ny fil"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "Download"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "Ny fil"
 
 msgctxt "UiCoreBase|"
 msgid "Support the project"

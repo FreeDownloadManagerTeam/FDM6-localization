@@ -293,31 +293,32 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Lisäasetukset"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "Valitse teema"
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Vaaleaa teemaa käytetään, jos järjestelmän teemaa ei tunnisteta."
-
+#, fuzzy
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr "Valitse"
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "Kaikki"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr "Vain lataukset"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr "Vain lähetykset"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "Valmistuneet"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr "Pysäytetyt"
 
@@ -341,40 +342,78 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr "Keskeneräiset"
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "Puuttuvia tiedostoja"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "Kaikki tiedostot"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "Aktiiviset"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "Valmistuneet"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "Keskeneräiset"
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr "Etsi latauksista..."
 
+#, fuzzy
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "Järjestys"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr "Vanhimmasta uusimpaan"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr "Uusimmasta vanhimpaan"
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr "Aakkosellisesti A–Ö"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr "Aakkosellisesti Ö–A"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr "Pienimmästä suurimpaan"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr "Suurimmasta pienimpään"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr "Tilan mukaan nousevasti"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr "Tilan mukaan laskevasti"
 
@@ -494,7 +533,7 @@ msgstr "OK"
 
 msgctxt "AppMessageDialog|"
 msgid "Cancel"
-msgstr ""
+msgstr "Peru"
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -513,6 +552,11 @@ msgstr "Noudetaan tietoja %1-etäinstanssista (%2)…"
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "Epäonnistui."
+
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "Valittu: %1"
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -1012,24 +1056,31 @@ msgid "OK"
 msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "Lisää lataus"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Lataa"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "Ilmoita ongelmasta"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "Tältä sivustolta lataaminen ei ole sallittua"
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "Lisää lataus"
+
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "Lataa"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "OK"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "Lisää lataus"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1223,6 +1274,26 @@ msgid "Port"
 msgstr "Portti"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "Yhteysmäärä"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "Yhteyksiä ei ole"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "Palvelin"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "Portti"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "Yhteysmäärä"
 
@@ -1561,50 +1632,6 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Sulje"
 
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr "Tarkistetaan tiedostoja"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr "Yhdistetään mediastriimejä"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr "Jonossa"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr "Pyydetään tietoja"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "Pysäytetty"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr "Tarkistetaan tiedostoja"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr "Yhdistetään mediastriimejä"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr "Pyydetään tietoja"
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr "n/a"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr "Jonossa"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "Valmis"
-
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
 msgstr ""
@@ -1729,6 +1756,40 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Levy puuttuu"
 
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "Tarkistetaan tiedostoja"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "Yhdistetään mediastriimejä"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "Pyydetään tietoja"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "Jonossa"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr "Pysäytetyt"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "Valmis"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "n/a"
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1798,6 +1859,11 @@ msgstr "Latauslista on tyhjä. Lisää uuden latauksen URL."
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "Muodosta %1-etäyhteys"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "Hae"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1970,18 +2036,6 @@ msgid "Choose files..."
 msgstr "Valitse tiedostot..."
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "Korkea"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "Normaali"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "Matala"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr "Nimeä tiedosto uudelleen"
 
@@ -2112,34 +2166,6 @@ msgstr "Pysäytetty"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Tiedostokoko ei tiedossa"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr "Tarkistetaan tiedostoja"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr "Yhdistetään mediastriimejä"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr "Pyydetään tietoja"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr "n/a"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr "Jonossa"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "Valmis"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr "n/a"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2457,6 +2483,41 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "Laskeva"
 
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "Järjestys"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr "Vanhimmasta uusimpaan"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr "Uusimmasta vanhimpaan"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr "Aakkosellisesti A–Ö"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr "Aakkosellisesti Ö–A"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr "Pienimmästä suurimpaan"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr "Suurimmasta pienimpään"
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "Tiedostotyyppi:"
@@ -2597,6 +2658,16 @@ msgstr "Matala"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Valmis"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "Nimi"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "Tärkeys"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2765,6 +2836,30 @@ msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "Mobiilidatan käyttö Roaming-verkossa saattaa aiheuttaa lisäkustannuksia."
 
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "Valitse teema"
+
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Vaaleaa teemaa käytetään, jos järjestelmäteema ei ole tiedossa."
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr "Käyttöliittymän tyyli"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr "Uusi"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr "Perinteinen"
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Tila"
@@ -2870,6 +2965,14 @@ msgstr "Tiedosto"
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "Tärkeys"
+
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr ""
+
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "Edistyminen"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2978,40 +3081,6 @@ msgstr "Ei tiedossa"
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "etähallinta"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "Selain"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "Asetukset"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "Tuki"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "Lähetä vikailmoitus"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "Katkaise %1-etäyhteys"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "Muodosta %1-etäyhteys"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "Tietoja"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "Sulje"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -3164,6 +3233,49 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "Sulje"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "Selain"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "Asetukset"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "Tuki"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "Lähetä vikailmoitus"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "Katkaise %1-etäyhteys"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "Muodosta %1-etäyhteys"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "Tietoja"
+
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "Sulje"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "Etanatila vapauttaa kaistanleveyttä pysäyttämättä latauksia."
@@ -3182,18 +3294,6 @@ msgstr[1] "%n latausta valittu."
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Koko:"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "Matala"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "Keskitaso"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "Korkea"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3802,6 +3902,11 @@ msgstr "Tiedostot"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "Yhteydet"
+
+#, fuzzy
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "OK"
 
 #. Browse for a file
 msgctxt "PickFileButton|"
@@ -5475,6 +5580,51 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr "Lähetä"
 
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "Lähetä vikailmoitus"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "Otsikko"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "Kuvaus"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "Nimi"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "Sähköposti"
+
+#, fuzzy, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "Liitä %1 lokitiedostot (suositeltavaa)"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "Vaaditut kentät"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "Lähetetään"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit"
+msgstr "Lähetä"
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "Lataa tekstitykset"
@@ -5607,6 +5757,43 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr ""
 
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "Matala"
+
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "Keskitasoinen"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "Korkea"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "Etanatila"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "Muuta verkon käyttöä"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "Rajoittamaton"
@@ -5672,6 +5859,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Muuta verkon käyttöä"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5680,10 +5875,6 @@ msgstr "Ei voi olla suurempi kuin %1"
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Uusi lataus"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Uusi tiedosto"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5719,6 +5910,20 @@ msgstr "Levytila: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Koko: %1"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "Uusi tiedosto"
+
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "Lataa"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "Uusi tiedosto"
 
 msgctxt "UiCoreBase|"
 msgid "Support the project"

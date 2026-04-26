@@ -293,31 +293,33 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Напредна подешавања"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "Изабери тему"
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Светла тема ће се користити ако је системска тема непозната."
-
+#, fuzzy
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr "Изабери"
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "Све"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr "Само преузимања"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr "Само слања"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "Завршено"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr "Заустављено"
 
@@ -341,40 +343,81 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr "Незавршено"
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "Датотеке које недостају"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "Све датотеке"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "Активно"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "Завршено"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "Незавршено"
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr "Претражи у преузимањима..."
 
+#, fuzzy
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "Сортирај"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr "Старо"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr "Најновије"
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr "А-Ш"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr "Ш-А"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr "По величини: мало"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr "По величини: велико"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr "По статусу: растуће"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr "По статусу: опадајуће"
 
@@ -512,6 +555,11 @@ msgstr "Преузимање података са удаљеног %1 (%2)..."
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "Није успело."
+
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "Изабрано: %1"
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -1013,24 +1061,31 @@ msgid "OK"
 msgstr "У реду"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "Додај преузимање"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Преузми"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "У реду"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "Пријави проблем"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "Преузимање са овог сајта није дозвољено"
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "Додај преузимање"
+
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "Преузми"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "У реду"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "Додај преузимање"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1225,6 +1280,26 @@ msgid "Port"
 msgstr "Порт"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "Број веза"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "Нема успостављених веза"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "Хост"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "Порт"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "Број веза"
 
@@ -1565,50 +1640,6 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Затвори"
 
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr "Провера датотека"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr "Спајање медијских токова"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr "На чекању"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr "Захтевање информација"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "Паузирано"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr "Провера датотека"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr "Спајање медијских токова"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr "Захтевање информација"
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr "н/д"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr "На чекању"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "Завршено"
-
 #, fuzzy
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
@@ -1734,6 +1765,40 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Диск недостаје"
 
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "Провера датотека"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "Спајање медијских токова"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "Захтевање информација"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "На чекању"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr "Заустављено"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "Завршено"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "н/д"
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1803,6 +1868,11 @@ msgstr "Листа преузимања је празна. Додајте нов
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "Повежи се са удаљеним %1"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "Претрага"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1975,18 +2045,6 @@ msgid "Choose files..."
 msgstr "Изабери датотеке..."
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "Висок"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "Нормалан"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "Низак"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr "Преименуј датотеку"
 
@@ -2117,34 +2175,6 @@ msgstr "Паузирано"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Непозната величина датотеке"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr "Провера датотека"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr "Спајање медијских токова"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr "Захтевање информација"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr "н/д"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr "На чекању"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "Завршено"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr "н/д"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2460,6 +2490,41 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "Опадајуће"
 
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "Сортирај"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr "Старо"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr "Најновије"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr "А-Ш"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr "Ш-А"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr "По величини: мало"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr "По величини: велико"
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "Тип датотеке:"
@@ -2600,6 +2665,16 @@ msgstr "Низак"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Завршено"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "Име"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "Приоритет"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2768,6 +2843,31 @@ msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "Коришћење мобилних података у роамингу може проузроковати додатне трошкове."
 
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "Изабери тему"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Светла тема ће се користити ако је системска тема непозната."
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr "Стил корисничког интерфејса"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr "Ново"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr "Класичан"
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Статус"
@@ -2873,6 +2973,16 @@ msgstr "Датотека"
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "Приоритет"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr "Преостало"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "Напредак"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2981,40 +3091,6 @@ msgstr "Непознато"
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "даљинско управљање"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "Прегледач"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "Подешавања"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "Контактирај подршку"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "Пошаљи извештај о грешци"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "Прекини везу са удаљеним %1"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "Повежи се на удаљени %1"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "О програму"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "Изађи"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -3167,6 +3243,49 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "Изађи"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "Прегледач"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "Подешавања"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "Контактирај подршку"
+
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "Пошаљи извештај о грешци"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "Прекини везу са удаљеним %1"
+
+#, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "Повежи се на удаљени %1"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "О програму"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "Изађи"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "Пуж режим ослобађа проток без заустављања преузимања."
@@ -3186,18 +3305,6 @@ msgstr[2] "Изабрано %n преузимања."
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Укупна величина:"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "Низак"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "Средњи"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "Висок"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3812,6 +3919,11 @@ msgstr "Датотеке"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "Везе"
+
+#, fuzzy
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "У реду"
 
 #. Browse for a file
 msgctxt "PickFileButton|"
@@ -5486,6 +5598,50 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr "Пошаљи"
 
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "Пошаљите извештај о грешци"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "Наслов"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "Опис"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "Име"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "Е-пошта"
+
+#, fuzzy, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "Приложи %1 лог датотеке (препоручено)"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "Обавезна поља"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "Слање"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit"
+msgstr "Пошаљи"
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "Преузми титлове"
@@ -5618,6 +5774,41 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr "Омогући бележење управљања преузимањима"
 
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "Ниско"
+
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "Средње"
+
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "Високо"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "Пуж режим"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "Промени ограничења саобраћаја"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "Неограничено"
@@ -5683,6 +5874,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Промени ограничења саобраћаја"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5691,10 +5890,6 @@ msgstr "Не може бити веће од %1"
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Ново преузимање"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Нова датотека"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5730,6 +5925,20 @@ msgstr "Простор на диску: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Величина: %1"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "Нова датотека"
+
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "Преузми"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "Нова датотека"
 
 msgctxt "UiCoreBase|"
 msgid "Support the project"

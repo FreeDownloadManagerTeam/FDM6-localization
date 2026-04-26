@@ -293,31 +293,33 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Gelişmiş ayarlar"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "Tema seçin"
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Sistem teması bilinmiyorsa, açık tema kullanılacaktır."
-
+#, fuzzy
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr "Seç"
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "Tümü"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr "Sadece indirmeler"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr "Sadece göndermeler"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "Tamamlandı"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr "Durduruldu"
 
@@ -341,40 +343,81 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr "Tamamlanmadı"
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "Eksik dosyalar"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "Tüm dosyalar"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "Etkin"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "Tamamlandı"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "Tamamlanmadı"
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr "İndirmelerde ara..."
 
+#, fuzzy
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "Sırala"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr "Eski"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr "En yeni"
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr "A-Z"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr "Z-A"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr "Boyuta göre: küçük"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr "Boyuta göre: büyük"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr "Duruma göre: artan"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr "Duruma göre: azalan"
 
@@ -513,6 +556,11 @@ msgstr "Uzak %1'den (%2) veriler alınıyor..."
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "Başarısız oldu."
+
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "Şeçilen: %1"
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -1014,24 +1062,31 @@ msgid "OK"
 msgstr "Tamam"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "İndirme ekle"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "İndir"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "Tamam"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "Sorun bildir"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "Bu siteden indirmeye izin verilmiyor"
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "İndirme ekle"
+
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "İndir"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "Tamam"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "İndirme ekle"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1222,6 +1277,25 @@ msgid "Port"
 msgstr "Bağlantı noktası"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "Bağlantı sayısı"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "Bağlantılar yok"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "Anamakine"
+
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "Bağlantı noktası"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "Bağlantı sayısı"
 
@@ -1564,50 +1638,6 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Kapat"
 
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr "Dosyalar denetleniyor"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr "Ortam akışları birleştiriliyor"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr "Kuyruğa alındı"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr "Bilgi isteniyor"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "Duraklatıldı"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr "Dosyalar denetleniyor"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr "Ortam akışları birleştiriliyor"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr "Bilgi isteniyor"
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr "yok"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr "Kuyruğa alındı"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "Tamamlandı"
-
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
 msgstr "Kalan"
@@ -1732,6 +1762,41 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Disk eksik"
 
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "Dosyalar denetleniyor"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "Ortam akışları birleştiriliyor"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "Bilgi isteniyor"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "Kuyruğa alındı"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr "Durduruldu"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "Tamamlandı"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "yok"
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1801,6 +1866,11 @@ msgstr "İndirme listesi boş. Yeni indirme URL'si ekleyin."
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "Uzak %1'ye bağlan"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "Ara"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1973,18 +2043,6 @@ msgid "Choose files..."
 msgstr "Dosyaları seçin..."
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "Yüksek"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "Normal"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "Düşük"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr "Dosyayı yeniden adlandır"
 
@@ -2115,34 +2173,6 @@ msgstr "Duraklatıldı"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Bilinmeyen dosya boyutu"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr "Dosyalar denetleniyor"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr "Ortam akışları birleştiriliyor"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr "Bilgi isteniyor"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr "yok"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr "Kuyruğa alındı"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "Tamamlandı"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr "yok"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2458,6 +2488,41 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "Azalan"
 
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "Sırala"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr "Eski"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr "En yeni"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr "A-Z"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr "Z-A"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr "Boyuta göre: küçük"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr "Boyuta göre: büyük"
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "Dosya türü:"
@@ -2598,6 +2663,16 @@ msgstr "Düşük"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Tamamlandı"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "Ad"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "Öncelik"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2766,6 +2841,31 @@ msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "Dolaşımdayken mobil verilerin kullanılması ek ücretlere neden olabilir."
 
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "Tema seçin"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Sistem teması bilinmiyorsa, açık tema kullanılacaktır."
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr "KA stili"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr "Yeni"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr "Klasik"
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Durum"
@@ -2870,6 +2970,16 @@ msgstr "Dosya"
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "Öncelik"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr "Kalan"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "İlerleme"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2978,40 +3088,6 @@ msgstr "Bilinmiyor"
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "uzaktan kumanda"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "Tarayıcı"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "Ayarlar"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "Destekle iletişime geç"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "Hata raporu gönder"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "Uzak %1'den bağlantıyı kes"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "Uzak %1'ye bağlan"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "Hakkında"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "Çık"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -3164,6 +3240,50 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "Çık"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "Tarayıcı"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "Ayarlar"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "Destekle iletişime geç"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "Hata raporu gönder"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "Uzak %1'den bağlantıyı kes"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "Uzak %1'ye bağlan"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "Hakkında"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "Çık"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "Salyangoz modu indirmeleri durdurmadan bant genişliğini boşaltır."
@@ -3181,18 +3301,6 @@ msgstr[0] "%n indirme seçildi."
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Toplam boyut: "
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "Düşük"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "Orta"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "Yüksek"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3804,6 +3912,11 @@ msgstr "Dosyalar"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "Bağlantılar"
+
+#, fuzzy
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "Tamam"
 
 #. Browse for a file
 msgctxt "PickFileButton|"
@@ -5480,6 +5593,51 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr "Gönder"
 
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "Hata raporu gönder"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "Başlık"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "Açıklama"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "Ad"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "E-posta"
+
+#, fuzzy, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "%1 günlük dosyalarını ekle (önerilir)"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "Zorunlu alanlar"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "Gönderiliyor"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit"
+msgstr "Gönder"
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "Alt yazıları indir"
@@ -5612,6 +5770,44 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr "İndirmeler yönetimi günlüklemeyi etkinleştir"
 
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "Düşük"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "Orta"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "Yüksek"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "Salyangoz modu"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "Trafik sınırlarını değiştir"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "Sınırsız"
@@ -5677,6 +5873,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Trafik sınırlarını değiştir"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5685,10 +5889,6 @@ msgstr "%1 değerinden büyük olamaz"
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Yeni indirme"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Yeni dosya"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5724,6 +5924,20 @@ msgstr "Disk alanı: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Boyut: %1"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "Yeni dosya"
+
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "İndir"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "Yeni dosya"
 
 msgctxt "UiCoreBase|"
 msgid "Support the project"

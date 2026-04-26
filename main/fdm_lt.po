@@ -295,31 +295,29 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Išplėstiniai nustatymai"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "Pasirinkite temą"
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Jei sistemos tema nežinoma, bus naudojama šviesi tema."
-
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "Visi"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr ""
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr ""
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "Baigta"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr ""
 
@@ -343,40 +341,74 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr "Nebaigta"
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "Trūksta failų"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "Visi failai"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "Aktyvus"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "Baigta"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "Nebaigta"
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr ""
 
+#, fuzzy
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "Sort"
+
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr ""
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr ""
 
@@ -512,6 +544,11 @@ msgstr "Gaunami duomenys iš nuotolinio kompiuterio % 1 (% 2)..."
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "Nepavyko."
+
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "Pasirinkta: %1"
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -1013,24 +1050,32 @@ msgid "OK"
 msgstr "Gerai"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "Pridėti atsisiuntimą"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Atsisiųsti"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "Gerai"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "Pranešti apie problemą"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "Atsisiųsti iš šios svetainės neleidžiama"
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "Pridėti atsisiuntimą"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "Atsisiųsti"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "Gerai"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "Pridėti atsisiuntimą"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1224,6 +1269,26 @@ msgid "Port"
 msgstr "Prievadas"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "Ryšių skaičius"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "Nėra jokių ryšiųJungtys"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "Šeimininkas"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "Prievadas"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "Ryšių skaičius"
 
@@ -1566,50 +1631,6 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Uždaryti"
 
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr "Failų tikrinimas"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr "Medijos srautų sujungimas"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr "Eilėje"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr "Prašoma informacijos"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "Pristabdyta"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr "Failų tikrinimas"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr "Medijos srautų sujungimas"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr "Prašoma informacijos"
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr ""
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr "Eilėje"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "Baigta"
-
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
 msgstr ""
@@ -1734,6 +1755,39 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Trūksta disko"
 
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "Failų tikrinimas"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "Medijos srautų sujungimas"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "Prašoma informacijos"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "Eilėje"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr ""
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "Baigta"
+
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "N/A"
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1803,6 +1857,11 @@ msgstr "Atsisiuntimų sąrašas tuščias. Pridėti naują atsisiuntimo URL."
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "Prisijunkite prie nuotolinio valdymo įrenginio %1"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "Ieškoti"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1975,18 +2034,6 @@ msgid "Choose files..."
 msgstr "Pasirinkite failus..."
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "Aukštas"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "Normalus"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "Žemas"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr "Pervardyti failą"
 
@@ -2117,34 +2164,6 @@ msgstr "Pristabdyta"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Nežinomas failo dydis"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr "Failų tikrinimas"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr "Medijos srautų sujungimas"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr "Prašoma informacijos"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr ""
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr "Eilėje"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "Baigta"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr ""
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2461,6 +2480,35 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "Mažėjantis"
 
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "Sort"
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr ""
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "Failo tipas:"
@@ -2601,6 +2649,16 @@ msgstr "Žemas"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Baigta"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "Pavadinimas"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "Pirmenybė"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2770,6 +2828,28 @@ msgstr ""
 "Naudojant mobiliuosius duomenis tarptinklinio ryšio metu, gali būti taikomi "
 "papildomi mokesčiai."
 
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "Pasirinkite temą"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Jei sistemos tema nežinoma, bus naudojama šviesi tema."
+
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr ""
+
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr ""
+
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr ""
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Būsena"
@@ -2875,6 +2955,15 @@ msgstr "Failas"
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "Pirmenybė"
+
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr ""
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "Progresija"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2983,40 +3072,6 @@ msgstr "Nežinoma"
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "nuotolinis valdymas"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "Naršyklė"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "Nustatymai"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "Susisiekite su palaikymo tarnyba"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "Pateikite pranešimą apie riktą"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "Atjunkite nuo nuotolinio įrenginio %1"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "Prisijunkite prie nuotolinio valdymo įrenginio %1"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "Apie"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "Išeiti"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -3169,6 +3224,50 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "Išeiti"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "Naršyklė"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "Nustatymai"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "Susisiekite su palaikymo tarnyba"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "Pateikite pranešimą apie riktą"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "Atjunkite nuo nuotolinio įrenginio %1"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "Prisijunkite prie nuotolinio valdymo įrenginio %1"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "Apie"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "Išeiti"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "Sraigės režimas atlaisvina pralaidumą nestabdant atsisiuntimų."
@@ -3188,18 +3287,6 @@ msgstr[2] "%n atsisiuntimas pasirinktas."
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Bendras dydis:"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "Žemas"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "Vidutinis"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "Aukštas"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3812,6 +3899,11 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Jungtys"
 
+#, fuzzy
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "Gerai"
+
 #. Browse for a file
 msgctxt "PickFileButton|"
 msgid "Browse..."
@@ -4089,7 +4181,7 @@ msgstr "Atšaukti"
 
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
-msgstr ""
+msgstr "N/A"
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -5488,6 +5580,51 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr "Pateikti"
 
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "Pateikite pranešimą apie riktą"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "Pavadinimas"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "Aprašymas"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "Pavadinimas"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "Paštas"
+
+#, fuzzy, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "Pridėti % 1 žurnalo failus (rekomenduojama)"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "Privalomi laukai"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "Pateikiama"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit"
+msgstr "Pateikti"
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "Atsisiųsti subtitrus"
@@ -5620,6 +5757,44 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr ""
 
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "Žemas"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "Vidutinis"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "Aukštas"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "Sraigės režimas"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "Keisti eismo apribojimus"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "Neribota"
@@ -5685,6 +5860,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Keisti eismo apribojimus"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5693,10 +5876,6 @@ msgstr "Negali būti didesnis nei %1"
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Naujas atsisiuntimas"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Naujas failas"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5732,6 +5911,21 @@ msgstr "Vietos diske: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Size: %1"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "Naujas failas"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "Atsisiųsti"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "Naujas failas"
 
 msgctxt "UiCoreBase|"
 msgid "Support the project"

@@ -297,33 +297,33 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Cài đặt nâng cao"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "Chọn giao diện"
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr ""
-"Giao diện sáng sẽ được áp dụng trong trường hợp không phân biệt được giao "
-"diện hệ thống."
-
+#, fuzzy
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr "Chọn"
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "Tất cả"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr "Chỉ tải xuống"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr "Chỉ tải lên"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "Đã hoàn thành"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr "Đã dừng"
 
@@ -347,40 +347,82 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr "Chưa hoàn thành"
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "Tệp bị thiếu"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "Tất cả tệp"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "Hoạt động"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "Đã hoàn thành"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "Chưa hoàn thành"
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr "Tìm kiếm trong tải xuống..."
 
+#, fuzzy
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "Sắp xếp"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr "Cũ"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr "Mới nhất"
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr "A-Z"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr "Z-A"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr "Theo kích thước: nhỏ"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr "Theo kích thước: lớn"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr "Theo trạng thái: tăng dần"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr "Theo trạng thái: giảm dần"
 
@@ -517,6 +559,11 @@ msgstr "Đang lấy dữ liệu từ xa %1 (%2)..."
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "Thất bại."
+
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "Đã chọn: %1"
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -1019,24 +1066,32 @@ msgid "OK"
 msgstr "Đồng ý"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "Thêm tải xuống"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Tải xuống"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "Đồng ý"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "Báo cáo vấn đề"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "Tải về từ trang này không khả dụng"
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "Thêm tải xuống"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "Tải xuống"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "Đồng ý"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "Thêm tải xuống"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1230,6 +1285,26 @@ msgid "Port"
 msgstr "Cổng"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "Số lượng kết nối"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "Không có kết nối"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "Máy chủ"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "Cổng"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "Số lượng kết nối"
 
@@ -1570,50 +1645,6 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Đóng"
 
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr "Đang kiểm tra tệp"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr "Đang hợp nhất các luồng phương tiện"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr "Đã xếp hàng"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr "Yêu cầu thông tin"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "Đã tạm dừng"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr "Đang kiểm tra tệp"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr "Đang hợp nhất các luồng phương tiện"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr "Yêu cầu thông tin"
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr "không có"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr "Đã xếp hàng"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "Đã hoàn thành"
-
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
 msgstr "Còn lại"
@@ -1738,6 +1769,41 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Thiếu ổ đĩa"
 
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "Đang kiểm tra tệp"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "Đang hợp nhất các luồng phương tiện"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "Yêu cầu thông tin"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "Đã xếp hàng"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr "Đã dừng"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "Đã hoàn thành"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "không có"
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1807,6 +1873,11 @@ msgstr "Danh sách tải xuống trống. Thêm URL mới để tải xuống."
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "Kết nối đến %1 từ xa"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "Tìm kiếm"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1979,18 +2050,6 @@ msgid "Choose files..."
 msgstr "Chọn tệp..."
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "Cao"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "Bình thường"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "Thấp"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr "Đổi tên file"
 
@@ -2121,34 +2180,6 @@ msgstr "Đã tạm dừng"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Kích thước tệp tin không xác định"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr "Đang kiểm tra tệp"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr "Đang hợp nhất các luồng phương tiện"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr "Yêu cầu thông tin"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr "không có"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr "Đã xếp hàng"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "Đã hoàn thành"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr "không có"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2464,6 +2495,41 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "Giảm dần"
 
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "Sắp xếp"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr "Cũ"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr "Mới nhất"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr "A-Z"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr "Z-A"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr "Theo kích thước: nhỏ"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr "Theo kích thước: lớn"
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "Loại tệp:"
@@ -2604,6 +2670,15 @@ msgstr "Thấp"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Đã hoàn thành"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "Tên"
+
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "Sự ưu tiên"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2774,6 +2849,33 @@ msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr "Sử dụng dữ liệu di động khi chuyển vùng có thể phải trả thêm phí."
 
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "Chọn giao diện"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr ""
+"Giao diện sáng sẽ được áp dụng trong trường hợp không phân biệt được giao "
+"diện hệ thống."
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr "Kiểu giao diện"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr "Mới"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr "Cổ điển"
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Trạng thái"
@@ -2878,6 +2980,16 @@ msgstr "Tệp"
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "Ưu tiên"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr "Còn lại"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "Tiến độ"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2986,40 +3098,6 @@ msgstr "Không xác định"
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "điều khiển từ xa"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "Trình duyệt"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "Cài đặt"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "Liên hệ hỗ trợ"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "Gửi báo cáo lỗi"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "Ngắt kết nối từ %1 từ xa"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "Kết nối đến %1 từ xa"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "Thông tin ứng dụng"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "Thoát"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -3172,6 +3250,50 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "Thoát"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "Trình duyệt"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "Cài đặt"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "Liên hệ hỗ trợ"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "Gửi báo cáo lỗi"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "Ngắt kết nối từ %1 từ xa"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "Kết nối đến %1 từ xa"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "Thông tin ứng dụng"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "Thoát"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "Chế độ ốc sên giải phóng băng thông mà không dừng tải xuống."
@@ -3189,18 +3311,6 @@ msgstr[0] "%n tải xuống đã chọn."
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Tổng kích thước:"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "Thấp"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "Trung bình"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "Cao"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3814,6 +3924,11 @@ msgstr "Các tệp tin"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "Số lượng kết nối"
+
+#, fuzzy
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "Đồng ý"
 
 #. Browse for a file
 msgctxt "PickFileButton|"
@@ -5489,6 +5604,45 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr ""
 
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "Gửi báo cáo lỗi"
+
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr ""
+
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr ""
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "Tên"
+
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr ""
+
+#, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr ""
+
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr ""
+
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr ""
+
+msgctxt "SubmitBugReportPage|"
+msgid "Submit"
+msgstr ""
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr ""
@@ -5622,6 +5776,43 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr ""
 
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "Thấp"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "Trung bình"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "Cao"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "Chế độ ốc sên"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr ""
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "Không giới hạn"
@@ -5688,6 +5879,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr ""
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5696,10 +5895,6 @@ msgstr ""
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Tải xuống mới"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Tệp mới"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5735,6 +5930,21 @@ msgstr "Dung lượng đĩa: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Kích thước: %1"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "Tệp mới"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "Tải xuống"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "Tệp mới"
 
 msgctxt "UiCoreBase|"
 msgid "Support the project"
