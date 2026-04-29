@@ -293,31 +293,29 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "進階設定"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "選擇佈景主題"
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "系統佈景主題未知時，將使用淺色主題。"
-
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "全部"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr ""
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr ""
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "已完成"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr ""
 
@@ -341,40 +339,74 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr "未完成"
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "遺失檔案"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "全部檔案"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "進行中"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "已完成"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "未完成"
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr ""
 
+#, fuzzy
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "排序"
+
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr ""
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr ""
 
@@ -509,6 +541,11 @@ msgstr "正在從遠端 %1 (%2) 取得資料…"
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "失敗。"
+
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "已選取: %1"
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -1005,24 +1042,32 @@ msgid "OK"
 msgstr "確定"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "新增下載"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "下載"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "確定"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "回報問題"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "不允許從此網站中下載"
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "新增下載"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "下載"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "確定"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "新增下載"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1212,6 +1257,26 @@ msgid "Port"
 msgstr "連接埠"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "連線計數"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "沒有連線"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "主機"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "連接埠"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "連線計數"
 
@@ -1544,50 +1609,6 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "關閉"
 
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr "正在檢查檔案"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr ""
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr "已佇列"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr "正在要求資訊"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "已暫停"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr "正在檢查檔案"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr ""
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr "正在要求資訊"
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr ""
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr "已佇列"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "已完成"
-
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
 msgstr ""
@@ -1712,6 +1733,38 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "磁碟遺失"
 
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "正在檢查檔案"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "正在合併媒體串流"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "正在要求資訊"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "已佇列"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr ""
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "已完成"
+
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "N/A"
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1781,6 +1834,11 @@ msgstr "下載清單是空的。新增下載 URL。"
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "連線至遠端 %1"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "搜尋"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1953,18 +2011,6 @@ msgid "Choose files..."
 msgstr "選擇檔案…"
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "高"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "中"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "低"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr "重新命名檔案"
 
@@ -2095,34 +2141,6 @@ msgstr "已暫停"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "未知檔案大小"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr "正在檢查檔案"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr ""
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr "正在要求資訊"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr ""
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr "已佇列"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "已完成"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr ""
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2438,6 +2456,35 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "遞減"
 
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "排序"
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr ""
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "檔案類型:"
@@ -2578,6 +2625,16 @@ msgstr "低"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "已完成"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "名稱"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "優先順序"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2745,6 +2802,28 @@ msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr "漫遊時使用行動數據可能會產生額外費用。"
 
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "選擇佈景主題"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "系統佈景主題未知時，將使用淺色主題。"
+
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr ""
+
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr ""
+
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr ""
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "狀態"
@@ -2850,6 +2929,15 @@ msgstr "檔案"
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "優先順序"
+
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr ""
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "進度"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2958,40 +3046,6 @@ msgstr "不明"
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "遠端控制"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "瀏覽器"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "設定"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "聯絡支援"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "提交錯誤報告"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "從遠端 %1 中斷連線"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "連線至遠端 %1"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "關於"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "結束"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -3144,6 +3198,50 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "結束"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "瀏覽器"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "設定"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "聯絡支援"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "提交錯誤報告"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "從遠端 %1 中斷連線"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "連線至遠端 %1"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "關於"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "結束"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "蝸速模式在不停止下載底下釋出頻寬。"
@@ -3161,18 +3259,6 @@ msgstr[0] "已選取 %n 個下載項目。"
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "總大小:"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "低"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "中"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "高"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3198,7 +3284,7 @@ msgstr[0] "已選取 %n 個下載項目。"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Total size:"
-msgstr ""
+msgstr "總大小:"
 
 msgctxt "MainStatusBar_V2|"
 msgid ""
@@ -3780,6 +3866,11 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "連線"
 
+#, fuzzy
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "確定"
+
 #. Browse for a file
 msgctxt "PickFileButton|"
 msgid "Browse..."
@@ -4055,7 +4146,7 @@ msgstr "取消"
 
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
-msgstr ""
+msgstr "N/A"
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -4151,7 +4242,7 @@ msgstr "結束"
 
 msgctxt "QObject|"
 msgid "Preferences..."
-msgstr ""
+msgstr "偏好設定…"
 
 msgctxt "QObject|"
 msgid "Check for updates..."
@@ -5444,6 +5535,51 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr "提交"
 
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "提交錯誤報告"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "標題"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "描述"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "名稱"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "電子郵件"
+
+#, fuzzy, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "附加 %1 記錄檔案 (建議)"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "必要欄位"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "正在提交"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit"
+msgstr "提交"
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "下載字幕"
@@ -5576,6 +5712,44 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr ""
 
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "低"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "中"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "高"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "蝸速模式"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "修改速限"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "無限制"
@@ -5641,6 +5815,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "修改速限"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5649,10 +5831,6 @@ msgstr "不能大於/超過 %1"
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "新的下載"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "新的檔案"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5688,6 +5866,21 @@ msgstr "磁碟空間: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "大小: %1"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "新的檔案"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "下載"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "新的檔案"
 
 msgctxt "UiCoreBase|"
 msgid "Support the project"

@@ -293,31 +293,29 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr ""
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr ""
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr ""
-
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "Alla"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr ""
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr ""
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "Slutfört"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr ""
 
@@ -341,40 +339,70 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr ""
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "Aktiva"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "Slutfört"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr ""
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr ""
 
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr ""
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr ""
 
@@ -508,6 +536,11 @@ msgstr ""
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
+msgstr ""
+
+#, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
 msgstr ""
 
 msgctxt "AuthDialog|"
@@ -997,24 +1030,32 @@ msgid "OK"
 msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "Lägg ladda ner"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Ladda ner"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr ""
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr ""
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "Lägg ladda ner"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "Ladda ner"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "OK"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "Lägg ladda ner"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1204,6 +1245,23 @@ msgid "Port"
 msgstr "Hamn"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr ""
+
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr ""
+
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr ""
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "Hamn"
+
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr ""
 
@@ -1536,50 +1594,6 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Stäng"
 
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr ""
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr ""
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr ""
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr ""
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "Pausad"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr ""
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr ""
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr ""
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr ""
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr ""
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "Slutfört"
-
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
 msgstr ""
@@ -1704,6 +1718,35 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr ""
 
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr ""
+
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr ""
+
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr ""
+
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr ""
+
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr ""
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "Slutfört"
+
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr ""
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1773,6 +1816,11 @@ msgstr ""
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr ""
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "Sök"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1945,18 +1993,6 @@ msgid "Choose files..."
 msgstr ""
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "Hög"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "Normal"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "Låg"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr ""
 
@@ -2087,34 +2123,6 @@ msgstr "Pausad"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Okänd filstorlek"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr ""
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr ""
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr ""
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr ""
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr ""
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "Slutfört"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr ""
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2430,6 +2438,34 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr ""
 
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr ""
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr ""
@@ -2570,6 +2606,16 @@ msgstr "Låg"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Slutfört"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "Namn"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "Prioritet"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2737,6 +2783,26 @@ msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr ""
+
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr ""
+
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr ""
+
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr ""
+
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr ""
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Status"
@@ -2842,6 +2908,15 @@ msgstr ""
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "Prioritet"
+
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr ""
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "Framsteg"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2952,40 +3027,6 @@ msgid "remote control"
 msgstr ""
 
 msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr ""
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "Inställningar"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "Kontakta Support"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr ""
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr ""
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr ""
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr ""
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr ""
-
-msgctxt "LeftDrawer|"
 msgid "Add new download"
 msgstr ""
 
@@ -3092,7 +3133,7 @@ msgstr ""
 
 msgctxt "MainMenu|"
 msgid "Check for updates..."
-msgstr ""
+msgstr "Kolla efter Uppdateringar..."
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
@@ -3136,6 +3177,46 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr ""
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "Inställningar"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "Kontakta Support"
+
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr ""
+
+#, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr ""
+
+#, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr ""
+
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr ""
+
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr ""
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr ""
@@ -3154,18 +3235,6 @@ msgstr[1] ""
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Total storlek:"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "Låg"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "Medium"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "Hög"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3774,6 +3843,11 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr ""
 
+#, fuzzy
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "OK"
+
 #. Browse for a file
 msgctxt "PickFileButton|"
 msgid "Browse..."
@@ -4142,7 +4216,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Check for updates..."
-msgstr ""
+msgstr "Kolla efter Uppdateringar..."
 
 #, qt-format
 msgctxt "QObject|"
@@ -4533,7 +4607,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Not found"
-msgstr ""
+msgstr "Hittades Inte"
 
 msgctxt "QObject|"
 msgid "Incompatible version"
@@ -4729,7 +4803,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "PAUSE ALL"
-msgstr ""
+msgstr "Pausa alla"
 
 msgctxt "QObject|"
 msgid "Downloading..."
@@ -4741,7 +4815,7 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "SNAIL MODE"
-msgstr ""
+msgstr "Snigel-läge"
 
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
@@ -5428,6 +5502,44 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr ""
 
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr ""
+
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr ""
+
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr ""
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "Namn"
+
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr ""
+
+#, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr ""
+
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr ""
+
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr ""
+
+msgctxt "SubmitBugReportPage|"
+msgid "Submit"
+msgstr ""
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr ""
@@ -5560,6 +5672,43 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr ""
 
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "Låg"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "Medium"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "Hög"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "Snigel-läge"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr ""
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "obegränsad"
@@ -5570,7 +5719,7 @@ msgstr ""
 
 msgctxt "TumComboBox|"
 msgid "unlimited"
-msgstr ""
+msgstr "obegränsad"
 
 #, qt-format
 msgctxt "TumComboBox|"
@@ -5625,6 +5774,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr ""
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5633,10 +5790,6 @@ msgstr ""
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr ""
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Ny fil"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5672,6 +5825,21 @@ msgstr ""
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr ""
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "Ny fil"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "Ladda ner"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "Ny fil"
 
 msgctxt "UiCoreBase|"
 msgid "Support the project"

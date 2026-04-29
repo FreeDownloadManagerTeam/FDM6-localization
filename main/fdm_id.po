@@ -80,7 +80,7 @@ msgstr "Masukkan URL mirror"
 
 msgctxt "AddNewTagMenuItem|"
 msgid "Add tag"
-msgstr ""
+msgstr "Tambahkan tag"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -296,31 +296,31 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Pengaturan lanjutan"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "Pilih tema"
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Tema terang akan digunakan apabila tema sistem tidak diketahui."
-
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "Semua"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr "Hanya unduhan"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr "Hanya unggahan"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "Selesai"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr "Hentikan"
 
@@ -344,40 +344,81 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr "Belum selesai"
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "Berkas hilang"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "Semua berkas"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "Aktif"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "Berhasil"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "Belum selesai"
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr "Cari di unduhan..."
 
+#, fuzzy
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "Urutkan"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr "Lama"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr "Terbaru"
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr "A-Z"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr "Z-A"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr "Oleh ukuran: kecil"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr "Oleh ukuran: besar"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr "Oleh status: keatas"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr "Oleh status: menurun"
 
@@ -493,11 +534,11 @@ msgstr "Menghapus berkas."
 
 msgctxt "AppMessageDialog|"
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgctxt "AppMessageDialog|"
 msgid "Cancel"
-msgstr ""
+msgstr "Batalkan"
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
@@ -516,6 +557,11 @@ msgstr "Mendapatkan data dari %1 (%2) jarak jauh..."
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "Gagal."
+
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "Dipilih: %1"
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -1017,24 +1063,31 @@ msgid "OK"
 msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "Tambahkan unduhan"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Unduh"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "Laporkan masalah"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "Mengunduh dari situs ini tidak diperbolehkan"
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "Tambahkan unduhan"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "Unduh"
+
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "OK"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "Tambahkan unduhan"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1230,6 +1283,26 @@ msgid "Port"
 msgstr "Port"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "Jumlah sambungan"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "Tidak ada sambungan"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "Host"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "Port"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "Jumlah sambungan"
 
@@ -1572,50 +1645,6 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Tutup"
 
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr "Memeriksa berkas"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr "Menyatukan aliran media"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr "Dalam antrian"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr "Meminta informasi"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "Ditunda"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr "Memeriksa berkas"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr "Menyatukan aliran media"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr "Meminta informasi"
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr ""
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr "Dalam antrian"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "Berhasil"
-
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
 msgstr ""
@@ -1740,6 +1769,39 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Disk tidak ada"
 
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "Memeriksa berkas"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "Menyatukan aliran media"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "Meminta informasi"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "Dalam antrian"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr "Hentikan"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "Berhasil"
+
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "Tidak Diketahui"
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1809,6 +1871,11 @@ msgstr "Daftar unduhan kosong. Tambahkan URL unduhan baru."
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "Hubungkan ke %1 jarak jauh"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "Cari"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1981,18 +2048,6 @@ msgid "Choose files..."
 msgstr "Choose files..."
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "Tinggi"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "Normal"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "Rendah"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr "Ubah nama file"
 
@@ -2123,34 +2178,6 @@ msgstr "Ditunda"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Ukuran berkas tidak diketahui"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr "Memeriksa berkas"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr "Menyatukan aliran media"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr "Meminta informasi"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr ""
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr "Dalam antrian"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "Berhasil"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr ""
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2466,6 +2493,41 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "Menurun"
 
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "Urutkan"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr "Lama"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr "Terbaru"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr "A-Z"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr "Z-A"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr "Oleh ukuran: kecil"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr "Oleh ukuran: besar"
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "Tipe berkas:"
@@ -2606,6 +2668,16 @@ msgstr "Rendah"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Berhasil"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "Nama"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "Prioritas"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2774,6 +2846,27 @@ msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "Menggunakan data seluler ketika roaming dapat mengakibatkan biaya tambahan."
 
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "Pilih tema"
+
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Light theme akan digunakan apabila tema sistem tidak diketahui."
+
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr ""
+
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr ""
+
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr ""
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Status"
@@ -2879,6 +2972,15 @@ msgstr "Berkas"
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "Prioritas"
+
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr ""
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "Tingkat Kemajuan"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2987,40 +3089,6 @@ msgstr "Tidak dikenal"
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "kendali jarak jauh"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "Peramban"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "Pengaturan"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "Hubungi Bantuan"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "Kirim laporan bug"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "Putuskan sambungan dari %1 jarak jauh"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "Hubungkan ke %1 jarak jauh"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "Mengenai"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "Keluar"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -3173,6 +3241,49 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "Keluar"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "Peramban"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "Pengaturan"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "Hubungi Bantuan"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "Kirim laporan bug"
+
+#, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "Putuskan sambungan dari jarak jauh%1"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "Hubungkan ke %1 jarak jauh"
+
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "Tentang"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "Keluar"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr ""
@@ -3191,18 +3302,6 @@ msgstr[0] "%n unduhan dipilih."
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Jumlah ukuran:"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "Rendah"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "Sedang"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "Tinggi"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3309,7 +3408,7 @@ msgstr "Jeda"
 
 msgctxt "MainToolbar_V2|"
 msgid "Remove"
-msgstr ""
+msgstr "Hilangkan"
 
 msgctxt "MainToolbar_V2|"
 msgid "Move files"
@@ -3814,6 +3913,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Sambungan"
 
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "OK"
+
 #. Browse for a file
 msgctxt "PickFileButton|"
 msgid "Browse..."
@@ -4094,7 +4197,7 @@ msgstr "Batalkan"
 
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
-msgstr ""
+msgstr "Tidak Diketahui"
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -4190,7 +4293,7 @@ msgstr "Keluar"
 
 msgctxt "QObject|"
 msgid "Preferences..."
-msgstr ""
+msgstr "Preferensi..."
 
 msgctxt "QObject|"
 msgid "Check for updates..."
@@ -5489,6 +5592,51 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr "Kirim"
 
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "Kirim laporan bug"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "Judul"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "Deskripsi"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "Nama"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "E-mail"
+
+#, fuzzy, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "Lampirkan file log %1 (disarankan)"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "Harus diisi"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "Mengirim"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit"
+msgstr "Kirim"
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "Unduh subtitel"
@@ -5621,6 +5769,44 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr ""
 
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "Rendah"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "Sedang"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "Tinggi"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "Mode Siput"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "Ubah batasan lalu lintas"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "Tidak Terbatas"
@@ -5686,6 +5872,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Ubah batasan lalu lintas"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5694,10 +5888,6 @@ msgstr "Tidak boleh lebih besar dari %1"
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Unduhan baru"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Berkas baru"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5734,6 +5924,21 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Ukuran: %1"
 
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "Berkas baru"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "Unduh"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "Berkas baru"
+
 msgctxt "UiCoreBase|"
 msgid "Support the project"
 msgstr ""
@@ -5763,7 +5968,7 @@ msgstr ""
 
 msgctxt "UiUpdatedBanner|"
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgctxt "UiUpdatedBanner|"
 msgid "Switch to the new interface"
