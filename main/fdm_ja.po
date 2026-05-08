@@ -201,6 +201,20 @@ msgctxt "AdvancedSettings|"
 msgid "Arguments must contain %path% variable"
 msgstr "引数には変数の %path%  を含める必要があります"
 
+#, fuzzy
+msgctxt "AdvancedSettings|"
+msgid "Troubleshooting"
+msgstr "トラブルシューティング"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable logging"
+msgstr ""
+
+#, fuzzy
+msgctxt "AdvancedSettings|"
+msgid "Restart is required"
+msgstr "再起動が必要です"
+
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "既定の設定に戻す"
@@ -293,32 +307,26 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "高度な設定"
 
-#, fuzzy
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Select"
 msgstr "選択"
 
-#, fuzzy
 msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "すべて"
 
-#, fuzzy
 msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr "ダウンロードのみ"
 
-#, fuzzy
 msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr "アップロードのみ"
 
-#, fuzzy
 msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "完了"
 
-#, fuzzy
 msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr "中断"
@@ -345,29 +353,24 @@ msgstr "未完了"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Filter"
-msgstr ""
+msgstr "フィルター"
 
-#, fuzzy
 msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
 msgid "Missing Files"
 msgstr "見つからないファイル"
 
-#, fuzzy
 msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
 msgid "All files"
 msgstr "すべてのファイル"
 
-#, fuzzy
 msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
 msgid "Active"
 msgstr "実行中"
 
-#, fuzzy
 msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
 msgid "Completed"
 msgstr "完了"
 
-#, fuzzy
 msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
 msgid "Uncompleted"
 msgstr "未完了"
@@ -376,48 +379,39 @@ msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr "ダウンロードリストを検索..."
 
-#, fuzzy
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Sort"
 msgstr "並べ替え"
 
-#, fuzzy
 msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr "古い順"
 
-#, fuzzy
 msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr "新着順"
 
 #. sort by title mode
-#, fuzzy
 msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr "A-Z 順"
 
-#, fuzzy
 msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr "Z-A 順"
 
-#, fuzzy
 msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr "サイズ別: 小さい順"
 
-#, fuzzy
 msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr "サイズ別: 大きい順"
 
-#, fuzzy
 msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr "ステータス別: 昇順"
 
-#, fuzzy
 msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr "ステータス別: 降順"
@@ -554,7 +548,7 @@ msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "失敗しました。"
 
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "AppWindowHeader|"
 msgid "Selected: %1"
 msgstr "選択済み: %1"
@@ -1061,22 +1055,18 @@ msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "問題の報告"
 
-#, fuzzy
 msgctxt "BuildDownloadPageHeader|"
 msgid "Add download"
 msgstr "ダウンロードを追加"
 
-#, fuzzy
 msgctxt "BuildDownloadPageHeader|"
 msgid "Download"
 msgstr "ダウンロード"
 
-#, fuzzy
 msgctxt "BuildDownloadPageHeader|"
 msgid "OK"
 msgstr "OK"
 
-#, fuzzy
 msgctxt "BuildDownloadPageHeader_V2|"
 msgid "Add download"
 msgstr "ダウンロードを追加"
@@ -1272,22 +1262,18 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "接続数"
 
-#, fuzzy
 msgctxt "ConnectionsTab_V2|"
 msgid "There are no connections"
 msgstr "インターネット接続がありません"
 
-#, fuzzy
 msgctxt "ConnectionsTab_V2|"
 msgid "Host"
 msgstr "ホスト"
 
-#, fuzzy
 msgctxt "ConnectionsTab_V2|"
 msgid "Port"
 msgstr "ポート"
 
-#, fuzzy
 msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "接続数"
@@ -1582,11 +1568,6 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "ドックアイコンに合計アップロード速度を表示する"
 
-#, qt-format
-msgctxt "DonateBannerStrip|"
-msgid "Thank you for using %1!"
-msgstr "%1 のご利用ありがとうございます!"
-
 msgctxt "DonateBannerStrip|"
 msgid "You help us grow and progress"
 msgstr "成長と前進に貢献しています"
@@ -1745,37 +1726,30 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "ディスクが見つかりません"
 
-#, fuzzy
 msgctxt "DownloadsItemTools2|"
 msgid "Checking files"
 msgstr "ファイルを確認しています"
 
-#, fuzzy
 msgctxt "DownloadsItemTools2|"
 msgid "Merging media streams"
 msgstr "メディアストリームを結合しています"
 
-#, fuzzy
 msgctxt "DownloadsItemTools2|"
 msgid "Requesting info"
 msgstr "情報を要求しています"
 
-#, fuzzy
 msgctxt "DownloadsItemTools2|"
 msgid "Queued"
 msgstr "キュー"
 
-#, fuzzy
 msgctxt "DownloadsItemTools2|"
 msgid "Stopped"
 msgstr "中断"
 
-#, fuzzy
 msgctxt "DownloadsItemTools2|"
 msgid "Completed"
 msgstr "完了"
 
-#, fuzzy
 msgctxt "DownloadsItemTools2|"
 msgid "n/a"
 msgstr "利用不可"
@@ -1850,7 +1824,6 @@ msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "%1 にリモートで接続"
 
-#, fuzzy
 msgctxt "DownloadsPageHeader_V2|"
 msgid "Search"
 msgstr "検索"
@@ -2471,37 +2444,30 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "降順"
 
-#, fuzzy
 msgctxt "FilePickerSortModeDrawer_V2|"
 msgid "Sort"
 msgstr "並べ替え"
 
-#, fuzzy
 msgctxt "FilePickerSortModeDrawer_V2|"
 msgid "Old"
 msgstr "古い順"
 
-#, fuzzy
 msgctxt "FilePickerSortModeDrawer_V2|"
 msgid "Newest"
 msgstr "新着順"
 
-#, fuzzy
 msgctxt "FilePickerSortModeDrawer_V2|"
 msgid "A-Z"
 msgstr "A-Z 順"
 
-#, fuzzy
 msgctxt "FilePickerSortModeDrawer_V2|"
 msgid "Z-A"
 msgstr "Z-A 順"
 
-#, fuzzy
 msgctxt "FilePickerSortModeDrawer_V2|"
 msgid "By size: small"
 msgstr "サイズ別: 小さい順"
 
-#, fuzzy
 msgctxt "FilePickerSortModeDrawer_V2|"
 msgid "By size: large"
 msgstr "サイズ別: 大きい順"
@@ -2647,12 +2613,10 @@ msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "完了"
 
-#, fuzzy
 msgctxt "FilesTree_V2|"
 msgid "Name"
 msgstr "名前"
 
-#, fuzzy
 msgctxt "FilesTree_V2|"
 msgid "Priority"
 msgstr "優先度"
@@ -2823,27 +2787,22 @@ msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr "ローミング中にモバイルデータを使用すると、追加料金が発生する場合があります。"
 
-#, fuzzy
 msgctxt "GeneralSettings2|"
 msgid "Choose theme"
 msgstr "テーマの選択"
 
-#, fuzzy
 msgctxt "GeneralSettings2|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr "システムのテーマが不明な場合は、ライトテーマが適用されます。"
 
-#, fuzzy
 msgctxt "GeneralSettings2|"
 msgid "UI style"
 msgstr "UI スタイル"
 
-#, fuzzy
 msgctxt "GeneralSettings2|"
 msgid "New"
 msgstr "新しい UI"
 
-#, fuzzy
 msgctxt "GeneralSettings2|"
 msgid "Classic"
 msgstr "クラシック UI"
@@ -2953,12 +2912,10 @@ msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "優先度"
 
-#, fuzzy
 msgctxt "GeneralTab_V2|"
 msgid "Remaining"
 msgstr "残り"
 
-#, fuzzy
 msgctxt "GeneralTab_V2|"
 msgid "Progress"
 msgstr "進行状況"
@@ -3224,29 +3181,25 @@ msgstr "終了"
 
 msgctxt "MainMenuDrawer_V2|"
 msgid "Menu"
-msgstr ""
+msgstr "メニュー"
 
-#, fuzzy
 msgctxt "MainMenuHelper|"
 msgid "Browser"
 msgstr "ブラウザー"
 
-#, fuzzy
 msgctxt "MainMenuHelper|"
 msgid "Settings"
 msgstr "設定"
 
-#, fuzzy
 msgctxt "MainMenuHelper|"
 msgid "Contact support"
 msgstr "サポートへのお問い合わせ"
 
-#, fuzzy
 msgctxt "MainMenuHelper|"
 msgid "Submit a bug report"
 msgstr "バグレポートを送信"
 
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "MainMenuHelper|"
 msgid "Disconnect from remote %1"
 msgstr "リモート %1 から切断"
@@ -3256,12 +3209,10 @@ msgctxt "MainMenuHelper|"
 msgid "Connect to remote %1"
 msgstr "リモート %1 に接続"
 
-#, fuzzy
 msgctxt "MainMenuHelper|"
 msgid "About"
 msgstr "バージョン情報"
 
-#, fuzzy
 msgctxt "MainMenuHelper|"
 msgid "Quit"
 msgstr "終了"
@@ -3890,7 +3841,6 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "接続数"
 
-#, fuzzy
 msgctxt "PageHeaderWithBackArrow|"
 msgid "OK"
 msgstr "OK"
@@ -5558,47 +5508,39 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr "送信"
 
-#, fuzzy
 msgctxt "SubmitBugReportPage|"
 msgid "Submit a bug report"
 msgstr "バグレポートを送信"
 
-#, fuzzy
 msgctxt "SubmitBugReportPage|"
 msgid "Title"
 msgstr "タイトル"
 
-#, fuzzy
 msgctxt "SubmitBugReportPage|"
 msgid "Description"
 msgstr "説明"
 
-#, fuzzy
 msgctxt "SubmitBugReportPage|"
 msgid "Name"
 msgstr "名前"
 
-#, fuzzy
 msgctxt "SubmitBugReportPage|"
 msgid "E-mail"
 msgstr "メールアドレス"
 
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "SubmitBugReportPage|"
 msgid "Attach %1 log files (recommended)"
 msgstr "%1 のログファイルを添付 (推奨)"
 
-#, fuzzy
 msgctxt "SubmitBugReportPage|"
 msgid "Required fields"
 msgstr "必須項目"
 
-#, fuzzy
 msgctxt "SubmitBugReportPage|"
 msgid "Submitting"
 msgstr "送信中"
 
-#, fuzzy
 msgctxt "SubmitBugReportPage|"
 msgid "Submit"
 msgstr "送信"
@@ -5739,7 +5681,6 @@ msgctxt "TumButtonHelper|"
 msgid "Low"
 msgstr "低速"
 
-#, fuzzy
 msgctxt "TumButtonHelper|"
 msgid "Medium"
 msgstr "標準"
@@ -5750,13 +5691,12 @@ msgstr "高速"
 
 msgctxt "TumButtonHelper|"
 msgid "Snail"
-msgstr ""
+msgstr "カタツムリ"
 
 msgctxt "TumButton_V2|"
 msgid "Traffic usage mode"
-msgstr ""
+msgstr "トラフィック使用モード"
 
-#, fuzzy
 msgctxt "TumButton_V2|"
 msgid "Snail mode"
 msgstr "カタツムリモード"
@@ -5764,9 +5704,8 @@ msgstr "カタツムリモード"
 msgctxt "TumButton_V2|"
 msgid ""
 "Frees up as much Internet bandwidth as possible without stopping downloads"
-msgstr ""
+msgstr "ダウンロードを停止せずに、できるだけ多くのインターネット帯域幅を解放します"
 
-#, fuzzy
 msgctxt "TumButton_V2|"
 msgid "Change traffic limits"
 msgstr "トラフィック制限を変更する"
@@ -5838,11 +5777,11 @@ msgstr "トラフィック制限を変更する"
 
 msgctxt "TumRadioButton_V2|"
 msgid "No speed limit"
-msgstr ""
+msgstr "速度制限なし"
 
 msgctxt "TumRadioButton_V2|"
 msgid "Maximum parallel downloads"
-msgstr ""
+msgstr "最大同時ダウンロード数"
 
 #, qt-format
 msgctxt "TumSettingTextField|"
@@ -5888,17 +5827,14 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "サイズ: %1"
 
-#, fuzzy
 msgctxt "TuneAndAddDownloadPageHeader|"
 msgid "New file"
 msgstr "新規ファイル"
 
-#, fuzzy
 msgctxt "TuneAndAddDownloadPageHeader|"
 msgid "Download"
 msgstr "ダウンロード"
 
-#, fuzzy
 msgctxt "TuneAndAddDownloadPageHeader_V2|"
 msgid "New file"
 msgstr "新規ファイル"
@@ -5906,6 +5842,11 @@ msgstr "新規ファイル"
 msgctxt "UiCoreBase|"
 msgid "Support the project"
 msgstr "プロジェクトを支援"
+
+#, fuzzy, qt-format
+msgctxt "UiCoreBase|"
+msgid "Thank you for using %1!"
+msgstr "%1 のご利用ありがとうございます!"
 
 msgctxt "UiCoreBase|"
 msgid "High"
