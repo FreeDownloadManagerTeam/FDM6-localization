@@ -201,16 +201,14 @@ msgctxt "AdvancedSettings|"
 msgid "Arguments must contain %path% variable"
 msgstr "인수는 %path% 변수를 포함해야 합니다"
 
-#, fuzzy
 msgctxt "AdvancedSettings|"
 msgid "Troubleshooting"
 msgstr "문제 해결"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable logging"
-msgstr ""
+msgstr "로깅 사용"
 
-#, fuzzy
 msgctxt "AdvancedSettings|"
 msgid "Restart is required"
 msgstr "다시 시작 필요"
@@ -307,32 +305,26 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "고급 설정"
 
-#, fuzzy
 msgctxt "AllDownloadsCheckBoxButton|"
 msgid "Select"
 msgstr "선택"
 
-#, fuzzy
 msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "모두"
 
-#, fuzzy
 msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr "다운로드만"
 
-#, fuzzy
 msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr "업로드만"
 
-#, fuzzy
 msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "완료"
 
-#, fuzzy
 msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr "중지됨"
@@ -359,79 +351,65 @@ msgstr "완료되지 않음"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Filter"
-msgstr ""
+msgstr "필터"
 
-#, fuzzy
 msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
 msgid "Missing Files"
 msgstr "누락된 파일"
 
-#, fuzzy
 msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
 msgid "All files"
 msgstr "모든 파일"
 
-#, fuzzy
 msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
 msgid "Active"
 msgstr "활성"
 
-#, fuzzy
 msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
 msgid "Completed"
 msgstr "완료"
 
-#, fuzzy
 msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
 msgid "Uncompleted"
-msgstr "완료되지 않음"
+msgstr "미완료"
 
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr "다운로드에서 검색..."
 
-#, fuzzy
 msgctxt "AllDownloadsSortModeButton|"
 msgid "Sort"
 msgstr "정렬"
 
-#, fuzzy
 msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr "오래된"
 
-#, fuzzy
 msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr "최신순"
 
 #. sort by title mode
-#, fuzzy
 msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr "A-Z"
 
-#, fuzzy
 msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr "Z-A"
 
-#, fuzzy
 msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr "크기별: 작은"
 
-#, fuzzy
 msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr "크기별: 큰"
 
-#, fuzzy
 msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr "상태별: 오름차순"
 
-#, fuzzy
 msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr "상태별: 내림차순"
@@ -568,7 +546,7 @@ msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "실패했습니다."
 
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "AppWindowHeader|"
 msgid "Selected: %1"
 msgstr "선택: %1"
@@ -1075,22 +1053,18 @@ msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "문제 보고"
 
-#, fuzzy
 msgctxt "BuildDownloadPageHeader|"
 msgid "Add download"
 msgstr "다운로드 추가"
 
-#, fuzzy
 msgctxt "BuildDownloadPageHeader|"
 msgid "Download"
 msgstr "다운로드"
 
-#, fuzzy
 msgctxt "BuildDownloadPageHeader|"
 msgid "OK"
 msgstr "확인"
 
-#, fuzzy
 msgctxt "BuildDownloadPageHeader_V2|"
 msgid "Add download"
 msgstr "다운로드 추가"
@@ -1286,22 +1260,18 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "연결 수"
 
-#, fuzzy
 msgctxt "ConnectionsTab_V2|"
 msgid "There are no connections"
 msgstr "연결이 없습니다"
 
-#, fuzzy
 msgctxt "ConnectionsTab_V2|"
 msgid "Host"
 msgstr "호스트"
 
-#, fuzzy
 msgctxt "ConnectionsTab_V2|"
 msgid "Port"
 msgstr "포트"
 
-#, fuzzy
 msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "연결 수"
@@ -1547,7 +1517,7 @@ msgstr "선택한 다운로드 삭제"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Are you sure you want to delete the selected file(s)?"
-msgstr "선택한 파일을 삭제하시겠습니까?"
+msgstr "선택한 파일을 정말로 삭제하시겠습니까?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "OK"
@@ -1599,6 +1569,15 @@ msgstr "도크 아이콘에 전체 업로드 속도 표시"
 msgctxt "DonateBannerStrip|"
 msgid "You help us grow and progress"
 msgstr "여러분의 도움 덕분에 저희는 성장하고 발전할 수 있습니다"
+
+#, qt-format
+msgctxt "DonateBannerStrip|"
+msgid "Help shape %1"
+msgstr "%1 형성을 도와주세요"
+
+msgctxt "DonateBannerStrip|"
+msgid "Suggest & Support"
+msgstr "제안 및 지원"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Download Failure"
@@ -1754,17 +1733,14 @@ msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "파일이 없습니다"
 
-#, fuzzy
 msgctxt "DownloadsItemTools2|"
 msgid "Checking files"
 msgstr "파일 확인 중"
 
-#, fuzzy
 msgctxt "DownloadsItemTools2|"
 msgid "Merging media streams"
 msgstr "미디어 스트림 병합 중"
 
-#, fuzzy
 msgctxt "DownloadsItemTools2|"
 msgid "Requesting info"
 msgstr "정보 요청 중"
@@ -1773,17 +1749,14 @@ msgctxt "DownloadsItemTools2|"
 msgid "Queued"
 msgstr "대기열"
 
-#, fuzzy
 msgctxt "DownloadsItemTools2|"
 msgid "Stopped"
 msgstr "중지됨"
 
-#, fuzzy
 msgctxt "DownloadsItemTools2|"
 msgid "Completed"
 msgstr "완료"
 
-#, fuzzy
 msgctxt "DownloadsItemTools2|"
 msgid "n/a"
 msgstr "없음"
@@ -1858,7 +1831,6 @@ msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "원격 %1에 연결"
 
-#, fuzzy
 msgctxt "DownloadsPageHeader_V2|"
 msgid "Search"
 msgstr "검색"
@@ -2479,37 +2451,30 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "내림차순"
 
-#, fuzzy
 msgctxt "FilePickerSortModeDrawer_V2|"
 msgid "Sort"
 msgstr "정렬"
 
-#, fuzzy
 msgctxt "FilePickerSortModeDrawer_V2|"
 msgid "Old"
 msgstr "오래된"
 
-#, fuzzy
 msgctxt "FilePickerSortModeDrawer_V2|"
 msgid "Newest"
 msgstr "최신순"
 
-#, fuzzy
 msgctxt "FilePickerSortModeDrawer_V2|"
 msgid "A-Z"
 msgstr "A-Z"
 
-#, fuzzy
 msgctxt "FilePickerSortModeDrawer_V2|"
 msgid "Z-A"
 msgstr "Z-A"
 
-#, fuzzy
 msgctxt "FilePickerSortModeDrawer_V2|"
 msgid "By size: small"
 msgstr "크기별: 작은"
 
-#, fuzzy
 msgctxt "FilePickerSortModeDrawer_V2|"
 msgid "By size: large"
 msgstr "크기별: 큰"
@@ -2655,12 +2620,10 @@ msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "완료"
 
-#, fuzzy
 msgctxt "FilesTree_V2|"
 msgid "Name"
 msgstr "이름"
 
-#, fuzzy
 msgctxt "FilesTree_V2|"
 msgid "Priority"
 msgstr "우선 순위"
@@ -2831,27 +2794,22 @@ msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr "로밍 중에 모바일 데이터를 사용하면 추가 요금이 발생할 수 있습니다."
 
-#, fuzzy
 msgctxt "GeneralSettings2|"
 msgid "Choose theme"
 msgstr "테마 선택"
 
-#, fuzzy
 msgctxt "GeneralSettings2|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr "시스템 테마를 알 수 없는 경우 밝은 테마가 사용됩니다."
 
-#, fuzzy
 msgctxt "GeneralSettings2|"
 msgid "UI style"
 msgstr "UI 스타일"
 
-#, fuzzy
 msgctxt "GeneralSettings2|"
 msgid "New"
 msgstr "새로운"
 
-#, fuzzy
 msgctxt "GeneralSettings2|"
 msgid "Classic"
 msgstr "클래식"
@@ -2961,12 +2919,15 @@ msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "우선 순위"
 
-#, fuzzy
 msgctxt "GeneralTab_V2|"
 msgid "Remaining"
 msgstr "남은"
 
 #, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Saved in"
+msgstr "저장 위치"
+
 msgctxt "GeneralTab_V2|"
 msgid "Progress"
 msgstr "진행 상황"
@@ -3232,43 +3193,42 @@ msgstr "종료"
 
 msgctxt "MainMenuDrawer_V2|"
 msgid "Menu"
-msgstr ""
+msgstr "메뉴"
 
-#, fuzzy
 msgctxt "MainMenuHelper|"
 msgid "Browser"
 msgstr "브라우저"
 
-#, fuzzy
 msgctxt "MainMenuHelper|"
 msgid "Settings"
 msgstr "설정"
 
-#, fuzzy
 msgctxt "MainMenuHelper|"
 msgid "Contact support"
 msgstr "지원 연락처"
 
-#, fuzzy
 msgctxt "MainMenuHelper|"
 msgid "Submit a bug report"
 msgstr "버그 보고서 제출"
 
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "MainMenuHelper|"
 msgid "Disconnect from remote %1"
 msgstr "원격 %1에서 연결 끊기"
 
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "MainMenuHelper|"
 msgid "Connect to remote %1"
 msgstr "원격 %1에 연결"
 
 msgctxt "MainMenuHelper|"
+msgid "Support development"
+msgstr ""
+
+msgctxt "MainMenuHelper|"
 msgid "About"
 msgstr "프로그램 정보"
 
-#, fuzzy
 msgctxt "MainMenuHelper|"
 msgid "Quit"
 msgstr "종료"
@@ -3898,7 +3858,6 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "연결"
 
-#, fuzzy
 msgctxt "PageHeaderWithBackArrow|"
 msgid "OK"
 msgstr "확인"
@@ -5566,47 +5525,39 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr "제출"
 
-#, fuzzy
 msgctxt "SubmitBugReportPage|"
 msgid "Submit a bug report"
 msgstr "버그 보고서 제출"
 
-#, fuzzy
 msgctxt "SubmitBugReportPage|"
 msgid "Title"
 msgstr "제목"
 
-#, fuzzy
 msgctxt "SubmitBugReportPage|"
 msgid "Description"
 msgstr "설명"
 
-#, fuzzy
 msgctxt "SubmitBugReportPage|"
 msgid "Name"
 msgstr "이름"
 
-#, fuzzy
 msgctxt "SubmitBugReportPage|"
 msgid "E-mail"
 msgstr "이메일"
 
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "SubmitBugReportPage|"
 msgid "Attach %1 log files (recommended)"
 msgstr "%1 로그 파일 첨부 (권장)"
 
-#, fuzzy
 msgctxt "SubmitBugReportPage|"
 msgid "Required fields"
 msgstr "필수 필드"
 
-#, fuzzy
 msgctxt "SubmitBugReportPage|"
 msgid "Submitting"
 msgstr "제출"
 
-#, fuzzy
 msgctxt "SubmitBugReportPage|"
 msgid "Submit"
 msgstr "제출"
@@ -5743,30 +5694,26 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr "다운로드 관리 로깅 사용"
 
-#, fuzzy
 msgctxt "TumButtonHelper|"
 msgid "Low"
 msgstr "낮음"
 
-#, fuzzy
 msgctxt "TumButtonHelper|"
 msgid "Medium"
 msgstr "중간"
 
-#, fuzzy
 msgctxt "TumButtonHelper|"
 msgid "High"
 msgstr "높음"
 
 msgctxt "TumButtonHelper|"
 msgid "Snail"
-msgstr ""
+msgstr "달팽이"
 
 msgctxt "TumButton_V2|"
 msgid "Traffic usage mode"
-msgstr ""
+msgstr "트래픽 사용 모드"
 
-#, fuzzy
 msgctxt "TumButton_V2|"
 msgid "Snail mode"
 msgstr "달팽이 모드"
@@ -5774,9 +5721,8 @@ msgstr "달팽이 모드"
 msgctxt "TumButton_V2|"
 msgid ""
 "Frees up as much Internet bandwidth as possible without stopping downloads"
-msgstr ""
+msgstr "다운로드를 중단하지 않고도 최대한 많은 인터넷 대역폭을 확보할 수 있습니다"
 
-#, fuzzy
 msgctxt "TumButton_V2|"
 msgid "Change traffic limits"
 msgstr "트래픽 제한 변경"
@@ -5848,11 +5794,11 @@ msgstr "트래픽 제한 변경"
 
 msgctxt "TumRadioButton_V2|"
 msgid "No speed limit"
-msgstr ""
+msgstr "속도 제한 없음"
 
 msgctxt "TumRadioButton_V2|"
 msgid "Maximum parallel downloads"
-msgstr ""
+msgstr "최대 동시 다운로드"
 
 #, qt-format
 msgctxt "TumSettingTextField|"
@@ -5898,17 +5844,14 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "크기: %1"
 
-#, fuzzy
 msgctxt "TuneAndAddDownloadPageHeader|"
 msgid "New file"
 msgstr "새 파일"
 
-#, fuzzy
 msgctxt "TuneAndAddDownloadPageHeader|"
 msgid "Download"
 msgstr "다운로드"
 
-#, fuzzy
 msgctxt "TuneAndAddDownloadPageHeader_V2|"
 msgid "New file"
 msgstr "새 파일"
@@ -5917,7 +5860,7 @@ msgctxt "UiCoreBase|"
 msgid "Support the project"
 msgstr "프로젝트 지원"
 
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "UiCoreBase|"
 msgid "Thank you for using %1!"
 msgstr "%1을 사용해 주셔서 감사합니다!"

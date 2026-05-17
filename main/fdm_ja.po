@@ -201,16 +201,14 @@ msgctxt "AdvancedSettings|"
 msgid "Arguments must contain %path% variable"
 msgstr "引数には変数の %path%  を含める必要があります"
 
-#, fuzzy
 msgctxt "AdvancedSettings|"
 msgid "Troubleshooting"
 msgstr "トラブルシューティング"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable logging"
-msgstr ""
+msgstr "ログ記録を有効にする"
 
-#, fuzzy
 msgctxt "AdvancedSettings|"
 msgid "Restart is required"
 msgstr "再起動が必要です"
@@ -1572,6 +1570,15 @@ msgctxt "DonateBannerStrip|"
 msgid "You help us grow and progress"
 msgstr "成長と前進に貢献しています"
 
+#, qt-format
+msgctxt "DonateBannerStrip|"
+msgid "Help shape %1"
+msgstr "%1 に貢献"
+
+msgctxt "DonateBannerStrip|"
+msgid "Suggest & Support"
+msgstr "提案と支援"
+
 msgctxt "DownloadExpiredDialog|"
 msgid "Download Failure"
 msgstr "ダウンロードに失敗しました"
@@ -2916,6 +2923,11 @@ msgctxt "GeneralTab_V2|"
 msgid "Remaining"
 msgstr "残り"
 
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Saved in"
+msgstr "保存先"
+
 msgctxt "GeneralTab_V2|"
 msgid "Progress"
 msgstr "進行状況"
@@ -3208,6 +3220,10 @@ msgstr "リモート %1 から切断"
 msgctxt "MainMenuHelper|"
 msgid "Connect to remote %1"
 msgstr "リモート %1 に接続"
+
+msgctxt "MainMenuHelper|"
+msgid "Support development"
+msgstr ""
 
 msgctxt "MainMenuHelper|"
 msgid "About"
@@ -5843,7 +5859,7 @@ msgctxt "UiCoreBase|"
 msgid "Support the project"
 msgstr "プロジェクトを支援"
 
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "UiCoreBase|"
 msgid "Thank you for using %1!"
 msgstr "%1 のご利用ありがとうございます!"
